@@ -1,0 +1,34 @@
+{
+  "biodata": {
+    "name": "Mount Eniwa",
+    "place": "Mount Eniwa",
+    "coordinates": "42.779206,141.264667",
+    "coordinates_trust": "Most likely here",
+    "year": "1972",
+    "season": "Winter",
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "opened": "1972",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Downhill, Men",
+        "link": "https://www.olympedia.org/results/1287"
+      },
+      {
+        "text": "7 February 1972"
+      }
+    ]
+  ]
+}

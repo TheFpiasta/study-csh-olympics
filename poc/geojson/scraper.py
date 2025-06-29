@@ -18,6 +18,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 iteration = args.num_iterations + args.start
+# TODO stop if extra_iterations reach 10
 extra_iteration = 0
 i = args.start
 
@@ -64,6 +65,10 @@ while i < iteration + extra_iteration:
                     entries = value.split()
                     biodata["year"] = entries[0]
                     biodata["season"] = entries[1]
+                elif key in ["english_name", "name", "other_names"]:
+                    if "associated_names" not in biodata:
+                        biodata["associated_names"] = []
+                    biodata["associated_names"].append(value)                
                 else:
                     biodata[key] = value
     else:

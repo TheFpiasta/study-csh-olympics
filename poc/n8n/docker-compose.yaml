@@ -6,8 +6,20 @@ services:
     ports:
       - "5678:5678"
     volumes:
-      - n8n_data:/home/node/.n8n
-    restart: unless-stopped
+      - ./n8n_data:/home/node/.n8n
+      - ./n8n_io:/io
+      - ./n8n_workflows:/workflows
+    restart: no
+
 
 volumes:
   n8n_data:
+    driver: local
+  n8n_io:
+    driver: local
+  n8n_workflows:
+    driver: local
+
+networks:
+    default:
+        driver: bridge

@@ -1,0 +1,1 @@
+# n8n generated data like database, logs, etc.

@@ -1,0 +1,1 @@
+#test folder from where n8n reads files to process

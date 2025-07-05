@@ -1,0 +1,1799 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.14522,
+          39.91057
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Big Air Shougang"
+        ],
+        "place": "Shijingshan District, Beijing",
+        "coordinates": "39.91057,116.14522",
+        "coordinates_trust": "Definitely here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "opened": "2019",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Big Air, Men",
+              "link": "https://www.olympedia.org/results/19020738"
+            },
+            {
+              "text": "14 – 15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Big Air, Women",
+              "link": "https://www.olympedia.org/results/19020805"
+            },
+            {
+              "text": "14 – 15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Big Air, Men",
+              "link": "https://www.olympedia.org/results/19020100"
+            },
+            {
+              "text": "7 –  9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Big Air, Women",
+              "link": "https://www.olympedia.org/results/19020158"
+            },
+            {
+              "text": "7 –  8 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2136.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Genting Snow Park",
+          "Genting Resort Secret Garden"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Definitely here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Men",
+              "link": "https://www.olympedia.org/results/19020694"
+            },
+            {
+              "text": "6 –  7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/19020706"
+            },
+            {
+              "text": "9 – 11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/19020714"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Women",
+              "link": "https://www.olympedia.org/results/19020774"
+            },
+            {
+              "text": "5 –  6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/19020782"
+            },
+            {
+              "text": "9 – 10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/19020790"
+            },
+            {
+              "text": "9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Team Cross, Mixed",
+              "link": "https://www.olympedia.org/results/19020813"
+            },
+            {
+              "text": "12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/19020050"
+            },
+            {
+              "text": "3 –  5 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/19020056"
+            },
+            {
+              "text": "15 – 16 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Men",
+              "link": "https://www.olympedia.org/results/19020062"
+            },
+            {
+              "text": "18 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/19020084"
+            },
+            {
+              "text": "17 – 19 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Slopestyle, Men",
+              "link": "https://www.olympedia.org/results/19020092"
+            },
+            {
+              "text": "15 – 16 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/19020108"
+            },
+            {
+              "text": "3 –  6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/19020114"
+            },
+            {
+              "text": "13 – 14 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Women",
+              "link": "https://www.olympedia.org/results/19020120"
+            },
+            {
+              "text": "17 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/19020142"
+            },
+            {
+              "text": "17 – 18 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Slopestyle, Women",
+              "link": "https://www.olympedia.org/results/19020150"
+            },
+            {
+              "text": "14 – 15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Team Aerials, Mixed",
+              "link": "https://www.olympedia.org/results/19020166"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/19020670"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/19020750"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2137.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zhangjiakou Nordic Centre and Biathlon Centre"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Near here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "notes": "Precise coordinates not found. These are the coordinates for Genting Snow Park in the same district in Zhangjiakou City.",
+        "opened": "2019",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Normal Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020350"
+            },
+            {
+              "text": "9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Large Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020353"
+            },
+            {
+              "text": "15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/19020356"
+            },
+            {
+              "text": "17 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/19019630"
+            },
+            {
+              "text": "12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/19019631"
+            },
+            {
+              "text": "13 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres Mass Start, Men",
+              "link": "https://www.olympedia.org/results/19019632"
+            },
+            {
+              "text": "18 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/19019633"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/19019634"
+            },
+            {
+              "text": "15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/19019635"
+            },
+            {
+              "text": "11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/19019636"
+            },
+            {
+              "text": "13 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Mass Start, Women",
+              "link": "https://www.olympedia.org/results/19019637"
+            },
+            {
+              "text": "18 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/19019638"
+            },
+            {
+              "text": "7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 6 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/19019639"
+            },
+            {
+              "text": "16 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "2 × 6 kilometres and 2 × 7.5 kilometres Relay, Mixed",
+              "link": "https://www.olympedia.org/results/19019640"
+            },
+            {
+              "text": "5 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/19019700"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/19019712"
+            },
+            {
+              "text": "11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/19019713"
+            },
+            {
+              "text": "19 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres Skiathlon, Men",
+              "link": "https://www.olympedia.org/results/19019714"
+            },
+            {
+              "text": "6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/19019715"
+            },
+            {
+              "text": "13 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/19019716"
+            },
+            {
+              "text": "16 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/19019721"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/19019733"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/19019734"
+            },
+            {
+              "text": "20 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres Skiathlon, Women",
+              "link": "https://www.olympedia.org/results/19019735"
+            },
+            {
+              "text": "5 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/19019736"
+            },
+            {
+              "text": "12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Women",
+              "link": "https://www.olympedia.org/results/19019737"
+            },
+            {
+              "text": "16 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2138.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zhangjiakou National Ski Jumping Centre"
+        ],
+        "place": "Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Near here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Precise coordinates not found. These are the coordinates for Genting Snow Park, which is near the same district as the ski jumping venue.",
+        "opened": "2019",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020630"
+            },
+            {
+              "text": "5 –  6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020635"
+            },
+            {
+              "text": "11 – 12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/19020640"
+            },
+            {
+              "text": "14 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Women",
+              "link": "https://www.olympedia.org/results/19020643"
+            },
+            {
+              "text": "5 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Team, Mixed",
+              "link": "https://www.olympedia.org/results/19020646"
+            },
+            {
+              "text": "7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Normal Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020350"
+            },
+            {
+              "text": "9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Large Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/19020353"
+            },
+            {
+              "text": "15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/19020356"
+            },
+            {
+              "text": "17 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2139.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.371414,
+          40.015892
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "National Speed Skating Oval",
+          "The Ice Ribbon"
+        ],
+        "place": "Olympic Green, Beijing",
+        "coordinates": "40.015892,116.371414",
+        "coordinates_trust": "Definitely here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Speed Skating"
+        ],
+        "notes": "Built on location of Olympic Green Hockey and Archery Fields, which were built for the 2008 Beijing Olympics.",
+        "opened": "2021",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/19020400"
+            },
+            {
+              "text": "12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/19020401"
+            },
+            {
+              "text": "18 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/19020402"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/19020403"
+            },
+            {
+              "text": "6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/19020404"
+            },
+            {
+              "text": "11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Mass Start, Men",
+              "link": "https://www.olympedia.org/results/19020405"
+            },
+            {
+              "text": "19 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (8 laps), Men",
+              "link": "https://www.olympedia.org/results/19020410"
+            },
+            {
+              "text": "13 – 15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/19020424"
+            },
+            {
+              "text": "13 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/19020425"
+            },
+            {
+              "text": "17 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/19020426"
+            },
+            {
+              "text": "7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/19020427"
+            },
+            {
+              "text": "5 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/19020428"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Mass Start, Women",
+              "link": "https://www.olympedia.org/results/19020429"
+            },
+            {
+              "text": "19 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (6 laps), Women",
+              "link": "https://www.olympedia.org/results/19020434"
+            },
+            {
+              "text": "12 – 15 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2140.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.802567,
+          40.5418
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yanqing National Alpine Skiing Centre",
+          "Xiaohaituo Alpine Skiing Field, 国家高山滑雪中心, Chinese National Alpine Skiing Centre"
+        ],
+        "place": "West Dazhuangke, Zhangshanying, Yanqing District",
+        "coordinates": "40.5418,115.802567",
+        "coordinates_trust": "Definitely here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "2019",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/19019500"
+            },
+            {
+              "text": "7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/19019513"
+            },
+            {
+              "text": "7 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/19019501"
+            },
+            {
+              "text": "8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/19019516"
+            },
+            {
+              "text": "9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/19019508"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/19019512"
+            },
+            {
+              "text": "11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/19019502"
+            },
+            {
+              "text": "13 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/19019511"
+            },
+            {
+              "text": "15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/19019505"
+            },
+            {
+              "text": "16 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/19019519"
+            },
+            {
+              "text": "17 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Team, Mixed",
+              "link": "https://www.olympedia.org/results/19019522"
+            },
+            {
+              "text": "20 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2143.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.780856,
+          40.520536
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yanqing National Sliding Centre"
+        ],
+        "place": "West Dazhuangke, Zhangshanying, Yanqing District",
+        "coordinates": "40.520536,115.780856",
+        "coordinates_trust": "Definitely here",
+        "year": "2022",
+        "season": "Winter",
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "opened": "2020",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/19020300"
+            },
+            {
+              "text": "5 –  6 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/19020307"
+            },
+            {
+              "text": "9 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/19020310"
+            },
+            {
+              "text": "7 –  8 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Team Relay, Mixed",
+              "link": "https://www.olympedia.org/results/19020317"
+            },
+            {
+              "text": "10 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/19020370"
+            },
+            {
+              "text": "10 – 11 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/19020377"
+            },
+            {
+              "text": "11 – 12 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/19019650"
+            },
+            {
+              "text": "14 – 15 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Open",
+              "link": "https://www.olympedia.org/results/19019657"
+            },
+            {
+              "text": "19 – 20 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/19019664"
+            },
+            {
+              "text": "18 – 19 February 2022"
+            }
+          ],
+          [
+            {
+              "text": "2022 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/62"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Monobob, Women",
+              "link": "https://www.olympedia.org/results/19019671"
+            },
+            {
+              "text": "13 – 14 February 2022"
+            }
+          ]
+        ],
+        "source_file": "venue_2144.json"
+      }
+    }
+  ]
+}

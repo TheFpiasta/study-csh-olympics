@@ -1,0 +1,6263 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.772995,
+          38.111451
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Proponitirio Toksovolias",
+          "Dekelia Archery Field"
+        ],
+        "place": "Akharnes",
+        "coordinates": "38.111451,23.772995",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Archery"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/41271"
+            },
+            {
+              "text": "12 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/41345"
+            },
+            {
+              "text": "12 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/41367"
+            },
+            {
+              "text": "12 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/41441"
+            },
+            {
+              "text": "12 – 20 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_778.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.787633,
+          38.036092
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Stadio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Stadium, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.036092,23.787633",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Athletics",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Extensively renovated for the 2004 Olympics.",
+        "opened": "1982",
+        "seating_capacity": "71030",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "172 m",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres Wheelchair, Men",
+              "link": "https://www.olympedia.org/results/901206"
+            },
+            {
+              "text": "22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/66009"
+            },
+            {
+              "text": "21 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/66031"
+            },
+            {
+              "text": "24 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/66049"
+            },
+            {
+              "text": "20 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/66064"
+            },
+            {
+              "text": "25 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/66080"
+            },
+            {
+              "text": "20 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/66089"
+            },
+            {
+              "text": "25 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/66094"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/66096"
+            },
+            {
+              "text": "24 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/66113"
+            },
+            {
+              "text": "23 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/66125"
+            },
+            {
+              "text": "21 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/66133"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/66138"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "20 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/66131"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/66132"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/66143"
+            },
+            {
+              "text": "20 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/66164"
+            },
+            {
+              "text": "25 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/66188"
+            },
+            {
+              "text": "24 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/66205"
+            },
+            {
+              "text": "20 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/66239"
+            },
+            {
+              "text": "21 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/66256"
+            },
+            {
+              "text": "20 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/66273"
+            },
+            {
+              "text": "26 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/66290"
+            },
+            {
+              "text": "23 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/66411"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres Wheelchair, Women",
+              "link": "https://www.olympedia.org/results/901207"
+            },
+            {
+              "text": "22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Women",
+              "link": "https://www.olympedia.org/results/66430"
+            },
+            {
+              "text": "23 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Women",
+              "link": "https://www.olympedia.org/results/66448"
+            },
+            {
+              "text": "21 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/66461"
+            },
+            {
+              "text": "20 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/66474"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/66483"
+            },
+            {
+              "text": "20 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Women",
+              "link": "https://www.olympedia.org/results/66488"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/66490"
+            },
+            {
+              "text": "22 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/66501"
+            },
+            {
+              "text": "21 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/66513"
+            },
+            {
+              "text": "26 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/66518"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "20 kilometres Race Walk, Women",
+              "link": "https://www.olympedia.org/results/66512"
+            },
+            {
+              "text": "23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/66523"
+            },
+            {
+              "text": "26 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Women",
+              "link": "https://www.olympedia.org/results/66549"
+            },
+            {
+              "text": "21 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Women",
+              "link": "https://www.olympedia.org/results/66577"
+            },
+            {
+              "text": "25 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Women",
+              "link": "https://www.olympedia.org/results/66594"
+            },
+            {
+              "text": "21 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/66628"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Women",
+              "link": "https://www.olympedia.org/results/66645"
+            },
+            {
+              "text": "23 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/66662"
+            },
+            {
+              "text": "25 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Heptathlon, Women",
+              "link": "https://www.olympedia.org/results/66679"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_779.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.722449,
+          37.895231
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kleisto Gipedo, Olympiako Syngrotima Ellenikou",
+          "Olympic Indoor Arena, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.895231,23.722449",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Basketball",
+          "Handball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/33018"
+            },
+            {
+              "text": "15 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Women",
+              "link": "https://www.olympedia.org/results/33067"
+            },
+            {
+              "text": "14 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/35038"
+            },
+            {
+              "text": "14 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Women",
+              "link": "https://www.olympedia.org/results/35090"
+            },
+            {
+              "text": "15 – 29 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_781.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.78495,
+          38.037931
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kleisto Gymnastirio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Indoor Hall, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.037931,23.78495",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Trampolining"
+        ],
+        "opened": "1995",
+        "seating_capacity": "19250",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/33018"
+            },
+            {
+              "text": "15 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Women",
+              "link": "https://www.olympedia.org/results/33067"
+            },
+            {
+              "text": "14 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70829"
+            },
+            {
+              "text": "14 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70844"
+            },
+            {
+              "text": "14 – 16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70866"
+            },
+            {
+              "text": "14 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70868"
+            },
+            {
+              "text": "14 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70870"
+            },
+            {
+              "text": "14 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70872"
+            },
+            {
+              "text": "14 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70874"
+            },
+            {
+              "text": "14 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70876"
+            },
+            {
+              "text": "14 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Women",
+              "link": "https://www.olympedia.org/results/70905"
+            },
+            {
+              "text": "15 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Women",
+              "link": "https://www.olympedia.org/results/70907"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Uneven Bars, Women",
+              "link": "https://www.olympedia.org/results/70909"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Balance Beam, Women",
+              "link": "https://www.olympedia.org/results/70911"
+            },
+            {
+              "text": "15 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Women",
+              "link": "https://www.olympedia.org/results/70878"
+            },
+            {
+              "text": "15 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70889"
+            },
+            {
+              "text": "15 – 17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Trampolining",
+              "link": "https://www.olympedia.org/sports/GTR"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/55006"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Trampolining",
+              "link": "https://www.olympedia.org/sports/GTR"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/55011"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_782.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.77468,
+          37.985942
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Goudiou, Olympiako Syngrotima Goudiou",
+          "Goudi Olympic Hall, Goudi Olympic Complex",
+          "Badminton Theatre (2007-Present)"
+        ],
+        "place": "Athina",
+        "coordinates": "37.985942,23.77468",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "2004",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/42726"
+            },
+            {
+              "text": "15 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/42764"
+            },
+            {
+              "text": "15 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/42802"
+            },
+            {
+              "text": "14 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/42840"
+            },
+            {
+              "text": "16 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Mixed",
+              "link": "https://www.olympedia.org/results/42878"
+            },
+            {
+              "text": "14 – 19 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_783.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.716389,
+          38.013056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Pygmakhias Peristeriou",
+          "Peristeri Olympic Boxing Hall"
+        ],
+        "place": "Peristeri",
+        "coordinates": "38.013056,23.716389",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Flyweight, Men",
+              "link": "https://www.olympedia.org/results/27375"
+            },
+            {
+              "text": "18 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/27411"
+            },
+            {
+              "text": "17 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/27447"
+            },
+            {
+              "text": "17 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/27483"
+            },
+            {
+              "text": "16 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/27519"
+            },
+            {
+              "text": "16 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Welterweight, Men",
+              "link": "https://www.olympedia.org/results/27555"
+            },
+            {
+              "text": "15 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/27591"
+            },
+            {
+              "text": "15 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/27627"
+            },
+            {
+              "text": "14 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/27663"
+            },
+            {
+              "text": "14 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/27699"
+            },
+            {
+              "text": "18 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/27718"
+            },
+            {
+              "text": "18 – 29 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_784.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.728999,
+          37.897493
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Beisbol, Olympiako Syngrotima Ellenikou",
+          "Olympic Baseball Centre, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.897493,23.728999",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Baseball"
+        ],
+        "notes": "Two fields.",
+        "opened": "2003",
+        "seating_capacity": "9000 (Field 1) / 4000 (Field 2)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/30811"
+            },
+            {
+              "text": "15 – 25 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_785.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.686667,
+          38.081667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Ano Liosion",
+          "Ano Liosia Olympic Hall"
+        ],
+        "place": "Ano Liossia",
+        "coordinates": "38.081667,23.686667",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Judo",
+          "Wrestling"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/19125"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/19184"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/19241"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/19302"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/19359"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/19416"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/19475"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/19534"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/19578"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Women",
+              "link": "https://www.olympedia.org/results/19625"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Women",
+              "link": "https://www.olympedia.org/results/19672"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Women",
+              "link": "https://www.olympedia.org/results/19717"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/19762"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/19806"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/133966"
+            },
+            {
+              "text": "24 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134009"
+            },
+            {
+              "text": "25 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134052"
+            },
+            {
+              "text": "24 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134093"
+            },
+            {
+              "text": "25 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134134"
+            },
+            {
+              "text": "24 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134175"
+            },
+            {
+              "text": "25 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/134218"
+            },
+            {
+              "text": "24 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133681"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133724"
+            },
+            {
+              "text": "28 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133762"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133802"
+            },
+            {
+              "text": "28 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133842"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133885"
+            },
+            {
+              "text": "28 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/133925"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Women",
+              "link": "https://www.olympedia.org/results/134259"
+            },
+            {
+              "text": "22 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Women",
+              "link": "https://www.olympedia.org/results/134292"
+            },
+            {
+              "text": "22 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Women",
+              "link": "https://www.olympedia.org/results/134319"
+            },
+            {
+              "text": "22 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Women",
+              "link": "https://www.olympedia.org/results/134346"
+            },
+            {
+              "text": "22 – 23 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_786.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.682675,
+          37.940628
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaki Engatastasi Bits Volei, Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Olympic Beach Volleyball Centre, Faliro Coastal Zone Olympic Complex"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.940628,23.682675",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "9600",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Beach Volleyball",
+              "link": "https://www.olympedia.org/sports/VBV"
+            },
+            {
+              "text": "Beach Volleyball, Men",
+              "link": "https://www.olympedia.org/results/31194"
+            },
+            {
+              "text": "14 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Beach Volleyball",
+              "link": "https://www.olympedia.org/sports/VBV"
+            },
+            {
+              "text": "Beach Volleyball, Women",
+              "link": "https://www.olympedia.org/results/31258"
+            },
+            {
+              "text": "14 – 25 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_787.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.013635,
+          38.142288
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kopelatodramio Skhoinia",
+          "Schinias Olympic Rowing and Canoeing Centre"
+        ],
+        "place": "Schinias National Park",
+        "coordinates": "38.142288,24.013635",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2004",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/256317"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/256328"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/256337"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/256346"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/256352"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/256358"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/256367"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/256376"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/256382"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/256409"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/256418"
+            },
+            {
+              "text": "24 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/256424"
+            },
+            {
+              "text": "23 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/159716"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/159743"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/159765"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Quadruple Sculls, Men",
+              "link": "https://www.olympedia.org/results/159754"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/159776"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/159787"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Lightweight Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/159796"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Lightweight Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/159816"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Women",
+              "link": "https://www.olympedia.org/results/159827"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Women",
+              "link": "https://www.olympedia.org/results/159848"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Women",
+              "link": "https://www.olympedia.org/results/159864"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Quadruple Sculls, Women",
+              "link": "https://www.olympedia.org/results/159857"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Women",
+              "link": "https://www.olympedia.org/results/159873"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Lightweight Double Sculls, Women",
+              "link": "https://www.olympedia.org/results/159879"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_788.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.735,
+          37.901
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Kanoe/Kagiak Slalom, Olympiako Syngrotima Ellenikou",
+          "Olympic Canoe/Kayak Centre, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.901,23.735",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "2004",
+        "seating_capacity": "3150",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Slalom",
+              "link": "https://www.olympedia.org/sports/CSL"
+            },
+            {
+              "text": "Kayak Singles, Slalom, Men",
+              "link": "https://www.olympedia.org/results/256388"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Slalom",
+              "link": "https://www.olympedia.org/sports/CSL"
+            },
+            {
+              "text": "Canadian Singles, Slalom, Men",
+              "link": "https://www.olympedia.org/results/256395"
+            },
+            {
+              "text": "17 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Slalom",
+              "link": "https://www.olympedia.org/sports/CSL"
+            },
+            {
+              "text": "Canadian Doubles, Slalom, Men",
+              "link": "https://www.olympedia.org/results/256402"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Canoe Slalom",
+              "link": "https://www.olympedia.org/sports/CSL"
+            },
+            {
+              "text": "Kayak Singles, Slalom, Women",
+              "link": "https://www.olympedia.org/results/256430"
+            },
+            {
+              "text": "17 – 18 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_789.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.777314,
+          37.817984
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Vouliagmenis",
+          "Vouliagmeni Olympic Centre"
+        ],
+        "place": "Vouliagmeni",
+        "coordinates": "37.817984,23.777314",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Cycling Road",
+          "Triathlon"
+        ],
+        "opened": "2002",
+        "seating_capacity": "3600",
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Individual Time Trial, Men",
+              "link": "https://www.olympedia.org/results/155136"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Individual Time Trial, Women",
+              "link": "https://www.olympedia.org/results/155176"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Triathlon",
+              "link": "https://www.olympedia.org/sports/TRI"
+            },
+            {
+              "text": "Olympic Distance, Men",
+              "link": "https://www.olympedia.org/results/21173"
+            },
+            {
+              "text": "26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Triathlon",
+              "link": "https://www.olympedia.org/sports/TRI"
+            },
+            {
+              "text": "Olympic Distance, Women",
+              "link": "https://www.olympedia.org/results/21178"
+            },
+            {
+              "text": "25 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_791.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.780479,
+          38.040028
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Podilatodromio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Velodrome, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.040028,23.780479",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1991",
+        "seating_capacity": "5250",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "42° curves, 15° straights",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/155049"
+            },
+            {
+              "text": "22 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/155048"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Keirin, Men",
+              "link": "https://www.olympedia.org/results/155109"
+            },
+            {
+              "text": "25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/155125"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Individual Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/155088"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/155098"
+            },
+            {
+              "text": "22 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Points Race, Men",
+              "link": "https://www.olympedia.org/results/155108"
+            },
+            {
+              "text": "24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Madison, Men",
+              "link": "https://www.olympedia.org/results/155124"
+            },
+            {
+              "text": "25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/155139"
+            },
+            {
+              "text": "22 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "500 metres Time Trial, Women",
+              "link": "https://www.olympedia.org/results/155138"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Individual Pursuit, Women",
+              "link": "https://www.olympedia.org/results/155164"
+            },
+            {
+              "text": "21 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Points Race, Women",
+              "link": "https://www.olympedia.org/results/155174"
+            },
+            {
+              "text": "25 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_792.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.733628,
+          38.131506
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaki Eukatastasi Oreivis Podilasias Parnithas",
+          "Parnitha Olympic Mountain Bike Venue"
+        ],
+        "place": "Akharnes",
+        "coordinates": "38.131506,23.733628",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Mountain Bike",
+              "link": "https://www.olympedia.org/sports/MTB"
+            },
+            {
+              "text": "Cross-Country, Men",
+              "link": "https://www.olympedia.org/results/155137"
+            },
+            {
+              "text": "28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Cycling Mountain Bike",
+              "link": "https://www.olympedia.org/sports/MTB"
+            },
+            {
+              "text": "Cross-Country, Women",
+              "link": "https://www.olympedia.org/results/155177"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_793.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.78142,
+          38.038444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Ugrou Stivou, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Aquatic Centre, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Athina",
+        "coordinates": "38.038444,23.78142",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Swimming",
+          "Water Polo"
+        ],
+        "notes": "Three pools: Main Pool, Synchronized Swimming Pool, Indoor Pool",
+        "opened": "1991",
+        "seating_capacity": "11500 (SWI/WAP) / 5300 (SYN) / 6200 (DIV)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54300"
+            },
+            {
+              "text": "23 – 24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54304"
+            },
+            {
+              "text": "27 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Synchronized Springboard, Men",
+              "link": "https://www.olympedia.org/results/54308"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Synchronized Platform, Men",
+              "link": "https://www.olympedia.org/results/54309"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54310"
+            },
+            {
+              "text": "25 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54314"
+            },
+            {
+              "text": "20 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Synchronized Springboard, Women",
+              "link": "https://www.olympedia.org/results/54318"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Synchronized Platform, Women",
+              "link": "https://www.olympedia.org/results/54319"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "50 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/8740"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/8757"
+            },
+            {
+              "text": "17 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/8772"
+            },
+            {
+              "text": "15 – 16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/8786"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/8795"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/8898"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/8912"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/8803"
+            },
+            {
+              "text": "15 – 16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/8815"
+            },
+            {
+              "text": "18 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/8826"
+            },
+            {
+              "text": "14 – 15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/8840"
+            },
+            {
+              "text": "17 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/8852"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/8866"
+            },
+            {
+              "text": "16 – 17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/8877"
+            },
+            {
+              "text": "18 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/8890"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Men",
+              "link": "https://www.olympedia.org/results/8926"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "50 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/8940"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/8956"
+            },
+            {
+              "text": "18 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/8969"
+            },
+            {
+              "text": "16 – 17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/8981"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "800 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/8989"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/9081"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/9095"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/8996"
+            },
+            {
+              "text": "15 – 16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/9009"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/9020"
+            },
+            {
+              "text": "15 – 16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/9032"
+            },
+            {
+              "text": "18 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/9043"
+            },
+            {
+              "text": "14 – 15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/9054"
+            },
+            {
+              "text": "17 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/9064"
+            },
+            {
+              "text": "16 – 17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/9074"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Women",
+              "link": "https://www.olympedia.org/results/9109"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Duet, Women",
+              "link": "https://www.olympedia.org/results/43534"
+            },
+            {
+              "text": "23 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/43541"
+            },
+            {
+              "text": "26 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38966"
+            },
+            {
+              "text": "15 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Women",
+              "link": "https://www.olympedia.org/results/39019"
+            },
+            {
+              "text": "16 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_794.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.971944,
+          37.877778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Ippasias Markopoulou",
+          "Markopoulo Olympic Equestrian Centre"
+        ],
+        "place": "Markopoulo",
+        "coordinates": "37.877778,23.971944",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000 (jumping) / 8100 (dressage) / 15000 (eventing)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185523"
+            },
+            {
+              "text": "20 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185543"
+            },
+            {
+              "text": "20 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185544"
+            },
+            {
+              "text": "22 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185553"
+            },
+            {
+              "text": "24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185510"
+            },
+            {
+              "text": "15 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185518"
+            },
+            {
+              "text": "15 – 18 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_795.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.723251,
+          37.89358
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aithousa Ksifaskias, Olympiako Syngrotima Ellenikou",
+          "Olympic Fencing Hall, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.89358,23.723251",
+        "coordinates_trust": "Most likely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "5000 (finals) / 3800 (preliminaries)",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/116887"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/117020"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/116930"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/117149"
+            },
+            {
+              "text": "22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/116974"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/117278"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/117418"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Women",
+              "link": "https://www.olympedia.org/results/117449"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Women",
+              "link": "https://www.olympedia.org/results/117525"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Women",
+              "link": "https://www.olympedia.org/results/117495"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_796.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967003,
+          40.625497
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ethniko Kaftanzogleio Stadio Thessalonikis",
+          "Kaftanzoglou National Stadium of Thessaloniki"
+        ],
+        "place": "Thessaloniki",
+        "coordinates": "40.625497,22.967003",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "seating_capacity": "37000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Women",
+              "link": "https://www.olympedia.org/results/34265"
+            },
+            {
+              "text": "11 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_797.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.664317,
+          37.946447
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Georgios Karaiskakis",
+          "Georgios Karaiskakis Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.946447,23.664317",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "notes": "Built on the site of the Neo Phaliron Velodrome, site of football at the 1906 Intercalated Olympic Games, and cycling at the 1896 and 1906 Olympics.",
+        "opened": "2004",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Women",
+              "link": "https://www.olympedia.org/results/34265"
+            },
+            {
+              "text": "11 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_798.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.752189,
+          38.221806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pampeloponnisiako Stadio",
+          "Pan-Pelopennese Stadium"
+        ],
+        "place": "Patras",
+        "coordinates": "38.221806,21.752189",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "notes": "Originally known as Ethniko Stadio Patron.",
+        "opened": "1981",
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Women",
+              "link": "https://www.olympedia.org/results/34265"
+            },
+            {
+              "text": "11 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_799.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.106111,
+          35.336667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pankritio Stadio",
+          "Pan-Cretan Stadium"
+        ],
+        "place": "Iraklion",
+        "coordinates": "35.336667,25.106111",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "opened": "2004",
+        "seating_capacity": "26400",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Women",
+              "link": "https://www.olympedia.org/results/34265"
+            },
+            {
+              "text": "11 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_800.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931067,
+          39.387511
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panthessaliko Stadio",
+          "Pan-Thessaliko Stadium"
+        ],
+        "place": "Volos",
+        "coordinates": "39.387511,22.931067",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "opened": "2004",
+        "seating_capacity": "22700",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34224"
+            },
+            {
+              "text": "11 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Women",
+              "link": "https://www.olympedia.org/results/34265"
+            },
+            {
+              "text": "11 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_801.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.691086,
+          37.936094
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kleisto Gymnastirio Falirou, Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Faliro Sports Pavilion Arena, Faliro Coastal Zone Olympic Complex"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.936094,23.691086",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Handball",
+          "Taekwondo"
+        ],
+        "notes": "Known as The Little Peace and Friendship Stadium.",
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/35038"
+            },
+            {
+              "text": "14 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Women",
+              "link": "https://www.olympedia.org/results/35090"
+            },
+            {
+              "text": "15 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/28227"
+            },
+            {
+              "text": "26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/28256"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/28285"
+            },
+            {
+              "text": "28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28314"
+            },
+            {
+              "text": "29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Flyweight, Women",
+              "link": "https://www.olympedia.org/results/28343"
+            },
+            {
+              "text": "26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Featherweight, Women",
+              "link": "https://www.olympedia.org/results/28372"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Welterweight, Women",
+              "link": "https://www.olympedia.org/results/28401"
+            },
+            {
+              "text": "28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/28430"
+            },
+            {
+              "text": "29 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_802.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.724886,
+          37.899566
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Khokei, Olympiako Syngrotima Ellenikou",
+          "Olympic Hockey Centre, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.899566,23.724886",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Hockey"
+        ],
+        "notes": "Two pitches.",
+        "opened": "2004",
+        "seating_capacity": "7300 (Pitch 1) / 2100 (Pitch 2)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/36438"
+            },
+            {
+              "text": "15 – 27 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Women",
+              "link": "https://www.olympedia.org/results/36488"
+            },
+            {
+              "text": "14 – 26 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_803.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.774741,
+          37.988462
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Modernou Pentathlou, Olympiako Syngrotima Goudiou",
+          "Olympic Modern Pentathlon Centre, Goudi Olympic Complex"
+        ],
+        "place": "Athina",
+        "coordinates": "37.988462,23.774741",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "2004",
+        "seating_capacity": "2500 (swimming) / 5000 (riding/running) / 3000 (fencing/shooting)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50288"
+            },
+            {
+              "text": "26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/50297"
+            },
+            {
+              "text": "27 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_804.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.760278,
+          38.027222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Galatsiou",
+          "Galatsi Olympic Hall"
+        ],
+        "place": "Galatsi",
+        "coordinates": "38.027222,23.760278",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Rhythmic Gymnastics",
+          "Table Tennis"
+        ],
+        "opened": "2004",
+        "seating_capacity": "6500",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rhythmic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GRY"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/67574"
+            },
+            {
+              "text": "26 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Rhythmic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GRY"
+            },
+            {
+              "text": "Group, Women",
+              "link": "https://www.olympedia.org/results/67585"
+            },
+            {
+              "text": "26 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/48369"
+            },
+            {
+              "text": "14 – 23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/48441"
+            },
+            {
+              "text": "15 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/48480"
+            },
+            {
+              "text": "14 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/48552"
+            },
+            {
+              "text": "14 – 20 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_805.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727778,
+          37.877778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Istioploias Agiou Kosma",
+          "Agios Kosmas Olympic Sailing Centre"
+        ],
+        "place": "Athina",
+        "coordinates": "37.877778,23.727778",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Men",
+              "link": "https://www.olympedia.org/results/10970"
+            },
+            {
+              "text": "15 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Men",
+              "link": "https://www.olympedia.org/results/10949"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Men",
+              "link": "https://www.olympedia.org/results/11012"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Keelboat, Men",
+              "link": "https://www.olympedia.org/results/10991"
+            },
+            {
+              "text": "21 – 28 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Women",
+              "link": "https://www.olympedia.org/results/11054"
+            },
+            {
+              "text": "15 – 25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Women",
+              "link": "https://www.olympedia.org/results/11033"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Women",
+              "link": "https://www.olympedia.org/results/11075"
+            },
+            {
+              "text": "14 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Three Person Keelboat, Women",
+              "link": "https://www.olympedia.org/results/11096"
+            },
+            {
+              "text": "14 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/11117"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Skiff, Open",
+              "link": "https://www.olympedia.org/results/11159"
+            },
+            {
+              "text": "17 – 26 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Multihull, Open",
+              "link": "https://www.olympedia.org/results/11138"
+            },
+            {
+              "text": "21 – 28 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_806.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.906944,
+          37.870833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Skopovolis Markopoulou",
+          "Markopoulo Olympic Shooting Centre"
+        ],
+        "place": "Markopoulo",
+        "coordinates": "37.870833,23.906944",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Shooting"
+        ],
+        "notes": "Now the shooting and training center for the Hellenic Police.",
+        "opened": "2004",
+        "seating_capacity": "4000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Pistol, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/51983"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Rapid-Fire Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51986"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51991"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/51994"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/52000"
+            },
+            {
+              "text": "22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51997"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/52006"
+            },
+            {
+              "text": "18 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Men",
+              "link": "https://www.olympedia.org/results/52011"
+            },
+            {
+              "text": "14 – 15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Double Trap, Men",
+              "link": "https://www.olympedia.org/results/52014"
+            },
+            {
+              "text": "17 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Skeet, Men",
+              "link": "https://www.olympedia.org/results/52017"
+            },
+            {
+              "text": "21 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Pistol, 10 metres, Women",
+              "link": "https://www.olympedia.org/results/52020"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Sporting Pistol, 25 metres, Women",
+              "link": "https://www.olympedia.org/results/52023"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Women",
+              "link": "https://www.olympedia.org/results/52028"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Women",
+              "link": "https://www.olympedia.org/results/52031"
+            },
+            {
+              "text": "20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Women",
+              "link": "https://www.olympedia.org/results/52037"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Double Trap, Women",
+              "link": "https://www.olympedia.org/results/52040"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Skeet, Women",
+              "link": "https://www.olympedia.org/results/52043"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_807.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727773,
+          37.894244
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Softbol, Olympiako Syngrotima Ellenikou",
+          "Olympic Softball Centre, Helleniko Olympic Complex"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.894244,23.727773",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Softball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "4800",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Softball",
+              "link": "https://www.olympedia.org/sports/SOF"
+            },
+            {
+              "text": "Softball, Women",
+              "link": "https://www.olympedia.org/results/31674"
+            },
+            {
+              "text": "14 – 23 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_808.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.790931,
+          38.039899
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Antisfairises, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Tennis Centre, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.039899,23.790931",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "10 courts",
+        "opened": "2004",
+        "seating_capacity": "8600 (Centre Court), 4000 (Court 1), 2000 (Court 2), 200 (Courts 3-9)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/45876"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/45947"
+            },
+            {
+              "text": "15 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/45985"
+            },
+            {
+              "text": "15 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/46056"
+            },
+            {
+              "text": "15 – 22 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_809.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.667297,
+          37.942475
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Eirinis kai Filias (SEF), Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Peace and Friendship Stadium, Faliro Coastal Zone Olympic Complex"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.942475,23.667297",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1985",
+        "seating_capacity": "13200",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37760"
+            },
+            {
+              "text": "15 – 29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Women",
+              "link": "https://www.olympedia.org/results/37805"
+            },
+            {
+              "text": "14 – 28 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_810.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.633889,
+          37.970556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Arsis Varon Nikaias",
+          "Nikaia Olympic Weightlifting Hall"
+        ],
+        "place": "Nikaia",
+        "coordinates": "37.970556,23.633889",
+        "coordinates_trust": "Definitely here",
+        "year": "2004",
+        "season": "Summer",
+        "sports": [
+          "Weightlifting"
+        ],
+        "notes": "Now an academic and conference center for the University of Piraeus.",
+        "opened": "2004",
+        "seating_capacity": "3500",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/30296"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/30305"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/30314"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/30323"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/30332"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middle-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/30341"
+            },
+            {
+              "text": "23 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/30350"
+            },
+            {
+              "text": "24 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/30359"
+            },
+            {
+              "text": "25 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Flyweight, Women",
+              "link": "https://www.olympedia.org/results/30368"
+            },
+            {
+              "text": "14 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Women",
+              "link": "https://www.olympedia.org/results/30377"
+            },
+            {
+              "text": "15 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Women",
+              "link": "https://www.olympedia.org/results/30386"
+            },
+            {
+              "text": "16 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Women",
+              "link": "https://www.olympedia.org/results/30395"
+            },
+            {
+              "text": "18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/30404"
+            },
+            {
+              "text": "19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/30413"
+            },
+            {
+              "text": "19 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Super-Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/30422"
+            },
+            {
+              "text": "21 August 2004"
+            }
+          ]
+        ],
+        "source_file": "venue_811.json"
+      }
+    }
+  ]
+}

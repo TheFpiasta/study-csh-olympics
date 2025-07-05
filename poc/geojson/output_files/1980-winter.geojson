@@ -1,0 +1,327 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986324,
+          44.282776
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Field House US Ice Rink"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.282776,-73.986324",
+        "coordinates_trust": "Definitely here",
+        "year": "1980",
+        "season": "Winter",
+        "sports": [
+          "Figure Skating"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13542"
+            },
+            {
+              "text": "18 – 21 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13592"
+            },
+            {
+              "text": "20 – 23 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13672"
+            },
+            {
+              "text": "18 – 20 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_185.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985623,
+          44.28328
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Field House International Ice Rink"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.28328,-73.985623",
+        "coordinates_trust": "Definitely here",
+        "year": "1980",
+        "season": "Winter",
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13542"
+            },
+            {
+              "text": "18 – 21 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13592"
+            },
+            {
+              "text": "20 – 23 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13642"
+            },
+            {
+              "text": "16 – 18 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13672"
+            },
+            {
+              "text": "18 – 20 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20476"
+            },
+            {
+              "text": "12 – 24 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_72.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861535,
+          44.353744
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whiteface Mountain Ski Area"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.353744,-73.861535",
+        "coordinates_trust": "Definitely here",
+        "year": "1980",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1328"
+            },
+            {
+              "text": "14 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1329"
+            },
+            {
+              "text": "22 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1332"
+            },
+            {
+              "text": "18 – 19 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1335"
+            },
+            {
+              "text": "17 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1336"
+            },
+            {
+              "text": "23 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1339"
+            },
+            {
+              "text": "20 – 21 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_75.json"
+      }
+    }
+  ]
+}

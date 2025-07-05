@@ -1,0 +1,460 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.840802,
+          46.496449
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palace-Hotel"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.496449,9.840802",
+        "coordinates_trust": "Definitely here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Ice Hockey",
+          "Winter Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Winter Pentathlon",
+              "link": "https://www.olympedia.org/sports/WPE"
+            },
+            {
+              "text": "Winter Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/905177"
+            },
+            {
+              "text": "31 January –  4 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20123"
+            },
+            {
+              "text": "30 January –  8 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_146.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.820519,
+          46.483991
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Suvretta-Haus"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.483991,9.820519",
+        "coordinates_trust": "Definitely here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20123"
+            },
+            {
+              "text": "30 January –  8 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_147.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.841052,
+          46.500497
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Corviglia"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.500497,9.841052",
+        "coordinates_trust": "Near here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1176"
+            },
+            {
+              "text": "2 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1180"
+            },
+            {
+              "text": "2 –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_150.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.835253,
+          46.494984
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piz Nair"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.494984,9.835253",
+        "coordinates_trust": "Near here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1185"
+            },
+            {
+              "text": "2 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1189"
+            },
+            {
+              "text": "2 –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_151.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.819347,
+          46.486787
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Suvretta"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.486787,9.819347",
+        "coordinates_trust": "Near here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1177"
+            },
+            {
+              "text": "5 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1180"
+            },
+            {
+              "text": "2 –  4 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1186"
+            },
+            {
+              "text": "5 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1189"
+            },
+            {
+              "text": "2 –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_152.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.836578,
+          46.483257
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Französische Kirche"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.483257,9.836578",
+        "coordinates_trust": "Definitely here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Winter Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Winter Pentathlon",
+              "link": "https://www.olympedia.org/sports/WPE"
+            },
+            {
+              "text": "Winter Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/905177"
+            },
+            {
+              "text": "31 January –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_155.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.828494,
+          46.498643
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Salastrains"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.498643,9.828494",
+        "coordinates_trust": "Near here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Winter Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Winter Pentathlon",
+              "link": "https://www.olympedia.org/sports/WPE"
+            },
+            {
+              "text": "Winter Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/905177"
+            },
+            {
+              "text": "31 January –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_156.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.834511,
+          46.483164
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kurhaus"
+        ],
+        "place": "St. Moritz-Bad",
+        "coordinates": "46.483164,9.834511",
+        "coordinates_trust": "Definitely here",
+        "year": "1948",
+        "season": "Winter",
+        "sports": [
+          "Winter Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Winter Pentathlon",
+              "link": "https://www.olympedia.org/sports/WPE"
+            },
+            {
+              "text": "Winter Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/905177"
+            },
+            {
+              "text": "31 January –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_157.json"
+      }
+    }
+  ]
+}

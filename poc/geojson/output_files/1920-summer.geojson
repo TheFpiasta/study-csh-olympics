@@ -1,0 +1,3645 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.381979,
+          51.184979
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion (also known as 't Kiel)",
+          "Olympic Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184979,4.381979",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Equestrian Vaulting",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Modern Pentathlon",
+          "Rugby",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1920",
+        "type": "outdoor venue",
+        "dimensions": "389.8 m",
+        "surface": "loose cinders",
+        "altitude": "9 m",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/57032"
+            },
+            {
+              "text": "15 – 16 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/57056"
+            },
+            {
+              "text": "19 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/57080"
+            },
+            {
+              "text": "19 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/57101"
+            },
+            {
+              "text": "15 – 17 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/57113"
+            },
+            {
+              "text": "18 – 19 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57120"
+            },
+            {
+              "text": "16 – 17 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57127"
+            },
+            {
+              "text": "19 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Cross-Country, Individual, Men",
+              "link": "https://www.olympedia.org/results/57133"
+            },
+            {
+              "text": "23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Cross-Country, Team, Men",
+              "link": "https://www.olympedia.org/results/57134"
+            },
+            {
+              "text": "23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/57135"
+            },
+            {
+              "text": "22 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57136"
+            },
+            {
+              "text": "17 – 18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57148"
+            },
+            {
+              "text": "15 – 16 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/57159"
+            },
+            {
+              "text": "18 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/57165"
+            },
+            {
+              "text": "20 – 21 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/57170"
+            },
+            {
+              "text": "17 – 18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57175"
+            },
+            {
+              "text": "21 – 22 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57181"
+            },
+            {
+              "text": "22 – 23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/57186"
+            },
+            {
+              "text": "21 – 22 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/57191"
+            },
+            {
+              "text": "15 – 17 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/57196"
+            },
+            {
+              "text": "19 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/57201"
+            },
+            {
+              "text": "17 – 18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/57204"
+            },
+            {
+              "text": "19 – 21 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/57210"
+            },
+            {
+              "text": "17 – 18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/57216"
+            },
+            {
+              "text": "21 – 22 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/57219"
+            },
+            {
+              "text": "18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "56-pound Weight Throw, Men",
+              "link": "https://www.olympedia.org/results/57222"
+            },
+            {
+              "text": "20 – 21 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/57225"
+            },
+            {
+              "text": "15 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/57228"
+            },
+            {
+              "text": "20 – 21 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/57270"
+            },
+            {
+              "text": "16 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185026"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185031"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185036"
+            },
+            {
+              "text": "7 –  9 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185041"
+            },
+            {
+              "text": "12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185042"
+            },
+            {
+              "text": "12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Vaulting",
+              "link": "https://www.olympedia.org/sports/EVL"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185043"
+            },
+            {
+              "text": "11 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Vaulting",
+              "link": "https://www.olympedia.org/sports/EVL"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185044"
+            },
+            {
+              "text": "11 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33556"
+            },
+            {
+              "text": "28 August –  5 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70058"
+            },
+            {
+              "text": "26 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70059"
+            },
+            {
+              "text": "23 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Free System, Men",
+              "link": "https://www.olympedia.org/results/70060"
+            },
+            {
+              "text": "27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Swedish System, Men",
+              "link": "https://www.olympedia.org/results/70061"
+            },
+            {
+              "text": "26 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35511"
+            },
+            {
+              "text": "1 –  5 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Korfball",
+              "link": "https://www.olympedia.org/sports/KBL"
+            },
+            {
+              "text": "Korfball, Mixed",
+              "link": "https://www.olympedia.org/results/900025"
+            },
+            {
+              "text": "22 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50009"
+            },
+            {
+              "text": "24 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rugby",
+              "link": "https://www.olympedia.org/sports/RGB"
+            },
+            {
+              "text": "Rugby, Men",
+              "link": "https://www.olympedia.org/results/31509"
+            },
+            {
+              "text": "5 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tug-Of-War",
+              "link": "https://www.olympedia.org/sports/TOW"
+            },
+            {
+              "text": "Tug-Of-War, Men",
+              "link": "https://www.olympedia.org/results/21134"
+            },
+            {
+              "text": "17 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/28540"
+            },
+            {
+              "text": "29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/28545"
+            },
+            {
+              "text": "29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/28550"
+            },
+            {
+              "text": "30 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28555"
+            },
+            {
+              "text": "31 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28560"
+            },
+            {
+              "text": "31 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_243.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.380777,
+          51.184412
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Beerschot Tennis & Hockey Club"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184412,4.380777",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Fencing",
+          "Hockey",
+          "Tennis"
+        ],
+        "notes": "The fencing contests are sometimes said to have been held at Palais d'Egmont, but no such building is known in Antwerpen. Pictures show them to have been held close to the main stadium, likely on the gounds of the tennis club.",
+        "opened": "1899",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/44578"
+            },
+            {
+              "text": "16 – 23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/44626"
+            },
+            {
+              "text": "16 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/44654"
+            },
+            {
+              "text": "16 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/44678"
+            },
+            {
+              "text": "17 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Mixed",
+              "link": "https://www.olympedia.org/results/44692"
+            },
+            {
+              "text": "17 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/73978"
+            },
+            {
+              "text": "20 – 23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/74010"
+            },
+            {
+              "text": "15 – 17 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35511"
+            },
+            {
+              "text": "1 –  5 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_244.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.29041512,
+          51.1154279
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kamp Beverlo",
+          "Beverlo Camp"
+        ],
+        "place": "Beverlo",
+        "coordinates": "51.11542790,5.29041512",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Unknown Event, Men",
+              "link": "https://www.olympedia.org/results/51499"
+            },
+            {
+              "text": "—"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Pistol, 30 metres, Men",
+              "link": "https://www.olympedia.org/results/51589"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51590"
+            },
+            {
+              "text": "2 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Standing, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51591"
+            },
+            {
+              "text": "2 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Three Positions, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51592"
+            },
+            {
+              "text": "31 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Prone, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51593"
+            },
+            {
+              "text": "29 – 30 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Standing, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51594"
+            },
+            {
+              "text": "29 – 30 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Prone, 600 metres, Men",
+              "link": "https://www.olympedia.org/results/51595"
+            },
+            {
+              "text": "29 – 30 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Pistol, Team, Men",
+              "link": "https://www.olympedia.org/results/51599"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51600"
+            },
+            {
+              "text": "2 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Smal-Bore Rifle, Standing, 50 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51601"
+            },
+            {
+              "text": "2 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Three Positions, 300 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51602"
+            },
+            {
+              "text": "31 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Prone, 300 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51606"
+            },
+            {
+              "text": "29 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Standing, 300 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51607"
+            },
+            {
+              "text": "29 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Prone, 600 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51608"
+            },
+            {
+              "text": "29 July –  2 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Prone, 300 and 600 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51611"
+            },
+            {
+              "text": "29 July 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_245.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45460656,
+          51.31868831
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hoogboom Country Club"
+        ],
+        "place": "Kapellen",
+        "coordinates": "51.31868831,4.45460656",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Equestrian Eventing",
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185026"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185031"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, Single Shot, Men",
+              "link": "https://www.olympedia.org/results/51596"
+            },
+            {
+              "text": "27 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, Double Shot, Men",
+              "link": "https://www.olympedia.org/results/51597"
+            },
+            {
+              "text": "27 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Men",
+              "link": "https://www.olympedia.org/results/51598"
+            },
+            {
+              "text": "23 – 24 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, Single Shot, Team, Men",
+              "link": "https://www.olympedia.org/results/51612"
+            },
+            {
+              "text": "26 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, Double Shot, Team, Men",
+              "link": "https://www.olympedia.org/results/51613"
+            },
+            {
+              "text": "26 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Team, Men",
+              "link": "https://www.olympedia.org/results/51614"
+            },
+            {
+              "text": "22 – 23 July 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_246.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 foot, Open",
+              "link": "https://www.olympedia.org/results/9248"
+            },
+            {
+              "text": "7 July –  4 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9335"
+            },
+            {
+              "text": "2 –  8 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_247.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.413667867965049,
+          51.17982547841083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Floraliën, Middelheimpark",
+          "Flower Hall, Middelheim Park"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.17982547841083,4.413667867965049",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50009"
+            },
+            {
+              "text": "24 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/73962"
+            },
+            {
+              "text": "17 – 18 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/73978"
+            },
+            {
+              "text": "20 – 23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/73998"
+            },
+            {
+              "text": "25 – 26 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/74010"
+            },
+            {
+              "text": "15 – 17 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/74037"
+            },
+            {
+              "text": "20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/923221"
+            },
+            {
+              "text": "24 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_249.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.416261,
+          50.914793
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Willebroekse Vaart",
+          "Willebroek Channel",
+          "Zeekanaal Brussel-Schelde (?-present)"
+        ],
+        "place": "Vilvoorde",
+        "coordinates": "50.914793,4.416261",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Rowing"
+        ],
+        "notes": "Course set out between De Drie Fonteinen and Marly.",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/157633"
+            },
+            {
+              "text": "27 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/157643"
+            },
+            {
+              "text": "27 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/157649"
+            },
+            {
+              "text": "28 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/157655"
+            },
+            {
+              "text": "28 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/157661"
+            },
+            {
+              "text": "27 – 29 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_250.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.378009,
+          51.190241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietbaan, Het Kiel (also known as Den Tir)",
+          "Shooting Range, Het Kiel"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.190241,4.378009",
+        "coordinates_trust": "Near here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "notes": "Presently Shopping Mall \"Den Tir\" (after the range's nickname)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50009"
+            },
+            {
+              "text": "24 – 27 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_251.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.422147,
+          51.218013
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Feestzaal, Koninklijke Zoölogische Maatschappij",
+          "Celebration Hall, Royal Zoological Society"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.218013,4.422147",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Boxing",
+          "Wrestling"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/21288"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/21308"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/21324"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/21347"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/21367"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/21390"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21412"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21427"
+            },
+            {
+              "text": "21 – 24 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/120764"
+            },
+            {
+              "text": "25 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/120780"
+            },
+            {
+              "text": "25 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/120796"
+            },
+            {
+              "text": "25 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/120820"
+            },
+            {
+              "text": "25 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/120838"
+            },
+            {
+              "text": "25 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120850"
+            },
+            {
+              "text": "16 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120884"
+            },
+            {
+              "text": "16 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120920"
+            },
+            {
+              "text": "16 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120959"
+            },
+            {
+              "text": "16 – 20 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120986"
+            },
+            {
+              "text": "17 – 20 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_252.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.40953,
+          51.184562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nachtegalenpark",
+          "Nightingale Park"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184562,4.40953",
+        "coordinates_trust": "Near here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Archery"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 28 metres, Individual, Men",
+              "link": "https://www.olympedia.org/results/40531"
+            },
+            {
+              "text": "4 –  5 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 33 metres, Individual, Men",
+              "link": "https://www.olympedia.org/results/40532"
+            },
+            {
+              "text": "4 –  5 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 50 metres, Individual, Men",
+              "link": "https://www.olympedia.org/results/40533"
+            },
+            {
+              "text": "4 –  5 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 28 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/40534"
+            },
+            {
+              "text": "4 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 33 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/40535"
+            },
+            {
+              "text": "4 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Target Archery, 50 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/40536"
+            },
+            {
+              "text": "4 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Pole Archery, Small Birds, Individual, Men",
+              "link": "https://www.olympedia.org/results/40537"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Pole Archery, Large Birds, Individual, Men",
+              "link": "https://www.olympedia.org/results/40538"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Pole Archery, Small Birds, Team, Men",
+              "link": "https://www.olympedia.org/results/40539"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Pole Archery, Large Birds, Team, Men",
+              "link": "https://www.olympedia.org/results/40540"
+            },
+            {
+              "text": "3 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_253.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.895375697,
+          51.23351494
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Oostende",
+        "coordinates": "51.23351494,2.895375697",
+        "coordinates_trust": "Near here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 foot, Open",
+              "link": "https://www.olympedia.org/results/9248"
+            },
+            {
+              "text": "7 July –  4 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "18 foot, Open",
+              "link": "https://www.olympedia.org/results/9254"
+            },
+            {
+              "text": "7 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6 metres, Open",
+              "link": "https://www.olympedia.org/results/9256"
+            },
+            {
+              "text": "7 – 10 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6 metres, Open",
+              "link": "https://www.olympedia.org/results/9262"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6.5 metres, Open",
+              "link": "https://www.olympedia.org/results/9266"
+            },
+            {
+              "text": "8 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "7 metres, Open",
+              "link": "https://www.olympedia.org/results/9270"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "8 metres, Open",
+              "link": "https://www.olympedia.org/results/9275"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "8 metres, Open",
+              "link": "https://www.olympedia.org/results/9279"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "10 metres, Open",
+              "link": "https://www.olympedia.org/results/9284"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "10 metres, Open",
+              "link": "https://www.olympedia.org/results/9288"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 metres, Open",
+              "link": "https://www.olympedia.org/results/9292"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 metres, Open",
+              "link": "https://www.olympedia.org/results/9296"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "30 metres², Open",
+              "link": "https://www.olympedia.org/results/9300"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "40 metres², Open",
+              "link": "https://www.olympedia.org/results/9304"
+            },
+            {
+              "text": "7 –  9 July 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_254.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.407978,
+          51.213887
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "IJspaleis Antwerpen",
+          "Ice Palace Antwerp"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.213887,4.407978",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12548"
+            },
+            {
+              "text": "25 – 27 April 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12572"
+            },
+            {
+              "text": "25 April 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12590"
+            },
+            {
+              "text": "26 April 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20000"
+            },
+            {
+              "text": "23 – 29 April 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_255.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.766111,
+          51.031389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jules Ottenstadion (also known as Den Ot)",
+          "Jules Otten Stadium"
+        ],
+        "place": "Gent",
+        "coordinates": "51.031389,3.766111",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "notes": "Demolished in 2013.",
+        "opened": "1920",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33556"
+            },
+            {
+              "text": "28 August –  5 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_256.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.329395,
+          50.817793
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade du Parc Duden",
+          "Duden Park Stadium"
+        ],
+        "place": "Saint-Gilles",
+        "coordinates": "50.817793,4.329395",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "notes": "Currently Stade Joseph Marien.",
+        "opened": "1919",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33556"
+            },
+            {
+              "text": "28 August –  5 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_257.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.391613,
+          51.184898
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion van Antwerpen",
+          "Antwerp Swimming Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184898,4.391613",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Plain High, Men",
+              "link": "https://www.olympedia.org/results/54048"
+            },
+            {
+              "text": "22 – 25 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54054"
+            },
+            {
+              "text": "28 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54059"
+            },
+            {
+              "text": "26 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54064"
+            },
+            {
+              "text": "29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Plain High, Women",
+              "link": "https://www.olympedia.org/results/54065"
+            },
+            {
+              "text": "24 – 28 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50009"
+            },
+            {
+              "text": "24 – 27 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4649"
+            },
+            {
+              "text": "22 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4662"
+            },
+            {
+              "text": "26 – 28 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4673"
+            },
+            {
+              "text": "22 – 25 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/4684"
+            },
+            {
+              "text": "22 – 23 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/4689"
+            },
+            {
+              "text": "26 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/4699"
+            },
+            {
+              "text": "22 – 25 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/4709"
+            },
+            {
+              "text": "25 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4715"
+            },
+            {
+              "text": "23 – 25 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "300 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4721"
+            },
+            {
+              "text": "26 – 28 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/4728"
+            },
+            {
+              "text": "29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38041"
+            },
+            {
+              "text": "22 – 29 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Women",
+              "link": "https://www.olympedia.org/results/900026"
+            },
+            {
+              "text": "29 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_258.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.390728,
+          51.195405
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadion Broodstraat",
+          "Brood Street Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.195405,4.390728",
+        "coordinates_trust": "Most likely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Football"
+        ],
+        "opened": "1908",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33556"
+            },
+            {
+              "text": "28 August –  5 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_259.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.391184,
+          51.168527
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Garden City Velodroom",
+          "Garden City Velodrome"
+        ],
+        "place": "Wilrijk, Antwerpen",
+        "coordinates": "51.168527,4.391184",
+        "coordinates_trust": "No information",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Cycling Road",
+          "Cycling Track"
+        ],
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "concrete",
+        "additional_details": "50.0° curves, 17.5° straights",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153235"
+            },
+            {
+              "text": "9 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153270"
+            },
+            {
+              "text": "9 – 10 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/153282"
+            },
+            {
+              "text": "10 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153283"
+            },
+            {
+              "text": "9 – 10 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153294"
+            },
+            {
+              "text": "12 August 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Team, Men",
+              "link": "https://www.olympedia.org/results/153295"
+            },
+            {
+              "text": "12 August 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_260.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.899017,
+          51.22218
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wellingtonrenbaan",
+          "Wellington Racing Track"
+        ],
+        "place": "Oostende",
+        "coordinates": "51.22218,2.899017",
+        "coordinates_trust": "Definitely here",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Polo"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Polo",
+              "link": "https://www.olympedia.org/sports/POL"
+            },
+            {
+              "text": "Polo, Men",
+              "link": "https://www.olympedia.org/results/30915"
+            },
+            {
+              "text": "25 – 31 July 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_261.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.383202,
+          51.232043
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.232043,4.383202",
+        "coordinates_trust": "No information",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Art Competitions"
+        ],
+        "notes": "It is unknown where the art objects were exhibited and/or judged.",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Open",
+              "link": "https://www.olympedia.org/results/920005"
+            },
+            {
+              "text": "23 April – 12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Open",
+              "link": "https://www.olympedia.org/results/920006"
+            },
+            {
+              "text": "23 April – 12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Open",
+              "link": "https://www.olympedia.org/results/920007"
+            },
+            {
+              "text": "23 April – 12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Open",
+              "link": "https://www.olympedia.org/results/920008"
+            },
+            {
+              "text": "23 April – 12 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Open",
+              "link": "https://www.olympedia.org/results/920009"
+            },
+            {
+              "text": "23 April – 12 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_262.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.440649,
+          51.243328
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Merksem",
+        "coordinates": "51.243328,4.440649",
+        "coordinates_trust": "No information",
+        "year": "1920",
+        "season": "Summer",
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "notes": "The first cross country stage of the three day event is known to have finished near Merksem.",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185026"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185031"
+            },
+            {
+              "text": "6 – 10 September 1920"
+            }
+          ]
+        ],
+        "source_file": "venue_263.json"
+      }
+    }
+  ]
+}

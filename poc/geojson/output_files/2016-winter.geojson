@@ -1,0 +1,298 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.47134,
+          61.1232
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kristins Hall",
+          "Eidsiva Arena"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.1232,10.47134",
+        "coordinates_trust": "Definitely here",
+        "year": "2016",
+        "season": "Winter",
+        "sports": [
+          "Curling",
+          "Ice Hockey"
+        ],
+        "opened": "1988",
+        "seating_capacity": "3197",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Doubles, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002593"
+            },
+            {
+              "text": "19 – 21 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002631"
+            },
+            {
+              "text": "12 – 17 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Skills Challenge, Girls",
+              "link": "https://www.olympedia.org/results/9002835"
+            },
+            {
+              "text": "13 – 16 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Skills Challenge, Boys",
+              "link": "https://www.olympedia.org/results/9002838"
+            },
+            {
+              "text": "13 – 18 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Boys",
+              "link": "https://www.olympedia.org/results/9002816"
+            },
+            {
+              "text": "12 – 21 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Girls",
+              "link": "https://www.olympedia.org/results/9002797"
+            },
+            {
+              "text": "12 – 21 February 2016"
+            }
+          ]
+        ],
+        "source_file": "venue_2003.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.668052,
+          59.989326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Oslo Vinterpark",
+          "Oslo Winter Park",
+          "Tryvann Vinterpark"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.989326,10.668052",
+        "coordinates_trust": "Definitely here",
+        "year": "2016",
+        "season": "Winter",
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "opened": "1938",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Girls",
+              "link": "https://www.olympedia.org/results/9002766"
+            },
+            {
+              "text": "14 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Boys",
+              "link": "https://www.olympedia.org/results/9002770"
+            },
+            {
+              "text": "14 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Girls",
+              "link": "https://www.olympedia.org/results/9002942"
+            },
+            {
+              "text": "14 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Boys",
+              "link": "https://www.olympedia.org/results/9002948"
+            },
+            {
+              "text": "14 February 2016"
+            }
+          ]
+        ],
+        "source_file": "venue_2005.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.472083,
+          61.122389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ungdomshallen (also known as Youth Hall)"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.122389,10.472083",
+        "coordinates_trust": "Definitely here",
+        "year": "2016",
+        "season": "Winter",
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Boys",
+              "link": "https://www.olympedia.org/results/9002816"
+            },
+            {
+              "text": "12 – 21 February 2016"
+            }
+          ],
+          [
+            {
+              "text": "2016 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/68"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Girls",
+              "link": "https://www.olympedia.org/results/9002797"
+            },
+            {
+              "text": "12 – 21 February 2016"
+            }
+          ]
+        ],
+        "source_file": "venue_2082.json"
+      }
+    }
+  ]
+}

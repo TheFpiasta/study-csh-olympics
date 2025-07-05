@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arena Carioca 1, Parque Olímpico da Barra",
+      "Carioca Arena 1, Barra Olympic Park"
+    ],
+    "place": "Barra da Tijuca, Rio de Janeiro",
+    "coordinates": "-22.978755,-43.392478",
+    "coordinates_trust": "Definitely here",
+    "year": "2016",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "2016",
+    "seating_capacity": "16000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/359400"
+      },
+      {
+        "text": "6 – 21 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/359446"
+      },
+      {
+        "text": "6 – 20 August 2016"
+      }
+    ]
+  ]
+}

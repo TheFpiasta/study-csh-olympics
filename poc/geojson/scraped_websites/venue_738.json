@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Golden Ball Park"
+    ],
+    "place": "Columbus, Georgia",
+    "coordinates": "32.452366,-84.990985",
+    "coordinates_trust": "Definitely here",
+    "year": "1996",
+    "season": "Summer",
+    "sports": [
+      "Softball"
+    ],
+    "opened": "1926",
+    "seating_capacity": "8800",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Softball",
+        "link": "https://www.olympedia.org/sports/SOF"
+      },
+      {
+        "text": "Softball, Women",
+        "link": "https://www.olympedia.org/results/31600"
+      },
+      {
+        "text": "21 – 30 July 1996"
+      }
+    ]
+  ]
+}

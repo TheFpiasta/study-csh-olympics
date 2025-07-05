@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Olímpico de BMX, Parque Olímpico de Deodoro",
+      "Olympic BMX Centre, Deodoro Olympic Park"
+    ],
+    "place": "Deodoro, Rio de Janeiro",
+    "coordinates": "-22.8466337,-43.4014182",
+    "coordinates_trust": "Definitely here",
+    "year": "2016",
+    "season": "Summer",
+    "sports": [
+      "Cycling BMX Racing"
+    ],
+    "opened": "2015",
+    "seating_capacity": "6000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Men",
+        "link": "https://www.olympedia.org/results/356837"
+      },
+      {
+        "text": "17 – 19 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Women",
+        "link": "https://www.olympedia.org/results/356963"
+      },
+      {
+        "text": "17 – 19 August 2016"
+      }
+    ]
+  ]
+}

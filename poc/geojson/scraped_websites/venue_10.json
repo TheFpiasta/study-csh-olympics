@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "La Patinoire",
+      "Ice Rink"
+    ],
+    "place": "Pralognan-la-Vanoise",
+    "coordinates": "45.376968,6.722206",
+    "coordinates_trust": "Definitely here",
+    "year": "1992",
+    "season": "Winter",
+    "sports": [
+      "Curling"
+    ],
+    "seating_capacity": "2300",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/905418"
+      },
+      {
+        "text": "17 – 22 February 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/905442"
+      },
+      {
+        "text": "17 – 22 February 1992"
+      }
+    ]
+  ]
+}

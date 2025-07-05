@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympic Cycling Circuit, Krylatskoye Sports Complex"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.760081,37.431659",
+    "coordinates_trust": "Definitely here",
+    "year": "1980",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/154446"
+      },
+      {
+        "text": "28 July 1980"
+      }
+    ]
+  ]
+}

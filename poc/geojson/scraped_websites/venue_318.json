@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Avus-Nordschleife",
+      "Avus North Curve"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.500157,13.276742",
+    "coordinates_trust": "Definitely here",
+    "year": "1936",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "opened": "1921",
+    "demolished": "1999",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/153541"
+      },
+      {
+        "text": "10 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Team, Men",
+        "link": "https://www.olympedia.org/results/153542"
+      },
+      {
+        "text": "10 August 1936"
+      }
+    ]
+  ]
+}

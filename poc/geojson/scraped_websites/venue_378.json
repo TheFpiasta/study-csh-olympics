@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tali"
+    ],
+    "place": "Helsinki",
+    "coordinates": "60.212222,24.867222",
+    "coordinates_trust": "Definitely here",
+    "year": "1952",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "demolished": "1970s",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185135"
+      },
+      {
+        "text": "30 July –  2 August 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185140"
+      },
+      {
+        "text": "30 July –  2 August 1952"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadio dei Marmi",
+      "Marmi Stadium"
+    ],
+    "place": "Roma",
+    "coordinates": "41.93429,12.45738",
+    "coordinates_trust": "Definitely here",
+    "year": "1960",
+    "season": "Summer",
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "1932",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35685"
+      },
+      {
+        "text": "26 August – 11 September 1960"
+      }
+    ]
+  ]
+}

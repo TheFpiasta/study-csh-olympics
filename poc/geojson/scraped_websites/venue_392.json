@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Helsingfors Segelsällskap, Liuskasaari",
+      "Helsinki Sailing Society, Liuskasaari"
+    ],
+    "place": "Helsinki",
+    "coordinates": "60.151039,24.947768",
+    "coordinates_trust": "Definitely here",
+    "year": "1952",
+    "season": "Summer",
+    "sports": [
+      "Sailing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Sailing",
+        "link": "https://www.olympedia.org/sports/SAL"
+      },
+      {
+        "text": "One Person Dinghy, Open",
+        "link": "https://www.olympedia.org/results/9538"
+      },
+      {
+        "text": "20 – 28 July 1952"
+      }
+    ]
+  ]
+}

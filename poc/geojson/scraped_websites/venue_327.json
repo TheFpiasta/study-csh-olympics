@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hertha-BSC-Platz (also known as Plumpe)",
+      "Hertha BSC Field",
+      "Stadion am Gesundbrunnen"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.55,13.393333",
+    "coordinates_trust": "Definitely here",
+    "year": "1936",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1924",
+    "demolished": "1973",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33641"
+      },
+      {
+        "text": "3 – 15 August 1936"
+      }
+    ]
+  ]
+}

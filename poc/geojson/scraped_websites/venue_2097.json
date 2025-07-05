@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Prince's Hall"
+    ],
+    "place": "Piccadilly, London",
+    "coordinates": "51.508583,-0.137694",
+    "coordinates_trust": "Definitely here",
+    "year": "1908",
+    "season": "Summer",
+    "sports": [
+      "Fencing"
+    ],
+    "opened": "1883",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Fencing",
+        "link": "https://www.olympedia.org/sports/FEN"
+      },
+      {
+        "text": "Foil, Individual, Open",
+        "link": "https://www.olympedia.org/results/9016727"
+      },
+      {
+        "text": "23 July 1908"
+      }
+    ]
+  ]
+}

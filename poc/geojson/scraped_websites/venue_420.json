@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Viale Oceano Pacifico",
+      "Pacific Ocean Lane"
+    ],
+    "place": "Roma",
+    "coordinates": "41.825939,12.455324",
+    "coordinates_trust": "Definitely here",
+    "year": "1960",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "100 kilometres Team Time Trial, Men",
+        "link": "https://www.olympedia.org/results/153875"
+      },
+      {
+        "text": "26 August 1960"
+      }
+    ]
+  ]
+}

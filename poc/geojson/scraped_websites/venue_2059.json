@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Cycling, Paseo de la Costa"
+    ],
+    "place": "Vicente López, Buenos Aires",
+    "coordinates": "-34.526048,-58.465634",
+    "coordinates_trust": "Definitely here",
+    "year": "2018",
+    "season": "Summer",
+    "sports": [
+      "Cycling BMX Racing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "Team, Mixed Youth",
+        "link": "https://www.olympedia.org/results/9014241"
+      },
+      {
+        "text": "7 October 2018"
+      }
+    ]
+  ]
+}

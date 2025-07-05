@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Patinoire Olympique",
+      "Olympic Rink"
+    ],
+    "place": "Méribel",
+    "coordinates": "45.393561,6.565769",
+    "coordinates_trust": "Definitely here",
+    "year": "1992",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1991",
+    "seating_capacity": "6420",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m",
+    "altitude": "1435 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20604"
+      },
+      {
+        "text": "8 – 23 February 1992"
+      }
+    ]
+  ]
+}

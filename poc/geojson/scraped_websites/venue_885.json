@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ledovyi Dvorets Bolshoy, Coastal Cluster",
+      "Bolshoy Ice Dome"
+    ],
+    "place": "Adler",
+    "coordinates": "43.4044444,39.95",
+    "coordinates_trust": "Definitely here",
+    "year": "2014",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "2012",
+    "seating_capacity": "12000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/58"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/350334"
+      },
+      {
+        "text": "12 – 23 February 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/58"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/350374"
+      },
+      {
+        "text": "8 – 20 February 2014"
+      }
+    ]
+  ]
+}

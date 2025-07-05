@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dressuranlage, Nymphenburg",
+      "Dressage Grounds, Nymphenburg"
+    ],
+    "place": "München",
+    "coordinates": "48.158206,11.502203",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Dressage"
+    ],
+    "opened": "1675",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185251"
+      },
+      {
+        "text": "7 –  9 September 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185264"
+      },
+      {
+        "text": "7 September 1972"
+      }
+    ]
+  ]
+}

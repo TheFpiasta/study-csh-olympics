@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadion Dynamo",
+      "Dynamo Stadium"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.791389,37.559722",
+    "coordinates_trust": "Definitely here",
+    "year": "1980",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "notes": "To be replaced by the VTB Arena Central Dynamo Stadium.",
+    "opened": "1928",
+    "demolished": "2008",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33934"
+      },
+      {
+        "text": "20 July –  2 August 1980"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circolo del Golf di Roma Acquasanta",
+      "Roma Acquasanta Golf Club"
+    ],
+    "place": "Roma",
+    "coordinates": "41.8522,12.5385",
+    "coordinates_trust": "Definitely here",
+    "year": "1960",
+    "season": "Summer",
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "opened": "1903",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50099"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50108"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ]
+  ]
+}

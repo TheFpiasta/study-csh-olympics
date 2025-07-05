@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Water Polo Arena, Olympic Park"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.541486,-0.012896",
+    "coordinates_trust": "Definitely here",
+    "year": "2012",
+    "season": "Summer",
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "2012",
+    "seating_capacity": "5000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/330000"
+      },
+      {
+        "text": "29 July – 12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Women",
+        "link": "https://www.olympedia.org/results/330051"
+      },
+      {
+        "text": "30 July –  9 August 2012"
+      }
+    ]
+  ]
+}

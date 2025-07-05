@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Saitama Super Arena",
+      "さいたまスーパーアリーナ"
+    ],
+    "place": "Chūō-ku, Saitama, Saitama Prefecture, Japan",
+    "coordinates": "35.894889,139.630833",
+    "coordinates_trust": "Definitely here",
+    "year": "2020",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "2000",
+    "seating_capacity": "36500",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/19001250"
+      },
+      {
+        "text": "25 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/19001285"
+      },
+      {
+        "text": "26 July –  8 August 2021"
+      }
+    ]
+  ]
+}

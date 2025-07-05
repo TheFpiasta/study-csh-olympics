@@ -1,0 +1,71 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Campo Marte, Bosque de Chapultepec",
+      "Field of Mars, Chapultepec Park"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.424832,-99.197488",
+    "coordinates_trust": "Definitely here",
+    "year": "1968",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Dressage",
+      "Equestrian Jumping"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185231"
+      },
+      {
+        "text": "25 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185234"
+      },
+      {
+        "text": "24 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185235"
+      },
+      {
+        "text": "23 October 1968"
+      }
+    ]
+  ]
+}

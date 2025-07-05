@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ariake Arena"
+    ],
+    "place": "1 Chome-11-1 Ariake, Koto City, Tokyo, Japan",
+    "coordinates": "35.64531,139.79417",
+    "coordinates_trust": "Definitely here",
+    "year": "2020",
+    "season": "Summer",
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "2020",
+    "seating_capacity": "12000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/19001150"
+      },
+      {
+        "text": "24 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/19001195"
+      },
+      {
+        "text": "25 July –  8 August 2021"
+      }
+    ]
+  ]
+}

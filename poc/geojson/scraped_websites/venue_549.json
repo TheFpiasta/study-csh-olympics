@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Terrain de tir à l'arc olympique"
+    ],
+    "place": "Joliette, Québec",
+    "coordinates": "46.006553,-73.41319",
+    "coordinates_trust": "Definitely here",
+    "year": "1976",
+    "season": "Summer",
+    "sports": [
+      "Archery"
+    ],
+    "opened": "1974",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/40571"
+      },
+      {
+        "text": "27 – 30 July 1976"
+      }
+    ],
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/40586"
+      },
+      {
+        "text": "27 – 30 July 1976"
+      }
+    ]
+  ]
+}

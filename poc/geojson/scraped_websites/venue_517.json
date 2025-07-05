@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Bogenschießanlage, Englischer Garten",
+      "Archery Range, English Garden"
+    ],
+    "place": "München",
+    "coordinates": "48.157147,11.593559",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Archery"
+    ],
+    "opened": "1789",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/40541"
+      },
+      {
+        "text": "7 – 10 September 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/40556"
+      },
+      {
+        "text": "7 – 10 September 1972"
+      }
+    ]
+  ]
+}

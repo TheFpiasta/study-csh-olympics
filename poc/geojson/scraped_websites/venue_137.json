@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Eastern Rink"
+    ],
+    "place": "Squaw Valley, California",
+    "coordinates": "39.198,-120.231159",
+    "coordinates_trust": "Definitely here",
+    "year": "1960",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20243"
+      },
+      {
+        "text": "19 – 28 February 1960"
+      }
+    ]
+  ]
+}

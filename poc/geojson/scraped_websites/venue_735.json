@@ -1,0 +1,73 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Georgia Coliseum, University of Georgia",
+      "Stegeman Coliseum (1996-Present)"
+    ],
+    "place": "Athens, Georgia",
+    "coordinates": "33.9428,-83.378",
+    "coordinates_trust": "Definitely here",
+    "year": "1996",
+    "season": "Summer",
+    "sports": [
+      "Rhythmic Gymnastics",
+      "Volleyball"
+    ],
+    "opened": "1964",
+    "seating_capacity": "10000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Rhythmic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GRY"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/67533"
+      },
+      {
+        "text": "2 –  4 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Rhythmic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GRY"
+      },
+      {
+        "text": "Group, Women",
+        "link": "https://www.olympedia.org/results/67549"
+      },
+      {
+        "text": "1 –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37560"
+      },
+      {
+        "text": "21 July –  4 August 1996"
+      }
+    ]
+  ]
+}

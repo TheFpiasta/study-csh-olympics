@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Royal Exhibition Building Annex"
+    ],
+    "place": "Melbourne, Victoria",
+    "coordinates": "-37.804728,144.971225",
+    "coordinates_trust": "Most likely here",
+    "year": "1956",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1880",
+    "type": "temporary indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32044"
+      },
+      {
+        "text": "22 November –  1 December 1956"
+      }
+    ]
+  ]
+}

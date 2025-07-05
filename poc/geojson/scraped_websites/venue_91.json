@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kanbayashi Sports Park"
+    ],
+    "place": "Yamanouchi",
+    "coordinates": "36.728171,138.448956",
+    "coordinates_trust": "Most likely here",
+    "year": "1998",
+    "season": "Winter",
+    "sports": [
+      "Snowboarding"
+    ],
+    "seating_capacity": "10000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Snowboarding",
+        "link": "https://www.olympedia.org/sports/SBD"
+      },
+      {
+        "text": "Halfpipe, Men",
+        "link": "https://www.olympedia.org/results/1619"
+      },
+      {
+        "text": "12 February 1998"
+      }
+    ],
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Snowboarding",
+        "link": "https://www.olympedia.org/sports/SBD"
+      },
+      {
+        "text": "Halfpipe, Women",
+        "link": "https://www.olympedia.org/results/1629"
+      },
+      {
+        "text": "12 February 1998"
+      }
+    ]
+  ]
+}

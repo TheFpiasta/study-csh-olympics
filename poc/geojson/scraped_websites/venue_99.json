@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Holmenkollbakken",
+      "Holmenkoll Ski Jumping Hill"
+    ],
+    "place": "Oslo",
+    "coordinates": "59.963889,10.667778",
+    "coordinates_trust": "Definitely here",
+    "year": "1952",
+    "season": "Winter",
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "opened": "1939",
+    "seating_capacity": "150000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2210"
+      },
+      {
+        "text": "17 – 18 February 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2365"
+      },
+      {
+        "text": "24 February 1952"
+      }
+    ]
+  ]
+}

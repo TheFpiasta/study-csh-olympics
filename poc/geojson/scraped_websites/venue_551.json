@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centre Étienne Desmarteau",
+      "Étienne Desmarteau Centre"
+    ],
+    "place": "Montréal, Québec",
+    "coordinates": "45.555556,-73.580278",
+    "coordinates_trust": "Definitely here",
+    "year": "1976",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1976",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32430"
+      },
+      {
+        "text": "18 – 27 July 1976"
+      }
+    ],
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/32480"
+      },
+      {
+        "text": "19 – 26 July 1976"
+      }
+    ]
+  ]
+}

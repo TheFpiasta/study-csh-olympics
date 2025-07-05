@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hippodrome du Grand Parquet",
+      "Grand Parquet Hippodrome"
+    ],
+    "place": "Fontainebleau",
+    "coordinates": "48.390324,2.669353",
+    "coordinates_trust": "Definitely here",
+    "year": "1924",
+    "season": "Summer",
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50018"
+      },
+      {
+        "text": "12 – 17 July 1924"
+      }
+    ]
+  ]
+}

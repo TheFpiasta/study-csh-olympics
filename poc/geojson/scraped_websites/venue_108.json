@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tsukisaumu Indoor Skating Rink"
+    ],
+    "place": "Sapporo",
+    "coordinates": "43.027472,141.412486",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1972",
+    "seating_capacity": "6000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20400"
+      },
+      {
+        "text": "3 – 13 February 1972"
+      }
+    ]
+  ]
+}

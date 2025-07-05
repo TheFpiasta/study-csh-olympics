@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dodger Stadium"
+    ],
+    "place": "Los Angeles, California",
+    "coordinates": "34.073778,-118.240044",
+    "coordinates_trust": "Definitely here",
+    "year": "1984",
+    "season": "Summer",
+    "sports": [
+      "Baseball"
+    ],
+    "opened": "1962",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/900359"
+      },
+      {
+        "text": "31 July –  7 August 1984"
+      }
+    ]
+  ]
+}

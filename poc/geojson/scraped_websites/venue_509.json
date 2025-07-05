@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Alberca Olímpica Universitaria, Universidad Nacional Autónoma de México",
+      "University Olympic Pool, National Autonomous University of Mexico"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.330112,-99.18508",
+    "coordinates_trust": "Definitely here",
+    "year": "1968",
+    "season": "Summer",
+    "sports": [
+      "Water Polo"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38432"
+      },
+      {
+        "text": "14 – 26 October 1968"
+      }
+    ]
+  ]
+}

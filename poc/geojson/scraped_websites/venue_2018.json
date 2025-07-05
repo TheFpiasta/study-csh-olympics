@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "The Float @ Marina Bay"
+    ],
+    "place": "Singapore",
+    "coordinates": "1.288333,103.858889",
+    "coordinates_trust": "Definitely here",
+    "year": "2010",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "seating_capacity": "25000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Combined Team, Mixed Youth",
+        "link": "https://www.olympedia.org/results/4003490"
+      },
+      {
+        "text": "17 – 22 August 2010"
+      }
+    ]
+  ]
+}

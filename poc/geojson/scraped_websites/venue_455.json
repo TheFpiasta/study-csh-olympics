@@ -1,0 +1,52 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Karuizawa Equestrian Venue"
+    ],
+    "place": "Karuizawa, Nagano",
+    "coordinates": "36.315397,138.615398",
+    "coordinates_trust": "Definitely here",
+    "year": "1964",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185201"
+      },
+      {
+        "text": "16 – 19 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185206"
+      },
+      {
+        "text": "16 – 19 October 1964"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Xinzhuang Equestrian Venue, Nanjing International Exhibition Centre"
+    ],
+    "place": "Xuanwu, Nanjing",
+    "coordinates": "32.074472,118.809064",
+    "coordinates_trust": "Definitely here",
+    "year": "2014",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Jumping"
+    ],
+    "seating_capacity": "1000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Open Youth",
+        "link": "https://www.olympedia.org/results/9007226"
+      },
+      {
+        "text": "23 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Team, Open Youth",
+        "link": "https://www.olympedia.org/results/9007230"
+      },
+      {
+        "text": "19 August 2014"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sydney Baseball Stadium, Olympic Park",
+      "Sydney Showground (?-Present)"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.843056,151.067778",
+    "coordinates_trust": "Definitely here",
+    "year": "2000",
+    "season": "Summer",
+    "sports": [
+      "Baseball",
+      "Modern Pentathlon"
+    ],
+    "opened": "1998",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/30774"
+      },
+      {
+        "text": "17 – 27 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50270"
+      },
+      {
+        "text": "30 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/50279"
+      },
+      {
+        "text": "30 September 2000"
+      }
+    ]
+  ]
+}

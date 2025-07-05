@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Old Trafford",
+      "Sports Direct Arena"
+    ],
+    "place": "Manchester",
+    "coordinates": "53.463056,-2.291389",
+    "coordinates_trust": "Definitely here",
+    "year": "2012",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1910",
+    "seating_capacity": "76000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/312000"
+      },
+      {
+        "text": "26 July – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/312042"
+      },
+      {
+        "text": "25 July –  9 August 2012"
+      }
+    ]
+  ]
+}

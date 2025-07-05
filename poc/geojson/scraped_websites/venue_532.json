@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Military-Gelände Poing",
+      "Military Lands Poing"
+    ],
+    "place": "Poing",
+    "coordinates": "48.173498,11.821375",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185241"
+      },
+      {
+        "text": "29 August –  1 September 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185246"
+      },
+      {
+        "text": "29 August –  1 September 1972"
+      }
+    ]
+  ]
+}

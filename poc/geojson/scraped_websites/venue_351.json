@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Craven Cottage (also known as The Cottage)"
+    ],
+    "place": "Fulham, London",
+    "coordinates": "51.475,-0.221667",
+    "coordinates_trust": "Definitely here",
+    "year": "1948",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1896",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33663"
+      },
+      {
+        "text": "26 July – 13 August 1948"
+      }
+    ]
+  ]
+}

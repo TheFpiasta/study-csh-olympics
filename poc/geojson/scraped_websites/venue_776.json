@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ryde Aquatic Leisure Centre"
+    ],
+    "place": "Ryde, New South Wales",
+    "coordinates": "-33.821533,151.119239",
+    "coordinates_trust": "Definitely here",
+    "year": "2000",
+    "season": "Summer",
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "2000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38884"
+      },
+      {
+        "text": "23 September –  1 October 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Women",
+        "link": "https://www.olympedia.org/results/38941"
+      },
+      {
+        "text": "16 – 23 September 2000"
+      }
+    ]
+  ]
+}

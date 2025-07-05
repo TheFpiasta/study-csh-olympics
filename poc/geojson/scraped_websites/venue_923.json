@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arena do Futuro, Parque Olímpico da Barra",
+      "Future Arena, Barra Olympic Park"
+    ],
+    "place": "Barra da Tijuca, Rio de Janeiro",
+    "coordinates": "-22.9805714,-43.3924898",
+    "coordinates_trust": "Definitely here",
+    "year": "2016",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "opened": "2016",
+    "seating_capacity": "12000",
+    "type": "temporary indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/395600"
+      },
+      {
+        "text": "7 – 21 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/395646"
+      },
+      {
+        "text": "6 – 20 August 2016"
+      }
+    ]
+  ]
+}

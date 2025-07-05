@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Parc des Sports",
+      "Sports Park"
+    ],
+    "place": "Tinqueux",
+    "coordinates": "49.249266,3.998208",
+    "coordinates_trust": "Definitely here",
+    "year": "1924",
+    "season": "Summer",
+    "sports": [
+      "Shooting"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Shooting",
+        "link": "https://www.olympedia.org/sports/SHO"
+      },
+      {
+        "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+        "link": "https://www.olympedia.org/results/51623"
+      },
+      {
+        "text": "23 June 1924"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadio Romano e Armando Apollonio",
+      "Apollonio Stadium"
+    ],
+    "place": "Cortina d'Ampezzo",
+    "coordinates": "46.534606,12.136545",
+    "coordinates_trust": "Definitely here",
+    "year": "1956",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "seating_capacity": "2000",
+    "type": "outdoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20203"
+      },
+      {
+        "text": "26 January –  4 February 1956"
+      }
+    ]
+  ]
+}

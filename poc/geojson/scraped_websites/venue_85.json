@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Aqua Wing Arena",
+      "Nagano Sports Park General Municipal Pool (1998-Present)"
+    ],
+    "place": "Nagano",
+    "coordinates": "36.660556,138.233056",
+    "coordinates_trust": "Definitely here",
+    "year": "1998",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "seating_capacity": "6000",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20713"
+      },
+      {
+        "text": "7 – 22 February 1998"
+      }
+    ],
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/20757"
+      },
+      {
+        "text": "8 – 17 February 1998"
+      }
+    ]
+  ]
+}

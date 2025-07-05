@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Rugby Field, Youth Olympic Sports Park"
+    ],
+    "place": "Pukou, Nanjing",
+    "coordinates": "32.046744,118.658929",
+    "coordinates_trust": "Definitely here",
+    "year": "2014",
+    "season": "Summer",
+    "sports": [
+      "Rugby Sevens"
+    ],
+    "seating_capacity": "2000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Rugby Sevens",
+        "link": "https://www.olympedia.org/sports/RU7"
+      },
+      {
+        "text": "Rugby Sevens, Boys",
+        "link": "https://www.olympedia.org/results/9007792"
+      },
+      {
+        "text": "17 – 20 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Rugby Sevens",
+        "link": "https://www.olympedia.org/sports/RU7"
+      },
+      {
+        "text": "Rugby Sevens, Girls",
+        "link": "https://www.olympedia.org/results/9007816"
+      },
+      {
+        "text": "17 – 20 August 2014"
+      }
+    ]
+  ]
+}

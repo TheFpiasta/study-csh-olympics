@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Beijing Ligong Daxue Tiyuguan",
+      "Beijing Institute of Technology Gymnasium"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.957778,116.308333",
+    "coordinates_trust": "Definitely here",
+    "year": "2008",
+    "season": "Summer",
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "2008",
+    "seating_capacity": "5000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/262828"
+      },
+      {
+        "text": "10 – 24 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/262873"
+      },
+      {
+        "text": "9 – 23 August 2008"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pista del Bob",
+      "Bobsleigh Run"
+    ],
+    "place": "Ronco, Cortina d'Ampezzo",
+    "coordinates": "46.5455,12.128",
+    "coordinates_trust": "Definitely here",
+    "year": "1956",
+    "season": "Winter",
+    "sports": [
+      "Bobsleigh"
+    ],
+    "opened": "1923",
+    "seating_capacity": "4650",
+    "type": "outdoor venue",
+    "altitude": "1700 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Two, Men",
+        "link": "https://www.olympedia.org/results/295"
+      },
+      {
+        "text": "27 – 28 January 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Four, Men",
+        "link": "https://www.olympedia.org/results/302"
+      },
+      {
+        "text": "3 –  4 February 1956"
+      }
+    ]
+  ]
+}

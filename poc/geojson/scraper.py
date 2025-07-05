@@ -1,6 +1,8 @@
 import os
 import json
+import sys
 import time
+import random
 import argparse
 from bs4 import BeautifulSoup
 import requests
@@ -18,11 +20,10 @@ parser.add_argument(
 args = parser.parse_args()
 
 iteration = args.num_iterations + args.start
-# TODO stop if extra_iterations reach 10
-extra_iteration = 0
+
 i = args.start
 
-while i < iteration + extra_iteration:
+while i < iteration:
     url = "https://www.olympedia.org/venues/" + str(i)
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
@@ -30,9 +31,8 @@ while i < iteration + extra_iteration:
     container = soup.find("div", class_="container")
     if container is None:
         print(f"No container found for URL {url}, skipping...")
-        extra_iteration += 1
         i += 1
-        time.sleep(3)
+        time.sleep(0.5)
         continue
 
     biodata_table = container.find("table", class_="biodata")
@@ -63,8 +63,11 @@ while i < iteration + extra_iteration:
                     biodata[key] = sport
                 elif key == "games":
                     entries = value.split()
-                    biodata["year"] = entries[0]
-                    biodata["season"] = entries[1]
+                    year, season = (entries + [None, None])[:2]
+                    if year:
+                        biodata["year"] = year
+                    if season:
+                        biodata["season"] = season
                 elif key in ["english_name", "name", "other_names"]:
                     if "associated_names" not in biodata:
                         biodata["associated_names"] = []
@@ -72,7 +75,6 @@ while i < iteration + extra_iteration:
                 else:
                     biodata[key] = value
     else:
-        extra_iteration += 1
         i += 1
         time.sleep(3)
         continue
@@ -103,10 +105,10 @@ while i < iteration + extra_iteration:
         "event_data": event_data
     }
 
-    output_path = os.path.join(os.path.dirname(__file__), "venue_" + str(i) + ".json")
+    output_path = os.path.join(os.path.dirname(__file__) + "/scraped_websites", "venue_" + str(i) + ".json")
     with open(output_path, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
 
     print(f"Data saved to {output_path}")
     i += 1
-    time.sleep(3)
+    time.sleep(0.5)

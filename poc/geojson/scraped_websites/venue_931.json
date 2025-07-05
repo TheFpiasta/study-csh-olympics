@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arena Corinthians (also known as Itaquerão)",
+      "Arena Corinthians"
+    ],
+    "place": "São Paulo",
+    "coordinates": "-23.545531,-46.473373",
+    "coordinates_trust": "Definitely here",
+    "year": "2016",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "2014",
+    "seating_capacity": "48234",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/359500"
+      },
+      {
+        "text": "4 – 20 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/359542"
+      },
+      {
+        "text": "3 – 19 August 2016"
+      }
+    ]
+  ]
+}

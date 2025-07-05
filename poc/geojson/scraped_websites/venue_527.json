@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hockeyanlage, Olympiapark",
+      "Hockey Grounds, Olympic Park"
+    ],
+    "place": "München",
+    "coordinates": "48.183997,11.543090",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Hockey"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35882"
+      },
+      {
+        "text": "27 August – 10 September 1972"
+      }
+    ]
+  ]
+}

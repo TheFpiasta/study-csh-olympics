@@ -1,0 +1,88 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Aomi Urban Sports Park"
+    ],
+    "place": "Koto, Tokyo",
+    "coordinates": "35.623219,139.776404",
+    "coordinates_trust": "Definitely here",
+    "year": "2020",
+    "season": "Summer",
+    "sports": [
+      "3x3 Basketball",
+      "Sport Climbing"
+    ],
+    "seating_capacity": "5000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "3x3 Basketball",
+        "link": "https://www.olympedia.org/sports/BK3"
+      },
+      {
+        "text": "3x3 Basketball, Men",
+        "link": "https://www.olympedia.org/results/18000000"
+      },
+      {
+        "text": "24 – 28 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "3x3 Basketball",
+        "link": "https://www.olympedia.org/sports/BK3"
+      },
+      {
+        "text": "3x3 Basketball, Women",
+        "link": "https://www.olympedia.org/results/18000039"
+      },
+      {
+        "text": "24 – 28 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Sport Climbing",
+        "link": "https://www.olympedia.org/sports/CLB"
+      },
+      {
+        "text": "Combined, Men",
+        "link": "https://www.olympedia.org/results/18000320"
+      },
+      {
+        "text": "3 –  5 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Sport Climbing",
+        "link": "https://www.olympedia.org/sports/CLB"
+      },
+      {
+        "text": "Combined, Women",
+        "link": "https://www.olympedia.org/results/18000339"
+      },
+      {
+        "text": "4 –  6 August 2021"
+      }
+    ]
+  ]
+}

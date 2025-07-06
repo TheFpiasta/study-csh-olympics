@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-05T13:21:12.032Z",
-  "updatedAt": "2025-07-05T14:45:23.000Z",
+  "updatedAt": "2025-07-06T18:29:27.000Z",
   "id": "M2zWhVESL1ZDTX4O",
   "name": "read-llm-write",
   "active": false,
@@ -12,7 +12,7 @@
       "typeVersion": 1,
       "position": [
         -560,
-        240
+        100
       ],
       "id": "48c8a44c-3160-49ef-a53a-1fa23af9e15a",
       "name": "When clicking ‘Execute workflow’"
@@ -28,7 +28,7 @@
       "typeVersion": 1,
       "position": [
         0,
-        240
+        100
       ],
       "id": "5363b73d-2515-499a-8062-9812ad694ddc",
       "name": "Read/Write Files from Disk"
@@ -42,8 +42,8 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        1040,
-        320
+        280,
+        340
       ],
       "id": "44be9536-3a32-4765-99f5-c77135c97cd3",
       "name": "Read/Write Files from Disk1"
@@ -57,8 +57,8 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        840,
-        320
+        60,
+        340
       ],
       "id": "9c580225-ce9a-45e9-b4ce-646b35f4abec",
       "name": "Convert to File"
@@ -71,8 +71,8 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        400,
-        320
+        -280,
+        340
       ],
       "id": "aab9c297-4ea5-4b82-829c-6d321b1556f9",
       "name": "Extract from File"
@@ -115,8 +115,8 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        600,
-        320
+        -120,
+        340
       ]
     },
     {
@@ -153,7 +153,7 @@
       "typeVersion": 1,
       "position": [
         -340,
-        240
+        100
       ],
       "id": "9e4c416c-92dd-4aac-be8b-0d80dfbc6d58",
       "name": "Read/Write Files from Disk2"
@@ -167,8 +167,8 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        -180,
-        240
+        -200,
+        100
       ],
       "id": "f78c9e42-b419-457b-92e2-99595705a114",
       "name": "Extract from File1"
@@ -180,8 +180,8 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        200,
-        240
+        -560,
+        320
       ],
       "id": "1e804b6b-18e3-420e-98a2-acc70118d2ee",
       "name": "Loop Over Items"
@@ -302,7 +302,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "15f399f7-5f77-4aee-8ca2-62c7a2268db2",
+  "versionId": "b9a392fb-44cd-46b3-a384-6ebd5a4e1b62",
   "triggerCount": 0,
   "tags": []
 }

@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jules Ottenstadion (also known as Den Ot)",
+      "Jules Otten Stadium"
+    ],
+    "place": "Gent",
+    "coordinates": "51.031389,3.766111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1920",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Demolished in 2013.",
+    "opened": "1920",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33556"
+      },
+      {
+        "text": "28 August –  5 September 1920"
+      }
+    ]
+  ]
+}

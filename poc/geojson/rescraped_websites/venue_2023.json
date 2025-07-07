@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sengkang Hockey Stadium"
+    ],
+    "place": "Sengkang, Singapore",
+    "coordinates": "1.395448,103.886118",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "seating_capacity": "1000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Boys",
+        "link": "https://www.olympedia.org/results/4003986"
+      },
+      {
+        "text": "17 – 25 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Girls",
+        "link": "https://www.olympedia.org/results/4004007"
+      },
+      {
+        "text": "16 – 24 August 2010"
+      }
+    ]
+  ]
+}

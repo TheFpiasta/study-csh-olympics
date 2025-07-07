@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sydney Entertainment Centre (also known as SEC)"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.878333,151.202778",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1983",
+    "seating_capacity": "11000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37660"
+      },
+      {
+        "text": "17 September –  1 October 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37710"
+      },
+      {
+        "text": "16 – 30 September 2000"
+      }
+    ]
+  ]
+}

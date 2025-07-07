@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Club de Golf Avándaro",
+      "Avarando Golf Club"
+    ],
+    "place": "Avándaro, Valle de Bravo",
+    "coordinates": "19.161789,-100.132785",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "opened": "1959",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185221"
+      },
+      {
+        "text": "18 – 21 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185226"
+      },
+      {
+        "text": "18 – 21 October 1968"
+      }
+    ]
+  ]
+}

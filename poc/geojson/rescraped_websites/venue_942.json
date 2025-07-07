@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Gangneung Hockey Centre, Gangneung Olympic Park, Coastal Cluster",
+      "강릉 아이스하키I 경기장"
+    ],
+    "place": "Gangneung",
+    "coordinates": "37.7761,128.9014",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2018",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "2017",
+    "seating_capacity": "10000",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2018 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/60"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/9000660"
+      },
+      {
+        "text": "14 – 25 February 2018"
+      }
+    ]
+  ]
+}

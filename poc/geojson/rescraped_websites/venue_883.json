@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hampton Court Palace"
+    ],
+    "place": "Richmond upon Thames, London",
+    "coordinates": "51.405771,-0.340972",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "opened": "1514",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Individual Time Trial, Women",
+        "link": "https://www.olympedia.org/results/308002"
+      },
+      {
+        "text": "1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Individual Time Trial, Men",
+        "link": "https://www.olympedia.org/results/308003"
+      },
+      {
+        "text": "1 August 2012"
+      }
+    ]
+  ]
+}

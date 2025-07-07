@@ -1,0 +1,77 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Palacio de los Deportes (also known as Palau dels Esports)",
+      "Palace of Sports"
+    ],
+    "place": "Barcelona",
+    "coordinates": "41.371633,2.155219",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Rhythmic Gymnastics",
+      "Volleyball"
+    ],
+    "opened": "1955",
+    "seating_capacity": "8000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Rhythmic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GRY"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/67522"
+      },
+      {
+        "text": "6 –  8 August 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37481"
+      },
+      {
+        "text": "26 July –  9 August 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37533"
+      },
+      {
+        "text": "29 July –  7 August 1992"
+      }
+    ]
+  ]
+}

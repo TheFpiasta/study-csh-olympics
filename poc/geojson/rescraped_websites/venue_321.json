@@ -1,0 +1,112 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Maifeld, Reichssportfeld",
+      "May Field, Imperial Sports Field"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.515833,13.234167",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Dressage",
+      "Equestrian Eventing",
+      "Polo"
+    ],
+    "opened": "1936",
+    "seating_capacity": "250000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185109"
+      },
+      {
+        "text": "12 – 13 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185115"
+      },
+      {
+        "text": "12 – 13 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185099"
+      },
+      {
+        "text": "13 – 16 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185104"
+      },
+      {
+        "text": "13 – 16 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Polo",
+        "link": "https://www.olympedia.org/sports/POL"
+      },
+      {
+        "text": "Polo, Men",
+        "link": "https://www.olympedia.org/results/30936"
+      },
+      {
+        "text": "3 –  8 August 1936"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Gymnasium, Jiangning Sports Centre"
+    ],
+    "place": "Jiangning, Nanjing",
+    "coordinates": "31.9112233,118.8895493",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2014",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Boys",
+        "link": "https://www.olympedia.org/results/9007430"
+      },
+      {
+        "text": "20 – 25 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Girls",
+        "link": "https://www.olympedia.org/results/9007447"
+      },
+      {
+        "text": "20 – 25 August 2014"
+      }
+    ]
+  ]
+}

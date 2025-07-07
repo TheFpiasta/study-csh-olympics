@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sydney Football Stadium",
+      "Aussie Stadium (2002-07)"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.889167,151.225278",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1988",
+    "seating_capacity": "42000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34161"
+      },
+      {
+        "text": "13 – 30 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34202"
+      },
+      {
+        "text": "13 – 28 September 2000"
+      }
+    ]
+  ]
+}

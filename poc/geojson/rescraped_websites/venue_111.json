@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Okurayama Ski Jump Stadium"
+    ],
+    "place": "Sapporo",
+    "coordinates": "43.051325,141.29",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ski Jumping"
+    ],
+    "opened": "1972",
+    "seating_capacity": "50000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2391"
+      },
+      {
+        "text": "11 February 1972"
+      }
+    ]
+  ]
+}

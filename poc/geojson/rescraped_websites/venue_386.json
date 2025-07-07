@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Porvoon Keskuskenttä",
+      "Porvoo Central Field"
+    ],
+    "place": "Porvoo",
+    "coordinates": "60.393759,25.673236",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35613"
+      },
+      {
+        "text": "15 – 25 July 1952"
+      }
+    ]
+  ]
+}

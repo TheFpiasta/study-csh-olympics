@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Bondi Beach Volleyball Centre"
+    ],
+    "place": "Bondi Beach, New South Wales",
+    "coordinates": "-33.89102,151.277726",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Beach Volleyball"
+    ],
+    "notes": "Two courts",
+    "seating_capacity": "10000 (Court 1)",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Men",
+        "link": "https://www.olympedia.org/results/31104"
+      },
+      {
+        "text": "17 – 26 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Women",
+        "link": "https://www.olympedia.org/results/31149"
+      },
+      {
+        "text": "16 – 25 September 2000"
+      }
+    ]
+  ]
+}

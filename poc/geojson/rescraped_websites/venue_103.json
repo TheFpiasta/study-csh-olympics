@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Bob sleighbanen (also known as Korketrekkeren)",
+      "Bobsleigh Track"
+    ],
+    "place": "Frognerseter, Oslo",
+    "coordinates": "59.977277,10.67699",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Bobsleigh"
+    ],
+    "opened": "1951",
+    "type": "outdoor venue",
+    "altitude": "305 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Two, Men",
+        "link": "https://www.olympedia.org/results/281"
+      },
+      {
+        "text": "14 – 15 February 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Four, Men",
+        "link": "https://www.olympedia.org/results/288"
+      },
+      {
+        "text": "21 – 22 February 1952"
+      }
+    ]
+  ]
+}

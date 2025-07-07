@@ -1,0 +1,98 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympiaschanze",
+      "Olympic Ski Jumping Hill"
+    ],
+    "place": "St. Moritz",
+    "coordinates": "46.474167,9.825278",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1928",
+        "season": "Winter"
+      },
+      {
+        "year": "1948",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "opened": "1926",
+    "demolished": "2006",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/30"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2189"
+      },
+      {
+        "text": "17 – 18 February 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/30"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2353"
+      },
+      {
+        "text": "18 February 1928"
+      }
+    ],
+    [
+      {
+        "text": "1948 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/33"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2204"
+      },
+      {
+        "text": "31 January –  1 February 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/33"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2362"
+      },
+      {
+        "text": "7 February 1948"
+      }
+    ]
+  ]
+}

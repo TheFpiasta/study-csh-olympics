@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mt. Higashidate, Shiga Kogen"
+    ],
+    "place": "Yamanouchi",
+    "coordinates": "36.72357,138.503995",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1998",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "seating_capacity": "20000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Giant Slalom, Men",
+        "link": "https://www.olympedia.org/results/1436"
+      },
+      {
+        "text": "19 February 1998"
+      }
+    ],
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Giant Slalom, Women",
+        "link": "https://www.olympedia.org/results/1449"
+      },
+      {
+        "text": "20 February 1998"
+      }
+    ]
+  ]
+}

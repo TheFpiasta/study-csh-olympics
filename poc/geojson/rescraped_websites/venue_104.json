@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jordal Stadion",
+      "Jordal Stadium"
+    ],
+    "place": "Oslo",
+    "coordinates": "59.909951,10.78458",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Figure Skating"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/12898"
+      },
+      {
+        "text": "19 – 21 February 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/12928"
+      },
+      {
+        "text": "16 – 20 February 1952"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sport Climbing Wall, Parque Mujeres Argentina, Urban Park"
+    ],
+    "place": "Puerto Madero, Buenos Aires",
+    "coordinates": "-34.609074,-58.361392",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2018",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Sport Climbing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Sport Climbing",
+        "link": "https://www.olympedia.org/sports/CLB"
+      },
+      {
+        "text": "Combined, Boys",
+        "link": "https://www.olympedia.org/results/9014145"
+      },
+      {
+        "text": "8 – 10 October 2018"
+      }
+    ],
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Sport Climbing",
+        "link": "https://www.olympedia.org/sports/CLB"
+      },
+      {
+        "text": "Combined, Girls",
+        "link": "https://www.olympedia.org/results/9014162"
+      },
+      {
+        "text": "7 –  9 October 2018"
+      }
+    ]
+  ]
+}

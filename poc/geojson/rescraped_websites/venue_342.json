@@ -1,0 +1,561 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Wembley Arena",
+      "Empire Pool (1934-1978)"
+    ],
+    "place": "Wembley, London",
+    "coordinates": "51.558083,-0.282972",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      },
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Badminton",
+      "Boxing",
+      "Diving",
+      "Rhythmic Gymnastics",
+      "Swimming",
+      "Water Polo"
+    ],
+    "opened": "1934",
+    "seating_capacity": "6000 (2012)",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Flyweight, Men",
+        "link": "https://www.olympedia.org/results/22214"
+      },
+      {
+        "text": "7 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Bantamweight, Men",
+        "link": "https://www.olympedia.org/results/22246"
+      },
+      {
+        "text": "7 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Featherweight, Men",
+        "link": "https://www.olympedia.org/results/22282"
+      },
+      {
+        "text": "7 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Lightweight, Men",
+        "link": "https://www.olympedia.org/results/22318"
+      },
+      {
+        "text": "9 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Welterweight, Men",
+        "link": "https://www.olympedia.org/results/22352"
+      },
+      {
+        "text": "7 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Middleweight, Men",
+        "link": "https://www.olympedia.org/results/22384"
+      },
+      {
+        "text": "7 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Light-Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/22415"
+      },
+      {
+        "text": "9 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Boxing",
+        "link": "https://www.olympedia.org/sports/BOX"
+      },
+      {
+        "text": "Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/22445"
+      },
+      {
+        "text": "9 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Men",
+        "link": "https://www.olympedia.org/results/54125"
+      },
+      {
+        "text": "30 – 31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Men",
+        "link": "https://www.olympedia.org/results/54126"
+      },
+      {
+        "text": "4 –  5 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Women",
+        "link": "https://www.olympedia.org/results/54127"
+      },
+      {
+        "text": "2 –  3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Women",
+        "link": "https://www.olympedia.org/results/54128"
+      },
+      {
+        "text": "6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5133"
+      },
+      {
+        "text": "30 – 31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5145"
+      },
+      {
+        "text": "31 July –  4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "1,500 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5157"
+      },
+      {
+        "text": "5 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/5192"
+      },
+      {
+        "text": "2 –  3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/5169"
+      },
+      {
+        "text": "4 –  6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/5181"
+      },
+      {
+        "text": "5 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/5197"
+      },
+      {
+        "text": "30 July –  2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/5208"
+      },
+      {
+        "text": "5 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/5236"
+      },
+      {
+        "text": "4 –  6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/5217"
+      },
+      {
+        "text": "3 –  5 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/5227"
+      },
+      {
+        "text": "30 July –  3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38179"
+      },
+      {
+        "text": "28 July –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/304000"
+      },
+      {
+        "text": "28 July –  5 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Doubles, Men",
+        "link": "https://www.olympedia.org/results/304070"
+      },
+      {
+        "text": "28 July –  5 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/304111"
+      },
+      {
+        "text": "28 July –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Doubles, Women",
+        "link": "https://www.olympedia.org/results/304193"
+      },
+      {
+        "text": "28 July –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Doubles, Mixed",
+        "link": "https://www.olympedia.org/results/304234"
+      },
+      {
+        "text": "28 July –  3 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Rhythmic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GRY"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/318000"
+      },
+      {
+        "text": "9 – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Rhythmic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GRY"
+      },
+      {
+        "text": "Group, Women",
+        "link": "https://www.olympedia.org/results/318011"
+      },
+      {
+        "text": "9 – 12 August 2012"
+      }
+    ]
+  ]
+}

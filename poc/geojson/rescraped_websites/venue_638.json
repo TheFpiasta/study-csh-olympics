@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jam-sil Ya-gu-jang, Seoul Sports Complex",
+      "Jamsil Baseball Stadium, Seoul Sports Complex"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.512168,127.071841",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "opened": "1982",
+    "seating_capacity": "30306",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/900467"
+      },
+      {
+        "text": "19 – 28 September 1988"
+      }
+    ]
+  ]
+}

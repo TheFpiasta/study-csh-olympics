@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Komazawa Hockey Fields, Komazawa Olympic Park"
+    ],
+    "place": "Tokyo",
+    "coordinates": "35.625241,139.661766",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1964",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "1964",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35743"
+      },
+      {
+        "text": "11 – 23 October 1964"
+      }
+    ]
+  ]
+}

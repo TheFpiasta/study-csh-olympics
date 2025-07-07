@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tranebergs Idrottsplats",
+      "Traneberg Sporting Grounds"
+    ],
+    "place": "Stockholm",
+    "coordinates": "59.334722,17.988245",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1912",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1912 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/6"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33530"
+      },
+      {
+        "text": "29 June –  5 July 1912"
+      }
+    ]
+  ]
+}

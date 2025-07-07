@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Windsor Great Park"
+    ],
+    "place": "Windsor",
+    "coordinates": "51.428008,-0.606316",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/153626"
+      },
+      {
+        "text": "13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Team, Men",
+        "link": "https://www.olympedia.org/results/153627"
+      },
+      {
+        "text": "13 August 1948"
+      }
+    ]
+  ]
+}

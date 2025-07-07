@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Basketball Arena, Olympic Park"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.5486,-0.0139",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "2011",
+    "seating_capacity": "12000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/303000"
+      },
+      {
+        "text": "29 July – 12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/303046"
+      },
+      {
+        "text": "28 July – 11 August 2012"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Copper Box, Olympic Park",
+      "Handball Arena (2011-2012)"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.5444,-0.0201",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball",
+      "Modern Pentathlon"
+    ],
+    "opened": "2011",
+    "seating_capacity": "7000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/317000"
+      },
+      {
+        "text": "11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/317007"
+      },
+      {
+        "text": "12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/314000"
+      },
+      {
+        "text": "29 July – 12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/314051"
+      },
+      {
+        "text": "28 July – 11 August 2012"
+      }
+    ]
+  ]
+}

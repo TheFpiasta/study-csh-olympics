@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Komazawa Stadium, Komazawa Olympic Park"
+    ],
+    "place": "Tokyo",
+    "coordinates": "35.625611,139.663664",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1964",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1964",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33775"
+      },
+      {
+        "text": "11 – 23 October 1964"
+      }
+    ]
+  ]
+}

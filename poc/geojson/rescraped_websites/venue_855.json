@@ -1,0 +1,793 @@
+{
+  "biodata": {
+    "associated_names": [
+      "London Aquatics Centre, Olympic Park"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.5402,-0.0106",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Artistic Swimming",
+      "Diving",
+      "Modern Pentathlon",
+      "Swimming"
+    ],
+    "opened": "2011",
+    "seating_capacity": "17500",
+    "type": "indoor venue",
+    "dimensions": "50 m (SWI)"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/322000"
+      },
+      {
+        "text": "28 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/322007"
+      },
+      {
+        "text": "28 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/322015"
+      },
+      {
+        "text": "28 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/322023"
+      },
+      {
+        "text": "28 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Springboard, Women",
+        "link": "https://www.olympedia.org/results/309000"
+      },
+      {
+        "text": "29 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/322037"
+      },
+      {
+        "text": "28 – 29 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/322049"
+      },
+      {
+        "text": "29 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/322057"
+      },
+      {
+        "text": "28 – 29 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/322069"
+      },
+      {
+        "text": "29 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Platform, Men",
+        "link": "https://www.olympedia.org/results/309009"
+      },
+      {
+        "text": "30 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/322083"
+      },
+      {
+        "text": "29 – 30 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/322095"
+      },
+      {
+        "text": "29 – 30 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/322107"
+      },
+      {
+        "text": "29 – 30 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/322120"
+      },
+      {
+        "text": "29 – 30 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Platform, Women",
+        "link": "https://www.olympedia.org/results/309020"
+      },
+      {
+        "text": "31 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/322132"
+      },
+      {
+        "text": "30 – 31 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/322143"
+      },
+      {
+        "text": "30 – 31 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/322154"
+      },
+      {
+        "text": "30 – 31 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/322165"
+      },
+      {
+        "text": "31 July 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Springboard, Men",
+        "link": "https://www.olympedia.org/results/309029"
+      },
+      {
+        "text": "1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/322179"
+      },
+      {
+        "text": "31 July –  1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/322193"
+      },
+      {
+        "text": "31 July –  1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/322203"
+      },
+      {
+        "text": "31 July –  1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/322214"
+      },
+      {
+        "text": "1 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/322228"
+      },
+      {
+        "text": "1 –  2 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/322239"
+      },
+      {
+        "text": "1 –  2 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/322251"
+      },
+      {
+        "text": "1 –  2 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/322262"
+      },
+      {
+        "text": "1 –  2 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "50 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/322275"
+      },
+      {
+        "text": "2 –  3 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/322289"
+      },
+      {
+        "text": "2 –  3 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "800 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/322301"
+      },
+      {
+        "text": "2 –  3 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/322309"
+      },
+      {
+        "text": "2 –  3 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "50 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/322320"
+      },
+      {
+        "text": "3 –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "1,500 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/322337"
+      },
+      {
+        "text": "3 –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Men",
+        "link": "https://www.olympedia.org/results/322344"
+      },
+      {
+        "text": "3 –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Women",
+        "link": "https://www.olympedia.org/results/322358"
+      },
+      {
+        "text": "3 –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Women",
+        "link": "https://www.olympedia.org/results/322358"
+      },
+      {
+        "text": "3 –  4 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Women",
+        "link": "https://www.olympedia.org/results/309040"
+      },
+      {
+        "text": "3 –  5 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Men",
+        "link": "https://www.olympedia.org/results/309068"
+      },
+      {
+        "text": "6 –  7 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Artistic Swimming",
+        "link": "https://www.olympedia.org/sports/SWA"
+      },
+      {
+        "text": "Duet, Women",
+        "link": "https://www.olympedia.org/results/323000"
+      },
+      {
+        "text": "5 –  7 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/317000"
+      },
+      {
+        "text": "11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/317007"
+      },
+      {
+        "text": "12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Men",
+        "link": "https://www.olympedia.org/results/309102"
+      },
+      {
+        "text": "10 – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Women",
+        "link": "https://www.olympedia.org/results/309136"
+      },
+      {
+        "text": "8 –  9 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Artistic Swimming",
+        "link": "https://www.olympedia.org/sports/SWA"
+      },
+      {
+        "text": "Team, Women",
+        "link": "https://www.olympedia.org/results/323006"
+      },
+      {
+        "text": "9 – 10 August 2012"
+      }
+    ]
+  ]
+}

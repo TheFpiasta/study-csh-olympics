@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Casserousse"
+    ],
+    "place": "Chamrousse",
+    "coordinates": "45.140805,5.887894",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Downhill, Men",
+        "link": "https://www.olympedia.org/results/1238"
+      },
+      {
+        "text": "9 February 1968"
+      }
+    ]
+  ]
+}

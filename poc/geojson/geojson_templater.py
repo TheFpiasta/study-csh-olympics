@@ -5,8 +5,8 @@ import time
 
 start_time = time.time()
 
-input_dir = os.path.join(os.path.dirname(__file__), "scraped_websites")
-output_dir = os.path.join(os.path.dirname(__file__), "output_files")
+input_dir = os.path.join(os.path.dirname(__file__), "rescraped_websites")
+output_dir = os.path.join(os.path.dirname(__file__), "output_files_rescraped")
 os.makedirs(output_dir, exist_ok=True)
 
 geojson_groups = {}
@@ -41,8 +41,6 @@ for file_path in glob.glob(os.path.join(input_dir, "venue_*.json")):
         skipped_files += 1
         continue
 
-    year = biodata.get("year", "unknown")
-    season = biodata.get("season", "unknown").lower()
     events = data.get("event_data", [])
 
     # Create a copy of all biodata fields for properties
@@ -52,23 +50,48 @@ for file_path in glob.glob(os.path.join(input_dir, "venue_*.json")):
         "source_file": os.path.basename(file_path)
     })
 
-    feature = {
-        "type": "Feature",
-        "geometry": {
-            "type": "Point",
-            "coordinates": [lon, lat]
-        },
-        "properties": properties
-    }
+    games = biodata.get("games")
+    if games and isinstance(games, list):
+        for game in games:
+            year = game.get("year", "unknown")
+            season = game.get("season", "unknown").lower()
+            key = f"{year}-{season}"
 
-    key = f"{year}-{season}"
+            if key not in geojson_groups:
+                geojson_groups[key] = {
+                    "type": "FeatureCollection",
+                    "features": []
+                }
+
+            geojson_groups[key]["features"].append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [lon, lat]
+                },
+                "properties": properties
+            })
+    else:
+        # fallback to old logic if "games" key not present
+        year = biodata.get("year", "unknown")
+        season = biodata.get("season", "unknown").lower()
+        key = f"{year}-{season}"
+
     if key not in geojson_groups:
         geojson_groups[key] = {
             "type": "FeatureCollection",
             "features": []
         }
 
-    geojson_groups[key]["features"].append(feature)
+    geojson_groups[key]["features"].append({
+        "type": "Feature",
+        "geometry": {
+            "type": "Point",
+            "coordinates": [lon, lat]
+        },
+        "properties": properties
+    })
+
 
 print(f"\n✅ Finished processing {file_count} files (skipped {skipped_files})")
 print(f"📦 Generating GeoJSON files for {len(geojson_groups)} year-season groups...\n")

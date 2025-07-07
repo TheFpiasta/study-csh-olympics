@@ -62,12 +62,14 @@ while i < iteration:
                     sport = value.split("/")
                     biodata[key] = sport
                 elif key == "games":
-                    entries = value.split()
-                    year, season = (entries + [None, None])[:2]
-                    if year:
-                        biodata["year"] = year
-                    if season:
-                        biodata["season"] = season
+                    games = [g.strip() for g in value.split('/') if g.strip()]
+                    biodata["games"] = []
+                    for game in games:
+                        parts = game.split()
+                        year = parts[0] if len(parts) > 0 else None
+                        season = parts[1] if len(parts) > 1 else None
+                        if year and season:
+                            biodata["games"].append({"year": year, "season": season})
                 elif key in ["english_name", "name", "other_names"]:
                     if "associated_names" not in biodata:
                         biodata["associated_names"] = []

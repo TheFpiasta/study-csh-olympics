@@ -1,0 +1,92 @@
+{
+  "biodata": {
+    "associated_names": [
+      "IJspaleis Antwerpen",
+      "Ice Palace Antwerp"
+    ],
+    "place": "Antwerpen",
+    "coordinates": "51.213887,4.407978",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1920",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Figure Skating",
+      "Ice Hockey"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/12548"
+      },
+      {
+        "text": "25 – 27 April 1920"
+      }
+    ],
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/12572"
+      },
+      {
+        "text": "25 April 1920"
+      }
+    ],
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Pairs, Mixed",
+        "link": "https://www.olympedia.org/results/12590"
+      },
+      {
+        "text": "26 April 1920"
+      }
+    ],
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20000"
+      },
+      {
+        "text": "23 – 29 April 1920"
+      }
+    ]
+  ]
+}

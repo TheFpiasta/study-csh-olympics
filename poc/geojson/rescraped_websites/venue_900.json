@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Olímpico de Hóquei, Parque Olímpico de Deodoro",
+      "Olympic Hockey Centre, Deodoro Olympic Park"
+    ],
+    "place": "Deodoro, Rio de Janeiro",
+    "coordinates": "-22.8607504,-43.4029453",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "2007",
+    "seating_capacity": "10000 (pitch 1) / 5000 (pitch 2)",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/358460"
+      },
+      {
+        "text": "6 – 18 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/358506"
+      },
+      {
+        "text": "6 – 19 August 2016"
+      }
+    ]
+  ]
+}

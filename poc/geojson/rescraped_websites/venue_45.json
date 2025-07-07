@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      ""
+    ],
+    "place": "Autrans",
+    "coordinates": "45.170231,5.54705",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "opened": "1967",
+    "seating_capacity": "40000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2238"
+      },
+      {
+        "text": "10 – 12 February 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Normal Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2382"
+      },
+      {
+        "text": "11 February 1968"
+      }
+    ]
+  ]
+}

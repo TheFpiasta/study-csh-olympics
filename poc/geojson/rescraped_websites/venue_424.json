@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Equestre Federale",
+      "Federal Equestrian Centre"
+    ],
+    "place": "Pratoni del Vivaro",
+    "coordinates": "41.752967,12.775002",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "opened": "1960",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185176"
+      },
+      {
+        "text": "6 – 10 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185181"
+      },
+      {
+        "text": "6 – 10 September 1960"
+      }
+    ]
+  ]
+}

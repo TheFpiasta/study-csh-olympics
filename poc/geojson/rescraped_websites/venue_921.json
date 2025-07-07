@@ -1,0 +1,95 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estádio de Deodoro, Parque Olímpico de Deodoro",
+      "Deodoro Stadium, Deodoro Olympic Park"
+    ],
+    "place": "Deodoro, Rio de Janeiro",
+    "coordinates": "-22.8610399,-43.4067056",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon",
+      "Rugby Sevens",
+      "Swimming"
+    ],
+    "opened": "2016",
+    "seating_capacity": "15000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/351850"
+      },
+      {
+        "text": "18 – 20 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/352522"
+      },
+      {
+        "text": "18 – 19 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Rugby Sevens",
+        "link": "https://www.olympedia.org/sports/RU7"
+      },
+      {
+        "text": "Rugby Sevens, Men",
+        "link": "https://www.olympedia.org/results/357350"
+      },
+      {
+        "text": "9 – 11 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Rugby Sevens",
+        "link": "https://www.olympedia.org/sports/RU7"
+      },
+      {
+        "text": "Rugby Sevens, Women",
+        "link": "https://www.olympedia.org/results/357395"
+      },
+      {
+        "text": "6 –  8 August 2016"
+      }
+    ]
+  ]
+}

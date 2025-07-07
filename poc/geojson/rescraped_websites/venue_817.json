@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Wukesong Bangqiuchang",
+      "Wukesong Baseball Field"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.9093,116.271781",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "notes": "Two fields. Temporary facility, converted to shopping mall after the 2008 Olympics.",
+    "opened": "2008",
+    "seating_capacity": "15000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/258572"
+      },
+      {
+        "text": "13 – 23 August 2008"
+      }
+    ]
+  ]
+}

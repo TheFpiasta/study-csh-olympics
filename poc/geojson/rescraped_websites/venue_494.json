@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio Municipal de Hockey, Ciudad Deportiva Magdalena Mixhuca",
+      "Municipal Hockey Stadium, Magdalena Mixhuca Sports City"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.407509,-99.095006",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "1964",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35806"
+      },
+      {
+        "text": "13 – 26 October 1968"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stade Bergeyre",
+      "Bergeyre Stadium"
+    ],
+    "place": "Paris",
+    "coordinates": "48.877222,2.376944",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1924",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1918",
+    "demolished": "1926",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33584"
+      },
+      {
+        "text": "25 May –  9 June 1924"
+      }
+    ]
+  ]
+}

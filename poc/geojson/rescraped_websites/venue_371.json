@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tennispalatsi",
+      "Tennis Palace"
+    ],
+    "place": "Helsinki",
+    "coordinates": "60.169722,24.930278",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1938",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/31969"
+      },
+      {
+        "text": "14 July –  2 August 1952"
+      }
+    ]
+  ]
+}

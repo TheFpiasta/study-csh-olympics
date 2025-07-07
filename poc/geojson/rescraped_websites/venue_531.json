@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hindenburgufer, Kieler Förde",
+      "Hindenburg Shore"
+    ],
+    "place": "Kiel",
+    "coordinates": "54.344776,10.158534",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Waterskiing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Waterskiing",
+        "link": "https://www.olympedia.org/sports/WSK"
+      },
+      {
+        "text": "Jumping, Men",
+        "link": "https://www.olympedia.org/results/900317"
+      },
+      {
+        "text": "3 September 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Waterskiing",
+        "link": "https://www.olympedia.org/sports/WSK"
+      },
+      {
+        "text": "Jumping, Women",
+        "link": "https://www.olympedia.org/results/900320"
+      },
+      {
+        "text": "3 September 1972"
+      }
+    ]
+  ]
+}

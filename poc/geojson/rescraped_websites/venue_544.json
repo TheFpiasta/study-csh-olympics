@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sporthalle Augsburg",
+      "Augsburg Sports Hall"
+    ],
+    "place": "Augsburg",
+    "coordinates": "48.356395,10.880126",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1965",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34518"
+      },
+      {
+        "text": "30 August – 10 September 1972"
+      }
+    ]
+  ]
+}

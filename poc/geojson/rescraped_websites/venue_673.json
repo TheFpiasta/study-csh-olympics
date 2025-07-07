@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio de Béisbol de Viladecans (also known as Estadi de Beisbol de Viladecans)",
+      "Viladecans Baseball Stadium"
+    ],
+    "place": "Viladecans",
+    "coordinates": "41.325046,2.017237",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "seating_capacity": "4000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/30700"
+      },
+      {
+        "text": "26 July –  5 August 1992"
+      }
+    ]
+  ]
+}

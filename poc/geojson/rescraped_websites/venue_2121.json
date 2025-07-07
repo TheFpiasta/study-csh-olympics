@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Izu Mountain Bike Course"
+    ],
+    "place": "1826, Ono, Izu-shi, Shizuoka 410-2402, Japan",
+    "coordinates": "35.01067,139.01491",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Mountain Bike"
+    ],
+    "seating_capacity": "11500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Men",
+        "link": "https://www.olympedia.org/results/19001704"
+      },
+      {
+        "text": "26 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Women",
+        "link": "https://www.olympedia.org/results/19001705"
+      },
+      {
+        "text": "27 July 2021"
+      }
+    ]
+  ]
+}

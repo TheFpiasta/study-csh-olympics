@@ -1,0 +1,77 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jam-sil Che-yuk-gwan, Seoul Sports Complex",
+      "Jamsil Gymnasium, Seoul Sports Complex"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.516364,127.075958",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball",
+      "Volleyball"
+    ],
+    "opened": "1979",
+    "seating_capacity": "12751",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32646"
+      },
+      {
+        "text": "17 – 30 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/32701"
+      },
+      {
+        "text": "19 – 29 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37404"
+      },
+      {
+        "text": "17 September –  2 October 1988"
+      }
+    ]
+  ]
+}

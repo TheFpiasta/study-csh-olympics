@@ -1,0 +1,94 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Makomanai Indoor Skating Rink"
+    ],
+    "place": "Sapporo",
+    "coordinates": "42.999444,141.347344",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Figure Skating",
+      "Ice Hockey",
+      "Closing ceremony"
+    ],
+    "opened": "1972",
+    "seating_capacity": "2700",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/13272"
+      },
+      {
+        "text": "8 – 11 February 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/13302"
+      },
+      {
+        "text": "4 –  7 February 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Pairs, Mixed",
+        "link": "https://www.olympedia.org/results/13332"
+      },
+      {
+        "text": "6 –  8 February 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20400"
+      },
+      {
+        "text": "3 – 13 February 1972"
+      }
+    ]
+  ]
+}

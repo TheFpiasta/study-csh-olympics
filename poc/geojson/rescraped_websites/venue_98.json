@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Lillestrøm Idrettsplass",
+      "Lillestrøm Sports Field"
+    ],
+    "place": "Lillestrøm",
+    "coordinates": "59.960602,11.068447",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ice Hockey"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20162"
+      },
+      {
+        "text": "15 – 25 February 1952"
+      }
+    ]
+  ]
+}

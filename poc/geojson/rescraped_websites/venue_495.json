@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Campo Militar No. 1",
+      "Military Camp Nr. 1"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.441463,-99.225651",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50135"
+      },
+      {
+        "text": "13 – 17 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50144"
+      },
+      {
+        "text": "13 – 17 October 1968"
+      }
+    ]
+  ]
+}

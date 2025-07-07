@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Earls Court Exhibition Centre"
+    ],
+    "place": "Kensington and Chelsea, London",
+    "coordinates": "51.488889,-0.197778",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "notes": "Different venue from the nearby Empress Hall (now demolished) used at the 1948 Olympics.",
+    "opened": "1937",
+    "seating_capacity": "15000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/329000"
+      },
+      {
+        "text": "29 July – 12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/329046"
+      },
+      {
+        "text": "28 July – 11 August 2012"
+      }
+    ]
+  ]
+}

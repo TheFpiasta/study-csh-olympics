@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pankritio Stadio",
+      "Pan-Cretan Stadium"
+    ],
+    "place": "Iraklion",
+    "coordinates": "35.336667,25.106111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "2004",
+    "seating_capacity": "26400",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34224"
+      },
+      {
+        "text": "11 – 28 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34265"
+      },
+      {
+        "text": "11 – 26 August 2004"
+      }
+    ]
+  ]
+}

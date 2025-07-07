@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "UBC Thunderbird Arena (also known as Doug Mitchell Thunderbird Sports Centre)"
+    ],
+    "place": "University Endowment Lands",
+    "coordinates": "49.261106,-123.243056",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "2008",
+    "seating_capacity": "7200",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/57"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/924000"
+      },
+      {
+        "text": "16 – 28 February 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/57"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/924040"
+      },
+      {
+        "text": "13 – 25 February 2010"
+      }
+    ]
+  ]
+}

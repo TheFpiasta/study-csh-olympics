@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Varsity Stadium"
+    ],
+    "place": "Toronto, Ontario",
+    "coordinates": "43.666667,-79.397222",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1976",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Stadium demolished in 2002, but replaced on same site by a new stadium.",
+    "opened": "1898",
+    "demolished": "2002",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33902"
+      },
+      {
+        "text": "18 – 31 July 1976"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      ""
+    ],
+    "place": "Berlin",
+    "coordinates": "52.515333,13.412848",
+    "coordinates_trust": "No information",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Aeronautics",
+      "Alpinism"
+    ],
+    "notes": "It is unknown where the prizes for aeronautics and alpinism where awarded.",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Aeronautics",
+        "link": "https://www.olympedia.org/sports/AER"
+      },
+      {
+        "text": "Aeronautics, Open",
+        "link": "https://www.olympedia.org/results/900063"
+      },
+      {
+        "text": "16 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Alpinism",
+        "link": "https://www.olympedia.org/sports/APN"
+      },
+      {
+        "text": "Alpinism, Open",
+        "link": "https://www.olympedia.org/results/900062"
+      },
+      {
+        "text": "16 August 1936"
+      }
+    ]
+  ]
+}

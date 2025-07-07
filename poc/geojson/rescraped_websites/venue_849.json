@@ -1,0 +1,74 @@
+{
+  "biodata": {
+    "associated_names": [
+      ""
+    ],
+    "place": "Montgeron, Essonne",
+    "coordinates": "48.703962,2.456582",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1900",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Automobile Racing",
+      "Motorcycle Sports"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Automobile Racing",
+        "link": "https://www.olympedia.org/sports/AUT"
+      },
+      {
+        "text": "Paris-Toulouse-Paris, Cars, Men",
+        "link": "https://www.olympedia.org/results/925079"
+      },
+      {
+        "text": "25 – 28 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Motorcycle Sports",
+        "link": "https://www.olympedia.org/sports/MCS"
+      },
+      {
+        "text": "Paris-Toulouse-Paris, Motorcycles, Men",
+        "link": "https://www.olympedia.org/results/925080"
+      },
+      {
+        "text": "25 – 28 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Automobile Racing",
+        "link": "https://www.olympedia.org/sports/AUT"
+      },
+      {
+        "text": "Paris-Toulouse-Paris, Voiturettes, Men",
+        "link": "https://www.olympedia.org/results/925081"
+      },
+      {
+        "text": "25 – 28 July 1900"
+      }
+    ]
+  ]
+}

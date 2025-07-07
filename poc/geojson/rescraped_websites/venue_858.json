@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "City of Coventry Stadium",
+      "Ricoh Arena (2005-present)"
+    ],
+    "place": "Coventry",
+    "coordinates": "52.448056,-1.495556",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "2005",
+    "seating_capacity": "32500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/312000"
+      },
+      {
+        "text": "26 July – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/312042"
+      },
+      {
+        "text": "25 July –  9 August 2012"
+      }
+    ]
+  ]
+}

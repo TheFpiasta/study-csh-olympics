@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dantebad",
+      "Dante Baths"
+    ],
+    "place": "München",
+    "coordinates": "48.167488,11.531138",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Water Polo"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38502"
+      },
+      {
+        "text": "27 August –  4 September 1972"
+      }
+    ]
+  ]
+}

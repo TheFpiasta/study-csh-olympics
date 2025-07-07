@@ -1,0 +1,679 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Helsingin Olympiastadion",
+      "Helsinki Olympic Stadium"
+    ],
+    "place": "Helsinki",
+    "coordinates": "60.186944,24.927222",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics",
+      "Equestrian Jumping",
+      "Football",
+      "Handball",
+      "Pesäpallo",
+      "Opening ceremony",
+      "Closing ceremony"
+    ],
+    "opened": "1938",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Loose cinders",
+    "altitude": "10 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/58826"
+      },
+      {
+        "text": "20 – 21 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/58849"
+      },
+      {
+        "text": "22 – 23 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/58880"
+      },
+      {
+        "text": "24 – 25 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/58903"
+      },
+      {
+        "text": "20 – 22 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/58918"
+      },
+      {
+        "text": "24 – 26 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Men",
+        "link": "https://www.olympedia.org/results/58930"
+      },
+      {
+        "text": "22 – 24 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Men",
+        "link": "https://www.olympedia.org/results/58936"
+      },
+      {
+        "text": "20 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/58937"
+      },
+      {
+        "text": "27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/58938"
+      },
+      {
+        "text": "23 – 24 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/58950"
+      },
+      {
+        "text": "20 – 21 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/58969"
+      },
+      {
+        "text": "23 – 25 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/58981"
+      },
+      {
+        "text": "26 – 27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/58991"
+      },
+      {
+        "text": "26 – 27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/58975"
+      },
+      {
+        "text": "24 – 27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "50 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/58980"
+      },
+      {
+        "text": "21 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/58997"
+      },
+      {
+        "text": "20 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/59008"
+      },
+      {
+        "text": "21 – 22 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/59021"
+      },
+      {
+        "text": "21 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/59030"
+      },
+      {
+        "text": "23 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/59041"
+      },
+      {
+        "text": "21 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/59050"
+      },
+      {
+        "text": "22 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/59061"
+      },
+      {
+        "text": "24 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Men",
+        "link": "https://www.olympedia.org/results/59072"
+      },
+      {
+        "text": "23 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Decathlon, Men",
+        "link": "https://www.olympedia.org/results/59089"
+      },
+      {
+        "text": "25 – 26 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Women",
+        "link": "https://www.olympedia.org/results/59137"
+      },
+      {
+        "text": "21 – 22 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Women",
+        "link": "https://www.olympedia.org/results/59160"
+      },
+      {
+        "text": "25 – 26 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "80 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/59173"
+      },
+      {
+        "text": "23 – 24 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/59185"
+      },
+      {
+        "text": "27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Women",
+        "link": "https://www.olympedia.org/results/59191"
+      },
+      {
+        "text": "27 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Women",
+        "link": "https://www.olympedia.org/results/59203"
+      },
+      {
+        "text": "23 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Women",
+        "link": "https://www.olympedia.org/results/59214"
+      },
+      {
+        "text": "26 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Women",
+        "link": "https://www.olympedia.org/results/59223"
+      },
+      {
+        "text": "20 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Women",
+        "link": "https://www.olympedia.org/results/59232"
+      },
+      {
+        "text": "24 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185147"
+      },
+      {
+        "text": "3 August 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185150"
+      },
+      {
+        "text": "3 August 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33688"
+      },
+      {
+        "text": "15 July –  2 August 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/900070"
+      },
+      {
+        "text": "30 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Pesäpallo",
+        "link": "https://www.olympedia.org/sports/PSP"
+      },
+      {
+        "text": "Pesäpallo, Men",
+        "link": "https://www.olympedia.org/results/900069"
+      },
+      {
+        "text": "31 July 1952"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mountainbike Course, Georgia International Horse Park"
+    ],
+    "place": "Conyers, Georgia",
+    "coordinates": "33.673234,-83.945503",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Mountain Bike"
+    ],
+    "opened": "1994",
+    "seating_capacity": "32000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Men",
+        "link": "https://www.olympedia.org/results/154880"
+      },
+      {
+        "text": "30 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Women",
+        "link": "https://www.olympedia.org/results/154920"
+      },
+      {
+        "text": "30 July 1996"
+      }
+    ]
+  ]
+}

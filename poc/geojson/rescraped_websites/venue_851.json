@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Boulodrome de Saint-Mandé, Parc de Vincennes",
+      "Boulodrome de Saint-Mandé, Vincennes Park"
+    ],
+    "place": "Paris",
+    "coordinates": "48.83822,2.42285",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1900",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Boules"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Boules",
+        "link": "https://www.olympedia.org/sports/BOU"
+      },
+      {
+        "text": "Jeu lyonnais, Quartets, Men",
+        "link": "https://www.olympedia.org/results/925108"
+      },
+      {
+        "text": "15 – 16 August 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Boules",
+        "link": "https://www.olympedia.org/sports/BOU"
+      },
+      {
+        "text": "Jeu de berges, Quartets, Men",
+        "link": "https://www.olympedia.org/results/925109"
+      },
+      {
+        "text": "15 – 16 August 1900"
+      }
+    ]
+  ]
+}

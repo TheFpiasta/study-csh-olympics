@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ethniko Kaftanzogleio Stadio Thessalonikis",
+      "Kaftanzoglou National Stadium of Thessaloniki"
+    ],
+    "place": "Thessaloniki",
+    "coordinates": "40.625497,22.967003",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1960",
+    "seating_capacity": "37000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34224"
+      },
+      {
+        "text": "11 – 28 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34265"
+      },
+      {
+        "text": "11 – 26 August 2004"
+      }
+    ]
+  ]
+}

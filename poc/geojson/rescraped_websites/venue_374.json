@@ -1,0 +1,113 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Helsingin Velodromi",
+      "Helsinki Velodrome"
+    ],
+    "place": "Helsinki",
+    "coordinates": "60.202778,24.942778",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Track",
+      "Hockey"
+    ],
+    "opened": "1940",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Concrete",
+    "additional_details": "37.5° curves, 16.0° straights"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Sprint, Men",
+        "link": "https://www.olympedia.org/results/153629"
+      },
+      {
+        "text": "28 – 31 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "1,000 metres Time Trial, Men",
+        "link": "https://www.olympedia.org/results/153628"
+      },
+      {
+        "text": "31 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Tandem Sprint, 2,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153659"
+      },
+      {
+        "text": "28 – 31 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Team Pursuit, 4,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153684"
+      },
+      {
+        "text": "28 – 29 July 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35613"
+      },
+      {
+        "text": "15 – 25 July 1952"
+      }
+    ]
+  ]
+}

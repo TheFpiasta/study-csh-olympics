@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kasumigaseki Country Club",
+      "霞ヶ関カンツリー倶楽部"
+    ],
+    "place": "Kawagoe, Saitama, Japan",
+    "coordinates": "35.901389,139.404444",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Golf"
+    ],
+    "opened": "1929",
+    "type": "outdoor venue",
+    "dimensions": "6827 metres"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/19001120"
+      },
+      {
+        "text": "29 July –  1 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/19001127"
+      },
+      {
+        "text": "4 –  7 August 2021"
+      }
+    ]
+  ]
+}

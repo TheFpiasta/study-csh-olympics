@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hohenstaufenhalle",
+      "Hohenstaufen Hall",
+      "EWS-Arena (2008-Present)"
+    ],
+    "place": "Göppingen",
+    "coordinates": "48.710706,9.648099",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1967",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34518"
+      },
+      {
+        "text": "30 August – 10 September 1972"
+      }
+    ]
+  ]
+}

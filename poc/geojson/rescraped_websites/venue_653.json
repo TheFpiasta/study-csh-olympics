@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Su-won Sil-nae Che-yuk-gwan",
+      "Suwon Gymnastium"
+    ],
+    "place": "Suwon",
+    "coordinates": "37.298056,127.008889",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1963",
+    "seating_capacity": "6000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34742"
+      },
+      {
+        "text": "20 September –  1 October 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/34783"
+      },
+      {
+        "text": "21 – 29 September 1988"
+      }
+    ]
+  ]
+}

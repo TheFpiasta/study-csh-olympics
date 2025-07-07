@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kapplöpningsbana",
+      "Race Track"
+    ],
+    "place": "Ulriksdal",
+    "coordinates": "59.379627,18.006109",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1956",
+        "season": "Equestrian"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Equestrian Olympics",
+        "link": "https://www.olympedia.org/editions/48"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185153"
+      },
+      {
+        "text": "11 – 14 June 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Equestrian Olympics",
+        "link": "https://www.olympedia.org/editions/48"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185158"
+      },
+      {
+        "text": "11 – 14 June 1956"
+      }
+    ]
+  ]
+}

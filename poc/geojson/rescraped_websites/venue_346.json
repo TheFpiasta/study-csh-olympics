@@ -1,0 +1,75 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tweseldown Racecourse"
+    ],
+    "place": "Fleet, Hampshire",
+    "coordinates": "51.26,-0.8175",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing",
+      "Modern Pentathlon"
+    ],
+    "opened": "1866",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185118"
+      },
+      {
+        "text": "10 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185123"
+      },
+      {
+        "text": "10 – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50054"
+      },
+      {
+        "text": "30 July –  4 August 1948"
+      }
+    ]
+  ]
+}

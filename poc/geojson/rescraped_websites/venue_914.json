@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ginásio do Maracanãzinho",
+      "Maracanãzinho",
+      "Ginásio Gilberto Cardoso"
+    ],
+    "place": "Maracanã, Rio de Janeiro",
+    "coordinates": "-22.913933,-43.2291866",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1954",
+    "seating_capacity": "12000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/396200"
+      },
+      {
+        "text": "7 – 21 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/396246"
+      },
+      {
+        "text": "7 – 21 August 2016"
+      }
+    ]
+  ]
+}

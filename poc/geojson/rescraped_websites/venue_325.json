@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mommsenstadion",
+      "Mommsen Stadium"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.500833,13.264167",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1930",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33641"
+      },
+      {
+        "text": "3 – 15 August 1936"
+      }
+    ]
+  ]
+}

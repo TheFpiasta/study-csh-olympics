@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stade du Parc Duden",
+      "Duden Park Stadium"
+    ],
+    "place": "Saint-Gilles",
+    "coordinates": "50.817793,4.329395",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1920",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Currently Stade Joseph Marien.",
+    "opened": "1919",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33556"
+      },
+      {
+        "text": "28 August –  5 September 1920"
+      }
+    ]
+  ]
+}

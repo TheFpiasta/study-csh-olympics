@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pistol Range"
+    ],
+    "place": "Coto de Caza, California",
+    "coordinates": "33.595833,-117.587778",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1984",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50207"
+      },
+      {
+        "text": "29 July –  1 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50216"
+      },
+      {
+        "text": "29 July –  1 August 1984"
+      }
+    ]
+  ]
+}

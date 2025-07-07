@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Lindarängen"
+    ],
+    "place": "Stockholm",
+    "coordinates": "59.343569,18.094504",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1912",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1912 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/6"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185005"
+      },
+      {
+        "text": "13 – 17 July 1912"
+      }
+    ],
+    [
+      {
+        "text": "1912 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/6"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185014"
+      },
+      {
+        "text": "13 – 17 July 1912"
+      }
+    ]
+  ]
+}

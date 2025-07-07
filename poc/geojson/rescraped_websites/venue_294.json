@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Schietterrein",
+      "Shooting Terrain"
+    ],
+    "place": "Zeeburg, Amsterdam",
+    "coordinates": "52.372668,4.964672",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1928",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50027"
+      },
+      {
+        "text": "31 July –  4 August 1928"
+      }
+    ]
+  ]
+}

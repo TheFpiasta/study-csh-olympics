@@ -1,0 +1,74 @@
+{
+  "biodata": {
+    "associated_names": [
+      "East Coast Park"
+    ],
+    "place": "Singapore",
+    "coordinates": "1.303956,103.926373",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Triathlon"
+    ],
+    "opened": "1972",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Sprint, Boys",
+        "link": "https://www.olympedia.org/results/4005039"
+      },
+      {
+        "text": "16 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Sprint, Girls",
+        "link": "https://www.olympedia.org/results/4005040"
+      },
+      {
+        "text": "15 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Relay, Mixed Youth",
+        "link": "https://www.olympedia.org/results/4005041"
+      },
+      {
+        "text": "19 August 2010"
+      }
+    ]
+  ]
+}

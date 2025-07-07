@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kartodromo, Autodromo Juan y Oscar Gálvez"
+    ],
+    "place": "Buenos Aires",
+    "coordinates": "-34.698117,-58.467197",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2018",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Automobile Racing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Automobile Racing",
+        "link": "https://www.olympedia.org/sports/AUT"
+      },
+      {
+        "text": "Karting, Team, Mixed Youth",
+        "link": "https://www.olympedia.org/results/4006323"
+      },
+      {
+        "text": "13 October 2018"
+      }
+    ]
+  ]
+}

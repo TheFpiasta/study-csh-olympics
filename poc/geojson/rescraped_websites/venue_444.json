@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Piscina delle Rose",
+      "Rose Swimming Pool"
+    ],
+    "place": "Roma",
+    "coordinates": "41.830835,12.46245",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "1960",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38341"
+      },
+      {
+        "text": "25 August –  3 September 1960"
+      }
+    ]
+  ]
+}

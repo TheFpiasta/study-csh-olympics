@@ -1,0 +1,77 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Basketballhalle, Siegenburger Straße",
+      "Basketball Hall, Siegenburger Street",
+      "Rudi-Sedlmayer-Halle (?-Present)"
+    ],
+    "place": "München",
+    "coordinates": "48.126001,11.525425",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball",
+      "Judo"
+    ],
+    "opened": "1972",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32349"
+      },
+      {
+        "text": "27 August –  9 September 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/15351"
+      },
+      {
+        "text": "31 August 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Open Class, Men",
+        "link": "https://www.olympedia.org/results/15391"
+      },
+      {
+        "text": "9 September 1972"
+      }
+    ]
+  ]
+}

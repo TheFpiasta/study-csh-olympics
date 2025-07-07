@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Odori Park",
+      "大通公園, Ōdōri Kōen"
+    ],
+    "place": "Sapporo, Hokkaido, Japan",
+    "coordinates": "43.059722,141.346389",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics"
+    ],
+    "opened": "1869",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/19000437"
+      },
+      {
+        "text": "8 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Women",
+        "link": "https://www.olympedia.org/results/19000740"
+      },
+      {
+        "text": "7 August 2021"
+      }
+    ]
+  ]
+}

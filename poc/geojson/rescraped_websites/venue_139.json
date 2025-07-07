@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympic Jumping Hill (also known as Papoose Peak Jumps)"
+    ],
+    "place": "Squaw Valley, California",
+    "coordinates": "39.196717,-120.23014",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "opened": "1959",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2224"
+      },
+      {
+        "text": "21 – 22 February 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2371"
+      },
+      {
+        "text": "28 February 1960"
+      }
+    ]
+  ]
+}

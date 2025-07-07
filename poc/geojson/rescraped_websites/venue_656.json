@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mong-chon To-seong, Ol-lim-pik Gong-won",
+      "Mongchon Toseong, Olympic Park"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.520736,127.118789",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "notes": "Ancient mud wall uncovered during construction of the Olympic Park.",
+    "opened": "300",
+    "seating_capacity": "10000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50225"
+      },
+      {
+        "text": "18 – 22 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50234"
+      },
+      {
+        "text": "18 – 22 September 1988"
+      }
+    ]
+  ]
+}

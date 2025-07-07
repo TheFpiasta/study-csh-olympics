@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadium, Jiangning Sports Centre"
+    ],
+    "place": "Jiangning, Nanjing",
+    "coordinates": "31.9145944,118.8908472",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2014",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Boys",
+        "link": "https://www.olympedia.org/results/9007377"
+      },
+      {
+        "text": "15 – 27 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Girls",
+        "link": "https://www.olympedia.org/results/9007394"
+      },
+      {
+        "text": "14 – 26 August 2014"
+      }
+    ]
+  ]
+}

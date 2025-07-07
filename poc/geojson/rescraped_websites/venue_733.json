@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Panther Stadium, Clark Atlanta University"
+    ],
+    "place": "Atlanta, Georgia",
+    "coordinates": "33.753056,-84.411111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "seating_capacity": "5000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/36262"
+      },
+      {
+        "text": "20 July –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/36312"
+      },
+      {
+        "text": "20 July –  1 August 1996"
+      }
+    ]
+  ]
+}

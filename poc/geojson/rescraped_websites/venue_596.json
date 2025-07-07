@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Malaya arena, Tsentralny stadion imeni V. I. Lenina",
+      "Minor Arena, Central Lenin Stadium Area",
+      "Malaya Sportivaya Arena Luzhniki (?-Present)"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.718252,37.549301",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1980",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1956",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37278"
+      },
+      {
+        "text": "20 July –  1 August 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37314"
+      },
+      {
+        "text": "21 – 29 July 1980"
+      }
+    ]
+  ]
+}

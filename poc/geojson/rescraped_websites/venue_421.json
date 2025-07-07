@@ -1,0 +1,116 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Velodrome Olimpico",
+      "Olympic Velodrome",
+      "Velodromo Fausto Coppi"
+    ],
+    "place": "Roma",
+    "coordinates": "41.826554,12.456971",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Track",
+      "Hockey"
+    ],
+    "notes": "Last raced in the 1970s, then allowed to decay and became a shelter for homeless people.",
+    "opened": "1960",
+    "demolished": "2008",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Wood",
+    "additional_details": "37.27° curves, 9.59° straights."
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Sprint, Men",
+        "link": "https://www.olympedia.org/results/153772"
+      },
+      {
+        "text": "26 – 29 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "1,000 metres Time Trial, Men",
+        "link": "https://www.olympedia.org/results/153771"
+      },
+      {
+        "text": "26 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Tandem Sprint, 2,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153826"
+      },
+      {
+        "text": "26 – 27 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Team Pursuit, 4,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153850"
+      },
+      {
+        "text": "27 – 29 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35685"
+      },
+      {
+        "text": "26 August – 11 September 1960"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio de La Romareda",
+      "Romareda Stadium"
+    ],
+    "place": "Zaragoza",
+    "coordinates": "41.636592,-0.901822",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1957",
+    "seating_capacity": "43000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34057"
+      },
+      {
+        "text": "24 July –  8 August 1992"
+      }
+    ]
+  ]
+}

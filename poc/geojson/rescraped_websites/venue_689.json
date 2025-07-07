@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Palacio de Deportes de Granollers (also known as Palau d'Esports de Granollers)",
+      "Granollers Palace of Sports"
+    ],
+    "place": "Granollers",
+    "coordinates": "41.598611,2.287778",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1991",
+    "seating_capacity": "5500",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34809"
+      },
+      {
+        "text": "27 July –  8 August 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/34853"
+      },
+      {
+        "text": "30 July –  8 August 1992"
+      }
+    ]
+  ]
+}

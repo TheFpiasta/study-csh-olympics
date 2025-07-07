@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Yokohama Sutajiamu",
+      "Yokohama Stadium"
+    ],
+    "place": "Yokohama",
+    "coordinates": "35.443428,139.6401",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball",
+      "Softball"
+    ],
+    "opened": "1978",
+    "seating_capacity": "34046",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/18001550"
+      },
+      {
+        "text": "28 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Softball",
+        "link": "https://www.olympedia.org/sports/SOF"
+      },
+      {
+        "text": "Softball, Women",
+        "link": "https://www.olympedia.org/results/18001576"
+      },
+      {
+        "text": "21 – 27 July 2021"
+      }
+    ]
+  ]
+}

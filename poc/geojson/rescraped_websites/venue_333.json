@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Schießstände",
+      "Shooting Stands"
+    ],
+    "place": "Ruhleben, Berlin",
+    "coordinates": "52.519276,13.225227",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50045"
+      },
+      {
+        "text": "2 –  6 August 1936"
+      }
+    ]
+  ]
+}

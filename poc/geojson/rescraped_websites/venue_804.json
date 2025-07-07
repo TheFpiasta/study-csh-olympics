@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympiako Kentro Modernou Pentathlou, Olympiako Syngrotima Goudiou",
+      "Olympic Modern Pentathlon Centre, Goudi Olympic Complex"
+    ],
+    "place": "Athina",
+    "coordinates": "37.988462,23.774741",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "opened": "2004",
+    "seating_capacity": "2500 (swimming) / 5000 (riding/running) / 3000 (fencing/shooting)",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50288"
+      },
+      {
+        "text": "26 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/50297"
+      },
+      {
+        "text": "27 August 2004"
+      }
+    ]
+  ]
+}

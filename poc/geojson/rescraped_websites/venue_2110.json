@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Saitama Stadium 2002",
+      "埼玉スタジアム2002"
+    ],
+    "place": "Saitama, Saitama Prefecture, Japan",
+    "coordinates": "35.903142,139.717492",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "2001",
+    "seating_capacity": "63700",
+    "type": "outdoor venue",
+    "surface": "Grass"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/19012000"
+      },
+      {
+        "text": "22 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/19012042"
+      },
+      {
+        "text": "21 July –  6 August 2021"
+      }
+    ]
+  ]
+}

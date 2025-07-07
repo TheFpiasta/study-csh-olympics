@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Le Stand d'Issy-les-Moulineaux",
+      "Issy-les-Moulineaux Shooting Stand"
+    ],
+    "place": "Issy-les-Moulineaux",
+    "coordinates": "48.814512,2.254407",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1924",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Shooting"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Shooting",
+        "link": "https://www.olympedia.org/sports/SHO"
+      },
+      {
+        "text": "Trap, Men",
+        "link": "https://www.olympedia.org/results/51627"
+      },
+      {
+        "text": "8 – 10 July 1924"
+      }
+    ],
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Shooting",
+        "link": "https://www.olympedia.org/sports/SHO"
+      },
+      {
+        "text": "Trap, Team, Men",
+        "link": "https://www.olympedia.org/results/51631"
+      },
+      {
+        "text": "6 –  7 July 1924"
+      }
+    ]
+  ]
+}

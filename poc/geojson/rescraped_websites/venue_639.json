@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ro-yal Bol-ling Sen-ta",
+      "Royal Bowling Centre"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.481369,126.998863",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Bowling"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Bowling",
+        "link": "https://www.olympedia.org/sports/BWL"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/900491"
+      },
+      {
+        "text": "18 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Bowling",
+        "link": "https://www.olympedia.org/sports/BWL"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/900492"
+      },
+      {
+        "text": "18 September 1988"
+      }
+    ]
+  ]
+}

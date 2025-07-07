@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sports Arena, Long Beach Convention and Entertainment Center",
+      "Long Beach Arena (?-Present)"
+    ],
+    "place": "Long Beach, California",
+    "coordinates": "33.763889,-118.188333",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1984",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1962",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37341"
+      },
+      {
+        "text": "29 July – 11 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37377"
+      },
+      {
+        "text": "30 July –  7 August 1984"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "createdAt": "2025-07-08T19:16:24.364Z",
+  "updatedAt": "2025-07-08T21:24:05.000Z",
+  "id": "YFVaL0WCc0qoW8Nn",
+  "name": "AllPdfToJson",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -520,
+        20
+      ],
+      "id": "1b91f9a2-22e7-4869-a91b-2cc2ea766e46",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "MBU788enjpjn17oX",
+          "mode": "list"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        -300,
+        20
+      ],
+      "name": "Call configReader",
+      "id": "969f6a6d-3571-40ad-aa1c-2ee1d1d622ff"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/io/out/{{ $('Call SinglePdfToJson').item.json.fileName }}.md",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        580,
+        60
+      ],
+      "id": "8985b23a-a155-4419-b73a-3e6f598a0d21",
+      "name": "SaveJson"
+    },
+    {
+      "parameters": {
+        "fileSelector": "=/io/in/*",
+        "options": {
+          "dataPropertyName": "data"
+        }
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -120,
+        20
+      ],
+      "id": "252acffc-2efb-4ddc-8b97-b77204fd3818",
+      "name": "read PDFs"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        100,
+        20
+      ],
+      "id": "ccd4e84c-944d-4fbf-afc8-943dd8a6dd40",
+      "name": "Loop over PDFs"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "mJxoX6domJJhzpPn",
+          "mode": "list",
+          "cachedResultName": "SinglePdfToJson"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "fileName": "={{ $('read PDFs').item.json.fileName }}",
+            "config_anthropic": "={{ $('Call configReader').item.json.config_anthropic }}"
+          },
+          "matchingColumns": [
+            "fileName",
+            "config_anthropic"
+          ],
+          "schema": [
+            {
+              "id": "fileName",
+              "displayName": "fileName",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "removed": false
+            },
+            {
+              "id": "config_anthropic",
+              "displayName": "config_anthropic",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        320,
+        60
+      ],
+      "name": "Call SinglePdfToJson",
+      "id": "dff6ac50-91ae-46e5-aefb-4cb79563d3e9"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Call configReader",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call configReader": {
+      "main": [
+        [
+          {
+            "node": "read PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "SaveJson": {
+      "main": [
+        [
+          {
+            "node": "Loop over PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "read PDFs": {
+      "main": [
+        [
+          {
+            "node": "Loop over PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop over PDFs": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Call SinglePdfToJson",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call SinglePdfToJson": {
+      "main": [
+        [
+          {
+            "node": "SaveJson",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "6124516c-2a76-4c14-899b-f47e1f730f7e",
+  "triggerCount": 0,
+  "tags": []
+}

@@ -1,0 +1,12 @@
+{
+  "pdfsDir": "./PDF_summery",
+  "anthropic": {
+    "url": "https://api.anthropic.com/v1/complete",
+    "key": "sk-ant-xxx",
+    "model": "claude-2",
+    "temperature": 0.7,
+    "maxTokens": 1000,
+    "topP": 1,
+    "enableThinking": true,
+  }
+}

@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:17:49.055Z",
-  "updatedAt": "2025-07-08T19:17:49.055Z",
+  "updatedAt": "2025-07-09T18:56:42.000Z",
   "id": "MBU788enjpjn17oX",
   "name": "configReader",
   "active": false,
@@ -8,47 +8,13 @@
   "nodes": [
     {
       "parameters": {
-        "info": "",
-        "operation": "read",
-        "fileSelector": "/io/config/credentials.json",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.readWriteFile",
-      "typeVersion": 1,
-      "position": [
-        -60,
-        20
-      ],
-      "id": "899230f4-112d-4099-b063-2c5ab0e06cdb",
-      "name": "Read/Write Files from Disk2",
-      "disabled": false
-    },
-    {
-      "parameters": {
-        "operation": "fromJson",
-        "binaryPropertyName": "data",
-        "destinationKey": "config",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.extractFromFile",
-      "typeVersion": 1,
-      "position": [
-        100,
-        20
-      ],
-      "id": "9771b2aa-da30-485d-9999-038cfbd7aa74",
-      "name": "Extract from File1",
-      "disabled": false
-    },
-    {
-      "parameters": {
         "assignments": {
           "assignments": [
             {
-              "id": "c4430bd7-9bb1-4473-9da6-f3f0bbfd7e61",
-              "name": "config_anthropic",
-              "value": "={{ $('Extract from File1').item.json.config.anthropic }}",
-              "type": "string"
+              "id": "e46469d1-b606-4269-b1c0-e657df8efbe9",
+              "name": "data",
+              "value": "={{ $json.data }}",
+              "type": "object"
             }
           ]
         },
@@ -64,6 +30,9 @@
       "name": "Return"
     },
     {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
       "id": "b4a097c5-4228-4121-80f5-f7310d1f8039",
       "typeVersion": 1.1,
       "name": "Start",
@@ -71,36 +40,61 @@
       "position": [
         -280,
         20
-      ],
+      ]
+    },
+    {
       "parameters": {
-        "inputSource": "passthrough"
-      }
+        "fileSelector": "/io/config.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -60,
+        20
+      ],
+      "id": "899230f4-112d-4099-b063-2c5ab0e06cdb",
+      "name": "Read config JSON"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        100,
+        20
+      ],
+      "id": "9771b2aa-da30-485d-9999-038cfbd7aa74",
+      "name": "config to json"
     }
   ],
   "connections": {
-    "Read/Write Files from Disk2": {
-      "main": [
-        [
-          {
-            "node": "Extract from File1",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Start": {
       "main": [
         [
           {
-            "node": "Read/Write Files from Disk2",
+            "node": "Read config JSON",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Extract from File1": {
+    "Read config JSON": {
+      "main": [
+        [
+          {
+            "node": "config to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "config to json": {
       "main": [
         [
           {
@@ -117,8 +111,8 @@
   },
   "staticData": null,
   "meta": null,
-  "pinData": null,
-  "versionId": "e04f61b5-534d-4f95-a03d-83b666583eec",
+  "pinData": {},
+  "versionId": "be36212f-af89-428c-9456-d93e3887030d",
   "triggerCount": 0,
   "tags": []
 }

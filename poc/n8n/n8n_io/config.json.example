@@ -1,12 +1,17 @@
 {
-  "pdfsDir": "./PDF_summery",
+  "pdfsDir": "PDF_summery",
   "anthropic": {
     "url": "https://api.anthropic.com/v1/complete",
-    "key": "sk-ant-xxx",
-    "model": "claude-2",
-    "temperature": 0.7,
-    "maxTokens": 1000,
+    "key": "sk-ant-XXX",
+    "model": "claude-sonnet-4-20250514",
+    "temperature": 1,
+    "maxTokens": 20000,
     "topP": 1,
-    "enableThinking": true,
-  }
+    "thinking": {
+      "type": "enabled",
+      "budget_tokens": 10000
+    }
+  },
+  "extractionPromptPath": "prompts/extraction.txt",
+  "validationPromptPath": "prompts/validation.txt"
 }

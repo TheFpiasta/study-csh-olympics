@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-09T22:11:23.000Z",
+  "updatedAt": "2025-07-10T22:51:03.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "AllPdfToJson",
   "active": false,
@@ -11,7 +11,8 @@
         "workflowId": {
           "__rl": true,
           "value": "MBU788enjpjn17oX",
-          "mode": "list"
+          "mode": "list",
+          "cachedResultName": "configReader"
         },
         "workflowInputs": {
           "mappingMode": "defineBelow",
@@ -26,8 +27,8 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        60,
-        20
+        -660,
+        180
       ],
       "name": "Call configReader",
       "id": "969f6a6d-3571-40ad-aa1c-2ee1d1d622ff"
@@ -39,8 +40,8 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        580,
-        20
+        -140,
+        180
       ],
       "id": "ccd4e84c-944d-4fbf-afc8-943dd8a6dd40",
       "name": "Loop over PDFs"
@@ -55,8 +56,8 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        300,
-        20
+        -420,
+        180
       ],
       "id": "6ae7a238-0037-4dd7-a073-4501049edf42",
       "name": "Read PDFs from Dir"
@@ -76,9 +77,9 @@
     },
     {
       "parameters": {
-        "fileSelector": "=/io/{{ $('compact pdf infos').item.json.config.pdfsDir }}/{{ $('compact pdf infos').item.json.pdf.fileName }}_chunked/*",
+        "fileSelector": "=/io/{{ $('compact pdf infos').item.json.config.pdfsDir }}/{{ $('compact pdf infos').item.json.pdf.fileName }}_chunked/*.pdf",
         "options": {
-          "fileExtension": "pdf"
+          "mimeType": "application/pdf"
         }
       },
       "type": "n8n-nodes-base.readWriteFile",
@@ -92,7 +93,7 @@
     },
     {
       "parameters": {
-        "command": "=python --version && pip --version && pip list &&\\\ncd /io &&\\\nsource exec-chunker.sh --file=\"./{{ $json.config.pdfsDir }}/{{ $json.pdf.fileName }}\" "
+        "command": "=python --version && pip --version && pip list &&\\\ncd /io &&\\\nsource exec-chunker.sh --file=\"./{{ $json.config.pdfsDir }}/{{ $json.pdf.fileName }}\" --regex=\"{{ $json.config.regexOverToc }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
@@ -108,8 +109,8 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        -160,
-        20
+        -880,
+        180
       ],
       "id": "bf7fce55-9c10-4f48-b6fd-cd486a9b6a4e",
       "name": "When clicking ‘Execute workflow’"
@@ -136,53 +137,11 @@
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
       "position": [
-        1540,
-        180
+        1360,
+        100
       ],
       "id": "817527a9-0469-416f-92ad-0c0014c9f3d7",
       "name": "Aggregate JSON chunks"
-    },
-    {
-      "parameters": {
-        "method": "POST",
-        "url": "https://api.anthropic.com/v1/messages",
-        "sendHeaders": true,
-        "headerParameters": {
-          "parameters": [
-            {
-              "name": "x-api-key",
-              "value": "={{ $('compact chunk infos').item.json.config.anthropic.key }}"
-            },
-            {
-              "name": "anthropic-version",
-              "value": "2023-06-01"
-            },
-            {
-              "name": "Content-Type",
-              "value": "application/json"
-            }
-          ]
-        },
-        "sendBody": true,
-        "specifyBody": "json",
-        "jsonBody": "={\n    \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n    \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n    \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n    \"thinking\": {\n        \"type\": \"{{ $('compact chunk infos').item.json.config.anthropic.thinking.type }}\",\n        \"budget_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.thinking.budget_tokens }}\n    },\n    \"messages\": [{\n        \"role\": \"user\",\n        \"content\": [{\n            \"type\": \"document\",\n            \"source\": {\n                \"type\": \"base64\",\n                \"media_type\": \"application/pdf\",\n                \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n            }\n        },\n        {\n            \"type\": \"text\",\n            \"text\": {{ $json.data }}\n        }]\n    }]\n}",
-        "options": {
-          "response": {
-            "response": {
-              "fullResponse": true,
-              "responseFormat": "json"
-            }
-          }
-        }
-      },
-      "id": "ee46289d-4bd4-4f6d-9aa7-b91a036eda5c",
-      "name": "Call Claude",
-      "type": "n8n-nodes-base.httpRequest",
-      "typeVersion": 4.2,
-      "position": [
-        2000,
-        380
-      ]
     },
     {
       "parameters": {
@@ -200,31 +159,434 @@
     },
     {
       "parameters": {
-        "fileSelector": "=/io/{{ $json.config.extractionPromptPath }}",
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8166e81f-065f-4c2a-9600-1c2d27b8d51a",
+              "leftValue": "={{ $json.statusCode }}",
+              "rightValue": 200,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        1740,
+        380
+      ],
+      "id": "f3cd4a60-8ab6-4846-8fa2-e5b28f389a2c",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "LuvurLCz98QFlPWc",
+          "mode": "list",
+          "cachedResultName": "promptReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "config_extractionPromptPath": "={{ $json.config.extractionPromptPath }}"
+          },
+          "matchingColumns": [
+            "config_extractionPromptPath"
+          ],
+          "schema": [
+            {
+              "id": "config_extractionPromptPath",
+              "displayName": "config_extractionPromptPath",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        1300,
+        380
+      ],
+      "name": "Call promptReader extract",
+      "id": "4299dc34-4201-40eb-9ada-520905514277"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "{\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 1 response status code is not 200. Message: {$data.statusMessage}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2040,
+        560
+      ],
+      "id": "7a4e385d-6c3d-45b4-a1f4-ae1876b678c8",
+      "name": "Edit Fields"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "e4a4e48e-6e20-4ecd-8416-547697d55afe",
+              "leftValue": "={{ $json.data.status }}",
+              "rightValue": "found",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "looseTypeValidation": true,
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        2260,
+        380
+      ],
+      "id": "f5323a36-c8e2-4fdc-9541-b8aab3382308",
+      "name": "If1"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.error.json",
         "options": {}
       },
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        1280,
-        380
+        2660,
+        560
       ],
-      "id": "a2b5a38b-8fd9-4e83-b49b-75c596ddc46d",
-      "name": "read extraction prompt"
+      "id": "a9f80d53-788f-4878-b074-387aed2900ec",
+      "name": "Read/Write Files from Disk"
     },
     {
       "parameters": {
-        "operation": "text",
+        "operation": "toJson",
         "options": {}
       },
-      "type": "n8n-nodes-base.extractFromFile",
-      "typeVersion": 1,
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
       "position": [
-        1500,
+        2480,
+        560
+      ],
+      "id": "a1bb40fa-5548-4cf0-a749-d6abe11b1754",
+      "name": "llm1 error to json"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "LuvurLCz98QFlPWc",
+          "mode": "list",
+          "cachedResultName": "promptReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {
+            "config_extractionPromptPath": "={{ $('compact chunk infos').item.json.config.validationPromptPath }}"
+          },
+          "matchingColumns": [
+            "config_extractionPromptPath"
+          ],
+          "schema": [
+            {
+              "id": "config_extractionPromptPath",
+              "displayName": "config_extractionPromptPath",
+              "required": false,
+              "defaultMatch": false,
+              "display": true,
+              "canBeUsedToMatch": true,
+              "removed": false
+            }
+          ],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        3060,
         380
       ],
-      "id": "efc28b0a-6485-4d5a-b5d9-674d90f464a1",
-      "name": "Extract from File"
+      "name": "Call promptReader validate",
+      "id": "61d5cb3a-61fc-49b8-9f5f-7ece4a801abd"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "specifyHeaders": "json",
+        "jsonHeaders": "={\n  \"Content-Type\": \"application/json\",\n  \"x-api-key\": \"{{ $('compact chunk infos').item.json.config.anthropic.key }}\",\n  \"anthropic-version\": \"2023-06-01\"\n}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "96d7012c-4fe5-42e4-ba64-7d7ca0d8f4e8",
+      "name": "Call Claude Extracting",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1520,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "https://api.anthropic.com/v1/messages",
+        "sendHeaders": true,
+        "specifyHeaders": "json",
+        "jsonHeaders": "={\n  \"Content-Type\": \"application/json\",\n  \"x-api-key\": \"{{ $('compact chunk infos').item.json.config.anthropic.key }}\",\n  \"anthropic-version\": \"2023-06-01\"\n}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {{ $('parse response extraction').item.json.data }}\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
+        "options": {
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "responseFormat": "text"
+            }
+          }
+        }
+      },
+      "id": "a7dea97a-036e-4967-9b39-9c6564c981bc",
+      "name": "Call Claude Validating",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        3300,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8166e81f-065f-4c2a-9600-1c2d27b8d51a",
+              "leftValue": "={{ $json.statusCode }}",
+              "rightValue": 200,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3540,
+        380
+      ],
+      "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
+      "name": "If2"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "{\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 2 response status code is not 200. Message: {$data.statusMessage}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3760,
+        600
+      ],
+      "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        4180,
+        600
+      ],
+      "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
+      "name": "llm2 error to json"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "e4a4e48e-6e20-4ecd-8416-547697d55afe",
+              "leftValue": "={{ $json.data.status }}",
+              "rightValue": "found",
+              "operator": {
+                "type": "string",
+                "operation": "equals",
+                "name": "filter.operator.equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        3960,
+        380
+      ],
+      "id": "6c8c0c9e-0f26-49a6-9089-28099e5a1ce8",
+      "name": "If3"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.error.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        4380,
+        600
+      ],
+      "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
+      "name": "Read/Write Files from Disk1"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        4920,
+        640
+      ],
+      "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
+      "name": "Read/Write Files from Disk2"
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 2 ? JSON.parse(result[1].text) : {status:\"failed\", message: \"LLM 2 response is incorrect\"}\n\nreturn {data: message};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3760,
+        380
+      ],
+      "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
+      "name": "parse response validation"
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 2 ? JSON.parse(result[1].text) : {status:\"failed\", message: \"LLM 1 response is incorrect\"}\n\nreturn {data: message};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2040,
+        380
+      ],
+      "id": "5ad92be3-4ff5-4223-8e01-444727fc024a",
+      "name": "parse response extraction"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"status\": \"success\",\n  \"extraction\": \"\",\n  \"validation\": \"\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        4380,
+        380
+      ],
+      "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
+      "name": "create success json"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        4580,
+        380
+      ],
+      "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
+      "name": "success json to binary"
     }
   ],
   "connections": {
@@ -317,7 +679,7 @@
       "main": [
         [
           {
-            "node": "read extraction prompt",
+            "node": "Call promptReader extract",
             "type": "main",
             "index": 0
           }
@@ -335,22 +697,237 @@
         ]
       ]
     },
-    "read extraction prompt": {
+    "If": {
       "main": [
         [
           {
-            "node": "Extract from File",
+            "node": "parse response extraction",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields",
             "type": "main",
             "index": 0
           }
         ]
       ]
     },
-    "Extract from File": {
+    "Call promptReader extract": {
       "main": [
         [
           {
-            "node": "Call Claude",
+            "node": "Call Claude Extracting",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If1": {
+      "main": [
+        [
+          {
+            "node": "Call promptReader validate",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "llm1 error to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields": {
+      "main": [
+        [
+          {
+            "node": "llm1 error to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "llm1 error to json": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call promptReader validate": {
+      "main": [
+        [
+          {
+            "node": "Call Claude Validating",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call Claude Extracting": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call Claude Validating": {
+      "main": [
+        [
+          {
+            "node": "If2",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2": {
+      "main": [
+        [
+          {
+            "node": "parse response validation",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Edit Fields1": {
+      "main": [
+        [
+          {
+            "node": "llm2 error to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If3": {
+      "main": [
+        [
+          {
+            "node": "create success json",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "llm2 error to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "llm2 error to json": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk1": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk2": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "parse response validation": {
+      "main": [
+        [
+          {
+            "node": "If3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "parse response extraction": {
+      "main": [
+        [
+          {
+            "node": "If1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "create success json": {
+      "main": [
+        [
+          {
+            "node": "success json to binary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "success json to binary": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk2",
             "type": "main",
             "index": 0
           }
@@ -364,7 +941,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "18a853b8-290d-410b-a568-d6550895a8c6",
+  "versionId": "c6d54067-eb97-4dee-86b7-1e6425e587a8",
   "triggerCount": 0,
   "tags": []
 }

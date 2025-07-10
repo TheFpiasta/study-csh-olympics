@@ -1,1 +1,40 @@
-say "validated"
+You are tasked with comparing JSON data against information from a PDF document. Your goal is to verify the accuracy of the JSON data and make corrections if necessary. Follow these steps carefully:
+
+1. First, you will be provided with the content of a PDF document. This is the reference information you will use to verify the JSON data.
+
+You found the PDF in the user message.
+
+2. Next, you will receive JSON data that needs to be verified against the PDF content.
+
+You found the JSON data in the user message.
+
+3. Compare the JSON data with the information in the PDF content. Ignore the "status" key in the JSON data during your comparison.
+
+4. If all the data in the JSON matches the information in the PDF, your response should be:
+
+<response>
+{
+"status":"correct"
+}
+</response>
+
+5. If there are any discrepancies between the JSON data and the PDF content:
+   a. Correct the JSON data to match the information in the PDF.
+   b. Create an array of all keys that had incorrect data.
+   c. Your response should be in the following format:
+
+<response>
+{
+"status": "corrected",
+"json": {<entire corrected JSON object>},
+"correctedKeys": [<array of keys that were corrected>]
+}
+</response>
+
+6. Important: Under all circumstances, your final output must be a valid JSON object. Do not include any explanations, comments, or additional text outside of the JSON structure.
+
+7. Before providing your final response, you may use a <scratchpad> to work through your comparison and corrections if needed. However, your final output should only contain the JSON response as specified in steps 4 or 5.
+
+Remember, your task is to verify the JSON data against the PDF content, make corrections if necessary, and provide the appropriate JSON response. Do not modify any correct data or add any information not present in the PDF.
+
+Under all circumstances, only return a valid JSON.

@@ -6,11 +6,35 @@ import traceback
 
 parser = argparse.ArgumentParser(description='PDF Chunker Script for n8n.io workflow')
 parser.add_argument('--path', type=str, required=True, help='Path to the PDF document')
+parser.add_argument('--regex', type=str, required=False, help='Regex pattern to split the document into sections')
 
 
 def discover_sections_by_toc():
     """Tries to split by ToC. Returns a list of sections or None."""
     sections = [{"title": title, "page": page} for level, title, page in toc]
+    return sections
+
+
+def discover_sections_by_regex(pattern_str):
+    """Tries to split by Regex. Returns a list of sections or None."""
+    try:
+        pattern = re.compile(pattern_str, re.MULTILINE)
+    except re.error:
+        return None
+
+    sections = []
+    found_titles = set()
+    for page_num in range(len(doc)):
+        page = doc.load_page(page_num)
+        text = page.get_text("text")
+        for match in pattern.finditer(text):
+            title = (match.group(1) if match.groups() else match.group(0)).strip()
+            if title not in found_titles:
+                sections.append({"title": title, "page": page_num + 1})
+                found_titles.add(title)
+    if not sections:
+        return None
+    sections.sort(key=lambda x: x['page'])
     return sections
 
 
@@ -68,18 +92,24 @@ def process_and_save_sections(sections_to_create, output_dir):
 try:
     args = parser.parse_args()
     doc_path = args.path
+    regex = args.regex
     doc = fitz.open(doc_path)
     chunked_doc = []
     print(f"[INFO] Processing {doc_path}")
+    print(f"[INFO] regex {regex}")
 
-    toc = doc.get_toc()
-
-    if toc:
-        print("[INFO] Table of Contents found, attempting to split by ToC...")
-        chunked_doc = discover_sections_by_toc()
+    if regex:
+        print(f"[INFO] Using regex pattern: {regex}")
+        chunked_doc = discover_sections_by_regex(regex)
     else:
-        print("[INFO] No Table of Contents found, attempting to split by fixed pages...")
-        chunked_doc = discover_sections_by_fixed_pages()
+        toc = doc.get_toc()
+
+        if toc:
+            print("[INFO] Table of Contents found, attempting to split by ToC...")
+            chunked_doc = discover_sections_by_toc()
+        else:
+            print("[INFO] No Table of Contents found, attempting to split by fixed pages...")
+            chunked_doc = discover_sections_by_fixed_pages()
 
     print(f"[INFO] Found {len(chunked_doc)} sections")
     do_dir, doc_name = os.path.split(doc_path)

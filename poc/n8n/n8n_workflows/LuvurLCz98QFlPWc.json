@@ -1,0 +1,158 @@
+{
+  "createdAt": "2025-07-10T20:41:46.550Z",
+  "updatedAt": "2025-07-10T20:41:46.550Z",
+  "id": "LuvurLCz98QFlPWc",
+  "name": "promptReader",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "operation": "text",
+        "binaryPropertyName": "data",
+        "destinationKey": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        1460,
+        380
+      ],
+      "id": "efc28b0a-6485-4d5a-b5d9-674d90f464a1",
+      "name": "Extract from File",
+      "issues": {}
+    },
+    {
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1680,
+        380
+      ],
+      "id": "dbb7ff1c-ae67-4cb1-92e6-1680da24b0da",
+      "name": "stringify prompt",
+      "disabled": false,
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "language": "javaScript",
+        "jsCode": "return {data: JSON.stringify($input.first().json.data)};",
+        "notice": ""
+      }
+    },
+    {
+      "parameters": {
+        "info": "",
+        "operation": "read",
+        "fileSelector": "=/io/{{ $json.config_extractionPromptPath }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1260,
+        380
+      ],
+      "id": "a2b5a38b-8fd9-4e83-b49b-75c596ddc46d",
+      "name": "read prompt"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "ca23e4f4-03ee-474d-aa9a-4554b1957265",
+              "name": "data",
+              "value": "={{ $json.data }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1900,
+        380
+      ],
+      "id": "3fb6b4d7-c8f2-4010-a02d-125ad0ed3a03",
+      "name": "Return"
+    },
+    {
+      "id": "adc0e4d0-56f4-4aec-8011-5fc2a5f3e0bc",
+      "typeVersion": 1.1,
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        1040,
+        380
+      ],
+      "parameters": {
+        "workflowInputs": {
+          "values": [
+            {
+              "name": "config_extractionPromptPath",
+              "type": "any"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "connections": {
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "stringify prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "read prompt": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "read prompt",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "stringify prompt": {
+      "main": [
+        [
+          {
+            "node": "Return",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": null,
+  "versionId": "6a6c4891-c30c-47b0-b75a-838ba2f9febc",
+  "triggerCount": 0,
+  "tags": []
+}

@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-10T23:07:35.000Z",
+  "updatedAt": "2025-07-10T23:26:59.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "AllPdfToJson",
   "active": false,
@@ -360,7 +360,7 @@
         "jsonHeaders": "={\n  \"Content-Type\": \"application/json\",\n  \"x-api-key\": \"{{ $('compact chunk infos').item.json.config.anthropic.key }}\",\n  \"anthropic-version\": \"2023-06-01\"\n}",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
+        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      }\n    }]\n  }]\n}",
         "options": {
           "response": {
             "response": {
@@ -388,7 +388,7 @@
         "jsonHeaders": "={\n  \"Content-Type\": \"application/json\",\n  \"x-api-key\": \"{{ $('compact chunk infos').item.json.config.anthropic.key }}\",\n  \"anthropic-version\": \"2023-06-01\"\n}",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": \"{{ $json.data }}\",\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      },\n      {\n        \"type\": \"text\",\n        \"text\": \"{{ $('stringified json').item.json.data}}\"\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
+        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      },\n      {\n        \"type\": \"text\",\n        \"text\": {{ $('stringified json').item.json.data}}\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
         "options": {
           "response": {
             "response": {
@@ -548,7 +548,7 @@
     },
     {
       "parameters": {
-        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 2 ? JSON.parse(result[1].text) : {status:\"failed\", message: \"LLM 1 response is incorrect\"}\n\nreturn {data: message};"
+        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 1 ? JSON.parse(result[0].text) : {status:\"failed\", message: \"LLM 1 response is incorrect\"}\n\nreturn {data: message};"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -590,7 +590,7 @@
     },
     {
       "parameters": {
-        "jsCode": "return {data: JSON.stringify($('parse response extraction').first().json.data)}"
+        "jsCode": "return {data: JSON.stringify(JSON.stringify($('parse response extraction').first().json.data))}"
       },
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
@@ -965,7 +965,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "3091d7bf-d383-4aa7-bb08-ed54fbd8a83c",
+  "versionId": "762b60e2-30a5-4b7d-9533-8ac38d0f4581",
   "triggerCount": 0,
   "tags": []
 }

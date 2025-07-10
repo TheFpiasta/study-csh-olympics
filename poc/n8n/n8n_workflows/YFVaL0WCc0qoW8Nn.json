@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-10T22:53:56.000Z",
+  "updatedAt": "2025-07-10T23:03:07.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "AllPdfToJson",
   "active": false,
@@ -290,7 +290,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        2660,
+        2880,
         560
       ],
       "id": "a9f80d53-788f-4878-b074-387aed2900ec",
@@ -304,7 +304,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        2480,
+        2700,
         560
       ],
       "id": "a1bb40fa-5548-4cf0-a749-d6abe11b1754",
@@ -345,7 +345,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        3060,
+        3280,
         380
       ],
       "name": "Call promptReader validate",
@@ -388,7 +388,7 @@
         "jsonHeaders": "={\n  \"Content-Type\": \"application/json\",\n  \"x-api-key\": \"{{ $('compact chunk infos').item.json.config.anthropic.key }}\",\n  \"anthropic-version\": \"2023-06-01\"\n}",
         "sendBody": true,
         "specifyBody": "json",
-        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      },\n      {\n        \"type\": \"text\",\n        \"text\": \"{{ $('parse response extraction').item.json.data }}\"\"\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
+        "jsonBody": "={\n  \"model\": \"{{ $('compact chunk infos').item.json.config.anthropic.model }}\",\n  \"max_tokens\": {{ $('compact chunk infos').item.json.config.anthropic.maxTokens }},\n  \"temperature\": {{ $('compact chunk infos').item.json.config.anthropic.temperature }},\n  \"system\": {{ $json.data }},\n  \"messages\": [{        \n    \"role\": \"user\",\n    \"content\": [{\n      \"type\": \"document\",\n      \"source\": {\n        \"type\": \"base64\",\n        \"media_type\": \"application/pdf\",\n        \"data\": \"{{ $('compact chunk infos').item.json.pdf.binary.data.data }}\"\n      },\n      {\n        \"type\": \"text\",\n        \"text\": \"{{ $('stringified json').data }}\"\n      }\n    }]\n  }],\n  \"thinking\": {\n    \"type\": \"enabled\",\n    \"budget_tokens\": 16000\n  }\n}",
         "options": {
           "response": {
             "response": {
@@ -403,7 +403,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        3300,
+        3520,
         380
       ]
     },
@@ -434,7 +434,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        3540,
+        3760,
         380
       ],
       "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
@@ -449,7 +449,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        3760,
+        3980,
         600
       ],
       "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
@@ -463,7 +463,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        4180,
+        4400,
         600
       ],
       "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
@@ -497,7 +497,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        3960,
+        4180,
         380
       ],
       "id": "6c8c0c9e-0f26-49a6-9089-28099e5a1ce8",
@@ -512,7 +512,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        4380,
+        4600,
         600
       ],
       "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
@@ -527,7 +527,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        4920,
+        5140,
         640
       ],
       "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
@@ -540,7 +540,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        3760,
+        3980,
         380
       ],
       "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
@@ -568,7 +568,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        4380,
+        4600,
         380
       ],
       "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
@@ -582,11 +582,24 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        4580,
+        4800,
         380
       ],
       "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
       "name": "success json to binary"
+    },
+    {
+      "parameters": {
+        "jsCode": "return {data: JSON.stringify($('parse response extraction').first().json.data)}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3080,
+        380
+      ],
+      "id": "c53b74ba-53e0-4edf-a1ee-adc76f6030cd",
+      "name": "stringified json"
     }
   ],
   "connections": {
@@ -730,7 +743,7 @@
       "main": [
         [
           {
-            "node": "Call promptReader validate",
+            "node": "stringified json",
             "type": "main",
             "index": 0
           }
@@ -933,6 +946,17 @@
           }
         ]
       ]
+    },
+    "stringified json": {
+      "main": [
+        [
+          {
+            "node": "Call promptReader validate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -941,7 +965,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "d3d737be-23c9-4de9-831b-c9127a49e1df",
+  "versionId": "8517e777-baa1-4c91-aa64-6197594101c7",
   "triggerCount": 0,
   "tags": []
 }

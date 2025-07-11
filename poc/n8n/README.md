@@ -15,3 +15,10 @@ Directory structure:
 - coppy in n8n_io the config.json.example to config.json and edit it with your settings
 - run the workflow in n8n (allPdfsToJson)
 
+
+# TODOS
+
+Unexpected token '<', "<scratchpa"... is not valid JSON [line 3]
+on json.parse after 2. llm
+
+

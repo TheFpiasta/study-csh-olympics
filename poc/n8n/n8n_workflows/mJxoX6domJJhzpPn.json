@@ -1,10 +1,10 @@
 {
   "createdAt": "2025-07-08T21:22:15.948Z",
-  "updatedAt": "2025-07-08T21:42:14.000Z",
+  "updatedAt": "2025-07-11T20:52:32.000Z",
   "id": "mJxoX6domJJhzpPn",
   "name": "SinglePdfToJson",
   "active": false,
-  "isArchived": false,
+  "isArchived": true,
   "nodes": [
     {
       "parameters": {
@@ -107,13 +107,13 @@
     },
     {
       "parameters": {
-        "command": "cd io &&\\\nsource .venv/bin/activate &&\\\npython pdf_splitter_logic_for_n8n.py --path=\"./PDF_summery/Full-report-venues-post-games-use.pdf\""
+        "command": "=cd /io &&\\\nsh exec-shunker.sh --path=\"{{ $json.config.pdfsDir }}/{{ $json.fileName }}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
         980,
-        -360
+        -340
       ],
       "id": "81f13801-1886-4d69-8fa0-675c890024c2",
       "name": "Execute chunker"
@@ -139,7 +139,7 @@
       "typeVersion": 1,
       "position": [
         1200,
-        -360
+        -340
       ],
       "id": "bacc3305-0740-40b5-ac12-a8a10dc47342",
       "name": "Read chunks"
@@ -163,12 +163,11 @@
         "workflowInputs": {
           "values": [
             {
-              "name": "fileName",
-              "type": "any"
+              "name": "config",
+              "type": "object"
             },
             {
-              "name": "config_anthropic",
-              "type": "any"
+              "name": "fileName"
             }
           ]
         }
@@ -178,8 +177,8 @@
       "name": "Start",
       "type": "n8n-nodes-base.executeWorkflowTrigger",
       "position": [
-        760,
-        -360
+        540,
+        -340
       ]
     },
     {
@@ -192,6 +191,47 @@
         -280
       ],
       "id": "417285f9-2516-49fa-bf15-13bf4dc48f6e"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "MBU788enjpjn17oX",
+          "mode": "list",
+          "cachedResultName": "configReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        740,
+        -520
+      ],
+      "name": "Call configReader",
+      "id": "5f521923-44f9-4b18-9b0e-b21eea7bc024"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        920,
+        -520
+      ],
+      "id": "e64e68c8-3903-46e3-87b1-835a3b5bc2b8",
+      "name": "Edit Fields"
     }
   ],
   "connections": {
@@ -317,6 +357,17 @@
           }
         ]
       ]
+    },
+    "Call configReader": {
+      "main": [
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -325,7 +376,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "ac5601e1-ac01-48d3-ac86-d744d2b230b9",
+  "versionId": "9e0e616d-5bc4-4282-85c5-896284cf6a30",
   "triggerCount": 0,
   "tags": []
 }

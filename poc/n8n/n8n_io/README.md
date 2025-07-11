@@ -22,3 +22,6 @@ To update the `requirements.txt` file with the currently installed packages, run
 ```bash
 pip freeze > requirements.txt
 ```
+
+## Note:
+for the regex chunker solution it is recommented to remove the first and last pages of the pdf, that have no needed information.

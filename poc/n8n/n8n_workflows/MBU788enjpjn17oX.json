@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:17:49.055Z",
-  "updatedAt": "2025-07-09T18:56:42.000Z",
+  "updatedAt": "2025-07-11T21:08:28.000Z",
   "id": "MBU788enjpjn17oX",
   "name": "configReader",
   "active": false,
@@ -23,7 +23,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        320,
+        760,
         20
       ],
       "id": "2ad7434d-f2c0-45b1-8075-2d586a4ad479",
@@ -38,7 +38,7 @@
       "name": "Start",
       "type": "n8n-nodes-base.executeWorkflowTrigger",
       "position": [
-        -280,
+        100,
         20
       ]
     },
@@ -50,7 +50,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        -60,
+        320,
         20
       ],
       "id": "899230f4-112d-4099-b063-2c5ab0e06cdb",
@@ -64,7 +64,7 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        100,
+        540,
         20
       ],
       "id": "9771b2aa-da30-485d-9999-038cfbd7aa74",
@@ -110,9 +110,11 @@
     "executionOrder": "v1"
   },
   "staticData": null,
-  "meta": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
   "pinData": {},
-  "versionId": "be36212f-af89-428c-9456-d93e3887030d",
+  "versionId": "bb561fe6-cf69-431e-a59a-302bc593aee1",
   "triggerCount": 0,
   "tags": []
 }

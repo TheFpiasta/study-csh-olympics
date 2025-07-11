@@ -1,10 +1,10 @@
 {
   "createdAt": "2025-07-08T21:22:15.948Z",
-  "updatedAt": "2025-07-09T19:58:47.000Z",
+  "updatedAt": "2025-07-11T20:52:32.000Z",
   "id": "mJxoX6domJJhzpPn",
   "name": "SinglePdfToJson",
   "active": false,
-  "isArchived": false,
+  "isArchived": true,
   "nodes": [
     {
       "parameters": {
@@ -376,7 +376,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "8bbe65c0-88a3-454a-9546-538b0fbfd789",
+  "versionId": "9e0e616d-5bc4-4282-85c5-896284cf6a30",
   "triggerCount": 0,
   "tags": []
 }

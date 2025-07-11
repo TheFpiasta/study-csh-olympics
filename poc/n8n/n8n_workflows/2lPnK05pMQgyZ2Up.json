@@ -1,8 +1,8 @@
 {
-  "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-11T21:15:32.000Z",
-  "id": "YFVaL0WCc0qoW8Nn",
-  "name": "OnePdfToJson",
+  "createdAt": "2025-07-11T20:53:07.581Z",
+  "updatedAt": "2025-07-11T20:53:07.581Z",
+  "id": "2lPnK05pMQgyZ2Up",
+  "name": "WIP_ALLPdfToJson copy",
   "active": false,
   "isArchived": false,
   "nodes": [
@@ -27,11 +27,11 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        -600,
+        -660,
         180
       ],
       "name": "Call configReader",
-      "id": "969f6a6d-3571-40ad-aa1c-2ee1d1d622ff"
+      "id": "b759bed5-df82-4f0b-80b9-22c08560152a"
     },
     {
       "parameters": {
@@ -40,10 +40,10 @@
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        80,
+        -140,
         180
       ],
-      "id": "ccd4e84c-944d-4fbf-afc8-943dd8a6dd40",
+      "id": "556823ea-521a-4d2e-8fd2-e15d09ca011a",
       "name": "Loop over PDFs"
     },
     {
@@ -56,25 +56,25 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        -400,
+        -420,
         180
       ],
-      "id": "6ae7a238-0037-4dd7-a073-4501049edf42",
+      "id": "c2f46ce7-87fe-4ec0-9d0d-90d125f6ec66",
       "name": "Read PDFs from Dir"
     },
     {
       "parameters": {
         "options": {
-          "reset": false
+          "reset": true
         }
       },
       "type": "n8n-nodes-base.splitInBatches",
       "typeVersion": 3,
       "position": [
-        1040,
+        820,
         280
       ],
-      "id": "a5d663d3-622a-4a6e-8141-385d3ba8192e",
+      "id": "6ec9a3c5-6cb5-42a4-b07c-ad911ed4a82e",
       "name": "Loop Over chunks"
     },
     {
@@ -87,10 +87,10 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        780,
+        560,
         280
       ],
-      "id": "2f687cd8-62ed-4d3a-a007-4523b5005d38",
+      "id": "d3c4100b-c561-47b2-9366-0004ad82cc7e",
       "name": "Read chunks"
     },
     {
@@ -100,10 +100,10 @@
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
-        560,
+        340,
         280
       ],
-      "id": "ae1d4856-bf20-4bee-87c2-e19a40265bbf",
+      "id": "e37be4be-f367-433f-82f8-a9fb5701a5e4",
       "name": "Execute chunker"
     },
     {
@@ -111,10 +111,10 @@
       "type": "n8n-nodes-base.manualTrigger",
       "typeVersion": 1,
       "position": [
-        -800,
+        -880,
         180
       ],
-      "id": "bf7fce55-9c10-4f48-b6fd-cd486a9b6a4e",
+      "id": "06503f24-5874-4892-8180-c1b4cdeb31cb",
       "name": "When clicking ‘Execute workflow’"
     },
     {
@@ -124,10 +124,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        1260,
+        1040,
         380
       ],
-      "id": "22a61425-f74b-432f-abd0-7961550e71b4",
+      "id": "2518deb8-38fb-4865-966a-3c3d07a50f72",
       "name": "compact chunk infos",
       "notes": "this is needed, because the next steps cant access only the loop pdf data ..."
     },
@@ -139,10 +139,10 @@
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
       "position": [
-        1260,
+        1040,
         120
       ],
-      "id": "817527a9-0469-416f-92ad-0c0014c9f3d7",
+      "id": "5a021b7f-c3e5-480f-b8ee-35f211407e12",
       "name": "Aggregate JSON chunks"
     },
     {
@@ -152,10 +152,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        340,
+        120,
         280
       ],
-      "id": "171448d4-e35a-42d1-803f-08235784e08b",
+      "id": "b2d2bdcc-cbc3-4be5-9399-0d32d3f4041d",
       "name": "compact pdf infos",
       "notes": "this is needed, because the next steps cant access only the loop pdf data ..."
     },
@@ -194,11 +194,11 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        1680,
+        1460,
         380
       ],
       "name": "Call promptReader extract",
-      "id": "4299dc34-4201-40eb-9ada-520905514277"
+      "id": "c5207dbe-6ce0-40ec-8ad1-077097045beb"
     },
     {
       "parameters": {
@@ -209,10 +209,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        2340,
+        2120,
         560
       ],
-      "id": "7a4e385d-6c3d-45b4-a1f4-ae1876b678c8",
+      "id": "2a98795d-d782-41db-a61e-322afd639aa4",
       "name": "Edit Fields"
     },
     {
@@ -224,10 +224,10 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        2960,
+        2740,
         560
       ],
-      "id": "a9f80d53-788f-4878-b074-387aed2900ec",
+      "id": "0f068416-184e-4df1-b1c6-1bb70b0e3e03",
       "name": "Read/Write Files from Disk"
     },
     {
@@ -240,10 +240,10 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        2780,
+        2560,
         560
       ],
-      "id": "a1bb40fa-5548-4cf0-a749-d6abe11b1754",
+      "id": "e83b965e-84e0-441d-8be4-a62ab28d5c2e",
       "name": "llm1 error to json"
     },
     {
@@ -281,11 +281,11 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        3520,
+        3300,
         380
       ],
       "name": "Call promptReader validate",
-      "id": "61d5cb3a-61fc-49b8-9f5f-7ece4a801abd"
+      "id": "c5185030-d171-4b26-80fd-c136a509d25e"
     },
     {
       "parameters": {
@@ -306,12 +306,12 @@
           }
         }
       },
-      "id": "96d7012c-4fe5-42e4-ba64-7d7ca0d8f4e8",
+      "id": "d436a1f6-090f-4a2d-b834-e08d78372f96",
       "name": "Call Claude Extracting",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        1900,
+        1680,
         380
       ]
     },
@@ -334,12 +334,12 @@
           }
         }
       },
-      "id": "a7dea97a-036e-4967-9b39-9c6564c981bc",
+      "id": "96f26f38-aa61-42bf-b7d8-04f8402d1186",
       "name": "Call Claude Validating",
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        3740,
+        3520,
         380
       ]
     },
@@ -352,10 +352,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        4180,
+        3960,
         600
       ],
-      "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
+      "id": "c934b62c-ade6-4eb0-9353-9037eb785847",
       "name": "Edit Fields1"
     },
     {
@@ -368,10 +368,10 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        4400,
+        4180,
         600
       ],
-      "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
+      "id": "897eba3b-84ba-498d-bca1-751443baa8b2",
       "name": "llm2 error to json"
     },
     {
@@ -383,10 +383,10 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        4600,
+        4380,
         600
       ],
-      "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
+      "id": "0bf7014c-8913-4c08-9d88-7cba200702a3",
       "name": "Read/Write Files from Disk1"
     },
     {
@@ -398,10 +398,10 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        4800,
+        4580,
         380
       ],
-      "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
+      "id": "1b69f31b-67e0-4282-a642-8f65bb2d7605",
       "name": "Read/Write Files from Disk2"
     },
     {
@@ -411,10 +411,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        4180,
+        3960,
         380
       ],
-      "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
+      "id": "017fbbba-66d0-437b-8ebf-1ebb135de135",
       "name": "parse response validation"
     },
     {
@@ -424,10 +424,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        2340,
+        2120,
         380
       ],
-      "id": "5ad92be3-4ff5-4223-8e01-444727fc024a",
+      "id": "71e7e840-a566-428f-b8d2-4e2438c3582d",
       "name": "parse response extraction"
     },
     {
@@ -439,10 +439,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        4400,
+        4180,
         380
       ],
-      "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
+      "id": "e5fc3b3a-67bc-4a1a-b197-c907801197cd",
       "name": "create success json"
     },
     {
@@ -455,10 +455,10 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        4600,
+        4380,
         380
       ],
-      "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
+      "id": "078daece-eb0f-46c1-871d-d3e4fa043ad7",
       "name": "success json to binary"
     },
     {
@@ -468,10 +468,10 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        2780,
+        2560,
         380
       ],
-      "id": "c53b74ba-53e0-4edf-a1ee-adc76f6030cd",
+      "id": "8bda842b-f065-4e0b-9310-8bc6f60829bd",
       "name": "stringified json"
     },
     {
@@ -501,10 +501,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        2100,
+        1880,
         380
       ],
-      "id": "f3cd4a60-8ab6-4846-8fa2-e5b28f389a2c",
+      "id": "0be85b7c-bd23-4f2f-a822-9577c5ffe0cb",
       "name": "If code 200"
     },
     {
@@ -536,10 +536,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        2560,
+        2340,
         380
       ],
-      "id": "f5323a36-c8e2-4fdc-9541-b8aab3382308",
+      "id": "d28ded0b-e739-4bb6-a325-8e99a866c45f",
       "name": "If status found"
     },
     {
@@ -569,10 +569,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        3940,
+        3720,
         380
       ],
-      "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
+      "id": "b964153c-7c44-4dd3-8901-57266a44421a",
       "name": "If2 code 200"
     },
     {
@@ -584,10 +584,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        5040,
+        4820,
         640
       ],
-      "id": "aa0f79ad-9a4b-4db6-8ff3-3507aa6156b4",
+      "id": "57b5616c-796d-4795-b393-883d77e403cc",
       "name": "return json content seccess"
     },
     {
@@ -599,10 +599,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        4800,
+        4580,
         600
       ],
-      "id": "034cdf13-71be-4246-ba47-9cfbdc7c8688",
+      "id": "6384aaf9-f042-484d-b76b-ead819ec325d",
       "name": "return llm2 error json"
     },
     {
@@ -614,10 +614,10 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        3160,
+        2940,
         560
       ],
-      "id": "cae8ce54-240e-453d-93a3-0d19c60c1234",
+      "id": "ac2e6a94-9855-481c-aa36-2f3632c47edd",
       "name": "return llm1 error json"
     },
     {
@@ -630,10 +630,10 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        1680,
+        1460,
         120
       ],
-      "id": "214e618e-ee0e-48bf-8a31-162cb2417f99",
+      "id": "e40349b9-0177-4e1e-a98e-f3c18b68ebfc",
       "name": "Convert to File"
     },
     {
@@ -645,23 +645,23 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        1680,
+        1460,
         -80
       ],
-      "id": "04a13bbe-ac49-402a-8228-7d1200d0be18",
+      "id": "ad380f19-3767-49d1-b432-2649cdfa3c75",
       "name": "Read/Write Files from Disk3"
     },
     {
       "parameters": {
-        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for dir {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated {{ $json.data.keys().length }} compacted JSON files from the PDFs. \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
-        800,
+        580,
         -220
       ],
-      "id": "f637f40b-da7f-404b-b433-62c2f26e3eb2",
+      "id": "043d34cb-2ee9-4763-9bed-6372071592a5",
       "name": "send discord msg"
     },
     {
@@ -685,11 +685,11 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        340,
+        120,
         120
       ],
       "name": "Call configReader1",
-      "id": "e22fd851-6db5-4e00-84d2-cededba1911e"
+      "id": "d23c86e9-e4fe-4b9f-85d8-6f2cdbbb97d6"
     },
     {
       "parameters": {
@@ -719,10 +719,10 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        560,
+        340,
         120
       ],
-      "id": "c91d8445-c42a-49b1-92ac-6ae90edf2ef4",
+      "id": "435944d4-3afb-4310-88f8-aa2fcf924064",
       "name": "if Discord enabled"
     },
     {
@@ -732,24 +732,11 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        1480,
+        1260,
         120
       ],
-      "id": "11deac54-fc9f-44f4-ae6b-8f68e917330f",
+      "id": "d9429cfe-6fed-40da-89de-98853f5cfd67",
       "name": "prepare pdf json"
-    },
-    {
-      "parameters": {
-        "jsCode": "// this workflow is only woking with one pdf ... so we use the first fouded pdf only\nreturn $input.first();"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        -200,
-        180
-      ],
-      "id": "670de4f4-2454-48a2-9ecf-bb0bac86ba36",
-      "name": "Code"
     }
   ],
   "connections": {
@@ -786,7 +773,7 @@
       "main": [
         [
           {
-            "node": "Code",
+            "node": "Loop over PDFs",
             "type": "main",
             "index": 0
           }
@@ -1194,17 +1181,6 @@
           }
         ]
       ]
-    },
-    "Code": {
-      "main": [
-        [
-          {
-            "node": "Loop over PDFs",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
     }
   },
   "settings": {
@@ -1215,7 +1191,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "e4292df9-1bea-4b51-a006-8000654927ea",
+  "versionId": "e87a78cd-1eaf-4b4f-bb31-685438bae520",
   "triggerCount": 0,
   "tags": []
 }

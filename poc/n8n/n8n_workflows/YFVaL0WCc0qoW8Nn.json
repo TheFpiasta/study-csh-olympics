@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-11T21:15:32.000Z",
+  "updatedAt": "2025-07-11T21:20:16.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "OnePdfToJson",
   "active": false,
@@ -653,7 +653,7 @@
     },
     {
       "parameters": {
-        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for dir {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for directory {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
@@ -1215,7 +1215,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "e4292df9-1bea-4b51-a006-8000654927ea",
+  "versionId": "7ff6f473-638c-405c-a9ba-bfe3ad44cbb0",
   "triggerCount": 0,
   "tags": []
 }

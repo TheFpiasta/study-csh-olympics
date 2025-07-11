@@ -1,17 +1,21 @@
 {
   "pdfsDir": "PDF_summery",
+  "regexOverToc": "[A-Z]+\\s[0-9]{4}\\s[A-Z]+",
   "anthropic": {
     "url": "https://api.anthropic.com/v1/complete",
-    "key": "sk-ant-XXX",
+    "key": "sk-ant-xxx",
     "model": "claude-sonnet-4-20250514",
     "temperature": 1,
     "maxTokens": 20000,
-    "topP": 1,
     "thinking": {
       "type": "enabled",
-      "budget_tokens": 10000
+      "budget_tokens": 16000
     }
   },
   "extractionPromptPath": "prompts/extraction.txt",
-  "validationPromptPath": "prompts/validation.txt"
+  "validationPromptPath": "prompts/validation.txt",
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/xxx/xxx"
+  }
 }

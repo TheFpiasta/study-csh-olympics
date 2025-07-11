@@ -5,7 +5,7 @@ USER root
 
 # Install Python and required build tools
 RUN apk update && \
-    apk add python3 py3-pip
+    apk add python3 py3-pip curl
 
 # Upgrade pip and create venv
 RUN python3 -m venv /opt/.venv

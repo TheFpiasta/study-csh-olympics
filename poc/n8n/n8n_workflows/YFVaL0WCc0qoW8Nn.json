@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-10T23:32:13.000Z",
+  "updatedAt": "2025-07-11T19:50:29.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "AllPdfToJson",
   "active": false,
@@ -137,8 +137,8 @@
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
       "position": [
-        1360,
-        100
+        1000,
+        120
       ],
       "id": "817527a9-0469-416f-92ad-0c0014c9f3d7",
       "name": "Aggregate JSON chunks"
@@ -156,39 +156,6 @@
       "id": "171448d4-e35a-42d1-803f-08235784e08b",
       "name": "compact pdf infos",
       "notes": "this is needed, because the next steps cant access only the loop pdf data ..."
-    },
-    {
-      "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "strict",
-            "version": 2
-          },
-          "conditions": [
-            {
-              "id": "8166e81f-065f-4c2a-9600-1c2d27b8d51a",
-              "leftValue": "={{ $json.statusCode }}",
-              "rightValue": 200,
-              "operator": {
-                "type": "number",
-                "operation": "equals"
-              }
-            }
-          ],
-          "combinator": "and"
-        },
-        "options": {}
-      },
-      "type": "n8n-nodes-base.if",
-      "typeVersion": 2.2,
-      "position": [
-        1740,
-        380
-      ],
-      "id": "f3cd4a60-8ab6-4846-8fa2-e5b28f389a2c",
-      "name": "If"
     },
     {
       "parameters": {
@@ -234,7 +201,7 @@
     {
       "parameters": {
         "mode": "raw",
-        "jsonOutput": "{\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 1 response status code is not 200. Message: {$data.statusMessage}\"\n}\n",
+        "jsonOutput": "={\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 1 response status code is not 200. Message: {{$data.statusMessage}}\"\n}\n",
         "options": {}
       },
       "type": "n8n-nodes-base.set",
@@ -248,41 +215,6 @@
     },
     {
       "parameters": {
-        "conditions": {
-          "options": {
-            "caseSensitive": true,
-            "leftValue": "",
-            "typeValidation": "loose",
-            "version": 2
-          },
-          "conditions": [
-            {
-              "id": "e4a4e48e-6e20-4ecd-8416-547697d55afe",
-              "leftValue": "={{ $json.data.status }}",
-              "rightValue": "found",
-              "operator": {
-                "type": "string",
-                "operation": "equals",
-                "name": "filter.operator.equals"
-              }
-            }
-          ],
-          "combinator": "and"
-        },
-        "looseTypeValidation": true,
-        "options": {}
-      },
-      "type": "n8n-nodes-base.if",
-      "typeVersion": 2.2,
-      "position": [
-        2260,
-        380
-      ],
-      "id": "f5323a36-c8e2-4fdc-9541-b8aab3382308",
-      "name": "If1"
-    },
-    {
-      "parameters": {
         "operation": "write",
         "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.error.json",
         "options": {}
@@ -290,7 +222,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        2880,
+        2660,
         560
       ],
       "id": "a9f80d53-788f-4878-b074-387aed2900ec",
@@ -299,12 +231,14 @@
     {
       "parameters": {
         "operation": "toJson",
-        "options": {}
+        "options": {
+          "format": true
+        }
       },
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        2700,
+        2480,
         560
       ],
       "id": "a1bb40fa-5548-4cf0-a749-d6abe11b1754",
@@ -345,7 +279,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        3280,
+        2980,
         380
       ],
       "name": "Call promptReader validate",
@@ -403,9 +337,140 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        3520,
+        3220,
         380
       ]
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 2 response status code is not 200. Message: {{$data.statusMessage}}\"\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3760,
+        600
+      ],
+      "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
+      "name": "Edit Fields1"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {
+          "format": true
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        3960,
+        600
+      ],
+      "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
+      "name": "llm2 error to json"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.error.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        4140,
+        600
+      ],
+      "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
+      "name": "Read/Write Files from Disk1"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        4360,
+        380
+      ],
+      "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
+      "name": "Read/Write Files from Disk2"
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\n\n/**\n * extract the json from the response text if the llm has desided to write more the nonly the json...\n * \n * @param {string} str \n * @returns {string|null}\n */\nfunction extractJson(str) {\n  const match = str.match(/{[\\s\\S]*}/);\n  if (match) {\n    try {\n      return JSON.parse(match[0]);\n    } catch (e) {\n      return null; // Invalid JSON\n    }\n  }\n  return null; // No JSON found\n}\n\n// first is thinking text, secound is response text\nconst json = extractJson(result[1]?.text || \"\")\n\nif (!json) {\n  return {data: {status:\"failed\", message: \"LLM 2 response is incorrect\"}, original: result[1]?.text, thinking: result[0]?.text};\n}\n\nreturn {data: json, original: result[1]?.text};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        3740,
+        380
+      ],
+      "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
+      "name": "parse response validation"
+    },
+    {
+      "parameters": {
+        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\n\n/**\n * extract the json from the response text if the llm has desided to write more the nonly the json...\n * \n * @param {string} str \n * @returns {string|null}\n */\nfunction extractJson(str) {\n  const match = str.match(/{[\\s\\S]*}/);\n  if (match) {\n    try {\n      return JSON.parse(match[0]);\n    } catch (e) {\n      return null; // Invalid JSON\n    }\n  }\n  return null; // No JSON found\n}\n\n// first is awnser text. if thinking is enables, then secound is awnser.\nconst json = extractJson(result[0]?.text)\n\nif (!json) {\n  return {data: {status:\"failed\", message: \"LLM 1 response is incorrect\"}, original: result[0]?.text};\n}\n\nreturn {data: json, original: result[0]?.text};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2040,
+        380
+      ],
+      "id": "5ad92be3-4ff5-4223-8e01-444727fc024a",
+      "name": "parse response extraction"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={\n  \"status\": \"success\",\n  \"extraction\": {{ $('parse response extraction').item.json }},\n  \"validation\": {{ $json }}\n}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        3960,
+        380
+      ],
+      "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
+      "name": "create success json"
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {
+          "format": true
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        4160,
+        380
+      ],
+      "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
+      "name": "success json to binary"
+    },
+    {
+      "parameters": {
+        "jsCode": "return {data: JSON.stringify(JSON.stringify($('parse response extraction').first().json.data))}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        2660,
+        380
+      ],
+      "id": "c53b74ba-53e0-4edf-a1ee-adc76f6030cd",
+      "name": "stringified json"
     },
     {
       "parameters": {
@@ -434,40 +499,11 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        3760,
+        1740,
         380
       ],
-      "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
-      "name": "If2"
-    },
-    {
-      "parameters": {
-        "mode": "raw",
-        "jsonOutput": "{\n  \"status\": \"llm_error\",\n  \"message\": \"LLM 2 response status code is not 200. Message: {$data.statusMessage}\"\n}\n",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.set",
-      "typeVersion": 3.4,
-      "position": [
-        3980,
-        600
-      ],
-      "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
-      "name": "Edit Fields1"
-    },
-    {
-      "parameters": {
-        "operation": "toJson",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.convertToFile",
-      "typeVersion": 1.1,
-      "position": [
-        4400,
-        600
-      ],
-      "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
-      "name": "llm2 error to json"
+      "id": "f3cd4a60-8ab6-4846-8fa2-e5b28f389a2c",
+      "name": "If code 200"
     },
     {
       "parameters": {
@@ -475,7 +511,7 @@
           "options": {
             "caseSensitive": true,
             "leftValue": "",
-            "typeValidation": "strict",
+            "typeValidation": "loose",
             "version": 2
           },
           "conditions": [
@@ -492,114 +528,200 @@
           ],
           "combinator": "and"
         },
+        "looseTypeValidation": true,
         "options": {}
       },
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        4180,
+        2260,
         380
       ],
-      "id": "6c8c0c9e-0f26-49a6-9089-28099e5a1ce8",
-      "name": "If3"
+      "id": "f5323a36-c8e2-4fdc-9541-b8aab3382308",
+      "name": "If status found"
     },
     {
       "parameters": {
-        "operation": "write",
-        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.error.json",
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "8166e81f-065f-4c2a-9600-1c2d27b8d51a",
+              "leftValue": "={{ $json.statusCode }}",
+              "rightValue": 200,
+              "operator": {
+                "type": "number",
+                "operation": "equals"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
         "options": {}
       },
-      "type": "n8n-nodes-base.readWriteFile",
-      "typeVersion": 1,
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
       "position": [
-        4600,
-        600
-      ],
-      "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
-      "name": "Read/Write Files from Disk1"
-    },
-    {
-      "parameters": {
-        "operation": "write",
-        "fileName": "={{ $('compact chunk infos').item.json.pdf.binary.data.directory }}/{{ $('compact chunk infos').item.json.pdf.binary.data.fileName }}.json",
-        "options": {}
-      },
-      "type": "n8n-nodes-base.readWriteFile",
-      "typeVersion": 1,
-      "position": [
-        5140,
-        640
-      ],
-      "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
-      "name": "Read/Write Files from Disk2"
-    },
-    {
-      "parameters": {
-        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 2 ? JSON.parse(result[1].text) : {status:\"failed\", message: \"LLM 2 response is incorrect\"}\n\nreturn {data: message};"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        3980,
+        3460,
         380
       ],
-      "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
-      "name": "parse response validation"
-    },
-    {
-      "parameters": {
-        "jsCode": "const response = JSON.parse($input.first().json.data);\nconst result = response?.content || []\nconst message = result.length === 1 ? JSON.parse(result[0].text) : {status:\"failed\", message: \"LLM 1 response is incorrect\"}\n\nreturn {data: message};"
-      },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
-      "position": [
-        2040,
-        380
-      ],
-      "id": "5ad92be3-4ff5-4223-8e01-444727fc024a",
-      "name": "parse response extraction"
+      "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
+      "name": "If2 code 200"
     },
     {
       "parameters": {
         "mode": "raw",
-        "jsonOutput": "={\n  \"status\": \"success\",\n  \"extraction\": \"\",\n  \"validation\": \"\"\n}\n",
+        "jsonOutput": "={{ $('create success json').item.json }}",
         "options": {}
       },
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
         4600,
-        380
+        640
       ],
-      "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
-      "name": "create success json"
+      "id": "aa0f79ad-9a4b-4db6-8ff3-3507aa6156b4",
+      "name": "return json content seccess"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={{ $('Edit Fields1').item.json }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        4340,
+        600
+      ],
+      "id": "034cdf13-71be-4246-ba47-9cfbdc7c8688",
+      "name": "return llm2 error json"
+    },
+    {
+      "parameters": {
+        "mode": "raw",
+        "jsonOutput": "={{ $('Edit Fields').item.json }}",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        2860,
+        560
+      ],
+      "id": "cae8ce54-240e-453d-93a3-0d19c60c1234",
+      "name": "return llm1 error json"
     },
     {
       "parameters": {
         "operation": "toJson",
-        "options": {}
+        "options": {
+          "format": true
+        }
       },
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        4800,
-        380
+        1180,
+        120
       ],
-      "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
-      "name": "success json to binary"
+      "id": "214e618e-ee0e-48bf-8a31-162cb2417f99",
+      "name": "Convert to File"
     },
     {
       "parameters": {
-        "jsCode": "return {data: JSON.stringify(JSON.stringify($('parse response extraction').first().json.data))}"
+        "operation": "write",
+        "fileName": "=/io/{{ $('compact pdf infos').item.json.config.pdfsDir }}/{{ $('compact pdf infos').item.json.pdf.fileName }}.json",
+        "options": {}
       },
-      "type": "n8n-nodes-base.code",
-      "typeVersion": 2,
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
       "position": [
-        3080,
-        380
+        1180,
+        -80
       ],
-      "id": "c53b74ba-53e0-4edf-a1ee-adc76f6030cd",
-      "name": "stringified json"
+      "id": "04a13bbe-ac49-402a-8228-7d1200d0be18",
+      "name": "Read/Write Files from Disk3"
+    },
+    {
+      "parameters": {
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished.\"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        560,
+        120
+      ],
+      "id": "f637f40b-da7f-404b-b433-62c2f26e3eb2",
+      "name": "send discord msg"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "MBU788enjpjn17oX",
+          "mode": "list",
+          "cachedResultName": "configReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        120,
+        120
+      ],
+      "name": "Call configReader1",
+      "id": "e22fd851-6db5-4e00-84d2-cededba1911e"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "db62c723-e6a3-4eac-9143-f2d76d5843f1",
+              "leftValue": "={{ $('Call configReader1').item.json.data.discord.enabled }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        340,
+        120
+      ],
+      "id": "c91d8445-c42a-49b1-92ac-6ae90edf2ef4",
+      "name": "if Discord enabled"
     }
   ],
   "connections": {
@@ -616,7 +738,13 @@
     },
     "Loop over PDFs": {
       "main": [
-        [],
+        [
+          {
+            "node": "Call configReader1",
+            "type": "main",
+            "index": 0
+          }
+        ],
         [
           {
             "node": "compact pdf infos",
@@ -659,7 +787,7 @@
       "main": [
         [
           {
-            "node": "Loop Over chunks",
+            "node": "Loop over PDFs",
             "type": "main",
             "index": 0
           }
@@ -710,47 +838,11 @@
         ]
       ]
     },
-    "If": {
-      "main": [
-        [
-          {
-            "node": "parse response extraction",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "Edit Fields",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
     "Call promptReader extract": {
       "main": [
         [
           {
             "node": "Call Claude Extracting",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "If1": {
-      "main": [
-        [
-          {
-            "node": "stringified json",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "llm1 error to json",
             "type": "main",
             "index": 0
           }
@@ -783,7 +875,7 @@
       "main": [
         [
           {
-            "node": "Loop Over chunks",
+            "node": "return llm1 error json",
             "type": "main",
             "index": 0
           }
@@ -805,7 +897,7 @@
       "main": [
         [
           {
-            "node": "If",
+            "node": "If code 200",
             "type": "main",
             "index": 0
           }
@@ -816,25 +908,7 @@
       "main": [
         [
           {
-            "node": "If2",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "If2": {
-      "main": [
-        [
-          {
-            "node": "parse response validation",
-            "type": "main",
-            "index": 0
-          }
-        ],
-        [
-          {
-            "node": "Edit Fields1",
+            "node": "If2 code 200",
             "type": "main",
             "index": 0
           }
@@ -843,24 +917,6 @@
     },
     "Edit Fields1": {
       "main": [
-        [
-          {
-            "node": "llm2 error to json",
-            "type": "main",
-            "index": 0
-          }
-        ]
-      ]
-    },
-    "If3": {
-      "main": [
-        [
-          {
-            "node": "create success json",
-            "type": "main",
-            "index": 0
-          }
-        ],
         [
           {
             "node": "llm2 error to json",
@@ -885,7 +941,7 @@
       "main": [
         [
           {
-            "node": "Loop Over chunks",
+            "node": "return llm2 error json",
             "type": "main",
             "index": 0
           }
@@ -896,7 +952,7 @@
       "main": [
         [
           {
-            "node": "Loop Over chunks",
+            "node": "return json content seccess",
             "type": "main",
             "index": 0
           }
@@ -907,7 +963,7 @@
       "main": [
         [
           {
-            "node": "If3",
+            "node": "create success json",
             "type": "main",
             "index": 0
           }
@@ -918,7 +974,7 @@
       "main": [
         [
           {
-            "node": "If1",
+            "node": "If status found",
             "type": "main",
             "index": 0
           }
@@ -957,15 +1013,159 @@
           }
         ]
       ]
+    },
+    "If code 200": {
+      "main": [
+        [
+          {
+            "node": "parse response extraction",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If status found": {
+      "main": [
+        [
+          {
+            "node": "stringified json",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "llm1 error to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If2 code 200": {
+      "main": [
+        [
+          {
+            "node": "parse response validation",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Edit Fields1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "return json content seccess": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "return llm2 error json": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "return llm1 error json": {
+      "main": [
+        [
+          {
+            "node": "Loop Over chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate JSON chunks": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk3": {
+      "main": [
+        [
+          {
+            "node": "Loop over PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call configReader1": {
+      "main": [
+        [
+          {
+            "node": "if Discord enabled",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "if Discord enabled": {
+      "main": [
+        [
+          {
+            "node": "send discord msg",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
     "executionOrder": "v1"
   },
   "staticData": null,
-  "meta": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
   "pinData": {},
-  "versionId": "db81880c-3456-41bd-91ef-a6e47f1b1f7e",
+  "versionId": "dbe5ff92-384a-412c-af3f-17780cbb7d22",
   "triggerCount": 0,
   "tags": []
 }

@@ -14,7 +14,7 @@ You found the JSON data in the user message.
 
 <response>
 {
-"status":"correct"
+"status":"valid"
 }
 </response>
 
@@ -27,7 +27,7 @@ You found the JSON data in the user message.
 {
 "status": "corrected",
 "json": {<entire corrected JSON object>},
-"correctedKeys": [<array of keys that were corrected>]
+"correctedKeys": [<array of keys and indexes or nested keys and indexes that were corrected>]
 }
 </response>
 

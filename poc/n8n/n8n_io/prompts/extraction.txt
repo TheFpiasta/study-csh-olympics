@@ -13,8 +13,8 @@ If the PDF does have the required headline format, extract the following informa
 
 {
   "status": "found",
-  "country": "<country>",
-  "year": "<Year>",
+  "city": "<City name from the headline>",
+  "year": "<Year from the headline>",
   "overview": "<Text from OVERVIEW>",
   "venues": [
     {

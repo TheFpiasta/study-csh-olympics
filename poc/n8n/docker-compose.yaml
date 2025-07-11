@@ -14,9 +14,9 @@ services:
     restart: no
     environment:
       - N8N_RUNNERS_ENABLED=true
-      - N8N_PAYLOAD_SIZE_MAX=268435456 #Increases payload limit to 256MB
-      - NODE_OPTIONS=--max_old_space_size=8192 #Increases memory limit to 8GB
-#      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+      - N8N_ENFORCE_SETTINGS_FILE_PERMISSIONS=true
+#      - N8N_PAYLOAD_SIZE_MAX=268435456 #Increases payload limit to 256MB
+#      - NODE_OPTIONS=--max_old_space_size=8192 #Increases memory limit to 8GB
 
 volumes:
   n8n_data:

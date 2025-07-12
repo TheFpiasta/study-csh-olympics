@@ -1,0 +1,417 @@
+{
+  "createdAt": "2025-07-12T20:42:14.293Z",
+  "updatedAt": "2025-07-12T20:44:26.000Z",
+  "id": "FLSHneOwYnBW2epn",
+  "name": "OnePdfChunksToJson",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "MBU788enjpjn17oX",
+          "mode": "list",
+          "cachedResultName": "configReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        -1760,
+        272
+      ],
+      "name": "Call configReader",
+      "id": "77b95cf4-2c1b-44f5-9282-1321d7ecdaa7"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        -1072,
+        272
+      ],
+      "id": "b879a60f-d4cd-4ab0-a026-7766c57277a6",
+      "name": "Loop over PDFs"
+    },
+    {
+      "parameters": {
+        "fileSelector": "=/io/{{ $json.data.pdfsDir }}/*.pdf",
+        "options": {
+          "fileExtension": "pdf"
+        }
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        -1552,
+        272
+      ],
+      "id": "f8c897da-ec26-480a-a337-902dc965b641",
+      "name": "Read PDFs from Dir"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -1952,
+        272
+      ],
+      "id": "e326f65d-1e7c-43c0-aa23-3befb9be21cf",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "aggregate": "aggregateAllItemData",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.aggregate",
+      "typeVersion": 1,
+      "position": [
+        752,
+        208
+      ],
+      "id": "6cbf0272-060b-458e-a4b3-b5ca51783d9e",
+      "name": "Aggregate JSON chunks"
+    },
+    {
+      "parameters": {
+        "jsCode": "return {config: $('Call configReader').first().json.data, pdf: $input.first().json}"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -800,
+        368
+      ],
+      "id": "7827aaac-3b29-4f6e-a5a7-19309e7a425e",
+      "name": "compact pdf infos",
+      "notes": "this is needed, because the next steps cant access only the loop pdf data ..."
+    },
+    {
+      "parameters": {
+        "operation": "toJson",
+        "options": {
+          "format": true
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        976,
+        208
+      ],
+      "id": "81d28d96-066e-400f-a774-234706e97a23",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "=/io/{{ $('compact pdf infos').last().json.config.pdfsDir }}/{{ $('compact pdf infos').last().json.pdf.fileName }}.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        976,
+        0
+      ],
+      "id": "16ab7f67-ea8c-4376-acbc-0d107c22bdeb",
+      "name": "Read/Write Files from Disk3"
+    },
+    {
+      "parameters": {
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for directory {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+      },
+      "type": "n8n-nodes-base.executeCommand",
+      "typeVersion": 1,
+      "position": [
+        -352,
+        -144
+      ],
+      "id": "2f114808-4829-4c58-8949-2bd2f3868509",
+      "name": "send discord msg",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "MBU788enjpjn17oX",
+          "mode": "list",
+          "cachedResultName": "configReader"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        -800,
+        208
+      ],
+      "name": "Call configReader1",
+      "id": "aa44bb84-6928-46d8-b2a7-94ded0cb0d61",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "db62c723-e6a3-4eac-9143-f2d76d5843f1",
+              "leftValue": "={{ $('Call configReader1').item.json.data.discord.enabled }}",
+              "rightValue": "",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        -592,
+        208
+      ],
+      "id": "de81d1f3-c89f-4998-83ae-4de82108f013",
+      "name": "if Discord enabled",
+      "disabled": true
+    },
+    {
+      "parameters": {
+        "jsCode": "// this workflow is only woking with one pdf ... so we use the first fouded pdf only\nreturn $input.first();"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1360,
+        272
+      ],
+      "id": "cab669b9-3945-4e7c-a3ad-f7b3e54514e3",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "fileSelector": "=/io/{{ $('compact pdf infos').item.json.config.pdfsDir }}/{{ $('compact pdf infos').item.json.pdf.fileName }}_chunked/*.json",
+        "options": {
+          "fileName": "json"
+        }
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        320,
+        208
+      ],
+      "id": "c3801b7e-670e-4119-8397-24e98cfe3da3",
+      "name": "Read all JSON chunks"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        528,
+        208
+      ],
+      "id": "b693336f-2a80-4d4e-a763-2d90bad0a0fa",
+      "name": "Extract from File"
+    }
+  ],
+  "connections": {
+    "Call configReader": {
+      "main": [
+        [
+          {
+            "node": "Read PDFs from Dir",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Loop over PDFs": {
+      "main": [
+        [
+          {
+            "node": "Call configReader1",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "compact pdf infos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read PDFs from Dir": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Call configReader",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Aggregate JSON chunks": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "Read/Write Files from Disk3",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read/Write Files from Disk3": {
+      "main": [
+        [
+          {
+            "node": "Loop over PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Call configReader1": {
+      "main": [
+        [
+          {
+            "node": "if Discord enabled",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "if Discord enabled": {
+      "main": [
+        [
+          {
+            "node": "send discord msg",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Loop over PDFs",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read all JSON chunks": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "Aggregate JSON chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "compact pdf infos": {
+      "main": [
+        [
+          {
+            "node": "Read all JSON chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "f17f3276-a50c-42c3-9249-4968cbe94df1",
+  "triggerCount": 0,
+  "tags": []
+}

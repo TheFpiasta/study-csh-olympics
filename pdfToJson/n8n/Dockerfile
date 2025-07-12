@@ -1,4 +1,7 @@
-FROM n8nio/n8n
+# Note: n8n have also 1.102.1-amd64 and 1.102.1-arm64 for AMD and ARM support.
+# Note: We use a fixed n8n version, so the professor have the same version then we have executed it.
+#       You may want to upgrade to the latest n8n verion. Pleace first check, if the workfow is behave the same as intented!
+FROM n8nio/n8n:1.102.1
 
 # Switch to root to install packages
 USER root

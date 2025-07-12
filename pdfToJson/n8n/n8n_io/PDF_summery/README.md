@@ -22,4 +22,7 @@
   - weiter bei 19_Salt_Lake_City
   - --> regex mit $ enden lassen, behebt das teil weiße zu viel splitten der pdf
   - --> einführung einer start chunk by count variable, um nicht alles wiederholen zu müssen 
-  - ==> ausversehn reset wintergames ... alles noch mal neu machen
+  - ==> ausersehen reset wintergames ... alles noch mal neu machen
+
+- ein winter game headline startet nicht mit text, sondern direkt mit dem JAhr
+  - --> regex am Anfang nur mir .* statt .+ beginnen lassen

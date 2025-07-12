@@ -18,7 +18,4 @@ Directory structure:
 
 # TODOS
 
-Unexpected token '<', "<scratchpa"... is not valid JSON [line 3]
-on json.parse after 2. llm
-
 

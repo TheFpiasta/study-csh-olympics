@@ -24,4 +24,6 @@ pip freeze > requirements.txt
 ```
 
 ## Note:
-for the regex chunker solution it is recommented to remove the first and last pages of the pdf, that have no needed information.
+For the regex chunker solution it is recommented to remove the first and last pages of the pdf, that have no needed information.
+
+We use the workflow "OnePdfToJson".

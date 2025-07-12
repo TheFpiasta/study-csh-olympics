@@ -1,0 +1,22 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "MEXICO CITY",
+        "year": "1968",
+        "overview": "Twenty-three competition venues were used for the Olympic Games Mexico City 1968, 21 of which remain in use today. Fifteen of the competition venues were existing and eight were new. Two of the existing venues have been demolished. All eight of the venues newly built for the Games still host sports competitions and cater for high-performance athletes, sports clubs and the community.\n\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and two sports, and continues to be regularly used. The Olympic Village was built for the Games and remains in use.",
+        "venues": [],
+        "trivia": ""
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"MEXICO CITY\",\n  \"year\": \"1968\",\n  \"overview\": \"Twenty-three competition venues were used for the Olympic Games Mexico City 1968, 21 of which remain in use today. Fifteen of the competition venues were existing and eight were new. Two of the existing venues have been demolished. All eight of the venues newly built for the Games still host sports competitions and cater for high-performance athletes, sports clubs and the community.\\n\\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and two sports, and continues to be regularly used. The Olympic Village was built for the Games and remains in use.\",\n  \"venues\": [],\n  \"trivia\": \"\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nComparing the JSON data with the PDF content:\n\n1. City: \"MEXICO CITY\" - matches PDF exactly\n2. Year: \"1968\" - matches PDF exactly  \n3. Overview: The JSON overview text matches the PDF content exactly, including the paragraph break between the two sections about venue statistics and the Olympic Stadium/Village information\n4. Venues: Empty array [] - this is correct as the PDF provides statistics about venues but doesn't list specific venue names\n5. Trivia: Empty string \"\" - this is correct as no trivia information is provided in the PDF\n\nAll data in the JSON accurately reflects the information available in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

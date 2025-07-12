@@ -1,0 +1,357 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Rome",
+        "year": "1960",
+        "overview": "Twenty-six competition venues were used for the Olympic Games Rome 1960, 21 of which remain in use today. Fifteen of the competition venues were existing and the remaining 11 were new. While two new-build venues are closed and not in use and three have been demolished, the remaining venues continue to be used for high-performance and recreational sport, and some are popular visitor attractions.\n\nAn existing venue, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. It remains in use and went through two extensive renovations. The Olympic Village was built for the Games and remains in use.",
+        "venues": [
+          {
+            "name": "Olympic Stadium",
+            "classification": "Existing",
+            "use": "Athletics, equestrian (jumping), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012.\n\nThe stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances."
+          },
+          {
+            "name": "Piazza di Siena",
+            "classification": "Existing",
+            "use": "Jumping, dressage",
+            "status": "In use",
+            "information": "Situated in the Villa Borghese gardens, the venue staged its first equestrian events in 1922. Attracting the leading riders on the international circuit, the Piazza di Siena International Horse Show is one of the top events on the equestrian calendar and was a FEI Jumping Nations Cup Division 1 venue between 2013 and 2017. In May 2021, the Piazza di Siena staged the 88th CSIO Roma Master d'Inzeo."
+          },
+          {
+            "name": "Marble Stadium",
+            "classification": "Existing",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "As well as hosting the knockout rounds of the hockey tournament at Rome 1960, the Stadio dei Marmi was used by athletes to warm up for the track and field events at the adjoining Stadio Olimpico. Opened in 1936, the 9,500-capacity stadium staged the opening ceremony of the 2009 FINA World Aquatics Championships and in 2016 became the venue for the Global Champions Tour of Rome, an annual equestrian event."
+          },
+          {
+            "name": "Umberto I Shooting Range",
+            "classification": "Existing",
+            "use": "Shooting, modern pentathlon (shooting)",
+            "status": "In use",
+            "information": "One of three shooting venues used at the 1960 Olympic Games, it hosted the rapid fire pistol, pistol, rifle three positions, and rifle prone competitions. Italy's national range since 1883 and the home of the TSN Roma club, the venue has staged several world championships, most recently in 1995."
+          },
+          {
+            "name": "Baths of Caracalla",
+            "classification": "Existing",
+            "use": "Artistic gymnastics",
+            "status": "In use",
+            "information": "Inaugurated in 217 AD, the Baths of Caracalla were regarded as the most impressive baths of the era and comprised hot and cold swimming baths, covered and open-air gymnasiums, and rooms for gymnastics, wrestling and relaxation. The ground floor of the precinct and a large part of its walls remain intact. The site hosted the Grand Premio di Roma car race between 1947 and 1951. It hosted artistic gymnastics at Rome 1960 and, in the years since the Games, it has been the setting for operas, concerts and dance festivals. It also attracts large numbers of tourists all year round."
+          },
+          {
+            "name": "Acquasanta Golf Club Course",
+            "classification": "Existing",
+            "use": "Modern pentathlon (running)",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Basilica of Maxentius",
+            "classification": "Existing",
+            "use": "Wrestling",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Congress Palace",
+            "classification": "Existing",
+            "use": "Fencing, modern pentathlon (fencing)",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "SS Lazio Shooting Club",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "The venue for the trap shooting competition at the 1960 Olympic Games was completely refurbished and equipped with modern trap machines and seating for 2,000 spectators. Founded in 1893, the club continues to host competitive and recreational shooting."
+          },
+          {
+            "name": "Pratoni del Vivaro",
+            "classification": "New build",
+            "use": "Eventing",
+            "status": "In use",
+            "information": "Permanent stables and other facilities, including storehouses, were built for the Games. Situated 35 kilometres outside Rome, Pratoni del Vivaro continues to host equestrian events and was the setting for the 2007 European Eventing Championships."
+          },
+          {
+            "name": "Olympic Swimming Stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "Located in the Foro Italico complex, close to the Olympic Stadium, the venue is split into a competition area, comprising the open-air Olympic pool and diving pool, and a swimming instruction area. It is Italy's national swimming and diving centre and has five pools in all (two covered and three uncovered), as well as three gyms.\n\nThe venue was refurbished to host the 1983 European Aquatics Championships and expanded for the 1994 World Aquatics Championships, which it staged again in 2009. The stadium also staged the 2011 Euroleague Water Polo Final Four and will welcome the European Aquatics Championships again in 2022.\n\nThe stadium stages national and regional swimming, water polo, artistic swimming and diving competitions, runs lifesaving activities and courses and swim classes, and is open for recreational swimming and educational and social activities."
+          },
+          {
+            "name": "Piscina delle Rose",
+            "classification": "New build",
+            "use": "Water polo",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Flaminio Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "Not in use",
+            "information": "The venue hosted group and knockout matches in the men's Olympic football tournament, including the gold-medal match. Built on the site of a stadium used at the 1934 FIFA World Cup, the Stadio Flaminio opened in 1959 and had a capacity of 50,000 at the time. It also featured a heated indoor pool, a fencing gym and wrestling, weightlifting and boxing facilities."
+          },
+          {
+            "name": "Sports Palace",
+            "classification": "New build",
+            "use": "Basketball, boxing",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Small Sports Palace",
+            "classification": "New build",
+            "use": "Basketball, weightlifting",
+            "status": "Not in use",
+            "information": "The first purpose-built venue to be completed for the Games, the venue was home to Rome's leading basketball and volleyball teams for many years. Though it closed in 2018, plans have been approved for a EUR 3 million refurbishment and redevelopment of the site, which will restore its status as a major sporting venue open to the city's clubs and schools."
+          },
+          {
+            "name": "Rome Olympic Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track), hockey",
+            "status": "Not in use (demolished)",
+            "information": "The field hockey matches were held on the pitch in the middle of the velodrome. The track hosted cycling competitions up until 1968, when problems with the foundations of the stands were detected, leading to their closure. The track was still used for training, however, while the infield continued to be used for hockey and football until 2006. The velodrome was demolished in 2008. A series of legal disputes since then have prevented the site from being cleared and re-used."
+          },
+          {
+            "name": "Cesano Shooting Range",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "A shooting range was set up for the long-distance rifle events at the Italian Infantry School in Cesano. Though the school continues to operate, the Olympic range has since been dismantled."
+          },
+          {
+            "name": "Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Built in what was a run-down part of the Italian capital, the Village opened in July 1960 and admitted its first residents, as planned, after the Games were over. It fell into decline in the 1970s, when the body that maintained it was disbanded. Crime became a problem in the area in the years thereafter.\n\nRegeneration came in the 2000s, thanks in part to the opening of a number of cultural sites and architectural projects in the surrounding area, including the Parco della Musica to the south of the Village in 2002, and the Maxxi National Museum of 21st Century Arts in 2009. The Village, which is made up of 33 buildings comprising 1,800 apartments and is home to 6,500 people, is set to undergo further redevelopment as part of an extensive urban renewal project that includes the refurbishment of the Stadio Flaminio."
+          },
+          {
+            "name": "Lake Albano",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "The lake has been the venue for several major rowing competitions, from the Italian Championships to European Championships, since 1903. It is home to several sailing clubs and the Italian Canoeing and Kayaking Federation (FICK). Italy's national canoe and kayak teams train there. Popular with tourists, it offers a range of recreational water activities and sports, as well as opportunities for sunbathing and hiking. There are several restaurants on its shores.\n\nThe grandstand and judges' tower built for the Games have fallen into disrepair. Though their demolition has been discussed, they remain standing, as do the concrete piles installed at Games time at either end of the lake to hold the lane-marking system in place."
+          }
+        ],
+        "trivia": "The Marble Stadium (Stadio dei Marmi) is ringed by 59 faux Greco-Roman marble statues, each depicting different sports.\n\nThe Small Sports Palace (Palazzetto dello Sport) was built by the celebrated Italian architect Pier Luigi Nervi, who also designed the Torino Esposizioni, which hosted ice hockey matches at the Olympic Winter Games Torino 2006.\n\nOccupying the crater of an ancient volcano, Lake Albano gave its name to a lane-marking system devised to respond to the challenges that the depth of the water posed. The anchor-based system commonly used at the time was rendered impractical by the lake, which was up to 170 metres deep in places. In response to this, the Albano system uses buoys and cables and can be installed on any suitable body of water, regardless of its depth. It was later adopted as the universal standard by the world governing bodies of canoeing and rowing, and it remains in use today.\n\nThe streets of the Olympic Village are named after the famous sporting figures and national delegations that stayed there. They include Via Chile, Via India, Via Nedo Nadi (a celebrated Italian fencer) and Viale Pietro de Coubertin.\n\nThe plan to redevelop Flaminio Stadium aims to make it a major concert venue, the permanent home of Italian rugby, and the home of SS Lazio's club museum."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Rome\",\n  \"year\": \"1960\",\n  \"overview\": \"Twenty-six competition venues were used for the Olympic Games Rome 1960, 21 of which remain in use today. Fifteen of the competition venues were existing and the remaining 11 were new. While two new-build venues are closed and not in use and three have been demolished, the remaining venues continue to be used for high-performance and recreational sport, and some are popular visitor attractions.\\n\\nAn existing venue, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. It remains in use and went through two extensive renovations. The Olympic Village was built for the Games and remains in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, equestrian (jumping), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012.\\n\\nThe stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances.\"\n    },\n    {\n      \"name\": \"Piazza di Siena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Jumping, dressage\",\n      \"status\": \"In use\",\n      \"information\": \"Situated in the Villa Borghese gardens, the venue staged its first equestrian events in 1922. Attracting the leading riders on the international circuit, the Piazza di Siena International Horse Show is one of the top events on the equestrian calendar and was a FEI Jumping Nations Cup Division 1 venue between 2013 and 2017. In May 2021, the Piazza di Siena staged the 88th CSIO Roma Master d'Inzeo.\"\n    },\n    {\n      \"name\": \"Marble Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"As well as hosting the knockout rounds of the hockey tournament at Rome 1960, the Stadio dei Marmi was used by athletes to warm up for the track and field events at the adjoining Stadio Olimpico. Opened in 1936, the 9,500-capacity stadium staged the opening ceremony of the 2009 FINA World Aquatics Championships and in 2016 became the venue for the Global Champions Tour of Rome, an annual equestrian event.\"\n    },\n    {\n      \"name\": \"Umberto I Shooting Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting, modern pentathlon (shooting)\",\n      \"status\": \"In use\",\n      \"information\": \"One of three shooting venues used at the 1960 Olympic Games, it hosted the rapid fire pistol, pistol, rifle three positions, and rifle prone competitions. Italy's national range since 1883 and the home of the TSN Roma club, the venue has staged several world championships, most recently in 1995.\"\n    },\n    {\n      \"name\": \"Baths of Caracalla\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics\",\n      \"status\": \"In use\",\n      \"information\": \"Inaugurated in 217 AD, the Baths of Caracalla were regarded as the most impressive baths of the era and comprised hot and cold swimming baths, covered and open-air gymnasiums, and rooms for gymnastics, wrestling and relaxation. The ground floor of the precinct and a large part of its walls remain intact. The site hosted the Grand Premio di Roma car race between 1947 and 1951. It hosted artistic gymnastics at Rome 1960 and, in the years since the Games, it has been the setting for operas, concerts and dance festivals. It also attracts large numbers of tourists all year round.\"\n    },\n    {\n      \"name\": \"Acquasanta Golf Club Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (running)\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Basilica of Maxentius\",\n      \"classification\": \"Existing\",\n      \"use\": \"Wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Congress Palace\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"SS Lazio Shooting Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for the trap shooting competition at the 1960 Olympic Games was completely refurbished and equipped with modern trap machines and seating for 2,000 spectators. Founded in 1893, the club continues to host competitive and recreational shooting.\"\n    },\n    {\n      \"name\": \"Pratoni del Vivaro\",\n      \"classification\": \"New build\",\n      \"use\": \"Eventing\",\n      \"status\": \"In use\",\n      \"information\": \"Permanent stables and other facilities, including storehouses, were built for the Games. Situated 35 kilometres outside Rome, Pratoni del Vivaro continues to host equestrian events and was the setting for the 2007 European Eventing Championships.\"\n    },\n    {\n      \"name\": \"Olympic Swimming Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"Located in the Foro Italico complex, close to the Olympic Stadium, the venue is split into a competition area, comprising the open-air Olympic pool and diving pool, and a swimming instruction area. It is Italy's national swimming and diving centre and has five pools in all (two covered and three uncovered), as well as three gyms.\\n\\nThe venue was refurbished to host the 1983 European Aquatics Championships and expanded for the 1994 World Aquatics Championships, which it staged again in 2009. The stadium also staged the 2011 Euroleague Water Polo Final Four and will welcome the European Aquatics Championships again in 2022.\\n\\nThe stadium stages national and regional swimming, water polo, artistic swimming and diving competitions, runs lifesaving activities and courses and swim classes, and is open for recreational swimming and educational and social activities.\"\n    },\n    {\n      \"name\": \"Piscina delle Rose\",\n      \"classification\": \"New build\",\n      \"use\": \"Water polo\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Flaminio Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue hosted group and knockout matches in the men's Olympic football tournament, including the gold-medal match. Built on the site of a stadium used at the 1934 FIFA World Cup, the Stadio Flaminio opened in 1959 and had a capacity of 50,000 at the time. It also featured a heated indoor pool, a fencing gym and wrestling, weightlifting and boxing facilities.\"\n    },\n    {\n      \"name\": \"Sports Palace\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball, boxing\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Small Sports Palace\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball, weightlifting\",\n      \"status\": \"Not in use\",\n      \"information\": \"The first purpose-built venue to be completed for the Games, the venue was home to Rome's leading basketball and volleyball teams for many years. Though it closed in 2018, plans have been approved for a EUR 3 million refurbishment and redevelopment of the site, which will restore its status as a major sporting venue open to the city's clubs and schools.\"\n    },\n    {\n      \"name\": \"Rome Olympic Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track), hockey\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The field hockey matches were held on the pitch in the middle of the velodrome. The track hosted cycling competitions up until 1968, when problems with the foundations of the stands were detected, leading to their closure. The track was still used for training, however, while the infield continued to be used for hockey and football until 2006. The velodrome was demolished in 2008. A series of legal disputes since then have prevented the site from being cleared and re-used.\"\n    },\n    {\n      \"name\": \"Cesano Shooting Range\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"A shooting range was set up for the long-distance rifle events at the Italian Infantry School in Cesano. Though the school continues to operate, the Olympic range has since been dismantled.\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Built in what was a run-down part of the Italian capital, the Village opened in July 1960 and admitted its first residents, as planned, after the Games were over. It fell into decline in the 1970s, when the body that maintained it was disbanded. Crime became a problem in the area in the years thereafter.\\n\\nRegeneration came in the 2000s, thanks in part to the opening of a number of cultural sites and architectural projects in the surrounding area, including the Parco della Musica to the south of the Village in 2002, and the Maxxi National Museum of 21st Century Arts in 2009. The Village, which is made up of 33 buildings comprising 1,800 apartments and is home to 6,500 people, is set to undergo further redevelopment as part of an extensive urban renewal project that includes the refurbishment of the Stadio Flaminio.\"\n    },\n    {\n      \"name\": \"Lake Albano\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"The lake has been the venue for several major rowing competitions, from the Italian Championships to European Championships, since 1903. It is home to several sailing clubs and the Italian Canoeing and Kayaking Federation (FICK). Italy's national canoe and kayak teams train there. Popular with tourists, it offers a range of recreational water activities and sports, as well as opportunities for sunbathing and hiking. There are several restaurants on its shores.\\n\\nThe grandstand and judges' tower built for the Games have fallen into disrepair. Though their demolition has been discussed, they remain standing, as do the concrete piles installed at Games time at either end of the lake to hold the lane-marking system in place.\"\n    }\n  ],\n  \"trivia\": \"The Marble Stadium (Stadio dei Marmi) is ringed by 59 faux Greco-Roman marble statues, each depicting different sports.\\n\\nThe Small Sports Palace (Palazzetto dello Sport) was built by the celebrated Italian architect Pier Luigi Nervi, who also designed the Torino Esposizioni, which hosted ice hockey matches at the Olympic Winter Games Torino 2006.\\n\\nOccupying the crater of an ancient volcano, Lake Albano gave its name to a lane-marking system devised to respond to the challenges that the depth of the water posed. The anchor-based system commonly used at the time was rendered impractical by the lake, which was up to 170 metres deep in places. In response to this, the Albano system uses buoys and cables and can be installed on any suitable body of water, regardless of its depth. It was later adopted as the universal standard by the world governing bodies of canoeing and rowing, and it remains in use today.\\n\\nThe streets of the Olympic Village are named after the famous sporting figures and national delegations that stayed there. They include Via Chile, Via India, Via Nedo Nadi (a celebrated Italian fencer) and Viale Pietro de Coubertin.\\n\\nThe plan to redevelop Flaminio Stadium aims to make it a major concert venue, the permanent home of Italian rugby, and the home of SS Lazio's club museum.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Rome",
+          "year": "1960",
+          "overview": "Twenty-six competition venues were used for the Olympic Games Rome 1960, 21 of which remain in use today. Fifteen of the competition venues were existing and the remaining 11 were new. While two new-build venues are closed and not in use and three have been demolished, the remaining venues continue to be used for high-performance and recreational sport, and some are popular visitor attractions.\n\nAn existing venue, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. It remains in use and went through two extensive renovations. The Olympic Village was built for the Games and remains in use.",
+          "venues": [
+            {
+              "name": "Olympic Stadium",
+              "classification": "Existing",
+              "use": "Athletics, equestrian (jumping), Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012.\n\nThe stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances."
+            },
+            {
+              "name": "Piazza di Siena",
+              "classification": "Existing",
+              "use": "Jumping, dressage",
+              "status": "In use",
+              "information": "Situated in the Villa Borghese gardens, the venue staged its first equestrian events in 1922. Attracting the leading riders on the international circuit, the Piazza di Siena International Horse Show is one of the top events on the equestrian calendar and was a FEI Jumping Nations Cup Division 1 venue between 2013 and 2017. In May 2021, the Piazza di Siena staged the 88th CSIO Roma Master d'Inzeo."
+            },
+            {
+              "name": "Marble Stadium",
+              "classification": "Existing",
+              "use": "Hockey",
+              "status": "In use",
+              "information": "As well as hosting the knockout rounds of the hockey tournament at Rome 1960, the Stadio dei Marmi was used by athletes to warm up for the track and field events at the adjoining Stadio Olimpico. Opened in 1936, the 9,500-capacity stadium staged the opening ceremony of the 2009 FINA World Aquatics Championships and in 2016 became the venue for the Global Champions Tour of Rome, an annual equestrian event."
+            },
+            {
+              "name": "Umberto I Shooting Range",
+              "classification": "Existing",
+              "use": "Shooting, modern pentathlon (shooting)",
+              "status": "In use",
+              "information": "One of three shooting venues used at the 1960 Olympic Games, it hosted the rapid fire pistol, pistol, rifle three positions, and rifle prone competitions. Italy's national range since 1883 and the home of the TSN Roma club, the venue has staged several world championships, most recently in 1995."
+            },
+            {
+              "name": "Baths of Caracalla",
+              "classification": "Existing",
+              "use": "Artistic gymnastics",
+              "status": "In use",
+              "information": "Inaugurated in 217 AD, the Baths of Caracalla were regarded as the most impressive baths of the era and comprised hot and cold swimming baths, covered and open-air gymnasiums, and rooms for gymnastics, wrestling and relaxation. The ground floor of the precinct and a large part of its walls remain intact. The site hosted the Grand Premio di Roma car race between 1947 and 1951. It hosted artistic gymnastics at Rome 1960 and, in the years since the Games, it has been the setting for operas, concerts and dance festivals. It also attracts large numbers of tourists all year round."
+            },
+            {
+              "name": "Acquasanta Golf Club Course",
+              "classification": "Existing",
+              "use": "Modern pentathlon (running)",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Basilica of Maxentius",
+              "classification": "Existing",
+              "use": "Wrestling",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Congress Palace",
+              "classification": "Existing",
+              "use": "Fencing, modern pentathlon (fencing)",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "SS Lazio Shooting Club",
+              "classification": "Existing",
+              "use": "Shooting",
+              "status": "Not in use (demolished)",
+              "information": "The venue for the trap shooting competition at the 1960 Olympic Games was completely refurbished and equipped with modern trap machines and seating for 2,000 spectators. Founded in 1893, the club continues to host competitive and recreational shooting."
+            },
+            {
+              "name": "Pratoni del Vivaro",
+              "classification": "New build",
+              "use": "Eventing",
+              "status": "In use",
+              "information": "Permanent stables and other facilities, including storehouses, were built for the Games. Situated 35 kilometres outside Rome, Pratoni del Vivaro continues to host equestrian events and was the setting for the 2007 European Eventing Championships."
+            },
+            {
+              "name": "Olympic Swimming Stadium",
+              "classification": "New build",
+              "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+              "status": "In use",
+              "information": "Located in the Foro Italico complex, close to the Olympic Stadium, the venue is split into a competition area, comprising the open-air Olympic pool and diving pool, and a swimming instruction area. It is Italy's national swimming and diving centre and has five pools in all (two covered and three uncovered), as well as three gyms.\n\nThe venue was refurbished to host the 1983 European Aquatics Championships and expanded for the 1994 World Aquatics Championships, which it staged again in 2009. The stadium also staged the 2011 Euroleague Water Polo Final Four and will welcome the European Aquatics Championships again in 2022.\n\nThe stadium stages national and regional swimming, water polo, artistic swimming and diving competitions, runs lifesaving activities and courses and swim classes, and is open for recreational swimming and educational and social activities."
+            },
+            {
+              "name": "Piscina delle Rose",
+              "classification": "New build",
+              "use": "Water polo",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Flaminio Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "Not in use",
+              "information": "The venue hosted group and knockout matches in the men's Olympic football tournament, including the gold-medal match. Built on the site of a stadium used at the 1934 FIFA World Cup, the Stadio Flaminio opened in 1959 and had a capacity of 50,000 at the time. It also featured a heated indoor pool, a fencing gym and wrestling, weightlifting and boxing facilities."
+            },
+            {
+              "name": "Sports Palace",
+              "classification": "New build",
+              "use": "Basketball, boxing",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Small Sports Palace",
+              "classification": "New build",
+              "use": "Basketball, weightlifting",
+              "status": "Not in use",
+              "information": "The first purpose-built venue to be completed for the Games, the venue was home to Rome's leading basketball and volleyball teams for many years. Though it closed in 2018, plans have been approved for a EUR 3 million refurbishment and redevelopment of the site, which will restore its status as a major sporting venue open to the city's clubs and schools."
+            },
+            {
+              "name": "Rome Olympic Velodrome",
+              "classification": "New build",
+              "use": "Cycling (track), hockey",
+              "status": "Not in use (demolished)",
+              "information": "The field hockey matches were held on the pitch in the middle of the velodrome. The track hosted cycling competitions up until 1968, when problems with the foundations of the stands were detected, leading to their closure. The track was still used for training, however, while the infield continued to be used for hockey and football until 2006. The velodrome was demolished in 2008. A series of legal disputes since then have prevented the site from being cleared and re-used."
+            },
+            {
+              "name": "Cesano Shooting Range",
+              "classification": "New build",
+              "use": "Shooting",
+              "status": "Not in use (demolished)",
+              "information": "A shooting range was set up for the long-distance rifle events at the Italian Infantry School in Cesano. Though the school continues to operate, the Olympic range has since been dismantled."
+            },
+            {
+              "name": "Olympic Village",
+              "classification": "New build",
+              "use": "Athlete accommodation",
+              "status": "In use",
+              "information": "Built in what was a run-down part of the Italian capital, the Village opened in July 1960 and admitted its first residents, as planned, after the Games were over. It fell into decline in the 1970s, when the body that maintained it was disbanded. Crime became a problem in the area in the years thereafter.\n\nRegeneration came in the 2000s, thanks in part to the opening of a number of cultural sites and architectural projects in the surrounding area, including the Parco della Musica to the south of the Village in 2002, and the Maxxi National Museum of 21st Century Arts in 2009. The Village, which is made up of 33 buildings comprising 1,800 apartments and is home to 6,500 people, is set to undergo further redevelopment as part of an extensive urban renewal project that includes the refurbishment of the Stadio Flaminio."
+            },
+            {
+              "name": "Communal Stadium, Florence",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Communal Stadium, L'Aquila",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Communal Stadium, Grosseto",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Ardenza Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Passo Corese",
+              "classification": "Existing",
+              "use": "Modern pentathlon (equestrian)",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Bay of Naples",
+              "classification": "Existing",
+              "use": "Sailing",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Adriatico Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Fuorigrotta Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Lake Albano",
+              "classification": "New build",
+              "use": "Rowing, canoe sprint",
+              "status": "In use",
+              "information": "The lake has been the venue for several major rowing competitions, from the Italian Championships to European Championships, since 1903. It is home to several sailing clubs and the Italian Canoeing and Kayaking Federation (FICK). Italy's national canoe and kayak teams train there. Popular with tourists, it offers a range of recreational water activities and sports, as well as opportunities for sunbathing and hiking. There are several restaurants on its shores.\n\nThe grandstand and judges' tower built for the Games have fallen into disrepair. Though their demolition has been discussed, they remain standing, as do the concrete piles installed at Games time at either end of the lake to hold the lane-marking system in place."
+            }
+          ],
+          "trivia": "The Marble Stadium (Stadio dei Marmi) is ringed by 59 faux Greco-Roman marble statues, each depicting different sports.\n\nThe Small Sports Palace (Palazzetto dello Sport) was built by the celebrated Italian architect Pier Luigi Nervi, who also designed the Torino Esposizioni, which hosted ice hockey matches at the Olympic Winter Games Torino 2006.\n\nOccupying the crater of an ancient volcano, Lake Albano gave its name to a lane-marking system devised to respond to the challenges that the depth of the water posed. The anchor-based system commonly used at the time was rendered impractical by the lake, which was up to 170 metres deep in places. In response to this, the Albano system uses buoys and cables and can be installed on any suitable body of water, regardless of its depth. It was later adopted as the universal standard by the world governing bodies of canoeing and rowing, and it remains in use today.\n\nThe streets of the Olympic Village are named after the famous sporting figures and national delegations that stayed there. They include Via Chile, Via India, Via Nedo Nadi (a celebrated Italian fencer) and Viale Pietro de Coubertin.\n\nThe plan to redevelop Flaminio Stadium aims to make it a major concert venue, the permanent home of Italian rugby, and the home of SS Lazio's club museum."
+        },
+        "correctedKeys": [
+          "venues"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **Basic Information**: City, year, and overview all match correctly.\n\n2. **Venues**: I need to check if all 26 venues mentioned in the PDF are included in the JSON. From the PDF tables, I can identify:\n\nRome venues (18):\n- Olympic Stadium ✓\n- Piazza di Siena ✓\n- Marble Stadium ✓\n- Umberto I Shooting Range ✓\n- Baths of Caracalla ✓\n- Acquasanta Golf Club Course ✓\n- Basilica of Maxentius ✓\n- Congress Palace ✓\n- SS Lazio Shooting Club ✓\n- Pratoni del Vivaro ✓\n- Olympic Swimming Stadium ✓\n- Piscina delle Rose ✓\n- Flaminio Stadium ✓\n- Sports Palace ✓\n- Small Sports Palace ✓\n- Rome Olympic Velodrome ✓\n- Cesano Shooting Range ✓\n- Olympic Village ✓\n\nVenues outside Rome (8):\n- Communal Stadium, Florence ❌ Missing\n- Communal Stadium, L'Aquila ❌ Missing\n- Communal Stadium, Grosseto ❌ Missing\n- Ardenza Stadium ❌ Missing\n- Passo Corese ❌ Missing\n- Bay of Naples ❌ Missing\n- Adriatico Stadium ❌ Missing\n- Fuorigrotta Stadium ❌ Missing\n- Lake Albano ✓\n\nThe JSON is missing 7 venues outside Rome that are listed in the PDF tables.\n\n3. **Trivia**: The trivia section matches the \"DID YOU KNOW?\" section in the PDF.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n\"status\":\"found\",\n\"city\":\"Rome\",\n\"year\":\"1960\",\n\"overview\":\"Twenty-six competition venues were used for the Olympic Games Rome 1960, 21 of which remain in use today. Fifteen of the competition venues were existing and the remaining 11 were new. While two new-build venues are closed and not in use and three have been demolished, the remaining venues continue to be used for high-performance and recreational sport, and some are popular visitor attractions.\\n\\nAn existing venue, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. It remains in use and went through two extensive renovations. The Olympic Village was built for the Games and remains in use.\",\n\"venues\":[\n{\"name\":\"Olympic Stadium\",\"classification\":\"Existing\",\"use\":\"Athletics, equestrian (jumping), Opening and Closing Ceremonies\",\"status\":\"In use\",\"information\":\"Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012.\\n\\nThe stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances.\"},\n{\"name\":\"Piazza di Siena\",\"classification\":\"Existing\",\"use\":\"Jumping, dressage\",\"status\":\"In use\",\"information\":\"Situated in the Villa Borghese gardens, the venue staged its first equestrian events in 1922. Attracting the leading riders on the international circuit, the Piazza di Siena International Horse Show is one of the top events on the equestrian calendar and was a FEI Jumping Nations Cup Division 1 venue between 2013 and 2017. In May 2021, the Piazza di Siena staged the 88th CSIO Roma Master d'Inzeo.\"},\n{\"name\":\"Marble Stadium\",\"classification\":\"Existing\",\"use\":\"Hockey\",\"status\":\"In use\",\"information\":\"As well as hosting the knockout rounds of the hockey tournament at Rome 1960, the Stadio dei Marmi was used by athletes to warm up for the track and field events at the adjoining Stadio Olimpico. Opened in 1936, the 9,500-capacity stadium staged the opening ceremony of the 2009 FINA World Aquatics Championships and in 2016 became the venue for the Global Champions Tour of Rome, an annual equestrian event.\"},\n{\"name\":\"Umberto I Shooting Range\",\"classification\":\"Existing\",\"use\":\"Shooting, modern pentathlon (shooting)\",\"status\":\"In use\",\"information\":\"One of three shooting venues used at the 1960 Olympic Games, it hosted the rapid fire pistol, pistol, rifle three positions, and rifle prone competitions. Italy's national range since 1883 and the home of the TSN Roma club, the venue has staged several world championships, most recently in 1995.\"},\n{\"name\":\"Baths of Caracalla\",\"classification\":\"Existing\",\"use\":\"Artistic gymnastics\",\"status\":\"In use\",\"information\":\"Inaugurated in 217 AD, the Baths of Caracalla were regarded as the most impressive baths of the era and comprised hot and cold swimming baths, covered and open-air gymnasiums, and rooms for gymnastics, wrestling and relaxation. The ground floor of the precinct and a large part of its walls remain intact. The site hosted the Grand Premio di Roma car race between 1947 and 1951. It hosted artistic gymnastics at Rome 1960 and, in the years since the Games, it has been the setting for operas, concerts and dance festivals. It also attracts large numbers of tourists all year round.\"},\n{\"name\":\"Acquasanta Golf Club Course\",\"classification\":\"Existing\",\"use\":\"Modern pentathlon (running)\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Basilica of Maxentius\",\"classification\":\"Existing\",\"use\":\"Wrestling\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Congress Palace\",\"classification\":\"Existing\",\"use\":\"Fencing, modern pentathlon (fencing)\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"SS Lazio Shooting Club\",\"classification\":\"Existing\",\"use\":\"Shooting\",\"status\":\"Not in use (demolished)\",\"information\":\"The venue for the trap shooting competition at the 1960 Olympic Games was completely refurbished and equipped with modern trap machines and seating for 2,000 spectators. Founded in 1893, the club continues to host competitive and recreational shooting.\"},\n{\"name\":\"Pratoni del Vivaro\",\"classification\":\"New build\",\"use\":\"Eventing\",\"status\":\"In use\",\"information\":\"Permanent stables and other facilities, including storehouses, were built for the Games. Situated 35 kilometres outside Rome, Pratoni del Vivaro continues to host equestrian events and was the setting for the 2007 European Eventing Championships.\"},\n{\"name\":\"Olympic Swimming Stadium\",\"classification\":\"New build\",\"use\":\"Swimming, diving, water polo, modern pentathlon (swimming)\",\"status\":\"In use\",\"information\":\"Located in the Foro Italico complex, close to the Olympic Stadium, the venue is split into a competition area, comprising the open-air Olympic pool and diving pool, and a swimming instruction area. It is Italy's national swimming and diving centre and has five pools in all (two covered and three uncovered), as well as three gyms.\\n\\nThe venue was refurbished to host the 1983 European Aquatics Championships and expanded for the 1994 World Aquatics Championships, which it staged again in 2009. The stadium also staged the 2011 Euroleague Water Polo Final Four and will welcome the European Aquatics Championships again in 2022.\\n\\nThe stadium stages national and regional swimming, water polo, artistic swimming and diving competitions, runs lifesaving activities and courses and swim classes, and is open for recreational swimming and educational and social activities.\"},\n{\"name\":\"Piscina delle Rose\",\"classification\":\"New build\",\"use\":\"Water polo\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Flaminio Stadium\",\"classification\":\"New build\",\"use\":\"Football\",\"status\":\"Not in use\",\"information\":\"The venue hosted group and knockout matches in the men's Olympic football tournament, including the gold-medal match. Built on the site of a stadium used at the 1934 FIFA World Cup, the Stadio Flaminio opened in 1959 and had a capacity of 50,000 at the time. It also featured a heated indoor pool, a fencing gym and wrestling, weightlifting and boxing facilities.\"},\n{\"name\":\"Sports Palace\",\"classification\":\"New build\",\"use\":\"Basketball, boxing\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Small Sports Palace\",\"classification\":\"New build\",\"use\":\"Basketball, weightlifting\",\"status\":\"Not in use\",\"information\":\"The first purpose-built venue to be completed for the Games, the venue was home to Rome's leading basketball and volleyball teams for many years. Though it closed in 2018, plans have been approved for a EUR 3 million refurbishment and redevelopment of the site, which will restore its status as a major sporting venue open to the city's clubs and schools.\"},\n{\"name\":\"Rome Olympic Velodrome\",\"classification\":\"New build\",\"use\":\"Cycling (track), hockey\",\"status\":\"Not in use (demolished)\",\"information\":\"The field hockey matches were held on the pitch in the middle of the velodrome. The track hosted cycling competitions up until 1968, when problems with the foundations of the stands were detected, leading to their closure. The track was still used for training, however, while the infield continued to be used for hockey and football until 2006. The velodrome was demolished in 2008. A series of legal disputes since then have prevented the site from being cleared and re-used.\"},\n{\"name\":\"Cesano Shooting Range\",\"classification\":\"New build\",\"use\":\"Shooting\",\"status\":\"Not in use (demolished)\",\"information\":\"A shooting range was set up for the long-distance rifle events at the Italian Infantry School in Cesano. Though the school continues to operate, the Olympic range has since been dismantled.\"},\n{\"name\":\"Olympic Village\",\"classification\":\"New build\",\"use\":\"Athlete accommodation\",\"status\":\"In use\",\"information\":\"Built in what was a run-down part of the Italian capital, the Village opened in July 1960 and admitted its first residents, as planned, after the Games were over. It fell into decline in the 1970s, when the body that maintained it was disbanded. Crime became a problem in the area in the years thereafter.\\n\\nRegeneration came in the 2000s, thanks in part to the opening of a number of cultural sites and architectural projects in the surrounding area, including the Parco della Musica to the south of the Village in 2002, and the Maxxi National Museum of 21st Century Arts in 2009. The Village, which is made up of 33 buildings comprising 1,800 apartments and is home to 6,500 people, is set to undergo further redevelopment as part of an extensive urban renewal project that includes the refurbishment of the Stadio Flaminio.\"},\n{\"name\":\"Communal Stadium, Florence\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Communal Stadium, L'Aquila\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Communal Stadium, Grosseto\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Ardenza Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Passo Corese\",\"classification\":\"Existing\",\"use\":\"Modern pentathlon (equestrian)\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Bay of Naples\",\"classification\":\"Existing\",\"use\":\"Sailing\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Adriatico Stadium\",\"classification\":\"New build\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Fuorigrotta Stadium\",\"classification\":\"New build\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Lake Albano\",\"classification\":\"New build\",\"use\":\"Rowing, canoe sprint\",\"status\":\"In use\",\"information\":\"The lake has been the venue for several major rowing competitions, from the Italian Championships to European Championships, since 1903. It is home to several sailing clubs and the Italian Canoeing and Kayaking Federation (FICK). Italy's national canoe and kayak teams train there. Popular with tourists, it offers a range of recreational water activities and sports, as well as opportunities for sunbathing and hiking. There are several restaurants on its shores.\\n\\nThe grandstand and judges' tower built for the Games have fallen into disrepair. Though their demolition has been discussed, they remain standing, as do the concrete piles installed at Games time at either end of the lake to hold the lane-marking system in place.\"}\n],\n\"trivia\":\"The Marble Stadium (Stadio dei Marmi) is ringed by 59 faux Greco-Roman marble statues, each depicting different sports.\\n\\nThe Small Sports Palace (Palazzetto dello Sport) was built by the celebrated Italian architect Pier Luigi Nervi, who also designed the Torino Esposizioni, which hosted ice hockey matches at the Olympic Winter Games Torino 2006.\\n\\nOccupying the crater of an ancient volcano, Lake Albano gave its name to a lane-marking system devised to respond to the challenges that the depth of the water posed. The anchor-based system commonly used at the time was rendered impractical by the lake, which was up to 170 metres deep in places. In response to this, the Albano system uses buoys and cables and can be installed on any suitable body of water, regardless of its depth. It was later adopted as the universal standard by the world governing bodies of canoeing and rowing, and it remains in use today.\\n\\nThe streets of the Olympic Village are named after the famous sporting figures and national delegations that stayed there. They include Via Chile, Via India, Via Nedo Nadi (a celebrated Italian fencer) and Viale Pietro de Coubertin.\\n\\nThe plan to redevelop Flaminio Stadium aims to make it a major concert venue, the permanent home of Italian rugby, and the home of SS Lazio's club museum.\"\n},\n\"correctedKeys\": [\"venues\"]\n}\n</response>"
+    }
+  }
+]

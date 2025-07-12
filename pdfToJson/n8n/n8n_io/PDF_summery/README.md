@@ -4,3 +4,7 @@
   - alle Winter Spiele
   - extra Informations Seiten (Außer Title, Abstract, Table of Contents und credits Sentient)
 - Sommer und Winter Spiel PDFs werden mit "summery" prompts behandelt, die extra PDF mit "result" prompts.
+
+
+- summer venues: 1929 Uhr - 20:27 Uhr
+- ca 5$ API costs

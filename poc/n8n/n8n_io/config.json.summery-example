@@ -1,8 +1,8 @@
 {
-  "pdfsDir": "PDF_summery",
+  "pdfsDir": "PDF_summery/venues_summer",
   "regexOverToc": "[A-Z]+\\s[0-9]{4}\\s[A-Z]+",
-  "extractionPromptPath": "prompts/summery-extraction.txt",
-  "validationPromptPath": "prompts/summery-validation.txt",
+  "extractionPromptPath": "PDF_summery/summery-extraction.txt",
+  "validationPromptPath": "PDF_summery/summery-validation.txt",
 
   "anthropic": {
     "url": "https://api.anthropic.com/v1/complete",

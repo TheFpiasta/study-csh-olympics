@@ -7,6 +7,8 @@ import traceback
 parser = argparse.ArgumentParser(description='PDF Chunker Script for n8n.io workflow')
 parser.add_argument('--path', type=str, required=True, help='Path to the PDF document')
 parser.add_argument('--regex', type=str, required=False, help='Regex pattern to split the document into sections')
+parser.add_argument('--start', type=str, required=False,
+                    help='define, with what Count number the chunks should start, default is 1')
 
 
 def discover_sections_by_toc():
@@ -80,7 +82,7 @@ def process_and_save_sections(sections_to_create, output_dir):
             continue
 
         safe_title = clean_filename(section['title'])
-        output_path = os.path.join(output_dir, f"{i + 1:02d}_{safe_title}.pdf")
+        output_path = os.path.join(output_dir, f"{i + start_count:02d}_{safe_title}.pdf")
 
         new_doc = fitz.open()
         new_doc.insert_pdf(doc, from_page=start_page - 1, to_page=end_page - 1)
@@ -93,6 +95,7 @@ try:
     args = parser.parse_args()
     doc_path = args.path
     regex = args.regex
+    start_count = int(args.start) if args.start.isnumeric() and int(args.start) > 0 else 1
     doc = fitz.open(doc_path)
     chunked_doc = []
     print(f"[INFO] Processing {doc_path}")
@@ -112,8 +115,8 @@ try:
             chunked_doc = discover_sections_by_fixed_pages()
 
     print(f"[INFO] Found {len(chunked_doc)} sections")
-    do_dir, doc_name = os.path.split(doc_path)
-    chunked_path = os.path.join(do_dir, doc_name + "_chunked")
+    to_dir, doc_name = os.path.split(doc_path)
+    chunked_path = os.path.join(to_dir, doc_name + "_chunked")
     saved_chunks = process_and_save_sections(chunked_doc, chunked_path)
     doc.close()
 

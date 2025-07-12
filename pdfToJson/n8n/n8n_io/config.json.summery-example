@@ -1,6 +1,6 @@
 {
   "pdfsDir": "PDF_summery/venues_summer",
-  "regexOverToc": "[A-Z]+\\s[0-9]{4}\\s[A-Z]+",
+  "regexOverToc": ".+[0-9]{4} VENUES",
   "extractionPromptPath": "PDF_summery/summery-extraction.txt",
   "validationPromptPath": "PDF_summery/summery-validation.txt",
 

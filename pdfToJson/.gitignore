@@ -1,0 +1,12 @@
+/n8n/n8n_data/*
+/n8n//n8n_io/out/*
+/n8n/n8n_io/in/*
+
+# Keep the README files
+!/n8n/n8n_data/README.md
+!/n8n/n8n_io/out/README.md
+!/n8n/n8n_io/in/README.md
+
+/n8n/n8n_io/config.json
+
+/.env

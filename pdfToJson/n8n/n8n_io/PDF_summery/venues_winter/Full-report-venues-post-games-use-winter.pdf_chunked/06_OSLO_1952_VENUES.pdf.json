@@ -1,0 +1,121 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Oslo",
+        "year": "1952",
+        "overview": "Eleven competition venues were used for the Olympic Winter Games Oslo 1952. Nine out of the 10 permanent venues are still in use and remain integral to grassroots and high-performance sport in the Oslo area. Thanks to the Norwegian capital's longstanding tradition of hosting winter sports events and its flourishing recreational and competitive winter sports scene, nine of the competition venues were existing sites. Of the other two venues, one was built for the Games, and the other was temporary. Bislett Stadium was the main venue for the Games and hosted the Opening and Closing Ceremonies, as well as the speed skating, figure skating and bandy events. It has since been repurposed, becoming a leading track and field venue. Three official Olympic Villages were built for the Games, all of them in Oslo and with clear post-Games use plans. All of them are still in use today, providing accommodation for students, hospital staff and the elderly.",
+        "venues": [
+          {
+            "name": "Dæhlenenga (Idrettspark)",
+            "classification": "Existing",
+            "use": "Ice hockey, bandy (demonstration sport)",
+            "status": "In use (repurposed)",
+            "information": "A repurposed venue, the outdoor ice rink from the 1952 Olympic Winter Games was transformed into an outdoor football pitch, which is operated by a local sports club. A new indoor ice rink was built on the site."
+          },
+          {
+            "name": "Bislett Stadium",
+            "classification": "Existing",
+            "use": "Figure skating, speed skating, Opening and Closing Ceremonies, bandy (demonstration sport)",
+            "status": "In use (repurposed and rebuilt)",
+            "information": "Constructed in 1922, the stadium was repurposed after the Games and rebuilt in 2004, in the same architectural style and in the exact same location as its predecessor. Now synonymous with track and field, it is Norway's main athletics training and competition facility. It has hosted the prestigious Bislett Games every year since 1965, a fixture on the IAAF Diamond League calendar and Norway's largest sporting event. The 15,000-capacity stadium also hosts the country's annual athletics championships. When they are not being used for training and competitions, the stadium's outdoor and indoor running tracks are open to the public and Oslo schools all year round. The most-used sports venue in Norway, Bislett Stadium is currently the home of football club IL Skeid, who play in the country's third tier. Norway's national football team also train at the stadium on a regular basis, and it is used regularly for concerts and other non-sporting events. The stadium's speed skating rink was removed in 1988."
+          },
+          {
+            "name": "Holmenkollen Ski Jumping Hill",
+            "classification": "Existing",
+            "use": "Ski jumping, Nordic combined",
+            "status": "In use",
+            "information": "Now known as Holmenkollbakken, it is the centrepiece of the Holmenkollen National Ski Arena (\"Nasjonalanlegg\") and has been in existence for nearly 130 years. Refurbished on 18 occasions, most recently in 2008, it continues to host World Cup competitions, world championships and national and local events. It has staged the FIS Nordic World Ski Championships on four occasions, welcoming nearly 600,000 spectators for the most recent of those events, in 2011. The venue also features on the annual FIS Ski Jumping World Cup circuit. The viewing platform at the top of the ski jump tower is open to the public and offers panoramic views of Oslo and the surrounding forests."
+          },
+          {
+            "name": "Rødkleiva",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "Not in use",
+            "information": "Part of Oslo Vinterpark. The hill used at Oslo 1952 was closed in 1988 and is now used for off-piste skiing only."
+          },
+          {
+            "name": "Holmenkollen Cross-Country Races Centre",
+            "classification": "Existing",
+            "use": "Cross-country skiing, Nordic combined",
+            "status": "In use (rebuilt)",
+            "information": "Now a state-of-the-art venue for cross-country skiing, biathlon and ski jumping, it is also part of the Holmenkollbakken National Ski Arena. It was completely rebuilt for the 2011 FIS Nordic World Ski Championships and hosts annual cross-country skiing, Nordic combined and biathlon World Cup events."
+          },
+          {
+            "name": "Jordal Amfi",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use (rebuilt)",
+            "information": "Designed as a multi-purpose facility to ensure its use all year round, the Jordal Amfi was upgraded as a state-of-the-art artificial ice rink for the Games. Constructed in the same style and on the same footprint as its predecessor, the new Jordal Amfi opened in autumn 2020. A venue for national and international ice hockey events, the 5,300-capacity arena hosts other sports and events and is connected to an ice hockey training venue. The old Jordal Amfi was the first artificial ice rink in Scandinavia and one of the most modern hockey rinks in Europe at the time. Built as a roofless arena, it hosted a number of local, national and international ice hockey competitions, including the 1958 and 1999 IIHF World Championships, as well as boxing matches. It underwent several upgrades over the years, including the addition of a roof in 1971 and refurbishment for the 1999 IIHF World Championships."
+          },
+          {
+            "name": "Sogn Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The largest of the three Olympic Villages built for Oslo 1952, it has grown in size since the Games and now provides accommodation for around 1,500 students. The Village is refurbished on a regular basis. In early 2020, for example, more cycle paths and parking areas for bicycles were built, with steps also being taken to reduce car traffic inside the Village."
+          },
+          {
+            "name": "Ullevål Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Post-Games, the Village's two blocks were used as living quarters for hospital staff, though some have since been converted into student apartments."
+          },
+          {
+            "name": "Ila Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "A two-block facility, it was converted immediately after the Games to provide retirement housing. Refurbished in 1996, it now specialises in the provision of rehabilitation services for the elderly. Like Sogn and Ullevål, Ila Olympic Village is well maintained and continues to provide excellent accommodation nearly seven decades on from its construction."
+          },
+          {
+            "name": "Korketrekken",
+            "classification": "Temporary (seasonal)",
+            "use": "Bobsleigh",
+            "status": "Dismantled (seasonal)",
+            "information": "The bob run built for the 1952 Games was temporary because bobsleigh was very much a minority sport in Norway at the time. The country had no permanent track and only made its Olympic debut in the sport at St. Moritz 1948. Construction costs were thus reduced and the risk of the run being under-used after the Games averted. Built with snow and ice, this natural run was 1.5km long and comprised 13 curves. It was never used for bobsleigh again after the Games but was turned into a luge run as planned and hosted the 1955 Luge World Championships. The track was not rebuilt after this. A 2km public sledge run was later constructed, partly following the outline of the track, and remains popular with both tourists and locals."
+          },
+          {
+            "name": "Sandvika Kadettangen Stadium",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use (repurposed)",
+            "information": "A repurposed venue, it is now the home ground of football club Baerum SK, who play in Norway's second division."
+          },
+          {
+            "name": "Drammen Marienlyst Stadium",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use (repurposed)",
+            "information": "A repurposed venue, it is now the home ground of football club Strømsgodset Toppfotball, who play in the Eliteserien, Norway's top flight."
+          },
+          {
+            "name": "Lillestrøm Stadium",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use (repurposed)",
+            "information": "Now a football stadium, it is part of a sports complex that also features an athletics track."
+          },
+          {
+            "name": "Norefjell",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "A small resort with state-of-the-art lifts and snowmaking equipment that guarantees snow throughout the winter. It also has a luxury spa and aparthotel complex and is a popular year-round destination."
+          }
+        ],
+        "trivia": "A total of 69 athletics world records and 25 speed skating world records have been set at Bislett Stadium, which hosted 13 world and 10 European speed skating championships between 1925 and 1986. In 1999, Sports Illustrated named Bislett Stadium the world's fifth most important sports arena of the 20th century. Holmenkollbakken's FIS Ski Jumping World Cup round forms part of the Holmenkollen Ski Festival, an annual Nordic skiing competition held every March since 1892 and known as Norway's \"second national day\". The 120,000-strong crowd that watched the large hill ski jumping competition at Holmenkollbakken at Oslo 1952 is the largest in Olympic ski jumping history. Holmenkollen Ski Jumping Hill was made with 1,000 tonnes of steel and offers jumpers permanent protection against the wind. The Oslo Ski Museum is situated beneath Holmenkollbakken. Founded in 1923, it is the oldest museum of its kind in the world and tells the story of more than 4,000 years of skiing history, including Oslo 1952."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Oslo\",\n  \"year\": \"1952\",\n  \"overview\": \"Eleven competition venues were used for the Olympic Winter Games Oslo 1952. Nine out of the 10 permanent venues are still in use and remain integral to grassroots and high-performance sport in the Oslo area. Thanks to the Norwegian capital's longstanding tradition of hosting winter sports events and its flourishing recreational and competitive winter sports scene, nine of the competition venues were existing sites. Of the other two venues, one was built for the Games, and the other was temporary. Bislett Stadium was the main venue for the Games and hosted the Opening and Closing Ceremonies, as well as the speed skating, figure skating and bandy events. It has since been repurposed, becoming a leading track and field venue. Three official Olympic Villages were built for the Games, all of them in Oslo and with clear post-Games use plans. All of them are still in use today, providing accommodation for students, hospital staff and the elderly.\",\n  \"venues\": [\n    {\n      \"name\": \"Dæhlenenga (Idrettspark)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey, bandy (demonstration sport)\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"A repurposed venue, the outdoor ice rink from the 1952 Olympic Winter Games was transformed into an outdoor football pitch, which is operated by a local sports club. A new indoor ice rink was built on the site.\"\n    },\n    {\n      \"name\": \"Bislett Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Figure skating, speed skating, Opening and Closing Ceremonies, bandy (demonstration sport)\",\n      \"status\": \"In use (repurposed and rebuilt)\",\n      \"information\": \"Constructed in 1922, the stadium was repurposed after the Games and rebuilt in 2004, in the same architectural style and in the exact same location as its predecessor. Now synonymous with track and field, it is Norway's main athletics training and competition facility. It has hosted the prestigious Bislett Games every year since 1965, a fixture on the IAAF Diamond League calendar and Norway's largest sporting event. The 15,000-capacity stadium also hosts the country's annual athletics championships. When they are not being used for training and competitions, the stadium's outdoor and indoor running tracks are open to the public and Oslo schools all year round. The most-used sports venue in Norway, Bislett Stadium is currently the home of football club IL Skeid, who play in the country's third tier. Norway's national football team also train at the stadium on a regular basis, and it is used regularly for concerts and other non-sporting events. The stadium's speed skating rink was removed in 1988.\"\n    },\n    {\n      \"name\": \"Holmenkollen Ski Jumping Hill\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Now known as Holmenkollbakken, it is the centrepiece of the Holmenkollen National Ski Arena (\\\"Nasjonalanlegg\\\") and has been in existence for nearly 130 years. Refurbished on 18 occasions, most recently in 2008, it continues to host World Cup competitions, world championships and national and local events. It has staged the FIS Nordic World Ski Championships on four occasions, welcoming nearly 600,000 spectators for the most recent of those events, in 2011. The venue also features on the annual FIS Ski Jumping World Cup circuit. The viewing platform at the top of the ski jump tower is open to the public and offers panoramic views of Oslo and the surrounding forests.\"\n    },\n    {\n      \"name\": \"Rødkleiva\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"Not in use\",\n      \"information\": \"Part of Oslo Vinterpark. The hill used at Oslo 1952 was closed in 1988 and is now used for off-piste skiing only.\"\n    },\n    {\n      \"name\": \"Holmenkollen Cross-Country Races Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Now a state-of-the-art venue for cross-country skiing, biathlon and ski jumping, it is also part of the Holmenkollbakken National Ski Arena. It was completely rebuilt for the 2011 FIS Nordic World Ski Championships and hosts annual cross-country skiing, Nordic combined and biathlon World Cup events.\"\n    },\n    {\n      \"name\": \"Jordal Amfi\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Designed as a multi-purpose facility to ensure its use all year round, the Jordal Amfi was upgraded as a state-of-the-art artificial ice rink for the Games. Constructed in the same style and on the same footprint as its predecessor, the new Jordal Amfi opened in autumn 2020. A venue for national and international ice hockey events, the 5,300-capacity arena hosts other sports and events and is connected to an ice hockey training venue. The old Jordal Amfi was the first artificial ice rink in Scandinavia and one of the most modern hockey rinks in Europe at the time. Built as a roofless arena, it hosted a number of local, national and international ice hockey competitions, including the 1958 and 1999 IIHF World Championships, as well as boxing matches. It underwent several upgrades over the years, including the addition of a roof in 1971 and refurbishment for the 1999 IIHF World Championships.\"\n    },\n    {\n      \"name\": \"Sogn Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The largest of the three Olympic Villages built for Oslo 1952, it has grown in size since the Games and now provides accommodation for around 1,500 students. The Village is refurbished on a regular basis. In early 2020, for example, more cycle paths and parking areas for bicycles were built, with steps also being taken to reduce car traffic inside the Village.\"\n    },\n    {\n      \"name\": \"Ullevål Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Post-Games, the Village's two blocks were used as living quarters for hospital staff, though some have since been converted into student apartments.\"\n    },\n    {\n      \"name\": \"Ila Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"A two-block facility, it was converted immediately after the Games to provide retirement housing. Refurbished in 1996, it now specialises in the provision of rehabilitation services for the elderly. Like Sogn and Ullevål, Ila Olympic Village is well maintained and continues to provide excellent accommodation nearly seven decades on from its construction.\"\n    },\n    {\n      \"name\": \"Korketrekken\",\n      \"classification\": \"Temporary (seasonal)\",\n      \"use\": \"Bobsleigh\",\n      \"status\": \"Dismantled (seasonal)\",\n      \"information\": \"The bob run built for the 1952 Games was temporary because bobsleigh was very much a minority sport in Norway at the time. The country had no permanent track and only made its Olympic debut in the sport at St. Moritz 1948. Construction costs were thus reduced and the risk of the run being under-used after the Games averted. Built with snow and ice, this natural run was 1.5km long and comprised 13 curves. It was never used for bobsleigh again after the Games but was turned into a luge run as planned and hosted the 1955 Luge World Championships. The track was not rebuilt after this. A 2km public sledge run was later constructed, partly following the outline of the track, and remains popular with both tourists and locals.\"\n    },\n    {\n      \"name\": \"Sandvika Kadettangen Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"A repurposed venue, it is now the home ground of football club Baerum SK, who play in Norway's second division.\"\n    },\n    {\n      \"name\": \"Drammen Marienlyst Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"A repurposed venue, it is now the home ground of football club Strømsgodset Toppfotball, who play in the Eliteserien, Norway's top flight.\"\n    },\n    {\n      \"name\": \"Lillestrøm Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Now a football stadium, it is part of a sports complex that also features an athletics track.\"\n    },\n    {\n      \"name\": \"Norefjell\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"A small resort with state-of-the-art lifts and snowmaking equipment that guarantees snow throughout the winter. It also has a luxury spa and aparthotel complex and is a popular year-round destination.\"\n    }\n  ],\n  \"trivia\": \"A total of 69 athletics world records and 25 speed skating world records have been set at Bislett Stadium, which hosted 13 world and 10 European speed skating championships between 1925 and 1986. In 1999, Sports Illustrated named Bislett Stadium the world's fifth most important sports arena of the 20th century. Holmenkollbakken's FIS Ski Jumping World Cup round forms part of the Holmenkollen Ski Festival, an annual Nordic skiing competition held every March since 1892 and known as Norway's \\\"second national day\\\". The 120,000-strong crowd that watched the large hill ski jumping competition at Holmenkollbakken at Oslo 1952 is the largest in Olympic ski jumping history. Holmenkollen Ski Jumping Hill was made with 1,000 tonnes of steel and offers jumpers permanent protection against the wind. The Oslo Ski Museum is situated beneath Holmenkollbakken. Founded in 1923, it is the oldest museum of its kind in the world and tells the story of more than 4,000 years of skiing history, including Oslo 1952.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me carefully compare the JSON data with the PDF content:\n\n1. City: \"Oslo\" - matches PDF\n2. Year: \"1952\" - matches PDF  \n3. Overview: The JSON overview matches the PDF overview exactly\n4. Venues: I need to check each venue against the PDF tables and detailed descriptions\n5. Trivia: Need to check against the \"DID YOU KNOW?\" section\n\nAfter reviewing all venues in the JSON against the PDF tables and detailed descriptions, they all match correctly including:\n- Names, classifications, uses, and statuses\n- Detailed information for each venue\n\nThe trivia section also matches exactly with the \"DID YOU KNOW?\" section on page 5 of the PDF.\n\nAll information in the JSON appears to be accurate and matches the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

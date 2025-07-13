@@ -1,0 +1,3 @@
+- in den Unterordnern befinden sich die Ergebnisberichte der einzelnen Länder
+- jeweils mit "YYYY_X", wobei "YYYY" das Jahr und "X" S (Sommer, summer), W (Winter, winter) oder I (Identisch, identical: wenn S und W im selben Jahr stattfand) ist.
+- für die Extraktion werden die "result" Prompts verwendet.

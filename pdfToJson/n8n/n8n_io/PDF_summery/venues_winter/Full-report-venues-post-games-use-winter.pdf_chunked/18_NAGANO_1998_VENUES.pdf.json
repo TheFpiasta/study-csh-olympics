@@ -1,0 +1,260 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Nagano",
+        "year": "1998",
+        "overview": "Fourteen competition venues were used for the Olympic Winter Games Nagano 1998. Eleven of them are still in use today, benefitting the local population and top Japanese athletes.\n\nIn the Organising Committee's efforts to protect the environment and keep construction work to a minimum, half of the Games competition venues were existing or temporary sites. For example, existing venues were used for the skiing, biathlon and curling competitions.\n\nAlso still in use, the newly built Nagano Olympic Stadium hosted the Opening and Closing Ceremonies, and an Olympic Village was built for the Games.",
+        "venues": [
+          {
+            "name": "Iizuna Kogen Ski Area",
+            "classification": "Existing",
+            "use": "Freestyle skiing",
+            "status": "Not in use",
+            "information": "The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state."
+          },
+          {
+            "name": "M-Wave",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters."
+          },
+          {
+            "name": "Big Hat",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games."
+          },
+          {
+            "name": "Aqua Wing",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Provides local swimmers with excellent facilities all year round."
+          },
+          {
+            "name": "White Ring",
+            "classification": "New build",
+            "use": "Figure skating, short track, speed skating",
+            "status": "In use",
+            "information": "This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup."
+          },
+          {
+            "name": "Spiral Track",
+            "classification": "New build",
+            "use": "Bobsleigh, luge",
+            "status": "Not in use",
+            "information": "This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs."
+          },
+          {
+            "name": "Nagano Olmpic Stadium",
+            "classification": "New build",
+            "use": "Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The venue for the Opening and Closing Ceremonies is now known as Nagano Olympic Stadium. Now converted into a baseball stadium, the venue is used by local amateur clubs and a professional team, the Shinano Grandserows. It is also the finishing point for the annual Nagano Commemorative Marathon."
+          },
+          {
+            "name": "Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accomodation",
+            "status": "In use",
+            "information": "Comprising 1,032 apartments and located in the Imai district of Nagano, it was designed to provide housing after the Games and remains in use today, providing a mix of both private and social housing for older people."
+          },
+          {
+            "name": "Hakuba Happo'one Ski Area",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "One of the largest and oldest resorts in the Hakuba ski area, it is popular with foreign visitors thanks to its deep snow, challenging runs and excellent facilities."
+          },
+          {
+            "name": "Shiga Kogen - Mount Higashidate",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+          },
+          {
+            "name": "Shiga Kogen - Mount Yakebitai",
+            "classification": "Existing",
+            "use": "Snowboard",
+            "status": "In use",
+            "information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+          },
+          {
+            "name": "Shiga Kogen - Kanbayashi Snowboard Park",
+            "classification": "Existing",
+            "use": "Snowboard",
+            "status": "Not in use",
+            "information": "This was closed in 2007 due to financial difficulties caused by competition from other nearby resorts and a lack of snowfall."
+          },
+          {
+            "name": "Nozawa Onsen Biathlon Venue",
+            "classification": "Existing",
+            "use": "Biathlon",
+            "status": "In use",
+            "information": "Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand."
+          },
+          {
+            "name": "Kazakoshi Park Arena",
+            "classification": "Existing",
+            "use": "Curling",
+            "status": "In use",
+            "information": "This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling."
+          },
+          {
+            "name": "Snow Harp",
+            "classification": "New build",
+            "use": "Cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer."
+          },
+          {
+            "name": "Hakuba Ski Jumping Stadium",
+            "classification": "New build",
+            "use": "Ski jumping, Nordic combined",
+            "status": "In use",
+            "information": "The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions."
+          }
+        ],
+        "trivia": "Housed at the M-Wave, the Nagano Olympic Museum is one of 28 Olympic museums around the world.\n\nThe M-Wave was awarded the UK-based Institution of Structural Engineers' special award for structural engineering excellence in February 1998.\n\nThe Spiral was the first bobsleigh/luge track in the world to feature two uphill sections.\n\nA common feature of the new venues used at Nagano 1998 was their unique architectural designs. The Big Hat is so called because of its distinctive shape, while the flowing lines of the Aqua Wing resemble a bird's wing, and the White Ring evokes a droplet of water. Minami Nagano Sports Park was modelled on Japan's national flower, the sakura (cherry blossom).\n\nTo keep costs down, the Organising Committee furnished rooms at the Olympic Village by renting or buying furniture used at other events, including the 1994 Asian Games in Hiroshima and the 1995 Summer Universiade in Fukuoka."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Nagano\",\n  \"year\": \"1998\",\n  \"overview\": \"Fourteen competition venues were used for the Olympic Winter Games Nagano 1998. Eleven of them are still in use today, benefitting the local population and top Japanese athletes.\\n\\nIn the Organising Committee's efforts to protect the environment and keep construction work to a minimum, half of the Games competition venues were existing or temporary sites. For example, existing venues were used for the skiing, biathlon and curling competitions.\\n\\nAlso still in use, the newly built Nagano Olympic Stadium hosted the Opening and Closing Ceremonies, and an Olympic Village was built for the Games.\",\n  \"venues\": [\n    {\n      \"name\": \"Iizuna Kogen Ski Area\",\n      \"classification\": \"Existing\",\n      \"use\": \"Freestyle skiing\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state.\"\n    },\n    {\n      \"name\": \"M-Wave\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters.\"\n    },\n    {\n      \"name\": \"Big Hat\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games.\"\n    },\n    {\n      \"name\": \"Aqua Wing\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Provides local swimmers with excellent facilities all year round.\"\n    },\n    {\n      \"name\": \"White Ring\",\n      \"classification\": \"New build\",\n      \"use\": \"Figure skating, short track, speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup.\"\n    },\n    {\n      \"name\": \"Spiral Track\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge\",\n      \"status\": \"Not in use\",\n      \"information\": \"This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs.\"\n    },\n    {\n      \"name\": \"Nagano Olmpic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The venue for the Opening and Closing Ceremonies is now known as Nagano Olympic Stadium. Now converted into a baseball stadium, the venue is used by local amateur clubs and a professional team, the Shinano Grandserows. It is also the finishing point for the annual Nagano Commemorative Marathon.\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accomodation\",\n      \"status\": \"In use\",\n      \"information\": \"Comprising 1,032 apartments and located in the Imai district of Nagano, it was designed to provide housing after the Games and remains in use today, providing a mix of both private and social housing for older people.\"\n    },\n    {\n      \"name\": \"Hakuba Happo'one Ski Area\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"One of the largest and oldest resorts in the Hakuba ski area, it is popular with foreign visitors thanks to its deep snow, challenging runs and excellent facilities.\"\n    },\n    {\n      \"name\": \"Shiga Kogen - Mount Higashidate\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.\"\n    },\n    {\n      \"name\": \"Shiga Kogen - Mount Yakebitai\",\n      \"classification\": \"Existing\",\n      \"use\": \"Snowboard\",\n      \"status\": \"In use\",\n      \"information\": \"The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.\"\n    },\n    {\n      \"name\": \"Shiga Kogen - Kanbayashi Snowboard Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Snowboard\",\n      \"status\": \"Not in use\",\n      \"information\": \"This was closed in 2007 due to financial difficulties caused by competition from other nearby resorts and a lack of snowfall.\"\n    },\n    {\n      \"name\": \"Nozawa Onsen Biathlon Venue\",\n      \"classification\": \"Existing\",\n      \"use\": \"Biathlon\",\n      \"status\": \"In use\",\n      \"information\": \"Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand.\"\n    },\n    {\n      \"name\": \"Kazakoshi Park Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Curling\",\n      \"status\": \"In use\",\n      \"information\": \"This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling.\"\n    },\n    {\n      \"name\": \"Snow Harp\",\n      \"classification\": \"New build\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer.\"\n    },\n    {\n      \"name\": \"Hakuba Ski Jumping Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions.\"\n    }\n  ],\n  \"trivia\": \"Housed at the M-Wave, the Nagano Olympic Museum is one of 28 Olympic museums around the world.\\n\\nThe M-Wave was awarded the UK-based Institution of Structural Engineers' special award for structural engineering excellence in February 1998.\\n\\nThe Spiral was the first bobsleigh/luge track in the world to feature two uphill sections.\\n\\nA common feature of the new venues used at Nagano 1998 was their unique architectural designs. The Big Hat is so called because of its distinctive shape, while the flowing lines of the Aqua Wing resemble a bird's wing, and the White Ring evokes a droplet of water. Minami Nagano Sports Park was modelled on Japan's national flower, the sakura (cherry blossom).\\n\\nTo keep costs down, the Organising Committee furnished rooms at the Olympic Village by renting or buying furniture used at other events, including the 1994 Asian Games in Hiroshima and the 1995 Summer Universiade in Fukuoka.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Nagano",
+          "year": "1998",
+          "overview": "Fourteen competition venues were used for the Olympic Winter Games Nagano 1998. Eleven of them are still in use today, benefitting the local population and top Japanese athletes.\n\nIn the Organising Committee's efforts to protect the environment and keep construction work to a minimum, half of the Games competition venues were existing or temporary sites. For example, existing venues were used for the skiing, biathlon and curling competitions.\n\nAlso still in use, the newly built Nagano Olympic Stadium hosted the Opening and Closing Ceremonies, and an Olympic Village was built for the Games.",
+          "venues": [
+            {
+              "name": "Iizuna Kogen Ski Area",
+              "classification": "Existing",
+              "use": "Freestyle skiing",
+              "status": "Not in use",
+              "information": "The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state."
+            },
+            {
+              "name": "M-Wave",
+              "classification": "New build",
+              "use": "Speed skating",
+              "status": "In use",
+              "information": "Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters."
+            },
+            {
+              "name": "Big Hat",
+              "classification": "New build",
+              "use": "Ice hockey",
+              "status": "In use",
+              "information": "This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games."
+            },
+            {
+              "name": "Aqua Wing",
+              "classification": "New build",
+              "use": "Ice hockey",
+              "status": "In use",
+              "information": "Provides local swimmers with excellent facilities all year round."
+            },
+            {
+              "name": "White Ring",
+              "classification": "New build",
+              "use": "Figure skating, short track, speed skating",
+              "status": "In use",
+              "information": "This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup."
+            },
+            {
+              "name": "Spiral Track",
+              "classification": "New build",
+              "use": "Bobsleigh, luge",
+              "status": "Not in use",
+              "information": "This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs."
+            },
+            {
+              "name": "Nagano Olympic Stadium",
+              "classification": "New build",
+              "use": "Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "The venue for the Opening and Closing Ceremonies is now known as Nagano Olympic Stadium. Now converted into a baseball stadium, the venue is used by local amateur clubs and a professional team, the Shinano Grandserows. It is also the finishing point for the annual Nagano Commemorative Marathon."
+            },
+            {
+              "name": "Olympic Village",
+              "classification": "New build",
+              "use": "Athlete accommodation",
+              "status": "In use",
+              "information": "Comprising 1,032 apartments and located in the Imai district of Nagano, it was designed to provide housing after the Games and remains in use today, providing a mix of both private and social housing for older people."
+            },
+            {
+              "name": "Hakuba Happo'one Ski Area",
+              "classification": "Existing",
+              "use": "Alpine skiing",
+              "status": "In use",
+              "information": "One of the largest and oldest resorts in the Hakuba ski area, it is popular with foreign visitors thanks to its deep snow, challenging runs and excellent facilities."
+            },
+            {
+              "name": "Shiga Kogen - Mount Higashidate",
+              "classification": "Existing",
+              "use": "Alpine skiing",
+              "status": "In use",
+              "information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+            },
+            {
+              "name": "Shiga Kogen - Mount Yakebitai",
+              "classification": "Existing",
+              "use": "Snowboard",
+              "status": "In use",
+              "information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+            },
+            {
+              "name": "Shiga Kogen - Kanbayashi Snowboard Park",
+              "classification": "Existing",
+              "use": "Snowboard",
+              "status": "Not in use",
+              "information": "This was closed in 2007 due to financial difficulties caused by competition from other nearby resorts and a lack of snowfall."
+            },
+            {
+              "name": "Nozawa Onsen Biathlon Venue",
+              "classification": "Existing",
+              "use": "Biathlon",
+              "status": "In use",
+              "information": "Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand."
+            },
+            {
+              "name": "Kazakoshi Park Arena",
+              "classification": "Existing",
+              "use": "Curling",
+              "status": "In use",
+              "information": "This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling."
+            },
+            {
+              "name": "Snow Harp",
+              "classification": "New build",
+              "use": "Cross-country skiing, Nordic combined",
+              "status": "In use",
+              "information": "Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer."
+            },
+            {
+              "name": "Hakuba Ski Jumping Stadium",
+              "classification": "New build",
+              "use": "Ski jumping, Nordic combined",
+              "status": "In use",
+              "information": "The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions."
+            }
+          ],
+          "trivia": "Housed at the M-Wave, the Nagano Olympic Museum is one of 28 Olympic museums around the world.\n\nThe M-Wave was awarded the UK-based Institution of Structural Engineers' special award for structural engineering excellence in February 1998.\n\nThe Spiral was the first bobsleigh/luge track in the world to feature two uphill sections.\n\nA common feature of the new venues used at Nagano 1998 was their unique architectural designs. The Big Hat is so called because of its distinctive shape, while the flowing lines of the Aqua Wing resemble a bird's wing, and the White Ring evokes a droplet of water. Minami Nagano Sports Park was modelled on Japan's national flower, the sakura (cherry blossom).\n\nTo keep costs down, the Organising Committee furnished rooms at the Olympic Village by renting or buying furniture used at other events, including the 1994 Asian Games in Hiroshima and the 1995 Summer Universiade in Fukuoka."
+        },
+        "correctedKeys": [
+          "venues[6].name",
+          "venues[7].use"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content:\n\nLooking at the venue names and details:\n1. \"Nagano Olmpic Stadium\" in JSON vs \"Nagano Olympic Stadium\" in PDF - typo in JSON\n2. \"Athlete accomodation\" in JSON vs \"Athlete accommodation\" in PDF - typo in JSON\n\nAll other venue information, classifications, uses, statuses, and detailed information appear to match correctly with the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n\"status\":\"found\",\n\"city\":\"Nagano\",\n\"year\":\"1998\",\n\"overview\":\"Fourteen competition venues were used for the Olympic Winter Games Nagano 1998. Eleven of them are still in use today, benefitting the local population and top Japanese athletes.\\n\\nIn the Organising Committee's efforts to protect the environment and keep construction work to a minimum, half of the Games competition venues were existing or temporary sites. For example, existing venues were used for the skiing, biathlon and curling competitions.\\n\\nAlso still in use, the newly built Nagano Olympic Stadium hosted the Opening and Closing Ceremonies, and an Olympic Village was built for the Games.\",\n\"venues\":[\n{\"name\":\"Iizuna Kogen Ski Area\",\"classification\":\"Existing\",\"use\":\"Freestyle skiing\",\"status\":\"Not in use\",\"information\":\"The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state.\"},\n{\"name\":\"M-Wave\",\"classification\":\"New build\",\"use\":\"Speed skating\",\"status\":\"In use\",\"information\":\"Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters.\"},\n{\"name\":\"Big Hat\",\"classification\":\"New build\",\"use\":\"Ice hockey\",\"status\":\"In use\",\"information\":\"This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games.\"},\n{\"name\":\"Aqua Wing\",\"classification\":\"New build\",\"use\":\"Ice hockey\",\"status\":\"In use\",\"information\":\"Provides local swimmers with excellent facilities all year round.\"},\n{\"name\":\"White Ring\",\"classification\":\"New build\",\"use\":\"Figure skating, short track, speed skating\",\"status\":\"In use\",\"information\":\"This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup.\"},\n{\"name\":\"Spiral Track\",\"classification\":\"New build\",\"use\":\"Bobsleigh, luge\",\"status\":\"Not in use\",\"information\":\"This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs.\"},\n{\"name\":\"Nagano Olympic Stadium\",\"classification\":\"New build\",\"use\":\"Opening and Closing Ceremonies\",\"status\":\"In use\",\"information\":\"The venue for the Opening and Closing Ceremonies is now known as Nagano Olympic Stadium. Now converted into a baseball stadium, the venue is used by local amateur clubs and a professional team, the Shinano Grandserows. It is also the finishing point for the annual Nagano Commemorative Marathon.\"},\n{\"name\":\"Olympic Village\",\"classification\":\"New build\",\"use\":\"Athlete accommodation\",\"status\":\"In use\",\"information\":\"Comprising 1,032 apartments and located in the Imai district of Nagano, it was designed to provide housing after the Games and remains in use today, providing a mix of both private and social housing for older people.\"},\n{\"name\":\"Hakuba Happo'one Ski Area\",\"classification\":\"Existing\",\"use\":\"Alpine skiing\",\"status\":\"In use\",\"information\":\"One of the largest and oldest resorts in the Hakuba ski area, it is popular with foreign visitors thanks to its deep snow, challenging runs and excellent facilities.\"},\n{\"name\":\"Shiga Kogen - Mount Higashidate\",\"classification\":\"Existing\",\"use\":\"Alpine skiing\",\"status\":\"In use\",\"information\":\"The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.\"},\n{\"name\":\"Shiga Kogen - Mount Yakebitai\",\"classification\":\"Existing\",\"use\":\"Snowboard\",\"status\":\"In use\",\"information\":\"The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.\"},\n{\"name\":\"Shiga Kogen - Kanbayashi Snowboard Park\",\"classification\":\"Existing\",\"use\":\"Snowboard\",\"status\":\"Not in use\",\"information\":\"This was closed in 2007 due to financial difficulties caused by competition from other nearby resorts and a lack of snowfall.\"},\n{\"name\":\"Nozawa Onsen Biathlon Venue\",\"classification\":\"Existing\",\"use\":\"Biathlon\",\"status\":\"In use\",\"information\":\"Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand.\"},\n{\"name\":\"Kazakoshi Park Arena\",\"classification\":\"Existing\",\"use\":\"Curling\",\"status\":\"In use\",\"information\":\"This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling.\"},\n{\"name\":\"Snow Harp\",\"classification\":\"New build\",\"use\":\"Cross-country skiing, Nordic combined\",\"status\":\"In use\",\"information\":\"Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer.\"},\n{\"name\":\"Hakuba Ski Jumping Stadium\",\"classification\":\"New build\",\"use\":\"Ski jumping, Nordic combined\",\"status\":\"In use\",\"information\":\"The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions.\"}\n],\n\"trivia\":\"Housed at the M-Wave, the Nagano Olympic Museum is one of 28 Olympic museums around the world.\\n\\nThe M-Wave was awarded the UK-based Institution of Structural Engineers' special award for structural engineering excellence in February 1998.\\n\\nThe Spiral was the first bobsleigh/luge track in the world to feature two uphill sections.\\n\\nA common feature of the new venues used at Nagano 1998 was their unique architectural designs. The Big Hat is so called because of its distinctive shape, while the flowing lines of the Aqua Wing resemble a bird's wing, and the White Ring evokes a droplet of water. Minami Nagano Sports Park was modelled on Japan's national flower, the sakura (cherry blossom).\\n\\nTo keep costs down, the Organising Committee furnished rooms at the Olympic Village by renting or buying furniture used at other events, including the 1994 Asian Games in Hiroshima and the 1995 Summer Universiade in Fukuoka.\"\n},\n\"correctedKeys\": [\"venues[6].name\", \"venues[7].use\"]\n}\n</response>"
+    }
+  }
+]

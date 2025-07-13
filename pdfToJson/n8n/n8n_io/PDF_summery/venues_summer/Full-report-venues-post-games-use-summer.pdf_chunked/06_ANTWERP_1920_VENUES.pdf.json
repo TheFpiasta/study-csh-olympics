@@ -1,0 +1,65 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Antwerp",
+        "year": "1920",
+        "overview": "Nineteen competition venues were used for the Olympic Games Antwerp 1920, ten of which remain in use today. Fifteen of the competition venues were existing, two were new and two were temporary. Many of the existing venues were refurbished for the Games. The two temporary venues have been dismantled. Six of the existing venues and one new venue have been demolished. Though many of the remaining venues have undergone upgrades, only a few still offer high-performance sports facilities.\n\nBuilt for the occasion, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. There was no official Olympic Village. Seven of the venues were outside Antwerp, including one in the Netherlands, which would also be used at the Olympic Games Amsterdam 1928.",
+        "venues": [
+          {
+            "name": "Antwerp Olympic Stadium (Olympisch Stadion)",
+            "classification": "New build",
+            "use": "Athletics, hockey, equestrian, gymnastics, football, rugby, tug of war, modern pentathlon (running, equestrian), weightlifting, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Prior to the 1920 Olympic Games, the site was used by Beerschot Athletic Club for training. The stadium project included the construction of a new grandstand, the enlarging of existing grandstands, the extension of the track and the building of an access road. At Games time, the stadium had a capacity of 35,000.\n\nFollowing the Games, further work was carried out to convert the stadium into a football ground for the club K Beerschot VA. In 2000, the venue underwent a major refurbishment. The running track was removed, four separate stands were created, and the capacity was reduced to 13,000. The club still plays its home games at the stadium, though no other major events have taken place there since the 1920 Olympic Games."
+          },
+          {
+            "name": "Royal Beerschot Tennis and Hockey Club",
+            "classification": "Existing",
+            "use": "Tennis, fencing",
+            "status": "In use",
+            "information": "Built in 1899 and situated next to the Olympic Stadium, the club had 14 clay courts at Games time. Now home to nine outdoor and seven indoor courts, the club, which has been renamed Tennis 7 de Olympiade, is open for use by local residents and stages regional and national tennis competitions throughout the year, among them the City of Antwerp Tournament. A multi-sport venue, the club also offers field hockey, swimming and pétanque."
+          },
+          {
+            "name": "Buiten-IJ",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "Located in Amsterdam, north-east of the city centre, this body of water staged the 12-foot dinghy competition at the 1920 Olympic Games. It was also used as a sailing venue at the Olympic Games Amsterdam 1928, when it hosted the single-handed Olympic monotype class. The area is now part of the port of Amsterdam, the fourth busiest in Europe."
+          },
+          {
+            "name": "Celebration Hall, Royal Zoological Society (Feestzaal, Koninklijke Zoölogische Maatschappij)",
+            "classification": "Existing",
+            "use": "Boxing, wrestling",
+            "status": "In use",
+            "information": "Part of Antwerp Zoo, which opened in 1844, the hall was the venue for the boxing and wrestling competitions. Welcoming more than a million visitors a year, the zoo is home to one of the world's most advanced animal research centres."
+          },
+          {
+            "name": "Willebroek Canal",
+            "classification": "Existing",
+            "use": "Rowing",
+            "status": "In use",
+            "information": "Though mainly used for transporting goods and flood management, the canal has hosted rowing events since the Games and is used by the Royal Sport Nautique de Bruxelles (RSNB) for recreational rowing and training, and competitions such as the Brussels Winter Rowing Regatta. It is not clear what facilities were built for the rowing competitions, but they are believed to have been temporary."
+          },
+          {
+            "name": "Beverloo Camp",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "The camp played host to the shooting events in 1920. It opened in 1839 and became a permanent military base in 1845 – a status it retains to this day. Occupied by German troops in both world wars, it was used as a prisoner-of-war camp and partly damaged by an Allied bombardment in 1944. In 1976, the barracks were modernised, and hundreds of houses were built for the families of the personnel stationed there. It is Belgium's largest garrison."
+          }
+        ],
+        "trivia": "Belgium's King Albert I monitored preparations for the Olympic Games very closely. On 27 March 1920, he paid a visit to the Olympic Stadium to see how work was progressing. To avoid being recognised, he wore a disguise.\n\nOne of Belgium's oldest navigable canals, Willebroek Canal runs for 28 kilometres and links Brussels with the Scheldt River.\n\nThe water at the Antwerp Water Sports Stadium was so cold – due to unseasonably cool temperatures – that competitors sprinted to warm showers after their races."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Antwerp\",\n  \"year\": \"1920\",\n  \"overview\": \"Nineteen competition venues were used for the Olympic Games Antwerp 1920, ten of which remain in use today. Fifteen of the competition venues were existing, two were new and two were temporary. Many of the existing venues were refurbished for the Games. The two temporary venues have been dismantled. Six of the existing venues and one new venue have been demolished. Though many of the remaining venues have undergone upgrades, only a few still offer high-performance sports facilities.\\n\\nBuilt for the occasion, the Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. There was no official Olympic Village. Seven of the venues were outside Antwerp, including one in the Netherlands, which would also be used at the Olympic Games Amsterdam 1928.\",\n  \"venues\": [\n    {\n      \"name\": \"Antwerp Olympic Stadium (Olympisch Stadion)\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, hockey, equestrian, gymnastics, football, rugby, tug of war, modern pentathlon (running, equestrian), weightlifting, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Prior to the 1920 Olympic Games, the site was used by Beerschot Athletic Club for training. The stadium project included the construction of a new grandstand, the enlarging of existing grandstands, the extension of the track and the building of an access road. At Games time, the stadium had a capacity of 35,000.\\n\\nFollowing the Games, further work was carried out to convert the stadium into a football ground for the club K Beerschot VA. In 2000, the venue underwent a major refurbishment. The running track was removed, four separate stands were created, and the capacity was reduced to 13,000. The club still plays its home games at the stadium, though no other major events have taken place there since the 1920 Olympic Games.\"\n    },\n    {\n      \"name\": \"Royal Beerschot Tennis and Hockey Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis, fencing\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1899 and situated next to the Olympic Stadium, the club had 14 clay courts at Games time. Now home to nine outdoor and seven indoor courts, the club, which has been renamed Tennis 7 de Olympiade, is open for use by local residents and stages regional and national tennis competitions throughout the year, among them the City of Antwerp Tournament. A multi-sport venue, the club also offers field hockey, swimming and pétanque.\"\n    },\n    {\n      \"name\": \"Buiten-IJ\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Amsterdam, north-east of the city centre, this body of water staged the 12-foot dinghy competition at the 1920 Olympic Games. It was also used as a sailing venue at the Olympic Games Amsterdam 1928, when it hosted the single-handed Olympic monotype class. The area is now part of the port of Amsterdam, the fourth busiest in Europe.\"\n    },\n    {\n      \"name\": \"Celebration Hall, Royal Zoological Society (Feestzaal, Koninklijke Zoölogische Maatschappij)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"Part of Antwerp Zoo, which opened in 1844, the hall was the venue for the boxing and wrestling competitions. Welcoming more than a million visitors a year, the zoo is home to one of the world's most advanced animal research centres.\"\n    },\n    {\n      \"name\": \"Willebroek Canal\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"Though mainly used for transporting goods and flood management, the canal has hosted rowing events since the Games and is used by the Royal Sport Nautique de Bruxelles (RSNB) for recreational rowing and training, and competitions such as the Brussels Winter Rowing Regatta. It is not clear what facilities were built for the rowing competitions, but they are believed to have been temporary.\"\n    },\n    {\n      \"name\": \"Beverloo Camp\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"The camp played host to the shooting events in 1920. It opened in 1839 and became a permanent military base in 1845 – a status it retains to this day. Occupied by German troops in both world wars, it was used as a prisoner-of-war camp and partly damaged by an Allied bombardment in 1944. In 1976, the barracks were modernised, and hundreds of houses were built for the families of the personnel stationed there. It is Belgium's largest garrison.\"\n    }\n  ],\n  \"trivia\": \"Belgium's King Albert I monitored preparations for the Olympic Games very closely. On 27 March 1920, he paid a visit to the Olympic Stadium to see how work was progressing. To avoid being recognised, he wore a disguise.\\n\\nOne of Belgium's oldest navigable canals, Willebroek Canal runs for 28 kilometres and links Brussels with the Scheldt River.\\n\\nThe water at the Antwerp Water Sports Stadium was so cold – due to unseasonably cool temperatures – that competitors sprinted to warm showers after their races.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n1. **Basic Information**:\n   - City: \"Antwerp\" ✓ (matches PDF)\n   - Year: \"1920\" ✓ (matches PDF)\n   - Status: \"found\" ✓ (appropriate)\n\n2. **Overview**: The JSON overview text matches exactly with the overview section on page 1 of the PDF ✓\n\n3. **Venues**: The JSON includes 6 venues with detailed information. Let me verify each:\n   - All 6 venues listed in the JSON correspond to the venues with detailed descriptions in the \"VENUES IN USE\" section on page 4\n   - Classifications, uses, and statuses match the tables on pages 2-3\n   - The detailed information for each venue matches the descriptions on page 4\n\n4. **Trivia**: The trivia section matches exactly with the \"DID YOU KNOW?\" section on page 5 ✓\n\nAll data in the JSON appears to be accurate and consistent with the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Salt Lake City",
+        "year": "2002",
+        "overview": "Ten competition venues were used for the Olympic Winter Games Salt Lake City 2002. All of them are still in use today and offer physical exercise and healthy lifestyle activities for the local community, recreational events and camps for locals and visitors, and high-performance development programmes for US and international athletes at both junior and senior level. Six of the competition venues were existing sites. The remaining four were built for the Games.\n\nRice-Eccles Olympic Stadium, which hosted the Opening and Closing Ceremonies, was a new, non-competition venue, as the stadium was almost completely demolished and rebuilt for the Games. The Olympic Village was located at an existing site, part of which was restored and part of which was given over to the construction of new accommodation. Both the Olympic Stadium and the Olympic Village are still in use.",
+        "venues": [
+          {
+            "name": "Salt Lake City Ice Center",
+            "classification": "Existing",
+            "use": "Figure skating, short track speed skating",
+            "status": "In use",
+            "information": "Built in 1990 as a home for NBA basketball team the Utah Jazz, who still play there, the venue is a multi- purpose sports and entertainment facility. Refurbished in 2017, it has been used by several other professional sports teams over the years, including the Arena Football League's Utah Blaze and the WNBA's Utah Starzz. It is also a concert and entertainment venue."
+          },
+          {
+            "name": "Salt Lake City Olympic Village",
+            "classification": "Mixed new build/Existing",
+            "use": "Athlete accomodation",
+            "status": "In use",
+            "information": "Situated at the historic Fort Douglas site, the Olympic Village is now known as the University of Utah's Heritage Commons and consists of 21 buildings. Twenty are residential and one is used for dining and support services for students at the University of Utah."
+          },
+          {
+            "name": "Rice-Eccles Olympic Stadium",
+            "classification": "New",
+            "use": "Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "With the announcement that Salt Lake City would host the Olympic Winter Games 2002, the city, along with the University of Utah, decided to demolish the old stadium almost entirely (although the end zone stands remained), and a new stadium rose in its place to host the Opening and Closing Ceremonies of the Games. From 2005 to 2008, it was the home of Major League Soccer team Real Salt Lake. Owned and run by the University of Utah, the stadium is home to the University of Utah Utes collegiate American football team. The stadium also hosts supercross and action sports events, as well as concerts. Both U2 and the Rolling Stones have played there."
+          },
+          {
+            "name": "E Center",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Converted into a multi-purpose sports and entertainment venue after the 2002 Olympic Winter Games, as planned. The home of ECHL ice hockey team the Utah Grizzlies, it also hosts concerts and entertainment shows, such as Holiday on Ice and World Wrestling Entertainment's SmackDown."
+          },
+          {
+            "name": "Deer Valley Resort",
+            "classification": "Existing",
+            "use": "Alpine skiing, freestyle skiing",
+            "status": "In use",
+            "information": "The resort, which first welcomed skiing in the 1930s, is still used for training and competitions. It has hosted 17 FIS World Cup events since the 2002 Olympic Winter Games and is home to over 100 runs and many hiking and mountain bike trails."
+          },
+          {
+            "name": "Park City Mountain Resort",
+            "classification": "Existing",
+            "use": "Alpine skiing, snowboard",
+            "status": "In use",
+            "information": "A training and World Cup competition venue that opened in 1963, the ski resort remains popular with skiers from all over the United States and further afield. The second-largest ski resort in the country, it has over 300 runs and offers a wide range of winter and summer activities, including snowmobiling, mini-golf and mountain biking."
+          },
+          {
+            "name": "Snowbasin Ski Area",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "Opened in 1940, the ski resort is now a multi-season venue offering skiing in the winter (downhill and Nordic) and hiking and concerts in the summer. It provided the location for the 2010 survival film Frozen."
+          },
+          {
+            "name": "The Ice Sheet at Ogden",
+            "classification": "Existing",
+            "use": "Curling",
+            "status": "In use",
+            "information": "The venue, which opened in 1994, is a training centre for curling, ice hockey and figure skating and is used by approximately 450,000 people a year."
+          },
+          {
+            "name": "Utah Olympic Park",
+            "classification": "New build",
+            "use": "Bobsleigh, luge, skeleton, Nordic combined, ski jumping",
+            "status": "In use",
+            "information": "The park is a multi-use facility focused on developing and growing participation in winter sports in Utah and is an official United States Olympic training site. Its facilities include a bobsleigh and luge track (one of only four in North America), six ski jumps – four of which were built after the Games – a freestyle skiing and snowboard landing airbag, and a freestyle ski jump pool. It is also home to the 2002 Olympic & Paralympic Games Museum, one of two museums on the site.\n\nThe venue offers both high-performance athlete training and community recreational use - , providing a range of activities for visitors. Public activities include tubing, zip lines, an alpine slide, ropes courses and more. Its trails are open for hiking and biking in the summer. A 72-unit residential facility was opened at the park in 2019 to provide athletes, coaches and staff with affordable short- and long-term housing."
+          },
+          {
+            "name": "Peaks Ice Arena",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "As planned, the venue was transformed into a multi-purpose skating and sports facility after the Games. Used extensively by the local community for skating, it hosts Learn to Skate USA classes and youth and adult ice hockey lessons and matches. It is also the home arena of the Brigham Young University ice hockey team."
+          },
+          {
+            "name": "Utah Olympic Oval",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "A new-built indoor venue, it replaced an existing sports facility (which was demolished to make way for the Olympic venue). It has staged many major speed skating and short track speed skating events, including two ISU World Sprint Championships and two World Cup finals, and is the US speed skating team's training base. Used daily by the Utah University team, the oval is open to the public for speed skating, figure skating, ice hockey, curling and running (on a 440m track located next to the rink). Extensively refurbished in 2018, it also offers a Schools on Ice programme, which shows children how to skate in a fun and safe environment while watching world-class athletes train."
+          },
+          {
+            "name": "Soldier Hollow",
+            "classification": "New build",
+            "use": "Biathlon, cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "Located in a nature reserve created in 1961, the venue is a Nordic training centre and recreational facility for cross-country skiing, biathlon and other activities and has undergone extensive development since the 2002 Olympic Winter Games. It offers a variety of training programmes for young people and adults throughout the year and also hosts mountain biking, golf, events, festivals and youth ski training camps in the summer. It has hosted numerous international cross-country and biathlon events, including the IBU Biathlon World Cup in 2019, and will stage the 2022 IBU Biathlon Youth and Junior World Championships."
+          }
+        ],
+        "trivia": "Ten Olympic speed skating records and an unprecedented nine world records were set at the Utah Olympic Oval during the 2002 Olympic Winter Games.\n\nA total of 69 of the 211 athletes on the US team at the Olympic Winter Games Torino 2006 trained for the Games at Utah's Olympic venues.\n\nAs of 2018, the Soldier Hollow Nordic Centre, Utah Olympic Oval and Utah Olympic Park had recorded over 1.4 million visits since their post-Games opening to the public.\n\nThe Calvin L. Rampton Salt Palace Convention Center housed the International Broadcasting Centre and the Main Press Centre at the 2002 Olympic Winter Games. It continues to stage sporting events and exhibitions."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Salt Lake City\",\n  \"year\": \"2002\",\n  \"overview\": \"Ten competition venues were used for the Olympic Winter Games Salt Lake City 2002. All of them are still in use today and offer physical exercise and healthy lifestyle activities for the local community, recreational events and camps for locals and visitors, and high-performance development programmes for US and international athletes at both junior and senior level. Six of the competition venues were existing sites. The remaining four were built for the Games.\\n\\nRice-Eccles Olympic Stadium, which hosted the Opening and Closing Ceremonies, was a new, non-competition venue, as the stadium was almost completely demolished and rebuilt for the Games. The Olympic Village was located at an existing site, part of which was restored and part of which was given over to the construction of new accommodation. Both the Olympic Stadium and the Olympic Village are still in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Salt Lake City Ice Center\",\n      \"classification\": \"Existing\",\n      \"use\": \"Figure skating, short track speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1990 as a home for NBA basketball team the Utah Jazz, who still play there, the venue is a multi- purpose sports and entertainment facility. Refurbished in 2017, it has been used by several other professional sports teams over the years, including the Arena Football League's Utah Blaze and the WNBA's Utah Starzz. It is also a concert and entertainment venue.\"\n    },\n    {\n      \"name\": \"Salt Lake City Olympic Village\",\n      \"classification\": \"Mixed new build/Existing\",\n      \"use\": \"Athlete accomodation\",\n      \"status\": \"In use\",\n      \"information\": \"Situated at the historic Fort Douglas site, the Olympic Village is now known as the University of Utah's Heritage Commons and consists of 21 buildings. Twenty are residential and one is used for dining and support services for students at the University of Utah.\"\n    },\n    {\n      \"name\": \"Rice-Eccles Olympic Stadium\",\n      \"classification\": \"New\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"With the announcement that Salt Lake City would host the Olympic Winter Games 2002, the city, along with the University of Utah, decided to demolish the old stadium almost entirely (although the end zone stands remained), and a new stadium rose in its place to host the Opening and Closing Ceremonies of the Games. From 2005 to 2008, it was the home of Major League Soccer team Real Salt Lake. Owned and run by the University of Utah, the stadium is home to the University of Utah Utes collegiate American football team. The stadium also hosts supercross and action sports events, as well as concerts. Both U2 and the Rolling Stones have played there.\"\n    },\n    {\n      \"name\": \"E Center\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Converted into a multi-purpose sports and entertainment venue after the 2002 Olympic Winter Games, as planned. The home of ECHL ice hockey team the Utah Grizzlies, it also hosts concerts and entertainment shows, such as Holiday on Ice and World Wrestling Entertainment's SmackDown.\"\n    },\n    {\n      \"name\": \"Deer Valley Resort\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing, freestyle skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The resort, which first welcomed skiing in the 1930s, is still used for training and competitions. It has hosted 17 FIS World Cup events since the 2002 Olympic Winter Games and is home to over 100 runs and many hiking and mountain bike trails.\"\n    },\n    {\n      \"name\": \"Park City Mountain Resort\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing, snowboard\",\n      \"status\": \"In use\",\n      \"information\": \"A training and World Cup competition venue that opened in 1963, the ski resort remains popular with skiers from all over the United States and further afield. The second-largest ski resort in the country, it has over 300 runs and offers a wide range of winter and summer activities, including snowmobiling, mini-golf and mountain biking.\"\n    },\n    {\n      \"name\": \"Snowbasin Ski Area\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Opened in 1940, the ski resort is now a multi-season venue offering skiing in the winter (downhill and Nordic) and hiking and concerts in the summer. It provided the location for the 2010 survival film Frozen.\"\n    },\n    {\n      \"name\": \"The Ice Sheet at Ogden\",\n      \"classification\": \"Existing\",\n      \"use\": \"Curling\",\n      \"status\": \"In use\",\n      \"information\": \"The venue, which opened in 1994, is a training centre for curling, ice hockey and figure skating and is used by approximately 450,000 people a year.\"\n    },\n    {\n      \"name\": \"Utah Olympic Park\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge, skeleton, Nordic combined, ski jumping\",\n      \"status\": \"In use\",\n      \"information\": \"The park is a multi-use facility focused on developing and growing participation in winter sports in Utah and is an official United States Olympic training site. Its facilities include a bobsleigh and luge track (one of only four in North America), six ski jumps – four of which were built after the Games – a freestyle skiing and snowboard landing airbag, and a freestyle ski jump pool. It is also home to the 2002 Olympic & Paralympic Games Museum, one of two museums on the site.\\n\\nThe venue offers both high-performance athlete training and community recreational use - , providing a range of activities for visitors. Public activities include tubing, zip lines, an alpine slide, ropes courses and more. Its trails are open for hiking and biking in the summer. A 72-unit residential facility was opened at the park in 2019 to provide athletes, coaches and staff with affordable short- and long-term housing.\"\n    },\n    {\n      \"name\": \"Peaks Ice Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"As planned, the venue was transformed into a multi-purpose skating and sports facility after the Games. Used extensively by the local community for skating, it hosts Learn to Skate USA classes and youth and adult ice hockey lessons and matches. It is also the home arena of the Brigham Young University ice hockey team.\"\n    },\n    {\n      \"name\": \"Utah Olympic Oval\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"A new-built indoor venue, it replaced an existing sports facility (which was demolished to make way for the Olympic venue). It has staged many major speed skating and short track speed skating events, including two ISU World Sprint Championships and two World Cup finals, and is the US speed skating team's training base. Used daily by the Utah University team, the oval is open to the public for speed skating, figure skating, ice hockey, curling and running (on a 440m track located next to the rink). Extensively refurbished in 2018, it also offers a Schools on Ice programme, which shows children how to skate in a fun and safe environment while watching world-class athletes train.\"\n    },\n    {\n      \"name\": \"Soldier Hollow\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon, cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Located in a nature reserve created in 1961, the venue is a Nordic training centre and recreational facility for cross-country skiing, biathlon and other activities and has undergone extensive development since the 2002 Olympic Winter Games. It offers a variety of training programmes for young people and adults throughout the year and also hosts mountain biking, golf, events, festivals and youth ski training camps in the summer. It has hosted numerous international cross-country and biathlon events, including the IBU Biathlon World Cup in 2019, and will stage the 2022 IBU Biathlon Youth and Junior World Championships.\"\n    }\n  ],\n  \"trivia\": \"Ten Olympic speed skating records and an unprecedented nine world records were set at the Utah Olympic Oval during the 2002 Olympic Winter Games.\\n\\nA total of 69 of the 211 athletes on the US team at the Olympic Winter Games Torino 2006 trained for the Games at Utah's Olympic venues.\\n\\nAs of 2018, the Soldier Hollow Nordic Centre, Utah Olympic Oval and Utah Olympic Park had recorded over 1.4 million visits since their post-Games opening to the public.\\n\\nThe Calvin L. Rampton Salt Palace Convention Center housed the International Broadcasting Centre and the Main Press Centre at the 2002 Olympic Winter Games. It continues to stage sporting events and exhibitions.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **city**: \"Salt Lake City\" - matches PDF ✓\n2. **year**: \"2002\" - matches PDF ✓\n3. **overview**: Matches exactly with the overview section in the PDF ✓\n4. **venues**: Let me check each venue against the PDF tables and descriptions:\n\nGoing through each venue in the JSON:\n- Salt Lake City Ice Center: All details match PDF ✓\n- Salt Lake City Olympic Village: All details match PDF ✓\n- Rice-Eccles Olympic Stadium: All details match PDF ✓\n- E Center: All details match PDF ✓\n- Deer Valley Resort: All details match PDF ✓\n- Park City Mountain Resort: All details match PDF ✓\n- Snowbasin Ski Area: All details match PDF ✓\n- The Ice Sheet at Ogden: All details match PDF ✓\n- Utah Olympic Park: All details match PDF ✓\n- Peaks Ice Arena: All details match PDF ✓\n- Utah Olympic Oval: All details match PDF ✓\n- Soldier Hollow: All details match PDF ✓\n\n5. **trivia**: The trivia section matches exactly with the \"DID YOU KNOW?\" section on page 5 of the PDF ✓\n\nAll information in the JSON data matches the PDF content exactly.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

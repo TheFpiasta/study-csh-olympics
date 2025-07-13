@@ -1,0 +1,107 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Beijing",
+        "year": "2008",
+        "overview": "A total of 39 competition venues were used for the Olympic Games Beijing 2008: 18 of them new, 12 existing and nine temporary. Thirty of these venues remain in use, for sports, cultural and recreational activities. Seven out of the nine temporary venues have been dismantled as planned, one remains in use, and one was not dismantled as planned but is not in use. The National Stadium was the main hub of the Games, hosting the Opening and Closing Ceremonies. Beijing Olympic Village was built for the Games and remains in use.",
+        "venues": [
+          {
+            "name": "National Stadium",
+            "classification": "New build",
+            "use": "Athletics, football, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Also known as the Bird's Nest on account of its distinctive, award-winning steel structure, it has become one of Beijing's best-known landmarks and has attracted more than 30 million visitors since its opening. The venue continues to be used for national and international competitions. Located in the Olympic Park, it hosted the Opening and Closing Ceremonies of the Olympic Winter Games Beijing 2022."
+          },
+          {
+            "name": "National Aquatics Centre",
+            "classification": "New build",
+            "use": "Swimming, diving, artistic swimming, water polo",
+            "status": "In use",
+            "information": "Better known as the Water Cube, it has become another Beijing landmark. This multi-functional sports, recreation and fitness venue is mainly used as an aquatic sports training facility, but it continues to host national and international events and is also open to the public, receiving 3,000 visitors a day. The venue was refurbished in 2010, when a water park, exhibition hall, stores and restaurants were added. It underwent further refurbishment in 2020, in preparation for the Olympic Winter Games Beijing 2022, when it staged the curling events."
+          },
+          {
+            "name": "Beijing Olympic Basketball Arena",
+            "classification": "New build",
+            "use": "Basketball",
+            "status": "In use",
+            "information": "Home to a number of sports teams, this privately run venue stages more than 100 sports and cultural events per year, including concerts by world-renowned artists. The Olympic Winter Games Beijing 2022 ice hockey competitions were held here."
+          },
+          {
+            "name": "Shunyi Olympic Rowing-Canoeing Park – Rowing & canoe sprint course",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint, swimming",
+            "status": "In use",
+            "information": "Though the canoe slalom course was emptied after the Games and is used intermittently, the rest of the venue remains open to sporting events and to recreational water activities, such as sailing lessons, wakeboarding and water skiing. It has also hosted local water sports events and some international events."
+          },
+          {
+            "name": "Laoshan Mountain Bike Course",
+            "classification": "Existing",
+            "use": "Mountain bike",
+            "status": "In use",
+            "information": "This existing venue located by the Laoshan Velodrome was opened to the public just after the Games and has now been converted into a leisure park."
+          },
+          {
+            "name": "Beijing Olympic Green Tennis Centre",
+            "classification": "New build",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "The centre has hosted the ATP 500 China Open since 2009. A new centre court, the National Tennis Stadium, was opened in 2011. Featuring a retractable roof, the stadium has a capacity of 15,000, the fifth largest in the world. When it is not hosting events, the centre opens to the public, who can rent the courts out."
+          },
+          {
+            "name": "China Agricultural University Gymnasium",
+            "classification": "New build",
+            "use": "Wrestling",
+            "status": "In use",
+            "information": "Now a sports complex used by students of the China Agricultural University, it is one of six further education facilities that was used to stage events at Beijing 2008."
+          },
+          {
+            "name": "Beijing Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "After accommodating 16,000 athletes at Beijing 2008, the Olympic Village's apartments were refurbished for residential purposes and placed on the market. Its occupancy rate was 95 per cent by 2016. The city's public transport network has been expanded to serve the area, with the construction of new subway lines. During the Village's construction, concerns were raised about worker conditions and the displacement of local residents. Six auxiliary accommodation sites were used at Beijing 2008: in Quingdao, Hong Kong, Tianjin, Shanghai, Shenyang and Qinhuangdao."
+          },
+          {
+            "name": "Laoshan Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "The venue has mainly been used for cycling training since the Games, and has hosted only a small number of local and national cycling competitions. It is also used for other sports on an occasional basis."
+          },
+          {
+            "name": "Hong Kong Olympic Equestrian Venue (Beas River)",
+            "classification": "Existing",
+            "use": "Eventing, dressage, jumping",
+            "status": "In use",
+            "information": "The venue hosted the equestrian events at the 2010 Asian Games and continues to stage a large number of dressage, show jumping and cross-country events at all levels, from grassroots to high-performance. It is also home to a riding school that offers services to Hong Kong Jockey Club members and other permitted users."
+          },
+          {
+            "name": "National Indoor Stadium",
+            "classification": "New build",
+            "use": "Artistic gymnastics, trampoline gymnastics, handball",
+            "status": "In use",
+            "information": "A multi-purpose venue that is open to the public and visitors, the National Indoor Stadium hosts both sporting and cultural events. It was refurbished in preparation for the Olympic Winter Games Beijing 2022, when it hosted the ice hockey competitions."
+          },
+          {
+            "name": "Chaoyang Park Beach Volleyball Ground",
+            "classification": "Temporary",
+            "use": "Beach volleyball",
+            "status": "Not in use",
+            "information": "The venue's stands have not been dismantled and have deteriorated over the years. The grounds around it are used for a variety of cultural activities, however."
+          }
+        ],
+        "trivia": "At the time of its construction, the Bird's Nest was the world's largest steel structure, with 26km of unwrapped steel used. With a capacity of 91,000, it was the largest venue used at Beijing 2008, though the capacity has since been reduced to 80,000. The distinctive facade of the Water Cube is inspired by soap bubbles and allows daylight to enter the building, helping to save up to 55 per cent on lighting energy for the venue. The Ming Tombs Reservoir, the venue for the triathlon competitions, is so called because of its proximity to the Ming Tombs, a series of mausoleums built by the emperors of China's Ming dynasty. Beijing 2008 had more competition venues – 39 – than any other Olympic Games. Beijing's Olympic Village is located in a park that is twice the size of New York's Central Park."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Beijing\",\n  \"year\": \"2008\",\n  \"overview\": \"A total of 39 competition venues were used for the Olympic Games Beijing 2008: 18 of them new, 12 existing and nine temporary. Thirty of these venues remain in use, for sports, cultural and recreational activities. Seven out of the nine temporary venues have been dismantled as planned, one remains in use, and one was not dismantled as planned but is not in use. The National Stadium was the main hub of the Games, hosting the Opening and Closing Ceremonies. Beijing Olympic Village was built for the Games and remains in use.\",\n  \"venues\": [\n    {\n      \"name\": \"National Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, football, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Also known as the Bird's Nest on account of its distinctive, award-winning steel structure, it has become one of Beijing's best-known landmarks and has attracted more than 30 million visitors since its opening. The venue continues to be used for national and international competitions. Located in the Olympic Park, it hosted the Opening and Closing Ceremonies of the Olympic Winter Games Beijing 2022.\"\n    },\n    {\n      \"name\": \"National Aquatics Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, artistic swimming, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"Better known as the Water Cube, it has become another Beijing landmark. This multi-functional sports, recreation and fitness venue is mainly used as an aquatic sports training facility, but it continues to host national and international events and is also open to the public, receiving 3,000 visitors a day. The venue was refurbished in 2010, when a water park, exhibition hall, stores and restaurants were added. It underwent further refurbishment in 2020, in preparation for the Olympic Winter Games Beijing 2022, when it staged the curling events.\"\n    },\n    {\n      \"name\": \"Beijing Olympic Basketball Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball\",\n      \"status\": \"In use\",\n      \"information\": \"Home to a number of sports teams, this privately run venue stages more than 100 sports and cultural events per year, including concerts by world-renowned artists. The Olympic Winter Games Beijing 2022 ice hockey competitions were held here.\"\n    },\n    {\n      \"name\": \"Shunyi Olympic Rowing-Canoeing Park – Rowing & canoe sprint course\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint, swimming\",\n      \"status\": \"In use\",\n      \"information\": \"Though the canoe slalom course was emptied after the Games and is used intermittently, the rest of the venue remains open to sporting events and to recreational water activities, such as sailing lessons, wakeboarding and water skiing. It has also hosted local water sports events and some international events.\"\n    },\n    {\n      \"name\": \"Laoshan Mountain Bike Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Mountain bike\",\n      \"status\": \"In use\",\n      \"information\": \"This existing venue located by the Laoshan Velodrome was opened to the public just after the Games and has now been converted into a leisure park.\"\n    },\n    {\n      \"name\": \"Beijing Olympic Green Tennis Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The centre has hosted the ATP 500 China Open since 2009. A new centre court, the National Tennis Stadium, was opened in 2011. Featuring a retractable roof, the stadium has a capacity of 15,000, the fifth largest in the world. When it is not hosting events, the centre opens to the public, who can rent the courts out.\"\n    },\n    {\n      \"name\": \"China Agricultural University Gymnasium\",\n      \"classification\": \"New build\",\n      \"use\": \"Wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"Now a sports complex used by students of the China Agricultural University, it is one of six further education facilities that was used to stage events at Beijing 2008.\"\n    },\n    {\n      \"name\": \"Beijing Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"After accommodating 16,000 athletes at Beijing 2008, the Olympic Village's apartments were refurbished for residential purposes and placed on the market. Its occupancy rate was 95 per cent by 2016. The city's public transport network has been expanded to serve the area, with the construction of new subway lines. During the Village's construction, concerns were raised about worker conditions and the displacement of local residents. Six auxiliary accommodation sites were used at Beijing 2008: in Quingdao, Hong Kong, Tianjin, Shanghai, Shenyang and Qinhuangdao.\"\n    },\n    {\n      \"name\": \"Laoshan Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"The venue has mainly been used for cycling training since the Games, and has hosted only a small number of local and national cycling competitions. It is also used for other sports on an occasional basis.\"\n    },\n    {\n      \"name\": \"Hong Kong Olympic Equestrian Venue (Beas River)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing, dressage, jumping\",\n      \"status\": \"In use\",\n      \"information\": \"The venue hosted the equestrian events at the 2010 Asian Games and continues to stage a large number of dressage, show jumping and cross-country events at all levels, from grassroots to high-performance. It is also home to a riding school that offers services to Hong Kong Jockey Club members and other permitted users.\"\n    },\n    {\n      \"name\": \"National Indoor Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Artistic gymnastics, trampoline gymnastics, handball\",\n      \"status\": \"In use\",\n      \"information\": \"A multi-purpose venue that is open to the public and visitors, the National Indoor Stadium hosts both sporting and cultural events. It was refurbished in preparation for the Olympic Winter Games Beijing 2022, when it hosted the ice hockey competitions.\"\n    },\n    {\n      \"name\": \"Chaoyang Park Beach Volleyball Ground\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Beach volleyball\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue's stands have not been dismantled and have deteriorated over the years. The grounds around it are used for a variety of cultural activities, however.\"\n    }\n  ],\n  \"trivia\": \"At the time of its construction, the Bird's Nest was the world's largest steel structure, with 26km of unwrapped steel used. With a capacity of 91,000, it was the largest venue used at Beijing 2008, though the capacity has since been reduced to 80,000. The distinctive facade of the Water Cube is inspired by soap bubbles and allows daylight to enter the building, helping to save up to 55 per cent on lighting energy for the venue. The Ming Tombs Reservoir, the venue for the triathlon competitions, is so called because of its proximity to the Ming Tombs, a series of mausoleums built by the emperors of China's Ming dynasty. Beijing 2008 had more competition venues – 39 – than any other Olympic Games. Beijing's Olympic Village is located in a park that is twice the size of New York's Central Park.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me carefully compare the JSON data with the information in the PDF document:\n\n1. Checking overview: The overview in the JSON matches exactly with the overview on page 1 of the PDF.\n\n2. Checking venues data:\n   - National Stadium: Classification \"New build\", Use \"Athletics, football, Opening and Closing Ceremonies\", Status \"In use\" - matches PDF\n   - National Aquatics Centre: Classification \"New build\", Use \"Swimming, diving, artistic swimming, water polo\", Status \"In use\" - matches PDF \n   - Beijing Olympic Basketball Arena: Classification \"New build\", Use \"Basketball\", Status \"In use\" - matches PDF\n   - Shunyi Olympic Rowing-Canoeing Park: Classification \"New build\", Use \"Rowing, canoe sprint, swimming\", Status \"In use\" - matches PDF\n   - Laoshan Mountain Bike Course: Classification \"Existing\", Use \"Mountain bike\", Status \"In use\" - matches PDF\n   - Beijing Olympic Green Tennis Centre: Classification \"New build\", Use \"Tennis\", Status \"In use\" - matches PDF\n   - China Agricultural University Gymnasium: Classification \"New build\", Use \"Wrestling\", Status \"In use\" - matches PDF\n   - Beijing Olympic Village: Classification \"New build\", Use \"Athlete accommodation\", Status \"In use\" - matches PDF\n   - Laoshan Velodrome: Classification \"New build\", Use \"Cycling (track)\", Status \"In use\" - matches PDF\n   - Hong Kong Olympic Equestrian Venue: Classification \"Existing\", Use \"Eventing, dressage, jumping\", Status \"In use\" - matches PDF\n   - National Indoor Stadium: Classification \"New build\", Use \"Artistic gymnastics, trampoline gymnastics, handball\", Status \"In use\" - matches PDF\n   - Chaoyang Park Beach Volleyball Ground: Classification \"Temporary\", Use \"Beach volleyball\", Status \"Not in use\" - matches PDF\n\n3. Checking trivia: The trivia section matches exactly with the \"DID YOU KNOW?\" section in the PDF.\n\n4. Checking information sections for each venue: All information sections match the corresponding detailed descriptions in the PDF.\n\nAll data in the JSON matches perfectly with the information in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "createdAt": "2025-07-12T20:46:37.227Z",
+  "updatedAt": "2025-07-13T08:08:03.000Z",
+  "id": "r0i2wA98dVPzG0Il",
+  "name": "OnePdf--FullWorkflow",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -224,
+        0
+      ],
+      "id": "3f6a8861-c5dd-4801-9cfc-3179a8f54230",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "EebXZXyBfDjIZKcE",
+          "mode": "list",
+          "cachedResultName": "onePDF-1-execChunker"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "d6931424-e184-48c2-9bab-a25ff37e7cdd",
+      "name": "PDF->chunks"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "YFVaL0WCc0qoW8Nn",
+          "mode": "list",
+          "cachedResultName": "OnePdf-2-ChunksToJson"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        208,
+        0
+      ],
+      "id": "07c7eb3d-a814-4fcc-be3b-276baf2554c6",
+      "name": "chunks->json"
+    },
+    {
+      "parameters": {
+        "workflowId": {
+          "__rl": true,
+          "value": "FLSHneOwYnBW2epn",
+          "mode": "list",
+          "cachedResultName": "OnePdf-3-aggregateJson"
+        },
+        "workflowInputs": {
+          "mappingMode": "defineBelow",
+          "value": {},
+          "matchingColumns": [],
+          "schema": [],
+          "attemptToConvertTypes": false,
+          "convertFieldsToString": true
+        },
+        "options": {
+          "waitForSubWorkflow": true
+        }
+      },
+      "type": "n8n-nodes-base.executeWorkflow",
+      "typeVersion": 1.2,
+      "position": [
+        416,
+        0
+      ],
+      "id": "0fa6bf3a-b458-42b0-a7ce-503184b91685",
+      "name": "json->aggregate"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "PDF->chunks",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "PDF->chunks": {
+      "main": [
+        [
+          {
+            "node": "chunks->json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "chunks->json": {
+      "main": [
+        [
+          {
+            "node": "json->aggregate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "139535c1-3377-4001-aefc-09a175f0a12b",
+  "triggerCount": 0,
+  "tags": []
+}

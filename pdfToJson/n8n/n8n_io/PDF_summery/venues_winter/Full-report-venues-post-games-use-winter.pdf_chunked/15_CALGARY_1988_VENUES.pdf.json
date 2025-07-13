@@ -1,0 +1,114 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Calgary",
+        "year": "1988",
+        "overview": "Ten competition venues were used for the Olympic Winter Games Calgary 1988. Eight of them are still in use today, benefitting the local population and high-performance athletes alike. \n\nThree of the competition venues were existing sites. The rest were built for the Games and have helped make Calgary a thriving hub of recreational and elite sport. \n\nAn existing venue, McMahon Stadium, staged the Opening and Closing Ceremonies and is currently used as a Canadian football venue. Made up of existing and newly built buildings, the Calgary Olympic Village provides student accommodation, as planned. The Canmore Olympic Village was built for the Games, with temporary facilities for accomodation, in addition to permanent training facilities which are still in use as a sports community centre.",
+        "venues": [
+          {
+            "name": "Max Bell Arena",
+            "classification": "Existing",
+            "use": "Curling, short track speed skating",
+            "status": "In use",
+            "information": "The home of Hockey Calgary, two junior league teams and Calgary Fire Elite's female hockey teams, the venue has two ice rinks: the Ken Bracko Arena and the Max Bell #2."
+          },
+          {
+            "name": "Stampede Corral",
+            "classification": "Existing",
+            "use": "Ice hockey, figure skating",
+            "status": "Not in use, currently under reconstruction",
+            "information": "Another of Calgary's ice hockey arenas and a frequent venue for Canada's Davis Cup team, the Corral also hosted rodeos, figure skating, circuses, royal visits, religious events, wrestling nights and trade shows during its 70-year existence. Major acts such as Fleetwood Mac, Snoop Dogg and Rihanna also played the venue, which was demolished in late 2020 to make way for new facilities for sport, culture and business."
+          },
+          {
+            "name": "McMahon Stadium",
+            "classification": "Existing",
+            "use": "Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Built in 1960 and the venue for the Opening and Closing Ceremonies, it is the home stadium of the Calgary Stampeders and the Calgary Dinos, respectively the city's and the university's Canadian football teams."
+          },
+          {
+            "name": "Olympic Saddledome",
+            "classification": "Existing",
+            "use": "Ice hockey, figure skating",
+            "status": "In use",
+            "information": "Calgary's main indoor arena, the Saddledome is the home stadium of the Calgary Flames, which plays in the NHL; the Calgary Hitmen, a junior ice hockey team; and professional lacrosse team the Calgary Roughnecks. It also stages concerts, shows and events. Damaged by serious flooding in 2013, the stadium was quickly repaired. The Saddledome owes its name to the fact that its roof is the shape of a horse's saddle."
+          },
+          {
+            "name": "Calgary Olympic Village",
+            "classification": "Mixed new build/Existing",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Comprising 226 apartments, two new halls of residence were built on the campus of the University of Calgary to house athletes and team officials. The apartments were added to the university's existing housing stock after the Games for use by its students. \n\nThe use of existing and new university campus accommodation as the Olympic Village at Calgary 1988 was a success and provided a model for subsequent Games hosts to follow, including Atlanta 1996 and Salt Lake City 2002."
+          },
+          {
+            "name": "Olympic Oval",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "More than 20,000 people use the Calgary Olympic Oval every year for skating, while over 1,000 athletes from 22 countries trained there in the 2018-19 season.\n\nThe Oval staged an event on the 2019/20 ISU Speed Skating World Cup circuit, and has hosted both the World Allround Championships and World Sprint Championships five times, most recently in 2019 and 2017 respectively.\n\nIt is used by the university's sports teams and the Calgary X-Tremes, the city's women's ice hockey team. The Oval is also Speed Skating Canada's official training centre and the home of the country's Elite Athlete Pathway, a blueprint for the development of young speed skaters.\n\nFor the two months of the year when it is not staging ice events, the Oval is a multi-purpose venue that plays host to car shows, science fairs, the Canadian judo and taekwondo championships, and volleyball, gymnastics, floor hockey, running and billiards events."
+          },
+          {
+            "name": "Canada Olympic Park - Freestyle Area",
+            "classification": "New build",
+            "use": "Freestyle skiing",
+            "status": "In use",
+            "information": "The site remains operational and is used for recreational skiing and as a venue for major events. The most recent of these were the moguls, slopestyle and halfpipe competitions in the 2019/20 FIS Freestyle Ski World Cup."
+          },
+          {
+            "name": "Canada Olympic Park - Ski Jumps",
+            "classification": "New build",
+            "use": "Nordic combined, ski jumping, freestyle skiing",
+            "status": "Not in use, partly dismantled",
+            "information": "The park's ski jumps were used by a local ski club and were the main training hub for Canada's ski jumpers for 30 years. In 2019, the three higher jumps were closed due to high operational and maintenance costs. The 90-metre ski jump tower is still standing and is now the start point for North America's fastest zipline, used by over 2,500 people in 2019. The remaining jumps will be dismantled and the area repurposed for other sports."
+          },
+          {
+            "name": "Canada Olympic Park - Bobsleigh and Luge track",
+            "classification": "New build",
+            "use": "Bobsleigh, luge",
+            "status": "Not in use",
+            "information": "The track has hosted the IBSF World Championships on four occasions since the Games, and the FIL World Luge Championships three times. As Canada's national sliding team base, it has undergone renovation work to meet evolving safety, performance and sustainability standards over the years. The track was closed in 2019 due to a lack of funding for its renovation, and was partly dismantled. The remaining part is currently used only for recreational summer bobsleigh."
+          },
+          {
+            "name": "Father David Bauer Olympic Arena",
+            "classification": "New build",
+            "use": "Ice hockey, figure skating",
+            "status": "In use",
+            "information": "Located in the same complex as McMahon Stadium, the arena is the home of the Calgary Dinos university ice hockey team, and was just one of several of the city's sports facilities to be upgraded as part of the Olympic Capital Improvement Programme."
+          },
+          {
+            "name": "Nakiska Ski Area",
+            "classification": "New build",
+            "use": "Alpine skiing, freestyle skiing",
+            "status": "In use",
+            "information": "Now a busy mountain resort and the closest one to Calgary, its facilities include more than 25 slopes, six lifts, restaurants, hotels, shops and a snow sports school."
+          },
+          {
+            "name": "Canmore Nordic Centre",
+            "classification": "New build",
+            "use": "Biathlon, Nordic combined, cross-country skiing",
+            "status": "In use",
+            "information": "This year-round training facility has a paved rollerski loop for summer wheeled skating, biathlon competition trails, and a shooting range with 31 lanes. The Centre is used by both elite and recreational biathletes, and regularly hosts IBU Biathlon World Cup events."
+          },
+          {
+            "name": "Canmore Olympic Village",
+            "classification": "Temporary",
+            "use": "Athlete accommodation",
+            "status": "Dismantled (temporary)",
+            "information": "Temporary accommodation and services (e.g. a kitchen and offices) were provided for 578 people at a second Olympic Village in the town of Canmore. In order to leave a legacy to the town, a new ice rink, a new swimming pool and a new clubhouse were built as well as the accommodation. These facilities are still in use by the local community."
+          }
+        ],
+        "trivia": "The Olympic Oval quickly became known among speed skaters as having \"the fastest ice in the world\". Six of the ten distance world records were broken here at Calgary 1988, and over 300 world long- and short-track speed skating records have been set at the venue since then.\n\nAt the last three Olympic Winter Games (Vancouver 2010, Sochi 2014 and PyeongChang 2018), some 61 of Canada's 80 medals were won by athletes who had trained or competed at Calgary's snow and ice sports venues, including those used for the 1988 Olympic Winter Games. \n\nCanada Olympic Park, the site of three of the Calgary 1988 venues, welcomes more than 1.2 million visitors annually. \n\nThe Lincoln Park Media Village housed the international print media, technical support personnel and other members of the Olympic family. Its 500 units were pre-sold to two local mortgage and housing corporations, and were made available to buyers on the open market after the Games."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Calgary\",\n  \"year\": \"1988\",\n  \"overview\": \"Ten competition venues were used for the Olympic Winter Games Calgary 1988. Eight of them are still in use today, benefitting the local population and high-performance athletes alike. \\n\\nThree of the competition venues were existing sites. The rest were built for the Games and have helped make Calgary a thriving hub of recreational and elite sport. \\n\\nAn existing venue, McMahon Stadium, staged the Opening and Closing Ceremonies and is currently used as a Canadian football venue. Made up of existing and newly built buildings, the Calgary Olympic Village provides student accommodation, as planned. The Canmore Olympic Village was built for the Games, with temporary facilities for accomodation, in addition to permanent training facilities which are still in use as a sports community centre.\",\n  \"venues\": [\n    {\n      \"name\": \"Max Bell Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Curling, short track speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"The home of Hockey Calgary, two junior league teams and Calgary Fire Elite's female hockey teams, the venue has two ice rinks: the Ken Bracko Arena and the Max Bell #2.\"\n    },\n    {\n      \"name\": \"Stampede Corral\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey, figure skating\",\n      \"status\": \"Not in use, currently under reconstruction\",\n      \"information\": \"Another of Calgary's ice hockey arenas and a frequent venue for Canada's Davis Cup team, the Corral also hosted rodeos, figure skating, circuses, royal visits, religious events, wrestling nights and trade shows during its 70-year existence. Major acts such as Fleetwood Mac, Snoop Dogg and Rihanna also played the venue, which was demolished in late 2020 to make way for new facilities for sport, culture and business.\"\n    },\n    {\n      \"name\": \"McMahon Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1960 and the venue for the Opening and Closing Ceremonies, it is the home stadium of the Calgary Stampeders and the Calgary Dinos, respectively the city's and the university's Canadian football teams.\"\n    },\n    {\n      \"name\": \"Olympic Saddledome\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey, figure skating\",\n      \"status\": \"In use\",\n      \"information\": \"Calgary's main indoor arena, the Saddledome is the home stadium of the Calgary Flames, which plays in the NHL; the Calgary Hitmen, a junior ice hockey team; and professional lacrosse team the Calgary Roughnecks. It also stages concerts, shows and events. Damaged by serious flooding in 2013, the stadium was quickly repaired. The Saddledome owes its name to the fact that its roof is the shape of a horse's saddle.\"\n    },\n    {\n      \"name\": \"Calgary Olympic Village\",\n      \"classification\": \"Mixed new build/Existing\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Comprising 226 apartments, two new halls of residence were built on the campus of the University of Calgary to house athletes and team officials. The apartments were added to the university's existing housing stock after the Games for use by its students. \\n\\nThe use of existing and new university campus accommodation as the Olympic Village at Calgary 1988 was a success and provided a model for subsequent Games hosts to follow, including Atlanta 1996 and Salt Lake City 2002.\"\n    },\n    {\n      \"name\": \"Olympic Oval\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"More than 20,000 people use the Calgary Olympic Oval every year for skating, while over 1,000 athletes from 22 countries trained there in the 2018-19 season.\\n\\nThe Oval staged an event on the 2019/20 ISU Speed Skating World Cup circuit, and has hosted both the World Allround Championships and World Sprint Championships five times, most recently in 2019 and 2017 respectively.\\n\\nIt is used by the university's sports teams and the Calgary X-Tremes, the city's women's ice hockey team. The Oval is also Speed Skating Canada's official training centre and the home of the country's Elite Athlete Pathway, a blueprint for the development of young speed skaters.\\n\\nFor the two months of the year when it is not staging ice events, the Oval is a multi-purpose venue that plays host to car shows, science fairs, the Canadian judo and taekwondo championships, and volleyball, gymnastics, floor hockey, running and billiards events.\"\n    },\n    {\n      \"name\": \"Canada Olympic Park - Freestyle Area\",\n      \"classification\": \"New build\",\n      \"use\": \"Freestyle skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The site remains operational and is used for recreational skiing and as a venue for major events. The most recent of these were the moguls, slopestyle and halfpipe competitions in the 2019/20 FIS Freestyle Ski World Cup.\"\n    },\n    {\n      \"name\": \"Canada Olympic Park - Ski Jumps\",\n      \"classification\": \"New build\",\n      \"use\": \"Nordic combined, ski jumping, freestyle skiing\",\n      \"status\": \"Not in use, partly dismantled\",\n      \"information\": \"The park's ski jumps were used by a local ski club and were the main training hub for Canada's ski jumpers for 30 years. In 2019, the three higher jumps were closed due to high operational and maintenance costs. The 90-metre ski jump tower is still standing and is now the start point for North America's fastest zipline, used by over 2,500 people in 2019. The remaining jumps will be dismantled and the area repurposed for other sports.\"\n    },\n    {\n      \"name\": \"Canada Olympic Park - Bobsleigh and Luge track\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge\",\n      \"status\": \"Not in use\",\n      \"information\": \"The track has hosted the IBSF World Championships on four occasions since the Games, and the FIL World Luge Championships three times. As Canada's national sliding team base, it has undergone renovation work to meet evolving safety, performance and sustainability standards over the years. The track was closed in 2019 due to a lack of funding for its renovation, and was partly dismantled. The remaining part is currently used only for recreational summer bobsleigh.\"\n    },\n    {\n      \"name\": \"Father David Bauer Olympic Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey, figure skating\",\n      \"status\": \"In use\",\n      \"information\": \"Located in the same complex as McMahon Stadium, the arena is the home of the Calgary Dinos university ice hockey team, and was just one of several of the city's sports facilities to be upgraded as part of the Olympic Capital Improvement Programme.\"\n    },\n    {\n      \"name\": \"Nakiska Ski Area\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing, freestyle skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Now a busy mountain resort and the closest one to Calgary, its facilities include more than 25 slopes, six lifts, restaurants, hotels, shops and a snow sports school.\"\n    },\n    {\n      \"name\": \"Canmore Nordic Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon, Nordic combined, cross-country skiing\",\n      \"status\": \"In use\",\n      \"information\": \"This year-round training facility has a paved rollerski loop for summer wheeled skating, biathlon competition trails, and a shooting range with 31 lanes. The Centre is used by both elite and recreational biathletes, and regularly hosts IBU Biathlon World Cup events.\"\n    },\n    {\n      \"name\": \"Canmore Olympic Village\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Temporary accommodation and services (e.g. a kitchen and offices) were provided for 578 people at a second Olympic Village in the town of Canmore. In order to leave a legacy to the town, a new ice rink, a new swimming pool and a new clubhouse were built as well as the accommodation. These facilities are still in use by the local community.\"\n    }\n  ],\n  \"trivia\": \"The Olympic Oval quickly became known among speed skaters as having \\\"the fastest ice in the world\\\". Six of the ten distance world records were broken here at Calgary 1988, and over 300 world long- and short-track speed skating records have been set at the venue since then.\\n\\nAt the last three Olympic Winter Games (Vancouver 2010, Sochi 2014 and PyeongChang 2018), some 61 of Canada's 80 medals were won by athletes who had trained or competed at Calgary's snow and ice sports venues, including those used for the 1988 Olympic Winter Games. \\n\\nCanada Olympic Park, the site of three of the Calgary 1988 venues, welcomes more than 1.2 million visitors annually. \\n\\nThe Lincoln Park Media Village housed the international print media, technical support personnel and other members of the Olympic family. Its 500 units were pre-sold to two local mortgage and housing corporations, and were made available to buyers on the open market after the Games.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. **Basic Information**:\n   - City: \"Calgary\" ✓\n   - Year: \"1988\" ✓\n   - Overview: Matches PDF exactly, including the typo \"accomodation\"\n\n2. **Venues** (checking each one):\n   - Max Bell Arena: All details match PDF ✓\n   - Stampede Corral: All details match PDF ✓\n   - McMahon Stadium: All details match PDF ✓\n   - Olympic Saddledome: All details match PDF ✓\n   - Calgary Olympic Village: All details match PDF ✓\n   - Olympic Oval: All details match PDF ✓\n   - Canada Olympic Park - Freestyle Area: All details match PDF ✓\n   - Canada Olympic Park - Ski Jumps: All details match PDF ✓\n   - Canada Olympic Park - Bobsleigh and Luge track: All details match PDF ✓\n   - Father David Bauer Olympic Arena: All details match PDF ✓\n   - Nakiska Ski Area: All details match PDF ✓\n   - Canmore Nordic Centre: All details match PDF ✓\n   - Canmore Olympic Village: All details match PDF ✓\n\n3. **Trivia**: Matches the \"DID YOU KNOW?\" section from the PDF exactly\n\nAll information in the JSON data accurately reflects what is stated in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

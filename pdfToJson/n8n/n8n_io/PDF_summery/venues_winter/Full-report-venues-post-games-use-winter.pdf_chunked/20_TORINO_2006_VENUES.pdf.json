@@ -1,0 +1,142 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Torino",
+        "year": "2006",
+        "overview": "Thirteen competition venues were used for the Olympic Winter Games Torino 2006. Ten of them are still in regular use today and continue to host sporting and cultural events. Six of the competition venues were existing sites. The rest were built for the Games.\n\nThe Stadio Olimpico Torino, the venue for the Opening and Closing Ceremonies, was an existing non-competition venue and is still in use. Three Olympic Villages were created for the Games and continue to welcome tourists and provide housing to local people.",
+        "venues": [
+          {
+            "name": "Stadio Olimpico Torino",
+            "classification": "Existing",
+            "use": "Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Originally built in 1933, the stadium hosted matches at the 1934 FIFA World Cup and was used by both Juventus and Torino football clubs up until 1990, at which point it was abandoned. The Olympic Winter Games Torino 2006 provided an opportunity for its renovation and reuse. Since renamed the Stadio Olimpico Grande Torino in honour of the Torino team killed in an air crash in 1949, it is now the club's home ground and also stages major music concerts."
+          },
+          {
+            "name": "Torino Esposizioni",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Built in 1948, this trade show and exhibition venue was converted into a temporary ice rink for the 2006 Olympic Winter Games. Used thereafter temporarily as an extension of the Turin Modern Art Gallery, it also housed the collection of Turin's National Automobile Museum until 2011. It was closed in 2018 due to safety breaches, but was commandeered as a makeshift medical facility during the COVID-19 pandemic. Its future use is uncertain, though funding has been made available to ensure the building complies with newly updated Italian building codes."
+          },
+          {
+            "name": "Palavela",
+            "classification": "Existing",
+            "use": "Figure skating and short track speed skating",
+            "status": "In use",
+            "information": "Palavela has a conference centre that has welcomed approximately 70,000 people a year since 2010, and a public ice rink used by 30,000 skaters annually. It is also the home venue of local figure skating and short track speed skating clubs. Another of Turin's 2007 Winter Universiade venues, it also hosted the 2010 ISU Figure Skating World Championships, the 2013 Davis Cup tie between Italy and Croatia, the 2015 Men's European Volleyball Championship, the 2019 ISU Figure Skating Grand Prix Finals and the 2021 Grand Prix Figure Skating Torino. Since 2019, some areas of Palavela are used by the University of Torino for Physical Education and Sport courses."
+          },
+          {
+            "name": "Turin Olympic Village",
+            "classification": "Mixed new build/Existing",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Located in Turin and featuring a number of innovative environmental practices, the Village housed 2,500 athletes in 39 buildings. Though the intention was to make it a residential area after the Games and create research and retail facilities, these plans have not fully come to fruition, and the site has faced challenges over the last 14 years. While some buildings are used by the local population, in recent years others provided makeshift accommodation for migrants and refugees. These apartments have since been vacated, and the Olympic Village is set for redevelopment."
+          },
+          {
+            "name": "Palasport Olimpico",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "One of Italy's leading music and entertainment centres, it has hosted many concerts by major acts and artists and has also staged a number of sporting events. These include the 2007 Winter Universiade, the 2016 FIBA World Olympic Qualifying Tournament, and matches at the 2018 FIVB Volleyball Men's World Championship, as well as annual fencing World Cup and Grand Prix events. It is also the current venue for the ATP Finals – the final event of the ATP Tour season – a status it will enjoy until 2025.\n\nThe Pala Alpitour is used to stage art exhibitions, trade shows, business conventions, private meetings, stage shows and gala dinners, and has a laser park for use by the public, schools and the business community."
+          },
+          {
+            "name": "Oval Lingotto",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "Italy's first indoor ice rink, the Oval Lingotto is a versatile sports, business and cultural venue that stages trade shows, exhibitions, congresses, conventions and corporate events, such as Fiat's Christmas party. The setting for the 2006 World Fencing Championships, it was also a venue at the 2007 Winter Universiade."
+          },
+          {
+            "name": "Pinerolo Palaghiaccio",
+            "classification": "Existing",
+            "use": "Curling",
+            "status": "In use",
+            "information": "This multi-function arena is used by a local sports club that offers lessons in figure skating, ice hockey, short track speed skating and curling. Also a 2007 Winter Universiade venue, the Pinerolo Palaghiaccio is part of a large sports complex that includes a swimming pool, gym, athletics track and football pitch."
+          },
+          {
+            "name": "Pragelato Plan",
+            "classification": "Existing",
+            "use": "Cross-country skiing and Nordic combined",
+            "status": "In use",
+            "information": "Refurbished for the 2006 Olympic Winter Games, with new snow-making systems installed. Recognised as one of the most technical and difficult circuits at international level, Pragelato Plan features two cross-country skiing courses. The tracks used at the 2006 Olympic Winter Games remain open for cross-country skiers of all abilities. Home to 50km of well-groomed slopes, the wider ski resort of Pragelato offers descents for both beginners and expert skiers."
+          },
+          {
+            "name": "San Sicario Fraiteve",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The venue for three women's Alpine skiing events at Torino 2006 (downhill, super-G and combined downhill), the resort hosted its last FIS Alpine Ski World Cup event in 2007. Founded in the 1970s, it has some of the most modern skiing facilities in the Piedmont region and forms part of the Via Lattea ski area."
+          },
+          {
+            "name": "Sestriere Borgata and Sestriere Colle",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "Sestriere Borgata was the venue for the men's combined downhill, downhill and super-G at Torino 2006, while Sestriere Colle hosted the women's and men's combined slalom, giant slalom and slalom. The resort's network of ski lifts was upgraded for the occasion and its snowmaking capacity increased, while new accommodation was built and existing facilities refurbished. The resort remains a regular stop on the FIS Alpine Ski World Cup circuit. Part of the Via Lattea ski area, it is a very popular resort, with a history dating back to the 1930s."
+          },
+          {
+            "name": "Bardonecchia",
+            "classification": "New build",
+            "use": "Snowboard",
+            "status": "In use",
+            "information": "Located in Melezet, one of the villages that makes up the Bardonecchia resort, the Olympic Snow Park and the half pipe continue to attract boarders of all abilities. A 2007 Winter Universiade venue, the resort last organised an FIS Snowboard World Cup event in 2009. Two of Bardonecchia's three ski areas are interlinked and span two mountains."
+          },
+          {
+            "name": "Cesana San Sicario",
+            "classification": "New build",
+            "use": "Biathlon",
+            "status": "In use",
+            "information": "A 2007 Winter Universiade venue, the resort's biathlon shooting range was later repurposed into a tennis complex with eight courts and a golf course, having been left unused for 10 years. All the biathlon infrastructure used at Torino 2006 has been dismantled, with the exception of the shooting target structure, the judges' house and the underpass."
+          },
+          {
+            "name": "Trampolino Olimpico Pragelato",
+            "classification": "New build",
+            "use": "Ski jumping and Nordic combined",
+            "status": "Not in use",
+            "information": "A 2007 Winter Universiade venue, Pragelato hosted its last FIS Ski Jumping World Cup event in 2008. The chairlift and the two larger hills, which staged events at the 2006 Olympic Winter Games, are no longer in use, and plans to dismantle them and repurpose the site have not yet been implemented. The venue's small jumps are still used occasionally for sports and recreational activities."
+          },
+          {
+            "name": "Cesana Torinese",
+            "classification": "New build",
+            "use": "Bobsleigh, luge and skeleton",
+            "status": "Not in use",
+            "information": "The sliding centre (bobsleigh and luge tracks) was closed after the 2011 FIL World Luge Championships due to a lack of funding. In 2016, the indoor push track was reopened for summertime training and was used by teams from Italy, France, Great Britain and Monaco, generating enough revenue to enable limited maintenance of the track. The centre also hosted the 2008 FIL European Luge Championships."
+          },
+          {
+            "name": "Bardonecchia Olympic Village",
+            "classification": "Mixed new build/Existing",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "After housing skiers and officials at the Games, the Bardonecchia Olympic Village reverted to its original use, a hotel."
+          },
+          {
+            "name": "Sestriere Olympic Village",
+            "classification": "Mixed new build/Existing",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The new apartments of this residential complex (part of the Village already existed) were released for sale the Games were over, as planned."
+          },
+          {
+            "name": "Sauze d'Oulx-Jouvenceaux",
+            "classification": "Temporary",
+            "use": "Freestyle skiing",
+            "status": "Dismantled (temporary)",
+            "information": "Although the freestyle skiing area has been dismantled, the resort of Sauze d'Oulx-Jouvenceaux, which was refurbished for the occasion of the Games with new snow-making systems and a new chairlift, remains a very popular resort all year round. It is part of the Via Lattea ski area."
+          }
+        ],
+        "trivia": "Designed by the celebrated architect Pier Luigi Nervi, the Torino Esposizioni appears in a deleted scene in the 1969 British film The Italian Job, starring Michael Caine.\n\nThanks in part to its Olympic venues, Turin was designated the 2015 European City of Sport. Among other major events, it has hosted the 2008 European Rhythmic Gymnastics Championships, the 2009 European Athletics Indoor Championships, the 2013 World Masters Games and the 2014 UEFA Europa League final.\n\nSestriere was one of the world's first purpose-built ski areas. Its two distinctive hotel towers were built in the 1930s by Fiat founder Giovanni Agnelli as a holiday retreat for his factory employees in Turin. The village is also home to Europe's highest golf course."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Torino\",\n  \"year\": \"2006\",\n  \"overview\": \"Thirteen competition venues were used for the Olympic Winter Games Torino 2006. Ten of them are still in regular use today and continue to host sporting and cultural events. Six of the competition venues were existing sites. The rest were built for the Games.\\n\\nThe Stadio Olimpico Torino, the venue for the Opening and Closing Ceremonies, was an existing non-competition venue and is still in use. Three Olympic Villages were created for the Games and continue to welcome tourists and provide housing to local people.\",\n  \"venues\": [\n    {\n      \"name\": \"Stadio Olimpico Torino\",\n      \"classification\": \"Existing\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Originally built in 1933, the stadium hosted matches at the 1934 FIFA World Cup and was used by both Juventus and Torino football clubs up until 1990, at which point it was abandoned. The Olympic Winter Games Torino 2006 provided an opportunity for its renovation and reuse. Since renamed the Stadio Olimpico Grande Torino in honour of the Torino team killed in an air crash in 1949, it is now the club's home ground and also stages major music concerts.\"\n    },\n    {\n      \"name\": \"Torino Esposizioni\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1948, this trade show and exhibition venue was converted into a temporary ice rink for the 2006 Olympic Winter Games. Used thereafter temporarily as an extension of the Turin Modern Art Gallery, it also housed the collection of Turin's National Automobile Museum until 2011. It was closed in 2018 due to safety breaches, but was commandeered as a makeshift medical facility during the COVID-19 pandemic. Its future use is uncertain, though funding has been made available to ensure the building complies with newly updated Italian building codes.\"\n    },\n    {\n      \"name\": \"Palavela\",\n      \"classification\": \"Existing\",\n      \"use\": \"Figure skating and short track speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Palavela has a conference centre that has welcomed approximately 70,000 people a year since 2010, and a public ice rink used by 30,000 skaters annually. It is also the home venue of local figure skating and short track speed skating clubs. Another of Turin's 2007 Winter Universiade venues, it also hosted the 2010 ISU Figure Skating World Championships, the 2013 Davis Cup tie between Italy and Croatia, the 2015 Men's European Volleyball Championship, the 2019 ISU Figure Skating Grand Prix Finals and the 2021 Grand Prix Figure Skating Torino. Since 2019, some areas of Palavela are used by the University of Torino for Physical Education and Sport courses.\"\n    },\n    {\n      \"name\": \"Turin Olympic Village\",\n      \"classification\": \"Mixed new build/Existing\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Turin and featuring a number of innovative environmental practices, the Village housed 2,500 athletes in 39 buildings. Though the intention was to make it a residential area after the Games and create research and retail facilities, these plans have not fully come to fruition, and the site has faced challenges over the last 14 years. While some buildings are used by the local population, in recent years others provided makeshift accommodation for migrants and refugees. These apartments have since been vacated, and the Olympic Village is set for redevelopment.\"\n    },\n    {\n      \"name\": \"Palasport Olimpico\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"One of Italy's leading music and entertainment centres, it has hosted many concerts by major acts and artists and has also staged a number of sporting events. These include the 2007 Winter Universiade, the 2016 FIBA World Olympic Qualifying Tournament, and matches at the 2018 FIVB Volleyball Men's World Championship, as well as annual fencing World Cup and Grand Prix events. It is also the current venue for the ATP Finals – the final event of the ATP Tour season – a status it will enjoy until 2025.\\n\\nThe Pala Alpitour is used to stage art exhibitions, trade shows, business conventions, private meetings, stage shows and gala dinners, and has a laser park for use by the public, schools and the business community.\"\n    },\n    {\n      \"name\": \"Oval Lingotto\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Italy's first indoor ice rink, the Oval Lingotto is a versatile sports, business and cultural venue that stages trade shows, exhibitions, congresses, conventions and corporate events, such as Fiat's Christmas party. The setting for the 2006 World Fencing Championships, it was also a venue at the 2007 Winter Universiade.\"\n    },\n    {\n      \"name\": \"Pinerolo Palaghiaccio\",\n      \"classification\": \"Existing\",\n      \"use\": \"Curling\",\n      \"status\": \"In use\",\n      \"information\": \"This multi-function arena is used by a local sports club that offers lessons in figure skating, ice hockey, short track speed skating and curling. Also a 2007 Winter Universiade venue, the Pinerolo Palaghiaccio is part of a large sports complex that includes a swimming pool, gym, athletics track and football pitch.\"\n    },\n    {\n      \"name\": \"Pragelato Plan\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cross-country skiing and Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Refurbished for the 2006 Olympic Winter Games, with new snow-making systems installed. Recognised as one of the most technical and difficult circuits at international level, Pragelato Plan features two cross-country skiing courses. The tracks used at the 2006 Olympic Winter Games remain open for cross-country skiers of all abilities. Home to 50km of well-groomed slopes, the wider ski resort of Pragelato offers descents for both beginners and expert skiers.\"\n    },\n    {\n      \"name\": \"San Sicario Fraiteve\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The venue for three women's Alpine skiing events at Torino 2006 (downhill, super-G and combined downhill), the resort hosted its last FIS Alpine Ski World Cup event in 2007. Founded in the 1970s, it has some of the most modern skiing facilities in the Piedmont region and forms part of the Via Lattea ski area.\"\n    },\n    {\n      \"name\": \"Sestriere Borgata and Sestriere Colle\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Sestriere Borgata was the venue for the men's combined downhill, downhill and super-G at Torino 2006, while Sestriere Colle hosted the women's and men's combined slalom, giant slalom and slalom. The resort's network of ski lifts was upgraded for the occasion and its snowmaking capacity increased, while new accommodation was built and existing facilities refurbished. The resort remains a regular stop on the FIS Alpine Ski World Cup circuit. Part of the Via Lattea ski area, it is a very popular resort, with a history dating back to the 1930s.\"\n    },\n    {\n      \"name\": \"Bardonecchia\",\n      \"classification\": \"New build\",\n      \"use\": \"Snowboard\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Melezet, one of the villages that makes up the Bardonecchia resort, the Olympic Snow Park and the half pipe continue to attract boarders of all abilities. A 2007 Winter Universiade venue, the resort last organised an FIS Snowboard World Cup event in 2009. Two of Bardonecchia's three ski areas are interlinked and span two mountains.\"\n    },\n    {\n      \"name\": \"Cesana San Sicario\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon\",\n      \"status\": \"In use\",\n      \"information\": \"A 2007 Winter Universiade venue, the resort's biathlon shooting range was later repurposed into a tennis complex with eight courts and a golf course, having been left unused for 10 years. All the biathlon infrastructure used at Torino 2006 has been dismantled, with the exception of the shooting target structure, the judges' house and the underpass.\"\n    },\n    {\n      \"name\": \"Trampolino Olimpico Pragelato\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping and Nordic combined\",\n      \"status\": \"Not in use\",\n      \"information\": \"A 2007 Winter Universiade venue, Pragelato hosted its last FIS Ski Jumping World Cup event in 2008. The chairlift and the two larger hills, which staged events at the 2006 Olympic Winter Games, are no longer in use, and plans to dismantle them and repurpose the site have not yet been implemented. The venue's small jumps are still used occasionally for sports and recreational activities.\"\n    },\n    {\n      \"name\": \"Cesana Torinese\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge and skeleton\",\n      \"status\": \"Not in use\",\n      \"information\": \"The sliding centre (bobsleigh and luge tracks) was closed after the 2011 FIL World Luge Championships due to a lack of funding. In 2016, the indoor push track was reopened for summertime training and was used by teams from Italy, France, Great Britain and Monaco, generating enough revenue to enable limited maintenance of the track. The centre also hosted the 2008 FIL European Luge Championships.\"\n    },\n    {\n      \"name\": \"Bardonecchia Olympic Village\",\n      \"classification\": \"Mixed new build/Existing\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"After housing skiers and officials at the Games, the Bardonecchia Olympic Village reverted to its original use, a hotel.\"\n    },\n    {\n      \"name\": \"Sestriere Olympic Village\",\n      \"classification\": \"Mixed new build/Existing\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The new apartments of this residential complex (part of the Village already existed) were released for sale the Games were over, as planned.\"\n    },\n    {\n      \"name\": \"Sauze d'Oulx-Jouvenceaux\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Freestyle skiing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Although the freestyle skiing area has been dismantled, the resort of Sauze d'Oulx-Jouvenceaux, which was refurbished for the occasion of the Games with new snow-making systems and a new chairlift, remains a very popular resort all year round. It is part of the Via Lattea ski area.\"\n    }\n  ],\n  \"trivia\": \"Designed by the celebrated architect Pier Luigi Nervi, the Torino Esposizioni appears in a deleted scene in the 1969 British film The Italian Job, starring Michael Caine.\\n\\nThanks in part to its Olympic venues, Turin was designated the 2015 European City of Sport. Among other major events, it has hosted the 2008 European Rhythmic Gymnastics Championships, the 2009 European Athletics Indoor Championships, the 2013 World Masters Games and the 2014 UEFA Europa League final.\\n\\nSestriere was one of the world's first purpose-built ski areas. Its two distinctive hotel towers were built in the 1930s by Fiat founder Giovanni Agnelli as a holiday retreat for his factory employees in Turin. The village is also home to Europe's highest golf course.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. **City**: \"Torino\" ✓ matches PDF\n2. **Year**: \"2006\" ✓ matches PDF\n3. **Overview**: Matches the PDF overview exactly ✓\n4. **Venues**: The PDF shows 17 venues total, and the JSON has 17 venues. Let me check each one:\n\nFrom the PDF tables on pages 2-3, I can verify:\n- Stadio Olimpico Torino: Existing, Opening and Closing Ceremonies, In use ✓\n- Torino Esposizioni: Existing, Ice hockey, In use ✓\n- Palavela: Existing, Figure skating and short track speed skating, In use ✓\n- Turin Olympic Village: Mixed new build/Existing, Athlete accommodation, In use ✓\n- Palasport Olimpico: New build, Ice hockey, In use ✓\n- Oval Lingotto: New build, Speed skating, In use ✓\n- Pinerolo Palaghiaccio: Existing, Curling, In use ✓\n- Pragelato Plan: Existing, Cross-country skiing and Nordic combined, In use ✓\n- San Sicario Fraiteve: Existing, Alpine skiing, In use ✓\n- Sestriere Borgata and Sestriere Colle: Existing, Alpine skiing, In use ✓\n- Bardonecchia: New build, Snowboard, In use ✓\n- Cesana San Sicario: New build, Biathlon, In use ✓\n- Trampolino Olimpico Pragelato: New build, Ski jumping and Nordic combined, Not in use ✓\n- Cesana Torinese: New build, Bobsleigh, luge and skeleton, Not in use ✓\n- Bardonecchia Olympic Village: Mixed new build/Existing, Athlete accommodation, In use ✓\n- Sestriere Olympic Village: Mixed new build/Existing, Athlete accommodation, In use ✓\n- Sauze d'Oulx-Jouvenceaux: Temporary, Freestyle skiing, Dismantled (temporary) ✓\n\nAll venue information matches the detailed descriptions in the PDF.\n\n5. **Trivia**: The trivia section matches the \"DID YOU KNOW?\" section from the PDF exactly ✓\n\nAll data appears to be accurate and matches the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

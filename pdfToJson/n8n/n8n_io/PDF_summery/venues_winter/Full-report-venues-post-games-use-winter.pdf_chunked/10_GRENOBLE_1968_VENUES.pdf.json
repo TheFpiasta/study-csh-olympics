@@ -1,0 +1,100 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Grenoble",
+        "year": "1968",
+        "overview": "Nine competition venues were used for the Olympic Winter Games Grenoble 1968. Seven of them are still in use today, primarily benefiting recreational athletes and local sports clubs. One of the competition venues was an existing site. The rest were built for the 1968 Games. The Olympic Stadium was a temporary venue that staged the Opening Ceremony and was dismantled after the Games. The Closing Ceremony was held at the Stade de Glace, which hosted ice hockey during the Games and is now a popular concert venue. An Olympic Village was built for the Games. Due for refurbishment, it continues to provide housing today.",
+        "venues": [
+          {
+            "name": "Patinoire Municipale",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Built in 1963, it was initially the home of the city's ice hockey club but had its ice rink removed in 2001. Now called Halle Clémenceau, it is a gymnastics hall used by schools and local clubs. It also has volleyball, fencing and handball facilities."
+          },
+          {
+            "name": "Autrans",
+            "classification": "New build",
+            "use": "Biathlon, cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "Autrans is France's cross-country skiing capital. The resort's 180 kilometres of trails are popular with skiers of all levels and provide the venue for La Foulée Blanche, a week-long cross-country skiing event. Autrans also hosted the 2019 World Intellectual Impairment Sport Skiing World Championships, while its Maison des Sports caters for many other sports throughout the year, such as tennis, mountain biking and hiking. The course used at Grenoble 1968 was opened up to the public as part of the 50th anniversary celebrations in 2018."
+          },
+          {
+            "name": "Tremplin du Claret",
+            "classification": "New build",
+            "use": "Ski jumping, Nordic combined",
+            "status": "In use",
+            "information": "Although the venue has not been used for a major competition since a Nordic Combined World Cup event in 1987, it has been expanded, with the creation of two junior hills. All three hills are used today for junior training and competitions, and for beginners' ski jumping classes laid on by the local ski club."
+          },
+          {
+            "name": "Stade de Glace",
+            "classification": "New build",
+            "use": "Ice hockey, figure skating, Closing Ceremony",
+            "status": "In use",
+            "information": "Today called Palais des Sports - Pierre Mendès France, the 12,000-seat venue hosted several major sporting events in the years after the Olympic Winter Games, including the 1972 IAAF European Athletics Indoor Championships. Now a popular concert venue, it has staged the Six Jours de Grenoble track cycling event since 1971, the Festival International du Cirque since 2002, and the annual Supercross motorcycling competition since the 1990s."
+          },
+          {
+            "name": "Anneau de Vitesse de Grenoble",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral."
+          },
+          {
+            "name": "Grenoble Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "After the Games, 1,000 of the Village's apartments were made available as social housing and 300 for co-ownership, while 1,800 rooms were set aside for university students, young workers and immigrants. Its population has declined from more than 6,200 in 1975 to just over 3,300, partly because of people leaving for newer residential areas nearby. Plans for the renovation and renewal of the Village are in place, with EUR 191 million to be invested over a 10-year period."
+          },
+          {
+            "name": "Stade Olympique de Grenoble",
+            "classification": "Temporary",
+            "use": "Opening Ceremony",
+            "status": "Dismantled (temporary)",
+            "information": "The Olympic Stadium was a temporary 60,000-venue seat that hosted the Opening Ceremony for Grenoble 1968. It was dismantled immediately after the Games, as planned."
+          },
+          {
+            "name": "Chamrousse",
+            "classification": "New build",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The resort was remodelled for the Games, with new ski slopes created and six new chairlifts installed. Its development has continued since then, thanks to the Grenoble to Chamrousse 2030 project, and it now has 41 runs spread over three different levels, from Chamrousse 1650 to Chamrousse 1750. Catering for families and skiers of all abilities, it attracts tourists all year round and hosts FIS-ranking events and the Stars of Chamrousse, an Alpine ski race for juniors."
+          },
+          {
+            "name": "Piste de Bobsled",
+            "classification": "New build",
+            "use": "Bobsleigh",
+            "status": "Not in use (demolished)",
+            "information": "This artificial track was built with natural ice at an altitude of 2,000 metres to make the ice easier to maintain. It was exposed to sunlight during the day, however. Proving too costly to maintain, the track was abandoned shortly after the Games and dismantled in the 1990s. All that remains of the facility is the starting house and finish-line house, which have been converted into a restaurant and an equestrian centre respectively."
+          },
+          {
+            "name": "Tremplin de saut à ski de Saint Nizier/Tremplin du Dauphiné",
+            "classification": "New build",
+            "use": "Ski jumping",
+            "status": "Not In use",
+            "information": "The venue was used for training and competitions until the 1990s, hosting FIS Ski Jumping World Cup events in 1980 and 1981. Strong winds made safety an issue, especially with athletes jumping ever higher and further. When the FIS introduced new regulations in 1990, the hill was closed and subsequently abandoned. It is now in a state of disrepair. Since 2018, the landing area has been used to host an annual multi-sports festival that brings together 5,000 people for running, climbing and mountain bike events."
+          },
+          {
+            "name": "Piste de Luge",
+            "classification": "New build",
+            "use": "Luge",
+            "status": "In use (limited)",
+            "information": "The venue staged only a few international events after the Games and was later used for local competitions and youth training. Abandoned in 1994, the site was bought four years later by a French Olympic luger, who converted it into a leisure park offering family and recreational activities. The last 400m of the track are used for luging in the summer months."
+          }
+        ],
+        "trivia": "Like the Olympic Village, the Media Centre was built specifically with the idea of providing accommodation for students and local residents after the Olympic Winter Games. Situated nearby, it comprises seven eight- to 10-storey buildings with 512 apartments. Complete with a gymnasium, cultural centre, village hall and shopping centre, it offers both social housing and private apartments. To mark the 50th anniversary of these Olympic Winter Games, a giant mural covering an area of 300 square metres was painted on the side of one of the Media Centre buildings. Based on inputs from local residents, it features scenes from the Games, including a portrait of the great French skier Jean-Claude Killy, who won three Alpine skiing gold medals at Grenoble 1968. The Grenoble 1968 Olympic cauldron still stands in the Parc Paul Mistral today. A stand-alone venue that hosted the men's large hill competition, the ski jumping hill at Saint-Nizier was built in such a way that ski jumpers appeared to be flying over nearby Grenoble when they took off. The images caught by the world's photographers at the Olympic Winter Games helped market the city and promote it as the \"Capital of the Alps\". The Olympic ice hockey matches held at the Stade de Glace and the Patinoire Municipale attracted sellout crowds and provided a springboard for ice hockey in France. Participation numbers rose after the Games and new ice hockey clubs were founded. There are now more than 80 across France."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Grenoble\",\n  \"year\": \"1968\",\n  \"overview\": \"Nine competition venues were used for the Olympic Winter Games Grenoble 1968. Seven of them are still in use today, primarily benefiting recreational athletes and local sports clubs. One of the competition venues was an existing site. The rest were built for the 1968 Games. The Olympic Stadium was a temporary venue that staged the Opening Ceremony and was dismantled after the Games. The Closing Ceremony was held at the Stade de Glace, which hosted ice hockey during the Games and is now a popular concert venue. An Olympic Village was built for the Games. Due for refurbishment, it continues to provide housing today.\",\n  \"venues\": [\n    {\n      \"name\": \"Patinoire Municipale\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1963, it was initially the home of the city's ice hockey club but had its ice rink removed in 2001. Now called Halle Clémenceau, it is a gymnastics hall used by schools and local clubs. It also has volleyball, fencing and handball facilities.\"\n    },\n    {\n      \"name\": \"Autrans\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon, cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Autrans is France's cross-country skiing capital. The resort's 180 kilometres of trails are popular with skiers of all levels and provide the venue for La Foulée Blanche, a week-long cross-country skiing event. Autrans also hosted the 2019 World Intellectual Impairment Sport Skiing World Championships, while its Maison des Sports caters for many other sports throughout the year, such as tennis, mountain biking and hiking. The course used at Grenoble 1968 was opened up to the public as part of the 50th anniversary celebrations in 2018.\"\n    },\n    {\n      \"name\": \"Tremplin du Claret\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Although the venue has not been used for a major competition since a Nordic Combined World Cup event in 1987, it has been expanded, with the creation of two junior hills. All three hills are used today for junior training and competitions, and for beginners' ski jumping classes laid on by the local ski club.\"\n    },\n    {\n      \"name\": \"Stade de Glace\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey, figure skating, Closing Ceremony\",\n      \"status\": \"In use\",\n      \"information\": \"Today called Palais des Sports - Pierre Mendès France, the 12,000-seat venue hosted several major sporting events in the years after the Olympic Winter Games, including the 1972 IAAF European Athletics Indoor Championships. Now a popular concert venue, it has staged the Six Jours de Grenoble track cycling event since 1971, the Festival International du Cirque since 2002, and the annual Supercross motorcycling competition since the 1990s.\"\n    },\n    {\n      \"name\": \"Anneau de Vitesse de Grenoble\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral.\"\n    },\n    {\n      \"name\": \"Grenoble Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"After the Games, 1,000 of the Village's apartments were made available as social housing and 300 for co-ownership, while 1,800 rooms were set aside for university students, young workers and immigrants. Its population has declined from more than 6,200 in 1975 to just over 3,300, partly because of people leaving for newer residential areas nearby. Plans for the renovation and renewal of the Village are in place, with EUR 191 million to be invested over a 10-year period.\"\n    },\n    {\n      \"name\": \"Stade Olympique de Grenoble\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Opening Ceremony\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The Olympic Stadium was a temporary 60,000-venue seat that hosted the Opening Ceremony for Grenoble 1968. It was dismantled immediately after the Games, as planned.\"\n    },\n    {\n      \"name\": \"Chamrousse\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The resort was remodelled for the Games, with new ski slopes created and six new chairlifts installed. Its development has continued since then, thanks to the Grenoble to Chamrousse 2030 project, and it now has 41 runs spread over three different levels, from Chamrousse 1650 to Chamrousse 1750. Catering for families and skiers of all abilities, it attracts tourists all year round and hosts FIS-ranking events and the Stars of Chamrousse, an Alpine ski race for juniors.\"\n    },\n    {\n      \"name\": \"Piste de Bobsled\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"This artificial track was built with natural ice at an altitude of 2,000 metres to make the ice easier to maintain. It was exposed to sunlight during the day, however. Proving too costly to maintain, the track was abandoned shortly after the Games and dismantled in the 1990s. All that remains of the facility is the starting house and finish-line house, which have been converted into a restaurant and an equestrian centre respectively.\"\n    },\n    {\n      \"name\": \"Tremplin de saut à ski de Saint Nizier/Tremplin du Dauphiné\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping\",\n      \"status\": \"Not In use\",\n      \"information\": \"The venue was used for training and competitions until the 1990s, hosting FIS Ski Jumping World Cup events in 1980 and 1981. Strong winds made safety an issue, especially with athletes jumping ever higher and further. When the FIS introduced new regulations in 1990, the hill was closed and subsequently abandoned. It is now in a state of disrepair. Since 2018, the landing area has been used to host an annual multi-sports festival that brings together 5,000 people for running, climbing and mountain bike events.\"\n    },\n    {\n      \"name\": \"Piste de Luge\",\n      \"classification\": \"New build\",\n      \"use\": \"Luge\",\n      \"status\": \"In use (limited)\",\n      \"information\": \"The venue staged only a few international events after the Games and was later used for local competitions and youth training. Abandoned in 1994, the site was bought four years later by a French Olympic luger, who converted it into a leisure park offering family and recreational activities. The last 400m of the track are used for luging in the summer months.\"\n    }\n  ],\n  \"trivia\": \"Like the Olympic Village, the Media Centre was built specifically with the idea of providing accommodation for students and local residents after the Olympic Winter Games. Situated nearby, it comprises seven eight- to 10-storey buildings with 512 apartments. Complete with a gymnasium, cultural centre, village hall and shopping centre, it offers both social housing and private apartments. To mark the 50th anniversary of these Olympic Winter Games, a giant mural covering an area of 300 square metres was painted on the side of one of the Media Centre buildings. Based on inputs from local residents, it features scenes from the Games, including a portrait of the great French skier Jean-Claude Killy, who won three Alpine skiing gold medals at Grenoble 1968. The Grenoble 1968 Olympic cauldron still stands in the Parc Paul Mistral today. A stand-alone venue that hosted the men's large hill competition, the ski jumping hill at Saint-Nizier was built in such a way that ski jumpers appeared to be flying over nearby Grenoble when they took off. The images caught by the world's photographers at the Olympic Winter Games helped market the city and promote it as the \\\"Capital of the Alps\\\". The Olympic ice hockey matches held at the Stade de Glace and the Patinoire Municipale attracted sellout crowds and provided a springboard for ice hockey in France. Participation numbers rose after the Games and new ice hockey clubs were founded. There are now more than 80 across France.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nI need to compare the JSON data against the PDF content systematically, ignoring the \"status\" key.\n\nChecking the overview section:\n- JSON overview matches exactly with the PDF content on page 1\n\nChecking the venues array:\n1. Patinoire Municipale - all fields match PDF\n2. Autrans - all fields match PDF  \n3. Tremplin du Claret - all fields match PDF\n4. Stade de Glace - all fields match PDF\n5. Anneau de Vitesse de Grenoble - all fields match PDF\n6. Grenoble Olympic Village - all fields match PDF\n7. Stade Olympique de Grenoble - all fields match PDF\n8. Chamrousse - all fields match PDF\n9. Piste de Bobsled - all fields match PDF\n10. Tremplin de saut à ski de Saint Nizier/Tremplin du Dauphiné - all fields match PDF\n11. Piste de Luge - all fields match PDF\n\nChecking the trivia section:\n- The trivia content matches exactly with the \"DID YOU KNOW?\" section in the PDF\n\nAll data in the JSON matches the PDF content perfectly. No corrections needed.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

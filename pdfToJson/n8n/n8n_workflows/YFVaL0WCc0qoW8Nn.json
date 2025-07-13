@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-13T07:30:08.000Z",
+  "updatedAt": "2025-07-13T07:54:23.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "OnePdf-2-ChunksToJson",
   "active": false,
@@ -514,7 +514,7 @@
     },
     {
       "parameters": {
-        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for directory {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"[Chunks -> JSONs]\"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\""
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
@@ -1063,7 +1063,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "24b04939-41ba-4b80-8534-f79e081d7343",
+  "versionId": "f164dac8-e801-44b7-9e6c-a1d27b596a50",
   "triggerCount": 0,
   "tags": []
 }

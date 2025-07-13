@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-12T20:42:14.293Z",
-  "updatedAt": "2025-07-13T07:18:42.000Z",
+  "updatedAt": "2025-07-13T07:53:53.000Z",
   "id": "FLSHneOwYnBW2epn",
   "name": "OnePdf-3-aggregateJson",
   "active": false,
@@ -134,13 +134,13 @@
     },
     {
       "parameters": {
-        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"Executed Workflow finished. Generated compacted JSON file for directory {{$('Call configReader1').item.json.data.pdfsDir}} \"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
+        "command": "=curl -H \"Content-Type: application/json\" -d '{\"username\": \"n8n_csh_workflow\", \"content\": \"[JSONs -> aggregated JSON]\"}' \"{{$('Call configReader1').item.json.data.discord.webhookUrl}}\"\n"
       },
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
         -352,
-        -144
+        48
       ],
       "id": "2f114808-4829-4c58-8949-2bd2f3868509",
       "name": "send discord msg",
@@ -411,7 +411,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "f51d8406-b80a-415b-a737-7fae78ed5919",
+  "versionId": "83a604c5-c3be-4269-9789-c482fa77e0d9",
   "triggerCount": 0,
   "tags": []
 }

@@ -26,3 +26,7 @@
 
 - ein winter game headline startet nicht mit text, sondern direkt mit dem JAhr
   - --> regex am Anfang nur mir .* statt .+ beginnen lassen
+
+- neuer versuch:
+  - 8:36 Uhr - 
+  - von 18,88 USD - 

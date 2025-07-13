@@ -1,8 +1,8 @@
 {
   "createdAt": "2025-07-12T20:42:14.293Z",
-  "updatedAt": "2025-07-12T20:44:26.000Z",
+  "updatedAt": "2025-07-13T07:18:42.000Z",
   "id": "FLSHneOwYnBW2epn",
-  "name": "OnePdfChunksToJson",
+  "name": "OnePdf-3-aggregateJson",
   "active": false,
   "isArchived": false,
   "nodes": [
@@ -81,8 +81,8 @@
       "type": "n8n-nodes-base.aggregate",
       "typeVersion": 1,
       "position": [
-        752,
-        208
+        -176,
+        384
       ],
       "id": "6cbf0272-060b-458e-a4b3-b5ca51783d9e",
       "name": "Aggregate JSON chunks"
@@ -95,7 +95,7 @@
       "typeVersion": 2,
       "position": [
         -800,
-        368
+        384
       ],
       "id": "7827aaac-3b29-4f6e-a5a7-19309e7a425e",
       "name": "compact pdf infos",
@@ -111,8 +111,8 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        976,
-        208
+        48,
+        384
       ],
       "id": "81d28d96-066e-400f-a774-234706e97a23",
       "name": "Convert to File"
@@ -126,8 +126,8 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        976,
-        0
+        288,
+        384
       ],
       "id": "16ab7f67-ea8c-4376-acbc-0d107c22bdeb",
       "name": "Read/Write Files from Disk3"
@@ -232,8 +232,8 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        320,
-        208
+        -592,
+        384
       ],
       "id": "c3801b7e-670e-4119-8397-24e98cfe3da3",
       "name": "Read all JSON chunks"
@@ -246,8 +246,8 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        528,
-        208
+        -384,
+        384
       ],
       "id": "b693336f-2a80-4d4e-a763-2d90bad0a0fa",
       "name": "Extract from File"
@@ -411,7 +411,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "f17f3276-a50c-42c3-9249-4968cbe94df1",
+  "versionId": "f51d8406-b80a-415b-a737-7fae78ed5919",
   "triggerCount": 0,
   "tags": []
 }

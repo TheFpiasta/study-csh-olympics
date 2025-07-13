@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-12T20:42:14.293Z",
-  "updatedAt": "2025-07-13T07:53:53.000Z",
+  "updatedAt": "2025-07-13T09:19:00.000Z",
   "id": "FLSHneOwYnBW2epn",
   "name": "OnePdf-3-aggregateJson",
   "active": false,
@@ -76,6 +76,8 @@
     {
       "parameters": {
         "aggregate": "aggregateAllItemData",
+        "include": "specifiedFields",
+        "fieldsToInclude": "data",
         "options": {}
       },
       "type": "n8n-nodes-base.aggregate",
@@ -104,6 +106,7 @@
     {
       "parameters": {
         "operation": "toJson",
+        "mode": "each",
         "options": {
           "format": true
         }
@@ -111,7 +114,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        48,
+        272,
         384
       ],
       "id": "81d28d96-066e-400f-a774-234706e97a23",
@@ -126,7 +129,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        288,
+        496,
         384
       ],
       "id": "16ab7f67-ea8c-4376-acbc-0d107c22bdeb",
@@ -139,8 +142,8 @@
       "type": "n8n-nodes-base.executeCommand",
       "typeVersion": 1,
       "position": [
-        -352,
-        48
+        -400,
+        80
       ],
       "id": "2f114808-4829-4c58-8949-2bd2f3868509",
       "name": "send discord msg",
@@ -246,11 +249,24 @@
       "type": "n8n-nodes-base.extractFromFile",
       "typeVersion": 1,
       "position": [
-        -384,
+        -400,
         384
       ],
       "id": "b693336f-2a80-4d4e-a763-2d90bad0a0fa",
       "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Loop over input items and add a new field called 'myNewField' to the JSON of each one\nconst returnData = [{}]; // needed for TS type checks ...\nreturnData.shift();\nconst chunkJsons = $input.first().json.data;\n\nchunkJsons.forEach(c => returnData.push(c.data[0]))\n\nreturn {data: returnData};"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        48,
+        384
+      ],
+      "id": "be38e842-9237-4457-923a-5ed643c5af66",
+      "name": "cleanup aggregation"
     }
   ],
   "connections": {
@@ -309,7 +325,7 @@
       "main": [
         [
           {
-            "node": "Convert to File",
+            "node": "cleanup aggregation",
             "type": "main",
             "index": 0
           }
@@ -403,6 +419,17 @@
           }
         ]
       ]
+    },
+    "cleanup aggregation": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -411,7 +438,7 @@
   "staticData": null,
   "meta": null,
   "pinData": {},
-  "versionId": "83a604c5-c3be-4269-9789-c482fa77e0d9",
+  "versionId": "fc8b1f19-db5a-4656-b104-459e1ec5125f",
   "triggerCount": 0,
   "tags": []
 }

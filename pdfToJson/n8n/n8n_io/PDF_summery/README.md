@@ -28,6 +28,6 @@
   - --> regex am Anfang nur mir .* statt .+ beginnen lassen
 
 - neuer versuch:
-  - von 18,88 USD - 
+  - von 18,88 USD - 21,74 USD
 - workflow sollte dreigeteilt sein: chunker -> pdf chunk to json -> zusammenführen
 - damit kann jeder step einzeln gestartet werden, wenn fehler auftreten und es muss nicht alles komplett neu gestartet werden

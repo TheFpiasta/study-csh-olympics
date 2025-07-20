@@ -45,14 +45,12 @@ while i < iteration:
                 key = th.get_text(strip=True).lower().replace(' ', '_')
                 value = td.get_text(strip=True)
                 if key == "coordinates":
-                    # Split the value into coordinate and trust part
                     if "(" in value and ")" in value:
                         coords_part, trust_part = value.split("(", 1)
                         coords = coords_part.strip().split(",")
                         biodata["coordinates"] = f"{coords[0].strip()},{coords[1].strip()}"
                         biodata["coordinates_trust"] = trust_part.strip("() ").strip()
                     else:
-                        # Fallback if no trust part is present
                         biodata["coordinates"] = value.strip()
                         biodata["coordinates_trust"] = "Unknown"
                 elif key == "games_capacity":
@@ -73,7 +71,7 @@ while i < iteration:
                 elif key in ["english_name", "name", "other_names"]:
                     if "associated_names" not in biodata:
                         biodata["associated_names"] = []
-                    biodata["associated_names"].append(value)                
+                    biodata["associated_names"].append(value)
                 else:
                     biodata[key] = value
     else:

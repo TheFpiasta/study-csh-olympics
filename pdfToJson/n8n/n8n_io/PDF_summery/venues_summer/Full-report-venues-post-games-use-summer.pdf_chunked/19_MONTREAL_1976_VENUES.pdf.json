@@ -1,0 +1,198 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Montreal",
+        "year": "1976",
+        "overview": "Twenty-four competition venues were used for the Olympic Games Montreal 1976, 21 of which remain in use. Fifteen of the competition venues were existing, seven were new and two were temporary. In addition to the dismantled temporary venues, one of the existing venues has since been demolished. Two venues have been repurposed: one existing and one new. Nine of the venues were outside Montreal.\n\nThe venues that remain in use have helped make Montreal a professional sports hub. As well as staging international sporting events, they run high-performance and youth development programmes, and are also used by the city's sports clubs, universities and residents.\n\nThe Olympic Stadium, which remains in use, hosted the Opening and Closing Ceremonies and several competitions. The Olympic Village was built for the Games and remains in use.",
+        "venues": [
+          {
+            "name": "Stade Molson de l'Université McGill",
+            "classification": "Existing",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "This is the home of two Canadian football teams, McGill University's Redbirds and the Montreal Alouettes, who play their regular-season matches here. The 25,000-seater stadium was built in 1919 and refurbished in 2010."
+          },
+          {
+            "name": "Aréna Maurice Richard",
+            "classification": "Existing",
+            "use": "Boxing",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Aréna Saint-Michel",
+            "classification": "Existing",
+            "use": "Weightlifting",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Centre Sportif maisonneuve (Centre Pierre Charbonneau)",
+            "classification": "Existing",
+            "use": "Wrestling",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Stade d'hiver de l'Université de Montréal",
+            "classification": "Existing",
+            "use": "Fencing, modern pentathlon (fencing)",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Forum",
+            "classification": "Existing",
+            "use": "Gymnastics, boxing, handball",
+            "status": "In use (repurposed)",
+            "information": "Opened in 1924, the Forum was Montreal's major ice hockey venue and the home of the now-defunct Montreal Maroons from 1924 to 1938, and the Montreal Canadiens from 1926 to 1996. It was also a concert venue, playing host to the Beatles and the Bee Gees, among other acts. Renovated in 1949 and again in 1968, it staged its last ice hockey match on 11 March 1996. The building was converted into a cinema and entertainment centre in 2001."
+          },
+          {
+            "name": "Centre Paul-Sauvé",
+            "classification": "Existing",
+            "use": "Volleyball",
+            "status": "Not in use (demolished)",
+            "information": "Built in 1960, this 6,000-capacity venue staged political rallies, wrestling matches, and boxing matches, and was also home to a gym, a junior ice hockey team, a lacrosse team and curling teams at various times. The centre was demolished in 1996 due to rising operational costs and falling attendance figures. The site is now occupied by condominiums and townhouses."
+          },
+          {
+            "name": "Centre Etienne-Desmarteau",
+            "classification": "New build",
+            "use": "Basketball",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Olympic Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track), judo",
+            "status": "In use (repurposed)",
+            "information": "Aware of the limited popularity of track cycling in the Montreal area, the Organising Committee planned for the velodrome's post-Games use and had refrigeration pipes laid in the infield so that the venue could be used as an ice rink. The committee also maximised its use during Games time by staging the judo competition there. In 1992, the venue was converted into the Biodome. One of Canada's largest natural science museum complexes, it recreates four ecosystems found in the Americas, including tropical rainforest and sub-polar regions. Closed in 2018 for renovation, it reopened in 2020."
+          },
+          {
+            "name": "Stade Olympique de Montréal",
+            "classification": "New build",
+            "use": "Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "In use all year round, the 56,000-seater stadium hosts major cultural and commercial events, and national and international sporting competitions. For example, it welcomed the 2017 Artistic Gymnastics World Championships and the 2015 FIFA Women's World Cup. Known locally as the Big O, it was once the home of the Expos, the city's former Major League Baseball team, who left for Washington in 2004. The Olympic Stadium has had no resident team since then.\n\nIts athletic facilities have been used continuously by the people of Montreal since the 1976 Olympic Games ended, and it was visited by 66 million people between then and 2011. Its tower, which was completed in 1987 and extensively renovated in 2017, has been converted into a multi-purpose complex which is fully rented out."
+          },
+          {
+            "name": "Bassin Olympique",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "Situated in middle of the St Lawrence River, on the man-made Notre Dame Island, the Basin is used by eight local clubs offering activities for beginners and high-performance training. It also serves as the Para Canoe National Training Centre and has staged many major events over the years, including the annual Montreal International Dragon Boat Race Festival.\n\nIn 1984, it hosted the FISA World Rowing Championships for the first of two occasions, followed by the ICF Canoe Sprint World Championships in 1986. Its boathouses, spectator stands and athletes' facilities were extensively renovated in 2014. The Basin lies next to a park and lake with a public beach, and is a popular leisure destination for local people, attracting more than 50,900 visitors in 2019."
+          },
+          {
+            "name": "Centre Claude-Robillard",
+            "classification": "New build",
+            "use": "Water polo, handball",
+            "status": "In use",
+            "information": "As planned, the venue provided local people with a community sports complex after the 1976 Olympic Games were over. The centre's Olympic-sized swimming pool can be divided to create a shallow area for beginners, while the multi-sports hall is also a flexible space, with its permanent synthetic flooring suitable for a host of sports, such as volleyball, basketball and badminton. The centre's facilities also include athletics tracks, tennis courts, baseball pitches and a diving pool with a 10-metre platform.\n\nRe-opened in 2009 following extensive renovation work, the complex is a training venue for around 20 clubs and 250 high-performance athletes, and is the headquarters of Excellence Sportive de l'Île de Montréal (ESIM), which has been supporting competitive sport in the Montreal region since 2013."
+          },
+          {
+            "name": "Piscine Olympique",
+            "classification": "New build",
+            "use": "Swimming, diving, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "The venue hosts Canada's national championships and Olympic trials, and is the training base for the country's Olympic team in 10 sports and the home of the Quebec National Sport Institute (INSQ). Located in Montreal Olympic Park, it staged the 2018 FINA Diving World Series and attracts approximately 300,000 recreational users a year. Its facilities include a 50-metre indoor pool, a diving well and a 50-metre training pool. A major refurbishment of the venue was completed in 2015, and involved adapting the diving well to FINA regulations, installing a new water-filtration system and building a 22-metre diving platform."
+          },
+          {
+            "name": "Montreal Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The Olympic Village comprises two pyramid-shaped twin-tower structures containing 980 apartments. An integral part of the Montreal landscape, it housed all the Olympic athletes during the Games, with the exception of the equestrian and sailing athletes. Rented out as planned after the Games, its apartments were soon fully occupied and remain part of the city's housing stock to this day."
+          },
+          {
+            "name": "Circuit Mont-Royal",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "The road race was held on the same 12.5km circuit that staged the road race at the 1974 UCI World Championships, with riders completing 14 laps. The route ran around Mont Royal, the hill that stands in the middle of the city. The facilities and stands erected for the event were dismantled afterwards. After the 1976 Montreal Games, the circuit was used for various cycling competitions such as the Americas Grand Prix and the Jeux du Québec 2016."
+          },
+          {
+            "name": "Circuit Fairview",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "The 100km team time trial was held on a 25km section of the Trans-Canada Highway, which connects the country's Pacific and Atlantic coastlines. The start and finish line were located in front of the Fairview Shopping Centre, which still stands today. The facilities and stands erected for the event were dismantled afterwards."
+          },
+          {
+            "name": "Stand de tir olympique",
+            "classification": "Existing",
+            "use": "Shooting, modern pentathlon (shooting)",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Terrain de tir à l'arc olympique",
+            "classification": "Existing",
+            "use": "Archery",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Stade Varsity",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use (rebuilt)",
+            "information": ""
+          },
+          {
+            "name": "Parc Lansdowne",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Stade de Sherbrooke",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Palais des sports de Sherbrooke",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use (rebuilt)",
+            "information": ""
+          },
+          {
+            "name": "Centre olympique de yachting",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Pavillon de l'éducation physique et des sports, Université Laval",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use",
+            "information": ""
+          },
+          {
+            "name": "Centre Equestre olympique",
+            "classification": "New build",
+            "use": "Dressage, eventing, modern pentathlon (equestrian)",
+            "status": "In use",
+            "information": "Located in Bromont, an hour's journey east of Montreal, the centre opened in 1965 as a private club. It opened its doors to the public four years later. Accredited by the International Equestrian Federation (FEI), it stages eventing, dressage, jumping and driving competitions, and offers lessons to riders of all levels."
+          }
+        ],
+        "trivia": "The centrepiece of Montreal's Olympic venues is the Olympic Park, home to the Olympic Stadium, Olympic Velodrome, Olympic Pool and the Olympic Village, all of which were purpose-built for the event. A major cultural, sporting and commercial hub for the people of Montreal, the Olympic Park has received over 100 million visitors since 1976.\n\nAt 165 metres tall and inclined at a 45-degree angle, the Olympic Stadium's tower is the tallest inclined tower in the world. Offering panoramic views of the Olympic complex and the city, it is visited by hundreds of thousands of people a year.\n\nThe stadium is one of the most controversial venues of its kind due to a three-year construction process in which steep inflation, rising material costs, technical challenges and strikes pushed costs above the estimated budget to 795.4 million Canadian dollars. The repayment of the construction deficit was structured over a period of 30 years through the creation of a national lottery and a provincial tax on tobacco.\n\nThe Bassin Olympique flanks the long Casino Straight of the Circuit Gilles Villeneuve, the venue for the Formula 1 Canadian Grand Prix."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Montreal\",\n  \"year\": \"1976\",\n  \"overview\": \"Twenty-four competition venues were used for the Olympic Games Montreal 1976, 21 of which remain in use. Fifteen of the competition venues were existing, seven were new and two were temporary. In addition to the dismantled temporary venues, one of the existing venues has since been demolished. Two venues have been repurposed: one existing and one new. Nine of the venues were outside Montreal.\\n\\nThe venues that remain in use have helped make Montreal a professional sports hub. As well as staging international sporting events, they run high-performance and youth development programmes, and are also used by the city's sports clubs, universities and residents.\\n\\nThe Olympic Stadium, which remains in use, hosted the Opening and Closing Ceremonies and several competitions. The Olympic Village was built for the Games and remains in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Stade Molson de l'Université McGill\",\n      \"classification\": \"Existing\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"This is the home of two Canadian football teams, McGill University's Redbirds and the Montreal Alouettes, who play their regular-season matches here. The 25,000-seater stadium was built in 1919 and refurbished in 2010.\"\n    },\n    {\n      \"name\": \"Aréna Maurice Richard\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Aréna Saint-Michel\",\n      \"classification\": \"Existing\",\n      \"use\": \"Weightlifting\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Centre Sportif maisonneuve (Centre Pierre Charbonneau)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Stade d'hiver de l'Université de Montréal\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Forum\",\n      \"classification\": \"Existing\",\n      \"use\": \"Gymnastics, boxing, handball\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Opened in 1924, the Forum was Montreal's major ice hockey venue and the home of the now-defunct Montreal Maroons from 1924 to 1938, and the Montreal Canadiens from 1926 to 1996. It was also a concert venue, playing host to the Beatles and the Bee Gees, among other acts. Renovated in 1949 and again in 1968, it staged its last ice hockey match on 11 March 1996. The building was converted into a cinema and entertainment centre in 2001.\"\n    },\n    {\n      \"name\": \"Centre Paul-Sauvé\",\n      \"classification\": \"Existing\",\n      \"use\": \"Volleyball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Built in 1960, this 6,000-capacity venue staged political rallies, wrestling matches, and boxing matches, and was also home to a gym, a junior ice hockey team, a lacrosse team and curling teams at various times. The centre was demolished in 1996 due to rising operational costs and falling attendance figures. The site is now occupied by condominiums and townhouses.\"\n    },\n    {\n      \"name\": \"Centre Etienne-Desmarteau\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Olympic Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track), judo\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Aware of the limited popularity of track cycling in the Montreal area, the Organising Committee planned for the velodrome's post-Games use and had refrigeration pipes laid in the infield so that the venue could be used as an ice rink. The committee also maximised its use during Games time by staging the judo competition there. In 1992, the venue was converted into the Biodome. One of Canada's largest natural science museum complexes, it recreates four ecosystems found in the Americas, including tropical rainforest and sub-polar regions. Closed in 2018 for renovation, it reopened in 2020.\"\n    },\n    {\n      \"name\": \"Stade Olympique de Montréal\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"In use all year round, the 56,000-seater stadium hosts major cultural and commercial events, and national and international sporting competitions. For example, it welcomed the 2017 Artistic Gymnastics World Championships and the 2015 FIFA Women's World Cup. Known locally as the Big O, it was once the home of the Expos, the city's former Major League Baseball team, who left for Washington in 2004. The Olympic Stadium has had no resident team since then.\\n\\nIts athletic facilities have been used continuously by the people of Montreal since the 1976 Olympic Games ended, and it was visited by 66 million people between then and 2011. Its tower, which was completed in 1987 and extensively renovated in 2017, has been converted into a multi-purpose complex which is fully rented out.\"\n    },\n    {\n      \"name\": \"Bassin Olympique\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"Situated in middle of the St Lawrence River, on the man-made Notre Dame Island, the Basin is used by eight local clubs offering activities for beginners and high-performance training. It also serves as the Para Canoe National Training Centre and has staged many major events over the years, including the annual Montreal International Dragon Boat Race Festival.\\n\\nIn 1984, it hosted the FISA World Rowing Championships for the first of two occasions, followed by the ICF Canoe Sprint World Championships in 1986. Its boathouses, spectator stands and athletes' facilities were extensively renovated in 2014. The Basin lies next to a park and lake with a public beach, and is a popular leisure destination for local people, attracting more than 50,900 visitors in 2019.\"\n    },\n    {\n      \"name\": \"Centre Claude-Robillard\",\n      \"classification\": \"New build\",\n      \"use\": \"Water polo, handball\",\n      \"status\": \"In use\",\n      \"information\": \"As planned, the venue provided local people with a community sports complex after the 1976 Olympic Games were over. The centre's Olympic-sized swimming pool can be divided to create a shallow area for beginners, while the multi-sports hall is also a flexible space, with its permanent synthetic flooring suitable for a host of sports, such as volleyball, basketball and badminton. The centre's facilities also include athletics tracks, tennis courts, baseball pitches and a diving pool with a 10-metre platform.\\n\\nRe-opened in 2009 following extensive renovation work, the complex is a training venue for around 20 clubs and 250 high-performance athletes, and is the headquarters of Excellence Sportive de l'Île de Montréal (ESIM), which has been supporting competitive sport in the Montreal region since 2013.\"\n    },\n    {\n      \"name\": \"Piscine Olympique\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"The venue hosts Canada's national championships and Olympic trials, and is the training base for the country's Olympic team in 10 sports and the home of the Quebec National Sport Institute (INSQ). Located in Montreal Olympic Park, it staged the 2018 FINA Diving World Series and attracts approximately 300,000 recreational users a year. Its facilities include a 50-metre indoor pool, a diving well and a 50-metre training pool. A major refurbishment of the venue was completed in 2015, and involved adapting the diving well to FINA regulations, installing a new water-filtration system and building a 22-metre diving platform.\"\n    },\n    {\n      \"name\": \"Montreal Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The Olympic Village comprises two pyramid-shaped twin-tower structures containing 980 apartments. An integral part of the Montreal landscape, it housed all the Olympic athletes during the Games, with the exception of the equestrian and sailing athletes. Rented out as planned after the Games, its apartments were soon fully occupied and remain part of the city's housing stock to this day.\"\n    },\n    {\n      \"name\": \"Circuit Mont-Royal\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The road race was held on the same 12.5km circuit that staged the road race at the 1974 UCI World Championships, with riders completing 14 laps. The route ran around Mont Royal, the hill that stands in the middle of the city. The facilities and stands erected for the event were dismantled afterwards. After the 1976 Montreal Games, the circuit was used for various cycling competitions such as the Americas Grand Prix and the Jeux du Québec 2016.\"\n    },\n    {\n      \"name\": \"Circuit Fairview\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The 100km team time trial was held on a 25km section of the Trans-Canada Highway, which connects the country's Pacific and Atlantic coastlines. The start and finish line were located in front of the Fairview Shopping Centre, which still stands today. The facilities and stands erected for the event were dismantled afterwards.\"\n    },\n    {\n      \"name\": \"Stand de tir olympique\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting, modern pentathlon (shooting)\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Terrain de tir à l'arc olympique\",\n      \"classification\": \"Existing\",\n      \"use\": \"Archery\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Stade Varsity\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Parc Lansdowne\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Stade de Sherbrooke\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Palais des sports de Sherbrooke\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Centre olympique de yachting\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Pavillon de l'éducation physique et des sports, Université Laval\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use\",\n      \"information\": \"\"\n    },\n    {\n      \"name\": \"Centre Equestre olympique\",\n      \"classification\": \"New build\",\n      \"use\": \"Dressage, eventing, modern pentathlon (equestrian)\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Bromont, an hour's journey east of Montreal, the centre opened in 1965 as a private club. It opened its doors to the public four years later. Accredited by the International Equestrian Federation (FEI), it stages eventing, dressage, jumping and driving competitions, and offers lessons to riders of all levels.\"\n    }\n  ],\n  \"trivia\": \"The centrepiece of Montreal's Olympic venues is the Olympic Park, home to the Olympic Stadium, Olympic Velodrome, Olympic Pool and the Olympic Village, all of which were purpose-built for the event. A major cultural, sporting and commercial hub for the people of Montreal, the Olympic Park has received over 100 million visitors since 1976.\\n\\nAt 165 metres tall and inclined at a 45-degree angle, the Olympic Stadium's tower is the tallest inclined tower in the world. Offering panoramic views of the Olympic complex and the city, it is visited by hundreds of thousands of people a year.\\n\\nThe stadium is one of the most controversial venues of its kind due to a three-year construction process in which steep inflation, rising material costs, technical challenges and strikes pushed costs above the estimated budget to 795.4 million Canadian dollars. The repayment of the construction deficit was structured over a period of 30 years through the creation of a national lottery and a provincial tax on tobacco.\\n\\nThe Bassin Olympique flanks the long Casino Straight of the Circuit Gilles Villeneuve, the venue for the Formula 1 Canadian Grand Prix.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n1. **Basic Information:**\n   - City: Montreal ✓\n   - Year: 1976 ✓\n\n2. **Overview:** The JSON overview matches the PDF overview exactly, including the key statistics about 24 venues total, 21 remaining in use, 15 existing, 7 new, 2 temporary, etc.\n\n3. **Venues List:** Going through each venue:\n   - All venue names match the PDF\n   - All classifications (Existing/New build/Temporary) match\n   - All uses/sports match\n   - All current statuses match\n   - All detailed information provided matches the PDF content\n\n4. **Trivia:** The trivia section matches the \"DID YOU KNOW?\" section from the PDF, including details about the Olympic Park, stadium tower height, construction costs, etc.\n\nEverything in the JSON data appears to be accurate and matches the information provided in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

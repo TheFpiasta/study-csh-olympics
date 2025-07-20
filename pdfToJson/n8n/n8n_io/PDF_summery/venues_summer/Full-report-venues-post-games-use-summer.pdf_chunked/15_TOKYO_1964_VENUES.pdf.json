@@ -1,0 +1,231 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Tokyo",
+        "year": "1964",
+        "overview": "Thirty competition venues were used for the Olympic Games Tokyo 1964, 24 of which remain in use today. Nine of the competition venues were existing, 16 were new and the remaining five were temporary. One of the new venues has been demolished. Eleven of the venues were in Tokyo. The venues that remain in use continue to host sport, catering for athletes of all abilities, with some also staging concerts and cultural events.\n\nAn existing venue, the National Stadium, was the main stadium for the Games, hosting the Opening and Closing Ceremonies and several of the competitions. Partly existing and partly new build, except for one of its buildings, the Olympic Village was dismantled after the Games as planned.\n\nFive venues were used again at the Olympic Games Tokyo 2020: Tokyo Metropolitan Gymnasium, Nippon Budokan Hall, Enoshima Yacht Harbour, Baji Koen Equestrian Park and Asaka Shooting Range.",
+        "venues": [
+          {
+            "name": "National Stadium",
+            "classification": "Existing",
+            "use": "Athletics, equestrian (jumping), football, Opening and Closing Ceremonies",
+            "status": "In use (rebuilt)",
+            "information": "Completed in 1958 for the third Asian Games, the stadium was expanded to accommodate 75,000 spectators for the 1964 Olympic Games. Afterwards, it staged a number of national and international sporting events, including the 1967 Summer Universiade, the 1991 World Championships in Athletics, the Japanese Athletics Championships, the final of the Emperor's Cup – a domestic football competition – and the final of the All-Japan Rugby Football Championship. It also staged several matches at the 1979 FIFA World Youth Championship, including the final. In 2019, the stadium was rebuilt as a new Olympic Stadium ahead of the Olympic Games Tokyo 2020."
+          },
+          {
+            "name": "Baji Koen Equestrian Park",
+            "classification": "Existing",
+            "use": "Equestrian (dressage)",
+            "status": "In use (rebuilt)",
+            "information": "A racehorse breeding research centre and a training ground for horses and jockeys since its construction in 1940, it hosted the dressage competitions at the 1964 Olympic Games. Its facilities include a 2,400m racetrack, a jumps course, a polo ground, a sand track, a clubhouse, stables and office buildings. It continues to be used for research and competitions and hosted the dressage and jumping events at the Olympic Games Tokyo 2020 after being rebuilt."
+          },
+          {
+            "name": "Tokyo Metropolitan Gymnasium",
+            "classification": "Existing",
+            "use": "Artistic gymnastics",
+            "status": "In use",
+            "information": "Located in Meiji Park, next to the Tokyo Metropolitan Gymnasium Indoor Pool and the National Stadium, the gymnasium is a multi-purpose venue that hosted events at the 1967 Summer Universiade, the 2019 ITTF Team World Cup, the 2018 FIG Individual All-Around World Cup and the Olympic table tennis competitions at Tokyo 2020. It has also staged NBA matches, figure skating championships, and volleyball and wrestling competitions. The venue is open to the public and runs a number of recreational sports programmes."
+          },
+          {
+            "name": "Nippon Budokan Hall",
+            "classification": "New build",
+            "use": "Judo",
+            "status": "In use",
+            "information": "This martial arts venue was built on the grounds of an ancient Edo castle and inspired by an eighth-century Japanese temple. Since the Games, the venue has continued to promote Japanese martial arts, hosting competitions, public demonstrations, workshops and lessons for people of all ages across a range of disciplines, including judo, kendo, karate, aikido, shorinji kempo and naginata. It staged the judo and karate competitions at the Olympic Games Tokyo 2020. It is also used for national and cultural events such as the national Memorial Service for the War Dead. A number of global artists and acts have performed at the venue, among them ABBA and the Beatles."
+          },
+          {
+            "name": "Enoshima Yacht Harbour",
+            "classification": "New build",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "The sailing venue at both Tokyo 1964 and Tokyo 2020, it is one of the largest marinas in Japan. The harbour stages regattas all year round and has hosted events such as the 505 World Championships, the Seahorse All Japan Championship and the K16 Class All Japan Championship. The venue's clubhouse was renovated in 2014, and the site retains the Olympic cauldron erected to mark the Tokyo 1964 sailing competitions."
+          },
+          {
+            "name": "Toda Rowing Course",
+            "classification": "Existing",
+            "use": "Rowing",
+            "status": "In use",
+            "information": "The venue was originally constructed for the 1940 Olympic Games, which were due to have been held in Tokyo but were later awarded to Helsinki, before being cancelled when the Second World War began. Located on an embankment of the Arakawa River, the venue was refurbished and expanded for Tokyo 1964. It was considered as a rowing venue for Tokyo 2020 but ruled out on account of having only six lanes and limited space for the required facilities. The finish tower was taken down in 2002, and all that remains of the Tokyo 1964 facilities is the boat aligner's hut. The course is still used for training and competitions today."
+          },
+          {
+            "name": "Lake Sagami",
+            "classification": "New build",
+            "use": "Canoe sprint",
+            "status": "In use",
+            "information": "The lake was created by the damming of the Sagami River and was completed in 1947. The facilities built for the 1964 Olympic Games had all been removed by 1994, when a new boathouse and offices were built. The venue has a 1,000-metre rowing course and is used by university teams for training."
+          },
+          {
+            "name": "National Gymnasium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use (repurposed)",
+            "information": "An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue."
+          },
+          {
+            "name": "Komazawa First Hockey Fields",
+            "classification": "New build",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year."
+          },
+          {
+            "name": "Tokyo Olympic Village",
+            "classification": "Mixed: existing/new build",
+            "use": "Athlete accommodation",
+            "status": "Not in use (demolished)",
+            "information": "The Village was created on a site that the USA had returned to Japan after housing US Air Force personnel and their families for nearly two decades following the end of the Second World War. In addition to this existing accommodation, temporary new units were erected to house athletes during the Games. Virtually all the housing units were dismantled afterwards, and the land was redeveloped between 1966 and 1971 to create Yoyogi Park, home to the National Gymnasium and one of the largest parks in Tokyo. A small part of the Olympic Village survives in the south-eastern corner of the park. The park has an events area that stages events such as concerts and food festivals all year round."
+          },
+          {
+            "name": "Karuizawa Equestrian Venue, Nagano",
+            "classification": "Temporary",
+            "use": "Equestrian (eventing)",
+            "status": "Dismantled (temporary)",
+            "information": "The cross-country event consisted of five sections: three road phases, a steeplechase and a cross-country course. The venue was also used for curling during the Olympic Winter Games Nagano 1998. Today, a number of sports are practised at the park, which also hosts a museum and a cauldron."
+          },
+          {
+            "name": "Hachioji Velodrome",
+            "classification": "Temporary",
+            "use": "Cycling (track)",
+            "status": "Dismantled (temporary)",
+            "information": "The velodrome was later converted to a public space called Ryonan Park, which is home to baseball diamonds, sports pitches and a playground."
+          },
+          {
+            "name": "Asaka Nezu Park",
+            "classification": "Temporary",
+            "use": "Modern pentathlon (equestrian)",
+            "status": "Dismantled (temporary)",
+            "information": "The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020."
+          },
+          {
+            "name": "Tokyo University Kemigawa Playing Grounds",
+            "classification": "Temporary",
+            "use": "Modern pentathlon (running)",
+            "status": "Dismantled (temporary)",
+            "information": "Though the facilities erected for the modern pentathlon cross-country race were dismantled after the Games, the site is still used as a sports ground by Tokyo University."
+          }
+        ],
+        "trivia": "To remind visitors of the link between Tokyo's two Olympic Games, the Tokyo 1964 Olympic cauldron and the Tokyo 1964 Champion Wall were installed at the new Olympic Stadium.\n\nTokyo Metropolitan Gymnasium was the location for the funeral of Emperor Meiji in 1912.\n\nNippon Budokan Hall was the venue for a mixed martial arts match between Muhammad Ali and Japanese pro-wrestling star Antonio Inoki in 1976.\n\nThe National Gymnasium fuses traditional Japanese architecture and Western modernist aesthetics and inspired the design of Munich's Olympic Stadium.\n\nYoyogi Park's Sample Garden contains trees grown from seeds brought to Japan from all over the world by athletes who competed at Tokyo 1964."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Tokyo\",\n  \"year\": \"1964\",\n  \"overview\": \"Thirty competition venues were used for the Olympic Games Tokyo 1964, 24 of which remain in use today. Nine of the competition venues were existing, 16 were new and the remaining five were temporary. One of the new venues has been demolished. Eleven of the venues were in Tokyo. The venues that remain in use continue to host sport, catering for athletes of all abilities, with some also staging concerts and cultural events.\\n\\nAn existing venue, the National Stadium, was the main stadium for the Games, hosting the Opening and Closing Ceremonies and several of the competitions. Partly existing and partly new build, except for one of its buildings, the Olympic Village was dismantled after the Games as planned.\\n\\nFive venues were used again at the Olympic Games Tokyo 2020: Tokyo Metropolitan Gymnasium, Nippon Budokan Hall, Enoshima Yacht Harbour, Baji Koen Equestrian Park and Asaka Shooting Range.\",\n  \"venues\": [\n    {\n      \"name\": \"National Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, equestrian (jumping), football, Opening and Closing Ceremonies\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Completed in 1958 for the third Asian Games, the stadium was expanded to accommodate 75,000 spectators for the 1964 Olympic Games. Afterwards, it staged a number of national and international sporting events, including the 1967 Summer Universiade, the 1991 World Championships in Athletics, the Japanese Athletics Championships, the final of the Emperor's Cup – a domestic football competition – and the final of the All-Japan Rugby Football Championship. It also staged several matches at the 1979 FIFA World Youth Championship, including the final. In 2019, the stadium was rebuilt as a new Olympic Stadium ahead of the Olympic Games Tokyo 2020.\"\n    },\n    {\n      \"name\": \"Baji Koen Equestrian Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Equestrian (dressage)\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"A racehorse breeding research centre and a training ground for horses and jockeys since its construction in 1940, it hosted the dressage competitions at the 1964 Olympic Games. Its facilities include a 2,400m racetrack, a jumps course, a polo ground, a sand track, a clubhouse, stables and office buildings. It continues to be used for research and competitions and hosted the dressage and jumping events at the Olympic Games Tokyo 2020 after being rebuilt.\"\n    },\n    {\n      \"name\": \"Tokyo Metropolitan Gymnasium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Meiji Park, next to the Tokyo Metropolitan Gymnasium Indoor Pool and the National Stadium, the gymnasium is a multi-purpose venue that hosted events at the 1967 Summer Universiade, the 2019 ITTF Team World Cup, the 2018 FIG Individual All-Around World Cup and the Olympic table tennis competitions at Tokyo 2020. It has also staged NBA matches, figure skating championships, and volleyball and wrestling competitions. The venue is open to the public and runs a number of recreational sports programmes.\"\n    },\n    {\n      \"name\": \"Nippon Budokan Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Judo\",\n      \"status\": \"In use\",\n      \"information\": \"This martial arts venue was built on the grounds of an ancient Edo castle and inspired by an eighth-century Japanese temple. Since the Games, the venue has continued to promote Japanese martial arts, hosting competitions, public demonstrations, workshops and lessons for people of all ages across a range of disciplines, including judo, kendo, karate, aikido, shorinji kempo and naginata. It staged the judo and karate competitions at the Olympic Games Tokyo 2020. It is also used for national and cultural events such as the national Memorial Service for the War Dead. A number of global artists and acts have performed at the venue, among them ABBA and the Beatles.\"\n    },\n    {\n      \"name\": \"Enoshima Yacht Harbour\",\n      \"classification\": \"New build\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"The sailing venue at both Tokyo 1964 and Tokyo 2020, it is one of the largest marinas in Japan. The harbour stages regattas all year round and has hosted events such as the 505 World Championships, the Seahorse All Japan Championship and the K16 Class All Japan Championship. The venue's clubhouse was renovated in 2014, and the site retains the Olympic cauldron erected to mark the Tokyo 1964 sailing competitions.\"\n    },\n    {\n      \"name\": \"Toda Rowing Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"The venue was originally constructed for the 1940 Olympic Games, which were due to have been held in Tokyo but were later awarded to Helsinki, before being cancelled when the Second World War began. Located on an embankment of the Arakawa River, the venue was refurbished and expanded for Tokyo 1964. It was considered as a rowing venue for Tokyo 2020 but ruled out on account of having only six lanes and limited space for the required facilities. The finish tower was taken down in 2002, and all that remains of the Tokyo 1964 facilities is the boat aligner's hut. The course is still used for training and competitions today.\"\n    },\n    {\n      \"name\": \"Lake Sagami\",\n      \"classification\": \"New build\",\n      \"use\": \"Canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"The lake was created by the damming of the Sagami River and was completed in 1947. The facilities built for the 1964 Olympic Games had all been removed by 1994, when a new boathouse and offices were built. The venue has a 1,000-metre rowing course and is used by university teams for training.\"\n    },\n    {\n      \"name\": \"National Gymnasium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue.\"\n    },\n    {\n      \"name\": \"Komazawa First Hockey Fields\",\n      \"classification\": \"New build\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year.\"\n    },\n    {\n      \"name\": \"Tokyo Olympic Village\",\n      \"classification\": \"Mixed: existing/new build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The Village was created on a site that the USA had returned to Japan after housing US Air Force personnel and their families for nearly two decades following the end of the Second World War. In addition to this existing accommodation, temporary new units were erected to house athletes during the Games. Virtually all the housing units were dismantled afterwards, and the land was redeveloped between 1966 and 1971 to create Yoyogi Park, home to the National Gymnasium and one of the largest parks in Tokyo. A small part of the Olympic Village survives in the south-eastern corner of the park. The park has an events area that stages events such as concerts and food festivals all year round.\"\n    },\n    {\n      \"name\": \"Karuizawa Equestrian Venue, Nagano\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Equestrian (eventing)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The cross-country event consisted of five sections: three road phases, a steeplechase and a cross-country course. The venue was also used for curling during the Olympic Winter Games Nagano 1998. Today, a number of sports are practised at the park, which also hosts a museum and a cauldron.\"\n    },\n    {\n      \"name\": \"Hachioji Velodrome\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The velodrome was later converted to a public space called Ryonan Park, which is home to baseball diamonds, sports pitches and a playground.\"\n    },\n    {\n      \"name\": \"Asaka Nezu Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Modern pentathlon (equestrian)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020.\"\n    },\n    {\n      \"name\": \"Tokyo University Kemigawa Playing Grounds\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Modern pentathlon (running)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Though the facilities erected for the modern pentathlon cross-country race were dismantled after the Games, the site is still used as a sports ground by Tokyo University.\"\n    }\n  ],\n  \"trivia\": \"To remind visitors of the link between Tokyo's two Olympic Games, the Tokyo 1964 Olympic cauldron and the Tokyo 1964 Champion Wall were installed at the new Olympic Stadium.\\n\\nTokyo Metropolitan Gymnasium was the location for the funeral of Emperor Meiji in 1912.\\n\\nNippon Budokan Hall was the venue for a mixed martial arts match between Muhammad Ali and Japanese pro-wrestling star Antonio Inoki in 1976.\\n\\nThe National Gymnasium fuses traditional Japanese architecture and Western modernist aesthetics and inspired the design of Munich's Olympic Stadium.\\n\\nYoyogi Park's Sample Garden contains trees grown from seeds brought to Japan from all over the world by athletes who competed at Tokyo 1964.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Tokyo",
+          "year": "1964",
+          "overview": "Thirty competition venues were used for the Olympic Games Tokyo 1964, 24 of which remain in use today. Nine of the competition venues were existing, 16 were new and the remaining five were temporary. One of the new venues has been demolished. Eleven of the venues were in Tokyo. The venues that remain in use continue to host sport, catering for athletes of all abilities, with some also staging concerts and cultural events.\n\nAn existing venue, the National Stadium, was the main stadium for the Games, hosting the Opening and Closing Ceremonies and several of the competitions. Partly existing and partly new build, except for one of its buildings, the Olympic Village was dismantled after the Games as planned.\n\nFive venues were used again at the Olympic Games Tokyo 2020: Tokyo Metropolitan Gymnasium, Nippon Budokan Hall, Enoshima Yacht Harbour, Baji Koen Equestrian Park and Asaka Shooting Range.",
+          "venues": [
+            {
+              "name": "National Stadium",
+              "classification": "Existing",
+              "use": "Athletics, equestrian (jumping), football, Opening and Closing Ceremonies",
+              "status": "In use (rebuilt)",
+              "information": "Completed in 1958 for the third Asian Games, the stadium was expanded to accommodate 75,000 spectators for the 1964 Olympic Games. Afterwards, it staged a number of national and international sporting events, including the 1967 Summer Universiade, the 1991 World Championships in Athletics, the Japanese Athletics Championships, the final of the Emperor's Cup – a domestic football competition – and the final of the All-Japan Rugby Football Championship. It also staged several matches at the 1979 FIFA World Youth Championship, including the final. In 2019, the stadium was rebuilt as a new Olympic Stadium ahead of the Olympic Games Tokyo 2020."
+            },
+            {
+              "name": "Baji Koen Equestrian Park",
+              "classification": "Existing",
+              "use": "Equestrian (dressage)",
+              "status": "In use (rebuilt)",
+              "information": "A racehorse breeding research centre and a training ground for horses and jockeys since its construction in 1940, it hosted the dressage competitions at the 1964 Olympic Games. Its facilities include a 2,400m racetrack, a jumps course, a polo ground, a sand track, a clubhouse, stables and office buildings. It continues to be used for research and competitions and hosted the dressage and jumping events at the Olympic Games Tokyo 2020 after being rebuilt."
+            },
+            {
+              "name": "Tokyo Metropolitan Gymnasium",
+              "classification": "Existing",
+              "use": "Artistic gymnastics",
+              "status": "In use",
+              "information": "Located in Meiji Park, next to the Tokyo Metropolitan Gymnasium Indoor Pool and the National Stadium, the gymnasium is a multi-purpose venue that hosted events at the 1967 Summer Universiade, the 2019 ITTF Team World Cup, the 2018 FIG Individual All-Around World Cup and the Olympic table tennis competitions at Tokyo 2020. It has also staged NBA matches, figure skating championships, and volleyball and wrestling competitions. The venue is open to the public and runs a number of recreational sports programmes."
+            },
+            {
+              "name": "Nippon Budokan Hall",
+              "classification": "New build",
+              "use": "Judo",
+              "status": "In use",
+              "information": "This martial arts venue was built on the grounds of an ancient Edo castle and inspired by an eighth-century Japanese temple. Since the Games, the venue has continued to promote Japanese martial arts, hosting competitions, public demonstrations, workshops and lessons for people of all ages across a range of disciplines, including judo, kendo, karate, aikido, shorinji kempo and naginata. It staged the judo and karate competitions at the Olympic Games Tokyo 2020. It is also used for national and cultural events such as the national Memorial Service for the War Dead. A number of global artists and acts have performed at the venue, among them ABBA and the Beatles."
+            },
+            {
+              "name": "Enoshima Yacht Harbour",
+              "classification": "New build",
+              "use": "Sailing",
+              "status": "In use",
+              "information": "The sailing venue at both Tokyo 1964 and Tokyo 2020, it is one of the largest marinas in Japan. The harbour stages regattas all year round and has hosted events such as the 505 World Championships, the Seahorse All Japan Championship and the K16 Class All Japan Championship. The venue's clubhouse was renovated in 2014, and the site retains the Olympic cauldron erected to mark the Tokyo 1964 sailing competitions."
+            },
+            {
+              "name": "Toda Rowing Course",
+              "classification": "Existing",
+              "use": "Rowing",
+              "status": "In use",
+              "information": "The venue was originally constructed for the 1940 Olympic Games, which were due to have been held in Tokyo but were later awarded to Helsinki, before being cancelled when the Second World War began. Located on an embankment of the Arakawa River, the venue was refurbished and expanded for Tokyo 1964. It was considered as a rowing venue for Tokyo 2020 but ruled out on account of having only six lanes and limited space for the required facilities. The finish tower was taken down in 2002, and all that remains of the Tokyo 1964 facilities is the boat aligner's hut. The course is still used for training and competitions today."
+            },
+            {
+              "name": "Lake Sagami",
+              "classification": "New build",
+              "use": "Canoe sprint",
+              "status": "In use",
+              "information": "The lake was created by the damming of the Sagami River and was completed in 1947. The facilities built for the 1964 Olympic Games had all been removed by 1994, when a new boathouse and offices were built. The venue has a 1,000-metre rowing course and is used by university teams for training."
+            },
+            {
+              "name": "National Gymnasium",
+              "classification": "New build",
+              "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+              "status": "In use (repurposed)",
+              "information": "An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue."
+            },
+            {
+              "name": "Komazawa First Hockey Fields",
+              "classification": "New build",
+              "use": "Hockey",
+              "status": "In use",
+              "information": "The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year."
+            },
+            {
+              "name": "Tokyo Olympic Village",
+              "classification": "Mixed: existing/new build",
+              "use": "Athlete accommodation",
+              "status": "Not in use (demolished)",
+              "information": "The Village was created on a site that the USA had returned to Japan after housing US Air Force personnel and their families for nearly two decades following the end of the Second World War. In addition to this existing accommodation, temporary new units were erected to house athletes during the Games. Virtually all the housing units were dismantled afterwards, and the land was redeveloped between 1966 and 1971 to create Yoyogi Park, home to the National Gymnasium and one of the largest parks in Tokyo. A small part of the Olympic Village survives in the south-eastern corner of the park. The park has an events area that stages events such as concerts and food festivals all year round."
+            },
+            {
+              "name": "Karuizawa Equestrian Venue, Nagano",
+              "classification": "Temporary",
+              "use": "Equestrian (eventing)",
+              "status": "Dismantled (temporary)",
+              "information": "The cross-country event consisted of five sections: three road phases, a steeplechase and a cross-country course. The venue was also used for curling during the Olympic Winter Games Nagano 1998. Today, a number of sports are practised at the park, which also hosts a museum and a cauldron."
+            },
+            {
+              "name": "Hachioji Velodrome",
+              "classification": "Temporary",
+              "use": "Cycling (track)",
+              "status": "Dismantled (temporary)",
+              "information": "The velodrome was later converted to a public space called Ryonan Park, which is home to baseball diamonds, sports pitches and a playground."
+            },
+            {
+              "name": "Asaka Nezu Park",
+              "classification": "Temporary",
+              "use": "Modern pentathlon (equestrian)",
+              "status": "Dismantled (temporary)",
+              "information": "The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020."
+            },
+            {
+              "name": "Tokyo University Kemigawa Playing Grounds",
+              "classification": "Temporary",
+              "use": "Modern pentathlon (cross-country race)",
+              "status": "Dismantled (temporary)",
+              "information": "Though the facilities erected for the modern pentathlon cross-country race were dismantled after the Games, the site is still used as a sports ground by Tokyo University."
+            }
+          ],
+          "trivia": "To remind visitors of the link between Tokyo's two Olympic Games, the Tokyo 1964 Olympic cauldron and the Tokyo 1964 Champion Wall were installed at the new Olympic Stadium.\n\nTokyo Metropolitan Gymnasium was the location for the funeral of Emperor Meiji in 1912.\n\nNippon Budokan Hall was the venue for a mixed martial arts match between Muhammad Ali and Japanese pro-wrestling star Antonio Inoki in 1976.\n\nThe National Gymnasium fuses traditional Japanese architecture and Western modernist aesthetics and inspired the design of Munich's Olympic Stadium.\n\nYoyogi Park's Sample Garden contains trees grown from seeds brought to Japan from all over the world by athletes who competed at Tokyo 1964."
+        },
+        "correctedKeys": [
+          "venues[13].use"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. Overview information - matches perfectly\n2. Venue count and statistics - matches perfectly  \n3. Individual venue details - checking each one...\n\nFound one discrepancy:\n- Tokyo University Kemigawa Playing Grounds: \n  - JSON says: \"Modern pentathlon (running)\"\n  - PDF says: \"Modern pentathlon (cross-country race)\"\n\nAll other venue information, classifications, statuses, and detailed descriptions match the PDF content exactly.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n\"status\":\"found\",\n\"city\":\"Tokyo\",\n\"year\":\"1964\",\n\"overview\":\"Thirty competition venues were used for the Olympic Games Tokyo 1964, 24 of which remain in use today. Nine of the competition venues were existing, 16 were new and the remaining five were temporary. One of the new venues has been demolished. Eleven of the venues were in Tokyo. The venues that remain in use continue to host sport, catering for athletes of all abilities, with some also staging concerts and cultural events.\\n\\nAn existing venue, the National Stadium, was the main stadium for the Games, hosting the Opening and Closing Ceremonies and several of the competitions. Partly existing and partly new build, except for one of its buildings, the Olympic Village was dismantled after the Games as planned.\\n\\nFive venues were used again at the Olympic Games Tokyo 2020: Tokyo Metropolitan Gymnasium, Nippon Budokan Hall, Enoshima Yacht Harbour, Baji Koen Equestrian Park and Asaka Shooting Range.\",\n\"venues\":[\n{\"name\":\"National Stadium\",\"classification\":\"Existing\",\"use\":\"Athletics, equestrian (jumping), football, Opening and Closing Ceremonies\",\"status\":\"In use (rebuilt)\",\"information\":\"Completed in 1958 for the third Asian Games, the stadium was expanded to accommodate 75,000 spectators for the 1964 Olympic Games. Afterwards, it staged a number of national and international sporting events, including the 1967 Summer Universiade, the 1991 World Championships in Athletics, the Japanese Athletics Championships, the final of the Emperor's Cup – a domestic football competition – and the final of the All-Japan Rugby Football Championship. It also staged several matches at the 1979 FIFA World Youth Championship, including the final. In 2019, the stadium was rebuilt as a new Olympic Stadium ahead of the Olympic Games Tokyo 2020.\"},\n{\"name\":\"Baji Koen Equestrian Park\",\"classification\":\"Existing\",\"use\":\"Equestrian (dressage)\",\"status\":\"In use (rebuilt)\",\"information\":\"A racehorse breeding research centre and a training ground for horses and jockeys since its construction in 1940, it hosted the dressage competitions at the 1964 Olympic Games. Its facilities include a 2,400m racetrack, a jumps course, a polo ground, a sand track, a clubhouse, stables and office buildings. It continues to be used for research and competitions and hosted the dressage and jumping events at the Olympic Games Tokyo 2020 after being rebuilt.\"},\n{\"name\":\"Tokyo Metropolitan Gymnasium\",\"classification\":\"Existing\",\"use\":\"Artistic gymnastics\",\"status\":\"In use\",\"information\":\"Located in Meiji Park, next to the Tokyo Metropolitan Gymnasium Indoor Pool and the National Stadium, the gymnasium is a multi-purpose venue that hosted events at the 1967 Summer Universiade, the 2019 ITTF Team World Cup, the 2018 FIG Individual All-Around World Cup and the Olympic table tennis competitions at Tokyo 2020. It has also staged NBA matches, figure skating championships, and volleyball and wrestling competitions. The venue is open to the public and runs a number of recreational sports programmes.\"},\n{\"name\":\"Nippon Budokan Hall\",\"classification\":\"New build\",\"use\":\"Judo\",\"status\":\"In use\",\"information\":\"This martial arts venue was built on the grounds of an ancient Edo castle and inspired by an eighth-century Japanese temple. Since the Games, the venue has continued to promote Japanese martial arts, hosting competitions, public demonstrations, workshops and lessons for people of all ages across a range of disciplines, including judo, kendo, karate, aikido, shorinji kempo and naginata. It staged the judo and karate competitions at the Olympic Games Tokyo 2020. It is also used for national and cultural events such as the national Memorial Service for the War Dead. A number of global artists and acts have performed at the venue, among them ABBA and the Beatles.\"},\n{\"name\":\"Enoshima Yacht Harbour\",\"classification\":\"New build\",\"use\":\"Sailing\",\"status\":\"In use\",\"information\":\"The sailing venue at both Tokyo 1964 and Tokyo 2020, it is one of the largest marinas in Japan. The harbour stages regattas all year round and has hosted events such as the 505 World Championships, the Seahorse All Japan Championship and the K16 Class All Japan Championship. The venue's clubhouse was renovated in 2014, and the site retains the Olympic cauldron erected to mark the Tokyo 1964 sailing competitions.\"},\n{\"name\":\"Toda Rowing Course\",\"classification\":\"Existing\",\"use\":\"Rowing\",\"status\":\"In use\",\"information\":\"The venue was originally constructed for the 1940 Olympic Games, which were due to have been held in Tokyo but were later awarded to Helsinki, before being cancelled when the Second World War began. Located on an embankment of the Arakawa River, the venue was refurbished and expanded for Tokyo 1964. It was considered as a rowing venue for Tokyo 2020 but ruled out on account of having only six lanes and limited space for the required facilities. The finish tower was taken down in 2002, and all that remains of the Tokyo 1964 facilities is the boat aligner's hut. The course is still used for training and competitions today.\"},\n{\"name\":\"Lake Sagami\",\"classification\":\"New build\",\"use\":\"Canoe sprint\",\"status\":\"In use\",\"information\":\"The lake was created by the damming of the Sagami River and was completed in 1947. The facilities built for the 1964 Olympic Games had all been removed by 1994, when a new boathouse and offices were built. The venue has a 1,000-metre rowing course and is used by university teams for training.\"},\n{\"name\":\"National Gymnasium\",\"classification\":\"New build\",\"use\":\"Swimming, diving, water polo, modern pentathlon (swimming)\",\"status\":\"In use (repurposed)\",\"information\":\"An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue.\"},\n{\"name\":\"Komazawa First Hockey Fields\",\"classification\":\"New build\",\"use\":\"Hockey\",\"status\":\"In use\",\"information\":\"The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year.\"},\n{\"name\":\"Tokyo Olympic Village\",\"classification\":\"Mixed: existing/new build\",\"use\":\"Athlete accommodation\",\"status\":\"Not in use (demolished)\",\"information\":\"The Village was created on a site that the USA had returned to Japan after housing US Air Force personnel and their families for nearly two decades following the end of the Second World War. In addition to this existing accommodation, temporary new units were erected to house athletes during the Games. Virtually all the housing units were dismantled afterwards, and the land was redeveloped between 1966 and 1971 to create Yoyogi Park, home to the National Gymnasium and one of the largest parks in Tokyo. A small part of the Olympic Village survives in the south-eastern corner of the park. The park has an events area that stages events such as concerts and food festivals all year round.\"},\n{\"name\":\"Karuizawa Equestrian Venue, Nagano\",\"classification\":\"Temporary\",\"use\":\"Equestrian (eventing)\",\"status\":\"Dismantled (temporary)\",\"information\":\"The cross-country event consisted of five sections: three road phases, a steeplechase and a cross-country course. The venue was also used for curling during the Olympic Winter Games Nagano 1998. Today, a number of sports are practised at the park, which also hosts a museum and a cauldron.\"},\n{\"name\":\"Hachioji Velodrome\",\"classification\":\"Temporary\",\"use\":\"Cycling (track)\",\"status\":\"Dismantled (temporary)\",\"information\":\"The velodrome was later converted to a public space called Ryonan Park, which is home to baseball diamonds, sports pitches and a playground.\"},\n{\"name\":\"Asaka Nezu Park\",\"classification\":\"Temporary\",\"use\":\"Modern pentathlon (equestrian)\",\"status\":\"Dismantled (temporary)\",\"information\":\"The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020.\"},\n{\"name\":\"Tokyo University Kemigawa Playing Grounds\",\"classification\":\"Temporary\",\"use\":\"Modern pentathlon (cross-country race)\",\"status\":\"Dismantled (temporary)\",\"information\":\"Though the facilities erected for the modern pentathlon cross-country race were dismantled after the Games, the site is still used as a sports ground by Tokyo University.\"}\n],\n\"trivia\":\"To remind visitors of the link between Tokyo's two Olympic Games, the Tokyo 1964 Olympic cauldron and the Tokyo 1964 Champion Wall were installed at the new Olympic Stadium.\\n\\nTokyo Metropolitan Gymnasium was the location for the funeral of Emperor Meiji in 1912.\\n\\nNippon Budokan Hall was the venue for a mixed martial arts match between Muhammad Ali and Japanese pro-wrestling star Antonio Inoki in 1976.\\n\\nThe National Gymnasium fuses traditional Japanese architecture and Western modernist aesthetics and inspired the design of Munich's Olympic Stadium.\\n\\nYoyogi Park's Sample Garden contains trees grown from seeds brought to Japan from all over the world by athletes who competed at Tokyo 1964.\"\n},\n\"correctedKeys\": [\"venues[13].use\"]\n}\n</response>"
+    }
+  }
+]

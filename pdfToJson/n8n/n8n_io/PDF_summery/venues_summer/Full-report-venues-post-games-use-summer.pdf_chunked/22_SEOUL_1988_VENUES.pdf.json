@@ -1,0 +1,336 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Seoul",
+        "year": "1988",
+        "overview": "Thirty competition venues were used for the Olympic Games Seoul 1988, 25 of which remain in use today and cater for a range of sports, cultural, educational, leisure and entertainment activities. Fourteen of the competition venues were existing, 13 were new and three were temporary. All the temporary venues have been dismantled. Two of the permanent venues have been demolished.\n\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. The Olympic Village was built for the Games. Both remain in use.",
+        "venues": [
+          {
+            "name": "Olympic Stadium",
+            "classification": "Existing",
+            "use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The stadium was first used for the 1986 Asian Games. It lies within the Chamshil Complex, which is home to four other venues used at the 1988 Olympic Games: Chamshil Baseball Stadium, Chamshil Gymnasium, Chamshil Indoor Swimming Pool and Chamshil Students' Gymnasium. Since the Games, the stadium's capacity has been reduced from 100,000 to 69,500.\n\nUsed regularly by the South Korean national football team, it has been the home ground of football club Seoul E-Land since 2015 and stages the finish of the Seoul International Marathon. A major concert, opera and festival venue, it also hosted the Seoul Design Olympiad in 2008 and 2009. The sports complex is currently being redeveloped. As part of the project, which is due for completion in 2025, the Olympic Stadium will be refurbished and have its capacity further reduced to 50,000."
+          },
+          {
+            "name": "Seoul Equestrian Park",
+            "classification": "New build",
+            "use": "Jumping, dressage, eventing, modern pentathlon (equestrian)",
+            "status": "In use",
+            "information": "Completed in 1986, the venue hosted all the Olympic equestrian events except for the individual and team jumping finals, which took place at Seoul Olympic Stadium, and the endurance section of the eventing competitions, held at Wondang Ranch.\n\nAt Games time, the park was home to jumping and dressage competition areas, training fields, and a canter track. The venue for the 1987 Junior World Modern Pentathlon Championships, it was converted into a racetrack after the Games. It has two sand tracks and two sets of stables and is also home to a horse museum. A second main grandstand with a capacity of 42,000 was built in 2003. A popular venue, it stages some of the Republic of Korea's biggest horse races and offers other attractions such as pony riding, racing simulation machines and ice rinks in winter."
+          },
+          {
+            "name": "Seongnam Stadium",
+            "classification": "Existing",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "Completed in 1984, this 27,000-seater multi-purpose stadium has a running track and is mainly used for football. It was the home of Seongnam FC until 2004. It has not staged any hockey matches since the 1988 Olympic Games. The venue forms part of the Seongnam Sports Complex, which was built in 1997 and also has football pitches, a volleyball court and a hockey pitch."
+          },
+          {
+            "name": "Olympic Gymnastics Hall",
+            "classification": "New build",
+            "use": "Artistic gymnastics, rhythmic gymnastics, handball",
+            "status": "In use",
+            "information": "Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed."
+          },
+          {
+            "name": "Han River Regatta Course",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "This eight-lane course was first used at the 1986 Asian Games and was upgraded prior to hosting the Olympic rowing and canoe sprint competitions, when a new road to the venue was built and the drainage system improved. The venue is now mainly used for motorboat races and has been renamed the Misari Regatta Canoe and Motorboat Racing Park.\n\nIt is also used by the local community as a leisure park and stages cycling competitions, fun runs and triathlons. A setting for weddings, school excursions, picnics, sports festivals and private functions, its facilities include a football pitch, a jogging course, pedestrian and bicycle paths, and a children's nature education site. Water sports equipment is available to hire."
+          },
+          {
+            "name": "Jamsil Indoor Swimming Pool",
+            "classification": "Existing",
+            "use": "Diving, water polo",
+            "status": "In use",
+            "information": "Part of the Chamshil Complex, it was completed in 1980 and refurbished before the Games and again in 2011, when a lift was installed for its many elderly users. Open to the public, it is now mainly a recreational aquatic sports venue, though it has hosted some national and local swimming competitions."
+          },
+          {
+            "name": "Olympic Indoor Swimming Pool",
+            "classification": "New build",
+            "use": "Artistic swimming, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "One of six Olympic venues at Seoul's Olympic Park, the pool is a popular sports and leisure centre, welcoming over 4,000 users daily for recreational swimming and lessons. The venue's facilities include a fully equipped gymnasium and a multi-purpose indoor hall."
+          },
+          {
+            "name": "Olympic Tennis Courts",
+            "classification": "New build",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis."
+          },
+          {
+            "name": "Olympic Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee."
+          },
+          {
+            "name": "Seoul Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Opened in 1988, just before the Games started, the Village had a capacity of 15,000. It was built on a site on the banks of the Han River, next to Seoul's Olympic Park, and comprises 86 buildings between six and 24 storeys high and 3,962 apartments. Its facilities at Games time included a bank, post office, laundrette, nightclub, theatre and religious centre. It was also home to an exhibition on Korean culture.\n\nThe Village helped regenerate a run-down part of Seoul. Its apartments were sold to private individuals before the Games and were refurbished before being handed over to their new owners. The apartments are still occupied today, and the Village is well served by public transport."
+          },
+          {
+            "name": "Tongdaemun Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "This multi-purpose stadium was formerly the home of the Republic of Korea's national football team and staged its last international match in 2000. It was also the home ground of Seongnam FC between 1989 and 1995, when the club was known as Ilhwa Chunma. The stadium was demolished in 2008 to make way for the Dongdaemun Design Plaza and Park."
+          },
+          {
+            "name": "Sangmu Gymnasium",
+            "classification": "New build",
+            "use": "Wrestling",
+            "status": "Not in use (demolished)",
+            "information": "Located in the city of Seongnam near Seoul, it hosted the Olympic wrestling events in 1988. It was demolished in 2013, following the relocation of the Korea Armed Forces Athletic Corps, which owned and managed the site."
+          }
+        ],
+        "trivia": "Seoul Olympic Park's six Olympic venues are the Olympic Fencing Gymnasium, Olympic Gymnastics Hall, Olympic Indoor Swimming Pool, Olympic Weightlifting Stadium, Olympic Velodrome and Olympic Tennis Courts.\n\nSeoul Olympic Stadium proved a major attraction before the 1988 Olympic Games even began, with 301,924 tourists visiting the venue in 1987. The oldest venue used at the 1988 Olympic Games, Dongdaemun Stadium, was refurbished three times between its construction in 1926 and the Games.\n\nThe Olympic Park is also an arts and cultural hub. Its Sculpture Garden has a rich and diverse collection of modern sculptures by artists from 66 countries, while the Seoul Olympic Museum recreates the spirit of the Seoul Olympic Games, offering a wide variety of exhibitions on sport and culture. The park is visited by 14,000 people a day."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Seoul\",\n  \"year\": \"1988\",\n  \"overview\": \"Thirty competition venues were used for the Olympic Games Seoul 1988, 25 of which remain in use today and cater for a range of sports, cultural, educational, leisure and entertainment activities. Fourteen of the competition venues were existing, 13 were new and three were temporary. All the temporary venues have been dismantled. Two of the permanent venues have been demolished.\\n\\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. The Olympic Village was built for the Games. Both remain in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, football, equestrian (jumping), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium was first used for the 1986 Asian Games. It lies within the Chamshil Complex, which is home to four other venues used at the 1988 Olympic Games: Chamshil Baseball Stadium, Chamshil Gymnasium, Chamshil Indoor Swimming Pool and Chamshil Students' Gymnasium. Since the Games, the stadium's capacity has been reduced from 100,000 to 69,500.\\n\\nUsed regularly by the South Korean national football team, it has been the home ground of football club Seoul E-Land since 2015 and stages the finish of the Seoul International Marathon. A major concert, opera and festival venue, it also hosted the Seoul Design Olympiad in 2008 and 2009. The sports complex is currently being redeveloped. As part of the project, which is due for completion in 2025, the Olympic Stadium will be refurbished and have its capacity further reduced to 50,000.\"\n    },\n    {\n      \"name\": \"Seoul Equestrian Park\",\n      \"classification\": \"New build\",\n      \"use\": \"Jumping, dressage, eventing, modern pentathlon (equestrian)\",\n      \"status\": \"In use\",\n      \"information\": \"Completed in 1986, the venue hosted all the Olympic equestrian events except for the individual and team jumping finals, which took place at Seoul Olympic Stadium, and the endurance section of the eventing competitions, held at Wondang Ranch.\\n\\nAt Games time, the park was home to jumping and dressage competition areas, training fields, and a canter track. The venue for the 1987 Junior World Modern Pentathlon Championships, it was converted into a racetrack after the Games. It has two sand tracks and two sets of stables and is also home to a horse museum. A second main grandstand with a capacity of 42,000 was built in 2003. A popular venue, it stages some of the Republic of Korea's biggest horse races and offers other attractions such as pony riding, racing simulation machines and ice rinks in winter.\"\n    },\n    {\n      \"name\": \"Seongnam Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Completed in 1984, this 27,000-seater multi-purpose stadium has a running track and is mainly used for football. It was the home of Seongnam FC until 2004. It has not staged any hockey matches since the 1988 Olympic Games. The venue forms part of the Seongnam Sports Complex, which was built in 1997 and also has football pitches, a volleyball court and a hockey pitch.\"\n    },\n    {\n      \"name\": \"Olympic Gymnastics Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Artistic gymnastics, rhythmic gymnastics, handball\",\n      \"status\": \"In use\",\n      \"information\": \"Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed.\"\n    },\n    {\n      \"name\": \"Han River Regatta Course\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"This eight-lane course was first used at the 1986 Asian Games and was upgraded prior to hosting the Olympic rowing and canoe sprint competitions, when a new road to the venue was built and the drainage system improved. The venue is now mainly used for motorboat races and has been renamed the Misari Regatta Canoe and Motorboat Racing Park.\\n\\nIt is also used by the local community as a leisure park and stages cycling competitions, fun runs and triathlons. A setting for weddings, school excursions, picnics, sports festivals and private functions, its facilities include a football pitch, a jogging course, pedestrian and bicycle paths, and a children's nature education site. Water sports equipment is available to hire.\"\n    },\n    {\n      \"name\": \"Jamsil Indoor Swimming Pool\",\n      \"classification\": \"Existing\",\n      \"use\": \"Diving, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"Part of the Chamshil Complex, it was completed in 1980 and refurbished before the Games and again in 2011, when a lift was installed for its many elderly users. Open to the public, it is now mainly a recreational aquatic sports venue, though it has hosted some national and local swimming competitions.\"\n    },\n    {\n      \"name\": \"Olympic Indoor Swimming Pool\",\n      \"classification\": \"New build\",\n      \"use\": \"Artistic swimming, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"One of six Olympic venues at Seoul's Olympic Park, the pool is a popular sports and leisure centre, welcoming over 4,000 users daily for recreational swimming and lessons. The venue's facilities include a fully equipped gymnasium and a multi-purpose indoor hall.\"\n    },\n    {\n      \"name\": \"Olympic Tennis Courts\",\n      \"classification\": \"New build\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis.\"\n    },\n    {\n      \"name\": \"Olympic Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee.\"\n    },\n    {\n      \"name\": \"Seoul Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Opened in 1988, just before the Games started, the Village had a capacity of 15,000. It was built on a site on the banks of the Han River, next to Seoul's Olympic Park, and comprises 86 buildings between six and 24 storeys high and 3,962 apartments. Its facilities at Games time included a bank, post office, laundrette, nightclub, theatre and religious centre. It was also home to an exhibition on Korean culture.\\n\\nThe Village helped regenerate a run-down part of Seoul. Its apartments were sold to private individuals before the Games and were refurbished before being handed over to their new owners. The apartments are still occupied today, and the Village is well served by public transport.\"\n    },\n    {\n      \"name\": \"Tongdaemun Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"This multi-purpose stadium was formerly the home of the Republic of Korea's national football team and staged its last international match in 2000. It was also the home ground of Seongnam FC between 1989 and 1995, when the club was known as Ilhwa Chunma. The stadium was demolished in 2008 to make way for the Dongdaemun Design Plaza and Park.\"\n    },\n    {\n      \"name\": \"Sangmu Gymnasium\",\n      \"classification\": \"New build\",\n      \"use\": \"Wrestling\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Located in the city of Seongnam near Seoul, it hosted the Olympic wrestling events in 1988. It was demolished in 2013, following the relocation of the Korea Armed Forces Athletic Corps, which owned and managed the site.\"\n    }\n  ],\n  \"trivia\": \"Seoul Olympic Park's six Olympic venues are the Olympic Fencing Gymnasium, Olympic Gymnastics Hall, Olympic Indoor Swimming Pool, Olympic Weightlifting Stadium, Olympic Velodrome and Olympic Tennis Courts.\\n\\nSeoul Olympic Stadium proved a major attraction before the 1988 Olympic Games even began, with 301,924 tourists visiting the venue in 1987. The oldest venue used at the 1988 Olympic Games, Dongdaemun Stadium, was refurbished three times between its construction in 1926 and the Games.\\n\\nThe Olympic Park is also an arts and cultural hub. Its Sculpture Garden has a rich and diverse collection of modern sculptures by artists from 66 countries, while the Seoul Olympic Museum recreates the spirit of the Seoul Olympic Games, offering a wide variety of exhibitions on sport and culture. The park is visited by 14,000 people a day.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Seoul",
+          "year": "1988",
+          "overview": "Thirty competition venues were used for the Olympic Games Seoul 1988, 25 of which remain in use today and cater for a range of sports, cultural, educational, leisure and entertainment activities. Fourteen of the competition venues were existing, 13 were new and three were temporary. All the temporary venues have been dismantled. Two of the permanent venues have been demolished.\n\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. The Olympic Village was built for the Games. Both remain in use.",
+          "venues": [
+            {
+              "name": "Olympic Stadium",
+              "classification": "Existing",
+              "use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "The stadium was first used for the 1986 Asian Games. It lies within the Chamshil Complex, which is home to four other venues used at the 1988 Olympic Games: Chamshil Baseball Stadium, Chamshil Gymnasium, Chamshil Indoor Swimming Pool and Chamshil Students' Gymnasium. Since the Games, the stadium's capacity has been reduced from 100,000 to 69,500.\n\nUsed regularly by the South Korean national football team, it has been the home ground of football club Seoul E-Land since 2015 and stages the finish of the Seoul International Marathon. A major concert, opera and festival venue, it also hosted the Seoul Design Olympiad in 2008 and 2009. The sports complex is currently being redeveloped. As part of the project, which is due for completion in 2025, the Olympic Stadium will be refurbished and have its capacity further reduced to 50,000."
+            },
+            {
+              "name": "Jamsil Indoor Swimming Pool",
+              "classification": "Existing",
+              "use": "Diving, water polo",
+              "status": "In use",
+              "information": "Part of the Chamshil Complex, it was completed in 1980 and refurbished before the Games and again in 2011, when a lift was installed for its many elderly users. Open to the public, it is now mainly a recreational aquatic sports venue, though it has hosted some national and local swimming competitions."
+            },
+            {
+              "name": "Jamsil Gymnasium",
+              "classification": "Existing",
+              "use": "Volleyball",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Jamsil Students' Gymnasium",
+              "classification": "Existing",
+              "use": "Boxing",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Changchung Gymnasium",
+              "classification": "Existing",
+              "use": "Judo, taekwondo",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Taenung International Shooting Range",
+              "classification": "Existing",
+              "use": "Shooting, modern pentathlon (shooting)",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Tongdaemun Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "Not in use (demolished)",
+              "information": "This multi-purpose stadium was formerly the home of the Republic of Korea's national football team and staged its last international match in 2000. It was also the home ground of Seongnam FC between 1989 and 1995, when the club was known as Ilhwa Chunma. The stadium was demolished in 2008 to make way for the Dongdaemun Design Plaza and Park."
+            },
+            {
+              "name": "Seongnam Stadium",
+              "classification": "Existing",
+              "use": "Hockey",
+              "status": "In use",
+              "information": "Completed in 1984, this 27,000-seater multi-purpose stadium has a running track and is mainly used for football. It was the home of Seongnam FC until 2004. It has not staged any hockey matches since the 1988 Olympic Games. The venue forms part of the Seongnam Sports Complex, which was built in 1997 and also has football pitches, a volleyball court and a hockey pitch."
+            },
+            {
+              "name": "Pusan Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Pusan Yachting Center",
+              "classification": "Existing",
+              "use": "Sailing",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Taegu Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use (rebuilt)",
+              "information": ""
+            },
+            {
+              "name": "Taejon Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Kwangju Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Saemaul Sports Hall",
+              "classification": "Existing",
+              "use": "Volleyball",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Seoul Equestrian Park",
+              "classification": "New build",
+              "use": "Jumping, dressage, eventing, modern pentathlon (equestrian)",
+              "status": "In use",
+              "information": "Completed in 1986, the venue hosted all the Olympic equestrian events except for the individual and team jumping finals, which took place at Seoul Olympic Stadium, and the endurance section of the eventing competitions, held at Wondang Ranch.\n\nAt Games time, the park was home to jumping and dressage competition areas, training fields, and a canter track. The venue for the 1987 Junior World Modern Pentathlon Championships, it was converted into a racetrack after the Games. It has two sand tracks and two sets of stables and is also home to a horse museum. A second main grandstand with a capacity of 42,000 was built in 2003. A popular venue, it stages some of the Republic of Korea's biggest horse races and offers other attractions such as pony riding, racing simulation machines and ice rinks in winter."
+            },
+            {
+              "name": "Wondang Ranch",
+              "classification": "New build",
+              "use": "Eventing",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Olympic Gymnastics Hall",
+              "classification": "New build",
+              "use": "Artistic gymnastics, rhythmic gymnastics, handball",
+              "status": "In use",
+              "information": "Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed."
+            },
+            {
+              "name": "Olympic Indoor Swimming Pool",
+              "classification": "New build",
+              "use": "Artistic swimming, water polo, modern pentathlon (swimming)",
+              "status": "In use",
+              "information": "One of six Olympic venues at Seoul's Olympic Park, the pool is a popular sports and leisure centre, welcoming over 4,000 users daily for recreational swimming and lessons. The venue's facilities include a fully equipped gymnasium and a multi-purpose indoor hall."
+            },
+            {
+              "name": "Olympic Tennis Courts",
+              "classification": "New build",
+              "use": "Tennis",
+              "status": "In use",
+              "information": "The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis."
+            },
+            {
+              "name": "Olympic Velodrome",
+              "classification": "New build",
+              "use": "Cycling (track)",
+              "status": "In use",
+              "information": "An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee."
+            },
+            {
+              "name": "Hanyang University Gymnasium",
+              "classification": "New build",
+              "use": "Volleyball",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Olympic Fencing Gymnasium",
+              "classification": "New build",
+              "use": "Fencing, modern pentathlon (fencing)",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Seoul National University Gymnasium",
+              "classification": "New build",
+              "use": "Table tennis",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Olympic Weightlifting Gymnasium",
+              "classification": "New build",
+              "use": "Weightlifting",
+              "status": "In use (repurposed)",
+              "information": ""
+            },
+            {
+              "name": "Seoul Olympic Village",
+              "classification": "New build",
+              "use": "Athlete accommodation",
+              "status": "In use",
+              "information": "Opened in 1988, just before the Games started, the Village had a capacity of 15,000. It was built on a site on the banks of the Han River, next to Seoul's Olympic Park, and comprises 86 buildings between six and 24 storeys high and 3,962 apartments. Its facilities at Games time included a bank, post office, laundrette, nightclub, theatre and religious centre. It was also home to an exhibition on Korean culture.\n\nThe Village helped regenerate a run-down part of Seoul. Its apartments were sold to private individuals before the Games and were refurbished before being handed over to their new owners. The apartments are still occupied today, and the Village is well served by public transport."
+            },
+            {
+              "name": "Han River Regatta Course",
+              "classification": "New build",
+              "use": "Rowing, canoe sprint",
+              "status": "In use",
+              "information": "This eight-lane course was first used at the 1986 Asian Games and was upgraded prior to hosting the Olympic rowing and canoe sprint competitions, when a new road to the venue was built and the drainage system improved. The venue is now mainly used for motorboat races and has been renamed the Misari Regatta Canoe and Motorboat Racing Park.\n\nIt is also used by the local community as a leisure park and stages cycling competitions, fun runs and triathlons. A setting for weddings, school excursions, picnics, sports festivals and private functions, its facilities include a football pitch, a jogging course, pedestrian and bicycle paths, and a children's nature education site. Water sports equipment is available to hire."
+            },
+            {
+              "name": "Sangmu Gymnasium",
+              "classification": "New build",
+              "use": "Wrestling",
+              "status": "Not in use (demolished)",
+              "information": "Located in the city of Seongnam near Seoul, it hosted the Olympic wrestling events in 1988. It was demolished in 2013, following the relocation of the Korea Armed Forces Athletic Corps, which owned and managed the site."
+            },
+            {
+              "name": "Suwon Gymnasium",
+              "classification": "New build",
+              "use": "Handball",
+              "status": "In use",
+              "information": ""
+            },
+            {
+              "name": "Hwarang Archery Field",
+              "classification": "Temporary",
+              "use": "Archery",
+              "status": "Dismantled (temporary)",
+              "information": ""
+            },
+            {
+              "name": "Tongil-ro Cycling Circuit",
+              "classification": "Temporary",
+              "use": "Cycling (road)",
+              "status": "Dismantled (temporary)",
+              "information": ""
+            },
+            {
+              "name": "Olympic Park Cross-Country Course",
+              "classification": "Temporary",
+              "use": "Modern pentathlon (running)",
+              "status": "Dismantled (temporary)",
+              "information": ""
+            }
+          ],
+          "trivia": "Seoul Olympic Park's six Olympic venues are the Olympic Fencing Gymnasium, Olympic Gymnastics Hall, Olympic Indoor Swimming Pool, Olympic Weightlifting Stadium, Olympic Velodrome and Olympic Tennis Courts.\n\nSeoul Olympic Stadium proved a major attraction before the 1988 Olympic Games even began, with 301,924 tourists visiting the venue in 1987. The oldest venue used at the 1988 Olympic Games, Dongdaemun Stadium, was refurbished three times between its construction in 1926 and the Games.\n\nThe Olympic Park is also an arts and cultural hub. Its Sculpture Garden has a rich and diverse collection of modern sculptures by artists from 66 countries, while the Seoul Olympic Museum recreates the spirit of the Seoul Olympic Games, offering a wide variety of exhibitions on sport and culture. The park is visited by 14,000 people a day."
+        },
+        "correctedKeys": [
+          "venues"
+        ]
+      },
+      "original": "<scratchpad>\nComparing the JSON data with the PDF content, I notice several discrepancies:\n\n1. The JSON only includes 12 venues, but the PDF shows 30 competition venues total\n2. The JSON is missing many venues that are listed in the PDF tables\n\nMissing venues from JSON that appear in PDF:\n- Jamsil Gymnasium (Existing, Volleyball, In use)\n- Jamsil Students' Gymnasium (Existing, Boxing, In use)  \n- Changchung Gymnasium (Existing, Judo/taekwondo, In use)\n- Taenung International Shooting Range (Existing, Shooting/modern pentathlon, In use)\n- Pusan Stadium (Existing, Football, In use)\n- Pusan Yachting Center (Existing, Sailing, In use)\n- Taegu Stadium (Existing, Football, In use rebuilt)\n- Taejon Stadium (Existing, Football, In use)\n- Kwangju Stadium (Existing, Football, In use)\n- Saemaul Sports Hall (Existing, Volleyball, In use)\n- Wondang Ranch (New build, Eventing, In use)\n- Hanyang University Gymnasium (New build, Volleyball, In use)\n- Olympic Fencing Gymnasium (New build, Fencing/modern pentathlon, In use)\n- Seoul National University Gymnasium (New build, Table tennis, In use)\n- Olympic Weightlifting Gymnasium (New build, Weightlifting, In use repurposed)\n- Suwon Gymnasium (New build, Handball, In use)\n- Hwarang Archery Field (Temporary, Archery, Dismantled)\n- Tongil-ro Cycling Circuit (Temporary, Cycling road, Dismantled)\n- Olympic Park Cross-Country Course (Temporary, Modern pentathlon running, Dismantled)\n\nThe overview, trivia, and the venues that are included appear accurate based on the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n\"status\":\"found\",\n\"city\":\"Seoul\",\n\"year\":\"1988\",\n\"overview\":\"Thirty competition venues were used for the Olympic Games Seoul 1988, 25 of which remain in use today and cater for a range of sports, cultural, educational, leisure and entertainment activities. Fourteen of the competition venues were existing, 13 were new and three were temporary. All the temporary venues have been dismantled. Two of the permanent venues have been demolished.\\n\\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. The Olympic Village was built for the Games. Both remain in use.\",\n\"venues\":[\n{\"name\":\"Olympic Stadium\",\"classification\":\"Existing\",\"use\":\"Athletics, football, equestrian (jumping), Opening and Closing Ceremonies\",\"status\":\"In use\",\"information\":\"The stadium was first used for the 1986 Asian Games. It lies within the Chamshil Complex, which is home to four other venues used at the 1988 Olympic Games: Chamshil Baseball Stadium, Chamshil Gymnasium, Chamshil Indoor Swimming Pool and Chamshil Students' Gymnasium. Since the Games, the stadium's capacity has been reduced from 100,000 to 69,500.\\n\\nUsed regularly by the South Korean national football team, it has been the home ground of football club Seoul E-Land since 2015 and stages the finish of the Seoul International Marathon. A major concert, opera and festival venue, it also hosted the Seoul Design Olympiad in 2008 and 2009. The sports complex is currently being redeveloped. As part of the project, which is due for completion in 2025, the Olympic Stadium will be refurbished and have its capacity further reduced to 50,000.\"},\n{\"name\":\"Jamsil Indoor Swimming Pool\",\"classification\":\"Existing\",\"use\":\"Diving, water polo\",\"status\":\"In use\",\"information\":\"Part of the Chamshil Complex, it was completed in 1980 and refurbished before the Games and again in 2011, when a lift was installed for its many elderly users. Open to the public, it is now mainly a recreational aquatic sports venue, though it has hosted some national and local swimming competitions.\"},\n{\"name\":\"Jamsil Gymnasium\",\"classification\":\"Existing\",\"use\":\"Volleyball\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Jamsil Students' Gymnasium\",\"classification\":\"Existing\",\"use\":\"Boxing\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Changchung Gymnasium\",\"classification\":\"Existing\",\"use\":\"Judo, taekwondo\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Taenung International Shooting Range\",\"classification\":\"Existing\",\"use\":\"Shooting, modern pentathlon (shooting)\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Tongdaemun Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"Not in use (demolished)\",\"information\":\"This multi-purpose stadium was formerly the home of the Republic of Korea's national football team and staged its last international match in 2000. It was also the home ground of Seongnam FC between 1989 and 1995, when the club was known as Ilhwa Chunma. The stadium was demolished in 2008 to make way for the Dongdaemun Design Plaza and Park.\"},\n{\"name\":\"Seongnam Stadium\",\"classification\":\"Existing\",\"use\":\"Hockey\",\"status\":\"In use\",\"information\":\"Completed in 1984, this 27,000-seater multi-purpose stadium has a running track and is mainly used for football. It was the home of Seongnam FC until 2004. It has not staged any hockey matches since the 1988 Olympic Games. The venue forms part of the Seongnam Sports Complex, which was built in 1997 and also has football pitches, a volleyball court and a hockey pitch.\"},\n{\"name\":\"Pusan Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Pusan Yachting Center\",\"classification\":\"Existing\",\"use\":\"Sailing\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Taegu Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use (rebuilt)\",\"information\":\"\"},\n{\"name\":\"Taejon Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Kwangju Stadium\",\"classification\":\"Existing\",\"use\":\"Football\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Saemaul Sports Hall\",\"classification\":\"Existing\",\"use\":\"Volleyball\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Seoul Equestrian Park\",\"classification\":\"New build\",\"use\":\"Jumping, dressage, eventing, modern pentathlon (equestrian)\",\"status\":\"In use\",\"information\":\"Completed in 1986, the venue hosted all the Olympic equestrian events except for the individual and team jumping finals, which took place at Seoul Olympic Stadium, and the endurance section of the eventing competitions, held at Wondang Ranch.\\n\\nAt Games time, the park was home to jumping and dressage competition areas, training fields, and a canter track. The venue for the 1987 Junior World Modern Pentathlon Championships, it was converted into a racetrack after the Games. It has two sand tracks and two sets of stables and is also home to a horse museum. A second main grandstand with a capacity of 42,000 was built in 2003. A popular venue, it stages some of the Republic of Korea's biggest horse races and offers other attractions such as pony riding, racing simulation machines and ice rinks in winter.\"},\n{\"name\":\"Wondang Ranch\",\"classification\":\"New build\",\"use\":\"Eventing\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Olympic Gymnastics Hall\",\"classification\":\"New build\",\"use\":\"Artistic gymnastics, rhythmic gymnastics, handball\",\"status\":\"In use\",\"information\":\"Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed.\"},\n{\"name\":\"Olympic Indoor Swimming Pool\",\"classification\":\"New build\",\"use\":\"Artistic swimming, water polo, modern pentathlon (swimming)\",\"status\":\"In use\",\"information\":\"One of six Olympic venues at Seoul's Olympic Park, the pool is a popular sports and leisure centre, welcoming over 4,000 users daily for recreational swimming and lessons. The venue's facilities include a fully equipped gymnasium and a multi-purpose indoor hall.\"},\n{\"name\":\"Olympic Tennis Courts\",\"classification\":\"New build\",\"use\":\"Tennis\",\"status\":\"In use\",\"information\":\"The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis.\"},\n{\"name\":\"Olympic Velodrome\",\"classification\":\"New build\",\"use\":\"Cycling (track)\",\"status\":\"In use\",\"information\":\"An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee.\"},\n{\"name\":\"Hanyang University Gymnasium\",\"classification\":\"New build\",\"use\":\"Volleyball\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Olympic Fencing Gymnasium\",\"classification\":\"New build\",\"use\":\"Fencing, modern pentathlon (fencing)\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Seoul National University Gymnasium\",\"classification\":\"New build\",\"use\":\"Table tennis\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Olympic Weightlifting Gymnasium\",\"classification\":\"New build\",\"use\":\"Weightlifting\",\"status\":\"In use (repurposed)\",\"information\":\"\"},\n{\"name\":\"Seoul Olympic Village\",\"classification\":\"New build\",\"use\":\"Athlete accommodation\",\"status\":\"In use\",\"information\":\"Opened in 1988, just before the Games started, the Village had a capacity of 15,000. It was built on a site on the banks of the Han River, next to Seoul's Olympic Park, and comprises 86 buildings between six and 24 storeys high and 3,962 apartments. Its facilities at Games time included a bank, post office, laundrette, nightclub, theatre and religious centre. It was also home to an exhibition on Korean culture.\\n\\nThe Village helped regenerate a run-down part of Seoul. Its apartments were sold to private individuals before the Games and were refurbished before being handed over to their new owners. The apartments are still occupied today, and the Village is well served by public transport.\"},\n{\"name\":\"Han River Regatta Course\",\"classification\":\"New build\",\"use\":\"Rowing, canoe sprint\",\"status\":\"In use\",\"information\":\"This eight-lane course was first used at the 1986 Asian Games and was upgraded prior to hosting the Olympic rowing and canoe sprint competitions, when a new road to the venue was built and the drainage system improved. The venue is now mainly used for motorboat races and has been renamed the Misari Regatta Canoe and Motorboat Racing Park.\\n\\nIt is also used by the local community as a leisure park and stages cycling competitions, fun runs and triathlons. A setting for weddings, school excursions, picnics, sports festivals and private functions, its facilities include a football pitch, a jogging course, pedestrian and bicycle paths, and a children's nature education site. Water sports equipment is available to hire.\"},\n{\"name\":\"Sangmu Gymnasium\",\"classification\":\"New build\",\"use\":\"Wrestling\",\"status\":\"Not in use (demolished)\",\"information\":\"Located in the city of Seongnam near Seoul, it hosted the Olympic wrestling events in 1988. It was demolished in 2013, following the relocation of the Korea Armed Forces Athletic Corps, which owned and managed the site.\"},\n{\"name\":\"Suwon Gymnasium\",\"classification\":\"New build\",\"use\":\"Handball\",\"status\":\"In use\",\"information\":\"\"},\n{\"name\":\"Hwarang Archery Field\",\"classification\":\"Temporary\",\"use\":\"Archery\",\"status\":\"Dismantled (temporary)\",\"information\":\"\"},\n{\"name\":\"Tongil-ro Cycling Circuit\",\"classification\":\"Temporary\",\"use\":\"Cycling (road)\",\"status\":\"Dismantled (temporary)\",\"information\":\"\"},\n{\"name\":\"Olympic Park Cross-Country Course\",\"classification\":\"Temporary\",\"use\":\"Modern pentathlon (running)\",\"status\":\"Dismantled (temporary)\",\"information\":\"\"}\n],\n\"trivia\":\"Seoul Olympic Park's six Olympic venues are the Olympic Fencing Gymnasium, Olympic Gymnastics Hall, Olympic Indoor Swimming Pool, Olympic Weightlifting Stadium, Olympic Velodrome and Olympic Tennis Courts.\\n\\nSeoul Olympic Stadium proved a major attraction before the 1988 Olympic Games even began, with 301,924 tourists visiting the venue in 1987. The oldest venue used at the 1988 Olympic Games, Dongdaemun Stadium, was refurbished three times between its construction in 1926 and the Games.\\n\\nThe Olympic Park is also an arts and cultural hub. Its Sculpture Garden has a rich and diverse collection of modern sculptures by artists from 66 countries, while the Seoul Olympic Museum recreates the spirit of the Seoul Olympic Games, offering a wide variety of exhibitions on sport and culture. The park is visited by 14,000 people a day.\"\n},\n\"correctedKeys\": [\"venues\"]\n}\n</response>"
+    }
+  }
+]

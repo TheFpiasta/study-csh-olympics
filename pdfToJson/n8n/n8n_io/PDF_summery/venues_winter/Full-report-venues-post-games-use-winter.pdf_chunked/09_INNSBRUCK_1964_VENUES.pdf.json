@@ -1,0 +1,93 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Innsbruck",
+        "year": "1964",
+        "overview": "Nine competition venues were used for the Olympic Winter Games Innsbruck 1964. All of them are still in use today, benefitting the local population and high-performance athletes alike, and also attracting visitors to the city and region.\n\nFour of the competition venues were existing sites. The other five were built for the Games. All nine of the venues were used again at the Olympic Winter Games Innsbruck 1976, with six of them hosting Olympic events for a third time at the 2012 Winter Youth Olympic Games: Bergisel Ski Jump; the Olympiaworld Olympic Ice Track, Outdoor Ice Rink and Olympia Hall; and \"Olympiaregion\" Seefeld and Patscherkofel.\n\nAn existing venue, Bergisel Ski Jump, staged the Opening Ceremony, while the newly built Innsbruck Olympic Ice Stadium hosted the Closing Ceremony. Both are still in use. An Olympic Village was also built for the Games.",
+        "venues": [
+          {
+            "name": "Bergisel Ski Jump (Bergiselschanze)",
+            "classification": "Existing",
+            "use": "Ski jumping, Opening Ceremony",
+            "status": "In use",
+            "information": "One of the world's leading ski jumping venues and a popular tourist attraction. A ski jumping site since 1927, when a wooden jump was erected, it was upgraded for the 1964 Olympic Winter Games. Parts of the Bergisel site are protected by cultural heritage status.\n\nThe location for the Opening Ceremony at Innsbruck 1964, the Bergiselschanze is the venue for the third round of the world-famous annual Four Hills Tournament, which is held in early January and attracts sell-out crowds of 28,000. The hill also hosted the ski jumping events at the 1985 and 2019 Nordic World Ski Championships and the inaugural Winter Youth Olympic Games in 2012, when it again staged the Opening Ceremony.\n\nFormerly a regular stop on the summertime FIS Ski Jumping Grand Prix tour, the Bergiselschanze is a year-round ski jumping training centre used by Austria's national ski jumping team, other national teams from around the world, and three local ski clubs. The venue plays host to other winter sports such as snowboarding and freestyle skiing. Its spectator area is used as an open-air theatre in the summer and hosted the Innsbruck Fan Zone at UEFA Euro 2008."
+          },
+          {
+            "name": "Messehalle (Indoor Skating Rink)",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Rebuilt in 2011, Congress Messe Innsbruck hosts major medical conferences and Interalpin, the world's leading trade fair for Alpine technologies. The venue, which has helped make Innsbruck a leading business, trade show and conference hub, also organises concerts and art exhibitions."
+          },
+          {
+            "name": "Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "Austria's only outdoor speed-skating rink, the Olympia Eisschnellaufbahn is also part of the city's Olympiaworld complex, which was the Olympic Park at both Innsbruck 1964 and 1976. It is a training centre for Austria's speed skating teams, and is also used for ice skating competitions and recreational skating for the general public and schoolchildren. In summer, it is an inline hockey venue, and it also stages concerts."
+          },
+          {
+            "name": "Olympic Ice Stadium",
+            "classification": "New build",
+            "use": "Figure skating, ice hockey, Closing Ceremony",
+            "status": "In use",
+            "information": "Part of the Olympiaworld complex and now known as the Olympiahalle, this multi-sports venue stages ice hockey matches and figure skating events, and hosted matches of the 2010 European Handball Championships and the 2011 European Volleyball Championships. It is also used extensively by the local community."
+          },
+          {
+            "name": "Innsbruck Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The Olympic Village helped alleviate the city's post-Second World War housing shortage, with apartments made available to local residents after the Games, as planned. Still known locally as the O-Dorf, it comprises accommodation built for the 1976 Olympic Winter Games and is currently home to around 7,000 people of over 50 nationalities. It is well served by the city's public transport network, and its amenities include nurseries, schools, sports and cultural clubs, health clinics, shops, an indoor swimming pool, and a recently built five-floor nursing home."
+          },
+          {
+            "name": "Seefeld",
+            "classification": "Existing",
+            "use": "Biathlon, cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "Boasting over 250km of cross-country skiing trails, Seefeld continues to attract Nordic sport athletes of all ages and abilities and was the venue for 2019 FIS Nordic World Ski Championships."
+          },
+          {
+            "name": "Toni Seelos Schanze (Olympiaschanze)",
+            "classification": "Existing",
+            "use": "Nordic combined",
+            "status": "In use",
+            "information": "The Tirol region's other Olympic ski jumping venue, situated in Seefeld, is home to two hills, which are used by ski jumpers of all ages and abilities."
+          },
+          {
+            "name": "Patscherkofel",
+            "classification": "New build",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The venue for the men's downhill at Innsbruck 1964, the resort can be reached from Innsbruck by cable car and is a popular weekend retreat for the city's inhabitants. Now known as Igls Ski Resort, it offers a wide range of winter and summer activities."
+          },
+          {
+            "name": "Axamer Lizum",
+            "classification": "New build",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "A small but thriving ski resort, Axamer Lizum was an underdeveloped site prior to the 1964 Olympic Winter Games, in preparation for which a hotel, roads, a car park and new chairlifts were built. It has since built up a reputation for delivering consistently good conditions, and attracts skiers and snowboarders of all ages. One of Austria's snowiest resorts, it is served by 10 cable cars and lifts and has around 40 kilometres of groomed slopes, some of which are named after the Olympic races they hosted in 1964. It is also the training centre of the Tyrolean Ski Instructors' Association."
+          },
+          {
+            "name": "Bobbahn und Rodelbahn Igls",
+            "classification": "New build",
+            "use": "Bobsleigh, luge",
+            "status": "In use",
+            "information": "The venue has hosted six major world championships since 1964 and is a popular tourist attraction in both winter and summer, offering visitors Olympic track sliding experiences. Separate bobsleigh and luge tracks were used at Innsbruck 1964 before being replaced with a combined, artificially refrigerated track for the 1976 Games, which remains in place. Part of the Olympiaworld umbrella brand, the Olympia Eiskanal Innsbruck is the training base of the Austrian Bobsleigh and Skeleton Federation."
+          }
+        ],
+        "trivia": "The resort of Axamer Lizum is known as Innsbruck's White Roof, a reference to the city's famous Golden Roof landmark.\n\nIn 1988, the spectator area at the Bergiselschanze hosted a mass given by Pope John Paul II, an event that attracted 60,000 people.\n\nThe 14 bends of the Olympic Ice Track include the famous 270-degree banked Kreisel corner, where bobsleighers and lugers are subjected to 1.5 g-force.\n\nSome 689 apartments were built at the Olympic Village for Innsbruck 1964, with a further 642 being added for Innsbruck 1976. Housing was in short supply in the city for many years after the Second World War. More than half of the city's residential buildings were destroyed during the conflict, and the effects of this devastation were still a major issue as late as the 1960s."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Innsbruck\",\n  \"year\": \"1964\",\n  \"overview\": \"Nine competition venues were used for the Olympic Winter Games Innsbruck 1964. All of them are still in use today, benefitting the local population and high-performance athletes alike, and also attracting visitors to the city and region.\\n\\nFour of the competition venues were existing sites. The other five were built for the Games. All nine of the venues were used again at the Olympic Winter Games Innsbruck 1976, with six of them hosting Olympic events for a third time at the 2012 Winter Youth Olympic Games: Bergisel Ski Jump; the Olympiaworld Olympic Ice Track, Outdoor Ice Rink and Olympia Hall; and \\\"Olympiaregion\\\" Seefeld and Patscherkofel.\\n\\nAn existing venue, Bergisel Ski Jump, staged the Opening Ceremony, while the newly built Innsbruck Olympic Ice Stadium hosted the Closing Ceremony. Both are still in use. An Olympic Village was also built for the Games.\",\n  \"venues\": [\n    {\n      \"name\": \"Bergisel Ski Jump (Bergiselschanze)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ski jumping, Opening Ceremony\",\n      \"status\": \"In use\",\n      \"information\": \"One of the world's leading ski jumping venues and a popular tourist attraction. A ski jumping site since 1927, when a wooden jump was erected, it was upgraded for the 1964 Olympic Winter Games. Parts of the Bergisel site are protected by cultural heritage status.\\n\\nThe location for the Opening Ceremony at Innsbruck 1964, the Bergiselschanze is the venue for the third round of the world-famous annual Four Hills Tournament, which is held in early January and attracts sell-out crowds of 28,000. The hill also hosted the ski jumping events at the 1985 and 2019 Nordic World Ski Championships and the inaugural Winter Youth Olympic Games in 2012, when it again staged the Opening Ceremony.\\n\\nFormerly a regular stop on the summertime FIS Ski Jumping Grand Prix tour, the Bergiselschanze is a year-round ski jumping training centre used by Austria's national ski jumping team, other national teams from around the world, and three local ski clubs. The venue plays host to other winter sports such as snowboarding and freestyle skiing. Its spectator area is used as an open-air theatre in the summer and hosted the Innsbruck Fan Zone at UEFA Euro 2008.\"\n    },\n    {\n      \"name\": \"Messehalle (Indoor Skating Rink)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Rebuilt in 2011, Congress Messe Innsbruck hosts major medical conferences and Interalpin, the world's leading trade fair for Alpine technologies. The venue, which has helped make Innsbruck a leading business, trade show and conference hub, also organises concerts and art exhibitions.\"\n    },\n    {\n      \"name\": \"Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Austria's only outdoor speed-skating rink, the Olympia Eisschnellaufbahn is also part of the city's Olympiaworld complex, which was the Olympic Park at both Innsbruck 1964 and 1976. It is a training centre for Austria's speed skating teams, and is also used for ice skating competitions and recreational skating for the general public and schoolchildren. In summer, it is an inline hockey venue, and it also stages concerts.\"\n    },\n    {\n      \"name\": \"Olympic Ice Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Figure skating, ice hockey, Closing Ceremony\",\n      \"status\": \"In use\",\n      \"information\": \"Part of the Olympiaworld complex and now known as the Olympiahalle, this multi-sports venue stages ice hockey matches and figure skating events, and hosted matches of the 2010 European Handball Championships and the 2011 European Volleyball Championships. It is also used extensively by the local community.\"\n    },\n    {\n      \"name\": \"Innsbruck Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The Olympic Village helped alleviate the city's post-Second World War housing shortage, with apartments made available to local residents after the Games, as planned. Still known locally as the O-Dorf, it comprises accommodation built for the 1976 Olympic Winter Games and is currently home to around 7,000 people of over 50 nationalities. It is well served by the city's public transport network, and its amenities include nurseries, schools, sports and cultural clubs, health clinics, shops, an indoor swimming pool, and a recently built five-floor nursing home.\"\n    },\n    {\n      \"name\": \"Seefeld\",\n      \"classification\": \"Existing\",\n      \"use\": \"Biathlon, cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Boasting over 250km of cross-country skiing trails, Seefeld continues to attract Nordic sport athletes of all ages and abilities and was the venue for 2019 FIS Nordic World Ski Championships.\"\n    },\n    {\n      \"name\": \"Toni Seelos Schanze (Olympiaschanze)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"The Tirol region's other Olympic ski jumping venue, situated in Seefeld, is home to two hills, which are used by ski jumpers of all ages and abilities.\"\n    },\n    {\n      \"name\": \"Patscherkofel\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The venue for the men's downhill at Innsbruck 1964, the resort can be reached from Innsbruck by cable car and is a popular weekend retreat for the city's inhabitants. Now known as Igls Ski Resort, it offers a wide range of winter and summer activities.\"\n    },\n    {\n      \"name\": \"Axamer Lizum\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"A small but thriving ski resort, Axamer Lizum was an underdeveloped site prior to the 1964 Olympic Winter Games, in preparation for which a hotel, roads, a car park and new chairlifts were built. It has since built up a reputation for delivering consistently good conditions, and attracts skiers and snowboarders of all ages. One of Austria's snowiest resorts, it is served by 10 cable cars and lifts and has around 40 kilometres of groomed slopes, some of which are named after the Olympic races they hosted in 1964. It is also the training centre of the Tyrolean Ski Instructors' Association.\"\n    },\n    {\n      \"name\": \"Bobbahn und Rodelbahn Igls\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge\",\n      \"status\": \"In use\",\n      \"information\": \"The venue has hosted six major world championships since 1964 and is a popular tourist attraction in both winter and summer, offering visitors Olympic track sliding experiences. Separate bobsleigh and luge tracks were used at Innsbruck 1964 before being replaced with a combined, artificially refrigerated track for the 1976 Games, which remains in place. Part of the Olympiaworld umbrella brand, the Olympia Eiskanal Innsbruck is the training base of the Austrian Bobsleigh and Skeleton Federation.\"\n    }\n  ],\n  \"trivia\": \"The resort of Axamer Lizum is known as Innsbruck's White Roof, a reference to the city's famous Golden Roof landmark.\\n\\nIn 1988, the spectator area at the Bergiselschanze hosted a mass given by Pope John Paul II, an event that attracted 60,000 people.\\n\\nThe 14 bends of the Olympic Ice Track include the famous 270-degree banked Kreisel corner, where bobsleighers and lugers are subjected to 1.5 g-force.\\n\\nSome 689 apartments were built at the Olympic Village for Innsbruck 1964, with a further 642 being added for Innsbruck 1976. Housing was in short supply in the city for many years after the Second World War. More than half of the city's residential buildings were destroyed during the conflict, and the effects of this devastation were still a major issue as late as the 1960s.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data against the PDF content systematically:\n\n**City and Year:**\n- JSON: \"Innsbruck\", \"1964\"\n- PDF: \"INNSBRUCK 1964 VENUES\" ✓\n\n**Overview:**\n- JSON overview matches the PDF overview on page 1 word-for-word ✓\n\n**Venues - checking each one:**\n\n1. Bergisel Ski Jump (Bergiselschanze) - Existing, Ski jumping/Opening Ceremony, In use ✓\n2. Messehalle (Indoor Skating Rink) - Existing, Ice hockey, In use ✓\n3. Olympic Speed Skating Oval - New build, Speed skating, In use ✓\n4. Olympic Ice Stadium - New build, Figure skating/ice hockey/Closing Ceremony, In use ✓\n5. Innsbruck Olympic Village - New build, Athlete accommodation, In use ✓\n6. Seefeld - Existing, Biathlon/cross-country skiing/Nordic combined, In use ✓\n7. Toni Seelos Schanze - Existing, Nordic combined, In use ✓\n8. Patscherkofel - New build, Alpine skiing, In use ✓\n9. Axamer Lizum - New build, Alpine skiing, In use ✓\n10. Bobbahn und Rodelbahn Igls - New build, Bobsleigh/luge, In use ✓\n\n**Information sections:**\nAll detailed information for each venue matches the corresponding content in the PDF pages 3-4.\n\n**Trivia:**\nThe trivia section matches the \"DID YOU KNOW?\" section on page 5.\n\nAll data appears to be accurate and matches the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

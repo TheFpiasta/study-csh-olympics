@@ -1,0 +1,24 @@
+{
+  "pdfsDir": "PDF_summery/venues_summer",
+  "regexOverToc": "^(.*[(18,19,20)][0-9]{2} (.*)VENUES)$",
+  "extractionPromptPath": "PDF_summery/summery-extraction.txt",
+  "validationPromptPath": "PDF_summery/summery-validation.txt",
+  "startChunkCountBy": 1,
+
+  "anthropic": {
+    "url": "https://api.anthropic.com/v1/complete",
+    "key": "sk-ant-xxx",
+    "model": "claude-sonnet-4-20250514",
+    "temperature": 1,
+    "maxTokens": 20000,
+    "thinking": {
+      "type": "enabled",
+      "budget_tokens": 16000
+    }
+  },
+
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/xxx/xxx"
+  }
+}

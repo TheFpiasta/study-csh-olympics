@@ -1,0 +1,107 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Amsterdam",
+        "year": "1928",
+        "overview": "Twelve competition venues were used for the Olympic Games Amsterdam 1928, four of which remain in use today. Two of the venues still in use are bodies of water.\n\nSeven of the competition venues were existing, one was new and four were temporary. Along with the temporary venues, three of the existing venues have been dismantled and one is not in use.\n\nThe Olympic Stadium, which has been refurbished, hosted the Opening and Closing Ceremonies and several of the competitions and is now used for high-performance and grassroots track and field events. There was no official Olympic Village.",
+        "venues": [
+          {
+            "name": "Old Stadium, Het Nederlandsch Sportpark",
+            "classification": "Existing",
+            "use": "Football, hockey",
+            "status": "Not in use (demolished)",
+            "information": "Built in 1912, the Old Stadium was the Netherlands' first sports stadium. Prior to the construction of the Olympic Stadium for the 1928 Games, it was also the main sports facility in the country and the capital, hosting more than 25 of the Dutch national football team's home matches. It was also the venue for Dutch domestic cup finals. Following its replacement by the Olympic Stadium, it was demolished in 1929 to make way for the Zuid-Oost housing project."
+          },
+          {
+            "name": "Zeeburg Rifle Range",
+            "classification": "Existing",
+            "use": "Modern pentathlon (shooting)",
+            "status": "Not in use (demolished)",
+            "information": "The Official Report of the Olympic Games Amsterdam 1928 states that an \"improvised\" pistol range was set up at the venue's machine gun range to host the shooting round of the modern pentathlon competition only (shooting was not on the programme at Amsterdam 1928). The range is no longer in existence."
+          },
+          {
+            "name": "Sloten Canal",
+            "classification": "Existing",
+            "use": "Rowing",
+            "status": "In use",
+            "information": "A straight course measuring 3,000 metres long was marked out on this waterway, situated in south-west Amsterdam. The canal was so narrow, however, that it was able to accommodate only two boats at a time, which meant more preliminary races had to be held than is usually the case. It continues to form part of the Dutch capital's extensive network of canals."
+          },
+          {
+            "name": "Zuiderzee",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "Not in use",
+            "information": "One of two sailing venues used at Amsterdam 1928, it hosted the two largest boat classes. Shortly after the Games, a dam was built across the Zuiderzee to separate it into the outer Waddenzee, which is open to the North Sea, and the inner Ijsselmeer, a freshwater lake named after the river that empties into it."
+          },
+          {
+            "name": "Buiten-IJ",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "Located north-east of the city centre, and the second body of water used for sailing competitions at the Olympic Games Amsterdam 1928, it hosted the single-handed Olympic monotype class. It also staged the 12-foot dinghy competition at the Olympic Games Antwerp 1920. The area is now part of the port of Amsterdam, the fourth busiest in Europe."
+          },
+          {
+            "name": "Amsterdam Olympic Stadium",
+            "classification": "New build",
+            "use": "Equestrian (jumping), athletics, football, gymnastics, track cycling",
+            "status": "In use",
+            "information": "Refurbished in 2000 and now a 22,500-capacity multi-use venue, the Olympic Stadium was the venue for the 2016 European Athletics Championships and hosts concerts and other sporting events, such as the annual Amsterdam Marathon (start and finish) and Olympic Moves, the largest secondary school sports competition in the Netherlands. The venue attracts around 1.4 million visitors a year and will host the opening and closing ceremonies of the 2023 World Gymnaestrada, a non-competition event organised by the International Gymnastics Federation. Over 30 companies and organisations have their offices at the stadium, including the Johan Cruyff Foundation.\n\nBuilt for the Games, the stadium was designed to host a number of different events, including football, athletics and cycling. It was regularly used as a football venue after the Games, staging the 1962 European Cup Final between Benfica and Real Madrid and, between 1934 and 1996, European club competition ties involving AFC Ajax. When the city council drew up plans for the stadium's demolition in the late 1980s, a campaign was organised to save it and ultimately led to it being listed as a national monument."
+          },
+          {
+            "name": "Amsterdam - The Hague Road Race Course",
+            "classification": "Temporary",
+            "use": "Road cycling",
+            "status": "Dismantled (temporary)",
+            "information": "Some of the roads were repaired and marked out in preparation for the race. A map is available on p. 164 of the Official Report."
+          },
+          {
+            "name": "Boxing/Wrestling Pavilion",
+            "classification": "Temporary",
+            "use": "Boxing, wrestling, weightlifting",
+            "status": "Dismantled (temporary)",
+            "information": "This was one of two semi-permanent constructions (the other being the Fencing Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, which had a capacity of approximately 4,500 (seated and standing), was removed after the Games. The site is now occupied by a building that houses a number of different businesses."
+          },
+          {
+            "name": "Fencing Pavilion",
+            "classification": "Temporary",
+            "use": "Fencing, modern pentathlon (fencing)",
+            "status": "Dismantled (temporary)",
+            "information": "This was one of two semi-permanent constructions (the other being the Boxing/Wrestling Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, the sides of which were almost entirely glassed in, was removed after the Games. The site is now occupied by a building that houses a number of different businesses."
+          },
+          {
+            "name": "Olympic Sports Park Swim Stadium",
+            "classification": "Temporary",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "Dismantled (temporary)",
+            "information": "With a view to keeping costs low, the stadium was designed to be used for a few weeks only. The pool itself was made of reinforced concrete and measured 50 metres long and 18 metres wide. Stands were erected on both sides and accommodated several thousand spectators. The stadium was dismantled, as planned, immediately after the Games."
+          },
+          {
+            "name": "Municipal Sports Park, Hilversum",
+            "classification": "Existing",
+            "use": "Equestrian (dressage and eventing), modern pentathlon (running)",
+            "status": "In use",
+            "information": "Built in 1919, it was used as an equestrian and modern pentathlon venue at Amsterdam 1928. The stadium's monumental grandstand has been fully refurbished twice since then – most recently in 2010 – though the trotting track and director's building have both been dismantled. The stadium is used by a local athletics club, local schools for PE lessons, and the sports retailer Nike, which has its European headquarters close by."
+          },
+          {
+            "name": "Amersfoort",
+            "classification": "Existing",
+            "use": "Modern pentathlon (equestrian)",
+            "status": "Not in use (demolished)",
+            "information": "Though the Official Report of the Olympic Games Amsterdam 1928 does not state the exact venue of the modern pentathlon equestrian event, the horses were stabled at what was known as the Riding House. Amersfoort, which is 52km south-east of Amsterdam, is now home to a number of riding schools and academies."
+          }
+        ],
+        "trivia": "For the first time in the modern era, the Olympic flame was lit at Amsterdam 1928. It burned for the duration of the Games in a cauldron at the top of the Olympic Stadium's Marathon Tower – the start of a tradition that has continued ever since.\n\nThe original Marathon Tower still stands today. At 42.19 metres tall, it is exactly the same height in metres as the distance of a marathon in kilometres.\n\nThe Olympic Stadium was built in the Amsterdam School style, as was the Municipal Sports Park in Hilversum. The style is characterised by the use of brick for structure and design, rounded elements and decorative masonry, among other features.\n\nThe streets and areas around the Olympic Stadium have sport- and Olympic-themed names: Olympiaplein (Olympic Square), Marathonstraat (Marathon Street), Olympiaweg (Olympic Way), Discusstraat (Discus Street) and Sportstraat (Sport Street) among them. Beyond lie other streets named after Greek deities and mythological figures such as Artemis, Aphrodite, Eos and Heracles."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Amsterdam\",\n  \"year\": \"1928\",\n  \"overview\": \"Twelve competition venues were used for the Olympic Games Amsterdam 1928, four of which remain in use today. Two of the venues still in use are bodies of water.\\n\\nSeven of the competition venues were existing, one was new and four were temporary. Along with the temporary venues, three of the existing venues have been dismantled and one is not in use.\\n\\nThe Olympic Stadium, which has been refurbished, hosted the Opening and Closing Ceremonies and several of the competitions and is now used for high-performance and grassroots track and field events. There was no official Olympic Village.\",\n  \"venues\": [\n    {\n      \"name\": \"Old Stadium, Het Nederlandsch Sportpark\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football, hockey\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Built in 1912, the Old Stadium was the Netherlands' first sports stadium. Prior to the construction of the Olympic Stadium for the 1928 Games, it was also the main sports facility in the country and the capital, hosting more than 25 of the Dutch national football team's home matches. It was also the venue for Dutch domestic cup finals. Following its replacement by the Olympic Stadium, it was demolished in 1929 to make way for the Zuid-Oost housing project.\"\n    },\n    {\n      \"name\": \"Zeeburg Rifle Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (shooting)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The Official Report of the Olympic Games Amsterdam 1928 states that an \\\"improvised\\\" pistol range was set up at the venue's machine gun range to host the shooting round of the modern pentathlon competition only (shooting was not on the programme at Amsterdam 1928). The range is no longer in existence.\"\n    },\n    {\n      \"name\": \"Sloten Canal\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"A straight course measuring 3,000 metres long was marked out on this waterway, situated in south-west Amsterdam. The canal was so narrow, however, that it was able to accommodate only two boats at a time, which meant more preliminary races had to be held than is usually the case. It continues to form part of the Dutch capital's extensive network of canals.\"\n    },\n    {\n      \"name\": \"Zuiderzee\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"Not in use\",\n      \"information\": \"One of two sailing venues used at Amsterdam 1928, it hosted the two largest boat classes. Shortly after the Games, a dam was built across the Zuiderzee to separate it into the outer Waddenzee, which is open to the North Sea, and the inner Ijsselmeer, a freshwater lake named after the river that empties into it.\"\n    },\n    {\n      \"name\": \"Buiten-IJ\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"Located north-east of the city centre, and the second body of water used for sailing competitions at the Olympic Games Amsterdam 1928, it hosted the single-handed Olympic monotype class. It also staged the 12-foot dinghy competition at the Olympic Games Antwerp 1920. The area is now part of the port of Amsterdam, the fourth busiest in Europe.\"\n    },\n    {\n      \"name\": \"Amsterdam Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Equestrian (jumping), athletics, football, gymnastics, track cycling\",\n      \"status\": \"In use\",\n      \"information\": \"Refurbished in 2000 and now a 22,500-capacity multi-use venue, the Olympic Stadium was the venue for the 2016 European Athletics Championships and hosts concerts and other sporting events, such as the annual Amsterdam Marathon (start and finish) and Olympic Moves, the largest secondary school sports competition in the Netherlands. The venue attracts around 1.4 million visitors a year and will host the opening and closing ceremonies of the 2023 World Gymnaestrada, a non-competition event organised by the International Gymnastics Federation. Over 30 companies and organisations have their offices at the stadium, including the Johan Cruyff Foundation.\\n\\nBuilt for the Games, the stadium was designed to host a number of different events, including football, athletics and cycling. It was regularly used as a football venue after the Games, staging the 1962 European Cup Final between Benfica and Real Madrid and, between 1934 and 1996, European club competition ties involving AFC Ajax. When the city council drew up plans for the stadium's demolition in the late 1980s, a campaign was organised to save it and ultimately led to it being listed as a national monument.\"\n    },\n    {\n      \"name\": \"Amsterdam - The Hague Road Race Course\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Road cycling\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Some of the roads were repaired and marked out in preparation for the race. A map is available on p. 164 of the Official Report.\"\n    },\n    {\n      \"name\": \"Boxing/Wrestling Pavilion\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Boxing, wrestling, weightlifting\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"This was one of two semi-permanent constructions (the other being the Fencing Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, which had a capacity of approximately 4,500 (seated and standing), was removed after the Games. The site is now occupied by a building that houses a number of different businesses.\"\n    },\n    {\n      \"name\": \"Fencing Pavilion\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Fencing, modern pentathlon (fencing)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"This was one of two semi-permanent constructions (the other being the Boxing/Wrestling Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, the sides of which were almost entirely glassed in, was removed after the Games. The site is now occupied by a building that houses a number of different businesses.\"\n    },\n    {\n      \"name\": \"Olympic Sports Park Swim Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"With a view to keeping costs low, the stadium was designed to be used for a few weeks only. The pool itself was made of reinforced concrete and measured 50 metres long and 18 metres wide. Stands were erected on both sides and accommodated several thousand spectators. The stadium was dismantled, as planned, immediately after the Games.\"\n    },\n    {\n      \"name\": \"Municipal Sports Park, Hilversum\",\n      \"classification\": \"Existing\",\n      \"use\": \"Equestrian (dressage and eventing), modern pentathlon (running)\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1919, it was used as an equestrian and modern pentathlon venue at Amsterdam 1928. The stadium's monumental grandstand has been fully refurbished twice since then – most recently in 2010 – though the trotting track and director's building have both been dismantled. The stadium is used by a local athletics club, local schools for PE lessons, and the sports retailer Nike, which has its European headquarters close by.\"\n    },\n    {\n      \"name\": \"Amersfoort\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (equestrian)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Though the Official Report of the Olympic Games Amsterdam 1928 does not state the exact venue of the modern pentathlon equestrian event, the horses were stabled at what was known as the Riding House. Amersfoort, which is 52km south-east of Amsterdam, is now home to a number of riding schools and academies.\"\n    }\n  ],\n  \"trivia\": \"For the first time in the modern era, the Olympic flame was lit at Amsterdam 1928. It burned for the duration of the Games in a cauldron at the top of the Olympic Stadium's Marathon Tower – the start of a tradition that has continued ever since.\\n\\nThe original Marathon Tower still stands today. At 42.19 metres tall, it is exactly the same height in metres as the distance of a marathon in kilometres.\\n\\nThe Olympic Stadium was built in the Amsterdam School style, as was the Municipal Sports Park in Hilversum. The style is characterised by the use of brick for structure and design, rounded elements and decorative masonry, among other features.\\n\\nThe streets and areas around the Olympic Stadium have sport- and Olympic-themed names: Olympiaplein (Olympic Square), Marathonstraat (Marathon Street), Olympiaweg (Olympic Way), Discusstraat (Discus Street) and Sportstraat (Sport Street) among them. Beyond lie other streets named after Greek deities and mythological figures such as Artemis, Aphrodite, Eos and Heracles.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content:\n\nOverview: The JSON overview matches the PDF text exactly about 12 venues, 4 still in use, 2 bodies of water, 7 existing, 1 new, 4 temporary, Olympic Stadium refurbished, no official Village.\n\nVenues comparison:\n1. Old Stadium, Het Nederlandsch Sportpark - Classification: Existing ✓, Use: Football, hockey ✓, Status: Not in use (demolished) ✓\n2. Zeeburg Rifle Range - Classification: Existing ✓, Use: Modern pentathlon (shooting) ✓, Status: Not in use (demolished) ✓\n3. Sloten Canal - Classification: Existing ✓, Use: Rowing ✓, Status: In use ✓\n4. Zuiderzee - Classification: Existing ✓, Use: Sailing ✓, Status: Not in use ✓\n5. Buiten-IJ - Classification: Existing ✓, Use: Sailing ✓, Status: In use ✓\n6. Amsterdam Olympic Stadium - Classification: New build ✓, Use: Equestrian (jumping), athletics, football, gymnastics, track cycling ✓, Status: In use ✓\n7. Amsterdam - The Hague Road Race Course - Classification: Temporary ✓, Use: Road cycling ✓, Status: Dismantled (temporary) ✓\n8. Boxing/Wrestling Pavilion - Classification: Temporary ✓, Use: Boxing, wrestling, weightlifting ✓, Status: Dismantled (temporary) ✓\n9. Fencing Pavilion - Classification: Temporary ✓, Use: Fencing, modern pentathlon (fencing) ✓, Status: Dismantled (temporary) ✓\n10. Olympic Sports Park Swim Stadium - Classification: Temporary ✓, Use: Swimming, diving, water polo, modern pentathlon (swimming) ✓, Status: Dismantled (temporary) ✓\n11. Municipal Sports Park, Hilversum - Classification: Existing ✓, Use: Equestrian (dressage and eventing), modern pentathlon (running) ✓, Status: In use ✓\n12. Amersfoort - Classification: Existing ✓, Use: Modern pentathlon (equestrian) ✓, Status: Not in use (demolished) ✓\n\nTrivia: The JSON trivia matches the \"DID YOU KNOW?\" section from the PDF exactly.\n\nAll venue information and details match the PDF content perfectly.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,120 @@
+{
+  "createdAt": "2025-07-08T19:17:49.055Z",
+  "updatedAt": "2025-07-11T21:08:28.000Z",
+  "id": "MBU788enjpjn17oX",
+  "name": "configReader",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "e46469d1-b606-4269-b1c0-e657df8efbe9",
+              "name": "data",
+              "value": "={{ $json.data }}",
+              "type": "object"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        760,
+        20
+      ],
+      "id": "2ad7434d-f2c0-45b1-8075-2d586a4ad479",
+      "name": "Return"
+    },
+    {
+      "parameters": {
+        "inputSource": "passthrough"
+      },
+      "id": "b4a097c5-4228-4121-80f5-f7310d1f8039",
+      "typeVersion": 1.1,
+      "name": "Start",
+      "type": "n8n-nodes-base.executeWorkflowTrigger",
+      "position": [
+        100,
+        20
+      ]
+    },
+    {
+      "parameters": {
+        "fileSelector": "/io/config.json",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        320,
+        20
+      ],
+      "id": "899230f4-112d-4099-b063-2c5ab0e06cdb",
+      "name": "Read config JSON"
+    },
+    {
+      "parameters": {
+        "operation": "fromJson",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        540,
+        20
+      ],
+      "id": "9771b2aa-da30-485d-9999-038cfbd7aa74",
+      "name": "config to json"
+    }
+  ],
+  "connections": {
+    "Start": {
+      "main": [
+        [
+          {
+            "node": "Read config JSON",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Read config JSON": {
+      "main": [
+        [
+          {
+            "node": "config to json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "config to json": {
+      "main": [
+        [
+          {
+            "node": "Return",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": null,
+  "meta": {
+    "templateCredsSetupCompleted": true
+  },
+  "pinData": {},
+  "versionId": "bb561fe6-cf69-431e-a59a-302bc593aee1",
+  "triggerCount": 0,
+  "tags": []
+}

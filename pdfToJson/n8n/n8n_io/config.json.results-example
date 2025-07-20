@@ -1,0 +1,25 @@
+{
+  "pdfsDir": "PDF_results/2016",
+  "regexOverToc": "",
+  "extractionPromptPath": "PDF_results/result-extraction.txt",
+  "validationPromptPath": "PDF_results/result-validation.txt",
+  "startChunkCountBy": 1,
+
+
+  "anthropic": {
+    "url": "https://api.anthropic.com/v1/complete",
+    "key": "sk-ant-xxx",
+    "model": "claude-sonnet-4-20250514",
+    "temperature": 1,
+    "maxTokens": 20000,
+    "thinking": {
+      "type": "enabled",
+      "budget_tokens": 16000
+    }
+  },
+
+  "discord": {
+    "enabled": true,
+    "webhookUrl": "https://discord.com/api/webhooks/xxx/xxx"
+  }
+}

@@ -997,55 +997,6 @@
         ],
         "source_file": "venue_158.json"
       }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          9.845622,
-          46.494434
-        ]
-      },
-      "properties": {
-        "associated_names": [
-          "Sankt Moritzersee",
-          "Lake St. Moritz"
-        ],
-        "place": "St. Moritz",
-        "coordinates": "46.494434,9.845622",
-        "coordinates_trust": "Definitely here",
-        "games": [
-          {
-            "year": "1928",
-            "season": "Winter"
-          }
-        ],
-        "sports": [
-          "Skijoring"
-        ],
-        "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1928 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/30"
-            },
-            {
-              "text": "Skijoring",
-              "link": "https://www.olympedia.org/sports/SJR"
-            },
-            {
-              "text": "Ski Joring, Men",
-              "link": "https://www.olympedia.org/results/905001"
-            },
-            {
-              "text": "12 February 1928"
-            }
-          ]
-        ],
-        "source_file": "venue_158.json"
-      }
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "createdAt": "2025-07-08T19:16:24.364Z",
-  "updatedAt": "2025-07-13T07:54:23.000Z",
+  "updatedAt": "2025-07-22T15:42:38.000Z",
   "id": "YFVaL0WCc0qoW8Nn",
   "name": "OnePdf-2-ChunksToJson",
   "active": false,
@@ -116,7 +116,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        3632,
+        3840,
         560
       ],
       "id": "a9f80d53-788f-4878-b074-387aed2900ec",
@@ -132,7 +132,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        3408,
+        3616,
         560
       ],
       "id": "a1bb40fa-5548-4cf0-a749-d6abe11b1754",
@@ -173,7 +173,7 @@
       "type": "n8n-nodes-base.executeWorkflow",
       "typeVersion": 1.2,
       "position": [
-        4144,
+        4352,
         384
       ],
       "name": "Call promptReader validate",
@@ -231,7 +231,7 @@
       "type": "n8n-nodes-base.httpRequest",
       "typeVersion": 4.2,
       "position": [
-        4368,
+        4576,
         384
       ]
     },
@@ -244,7 +244,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        4816,
+        5024,
         608
       ],
       "id": "809d0883-3eb6-4432-99cf-4d448cd0aef0",
@@ -260,7 +260,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        5024,
+        5232,
         608
       ],
       "id": "0b2956d4-09a2-40cd-8ce8-f52e89a452e7",
@@ -275,7 +275,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        5232,
+        5440,
         608
       ],
       "id": "dc059d03-f662-4333-acd3-1af10bdbab80",
@@ -290,7 +290,7 @@
       "type": "n8n-nodes-base.readWriteFile",
       "typeVersion": 1,
       "position": [
-        5424,
+        5632,
         384
       ],
       "id": "d385bd55-4458-4cac-a1bf-cf35f3cfaf0a",
@@ -303,7 +303,7 @@
       "type": "n8n-nodes-base.code",
       "typeVersion": 2,
       "position": [
-        4816,
+        5024,
         384
       ],
       "id": "f1468228-594a-40bb-9dfc-8d2bdd5d25c0",
@@ -331,7 +331,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        5024,
+        5232,
         384
       ],
       "id": "eaf43675-0454-499e-a36e-1b0dbff9f67e",
@@ -347,7 +347,7 @@
       "type": "n8n-nodes-base.convertToFile",
       "typeVersion": 1.1,
       "position": [
-        5232,
+        5440,
         384
       ],
       "id": "f412e48b-6aea-441f-b0cf-07a2abec4316",
@@ -461,7 +461,7 @@
       "type": "n8n-nodes-base.if",
       "typeVersion": 2.2,
       "position": [
-        4576,
+        4784,
         384
       ],
       "id": "a7c64c59-f500-4d14-8d73-0fd1e2c3d3ea",
@@ -476,7 +476,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        5664,
+        5872,
         656
       ],
       "id": "aa0f79ad-9a4b-4db6-8ff3-3507aa6156b4",
@@ -491,7 +491,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        5424,
+        5632,
         608
       ],
       "id": "034cdf13-71be-4246-ba47-9cfbdc7c8688",
@@ -506,7 +506,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        3856,
+        4064,
         560
       ],
       "id": "cae8ce54-240e-453d-93a3-0d19c60c1234",
@@ -652,7 +652,7 @@
       "type": "n8n-nodes-base.set",
       "typeVersion": 3.4,
       "position": [
-        3200,
+        3408,
         560
       ],
       "id": "22f05fed-4ff2-4480-8636-7d027cf504f4",
@@ -671,6 +671,20 @@
       ],
       "id": "bfc795aa-b2ee-440c-b79f-e8717a18a544",
       "name": "When Executed by Another Workflow"
+    },
+    {
+      "parameters": {
+        "amount": 1
+      },
+      "type": "n8n-nodes-base.wait",
+      "typeVersion": 1.1,
+      "position": [
+        3408,
+        384
+      ],
+      "id": "35ad54d4-9ccd-4447-9660-254b893939c7",
+      "name": "Wait",
+      "webhookId": "83076302-7040-4f7c-84a3-8afd21354c80"
     }
   ],
   "connections": {
@@ -883,7 +897,7 @@
       "main": [
         [
           {
-            "node": "Call promptReader validate",
+            "node": "Wait",
             "type": "main",
             "index": 0
           }
@@ -1053,6 +1067,17 @@
           }
         ]
       ]
+    },
+    "Wait": {
+      "main": [
+        [
+          {
+            "node": "Call promptReader validate",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
     }
   },
   "settings": {
@@ -1063,7 +1088,7 @@
     "templateCredsSetupCompleted": true
   },
   "pinData": {},
-  "versionId": "f164dac8-e801-44b7-9e6c-a1d27b596a50",
+  "versionId": "d40b838f-abbe-4ad5-899e-667b8d1d9d85",
   "triggerCount": 0,
   "tags": []
 }

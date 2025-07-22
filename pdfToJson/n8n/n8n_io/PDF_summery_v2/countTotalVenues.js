@@ -1,34 +1,34 @@
-function countTotalVenues(msgPrefix, filePath) {
+const fs = require('fs');
 
-    const fs = require('fs');
+/**
+ * This script counts the total number of venues from JSON files generated from PDF reports.
+ *
+ * @param filePath {string} - The path to the JSON file containing venue data.
+ * @returns {number} - The total number of venues counted from the JSON data.
+ */
+function countTotalVenues(filePath) {
+    try {
+        const data = fs.readFileSync(filePath, 'utf8');
+        const jsonData = JSON.parse(data);
 
-    // Read the JSON file
-    fs.readFile(filePath, 'utf8', (err, data) => {
-        if (err) {
-            console.error('Error reading the file:', err);
-            return;
-        }
-
-        try {
-            // Parse the JSON data
-            const jsonData = JSON.parse(data);
-
-            // Count the number of venues
-            const totalVenues = jsonData?.data?.map((v => v.validation?.data?.status === "valid" ?
-                v.extraction?.data?.venues?.length :
-                v.validation?.data?.json?.venues?.length
-            )).reduce((acc, curr) => acc + (curr || 0), 0);
-
-            // Output the total number of venues
-            console.log(`Total number of venues ${msgPrefix}: ${totalVenues}`);
-        } catch (parseError) {
-            console.error('Error parsing JSON data:', parseError);
-        }
+        return jsonData?.data?.map(v =>
+            v.validation?.data?.status === "valid"
+                ? v.extraction?.data?.venues?.length
+                : v.validation?.data?.json?.venues?.length
+        ).reduce((acc, curr) => acc + (curr || 0), 0);
+    } catch (err) {
+        return 0;
     }
-    );
 }
 
-countTotalVenues("v2 winter", "./venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
-countTotalVenues("v1 winter", "../PDF_summery/venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
-countTotalVenues("v2 summer", "./venues_summer/Full-report-venues-post-games-use-summer.pdf.json");
-countTotalVenues("v1 summer","../PDF_summery/venues_summer/Full-report-venues-post-games-use-summer.pdf.json");
+const sv2 = countTotalVenues("./venues_summer/Full-report-venues-post-games-use-summer.pdf.json");
+const wv2 = countTotalVenues("./venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
+const sv1 = countTotalVenues("../PDF_summery/venues_summer/Full-report-venues-post-games-use-summer.pdf.json");
+const wv1 = countTotalVenues("../PDF_summery/venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
+
+console.log(`Total number of venues v2 summer: ${sv2}`);
+console.log(`Total number of venues v2 winter: ${wv2}`);
+console.log(`Total number of venues v2: ${sv2 + wv2}`);
+console.log(`Total number of venues v2 summer: ${sv1}`);
+console.log(`Total number of venues v2 winter: ${wv1}`);
+console.log(`Total number of venues v1: ${sv1 + wv1}`);

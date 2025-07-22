@@ -1,0 +1,119 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Lillehammer",
+        "year": "1994",
+        "overview": "Ten competition venues were used for the Olympic Winter Games Lillehammer 1994. All of them remain in use today, staging world, European and national championships and a host of other sporting events, and contributing to the development of a vibrant grassroots sports culture in the region. One of the competition venues was an existing site. The rest were built for the Games.\n\nThe Opening and Closing Ceremonies were held at the ski jumping venue.\n\nTwo Olympic Villages were used at the Games: a main one in Lillehammer and a smaller one at an existing site in Hamar. Both are still in use today.",
+        "venues": [
+          {
+            "name": "Håkon Hall",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "A 12,500-capacity multi-purpose venue used for sport, recreation and culture. Its ice hockey rink, which staged matches at the 1999 IIHF World Championships, can be converted into four handball or futsal courts, six volleyball courts or eight badminton courts. The hall hosted matches at the 2008 European Men's Handball Championships, and also has an indoor golf centre with two golf simulators, a fitness centre and an indoor running track. A venue for events as diverse as the 2004 Junior Eurovision Song Contest and the 2018 World Logging Championship, it has staged numerous concerts and comedy shows, and is also used as a conference centre. It is one of five Olympic venues located at Lillehammer Olympiapark. Birkebeineren Ski and Biathlon Stadium, Lysgårdsbakkene Ski Jumping Arena, the Lillehammer Olympic Bobsleigh and Luge Track, and the Kanthaugen Freestyle Arena are the others. It also hosted the Learn & Share program and was the dining hall for all athletes during the Winter Youth Olympic Games in 2016.",
+            "location": "inside"
+          },
+          {
+            "name": "Lysgårdsbakkene Ski Jumping Arena",
+            "classification": "New build",
+            "use": "Ski jumping, Nordic combined, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Home to both a large and a small hill, the venue was refurbished in 2007, when plastic matting was installed to enable year-round training and jumping. It is one of three national ski jumping training centres in Norway and has been the venue for several international competitions, including the FIS Ski Jump World Cup and 'Raw Air', a FIS Ski Jumping World Cup event. Around 100,000 jumps are made on the two hills every year.",
+            "location": "inside"
+          },
+          {
+            "name": "Birkebeineren Ski Stadium",
+            "classification": "New build",
+            "use": "Biathlon, cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "The venue's 27km of cross-country trails and 9km of biathlon trails are still used extensively, and have hosted several FIS Cross-Country World Cup, Biathlon World Cup and Nordic Combined World Cup events. During the summer, they are popular with walkers, joggers, mountain bikers and roller skiers.",
+            "location": "inside"
+          },
+          {
+            "name": "Kanthaugen Freestyle Arena",
+            "classification": "New build",
+            "use": "Freestyle skiing",
+            "status": "In use",
+            "information": "Its three hills – one each for aerials, moguls and ski ballet – were laid out in such a way as to minimise damage to the surrounding forest. The arena hosted the FIS Freestyle Skiing World Cup in 1993 and 1995. It has not hosted any freestyle skiing activities since then, but tobogganing and alpine skiing for kids are just some of the other popular pursuits that the arena offers.",
+            "location": "inside"
+          },
+          {
+            "name": "Lillehammer Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Comprising temporary and permanent housing, the Lillehammer Olympic Village housed around 2,300 athletes and officials during the 1994 Olympic Winter Games. Some 185 houses remained on the site afterwards, and 141 of them were later sold privately. The Village's service centre is home to a retirement home, a cafeteria, a nursery school and a church.",
+            "location": "inside"
+          },
+          {
+            "name": "Lillehammer Olympic Alpine Centre, Hafjell",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "Extensively refurbished for the 1994 Olympic Winter Games, Hafjell caters for every Alpine skiing discipline and was another Winter Youth Olympic Games Lillehammer 2016 venue.",
+            "location": "outside"
+          },
+          {
+            "name": "Hamar Olympic Subsite Village",
+            "classification": "Existing",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "This existing site at Toneheim District College is a folk high school specialising in music. It accommodated 500 athletes during the Games and resumed its activities as a school in autumn 1994.",
+            "location": "outside"
+          },
+          {
+            "name": "Gjøvik Olympic Cavern Hall",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "The venue was built inside a mountain to ensure stable year-round temperatures and keep energy costs low. Open to the public most days of the year, its ice rink staged the 1995 World Short Track Speed Skating Championships and was the venue for the short track speed skating events at the Winter Youth Olympic Games Lillehammer 2016. The hall also hosted matches at the 1999 European Women's Handball Championships.",
+            "location": "outside"
+          },
+          {
+            "name": "Hamar Olympic Hall (Vikingskipet)",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "This 10,600-capacity venue is Norway's national arena for bandy (an 11-a-side version of ice hockey that uses a ball instead of a puck) and speed skating. It hosted the ISU Speed Skating World Cup as recently as 2019. Known locally as \"the Viking Ship\", Hamar Olympic Hall is a multi-purpose venue that accommodates football, cycling, athletics, curling, motorsports and equestrian sports. It also has a golf driving range. Among other events, it stages skating shows and competitions, trade shows, exhibitions and concerts, with both Beyoncé and Stevie Wonder having performed there.",
+            "location": "outside"
+          },
+          {
+            "name": "Lillehammer Olympic Bobsleigh and Luge Track",
+            "classification": "New build",
+            "use": "Bobsleigh, luge",
+            "status": "In use",
+            "information": "It has been the venue for major international competitions such as the 1995 FIL World Luge Championships, and offers a range of sliding activities for visitors all year round. These include wheelbob in the summer and bob-raft, taxibob (a bobsled driven by a professional) and skeleton in the winter.",
+            "location": "inside"
+          },
+          {
+            "name": "Hamar Olympic Amphitheatre",
+            "classification": "New build",
+            "use": "Figure skating, short track speed skating",
+            "status": "In use",
+            "information": "An indoor sports arena with a capacity of 7,000, it is mostly used for ice hockey and is the home of Storhamar Hockey, which plays in Norway's second tier. It is also used for short track speed skating, figure skating, handball, events and concerts. Over the years, the venue has staged matches of the 1999 IIHF World Championships, the 1999 IHF World Women's Handball Championship, the 2012 IPC Ice Sledge Hockey World Championships, and the Winter Youth Olympic Games Lillehammer 2016.",
+            "location": "outside"
+          },
+          {
+            "name": "Lillehammer Olympic Alpine Centre, Kvitfjell",
+            "classification": "New build",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "A popular ski resort with 34km of slopes, Kvitfjell offers runs for skiers of all ages and abilities, as well as cross-country trails and three kilometres of floodlit runs for night skiing. It is Norway's national venue for the speed disciplines in Alpine skiing and has hosted World Cup events every year since 1995.",
+            "location": "outside"
+          }
+        ],
+        "trivia": "Between the end of the 1994 Olympic Winter Games and the summer of 2018, Lillehammer's 10 Olympic venues staged 32 World and European Championships and international tournaments, 129 World Cup events and 161 national cup events.\n\nNine of the 1994 Olympic Winter Games competition venues were used for competitions and education programmes at the Winter Youth Olympic Games Lillehammer 2016.\n\nThe five Olympic venues at Lillehammer Olympiapark and Gjøvik Olympic Mountain Hall have all been certified by Eco-Lighthouse, Norway's most widely used environmental management system.\n\nGjøvik Olympic Cavern Hall, which hosted ice hockey, is the world's largest underground auditorium. It is positioned 120 metres inside a mountain, with around 55 metres of bedrock above it.\n\nHome to the world's media at the 1994 Olympic Winter Games, the International Broadcast Centre (IBC) was taken over afterwards by Lillehammer's Oppland College. As a result, the College increased the size of its campus, student body and number of courses offered. In 2017, the College merged with the Inland Norway (INN) University of Applied Sciences. Thanks to the collaboration between INN University, the Lillehammer Olympic and Paralympic Studies Centre (LOSC) and the Norwegian Olympic Museum, Lillehammer has become a key centre for Olympic studies and research."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Lillehammer\",\n  \"year\": \"1994\",\n  \"overview\": \"Ten competition venues were used for the Olympic Winter Games Lillehammer 1994. All of them remain in use today, staging world, European and national championships and a host of other sporting events, and contributing to the development of a vibrant grassroots sports culture in the region. One of the competition venues was an existing site. The rest were built for the Games.\\n\\nThe Opening and Closing Ceremonies were held at the ski jumping venue.\\n\\nTwo Olympic Villages were used at the Games: a main one in Lillehammer and a smaller one at an existing site in Hamar. Both are still in use today.\",\n  \"venues\": [\n    {\n      \"name\": \"Håkon Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"A 12,500-capacity multi-purpose venue used for sport, recreation and culture. Its ice hockey rink, which staged matches at the 1999 IIHF World Championships, can be converted into four handball or futsal courts, six volleyball courts or eight badminton courts. The hall hosted matches at the 2008 European Men's Handball Championships, and also has an indoor golf centre with two golf simulators, a fitness centre and an indoor running track. A venue for events as diverse as the 2004 Junior Eurovision Song Contest and the 2018 World Logging Championship, it has staged numerous concerts and comedy shows, and is also used as a conference centre. It is one of five Olympic venues located at Lillehammer Olympiapark. Birkebeineren Ski and Biathlon Stadium, Lysgårdsbakkene Ski Jumping Arena, the Lillehammer Olympic Bobsleigh and Luge Track, and the Kanthaugen Freestyle Arena are the others. It also hosted the Learn & Share program and was the dining hall for all athletes during the Winter Youth Olympic Games in 2016.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Lysgårdsbakkene Ski Jumping Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping, Nordic combined, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Home to both a large and a small hill, the venue was refurbished in 2007, when plastic matting was installed to enable year-round training and jumping. It is one of three national ski jumping training centres in Norway and has been the venue for several international competitions, including the FIS Ski Jump World Cup and 'Raw Air', a FIS Ski Jumping World Cup event. Around 100,000 jumps are made on the two hills every year.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Birkebeineren Ski Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon, cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"The venue's 27km of cross-country trails and 9km of biathlon trails are still used extensively, and have hosted several FIS Cross-Country World Cup, Biathlon World Cup and Nordic Combined World Cup events. During the summer, they are popular with walkers, joggers, mountain bikers and roller skiers.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Kanthaugen Freestyle Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Freestyle skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Its three hills – one each for aerials, moguls and ski ballet – were laid out in such a way as to minimise damage to the surrounding forest. The arena hosted the FIS Freestyle Skiing World Cup in 1993 and 1995. It has not hosted any freestyle skiing activities since then, but tobogganing and alpine skiing for kids are just some of the other popular pursuits that the arena offers.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Lillehammer Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Comprising temporary and permanent housing, the Lillehammer Olympic Village housed around 2,300 athletes and officials during the 1994 Olympic Winter Games. Some 185 houses remained on the site afterwards, and 141 of them were later sold privately. The Village's service centre is home to a retirement home, a cafeteria, a nursery school and a church.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Lillehammer Olympic Alpine Centre, Hafjell\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Extensively refurbished for the 1994 Olympic Winter Games, Hafjell caters for every Alpine skiing discipline and was another Winter Youth Olympic Games Lillehammer 2016 venue.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Hamar Olympic Subsite Village\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"This existing site at Toneheim District College is a folk high school specialising in music. It accommodated 500 athletes during the Games and resumed its activities as a school in autumn 1994.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Gjøvik Olympic Cavern Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"The venue was built inside a mountain to ensure stable year-round temperatures and keep energy costs low. Open to the public most days of the year, its ice rink staged the 1995 World Short Track Speed Skating Championships and was the venue for the short track speed skating events at the Winter Youth Olympic Games Lillehammer 2016. The hall also hosted matches at the 1999 European Women's Handball Championships.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Hamar Olympic Hall (Vikingskipet)\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"This 10,600-capacity venue is Norway's national arena for bandy (an 11-a-side version of ice hockey that uses a ball instead of a puck) and speed skating. It hosted the ISU Speed Skating World Cup as recently as 2019. Known locally as \\\"the Viking Ship\\\", Hamar Olympic Hall is a multi-purpose venue that accommodates football, cycling, athletics, curling, motorsports and equestrian sports. It also has a golf driving range. Among other events, it stages skating shows and competitions, trade shows, exhibitions and concerts, with both Beyoncé and Stevie Wonder having performed there.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Lillehammer Olympic Bobsleigh and Luge Track\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge\",\n      \"status\": \"In use\",\n      \"information\": \"It has been the venue for major international competitions such as the 1995 FIL World Luge Championships, and offers a range of sliding activities for visitors all year round. These include wheelbob in the summer and bob-raft, taxibob (a bobsled driven by a professional) and skeleton in the winter.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Hamar Olympic Amphitheatre\",\n      \"classification\": \"New build\",\n      \"use\": \"Figure skating, short track speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"An indoor sports arena with a capacity of 7,000, it is mostly used for ice hockey and is the home of Storhamar Hockey, which plays in Norway's second tier. It is also used for short track speed skating, figure skating, handball, events and concerts. Over the years, the venue has staged matches of the 1999 IIHF World Championships, the 1999 IHF World Women's Handball Championship, the 2012 IPC Ice Sledge Hockey World Championships, and the Winter Youth Olympic Games Lillehammer 2016.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Lillehammer Olympic Alpine Centre, Kvitfjell\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"A popular ski resort with 34km of slopes, Kvitfjell offers runs for skiers of all ages and abilities, as well as cross-country trails and three kilometres of floodlit runs for night skiing. It is Norway's national venue for the speed disciplines in Alpine skiing and has hosted World Cup events every year since 1995.\",\n      \"location\": \"outside\"\n    }\n  ],\n  \"trivia\": \"Between the end of the 1994 Olympic Winter Games and the summer of 2018, Lillehammer's 10 Olympic venues staged 32 World and European Championships and international tournaments, 129 World Cup events and 161 national cup events.\\n\\nNine of the 1994 Olympic Winter Games competition venues were used for competitions and education programmes at the Winter Youth Olympic Games Lillehammer 2016.\\n\\nThe five Olympic venues at Lillehammer Olympiapark and Gjøvik Olympic Mountain Hall have all been certified by Eco-Lighthouse, Norway's most widely used environmental management system.\\n\\nGjøvik Olympic Cavern Hall, which hosted ice hockey, is the world's largest underground auditorium. It is positioned 120 metres inside a mountain, with around 55 metres of bedrock above it.\\n\\nHome to the world's media at the 1994 Olympic Winter Games, the International Broadcast Centre (IBC) was taken over afterwards by Lillehammer's Oppland College. As a result, the College increased the size of its campus, student body and number of courses offered. In 2017, the College merged with the Inland Norway (INN) University of Applied Sciences. Thanks to the collaboration between INN University, the Lillehammer Olympic and Paralympic Studies Centre (LOSC) and the Norwegian Olympic Museum, Lillehammer has become a key centre for Olympic studies and research.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **City**: JSON says \"Lillehammer\" - PDF confirms this ✓\n\n2. **Year**: JSON says \"1994\" - PDF confirms this ✓\n\n3. **Overview**: JSON text matches the overview section in the PDF ✓\n\n4. **Venues**: Let me check all 12 venues from the PDF table:\n   - All venue names match the PDF table ✓\n   - All classifications match (New build/Existing) ✓\n   - All uses match the PDF table ✓\n   - All statuses are \"In use\" which matches PDF ✓\n   - All information texts match the \"THE VENUES UP CLOSE\" section ✓\n\n5. **Locations**: Checking against the PDF:\n   - The PDF has a section \"Venues outside Lillehammer\" listing certain venues\n   - However, for the Lillehammer Olympic Bobsleigh and Luge Track, the detailed description in Håkon Hall's section specifically states: \"It is one of five Olympic venues located at Lillehammer Olympiapark. Birkebeineren Ski and Biathlon Stadium, Lysgårdsbakkene Ski Jumping Arena, the Lillehammer Olympic Bobsleigh and Luge Track, and the Kanthaugen Freestyle Arena are the others.\"\n   - This confirms the track is at Lillehammer Olympiapark (inside), which matches the JSON ✓\n\n6. **Trivia**: The JSON text exactly matches the \"DID YOU KNOW?\" section from the PDF ✓\n\nAll data appears to match correctly.\n</scratchpad>\n\n<response>\n{\"status\":\"valid\"}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,127 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Sochi",
+        "year": "2014",
+        "overview": "Ten competition venues were used for the Olympic Winter Games Sochi 2014. All of them are still in use today, benefitting the local population and high-performance athletes alike. Only one of the competition venues was an existing site. The rest were built for the Games.\n\nThe venue for the Opening and Closing Ceremonies, Fisht Olympic Stadium, was a newly built non-competition venue, while the two Olympic Villages (Coastal and Mountain) were both built for the Games. They are also still in use.",
+        "venues": [
+          {
+            "name": "Bolshoy Ice Dome",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "The home arena of Hockey Club Sochi, which plays in the Kontinental Hockey League, and a venue for ice hockey matches across several other competitions. An ice hockey youth development hub, it has a seating capacity of 12,000 and has also hosted a number of cultural events, such as the Vivat Russia Dance Contest and performances by Cirque du Soleil.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Shayba Arena",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "This 7,000-capacity multi-purpose sports and entertainment venue was used by the All-Russia Youth Sports and Education Centre after the Games. It is also home to the Sirius Academy, which gives talented children from across Russia the opportunity to develop their skills and knowledge in sport, science and the arts.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Adler Arena Skating Centre",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "In use",
+            "information": "Converted into a multi-purpose venue after the Games, it hosted events such as conferences, meetings and exhibitions, and a Fed Cup match between Russia and Argentina. Though still a skating and ice hockey venue, it is now home to a regional tennis academy – with two clay courts and three hard courts – and a gymnastics centre.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Fisht Olympic Stadium",
+            "classification": "New build",
+            "use": "Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "This 45,000-seater stadium was refurbished after the Games as a football venue. A training base for Russia's national football team, it hosted matches at the 2017 FIFA Confederations Cup and stage four group matches, a round-of-16 tie and a quarter-final at the 2018 FIFA World Cup. It is also the home ground of Russian Premier League team PFC Sochi.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Ice Cube Curling Centre",
+            "classification": "New build",
+            "use": "Curling",
+            "status": "In use",
+            "information": "Still a curling venue today and a training base for Russia's curling teams, the Ice Cube staged the 2015 World Senior Curling Championships and has hosted several national and regional competitions in the sport. It is also a multi-purpose sports and entertainment facility, having staged the Acrobatic Rock'n' Roll World Cup and World Championships in 2016, and the opening and closing ceremonies of the 2017 Winter Military World Games.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Iceberg Skating Palace",
+            "classification": "New build",
+            "use": "Figure skating and short track speed skating",
+            "status": "In use",
+            "information": "A training base for Russia's national figure skating and short track speed skating teams, the venue stages international and national hockey, speed skating and short track competitions. It is home to a figure skating academy, which provides training to over 200 skaters aged between 6 and 18, and hosts an annual ice show organised by a leading Russian figure skater. A multi-purpose facility, it can also be used for martial arts, table tennis, rhythmic gymnastics and dance sports, and staged the 2021 European Gymnastics Trampoline Championships.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Coastal Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Located in Sochi Olympic Park, its 47 buildings comprise around 1,500 apartments, which were given over for housing after the Games and remain occupied today.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Rosa Khutor Alpine Centre",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "Russia's largest Alpine resort existed before the Games. The centre was the setting for the FIS Junior World Ski Championship in 2016, a year in which it received almost two million visitors.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "RusSki Gorki Ski Jumping Centre",
+            "classification": "New build",
+            "use": "Ski jumping and Nordic combined",
+            "status": "In use",
+            "information": "An FIS-homologated venue, the centre stages national and international events in summer and winter. Regularly used as a training base by Russia's national ski jumping teams, this 6,000-seater venue has staged four Russian summer ski jumping championships and a number of regional and city tournaments. In 2019, it hosted 46 training camps.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Sanki Sliding Centre",
+            "classification": "New build",
+            "use": "Bobsleigh, luge and skeleton",
+            "status": "In use",
+            "information": "This bobsleigh, luge and skeleton track is used by Russia's national teams as a training base. The venue for the 2015 FIL European Luge Championships, the centre regularly hosts IBSF Bobsleigh and Skeleton World Cup and FIL Luge World Cup events, as well as national bobsleigh and luge competitions. During the winter, the tracks are open to the general public and visitors. As Russia's only world-class sliding centre, it is in use for nine to ten months a year.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Rosa Khutor Extreme Park",
+            "classification": "New build",
+            "use": "Freestyle skiing and snowboard",
+            "status": "In use",
+            "information": "Part of the Rosa Khutor Alpine Centre, the park is divided into two areas: the Snowboard Park and the Freestyle Centre. The Snowboard Park hosts slopestyle, snowboard cross, ski cross, dual slalom and dual giant slalom competitions, and the Freestyle Centre is used for half-pipe skiing, half-pipe snowboarding, freestyle ski acrobatics and moguls.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Laura Cross-Country Ski and Biathlon Centre",
+            "classification": "New build",
+            "use": "Biathlon, cross-country skiing and Nordic combined",
+            "status": "In use",
+            "information": "The complex includes separate biathlon and cross-country ski stadiums, two separate track systems, a shooting zone, a training course, and other sports and visitor facilities. It hosts training camps and events such as the Russian Biathlon Cup, Russian Cross-Country Ski Cup, and Russian Cross-Country Ski and Biathlon Disability Championships, plus FIS Cross-Country World Cup, IBU Biathlon World Cup and IPC Nordic Skiing World Cup events. It also operates as a ski resort, catering for skiers of all ages and abilities.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Mountain Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Situated next to Rosa Khutor Extreme Park, the Village comprised apartments and hotel rooms in around 50 mountain chalet-type houses, which have been converted into four hotels that welcome tourists all year round.",
+            "location": "Outside the city"
+          }
+        ],
+        "trivia": "The Olympic Stadium was originally named after Mount Fisht, a peak in the Caucasus Mountains. The outline of the venue resembles a snow-capped mountain summit.\n\nSochi Olympic Park is also the home of the Sochi Autodrome, the venue for the FIA Formula 1 Russian Grand Prix since 2014 and a number of other races, including the Russian Touring Car Championship and the Russian Grand Prix series.\n\nSochi's Olympic venues are grouped into two clusters: the coastal cluster, located in the resort of Adler, on the Black Sea coast; and the mountain cluster, near the village of Krasnaya Polyana."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Sochi\",\n  \"year\": \"2014\",\n  \"overview\": \"Ten competition venues were used for the Olympic Winter Games Sochi 2014. All of them are still in use today, benefitting the local population and high-performance athletes alike. Only one of the competition venues was an existing site. The rest were built for the Games.\\n\\nThe venue for the Opening and Closing Ceremonies, Fisht Olympic Stadium, was a newly built non-competition venue, while the two Olympic Villages (Coastal and Mountain) were both built for the Games. They are also still in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Bolshoy Ice Dome\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"The home arena of Hockey Club Sochi, which plays in the Kontinental Hockey League, and a venue for ice hockey matches across several other competitions. An ice hockey youth development hub, it has a seating capacity of 12,000 and has also hosted a number of cultural events, such as the Vivat Russia Dance Contest and performances by Cirque du Soleil.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Shayba Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"This 7,000-capacity multi-purpose sports and entertainment venue was used by the All-Russia Youth Sports and Education Centre after the Games. It is also home to the Sirius Academy, which gives talented children from across Russia the opportunity to develop their skills and knowledge in sport, science and the arts.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Adler Arena Skating Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"Converted into a multi-purpose venue after the Games, it hosted events such as conferences, meetings and exhibitions, and a Fed Cup match between Russia and Argentina. Though still a skating and ice hockey venue, it is now home to a regional tennis academy – with two clay courts and three hard courts – and a gymnastics centre.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Fisht Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"This 45,000-seater stadium was refurbished after the Games as a football venue. A training base for Russia's national football team, it hosted matches at the 2017 FIFA Confederations Cup and stage four group matches, a round-of-16 tie and a quarter-final at the 2018 FIFA World Cup. It is also the home ground of Russian Premier League team PFC Sochi.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Ice Cube Curling Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Curling\",\n      \"status\": \"In use\",\n      \"information\": \"Still a curling venue today and a training base for Russia's curling teams, the Ice Cube staged the 2015 World Senior Curling Championships and has hosted several national and regional competitions in the sport. It is also a multi-purpose sports and entertainment facility, having staged the Acrobatic Rock'n' Roll World Cup and World Championships in 2016, and the opening and closing ceremonies of the 2017 Winter Military World Games.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Iceberg Skating Palace\",\n      \"classification\": \"New build\",\n      \"use\": \"Figure skating and short track speed skating\",\n      \"status\": \"In use\",\n      \"information\": \"A training base for Russia's national figure skating and short track speed skating teams, the venue stages international and national hockey, speed skating and short track competitions. It is home to a figure skating academy, which provides training to over 200 skaters aged between 6 and 18, and hosts an annual ice show organised by a leading Russian figure skater. A multi-purpose facility, it can also be used for martial arts, table tennis, rhythmic gymnastics and dance sports, and staged the 2021 European Gymnastics Trampoline Championships.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Coastal Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Located in Sochi Olympic Park, its 47 buildings comprise around 1,500 apartments, which were given over for housing after the Games and remain occupied today.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Rosa Khutor Alpine Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Russia's largest Alpine resort existed before the Games. The centre was the setting for the FIS Junior World Ski Championship in 2016, a year in which it received almost two million visitors.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"RusSki Gorki Ski Jumping Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping and Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"An FIS-homologated venue, the centre stages national and international events in summer and winter. Regularly used as a training base by Russia's national ski jumping teams, this 6,000-seater venue has staged four Russian summer ski jumping championships and a number of regional and city tournaments. In 2019, it hosted 46 training camps.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Sanki Sliding Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge and skeleton\",\n      \"status\": \"In use\",\n      \"information\": \"This bobsleigh, luge and skeleton track is used by Russia's national teams as a training base. The venue for the 2015 FIL European Luge Championships, the centre regularly hosts IBSF Bobsleigh and Skeleton World Cup and FIL Luge World Cup events, as well as national bobsleigh and luge competitions. During the winter, the tracks are open to the general public and visitors. As Russia's only world-class sliding centre, it is in use for nine to ten months a year.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Rosa Khutor Extreme Park\",\n      \"classification\": \"New build\",\n      \"use\": \"Freestyle skiing and snowboard\",\n      \"status\": \"In use\",\n      \"information\": \"Part of the Rosa Khutor Alpine Centre, the park is divided into two areas: the Snowboard Park and the Freestyle Centre. The Snowboard Park hosts slopestyle, snowboard cross, ski cross, dual slalom and dual giant slalom competitions, and the Freestyle Centre is used for half-pipe skiing, half-pipe snowboarding, freestyle ski acrobatics and moguls.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Laura Cross-Country Ski and Biathlon Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Biathlon, cross-country skiing and Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"The complex includes separate biathlon and cross-country ski stadiums, two separate track systems, a shooting zone, a training course, and other sports and visitor facilities. It hosts training camps and events such as the Russian Biathlon Cup, Russian Cross-Country Ski Cup, and Russian Cross-Country Ski and Biathlon Disability Championships, plus FIS Cross-Country World Cup, IBU Biathlon World Cup and IPC Nordic Skiing World Cup events. It also operates as a ski resort, catering for skiers of all ages and abilities.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Mountain Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Situated next to Rosa Khutor Extreme Park, the Village comprised apartments and hotel rooms in around 50 mountain chalet-type houses, which have been converted into four hotels that welcome tourists all year round.\",\n      \"location\": \"Outside the city\"\n    }\n  ],\n  \"trivia\": \"The Olympic Stadium was originally named after Mount Fisht, a peak in the Caucasus Mountains. The outline of the venue resembles a snow-capped mountain summit.\\n\\nSochi Olympic Park is also the home of the Sochi Autodrome, the venue for the FIA Formula 1 Russian Grand Prix since 2014 and a number of other races, including the Russian Touring Car Championship and the Russian Grand Prix series.\\n\\nSochi's Olympic venues are grouped into two clusters: the coastal cluster, located in the resort of Adler, on the Black Sea coast; and the mountain cluster, near the village of Krasnaya Polyana.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n**City and Year**: \"Sochi\" and \"2014\" match the PDF title \"SOCHI 2014 VENUES\" ✓\n\n**Overview**: The JSON overview matches exactly with the overview text on page 1 of the PDF ✓\n\n**Venues**: Let me check each venue against the tables and descriptions:\n\n1. **Bolshoy Ice Dome** - All details match page 2 table and page 3 description ✓\n2. **Shayba Arena** - All details match page 2 table and page 3 description ✓  \n3. **Adler Arena Skating Centre** - All details match page 2 table and page 4 description ✓\n4. **Fisht Olympic Stadium** - All details match page 2 table and page 4 description ✓\n5. **Ice Cube Curling Centre** - All details match page 2 table and page 4 description ✓\n6. **Iceberg Skating Palace** - All details match page 2 table and page 4 description ✓\n7. **Coastal Olympic Village** - All details match page 2 table and page 4 description ✓\n8. **Rosa Khutor Alpine Centre** - All details match page 3 table and page 4 description ✓\n9. **RusSki Gorki Ski Jumping Centre** - All details match page 3 table and page 4 description ✓\n10. **Sanki Sliding Centre** - All details match page 3 table and page 4 description ✓\n11. **Rosa Khutor Extreme Park** - All details match page 3 table and page 4 description ✓\n12. **Laura Cross-Country Ski and Biathlon Centre** - All details match page 3 table and page 5 description ✓\n13. **Mountain Olympic Village** - All details match page 3 table and page 5 description ✓\n\n**Trivia**: The trivia section matches exactly with the \"DID YOU KNOW?\" section on page 5 ✓\n\nAll data appears to match the PDF content perfectly.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

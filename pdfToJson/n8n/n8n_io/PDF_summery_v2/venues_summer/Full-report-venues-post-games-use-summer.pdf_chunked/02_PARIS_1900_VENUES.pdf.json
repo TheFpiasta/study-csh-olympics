@@ -1,0 +1,143 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Paris",
+        "year": "1900",
+        "overview": "Fifteen competition venues were used for the Olympic Games Paris 1900, eight of which remain in use today. Eleven of the competition venues were existing, one was new and three were temporary, all of which have since been dismantled along with four of the existing venues. The one new venue is still in use, as are seven of the existing venues. Many of the remaining venues are home to sports clubs and provide recreational and sporting facilities for their members and visitors.\n\nFour of the venues were later used at the Olympic Games Paris 1924: the Vélodrome de Vincennes, the Terrain de Polo de Bagatelle, the Palais de la Société des Régates du Havre, and the Cercle de la Voile de Paris.\n\nNo Opening or Closing Ceremonies were held at the Games, which ran for more than five months and were held as part of the 1900 Paris World's Fair. In the absence of an Olympic Stadium, the main venue was the Vélodrome de Vincennes, which hosted six sports in all. There was no official Olympic Village.",
+        "venues": [
+          {
+            "name": "Croix-Catelan",
+            "classification": "Existing",
+            "use": "Athletics, tug of war",
+            "status": "In use",
+            "information": "Founded in 1886 and formerly one of five sites used by Racing Club de France, the Croix-Catelan is a large sports complex. It is home to 45 tennis courts, a 50m swimming pool, a gym, a football pitch and volleyball and basketball courts. The venue offers classes and lessons and several activities for children. Racing Club de France vacated the venue in 2006, when it was taken over by Lagardère Paris Racing.",
+            "location": "inside"
+          },
+          {
+            "name": "Seine River",
+            "classification": "Existing",
+            "use": "Rowing, swimming, water polo",
+            "status": "In use",
+            "information": "The section between Courbevoie Bridge and Asnières Bridge was used to host the rowing, swimming and water polo competitions at Paris 1900. No facilities were erected for the rowing events, with spectators watching from the banks of the river. The river continues to host rowing events, among them the Championnats de la Seine, France's oldest rowing competition, which is held on the same section of the Seine as the Paris 1900 events. This section is also home to the Aviron Courbevoie club, which was founded in 1882. Paris Rowing Club relocated from Courbevoie in 1970, and rowing activities on the Seine are now mainly focused on areas such as Saint-Denis and Neuilly.",
+            "location": "inside"
+          },
+          {
+            "name": "Courts de la Société des Sports de l'île de Puteaux / Cercle de Puteaux",
+            "classification": "Existing",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "Still a tennis venue and situated on an island in the Seine, it was established in 1886. The club now has more than 850 members and 600 juniors in its tennis academy. Its 16 courts, five of which are covered, are also open to the public, and classes and lessons are offered.",
+            "location": "inside"
+          },
+          {
+            "name": "Vélodrome de Vincennes",
+            "classification": "Existing",
+            "use": "Cycling (track), football, gymnastics, rugby, cricket, archery",
+            "status": "In use",
+            "information": "A venue for multiple competitions at Paris 1900, the velodrome opened in 1896 and also staged cycling events at the Olympic Games Paris 1924. The setting for the prestigious Grand Prix de Paris, the velodrome was also the official finish line of the Tour de France between 1968 and 1974 but suffered neglect thereafter and was closed in 1980. Thanks to a campaign to save it and three years of refurbishment work, it reopened to the public in 2015, with its original stands still intact. A listed historical monument, the venue is officially known as the Vélodrome Jacques Anquetil and more popularly as La Cipale.",
+            "location": "inside"
+          },
+          {
+            "name": "Cercle de la Voile de Paris",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1924, it organises regattas across a number of classes.",
+            "location": "inside"
+          },
+          {
+            "name": "Cercle du Bois de Boulogne, Pelouse de Madrid",
+            "classification": "Existing",
+            "use": "Croquet",
+            "status": "In use",
+            "information": "The site was first used as a skating club in 1865. The Cercle du Bois de Boulogne came into being in 1899, at which point the venue became a clay pigeon shooting club, counting Pierre de Coubertin among its members. With the growth in popularity of tennis between the wars, the club began hosting tennis tournaments and became a popular practice venue for players competing in the French Open at Roland-Garros. The Ligue de Tennis de Paris is now the resident club. Among its many activities, it identifies and coaches talented young players.",
+            "location": "inside"
+          },
+          {
+            "name": "Pelouse de Bagatelle, Bois de Boulogne",
+            "classification": "Existing",
+            "use": "Polo",
+            "status": "In use",
+            "information": "France's oldest polo club, founded in 1892, is now known as the Polo de Paris. It offers its members a wide range of sports, including athletics, fencing, golf and tennis, and also lays on recreational and cultural activities, as well as receptions and business seminars.",
+            "location": "inside"
+          },
+          {
+            "name": "Fronton de Neuilly / Terrain de la Société du Jeu de pelote",
+            "classification": "Existing",
+            "use": "Basque pelota",
+            "status": "Not in use (demolished)",
+            "information": "The Société du Jeu de Pelote was founded in 1898 and built the French capital's first permanent pelota court at 26 Rue Pauline Borghèse in Neuilly-sur-Seine. It was this court that hosted the competition held as part of the 1900 Olympic Games, with a small stand built next to it to accommodate spectators. Two more courts were opened in Neuilly in the years immediately afterwards, as the popularity of the game spread, with new clubs being founded and the game finding its way into schools. This popularity quickly faded in the Neuilly area, however, leading to the closure of the Rue Pauline Borghèse court in 1906. By 1912, Neuilly's two other courts had also closed, while a fourth opened in 1913 only to shut down a year later.",
+            "location": "inside"
+          },
+          {
+            "name": "Stand de l'île Séguin",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "This island in the Seine was a popular leisure destination and was used for recreational boating and angling, as well as clay pigeon shooting. The shooting range made way for a Renault car factory in 1919. The factory produced its last car in 1992 and was demolished in 2005. The site is now occupied by newly built concert and performance venues.",
+            "location": "inside"
+          },
+          {
+            "name": "Terrain de la Société des Sports de Compiègne",
+            "classification": "Existing",
+            "use": "Golf",
+            "status": "Not in use (demolished)",
+            "information": "Founded in 1896 and situated in the middle of a racecourse, the golf course closed in 2017. The expansion of the racecourse led to it being reduced from an 18-hole course to just nine holes. The club lost members as a result and was unable to continue operating.",
+            "location": "outside"
+          },
+          {
+            "name": "Palais de la Société des Régates du Havre",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "Not in use (demolished)",
+            "information": "Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1924, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.",
+            "location": "outside"
+          },
+          {
+            "name": "Camp militaire de Satory",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "In use (repurposed)",
+            "information": "The site, which housed specially erected pavilions during the 1900 Olympic Games, is still occupied by military buildings.",
+            "location": "outside"
+          },
+          {
+            "name": "Place de Breteuil",
+            "classification": "Temporary",
+            "use": "Equestrian (jumping)",
+            "status": "Dismantled (temporary)",
+            "information": "The facilities set up to host the equestrian jumping competition at Place de Breteuil were taken down after the Games.",
+            "location": "inside"
+          },
+          {
+            "name": "Grande Salle des Fêtes de l'Exposition, Champ de Mars",
+            "classification": "Temporary",
+            "use": "Fencing",
+            "status": "Dismantled (temporary)",
+            "information": "The venue for the fencing foil and sabre competitions, the Grande Salle des Fêtes de l'Exposition, was built for the 1900 Paris World's Fair and was dismantled at a later stage.",
+            "location": "inside"
+          },
+          {
+            "name": "Terrasse du Jeu de Paume, Jardin des Tuileries",
+            "classification": "Temporary",
+            "use": "Fencing",
+            "status": "Dismantled (temporary)",
+            "information": "The venue for the épée competitions at Paris 1900, the Galerie du Jeu de Paume forms part of the Jardin des Tuileries, the oldest and largest public garden in Paris. Located on the Terrasse des Feuillants, the site hosts contemporary art exhibitions.",
+            "location": "inside"
+          }
+        ],
+        "trivia": "The stands at the Vélodrome de Vincennes were built by Gustave Eiffel, who designed and oversaw the construction of the Eiffel Tower.\n\nThe velodrome also staged a cricket match as part of the 1900 Games. The game was played on the infield, between two Paris clubs made up almost entirely of British immigrants.\n\nThe great Belgian rider Eddy Merckx completed the last of his five Tour de France victories at the velodrome in 1974."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Paris\",\n  \"year\": \"1900\",\n  \"overview\": \"Fifteen competition venues were used for the Olympic Games Paris 1900, eight of which remain in use today. Eleven of the competition venues were existing, one was new and three were temporary, all of which have since been dismantled along with four of the existing venues. The one new venue is still in use, as are seven of the existing venues. Many of the remaining venues are home to sports clubs and provide recreational and sporting facilities for their members and visitors.\\n\\nFour of the venues were later used at the Olympic Games Paris 1924: the Vélodrome de Vincennes, the Terrain de Polo de Bagatelle, the Palais de la Société des Régates du Havre, and the Cercle de la Voile de Paris.\\n\\nNo Opening or Closing Ceremonies were held at the Games, which ran for more than five months and were held as part of the 1900 Paris World's Fair. In the absence of an Olympic Stadium, the main venue was the Vélodrome de Vincennes, which hosted six sports in all. There was no official Olympic Village.\",\n  \"venues\": [\n    {\n      \"name\": \"Croix-Catelan\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, tug of war\",\n      \"status\": \"In use\",\n      \"information\": \"Founded in 1886 and formerly one of five sites used by Racing Club de France, the Croix-Catelan is a large sports complex. It is home to 45 tennis courts, a 50m swimming pool, a gym, a football pitch and volleyball and basketball courts. The venue offers classes and lessons and several activities for children. Racing Club de France vacated the venue in 2006, when it was taken over by Lagardère Paris Racing.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Seine River\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, swimming, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"The section between Courbevoie Bridge and Asnières Bridge was used to host the rowing, swimming and water polo competitions at Paris 1900. No facilities were erected for the rowing events, with spectators watching from the banks of the river. The river continues to host rowing events, among them the Championnats de la Seine, France's oldest rowing competition, which is held on the same section of the Seine as the Paris 1900 events. This section is also home to the Aviron Courbevoie club, which was founded in 1882. Paris Rowing Club relocated from Courbevoie in 1970, and rowing activities on the Seine are now mainly focused on areas such as Saint-Denis and Neuilly.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Courts de la Société des Sports de l'île de Puteaux / Cercle de Puteaux\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"Still a tennis venue and situated on an island in the Seine, it was established in 1886. The club now has more than 850 members and 600 juniors in its tennis academy. Its 16 courts, five of which are covered, are also open to the public, and classes and lessons are offered.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Vélodrome de Vincennes\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cycling (track), football, gymnastics, rugby, cricket, archery\",\n      \"status\": \"In use\",\n      \"information\": \"A venue for multiple competitions at Paris 1900, the velodrome opened in 1896 and also staged cycling events at the Olympic Games Paris 1924. The setting for the prestigious Grand Prix de Paris, the velodrome was also the official finish line of the Tour de France between 1968 and 1974 but suffered neglect thereafter and was closed in 1980. Thanks to a campaign to save it and three years of refurbishment work, it reopened to the public in 2015, with its original stands still intact. A listed historical monument, the venue is officially known as the Vélodrome Jacques Anquetil and more popularly as La Cipale.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Cercle de la Voile de Paris\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1924, it organises regattas across a number of classes.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Cercle du Bois de Boulogne, Pelouse de Madrid\",\n      \"classification\": \"Existing\",\n      \"use\": \"Croquet\",\n      \"status\": \"In use\",\n      \"information\": \"The site was first used as a skating club in 1865. The Cercle du Bois de Boulogne came into being in 1899, at which point the venue became a clay pigeon shooting club, counting Pierre de Coubertin among its members. With the growth in popularity of tennis between the wars, the club began hosting tennis tournaments and became a popular practice venue for players competing in the French Open at Roland-Garros. The Ligue de Tennis de Paris is now the resident club. Among its many activities, it identifies and coaches talented young players.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Pelouse de Bagatelle, Bois de Boulogne\",\n      \"classification\": \"Existing\",\n      \"use\": \"Polo\",\n      \"status\": \"In use\",\n      \"information\": \"France's oldest polo club, founded in 1892, is now known as the Polo de Paris. It offers its members a wide range of sports, including athletics, fencing, golf and tennis, and also lays on recreational and cultural activities, as well as receptions and business seminars.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Fronton de Neuilly / Terrain de la Société du Jeu de pelote\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basque pelota\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The Société du Jeu de Pelote was founded in 1898 and built the French capital's first permanent pelota court at 26 Rue Pauline Borghèse in Neuilly-sur-Seine. It was this court that hosted the competition held as part of the 1900 Olympic Games, with a small stand built next to it to accommodate spectators. Two more courts were opened in Neuilly in the years immediately afterwards, as the popularity of the game spread, with new clubs being founded and the game finding its way into schools. This popularity quickly faded in the Neuilly area, however, leading to the closure of the Rue Pauline Borghèse court in 1906. By 1912, Neuilly's two other courts had also closed, while a fourth opened in 1913 only to shut down a year later.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Stand de l'île Séguin\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"This island in the Seine was a popular leisure destination and was used for recreational boating and angling, as well as clay pigeon shooting. The shooting range made way for a Renault car factory in 1919. The factory produced its last car in 1992 and was demolished in 2005. The site is now occupied by newly built concert and performance venues.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Terrain de la Société des Sports de Compiègne\",\n      \"classification\": \"Existing\",\n      \"use\": \"Golf\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Founded in 1896 and situated in the middle of a racecourse, the golf course closed in 2017. The expansion of the racecourse led to it being reduced from an 18-hole course to just nine holes. The club lost members as a result and was unable to continue operating.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Palais de la Société des Régates du Havre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1924, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Camp militaire de Satory\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"The site, which housed specially erected pavilions during the 1900 Olympic Games, is still occupied by military buildings.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Place de Breteuil\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Equestrian (jumping)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The facilities set up to host the equestrian jumping competition at Place de Breteuil were taken down after the Games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Grande Salle des Fêtes de l'Exposition, Champ de Mars\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Fencing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The venue for the fencing foil and sabre competitions, the Grande Salle des Fêtes de l'Exposition, was built for the 1900 Paris World's Fair and was dismantled at a later stage.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Terrasse du Jeu de Paume, Jardin des Tuileries\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Fencing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The venue for the épée competitions at Paris 1900, the Galerie du Jeu de Paume forms part of the Jardin des Tuileries, the oldest and largest public garden in Paris. Located on the Terrasse des Feuillants, the site hosts contemporary art exhibitions.\",\n      \"location\": \"inside\"\n    }\n  ],\n  \"trivia\": \"The stands at the Vélodrome de Vincennes were built by Gustave Eiffel, who designed and oversaw the construction of the Eiffel Tower.\\n\\nThe velodrome also staged a cricket match as part of the 1900 Games. The game was played on the infield, between two Paris clubs made up almost entirely of British immigrants.\\n\\nThe great Belgian rider Eddy Merckx completed the last of his five Tour de France victories at the velodrome in 1974.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **City and Year**: \"Paris\" and \"1900\" - matches PDF\n2. **Overview**: The JSON overview text matches exactly with the PDF overview section\n3. **Venues**: I need to check all 15 venues listed in the JSON against the PDF data:\n   - All venue names, classifications, uses, and statuses match the PDF tables\n   - All venue information texts match the \"THE VENUES UP CLOSE\" section\n   - Location data appears correct (inside for Paris venues, outside for Compiègne, Le Havre, and Versailles)\n4. **Trivia**: The JSON trivia text matches exactly with the \"DID YOU KNOW?\" section in the PDF\n\nEverything appears to match correctly between the JSON and PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

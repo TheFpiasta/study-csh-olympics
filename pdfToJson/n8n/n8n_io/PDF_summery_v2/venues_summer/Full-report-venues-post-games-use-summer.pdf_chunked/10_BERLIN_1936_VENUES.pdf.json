@@ -1,0 +1,191 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Berlin",
+        "year": "1936",
+        "overview": "Twenty competition venues were used for the Olympic Games Berlin 1936, 15 of which remain in use today. Twelve of the competition venues were existing, seven were new and one was temporary. Along with the temporary venue, three of the existing venues and one new venue have been dismantled. One of the new venues has been repurposed, as has one of the existing venues. The remaining venues have a range of uses, from hosting major international sporting competitions and training for high-performance athletes to recreational and grassroots sports and cultural events.\n\nAll but two of the venues are in Berlin and its environs. Berlin Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. An Olympic Village was built for the Games, but it has been closed and is not in use.",
+        "venues": [
+          {
+            "name": "Grünau Regatta Course",
+            "classification": "Existing",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "A grandstand for 9,000 spectators was built alongside the existing 2,000-metre, six-lane regatta course on the Langer See in the Grünau district of Berlin. The venue is still used today, serving as a national training centre for rowing and canoeing. It is also a development centre for various water sports and is used for both high-performance and recreational sport.",
+            "location": "inside"
+          },
+          {
+            "name": "Avus Motor Road",
+            "classification": "Existing",
+            "use": "Athletics, cycling (road)",
+            "status": "In use",
+            "information": "This public road was also used as a motor racing circuit. Today, it forms the northern part of Bundesautobahn 115. Some of the stands erected for the road cycling event are protected buildings.",
+            "location": "inside"
+          },
+          {
+            "name": "Mommsen Stadium (Mommsenstadion)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Post Stadium (Poststadion)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Wannsee Golf Course",
+            "classification": "Existing",
+            "use": "Modern pentathlon (running)",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Shooting Ranges at Wannsee",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Tennis Courts and Tennis Stadium",
+            "classification": "Existing",
+            "use": "Basketball, fencing",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Police Stadium (Polizeistadion)",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "Not in use (demolished)",
+            "information": "A handball venue at the 1936 Olympic Games, it was destroyed during WWII.",
+            "location": "inside"
+          },
+          {
+            "name": "Stadion am Gesundbrunnen (Herta-BSC ground)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "Opened in 1924, the stadium was the home ground of Hertha BSC until the club was forced to sell it in the early 1970s due to financial difficulties. It was demolished in 1974.",
+            "location": "inside"
+          },
+          {
+            "name": "Shooting Ranges at Ruhleben",
+            "classification": "Existing",
+            "use": "Modern pentathlon (shooting)",
+            "status": "Not in use (demolished)",
+            "information": "Used as an internment camp during WWI, the shooting ranges were converted into a recreational area in 2007.",
+            "location": "inside"
+          },
+          {
+            "name": "Gymnasium and Cupola Hall (Haus des Deutschen Sports)",
+            "classification": "New build",
+            "use": "Fencing, modern pentathlon (fencing)",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Hockey Stadium (Hockeystadion)",
+            "classification": "New build",
+            "use": "Hockey",
+            "status": "In use (rebuilt)",
+            "information": "Adjoining Berlin Olympic Stadium, the hockey stadium's capacity was increased to 18,000 for the Games with the addition of temporary stands. The stadium remained in use after the Games but was destroyed at the end of WWII. Rebuilt in 1954, it is home to several Berlin hockey clubs and is used by local schools and the German national team for training. Its capacity has now been reduced to 10,800.",
+            "location": "inside"
+          },
+          {
+            "name": "Dietrich Eckart Open Air Theatre",
+            "classification": "New build",
+            "use": "Artistic gymnastics",
+            "status": "In use (repurposed)",
+            "information": "Located in the Olympic Park, the venue had space for 20,000 in its 85 rows of seating. Destroyed during WWII, the stage was rebuilt in 1961. The first Olympic venue to be used solely for gymnastics at Games time, it was later renamed the Waldbühne and repurposed to host cultural events such as an annual concert given by the Berlin Philharmonic Orchestra. It has also staged boxing matches and an infamous 1965 concert by the Rolling Stones, which ended in a riot that caused extensive damage to the venue. It was not used again until its renovation seven years later. Modelled on an Ancient Greek amphitheatre, the Waldbühne has a roofed stage and lighting for evening performances. One of the most popular open-air theatres in the world, it was ranked Europe's best amphitheatre in 2019 by a respected concert-industry magazine.",
+            "location": "inside"
+          },
+          {
+            "name": "May Field (Mai-feld)",
+            "classification": "New build",
+            "use": "Equestrian (dressage), polo",
+            "status": "In use",
+            "information": "Covering an area of 112,000 square metres and created as an open space for gymnastics and athletics demonstrations, the May Field staged the individual and team dressage competitions. Temporary equestrian infrastructure was installed for the Games. The venue is part of Berlin Olympic Park and is located next to the Olympic Stadium. From the end of WWII until 1994, the May Field was part of the British sector in West Berlin, and was used for rugby, football and polo, among other sports, and staged public events . It is now used by a number of sports clubs, including Berlin Cricket Club, and also hosts a music festival and a fireworks championship.",
+            "location": "inside"
+          },
+          {
+            "name": "Berlin Olympic Stadium",
+            "classification": "New build",
+            "use": "Athletics, football, handball, equestrian (jumping), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Built between 1934 and 1936, this neoclassical-style stadium was sited on the foundations of the Deutsche Stadion, originally constructed for the 1916 Olympic Games, which were cancelled due to the outbreak of WWI. The stadium forms part of Berlin Olympic Park, which was known as the Reichssportfeld at Games time and is also home to the May Field, the Hockey Stadium, the Tennis Courts and Tennis Stadium, the Swimming Stadium and the Waldbühne. Occupied by British troops at the end of WWII, the stadium was returned to the local authorities in 1949. In 1966, it was listed as a historical monument. The stadium then underwent a number of modifications and renovations, the most extensive coming in the early 2000s, in preparation for the 2006 football World Cup, when the lower ring was rebuilt and two rows of seats and a roof were added. Used mostly as a football venue since the war, it has been the home stadium of Hertha BSC since 1963. Berlin Olympic Stadium has hosted the German Cup Final since 1985. A venue at the 1974 World Cup, it also staged the final of the 2006 World Cup and the opening match of the 2011 Women's World Cup. Also a major track and field venue, it staged the 2009 IAAF World Championships in Athletics and the 2018 European Athletics Championships. Several major acts have performed at the venue, among them Madonna, Depeche Mode and Coldplay.",
+            "location": "inside"
+          },
+          {
+            "name": "Berlin Olympic Swimming Stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "Listed as a historical building, the stadium is still in use and retains its original 50-metre pool and diving pool. Directly connected to the Olympic Stadium by a tunnel, this open-air swimming stadium had two grandstands with a capacity of 17,000. Such was the advance interest in the Olympic swimming, diving and water polo competitions that a third stand was built at one end of the stadium. It was removed after the Games, since when the stadium has undergone a series of modernisations and structural changes. The most comprehensive of them was carried out for the 1978 FINA World Swimming Championships, when the capacity of the grandstands was reduced to 7,500.",
+            "location": "inside"
+          },
+          {
+            "name": "Deutschlandhalle",
+            "classification": "New build",
+            "use": "Boxing, wrestling, weightlifting",
+            "status": "Not in use (demolished)",
+            "information": "The venue had a capacity of 20,000. It was extensively damaged during an Allied air raid in 1943. Rebuilt after the war, it became a multi-purpose sports arena used for sports such as ice hockey, football and boxing. The subject of several closures for repairs, it was finally demolished in 2011, and a conference centre was built on the site.",
+            "location": "inside"
+          },
+          {
+            "name": "Berlin Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "Not in use",
+            "information": "The Olympic Village was built on an unused site in Elstal, 14 kilometres west of Berlin. It accommodated most of the 4,000 male athletes during the Games. Its 140 houses were organised in a half-circle around a communal building and dining hall known as the House of Nations. It also featured administrative and technical buildings, 38 smaller dining halls, a sauna, a post office, a bank, a medical centre, a restaurant open to the public, shops and a laundrette. After WWII, the Village was used as accommodation for Russian and Soviet soldiers and their families, though the only buildings that remained by that time were the House of Nations, the sports and swim halls, and the halls that had housed the Swiss, Turkish and US athletes. When the Cold War ended, the site was abandoned and vandalised. A fire destroyed the swim hall in 1993, at which point the Village was listed as a protected heritage site. Some of the buildings were later renovated and opened to the public. In 2017, work began on the renovation of the House of Nations and its conversion into 117 rental apartments to alleviate a housing shortage in Berlin. These apartments have already been sold. The construction of an additional 300 housing units in 20 terraced houses and apartment buildings is also planned.",
+            "location": "outside"
+          },
+          {
+            "name": "Cycling Stadium (Olympia-Radstadion)",
+            "classification": "Temporary",
+            "use": "Cycling (track)",
+            "status": "Dismantled (temporary)",
+            "information": "A temporary cycling track was erected on what are now the Messe Berlin exhibition grounds. It was taken down after the Games.",
+            "location": "inside"
+          },
+          {
+            "name": "Kiel Bay",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "The sailing events at the 1936 Olympic Games were held in Kiel Bay, to the north of the city of Kiel. Now known as Sporthafen Düsternbrook, It is still a popular sailing venue today and is home to the Kiel Yacht Club for sailing, which has 300 moorings and offers training for youngsters and competitive sailing for its members. The building known as the 'Olympic home', which accommodated sailing athletes, was partially destroyed during WWII and rebuilt. It currently hosts the Kiel Institute of World Economics.",
+            "location": "outside"
+          },
+          {
+            "name": "Döberitz Military Drill Grounds",
+            "classification": "Existing",
+            "use": "Modern pentathlon (equestrian), equestrian (cross-country)",
+            "status": "Not in use (demolished)",
+            "information": "The venue for the cross-country section of the equestrian competition attracted crowds estimated at between 50,000 and 60,000. It is now a nature reserve.",
+            "location": "outside"
+          }
+        ],
+        "trivia": "The roof of Berlin Olympic Stadium weighs 3,500 tonnes and is covered by a translucent membrane made of polytetrafluoroethylene (PTFE), with glass around the edge. It also features lighting and sound systems.\n\nAt the request of FINA, ropes were used to mark the lanes at the Swimming Stadium. Chlorine was added to the water to prevent it from going murky and to allow swimmers to see where they were going.\n\nAir traffic was banned over the Olympic Games venues. The only craft that was allowed to fly over the Olympic Stadium on the day of the Opening Ceremony was the LZ-129 Hindenburg, one of the biggest airships ever built.\n\nThe Olympic Stadium was awarded the IPC/IAKS Distinction for Accessibility in 2007 in recognition of its functionality for people with disabilities."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Berlin\",\n  \"year\": \"1936\",\n  \"overview\": \"Twenty competition venues were used for the Olympic Games Berlin 1936, 15 of which remain in use today. Twelve of the competition venues were existing, seven were new and one was temporary. Along with the temporary venue, three of the existing venues and one new venue have been dismantled. One of the new venues has been repurposed, as has one of the existing venues. The remaining venues have a range of uses, from hosting major international sporting competitions and training for high-performance athletes to recreational and grassroots sports and cultural events.\\n\\nAll but two of the venues are in Berlin and its environs. Berlin Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions. An Olympic Village was built for the Games, but it has been closed and is not in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Grünau Regatta Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"A grandstand for 9,000 spectators was built alongside the existing 2,000-metre, six-lane regatta course on the Langer See in the Grünau district of Berlin. The venue is still used today, serving as a national training centre for rowing and canoeing. It is also a development centre for various water sports and is used for both high-performance and recreational sport.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Avus Motor Road\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, cycling (road)\",\n      \"status\": \"In use\",\n      \"information\": \"This public road was also used as a motor racing circuit. Today, it forms the northern part of Bundesautobahn 115. Some of the stands erected for the road cycling event are protected buildings.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Mommsen Stadium (Mommsenstadion)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Post Stadium (Poststadion)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Wannsee Golf Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (running)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Shooting Ranges at Wannsee\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Tennis Courts and Tennis Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basketball, fencing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Police Stadium (Polizeistadion)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"A handball venue at the 1936 Olympic Games, it was destroyed during WWII.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Stadion am Gesundbrunnen (Herta-BSC ground)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Opened in 1924, the stadium was the home ground of Hertha BSC until the club was forced to sell it in the early 1970s due to financial difficulties. It was demolished in 1974.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Shooting Ranges at Ruhleben\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (shooting)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Used as an internment camp during WWI, the shooting ranges were converted into a recreational area in 2007.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Gymnasium and Cupola Hall (Haus des Deutschen Sports)\",\n      \"classification\": \"New build\",\n      \"use\": \"Fencing, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Hockey Stadium (Hockeystadion)\",\n      \"classification\": \"New build\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Adjoining Berlin Olympic Stadium, the hockey stadium's capacity was increased to 18,000 for the Games with the addition of temporary stands. The stadium remained in use after the Games but was destroyed at the end of WWII. Rebuilt in 1954, it is home to several Berlin hockey clubs and is used by local schools and the German national team for training. Its capacity has now been reduced to 10,800.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Dietrich Eckart Open Air Theatre\",\n      \"classification\": \"New build\",\n      \"use\": \"Artistic gymnastics\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Located in the Olympic Park, the venue had space for 20,000 in its 85 rows of seating. Destroyed during WWII, the stage was rebuilt in 1961. The first Olympic venue to be used solely for gymnastics at Games time, it was later renamed the Waldbühne and repurposed to host cultural events such as an annual concert given by the Berlin Philharmonic Orchestra. It has also staged boxing matches and an infamous 1965 concert by the Rolling Stones, which ended in a riot that caused extensive damage to the venue. It was not used again until its renovation seven years later. Modelled on an Ancient Greek amphitheatre, the Waldbühne has a roofed stage and lighting for evening performances. One of the most popular open-air theatres in the world, it was ranked Europe's best amphitheatre in 2019 by a respected concert-industry magazine.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"May Field (Mai-feld)\",\n      \"classification\": \"New build\",\n      \"use\": \"Equestrian (dressage), polo\",\n      \"status\": \"In use\",\n      \"information\": \"Covering an area of 112,000 square metres and created as an open space for gymnastics and athletics demonstrations, the May Field staged the individual and team dressage competitions. Temporary equestrian infrastructure was installed for the Games. The venue is part of Berlin Olympic Park and is located next to the Olympic Stadium. From the end of WWII until 1994, the May Field was part of the British sector in West Berlin, and was used for rugby, football and polo, among other sports, and staged public events . It is now used by a number of sports clubs, including Berlin Cricket Club, and also hosts a music festival and a fireworks championship.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Berlin Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, football, handball, equestrian (jumping), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Built between 1934 and 1936, this neoclassical-style stadium was sited on the foundations of the Deutsche Stadion, originally constructed for the 1916 Olympic Games, which were cancelled due to the outbreak of WWI. The stadium forms part of Berlin Olympic Park, which was known as the Reichssportfeld at Games time and is also home to the May Field, the Hockey Stadium, the Tennis Courts and Tennis Stadium, the Swimming Stadium and the Waldbühne. Occupied by British troops at the end of WWII, the stadium was returned to the local authorities in 1949. In 1966, it was listed as a historical monument. The stadium then underwent a number of modifications and renovations, the most extensive coming in the early 2000s, in preparation for the 2006 football World Cup, when the lower ring was rebuilt and two rows of seats and a roof were added. Used mostly as a football venue since the war, it has been the home stadium of Hertha BSC since 1963. Berlin Olympic Stadium has hosted the German Cup Final since 1985. A venue at the 1974 World Cup, it also staged the final of the 2006 World Cup and the opening match of the 2011 Women's World Cup. Also a major track and field venue, it staged the 2009 IAAF World Championships in Athletics and the 2018 European Athletics Championships. Several major acts have performed at the venue, among them Madonna, Depeche Mode and Coldplay.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Berlin Olympic Swimming Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"Listed as a historical building, the stadium is still in use and retains its original 50-metre pool and diving pool. Directly connected to the Olympic Stadium by a tunnel, this open-air swimming stadium had two grandstands with a capacity of 17,000. Such was the advance interest in the Olympic swimming, diving and water polo competitions that a third stand was built at one end of the stadium. It was removed after the Games, since when the stadium has undergone a series of modernisations and structural changes. The most comprehensive of them was carried out for the 1978 FINA World Swimming Championships, when the capacity of the grandstands was reduced to 7,500.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Deutschlandhalle\",\n      \"classification\": \"New build\",\n      \"use\": \"Boxing, wrestling, weightlifting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue had a capacity of 20,000. It was extensively damaged during an Allied air raid in 1943. Rebuilt after the war, it became a multi-purpose sports arena used for sports such as ice hockey, football and boxing. The subject of several closures for repairs, it was finally demolished in 2011, and a conference centre was built on the site.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Berlin Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"Not in use\",\n      \"information\": \"The Olympic Village was built on an unused site in Elstal, 14 kilometres west of Berlin. It accommodated most of the 4,000 male athletes during the Games. Its 140 houses were organised in a half-circle around a communal building and dining hall known as the House of Nations. It also featured administrative and technical buildings, 38 smaller dining halls, a sauna, a post office, a bank, a medical centre, a restaurant open to the public, shops and a laundrette. After WWII, the Village was used as accommodation for Russian and Soviet soldiers and their families, though the only buildings that remained by that time were the House of Nations, the sports and swim halls, and the halls that had housed the Swiss, Turkish and US athletes. When the Cold War ended, the site was abandoned and vandalised. A fire destroyed the swim hall in 1993, at which point the Village was listed as a protected heritage site. Some of the buildings were later renovated and opened to the public. In 2017, work began on the renovation of the House of Nations and its conversion into 117 rental apartments to alleviate a housing shortage in Berlin. These apartments have already been sold. The construction of an additional 300 housing units in 20 terraced houses and apartment buildings is also planned.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Cycling Stadium (Olympia-Radstadion)\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"A temporary cycling track was erected on what are now the Messe Berlin exhibition grounds. It was taken down after the Games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Kiel Bay\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"The sailing events at the 1936 Olympic Games were held in Kiel Bay, to the north of the city of Kiel. Now known as Sporthafen Düsternbrook, It is still a popular sailing venue today and is home to the Kiel Yacht Club for sailing, which has 300 moorings and offers training for youngsters and competitive sailing for its members. The building known as the 'Olympic home', which accommodated sailing athletes, was partially destroyed during WWII and rebuilt. It currently hosts the Kiel Institute of World Economics.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Döberitz Military Drill Grounds\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (equestrian), equestrian (cross-country)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for the cross-country section of the equestrian competition attracted crowds estimated at between 50,000 and 60,000. It is now a nature reserve.\",\n      \"location\": \"outside\"\n    }\n  ],\n  \"trivia\": \"The roof of Berlin Olympic Stadium weighs 3,500 tonnes and is covered by a translucent membrane made of polytetrafluoroethylene (PTFE), with glass around the edge. It also features lighting and sound systems.\\n\\nAt the request of FINA, ropes were used to mark the lanes at the Swimming Stadium. Chlorine was added to the water to prevent it from going murky and to allow swimmers to see where they were going.\\n\\nAir traffic was banned over the Olympic Games venues. The only craft that was allowed to fly over the Olympic Stadium on the day of the Opening Ceremony was the LZ-129 Hindenburg, one of the biggest airships ever built.\\n\\nThe Olympic Stadium was awarded the IPC/IAKS Distinction for Accessibility in 2007 in recognition of its functionality for people with disabilities.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n1. **City**: \"Berlin\" ✓ - matches PDF\n2. **Year**: \"1936\" ✓ - matches PDF  \n3. **Overview**: The overview in JSON matches exactly with the overview section from page 1 of the PDF ✓\n\n4. **Venues**: Checking each venue against the tables on pages 2-4 and detailed descriptions on pages 4-6:\n   - All 21 venues are present and match the complete list ✓\n   - Names, classifications, uses, and current status all match ✓\n   - Information sections match the detailed descriptions from \"THE VENUES UP CLOSE\" section ✓\n   - Location data appears correct based on the overview stating \"All but two of the venues are in Berlin and its environs\" and specific mentions in the text ✓\n\n5. **Trivia**: The trivia section matches exactly with the \"DID YOU KNOW?\" section from page 6 ✓\n\nAll data appears to be accurate and complete.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

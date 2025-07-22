@@ -1,0 +1,287 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Munich",
+        "year": "1972",
+        "overview": "Thirty-two competition venues were used for the Olympic Games Munich 1972, 22 of which remain in use today. Seventeen of the competition venues were existing, 11 were new and four were temporary. Along with the temporary venues, four of the existing venues and two of the new venues have been dismantled. Eleven of the venues were outside Munich.\n\nThe venues that are still in use host major sporting events, provide training and competition facilities for high-performance and clubs, and offer residents opportunities to play sport at a recreational level. Some of the venues also stage cultural events and concerts.\n\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several competitions, and remains in use. The Olympic Village was built for the Games and remains in use.",
+        "venues": [
+          {
+            "name": "Reitstadion, Riem/Riding Stadium",
+            "classification": "Existing",
+            "use": "Eventing, jumping, modern pentathlon (equestrian)",
+            "status": "In use",
+            "information": "The home of the Munich Riding Academy, the Bavarian Riding and Driving Association and the Regional Association of Bavarian Horse Breeders, this 27-hectare venue was rebuilt and expanded for the 1972 Olympic Games. The Riding Academy was founded in 1958 and organises jumping and dressage tournaments, equestrian festivals and instruction for young riders.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Dante Bath",
+            "classification": "Existing",
+            "use": "Water polo",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Weightlifting Hall",
+            "classification": "Existing",
+            "use": "Weightlifting",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Boxing Hall",
+            "classification": "Existing",
+            "use": "Boxing, judo",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Nymphenburg Palace",
+            "classification": "Existing",
+            "use": "Dressage",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Military-Gelände Poing, Poing/Riem",
+            "classification": "Existing",
+            "use": "Eventing",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Fencing Hall 1",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Fencing Hall 2",
+            "classification": "Existing",
+            "use": "Modern pentathlon (fencing)",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Munich Olympic Stadium",
+            "classification": "New build",
+            "use": "Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "This multi-purpose stadium had a capacity of 77,000 at Games time. This has now been reduced to 69,250. A Munich landmark, it forms part of the city's Olympic Park and stages a wide variety of sporting and cultural events.\n\nThe home ground of football clubs Bayern Munich and TSV 1860 Munich for many years, it was the venue for the finals of the 1974 FIFA World Cup and the 1988 UEFA European Championships. It also staged the 2012 Special Olympics and is a major athletics venue, having hosted the 2002 European Championships and the IAAF Grand Prix Athletics Final in 1999. A venue at the multi-sport European Championships Munich 2022, it is the finish point of the annual Munich Marathon and hosts the Oktoberfest rugby sevens tournament. The stadium is also a popular concert venue.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Sports Hall",
+            "classification": "New build",
+            "use": "Artistic gymnastics, handball",
+            "status": "In use",
+            "information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Swimming Stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "A training centre for local water sports clubs, schools and Munich's Technical University, the venue has staged the German Swimming Championships six times, and welcomed 21 million visitors between 1973 and 2017. Located in the Olympic Park, it has a 50m main pool, a diving well, a 50m warm-up pool and a paddling area for children. The facility was extensively refurbished in 2019, as part of which the pools, the water-treatment and fire-protection systems were upgraded.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Munich Olympic Regatta Course",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "Measuring 2,230 metres long and 140 metres wide, the course remains an active competition and recreational site. Since the 1972 Olympic Games, it has welcomed several major competitions, including two FISA Rowing World Championships and the 2021 European Rowing Junior Championships, as well regional and local triathlon and open-water swimming events.\n\nUsed by schools and universities, the facility is home to ten local water sports clubs, the Bavarian Rowing Association and the Bavarian Canoeing Association. The course has been a Para-canoe and Para-rowing training hub since 2015, and has training facilities for archery, volleyball, speed skating, skiing, triathlon and running. It also hosts a public water sports day every year, and part of the course is open for swimming in the summer months. The course's facilities were the subject of a preservation order in 2018 and will undergo refurbishment in preparation for the rowing competitions at the multisport European Championships Munich 2022.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Shooting Range",
+            "classification": "New build",
+            "use": "Shooting, modern pentathlon (shooting)",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Basketball Hall",
+            "classification": "New build",
+            "use": "Basketball, judo",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Volleyball Hall",
+            "classification": "New build",
+            "use": "Volleyball",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Cycling Stadium (Olympia-Radstadion)",
+            "classification": "New build",
+            "use": "Cycling (track)",
+            "status": "Not in use",
+            "information": "The venue performed many functions after the 1972 Olympic Games. It housed an interactive museum before being renamed the Event Arena in 2004 and becoming a congress centre and exhibition venue. The venue was demolished in 2015 to make way for a 11,500-capacity multi-purpose sports arena that is scheduled to open in 2023.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Wrestling and Judo Hall",
+            "classification": "New build",
+            "use": "Wrestling, judo",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Olympisches Dorf",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Completed in July 1972 and situated in the north-eastern part of the Olympic Park, the village provided accommodation for 12,000 athletes, coaches and delegations from 122 nations during the Olympic Games. It was planned as a residential area for middle- and lower-income families and single people, and was fully occupied by the end of 1975. Known locally as the \"Oly-Dorf\", it is home to around 8,000 people, a quarter of them students. The village is car-free and child-friendly and has many green spaces and playgrounds, offering easy access to shops and local amenities. It is also well served by public transport.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Hockey Fields",
+            "classification": "Temporary",
+            "use": "Hockey",
+            "status": "Dismantled (temporary)",
+            "information": "Comprising seven pitches, the 1972 Olympic Games hockey venue was located in the northern section of the Olympic Park. The pitches remain in place and are part of the Zentraler Hochschulsport München (ZHS)'s sports facilities. One of them has been converted into a baseball diamond that is used by the München Caribes club, and another has been turned into an artificial football pitch used by the club SV Olympiadorf München eV. The venue's grandstands – the largest of which had a capacity of 10,000 – were removed after the Games.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Archery Range",
+            "classification": "Temporary",
+            "use": "Archery",
+            "status": "Dismantled (temporary)",
+            "information": "This was in the Englischer Garten (English Garden), a large public city-centre park created in 1789. The temporary range was located in a part of the park known as the Werneckwiese.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Munich-Lindau Highway",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "The individual road race was held on a loop course that started and finished in the town of Grünwald, while the team time trial took place on a newly constructed 25-kilometre section of Bundesautobahn 96, a motorway linking Munich with the town of Lindau, near the Austrian border. The roads are still in use today.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Munich-Grünwald Circuit",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "The individual road race was held on a loop course that started and finished in the town of Grünwald, while the team time trial took place on a newly constructed 25-kilometre section of Bundesautobahn 96, a motorway linking Munich with the town of Lindau, near the Austrian border. The roads are still in use today.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Sports Hall, Boblingen",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "Not in use (demolished)",
+            "information": "The venue was built in 1966 and demolished in 2008 when the city council decided that its renovation would not be cost-effective. Residential apartments were later built on the site.",
+            "location": "outside the city"
+          },
+          {
+            "name": "SSV Jahn-Regensburg Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "The stadium hosted six matches of the 1972 Olympic football tournament. Opened in 1926, it was the home of football club SSV Jahn-Regensburg until 2015, when the club relocated to a new stadium. The stadium was demolished in 2017, and the site is now occupied by a school, the Kreutzschule im alten Stadion, which was founded in the 1870s and moved to its new home in May 2020.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Municipal Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Rosenau Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Sports Hall, Augsburg",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Drei Flüsse Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "ESV Ingolstadt Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Donauhalle",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Hohenstaufenhalle",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Canoe Slalom Course at the Eiskanal",
+            "classification": "New build",
+            "use": "Canoe slalom",
+            "status": "In use",
+            "information": "The course continues to host international, national and regional competitions, and is the home of Germany's National/Olympic Training Centre and two local canoe clubs. The venue for the 2011 ICF Wildwater Canoeing Sprint World Championships and the ICF Canoe Slalom European Championships in 1996 and 2012, it has hosted more than 20 ICF World Cup events. It will stage the ICF Canoe Slalom World Championships for a fourth time in 2022 and has been refurbished for the event, with the existing organisation centre and boathouse being renovated. The venue's grass terraces can accommodate crowds of between 8,000 and 10,000.\n\nThe course was first used as a canoe slalom venue in the 1950s. In preparation for Munich 1972, a sculpted concrete floor was created in the channel and the course was made steeper. Water flow from the weir at the top of the channel can be controlled to provide the necessary canoeing conditions. As a result, the course does not use pumps, making it more cost-efficient to run. Since 2019, the Olympic canoe slalom course has been part of the UNESCO World Heritage site of Augsburg.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Olympia Hafen",
+            "classification": "New build",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "Nearly one square kilometre in size, the Olympic Park was home to the Olympic Village and seven of the Games' competition venues: the Olympic Stadium, Sports Hall, Boxing Hall, Swimming Hall, Cycling Stadium, Volleyball Hall and the Hockey Facility. Also within its confines were the Werner-von-Linde Hall, a number of training areas, the press centre, the Theatron and the Hans Jochen Vogel Square (previously known as Coubertin Square). Created especially for the Olympic Games Munich 1972, the park is close to the city centre and is well served by Munich's public transport network.\n\nThe Olympic Stadium is instantly recognisable, thanks to its distinctive, transparent tented roof, which covers an area of 75,000 square metres and extends to the nearby Olympic Hall and Swimming Hall. The canoe slalom course in Augsburg is a national heritage site. Its history dates back to the 17th century, when the River Lech was dammed to create a canal supplying water to the city. This manmade stretch of water is known locally as the Eiskanal (\"ice canal\"), as ice was diverted to float down the river."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Munich\",\n  \"year\": \"1972\",\n  \"overview\": \"Thirty-two competition venues were used for the Olympic Games Munich 1972, 22 of which remain in use today. Seventeen of the competition venues were existing, 11 were new and four were temporary. Along with the temporary venues, four of the existing venues and two of the new venues have been dismantled. Eleven of the venues were outside Munich.\\n\\nThe venues that are still in use host major sporting events, provide training and competition facilities for high-performance and clubs, and offer residents opportunities to play sport at a recreational level. Some of the venues also stage cultural events and concerts.\\n\\nThe Olympic Stadium hosted the Opening and Closing Ceremonies and several competitions, and remains in use. The Olympic Village was built for the Games and remains in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Reitstadion, Riem/Riding Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing, jumping, modern pentathlon (equestrian)\",\n      \"status\": \"In use\",\n      \"information\": \"The home of the Munich Riding Academy, the Bavarian Riding and Driving Association and the Regional Association of Bavarian Horse Breeders, this 27-hectare venue was rebuilt and expanded for the 1972 Olympic Games. The Riding Academy was founded in 1958 and organises jumping and dressage tournaments, equestrian festivals and instruction for young riders.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Dante Bath\",\n      \"classification\": \"Existing\",\n      \"use\": \"Water polo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Weightlifting Hall\",\n      \"classification\": \"Existing\",\n      \"use\": \"Weightlifting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Boxing Hall\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, judo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Nymphenburg Palace\",\n      \"classification\": \"Existing\",\n      \"use\": \"Dressage\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Military-Gelände Poing, Poing/Riem\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Fencing Hall 1\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Fencing Hall 2\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (fencing)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Munich Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"This multi-purpose stadium had a capacity of 77,000 at Games time. This has now been reduced to 69,250. A Munich landmark, it forms part of the city's Olympic Park and stages a wide variety of sporting and cultural events.\\n\\nThe home ground of football clubs Bayern Munich and TSV 1860 Munich for many years, it was the venue for the finals of the 1974 FIFA World Cup and the 1988 UEFA European Championships. It also staged the 2012 Special Olympics and is a major athletics venue, having hosted the 2002 European Championships and the IAAF Grand Prix Athletics Final in 1999. A venue at the multi-sport European Championships Munich 2022, it is the finish point of the annual Munich Marathon and hosts the Oktoberfest rugby sevens tournament. The stadium is also a popular concert venue.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Sports Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Artistic gymnastics, handball\",\n      \"status\": \"In use\",\n      \"information\": \"Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Swimming Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"A training centre for local water sports clubs, schools and Munich's Technical University, the venue has staged the German Swimming Championships six times, and welcomed 21 million visitors between 1973 and 2017. Located in the Olympic Park, it has a 50m main pool, a diving well, a 50m warm-up pool and a paddling area for children. The facility was extensively refurbished in 2019, as part of which the pools, the water-treatment and fire-protection systems were upgraded.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Munich Olympic Regatta Course\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"Measuring 2,230 metres long and 140 metres wide, the course remains an active competition and recreational site. Since the 1972 Olympic Games, it has welcomed several major competitions, including two FISA Rowing World Championships and the 2021 European Rowing Junior Championships, as well regional and local triathlon and open-water swimming events.\\n\\nUsed by schools and universities, the facility is home to ten local water sports clubs, the Bavarian Rowing Association and the Bavarian Canoeing Association. The course has been a Para-canoe and Para-rowing training hub since 2015, and has training facilities for archery, volleyball, speed skating, skiing, triathlon and running. It also hosts a public water sports day every year, and part of the course is open for swimming in the summer months. The course's facilities were the subject of a preservation order in 2018 and will undergo refurbishment in preparation for the rowing competitions at the multisport European Championships Munich 2022.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Shooting Range\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting, modern pentathlon (shooting)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Basketball Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball, judo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Volleyball Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Volleyball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Cycling Stadium (Olympia-Radstadion)\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue performed many functions after the 1972 Olympic Games. It housed an interactive museum before being renamed the Event Arena in 2004 and becoming a congress centre and exhibition venue. The venue was demolished in 2015 to make way for a 11,500-capacity multi-purpose sports arena that is scheduled to open in 2023.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Wrestling and Judo Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Wrestling, judo\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Olympisches Dorf\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Completed in July 1972 and situated in the north-eastern part of the Olympic Park, the village provided accommodation for 12,000 athletes, coaches and delegations from 122 nations during the Olympic Games. It was planned as a residential area for middle- and lower-income families and single people, and was fully occupied by the end of 1975. Known locally as the \\\"Oly-Dorf\\\", it is home to around 8,000 people, a quarter of them students. The village is car-free and child-friendly and has many green spaces and playgrounds, offering easy access to shops and local amenities. It is also well served by public transport.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Hockey Fields\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Hockey\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Comprising seven pitches, the 1972 Olympic Games hockey venue was located in the northern section of the Olympic Park. The pitches remain in place and are part of the Zentraler Hochschulsport München (ZHS)'s sports facilities. One of them has been converted into a baseball diamond that is used by the München Caribes club, and another has been turned into an artificial football pitch used by the club SV Olympiadorf München eV. The venue's grandstands – the largest of which had a capacity of 10,000 – were removed after the Games.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Archery Range\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Archery\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"This was in the Englischer Garten (English Garden), a large public city-centre park created in 1789. The temporary range was located in a part of the park known as the Werneckwiese.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Munich-Lindau Highway\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The individual road race was held on a loop course that started and finished in the town of Grünwald, while the team time trial took place on a newly constructed 25-kilometre section of Bundesautobahn 96, a motorway linking Munich with the town of Lindau, near the Austrian border. The roads are still in use today.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Munich-Grünwald Circuit\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The individual road race was held on a loop course that started and finished in the town of Grünwald, while the team time trial took place on a newly constructed 25-kilometre section of Bundesautobahn 96, a motorway linking Munich with the town of Lindau, near the Austrian border. The roads are still in use today.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Sports Hall, Boblingen\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue was built in 1966 and demolished in 2008 when the city council decided that its renovation would not be cost-effective. Residential apartments were later built on the site.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"SSV Jahn-Regensburg Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The stadium hosted six matches of the 1972 Olympic football tournament. Opened in 1926, it was the home of football club SSV Jahn-Regensburg until 2015, when the club relocated to a new stadium. The stadium was demolished in 2017, and the site is now occupied by a school, the Kreutzschule im alten Stadion, which was founded in the 1870s and moved to its new home in May 2020.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Municipal Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Rosenau Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Sports Hall, Augsburg\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Drei Flüsse Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"ESV Ingolstadt Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Donauhalle\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Hohenstaufenhalle\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Canoe Slalom Course at the Eiskanal\",\n      \"classification\": \"New build\",\n      \"use\": \"Canoe slalom\",\n      \"status\": \"In use\",\n      \"information\": \"The course continues to host international, national and regional competitions, and is the home of Germany's National/Olympic Training Centre and two local canoe clubs. The venue for the 2011 ICF Wildwater Canoeing Sprint World Championships and the ICF Canoe Slalom European Championships in 1996 and 2012, it has hosted more than 20 ICF World Cup events. It will stage the ICF Canoe Slalom World Championships for a fourth time in 2022 and has been refurbished for the event, with the existing organisation centre and boathouse being renovated. The venue's grass terraces can accommodate crowds of between 8,000 and 10,000.\\n\\nThe course was first used as a canoe slalom venue in the 1950s. In preparation for Munich 1972, a sculpted concrete floor was created in the channel and the course was made steeper. Water flow from the weir at the top of the channel can be controlled to provide the necessary canoeing conditions. As a result, the course does not use pumps, making it more cost-efficient to run. Since 2019, the Olympic canoe slalom course has been part of the UNESCO World Heritage site of Augsburg.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Olympia Hafen\",\n      \"classification\": \"New build\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"Nearly one square kilometre in size, the Olympic Park was home to the Olympic Village and seven of the Games' competition venues: the Olympic Stadium, Sports Hall, Boxing Hall, Swimming Hall, Cycling Stadium, Volleyball Hall and the Hockey Facility. Also within its confines were the Werner-von-Linde Hall, a number of training areas, the press centre, the Theatron and the Hans Jochen Vogel Square (previously known as Coubertin Square). Created especially for the Olympic Games Munich 1972, the park is close to the city centre and is well served by Munich's public transport network.\\n\\nThe Olympic Stadium is instantly recognisable, thanks to its distinctive, transparent tented roof, which covers an area of 75,000 square metres and extends to the nearby Olympic Hall and Swimming Hall. The canoe slalom course in Augsburg is a national heritage site. Its history dates back to the 17th century, when the River Lech was dammed to create a canal supplying water to the city. This manmade stretch of water is known locally as the Eiskanal (\\\"ice canal\\\"), as ice was diverted to float down the river.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n**Overview:** The JSON overview matches the PDF overview exactly.\n\n**City & Year:** \"Munich\" and \"1972\" are correct.\n\n**Venues:** I need to check all 33 venues listed in the JSON against the PDF tables and descriptions.\n\nGoing through each venue:\n1. All venue names match the tables exactly\n2. All classifications (Existing/New build/Temporary) match\n3. All uses at Games time match\n4. All current statuses match\n5. Information sections match the \"THE VENUES UP CLOSE\" content where provided\n6. Location field (inside/outside city) - checking against PDF organization of venues...\n\nThe PDF organizes venues into \"Venues in the Olympic Park\", \"Other venues in Munich\", and \"Venues outside Munich\". The JSON location assignments appear consistent with this organization.\n\n**Trivia:** The JSON trivia section matches the PDF \"DID YOU KNOW?\" section exactly.\n\nAll data appears to match the PDF content correctly.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

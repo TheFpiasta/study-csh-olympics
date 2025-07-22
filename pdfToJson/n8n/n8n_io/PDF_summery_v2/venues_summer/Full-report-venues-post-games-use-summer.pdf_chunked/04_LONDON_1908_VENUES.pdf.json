@@ -1,0 +1,135 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "London",
+        "year": "1908",
+        "overview": "Fourteen competition venues were used for the Olympic Games London 1908, eight of which remain in use today. Twelve of the competition venues were existing, one was new and one was temporary. The new venue has since been demolished, along with four of the existing ones. Most of the venues that remain in use are sports clubs, with several of them hosting major competitions and providing recreational and competitive sport for their members. The new venue was the London Olympic Stadium, where the Opening and Closing Ceremonies were held. Also known as White City Stadium, it was the main centre of the Games. It was regularly used for over 55 years before being demolished in 1984. There was no official Olympic Village. Only two of the venues were used again when London staged the 1948 Olympic Games: Henley Royal Regatta Course and Bisley Rifle Range.",
+        "venues": [
+          {
+            "name": "All England Lawn Tennis and Croquet Club",
+            "classification": "Existing",
+            "use": "Tennis",
+            "status": "Not in use (demolished)",
+            "information": "Founded in 1869 on Worple Road in Wimbledon, the All England Lawn Tennis and Croquet Club remained there until 1922, when it moved across the district of Wimbledon to its current location on Church Road.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Hurlingham Polo Grounds",
+            "classification": "Existing",
+            "use": "Polo",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Northampton Institute",
+            "classification": "Existing",
+            "use": "Boxing",
+            "status": "In use",
+            "information": "The venue hosted the boxing competition at the 1908 Olympic Games. Built in the 1890s, it underwent reconstruction after being bombed during WWII, and it also survived a fire in 2001. Currently used for lectures, the hall is undergoing refurbishment, which will see it equipped with the latest technologies and a new lighting system. The university's swimming pool was used as a training venue at the 1908 Games and is now a study area for students.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Queen's Club",
+            "classification": "Existing",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "The club offers its members lawn tennis, real tennis, rackets and squash courts, and is the venue for the annual Queen's Club Championships, the traditional curtain-raiser for Wimbledon. The club also stages the World Rackets Championships and the World Real Tennis Championship, and hosted the Super Series Squash Finals between 2009 and 2013. Established in 1886, the Queen's Club lays claim to being the world's first multi-purpose sports complex. It has hosted 25 different sports over the years, including ice skating, baseball, athletics and rugby, and was the venue for the annual Oxford v Cambridge rugby, football and athletics challenges up until the late 1920s.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Prince's Skating Club, Montpelier Square",
+            "classification": "Existing",
+            "use": "Figure skating",
+            "status": "Not in use (demolished)",
+            "information": "The rink opened on London's Montpelier Square in November 1896. A year after hosting the figure skating events at London 1908, it staged the Women's Exhibition, held in support of women's suffrage. The rink closed in 1917. The building was used by the Daimler Motor Company before being demolished in the mid-1970s. The site is now occupied by a private garden.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Prince's Galleries, Piccadilly (Prince's Hall)",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Uxendon Shooting School Club",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "The venue for the trap shooting events at the 1908 Olympic Games. The club, which was located in countryside at the time, hosted the British Clay Pigeon Association's championship a week after the Games. It was demolished in 1932. The site, which lies in the London suburb of Wembley, is now covered by housing.",
+            "location": "inside the city"
+          },
+          {
+            "name": "London Olympic Stadium",
+            "classification": "New build",
+            "use": "Athletics, swimming, water polo, gymnastics, archery, cycling (track), diving, football, hockey, rugby, wrestling, lacrosse, tug-of-war, Opening Ceremony",
+            "status": "Not in use (demolished)",
+            "information": "Built for the 1908 Olympic Games, the multi-purpose 93,000-capacity stadium formed part of the site chosen to stage the 1908 Franco-British Exhibition. In an effort to host as many events as possible at the stadium, the Organising Committee constructed a swimming pool and diving tower, a banked cycle track around the athletics track, and a pitch on the infield for football, hockey, rugby and lacrosse matches. The swimming pool and tower were dismantled after the Games, when the venue became known as White City Stadium. The stadium was used sporadically in the years immediately after the Games, but began staging greyhound races in 1927. It continued to do so up until its demolition in 1984. It was also a venue for rugby, American football, boxing, speedway, football and athletics. Queens Park Rangers FC used it as their home ground for brief periods in the 1930s and 1960s, while the British Amateur Athletic Association Championships were held there from 1932 to 1971. In 1934, the stadium hosted the British Empire Games (the forerunner of the Commonwealth Games), and it was also the venue for the match between France and Uruguay at the 1966 football World Cup. Following the stadium's demolition, the site was occupied by administrative and commercial buildings. Westfield London shopping centre also occupies part of the White City site.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Fencing Grounds",
+            "classification": "Temporary",
+            "use": "Fencing",
+            "status": "Dismantled (temporary)",
+            "information": "A large tent was erected just outside White City Stadium to host some of the fencing events. It was taken down after the Games.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Henley Royal Regatta Course",
+            "classification": "Existing",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Southampton Water",
+            "classification": "Existing",
+            "use": "Water motorsports",
+            "status": "In use",
+            "information": "Sailing remains a popular pursuit on Southampton Water, which is home to a number of sailing clubs. Ten of them are represented by the Southampton Water Sailing Association, which aims to promote sailing on this body of water and non-competitive racing between its member clubs. The water motorsports races at the 1908 Olympic Games started from and ended at the Enchantress, the floating clubhouse of the Royal Motor Yacht Club, which was asked to organise the competition. Founded in 1905 and still in existence today, the club moved to Sandbanks, at Dorset's Poole Harbour, in 1936. The Enchantress was destroyed when it was hit by a bomb during WWI.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Ryde Pier, Ryde, Isle of Wight",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Bisley Rifle Range",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "The venue for most of the shooting events is now known as the National Shooting Centre. Its famous Century range – so called because it comprises 100 targets – was converted for the Games. Bisley has been home to the National Rifle Association since 1890. The venue retains its original clubhouses and layout today, and its ranges remain largely similar. A new range – Cheylesmore – was laid out for the 1948 Olympic Games, and in more recent times Bisley hosted all the shooting events at the 2002 Commonwealth Games.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Royal Clyde Yacht Club, Hunters Quay",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "The swimming pool at the Olympic Stadium was 100m in length and encased in concrete. The water was untreated and became murky, causing competitors to bump into each other on occasion. Parts of the swimming pool were discovered when the foundations of the BBC's White City building were dug. White City's Olympic past is still remembered. The London 2012 Olympic Torch Relay passed through the area on the day before the Opening Ceremony. A plaque listing the medallists from the 1908 Games was unveiled in one of the current White City buildings in 2005, while another nearby plaque reads, \"This is the site of the finishing line of White City Stadium which hosted the 1908 Olympics.\" The Olympic Stadium also hosted the finish of the marathon. The race began at Windsor Castle and the course distance of 26 miles and 385 yards (42.195 kilometres) was adopted as the standard for the event from that point on."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"London\",\n  \"year\": \"1908\",\n  \"overview\": \"Fourteen competition venues were used for the Olympic Games London 1908, eight of which remain in use today. Twelve of the competition venues were existing, one was new and one was temporary. The new venue has since been demolished, along with four of the existing ones. Most of the venues that remain in use are sports clubs, with several of them hosting major competitions and providing recreational and competitive sport for their members. The new venue was the London Olympic Stadium, where the Opening and Closing Ceremonies were held. Also known as White City Stadium, it was the main centre of the Games. It was regularly used for over 55 years before being demolished in 1984. There was no official Olympic Village. Only two of the venues were used again when London staged the 1948 Olympic Games: Henley Royal Regatta Course and Bisley Rifle Range.\",\n  \"venues\": [\n    {\n      \"name\": \"All England Lawn Tennis and Croquet Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Founded in 1869 on Worple Road in Wimbledon, the All England Lawn Tennis and Croquet Club remained there until 1922, when it moved across the district of Wimbledon to its current location on Church Road.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Hurlingham Polo Grounds\",\n      \"classification\": \"Existing\",\n      \"use\": \"Polo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Northampton Institute\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing\",\n      \"status\": \"In use\",\n      \"information\": \"The venue hosted the boxing competition at the 1908 Olympic Games. Built in the 1890s, it underwent reconstruction after being bombed during WWII, and it also survived a fire in 2001. Currently used for lectures, the hall is undergoing refurbishment, which will see it equipped with the latest technologies and a new lighting system. The university's swimming pool was used as a training venue at the 1908 Games and is now a study area for students.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Queen's Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The club offers its members lawn tennis, real tennis, rackets and squash courts, and is the venue for the annual Queen's Club Championships, the traditional curtain-raiser for Wimbledon. The club also stages the World Rackets Championships and the World Real Tennis Championship, and hosted the Super Series Squash Finals between 2009 and 2013. Established in 1886, the Queen's Club lays claim to being the world's first multi-purpose sports complex. It has hosted 25 different sports over the years, including ice skating, baseball, athletics and rugby, and was the venue for the annual Oxford v Cambridge rugby, football and athletics challenges up until the late 1920s.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Prince's Skating Club, Montpelier Square\",\n      \"classification\": \"Existing\",\n      \"use\": \"Figure skating\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The rink opened on London's Montpelier Square in November 1896. A year after hosting the figure skating events at London 1908, it staged the Women's Exhibition, held in support of women's suffrage. The rink closed in 1917. The building was used by the Daimler Motor Company before being demolished in the mid-1970s. The site is now occupied by a private garden.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Prince's Galleries, Piccadilly (Prince's Hall)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Uxendon Shooting School Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for the trap shooting events at the 1908 Olympic Games. The club, which was located in countryside at the time, hosted the British Clay Pigeon Association's championship a week after the Games. It was demolished in 1932. The site, which lies in the London suburb of Wembley, is now covered by housing.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"London Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, swimming, water polo, gymnastics, archery, cycling (track), diving, football, hockey, rugby, wrestling, lacrosse, tug-of-war, Opening Ceremony\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Built for the 1908 Olympic Games, the multi-purpose 93,000-capacity stadium formed part of the site chosen to stage the 1908 Franco-British Exhibition. In an effort to host as many events as possible at the stadium, the Organising Committee constructed a swimming pool and diving tower, a banked cycle track around the athletics track, and a pitch on the infield for football, hockey, rugby and lacrosse matches. The swimming pool and tower were dismantled after the Games, when the venue became known as White City Stadium. The stadium was used sporadically in the years immediately after the Games, but began staging greyhound races in 1927. It continued to do so up until its demolition in 1984. It was also a venue for rugby, American football, boxing, speedway, football and athletics. Queens Park Rangers FC used it as their home ground for brief periods in the 1930s and 1960s, while the British Amateur Athletic Association Championships were held there from 1932 to 1971. In 1934, the stadium hosted the British Empire Games (the forerunner of the Commonwealth Games), and it was also the venue for the match between France and Uruguay at the 1966 football World Cup. Following the stadium's demolition, the site was occupied by administrative and commercial buildings. Westfield London shopping centre also occupies part of the White City site.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Fencing Grounds\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Fencing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"A large tent was erected just outside White City Stadium to host some of the fencing events. It was taken down after the Games.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Henley Royal Regatta Course\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Southampton Water\",\n      \"classification\": \"Existing\",\n      \"use\": \"Water motorsports\",\n      \"status\": \"In use\",\n      \"information\": \"Sailing remains a popular pursuit on Southampton Water, which is home to a number of sailing clubs. Ten of them are represented by the Southampton Water Sailing Association, which aims to promote sailing on this body of water and non-competitive racing between its member clubs. The water motorsports races at the 1908 Olympic Games started from and ended at the Enchantress, the floating clubhouse of the Royal Motor Yacht Club, which was asked to organise the competition. Founded in 1905 and still in existence today, the club moved to Sandbanks, at Dorset's Poole Harbour, in 1936. The Enchantress was destroyed when it was hit by a bomb during WWI.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Ryde Pier, Ryde, Isle of Wight\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Bisley Rifle Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"The venue for most of the shooting events is now known as the National Shooting Centre. Its famous Century range – so called because it comprises 100 targets – was converted for the Games. Bisley has been home to the National Rifle Association since 1890. The venue retains its original clubhouses and layout today, and its ranges remain largely similar. A new range – Cheylesmore – was laid out for the 1948 Olympic Games, and in more recent times Bisley hosted all the shooting events at the 2002 Commonwealth Games.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Royal Clyde Yacht Club, Hunters Quay\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"The swimming pool at the Olympic Stadium was 100m in length and encased in concrete. The water was untreated and became murky, causing competitors to bump into each other on occasion. Parts of the swimming pool were discovered when the foundations of the BBC's White City building were dug. White City's Olympic past is still remembered. The London 2012 Olympic Torch Relay passed through the area on the day before the Opening Ceremony. A plaque listing the medallists from the 1908 Games was unveiled in one of the current White City buildings in 2005, while another nearby plaque reads, \\\"This is the site of the finishing line of White City Stadium which hosted the 1908 Olympics.\\\" The Olympic Stadium also hosted the finish of the marathon. The race began at Windsor Castle and the course distance of 26 miles and 385 yards (42.195 kilometres) was adopted as the standard for the event from that point on.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically verify the JSON data against the PDF content:\n\n1. **Basic information**: \n   - City: \"London\" ✓\n   - Year: \"1908\" ✓\n\n2. **Overview**: Matches the PDF overview section exactly ✓\n\n3. **Venues**: Checking all 14 venues from the PDF tables:\n   - All venue names, classifications, uses, and statuses match the PDF tables ✓\n   - Information fields match \"THE VENUES UP CLOSE\" section where provided ✓\n   - Location fields correctly identify inside/outside city based on PDF categorization ✓\n\n4. **Trivia**: Matches the \"DID YOU KNOW?\" section exactly ✓\n\nAll data in the JSON matches the information in the PDF document. No corrections needed.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

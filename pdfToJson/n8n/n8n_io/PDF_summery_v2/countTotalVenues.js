@@ -11,6 +11,9 @@ function countTotalVenues(filePath) {
         const data = fs.readFileSync(filePath, 'utf8');
         const jsonData = JSON.parse(data);
 
+        // return jsonData?.data?.map(v => v.extraction?.data?.venues?.length)
+        //     .reduce((acc, curr) => acc + (curr || 0), 0);
+
         return jsonData?.data?.map(v =>
             v.validation?.data?.status === "valid"
                 ? v.extraction?.data?.venues?.length
@@ -29,6 +32,6 @@ const wv1 = countTotalVenues("../PDF_summery/venues_winter/Full-report-venues-po
 console.log(`Total number of venues v2 summer: ${sv2}`);
 console.log(`Total number of venues v2 winter: ${wv2}`);
 console.log(`Total number of venues v2: ${sv2 + wv2}`);
-console.log(`Total number of venues v2 summer: ${sv1}`);
-console.log(`Total number of venues v2 winter: ${wv1}`);
+console.log(`Total number of venues v1 summer: ${sv1}`);
+console.log(`Total number of venues v1 winter: ${wv1}`);
 console.log(`Total number of venues v1: ${sv1 + wv1}`);

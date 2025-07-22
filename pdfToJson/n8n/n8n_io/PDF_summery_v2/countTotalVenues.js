@@ -30,4 +30,5 @@ function countTotalVenues(msgPrefix, filePath) {
 
 countTotalVenues("v2 winter", "./venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
 countTotalVenues("v1 winter", "../PDF_summery/venues_winter/Full-report-venues-post-games-use-winter.pdf.json");
+countTotalVenues("v2 summer", "./venues_summer/Full-report-venues-post-games-use-summer.pdf.json");
 countTotalVenues("v1 summer","../PDF_summery/venues_summer/Full-report-venues-post-games-use-summer.pdf.json");

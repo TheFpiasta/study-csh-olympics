@@ -1,0 +1,146 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Squaw Valley",
+        "year": "1960",
+        "overview": "Six competition venues were used for the 1960 Olympic Winter Games, including three temporary venues. One of the three permanent venues is still in use today, forming part of what is one of the Sierra Nevada's leading ski areas and an internationally recognised winter sports destination. One of the competition venues, the Blyth Memorial Ice Arena, also hosted the Opening and Closing Ceremonies. It was demolished in the early 1980s after suffering irreparable roof damage. An Olympic Village was built for the Games and now provides accommodation for visitors to the resort.",
+        "venues": [
+          {
+            "name": "Piestewa Peak, KT-22 Mountain and Papoose Peak",
+            "classification": "New build",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "Piestewa Peak, KT-22 Mountain and Papoose Peak: the six alpine events at the 1960 Olympic Winter Games were held on these three mountains. The first hosted the men's downhill, KT-22 the men's giant slalom and slalom, and Little Papoose Peak the three women's events. The women's slalom and giant slalom courses were used when the resort welcomed the FIS Alpine Ski World Cup in 2017, the first time World Cup races had been held at the resort since 1969. Now known as Palisades Tahoe, the ski area is one of the finest in the United States. Home to 6,000 skiable acres, 270 trails, and an advanced network of 31 lifts, it attracts 600,000 visitors a year. With a view to maintaining its status, the resort announced a USD 17 million investment ahead of the 2019/20 season.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Built in 1959 in response to the resort's relative lack of accommodation at the time, the Olympic Village accommodated 1,200 athletes, officials and journalists during the Games, and lay within walking distance of all the competition venues, with the exception of McKinney Creek Stadium. After the Games it was used as a hotel and then a national training centre by the United States Olympic Committee (USOC). High operating costs forced the USOC to vacate the Olympic Village in 1980, and its apartments were converted into modern timeshare condominiums shortly afterwards. Comprising 90 rooms, it now provides accommodation for visitors to the resort.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Blyth Memorial Ice Arena",
+            "classification": "New build",
+            "use": "Ice hockey, figure skating, Opening and Closing Ceremonies",
+            "status": "Not in use (demolished)",
+            "information": "The venue for ice hockey, figure skating and the Opening and Closing Ceremonies, this 11,000-capacity arena was a much-used and popular skating venue and a training base for the United States' leading figure skaters. Boasting an avant-garde design that earned it several architectural awards, it was open on one side, in line with the International Skating Union's (ISU) regulations at the time. The arena's roof was insulated in 1982 to reduce energy costs. This had the unintended effect, however, of preventing the snow that accumulated on the roof from melting. In March 1983, the build-up of snow caused the roof to collapse, causing over USD 1 million in damage. The arena was demolished later in the year and the site is now a car park serving the ski resort.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Papoose Peak Olympic Jumping Hill",
+            "classification": "New build",
+            "use": "Ski jumping, Nordic combined",
+            "status": "Not in use (demolished)",
+            "information": "Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \"large\" hill, which staged the ski jumping competition; a K60 \"normal\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "East Rink",
+            "classification": "Temporary",
+            "use": "Ice hockey",
+            "status": "Dismantled (temporary)",
+            "information": "One of three ice hockey rinks built next to the Olympic Speed Skating Oval (along with Village Rink and West Rink), it was dismantled after the Games, as planned.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Olympic Speed Skating Oval",
+            "classification": "Temporary",
+            "use": "Speed skating",
+            "status": "Dismantled (temporary)",
+            "information": "Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "McKinney Creek Stadium",
+            "classification": "Temporary",
+            "use": "Cross-country skiing, Nordic combined",
+            "status": "Dismantled (temporary)",
+            "information": "Erected especially for the Games on the shores of Lake Tahoe, the stadium's seating and facilities were taken down afterwards, as planned. Many of the venue's trails were restored for public use in 2010. The resort now has a Nordic centre of its own. Occupying 40 acres, it offers 18 kilometres of groomed trails for skiers of all levels.",
+            "location": "Outside the city"
+          }
+        ],
+        "trivia": "The resort was recently voted Best Ski Resort in North America three years in a row by USA Today. Its 31 ski lifts can transport 72,200 people up the slopes every hour. With its artificial ice and altitude of 1,890 metres above sea level, the Olympic Speed Skating Oval saw some fast times at the 1960 Games, with three world records broken in the eight events. It also staged the first women's speed skating events in Olympic history. Part of the Olympic Village, the Athletes' Centre used at Olympic Winter Games 1960 remains an integral part of the resort, and is home to a bar and a bakery."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Squaw Valley\",\n  \"year\": \"1960\",\n  \"overview\": \"Six competition venues were used for the 1960 Olympic Winter Games, including three temporary venues. One of the three permanent venues is still in use today, forming part of what is one of the Sierra Nevada's leading ski areas and an internationally recognised winter sports destination. One of the competition venues, the Blyth Memorial Ice Arena, also hosted the Opening and Closing Ceremonies. It was demolished in the early 1980s after suffering irreparable roof damage. An Olympic Village was built for the Games and now provides accommodation for visitors to the resort.\",\n  \"venues\": [\n    {\n      \"name\": \"Piestewa Peak, KT-22 Mountain and Papoose Peak\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Piestewa Peak, KT-22 Mountain and Papoose Peak: the six alpine events at the 1960 Olympic Winter Games were held on these three mountains. The first hosted the men's downhill, KT-22 the men's giant slalom and slalom, and Little Papoose Peak the three women's events. The women's slalom and giant slalom courses were used when the resort welcomed the FIS Alpine Ski World Cup in 2017, the first time World Cup races had been held at the resort since 1969. Now known as Palisades Tahoe, the ski area is one of the finest in the United States. Home to 6,000 skiable acres, 270 trails, and an advanced network of 31 lifts, it attracts 600,000 visitors a year. With a view to maintaining its status, the resort announced a USD 17 million investment ahead of the 2019/20 season.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1959 in response to the resort's relative lack of accommodation at the time, the Olympic Village accommodated 1,200 athletes, officials and journalists during the Games, and lay within walking distance of all the competition venues, with the exception of McKinney Creek Stadium. After the Games it was used as a hotel and then a national training centre by the United States Olympic Committee (USOC). High operating costs forced the USOC to vacate the Olympic Village in 1980, and its apartments were converted into modern timeshare condominiums shortly afterwards. Comprising 90 rooms, it now provides accommodation for visitors to the resort.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Blyth Memorial Ice Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey, figure skating, Opening and Closing Ceremonies\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for ice hockey, figure skating and the Opening and Closing Ceremonies, this 11,000-capacity arena was a much-used and popular skating venue and a training base for the United States' leading figure skaters. Boasting an avant-garde design that earned it several architectural awards, it was open on one side, in line with the International Skating Union's (ISU) regulations at the time. The arena's roof was insulated in 1982 to reduce energy costs. This had the unintended effect, however, of preventing the snow that accumulated on the roof from melting. In March 1983, the build-up of snow caused the roof to collapse, causing over USD 1 million in damage. The arena was demolished later in the year and the site is now a car park serving the ski resort.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Papoose Peak Olympic Jumping Hill\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \\\"large\\\" hill, which staged the ski jumping competition; a K60 \\\"normal\\\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"East Rink\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"One of three ice hockey rinks built next to the Olympic Speed Skating Oval (along with Village Rink and West Rink), it was dismantled after the Games, as planned.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Olympic Speed Skating Oval\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Speed skating\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"McKinney Creek Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Erected especially for the Games on the shores of Lake Tahoe, the stadium's seating and facilities were taken down afterwards, as planned. Many of the venue's trails were restored for public use in 2010. The resort now has a Nordic centre of its own. Occupying 40 acres, it offers 18 kilometres of groomed trails for skiers of all levels.\",\n      \"location\": \"Outside the city\"\n    }\n  ],\n  \"trivia\": \"The resort was recently voted Best Ski Resort in North America three years in a row by USA Today. Its 31 ski lifts can transport 72,200 people up the slopes every hour. With its artificial ice and altitude of 1,890 metres above sea level, the Olympic Speed Skating Oval saw some fast times at the 1960 Games, with three world records broken in the eight events. It also staged the first women's speed skating events in Olympic history. Part of the Olympic Village, the Athletes' Centre used at Olympic Winter Games 1960 remains an integral part of the resort, and is home to a bar and a bakery.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "year": "1960",
+          "overview": "Six competition venues were used for the 1960 Olympic Winter Games, including three temporary venues. One of the three permanent venues is still in use today, forming part of what is one of the Sierra Nevada's leading ski areas and an internationally recognised winter sports destination. One of the competition venues, the Blyth Memorial Ice Arena, also hosted the Opening and Closing Ceremonies. It was demolished in the early 1980s after suffering irreparable roof damage. An Olympic Village was built for the Games and now provides accommodation for visitors to the resort.",
+          "venues": [
+            {
+              "name": "Piestewa Peak, KT-22 Mountain and Papoose Peak",
+              "classification": "New build",
+              "use": "Alpine skiing",
+              "status": "In use",
+              "information": "Piestewa Peak, KT-22 Mountain and Papoose Peak: the six alpine events at the 1960 Olympic Winter Games were held on these three mountains. The first hosted the men's downhill, KT-22 the men's giant slalom and slalom, and Little Papoose Peak the three women's events. The women's slalom and giant slalom courses were used when the resort welcomed the FIS Alpine Ski World Cup in 2017, the first time World Cup races had been held at the resort since 1969. Now known as Palisades Tahoe, the ski area is one of the finest in the United States. Home to 6,000 skiable acres, 270 trails, and an advanced network of 31 lifts, it attracts 600,000 visitors a year. With a view to maintaining its status, the resort announced a USD 17 million investment ahead of the 2019/20 season."
+            },
+            {
+              "name": "Olympic Village",
+              "classification": "New build",
+              "use": "Athlete accommodation",
+              "status": "In use",
+              "information": "Built in 1959 in response to the resort's relative lack of accommodation at the time, the Olympic Village accommodated 1,200 athletes, officials and journalists during the Games, and lay within walking distance of all the competition venues, with the exception of McKinney Creek Stadium. After the Games it was used as a hotel and then a national training centre by the United States Olympic Committee (USOC). High operating costs forced the USOC to vacate the Olympic Village in 1980, and its apartments were converted into modern timeshare condominiums shortly afterwards. Comprising 90 rooms, it now provides accommodation for visitors to the resort."
+            },
+            {
+              "name": "Blyth Memorial Ice Arena",
+              "classification": "New build",
+              "use": "Ice hockey, figure skating, Opening and Closing Ceremonies",
+              "status": "Not in use (demolished)",
+              "information": "The venue for ice hockey, figure skating and the Opening and Closing Ceremonies, this 11,000-capacity arena was a much-used and popular skating venue and a training base for the United States' leading figure skaters. Boasting an avant-garde design that earned it several architectural awards, it was open on one side, in line with the International Skating Union's (ISU) regulations at the time. The arena's roof was insulated in 1982 to reduce energy costs. This had the unintended effect, however, of preventing the snow that accumulated on the roof from melting. In March 1983, the build-up of snow caused the roof to collapse, causing over USD 1 million in damage. The arena was demolished later in the year and the site is now a car park serving the ski resort."
+            },
+            {
+              "name": "Papoose Peak Olympic Jumping Hill",
+              "classification": "New build",
+              "use": "Ski jumping, Nordic combined",
+              "status": "Not in use (demolished)",
+              "information": "Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \"large\" hill, which staged the ski jumping competition; a K60 \"normal\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts."
+            },
+            {
+              "name": "East Rink",
+              "classification": "Temporary",
+              "use": "Ice hockey",
+              "status": "Dismantled (temporary)",
+              "information": "One of three ice hockey rinks built next to the Olympic Speed Skating Oval (along with Village Rink and West Rink), it was dismantled after the Games, as planned."
+            },
+            {
+              "name": "Olympic Speed Skating Oval",
+              "classification": "Temporary",
+              "use": "Speed skating",
+              "status": "Dismantled (temporary)",
+              "information": "Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers."
+            },
+            {
+              "name": "McKinney Creek Stadium",
+              "classification": "Temporary",
+              "use": "Cross-country skiing, Nordic combined",
+              "status": "Dismantled (temporary)",
+              "information": "Erected especially for the Games on the shores of Lake Tahoe, the stadium's seating and facilities were taken down afterwards, as planned. Many of the venue's trails were restored for public use in 2010. The resort now has a Nordic centre of its own. Occupying 40 acres, it offers 18 kilometres of groomed trails for skiers of all levels."
+            }
+          ],
+          "trivia": "The resort was recently voted Best Ski Resort in North America three years in a row by USA Today. Its 31 ski lifts can transport 72,200 people up the slopes every hour. With its artificial ice and altitude of 1,890 metres above sea level, the Olympic Speed Skating Oval saw some fast times at the 1960 Games, with three world records broken in the eight events. It also staged the first women's speed skating events in Olympic history. Part of the Olympic Village, the Athletes' Centre used at Olympic Winter Games 1960 remains an integral part of the resort, and is home to a bar and a bakery."
+        },
+        "correctedKeys": [
+          "city",
+          "venues[0].location",
+          "venues[1].location",
+          "venues[2].location",
+          "venues[3].location",
+          "venues[4].location",
+          "venues[5].location",
+          "venues[6].location"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **City**: JSON has \"Squaw Valley\" - I don't see this city name mentioned anywhere in the PDF content\n2. **Year**: JSON has \"1960\" - Matches PDF \"1960 Olympic Winter Games\" ✓\n3. **Overview**: The text matches the OVERVIEW section exactly ✓\n4. **Venues**: Let me check each venue against the table and descriptions:\n   - All venue names, classifications, uses, and statuses match the PDF table ✓\n   - All venue information texts match the \"THE VENUES UP CLOSE\" sections ✓\n   - However, the \"location\" field shows \"Outside the city\" for all venues - this information is not provided in the PDF\n5. **Trivia**: Matches the \"DID YOU KNOW?\" section exactly ✓\n\n**Discrepancies found:**\n- The \"city\" field contains \"Squaw Valley\" which is not mentioned in the PDF\n- All venue \"location\" fields contain \"Outside the city\" which is not mentioned in the PDF\n\nSince this information cannot be verified from the PDF content, these fields should be removed.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n  \"status\": \"found\",\n  \"year\": \"1960\",\n  \"overview\": \"Six competition venues were used for the 1960 Olympic Winter Games, including three temporary venues. One of the three permanent venues is still in use today, forming part of what is one of the Sierra Nevada's leading ski areas and an internationally recognised winter sports destination. One of the competition venues, the Blyth Memorial Ice Arena, also hosted the Opening and Closing Ceremonies. It was demolished in the early 1980s after suffering irreparable roof damage. An Olympic Village was built for the Games and now provides accommodation for visitors to the resort.\",\n  \"venues\": [\n    {\n      \"name\": \"Piestewa Peak, KT-22 Mountain and Papoose Peak\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"Piestewa Peak, KT-22 Mountain and Papoose Peak: the six alpine events at the 1960 Olympic Winter Games were held on these three mountains. The first hosted the men's downhill, KT-22 the men's giant slalom and slalom, and Little Papoose Peak the three women's events. The women's slalom and giant slalom courses were used when the resort welcomed the FIS Alpine Ski World Cup in 2017, the first time World Cup races had been held at the resort since 1969. Now known as Palisades Tahoe, the ski area is one of the finest in the United States. Home to 6,000 skiable acres, 270 trails, and an advanced network of 31 lifts, it attracts 600,000 visitors a year. With a view to maintaining its status, the resort announced a USD 17 million investment ahead of the 2019/20 season.\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1959 in response to the resort's relative lack of accommodation at the time, the Olympic Village accommodated 1,200 athletes, officials and journalists during the Games, and lay within walking distance of all the competition venues, with the exception of McKinney Creek Stadium. After the Games it was used as a hotel and then a national training centre by the United States Olympic Committee (USOC). High operating costs forced the USOC to vacate the Olympic Village in 1980, and its apartments were converted into modern timeshare condominiums shortly afterwards. Comprising 90 rooms, it now provides accommodation for visitors to the resort.\"\n    },\n    {\n      \"name\": \"Blyth Memorial Ice Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey, figure skating, Opening and Closing Ceremonies\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for ice hockey, figure skating and the Opening and Closing Ceremonies, this 11,000-capacity arena was a much-used and popular skating venue and a training base for the United States' leading figure skaters. Boasting an avant-garde design that earned it several architectural awards, it was open on one side, in line with the International Skating Union's (ISU) regulations at the time. The arena's roof was insulated in 1982 to reduce energy costs. This had the unintended effect, however, of preventing the snow that accumulated on the roof from melting. In March 1983, the build-up of snow caused the roof to collapse, causing over USD 1 million in damage. The arena was demolished later in the year and the site is now a car park serving the ski resort.\"\n    },\n    {\n      \"name\": \"Papoose Peak Olympic Jumping Hill\",\n      \"classification\": \"New build\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \\\"large\\\" hill, which staged the ski jumping competition; a K60 \\\"normal\\\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts.\"\n    },\n    {\n      \"name\": \"East Rink\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"One of three ice hockey rinks built next to the Olympic Speed Skating Oval (along with Village Rink and West Rink), it was dismantled after the Games, as planned.\"\n    },\n    {\n      \"name\": \"Olympic Speed Skating Oval\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Speed skating\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers.\"\n    },\n    {\n      \"name\": \"McKinney Creek Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Erected especially for the Games on the shores of Lake Tahoe, the stadium's seating and facilities were taken down afterwards, as planned. Many of the venue's trails were restored for public use in 2010. The resort now has a Nordic centre of its own. Occupying 40 acres, it offers 18 kilometres of groomed trails for skiers of all levels.\"\n    }\n  ],\n  \"trivia\": \"The resort was recently voted Best Ski Resort in North America three years in a row by USA Today. Its 31 ski lifts can transport 72,200 people up the slopes every hour. With its artificial ice and altitude of 1,890 metres above sea level, the Olympic Speed Skating Oval saw some fast times at the 1960 Games, with three world records broken in the eight events. It also staged the first women's speed skating events in Olympic history. Part of the Olympic Village, the Athletes' Centre used at Olympic Winter Games 1960 remains an integral part of the resort, and is home to a bar and a bakery.\"\n},\n\"correctedKeys\": [\"city\", \"venues[0].location\", \"venues[1].location\", \"venues[2].location\", \"venues[3].location\", \"venues[4].location\", \"venues[5].location\", \"venues[6].location\"]\n}\n</response>"
+    }
+  }
+]

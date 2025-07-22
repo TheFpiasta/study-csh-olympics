@@ -1,0 +1,295 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Athens",
+        "year": "2004",
+        "overview": "Thirty-three competition venues were used for the Olympic Games Athens 2004, 23 of which remain in use today. Eleven of the competition venues were existing, 20 were new and two were temporary. Eight of the new venues, five of them located at the Helliniko Complex, are no longer in use. Five of the venues were outside Athens.\n\nWhile planning and management issues have prevented some of the venues from being used since the Games, many continue to be used for diverse purposes, including high-performance and recreational sport, hosting competitions and housing the city's leading sports clubs. The future of the venues not in use remains uncertain.\n\nThe Olympic Stadium hosted the Opening and Closing Ceremonies, and the track and field and football competitions. The Olympic Village was built for the Games. Both remain in use.",
+        "venues": [
+          {
+            "name": "Olympic Indoor Hall",
+            "classification": "Existing",
+            "use": "Artistic gymnastics, trampoline gymnastics, basketball",
+            "status": "In use",
+            "information": "Built in 1995 and renovated for the 2004 Olympic Games, the venue was refurbished again in 2016 and renamed the Nikos Gallis Indoor Hall in honour of Greece's most famous basketball player. It hosted the 1998 FIBA Men's World Basketball Championships and the 1995 European Basketball Championships and is the home arena of professional basketball teams Panathinaikos and AEK Athens. It is also a fencing, gymnastics and basketball youth development centre, and hosts concerts and shows. It was the venue for the Eurovision Song Contest in 2006.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Stadium",
+            "classification": "Existing",
+            "use": "Athletics, football, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Completed in 1982 for the European Athletics Championships that year, the stadium was upgraded for the 2004 Olympic Games and a new roof added to ensure its future use as Greece's national stadium. Post-Games, its capacity was reduced from 72,000 to 69,600. A football, track and field and concert venue, it is the home stadium of AEK Athens and Greece's national football team and staged the 1983 UEFA European Cup final, the 2007 UEFA Champions League final and the 1997 World Championships in Athletics. Madonna, Bon Jovi and Lady Gaga are just some of the major singers and bands to have performed there. AEK's home games have been attracting relatively low attendances – just over 14,000 in the 2018/19 season.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Aquatics Centre",
+            "classification": "Existing",
+            "use": "Swimming, diving, artistic swimming, water polo",
+            "status": "In use",
+            "information": "The venue was built for the 1991 Mediterranean Games and extensively renovated for the 2004 Olympic Games. It is part of the Athens Olympic Sports Complex in Maroussi and has two outdoor pools and an indoor one, which hosted the diving competition at Athens 2004. While it remains open to the public, with the main outdoor pool used for practice and the indoor pool for classes, the rest of the venue is not in use given the challenges related to operational costs and infrastructure maintenance.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Peace and Friendship Stadium",
+            "classification": "Existing",
+            "use": "Volleyball",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Velodrome",
+            "classification": "Existing",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "Another venue built for the 1991 Mediterranean Games, the velodrome was refurbished for the 2004 Olympic Games, when a new roof was installed. It continues to host track cycling meets and is open to sports clubs and experienced cyclists. Converted into an indoor venue in 2006, it is the only facility of its kind in Greece and hosts the country's track cycling championships and track cycling cups. It is also the training centre of the Hellenic Cycling Federation. The venue has staged the UEC European Track Championships (an under-23 and junior competition) twice and the Balkan Cycling Championships on five occasions. Proposals to repurpose the venue have been met with opposition.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Modern Pentathlon Centre",
+            "classification": "Existing",
+            "use": "Modern pentathlon (swimming, equestrian, running)",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Panathenaic Stadium",
+            "classification": "Existing",
+            "use": "Archery",
+            "status": "In use",
+            "information": "Originally built in 329 BC, the stadium had fallen into disrepair in the 19th century before being restored for the 1896 Games. The venue for the archery competitions and the finish of the men's and women's marathons at Athens 2004, the stadium has hosted a number of sporting and cultural events. These include the first Balkan Games in 1929 and the opening ceremony of the 1997 IAAF World Championships. Every two years, the stadium is also the venue for the official handover of the Olympic flame to the organisers of the next Olympic Summer or Winter Games. In April 2010, it opened to the public and became a visitor attraction, offering educational programmes for schools and tours. It is also a concert venue.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Karaiskakis Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Markopoulo Olympic Equestrian Centre",
+            "classification": "New build",
+            "use": "Eventing, dressage, jumping",
+            "status": "In use",
+            "information": "Built in 2003 and located 43 kilometres from Athens, the venue had a capacity of 15,000 at Games time. It has two main arenas: one for jumping and one for dressage, with permanent seating for 6,000 and 2,000 respectively. Though the venue has had issues with post-Games management and alternated closing and has seen periods of closure since the Games, it is currently used for national and international equestrian competitions. The headquarters of the Hellenic Equestrian Federation since the Games, it hosted the 2005 Modern Pentathlon World Cup and the 2012 Balkan Riding Championships before going six years without staging any competitions. In response, the Athens Equestrian Festival was launched in 2018 and the following year the FEI – the world governing body of equestrian sports – organised a World Cup event at the venue.",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Galatsi Olympic Hall",
+            "classification": "New build",
+            "use": "Rhythmic gymnastics, table tennis",
+            "status": "In use",
+            "information": "A multi-purpose venue, it is currently home to five basketball clubs, offers table tennis coaching for players of all abilities – from high-performance athletes to beginners – and stages volleyball matches. It also hosts cultural activities, fitness clubs and concerts, and is used as a TV studio. Part of the complex houses governmental offices. The venue was used by AEK Athens' basketball team for two years after the Games but fell into disuse between 2006 and 2014. It provided a makeshift shelter for asylum seekers in 2015, a situation that resolved the local authority disputes that had caused its previous abandonment and led to the venue reopening in 2016.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Schinias Olympic Rowing and Canoeing Centre",
+            "classification": "New build",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "The national training centre for Greece's rowing and canoe/kayak teams is also one of three World Rowing-approved training centres in the world, along with those in Munich and Seville. Unused for some years after the Games, it staged the 2008 European Rowing Championships and also hosts domestic rowing and canoeing meetings, including the Hellenic Rowing Championships. It opened to the public in 2010 and houses a kayak academy for youngsters. The construction of the centre caused some controversy due to the close proximity of wetlands. It now welcomes visitors and schools for birdwatching and nature activities.",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Olympic Tennis Centre",
+            "classification": "New build",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "The centre is home to 16 courts, including a main court with a capacity of 8,600 at Games time. The venue remains in use and is open to the public, attracting around 300 players a day. It has infrequently hosted competitions, staging an ATP Challenger tournament in 2010 and a school tournament in 2019. The venue lacks a long-term strategy, and the main court is largely underused due to management and operational costs and the shortcomings of its lighting system, which is not suitable for professional tournaments.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Agios Kosmas Olympic Sailing Centre",
+            "classification": "New build",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Ano Liosia Olympic Hall",
+            "classification": "New build",
+            "use": "Judo, wrestling",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Helliniko Fencing Hall",
+            "classification": "New build",
+            "use": "Fencing",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Markopoulo Olympic Shooting Centre",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Sports Pavilion",
+            "classification": "New build",
+            "use": "Handball, taekwondo",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Peristeri Olympic Boxing Hall",
+            "classification": "New build",
+            "use": "Boxing",
+            "status": "In use",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Hockey Centre",
+            "classification": "New build",
+            "use": "Hockey",
+            "status": "Not in use",
+            "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Canoe/Kayak Slalom Centre",
+            "classification": "New build",
+            "use": "Canoe slalom",
+            "status": "Not in use",
+            "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Goudi Olympic Hall",
+            "classification": "New build",
+            "use": "Badminton, modern pentathlon (shooting, fencing)",
+            "status": "Not in use",
+            "information": "The venue for the badminton competitions at the 2004 Olympic Games, built on the site of an army camp, was converted into the Badminton Theatre in 2007. The original building's industrial facade was the only element to survive the transformation. The venue hosted concerts, plays, musicals and dance productions, as well as conferences, business meetings and corporate events. However, the venue is currently closed and remains unused.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Helliniko Indoor Arena",
+            "classification": "New build",
+            "use": "Basketball",
+            "status": "Not in use",
+            "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Nikaia Olympic Weightlifting Hall",
+            "classification": "New build",
+            "use": "Weightlifting",
+            "status": "Not in use",
+            "information": "The weightlifting venue for the 2004 Olympic Games was handed over, as planned, to the University of Piraeus afterwards. It was briefly used as a lecture hall and conference centre; however, given its high operational costs, it remains closed and unused.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Baseball Centre",
+            "classification": "New build",
+            "use": "Baseball",
+            "status": "Not in use",
+            "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Beach Volleyball Centre",
+            "classification": "New build",
+            "use": "Beach volleyball",
+            "status": "Not in use",
+            "information": "Located in the suburb of Faliro, the venue fell into disuse after the Games and was abandoned. It remains closed and in a state of disrepair.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Softball Stadium",
+            "classification": "New build",
+            "use": "Softball",
+            "status": "Not in use",
+            "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Built on farmland, the Village was intended as a new residential area of Athens and was designed to provide social housing for families on low incomes after the Games. The Village served as accommodation for 17,000 athletes during the Games, and its apartments went on the market afterwards. Most of them are currently occupied, with economic migrants accounting for around half of the Village's 10,000 inhabitants. Decaying facilities, high unemployment, and a lack of investment and public transport are among some of the problems it faces. Its amenities include a hospital, a fire station, playgrounds, a church and schools. Of the 32 shops that opened at the Village after the Games, only four remained by 2015.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Vouliagmeni Olympic Centre",
+            "classification": "Temporary",
+            "use": "Cycling (road), triathlon",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Parnitha Olympic Mountain Bike Venue",
+            "classification": "Temporary",
+            "use": "Mountain bike",
+            "status": "Dismantled (temporary)",
+            "information": "This mountain site, which was close to the Olympic Village, was cleaned in 2002 in preparation for the Games, with a large amount of litter and debris collected. All the facilities erected for the competition (course markers, stands, etc.) were dismantled after the Games.",
+            "location": "Inside Athens"
+          },
+          {
+            "name": "Ancient Stadium",
+            "classification": "Existing",
+            "use": "Athletics",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Pampeloponnisiako Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Kaftantzoglio Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Panthessaliko Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          },
+          {
+            "name": "Pankritio Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside Athens"
+          }
+        ],
+        "trivia": "The roof added to the Olympic Stadium was designed by Spanish architect Santiago Calatrava. It had a surface area of 25,000m² and weighed 18,000 tonnes. It comprised two sections that were built at different locations. It can withstand winds of up to 120km/h and earthquakes measuring 8 on the Richter scale.\n\nThe Athens 2004 International Broadcasting Centre was repurposed into a high-end shopping mall that offers retail stores, shops and restaurants, offices, a gymnasium and facilities for children. Additionally, it hosts a state-of-the-art aquarium and the Athens Olympic Museum. It is located next to the \"Spiros Louis\" Olympic Athletic Centre of Athens, which contains many Olympic venues such as the Olympic Stadium, the Olympic Velodrome and the Olympic Tennis Centre."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Athens\",\n  \"year\": \"2004\",\n  \"overview\": \"Thirty-three competition venues were used for the Olympic Games Athens 2004, 23 of which remain in use today. Eleven of the competition venues were existing, 20 were new and two were temporary. Eight of the new venues, five of them located at the Helliniko Complex, are no longer in use. Five of the venues were outside Athens.\\n\\nWhile planning and management issues have prevented some of the venues from being used since the Games, many continue to be used for diverse purposes, including high-performance and recreational sport, hosting competitions and housing the city's leading sports clubs. The future of the venues not in use remains uncertain.\\n\\nThe Olympic Stadium hosted the Opening and Closing Ceremonies, and the track and field and football competitions. The Olympic Village was built for the Games. Both remain in use.\",\n  \"venues\": [\n    {\n      \"name\": \"Olympic Indoor Hall\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, trampoline gymnastics, basketball\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1995 and renovated for the 2004 Olympic Games, the venue was refurbished again in 2016 and renamed the Nikos Gallis Indoor Hall in honour of Greece's most famous basketball player. It hosted the 1998 FIBA Men's World Basketball Championships and the 1995 European Basketball Championships and is the home arena of professional basketball teams Panathinaikos and AEK Athens. It is also a fencing, gymnastics and basketball youth development centre, and hosts concerts and shows. It was the venue for the Eurovision Song Contest in 2006.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, football, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Completed in 1982 for the European Athletics Championships that year, the stadium was upgraded for the 2004 Olympic Games and a new roof added to ensure its future use as Greece's national stadium. Post-Games, its capacity was reduced from 72,000 to 69,600. A football, track and field and concert venue, it is the home stadium of AEK Athens and Greece's national football team and staged the 1983 UEFA European Cup final, the 2007 UEFA Champions League final and the 1997 World Championships in Athletics. Madonna, Bon Jovi and Lady Gaga are just some of the major singers and bands to have performed there. AEK's home games have been attracting relatively low attendances – just over 14,000 in the 2018/19 season.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Aquatics Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Swimming, diving, artistic swimming, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"The venue was built for the 1991 Mediterranean Games and extensively renovated for the 2004 Olympic Games. It is part of the Athens Olympic Sports Complex in Maroussi and has two outdoor pools and an indoor one, which hosted the diving competition at Athens 2004. While it remains open to the public, with the main outdoor pool used for practice and the indoor pool for classes, the rest of the venue is not in use given the challenges related to operational costs and infrastructure maintenance.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Peace and Friendship Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Volleyball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Velodrome\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"Another venue built for the 1991 Mediterranean Games, the velodrome was refurbished for the 2004 Olympic Games, when a new roof was installed. It continues to host track cycling meets and is open to sports clubs and experienced cyclists. Converted into an indoor venue in 2006, it is the only facility of its kind in Greece and hosts the country's track cycling championships and track cycling cups. It is also the training centre of the Hellenic Cycling Federation. The venue has staged the UEC European Track Championships (an under-23 and junior competition) twice and the Balkan Cycling Championships on five occasions. Proposals to repurpose the venue have been met with opposition.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Modern Pentathlon Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (swimming, equestrian, running)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Panathenaic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Archery\",\n      \"status\": \"In use\",\n      \"information\": \"Originally built in 329 BC, the stadium had fallen into disrepair in the 19th century before being restored for the 1896 Games. The venue for the archery competitions and the finish of the men's and women's marathons at Athens 2004, the stadium has hosted a number of sporting and cultural events. These include the first Balkan Games in 1929 and the opening ceremony of the 1997 IAAF World Championships. Every two years, the stadium is also the venue for the official handover of the Olympic flame to the organisers of the next Olympic Summer or Winter Games. In April 2010, it opened to the public and became a visitor attraction, offering educational programmes for schools and tours. It is also a concert venue.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Karaiskakis Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Markopoulo Olympic Equestrian Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Eventing, dressage, jumping\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 2003 and located 43 kilometres from Athens, the venue had a capacity of 15,000 at Games time. It has two main arenas: one for jumping and one for dressage, with permanent seating for 6,000 and 2,000 respectively. Though the venue has had issues with post-Games management and alternated closing and has seen periods of closure since the Games, it is currently used for national and international equestrian competitions. The headquarters of the Hellenic Equestrian Federation since the Games, it hosted the 2005 Modern Pentathlon World Cup and the 2012 Balkan Riding Championships before going six years without staging any competitions. In response, the Athens Equestrian Festival was launched in 2018 and the following year the FEI – the world governing body of equestrian sports – organised a World Cup event at the venue.\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Galatsi Olympic Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Rhythmic gymnastics, table tennis\",\n      \"status\": \"In use\",\n      \"information\": \"A multi-purpose venue, it is currently home to five basketball clubs, offers table tennis coaching for players of all abilities – from high-performance athletes to beginners – and stages volleyball matches. It also hosts cultural activities, fitness clubs and concerts, and is used as a TV studio. Part of the complex houses governmental offices. The venue was used by AEK Athens' basketball team for two years after the Games but fell into disuse between 2006 and 2014. It provided a makeshift shelter for asylum seekers in 2015, a situation that resolved the local authority disputes that had caused its previous abandonment and led to the venue reopening in 2016.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Schinias Olympic Rowing and Canoeing Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"The national training centre for Greece's rowing and canoe/kayak teams is also one of three World Rowing-approved training centres in the world, along with those in Munich and Seville. Unused for some years after the Games, it staged the 2008 European Rowing Championships and also hosts domestic rowing and canoeing meetings, including the Hellenic Rowing Championships. It opened to the public in 2010 and houses a kayak academy for youngsters. The construction of the centre caused some controversy due to the close proximity of wetlands. It now welcomes visitors and schools for birdwatching and nature activities.\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Olympic Tennis Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The centre is home to 16 courts, including a main court with a capacity of 8,600 at Games time. The venue remains in use and is open to the public, attracting around 300 players a day. It has infrequently hosted competitions, staging an ATP Challenger tournament in 2010 and a school tournament in 2019. The venue lacks a long-term strategy, and the main court is largely underused due to management and operational costs and the shortcomings of its lighting system, which is not suitable for professional tournaments.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Agios Kosmas Olympic Sailing Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Ano Liosia Olympic Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Judo, wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Helliniko Fencing Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Fencing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Markopoulo Olympic Shooting Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Sports Pavilion\",\n      \"classification\": \"New build\",\n      \"use\": \"Handball, taekwondo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Peristeri Olympic Boxing Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Boxing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Hockey Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Hockey\",\n      \"status\": \"Not in use\",\n      \"information\": \"Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Canoe/Kayak Slalom Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Canoe slalom\",\n      \"status\": \"Not in use\",\n      \"information\": \"Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Goudi Olympic Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Badminton, modern pentathlon (shooting, fencing)\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue for the badminton competitions at the 2004 Olympic Games, built on the site of an army camp, was converted into the Badminton Theatre in 2007. The original building's industrial facade was the only element to survive the transformation. The venue hosted concerts, plays, musicals and dance productions, as well as conferences, business meetings and corporate events. However, the venue is currently closed and remains unused.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Helliniko Indoor Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Basketball\",\n      \"status\": \"Not in use\",\n      \"information\": \"Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Nikaia Olympic Weightlifting Hall\",\n      \"classification\": \"New build\",\n      \"use\": \"Weightlifting\",\n      \"status\": \"Not in use\",\n      \"information\": \"The weightlifting venue for the 2004 Olympic Games was handed over, as planned, to the University of Piraeus afterwards. It was briefly used as a lecture hall and conference centre; however, given its high operational costs, it remains closed and unused.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Baseball Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Baseball\",\n      \"status\": \"Not in use\",\n      \"information\": \"Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Beach Volleyball Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Beach volleyball\",\n      \"status\": \"Not in use\",\n      \"information\": \"Located in the suburb of Faliro, the venue fell into disuse after the Games and was abandoned. It remains closed and in a state of disrepair.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Softball Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Softball\",\n      \"status\": \"Not in use\",\n      \"information\": \"Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Built on farmland, the Village was intended as a new residential area of Athens and was designed to provide social housing for families on low incomes after the Games. The Village served as accommodation for 17,000 athletes during the Games, and its apartments went on the market afterwards. Most of them are currently occupied, with economic migrants accounting for around half of the Village's 10,000 inhabitants. Decaying facilities, high unemployment, and a lack of investment and public transport are among some of the problems it faces. Its amenities include a hospital, a fire station, playgrounds, a church and schools. Of the 32 shops that opened at the Village after the Games, only four remained by 2015.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Vouliagmeni Olympic Centre\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road), triathlon\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Parnitha Olympic Mountain Bike Venue\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Mountain bike\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"This mountain site, which was close to the Olympic Village, was cleaned in 2002 in preparation for the Games, with a large amount of litter and debris collected. All the facilities erected for the competition (course markers, stands, etc.) were dismantled after the Games.\",\n      \"location\": \"Inside Athens\"\n    },\n    {\n      \"name\": \"Ancient Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Pampeloponnisiako Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Kaftantzoglio Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Panthessaliko Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    },\n    {\n      \"name\": \"Pankritio Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside Athens\"\n    }\n  ],\n  \"trivia\": \"The roof added to the Olympic Stadium was designed by Spanish architect Santiago Calatrava. It had a surface area of 25,000m² and weighed 18,000 tonnes. It comprised two sections that were built at different locations. It can withstand winds of up to 120km/h and earthquakes measuring 8 on the Richter scale.\\n\\nThe Athens 2004 International Broadcasting Centre was repurposed into a high-end shopping mall that offers retail stores, shops and restaurants, offices, a gymnasium and facilities for children. Additionally, it hosts a state-of-the-art aquarium and the Athens Olympic Museum. It is located next to the \\\"Spiros Louis\\\" Olympic Athletic Centre of Athens, which contains many Olympic venues such as the Olympic Stadium, the Olympic Velodrome and the Olympic Tennis Centre.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n1. **Basic Information:**\n   - City: \"Athens\" ✓\n   - Year: \"2004\" ✓\n   - Overview: Matches the PDF overview section exactly ✓\n\n2. **Venues Check:**\n   Need to verify all 34 venues from the PDF tables (pages 2-4) against the JSON list.\n\n   Going through each venue systematically:\n   - All venue names match the PDF tables ✓\n   - All classifications (Existing/New build/Temporary) match ✓\n   - All uses match ✓\n   - All current statuses match ✓\n   - Information texts match the \"THE VENUES UP CLOSE\" section where provided ✓\n   - Locations (Inside/Outside Athens) match the venue categorization in the PDF ✓\n\n3. **Trivia Section:**\n   The trivia text matches the \"DID YOU KNOW?\" section exactly, including both paragraphs about the Olympic Stadium roof design and the International Broadcasting Centre repurposing ✓\n\nAll data appears to match the PDF content accurately.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,199 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Paris",
+        "year": "1924",
+        "overview": "Twenty-one competition venues were used for the Olympic Games Paris 1924, 12 of which remain in use today. Sixteen of the competition venues were existing, three were new and two were temporary. The two temporary venues have been dismantled, while seven of the existing venues have been demolished and one has been repurposed. The three new venues all remain in use. Four of the venues had been used at the Olympic Games Paris 1900: the Vélodrome de Vincennes, the Terrain de Polo de Bagatelle, the Palais de la Société des Régates du Havre and the Cercle de la Voile de Paris. The Stade Olympique de Colombes will host field hockey matches at the Olympic Games Paris 2024. All but four of the venues are/were in the Paris area. The Stade Olympique de Colombes hosted the Opening and Closing Ceremonies and several of the competitions. The official Olympic Village, a temporary facility, was the first of its kind and was dismantled after the Games.",
+        "venues": [
+          {
+            "name": "Hippodrome d'Auteuil",
+            "classification": "Existing",
+            "use": "Eventing",
+            "status": "In use",
+            "information": "The home of jump racing in France, this 40,000-capacity racecourse opened on 1 November 1873 and occupies a 33-hectare site on the edge of the Bois de Boulogne. It is home to a hurdles track, two steeplechase tracks and a figure-of-eight track, which together offer 25 different routes. One of its steeplechase tracks was used at the 1924 Olympic Games, as were the racecourse grounds. New stone stands were built that year, while the tracks were improved and the facilities upgraded between 1967 and 1975. Auteuil is the venue for all of France's nine Group 1 hurdle and steeplechase races. The highlights of the racecourse's calendar include International Jump Weekend in November and the Grand SteepleChase de Paris in June. In 2020, it staged 222 races.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Bassin d'Argenteuil",
+            "classification": "Existing",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "The subject of a famous painting by Claude Monet, the Bassin d'Argenteuil lies close to the Stade Olympique de Colombes. Though the construction of the Genevilliers river port has led to an increase in traffic on this stretch of the River Seine, it is still used for rowing today, in particular by the COM Argenteuil club, which was founded in 1965.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Vélodrome municipal de Vincennes",
+            "classification": "Existing",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "This was the venue for the 50km, sprint, tandem and team pursuit track cycling events at the 1924 Olympic Games. The velodrome opened in 1896 and staged multiple competitions at the Olympic Games Paris 1900 (cycling, football, gymnastics, rugby, cricket and archery). The setting for the prestigious Grand Prix de Paris, it was also the official finish line of the Tour de France between 1968 and 1974 but suffered neglect thereafter and was closed in 1980. Thanks to a campaign to save it and three years of refurbishment work, it reopened to the public in 2015, with its original stands still intact. A listed historical monument, the venue is officially known as the Vélodrome Jacques Anquetil and more popularly as La Cipale.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Cercle de la Voile de Paris, Meulan",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1900, it organises regattas across a number of classes.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade de Paris",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Terrain de Polo de Bagatelle",
+            "classification": "Existing",
+            "use": "Polo",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade Olympique de Colombes",
+            "classification": "Existing",
+            "use": "Athletics, gymnastics, modern pentathlon, cycling (road), Opening and Closing Ceremonies",
+            "status": "In use (rebuilt)",
+            "information": "Built on the site of a racecourse in 1907, the Stade du Matin was renamed the Stade Olympique de Colombes and extensively refurbished for the 1924 Olympic Games by the same French architect who designed the Court Central at Roland-Garros. It had a capacity of 64,000 at Games time. A multi-sports venue at the 1924 Olympic Games, it continued to host a variety of sports afterwards. The venue for the 1938 football World Cup final, it also staged the European Athletics Championships that year and was Paris' premier sports venue until the construction of the Parc des Princes in the early 1970s. Prior to that, the Stade Olympique de Colombes hosted 42 French Cup finals in football and 79 national team matches. It was also a major rugby venue, welcoming the French national team on 87 occasions – the last time in 1972 – and being used by Top 14 team Racing 92 as its home ground until 2017. Now known as Stade Yves-du-Manoir, it is being refurbished for the Olympic Games Paris 2024, when it will be used for the field hockey competitions.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Saint-Cloud Country Club",
+            "classification": "Existing",
+            "use": "Polo",
+            "status": "In use (repurposed)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Vélodrome d'Hiver",
+            "classification": "Existing",
+            "use": "Weightlifting, wrestling, boxing, fencing",
+            "status": "Not in use (demolished)",
+            "information": "This glass-roofed venue was originally built to host track cycling competitions but was temporarily adapted for the boxing, weightlifting and wrestling competitions at the 1924 Olympic Games. Nicknamed the Vél d'Hiv, it was extensively damaged in a fire in 1959 and knocked down. Flats and a French government building now occupy the site. Close by stands a monument to 14,000 Jews who were rounded up and held at the Vélodrome d'Hiver in 1942, prior to their deportation to transit camps during WWII.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stand d'Issy-les-Moulineaux",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "The venue for the trap shooting competitions, it closed its doors in the early 1960s.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade Bergeyre",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "One of several football stadiums used at the Games, it was demolished some months afterwards and replaced with housing.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade d'Escrime de Colombes / Stade de Colombes",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "Not in use (demolished)",
+            "information": "The fencing competitions were held in hangars erected at the northern end of the Stade Olympique. They are no longer standing, though it is not known exactly when they were removed.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade Pershing",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "Though this multi-purpose stadium in the Bois de Vincennes was closed and demolished in the 1960, the site is still home to a football pitch and is also used for baseball.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stand de Versailles",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade Nautique des Tourelles / Piscine des Tourelles",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "Work had begun on the construction of a swimming pool next to the Stade Olympique de Colombes when, in December 1922, the City of Paris proposed the construction of an aquatic sports centre in the north of Paris to host the swimming and diving competitions at the 1924 Olympic Games. The swimming pool was renamed the Piscine Georges Vallerey after the Games and renovated in 1989. It now has a retractable roof and is still used by clubs for competitions and by Parisians for recreational swimming and other aquatic sports. It is also home to the national swimming federation.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Auteuil-Villacoublay",
+            "classification": "Temporary",
+            "use": "Eventing (cross-country)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stade de Tennis de Colombes",
+            "classification": "Temporary",
+            "use": "Tennis",
+            "status": "Dismantled (temporary)",
+            "information": "Clay courts were built specially for the tennis competitions. The site is now occupied by two football pitches.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Olympic Village",
+            "classification": "Temporary",
+            "use": "Athlete accommodation",
+            "status": "Dismantled (temporary)",
+            "information": "Built in just a few months and designed to accommodate 3,000 athletes, this temporary Village was made up of wooden huts and was located close to the Stade Olympique de Colombes. It had running water, a post office, a currency exchange office, a left-luggage office, a telegraph and telephone service, a laundrette, a newspaper kiosk, a hairdresser's and dining halls serving three meals a day. Some teams chose not to stay at the Village, with the Organising Committee setting up a special service to find alternative accommodation for them. The entire Village was dismantled after the Games. This was the first version of an Olympic Village.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Camp de Châlons / Stand Olympique de Châlons-sur-Marne",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "Though the site is still used by the French armed forces, the range used at the 1924 Olympic Games has been demolished.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Palais de la Société des Régates du Havre",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "Not in use (demolished)",
+            "information": "Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1900, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Hippodrome du Grand Parquet",
+            "classification": "Existing",
+            "use": "Modern pentathlon",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Parc des Sports de Reims / Stand de la Société de Tir de Reims / Stade Olympique de Reims",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "To help guide competitors and ensure they swam straight, the bottom of the swimming pool at the Stade Nautique des Tourelles was marked out with lines. In preparation for the equestrian competitions at the Stade Olympique de Colombes, 1,500 cubic metres of sand were spread on to the pitch on the night of 20/21 July. The final of the Olympic football tournament at the Stade Olympique de Colombes attracted a huge crowd, and more than 15,000 people were turned away."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Paris\",\n  \"year\": \"1924\",\n  \"overview\": \"Twenty-one competition venues were used for the Olympic Games Paris 1924, 12 of which remain in use today. Sixteen of the competition venues were existing, three were new and two were temporary. The two temporary venues have been dismantled, while seven of the existing venues have been demolished and one has been repurposed. The three new venues all remain in use. Four of the venues had been used at the Olympic Games Paris 1900: the Vélodrome de Vincennes, the Terrain de Polo de Bagatelle, the Palais de la Société des Régates du Havre and the Cercle de la Voile de Paris. The Stade Olympique de Colombes will host field hockey matches at the Olympic Games Paris 2024. All but four of the venues are/were in the Paris area. The Stade Olympique de Colombes hosted the Opening and Closing Ceremonies and several of the competitions. The official Olympic Village, a temporary facility, was the first of its kind and was dismantled after the Games.\",\n  \"venues\": [\n    {\n      \"name\": \"Hippodrome d'Auteuil\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"In use\",\n      \"information\": \"The home of jump racing in France, this 40,000-capacity racecourse opened on 1 November 1873 and occupies a 33-hectare site on the edge of the Bois de Boulogne. It is home to a hurdles track, two steeplechase tracks and a figure-of-eight track, which together offer 25 different routes. One of its steeplechase tracks was used at the 1924 Olympic Games, as were the racecourse grounds. New stone stands were built that year, while the tracks were improved and the facilities upgraded between 1967 and 1975. Auteuil is the venue for all of France's nine Group 1 hurdle and steeplechase races. The highlights of the racecourse's calendar include International Jump Weekend in November and the Grand SteepleChase de Paris in June. In 2020, it staged 222 races.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Bassin d'Argenteuil\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"The subject of a famous painting by Claude Monet, the Bassin d'Argenteuil lies close to the Stade Olympique de Colombes. Though the construction of the Genevilliers river port has led to an increase in traffic on this stretch of the River Seine, it is still used for rowing today, in particular by the COM Argenteuil club, which was founded in 1965.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Vélodrome municipal de Vincennes\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"This was the venue for the 50km, sprint, tandem and team pursuit track cycling events at the 1924 Olympic Games. The velodrome opened in 1896 and staged multiple competitions at the Olympic Games Paris 1900 (cycling, football, gymnastics, rugby, cricket and archery). The setting for the prestigious Grand Prix de Paris, it was also the official finish line of the Tour de France between 1968 and 1974 but suffered neglect thereafter and was closed in 1980. Thanks to a campaign to save it and three years of refurbishment work, it reopened to the public in 2015, with its original stands still intact. A listed historical monument, the venue is officially known as the Vélodrome Jacques Anquetil and more popularly as La Cipale.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Cercle de la Voile de Paris, Meulan\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1900, it organises regattas across a number of classes.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade de Paris\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Terrain de Polo de Bagatelle\",\n      \"classification\": \"Existing\",\n      \"use\": \"Polo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade Olympique de Colombes\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, gymnastics, modern pentathlon, cycling (road), Opening and Closing Ceremonies\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Built on the site of a racecourse in 1907, the Stade du Matin was renamed the Stade Olympique de Colombes and extensively refurbished for the 1924 Olympic Games by the same French architect who designed the Court Central at Roland-Garros. It had a capacity of 64,000 at Games time. A multi-sports venue at the 1924 Olympic Games, it continued to host a variety of sports afterwards. The venue for the 1938 football World Cup final, it also staged the European Athletics Championships that year and was Paris' premier sports venue until the construction of the Parc des Princes in the early 1970s. Prior to that, the Stade Olympique de Colombes hosted 42 French Cup finals in football and 79 national team matches. It was also a major rugby venue, welcoming the French national team on 87 occasions – the last time in 1972 – and being used by Top 14 team Racing 92 as its home ground until 2017. Now known as Stade Yves-du-Manoir, it is being refurbished for the Olympic Games Paris 2024, when it will be used for the field hockey competitions.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Saint-Cloud Country Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Polo\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Vélodrome d'Hiver\",\n      \"classification\": \"Existing\",\n      \"use\": \"Weightlifting, wrestling, boxing, fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"This glass-roofed venue was originally built to host track cycling competitions but was temporarily adapted for the boxing, weightlifting and wrestling competitions at the 1924 Olympic Games. Nicknamed the Vél d'Hiv, it was extensively damaged in a fire in 1959 and knocked down. Flats and a French government building now occupy the site. Close by stands a monument to 14,000 Jews who were rounded up and held at the Vélodrome d'Hiver in 1942, prior to their deportation to transit camps during WWII.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stand d'Issy-les-Moulineaux\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue for the trap shooting competitions, it closed its doors in the early 1960s.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade Bergeyre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"One of several football stadiums used at the Games, it was demolished some months afterwards and replaced with housing.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade d'Escrime de Colombes / Stade de Colombes\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The fencing competitions were held in hangars erected at the northern end of the Stade Olympique. They are no longer standing, though it is not known exactly when they were removed.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade Pershing\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Though this multi-purpose stadium in the Bois de Vincennes was closed and demolished in the 1960, the site is still home to a football pitch and is also used for baseball.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stand de Versailles\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade Nautique des Tourelles / Piscine des Tourelles\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"Work had begun on the construction of a swimming pool next to the Stade Olympique de Colombes when, in December 1922, the City of Paris proposed the construction of an aquatic sports centre in the north of Paris to host the swimming and diving competitions at the 1924 Olympic Games. The swimming pool was renamed the Piscine Georges Vallerey after the Games and renovated in 1989. It now has a retractable roof and is still used by clubs for competitions and by Parisians for recreational swimming and other aquatic sports. It is also home to the national swimming federation.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Auteuil-Villacoublay\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Eventing (cross-country)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stade de Tennis de Colombes\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Tennis\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Clay courts were built specially for the tennis competitions. The site is now occupied by two football pitches.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Olympic Village\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Built in just a few months and designed to accommodate 3,000 athletes, this temporary Village was made up of wooden huts and was located close to the Stade Olympique de Colombes. It had running water, a post office, a currency exchange office, a left-luggage office, a telegraph and telephone service, a laundrette, a newspaper kiosk, a hairdresser's and dining halls serving three meals a day. Some teams chose not to stay at the Village, with the Organising Committee setting up a special service to find alternative accommodation for them. The entire Village was dismantled after the Games. This was the first version of an Olympic Village.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Camp de Châlons / Stand Olympique de Châlons-sur-Marne\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Though the site is still used by the French armed forces, the range used at the 1924 Olympic Games has been demolished.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Palais de la Société des Régates du Havre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1900, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Hippodrome du Grand Parquet\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Parc des Sports de Reims / Stand de la Société de Tir de Reims / Stade Olympique de Reims\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"To help guide competitors and ensure they swam straight, the bottom of the swimming pool at the Stade Nautique des Tourelles was marked out with lines. In preparation for the equestrian competitions at the Stade Olympique de Colombes, 1,500 cubic metres of sand were spread on to the pitch on the night of 20/21 July. The final of the Olympic football tournament at the Stade Olympique de Colombes attracted a huge crowd, and more than 15,000 people were turned away.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. Basic information:\n   - City: Paris ✓\n   - Year: 1924 ✓\n   - Overview: Matches exactly with the PDF overview ✓\n\n2. Venues: I need to check all 22 venues listed in the JSON against the PDF tables and detailed descriptions.\n\n   Going through each venue:\n   - Names, classifications, uses, and statuses all match the PDF tables ✓\n   - Detailed information matches the \"THE VENUES UP CLOSE\" section where provided ✓\n   - Empty information strings are correct where no detailed description is provided in PDF ✓\n\n3. Locations: \n   - PDF states \"All but four of the venues are/were in the Paris area\"\n   - The four venues outside Paris are: Camp de Châlons, Palais de la Société des Régates du Havre, Hippodrome du Grand Parquet, and Parc des Sports de Reims\n   - JSON correctly marks these as \"outside the city\" and all others as \"inside the city\" ✓\n\n4. Trivia: \n   - JSON trivia exactly matches the \"DID YOU KNOW?\" section from the PDF ✓\n\nAll data in the JSON appears to accurately match the information provided in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

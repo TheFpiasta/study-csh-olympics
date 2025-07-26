@@ -1,0 +1,143 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "PyeongChang",
+        "year": "2018",
+        "overview": "Twelve competition venues were used for the Olympic Winter Games PyeongChang 2018. Eleven of them are still in use today, hosting diverse activities such as international and national sports events, youth sports camps and winter sports academies, and benefitting high-performance athletes and recreational users alike.\n\nEight are still used for winter sports, and the remaining four for other sports. Most of the venues will host events again at the Winter Youth Olympic Games Gangwon 2024.\n\nSix of the competition venues were existing sites; the rest were built for the Games. The venues were located in two clusters: PyeongChang Mountain Cluster (snow events) and Gangneung Coastal Cluster (ice events).\n\nThe setting for the Opening and Closing Ceremonies, PyeongChang Olympic Stadium, was a temporary non-competition venue that was dismantled after the Games, while the two Olympic Villages (PyeongChang and Gangneung) were both built for the Games. They remain in use today, providing housing.",
+        "venues": [
+          {
+            "name": "Bokwang Phoenix Park",
+            "classification": "Existing",
+            "use": "Snowboard and freestyle skiing",
+            "status": "In use",
+            "information": "An FIS Snowboard World Cup venue in February 2020, Bokwang Phoenix Park is also home to a winter sports academy. Its aim is to develop grassroots winter sport in the Republic of Korea, increase the popularity of these sports, and nurture future champions. As well as running snowboard training camps in winter, the venue also provides off-season training.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Yongpyong Alpine Centre",
+            "classification": "Existing",
+            "use": "Alpine skiing (slalom, giant slalom)",
+            "status": "In use",
+            "information": "Built in 1998, the Centre hosted several international events before the 2018 Olympic Winter Games, including the 1999 Winter Asian Games and a number of FIS World Cup events. In 2020, it staged the FIS Alpine Skiing Far East Cup.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Alpensia Ski Jumping Stadium",
+            "classification": "Existing",
+            "use": "Ski jumping",
+            "status": "In use",
+            "information": "The venue has a large hill and a normal hill, as well as three smaller training hills. The main training facility for the Republic of Korea's national ski jumping teams, it hosts local competitions and youth camps, but has not staged any major international competitions since the Olympic Winter Games. A year-round training centre, it is one of several PyeongChang 2018 venues used for the 2020 Dream Programme, which promoted the global growth of winter sports and sought to develop the skills of young athletes from Asian countries with few or no winter sports facilities.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Alpensia Cross-Country Centre",
+            "classification": "Existing",
+            "use": "Cross-country skiing, Nordic combined",
+            "status": "In use",
+            "information": "Also a 2020 Dream Programme venue, the Centre is used by cross-country skiers for training during the winter, and also hosts youth sports camps. Built in 1995, it staged the cross-country skiing events at the 1999 Asian Winter Games. It backs onto the Biathlon Centre and the Ski Jumping Stadium.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Alpensia Biathlon Centre",
+            "classification": "Existing",
+            "use": "Biathlon",
+            "status": "In use",
+            "information": "Another 2020 Dream Programme venue, it is used by biathletes for training during the winter, and also hosts youth sports camps. Built in 1995, the Centre staged the biathlon events at the 1999 Asian Winter Games.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Jeongseon Alpine Centre",
+            "classification": "New build",
+            "use": "Alpine skiing (downhill, super G, combined)",
+            "status": "Not in use",
+            "information": "The venue was due to be dismantled in line with the initial plan to return the site to its original state and remained closed after the Games.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Alpensia Olympic Sliding Centre",
+            "classification": "New build",
+            "use": "Bobsleigh, luge and skeleton",
+            "status": "In use",
+            "information": "Reopened after the Games in October 2019, the venue, which has an artificial structure and refrigeration system, has since staged the 2020 IBSF Skeleton Intercontinental Cup, the 2020 FIL Luge Asian Cup and the 2021 Korea Cup.\n\nIt is also a training facility for high-performance athletes. The Centre hosts the New Horizons sliding champions programme, which provides training for bobsleigh and skeleton athletes from four new winter sports nations in south-east Asia (Cambodia, Malaysia, Vietnam and Thailand), helping them to prepare for the Olympic Winter Games Beijing 2022. Athletes from Australia, Israel, Nigeria and the USA also trained at the Centre from November 2020 to March 2021.\n\nThe Centre's other activities include school visits organised by the PyeongChang 2018 Legacy Foundation, youth sport and education camps, and ice-making workshops. Track workers from the Yanqing National Sliding Centre, which staged the bobsleigh, luge and skeleton events at Beijing 2022, visited the Centre for one such workshop, with another being held for local residents and students, some of whom were then recruited as assistant ice-makers.\n\nVisitors to the Centre can try out bobsleigh in the summer and winter, among other activities. It is one of several PyeongChang 2018 venues that also hosts sports camps for young people.",
+            "location": "outside the city"
+          },
+          {
+            "name": "PyeongChang Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Both villages were converted into residential areas after the Games, as planned. The PyeongChang village comprises eight 15-storey buildings that are home to 600 units. The Gangneung village's nine 25-storey buildings boast 922 apartments and can accommodate 2,717 people.",
+            "location": "outside the city"
+          },
+          {
+            "name": "PyeongChang Olympic Stadium",
+            "classification": "Temporary",
+            "use": "Opening and Closing Ceremonies",
+            "status": "Dismantled (temporary)",
+            "information": "The venue used for the Opening and Closing Ceremonies was mostly temporary, and was dismantled as planned after the Games. Only one side of the pentagon-shape stadium was a permanent structure and remains in use today, as it currently hosts the PyeongChang Olympic and Paralympic Museum and the offices of the PyeongChang 2018 Legacy Foundation.\n\nThe rest of the site is being transformed into the \"Peace Park\", a community sports complex that is home to an artificial football pitch, an athletics track, and basketball and tennis courts.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Gangneung Curling Centre",
+            "classification": "Existing",
+            "use": "Curling",
+            "status": "In use",
+            "information": "Another youth camp and 2020 Dream Programme venue, the Centre staged the Korean National Curling Championships in 2019. Built in 1998, it has a capacity of 3,500 and hosted the 2009 World Women's Curling Championships.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Gangneung Oval",
+            "classification": "New build",
+            "use": "Speed skating",
+            "status": "Not in use",
+            "information": "The 8,000-seater venue was out of use for over a year after the 2018 Olympic Winter Games due to issues surrounding its management and legacy. When sport activities resumed in late 2019, they were quickly put on hold by the COVID-19 pandemic, forcing the owner and operator to alter their plans. The venue has occasionally been used as a film studio and ice sports experience centre for the Bandabi Sports Camp.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Gangneung Ice Arena",
+            "classification": "New build",
+            "use": "Figure skating",
+            "status": "In use",
+            "information": "The Arena, which has a capacity of 12,000, underwent renovation work after the Games and reopened as a public multi-sports facility. A swimming pool and an Olympic Museum are being built beside the venue. The training facility attached to it is used by Yeongdong College for exhibitions and seminars.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Gangneung Hockey Centre",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "The venue for the 2020 IIHF Ice Hockey U20 World Championship Division II Group B, the Centre also staged the 2018 Korean National Men's Ice Hockey Championships and the Legacy Cup, which is held yearly to mark the anniversary of the PyeongChang 2018 Games. The Cup has featured teams from Japan, Kazakhstan, Latvia and the Republic of Korea.\n\nThe Centre was the setting for the three-day competition that brought to an end the Girls' Ice Hockey School initiative, a government programme designed to encourage more girls to play winter sports in the Republic of Korea, and which also focused on Olympic values and leadership and raised awareness of sexual harassment and safeguarding.\n\nThe venue is also used as a winter sports academy that seeks to promote grassroots winter sports in the country through training and small-sided games, and to improve disability awareness through Para ice-hockey experiences.\n\nThough the original plan was to dismantle the Centre after the Games, the City of Gangneung decided to maintain it as part of its plans to create a winter sports hub.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Kwandong Hockey Centre",
+            "classification": "New build",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "This 6,000-seater venue was handed over to Catholic Kwandong University after the Games, and is used by its students as a multi-sports and educational facility.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Gangneung Olympic Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Both villages were converted into residential areas after the Games, as planned. The PyeongChang village comprises eight 15-storey buildings that are home to 600 units. The Gangneung village's nine 25-storey buildings boast 922 apartments and can accommodate 2,717 people.",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "The 10,000-capacity Gangneung Hockey Centre is the first and only stadium in the Republic of Korea to be built specifically for ice hockey. Originally an archery range, it is located on a former landfill site.\n\nA roofless five-sided venue, PyeongChang Olympic Stadium had a capacity of 35,000 and a floor area of 58,790 m². It hosted five events before being dismantled: the Opening and Closing Ceremonies of both the 2018 Olympic Winter Games and Paralympic Winter Games, and a K-pop concert held 100 days before the Olympic Winter Games began.\n\nGangneung Ice Arena was the largest of all the venues used at PyeongChang 2018. It has a capacity of 12,000 and two ice rinks: one for competition and one for training."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"PyeongChang\",\n  \"year\": \"2018\",\n  \"overview\": \"Twelve competition venues were used for the Olympic Winter Games PyeongChang 2018. Eleven of them are still in use today, hosting diverse activities such as international and national sports events, youth sports camps and winter sports academies, and benefitting high-performance athletes and recreational users alike.\\n\\nEight are still used for winter sports, and the remaining four for other sports. Most of the venues will host events again at the Winter Youth Olympic Games Gangwon 2024.\\n\\nSix of the competition venues were existing sites; the rest were built for the Games. The venues were located in two clusters: PyeongChang Mountain Cluster (snow events) and Gangneung Coastal Cluster (ice events).\\n\\nThe setting for the Opening and Closing Ceremonies, PyeongChang Olympic Stadium, was a temporary non-competition venue that was dismantled after the Games, while the two Olympic Villages (PyeongChang and Gangneung) were both built for the Games. They remain in use today, providing housing.\",\n  \"venues\": [\n    {\n      \"name\": \"Bokwang Phoenix Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Snowboard and freestyle skiing\",\n      \"status\": \"In use\",\n      \"information\": \"An FIS Snowboard World Cup venue in February 2020, Bokwang Phoenix Park is also home to a winter sports academy. Its aim is to develop grassroots winter sport in the Republic of Korea, increase the popularity of these sports, and nurture future champions. As well as running snowboard training camps in winter, the venue also provides off-season training.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Yongpyong Alpine Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing (slalom, giant slalom)\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1998, the Centre hosted several international events before the 2018 Olympic Winter Games, including the 1999 Winter Asian Games and a number of FIS World Cup events. In 2020, it staged the FIS Alpine Skiing Far East Cup.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Alpensia Ski Jumping Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ski jumping\",\n      \"status\": \"In use\",\n      \"information\": \"The venue has a large hill and a normal hill, as well as three smaller training hills. The main training facility for the Republic of Korea's national ski jumping teams, it hosts local competitions and youth camps, but has not staged any major international competitions since the Olympic Winter Games. A year-round training centre, it is one of several PyeongChang 2018 venues used for the 2020 Dream Programme, which promoted the global growth of winter sports and sought to develop the skills of young athletes from Asian countries with few or no winter sports facilities.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Alpensia Cross-Country Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"In use\",\n      \"information\": \"Also a 2020 Dream Programme venue, the Centre is used by cross-country skiers for training during the winter, and also hosts youth sports camps. Built in 1995, it staged the cross-country skiing events at the 1999 Asian Winter Games. It backs onto the Biathlon Centre and the Ski Jumping Stadium.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Alpensia Biathlon Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Biathlon\",\n      \"status\": \"In use\",\n      \"information\": \"Another 2020 Dream Programme venue, it is used by biathletes for training during the winter, and also hosts youth sports camps. Built in 1995, the Centre staged the biathlon events at the 1999 Asian Winter Games.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Jeongseon Alpine Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Alpine skiing (downhill, super G, combined)\",\n      \"status\": \"Not in use\",\n      \"information\": \"The venue was due to be dismantled in line with the initial plan to return the site to its original state and remained closed after the Games.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Alpensia Olympic Sliding Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Bobsleigh, luge and skeleton\",\n      \"status\": \"In use\",\n      \"information\": \"Reopened after the Games in October 2019, the venue, which has an artificial structure and refrigeration system, has since staged the 2020 IBSF Skeleton Intercontinental Cup, the 2020 FIL Luge Asian Cup and the 2021 Korea Cup.\\n\\nIt is also a training facility for high-performance athletes. The Centre hosts the New Horizons sliding champions programme, which provides training for bobsleigh and skeleton athletes from four new winter sports nations in south-east Asia (Cambodia, Malaysia, Vietnam and Thailand), helping them to prepare for the Olympic Winter Games Beijing 2022. Athletes from Australia, Israel, Nigeria and the USA also trained at the Centre from November 2020 to March 2021.\\n\\nThe Centre's other activities include school visits organised by the PyeongChang 2018 Legacy Foundation, youth sport and education camps, and ice-making workshops. Track workers from the Yanqing National Sliding Centre, which staged the bobsleigh, luge and skeleton events at Beijing 2022, visited the Centre for one such workshop, with another being held for local residents and students, some of whom were then recruited as assistant ice-makers.\\n\\nVisitors to the Centre can try out bobsleigh in the summer and winter, among other activities. It is one of several PyeongChang 2018 venues that also hosts sports camps for young people.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"PyeongChang Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Both villages were converted into residential areas after the Games, as planned. The PyeongChang village comprises eight 15-storey buildings that are home to 600 units. The Gangneung village's nine 25-storey buildings boast 922 apartments and can accommodate 2,717 people.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"PyeongChang Olympic Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Opening and Closing Ceremonies\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The venue used for the Opening and Closing Ceremonies was mostly temporary, and was dismantled as planned after the Games. Only one side of the pentagon-shape stadium was a permanent structure and remains in use today, as it currently hosts the PyeongChang Olympic and Paralympic Museum and the offices of the PyeongChang 2018 Legacy Foundation.\\n\\nThe rest of the site is being transformed into the \\\"Peace Park\\\", a community sports complex that is home to an artificial football pitch, an athletics track, and basketball and tennis courts.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Gangneung Curling Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Curling\",\n      \"status\": \"In use\",\n      \"information\": \"Another youth camp and 2020 Dream Programme venue, the Centre staged the Korean National Curling Championships in 2019. Built in 1998, it has a capacity of 3,500 and hosted the 2009 World Women's Curling Championships.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Gangneung Oval\",\n      \"classification\": \"New build\",\n      \"use\": \"Speed skating\",\n      \"status\": \"Not in use\",\n      \"information\": \"The 8,000-seater venue was out of use for over a year after the 2018 Olympic Winter Games due to issues surrounding its management and legacy. When sport activities resumed in late 2019, they were quickly put on hold by the COVID-19 pandemic, forcing the owner and operator to alter their plans. The venue has occasionally been used as a film studio and ice sports experience centre for the Bandabi Sports Camp.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Gangneung Ice Arena\",\n      \"classification\": \"New build\",\n      \"use\": \"Figure skating\",\n      \"status\": \"In use\",\n      \"information\": \"The Arena, which has a capacity of 12,000, underwent renovation work after the Games and reopened as a public multi-sports facility. A swimming pool and an Olympic Museum are being built beside the venue. The training facility attached to it is used by Yeongdong College for exhibitions and seminars.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Gangneung Hockey Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"The venue for the 2020 IIHF Ice Hockey U20 World Championship Division II Group B, the Centre also staged the 2018 Korean National Men's Ice Hockey Championships and the Legacy Cup, which is held yearly to mark the anniversary of the PyeongChang 2018 Games. The Cup has featured teams from Japan, Kazakhstan, Latvia and the Republic of Korea.\\n\\nThe Centre was the setting for the three-day competition that brought to an end the Girls' Ice Hockey School initiative, a government programme designed to encourage more girls to play winter sports in the Republic of Korea, and which also focused on Olympic values and leadership and raised awareness of sexual harassment and safeguarding.\\n\\nThe venue is also used as a winter sports academy that seeks to promote grassroots winter sports in the country through training and small-sided games, and to improve disability awareness through Para ice-hockey experiences.\\n\\nThough the original plan was to dismantle the Centre after the Games, the City of Gangneung decided to maintain it as part of its plans to create a winter sports hub.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Kwandong Hockey Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"This 6,000-seater venue was handed over to Catholic Kwandong University after the Games, and is used by its students as a multi-sports and educational facility.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Gangneung Olympic Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Both villages were converted into residential areas after the Games, as planned. The PyeongChang village comprises eight 15-storey buildings that are home to 600 units. The Gangneung village's nine 25-storey buildings boast 922 apartments and can accommodate 2,717 people.\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"The 10,000-capacity Gangneung Hockey Centre is the first and only stadium in the Republic of Korea to be built specifically for ice hockey. Originally an archery range, it is located on a former landfill site.\\n\\nA roofless five-sided venue, PyeongChang Olympic Stadium had a capacity of 35,000 and a floor area of 58,790 m². It hosted five events before being dismantled: the Opening and Closing Ceremonies of both the 2018 Olympic Winter Games and Paralympic Winter Games, and a K-pop concert held 100 days before the Olympic Winter Games began.\\n\\nGangneung Ice Arena was the largest of all the venues used at PyeongChang 2018. It has a capacity of 12,000 and two ice rinks: one for competition and one for training.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n**City and Year:** \n- JSON: \"PyeongChang\", \"2018\" ✓ matches PDF title \"PYEONGCHANG 2018 VENUES\"\n\n**Overview:** \n- The JSON overview text exactly matches the OVERVIEW section from page 1 of the PDF ✓\n\n**Venues:** \nI need to check each venue against the tables and information in the PDF:\n\n1. All venue names match the PDF tables ✓\n2. All classifications (Existing/New build/Temporary) match the PDF ✓\n3. All uses match the PDF ✓\n4. All current status match the PDF ✓\n5. All information sections match the detailed content in \"THE VENUES UP CLOSE\" section ✓\n6. All locations are marked as \"outside the city\" - this appears consistent as venues are in two clusters outside the main urban areas ✓\n\n**Trivia:**\n- The trivia section exactly matches the \"DID YOU KNOW?\" section from the PDF ✓\n\nAll data appears to match correctly.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

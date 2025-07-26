@@ -1,0 +1,247 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Los Angeles",
+        "year": "1984",
+        "overview": "Twenty-six competition venues were used for the Olympic Games Los Angeles 1984, 21 of which remain in use. Twenty of the competition venues were existing, three were new and three were temporary. Two venues have been demolished. Eleven of the venues were outside Los Angeles County. The venues that are still in use host sporting, cultural and leisure activities and are accessed by athletes of all levels, from high-performance to grassroots.\n\nThe Los Angeles Memorial Coliseum hosted the Opening and Closing Ceremonies and the track and field competitions. There were two Olympic Villages; these remain in use, both of them occupying existing university campuses. The Los Angeles Memorial Coliseum was also used at the 1932 Olympic Games, along with the Rose Bowl. Both will be used again at the 2028 Olympic Games.",
+        "venues": [
+          {
+            "name": "Santa Anita Park",
+            "classification": "Existing",
+            "use": "Eventing, dressage, jumping",
+            "status": "In use",
+            "information": "The racetrack opened in 1934 and has been the venue for some of the United States' most prestigious races, among them the Santa Anita Derby and the Santa Anita Handicap. It has also hosted the Breeders' Cup 10 times, most recently in 2019. Santa Anita Park has three tracks: one dirt and two turf. Its main grandstand has a capacity of 26,000.\n\nFor the equestrian events in 1984, temporary seating for 72,000 people was installed across the venue's 320 acres, 23,000 of them at the three-sided arena that hosted the jumping competition and was laid out on the racetrack. Sand was laid for the dressage competitions and was removed after the Games, as were the temporary grandstands. At Games time, the venue had stabling for 2,100 horses.",
+            "location": "inside"
+          },
+          {
+            "name": "Weingart Stadium",
+            "classification": "Existing",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "The venue was built in 1951 and is used by East Los Angeles College's American football and soccer teams. It has a seating capacity of 22,355 and was renovated for the field hockey competition at the 1984 Olympic Games, with a new turf pitch installed and improvements made to the seating. Formerly known as ELAC Stadium, it was renamed in honour of the philanthropist who funded the renovations.\n\nAfter the Games, it reverted to its original use as an American football and soccer stadium, but hosted an international hockey tournament organised by USA Field Hockey in 1990. The stadium has an eight-lane 400-metre track and stages athletics competitions. It is also used for high-school graduation ceremonies.",
+            "location": "inside"
+          },
+          {
+            "name": "Pauley Pavilion",
+            "classification": "Existing",
+            "use": "Artistic gymnastics, rhythmic gymnastics",
+            "status": "In use",
+            "information": "Built in 1965, it is primarily a basketball and volleyball venue and is used by the University of California Los Angeles (UCLA)'s women's and men's basketball and volleyball teams. After the Games, the 13,800-seater arena, which is also a concert venue, hosted a US presidential debate in 1988, the MTV Video Awards in 1992, and a visit by the Dalai Lama in 1997. It was refurbished between 2010 and 2012, and staged the Los Angeles Tennis Challenge in 2013.",
+            "location": "inside"
+          },
+          {
+            "name": "Los Angeles Memorial Coliseum",
+            "classification": "Existing",
+            "use": "Athletics, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The stadium was renovated for the 1984 Olympic Games. A new football pitch was installed, along with an advanced drainage system and a new athletics track. The stadium was built in 1921 on the site of an abandoned racecourse in the city's Exposition Park. It hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for the first time in 1932, when its capacity was 105,000. It will perform that function again, with the exception of some field events, when the Games return to Los Angeles in 2028.\n\nNamed Los Angeles Memorial Coliseum, in honour of local World War One veterans, the stadium has been the home of the University of Southern California (USC)'s sports teams, among them the Trojans, USC's American football team, since it opened. It has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams who have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019.",
+            "location": "inside"
+          },
+          {
+            "name": "Albert Gersten Pavilion",
+            "classification": "Existing",
+            "use": "Weightlifting",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Eagle's Nest Arena",
+            "classification": "Existing",
+            "use": "Judo",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "El Dorado Park",
+            "classification": "Existing",
+            "use": "Archery",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Rose Bowl",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "A temporary cycling venue at the 1932 Games, the Rose Bowl was one of four stadiums to stage the men's Olympic football tournament in 1984. It is a prestigious venue in US sport and synonymous with American football. The setting for the annual Rose Bowl Game since 1923, it has hosted five Super Bowls and is the home of the UCLA Bruins. It is also well known as a soccer stadium, staging matches at the 1994 FIFA World Cup and 1999 FIFA Women's World Cup, including the finals of both tournaments. The venue will stage matches at the Los Angeles 2028 Olympic football tournaments.",
+            "location": "inside"
+          },
+          {
+            "name": "Long Beach Sports Arena",
+            "classification": "Existing",
+            "use": "Volleyball",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "The Forum",
+            "classification": "Existing",
+            "use": "Basketball, handball",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Exhibition Hall, Long Beach Convention and Entertainment Center",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Los Angeles Memorial Sports Arena",
+            "classification": "Existing",
+            "use": "Boxing",
+            "status": "Not in use (demolished)",
+            "information": "Situated next to the Los Angeles Memorial Coliseum in Exposition Park, the venue opened in 1959. A multi-purpose arena, it was used by the city's NBA and college basketball teams and as an ice hockey, boxing and indoor track and field venue. The LA Lakers moved out of the arena in 1967, with the LA Clippers following suit in 1999, the USC Trojans in 2006 and the UCLA Bruins in 2012. A number of other teams used and then vacated the stadium before and after it hosted the boxing competition at the 1984 Olympic Games. It was demolished in 2016 to make way for a soccer stadium that is now home to MLS team Los Angeles FC.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Village USC",
+            "classification": "Mixed: existing/new build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The existing campuses at USC and UCLA were used to accommodate athletes to keep costs down. The USC Olympic Village occupied 65 of the campus' 150 acres and welcomed approximately 4,400 athletes and coaches from 79 National Olympic Committees. They had access to a bank, a convenience store, a hair salon, a post office, a video games arcade and high-performance training facilities. Male and female athletes were not separated at the Villages.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Village UCLA",
+            "classification": "Mixed: existing/new build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "The university's dorms and facilities were repurposed to house around 2,700 athletes from 60 National Olympic Committees. They had access to amenities such as a supermarket, a religious centre, a bank and a nightclub. Like its USC counterpart, the UCLA Village was returned to the university after the Games and is still used for student accommodation today.\n\nA third Olympic Village was created for the 1984 Games, with rowers and canoeists competing at Lake Casitas staying with their coaches at the University of California Santa Barbara campus.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Swim Stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, artistic swimming",
+            "status": "In use",
+            "information": "Located on the USC campus, the stadium has been used by local residents and the university's students since the 1984 Olympic Games, as planned. Now known as the Uytengsu Aquatics Center, it is home to USC's swimming and diving teams and stages regional and national aquatic sports competitions. It was the venue for the 1989 US Long Course Championships and the 1993 US National Diving Championships. It is also used for recreational and masters swimming, and club triathlon, water polo and swimming competitions and training.\n\nThe stadium was closed for renovations in 2013, when a new diving tower, locker rooms, a spectator area, a video scoreboard and two outdoor jacuzzis were added to its facilities.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track)",
+            "status": "Not in use (demolished)",
+            "information": "The venue was donated to California State University (CSU) after the Games and used for training, development and competition, for both professional and amateur riders. It staged the USA Cycling Collegiate Track National Championships on several occasions, among other meetings. It was also open to the public for recreational use and was used for concerts, graduation ceremonies and other events. It was demolished in 2002 to make way for a new stadium for Major League Soccer (MLS) team Los Angeles Galaxy. Two years later, a new indoor velodrome, the VELO Sports Center, opened at the same CSU complex. The home of USA Cycling's national track cycling programme, it stages training and international competitions, as well as classes open to riders of all levels. The VELO Sports Center will be the venue for the track cycling events at the Olympic Games Los Angeles 2028.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Harbor",
+            "classification": "Temporary",
+            "use": "Sailing",
+            "status": "Dismantled (temporary)",
+            "information": "The 1984 Olympic sailing events were held at Long Beach Marina, part of which later became the Shoreline Yacht Club. Temporary facilities were erected to create the Olympic Harbor and were removed after the Games. Shoreline Yacht Club continues to offer recreational sailing to its members and visitors today and runs a learn-to-sail programme for adults.",
+            "location": "inside"
+          },
+          {
+            "name": "Titan Gymnasium",
+            "classification": "Existing",
+            "use": "Handball",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Anaheim Convention Center",
+            "classification": "Existing",
+            "use": "Wrestling",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Coto de Caza",
+            "classification": "Existing",
+            "use": "Modern pentathlon",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Heritage Park Aquatic Center",
+            "classification": "Existing",
+            "use": "Modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Raleigh Runnels Memorial Pool",
+            "classification": "Existing",
+            "use": "Water polo",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Stanford Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Harvard Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Navy-Marine Corps Memorial Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Olympic Shooting Range",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Fairbanks Ranch",
+            "classification": "Temporary",
+            "use": "Eventing",
+            "status": "Dismantled (temporary)",
+            "information": "The cross-country section of the 1984 Olympic three-day eventing competition took place on a site that was converted into an 18-hole golf course immediately after the Games. A nine-hole course was added in 2004.",
+            "location": "outside"
+          },
+          {
+            "name": "Lake Casitas",
+            "classification": "Temporary",
+            "use": "Rowing, canoe sprint",
+            "status": "Dismantled (temporary)",
+            "information": "A reservoir created by the construction of a dam in 1958, Lake Casitas provides drinking water and ensures flood control in Ventura County. Prior to the 1984 Olympic Games, it had never staged races or sporting events of any kind. Temporary facilities were set up for the Games. These included spectator stands, ramps, docks, boathouses and an athlete day village. The site was restored to its original state after the Games.\n\nRowing returned to the lake in 2008, with the founding of the Casitas Rowing Club, which runs teams for different age groups and junior camps, and organises local regattas for its members and fun races for the local community. Fishing is also very popular at the lake, and a number of non-watersport activities are also available for visitors, such as biking and hiking, camping, bird watching and disc golf.",
+            "location": "outside"
+          }
+        ],
+        "trivia": "Over one million spectators watched the athletics events in the Los Angeles Olympic Stadium at the 1984 Games, with nearly 160,000 attending the Opening and Closing Ceremonies.\n\nWeingart Stadium was used as a location in the 1994 film Forrest Gump, the winner of six Academy Awards. It stood in for the University of Alabama's Football Stadium in a scene in which Gump, played by Tom Hanks, runs from one end of the pitch to the other to score touchdowns.\n\nThe musician Bruce Springsteen played over 30 times at the Los Angeles Memorial Sports Arena. His last three shows, in late 2016, were the very last events to be staged at the venue."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Los Angeles\",\n  \"year\": \"1984\",\n  \"overview\": \"Twenty-six competition venues were used for the Olympic Games Los Angeles 1984, 21 of which remain in use. Twenty of the competition venues were existing, three were new and three were temporary. Two venues have been demolished. Eleven of the venues were outside Los Angeles County. The venues that are still in use host sporting, cultural and leisure activities and are accessed by athletes of all levels, from high-performance to grassroots.\\n\\nThe Los Angeles Memorial Coliseum hosted the Opening and Closing Ceremonies and the track and field competitions. There were two Olympic Villages; these remain in use, both of them occupying existing university campuses. The Los Angeles Memorial Coliseum was also used at the 1932 Olympic Games, along with the Rose Bowl. Both will be used again at the 2028 Olympic Games.\",\n  \"venues\": [\n    {\n      \"name\": \"Santa Anita Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing, dressage, jumping\",\n      \"status\": \"In use\",\n      \"information\": \"The racetrack opened in 1934 and has been the venue for some of the United States' most prestigious races, among them the Santa Anita Derby and the Santa Anita Handicap. It has also hosted the Breeders' Cup 10 times, most recently in 2019. Santa Anita Park has three tracks: one dirt and two turf. Its main grandstand has a capacity of 26,000.\\n\\nFor the equestrian events in 1984, temporary seating for 72,000 people was installed across the venue's 320 acres, 23,000 of them at the three-sided arena that hosted the jumping competition and was laid out on the racetrack. Sand was laid for the dressage competitions and was removed after the Games, as were the temporary grandstands. At Games time, the venue had stabling for 2,100 horses.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Weingart Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"The venue was built in 1951 and is used by East Los Angeles College's American football and soccer teams. It has a seating capacity of 22,355 and was renovated for the field hockey competition at the 1984 Olympic Games, with a new turf pitch installed and improvements made to the seating. Formerly known as ELAC Stadium, it was renamed in honour of the philanthropist who funded the renovations.\\n\\nAfter the Games, it reverted to its original use as an American football and soccer stadium, but hosted an international hockey tournament organised by USA Field Hockey in 1990. The stadium has an eight-lane 400-metre track and stages athletics competitions. It is also used for high-school graduation ceremonies.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Pauley Pavilion\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, rhythmic gymnastics\",\n      \"status\": \"In use\",\n      \"information\": \"Built in 1965, it is primarily a basketball and volleyball venue and is used by the University of California Los Angeles (UCLA)'s women's and men's basketball and volleyball teams. After the Games, the 13,800-seater arena, which is also a concert venue, hosted a US presidential debate in 1988, the MTV Video Awards in 1992, and a visit by the Dalai Lama in 1997. It was refurbished between 2010 and 2012, and staged the Los Angeles Tennis Challenge in 2013.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Los Angeles Memorial Coliseum\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium was renovated for the 1984 Olympic Games. A new football pitch was installed, along with an advanced drainage system and a new athletics track. The stadium was built in 1921 on the site of an abandoned racecourse in the city's Exposition Park. It hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for the first time in 1932, when its capacity was 105,000. It will perform that function again, with the exception of some field events, when the Games return to Los Angeles in 2028.\\n\\nNamed Los Angeles Memorial Coliseum, in honour of local World War One veterans, the stadium has been the home of the University of Southern California (USC)'s sports teams, among them the Trojans, USC's American football team, since it opened. It has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams who have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Albert Gersten Pavilion\",\n      \"classification\": \"Existing\",\n      \"use\": \"Weightlifting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Eagle's Nest Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Judo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"El Dorado Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Archery\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Rose Bowl\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"A temporary cycling venue at the 1932 Games, the Rose Bowl was one of four stadiums to stage the men's Olympic football tournament in 1984. It is a prestigious venue in US sport and synonymous with American football. The setting for the annual Rose Bowl Game since 1923, it has hosted five Super Bowls and is the home of the UCLA Bruins. It is also well known as a soccer stadium, staging matches at the 1994 FIFA World Cup and 1999 FIFA Women's World Cup, including the finals of both tournaments. The venue will stage matches at the Los Angeles 2028 Olympic football tournaments.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Long Beach Sports Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Volleyball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"The Forum\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basketball, handball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Exhibition Hall, Long Beach Convention and Entertainment Center\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Los Angeles Memorial Sports Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Situated next to the Los Angeles Memorial Coliseum in Exposition Park, the venue opened in 1959. A multi-purpose arena, it was used by the city's NBA and college basketball teams and as an ice hockey, boxing and indoor track and field venue. The LA Lakers moved out of the arena in 1967, with the LA Clippers following suit in 1999, the USC Trojans in 2006 and the UCLA Bruins in 2012. A number of other teams used and then vacated the stadium before and after it hosted the boxing competition at the 1984 Olympic Games. It was demolished in 2016 to make way for a soccer stadium that is now home to MLS team Los Angeles FC.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Village USC\",\n      \"classification\": \"Mixed: existing/new build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The existing campuses at USC and UCLA were used to accommodate athletes to keep costs down. The USC Olympic Village occupied 65 of the campus' 150 acres and welcomed approximately 4,400 athletes and coaches from 79 National Olympic Committees. They had access to a bank, a convenience store, a hair salon, a post office, a video games arcade and high-performance training facilities. Male and female athletes were not separated at the Villages.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Village UCLA\",\n      \"classification\": \"Mixed: existing/new build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"The university's dorms and facilities were repurposed to house around 2,700 athletes from 60 National Olympic Committees. They had access to amenities such as a supermarket, a religious centre, a bank and a nightclub. Like its USC counterpart, the UCLA Village was returned to the university after the Games and is still used for student accommodation today.\\n\\nA third Olympic Village was created for the 1984 Games, with rowers and canoeists competing at Lake Casitas staying with their coaches at the University of California Santa Barbara campus.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Swim Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, artistic swimming\",\n      \"status\": \"In use\",\n      \"information\": \"Located on the USC campus, the stadium has been used by local residents and the university's students since the 1984 Olympic Games, as planned. Now known as the Uytengsu Aquatics Center, it is home to USC's swimming and diving teams and stages regional and national aquatic sports competitions. It was the venue for the 1989 US Long Course Championships and the 1993 US National Diving Championships. It is also used for recreational and masters swimming, and club triathlon, water polo and swimming competitions and training.\\n\\nThe stadium was closed for renovations in 2013, when a new diving tower, locker rooms, a spectator area, a video scoreboard and two outdoor jacuzzis were added to its facilities.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue was donated to California State University (CSU) after the Games and used for training, development and competition, for both professional and amateur riders. It staged the USA Cycling Collegiate Track National Championships on several occasions, among other meetings. It was also open to the public for recreational use and was used for concerts, graduation ceremonies and other events. It was demolished in 2002 to make way for a new stadium for Major League Soccer (MLS) team Los Angeles Galaxy. Two years later, a new indoor velodrome, the VELO Sports Center, opened at the same CSU complex. The home of USA Cycling's national track cycling programme, it stages training and international competitions, as well as classes open to riders of all levels. The VELO Sports Center will be the venue for the track cycling events at the Olympic Games Los Angeles 2028.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Harbor\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Sailing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The 1984 Olympic sailing events were held at Long Beach Marina, part of which later became the Shoreline Yacht Club. Temporary facilities were erected to create the Olympic Harbor and were removed after the Games. Shoreline Yacht Club continues to offer recreational sailing to its members and visitors today and runs a learn-to-sail programme for adults.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Titan Gymnasium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Handball\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Anaheim Convention Center\",\n      \"classification\": \"Existing\",\n      \"use\": \"Wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Coto de Caza\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Heritage Park Aquatic Center\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Raleigh Runnels Memorial Pool\",\n      \"classification\": \"Existing\",\n      \"use\": \"Water polo\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Stanford Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Harvard Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Navy-Marine Corps Memorial Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Olympic Shooting Range\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Fairbanks Ranch\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Eventing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The cross-country section of the 1984 Olympic three-day eventing competition took place on a site that was converted into an 18-hole golf course immediately after the Games. A nine-hole course was added in 2004.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Lake Casitas\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"A reservoir created by the construction of a dam in 1958, Lake Casitas provides drinking water and ensures flood control in Ventura County. Prior to the 1984 Olympic Games, it had never staged races or sporting events of any kind. Temporary facilities were set up for the Games. These included spectator stands, ramps, docks, boathouses and an athlete day village. The site was restored to its original state after the Games.\\n\\nRowing returned to the lake in 2008, with the founding of the Casitas Rowing Club, which runs teams for different age groups and junior camps, and organises local regattas for its members and fun races for the local community. Fishing is also very popular at the lake, and a number of non-watersport activities are also available for visitors, such as biking and hiking, camping, bird watching and disc golf.\",\n      \"location\": \"outside\"\n    }\n  ],\n  \"trivia\": \"Over one million spectators watched the athletics events in the Los Angeles Olympic Stadium at the 1984 Games, with nearly 160,000 attending the Opening and Closing Ceremonies.\\n\\nWeingart Stadium was used as a location in the 1994 film Forrest Gump, the winner of six Academy Awards. It stood in for the University of Alabama's Football Stadium in a scene in which Gump, played by Tom Hanks, runs from one end of the pitch to the other to score touchdowns.\\n\\nThe musician Bruce Springsteen played over 30 times at the Los Angeles Memorial Sports Arena. His last three shows, in late 2016, were the very last events to be staged at the venue.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data against the PDF content:\n\n1. **Basic Information:**\n   - City: \"Los Angeles\" ✓ (matches PDF)\n   - Year: \"1984\" ✓ (matches PDF)\n   - Overview: Matches the OVERVIEW section in PDF exactly ✓\n\n2. **Venues:** \n   Let me check each venue against the detailed tables in the PDF:\n   - All venue names match the detailed tables on pages 2-3\n   - All classifications (Existing/New build/Temporary/Mixed) match\n   - All uses match the competitions listed\n   - All current statuses match (In use/Not in use (demolished)/Dismantled (temporary))\n   - Information sections match the content from \"THE VENUES UP CLOSE\" section\n   - Location assignments (inside/outside) align with the PDF's statement that \"Eleven of the venues were outside Los Angeles County\" - I count exactly 11 venues marked as \"outside\" in the JSON\n\n3. **Trivia:**\n   The trivia section matches the \"DID YOU KNOW?\" section exactly ✓\n\n4. **Venue Count:**\n   The JSON contains 26 venues, which matches the PDF statement about \"Twenty-six competition venues\"\n\nAll data appears to be accurate and matches the PDF content.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

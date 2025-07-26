@@ -1,0 +1,255 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "London",
+        "year": "1948",
+        "overview": "Twenty-nine competition venues were used for the Olympic Games London 1948, 19 of which remain in use to cater for high-performance and grassroots/community sport. Aside from one temporary venue, all the other competition venues were existing. No Olympic Village was built either, out of a desire to keep costs low in a country still recovering from WWII. Of the nine venues no longer in use, five are football stadiums. The temporary venue was dismantled after the Games. Empire Stadium, now Wembley Stadium, hosted the Opening and Closing Ceremonies and the athletics competitions. Two of the venues had been used at the 1908 Olympic Games (Henley Royal Regatta Course and Bisley Rifle Range), while three were used at London 2012: Empire Stadium (Wembley), Empire Pool (Wembley Arena) and Empress Hall (Earl's Court).",
+        "venues": [
+          {
+            "name": "Empire Stadium (Wembley)",
+            "classification": "Existing",
+            "use": "Athletics, Opening and Closing Ceremonies",
+            "status": "In use (rebuilt)",
+            "information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated concert venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors. One of the two physical remnants of the 1948 Olympic Games is Olympic Way, since renamed Wembley Way. A half-mile approach to the stadium leading from the nearest London Underground station, it was built for the Games and channels spectators in their thousands to the stadium's gates. The other is the Olympic Roll of Honour, two large plaques commemorating the gold medallists at the 1948 Olympic Games and set in the walls on either side of the Royal Tunnel. The plaques were removed and kept safe when the stadium was demolished in 2003 and returned to Wembley in time for the 2012 Olympic Games, as part of an exhibition at the new stadium.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Lyons Sports Ground, Sudbury Hill",
+            "classification": "Existing",
+            "use": "Field hockey",
+            "status": "In use",
+            "information": "Created in memory of the soldiers who died in WWI, it opened in 1919. The site was sold in 2000 and, though the original pitches remain, the pavilions have been replaced by an indoor tennis and fitness centre.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Polytechnic Stadium",
+            "classification": "Existing",
+            "use": "Field hockey",
+            "status": "In use",
+            "information": "It is now used by the University of Westminster's sports teams. The stadium grandstand was built in 1936 and is now a listed building. The stadium was originally home to the Polytechnic Harriers Athletics Club and other local clubs and schools, and it was a venue for training at the 1948 Olympic Games and for competitions such as the Amateur Athletic Association Championships.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Herne Hill Track/Velodrome",
+            "classification": "Existing",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "The velodrome continues to be used as a community cycling venue, 130 years on from its construction. Available for corporate events and private functions, it is used regularly by local clubs and 15 local schools and is also open to disability groups. The oldest remaining venue from the Olympic Games London 1948, it is one of the most famous velodromes in the UK and is widely regarded as the spiritual home of British cycling. It enjoyed its heyday in the 1920s and 30s, when events such as the Good Friday Meeting attracted crowds of up to 12,000. Though in regular use after the 1948 Olympic Games, it was threatened with closure in 2010 due to the poor state of the facilities. The velodrome was extensively refurbished between 2011 and 2017, when the 450m banked asphalt track received a completely new surface, floodlights were installed, and a new pavilion was built to accommodate new changing rooms, offices, a café and bike storage facilities. It was London's only velodrome until the construction of Lee Valley VeloPark for the 2012 Olympic Games.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Champion Hill",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+            "location": "inside the city"
+          },
+          {
+            "name": "Craven Cottage",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+            "location": "inside the city"
+          },
+          {
+            "name": "Selhurst Park",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+            "location": "inside the city"
+          },
+          {
+            "name": "Finchley Pool",
+            "classification": "Existing",
+            "use": "Water polo",
+            "status": "In use (rebuilt)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "White Hart Lane",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use (rebuilt)",
+            "information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+            "location": "inside the city"
+          },
+          {
+            "name": "Empire Pool",
+            "classification": "Existing",
+            "use": "Swimming, diving, water polo, boxing",
+            "status": "In use (repurposed)",
+            "information": "Empire Pool was part of the Wembley Park complex, the main hub at the 1948 Olympic Games. Used at the 1934 Empire Games, (as the Commonwealth Games were formerly known), it hosted its last swimming events at London 1948. It has since become a prominent music and sporting venue, welcoming boxing, ice skating and basketball, among other sports, and providing the setting for the Horse of the Year show until 2002. Awarded listed status in 1976, it was renamed Wembley Arena two years later. The venue staged the badminton and rhythmic gymnastics competitions at the 2012 Olympic Games.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Griffin Park",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Guinness Sports Ground, Park Royal",
+            "classification": "Existing",
+            "use": "Field hockey",
+            "status": "Not in use (demolished)",
+            "information": "The ground lay next to a brewery that was demolished in 2006 to make way for the headquarters of drinks company Diageo.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Empress Hall (Earl's Court)",
+            "classification": "Existing",
+            "use": "Boxing, wrestling, weightlifting, gymnastics",
+            "status": "Not in use (demolished)",
+            "information": "This venue was later renamed Earls Court Exhibition Centre. Built in 1895 and redeveloped in 1936, it became a major exhibition, events and concert venue and staged the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Arsenal Stadium (Highbury Stadium)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Green Pond Road",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Harringay Arena",
+            "classification": "Existing",
+            "use": "Basketball",
+            "status": "Not in use (demolished)",
+            "information": "Built as an ice hockey stadium, it was also used for skating, boxing and other sports. It became a warehouse after WWII but was demolished in 1978. The site is currently occupied by a retail park.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Lynn Road",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Palace of Engineering (Wembley Empire Exhibition Site)",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "Not in use (demolished)",
+            "information": "The venue was opened in 1924 as part of the British Empire Exhibition and demolished in the 1970s.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Central Gymnasium or Command Central Gymnasium",
+            "classification": "Existing",
+            "use": "Modern pentathlon (fencing)",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Aldershot Command Central Stadium",
+            "classification": "Existing",
+            "use": "Eventing, dressage",
+            "status": "In use (rebuilt)",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Tweseldown Racecourse",
+            "classification": "Existing",
+            "use": "Eventing, modern pentathlon (equestrian)",
+            "status": "In use",
+            "information": "A horse racing venue since 1866, it staged National Hunt meetings until 1932. An equestrian venue at the 1948 Olympic Games, it continues to host national eventing horse trials and is also used for training and riding clinics.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Aldershot Pool/Aldershot Lido",
+            "classification": "Existing",
+            "use": "Modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Bisley (Bisley National Rifle Association Ranges)",
+            "classification": "Existing",
+            "use": "Shooting, modern pentathlon (shooting)",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Fratton Park",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+            "location": "outside the city"
+          },
+          {
+            "name": "Royal Military Academy, Sandhurst",
+            "classification": "Existing",
+            "use": "Modern pentathlon (running)",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Torbay",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Henley-on-Thames (site of the Royal Regatta Course)",
+            "classification": "Existing",
+            "use": "Rowing, canoe",
+            "status": "In use",
+            "information": "Held in the Oxfordshire town of Henley-on-Thames, the regatta first took place in 1839 and has been staged every year since, with the exception of the two world wars and 2020, when it was cancelled due to the COVID-19 pandemic. It has made use of four courses to date. The Olympic rowing competitions in 1948 were held on the fourth of these: the Straight Course. The venue hosted four men's rowing events at the 1908 Olympic Games, on a different course.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Goldstone Ground",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "Not in use (demolished)",
+            "information": "The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Windsor Great Park",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "Empire Stadium's iconic 38-metre-high towers were made listed buildings in 1976. Some 250,000 tons of earth were excavated to create the bowl in which Empire Stadium was built, with 25,000 tons of concrete and 600 tons of steel rods used for the stands. When it opened, the Palace of Engineering was the world's largest reinforced concrete structure."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"London\",\n  \"year\": \"1948\",\n  \"overview\": \"Twenty-nine competition venues were used for the Olympic Games London 1948, 19 of which remain in use to cater for high-performance and grassroots/community sport. Aside from one temporary venue, all the other competition venues were existing. No Olympic Village was built either, out of a desire to keep costs low in a country still recovering from WWII. Of the nine venues no longer in use, five are football stadiums. The temporary venue was dismantled after the Games. Empire Stadium, now Wembley Stadium, hosted the Opening and Closing Ceremonies and the athletics competitions. Two of the venues had been used at the 1908 Olympic Games (Henley Royal Regatta Course and Bisley Rifle Range), while three were used at London 2012: Empire Stadium (Wembley), Empire Pool (Wembley Arena) and Empress Hall (Earl's Court).\",\n  \"venues\": [\n    {\n      \"name\": \"Empire Stadium (Wembley)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, Opening and Closing Ceremonies\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Built for the British Empire Exhibition of 1924/25, the stadium hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated concert venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors. One of the two physical remnants of the 1948 Olympic Games is Olympic Way, since renamed Wembley Way. A half-mile approach to the stadium leading from the nearest London Underground station, it was built for the Games and channels spectators in their thousands to the stadium's gates. The other is the Olympic Roll of Honour, two large plaques commemorating the gold medallists at the 1948 Olympic Games and set in the walls on either side of the Royal Tunnel. The plaques were removed and kept safe when the stadium was demolished in 2003 and returned to Wembley in time for the 2012 Olympic Games, as part of an exhibition at the new stadium.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Lyons Sports Ground, Sudbury Hill\",\n      \"classification\": \"Existing\",\n      \"use\": \"Field hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Created in memory of the soldiers who died in WWI, it opened in 1919. The site was sold in 2000 and, though the original pitches remain, the pavilions have been replaced by an indoor tennis and fitness centre.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Polytechnic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Field hockey\",\n      \"status\": \"In use\",\n      \"information\": \"It is now used by the University of Westminster's sports teams. The stadium grandstand was built in 1936 and is now a listed building. The stadium was originally home to the Polytechnic Harriers Athletics Club and other local clubs and schools, and it was a venue for training at the 1948 Olympic Games and for competitions such as the Amateur Athletic Association Championships.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Herne Hill Track/Velodrome\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"The velodrome continues to be used as a community cycling venue, 130 years on from its construction. Available for corporate events and private functions, it is used regularly by local clubs and 15 local schools and is also open to disability groups. The oldest remaining venue from the Olympic Games London 1948, it is one of the most famous velodromes in the UK and is widely regarded as the spiritual home of British cycling. It enjoyed its heyday in the 1920s and 30s, when events such as the Good Friday Meeting attracted crowds of up to 12,000. Though in regular use after the 1948 Olympic Games, it was threatened with closure in 2010 due to the poor state of the facilities. The velodrome was extensively refurbished between 2011 and 2017, when the 450m banked asphalt track received a completely new surface, floodlights were installed, and a new pavilion was built to accommodate new changing rooms, offices, a café and bike storage facilities. It was London's only velodrome until the construction of Lee Valley VeloPark for the 2012 Olympic Games.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Champion Hill\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Craven Cottage\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Selhurst Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Finchley Pool\",\n      \"classification\": \"Existing\",\n      \"use\": \"Water polo\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"White Hart Lane\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Empire Pool\",\n      \"classification\": \"Existing\",\n      \"use\": \"Swimming, diving, water polo, boxing\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Empire Pool was part of the Wembley Park complex, the main hub at the 1948 Olympic Games. Used at the 1934 Empire Games, (as the Commonwealth Games were formerly known), it hosted its last swimming events at London 1948. It has since become a prominent music and sporting venue, welcoming boxing, ice skating and basketball, among other sports, and providing the setting for the Horse of the Year show until 2002. Awarded listed status in 1976, it was renamed Wembley Arena two years later. The venue staged the badminton and rhythmic gymnastics competitions at the 2012 Olympic Games.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Griffin Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Guinness Sports Ground, Park Royal\",\n      \"classification\": \"Existing\",\n      \"use\": \"Field hockey\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The ground lay next to a brewery that was demolished in 2006 to make way for the headquarters of drinks company Diageo.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Empress Hall (Earl's Court)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, wrestling, weightlifting, gymnastics\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"This venue was later renamed Earls Court Exhibition Centre. Built in 1895 and redeveloped in 1936, it became a major exhibition, events and concert venue and staged the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Arsenal Stadium (Highbury Stadium)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Green Pond Road\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Harringay Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basketball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Built as an ice hockey stadium, it was also used for skating, boxing and other sports. It became a warehouse after WWII but was demolished in 1978. The site is currently occupied by a retail park.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Lynn Road\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Palace of Engineering (Wembley Empire Exhibition Site)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue was opened in 1924 as part of the British Empire Exhibition and demolished in the 1970s.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Central Gymnasium or Command Central Gymnasium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Aldershot Command Central Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing, dressage\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Tweseldown Racecourse\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing, modern pentathlon (equestrian)\",\n      \"status\": \"In use\",\n      \"information\": \"A horse racing venue since 1866, it staged National Hunt meetings until 1932. An equestrian venue at the 1948 Olympic Games, it continues to host national eventing horse trials and is also used for training and riding clinics.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Aldershot Pool/Aldershot Lido\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Bisley (Bisley National Rifle Association Ranges)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting, modern pentathlon (shooting)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Fratton Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Royal Military Academy, Sandhurst\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (running)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Torbay\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Henley-on-Thames (site of the Royal Regatta Course)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe\",\n      \"status\": \"In use\",\n      \"information\": \"Held in the Oxfordshire town of Henley-on-Thames, the regatta first took place in 1839 and has been staged every year since, with the exception of the two world wars and 2020, when it was cancelled due to the COVID-19 pandemic. It has made use of four courses to date. The Olympic rowing competitions in 1948 were held on the fourth of these: the Straight Course. The venue hosted four men's rowing events at the 1908 Olympic Games, on a different course.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Goldstone Ground\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Windsor Great Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"Empire Stadium's iconic 38-metre-high towers were made listed buildings in 1976. Some 250,000 tons of earth were excavated to create the bowl in which Empire Stadium was built, with 25,000 tons of concrete and 600 tons of steel rods used for the stands. When it opened, the Palace of Engineering was the world's largest reinforced concrete structure.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. Basic information:\n   - City: \"London\" ✓\n   - Year: \"1948\" ✓\n\n2. Overview: The JSON overview text matches exactly with the overview section on page 1 of the PDF ✓\n\n3. Trivia: The JSON trivia text matches exactly with the \"DID YOU KNOW?\" section on page 6 ✓\n\n4. Venues: Let me check each venue against the tables in the PDF:\n   - All 29 venues are present ✓\n   - Names, classifications, uses, and statuses all match the tables ✓\n   - Information texts match the corresponding sections from \"THE VENUES UP CLOSE\" ✓\n   - Location assignments (inside/outside the city) are correct based on the venue categorization shown in the PDF ✓\n\nAll data appears to match the PDF content accurately.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

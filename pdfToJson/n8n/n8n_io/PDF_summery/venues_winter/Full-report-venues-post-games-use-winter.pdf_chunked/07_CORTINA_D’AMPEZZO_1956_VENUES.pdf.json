@@ -1,0 +1,79 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Cortina d'Ampezzo",
+        "year": "1956",
+        "overview": "Eight competition venues were used for the Olympic Winter Games Cortina d'Ampezzo 1956.\n\nTwo were temporary and were dismantled as planned after the Games.\n\nFive venues were existing sites, and one was built especially for the Games. Four of these six venues are still in use today, providing first-class facilities for major national and international events and also serving local clubs and the community. Its slopes, for example, continue to attract high-performance and recreational skiers.\n\nCortina d'Ampezzo Olympic Ice Stadium hosted the Opening and Closing Ceremonies, as well as the ice hockey and figure skating events. A multi-purpose venue, it is used for concerts and a range of winter sports. There was no official Olympic Village.\n\nAthletes and officials stayed in 42 hotels and 10 guest houses across the region.",
+        "venues": [
+          {
+            "name": "Bobsleigh Run",
+            "classification": "Existing",
+            "use": "Bobsleigh",
+            "status": "Not in use",
+            "information": "First built with snow and ice in 1906 and Italy's only bobsleigh track until the 1960s, it was renamed in honour of the legendary Italian bobsledder and two-time Olympic champion Eugenio Monti, following his death in 2003. The venue for nine bobsleigh world championships between 1937 and 1989, it was closed in 2008 due to financial difficulties and a lack of homologation for skeleton events. The track will be rebuilt by the Veneto region as part of a wider entertainment park project, and it will be used to host the sliding events at the 2026 Olympic Winter Games."
+          },
+          {
+            "name": "Ski Jump Italia",
+            "classification": "Existing",
+            "use": "Ski jumping, Nordic combined",
+            "status": "Not in use",
+            "information": "Dating back to 1923, it has been disused since 1990, when its FIS certificate for international competitions expired. The most modern ski jump in the world at the time of its construction, it was the venue for the first round of the inaugural FIS Ski Jumping World Cup in 1979 and hosted four more World Cup events before its closure. Though the jump has fallen into disrepair, the run-off area is now home to a football pitch."
+          },
+          {
+            "name": "Apollonio Stadium",
+            "classification": "Existing",
+            "use": "Ice hockey",
+            "status": "In use",
+            "information": "Now primarily used for tennis and home to Cortina d'Ampezzo's country club."
+          },
+          {
+            "name": "Tofana di Mezzo: the Olympia, Canalone and Col Druscié runs",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The Olympia delle Tofane runs hosted the men's downhill at Cortina d'Ampezzo 1956, the Canalone run the women's downhill, and the Col Druscié run the men's and women's slaloms.\n\nThe Olympia delle Tofane run was the venue for most of the women's races and all the Alpine combined races at the 2021 FIS Alpine World Championships. It has been staging FIS Women's Alpine Ski World Cup races for the last 28 years and will be used for the Alpine events at the 2026 Olympic Winter Games. The mountain's three Olympic runs form part of the route of the Cortina CAI Snow Run, a nocturnal trail race first held in 2017."
+          },
+          {
+            "name": "Monte Faloria: Ilio Colli run",
+            "classification": "Existing",
+            "use": "Alpine skiing",
+            "status": "In use",
+            "information": "The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today."
+          },
+          {
+            "name": "Cortina d'Ampezzo Olympic Ice Stadium",
+            "classification": "New build",
+            "use": "Ice hockey, figure skating, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The one venue built especially for the VII Olympic Winter Games, as Cortina d'Ampezzo did not have a suitable facility for staging ice hockey and figure skating.\n\nNow a multi-purpose complex, also called Stadio Olimpico del Ghiaccio, and the main sporting hub in Cortina d'Ampezzo. The stadium staged the 2010 Curling World Championships and will host the curling competitions at the Olympic Winter Games Milano Cortina 2026. It also hosted the Italian Short Track Speed Skating Championships in 2017.\n\nRefurbished on several occasions since the Games, the venue was fitted with a roof in 2003 but retains its original wooden stands. It occasionally hosts concerts, is open to the public for recreational use, and is the home of several local ice hockey, figure skating, short track, speed skating, curling and broomball clubs."
+          },
+          {
+            "name": "Snow Stadium",
+            "classification": "Temporary",
+            "use": "Cross-country skiing, Nordic combined",
+            "status": "Dismantled (temporary)",
+            "information": "Dismantled after the Games, as planned."
+          },
+          {
+            "name": "Lake Misurina Rink",
+            "classification": "Temporary (seasonal)",
+            "use": "Speed skating",
+            "status": "Dismantled (temporary)",
+            "information": "The venue for the last Olympic speed skating competition to be held on natural ice, Lake Misurina remains popular with tourists, attracted by its picturesque surroundings and the range of activities on offer there."
+          }
+        ],
+        "trivia": "The Trampolino d'Italia featured in the 1981 James Bond film For Your Eyes Only.\n\nThe Italian resort has staged more than 100 FIS World Cup events over the years and is also the venue for a number of Nordic skiing competitions and the Freeride World Tour.\n\nThe town's population rises from around 6,000 in low season to 50,000 in the winter months.\n\nKnown as the Queen of the Dolomites, Cortina d'Ampezzo and its slopes form part of the Dolomiti Superski, one of the world's biggest ski areas, complete with 1,200 kilometres of runs."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Cortina d'Ampezzo\",\n  \"year\": \"1956\",\n  \"overview\": \"Eight competition venues were used for the Olympic Winter Games Cortina d'Ampezzo 1956.\\n\\nTwo were temporary and were dismantled as planned after the Games.\\n\\nFive venues were existing sites, and one was built especially for the Games. Four of these six venues are still in use today, providing first-class facilities for major national and international events and also serving local clubs and the community. Its slopes, for example, continue to attract high-performance and recreational skiers.\\n\\nCortina d'Ampezzo Olympic Ice Stadium hosted the Opening and Closing Ceremonies, as well as the ice hockey and figure skating events. A multi-purpose venue, it is used for concerts and a range of winter sports. There was no official Olympic Village.\\n\\nAthletes and officials stayed in 42 hotels and 10 guest houses across the region.\",\n  \"venues\": [\n    {\n      \"name\": \"Bobsleigh Run\",\n      \"classification\": \"Existing\",\n      \"use\": \"Bobsleigh\",\n      \"status\": \"Not in use\",\n      \"information\": \"First built with snow and ice in 1906 and Italy's only bobsleigh track until the 1960s, it was renamed in honour of the legendary Italian bobsledder and two-time Olympic champion Eugenio Monti, following his death in 2003. The venue for nine bobsleigh world championships between 1937 and 1989, it was closed in 2008 due to financial difficulties and a lack of homologation for skeleton events. The track will be rebuilt by the Veneto region as part of a wider entertainment park project, and it will be used to host the sliding events at the 2026 Olympic Winter Games.\"\n    },\n    {\n      \"name\": \"Ski Jump Italia\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ski jumping, Nordic combined\",\n      \"status\": \"Not in use\",\n      \"information\": \"Dating back to 1923, it has been disused since 1990, when its FIS certificate for international competitions expired. The most modern ski jump in the world at the time of its construction, it was the venue for the first round of the inaugural FIS Ski Jumping World Cup in 1979 and hosted four more World Cup events before its closure. Though the jump has fallen into disrepair, the run-off area is now home to a football pitch.\"\n    },\n    {\n      \"name\": \"Apollonio Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Ice hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Now primarily used for tennis and home to Cortina d'Ampezzo's country club.\"\n    },\n    {\n      \"name\": \"Tofana di Mezzo: the Olympia, Canalone and Col Druscié runs\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The Olympia delle Tofane runs hosted the men's downhill at Cortina d'Ampezzo 1956, the Canalone run the women's downhill, and the Col Druscié run the men's and women's slaloms.\\n\\nThe Olympia delle Tofane run was the venue for most of the women's races and all the Alpine combined races at the 2021 FIS Alpine World Championships. It has been staging FIS Women's Alpine Ski World Cup races for the last 28 years and will be used for the Alpine events at the 2026 Olympic Winter Games. The mountain's three Olympic runs form part of the route of the Cortina CAI Snow Run, a nocturnal trail race first held in 2017.\"\n    },\n    {\n      \"name\": \"Monte Faloria: Ilio Colli run\",\n      \"classification\": \"Existing\",\n      \"use\": \"Alpine skiing\",\n      \"status\": \"In use\",\n      \"information\": \"The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today.\"\n    },\n    {\n      \"name\": \"Cortina d'Ampezzo Olympic Ice Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Ice hockey, figure skating, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The one venue built especially for the VII Olympic Winter Games, as Cortina d'Ampezzo did not have a suitable facility for staging ice hockey and figure skating.\\n\\nNow a multi-purpose complex, also called Stadio Olimpico del Ghiaccio, and the main sporting hub in Cortina d'Ampezzo. The stadium staged the 2010 Curling World Championships and will host the curling competitions at the Olympic Winter Games Milano Cortina 2026. It also hosted the Italian Short Track Speed Skating Championships in 2017.\\n\\nRefurbished on several occasions since the Games, the venue was fitted with a roof in 2003 but retains its original wooden stands. It occasionally hosts concerts, is open to the public for recreational use, and is the home of several local ice hockey, figure skating, short track, speed skating, curling and broomball clubs.\"\n    },\n    {\n      \"name\": \"Snow Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cross-country skiing, Nordic combined\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Dismantled after the Games, as planned.\"\n    },\n    {\n      \"name\": \"Lake Misurina Rink\",\n      \"classification\": \"Temporary (seasonal)\",\n      \"use\": \"Speed skating\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The venue for the last Olympic speed skating competition to be held on natural ice, Lake Misurina remains popular with tourists, attracted by its picturesque surroundings and the range of activities on offer there.\"\n    }\n  ],\n  \"trivia\": \"The Trampolino d'Italia featured in the 1981 James Bond film For Your Eyes Only.\\n\\nThe Italian resort has staged more than 100 FIS World Cup events over the years and is also the venue for a number of Nordic skiing competitions and the Freeride World Tour.\\n\\nThe town's population rises from around 6,000 in low season to 50,000 in the winter months.\\n\\nKnown as the Queen of the Dolomites, Cortina d'Ampezzo and its slopes form part of the Dolomiti Superski, one of the world's biggest ski areas, complete with 1,200 kilometres of runs.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. **Basic info**: city=\"Cortina d'Ampezzo\", year=\"1956\" - matches PDF ✓\n\n2. **Overview**: The overview text in JSON matches exactly with the overview section from page 1 of the PDF ✓\n\n3. **Venues**: Let me check each venue:\n   - Bobsleigh Run: All details match the PDF ✓\n   - Ski Jump Italia: All details match the PDF ✓  \n   - Apollonio Stadium: All details match the PDF ✓\n   - Tofana di Mezzo runs: All details match the PDF ✓\n   - Monte Faloria: All details match the PDF ✓\n   - Cortina d'Ampezzo Olympic Ice Stadium: All details match the PDF ✓\n   - Snow Stadium: All details match the PDF ✓\n   - Lake Misurina Rink: All details match the PDF ✓\n\n4. **Trivia**: The trivia section matches exactly with the \"DID YOU KNOW?\" section from page 4 of the PDF ✓\n\nAll data in the JSON matches the PDF content perfectly. No corrections needed.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

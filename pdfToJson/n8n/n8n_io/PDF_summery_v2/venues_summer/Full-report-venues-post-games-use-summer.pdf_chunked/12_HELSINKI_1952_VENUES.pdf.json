@@ -1,0 +1,347 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Helsinki",
+        "year": "1952",
+        "overview": "Nineteen competition venues were used for the Olympic Games Helsinki 1952, 15 of which remain in use today. Ten of the competition venues were existing, seven were new and two were temporary. All the new venues remain in use. The two temporary venues have been dismantled, while two of the existing venues have been demolished and one has been repurposed. All but six of the venues were in Helsinki. All the remaining venues continue to be used for sport at all levels, from high- performance to recreational, and stage events ranging from world and European championships to school and grassroots events. The Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions, and it is still in use. The Olympic Village was built for the Games and is still in use. It was the city's second, since a first one had been built for the 1940 Games, which were cancelled after the outbreak of WWII.",
+        "venues": [
+          {
+            "name": "Exhibition Hall I, II (Messuhalli I, II)",
+            "classification": "Existing",
+            "use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
+            "status": "In use",
+            "information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
+            "location": "inside"
+          },
+          {
+            "name": "Olympic Stadium",
+            "classification": "Existing",
+            "use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made.",
+            "location": "inside"
+          },
+          {
+            "name": "Football pitches by the Olympic Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Taivallahti",
+            "classification": "Existing",
+            "use": "Canoe sprint",
+            "status": "In use",
+            "information": "Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs.",
+            "location": "inside"
+          },
+          {
+            "name": "Tennis Palace",
+            "classification": "Existing",
+            "use": "Basketball",
+            "status": "In use (repurposed)",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Huopalahti",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Around Harmaja Island (lighthouse) and Liuskasaari Island",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Malmi Rifle Range",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993.",
+            "location": "inside"
+          },
+          {
+            "name": "Kupittaa Football Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Ruskeasuo/Tali/Laakso",
+            "classification": "New build",
+            "use": "Eventing, dressage",
+            "status": "In use",
+            "information": "The three sites all lie close to each other and are still used for equestrianism.",
+            "location": "inside"
+          },
+          {
+            "name": "Swimming Stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo",
+            "status": "In use",
+            "information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.",
+            "location": "inside"
+          },
+          {
+            "name": "Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track), hockey",
+            "status": "In use",
+            "information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games.",
+            "location": "inside"
+          },
+          {
+            "name": "Helsinki Olympic Village (Olympiakylä)",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Helsinki has two Olympic Villages, both situated close to each other in the district of Käpylä and not far from the Olympic venues and outdoor and indoor training facilities. The first was constructed for the cancelled 1940 Olympic Games and provided housing for 500 families following its completion. When the Finnish capital won the right to stage the 1952 Olympic Games, a second Olympic Village was built. Like its predecessor, it too was turned over for social housing after the Olympic Games, as planned and in response to Finland's housing crisis at the time. Both Olympic Villages continue to provide housing today.",
+            "location": "inside"
+          },
+          {
+            "name": "Meilahti",
+            "classification": "Temporary",
+            "use": "Rowing",
+            "status": "Dismantled (temporary)",
+            "information": "The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.",
+            "location": "inside"
+          },
+          {
+            "name": "Käpylä-Pakila",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "inside"
+          },
+          {
+            "name": "Westend Tennis Hall",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "Not in use (demolished)",
+            "information": "The venue was used as a school building after the Games but was destroyed in a fire in 1967.",
+            "location": "outside"
+          },
+          {
+            "name": "Ratina Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Kisapuisto Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Kotka Stadium",
+            "classification": "New build",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "outside"
+          },
+          {
+            "name": "Ahvenisto",
+            "classification": "New build",
+            "use": "Modern pentathlon (all events)",
+            "status": "In use",
+            "information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.",
+            "location": "outside"
+          }
+        ],
+        "trivia": "An electric scoreboard was installed at the Olympic Stadium for use at the Games. Measuring 12 metres across and 5.5 metres high, the scoreboard comprised eight lines of 25 characters and was fitted with 7,000 light bulbs, a total of 35 per character. During WWII, the empty pools at Helsinki's Swimming Stadium were used to store herring and root vegetables for Finland's front-line troops. In 2017, Ahvenisto swimming pool was named Finland's Sports Centre of the Year by the Ministry of Education and Culture."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Helsinki\",\n  \"year\": \"1952\",\n  \"overview\": \"Nineteen competition venues were used for the Olympic Games Helsinki 1952, 15 of which remain in use today. Ten of the competition venues were existing, seven were new and two were temporary. All the new venues remain in use. The two temporary venues have been dismantled, while two of the existing venues have been demolished and one has been repurposed. All but six of the venues were in Helsinki. All the remaining venues continue to be used for sport at all levels, from high- performance to recreational, and stage events ranging from world and European championships to school and grassroots events. The Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions, and it is still in use. The Olympic Village was built for the Games and is still in use. It was the city's second, since a first one had been built for the 1940 Games, which were cancelled after the outbreak of WWII.\",\n  \"venues\": [\n    {\n      \"name\": \"Exhibition Hall I, II (Messuhalli I, II)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, basketball, boxing, wrestling, weightlifting\",\n      \"status\": \"In use\",\n      \"information\": \"Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, football, equestrian (jumping), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Football pitches by the Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Taivallahti\",\n      \"classification\": \"Existing\",\n      \"use\": \"Canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Tennis Palace\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basketball\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Huopalahti\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Around Harmaja Island (lighthouse) and Liuskasaari Island\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Malmi Rifle Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Kupittaa Football Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ruskeasuo/Tali/Laakso\",\n      \"classification\": \"New build\",\n      \"use\": \"Eventing, dressage\",\n      \"status\": \"In use\",\n      \"information\": \"The three sites all lie close to each other and are still used for equestrianism.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Swimming Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track), hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Helsinki Olympic Village (Olympiakylä)\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Helsinki has two Olympic Villages, both situated close to each other in the district of Käpylä and not far from the Olympic venues and outdoor and indoor training facilities. The first was constructed for the cancelled 1940 Olympic Games and provided housing for 500 families following its completion. When the Finnish capital won the right to stage the 1952 Olympic Games, a second Olympic Village was built. Like its predecessor, it too was turned over for social housing after the Olympic Games, as planned and in response to Finland's housing crisis at the time. Both Olympic Villages continue to provide housing today.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Meilahti\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Rowing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Käpylä-Pakila\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Westend Tennis Hall\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue was used as a school building after the Games but was destroyed in a fire in 1967.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ratina Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Kisapuisto Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Kotka Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ahvenisto\",\n      \"classification\": \"New build\",\n      \"use\": \"Modern pentathlon (all events)\",\n      \"status\": \"In use\",\n      \"information\": \"The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.\",\n      \"location\": \"outside\"\n    }\n  ],\n  \"trivia\": \"An electric scoreboard was installed at the Olympic Stadium for use at the Games. Measuring 12 metres across and 5.5 metres high, the scoreboard comprised eight lines of 25 characters and was fitted with 7,000 light bulbs, a total of 35 per character. During WWII, the empty pools at Helsinki's Swimming Stadium were used to store herring and root vegetables for Finland's front-line troops. In 2017, Ahvenisto swimming pool was named Finland's Sports Centre of the Year by the Ministry of Education and Culture.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Helsinki",
+          "year": "1952",
+          "overview": "Nineteen competition venues were used for the Olympic Games Helsinki 1952, 15 of which remain in use today. Ten of the competition venues were existing, seven were new and two were temporary. All the new venues remain in use. The two temporary venues have been dismantled, while two of the existing venues have been demolished and one has been repurposed. All but six of the venues were in Helsinki. All the remaining venues continue to be used for sport at all levels, from high- performance to recreational, and stage events ranging from world and European championships to school and grassroots events. The Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions, and it is still in use. The Olympic Village was built for the Games and is still in use. It was the city's second, since a first one had been built for the 1940 Games, which were cancelled after the outbreak of WWII.",
+          "venues": [
+            {
+              "name": "Exhibition Hall I, II (Messuhalli I, II)",
+              "classification": "Existing",
+              "use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
+              "status": "In use",
+              "information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
+              "location": "inside"
+            },
+            {
+              "name": "Olympic Stadium",
+              "classification": "Existing",
+              "use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made.",
+              "location": "inside"
+            },
+            {
+              "name": "Football pitches by the Olympic Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "inside"
+            },
+            {
+              "name": "Taivallahti",
+              "classification": "Existing",
+              "use": "Canoe sprint",
+              "status": "In use",
+              "information": "Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs.",
+              "location": "inside"
+            },
+            {
+              "name": "Tennis Palace",
+              "classification": "Existing",
+              "use": "Basketball",
+              "status": "In use (repurposed)",
+              "information": "",
+              "location": "inside"
+            },
+            {
+              "name": "Huopalahti",
+              "classification": "Existing",
+              "use": "Shooting",
+              "status": "In use",
+              "information": "",
+              "location": "inside"
+            },
+            {
+              "name": "Around Harmaja Island (lighthouse) and Liuskasaari Island",
+              "classification": "Existing",
+              "use": "Sailing",
+              "status": "In use",
+              "information": "",
+              "location": "inside"
+            },
+            {
+              "name": "Malmi Rifle Range",
+              "classification": "Existing",
+              "use": "Shooting",
+              "status": "Not in use (demolished)",
+              "information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993.",
+              "location": "inside"
+            },
+            {
+              "name": "Kupittaa Football Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "outside"
+            },
+            {
+              "name": "Ruskeasuo/Tali/Laakso",
+              "classification": "New build",
+              "use": "Eventing, dressage",
+              "status": "In use",
+              "information": "The three sites all lie close to each other and are still used for equestrianism.",
+              "location": "inside"
+            },
+            {
+              "name": "Swimming Stadium",
+              "classification": "New build",
+              "use": "Swimming, diving, water polo",
+              "status": "In use",
+              "information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.",
+              "location": "inside"
+            },
+            {
+              "name": "Velodrome",
+              "classification": "New build",
+              "use": "Cycling (track), hockey",
+              "status": "In use",
+              "information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games.",
+              "location": "inside"
+            },
+            {
+              "name": "Meilahti",
+              "classification": "Temporary",
+              "use": "Rowing",
+              "status": "Dismantled (temporary)",
+              "information": "The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.",
+              "location": "inside"
+            },
+            {
+              "name": "Käpylä-Pakila",
+              "classification": "Temporary",
+              "use": "Cycling (road)",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "inside"
+            },
+            {
+              "name": "Westend Tennis Hall",
+              "classification": "Existing",
+              "use": "Fencing",
+              "status": "Not in use (demolished)",
+              "information": "The venue was used as a school building after the Games but was destroyed in a fire in 1967.",
+              "location": "outside"
+            },
+            {
+              "name": "Ratina Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "outside"
+            },
+            {
+              "name": "Kisapuisto Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "outside"
+            },
+            {
+              "name": "Kotka Stadium",
+              "classification": "New build",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "outside"
+            },
+            {
+              "name": "Ahvenisto",
+              "classification": "New build",
+              "use": "Modern pentathlon (all events)",
+              "status": "In use",
+              "information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.",
+              "location": "outside"
+            }
+          ],
+          "trivia": "An electric scoreboard was installed at the Olympic Stadium for use at the Games. Measuring 12 metres across and 5.5 metres high, the scoreboard comprised eight lines of 25 characters and was fitted with 7,000 light bulbs, a total of 35 per character. During WWII, the empty pools at Helsinki's Swimming Stadium were used to store herring and root vegetables for Finland's front-line troops. In 2017, Ahvenisto swimming pool was named Finland's Sports Centre of the Year by the Ministry of Education and Culture."
+        },
+        "correctedKeys": [
+          "venues[12]"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. Basic info: City \"Helsinki\", Year \"1952\" - correct\n2. Overview - matches exactly with PDF content\n3. Venues - Let me check each one carefully...\n\nI notice that the JSON includes 20 venues, but the PDF states \"Nineteen competition venues were used for the Olympic Games Helsinki 1952.\" Looking at the PDF, the Olympic Village is mentioned as being built for the Games but is NOT listed among the competition venues in the \"AT A GLANCE\" tables. The Olympic Village was for athlete accommodation, not competition, so it should not be included in the venues list.\n\nAll other venue information appears correct when compared to the PDF content.\n\n4. Trivia - matches the \"DID YOU KNOW?\" section exactly\n\nThe only error is the inclusion of the Helsinki Olympic Village as a venue, since it was not a competition venue.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n  \"status\": \"found\",\n  \"city\": \"Helsinki\",\n  \"year\": \"1952\",\n  \"overview\": \"Nineteen competition venues were used for the Olympic Games Helsinki 1952, 15 of which remain in use today. Ten of the competition venues were existing, seven were new and two were temporary. All the new venues remain in use. The two temporary venues have been dismantled, while two of the existing venues have been demolished and one has been repurposed. All but six of the venues were in Helsinki. All the remaining venues continue to be used for sport at all levels, from high- performance to recreational, and stage events ranging from world and European championships to school and grassroots events. The Olympic Stadium hosted the Opening and Closing Ceremonies and several of the competitions, and it is still in use. The Olympic Village was built for the Games and is still in use. It was the city's second, since a first one had been built for the 1940 Games, which were cancelled after the outbreak of WWII.\",\n  \"venues\": [\n    {\n      \"name\": \"Exhibition Hall I, II (Messuhalli I, II)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, basketball, boxing, wrestling, weightlifting\",\n      \"status\": \"In use\",\n      \"information\": \"Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Athletics, football, equestrian (jumping), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Football pitches by the Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Taivallahti\",\n      \"classification\": \"Existing\",\n      \"use\": \"Canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Tennis Palace\",\n      \"classification\": \"Existing\",\n      \"use\": \"Basketball\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Huopalahti\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Around Harmaja Island (lighthouse) and Liuskasaari Island\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Malmi Rifle Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Kupittaa Football Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ruskeasuo/Tali/Laakso\",\n      \"classification\": \"New build\",\n      \"use\": \"Eventing, dressage\",\n      \"status\": \"In use\",\n      \"information\": \"The three sites all lie close to each other and are still used for equestrianism.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Swimming Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo\",\n      \"status\": \"In use\",\n      \"information\": \"The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track), hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Meilahti\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Rowing\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Käpylä-Pakila\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside\"\n    },\n    {\n      \"name\": \"Westend Tennis Hall\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue was used as a school building after the Games but was destroyed in a fire in 1967.\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ratina Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Kisapuisto Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Kotka Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside\"\n    },\n    {\n      \"name\": \"Ahvenisto\",\n      \"classification\": \"New build\",\n      \"use\": \"Modern pentathlon (all events)\",\n      \"status\": \"In use\",\n      \"information\": \"The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.\",\n      \"location\": \"outside\"\n    }\n  ],\n  \"trivia\": \"An electric scoreboard was installed at the Olympic Stadium for use at the Games. Measuring 12 metres across and 5.5 metres high, the scoreboard comprised eight lines of 25 characters and was fitted with 7,000 light bulbs, a total of 35 per character. During WWII, the empty pools at Helsinki's Swimming Stadium were used to store herring and root vegetables for Finland's front-line troops. In 2017, Ahvenisto swimming pool was named Finland's Sports Centre of the Year by the Ministry of Education and Culture.\"\n},\n\"correctedKeys\": [\"venues[12]\"]\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,121 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Los Angeles",
+        "year": "1932",
+        "overview": "Thirteen competition venues were used for the Olympic Games Los Angeles 1932. Besides the temporary infrastructure, which has been dismantled, all but one of the venues remain in use. Eight of the competition venues were existing, two were newly built and three were temporary. All the venues were/are in Los Angeles County, and the remaining venues are in use for high-performance sport and recreational and grassroots activities. Los Angeles Olympic Stadium (the city's Memorial Coliseum) served as the Olympic Stadium and hosted the Opening and Closing Ceremonies and several of the competitions. The official Olympic Village was a temporary facility. Los Angeles Olympic Stadium was one of two venues that were also used at the 1984 Olympic Games, the other being the Rose Bowl. They will both be used again at the 2028 Olympic Games.",
+        "venues": [
+          {
+            "name": "Los Angeles Olympic Stadium",
+            "classification": "Existing",
+            "use": "Gymnastics, hockey, equestrian (jumping, eventing), Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The stadium was built in 1921 on the site of an abandoned racecourse at the city's Exposition Park and had a Games-time capacity of 105,000. It is also known as Los Angeles Memorial Coliseum, in honour of local World War One veterans. The stadium has since been used for sporting events, concerts, religious gatherings and political rallies, and again hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for a second time in 1984. It will do so again when the Games return to Los Angeles in 2028. The University of Southern California's sports teams have used the venue since 1932, among them the Trojans, its American football team. The stadium has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams that have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the Los Angeles Olympic Stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019."
+          },
+          {
+            "name": "Rose Bowl Stadium",
+            "classification": "Existing",
+            "use": "Cycling track",
+            "status": "In use",
+            "information": "The Rose Bowl was temporarily adapted to host the cycling events at the Games, with the track dismantled immediately afterwards. It is a prestigious venue in US sport and synonymous with American football. The setting for the annual Rose Bowl Game since 1923, it has staged five Super Bowl matches and is the home of the UCLA Bruins. It is also well known as a soccer stadium, hosting matches at the Olympic Games in 1984, the 1994 World Cup and 1999 Women's World Cup, including the finals of both FIFA tournaments. The venue will also stage sports events at the Olympic Games Los Angeles 2028."
+          },
+          {
+            "name": "Fencing Stadium/Pavilion",
+            "classification": "Existing",
+            "use": "Fencing",
+            "status": "In use",
+            "information": "Used by the National Guard, the Los Angeles State Armory was temporarily adapted to host the fencing competitions and restored to its original condition afterwards. It had a Games-time capacity of 1,800. It was later renamed the Exposition Park Armory before becoming the Wallis Annenberg Building for Science Learning and Innovation, an annex of the California Science Center, in 2004."
+          },
+          {
+            "name": "Los Angeles Harbour",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "The 1932 Olympic Games sailing events took place on open water. No information is available as to the construction of any temporary structures for the occasion."
+          },
+          {
+            "name": "Los Angeles Olympic Auditorium",
+            "classification": "Existing",
+            "use": "Boxing, weightlifting, wrestling",
+            "status": "In use (repurposed)",
+            "information": "Built in 1924 as a boxing venue, it was adapted for the Games, after which it became the city's largest and most popular entertainment centre. A multi-purpose venue, it has also served as a roller derby rink, a wrestling hall, a concert venue and a location for films such as The Manchurian Candidate, Rocky and Raging Bull. The venue was sold in 2005 and is now a church."
+          },
+          {
+            "name": "Los Angeles Police Pistol Range",
+            "classification": "Existing",
+            "use": "Shooting",
+            "status": "In use",
+            "information": "The home of the Los Angeles Police Revolver and Athletic Club, the venue was refurbished for the Games. A training site for the city's police officers, it has also been used as a location in many TV and film productions. The site's former clubhouse was a dormitory of the 1932 Olympic Village. It was dismantled, transported to the range and reassembled. It was later used as the range's restaurant and café."
+          },
+          {
+            "name": "Riviera Country Club",
+            "classification": "Existing",
+            "use": "Equestrian (eventing, dressage), modern pentathlon (equestrian)",
+            "status": "In use",
+            "information": "The exact location of the course and facilities used for the equestrian events is not known. The club was founded in 1926. Among other marquee golf events, it has played host to the US Open and PGA Championship and will stage the golf competitions at the Olympic Games Los Angeles 2028."
+          },
+          {
+            "name": "Sunset Fields Golf Club of Los Angeles",
+            "classification": "Existing",
+            "use": "Modern pentathlon (running)",
+            "status": "Not in use (demolished)",
+            "information": "The modern pentathlon cross-country race took place on an undulating 4,000-metre route laid out on the golf course, which was located close to the Olympic Village. The course was sold to developers in 1949, and a large residential development was built on the site."
+          },
+          {
+            "name": "Long Beach Marine Stadium",
+            "classification": "New build",
+            "use": "Rowing",
+            "status": "In use",
+            "information": "The stadium was built in 1925. The lagoon was dredged in preparation for the rowing competitions. After the Games, the marina was offered to the City of Long Beach and is still used as a training and competition venue by the USA's Olympic rowing team, Long Beach Rowing Association, the California State University Long Beach rowing team, and junior rowing programmes. It is also the home of the Southern California Speedboat Club, which stages races there, including the annual Long Beach Sprint Nationals."
+          },
+          {
+            "name": "Swimming stadium",
+            "classification": "New build",
+            "use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "A permanent facility, it was built next to the Olympic Stadium. The venue's 5,000-capacity wooden grandstand was dismantled after the Games, and the pool was opened to the public. The building suffered from a lack of maintenance thereafter and was closed following an earthquake in 1994. It was renovated in 2003, when a new recreation complex was built nearby, with its original facade preserved. The venue now offers swim classes, entry-level programmes for juniors, junior lifeguard camps, and recreational swimming for people of all ages, as well as artistic swimming and water polo."
+          },
+          {
+            "name": "Coast Highway",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "The 100km cycling road event was held on a route that ran from the vicinity of Moorpark, joined the Roosevelt Highway at Oxnard and finished in the outskirts of Santa Monica."
+          },
+          {
+            "name": "Griffith Park area",
+            "classification": "Temporary",
+            "use": "Race walk",
+            "status": "Dismantled (temporary)",
+            "information": "The 50,000m race walking event was held on a route that used existing highways in the vicinity of Griffith Park."
+          },
+          {
+            "name": "Inglewood area",
+            "classification": "Temporary",
+            "use": "Marathon",
+            "status": "Dismantled (temporary)",
+            "information": "The route for the marathon, which started and finished at the Olympic Stadium, used existing streets in the Inglewood area of the city."
+          },
+          {
+            "name": "Los Angeles Olympic Village",
+            "classification": "Temporary",
+            "use": "Athlete accommodation",
+            "status": "Dismantled (temporary)",
+            "information": "Built in a matter of months, the Village had a postal and telegraph service, an amphitheatre, a laundrette, a restaurant, a hospital, a dental clinic, baths, a fire department, a radio station and a bank. Only male athletes stayed at the Olympic Village, housed in temporary wooden cottages. Their female counterparts were put up at a private hotel in Los Angeles. Most of the complex, which became a model for future Organising Committees to follow, was dismantled after the Games. The remaining housing is still occupied by local residents today."
+          }
+        ],
+        "trivia": "The architecture of the Los Angeles Olympic Stadium incorporates elements of the Egyptian, Spanish and Mediterranean Revival styles. One of the stadium's most distinctive features is its grand peristyle, situated at its eastern end. Long Beach Marine Stadium was the first manmade rowing course in the USA and is now registered as a California Historical Landmark site. Produced by Stephen DeBro, the 2016 documentary 18th & Grand tells the colourful story of the Olympic Auditorium. As the organisers of the next Olympic Games in Berlin in 1936, Germany's National Olympic Committee bought some of the Olympic Village's cottages, as did Japanese officials, in preparation for the 1940 Games in Tokyo, which were cancelled because of WWII."
+      },
+      "original": "{\n  \"status\": \"found\",\n  \"city\": \"Los Angeles\",\n  \"year\": \"1932\",\n  \"overview\": \"Thirteen competition venues were used for the Olympic Games Los Angeles 1932. Besides the temporary infrastructure, which has been dismantled, all but one of the venues remain in use. Eight of the competition venues were existing, two were newly built and three were temporary. All the venues were/are in Los Angeles County, and the remaining venues are in use for high-performance sport and recreational and grassroots activities. Los Angeles Olympic Stadium (the city's Memorial Coliseum) served as the Olympic Stadium and hosted the Opening and Closing Ceremonies and several of the competitions. The official Olympic Village was a temporary facility. Los Angeles Olympic Stadium was one of two venues that were also used at the 1984 Olympic Games, the other being the Rose Bowl. They will both be used again at the 2028 Olympic Games.\",\n  \"venues\": [\n    {\n      \"name\": \"Los Angeles Olympic Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Gymnastics, hockey, equestrian (jumping, eventing), Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium was built in 1921 on the site of an abandoned racecourse at the city's Exposition Park and had a Games-time capacity of 105,000. It is also known as Los Angeles Memorial Coliseum, in honour of local World War One veterans. The stadium has since been used for sporting events, concerts, religious gatherings and political rallies, and again hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for a second time in 1984. It will do so again when the Games return to Los Angeles in 2028. The University of Southern California's sports teams have used the venue since 1932, among them the Trojans, its American football team. The stadium has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams that have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the Los Angeles Olympic Stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019.\"\n    },\n    {\n      \"name\": \"Rose Bowl Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Cycling track\",\n      \"status\": \"In use\",\n      \"information\": \"The Rose Bowl was temporarily adapted to host the cycling events at the Games, with the track dismantled immediately afterwards. It is a prestigious venue in US sport and synonymous with American football. The setting for the annual Rose Bowl Game since 1923, it has staged five Super Bowl matches and is the home of the UCLA Bruins. It is also well known as a soccer stadium, hosting matches at the Olympic Games in 1984, the 1994 World Cup and 1999 Women's World Cup, including the finals of both FIFA tournaments. The venue will also stage sports events at the Olympic Games Los Angeles 2028.\"\n    },\n    {\n      \"name\": \"Fencing Stadium/Pavilion\",\n      \"classification\": \"Existing\",\n      \"use\": \"Fencing\",\n      \"status\": \"In use\",\n      \"information\": \"Used by the National Guard, the Los Angeles State Armory was temporarily adapted to host the fencing competitions and restored to its original condition afterwards. It had a Games-time capacity of 1,800. It was later renamed the Exposition Park Armory before becoming the Wallis Annenberg Building for Science Learning and Innovation, an annex of the California Science Center, in 2004.\"\n    },\n    {\n      \"name\": \"Los Angeles Harbour\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"The 1932 Olympic Games sailing events took place on open water. No information is available as to the construction of any temporary structures for the occasion.\"\n    },\n    {\n      \"name\": \"Los Angeles Olympic Auditorium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, weightlifting, wrestling\",\n      \"status\": \"In use (repurposed)\",\n      \"information\": \"Built in 1924 as a boxing venue, it was adapted for the Games, after which it became the city's largest and most popular entertainment centre. A multi-purpose venue, it has also served as a roller derby rink, a wrestling hall, a concert venue and a location for films such as The Manchurian Candidate, Rocky and Raging Bull. The venue was sold in 2005 and is now a church.\"\n    },\n    {\n      \"name\": \"Los Angeles Police Pistol Range\",\n      \"classification\": \"Existing\",\n      \"use\": \"Shooting\",\n      \"status\": \"In use\",\n      \"information\": \"The home of the Los Angeles Police Revolver and Athletic Club, the venue was refurbished for the Games. A training site for the city's police officers, it has also been used as a location in many TV and film productions. The site's former clubhouse was a dormitory of the 1932 Olympic Village. It was dismantled, transported to the range and reassembled. It was later used as the range's restaurant and café.\"\n    },\n    {\n      \"name\": \"Riviera Country Club\",\n      \"classification\": \"Existing\",\n      \"use\": \"Equestrian (eventing, dressage), modern pentathlon (equestrian)\",\n      \"status\": \"In use\",\n      \"information\": \"The exact location of the course and facilities used for the equestrian events is not known. The club was founded in 1926. Among other marquee golf events, it has played host to the US Open and PGA Championship and will stage the golf competitions at the Olympic Games Los Angeles 2028.\"\n    },\n    {\n      \"name\": \"Sunset Fields Golf Club of Los Angeles\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon (running)\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The modern pentathlon cross-country race took place on an undulating 4,000-metre route laid out on the golf course, which was located close to the Olympic Village. The course was sold to developers in 1949, and a large residential development was built on the site.\"\n    },\n    {\n      \"name\": \"Long Beach Marine Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium was built in 1925. The lagoon was dredged in preparation for the rowing competitions. After the Games, the marina was offered to the City of Long Beach and is still used as a training and competition venue by the USA's Olympic rowing team, Long Beach Rowing Association, the California State University Long Beach rowing team, and junior rowing programmes. It is also the home of the Southern California Speedboat Club, which stages races there, including the annual Long Beach Sprint Nationals.\"\n    },\n    {\n      \"name\": \"Swimming stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, water polo, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"A permanent facility, it was built next to the Olympic Stadium. The venue's 5,000-capacity wooden grandstand was dismantled after the Games, and the pool was opened to the public. The building suffered from a lack of maintenance thereafter and was closed following an earthquake in 1994. It was renovated in 2003, when a new recreation complex was built nearby, with its original facade preserved. The venue now offers swim classes, entry-level programmes for juniors, junior lifeguard camps, and recreational swimming for people of all ages, as well as artistic swimming and water polo.\"\n    },\n    {\n      \"name\": \"Coast Highway\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The 100km cycling road event was held on a route that ran from the vicinity of Moorpark, joined the Roosevelt Highway at Oxnard and finished in the outskirts of Santa Monica.\"\n    },\n    {\n      \"name\": \"Griffith Park area\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Race walk\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The 50,000m race walking event was held on a route that used existing highways in the vicinity of Griffith Park.\"\n    },\n    {\n      \"name\": \"Inglewood area\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Marathon\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The route for the marathon, which started and finished at the Olympic Stadium, used existing streets in the Inglewood area of the city.\"\n    },\n    {\n      \"name\": \"Los Angeles Olympic Village\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Built in a matter of months, the Village had a postal and telegraph service, an amphitheatre, a laundrette, a restaurant, a hospital, a dental clinic, baths, a fire department, a radio station and a bank. Only male athletes stayed at the Olympic Village, housed in temporary wooden cottages. Their female counterparts were put up at a private hotel in Los Angeles. Most of the complex, which became a model for future Organising Committees to follow, was dismantled after the Games. The remaining housing is still occupied by local residents today.\"\n    }\n  ],\n  \"trivia\": \"The architecture of the Los Angeles Olympic Stadium incorporates elements of the Egyptian, Spanish and Mediterranean Revival styles. One of the stadium's most distinctive features is its grand peristyle, situated at its eastern end. Long Beach Marine Stadium was the first manmade rowing course in the USA and is now registered as a California Historical Landmark site. Produced by Stephen DeBro, the 2016 documentary 18th & Grand tells the colourful story of the Olympic Auditorium. As the organisers of the next Olympic Games in Berlin in 1936, Germany's National Olympic Committee bought some of the Olympic Village's cottages, as did Japanese officials, in preparation for the 1940 Games in Tokyo, which were cancelled because of WWII.\"\n}"
+    },
+    "validation": {
+      "data": {
+        "status": "valid"
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. City: \"Los Angeles\" ✓\n2. Year: \"1932\" ✓\n3. Overview: Matches the PDF content exactly ✓\n4. Venues: Let me check each venue...\n\nGoing through all 14 venues:\n- Los Angeles Olympic Stadium: All details match ✓\n- Rose Bowl Stadium: All details match ✓\n- Fencing Stadium/Pavilion: All details match ✓\n- Los Angeles Harbour: All details match ✓\n- Los Angeles Olympic Auditorium: All details match ✓\n- Los Angeles Police Pistol Range: All details match ✓\n- Riviera Country Club: All details match ✓\n- Sunset Fields Golf Club of Los Angeles: All details match ✓\n- Long Beach Marine Stadium: All details match ✓\n- Swimming stadium: All details match ✓\n- Coast Highway: All details match ✓\n- Griffith Park area: All details match ✓\n- Inglewood area: All details match ✓\n- Los Angeles Olympic Village: All details match ✓\n\n5. Trivia: All four facts match the PDF content exactly ✓\n\nAll information in the JSON accurately reflects the content in the PDF document.\n</scratchpad>\n\n<response>\n{\n\"status\":\"valid\"\n}\n</response>"
+    }
+  }
+]

@@ -1,0 +1,291 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "Stockholm",
+        "year": "1912",
+        "overview": "Sixteen competition venues were used for the Olympic Games Stockholm 1912, eight of which remain in use today. Eight of the venues were existing, four were new and four were temporary. All the temporary venues were dismantled. Three of the existing venues have been demolished, along with one of the new ones. The remaining venues continue to be used for competitive and recreational sport and are home to several clubs that serve their local communities. The Olympic Stadium was a new venue and hosted the Opening and Closing Ceremonies and several of the competitions. It also staged the equestrian competitions at the 1956 Olympic Games. The stadium is still in use. There was no official Olympic Village.",
+        "venues": [
+          {
+            "name": "Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium",
+            "classification": "Existing",
+            "use": "Eventing",
+            "status": "In use",
+            "information": "Founded on 1 November 1886, it is Sweden's oldest riding club and continues to host dressage, jumping and eventing competitions. It also runs riding schools, and its grounds are home to a number of equestrian trails.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Djurgårdsbrunnsviken",
+            "classification": "Existing",
+            "use": "Rowing",
+            "status": "In use",
+            "information": "This stretch of water in the centre of the Swedish capital is home to Stockholm Roddförening. Established in 1880, it is one of Sweden's oldest rowing clubs and offers a wide range of boats – from singles to eights – for rowers of all abilities. The club's main boathouse was erected in 1913 using wooden planks and seating from the temporary spectator stand constructed for the previous year's Olympic rowing events. Some of the seat numbers can be seen on the ceiling of this culturally significant building, which remains largely unchanged. The club opened a second boathouse in 2004.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Royal Tennis Halls (Tennishallen)",
+            "classification": "Existing",
+            "use": "Tennis",
+            "status": "Not in use (demolished)",
+            "information": "Used for the indoor tennis events during the 1912 Games, the building served as a restaurant for athletes in the summer. It was the home of the Royal Tennis Club of Stockholm at the time the Olympic Games took place. The club relocated in 1943 to the Royal Tennis Hall (Kungliga Tennishallen), built a short distance away.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Rasunda Athletic Sports Grounds (Rasunda Idrottsplats)",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use (rebuilt)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Lindarängen",
+            "classification": "Existing",
+            "use": "Eventing",
+            "status": "Not in use (demolished)",
+            "information": "An eventing venue at the 1912 Olympic Games, the site is now an industrial area.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Stockholm Olympic Stadium (Olympiastadion)",
+            "classification": "New build",
+            "use": "Dressage, equestrian (jumping), gymnastics, wrestling, modern pentathlon, football, tug of war, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "Listed as a national heritage site and originally intended as a temporary wooden structure, this red-brick venue was built in the neoclassical style. It is still used regularly today and has been refurbished on several occasions. It now stages sporting events such as the Diamond League and the Stockholm Marathon, as well as major concerts. The Rolling Stones, Bruce Springsteen and AC/DC are just some of the acts to have performed at the venue. The venue for the city's Olympic Jubilee celebrations in 2012, it is also used for cross-country skiing in the winter months, when three 430-metre tracks are laid out. The stadium was also a stand-in venue at the Olympic Games Melbourne / Stockholm 1956, staging some of the equestrian events, which had to be held outside Australia due to the country's strict quarantine laws for horses.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)",
+            "classification": "New build",
+            "use": "Tennis, fencing, modern pentathlon (fencing)",
+            "status": "In use",
+            "information": "Two outdoor courts were built next to the building that hosted the fencing events and was used as changing rooms during the outdoor tennis events. Östermalm Idrottsplats remains in use by the multisports club Djurgårdens IF for its bandy section and youth football teams. In the winter, the venue's athletic grounds are converted into a speed skating rink. Tennis is still practised at the site.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Kaknäs Shooting Range, Djurgården",
+            "classification": "New build",
+            "use": "Shooting",
+            "status": "Not in use (demolished)",
+            "information": "After the Games, the venue was mainly used by the military and by private shooting clubs. It closed in 1998 and all the facilities were dismantled. The site is now open ground.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Swimming Stadium, Djurgården Bay",
+            "classification": "Temporary",
+            "use": "Swimming, diving, water polo",
+            "status": "Dismantled (temporary)",
+            "information": "An open-air swimming pool, this venue was dismantled after the Games, and its exact location is not known. The site is now a bay where people can swim during the summer.",
+            "location": "inside the city"
+          },
+          {
+            "name": "Liljeholm Bridge-Olympic Stadium-Lake Mälär",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Råsunda",
+            "classification": "Temporary",
+            "use": "Shooting",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "inside the city"
+          },
+          {
+            "name": "Olympic Stadium-Sollentuna-Olympic Stadium",
+            "classification": "Temporary",
+            "use": "Marathon",
+            "status": "Dismantled (temporary)",
+            "information": "The Stockholm 1912 marathon took place on an out-and-back course, which ran northwards from the Olympic Stadium to the small town of Sollentuna and back to the stadium again. In 1913, a monument was erected at the course's turning point in Sollentuna, just beyond the town's main church. Positioned exactly 20.1 kilometres from the start line in the stadium, the monument is a seven metre-tall Doric column and was designed by the same architect who constructed the Stockholm Olympic Stadium. The front of the stone atop the column bears a cross with the date \"1912\". On the back is inscribed the Swedish word \"Vändpunkten\", meaning \"The Turn\". The monument was the halfway mark of the 2012 Jubilee Marathon, which was held to celebrate the centenary of the Olympic race.",
+            "location": "outside the city"
+          },
+          {
+            "name": "Sandhamm",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Barkaby to Rinkeby",
+            "classification": "Existing",
+            "use": "Modern pentathlon",
+            "status": "Not in use (demolished)",
+            "information": "",
+            "location": "outside the city"
+          },
+          {
+            "name": "Nynäshamn",
+            "classification": "New build",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "outside the city"
+          }
+        ],
+        "trivia": "When the Olympic Stadium was built, large granite blocks were left at the main entrance to allow local artists to express themselves. Two sculptures were completed in time for the Games. Located beneath the clock on the eastern tower, they depict Ask and Embla, the first human beings created by the gods of Nordic mythology. A lottery was created specifically to finance the construction of the Olympic Stadium. The marathon monument in Sollentuna was donated to the town by the director of the stone company that made it."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"Stockholm\",\n  \"year\": \"1912\",\n  \"overview\": \"Sixteen competition venues were used for the Olympic Games Stockholm 1912, eight of which remain in use today. Eight of the venues were existing, four were new and four were temporary. All the temporary venues were dismantled. Three of the existing venues have been demolished, along with one of the new ones. The remaining venues continue to be used for competitive and recreational sport and are home to several clubs that serve their local communities. The Olympic Stadium was a new venue and hosted the Opening and Closing Ceremonies and several of the competitions. It also staged the equestrian competitions at the 1956 Olympic Games. The stadium is still in use. There was no official Olympic Village.\",\n  \"venues\": [\n    {\n      \"name\": \"Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"In use\",\n      \"information\": \"Founded on 1 November 1886, it is Sweden's oldest riding club and continues to host dressage, jumping and eventing competitions. It also runs riding schools, and its grounds are home to a number of equestrian trails.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Djurgårdsbrunnsviken\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"This stretch of water in the centre of the Swedish capital is home to Stockholm Roddförening. Established in 1880, it is one of Sweden's oldest rowing clubs and offers a wide range of boats – from singles to eights – for rowers of all abilities. The club's main boathouse was erected in 1913 using wooden planks and seating from the temporary spectator stand constructed for the previous year's Olympic rowing events. Some of the seat numbers can be seen on the ceiling of this culturally significant building, which remains largely unchanged. The club opened a second boathouse in 2004.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Royal Tennis Halls (Tennishallen)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Used for the indoor tennis events during the 1912 Games, the building served as a restaurant for athletes in the summer. It was the home of the Royal Tennis Club of Stockholm at the time the Olympic Games took place. The club relocated in 1943 to the Royal Tennis Hall (Kungliga Tennishallen), built a short distance away.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Rasunda Athletic Sports Grounds (Rasunda Idrottsplats)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Lindarängen\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"An eventing venue at the 1912 Olympic Games, the site is now an industrial area.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stockholm Olympic Stadium (Olympiastadion)\",\n      \"classification\": \"New build\",\n      \"use\": \"Dressage, equestrian (jumping), gymnastics, wrestling, modern pentathlon, football, tug of war, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Listed as a national heritage site and originally intended as a temporary wooden structure, this red-brick venue was built in the neoclassical style. It is still used regularly today and has been refurbished on several occasions. It now stages sporting events such as the Diamond League and the Stockholm Marathon, as well as major concerts. The Rolling Stones, Bruce Springsteen and AC/DC are just some of the acts to have performed at the venue. The venue for the city's Olympic Jubilee celebrations in 2012, it is also used for cross-country skiing in the winter months, when three 430-metre tracks are laid out. The stadium was also a stand-in venue at the Olympic Games Melbourne / Stockholm 1956, staging some of the equestrian events, which had to be held outside Australia due to the country's strict quarantine laws for horses.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)\",\n      \"classification\": \"New build\",\n      \"use\": \"Tennis, fencing, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"Two outdoor courts were built next to the building that hosted the fencing events and was used as changing rooms during the outdoor tennis events. Östermalm Idrottsplats remains in use by the multisports club Djurgårdens IF for its bandy section and youth football teams. In the winter, the venue's athletic grounds are converted into a speed skating rink. Tennis is still practised at the site.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Kaknäs Shooting Range, Djurgården\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"After the Games, the venue was mainly used by the military and by private shooting clubs. It closed in 1998 and all the facilities were dismantled. The site is now open ground.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Swimming Stadium, Djurgården Bay\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Swimming, diving, water polo\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"An open-air swimming pool, this venue was dismantled after the Games, and its exact location is not known. The site is now a bay where people can swim during the summer.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Liljeholm Bridge-Olympic Stadium-Lake Mälär\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Råsunda\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Shooting\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Olympic Stadium-Sollentuna-Olympic Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Marathon\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The Stockholm 1912 marathon took place on an out-and-back course, which ran northwards from the Olympic Stadium to the small town of Sollentuna and back to the stadium again. In 1913, a monument was erected at the course's turning point in Sollentuna, just beyond the town's main church. Positioned exactly 20.1 kilometres from the start line in the stadium, the monument is a seven metre-tall Doric column and was designed by the same architect who constructed the Stockholm Olympic Stadium. The front of the stone atop the column bears a cross with the date \\\"1912\\\". On the back is inscribed the Swedish word \\\"Vändpunkten\\\", meaning \\\"The Turn\\\". The monument was the halfway mark of the 2012 Jubilee Marathon, which was held to celebrate the centenary of the Olympic race.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Sandhamm\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Barkaby to Rinkeby\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Nynäshamn\",\n      \"classification\": \"New build\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"When the Olympic Stadium was built, large granite blocks were left at the main entrance to allow local artists to express themselves. Two sculptures were completed in time for the Games. Located beneath the clock on the eastern tower, they depict Ask and Embla, the first human beings created by the gods of Nordic mythology. A lottery was created specifically to finance the construction of the Olympic Stadium. The marathon monument in Sollentuna was donated to the town by the director of the stone company that made it.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "Stockholm",
+          "year": "1912",
+          "overview": "Sixteen competition venues were used for the Olympic Games Stockholm 1912, eight of which remain in use today. Eight of the venues were existing, four were new and four were temporary. All the temporary venues were dismantled. Three of the existing venues have been demolished, along with one of the new ones. The remaining venues continue to be used for competitive and recreational sport and are home to several clubs that serve their local communities. The Olympic Stadium was a new venue and hosted the Opening and Closing Ceremonies and several of the competitions. It also staged the equestrian competitions at the 1956 Olympic Games. The stadium is still in use. There was no official Olympic Village.",
+          "venues": [
+            {
+              "name": "Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium",
+              "classification": "Existing",
+              "use": "Eventing",
+              "status": "In use",
+              "information": "Founded on 1 November 1886, it is Sweden's oldest riding club and continues to host dressage, jumping and eventing competitions. It also runs riding schools, and its grounds are home to a number of equestrian trails.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Djurgårdsbrunnsviken",
+              "classification": "Existing",
+              "use": "Rowing",
+              "status": "In use",
+              "information": "This stretch of water in the centre of the Swedish capital is home to Stockholm Roddförening. Established in 1880, it is one of Sweden's oldest rowing clubs and offers a wide range of boats – from singles to eights – for rowers of all abilities. The club's main boathouse was erected in 1913 using wooden planks and seating from the temporary spectator stand constructed for the previous year's Olympic rowing events. Some of the seat numbers can be seen on the ceiling of this culturally significant building, which remains largely unchanged. The club opened a second boathouse in 2004.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "inside the city"
+            },
+            {
+              "name": "Royal Tennis Halls (Tennishallen)",
+              "classification": "Existing",
+              "use": "Tennis",
+              "status": "Not in use (demolished)",
+              "information": "Used for the indoor tennis events during the 1912 Games, the building served as a restaurant for athletes in the summer. It was the home of the Royal Tennis Club of Stockholm at the time the Olympic Games took place. The club relocated in 1943 to the Royal Tennis Hall (Kungliga Tennishallen), built a short distance away.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Rasunda Athletic Sports Grounds (Rasunda Idrottsplats)",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use (rebuilt)",
+              "information": "",
+              "location": "inside the city"
+            },
+            {
+              "name": "Lindarängen",
+              "classification": "Existing",
+              "use": "Eventing",
+              "status": "Not in use (demolished)",
+              "information": "An eventing venue at the 1912 Olympic Games, the site is now an industrial area.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Stockholm Olympic Stadium (Olympiastadion)",
+              "classification": "New build",
+              "use": "Dressage, equestrian (jumping), gymnastics, wrestling, modern pentathlon, football, tug of war, Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "Listed as a national heritage site and originally intended as a temporary wooden structure, this red-brick venue was built in the neoclassical style. It is still used regularly today and has been refurbished on several occasions. It now stages sporting events such as the Diamond League and the Stockholm Marathon, as well as major concerts. The Rolling Stones, Bruce Springsteen and AC/DC are just some of the acts to have performed at the venue. The venue for the city's Olympic Jubilee celebrations in 2012, it is also used for cross-country skiing in the winter months, when three 430-metre tracks are laid out. The stadium was also a stand-in venue at the Olympic Games Melbourne / Stockholm 1956, staging some of the equestrian events, which had to be held outside Australia due to the country's strict quarantine laws for horses.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)",
+              "classification": "New build",
+              "use": "Tennis, fencing, modern pentathlon (fencing)",
+              "status": "In use",
+              "information": "Two outdoor courts were built next to the building that hosted the fencing events and was used as changing rooms during the outdoor tennis events. Östermalm Idrottsplats remains in use by the multi-sports club Djurgårdens IF for its bandy section and youth football teams. In the winter, the venue's athletic grounds are converted into a speed skating rink. Tennis is still practised at the site.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Kaknäs Shooting Range, Djurgården",
+              "classification": "New build",
+              "use": "Shooting",
+              "status": "Not in use (demolished)",
+              "information": "After the Games, the venue was mainly used by the military and by private shooting clubs. It closed in 1998 and all the facilities were dismantled. The site is now open ground.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Swimming Stadium, Djurgården Bay",
+              "classification": "Temporary",
+              "use": "Swimming, diving, water polo",
+              "status": "Dismantled (temporary)",
+              "information": "An open-air swimming pool, this venue was dismantled after the Games, and its exact location is not known. The site is now a bay where people can swim during the summer.",
+              "location": "inside the city"
+            },
+            {
+              "name": "Liljeholm Bridge-Olympic Stadium-Lake Mälär",
+              "classification": "Temporary",
+              "use": "Cycling (road)",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "inside the city"
+            },
+            {
+              "name": "Råsunda",
+              "classification": "Temporary",
+              "use": "Shooting",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "inside the city"
+            },
+            {
+              "name": "Olympic Stadium-Sollentuna-Olympic Stadium",
+              "classification": "Temporary",
+              "use": "Marathon",
+              "status": "Dismantled (temporary)",
+              "information": "The Stockholm 1912 marathon took place on an out-and-back course, which ran northwards from the Olympic Stadium to the small town of Sollentuna and back to the stadium again. In 1913, a monument was erected at the course's turning point in Sollentuna, just beyond the town's main church. Positioned exactly 20.1 kilometres from the start line in the stadium, the monument is a seven metre-tall Doric column and was designed by the same architect who constructed the Stockholm Olympic Stadium. The front of the stone atop the column bears a cross with the date \"1912\". On the back is inscribed the Swedish word \"Vändpunkten\", meaning \"The Turn\". The monument was the halfway mark of the 2012 Jubilee Marathon, which was held to celebrate the centenary of the Olympic race.",
+              "location": "outside the city"
+            },
+            {
+              "name": "Sandhamm",
+              "classification": "Existing",
+              "use": "Sailing",
+              "status": "In use",
+              "information": "",
+              "location": "outside the city"
+            },
+            {
+              "name": "Barkaby to Rinkeby",
+              "classification": "Existing",
+              "use": "Modern pentathlon",
+              "status": "Not in use (demolished)",
+              "information": "",
+              "location": "outside the city"
+            },
+            {
+              "name": "Nynäshamn",
+              "classification": "New build",
+              "use": "Sailing",
+              "status": "In use",
+              "information": "",
+              "location": "outside the city"
+            }
+          ],
+          "trivia": "When the Olympic Stadium was built, large granite blocks were left at the main entrance to allow local artists to express themselves. Two sculptures were completed in time for the Games. Located beneath the clock on the eastern tower, they depict Ask and Embla, the first human beings created by the gods of Nordic mythology. A lottery was created specifically to finance the construction of the Olympic Stadium. The marathon monument in Sollentuna was donated to the town by the director of the stone company that made it."
+        },
+        "correctedKeys": [
+          "venues[7].information"
+        ]
+      },
+      "original": "<scratchpad>\nLet me compare the JSON data with the PDF content systematically:\n\n1. City: Stockholm ✓\n2. Year: 1912 ✓  \n3. Overview: Matches exactly ✓\n4. Venues: Need to check each one\n5. Trivia: Matches exactly ✓\n\nChecking venues against the PDF tables and \"THE VENUES UP CLOSE\" section:\n\nAll venue names, classifications, uses, and statuses match correctly. Checking the information text for each venue...\n\nI found one discrepancy in the Tennis Pavilion information:\n- JSON says: \"...remains in use by the multisports club Djurgårdens IF...\"\n- PDF says: \"...remains in use by the multi-sports club Djurgårdens IF...\" (with hyphen)\n\nAll other venue information matches exactly, including the locations (inside/outside city).\n\nThe trivia section matches perfectly.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n  \"status\": \"found\",\n  \"city\": \"Stockholm\",\n  \"year\": \"1912\",\n  \"overview\": \"Sixteen competition venues were used for the Olympic Games Stockholm 1912, eight of which remain in use today. Eight of the venues were existing, four were new and four were temporary. All the temporary venues were dismantled. Three of the existing venues have been demolished, along with one of the new ones. The remaining venues continue to be used for competitive and recreational sport and are home to several clubs that serve their local communities. The Olympic Stadium was a new venue and hosted the Opening and Closing Ceremonies and several of the competitions. It also staged the equestrian competitions at the 1956 Olympic Games. The stadium is still in use. There was no official Olympic Village.\",\n  \"venues\": [\n    {\n      \"name\": \"Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"In use\",\n      \"information\": \"Founded on 1 November 1886, it is Sweden's oldest riding club and continues to host dressage, jumping and eventing competitions. It also runs riding schools, and its grounds are home to a number of equestrian trails.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Djurgårdsbrunnsviken\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing\",\n      \"status\": \"In use\",\n      \"information\": \"This stretch of water in the centre of the Swedish capital is home to Stockholm Roddförening. Established in 1880, it is one of Sweden's oldest rowing clubs and offers a wide range of boats – from singles to eights – for rowers of all abilities. The club's main boathouse was erected in 1913 using wooden planks and seating from the temporary spectator stand constructed for the previous year's Olympic rowing events. Some of the seat numbers can be seen on the ceiling of this culturally significant building, which remains largely unchanged. The club opened a second boathouse in 2004.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Royal Tennis Halls (Tennishallen)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"Used for the indoor tennis events during the 1912 Games, the building served as a restaurant for athletes in the summer. It was the home of the Royal Tennis Club of Stockholm at the time the Olympic Games took place. The club relocated in 1943 to the Royal Tennis Hall (Kungliga Tennishallen), built a short distance away.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Rasunda Athletic Sports Grounds (Rasunda Idrottsplats)\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use (rebuilt)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Lindarängen\",\n      \"classification\": \"Existing\",\n      \"use\": \"Eventing\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"An eventing venue at the 1912 Olympic Games, the site is now an industrial area.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Stockholm Olympic Stadium (Olympiastadion)\",\n      \"classification\": \"New build\",\n      \"use\": \"Dressage, equestrian (jumping), gymnastics, wrestling, modern pentathlon, football, tug of war, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"Listed as a national heritage site and originally intended as a temporary wooden structure, this red-brick venue was built in the neoclassical style. It is still used regularly today and has been refurbished on several occasions. It now stages sporting events such as the Diamond League and the Stockholm Marathon, as well as major concerts. The Rolling Stones, Bruce Springsteen and AC/DC are just some of the acts to have performed at the venue. The venue for the city's Olympic Jubilee celebrations in 2012, it is also used for cross-country skiing in the winter months, when three 430-metre tracks are laid out. The stadium was also a stand-in venue at the Olympic Games Melbourne / Stockholm 1956, staging some of the equestrian events, which had to be held outside Australia due to the country's strict quarantine laws for horses.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)\",\n      \"classification\": \"New build\",\n      \"use\": \"Tennis, fencing, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"Two outdoor courts were built next to the building that hosted the fencing events and was used as changing rooms during the outdoor tennis events. Östermalm Idrottsplats remains in use by the multi-sports club Djurgårdens IF for its bandy section and youth football teams. In the winter, the venue's athletic grounds are converted into a speed skating rink. Tennis is still practised at the site.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Kaknäs Shooting Range, Djurgården\",\n      \"classification\": \"New build\",\n      \"use\": \"Shooting\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"After the Games, the venue was mainly used by the military and by private shooting clubs. It closed in 1998 and all the facilities were dismantled. The site is now open ground.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Swimming Stadium, Djurgården Bay\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Swimming, diving, water polo\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"An open-air swimming pool, this venue was dismantled after the Games, and its exact location is not known. The site is now a bay where people can swim during the summer.\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Liljeholm Bridge-Olympic Stadium-Lake Mälär\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Råsunda\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Shooting\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"inside the city\"\n    },\n    {\n      \"name\": \"Olympic Stadium-Sollentuna-Olympic Stadium\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Marathon\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"The Stockholm 1912 marathon took place on an out-and-back course, which ran northwards from the Olympic Stadium to the small town of Sollentuna and back to the stadium again. In 1913, a monument was erected at the course's turning point in Sollentuna, just beyond the town's main church. Positioned exactly 20.1 kilometres from the start line in the stadium, the monument is a seven metre-tall Doric column and was designed by the same architect who constructed the Stockholm Olympic Stadium. The front of the stone atop the column bears a cross with the date \\\"1912\\\". On the back is inscribed the Swedish word \\\"Vändpunkten\\\", meaning \\\"The Turn\\\". The monument was the halfway mark of the 2012 Jubilee Marathon, which was held to celebrate the centenary of the Olympic race.\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Sandhamm\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Barkaby to Rinkeby\",\n      \"classification\": \"Existing\",\n      \"use\": \"Modern pentathlon\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    },\n    {\n      \"name\": \"Nynäshamn\",\n      \"classification\": \"New build\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"outside the city\"\n    }\n  ],\n  \"trivia\": \"When the Olympic Stadium was built, large granite blocks were left at the main entrance to allow local artists to express themselves. Two sculptures were completed in time for the Games. Located beneath the clock on the eastern tower, they depict Ask and Embla, the first human beings created by the gods of Nordic mythology. A lottery was created specifically to finance the construction of the Olympic Stadium. The marathon monument in Sollentuna was donated to the town by the director of the stone company that made it.\"\n},\n\"correctedKeys\": [\"venues[7].information\"]\n}\n</response>"
+    }
+  }
+]

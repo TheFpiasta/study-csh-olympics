@@ -1,0 +1,531 @@
+[
+  {
+    "status": "success",
+    "extraction": {
+      "data": {
+        "status": "found",
+        "city": "London",
+        "year": "2012",
+        "overview": "Thirty competition venues were used for the Olympic Games London 2012. Thirteen of the competition venues were existing, six were new and eleven were temporary. Out of the eleven temporary venues, nine have been dismantled. One of the existing venues was demolished. Twenty venues remain in use today, including two temporary ones which became permanent. Eight of the venues were outside London. The venues still in use host sports, cultural, entertainment and leisure activities, cater for athletes of all levels of ability, and stage competitions that range from world championships to school events. The Olympic Stadium hosted the Opening and Closing Ceremonies and the track and field competitions. The Olympic Village was built for the Games. Both are still in use.",
+        "venues": [
+          {
+            "name": "North Greenwich Arena",
+            "classification": "Existing",
+            "use": "Artistic gymnastics, trampoline gymnastics, basketball",
+            "status": "In use",
+            "information": "Originally known as the Millennium Dome and built to celebrate the new millennium, the venue opened on 31 December 1999. Underused in the years that followed, it closed its doors before being refurbished and reopening in 2007, when it was renamed the North Greenwich Arena. Now known as the O2 Arena, it has hosted more than 2,000 events, for which over 25 million tickets have been sold. At 20,000, it has the second-highest capacity for an indoor arena in the UK. A multi-purpose entertainment, cultural and sporting venue, it provides the setting for the ATP Finals, the final event of the men's professional tennis season. Also home to an exhibition centre, a live music club and restaurants, it offers rooftop tours to visitors. During the COVID-19 pandemic, the arena was made available to the UK's National Health Service (NHS) for staff training.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Wembley Arena",
+            "classification": "Existing",
+            "use": "Rhythmic gymnastics, badminton",
+            "status": "In use",
+            "information": "Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Wimbledon",
+            "classification": "Existing",
+            "use": "Tennis",
+            "status": "In use",
+            "information": "The All England Lawn Tennis and Croquet Club hosted the tennis competition at the 1908 Olympic Games, at its old location on Worple Road, Wimbledon. In 1921, it moved across the district to its current location on Church Road, the venue for the world-famous grasscourt Grand Slam tournament. The complex has 41 courts in all, 19 of them used for competition and 22 for training. The two main courts (Centre Court and No. 1 Court) are used only for the Grand Slam tournament, and both now have retractable roofs. The other courts are open to the club's members.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Earls Court Exhibition Centre",
+            "classification": "Existing",
+            "use": "Volleyball",
+            "status": "Not in use (demolished)",
+            "information": "The venue formerly known as the Empress Hall was built in 1895 and redeveloped in 1936. It was used during the Olympic Games London 1948 and became a major exhibition, events and concert venue, hosting the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "ExCeL - North Arena 1",
+            "classification": "Existing",
+            "use": "Boxing, judo, fencing, table tennis, taekwondo, weightlifting, wrestling",
+            "status": "In use",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Wembley Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "London Olympic Stadium",
+            "classification": "New build",
+            "use": "Athletics, Opening and Closing Ceremonies",
+            "status": "In use",
+            "information": "The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "London Aquatics Centre",
+            "classification": "New build",
+            "use": "Swimming, diving, artistic swimming, modern pentathlon (swimming)",
+            "status": "In use",
+            "information": "Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "London 2012 Velodrome",
+            "classification": "New build",
+            "use": "Cycling (track)",
+            "status": "In use",
+            "information": "Situated on the northern edge of Queen Elizabeth Olympic Park, this naturally ventilated venue is part of Lee Valley VeloPark, which also features the BMX Track, a one-mile road course, and several mountain bike trails. Reconfigured after the Games, the velodrome stages national and international competitions on a regular basis and was the setting for the 2016 UCI World Track Cycling Championships. Open to the general public, it is a popular training venue and caters for cyclists of all levels, from amateur to high-performance. One third of all its users come from local schools and clubs. Lee Valley Velodrome has a number of additional revenue streams, including retail outlets, renting the venue out to businesses, and hosting corporate team-building activities, which fund free access to the venue for schoolchildren.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Lee Valley White Water Centre",
+            "classification": "New build",
+            "use": "Canoe slalom",
+            "status": "In use",
+            "information": "This was the only new London 2012 venue to open to the public before the Games, in April 2011. It reopened just six weeks after the Games. The venue features a 300m Olympic standard competition course and a 160m Legacy Loop, plus a lake the size of two football pitches. It is home to British Canoeing's High Performance Centre and is the training facility for the British Canoe Slalom squad. Since staging the London 2012 canoe slalom events, it has attracted more than 3.4 million visitors and hosted several elite-level events, including ICF Canoe Slalom World Cup rounds in 2014 and 2019, and the 2015 ICF Canoe Slalom World Championships, which it will again host in 2023. The centre has expanded its visitor offer to include events and activities for families, schools, clubs and community groups. These include white water rafting, canoeing, kayaking, hydrospeeding and inflatable obstacle courses.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Copper Box",
+            "classification": "New build",
+            "use": "Handball, modern pentathlon (fencing)",
+            "status": "In use",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "East Village",
+            "classification": "New build",
+            "use": "Athlete accommodation",
+            "status": "In use",
+            "information": "Situated in Queen Elizabeth Olympic Park and now known as East Village, the former Olympic Village is a community of 3,300 homes. Approximately half of them are market-priced homes, around a quarter are intermediate \"affordable\" homes for people on middle incomes, and a further quarter are for social rent. The original plans for the Olympic Park proposed 35 per cent of \"affordable\" housing. More than 6,000 people live in East Village, and all \"affordable\" and social rent homes are now occupied. The development's overall occupancy rate stood at 95 per cent in 2016. Around 500 new homes to rent were launched at East Village in spring 2019, while a further 1,500 homes were due for completion from 2021 onwards. East Village has excellent transport links to the city centre and a wide variety of shops, cafés, bars and restaurants. It also boasts three communal children's play areas, two hotels, a gym, and a health and well-being centre. A new school, housed in what was the Olympic health and drug testing centre, opened in 2013. There has been criticism from local residents about rent and house price increases and gentrification of the area.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "BMX Track",
+            "classification": "Temporary",
+            "use": "Cycling BMX",
+            "status": "In use",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Riverbank Arena",
+            "classification": "Temporary",
+            "use": "Hockey",
+            "status": "In use",
+            "information": "Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Water Polo Arena",
+            "classification": "Temporary",
+            "use": "Water polo",
+            "status": "Dismantled (temporary)",
+            "information": "Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Basketball Arena",
+            "classification": "Temporary",
+            "use": "Basketball, handball",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Horse Guards Parade Beach Volleyball Venue",
+            "classification": "Temporary",
+            "use": "Beach volleyball",
+            "status": "Dismantled (temporary)",
+            "information": "Some 5,000 tonnes of sand were used to create the main court and warm-up courts at this temporary 15,000-seater arena in St James' Park, central London. It was dismantled after the Games.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Hyde Park",
+            "classification": "Temporary",
+            "use": "Triathlon, marathon swimming",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Lord's Cricket Ground",
+            "classification": "Temporary",
+            "use": "Archery",
+            "status": "Dismantled (temporary)",
+            "information": "Temporary stands accommodating 6,500 spectators were set up on the outfield. The archers shot with the famous pavilion behind them. The stands and facilities erected for the Olympic archery competitions were dismantled immediately after the Games. Lord's is known as the \"Home of Cricket\" and first hosted the sport in 1814.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Royal Artillery Barracks",
+            "classification": "Temporary",
+            "use": "Shooting",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "The Mall",
+            "classification": "Temporary",
+            "use": "Marathon, race walk, cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Greenwich Park",
+            "classification": "Temporary",
+            "use": "Jumping, dressage, eventing, modern pentathlon (equestrian, running, shooting)",
+            "status": "Dismantled (temporary)",
+            "information": "Greenwich Park is one of the oldest and most famous parks in London and has been used as a location for several films, among them Four Weddings and a Funeral. Its use for the Olympic Games was opposed by some local residents, who expressed concern that the equestrian events would cause irreparable damage to the park and local ecosystem. Those fears proved unfounded – the venue was returned to its normal use after the Games, and all temporary infrastructure was removed.",
+            "location": "Inside the city"
+          },
+          {
+            "name": "Hampton Court Palace",
+            "classification": "Temporary",
+            "use": "Cycling (road)",
+            "status": "Dismantled (temporary)",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Hampden Park",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Millennium Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Old Trafford",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "St James' Park",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "City of Coventry Stadium",
+            "classification": "Existing",
+            "use": "Football",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Eton Dorney Rowing Centre",
+            "classification": "Existing",
+            "use": "Rowing, canoe sprint",
+            "status": "In use",
+            "information": "A standalone, man-made venue, it was built in 2006 and upgraded for the 2012 Olympic Games. It is owned by Eton College and is home to its boat club. Regularly used for rowing, triathlon and canoe/kayak training and competitions, it hosted a number of major events prior to the Games, including the 2006 World Rowing Championship. Since the Games, it has staged the 2013 FISA Rowing World Cup, the 2018 ITU Para-Triathlon World Cup, and a host of national and local events, such as the National Schools Regatta. The British Canoeing High Performance Team is based at the centre, and 20 state and independent schools also use it for training. The venue can be booked for conferences and corporate events, and the public are free to use its grounds when competitions are not taking place.",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Weymouth and Portland",
+            "classification": "Existing",
+            "use": "Sailing",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          },
+          {
+            "name": "Hadleigh Farm",
+            "classification": "New build",
+            "use": "Mountain bike",
+            "status": "In use",
+            "information": "",
+            "location": "Outside the city"
+          }
+        ],
+        "trivia": "Some 70,799 luminous panels equipped with nine LED lamps were installed between the seats to create the light effects used at the Opening and Closing Ceremonies at the Olympic Stadium. Thirty-three buildings were knocked down and more than 800,000 tonnes of earth were excavated and decontaminated, where necessary, to build the Olympic Stadium. The Water Polo Arena's silver covering was made of recyclable PVC. The venue's inflatable sloping roof was designed to provide insulation and reduce condensation. Lee Valley Velodrome is known locally as \"The Pringle\" because its curving roof resembles the shape of the potato-based crisp."
+      },
+      "original": "```json\n{\n  \"status\": \"found\",\n  \"city\": \"London\",\n  \"year\": \"2012\",\n  \"overview\": \"Thirty competition venues were used for the Olympic Games London 2012. Thirteen of the competition venues were existing, six were new and eleven were temporary. Out of the eleven temporary venues, nine have been dismantled. One of the existing venues was demolished. Twenty venues remain in use today, including two temporary ones which became permanent. Eight of the venues were outside London. The venues still in use host sports, cultural, entertainment and leisure activities, cater for athletes of all levels of ability, and stage competitions that range from world championships to school events. The Olympic Stadium hosted the Opening and Closing Ceremonies and the track and field competitions. The Olympic Village was built for the Games. Both are still in use.\",\n  \"venues\": [\n    {\n      \"name\": \"North Greenwich Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, trampoline gymnastics, basketball\",\n      \"status\": \"In use\",\n      \"information\": \"Originally known as the Millennium Dome and built to celebrate the new millennium, the venue opened on 31 December 1999. Underused in the years that followed, it closed its doors before being refurbished and reopening in 2007, when it was renamed the North Greenwich Arena. Now known as the O2 Arena, it has hosted more than 2,000 events, for which over 25 million tickets have been sold. At 20,000, it has the second-highest capacity for an indoor arena in the UK. A multi-purpose entertainment, cultural and sporting venue, it provides the setting for the ATP Finals, the final event of the men's professional tennis season. Also home to an exhibition centre, a live music club and restaurants, it offers rooftop tours to visitors. During the COVID-19 pandemic, the arena was made available to the UK's National Health Service (NHS) for staff training.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wembley Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rhythmic gymnastics, badminton\",\n      \"status\": \"In use\",\n      \"information\": \"Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wimbledon\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The All England Lawn Tennis and Croquet Club hosted the tennis competition at the 1908 Olympic Games, at its old location on Worple Road, Wimbledon. In 1921, it moved across the district to its current location on Church Road, the venue for the world-famous grasscourt Grand Slam tournament. The complex has 41 courts in all, 19 of them used for competition and 22 for training. The two main courts (Centre Court and No. 1 Court) are used only for the Grand Slam tournament, and both now have retractable roofs. The other courts are open to the club's members.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Earls Court Exhibition Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Volleyball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue formerly known as the Empress Hall was built in 1895 and redeveloped in 1936. It was used during the Olympic Games London 1948 and became a major exhibition, events and concert venue, hosting the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"ExCeL - North Arena 1\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, judo, fencing, table tennis, taekwondo, weightlifting, wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wembley Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London Aquatics Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, artistic swimming, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London 2012 Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"Situated on the northern edge of Queen Elizabeth Olympic Park, this naturally ventilated venue is part of Lee Valley VeloPark, which also features the BMX Track, a one-mile road course, and several mountain bike trails. Reconfigured after the Games, the velodrome stages national and international competitions on a regular basis and was the setting for the 2016 UCI World Track Cycling Championships. Open to the general public, it is a popular training venue and caters for cyclists of all levels, from amateur to high-performance. One third of all its users come from local schools and clubs. Lee Valley Velodrome has a number of additional revenue streams, including retail outlets, renting the venue out to businesses, and hosting corporate team-building activities, which fund free access to the venue for schoolchildren.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Lee Valley White Water Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Canoe slalom\",\n      \"status\": \"In use\",\n      \"information\": \"This was the only new London 2012 venue to open to the public before the Games, in April 2011. It reopened just six weeks after the Games. The venue features a 300m Olympic standard competition course and a 160m Legacy Loop, plus a lake the size of two football pitches. It is home to British Canoeing's High Performance Centre and is the training facility for the British Canoe Slalom squad. Since staging the London 2012 canoe slalom events, it has attracted more than 3.4 million visitors and hosted several elite-level events, including ICF Canoe Slalom World Cup rounds in 2014 and 2019, and the 2015 ICF Canoe Slalom World Championships, which it will again host in 2023. The centre has expanded its visitor offer to include events and activities for families, schools, clubs and community groups. These include white water rafting, canoeing, kayaking, hydrospeeding and inflatable obstacle courses.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Copper Box\",\n      \"classification\": \"New build\",\n      \"use\": \"Handball, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"East Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Situated in Queen Elizabeth Olympic Park and now known as East Village, the former Olympic Village is a community of 3,300 homes. Approximately half of them are market-priced homes, around a quarter are intermediate \\\"affordable\\\" homes for people on middle incomes, and a further quarter are for social rent. The original plans for the Olympic Park proposed 35 per cent of \\\"affordable\\\" housing. More than 6,000 people live in East Village, and all \\\"affordable\\\" and social rent homes are now occupied. The development's overall occupancy rate stood at 95 per cent in 2016. Around 500 new homes to rent were launched at East Village in spring 2019, while a further 1,500 homes were due for completion from 2021 onwards. East Village has excellent transport links to the city centre and a wide variety of shops, cafés, bars and restaurants. It also boasts three communal children's play areas, two hotels, a gym, and a health and well-being centre. A new school, housed in what was the Olympic health and drug testing centre, opened in 2013. There has been criticism from local residents about rent and house price increases and gentrification of the area.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"BMX Track\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling BMX\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Riverbank Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Water Polo Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Water polo\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Basketball Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Basketball, handball\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Horse Guards Parade Beach Volleyball Venue\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Beach volleyball\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Some 5,000 tonnes of sand were used to create the main court and warm-up courts at this temporary 15,000-seater arena in St James' Park, central London. It was dismantled after the Games.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Hyde Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Triathlon, marathon swimming\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Lord's Cricket Ground\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Archery\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Temporary stands accommodating 6,500 spectators were set up on the outfield. The archers shot with the famous pavilion behind them. The stands and facilities erected for the Olympic archery competitions were dismantled immediately after the Games. Lord's is known as the \\\"Home of Cricket\\\" and first hosted the sport in 1814.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Royal Artillery Barracks\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Shooting\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"The Mall\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Marathon, race walk, cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Greenwich Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Jumping, dressage, eventing, modern pentathlon (equestrian, running, shooting)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Greenwich Park is one of the oldest and most famous parks in London and has been used as a location for several films, among them Four Weddings and a Funeral. Its use for the Olympic Games was opposed by some local residents, who expressed concern that the equestrian events would cause irreparable damage to the park and local ecosystem. Those fears proved unfounded – the venue was returned to its normal use after the Games, and all temporary infrastructure was removed.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Hampton Court Palace\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Hampden Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Millennium Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Old Trafford\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"St James' Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"City of Coventry Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Eton Dorney Rowing Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"A standalone, man-made venue, it was built in 2006 and upgraded for the 2012 Olympic Games. It is owned by Eton College and is home to its boat club. Regularly used for rowing, triathlon and canoe/kayak training and competitions, it hosted a number of major events prior to the Games, including the 2006 World Rowing Championship. Since the Games, it has staged the 2013 FISA Rowing World Cup, the 2018 ITU Para-Triathlon World Cup, and a host of national and local events, such as the National Schools Regatta. The British Canoeing High Performance Team is based at the centre, and 20 state and independent schools also use it for training. The venue can be booked for conferences and corporate events, and the public are free to use its grounds when competitions are not taking place.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Weymouth and Portland\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Hadleigh Farm\",\n      \"classification\": \"New build\",\n      \"use\": \"Mountain bike\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    }\n  ],\n  \"trivia\": \"Some 70,799 luminous panels equipped with nine LED lamps were installed between the seats to create the light effects used at the Opening and Closing Ceremonies at the Olympic Stadium. Thirty-three buildings were knocked down and more than 800,000 tonnes of earth were excavated and decontaminated, where necessary, to build the Olympic Stadium. The Water Polo Arena's silver covering was made of recyclable PVC. The venue's inflatable sloping roof was designed to provide insulation and reduce condensation. Lee Valley Velodrome is known locally as \\\"The Pringle\\\" because its curving roof resembles the shape of the potato-based crisp.\"\n}\n```"
+    },
+    "validation": {
+      "data": {
+        "status": "corrected",
+        "json": {
+          "status": "found",
+          "city": "London",
+          "year": "2012",
+          "overview": "Thirty competition venues were used for the Olympic Games London 2012. Thirteen of the competition venues were existing, six were new and eleven were temporary. Out of the eleven temporary venues, nine have been dismantled. One of the existing venues was demolished. Twenty venues remain in use today, including two temporary ones which became permanent. Eight of the venues were outside London. The venues still in use host sports, cultural, entertainment and leisure activities, cater for athletes of all levels of ability, and stage competitions that range from world championships to school events. The Olympic Stadium hosted the Opening and Closing Ceremonies and the track and field competitions. The Olympic Village was built for the Games. Both are still in use.",
+          "venues": [
+            {
+              "name": "North Greenwich Arena",
+              "classification": "Existing",
+              "use": "Artistic gymnastics, trampoline gymnastics, basketball",
+              "status": "In use",
+              "information": "Originally known as the Millennium Dome and built to celebrate the new millennium, the venue opened on 31 December 1999. Underused in the years that followed, it closed its doors before being refurbished and reopening in 2007, when it was renamed the North Greenwich Arena. Now known as the O2 Arena, it has hosted more than 2,000 events, for which over 25 million tickets have been sold. At 20,000, it has the second-highest capacity for an indoor arena in the UK. A multi-purpose entertainment, cultural and sporting venue, it provides the setting for the ATP Finals, the final event of the men's professional tennis season. Also home to an exhibition centre, a live music club and restaurants, it offers rooftop tours to visitors. During the COVID-19 pandemic, the arena was made available to the UK's National Health Service (NHS) for staff training.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Wembley Arena",
+              "classification": "Existing",
+              "use": "Rhythmic gymnastics, badminton",
+              "status": "In use",
+              "information": "Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Wimbledon",
+              "classification": "Existing",
+              "use": "Tennis",
+              "status": "In use",
+              "information": "The All England Lawn Tennis and Croquet Club hosted the tennis competition at the 1908 Olympic Games, at its old location on Worple Road, Wimbledon. In 1921, it moved across the district to its current location on Church Road, the venue for the world-famous grasscourt Grand Slam tournament. The complex has 41 courts in all, 19 of them used for competition and 22 for training. The two main courts (Centre Court and No. 1 Court) are used only for the Grand Slam tournament, and both now have retractable roofs. The other courts are open to the club's members.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Earls Court Exhibition Centre",
+              "classification": "Existing",
+              "use": "Volleyball",
+              "status": "Not in use (demolished)",
+              "information": "The venue formerly known as the Empress Hall was built in 1895 and redeveloped in 1936. It was used during the Olympic Games London 1948 and became a major exhibition, events and concert venue, hosting the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "ExCeL - North Arena 1",
+              "classification": "Existing",
+              "use": "Boxing, judo, fencing, table tennis, taekwondo, weightlifting, wrestling",
+              "status": "In use",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Wembley Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "London Olympic Stadium",
+              "classification": "New build",
+              "use": "Athletics, Opening and Closing Ceremonies",
+              "status": "In use",
+              "information": "The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "London Aquatics Centre",
+              "classification": "New build",
+              "use": "Swimming, diving, artistic swimming, modern pentathlon (swimming)",
+              "status": "In use",
+              "information": "Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "London 2012 Velodrome",
+              "classification": "New build",
+              "use": "Cycling (track)",
+              "status": "In use",
+              "information": "Situated on the northern edge of Queen Elizabeth Olympic Park, this naturally ventilated venue is part of Lee Valley VeloPark, which also features the BMX Track, a one-mile road course, and several mountain bike trails. Reconfigured after the Games, the velodrome stages national and international competitions on a regular basis and was the setting for the 2016 UCI World Track Cycling Championships. Open to the general public, it is a popular training venue and caters for cyclists of all levels, from amateur to high-performance. One third of all its users come from local schools and clubs. Lee Valley Velodrome has a number of additional revenue streams, including retail outlets, renting the venue out to businesses, and hosting corporate team-building activities, which fund free access to the venue for schoolchildren.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Lee Valley White Water Centre",
+              "classification": "New build",
+              "use": "Canoe slalom",
+              "status": "In use",
+              "information": "This was the only new London 2012 venue to open to the public before the Games, in April 2011. It reopened just six weeks after the Games. The venue features a 300m Olympic standard competition course and a 160m Legacy Loop, plus a lake the size of two football pitches. It is home to British Canoeing's High Performance Centre and is the training facility for the British Canoe Slalom squad. Since staging the London 2012 canoe slalom events, it has attracted more than 3.4 million visitors and hosted several elite-level events, including ICF Canoe Slalom World Cup rounds in 2014 and 2019, and the 2015 ICF Canoe Slalom World Championships, which it will again host in 2023. The centre has expanded its visitor offer to include events and activities for families, schools, clubs and community groups. These include white water rafting, canoeing, kayaking, hydrospeeding and inflatable obstacle courses.",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Copper Box",
+              "classification": "New build",
+              "use": "Handball, modern pentathlon (fencing)",
+              "status": "In use",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "East Village",
+              "classification": "New build",
+              "use": "Athlete accommodation",
+              "status": "In use",
+              "information": "Situated in Queen Elizabeth Olympic Park and now known as East Village, the former Olympic Village is a community of 3,300 homes. Approximately half of them are market-priced homes, around a quarter are intermediate \"affordable\" homes for people on middle incomes, and a further quarter are for social rent. The original plans for the Olympic Park proposed 35 per cent of \"affordable\" housing. More than 6,000 people live in East Village, and all \"affordable\" and social rent homes are now occupied. The development's overall occupancy rate stood at 95 per cent in 2016. Around 500 new homes to rent were launched at East Village in spring 2019, while a further 1,500 homes were due for completion from 2021 onwards. East Village has excellent transport links to the city centre and a wide variety of shops, cafés, bars and restaurants. It also boasts three communal children's play areas, two hotels, a gym, and a health and well-being centre. A new school, housed in what was the Olympic health and drug testing centre, opened in 2013. There has been criticism from local residents about rent and house price increases and gentrification of the area.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "BMX Track",
+              "classification": "Temporary",
+              "use": "Cycling BMX",
+              "status": "In use",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Riverbank Arena",
+              "classification": "Temporary",
+              "use": "Hockey",
+              "status": "In use",
+              "information": "Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Water Polo Arena",
+              "classification": "Temporary",
+              "use": "Water polo",
+              "status": "Dismantled (temporary)",
+              "information": "Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Basketball Arena",
+              "classification": "Temporary",
+              "use": "Basketball, handball",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Horse Guards Parade Beach Volleyball Venue",
+              "classification": "Temporary",
+              "use": "Beach volleyball",
+              "status": "Dismantled (temporary)",
+              "information": "Some 5,000 tonnes of sand were used to create the main court and warm-up courts at this temporary 15,000-seater arena in St James' Park, central London. It was dismantled after the Games.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Hyde Park",
+              "classification": "Temporary",
+              "use": "Triathlon, marathon swimming",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Lord's Cricket Ground",
+              "classification": "Temporary",
+              "use": "Archery",
+              "status": "Dismantled (temporary)",
+              "information": "Temporary stands accommodating 6,500 spectators were set up on the outfield. The archers shot with the famous pavilion behind them. The stands and facilities erected for the Olympic archery competitions were dismantled immediately after the Games. Lord's is known as the \"Home of Cricket\" and first hosted the sport in 1814.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Royal Artillery Barracks",
+              "classification": "Temporary",
+              "use": "Shooting",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "The Mall",
+              "classification": "Temporary",
+              "use": "Marathon, race walk, cycling (road)",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Greenwich Park",
+              "classification": "Temporary",
+              "use": "Jumping, dressage, eventing, modern pentathlon (equestrian, running, shooting)",
+              "status": "Dismantled (temporary)",
+              "information": "Greenwich Park is one of the oldest and most famous parks in London and has been used as a location for several films, among them Four Weddings and a Funeral. Its use for the Olympic Games was opposed by some local residents, who expressed concern that the equestrian events would cause irreparable damage to the park and local ecosystem. Those fears proved unfounded – the venue was returned to its normal use after the Games, and all temporary infrastructure was removed.",
+              "location": "Inside the city"
+            },
+            {
+              "name": "Hampton Court Palace",
+              "classification": "Temporary",
+              "use": "Cycling (road)",
+              "status": "Dismantled (temporary)",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Hampden Park",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Principality Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Old Trafford",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "St James' Park",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "City of Coventry Stadium",
+              "classification": "Existing",
+              "use": "Football",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Eton Dorney Rowing Centre",
+              "classification": "Existing",
+              "use": "Rowing, canoe sprint",
+              "status": "In use",
+              "information": "A standalone, man-made venue, it was built in 2006 and upgraded for the 2012 Olympic Games. It is owned by Eton College and is home to its boat club. Regularly used for rowing, triathlon and canoe/kayak training and competitions, it hosted a number of major events prior to the Games, including the 2006 World Rowing Championship. Since the Games, it has staged the 2013 FISA Rowing World Cup, the 2018 ITU Para-Triathlon World Cup, and a host of national and local events, such as the National Schools Regatta. The British Canoeing High Performance Team is based at the centre, and 20 state and independent schools also use it for training. The venue can be booked for conferences and corporate events, and the public are free to use its grounds when competitions are not taking place.",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Weymouth and Portland",
+              "classification": "Existing",
+              "use": "Sailing",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            },
+            {
+              "name": "Hadleigh Farm",
+              "classification": "New build",
+              "use": "Mountain bike",
+              "status": "In use",
+              "information": "",
+              "location": "Outside the city"
+            }
+          ],
+          "trivia": "Some 70,799 luminous panels equipped with nine LED lamps were installed between the seats to create the light effects used at the Opening and Closing Ceremonies at the Olympic Stadium. Thirty-three buildings were knocked down and more than 800,000 tonnes of earth were excavated and decontaminated, where necessary, to build the Olympic Stadium. The Water Polo Arena's silver covering was made of recyclable PVC. The venue's inflatable sloping roof was designed to provide insulation and reduce condensation. Lee Valley Velodrome is known locally as \"The Pringle\" because its curving roof resembles the shape of the potato-based crisp."
+        },
+        "correctedKeys": [
+          "venues[24].name"
+        ]
+      },
+      "original": "<scratchpad>\nLet me systematically compare the JSON data with the PDF content:\n\n1. Overview: The JSON overview matches the PDF overview text exactly ✓\n\n2. Trivia: The JSON trivia matches the \"DID YOU KNOW?\" section exactly ✓\n\n3. Venues: Let me check each venue against the PDF tables...\n\nGoing through the venues, I notice one clear discrepancy:\n- JSON lists venue \"Millennium Stadium\" \n- But the PDF table on page 4 clearly shows \"Principality Stadium\" as the venue name\n\nLet me verify this: In the PDF on page 4, under \"Venues outside London,\" I see:\n\"Principality Stadium - Existing - Football - In use\"\n\nBut the JSON shows:\n\"Millennium Stadium - Existing - Football - In use\"\n\nThis is definitely an error in the JSON data. The venue name should be \"Principality Stadium\" not \"Millennium Stadium\".\n\nAll other venue details appear to match correctly between the JSON and PDF.\n</scratchpad>\n\n<response>\n{\n\"status\": \"corrected\",\n\"json\": {\n  \"status\": \"found\",\n  \"city\": \"London\",\n  \"year\": \"2012\",\n  \"overview\": \"Thirty competition venues were used for the Olympic Games London 2012. Thirteen of the competition venues were existing, six were new and eleven were temporary. Out of the eleven temporary venues, nine have been dismantled. One of the existing venues was demolished. Twenty venues remain in use today, including two temporary ones which became permanent. Eight of the venues were outside London. The venues still in use host sports, cultural, entertainment and leisure activities, cater for athletes of all levels of ability, and stage competitions that range from world championships to school events. The Olympic Stadium hosted the Opening and Closing Ceremonies and the track and field competitions. The Olympic Village was built for the Games. Both are still in use.\",\n  \"venues\": [\n    {\n      \"name\": \"North Greenwich Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Artistic gymnastics, trampoline gymnastics, basketball\",\n      \"status\": \"In use\",\n      \"information\": \"Originally known as the Millennium Dome and built to celebrate the new millennium, the venue opened on 31 December 1999. Underused in the years that followed, it closed its doors before being refurbished and reopening in 2007, when it was renamed the North Greenwich Arena. Now known as the O2 Arena, it has hosted more than 2,000 events, for which over 25 million tickets have been sold. At 20,000, it has the second-highest capacity for an indoor arena in the UK. A multi-purpose entertainment, cultural and sporting venue, it provides the setting for the ATP Finals, the final event of the men's professional tennis season. Also home to an exhibition centre, a live music club and restaurants, it offers rooftop tours to visitors. During the COVID-19 pandemic, the arena was made available to the UK's National Health Service (NHS) for staff training.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wembley Arena\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rhythmic gymnastics, badminton\",\n      \"status\": \"In use\",\n      \"information\": \"Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wimbledon\",\n      \"classification\": \"Existing\",\n      \"use\": \"Tennis\",\n      \"status\": \"In use\",\n      \"information\": \"The All England Lawn Tennis and Croquet Club hosted the tennis competition at the 1908 Olympic Games, at its old location on Worple Road, Wimbledon. In 1921, it moved across the district to its current location on Church Road, the venue for the world-famous grasscourt Grand Slam tournament. The complex has 41 courts in all, 19 of them used for competition and 22 for training. The two main courts (Centre Court and No. 1 Court) are used only for the Grand Slam tournament, and both now have retractable roofs. The other courts are open to the club's members.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Earls Court Exhibition Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Volleyball\",\n      \"status\": \"Not in use (demolished)\",\n      \"information\": \"The venue formerly known as the Empress Hall was built in 1895 and redeveloped in 1936. It was used during the Olympic Games London 1948 and became a major exhibition, events and concert venue, hosting the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"ExCeL - North Arena 1\",\n      \"classification\": \"Existing\",\n      \"use\": \"Boxing, judo, fencing, table tennis, taekwondo, weightlifting, wrestling\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Wembley Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London Olympic Stadium\",\n      \"classification\": \"New build\",\n      \"use\": \"Athletics, Opening and Closing Ceremonies\",\n      \"status\": \"In use\",\n      \"information\": \"The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London Aquatics Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Swimming, diving, artistic swimming, modern pentathlon (swimming)\",\n      \"status\": \"In use\",\n      \"information\": \"Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"London 2012 Velodrome\",\n      \"classification\": \"New build\",\n      \"use\": \"Cycling (track)\",\n      \"status\": \"In use\",\n      \"information\": \"Situated on the northern edge of Queen Elizabeth Olympic Park, this naturally ventilated venue is part of Lee Valley VeloPark, which also features the BMX Track, a one-mile road course, and several mountain bike trails. Reconfigured after the Games, the velodrome stages national and international competitions on a regular basis and was the setting for the 2016 UCI World Track Cycling Championships. Open to the general public, it is a popular training venue and caters for cyclists of all levels, from amateur to high-performance. One third of all its users come from local schools and clubs. Lee Valley Velodrome has a number of additional revenue streams, including retail outlets, renting the venue out to businesses, and hosting corporate team-building activities, which fund free access to the venue for schoolchildren.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Lee Valley White Water Centre\",\n      \"classification\": \"New build\",\n      \"use\": \"Canoe slalom\",\n      \"status\": \"In use\",\n      \"information\": \"This was the only new London 2012 venue to open to the public before the Games, in April 2011. It reopened just six weeks after the Games. The venue features a 300m Olympic standard competition course and a 160m Legacy Loop, plus a lake the size of two football pitches. It is home to British Canoeing's High Performance Centre and is the training facility for the British Canoe Slalom squad. Since staging the London 2012 canoe slalom events, it has attracted more than 3.4 million visitors and hosted several elite-level events, including ICF Canoe Slalom World Cup rounds in 2014 and 2019, and the 2015 ICF Canoe Slalom World Championships, which it will again host in 2023. The centre has expanded its visitor offer to include events and activities for families, schools, clubs and community groups. These include white water rafting, canoeing, kayaking, hydrospeeding and inflatable obstacle courses.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Copper Box\",\n      \"classification\": \"New build\",\n      \"use\": \"Handball, modern pentathlon (fencing)\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"East Village\",\n      \"classification\": \"New build\",\n      \"use\": \"Athlete accommodation\",\n      \"status\": \"In use\",\n      \"information\": \"Situated in Queen Elizabeth Olympic Park and now known as East Village, the former Olympic Village is a community of 3,300 homes. Approximately half of them are market-priced homes, around a quarter are intermediate \\\"affordable\\\" homes for people on middle incomes, and a further quarter are for social rent. The original plans for the Olympic Park proposed 35 per cent of \\\"affordable\\\" housing. More than 6,000 people live in East Village, and all \\\"affordable\\\" and social rent homes are now occupied. The development's overall occupancy rate stood at 95 per cent in 2016. Around 500 new homes to rent were launched at East Village in spring 2019, while a further 1,500 homes were due for completion from 2021 onwards. East Village has excellent transport links to the city centre and a wide variety of shops, cafés, bars and restaurants. It also boasts three communal children's play areas, two hotels, a gym, and a health and well-being centre. A new school, housed in what was the Olympic health and drug testing centre, opened in 2013. There has been criticism from local residents about rent and house price increases and gentrification of the area.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"BMX Track\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling BMX\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Riverbank Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Hockey\",\n      \"status\": \"In use\",\n      \"information\": \"Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Water Polo Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Water polo\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Basketball Arena\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Basketball, handball\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Horse Guards Parade Beach Volleyball Venue\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Beach volleyball\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Some 5,000 tonnes of sand were used to create the main court and warm-up courts at this temporary 15,000-seater arena in St James' Park, central London. It was dismantled after the Games.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Hyde Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Triathlon, marathon swimming\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Lord's Cricket Ground\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Archery\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Temporary stands accommodating 6,500 spectators were set up on the outfield. The archers shot with the famous pavilion behind them. The stands and facilities erected for the Olympic archery competitions were dismantled immediately after the Games. Lord's is known as the \\\"Home of Cricket\\\" and first hosted the sport in 1814.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Royal Artillery Barracks\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Shooting\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"The Mall\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Marathon, race walk, cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Greenwich Park\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Jumping, dressage, eventing, modern pentathlon (equestrian, running, shooting)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"Greenwich Park is one of the oldest and most famous parks in London and has been used as a location for several films, among them Four Weddings and a Funeral. Its use for the Olympic Games was opposed by some local residents, who expressed concern that the equestrian events would cause irreparable damage to the park and local ecosystem. Those fears proved unfounded – the venue was returned to its normal use after the Games, and all temporary infrastructure was removed.\",\n      \"location\": \"Inside the city\"\n    },\n    {\n      \"name\": \"Hampton Court Palace\",\n      \"classification\": \"Temporary\",\n      \"use\": \"Cycling (road)\",\n      \"status\": \"Dismantled (temporary)\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Hampden Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Principality Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Old Trafford\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"St James' Park\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"City of Coventry Stadium\",\n      \"classification\": \"Existing\",\n      \"use\": \"Football\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Eton Dorney Rowing Centre\",\n      \"classification\": \"Existing\",\n      \"use\": \"Rowing, canoe sprint\",\n      \"status\": \"In use\",\n      \"information\": \"A standalone, man-made venue, it was built in 2006 and upgraded for the 2012 Olympic Games. It is owned by Eton College and is home to its boat club. Regularly used for rowing, triathlon and canoe/kayak training and competitions, it hosted a number of major events prior to the Games, including the 2006 World Rowing Championship. Since the Games, it has staged the 2013 FISA Rowing World Cup, the 2018 ITU Para-Triathlon World Cup, and a host of national and local events, such as the National Schools Regatta. The British Canoeing High Performance Team is based at the centre, and 20 state and independent schools also use it for training. The venue can be booked for conferences and corporate events, and the public are free to use its grounds when competitions are not taking place.\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Weymouth and Portland\",\n      \"classification\": \"Existing\",\n      \"use\": \"Sailing\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    },\n    {\n      \"name\": \"Hadleigh Farm\",\n      \"classification\": \"New build\",\n      \"use\": \"Mountain bike\",\n      \"status\": \"In use\",\n      \"information\": \"\",\n      \"location\": \"Outside the city\"\n    }\n  ],\n  \"trivia\": \"Some 70,799 luminous panels equipped with nine LED lamps were installed between the seats to create the light effects used at the Opening and Closing Ceremonies at the Olympic Stadium. Thirty-three buildings were knocked down and more than 800,000 tonnes of earth were excavated and decontaminated, where necessary, to build the Olympic Stadium. The Water Polo Arena's silver covering was made of recyclable PVC. The venue's inflatable sloping roof was designed to provide insulation and reduce condensation. Lee Valley Velodrome is known locally as \\\"The Pringle\\\" because its curving roof resembles the shape of the potato-based crisp.\"\n},\n\"correctedKeys\": [\"venues[24].name\"]\n}\n</response>"
+    }
+  }
+]

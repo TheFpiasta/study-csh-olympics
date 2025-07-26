@@ -6,7 +6,7 @@ import re
 olympics = {
     '1896-summer': '1896_Athens',
     '1900-summer': '1900_Paris',
-    '1904-summer': '1904_St_Louis',
+    '1904-summer': '1904_St._Louis',
     '1908-summer': '1908_London',
     '1912-summer': '1912_Stockholm',
     '1920-summer': '1920_Antwerp',
@@ -35,7 +35,7 @@ olympics = {
     '2020-summer': '2020_Tokyo',
     
     '1924-winter': '1924_Chamonix',
-    '1928-winter': '1928_St_Moritz',
+    '1928-winter': '1928_St._Moritz',
     '1932-winter': '1932_Lake_Placid',
     '1936-winter': '1936_Garmisch_Partenkirchen',
     '1948-winter': '1948_St._Moritz',

@@ -34,76 +34,6 @@
         "seating_capacity": "12042",
         "type": "outdoor venue",
         "dimensions": "30 m x 60 m",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Figure Skating",
-              "link": "https://www.olympedia.org/sports/FSK"
-            },
-            {
-              "text": "Singles, Men",
-              "link": "https://www.olympedia.org/results/12968"
-            },
-            {
-              "text": "29 January –  1 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Figure Skating",
-              "link": "https://www.olympedia.org/sports/FSK"
-            },
-            {
-              "text": "Singles, Women",
-              "link": "https://www.olympedia.org/results/12998"
-            },
-            {
-              "text": "30 January –  2 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Figure Skating",
-              "link": "https://www.olympedia.org/sports/FSK"
-            },
-            {
-              "text": "Pairs, Mixed",
-              "link": "https://www.olympedia.org/results/13034"
-            },
-            {
-              "text": "3 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Ice Hockey",
-              "link": "https://www.olympedia.org/sports/IHO"
-            },
-            {
-              "text": "Ice Hockey, Men",
-              "link": "https://www.olympedia.org/results/20203"
-            },
-            {
-              "text": "26 January –  4 February 1956"
-            }
-          ]
-        ],
         "source_file": "venue_26.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -138,42 +68,6 @@
         "opened": "1955",
         "seating_capacity": "46152",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Nordic Combined",
-              "link": "https://www.olympedia.org/sports/NCB"
-            },
-            {
-              "text": "Individual, Men",
-              "link": "https://www.olympedia.org/results/2217"
-            },
-            {
-              "text": "29 – 31 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Ski Jumping",
-              "link": "https://www.olympedia.org/sports/SJP"
-            },
-            {
-              "text": "Large Hill, Individual, Men",
-              "link": "https://www.olympedia.org/results/2368"
-            },
-            {
-              "text": "5 February 1956"
-            }
-          ]
-        ],
         "source_file": "venue_27.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -207,127 +101,6 @@
         ],
         "seating_capacity": "9650",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "15 kilometres, Men",
-              "link": "https://www.olympedia.org/results/1914"
-            },
-            {
-              "text": "30 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "30 kilometres, Men",
-              "link": "https://www.olympedia.org/results/1915"
-            },
-            {
-              "text": "27 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "50 kilometres, Men",
-              "link": "https://www.olympedia.org/results/1916"
-            },
-            {
-              "text": "2 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "4 × 10 kilometres Relay, Men",
-              "link": "https://www.olympedia.org/results/1917"
-            },
-            {
-              "text": "4 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "10 kilometres, Women",
-              "link": "https://www.olympedia.org/results/1921"
-            },
-            {
-              "text": "28 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Cross Country Skiing",
-              "link": "https://www.olympedia.org/sports/CCS"
-            },
-            {
-              "text": "3 × 5 kilometres Relay, Women",
-              "link": "https://www.olympedia.org/results/1922"
-            },
-            {
-              "text": "1 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Nordic Combined",
-              "link": "https://www.olympedia.org/sports/NCB"
-            },
-            {
-              "text": "Individual, Men",
-              "link": "https://www.olympedia.org/results/2217"
-            },
-            {
-              "text": "29 – 31 January 1956"
-            }
-          ]
-        ],
         "source_file": "venue_28.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -359,25 +132,6 @@
         ],
         "seating_capacity": "9830",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Downhill, Men",
-              "link": "https://www.olympedia.org/results/1204"
-            },
-            {
-              "text": "3 February 1956"
-            }
-          ]
-        ],
         "source_file": "venue_29.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -409,42 +163,6 @@
         ],
         "seating_capacity": "4920 / 6760",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Downhill, Women",
-              "link": "https://www.olympedia.org/results/1209"
-            },
-            {
-              "text": "1 February 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Giant Slalom, Women",
-              "link": "https://www.olympedia.org/results/1210"
-            },
-            {
-              "text": "27 January 1956"
-            }
-          ]
-        ],
         "source_file": "venue_30.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -476,42 +194,6 @@
         ],
         "seating_capacity": "9080 / 12080",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Slalom, Men",
-              "link": "https://www.olympedia.org/results/1206"
-            },
-            {
-              "text": "31 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Slalom, Women",
-              "link": "https://www.olympedia.org/results/1211"
-            },
-            {
-              "text": "30 January 1956"
-            }
-          ]
-        ],
         "source_file": "venue_31.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -543,25 +225,6 @@
         ],
         "seating_capacity": "7920",
         "type": "outdoor venue",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Alpine Skiing",
-              "link": "https://www.olympedia.org/sports/ALP"
-            },
-            {
-              "text": "Giant Slalom, Men",
-              "link": "https://www.olympedia.org/results/1205"
-            },
-            {
-              "text": "29 January 1956"
-            }
-          ]
-        ],
         "source_file": "venue_32.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -596,42 +259,6 @@
         "seating_capacity": "4650",
         "type": "outdoor venue",
         "altitude": "1700 m",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Bobsleigh",
-              "link": "https://www.olympedia.org/sports/BOB"
-            },
-            {
-              "text": "Two, Men",
-              "link": "https://www.olympedia.org/results/295"
-            },
-            {
-              "text": "27 – 28 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Bobsleigh",
-              "link": "https://www.olympedia.org/sports/BOB"
-            },
-            {
-              "text": "Four, Men",
-              "link": "https://www.olympedia.org/results/302"
-            },
-            {
-              "text": "3 –  4 February 1956"
-            }
-          ]
-        ],
         "source_file": "venue_33.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -666,76 +293,6 @@
         "type": "outdoor venue",
         "dimensions": "400 m",
         "altitude": "1756 m",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Speed Skating",
-              "link": "https://www.olympedia.org/sports/SSK"
-            },
-            {
-              "text": "500 metres, Men",
-              "link": "https://www.olympedia.org/results/1001"
-            },
-            {
-              "text": "28 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Speed Skating",
-              "link": "https://www.olympedia.org/sports/SSK"
-            },
-            {
-              "text": "1,500 metres, Men",
-              "link": "https://www.olympedia.org/results/1002"
-            },
-            {
-              "text": "30 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Speed Skating",
-              "link": "https://www.olympedia.org/sports/SSK"
-            },
-            {
-              "text": "5,000 metres, Men",
-              "link": "https://www.olympedia.org/results/1003"
-            },
-            {
-              "text": "29 January 1956"
-            }
-          ],
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Speed Skating",
-              "link": "https://www.olympedia.org/sports/SSK"
-            },
-            {
-              "text": "10,000 metres, Men",
-              "link": "https://www.olympedia.org/results/1004"
-            },
-            {
-              "text": "31 January 1956"
-            }
-          ]
-        ],
         "source_file": "venue_34.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }
@@ -769,25 +326,6 @@
         "seating_capacity": "2000",
         "type": "outdoor venue",
         "dimensions": "30 m x 60 m",
-        "events": [
-          [
-            {
-              "text": "1956 Winter Olympics",
-              "link": "https://www.olympedia.org/editions/35"
-            },
-            {
-              "text": "Ice Hockey",
-              "link": "https://www.olympedia.org/sports/IHO"
-            },
-            {
-              "text": "Ice Hockey, Men",
-              "link": "https://www.olympedia.org/results/20203"
-            },
-            {
-              "text": "26 January –  4 February 1956"
-            }
-          ]
-        ],
         "source_file": "venue_35.json",
         "Olympics": "1956 Cortina d Ampezzo"
       }

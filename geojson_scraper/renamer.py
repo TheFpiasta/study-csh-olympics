@@ -38,7 +38,7 @@ olympics = {
     '1928-winter': '1928_St_Moritz',
     '1932-winter': '1932_Lake_Placid',
     '1936-winter': '1936_Garmisch_Partenkirchen',
-    '1948-winter': '1948_St_Moritz',
+    '1948-winter': '1948_St._Moritz',
     '1952-winter': '1952_Oslo',
     '1956-winter': '1956_Cortina_d_Ampezzo',
     '1960-winter': '1960_Squaw_Valley',

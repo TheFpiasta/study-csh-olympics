@@ -1,0 +1,18 @@
+[Use/Sport + Name Match] JSON Venue 2 - Adler Arena Skating Centre ↔ GeoJSON Venue 0 - Adler-Arena, Coastal Cluster | UseSim: 1.00, NameSim: 0.58, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Shayba Arena ↔ GeoJSON Venue 4 - Ledovaya Arena Shayba, Coastal Cluster | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - RusSki Gorki Ski Jumping Centre ↔ GeoJSON Venue 8 - Kompleks Dlya Pryzhkov Na Lyzhakh s Tramplina "Russkiye Gorki", Mountain Cluster | UseSim: 1.00, NameSim: 0.44, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Iceberg Skating Palace ↔ GeoJSON Venue 3 - Dvorets Zimnego Sporta Aisberg, Coastal Cluster | UseSim: 1.00, NameSim: 0.44, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Sanki Sliding Centre ↔ GeoJSON Venue 9 - Tsentr Sannogo Sporta Sanki, Mountain Cluster | UseSim: 1.00, NameSim: 0.44, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Ice Cube Curling Centre ↔ GeoJSON Venue 2 - Kyorlingovyi Tsentr Ledyanoy Kub, Coastal Cluster | UseSim: 1.00, NameSim: 0.42, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Bolshoy Ice Dome ↔ GeoJSON Venue 1 - Ledovyi Dvorets Bolshoy, Coastal Cluster | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Rosa Khutor Alpine Centre ↔ GeoJSON Venue 6 - Gornolyzhniy Tsenter Rosa Khutor, Mountain Cluster | UseSim: 1.00, NameSim: 0.38, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Rosa Khutor Extreme Park ↔ GeoJSON Venue 7 - Ekstrim-Park Rosa Khutor | UseSim: 0.67, NameSim: 0.68, Score: 0.67 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 3] 'Fisht Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 6] 'Coastal Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 11] 'Laura Cross-Country Ski and Biathlon Centre' has no matching GeoJSON venue.
+[JSON Venue 12] 'Mountain Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 5] 'Kompleks Dlya Sorevnovaniy Po Lyzhnym Gonkam i Biatlonu Laura, Mountain Cluster' has no matching JSON venue.

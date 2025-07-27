@@ -1,0 +1,37 @@
+[Part Name Match] JSON Venue 0 'North Greenwich Arena' matched with GeoJSON Venue 18: North Greenwich Arena
+[Part Name Match] JSON Venue 1 'Wembley Arena' matched with GeoJSON Venue 0: Wembley Arena
+[Part Name Match] JSON Venue 3 'Earls Court Exhibition Centre' matched with GeoJSON Venue 5: Earls Court Exhibition Centre
+[Part Name Match] JSON Venue 5 'Wembley Stadium' matched with GeoJSON Venue 26: Wembley Stadium
+[Part Name Match] JSON Venue 9 'Lee Valley White Water Centre' matched with GeoJSON Venue 15: Lee Valley White Water Centre
+[Part Name Match] JSON Venue 17 'Hyde Park' matched with GeoJSON Venue 14: Hyde Park
+[Part Name Match] JSON Venue 18 'Lord's Cricket Ground' matched with GeoJSON Venue 16: Lord's Cricket Ground
+[Part Name Match] JSON Venue 19 'Royal Artillery Barracks' matched with GeoJSON Venue 21: Royal Artillery Barracks
+[Part Name Match] JSON Venue 20 'The Mall' matched with GeoJSON Venue 23: The Mall
+[Part Name Match] JSON Venue 21 'Greenwich Park' matched with GeoJSON Venue 8: Greenwich Park
+[Part Name Match] JSON Venue 22 'Hampton Court Palace' matched with GeoJSON Venue 29: Hampton Court Palace
+[Part Name Match] JSON Venue 23 'Hampden Park' matched with GeoJSON Venue 10: Hampden Park
+[Part Name Match] JSON Venue 25 'Old Trafford' matched with GeoJSON Venue 19: Old Trafford
+[Part Name Match] JSON Venue 26 'St James' Park' matched with GeoJSON Venue 22: St James' Park
+[Part Name Match] JSON Venue 27 'City of Coventry Stadium' matched with GeoJSON Venue 4: City of Coventry Stadium
+[Part Name Match] JSON Venue 30 'Hadleigh Farm' matched with GeoJSON Venue 9: Hadleigh Farm
+[Use/Sport + Name Match] JSON Venue 24 - Millennium Stadium ↔ GeoJSON Venue 17 - Stadiwm y Mileniwm | UseSim: 1.00, NameSim: 0.78, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Water Polo Arena ↔ GeoJSON Venue 25 - Water Polo Arena, Olympic Park | UseSim: 1.00, NameSim: 0.71, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Riverbank Arena ↔ GeoJSON Venue 12 - Riverbank Arena, Olympic Park | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 29 - Weymouth and Portland ↔ GeoJSON Venue 27 - Weymouth and Portland National Sailing Academy | UseSim: 1.00, NameSim: 0.63, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 16 - Horse Guards Parade Beach Volleyball Venue ↔ GeoJSON Venue 13 - Horse Guards Parade, Centre Court | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 28 - Eton Dorney Rowing Centre ↔ GeoJSON Venue 6 - Eton Dorney (also known as Dorney Lake, Eton College Rowing Centre) | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - ExCeL - North Arena 1 ↔ GeoJSON Venue 7 - ExCeL (also known as Exhibition Centre London) | UseSim: 1.00, NameSim: 0.41, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - London 2012 Velodrome ↔ GeoJSON Venue 24 - Velodrome, London Velopark, Olympic Park (also known as The Pringle) | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - London Aquatics Centre ↔ GeoJSON Venue 1 - London Aquatics Centre, Olympic Park | UseSim: 0.83, NameSim: 0.77, Score: 0.81 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Wimbledon ↔ GeoJSON Venue 28 - All-England Lawn Tennis & Croquet Club | UseSim: 1.00, NameSim: 0.23, Score: 0.77 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Copper Box ↔ GeoJSON Venue 11 - Copper Box, Olympic Park | UseSim: 0.67, NameSim: 0.61, Score: 0.65 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - London Olympic Stadium ↔ GeoJSON Venue 20 - Olympic Stadium, Olympic Park | UseSim: 0.56, NameSim: 0.68, Score: 0.59 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 11] 'East Village' has no matching GeoJSON venue.
+[JSON Venue 12] 'BMX Track' has no matching GeoJSON venue.
+[JSON Venue 15] 'Basketball Arena' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 2] 'Basketball Arena, Olympic Park' has no matching JSON venue.
+[GeoJSON Venue 3] 'BMX Track, London Velopark, Olympic Park' has no matching JSON venue.

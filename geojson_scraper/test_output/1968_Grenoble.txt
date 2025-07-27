@@ -1,0 +1,17 @@
+[Part Name Match] JSON Venue 0 'Patinoire Municipale' matched with GeoJSON Venue 8: Patinoire Municipale
+[Part Name Match] JSON Venue 3 'Stade de Glace' matched with GeoJSON Venue 9: Stade de Glace
+[Part Name Match] JSON Venue 10 'Piste de Luge' matched with GeoJSON Venue 5: Piste de Luge
+[Use/Sport + Name Match] JSON Venue 8 - Piste de Bobsled ↔ GeoJSON Venue 6 - Piste de Bobsleigh | UseSim: 1.00, NameSim: 0.88, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Chamrousse ↔ GeoJSON Venue 1 - Casserousse | UseSim: 1.00, NameSim: 0.76, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Anneau de Vitesse de Grenoble ↔ GeoJSON Venue 7 - L'Anneau de Vitesse | UseSim: 1.00, NameSim: 0.60, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Tremplin du Claret ↔ GeoJSON Venue 3 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Tremplin de saut à ski de Saint Nizier/Tremplin du Dauphiné ↔ GeoJSON Venue 4 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Autrans' has no matching GeoJSON venue.
+[JSON Venue 5] 'Grenoble Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 6] 'Stade Olympique de Grenoble' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Le Recoin' has no matching JSON venue.
+[GeoJSON Venue 2] '' has no matching JSON venue.

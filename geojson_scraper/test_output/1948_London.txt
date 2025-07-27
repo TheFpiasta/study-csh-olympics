@@ -1,0 +1,41 @@
+[Part Name Match] JSON Venue 4 'Champion Hill' matched with GeoJSON Venue 17: Champion Hill
+[Part Name Match] JSON Venue 6 'Selhurst Park' matched with GeoJSON Venue 12: Selhurst Park
+[Part Name Match] JSON Venue 10 'Griffin Park' matched with GeoJSON Venue 18: Griffin Park
+[Part Name Match] JSON Venue 15 'Harringay Arena' matched with GeoJSON Venue 4: Harringay Arena
+[Part Name Match] JSON Venue 20 'Tweseldown Racecourse' matched with GeoJSON Venue 10: Tweseldown Racecourse
+[Part Name Match] JSON Venue 21 'Aldershot Pool/Aldershot Lido' matched with GeoJSON Venue 26: Aldershot Lido
+[Part Name Match] JSON Venue 23 'Fratton Park' matched with GeoJSON Venue 21: Fratton Park
+[Part Name Match] JSON Venue 24 'Royal Military Academy, Sandhurst' matched with GeoJSON Venue 27: Royal Military Academy Sandhurst
+[Part Name Match] JSON Venue 25 'Torbay' matched with GeoJSON Venue 28: Torbay
+[Part Name Match] JSON Venue 27 'Goldstone Ground' matched with GeoJSON Venue 20: Goldstone Ground
+[Part Name Match] JSON Venue 28 'Windsor Great Park' matched with GeoJSON Venue 7: Windsor Great Park
+[Use/Sport + Name Match] JSON Venue 3 - Herne Hill Track/Velodrome ↔ GeoJSON Venue 8 - Herne Hill Velodrome | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Finchley Pool ↔ GeoJSON Venue 29 - Finchley Open Air Pool | UseSim: 1.00, NameSim: 0.74, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Arsenal Stadium (Highbury Stadium) ↔ GeoJSON Venue 13 - Arsenal Stadium (also known as Highbury) | UseSim: 1.00, NameSim: 0.71, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 16 - Lynn Road ↔ GeoJSON Venue 14 - Lynn Road Stadium | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 17 - Palace of Engineering (Wembley Empire Exhibition Site) ↔ GeoJSON Venue 11 - Palace of Engineering | UseSim: 1.00, NameSim: 0.58, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - White Hart Lane ↔ GeoJSON Venue 16 - White Hart Lane (also known as The Lane) | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Craven Cottage ↔ GeoJSON Venue 15 - Craven Cottage (also known as The Cottage) | UseSim: 1.00, NameSim: 0.52, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Green Pond Road ↔ GeoJSON Venue 19 - Green Pond Road Stadium (also known as The Pond) | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Empress Hall (Earl's Court) ↔ GeoJSON Venue 5 - Empress Hall, Earls Court Exhibition Centre | UseSim: 0.83, NameSim: 0.73, Score: 0.80 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Empire Pool ↔ GeoJSON Venue 6 - Wembley Arena | UseSim: 0.83, NameSim: 0.25, Score: 0.66 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 22 - Bisley (Bisley National Rifle Association Ranges) ↔ GeoJSON Venue 1 - Bisley Rifle Range | UseSim: 0.67, NameSim: 0.55, Score: 0.63 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Empire Stadium (Wembley)' has no matching GeoJSON venue.
+[JSON Venue 1] 'Lyons Sports Ground, Sudbury Hill' has no matching GeoJSON venue.
+[JSON Venue 2] 'Polytechnic Stadium' has no matching GeoJSON venue.
+[JSON Venue 11] 'Guinness Sports Ground, Park Royal' has no matching GeoJSON venue.
+[JSON Venue 18] 'Central Gymnasium or Command Central Gymnasium' has no matching GeoJSON venue.
+[JSON Venue 19] 'Aldershot Command Central Stadium' has no matching GeoJSON venue.
+[JSON Venue 26] 'Henley-on-Thames (site of the Royal Regatta Course)' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Henley Royal Regatta Course' has no matching JSON venue.
+[GeoJSON Venue 2] 'Victoria & Albert Museum' has no matching JSON venue.
+[GeoJSON Venue 3] 'Empire Stadium (also known as Wembley Stadium)' has no matching JSON venue.
+[GeoJSON Venue 9] 'Army's Command Central Stadium' has no matching JSON venue.
+[GeoJSON Venue 22] 'John Lyons' Sports Ground' has no matching JSON venue.
+[GeoJSON Venue 23] 'Polytechnic Sports Ground' has no matching JSON venue.
+[GeoJSON Venue 24] 'Guinness Sports Ground' has no matching JSON venue.
+[GeoJSON Venue 25] 'Army School of Physical Training' has no matching JSON venue.

@@ -1,0 +1,13 @@
+[Part Name Match] JSON Venue 6 'McKinney Creek Stadium' matched with GeoJSON Venue 7: McKinney Creek Stadium
+[Use/Sport + Name Match] JSON Venue 4 - East Rink ↔ GeoJSON Venue 1 - Eastern Rink | UseSim: 1.00, NameSim: 0.86, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Olympic Speed Skating Oval ↔ GeoJSON Venue 2 - Speed Skating Oval | UseSim: 1.00, NameSim: 0.82, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Papoose Peak Olympic Jumping Hill ↔ GeoJSON Venue 3 - Olympic Jumping Hill (also known as Papoose Peak Jumps) | UseSim: 1.00, NameSim: 0.77, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Piestewa Peak, KT-22 Mountain and Papoose Peak ↔ GeoJSON Venue 6 - Little Papoose Peak | UseSim: 1.00, NameSim: 0.48, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Blyth Memorial Ice Arena ↔ GeoJSON Venue 0 - Blyth Memorial Arena | UseSim: 0.67, NameSim: 0.91, Score: 0.74 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 4] 'Squaw Peak' has no matching JSON venue.
+[GeoJSON Venue 5] 'KT-22' has no matching JSON venue.

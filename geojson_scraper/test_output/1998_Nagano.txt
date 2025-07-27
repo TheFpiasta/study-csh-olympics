@@ -1,0 +1,22 @@
+[Part Name Match] JSON Venue 1 'M-Wave' matched with GeoJSON Venue 8: M-Wave
+[Part Name Match] JSON Venue 4 'White Ring' matched with GeoJSON Venue 9: White Ring
+[Part Name Match] JSON Venue 13 'Kazakoshi Park Arena' matched with GeoJSON Venue 5: Kazakoshi Park Arena
+[Part Name Match] JSON Venue 14 'Snow Harp' matched with GeoJSON Venue 2: Snow Harp
+[Part Name Match] JSON Venue 15 'Hakuba Ski Jumping Stadium' matched with GeoJSON Venue 0: Hakuba Ski Jumping Stadium
+[Use/Sport + Name Match] JSON Venue 9 - Shiga Kogen - Mount Higashidate ↔ GeoJSON Venue 13 - Mt. Higashidate, Shiga Kogen | UseSim: 1.00, NameSim: 0.95, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Aqua Wing ↔ GeoJSON Venue 6 - Aqua Wing Arena | UseSim: 1.00, NameSim: 0.75, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Spiral Track ↔ GeoJSON Venue 4 - The Spiral | UseSim: 1.00, NameSim: 0.73, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Iizuna Kogen Ski Area ↔ GeoJSON Venue 3 - Iizuna Kogen Resort | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Nozawa Onsen Biathlon Venue ↔ GeoJSON Venue 10 - Nozawa Onsen Resort | UseSim: 1.00, NameSim: 0.61, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Hakuba Happo'one Ski Area ↔ GeoJSON Venue 1 - Happo'one | UseSim: 1.00, NameSim: 0.50, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Big Hat ↔ GeoJSON Venue 7 - Big Hat (also known as Wakasato Multi-Purpose Sports Arena) | UseSim: 1.00, NameSim: 0.22, Score: 0.77 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 6] 'Nagano Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 7] 'Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 10] 'Shiga Kogen - Mount Yakebitai' has no matching GeoJSON venue.
+[JSON Venue 11] 'Shiga Kogen - Kanbayashi Snowboard Park' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 11] 'Mt. Yakebitai, Shiga Kogen' has no matching JSON venue.
+[GeoJSON Venue 12] 'Kanbayashi Sports Park' has no matching JSON venue.

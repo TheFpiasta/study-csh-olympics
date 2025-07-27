@@ -1,0 +1,31 @@
+[Part Name Match] JSON Venue 0 'Hippodrome d'Auteuil' matched with GeoJSON Venue 9: Hippodrome d'Auteuil
+[Part Name Match] JSON Venue 1 'Bassin d'Argenteuil' matched with GeoJSON Venue 6: Bassin d'Argenteuil
+[Part Name Match] JSON Venue 6 'Stade Olympique de Colombes' matched with GeoJSON Venue 4: Stade Olympique de Colombes
+[Part Name Match] JSON Venue 10 'Stade Bergeyre' matched with GeoJSON Venue 11: Stade Bergeyre
+[Part Name Match] JSON Venue 11 'Stade d'Escrime de Colombes / Stade de Colombes' matched with GeoJSON Venue 16: Stade d'Escrime de Colombes
+[Part Name Match] JSON Venue 12 'Stade Pershing' matched with GeoJSON Venue 13: Stade Pershing
+[Part Name Match] JSON Venue 14 'Stade Nautique des Tourelles / Piscine des Tourelles' matched with GeoJSON Venue 8: Piscine des Tourelles
+[Part Name Match] JSON Venue 18 'Camp de Châlons / Stand Olympique de Châlons-sur-Marne' matched with GeoJSON Venue 20: Camp de Châlons
+[Part Name Match] JSON Venue 19 'Palais de la Société des Régates du Havre' matched with GeoJSON Venue 2: Palais de la Société des Régates du Havre
+[Part Name Match] JSON Venue 20 'Hippodrome du Grand Parquet' matched with GeoJSON Venue 14: Hippodrome du Grand Parquet
+[Use/Sport + Name Match] JSON Venue 9 - Stand d'Issy-les-Moulineaux ↔ GeoJSON Venue 22 - Le Stand d'Issy-les-Moulineaux | UseSim: 1.00, NameSim: 0.94, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 16 - Stade de Tennis de Colombes ↔ GeoJSON Venue 7 - Stade Tennis de Colombes | UseSim: 1.00, NameSim: 0.94, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Cercle de la Voile de Paris, Meulan ↔ GeoJSON Venue 1 - Cercle de la Voile de Paris | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Terrain de Polo de Bagatelle ↔ GeoJSON Venue 19 - Polo de Bagatelle | UseSim: 1.00, NameSim: 0.76, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Saint-Cloud Country Club ↔ GeoJSON Venue 18 - Saint-Cloud Country Club (also known as Hippodrome Val d'Or) | UseSim: 1.00, NameSim: 0.58, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Stade de Paris ↔ GeoJSON Venue 12 - Stade de Paris (also known as Stade Bauer) | UseSim: 1.00, NameSim: 0.52, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Stand de Versailles ↔ GeoJSON Venue 21 - Parc des Sports | UseSim: 1.00, NameSim: 0.35, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Vélodrome d'Hiver ↔ GeoJSON Venue 5 - Vélodrome d'Hiver (also known as Vel d'Hiv) | UseSim: 0.83, NameSim: 0.58, Score: 0.76 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 2] 'Vélodrome municipal de Vincennes' has no matching GeoJSON venue.
+[JSON Venue 15] 'Auteuil-Villacoublay' has no matching GeoJSON venue.
+[JSON Venue 17] 'Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 21] 'Parc des Sports de Reims / Stand de la Société de Tir de Reims / Stade Olympique de Reims' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Vélodrome Municipal de Vincennes (also known as La Cipale)' has no matching JSON venue.
+[GeoJSON Venue 3] 'Grand Palais des Champs-Elysées' has no matching JSON venue.
+[GeoJSON Venue 10] '' has no matching JSON venue.
+[GeoJSON Venue 15] 'Le Stand de Versailles' has no matching JSON venue.
+[GeoJSON Venue 17] 'Fronton de Paris' has no matching JSON venue.

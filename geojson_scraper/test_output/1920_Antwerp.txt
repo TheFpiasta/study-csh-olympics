@@ -1,0 +1,28 @@
+[Part Name Match] JSON Venue 0 'Hoogboom Country Club' matched with GeoJSON Venue 3: Hoogboom Country Club
+[Part Name Match] JSON Venue 7 'Stadion Broodstraat' matched with GeoJSON Venue 15: Stadion Broodstraat
+[Part Name Match] JSON Venue 16 'Buiten-IJ' matched with GeoJSON Venue 4: Buiten-IJ
+[Use/Sport + Name Match] JSON Venue 12 - Duden Park Stadium ↔ GeoJSON Venue 13 - Stade du Parc Duden | UseSim: 1.00, NameSim: 0.76, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Celebration Hall, Royal Zoological Society (Feestzaal, Koninklijke Zoölogische Maatschappij) ↔ GeoJSON Venue 8 - Feestzaal, Koninklijke Zoölogische Maatschappij | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - Willebroek Canal (Willebroekse Vaart) ↔ GeoJSON Venue 6 - Willebroekse Vaart | UseSim: 1.00, NameSim: 0.68, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Nightingale Park (Nachtegalenpark) ↔ GeoJSON Venue 9 - Nachtegalenpark | UseSim: 1.00, NameSim: 0.64, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 17 - Beverloo Camp (Kamp Beverloo) ↔ GeoJSON Venue 2 - Kamp Beverlo | UseSim: 1.00, NameSim: 0.62, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Wellington Racing Track (Wellingtonrenbaan) ↔ GeoJSON Venue 17 - Wellingtonrenbaan | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Royal Beerschot Tennis and Hockey Club ↔ GeoJSON Venue 1 - Royal Beerschot Tennis & Hockey Club | UseSim: 0.83, NameSim: 0.94, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 18 - Jules Otten Stadium ↔ GeoJSON Venue 12 - Jules Ottenstadion (also known as Den Ot) | UseSim: 1.00, NameSim: 0.55, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Ice Palace ↔ GeoJSON Venue 11 - IJspaleis Antwerpen | UseSim: 1.00, NameSim: 0.34, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 11 - Antwerp Water Sports Stadium ↔ GeoJSON Venue 14 - Zwemstadion van Antwerpen | UseSim: 0.83, NameSim: 0.53, Score: 0.74 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Oostende ↔ GeoJSON Venue 10 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 6 - Vélodrome d'Anvers Zurenborg ↔ GeoJSON Venue 16 - Garden City Velodroom | UseSim: 0.67, NameSim: 0.42, Score: 0.59 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 4] 'Flower Hall (Floraliën), Middelheim Park' has no matching GeoJSON venue.
+[JSON Venue 8] 'Shooting Range, Het Kiel (Shieetbaan, Het Kiel)' has no matching GeoJSON venue.
+[JSON Venue 9] 'Antwerp Olympic Stadium (Olympisch Stadion)' has no matching GeoJSON venue.
+[JSON Venue 10] 'Merksem-Antwerp' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Olympisch Stadion (also known as 't Kiel)' has no matching JSON venue.
+[GeoJSON Venue 5] 'Floraliën, Middelheimpark' has no matching JSON venue.
+[GeoJSON Venue 7] 'Schietbaan, Het Kiel (also known as Den Tir)' has no matching JSON venue.
+[GeoJSON Venue 18] '' has no matching JSON venue.
+[GeoJSON Venue 19] '' has no matching JSON venue.

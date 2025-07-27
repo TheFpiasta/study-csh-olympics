@@ -1,0 +1,23 @@
+[Part Name Match] JSON Venue 1 'Torino Esposizioni' matched with GeoJSON Venue 1: Torino Esposizioni
+[Part Name Match] JSON Venue 4 'Palasport Olimpico' matched with GeoJSON Venue 2: Palasport Olimpico
+[Part Name Match] JSON Venue 5 'Oval Lingotto' matched with GeoJSON Venue 0: Oval Lingotto
+[Use/Sport + Name Match] JSON Venue 6 - Pinerolo Palaghiaccio ↔ GeoJSON Venue 11 - Palaghiaccio | UseSim: 1.00, NameSim: 0.73, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Palavela ↔ GeoJSON Venue 3 - Palavela (also known as Palazzo a Vela) | UseSim: 1.00, NameSim: 0.36, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - San Sicario Fraiteve ↔ GeoJSON Venue 5 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Sestriere Borgata and Sestriere Colle ↔ GeoJSON Venue 6 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 11 - Cesana San Sicario ↔ GeoJSON Venue 12 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Trampolino Olimpico Pragelato ↔ GeoJSON Venue 10 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - Cesana Torinese ↔ GeoJSON Venue 4 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 16 - Sauze d'Oulx-Jouvenceaux ↔ GeoJSON Venue 7 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Pragelato Plan ↔ GeoJSON Venue 9 - Stadio del Trampolino | UseSim: 0.67, NameSim: 0.40, Score: 0.59 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Stadio Olimpico Torino' has no matching GeoJSON venue.
+[JSON Venue 3] 'Turin Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 10] 'Bardonecchia' has no matching GeoJSON venue.
+[JSON Venue 14] 'Bardonecchia Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 15] 'Sestriere Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 8] '' has no matching JSON venue.
+[GeoJSON Venue 13] '' has no matching JSON venue.

@@ -1,0 +1,11 @@
+[Part Name Match] JSON Venue 0 'Skistadion' matched with GeoJSON Venue 3: Skistadion
+[Part Name Match] JSON Venue 4 'Cresta Run' matched with GeoJSON Venue 2: Cresta Run
+[Use/Sport + Name Match] JSON Venue 2 - Olympiaschanze St. Moritz ↔ GeoJSON Venue 4 - Olympiaschanze | UseSim: 1.00, NameSim: 0.74, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - St. Moritz Olympia Bob Run ↔ GeoJSON Venue 1 - Olympia Bobrun | UseSim: 1.00, NameSim: 0.62, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Olympiastadion St. Moritz (St. Moritz Olympic Stadium) ↔ GeoJSON Venue 0 - Olympia-Eisstadion Badrutts Park | UseSim: 0.73, NameSim: 0.52, Score: 0.67 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 5] 'Skant Moritzersee' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 5] 'Sankt Moritzersee' has no matching JSON venue.

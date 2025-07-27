@@ -1,0 +1,34 @@
+[Part Name Match] JSON Venue 16 'Deutschlandhalle' matched with GeoJSON Venue 4: Deutschlandhalle
+[Use/Sport + Name Match] JSON Venue 18 - Cycling Stadium (Olympia-Radstadion) ↔ GeoJSON Venue 7 - Olympia-Radstadion | UseSim: 1.00, NameSim: 0.68, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Police Stadium (Polizeistadion) ↔ GeoJSON Venue 18 - Polizeistadion | UseSim: 1.00, NameSim: 0.65, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Mommsen Stadium (Mommsenstadion) ↔ GeoJSON Venue 13 - Mommsenstadion | UseSim: 1.00, NameSim: 0.64, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Hockey Stadium (Hockeystadion) ↔ GeoJSON Venue 20 - Hockeystadion | UseSim: 1.00, NameSim: 0.63, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Post Stadium (Poststadion) ↔ GeoJSON Venue 14 - Poststadion | UseSim: 1.00, NameSim: 0.63, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 19 - Kiel Bay ↔ GeoJSON Venue 23 - Kieler Förde | UseSim: 1.00, NameSim: 0.50, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 6 - Tennis Courts and Tennis Stadium ↔ GeoJSON Venue 3 - Tennisplätze, Reichssportfeld | UseSim: 1.00, NameSim: 0.47, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Dietrich Eckart Open Air Theatre ↔ GeoJSON Venue 17 - Dietrich-Eckart-Freilichtbühne, Reichssportfeld | UseSim: 1.00, NameSim: 0.42, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Stadion am Gesundbrunnen (Herta-BSC ground) ↔ GeoJSON Venue 15 - Hertha-BSC-Platz (also known as Plumpe) | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Shooting Ranges at Wannsee ↔ GeoJSON Venue 24 - Schießstände (Deutsche Versuchsanstalt für Handfeuerwaffen) | UseSim: 1.00, NameSim: 0.36, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Grünau Regatta Course ↔ GeoJSON Venue 5 - Regattabahn | UseSim: 0.83, NameSim: 0.44, Score: 0.71 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - May Field (Mai-feld) ↔ GeoJSON Venue 9 - Maifeld, Reichssportfeld | UseSim: 0.83, NameSim: 0.40, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 15 - Berlin Olympic Swimming Stadium ↔ GeoJSON Venue 8 - Schwimmstadion, Reichssportfeld | UseSim: 0.83, NameSim: 0.33, Score: 0.68 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 14 - Berlin Olympic Stadium ↔ GeoJSON Venue 2 - Olympiastadion, Reichssportfeld | UseSim: 0.67, NameSim: 0.42, Score: 0.59 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Gymnasium and Cupola Hall (Haus des Deutschen Sports) ↔ GeoJSON Venue 12 - Haus des Sports, Kuppelsaal, Reichssportfeld | UseSim: 0.67, NameSim: 0.32, Score: 0.56 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Avus Motor Road' has no matching GeoJSON venue.
+[JSON Venue 4] 'Wannsee Golf Course' has no matching GeoJSON venue.
+[JSON Venue 9] 'Shooting Ranges at Ruhleben' has no matching GeoJSON venue.
+[JSON Venue 17] 'Berlin Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 20] 'Döberitz Military Drill Grounds' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Ausstellungsgelände Halle VI, Kaiserdamm' has no matching JSON venue.
+[GeoJSON Venue 1] '' has no matching JSON venue.
+[GeoJSON Venue 6] 'Avus-Nordschleife' has no matching JSON venue.
+[GeoJSON Venue 10] 'Truppenübungsplatz' has no matching JSON venue.
+[GeoJSON Venue 11] 'Sportforum, Turnhalle, Reichssportfeld' has no matching JSON venue.
+[GeoJSON Venue 16] 'Flugplatz, Staaken' has no matching JSON venue.
+[GeoJSON Venue 19] 'BSV-Platz' has no matching JSON venue.
+[GeoJSON Venue 21] 'Schießstände' has no matching JSON venue.
+[GeoJSON Venue 22] 'Golfplatz' has no matching JSON venue.

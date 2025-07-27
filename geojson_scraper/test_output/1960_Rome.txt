@@ -1,0 +1,39 @@
+[Part Name Match] JSON Venue 11 'Piscina delle Rose' matched with GeoJSON Venue 28: Piscina delle Rose
+[Use/Sport + Name Match] JSON Venue 25 - Fuorigrotta Stadium ↔ GeoJSON Venue 13 - Stadio Fuorigrotta | UseSim: 1.00, NameSim: 0.92, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 24 - Adriatico Stadium ↔ GeoJSON Venue 14 - Stadio Adriatico | UseSim: 1.00, NameSim: 0.91, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Flaminio Stadium ↔ GeoJSON Venue 12 - Stadio Flaminio | UseSim: 1.00, NameSim: 0.90, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 21 - Ardenza Stadium ↔ GeoJSON Venue 18 - Stadio Ardenza | UseSim: 1.00, NameSim: 0.90, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - Rome Olympic Velodrome ↔ GeoJSON Venue 7 - Velodrome Olimpico | UseSim: 1.00, NameSim: 0.85, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Basilica of Maxentius ↔ GeoJSON Venue 29 - Basilica di Massenzio | UseSim: 1.00, NameSim: 0.71, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 18 - Communal Stadium, Florence ↔ GeoJSON Venue 16 - Stadio Comunale | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 20 - Communal Stadium, Grosseto ↔ GeoJSON Venue 17 - Stadio Comunale | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 19 - Communal Stadium, L'Aquila ↔ GeoJSON Venue 15 - Stadio Olimpico Comunale | UseSim: 1.00, NameSim: 0.67, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Marble Stadium ↔ GeoJSON Venue 20 - Stadio dei Marmi | UseSim: 1.00, NameSim: 0.60, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Baths of Caracalla ↔ GeoJSON Venue 19 - Terme di Caracalla | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - SS Lazio Shooting Club ↔ GeoJSON Venue 27 - Campo di Tiro a Volo Lazio | UseSim: 1.00, NameSim: 0.46, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - Sports Palace ↔ GeoJSON Venue 3 - Palazzo dello Sport (also known as PalaLottomotica) | UseSim: 1.00, NameSim: 0.35, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 14 - Small Sports Palace ↔ GeoJSON Venue 2 - Palazzetto dello Sport (also known as PalaFlaminio, PalaTiziano) | UseSim: 1.00, NameSim: 0.35, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 26 - Lake Albano ↔ GeoJSON Venue 4 - Lago Albano (also known as Lago di Castel Gandolfo) | UseSim: 1.00, NameSim: 0.30, Score: 0.79 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 16 - Cesano Shooting Range ↔ GeoJSON Venue 26 - Scuola di Fanteria dell'Esercito Italiano | UseSim: 1.00, NameSim: 0.23, Score: 0.77 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Olympic Swimming Stadium ↔ GeoJSON Venue 8 - Stadio Olimpico del Nuoto | UseSim: 0.83, NameSim: 0.49, Score: 0.73 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Olympic Stadium ↔ GeoJSON Venue 0 - Stadio Olimpico | UseSim: 0.67, NameSim: 0.80, Score: 0.71 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 23 - Bay of Naples ↔ GeoJSON Venue 25 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Congress Palace ↔ GeoJSON Venue 11 - Palazzo dei Congressi | UseSim: 0.67, NameSim: 0.72, Score: 0.68 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Umberto I Shooting Range ↔ GeoJSON Venue 23 - Poligono Umberto I | UseSim: 0.67, NameSim: 0.57, Score: 0.64 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Piazza di Siena' has no matching GeoJSON venue.
+[JSON Venue 5] 'Acquasanta Golf Club Course' has no matching GeoJSON venue.
+[JSON Venue 9] 'Pratoni del Vivaro' has no matching GeoJSON venue.
+[JSON Venue 17] 'Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 22] 'Passo Corese' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 1] 'Arco di Constantino' has no matching JSON venue.
+[GeoJSON Venue 5] 'Circuito Grottarossa' has no matching JSON venue.
+[GeoJSON Venue 6] 'Viale Oceano Pacifico' has no matching JSON venue.
+[GeoJSON Venue 9] 'Piazza di Siena, Villa Borghese' has no matching JSON venue.
+[GeoJSON Venue 10] 'Centro Equestre Federale' has no matching JSON venue.
+[GeoJSON Venue 21] 'Stadio Tre Fontane' has no matching JSON venue.
+[GeoJSON Venue 22] 'Centro Federale' has no matching JSON venue.
+[GeoJSON Venue 24] 'Circolo del Golf di Roma Acquasanta' has no matching JSON venue.

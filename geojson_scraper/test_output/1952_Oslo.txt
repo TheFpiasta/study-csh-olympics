@@ -1,0 +1,21 @@
+[Part Name Match] JSON Venue 5 'Jordal Amfi' matched with GeoJSON Venue 6: Jordal Amfi
+[Use/Sport + Name Match] JSON Venue 11 - Drammen Marienlyst Stadium ↔ GeoJSON Venue 9 - Marienlyst Stadion | UseSim: 1.00, NameSim: 0.73, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Sandvika Kadettangen Stadium ↔ GeoJSON Venue 8 - Kadettangen | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Holmenkollen Ski Jumping Hill ↔ GeoJSON Venue 11 - Holmenkollbakken | UseSim: 1.00, NameSim: 0.53, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Lillestrøm Stadium ↔ GeoJSON Venue 10 - Lillestrøm Idrettsplass | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Korketrekken ↔ GeoJSON Venue 3 - Bob sleighbanen (also known as Korketrekkeren) | UseSim: 1.00, NameSim: 0.43, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 3 - Rødkleiva ↔ GeoJSON Venue 1 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - Norefjell ↔ GeoJSON Venue 2 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Holmenkollen Cross-Country Races Centre ↔ GeoJSON Venue 0 - Holmenkollen Langrennssentret | UseSim: 0.67, NameSim: 0.48, Score: 0.61 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Dæhlenenga (Idrettspark)' has no matching GeoJSON venue.
+[JSON Venue 1] 'Bislett Stadium' has no matching GeoJSON venue.
+[JSON Venue 6] 'Sogn Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 7] 'Ullevål Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 8] 'Ila Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 4] 'Jordal Stadion' has no matching JSON venue.
+[GeoJSON Venue 5] 'Bislett Stadion' has no matching JSON venue.
+[GeoJSON Venue 7] 'Dæhlenenga Idrettsplass' has no matching JSON venue.

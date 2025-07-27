@@ -1,0 +1,42 @@
+[Part Name Match] JSON Venue 3 'Toda Rowing Course' matched with GeoJSON Venue 23: Toda Rowing Course
+[Part Name Match] JSON Venue 24 'Tokorozawa Clay Pigeon Shooting Range' matched with GeoJSON Venue 25: Tokorozawa Clay Pigeon Shooting Range
+[Use/Sport + Name Match] JSON Venue 30 - Karuizawa Equestrian Venue, Nagano ↔ GeoJSON Venue 9 - Karuizawa Equestrian Venue | UseSim: 1.00, NameSim: 0.88, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 25 - Hachioji Cycling Road Race Course ↔ GeoJSON Venue 5 - Hachioji Road Race Course | UseSim: 1.00, NameSim: 0.86, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 16 - Komazawa Stadium ↔ GeoJSON Venue 13 - Mitsuzawa Stadium | UseSim: 1.00, NameSim: 0.79, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Komazawa Third Hockey Fields ↔ GeoJSON Venue 18 - Komazawa Hockey Fields, Komazawa Olympic Park | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 17 - Komazawa Volleyball Court ↔ GeoJSON Venue 26 - Komazawa Volleyball Court, Komazawa Olympic Park | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Tokyo Metropolitan Indoor Swimming Pool ↔ GeoJSON Venue 28 - Tōkyō Taiikukan Indoor Swimming Pool | UseSim: 1.00, NameSim: 0.64, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 29 - Lake Sagami ↔ GeoJSON Venue 4 - Sagami-ko | UseSim: 1.00, NameSim: 0.63, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - Komazawa Gymnasium ↔ GeoJSON Venue 30 - Komazawa Gymnasium, Komazawa Olympic Park | UseSim: 1.00, NameSim: 0.62, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 22 - Shibuya Public Hall ↔ GeoJSON Venue 29 - Shibuya Kokaido | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 26 - Hachioji Velodrome ↔ GeoJSON Venue 6 - Hachioji Jitenshakyogijo | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Korakuen Ice Palace ↔ GeoJSON Venue 2 - Korakuen Horu | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Yokohama Cultural Gymnasium ↔ GeoJSON Venue 27 - Yokohama Bunka Taiikukan | UseSim: 1.00, NameSim: 0.55, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Prince Chichibu Memorial Football Field ↔ GeoJSON Venue 11 - Chichibunomiya Ragubijo | UseSim: 1.00, NameSim: 0.35, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 18 - Mitsuzawa Football Field ↔ GeoJSON Venue 14 - Saitamashi Omiya Koen Sakkajo | UseSim: 1.00, NameSim: 0.34, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 19 - National Gymnasium Annex ↔ GeoJSON Venue 1 - Kokuritsu Yoyogi Kyogijo (Annex) | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 21 - Omiya Football Field ↔ GeoJSON Venue 12 - Komazawa Stadium, Komazawa Olympic Park | UseSim: 1.00, NameSim: 0.28, Score: 0.78 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Waseda Memorial Hall ↔ GeoJSON Venue 10 - Memorial Hall, Waseda Daigaku | UseSim: 0.67, NameSim: 0.83, Score: 0.72 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Asaka Shooting Range ↔ GeoJSON Venue 20 - Asaka Shooting Range, Nezu Park | UseSim: 0.67, NameSim: 0.80, Score: 0.71 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Enoshima Yacht Harbour ↔ GeoJSON Venue 24 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 23 - National Gymnasium ↔ GeoJSON Venue 7 - Kokuritsu Yoyogi Kyogijo | UseSim: 0.83, NameSim: 0.14, Score: 0.63 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Tokyo Metropolitan Gymnasium ↔ GeoJSON Venue 17 - Tōkyō Taiikukan | UseSim: 0.67, NameSim: 0.42, Score: 0.59 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - National Stadium ↔ GeoJSON Venue 0 - Kokuritsu Kyogijo | UseSim: 0.73, NameSim: 0.18, Score: 0.57 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Baji Koen Equestrian Park' has no matching GeoJSON venue.
+[JSON Venue 9] 'Tokyo Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 10] 'Komazawa First Hockey Fields' has no matching GeoJSON venue.
+[JSON Venue 11] 'Komazawa Second Hockey Fields' has no matching GeoJSON venue.
+[JSON Venue 20] 'Nippon Budokan Hall' has no matching GeoJSON venue.
+[JSON Venue 27] 'Asaka Nezu Park' has no matching GeoJSON venue.
+[JSON Venue 28] 'Tokyo University Kemigawa Playing Grounds' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 3] 'Meiji Jingu Yakyujo' has no matching JSON venue.
+[GeoJSON Venue 8] 'Baji Koen Equestrian Park (also known as JRA Equestrian Park)' has no matching JSON venue.
+[GeoJSON Venue 15] 'Osakashi Nagai Rikujo Kyogijo' has no matching JSON venue.
+[GeoJSON Venue 16] 'Nishikyogoku Sutajiamu' has no matching JSON venue.
+[GeoJSON Venue 19] 'Nippon Budokan (also known as Budokan)' has no matching JSON venue.
+[GeoJSON Venue 21] 'Nezu Park' has no matching JSON venue.
+[GeoJSON Venue 22] 'Combined Athletic Grounds, Tokyo Daigaku' has no matching JSON venue.

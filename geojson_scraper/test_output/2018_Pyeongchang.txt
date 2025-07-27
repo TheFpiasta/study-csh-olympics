@@ -1,0 +1,21 @@
+[Use/Sport + Name Match] JSON Venue 4 - Alpensia Biathlon Centre ↔ GeoJSON Venue 1 - Alpensia Biathlon Centre, Alpensia Resort, Mountain Cluster | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Gangneung Curling Centre ↔ GeoJSON Venue 8 - Gangneung Curling Centre, Gangneung Olympic Park, Coastal Cluster | UseSim: 1.00, NameSim: 0.55, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Gangneung Hockey Centre ↔ GeoJSON Venue 7 - Gangneung Hockey Centre, Gangneung Olympic Park, Coastal Cluster | UseSim: 1.00, NameSim: 0.54, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Alpensia Olympic Sliding Centre ↔ GeoJSON Venue 3 - Olympic Sliding Centre, Alpensia Resort, Mountain Cluster | UseSim: 0.89, NameSim: 0.72, Score: 0.84 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Gangneung Oval ↔ GeoJSON Venue 9 - Gangneung Oval, Gangneung Olympic Park, Coastal Cluster | UseSim: 1.00, NameSim: 0.42, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - Kwandong Hockey Centre ↔ GeoJSON Venue 11 - Kwandong Hockey Centre, Coastal Cluster (also known as Catholic Kwandong University Gymnasium) | UseSim: 1.00, NameSim: 0.39, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 3 - Alpensia Cross-Country Centre ↔ GeoJSON Venue 2 - Alpensia Cross-Country Centre, Alpensia Resort, Mountain Cluster | UseSim: 0.67, NameSim: 0.63, Score: 0.66 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Gangneung Ice Arena ↔ GeoJSON Venue 10 - Gangneung Ice Arena, Gangneung Olympic Park, Coastal Cluster | UseSim: 0.67, NameSim: 0.49, Score: 0.61 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Bokwang Phoenix Park ↔ GeoJSON Venue 5 - Phoenix Snow Park, Mountain Cluster (also known as Bokwang Sport Park) | UseSim: 0.67, NameSim: 0.46, Score: 0.60 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Alpensia Ski Jumping Stadium ↔ GeoJSON Venue 0 - Alpensia Ski Jumping Centre, Alpensia Resort, Mountain Cluster | UseSim: 0.67, NameSim: 0.45, Score: 0.60 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Yongpyong Alpine Centre' has no matching GeoJSON venue.
+[JSON Venue 5] 'Jeongseon Alpine Centre' has no matching GeoJSON venue.
+[JSON Venue 7] 'PyeongChang Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 8] 'PyeongChang Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 14] 'Gangneung Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 4] 'Yongpyong Alpine Centre, Mountain Cluster' has no matching JSON venue.
+[GeoJSON Venue 6] 'Jeongseon Alpine Centre, Mountain Cluster' has no matching JSON venue.

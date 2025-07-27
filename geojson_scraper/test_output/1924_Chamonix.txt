@@ -1,0 +1,8 @@
+[Use/Sport + Name Match] JSON Venue 2 - Tremplin Olympique du Mont ↔ GeoJSON Venue 1 - Le Tremplin Olympique | UseSim: 1.00, NameSim: 0.81, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Piste des Pélerins ↔ GeoJSON Venue 0 - La Piste de Bobsleigh | UseSim: 1.00, NameSim: 0.41, Score: 0.82 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Stade Olympique de Chamonix / Stade de Glace (du Bouchet)' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 2] 'Stade Olympique' has no matching JSON venue.

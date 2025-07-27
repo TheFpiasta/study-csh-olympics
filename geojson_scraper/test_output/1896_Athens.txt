@@ -1,0 +1,13 @@
+[Part Name Match] JSON Venue 3 'Zappeion' matched with GeoJSON Venue 2: Zappeion
+[Use/Sport + Name Match] JSON Venue 2 - Bay of Zea ↔ GeoJSON Venue 4 - Ormos tes Zeas (also known as Pasalimani) | UseSim: 1.00, NameSim: 0.29, Score: 0.79 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 6 - Kallithea stand ↔ GeoJSON Venue 3 - Skopeftirion | UseSim: 1.00, NameSim: 0.22, Score: 0.77 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Velodrome ↔ GeoJSON Venue 1 - Podilatodromio Neou Falirou | UseSim: 0.67, NameSim: 0.39, Score: 0.58 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Athens Lawn Tennis Club ↔ GeoJSON Venue 5 - Homilos Antisfairiseos Athinon | UseSim: 0.67, NameSim: 0.30, Score: 0.56 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Panathenaic Stadium' has no matching GeoJSON venue.
+[JSON Venue 1] 'Phaleron Bay' has no matching GeoJSON venue.
+[JSON Venue 7] 'Athens-Marathon-Athens' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Panathinaiko Stadio (also known as Kallimarmaro)' has no matching JSON venue.

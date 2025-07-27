@@ -1,0 +1,24 @@
+[Part Name Match] JSON Venue 0 'West Melbourne Stadium' matched with GeoJSON Venue 2: West Melbourne Stadium
+[Part Name Match] JSON Venue 3 'Oaklands Hunt Club' matched with GeoJSON Venue 9: Oaklands Hunt Club
+[Part Name Match] JSON Venue 8 'Royal Australian Air Force Station' matched with GeoJSON Venue 13: Royal Australian Air Force Station
+[Use/Sport + Name Match] JSON Venue 10 - Melbourne Olympic Park Velodrome ↔ GeoJSON Venue 5 - Olympic Park Velodrome | UseSim: 1.00, NameSim: 0.81, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Melbourne Olympic Park Stadium ↔ GeoJSON Venue 8 - Olympic Park Stadium | UseSim: 1.00, NameSim: 0.80, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - St Kilda Town Hall ↔ GeoJSON Venue 7 - Town Hall | UseSim: 1.00, NameSim: 0.67, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Melbourne Olympic Swimming and Diving Stadium ↔ GeoJSON Venue 6 - Olympic Park Swimming and Diving Stadium | UseSim: 0.83, NameSim: 0.82, Score: 0.83 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Lake Wendouree (Ballarat) ↔ GeoJSON Venue 3 - Lake Wendouree | UseSim: 0.83, NameSim: 0.76, Score: 0.81 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Port Phillip Bay ↔ GeoJSON Venue 12 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Broadmeadows ↔ GeoJSON Venue 4 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 1 - Main Stadium or Melbourne Cricket Ground ↔ GeoJSON Venue 0 - Melbourne Cricket Ground | UseSim: 0.60, NameSim: 0.75, Score: 0.65 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - The Merritt Rifle Range or Williamstown Rifle Range ↔ GeoJSON Venue 11 - Merrett Rifle Range | UseSim: 0.67, NameSim: 0.51, Score: 0.62 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Exhibition Building ↔ GeoJSON Venue 10 - Royal Exhibition Building | UseSim: 0.50, NameSim: 0.86, Score: 0.61 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 11] 'Melbourne Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 14] 'Stockholm Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 15] 'Faboda Natural Reserve, Lilljansskogen (Stockholm)' has no matching GeoJSON venue.
+[JSON Venue 16] 'Ulriksdal Race Track, Kapplöpningsbana (Stockholm)' has no matching GeoJSON venue.
+[JSON Venue 17] 'Stockholm Olympic Village (Karlberg Castle, Stockholm)' has no matching GeoJSON venue.
+[JSON Venue 18] 'Stockholm Olympic Village (Näsby Castle, Stockholm)' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 1] 'Royal Exhibition Building Annex' has no matching JSON venue.

@@ -1,0 +1,18 @@
+[Part Name Match] JSON Venue 2 'Makomanai Indoor Skating Rink' matched with GeoJSON Venue 1: Makomanai Indoor Skating Rink
+[Part Name Match] JSON Venue 3 'Makomanai Speed Skating Rink' matched with GeoJSON Venue 0: Makomanai Speed Skating Rink
+[Part Name Match] JSON Venue 5 'Mikaho Indoor Skating Rink' matched with GeoJSON Venue 2: Mikaho Indoor Skating Rink
+[Use/Sport + Name Match] JSON Venue 4 - Tsukisamu Indoor Skating Rink ↔ GeoJSON Venue 3 - Tsukisaumu Indoor Skating Rink | UseSim: 1.00, NameSim: 0.98, Score: 0.99 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Mt Teine Bobsleigh Course ↔ GeoJSON Venue 11 - Mount Teine Bobsleigh Course | UseSim: 1.00, NameSim: 0.94, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 12 - Mt Teine Luge Course ↔ GeoJSON Venue 10 - Mount Teine Luge Course | UseSim: 1.00, NameSim: 0.93, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Okurayama Ski Jump ↔ GeoJSON Venue 6 - Okurayama Ski Jump Stadium | UseSim: 1.00, NameSim: 0.82, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Miyanomori Ski Jump ↔ GeoJSON Venue 7 - Miyanomori Jump Hill | UseSim: 1.00, NameSim: 0.77, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Makomanai Biathlon Course ↔ GeoJSON Venue 5 - Makomanai Biathlon Site | UseSim: 1.00, NameSim: 0.75, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Mt Teine Slalom Events Site ↔ GeoJSON Venue 9 - Mount Teine | UseSim: 1.00, NameSim: 0.42, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 13 - Mt Eniwa Downhill Events Site ↔ GeoJSON Venue 8 - Mount Eniwa | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Makomanai Cross-Country Events Site ↔ GeoJSON Venue 4 - Makomanai Cross Country Events Site | UseSim: 0.67, NameSim: 0.84, Score: 0.72 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 8] 'Mt Teine Giant Slalom Events Site' has no matching GeoJSON venue.
+[JSON Venue 9] 'Sapporo Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---

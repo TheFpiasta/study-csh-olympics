@@ -1,0 +1,35 @@
+[Part Name Match] JSON Venue 4 'Georgia Dome' matched with GeoJSON Venue 3: Georgia Dome
+[Part Name Match] JSON Venue 11 'Georgia Tech Aquatic Center' matched with GeoJSON Venue 14: Georgia Tech Aquatic Center
+[Part Name Match] JSON Venue 13 'Wolf Creek Shooting Complex' matched with GeoJSON Venue 25: Wolf Creek Shooting Complex
+[Part Name Match] JSON Venue 14 'Atlanta Beach' matched with GeoJSON Venue 7: Atlanta Beach
+[Part Name Match] JSON Venue 18 'Buckhead Cycling Course' matched with GeoJSON Venue 10: Buckhead Cycling Course
+[Part Name Match] JSON Venue 19 'Florida Citrus Bowl' matched with GeoJSON Venue 16: Florida Citrus Bowl
+[Part Name Match] JSON Venue 21 'Legion Field' matched with GeoJSON Venue 17: Legion Field
+[Part Name Match] JSON Venue 22 'Orange Bowl' matched with GeoJSON Venue 18: Orange Bowl
+[Part Name Match] JSON Venue 24 'Sanford Stadium' matched with GeoJSON Venue 20: Sanford Stadium
+[Part Name Match] JSON Venue 25 'Wassaw Sound' matched with GeoJSON Venue 24: Wassaw Sound
+[Part Name Match] JSON Venue 28 'Ocoee Whitewater Center' matched with GeoJSON Venue 9: Ocoee Whitewater Center
+[Use/Sport + Name Match] JSON Venue 17 - Stone Mountain Park Archery Center ↔ GeoJSON Venue 0 - Stone Mountain Archery Center | UseSim: 1.00, NameSim: 0.92, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - Stone Mountain Park Tennis Center ↔ GeoJSON Venue 27 - Stone Mountain Tennis Center | UseSim: 1.00, NameSim: 0.92, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 16 - Stone Mountain Park Velodrome ↔ GeoJSON Venue 11 - Stone Mountain Velodrome | UseSim: 1.00, NameSim: 0.91, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Clark Atlanta University Stadium ↔ GeoJSON Venue 22 - Panther Stadium, Clark Atlanta University | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 26 - University of Georgia Coliseum ↔ GeoJSON Venue 23 - Georgia Coliseum, University of Georgia | UseSim: 1.00, NameSim: 0.88, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 20 - Golden Park ↔ GeoJSON Venue 26 - Golden Ball Park | UseSim: 1.00, NameSim: 0.81, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 23 - Robert F. Kennedy Memorial Stadium ↔ GeoJSON Venue 19 - Robert F. Kennedy Memorial Stadium (also known as RFK Stadium) | UseSim: 1.00, NameSim: 0.72, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Alonzo Herndon Stadium ↔ GeoJSON Venue 21 - Alonzo Herndon Stadium, Morris Brown College | UseSim: 1.00, NameSim: 0.68, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Georgia State University Gymnasium ↔ GeoJSON Venue 4 - Georgia State University Sports Arena (also known as GSU Arena) | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Alexander Memorial Coliseum ↔ GeoJSON Venue 5 - Alexander Memorial Coliseum (also known as The Dome, The Thrillerdome) | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Georgia World Congress Center (Halls D, E, F, G, H) ↔ GeoJSON Venue 15 - Georgia World Congress Center | UseSim: 0.90, NameSim: 0.78, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Atlanta Fulton County Stadium ↔ GeoJSON Venue 6 - Atlanta-Fulton County Stadium (also known as Fulton County Stadium, The Launching Pad) | UseSim: 1.00, NameSim: 0.52, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Omni Coliseum ↔ GeoJSON Venue 28 - The Omni Coliseum (also known as The Omni) | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Morehouse College ↔ GeoJSON Venue 2 - Franklin L. Forbes Arena, Morehouse College (also known as Forbes Arena) | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 27 - Lake Lanier ↔ GeoJSON Venue 8 - Lake Sidney Lanier (also known as Lake Lanier) | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Olympic Stadium ↔ GeoJSON Venue 1 - Centennial Olympic Stadium | UseSim: 0.56, NameSim: 0.73, Score: 0.61 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 8] 'Atlanta Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 9] 'Georgia International Horse Park' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 12] 'Georgia International Horse Park (also known as The Horse Park)' has no matching JSON venue.
+[GeoJSON Venue 13] 'Mountainbike Course, Georgia International Horse Park' has no matching JSON venue.

@@ -1,0 +1,18 @@
+[Part Name Match] JSON Venue 1 'Hurlingham Polo Grounds' matched with GeoJSON Venue 7: Hurlingham Polo Grounds
+[Part Name Match] JSON Venue 2 'Northampton Institute' matched with GeoJSON Venue 2: Northampton Institute
+[Part Name Match] JSON Venue 3 'Queen's Club' matched with GeoJSON Venue 5: Queen's Club
+[Part Name Match] JSON Venue 4 'Prince's Skating Club, Montpelier Square' matched with GeoJSON Venue 4: Prince's Skating Club, Montpelier Square
+[Part Name Match] JSON Venue 6 'Uxendon Shooting School Club' matched with GeoJSON Venue 12: Uxendon Shooting School Club
+[Part Name Match] JSON Venue 9 'Henley Royal Regatta Course' matched with GeoJSON Venue 8: Henley Royal Regatta Course
+[Part Name Match] JSON Venue 10 'Southampton Water' matched with GeoJSON Venue 6: Southampton Water
+[Part Name Match] JSON Venue 12 'Bisley Rifle Range' matched with GeoJSON Venue 11: Bisley Rifle Range
+[Use/Sport + Name Match] JSON Venue 0 - All England Lawn Tennis and Croquet Club ↔ GeoJSON Venue 13 - All-England Lawn Tennis & Croquet Club | UseSim: 1.00, NameSim: 0.83, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Royal Clyde Yacht Club, Hunters Quay ↔ GeoJSON Venue 10 - Royal Clyde Yacht Club | UseSim: 1.00, NameSim: 0.77, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Fencing Grounds ↔ GeoJSON Venue 3 - Fencing Ground just outside White City Stadium | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 11 - Ryde Pier, Ryde, Isle of Wight ↔ GeoJSON Venue 9 - Ryde Pier | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Prince's Galleries, Piccadilly (Prince's Hall) ↔ GeoJSON Venue 0 - Prince's Hall | UseSim: 1.00, NameSim: 0.45, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - London Olympic Stadium ↔ GeoJSON Venue 1 - White City Stadium (also known as The Great Stadium) | UseSim: 0.90, NameSim: 0.36, Score: 0.74 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+
+--- Unmatched GeoJSON Venues ---

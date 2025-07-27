@@ -1,0 +1,22 @@
+[Part Name Match] JSON Venue 0 'Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium' matched with GeoJSON Venue 8: Stockholms Fältridklubbs Stadion
+[Part Name Match] JSON Venue 1 'Djurgårdsbrunnsviken' matched with GeoJSON Venue 1: Djurgårdsbrunnsviken
+[Part Name Match] JSON Venue 5 'Lindarängen' matched with GeoJSON Venue 3: Lindarängen
+[Use/Sport + Name Match] JSON Venue 11 - Råsunda ↔ GeoJSON Venue 6 - Ellenhill, Råsunda | UseSim: 1.00, NameSim: 0.58, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats) ↔ GeoJSON Venue 11 - Tranebergs Idrottsplats | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Rasunda Athletic Sports Grounds (Rasunda Idrottsplats) ↔ GeoJSON Venue 7 - Råsunda Idrottsplats | UseSim: 1.00, NameSim: 0.53, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Royal Tennis Halls (Tennishallen) ↔ GeoJSON Venue 0 - Tennispaviljongen | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Swimming Stadium, Djurgården Bay ↔ GeoJSON Venue 9 - Simstadion, Djurgårdsbrunnsviken | UseSim: 0.89, NameSim: 0.55, Score: 0.79 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Sandhamm ↔ GeoJSON Venue 4 - Kungliga Svenska Segelsällskapet | UseSim: 1.00, NameSim: 0.20, Score: 0.76 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 14 - Barkaby to Rinkeby ↔ GeoJSON Venue 13 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Kaknäs Shooting Range, Djurgården ↔ GeoJSON Venue 2 - Kaknäs, Djurgården | UseSim: 0.67, NameSim: 0.69, Score: 0.67 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats) ↔ GeoJSON Venue 10 - Östermalms Idrottsplats | UseSim: 0.67, NameSim: 0.51, Score: 0.62 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 6] 'Stockholm Olympic Stadium (Olympiastadion)' has no matching GeoJSON venue.
+[JSON Venue 10] 'Liljeholm Bridge-Olympic Stadium-Lake Mälär' has no matching GeoJSON venue.
+[JSON Venue 12] 'Olympic Stadium-Sollentuna-Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 15] 'Nynäshamn' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 5] 'Stockholms Olympiastadion (also known as Stockholms Stadion)' has no matching JSON venue.
+[GeoJSON Venue 12] 'Karlavägen 10' has no matching JSON venue.

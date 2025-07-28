@@ -1,7 +1,6 @@
 import json
 import os
 import glob
-import re
 from venues_matcher import find_stadium_matches
 
 # Module-level variables that can be accessed by all functions
@@ -9,6 +8,27 @@ summer_data = None
 winter_data = None
 geojson_data = {}
 output_dir = "combined_geojson"
+
+# Logging configuration
+log_to_console = True
+log_to_file = True
+
+# Statistics tracking
+venue_statistics = {}
+total_statistics = {
+    'total_venues': 0,
+    'sports_matches': 0,
+    'name_matches': 0,
+    'name_matches_by_method': {
+        'exact_match': 0,
+        'substring_match': 0,
+        'token_match': 0,
+        'fuzzy_match': 0
+    },
+    'unmatched': 0,
+    'files_processed': 0
+}
+
 # Mapping of Olympics file names to their respective locations
 # key format: 'year-season', value format: 'year_location'
 # values hold the file name of the existing GeoJSON files
@@ -70,7 +90,7 @@ olympics_file_mapping = {
 }
 
 
-def transfer_venue_data(geojson_feature, json_venue, match_type="sports_match", confidence=1.0):
+def transfer_venue_data(geojson_feature, json_venue, match_type="sports_match", confidence=1.0, match_method=None):
     """
     Transfer important JSON venue data to the associating GeoJSON venue.
 
@@ -79,6 +99,7 @@ def transfer_venue_data(geojson_feature, json_venue, match_type="sports_match", 
         json_venue (dict): The matched JSON venue data to transfer from
         match_type (str): Type of match ("sports_match" or "name_match")
         confidence (float): Confidence score of the match (for name matches)
+        match_method (str): Specific matching method used (for name matches)
     """
     # Ensure properties exist
     if 'properties' not in geojson_feature:
@@ -90,6 +111,10 @@ def transfer_venue_data(geojson_feature, json_venue, match_type="sports_match", 
     # Add match metadata
     properties['match_type'] = match_type
     properties['match_confidence'] = confidence
+
+    # Store the specific matching method for name matches
+    if match_method:
+        properties['match_method'] = match_method
 
     # Transfer key venue information from JSON
     if 'name' in json_venue:
@@ -129,24 +154,24 @@ def load_venues_data():
     try:
         with open(summer_file_path, 'r', encoding='utf-8') as file:
             summer_data = json.load(file)
-        print(f"Successfully loaded summer venues data from: {summer_file_path}")
+        log_message(f"Successfully loaded summer venues data from: {summer_file_path}")
     except FileNotFoundError:
-        print(f"Error: Summer venues file not found at {summer_file_path}")
+        log_message(f"Error: Summer venues file not found at {summer_file_path}", level="ERROR")
         summer_data = None
     except json.JSONDecodeError as e:
-        print(f"Error: Invalid JSON in summer venues file - {e}")
+        log_message(f"Error: Invalid JSON in summer venues file - {e}", level="ERROR")
         summer_data = None
 
     # Load winter venues data
     try:
         with open(winter_file_path, 'r', encoding='utf-8') as file:
             winter_data = json.load(file)
-        print(f"Successfully loaded winter venues data from: {winter_file_path}")
+        log_message(f"Successfully loaded winter venues data from: {winter_file_path}")
     except FileNotFoundError:
-        print(f"Error: Winter venues file not found at {winter_file_path}")
+        log_message(f"Error: Winter venues file not found at {winter_file_path}", level="ERROR")
         winter_data = None
     except json.JSONDecodeError as e:
-        print(f"Error: Invalid JSON in winter venues file - {e}")
+        log_message(f"Error: Invalid JSON in winter venues file - {e}", level="ERROR")
         winter_data = None
 
 
@@ -164,7 +189,7 @@ def load_geojson_files():
     geojson_pattern = os.path.join(geojson_dir, "*.geojson")
     geojson_files = glob.glob(geojson_pattern)
 
-    print(f"Found {len(geojson_files)} GeoJSON files in {geojson_dir}")
+    log_message(f"Found {len(geojson_files)} GeoJSON files in {geojson_dir}")
 
     for file_path in geojson_files:
         # Get filename without extension
@@ -173,15 +198,15 @@ def load_geojson_files():
         try:
             with open(file_path, 'r', encoding='utf-8') as file:
                 geojson_data[filename] = json.load(file)
-            print(f"Successfully loaded: {filename}")
+            log_message(f"Successfully loaded: {filename}")
         except FileNotFoundError:
-            print(f"Error: File not found - {file_path}")
+            log_message(f"Error: File not found - {file_path}", level="ERROR")
         except json.JSONDecodeError as e:
-            print(f"Error: Invalid JSON in {filename} - {e}")
+            log_message(f"Error: Invalid JSON in {filename} - {e}", level="ERROR")
         except Exception as e:
-            print(f"Error loading {filename}: {e}")
+            log_message(f"Error loading {filename}: {e}", level="ERROR")
 
-    print(f"Successfully loaded {len(geojson_data)} GeoJSON files")
+    log_message(f"Successfully loaded {len(geojson_data)} GeoJSON files")
 
 
 def manipulate_geojson_file(filename, geojson_content):
@@ -217,7 +242,7 @@ def manipulate_geojson_file(filename, geojson_content):
             season = key.split('-')[1] if '-' in key else "Unknown"
             break
 
-    print(f"  -> Processing {year} {season.capitalize()} Olympics in {city}")
+    log_message(f"  -> Processing {year} {season.capitalize()} Olympics in {city}")
 
     # Determine which JSON data to use based on season
     json_datum = None
@@ -240,7 +265,7 @@ def manipulate_geojson_file(filename, geojson_content):
 
     # Process venue matching if we have JSON data
     if json_datum and 'data' in json_datum:
-        print(f"    -> Found {season} JSON data with {len(json_datum['data'])} entries")
+        log_message(f"    -> Found {season} JSON data with {len(json_datum['data'])} entries")
 
         # Find the data for this specific year
         year_data = None
@@ -253,7 +278,7 @@ def manipulate_geojson_file(filename, geojson_content):
                 break
 
         if year_data and 'venues' in year_data:
-            print(f"    -> Found venue data for {year} with {len(year_data['venues'])} venues")
+            log_message(f"    -> Found venue data for {year} with {len(year_data['venues'])} venues")
 
             # Process each feature (venue) in the GeoJSON
             if 'features' in manipulated_content:
@@ -261,7 +286,7 @@ def manipulate_geojson_file(filename, geojson_content):
                     if 'properties' in feature and 'sports' in feature['properties']:
                         venue_sports = feature['properties']['sports']
                         if isinstance(venue_sports, list):
-                            print(f"      -> Processing venue with sports: {venue_sports}")
+                            log_message(f"      -> Processing venue with sports: {venue_sports}")
 
                             # Try to find matching venue in JSON data
                             unmatched_venues = []
@@ -280,7 +305,7 @@ def manipulate_geojson_file(filename, geojson_content):
 
                                     if sports_match:
                                         transfer_venue_data(feature, json_venue, "sports_match")
-                                        print(f"        -> Matched with venue: {json_venue.get('name', 'Unknown')}")
+                                        log_message(f"        -> Matched with venue: {json_venue.get('name', 'Unknown')}")
                                     else:
                                         # Add unmatched venue with source_file from GeoJSON
                                         source_file = feature['properties'].get('source_file', 'Unknown')
@@ -288,7 +313,7 @@ def manipulate_geojson_file(filename, geojson_content):
 
                             # If we have unmatched venues, try to find matches using venue name matching
                             if unmatched_venues:
-                                print(
+                                log_message(
                                     f"        -> Found {len(unmatched_venues)} unmatched venues, trying name matching...")
 
                                 # Find the corresponding GeoJSON venues for the unmatched source files
@@ -315,25 +340,25 @@ def manipulate_geojson_file(filename, geojson_content):
                                         highest_match = all_matches[0]  # Already sorted by highest score
                                         confidence_threshold = 0.75  # Define minimum confidence threshold == fussy min score match
 
-                                        print(
+                                        log_message(
                                             f"        -> Found {len(all_matches)} name matches, highest confidence: {highest_match['confidence']:.2f}")
 
                                         if highest_match['confidence'] >= confidence_threshold:
-                                            print(
+                                            log_message(
                                                 f"        -> Highest match confidence ({highest_match['confidence']:.2f}) exceeds threshold ({confidence_threshold})")
                                             transfer_venue_data(feature, highest_match['stadium2'], "name_match",
-                                                                highest_match['confidence'])
+                                                                highest_match['confidence'], highest_match['method'])
                                         else:
-                                            print(
+                                            log_message(
                                                 f"        -> Highest match confidence ({highest_match['confidence']:.2f}) below threshold ({confidence_threshold})")
                                     else:
-                                        print(f"        -> No name matches found")
+                                        log_message(f"        -> No name matches found")
                         else:
-                            print(f"      -> Skipping venue - sports is not a list: {venue_sports}")
+                            log_message(f"      -> Skipping venue - sports is not a list: {venue_sports}")
         else:
-            print(f"    -> No venue data found for year {year}")
+            log_message(f"    -> No venue data found for year {year}")
     else:
-        print(f"    -> No {season} JSON data available for matching")
+        log_message(f"    -> No {season} JSON data available for matching")
     return geojson_content
 
 
@@ -342,19 +367,29 @@ def process_geojson_data():
     Process all loaded GeoJSON data and save manipulated files to output directory.
     Uses the module-level geojson_data variable directly.
     """
-    global output_dir
+    global output_dir, venue_statistics
 
     # Create output directory if it doesn't exist
     os.makedirs(output_dir, exist_ok=True)
-    print(f"Output directory '{output_dir}' ready")
+    log_message(f"Output directory '{output_dir}' ready")
 
-    print(f"Processing {len(geojson_data)} GeoJSON files...")
+    log_message(f"Processing {len(geojson_data)} GeoJSON files...")
 
     for filename, geojson_content in geojson_data.items():
-        print(f"Processing: {filename}")
+        log_message(f"Processing: {filename}")
 
         # Use the new manipulation function
         manipulated_geojson = manipulate_geojson_file(filename, geojson_content)
+
+        # Collect statistics for this file
+        file_stats = collect_venue_statistics(filename, manipulated_geojson)
+        venue_statistics[filename] = file_stats
+
+        # Print statistics for this file
+        print_file_statistics(file_stats)
+
+        # Update total statistics
+        update_total_statistics(file_stats)
 
         # Save the manipulated GeoJSON to output directory
         output_file_path = os.path.join(output_dir, f"{filename}.geojson")
@@ -362,11 +397,212 @@ def process_geojson_data():
         try:
             with open(output_file_path, 'w', encoding='utf-8') as file:
                 json.dump(manipulated_geojson, file, indent=2, ensure_ascii=False)
-            print(f"  -> Saved manipulated file: {output_file_path}")
+            log_message(f"  -> Saved manipulated file: {output_file_path}")
         except Exception as e:
-            print(f"  -> Error saving {filename}: {e}")
+            log_message(f"  -> Error saving {filename}: {e}", level="ERROR")
 
-    print("Finished processing all GeoJSON files")
+    log_message("Finished processing all GeoJSON files")
+
+
+def collect_venue_statistics(filename, geojson_content):
+    """
+    Collect statistics about venue matching for a specific GeoJSON file.
+
+    Args:
+        filename (str): The filename without extension
+        geojson_content (dict): The processed GeoJSON content
+
+    Returns:
+        dict: Statistics for this file
+    """
+    stats = {
+        'filename': filename,
+        'total_venues': 0,
+        'sports_matches': 0,
+        'name_matches': 0,
+        'name_matches_by_method': {
+            'exact_match': 0,
+            'substring_match': 0,
+            'token_match': 0,
+            'fuzzy_match': 0
+        },
+        'unmatched': 0
+    }
+
+    if 'features' in geojson_content:
+        for feature in geojson_content['features']:
+            if 'properties' in feature and 'sports' in feature['properties']:
+                stats['total_venues'] += 1
+
+                # Check if venue has a match
+                match_type = feature['properties'].get('match_type')
+                if match_type == 'sports_match':
+                    stats['sports_matches'] += 1
+                elif match_type == 'name_match':
+                    stats['name_matches'] += 1
+
+                    # Track the specific matching method for name matches
+                    match_method = feature['properties'].get('match_method')
+                    if match_method and match_method in stats['name_matches_by_method']:
+                        stats['name_matches_by_method'][match_method] += 1
+                else:
+                    stats['unmatched'] += 1
+
+    return stats
+
+
+def update_total_statistics(file_stats):
+    """
+    Update the global total statistics with data from a processed file.
+
+    Args:
+        file_stats (dict): Statistics from a single file
+    """
+    global total_statistics
+
+    total_statistics['total_venues'] += file_stats['total_venues']
+    total_statistics['sports_matches'] += file_stats['sports_matches']
+    total_statistics['name_matches'] += file_stats['name_matches']
+    total_statistics['unmatched'] += file_stats['unmatched']
+    total_statistics['files_processed'] += 1
+
+    # Update name match method counts
+    for method, count in file_stats['name_matches_by_method'].items():
+        total_statistics['name_matches_by_method'][method] += count
+
+
+def print_file_statistics(file_stats):
+    """
+    Print statistics for a single file.
+
+    Args:
+        file_stats (dict): Statistics for the file
+    """
+    filename = file_stats['filename']
+    total = file_stats['total_venues']
+    sports = file_stats['sports_matches']
+    name = file_stats['name_matches']
+    unmatched = file_stats['unmatched']
+
+    # Calculate percentages
+    sports_pct = (sports / total * 100) if total > 0 else 0
+    name_pct = (name / total * 100) if total > 0 else 0
+    unmatched_pct = (unmatched / total * 100) if total > 0 else 0
+
+    log_message(f"=== STATISTICS FOR {filename} ===")
+    log_message(f"Total venues: {total}")
+    log_message(f"Sports matches: {sports} ({sports_pct:.1f}%)")
+    log_message(f"Name matches: {name} ({name_pct:.1f}%)")
+
+    # Display name match method breakdown
+    if name > 0:
+        methods = file_stats['name_matches_by_method']
+        for method, count in methods.items():
+            if count > 0:
+                method_pct = (count / name * 100) if name > 0 else 0
+                log_message(f"  - {method}: {count} ({method_pct:.1f}% of name matches)")
+
+    log_message(f"Unmatched: {unmatched} ({unmatched_pct:.1f}%)")
+    log_message("=" * 50)
+
+
+def print_total_statistics():
+    """
+    Print the total statistics across all processed files.
+    """
+    global total_statistics
+
+    total = total_statistics['total_venues']
+    sports = total_statistics['sports_matches']
+    name = total_statistics['name_matches']
+    unmatched = total_statistics['unmatched']
+    files = total_statistics['files_processed']
+
+    # Calculate percentages
+    sports_pct = (sports / total * 100) if total > 0 else 0
+    name_pct = (name / total * 100) if total > 0 else 0
+    unmatched_pct = (unmatched / total * 100) if total > 0 else 0
+    matched_total = sports + name
+    matched_pct = (matched_total / total * 100) if total > 0 else 0
+
+    log_message("=" * 60)
+    log_message("=== TOTAL STATISTICS ACROSS ALL FILES ===")
+    log_message(f"Files processed: {files}")
+    log_message(f"Total venues: {total}")
+    log_message(f"Sports matches: {sports} ({sports_pct:.1f}%)")
+    log_message(f"Name matches: {name} ({name_pct:.1f}%)")
+
+    # Display name match method breakdown for totals
+    if name > 0:
+        methods = total_statistics['name_matches_by_method']
+        for method, count in methods.items():
+            if count > 0:
+                method_pct = (count / name * 100) if name > 0 else 0
+                total_pct = (count / total * 100) if total > 0 else 0
+                log_message(f"  - {method}: {count} ({method_pct:.1f}% of name matches, {total_pct:.1f}% of all venues)")
+
+    log_message(f"Total matched: {matched_total} ({matched_pct:.1f}%)")
+    log_message(f"Unmatched: {unmatched} ({unmatched_pct:.1f}%)")
+    log_message("=" * 60)
+
+
+def save_statistics_to_file():
+    """
+    Save the statistics to a JSON file in the output directory.
+    """
+    global venue_statistics, total_statistics, output_dir
+
+    statistics_data = {
+        'total_statistics': total_statistics,
+        'file_statistics': venue_statistics,
+        'generated_at': __import__('datetime').datetime.now().isoformat()
+    }
+
+    stats_file_path = os.path.join(output_dir, "venue_matching_statistics.json")
+
+    try:
+        with open(stats_file_path, 'w', encoding='utf-8') as file:
+            json.dump(statistics_data, file, indent=2, ensure_ascii=False)
+        log_message(f"Statistics saved to: {stats_file_path}")
+    except Exception as e:
+        log_message(f"Error saving statistics: {e}", level="ERROR")
+
+
+def log_message(message, level="INFO"):
+    """
+    Log a message to console and/or file based on global configuration.
+
+    Args:
+        message (str): The message to log
+        level (str): Log level (INFO, ERROR, WARNING, etc.)
+    """
+    global log_to_console, log_to_file, output_dir
+
+    # Format the message with timestamp and level
+    from datetime import datetime
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    formatted_message = f"[{timestamp}] {level}: {message}"
+
+    # Log to console if enabled
+    if log_to_console:
+        print(formatted_message)
+
+    # Log to file if enabled
+    if log_to_file:
+        # Ensure output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Create log file path
+        log_file_path = os.path.join(output_dir, "matching_log.txt")
+
+        try:
+            with open(log_file_path, 'a', encoding='utf-8') as log_file:
+                log_file.write(formatted_message + '\n')
+        except Exception as e:
+            # Fallback to console if file logging fails
+            if not log_to_console:
+                print(f"[{timestamp}] ERROR: Failed to write to log file: {e}")
+                print(formatted_message)
 
 
 if __name__ == "__main__":
@@ -374,18 +610,24 @@ if __name__ == "__main__":
     load_venues_data()
 
     if summer_data:
-        print(
+        log_message(
             f"Summer venues data loaded with {len(summer_data) if isinstance(summer_data, (list, dict)) else 'unknown'} items")
 
     if winter_data:
-        print(
+        log_message(
             f"Winter venues data loaded with {len(winter_data) if isinstance(winter_data, (list, dict)) else 'unknown'} items")
 
     # Load GeoJSON files
     load_geojson_files()
 
     if geojson_data:
-        print(f"GeoJSON data loaded for {len(geojson_data)} files")
+        log_message(f"GeoJSON data loaded for {len(geojson_data)} files")
 
-    # Process GeoJSON data
+    # Process GeoJSON data (this now includes statistics collection for each file)
     process_geojson_data()
+
+    # Print total statistics across all files
+    print_total_statistics()
+
+    # Save statistics to file
+    save_statistics_to_file()

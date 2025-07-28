@@ -1,0 +1,739 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.381979,
+          51.184979
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion (also known as 't Kiel)",
+          "Olympic Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184979,4.381979",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Equestrian Vaulting",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Modern Pentathlon",
+          "Rugby",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1920",
+        "type": "outdoor venue",
+        "dimensions": "389.8 m",
+        "surface": "loose cinders",
+        "altitude": "9 m",
+        "source_file": "venue_243.json",
+        "Olympics": "1920 Antwerp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.380777,
+          51.184412
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Beerschot Tennis & Hockey Club",
+          "Royal Beerschot Tennis and Hockey Club"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184412,4.380777",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Hockey",
+          "Tennis"
+        ],
+        "notes": "The fencing contests are sometimes said to have been held at Palais d'Egmont, but no such building is known in Antwerpen. Pictures show them to have been held close to the main stadium, likely on the gounds of the tennis club.",
+        "opened": "1899",
+        "type": "outdoor venue",
+        "source_file": "venue_244.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Built in 1899 and situated next to the Olympic Stadium, the club had 14 clay courts at Games time. Now home to nine outdoor and seven indoor courts, the club, which has been renamed Tennis 7 de Olympiade, is open for use by local residents and stages regional and national tennis competitions throughout the year, among them the City of Antwerp Tournament. A multi-sport venue, the club also offers field hockey, swimming and pétanque.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.29041512,
+          51.1154279
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kamp Beverlo",
+          "Beverlo Camp",
+          "Beverloo Camp (Kamp Beverloo)"
+        ],
+        "place": "Beverlo",
+        "coordinates": "51.11542790,5.29041512",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_245.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The camp played host to the shooting events in 1920. It opened in 1839 and became a permanent military base in 1845 – a status it retains to this day. Occupied by German troops in both world wars, it was used as a prisoner-of-war camp and partly damaged by an Allied bombardment in 1944. In 1976, the barracks were modernised, and hundreds of houses were built for the families of the personnel stationed there. It is Belgium's largest garrison.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.45460656,
+          51.31868831
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hoogboom Country Club"
+        ],
+        "place": "Kapellen",
+        "coordinates": "51.31868831,4.45460656",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Shooting",
+          "Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_246.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          },
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_247.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Located in Amsterdam, north-east of the city centre, this body of water staged the 12-foot dinghy competition at the 1920 Olympic Games. It was also used as a sailing venue at the Olympic Games Amsterdam 1928, when it hosted the single-handed Olympic monotype class. The area is now part of the port of Amsterdam, the fourth busiest in Europe.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.413667867965049,
+          51.17982547841083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Floraliën, Middelheimpark",
+          "Flower Hall, Middelheim Park"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.17982547841083,4.413667867965049",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_249.json",
+        "Olympics": "1920 Antwerp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.416261,
+          50.914793
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Willebroekse Vaart",
+          "Willebroek Channel",
+          "Zeekanaal Brussel-Schelde (?-present)",
+          "Willebroek Canal (Willebroekse Vaart)"
+        ],
+        "place": "Vilvoorde",
+        "coordinates": "50.914793,4.416261",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "notes": "Course set out between De Drie Fonteinen and Marly.",
+        "type": "outdoor venue",
+        "source_file": "venue_250.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Though mainly used for transporting goods and flood management, the canal has hosted rowing events since the Games and is used by the Royal Sport Nautique de Bruxelles (RSNB) for recreational rowing and training, and competitions such as the Brussels Winter Rowing Regatta. It is not clear what facilities were built for the rowing competitions, but they are believed to have been temporary.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.378009,
+          51.190241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietbaan, Het Kiel (also known as Den Tir)",
+          "Shooting Range, Het Kiel"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.190241,4.378009",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "notes": "Presently Shopping Mall \"Den Tir\" (after the range's nickname)",
+        "type": "outdoor venue",
+        "source_file": "venue_251.json",
+        "Olympics": "1920 Antwerp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.422147,
+          51.218013
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Feestzaal, Koninklijke Zoölogische Maatschappij",
+          "Celebration Hall, Royal Zoological Society",
+          "Celebration Hall, Royal Zoological Society (Feestzaal, Koninklijke Zoölogische Maatschappij)"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.218013,4.422147",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Wrestling"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_252.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Part of Antwerp Zoo, which opened in 1844, the hall was the venue for the boxing and wrestling competitions. Welcoming more than a million visitors a year, the zoo is home to one of the world's most advanced animal research centres.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.40953,
+          51.184562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nachtegalenpark",
+          "Nightingale Park",
+          "Nightingale Park (Nachtegalenpark)"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184562,4.40953",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_253.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.895375697,
+          51.23351494
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "",
+          "Oostende"
+        ],
+        "place": "Oostende",
+        "coordinates": "51.23351494,2.895375697",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_254.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.407978,
+          51.213887
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "IJspaleis Antwerpen",
+          "Ice Palace Antwerp",
+          "Ice Palace"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.213887,4.407978",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_255.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "This was the venue for the very first Olympic ice hockey competition and only the second figure skating competition, after London 1908. The Ice Palace opened in 1910 as a roller-skating rink before being converted into an ice rink the year before the Games. Later used as a garage and a taxi depot, it was dismantled in 2016.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.766111,
+          51.031389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jules Ottenstadion (also known as Den Ot)",
+          "Jules Otten Stadium"
+        ],
+        "place": "Gent",
+        "coordinates": "51.031389,3.766111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Demolished in 2013.",
+        "opened": "1920",
+        "type": "outdoor venue",
+        "source_file": "venue_256.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "The venue for the first-round match between Italy and Egypt at the 1920 Olympic football tournament, the stadium was the home ground of football club KAA Gent for 93 years. It was refurbished on several occasions, with new stands being built in 1986, 1992 and 2002. When the club moved to a new stadium in 2013, their old home was demolished. A housing development now stands on the site.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.329395,
+          50.817793
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade du Parc Duden",
+          "Duden Park Stadium"
+        ],
+        "place": "Saint-Gilles",
+        "coordinates": "50.817793,4.329395",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Currently Stade Joseph Marien.",
+        "opened": "1919",
+        "type": "outdoor venue",
+        "source_file": "venue_257.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.391613,
+          51.184898
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion van Antwerpen",
+          "Antwerp Swimming Stadium",
+          "Antwerp Water Sports Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.184898,4.391613",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo",
+          "modern pentathlon (swimming)"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_258.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The venue comprised three parallel pools overlooked at one end by a clubhouse. A 50-metre swimming course with seven starting positions was laid out in the main pool, while the middle pool was reserved for the water polo matches. The stadium was dismantled after the Games.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.390728,
+          51.195405
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadion Broodstraat",
+          "Brood Street Stadium"
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.195405,4.390728",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1908",
+        "type": "outdoor venue",
+        "source_file": "venue_259.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The stadium opened in 1908 and staged two matches at the 1920 Olympic football tournament. It was the home ground of Royal Antwerp FC until 1923, when the club moved out because it was too small to accommodate their growing fan base. The stadium no longer exists, though the date of its demolition is not known.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.391184,
+          51.168527
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Garden City Velodroom",
+          "Garden City Velodrome",
+          "Vélodrome d'Anvers Zurenborg"
+        ],
+        "place": "Wilrijk, Antwerpen",
+        "coordinates": "51.168527,4.391184",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling Track",
+          "Cycling (track)"
+        ],
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "concrete",
+        "additional_details": "50.0° curves, 17.5° straights",
+        "source_file": "venue_260.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The venue opened in June 1914 and had a 400m concrete track. It was located in a park in the Wilrijk district. As well as the four Olympic track cycling events, it also staged the 1920 World Championships and the end of a stage of the Tour de Belgique. The infield was used as a football pitch after the Games. The velodrome was demolished in 1925 to make way for housing.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.899017,
+          51.22218
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wellingtonrenbaan",
+          "Wellington Racing Track",
+          "Wellington Racing Track (Wellingtonrenbaan)"
+        ],
+        "place": "Oostende",
+        "coordinates": "51.22218,2.899017",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Polo"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_261.json",
+        "Olympics": "1920 Antwerp",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.383202,
+          51.232043
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Antwerpen",
+        "coordinates": "51.232043,4.383202",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "notes": "It is unknown where the art objects were exhibited and/or judged.",
+        "type": "outdoor venue",
+        "source_file": "venue_262.json",
+        "Olympics": "1920 Antwerp"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.440649,
+          51.243328
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Merksem",
+        "coordinates": "51.243328,4.440649",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "notes": "The first cross country stage of the three day event is known to have finished near Merksem.",
+        "type": "outdoor venue",
+        "source_file": "venue_263.json",
+        "Olympics": "1920 Antwerp"
+      }
+    }
+  ]
+}

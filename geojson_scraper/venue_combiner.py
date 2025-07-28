@@ -40,8 +40,9 @@ def match_json(year, location, json_folders):
     return None
 
 def find_matches(geojson_folder, json_folders):
-    output_folder = os.path.join(os.path.dirname(__file__), "test_output")
+    output_folder = os.path.join(os.path.dirname(__file__), "output_venues_found")
     os.makedirs(output_folder, exist_ok=True)
+    finals = []
 
     for filename in os.listdir(geojson_folder):
         if filename.endswith(".geojson"):
@@ -52,8 +53,7 @@ def find_matches(geojson_folder, json_folders):
 
             matched_json_path = match_json(year, location, json_folders)
             if matched_json_path:
-                print(f"[MATCHED] Found JSON for {filename} -> {year}, {location}")
-
+                # print(f"[MATCHED] Found JSON for {filename} -> {year}, {location}")
                 # Load JSON extracted data
                 with open(matched_json_path, "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -154,9 +154,9 @@ def find_matches(geojson_folder, json_folders):
                                 json_name = json_venues[i].get("name", "Unnamed")
                                 geo_name = geojson_venues[j]["properties"].get("associated_names", ["Unnamed"])[0]
                                 line = f"[Part Name Match] JSON Venue {i} '{json_name}' matched with GeoJSON Venue {j}: {geo_name}"
-                                print(line)
+                                # Add to found match list
                                 output_lines.append(line)
-                                final_matches.append((i, j, 1.0, 1.0, 1.0))
+                                final_matches.append((filename, i, j, matched_json_path))
                                 break
 
                 # Score matches by use/sport and name similarity
@@ -176,7 +176,9 @@ def find_matches(geojson_folder, json_folders):
                         sports_list = feature["properties"].get("sports", [])
                         geo_name = norm(feature["properties"].get("associated_names", [""])[0])
 
+                        # Match score (0.0 - 1.0) between use_list and sports_list
                         use_sim, _, _ = score_match(use_list, sports_list)
+                        # Similarity between the json_name and the geo_name
                         name_sim = similar(json_name, geo_name)
 
                         final_score = 0.7 * use_sim + 0.3 * name_sim
@@ -192,12 +194,12 @@ def find_matches(geojson_folder, json_folders):
 
                     matched_json.add(i)
                     matched_geo.add(j)
-                    final_matches.append((i, j, use_sim, name_sim, final_score))
+                    final_matches.append((filename, i, j, matched_json_path))
                     json_name = json_venues[i].get("name", "Unnamed")
                     geo_name = geojson_venues[j]["properties"].get("associated_names", ["Unnamed"])[0]
                     verdict = "✅ (strong name)" if name_sim > 0.5 else "🟡 (weak name)"
                     line = f"[Use/Sport + Name Match] JSON Venue {i} - {json_name} ↔ GeoJSON Venue {j} - {geo_name} | UseSim: {use_sim:.2f}, NameSim: {name_sim:.2f}, Score: {final_score:.2f} | Match: {verdict}"
-                    print(line)
+                    # Add to found match list
                     output_lines.append(line)
 
                 # Unmatched JSON venues
@@ -205,7 +207,6 @@ def find_matches(geojson_folder, json_folders):
                 for i, venue in enumerate(json_venues):
                     if i not in matched_json:
                         line = f"[JSON Venue {i}] '{venue.get('name', 'Unnamed')}' has no matching GeoJSON venue."
-                        print(line)
                         output_lines.append(line)
 
                 # Unmatched GeoJSON venues
@@ -213,7 +214,6 @@ def find_matches(geojson_folder, json_folders):
                 for j, feature in enumerate(geojson_venues):
                     if j not in matched_geo:
                         line = f"[GeoJSON Venue {j}] '{feature['properties'].get('associated_names', ['Unnamed'])[0]}' has no matching JSON venue."
-                        print(line)
                         output_lines.append(line)
 
                 # Write output to text file named like geojson but .txt in test_output
@@ -221,9 +221,62 @@ def find_matches(geojson_folder, json_folders):
                 out_path = os.path.join(output_folder, out_filename)
                 with open(out_path, "w", encoding="utf-8") as out_file:
                     out_file.write("\n".join(output_lines))
+                finals.append(final_matches)
 
             else:
                 print(f"[NOT FOUND] No JSON found for {filename} -> {year}, {location}")
+    return finals
+
+# Define the function to combine venue data
+def combine_matches(matches, geojson_folder, output_folder="geojson_scraper/combined_geojson"):
+    os.makedirs(output_folder, exist_ok=True)
+
+    # Group matches by filename
+    matches_by_file = {}
+    for entry in matches:
+        for filename, json_venue_idx, geojson_venue_idx, json_path in entry:
+            matches_by_file.setdefault(filename, []).append((json_venue_idx, geojson_venue_idx, json_path))
+
+    for filename, updates in matches_by_file.items():
+        geojson_path = os.path.join(geojson_folder, filename)
+        with open(geojson_path, 'r', encoding='utf-8') as f:
+            geojson_data = json.load(f)
+
+        # Process all updates for this file
+        for json_venue_idx, geojson_venue_idx, json_path in updates:
+            with open(json_path, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+
+            json_venue = json_data[0]['extraction']['data']['venues'][json_venue_idx]
+            geojson_feature = geojson_data['features'][geojson_venue_idx]
+
+            # Update name → associated_names
+            name = json_venue.get('name')
+            if name:
+                assoc_names = geojson_feature['properties'].setdefault('associated_names', [])
+                if not any(name.lower() == existing.lower() for existing in assoc_names):
+                    assoc_names.append(name)
+
+            # Update use → sports
+            use = json_venue.get('use')
+            if use:
+                sports = geojson_feature['properties'].setdefault('sports', [])
+                for sport in [s.strip() for s in use.split(',') if s.strip()]:
+                    if not any(sport.lower() == existing.lower() for existing in sports):
+                        sports.append(sport)
+
+            # Add other fields to properties (except 'name' and 'use')
+            for key, value in json_venue.items():
+                if key not in ['name', 'use']:
+                    # Maybe add a identifier such as _pdf to the key or PDF: to value
+                    geojson_feature['properties'][key] = value
+
+        # Save updated geojson once per file
+        output_path = os.path.join(output_folder, "combined_" + filename)
+        with open(output_path, 'w', encoding='utf-8') as f:
+            json.dump(geojson_data, f, indent=2, ensure_ascii=False)
+
+
 
 # Example usage
 base_dir = os.path.join(os.path.dirname(__file__), "../pdfToJson/n8n/n8n_io/PDF_summery_v2")
@@ -233,6 +286,6 @@ json_folders = [
 ]
 geojson_folder = os.path.join(os.path.dirname(__file__), "named_geojsons")
 
-find_matches(geojson_folder, json_folders)
+matches = find_matches(geojson_folder, json_folders)
 
-# Had to rename Torino to Torino / Turin
+combine_matches(matches, geojson_folder)

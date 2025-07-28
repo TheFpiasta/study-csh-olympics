@@ -1,0 +1,289 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.23158,
+          39.197885
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Blyth Memorial Arena",
+          "Blyth Memorial Ice Arena"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.197885,-120.23158",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Opening ceremony",
+          "Closing ceremony",
+          "Opening and Closing Ceremonies"
+        ],
+        "opened": "1959",
+        "demolished": "1983",
+        "seating_capacity": "8500",
+        "type": "indoor venue",
+        "source_file": "venue_136.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "The venue for ice hockey, figure skating and the Opening and Closing Ceremonies, this 11,000-capacity arena was a much-used and popular skating venue and a training base for the United States' leading figure skaters. Boasting an avant-garde design that earned it several architectural awards, it was open on one side, in line with the International Skating Union's (ISU) regulations at the time. The arena's roof was insulated in 1982 to reduce energy costs. This had the unintended effect, however, of preventing the snow that accumulated on the roof from melting. In March 1983, the build-up of snow caused the roof to collapse, causing over USD 1 million in damage. The arena was demolished later in the year and the site is now a car park serving the ski resort.",
+        "location": "Outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.231159,
+          39.198
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eastern Rink",
+          "East Rink"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.198,-120.231159",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_137.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "One of three ice hockey rinks built next to the Olympic Speed Skating Oval (along with Village Rink and West Rink), it was dismantled after the Games, as planned.",
+        "location": "Outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.231446,
+          39.197
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Speed Skating Oval",
+          "Olympic Speed Skating Oval"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.197,-120.231446",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "1890 m",
+        "source_file": "venue_138.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers.",
+        "location": "Outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.23014,
+          39.196717
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Jumping Hill (also known as Papoose Peak Jumps)",
+          "Papoose Peak Olympic Jumping Hill"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.196717,-120.23014",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_139.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \"large\" hill, which staged the ski jumping competition; a K60 \"normal\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts.",
+        "location": "Outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.247571,
+          39.193948
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Squaw Peak"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.193948,-120.247571",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_140.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.236376,
+          39.195079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "KT-22"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.195079,-120.236376",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_141.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.234659,
+          39.195216
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Little Papoose Peak",
+          "Piestewa Peak, KT-22 Mountain and Papoose Peak"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.195216,-120.234659",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_142.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Piestewa Peak, KT-22 Mountain and Papoose Peak: the six alpine events at the 1960 Olympic Winter Games were held on these three mountains. The first hosted the men's downhill, KT-22 the men's giant slalom and slalom, and Little Papoose Peak the three women's events. The women's slalom and giant slalom courses were used when the resort welcomed the FIS Alpine Ski World Cup in 2017, the first time World Cup races had been held at the resort since 1969. Now known as Palisades Tahoe, the ski area is one of the finest in the United States. Home to 6,000 skiable acres, 270 trails, and an advanced network of 31 lifts, it attracts 600,000 visitors a year. With a view to maintaining its status, the resort announced a USD 17 million investment ahead of the 2019/20 season.",
+        "location": "Outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.140551,
+          39.069471
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "McKinney Creek Stadium"
+        ],
+        "place": "Tahoma, California",
+        "coordinates": "39.069471,-120.140551",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "Cross-country skiing"
+        ],
+        "opened": "1959",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_143.json",
+        "Olympics": "1960 Squaw Valley",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Erected especially for the Games on the shores of Lake Tahoe, the stadium's seating and facilities were taken down afterwards, as planned. Many of the venue's trails were restored for public use in 2010. The resort now has a Nordic centre of its own. Occupying 40 acres, it offers 18 kilometres of groomed trails for skiers of all levels.",
+        "location": "Outside the city"
+      }
+    }
+  ]
+}

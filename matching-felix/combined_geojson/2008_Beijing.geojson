@@ -1,0 +1,1527 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.370833,
+          40.0175
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Aolinpike Gongyuan Shejianchang, Beijing Aolinpike Gongyuan",
+          "Olympic Green Archery Field, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "40.0175,116.370833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "2006",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_812.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Olympic Green Archery Field",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Archery",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.390556,
+          39.991667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Guojia Tiyuchang, Beijing Aolinpike Gongyuan (also known as The Bird's Nest)",
+          "Beijing National Stadium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.991667,116.390556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "2008",
+        "seating_capacity": "91000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "48 m",
+        "source_file": "venue_813.json",
+        "Olympics": "2008 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.274667,
+          39.910002
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Aolinpike Lanqiuguan",
+          "Olympic Basketball Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.910002,116.274667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Ice Hockey"
+        ],
+        "opened": "2007",
+        "seating_capacity": "18000",
+        "type": "indoor venue",
+        "source_file": "venue_814.json",
+        "Olympics": "2008 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4775,
+          39.871111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Gongye Daxue Tiyuguan",
+          "Beijing University of Technology Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.871111,116.4775",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Rhythmic Gymnastics"
+        ],
+        "opened": "2007",
+        "seating_capacity": "7500",
+        "type": "indoor venue",
+        "source_file": "venue_815.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Beijing University of Technology (BJUT) Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, badminton",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.4359,
+          39.9308
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Gongren Tiyuguan (also known as Beijing Workers' Indoor Arena)",
+          "Beijing Workers' Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.9308,116.4359",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1961",
+        "seating_capacity": "13000",
+        "type": "indoor venue",
+        "source_file": "venue_816.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Beijing Workers' Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Boxing",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.271781,
+          39.9093
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wukesong Bangqiuchang",
+          "Wukesong Baseball Field"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.9093,116.271781",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "notes": "Two fields. Temporary facility, converted to shopping mall after the 2008 Olympics.",
+        "opened": "2008",
+        "seating_capacity": "15000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_817.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Wukesong Baseball Field",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Baseball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.479371,
+          39.945517
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Chaoyang Gongyuan Shatan Paiqiu Chang",
+          "Chaoyang Park Beach Volleyball Ground"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.945517,116.479371",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "notes": "Two courts: Center Court and Contingency Court",
+        "opened": "2006",
+        "seating_capacity": "12000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_818.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Chaoyang Park Beach Volleyball Ground",
+        "venue_classification": "Temporary",
+        "venue_status": "Not in use",
+        "venue_use": "Beach volleyball",
+        "venue_information": "The venue's stands have not been dismantled and have deteriorated over the years. The grounds around it are used for a variety of cultural activities, however.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.68788,
+          40.174709
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shunyi Aolinpike Shuishang Gongyuan",
+          "Shunyi Olympic Rowing-Canoeing Park"
+        ],
+        "place": "Mapo, Shunyi",
+        "coordinates": "40.174709,116.68788",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom",
+          "Canoe Sprint",
+          "Marathon Swimming",
+          "Rowing"
+        ],
+        "opened": "2007",
+        "seating_capacity": "37000",
+        "type": "outdoor venue",
+        "source_file": "venue_819.json",
+        "Olympics": "2008 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.0686,
+          40.2882
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gonglu Zixingche Saichang",
+          "Urban Road Cycling Course"
+        ],
+        "place": "Juyongguan",
+        "coordinates": "40.2882,116.0686",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_820.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.9119999999999999,
+        "match_method": "substring_match",
+        "matched_venue_name": "Road Cycling Course",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.207403,
+          39.912994
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Laoshan Zixingcheguan",
+          "Laoshan Velodrome"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.912994,116.207403",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "2006",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "45° curves, 13° straights",
+        "source_file": "venue_821.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Laoshan Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The venue has mainly been used for cycling training since the Games, and has hosted only a small number of local and national cycling competitions. It is also used for other sports on an occasional basis."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.208905,
+          39.91152
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Laoshan Xiaolunche Saichang",
+          "Laoshan BMX Venue"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.91152,116.208905",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling BMX Racing"
+        ],
+        "opened": "2006",
+        "seating_capacity": "4000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_822.json",
+        "Olympics": "2008 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.21064,
+          39.915034
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Laoshan Shandi Zixingche Chang",
+          "Laoshan Mountain Bike Course"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.915034,116.21064",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "source_file": "venue_823.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Laoshan Mountain Bike Course",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Mountain bike",
+        "venue_information": "This existing venue located by the Laoshan Velodrome was opened to the public just after the Games and has now been converted into a leisure park.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384167,
+          39.991667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Guojia Youyong Zhongxin, Beijing Aolinpike Gongyuan (also known as Water Cube)",
+          "Beijing National Aquatics Centre, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.991667,116.384167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Curling",
+          "Diving",
+          "Swimming"
+        ],
+        "opened": "2008",
+        "seating_capacity": "17000",
+        "type": "indoor venue",
+        "source_file": "venue_824.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8160000000000001,
+        "match_method": "substring_match",
+        "matched_venue_name": "National Aquatics Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, artistic swimming, water polo",
+        "venue_information": "Better known as the Water Cube, it has become another Beijing landmark. This multi-functional sports, recreation and fitness venue is mainly used as an aquatic sports training facility, but it continues to host national and international events and is also open to the public, receiving 3,000 visitors a day. The venue was refurbished in 2010, when a water park, exhibition hall, stores and restaurants were added. It underwent further refurbishment in 2020, in preparation for the Olympic Winter Games Beijing 2022, when it staged the curling events."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.202067,
+          22.394967
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Xianggang Tiyu Xueyuan",
+          "Hong Kong Equestrian Venue"
+        ],
+        "place": "Hong Kong",
+        "coordinates": "22.394967,114.202067",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "seating_capacity": "18000",
+        "type": "outdoor venue",
+        "source_file": "venue_825.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hong Kong Olympic Equestrian Venue (Beas River)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage, jumping",
+        "venue_information": "The venue hosted the equestrian events at the 2010 Asian Games and continues to stage a large number of dressage, show jumping and cross-country events at all levels, from grassroots to high-performance. It is also home to a riding school that offers services to Hong Kong Jockey Club members and other permitted users."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.383672,
+          39.998183
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guojia Huiyi Zhongxin, Beijing Aolinpike Gongyuan",
+          "Olympic Green Convention Center"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.998183,116.383672",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "2007",
+        "seating_capacity": "5695",
+        "type": "indoor venue",
+        "source_file": "venue_826.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fencing Hall of National Convention Centre",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Fencing, modern pentathlon (fencing)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.547708,
+          39.907325
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Qinghuangdao Shi Ao Ti Zhongxin Tiyuchang",
+          "Qinhuangdao Olympic Sports Center Stadium"
+        ],
+        "place": "Qinhuangdao",
+        "coordinates": "39.907325,119.547708",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2004",
+        "seating_capacity": "33572",
+        "type": "outdoor venue",
+        "source_file": "venue_827.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Qinhuangdao Olympic Sports Centre Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4373,
+          31.183503
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shanghai Tiyuchang",
+          "Shanghai Stadium"
+        ],
+        "place": "Shanghai",
+        "coordinates": "31.183503,121.4373",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1997",
+        "seating_capacity": "80000",
+        "type": "outdoor venue",
+        "source_file": "venue_828.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Shanghai Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.457484,
+          41.739037
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shenyang Aolinpike Tiyu Zhongxin Tiyuchang",
+          "Shenyang Olympic Sports Center Stadium"
+        ],
+        "place": "Shenyang",
+        "coordinates": "41.739037,123.457484",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2007",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "source_file": "venue_829.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8347826086956521,
+        "matched_venue_name": "Shenyang Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.169389,
+          39.073444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tianjin Aolinpike Zhongxin Tiyuchang (also known as Water Drop)",
+          "Tianjin Olympic Center Stadium"
+        ],
+        "place": "Tianjin",
+        "coordinates": "39.073444,117.169389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2007",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "source_file": "venue_830.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Tianjin Olympic Centre Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.441139,
+          39.929528
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gongren Tiyuchang (also known as Gong-Ti)",
+          "Workers Stadium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.929528,116.441139",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1959",
+        "seating_capacity": "70161",
+        "type": "outdoor venue",
+        "source_file": "venue_831.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Shenyang Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384167,
+          39.994167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guojia Tiyuguan, Beijing Aolinpike Gongyuan",
+          "National Indoor Stadium,"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.994167,116.384167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball",
+          "Ice Hockey",
+          "Trampolining"
+        ],
+        "opened": "2007",
+        "seating_capacity": "19000",
+        "type": "indoor venue",
+        "source_file": "venue_832.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "match_method": "substring_match",
+        "matched_venue_name": "National Indoor Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, trampoline gymnastics, handball",
+        "venue_information": "A multi-purpose venue that is open to the public and visitors, the National Indoor Stadium hosts both sporting and cultural events. It was refurbished in preparation for the Olympic Winter Games Beijing 2022, when it hosted the ice hockey competitions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.393333,
+          39.984722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ao Ti Zhongxin Tiyuguan, Beijing Aolinpike Gongyuan",
+          "Olympic Sports Centre Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.984722,116.393333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball",
+          "Wushu"
+        ],
+        "opened": "2007",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "source_file": "venue_833.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "match_method": "substring_match",
+        "matched_venue_name": "Olympic Sports Centre (OSC) Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Handball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.370833,
+          40.015556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Aolinpike Gongyuan Qugunqiu Chang, Beijing Aolinpike Gongyuan",
+          "Olympic Green Hockey Field, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "40.015556,116.370833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "notes": "Two pitches.",
+        "opened": "2006",
+        "seating_capacity": "17000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_834.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8571428571428571,
+        "matched_venue_name": "Beijing Olympic Green Hockey Stadium",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Hockey",
+        "venue_information": "After Beijing 2008, the stadium was used by the public for ball games. Both it and the neighbouring Olympic Green Archery Field – another temporary Games venue – have now been dismantled to make way for the National Speed Skating Oval, which hosted the speed skating competitions at the Olympic Winter Games Beijing 2022.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.355833,
+          39.988889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Keji Daxue Tiyuguan",
+          "Beijing Science and Technology University Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.988889,116.355833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Taekwondo"
+        ],
+        "opened": "2007",
+        "seating_capacity": "8024",
+        "type": "indoor venue",
+        "source_file": "venue_835.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Beijing Science and Technology University (USTB) Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Judo, taekwondo",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.395833,
+          39.984444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yingdong Youyongguan, Beijing Aolinpike Gongyuan",
+          "Ying Tung Natatorium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.984444,116.395833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Water Polo"
+        ],
+        "opened": "1990",
+        "seating_capacity": "4852",
+        "type": "indoor venue",
+        "source_file": "venue_836.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Yingdong Natatorium of National Olympic Sports Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Water polo, modern pentathlon (swimming)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.39331,
+          39.982164
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ao Ti Zhongxin Tiyuchang, Beijing Aolinpike Gongyuan",
+          "Olympic Sports Centre, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.982164,116.39331",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "1990",
+        "seating_capacity": "36228",
+        "type": "outdoor venue",
+        "source_file": "venue_837.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Olympic Sports Centre (OSC) Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (running, equestrian)",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.386111,
+          36.056944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Qingdao Aolinpike Fanchuan Zhongxin",
+          "Qingdao International Sailing Centre"
+        ],
+        "place": "Qingdao",
+        "coordinates": "36.056944,120.386111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2008",
+        "type": "outdoor venue",
+        "source_file": "venue_838.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Qingdao Olympic Sailing Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.201667,
+          39.943889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Shejiguan",
+          "Beijing Shooting Range Hall"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.943889,116.201667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "2007",
+        "seating_capacity": "9000",
+        "type": "indoor venue",
+        "source_file": "venue_839.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Beijing Shooting Range Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.269389,
+          39.864953
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fengtai Tiyu Zhongxin Leiquichang",
+          "Fengtai Sports Center Softball Field"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.864953,116.269389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Softball"
+        ],
+        "opened": "1989",
+        "seating_capacity": "13000",
+        "type": "indoor venue",
+        "source_file": "venue_840.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Fengtai Sports Centre Softball Field",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Softball",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.373456,
+          40.019133
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Aolinpike Gongyuan Wangqiuchang, Beijing Aolinpike Gongyuan",
+          "Olympic Green Tennis Center, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "40.019133,116.373456",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "10 courts",
+        "opened": "2004",
+        "seating_capacity": "10000 (Centre Court) / 4000 (Court 1) / 2000 (Court 2) / 200 (Courts 3-9)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "source_file": "venue_841.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8571428571428571,
+        "matched_venue_name": "Beijing Olympic Green Tennis Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "The centre has hosted the ATP 500 China Open since 2009. A new centre court, the National Tennis Stadium, was opened in 2011. Featuring a retractable roof, the stadium has a capacity of 15,000, the fifth largest in the world. When it is not hosting events, the centre opens to the public, who can rent the courts out.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.265843,
+          40.250332
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tieren Sanxiang Saichang",
+          "Triathlon Venue"
+        ],
+        "place": "Beijing",
+        "coordinates": "40.250332,116.265843",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Triathlon"
+        ],
+        "notes": "Located near the Ming Dynasty Tomb Reservoir.",
+        "seating_capacity": "10000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_842.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Triathlon Venue",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Triathlon",
+        "venue_information": "The venue was located at the Ming Tombs Reservoir, an hour's drive north of central Beijing. The 1.5km swim was held in the reservoir, with the 40km bike section and 10km run taking place on the reservoir dam itself and the surrounding roads. The facilities and stands erected for the Games were dismantled afterwards.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.308889,
+          39.986944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Daxue Tiyuguan (also known as China’s Spine)",
+          "Beijing University Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.986944,116.308889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Table Tennis"
+        ],
+        "opened": "2007",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_843.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.862,
+        "matched_venue_name": "Peking University (PKU) Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Table tennis",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.308333,
+          39.957778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Ligong Daxue Tiyuguan",
+          "Beijing Institute of Technology Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.957778,116.308333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "2008",
+        "seating_capacity": "5000",
+        "type": "indoor venue",
+        "source_file": "venue_844.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Beijing Institute of Technology (BIT) Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Volleyball",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321167,
+          39.938806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shoudu Tiyguan",
+          "Capital Indoor Stadium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.938806,116.321167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating",
+          "Volleyball"
+        ],
+        "opened": "1968",
+        "seating_capacity": "18000",
+        "type": "indoor venue",
+        "source_file": "venue_845.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.78,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "National Indoor Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, trampoline gymnastics, handball",
+        "venue_information": "A multi-purpose venue that is open to the public and visitors, the National Indoor Stadium hosts both sporting and cultural events. It was refurbished in preparation for the Olympic Winter Games Beijing 2022, when it hosted the ice hockey competitions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.343056,
+          39.979167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Hangkong Hangtian Daxue Tiyuguan (also known as Beihang University Gymnasium)",
+          "Beijing University of Aeronautics & Astronautics Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.979167,116.343056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "2001",
+        "seating_capacity": "5400",
+        "type": "indoor venue",
+        "source_file": "venue_846.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Beijing University of Aeronautics and Astronautics Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Weightlifting",
+        "venue_information": "",
+        "match_method": "token_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.353056,
+          40.0025
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zhongguo Nongye Daxue Tiyuguan",
+          "China Agricultural University Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "40.0025,116.353056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "2007",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "source_file": "venue_847.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "China Agricultural University Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Wrestling",
+        "venue_information": "Now a sports complex used by students of the China Agricultural University, it is one of six further education facilities that was used to stage events at Beijing 2008.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.203333,
+          39.947222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Shejichang Feidie Bachang",
+          "Beijing Shooting Range Clay Target Field"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.947222,116.203333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "2007",
+        "seating_capacity": "5000",
+        "type": "outdoor venue",
+        "source_file": "venue_854.json",
+        "Olympics": "2008 Beijing",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Beijing Shooting Range Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": ""
+      }
+    }
+  ]
+}

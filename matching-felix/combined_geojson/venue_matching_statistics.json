@@ -1,0 +1,707 @@
+{
+  "total_statistics": {
+    "total_venues": 983,
+    "sports_matches": 241,
+    "name_matches": 571,
+    "name_matches_by_method": {
+      "exact_match": 243,
+      "substring_match": 254,
+      "token_match": 27,
+      "fuzzy_match": 47
+    },
+    "unmatched": 171,
+    "files_processed": 53
+  },
+  "file_statistics": {
+    "1896_Athens": {
+      "filename": "1896_Athens",
+      "total_venues": 6,
+      "sports_matches": 1,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1900_Paris": {
+      "filename": "1900_Paris",
+      "total_venues": 25,
+      "sports_matches": 6,
+      "name_matches": 8,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 4,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 11
+    },
+    "1904_St._Louis": {
+      "filename": "1904_St._Louis",
+      "total_venues": 6,
+      "sports_matches": 1,
+      "name_matches": 5,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 3,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "1908_London": {
+      "filename": "1908_London",
+      "total_venues": 14,
+      "sports_matches": 2,
+      "name_matches": 11,
+      "name_matches_by_method": {
+        "exact_match": 8,
+        "substring_match": 2,
+        "token_match": 1,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1912_Stockholm": {
+      "filename": "1912_Stockholm",
+      "total_venues": 14,
+      "sports_matches": 5,
+      "name_matches": 6,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 1,
+        "token_match": 0,
+        "fuzzy_match": 2
+      },
+      "unmatched": 3
+    },
+    "1920_Antwerp": {
+      "filename": "1920_Antwerp",
+      "total_venues": 20,
+      "sports_matches": 4,
+      "name_matches": 14,
+      "name_matches_by_method": {
+        "exact_match": 5,
+        "substring_match": 5,
+        "token_match": 1,
+        "fuzzy_match": 3
+      },
+      "unmatched": 2
+    },
+    "1924_Chamonix": {
+      "filename": "1924_Chamonix",
+      "total_venues": 3,
+      "sports_matches": 2,
+      "name_matches": 0,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1924_Paris": {
+      "filename": "1924_Paris",
+      "total_venues": 23,
+      "sports_matches": 5,
+      "name_matches": 16,
+      "name_matches_by_method": {
+        "exact_match": 7,
+        "substring_match": 9,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 2
+    },
+    "1928_Amsterdam": {
+      "filename": "1928_Amsterdam",
+      "total_venues": 15,
+      "sports_matches": 8,
+      "name_matches": 2,
+      "name_matches_by_method": {
+        "exact_match": 1,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 5
+    },
+    "1928_St._Moritz": {
+      "filename": "1928_St._Moritz",
+      "total_venues": 6,
+      "sports_matches": 1,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 2
+      },
+      "unmatched": 1
+    },
+    "1932_Lake_Placid": {
+      "filename": "1932_Lake_Placid",
+      "total_venues": 4,
+      "sports_matches": 1,
+      "name_matches": 0,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 3
+    },
+    "1932_Los_Angeles": {
+      "filename": "1932_Los_Angeles",
+      "total_venues": 12,
+      "sports_matches": 2,
+      "name_matches": 6,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 2,
+        "token_match": 0,
+        "fuzzy_match": 2
+      },
+      "unmatched": 4
+    },
+    "1936_Berlin": {
+      "filename": "1936_Berlin",
+      "total_venues": 25,
+      "sports_matches": 8,
+      "name_matches": 11,
+      "name_matches_by_method": {
+        "exact_match": 1,
+        "substring_match": 9,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 6
+    },
+    "1936_Garmisch_Partenkirchen": {
+      "filename": "1936_Garmisch_Partenkirchen",
+      "total_venues": 6,
+      "sports_matches": 0,
+      "name_matches": 6,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 3,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 0
+    },
+    "1948_London": {
+      "filename": "1948_London",
+      "total_venues": 30,
+      "sports_matches": 6,
+      "name_matches": 23,
+      "name_matches_by_method": {
+        "exact_match": 9,
+        "substring_match": 11,
+        "token_match": 1,
+        "fuzzy_match": 2
+      },
+      "unmatched": 1
+    },
+    "1948_St._Moritz": {
+      "filename": "1948_St._Moritz",
+      "total_venues": 13,
+      "sports_matches": 5,
+      "name_matches": 3,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 5
+    },
+    "1952_Helsinki": {
+      "filename": "1952_Helsinki",
+      "total_venues": 29,
+      "sports_matches": 17,
+      "name_matches": 9,
+      "name_matches_by_method": {
+        "exact_match": 6,
+        "substring_match": 3,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 3
+    },
+    "1952_Oslo": {
+      "filename": "1952_Oslo",
+      "total_venues": 12,
+      "sports_matches": 7,
+      "name_matches": 5,
+      "name_matches_by_method": {
+        "exact_match": 2,
+        "substring_match": 3,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "1956_Cortina_d_Ampezzo": {
+      "filename": "1956_Cortina_d_Ampezzo",
+      "total_venues": 10,
+      "sports_matches": 5,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1956_Melbourne": {
+      "filename": "1956_Melbourne",
+      "total_venues": 14,
+      "sports_matches": 5,
+      "name_matches": 8,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 5,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1960_Rome": {
+      "filename": "1960_Rome",
+      "total_venues": 30,
+      "sports_matches": 10,
+      "name_matches": 18,
+      "name_matches_by_method": {
+        "exact_match": 9,
+        "substring_match": 4,
+        "token_match": 2,
+        "fuzzy_match": 3
+      },
+      "unmatched": 2
+    },
+    "1960_Squaw_Valley": {
+      "filename": "1960_Squaw_Valley",
+      "total_venues": 8,
+      "sports_matches": 4,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 1,
+        "substring_match": 2,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 0
+    },
+    "1964_Innsbruck": {
+      "filename": "1964_Innsbruck",
+      "total_venues": 9,
+      "sports_matches": 0,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 1,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 5
+    },
+    "1964_Tokyo": {
+      "filename": "1964_Tokyo",
+      "total_venues": 31,
+      "sports_matches": 11,
+      "name_matches": 19,
+      "name_matches_by_method": {
+        "exact_match": 8,
+        "substring_match": 9,
+        "token_match": 1,
+        "fuzzy_match": 1
+      },
+      "unmatched": 1
+    },
+    "1968_Grenoble": {
+      "filename": "1968_Grenoble",
+      "total_venues": 10,
+      "sports_matches": 5,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 1
+    },
+    "1968_Mexico_City": {
+      "filename": "1968_Mexico_City",
+      "total_venues": 34,
+      "sports_matches": 6,
+      "name_matches": 17,
+      "name_matches_by_method": {
+        "exact_match": 8,
+        "substring_match": 6,
+        "token_match": 3,
+        "fuzzy_match": 0
+      },
+      "unmatched": 11
+    },
+    "1972_Munich": {
+      "filename": "1972_Munich",
+      "total_venues": 34,
+      "sports_matches": 10,
+      "name_matches": 19,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 15,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 5
+    },
+    "1972_Sapporo": {
+      "filename": "1972_Sapporo",
+      "total_venues": 12,
+      "sports_matches": 5,
+      "name_matches": 7,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 2,
+        "token_match": 2,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "1976_Innsbruck": {
+      "filename": "1976_Innsbruck",
+      "total_venues": 9,
+      "sports_matches": 0,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 1,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 5
+    },
+    "1976_Montreal": {
+      "filename": "1976_Montreal",
+      "total_venues": 24,
+      "sports_matches": 5,
+      "name_matches": 18,
+      "name_matches_by_method": {
+        "exact_match": 9,
+        "substring_match": 6,
+        "token_match": 0,
+        "fuzzy_match": 3
+      },
+      "unmatched": 1
+    },
+    "1980_Lake_Placid": {
+      "filename": "1980_Lake_Placid",
+      "total_venues": 7,
+      "sports_matches": 2,
+      "name_matches": 2,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 2,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 3
+    },
+    "1980_Moscow": {
+      "filename": "1980_Moscow",
+      "total_venues": 27,
+      "sports_matches": 5,
+      "name_matches": 20,
+      "name_matches_by_method": {
+        "exact_match": 6,
+        "substring_match": 10,
+        "token_match": 3,
+        "fuzzy_match": 1
+      },
+      "unmatched": 2
+    },
+    "1984_Los_Angeles": {
+      "filename": "1984_Los_Angeles",
+      "total_venues": 33,
+      "sports_matches": 7,
+      "name_matches": 22,
+      "name_matches_by_method": {
+        "exact_match": 12,
+        "substring_match": 8,
+        "token_match": 1,
+        "fuzzy_match": 1
+      },
+      "unmatched": 4
+    },
+    "1984_Sarajevo": {
+      "filename": "1984_Sarajevo",
+      "total_venues": 8,
+      "sports_matches": 7,
+      "name_matches": 1,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 1,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "1988_Calgary": {
+      "filename": "1988_Calgary",
+      "total_venues": 8,
+      "sports_matches": 1,
+      "name_matches": 6,
+      "name_matches_by_method": {
+        "exact_match": 6,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "1988_Seoul": {
+      "filename": "1988_Seoul",
+      "total_venues": 32,
+      "sports_matches": 7,
+      "name_matches": 20,
+      "name_matches_by_method": {
+        "exact_match": 5,
+        "substring_match": 9,
+        "token_match": 0,
+        "fuzzy_match": 6
+      },
+      "unmatched": 5
+    },
+    "1992_Albertville": {
+      "filename": "1992_Albertville",
+      "total_venues": 12,
+      "sports_matches": 8,
+      "name_matches": 2,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 2,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 2
+    },
+    "1992_Barcelona": {
+      "filename": "1992_Barcelona",
+      "total_venues": 39,
+      "sports_matches": 15,
+      "name_matches": 21,
+      "name_matches_by_method": {
+        "exact_match": 6,
+        "substring_match": 5,
+        "token_match": 3,
+        "fuzzy_match": 7
+      },
+      "unmatched": 3
+    },
+    "1994_Lillehammer": {
+      "filename": "1994_Lillehammer",
+      "total_venues": 10,
+      "sports_matches": 1,
+      "name_matches": 7,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 3,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 2
+    },
+    "1996_Atlanta": {
+      "filename": "1996_Atlanta",
+      "total_venues": 29,
+      "sports_matches": 3,
+      "name_matches": 25,
+      "name_matches_by_method": {
+        "exact_match": 11,
+        "substring_match": 10,
+        "token_match": 1,
+        "fuzzy_match": 3
+      },
+      "unmatched": 1
+    },
+    "1998_Nagano": {
+      "filename": "1998_Nagano",
+      "total_venues": 14,
+      "sports_matches": 5,
+      "name_matches": 9,
+      "name_matches_by_method": {
+        "exact_match": 5,
+        "substring_match": 2,
+        "token_match": 2,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "2000_Sydney": {
+      "filename": "2000_Sydney",
+      "total_venues": 30,
+      "sports_matches": 2,
+      "name_matches": 26,
+      "name_matches_by_method": {
+        "exact_match": 10,
+        "substring_match": 14,
+        "token_match": 1,
+        "fuzzy_match": 1
+      },
+      "unmatched": 2
+    },
+    "2002_Salt_Lake_City": {
+      "filename": "2002_Salt_Lake_City",
+      "total_venues": 10,
+      "sports_matches": 2,
+      "name_matches": 8,
+      "name_matches_by_method": {
+        "exact_match": 6,
+        "substring_match": 1,
+        "token_match": 1,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "2004_Athens": {
+      "filename": "2004_Athens",
+      "total_venues": 35,
+      "sports_matches": 5,
+      "name_matches": 28,
+      "name_matches_by_method": {
+        "exact_match": 11,
+        "substring_match": 16,
+        "token_match": 0,
+        "fuzzy_match": 1
+      },
+      "unmatched": 2
+    },
+    "2006_Turin": {
+      "filename": "2006_Turin",
+      "total_venues": 14,
+      "sports_matches": 9,
+      "name_matches": 4,
+      "name_matches_by_method": {
+        "exact_match": 3,
+        "substring_match": 1,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "2008_Beijing": {
+      "filename": "2008_Beijing",
+      "total_venues": 37,
+      "sports_matches": 6,
+      "name_matches": 27,
+      "name_matches_by_method": {
+        "exact_match": 9,
+        "substring_match": 15,
+        "token_match": 1,
+        "fuzzy_match": 2
+      },
+      "unmatched": 4
+    },
+    "2010_Vancouver": {
+      "filename": "2010_Vancouver",
+      "total_venues": 9,
+      "sports_matches": 0,
+      "name_matches": 8,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 4,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "2012_London": {
+      "filename": "2012_London",
+      "total_venues": 30,
+      "sports_matches": 5,
+      "name_matches": 23,
+      "name_matches_by_method": {
+        "exact_match": 17,
+        "substring_match": 6,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 2
+    },
+    "2014_Sochi": {
+      "filename": "2014_Sochi",
+      "total_venues": 10,
+      "sports_matches": 1,
+      "name_matches": 9,
+      "name_matches_by_method": {
+        "exact_match": 4,
+        "substring_match": 2,
+        "token_match": 3,
+        "fuzzy_match": 0
+      },
+      "unmatched": 0
+    },
+    "2016_Rio": {
+      "filename": "2016_Rio",
+      "total_venues": 37,
+      "sports_matches": 3,
+      "name_matches": 33,
+      "name_matches_by_method": {
+        "exact_match": 7,
+        "substring_match": 26,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "2018_Pyeongchang": {
+      "filename": "2018_Pyeongchang",
+      "total_venues": 12,
+      "sports_matches": 0,
+      "name_matches": 11,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 11,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 1
+    },
+    "2020_Tokyo": {
+      "filename": "2020_Tokyo",
+      "total_venues": 41,
+      "sports_matches": 0,
+      "name_matches": 0,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 41
+    },
+    "2022_Beijing": {
+      "filename": "2022_Beijing",
+      "total_venues": 11,
+      "sports_matches": 0,
+      "name_matches": 0,
+      "name_matches_by_method": {
+        "exact_match": 0,
+        "substring_match": 0,
+        "token_match": 0,
+        "fuzzy_match": 0
+      },
+      "unmatched": 11
+    }
+  },
+  "generated_at": "2025-07-28T21:01:44.033574"
+}

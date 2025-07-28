@@ -1,0 +1,1581 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145817,
+          41.425875
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo Olímpico de Tiro con Arco (also known as Camb Olímpic de Tir amb Arc)",
+          "Olympic Archery Field"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.425875,2.145817",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1992",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_667.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Archery Field",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Archery",
+        "venue_information": "Two new archery facilities were built on a complex of football and rugby pitches: a competition pavilion and a training pavilion, in the middle of which stood the archery range created for the Games. The competition pavilion was not taken down until several years after the Games, to make way for the expansion of Barcelona's underground system. The training pavilion still stands and is used as a changing room for players using the football pitches, which remain in place."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.155658,
+          41.364761
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Olímpico de Montjuïc",
+          "Montjuïc Olympic Stadium",
+          "Estadio Olímpico Lluís Companys (?-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.364761,2.155658",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1929",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "87 m",
+        "source_file": "venue_668.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.232144,
+          41.442414
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio Municipal de Deportes de Badalona (also known as Pabellón Olímpico de Badalona)",
+          "Badalona Municipal Palace of Sports"
+        ],
+        "place": "Badalona",
+        "coordinates": "41.442414,2.232144",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "12500",
+        "type": "indoor venue",
+        "source_file": "venue_669.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau d'Esports, Badalona",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Basketball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.211779,
+          41.400101
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la Mar Bella (also known as Pavelló de la Mar Bella)",
+          "Mar Bella Pavillion",
+          "Complejo Deportivo Municipal Mar Bella (?-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.400101,2.211779",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "1992",
+        "seating_capacity": "4000",
+        "type": "indoor venue",
+        "source_file": "venue_670.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Pavelló de la Mar Bella",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Badminton",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.237,
+          41.444411
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón Club Joventut (also known as Pavelló Club Joventut)",
+          "Club Joventut Pavillion",
+          "Pabellón d'Ausiàs March (1972-1991), Pabellón de los Países Catalanes (?-Present)"
+        ],
+        "place": "Badalona",
+        "coordinates": "41.444411,2.23700",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1972",
+        "type": "indoor venue",
+        "source_file": "venue_671.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Pavelló Club Joventut, Badalona",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Boxing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.101701,
+          41.347099
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Béisbol de Llobregat (also known as Estadi de Beisbol de Llobregat)",
+          "Llobregat Baseball Stadium",
+          "Campo Municipal de Futbol de la Feixa Llarga (?-Present)"
+        ],
+        "place": "Hospitalet de Llobregat",
+        "coordinates": "41.347099,2.101701",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "notes": "Restructured as a football stadium.",
+        "opened": "1991",
+        "seating_capacity": "7000",
+        "type": "outdoor venue",
+        "source_file": "venue_672.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.754,
+        "matched_venue_name": "L'Hospitalet Baseball Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Baseball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.017237,
+          41.325046
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Béisbol de Viladecans (also known as Estadi de Beisbol de Viladecans)",
+          "Viladecans Baseball Stadium"
+        ],
+        "place": "Viladecans",
+        "coordinates": "41.325046,2.017237",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "seating_capacity": "4000",
+        "type": "outdoor venue",
+        "source_file": "venue_673.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Viladecans Baseball Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Baseball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.992275,
+          41.279234
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canal Olímpico de Cataluña (also known as Canal Olímpic de Catalunya)",
+          "Catalonia Olympic Canal"
+        ],
+        "place": "Castelldefels",
+        "coordinates": "41.279234,1.992275",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint"
+        ],
+        "opened": "1991",
+        "seating_capacity": "500",
+        "type": "outdoor venue",
+        "source_file": "venue_674.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Castelldefels Olympic Canal",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe sprint",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.463107,
+          42.354806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Parque Olímpico del Segre (also known as Parc Olímpic del Segre)",
+          "Segre Olympic Park"
+        ],
+        "place": "Seo de Urgel",
+        "coordinates": "42.354806,1.463107",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "1990",
+        "type": "outdoor venue",
+        "source_file": "venue_675.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.75,
+        "matched_venue_name": "Parc del Segre, La Seu d'Urgell",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe slalom",
+        "venue_information": "Since the 1992 Olympic Games, 18 International Canoe Federation (ICF) World Cup races have been held at the venue, including the ICF Canoe Slalom World Championships in 1999 and 2009. The centre also plays host to numerous national and regional canoe competitions and is home to Club Cadí Canoë Kayak, a high-performance centre. Used by schools, residents and businesses, it offers a wide variety of recreational activities, such as rafting, mountain biking and Nordic walking.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.778841,
+          41.428749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sant Sadurní Cycling Circuit"
+        ],
+        "place": "Sant Sadurní d'Anoia",
+        "coordinates": "41.428749,1.778841",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_676.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Sant Sadurní cycling circuit",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.261111,
+          41.57
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuito de Cataluña (also known as Circuit de Catalunya)",
+          "Catalonia Circuit"
+        ],
+        "place": "Montmeló",
+        "coordinates": "41.57,2.261111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_677.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.148861,
+          41.43813
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velódromo de Horta (also known as Velòdrom d'Horta)",
+          "Horta Velodrome"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.43813,2.148861",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "43° curves, 13° straights",
+        "source_file": "venue_678.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165058,
+          41.369331
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscina Municipal de Montjuïc",
+          "Montjuïc Municipal Pool"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.369331,2.165058",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Water Polo"
+        ],
+        "opened": "1929",
+        "type": "outdoor venue",
+        "source_file": "venue_679.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Montjuïc Swimming Pool",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Diving, water polo",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.111271,
+          41.382682
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Real Club de Polo (also known as Reial Club de Polo)",
+          "Royal Polo Club"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.382682,2.111271",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1932",
+        "seating_capacity": "9600",
+        "type": "outdoor venue",
+        "source_file": "venue_680.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Real Club de Polo",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage, jumping, modern pentathlon (equestrian)",
+        "venue_information": "The club was founded in 1897, and its facilities were refurbished for the 1992 Olympic Games. The stables were upgraded, the turf replaced and a new drainage system installed. Temporary stands were built to accommodate more than 9,600 spectators. The venue continues to host major events. It staged the Longines FEI Jumping Nations Cup final for the eighth year in a row in 2021 and was also the setting for the equestrian events at the 2018 Mediterranean Games.\n\nThe club's current facilities include a polo pitch, a competition arena, a training course for jumping, four hockey pitches, 31 tennis courts, two squash courts and two swimming pools. The Real Club de Polo runs more than 100 tennis, polo, padel, hockey and equestrianism teams and has more than 10,500 members. Its various sports academies have more than 2,000 participants. The club hosts more than 160 tournaments a year and is used by over 17,000 athletes annually.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.279894,
+          41.819104
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Club Hípico El Montanyà (also known as Club Hípic El Montayá)",
+          "El Montanyà Equestrian Club"
+        ],
+        "place": "Montanyà",
+        "coordinates": "41.819104,2.279894",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1991",
+        "seating_capacity": "3400",
+        "type": "outdoor venue",
+        "source_file": "venue_681.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "El Montanyà Equestrian Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.149469,
+          41.372209
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de la Metalurgia (also known as Palau de Metal-lúrgia)",
+          "Palace of Metallurgy"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.372209,2.149469",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1929",
+        "type": "indoor venue",
+        "source_file": "venue_682.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau de la Metal-lúrgia",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing, modern pentathlon (fencing)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.122831,
+          41.380889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio del FC Barcelona (also known as Estadi del FC Barcelona)",
+          "FC Barcelona Stadium",
+          "L'Estadi Camp Nou (2000-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.380889,2.122831",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1957",
+        "seating_capacity": "100000",
+        "type": "outdoor venue",
+        "source_file": "venue_683.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "FC Barcelona Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.358361,
+          39.474656
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Luis Casanova",
+          "Luis Casanova Stadium",
+          "Estadio Mestalla (1994-Present)"
+        ],
+        "place": "Valencia",
+        "coordinates": "39.474656,-0.358361",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1923",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_684.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Luis Casanova Stadium, Valencia",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.901822,
+          41.636592
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de La Romareda",
+          "Romareda Stadium"
+        ],
+        "place": "Zaragoza",
+        "coordinates": "41.636592,-0.901822",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1957",
+        "seating_capacity": "43000",
+        "type": "outdoor venue",
+        "source_file": "venue_685.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8727272727272727,
+        "matched_venue_name": "La Romareda Stadium, Zaragoza",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.091944,
+          41.554722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de la Nova Creu Alta (also known as Estadi de la Nova Creu Alta)",
+          "Nova Creu Alta Stadium"
+        ],
+        "place": "Sabadell",
+        "coordinates": "41.554722,2.091944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1967",
+        "seating_capacity": "16000",
+        "type": "outdoor venue",
+        "source_file": "venue_686.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Nova Creu Alta Stadium, Sabadell",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.133169,
+          41.393111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Sarriá (also known as Estadi de Sarrià)",
+          "Sarría Stadium"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.393111,2.133169",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1923",
+        "demolished": "1997",
+        "seating_capacity": "42000",
+        "type": "outdoor venue",
+        "source_file": "venue_687.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.7539999999999999,
+        "matched_venue_name": "La Romareda Stadium, Zaragoza",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152556,
+          41.363389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palau Sant Jordi",
+          "St. George's Palace"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.363389,2.152556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball",
+          "Volleyball"
+        ],
+        "opened": "1990",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "source_file": "venue_688.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau Sant Jordi",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, handball, volleyball",
+        "venue_information": "The multi-purpose venue hosted artistic gymnastics, handball and volleyball and had a capacity of nearly 18,000. After the Games, it hosted a wide range of sporting events, including the 1995 World Indoor Athletics Championships, the 1997 European Basketball Championships, the 2000 and 2009 Davis Cup finals, the FINA World Swimming Championships in 2003 and 2013, and the 2013 Men's World Handball Championships. It is also a popular concert venue. Bruce Springsteen, U2 and Madonna are just some of the leading international acts to have played the venue. It was expanded in 2009, and its VIP seating areas were refurbished in 2020.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.287778,
+          41.598611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de Deportes de Granollers (also known as Palau d'Esports de Granollers)",
+          "Granollers Palace of Sports"
+        ],
+        "place": "Granollers",
+        "coordinates": "41.598611,2.287778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "5500",
+        "type": "indoor venue",
+        "source_file": "venue_689.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau d'Esports, Granollers",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Handball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.011142,
+          41.576133
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Olímpico (also known as Estadi Olímpic)",
+          "Olympic Stadium"
+        ],
+        "place": "Terrassa",
+        "coordinates": "41.576133,2.011142",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1955",
+        "seating_capacity": "10200",
+        "type": "outdoor venue",
+        "source_file": "venue_690.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "The stadium was built in 1929 and hosted events at the 1955 Mediterranean Games before falling into disuse. It survived plans for its demolition in the 1970s and was completely refurbished in the mid-1980s, when its neoclassical facade was fully restored and the pitch was lowered by 11 metres to allow new rows of seating to be installed. Situated on Montjuïc, the hill that overlooks the city, it became the focal point of the 1992 Olympic Games, since when it has been used for both sporting and non-sporting events. From 1997 to 2009, it was the home ground of football club RCD Espanyol. It staged the 2010 European Athletics Championships and the 2012 IAAF World Junior Championships. In recent years, it has hosted major music concerts and has been used as a sports theme park. Plans for its future use are under discussion.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.12005,
+          41.380081
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palau Blaugrana",
+          "Blue and Red Palace"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.380081,2.12005",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Roller Hockey",
+          "Taekwondo"
+        ],
+        "opened": "1971",
+        "seating_capacity": "6400",
+        "type": "indoor venue",
+        "source_file": "venue_691.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau Blaugrana",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Judo, taekwondo, roller hockey",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.150595,
+          41.365738
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscinas Bernat Picornell (also known as Piscines Bernat Picornell)",
+          "Bernat Picornell Pools"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.365738,2.150595",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1970",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_692.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Bernat Picornell Swimming Pool",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Swimming, artistic swimming, water polo, modern pentathlon(swimming)",
+        "venue_information": "Built in 1970 for the European Aquatics Championships that year, this venue is located in Montjuïc Park and is now a municipal sports centre. It was refurbished for the 1992 Games, when an indoor pool was built, its seating capacity increased, and temporary stands constructed. The venue, which has a 50m indoor pool, a 50m outdoor pool and a diving well, was given back to the city after the Games for use by its residents. It was a venue at the 2003 FINA World Championships, the 2013 Water Polo World Championships and the 2018 LEN European Water Polo Championships.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218434,
+          41.551286
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo de Tiro Olímpico de Mollet (also known as Camp de Tír Olímpic de Mollet)",
+          "Mollet Olympic Shooting Range"
+        ],
+        "place": "Mollet del Vallès",
+        "coordinates": "41.551286,2.218434",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1992",
+        "seating_capacity": "1400",
+        "type": "outdoor venue",
+        "source_file": "venue_693.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Mollet Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting, modern pentathlon (shooting)",
+        "venue_information": "",
+        "match_method": "token_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.154904,
+          41.361245
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Pau Negre",
+          "Pau Negre Stadium"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.361245,2.154904",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_694.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Mollet Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting, modern pentathlon (shooting)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.14504838,
+          41.4279184
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la Vall d'Hebron (also known as Pavelló de la Vall d'Hebron)",
+          "Vall d'Hebron Pavillion"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.42791840,2.14504838",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota",
+          "Volleyball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "2500 (VOL) / 3300 (PEL)",
+        "type": "indoor venue",
+        "source_file": "venue_695.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8280000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Tennis de la Vall d'Hebron",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Opened in late 1991, the complex had a capacity of 15,000 at Games time and 17 courts, with eight of them hosting the Olympic tournaments. After the Games, the venue was opened to the public and has since been refurbished, most recently in 2019. The Catalan Tennis Federation is based at the centre, which hosts tournaments and runs training camps for juniors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.239333,
+          41.932512
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló del Club Patí",
+          "Club Patí Pavillion"
+        ],
+        "place": "Vic",
+        "coordinates": "41.932512,2.239333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "seating_capacity": "1700",
+        "type": "indoor venue",
+        "source_file": "venue_696.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Terrassa Hockey Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "Built in 1960, the stadium (now known as the Estadio Olímpico Municipal de Hockey Martí Colomer) was refurbished for Barcelona 1992, when two of the complex's three pitches hosted matches. It forms part of a sports complex comprising a swimming pool, a football stadium and an indoor centre. Terrassa was the first Spanish city to found a hockey club and it is now home to four, with all of them playing in Spain's top division. The venue is used by these clubs and hosted matches at the 2018 Hockey Masters World Cup. It will co-host the 2022 FIH Hockey Women's World Cup with Amsterdam."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.783302,
+          41.423043
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló de l'Ateneu",
+          "Ateneu Pavillion"
+        ],
+        "place": "Sant Sadurní d'Anoia",
+        "coordinates": "41.423043,1.783302",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "opened": "1981",
+        "seating_capacity": "1300",
+        "type": "indoor venue",
+        "source_file": "venue_697.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Terrassa Hockey Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "Built in 1960, the stadium (now known as the Estadio Olímpico Municipal de Hockey Martí Colomer) was refurbished for Barcelona 1992, when two of the complex's three pitches hosted matches. It forms part of a sports complex comprising a swimming pool, a football stadium and an indoor centre. Terrassa was the first Spanish city to found a hockey club and it is now home to four, with all of them playing in Spain's top division. The venue is used by these clubs and hosted matches at the 2018 Hockey Masters World Cup. It will co-host the 2022 FIH Hockey Women's World Cup with Amsterdam."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.109144,
+          41.16241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló d'Esports",
+          "Sports Pavillion"
+        ],
+        "place": "Reus",
+        "coordinates": "41.16241,1.109144",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "opened": "1992",
+        "seating_capacity": "3000",
+        "type": "indoor venue",
+        "source_file": "venue_698.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.795,
+        "matched_venue_name": "Palau d'Esports, Barcelona",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Rhythmic gymnastics, volleyball",
+        "venue_information": "This multi-purpose venue opened in 1955 and hosted events at the Mediterranean Games that year. It later staged matches at the 1986 FIBA World Basketball Championship. The venue was remodelled for the 1992 Olympic Games, with its parquet flooring replaced with a synthetic surface to meet the needs of the volleyball and rhythmic gymnastics competitions. The venue hosted fewer sporting events after the Games due to the construction of the Palau Sant Jordi and was repurposed in 2000 to stage theatre productions and concerts. It staged its last production in 2017 and was closed thereafter due to structural damage. In 2021, Barcelona City Council announced plans to convert it into a sports technology and innovation centre that will form part of the Barcelona Sports Tech Hub initiative. The schedule for the venue's conversion has yet to be announced.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7584,
+          42.134453
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lago de Bañolas (also known as Estany Banyoles)",
+          "Lake Banyoles"
+        ],
+        "place": "Bañolas",
+        "coordinates": "42.134453,2.7584",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "seating_capacity": "4500",
+        "type": "outdoor venue",
+        "source_file": "venue_699.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Banyoles Lake",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing",
+        "venue_information": "The lake staged its first rowing and water sports competitions in the 1950s. Temporary seating for 4,000 spectators was erected for the rowing events at the 1992 Olympic Games and removed afterwards. Situated 120 kilometres north of Barcelona, the lake was also landscaped for the Games, and the start and finish areas were developed.\n\nThe venue is still used as a high-performance training base and for regional, national and international rowing, canoeing and triathlon events. It hosted the 2004 FISA World Rowing Championships and the 2019 ITU Triathlon World Cup, among other major competitions. Its facilities include boathouses, a gym, an indoor and outdoor pool, and basketball and beach volleyball courts. Founded in 1925, Club Natació Banyoles continues to use the lake, offering water sports such as rowing, canoeing, water polo and kayaking for people of all ages and abilities, up to high-performance level. The Catalan Rowing Federation is also based at the lake, which is a popular recreational destination for locals and tourists.",
+        "match_method": "token_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.200278,
+          41.386667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Puerto Olímpico (also known as Port Olímpic)",
+          "Olympic Port"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.386667,2.200278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_700.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Harbour",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145935,
+          41.429621
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Municipal de Tenis Vall d'Hebron",
+          "Vall d'Hebron Municipal Tennis Centre"
+        ],
+        "place": "La Vall d'Hebron, Barcelona, Catalonia, ESP",
+        "coordinates": "41.429621,2.145935",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1992",
+        "seating_capacity": "8000 (centre court)",
+        "type": "outdoor venue",
+        "surface": "Clay",
+        "source_file": "venue_705.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Tennis de la Vall d'Hebron",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Opened in late 1991, the complex had a capacity of 15,000 at Games time and 17 courts, with eight of them hosting the Olympic tournaments. After the Games, the venue was opened to the public and has since been refurbished, most recently in 2019. The Catalan Tennis Federation is based at the centre, which hosts tournaments and runs training camps for juniors.",
+        "match_method": "token_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.183045,
+          41.39419
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polideportivo Estación del Norte (also known as Poliesportiu Estació del Nord)",
+          "North Station Sports Hall"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.39419,2.183045",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Table Tennis"
+        ],
+        "notes": "Former train station.",
+        "opened": "1856",
+        "seating_capacity": "5500",
+        "type": "indoor venue",
+        "source_file": "venue_706.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Tennis de la Vall d'Hebron",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Opened in late 1991, the complex had a capacity of 15,000 at Games time and 17 courts, with eight of them hosting the Olympic tournaments. After the Games, the venue was opened to the public and has since been refurbished, most recently in 2019. The Catalan Tennis Federation is based at the centre, which hosts tournaments and runs training camps for juniors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.155219,
+          41.371633
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de los Deportes (also known as Palau dels Esports)",
+          "Palace of Sports"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.371633,2.155219",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rhythmic Gymnastics",
+          "Volleyball"
+        ],
+        "opened": "1955",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_707.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palau d'Esports, Barcelona",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Rhythmic gymnastics, volleyball",
+        "venue_information": "This multi-purpose venue opened in 1955 and hosted events at the Mediterranean Games that year. It later staged matches at the 1986 FIBA World Basketball Championship. The venue was remodelled for the 1992 Olympic Games, with its parquet flooring replaced with a synthetic surface to meet the needs of the volleyball and rhythmic gymnastics competitions. The venue hosted fewer sporting events after the Games due to the construction of the Palau Sant Jordi and was repurposed in 2000 to stage theatre productions and concerts. It staged its last production in 2017 and was closed thereafter due to structural damage. In 2021, Barcelona City Council announced plans to convert it into a sports technology and innovation centre that will form part of the Barcelona Sports Tech Hub initiative. The schedule for the venue's conversion has yet to be announced."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.14231,
+          41.37731
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la España Industrial (also known as Pavelló de l'Espanya Industrial)",
+          "Industrial Spain Pavillion"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.37731,2.14231",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_708.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Pavelló l'Espanya Industrial",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Weightlifting",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.147151,
+          41.364921
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Instituto Nacional de Educación Física de Cataluña (INEFC)",
+          "Catalonia National Institute of Physical Education (INEFC)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.364921,2.147151",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1991",
+        "seating_capacity": "400",
+        "type": "indoor venue",
+        "source_file": "venue_709.json",
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.929,
+        "matched_venue_name": "Institut Nacional d'Educació Física de Catalunya (INEFC)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Wrestling",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    }
+  ]
+}

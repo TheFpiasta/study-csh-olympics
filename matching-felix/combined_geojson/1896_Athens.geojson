@@ -1,0 +1,292 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.741111,
+          37.968333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panathinaiko Stadio (also known as Kallimarmaro)",
+          "Panathenaic Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.968333,23.741111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1870",
+            "season": "Zappas"
+          },
+          {
+            "year": "1875",
+            "season": "Zappas"
+          },
+          {
+            "year": "1888-89",
+            "season": "Zappas"
+          },
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Art Competitions",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Fencing",
+          "Shooting",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Wrestling",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "566 BC",
+        "seating_capacity": "80,000 (1896) / 45,000 (2004)",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "loose cinders (1896, 1906) / artificial (2004)",
+        "altitude": "104 m",
+        "source_file": "venue_186.json",
+        "Olympics": "1896 Athens",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Panathenaic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, artistic gymnastics, weightlifting",
+        "venue_information": "Originally built in 329 BC, the stadium had fallen into disrepair in the 19th century before being restored for the 1896 Games. However, the work had not been completed by the time the Games began, and temporary wooden stands were installed.\n\nThe stadium has since hosted a number of sporting and cultural events, including the first Balkan Games in 1929, the opening ceremony of the 1997 IAAF World Championships, and the archery competitions and the finish of the men's and women's marathons at the Olympic Games Athens 2004.\n\nEvery two years, the stadium is also the venue for the official handover of the Olympic flame to the organisers of the next Olympic Summer or Winter Games. In April 2010, it opened to the public and became a visitor attraction, offering educational programmes for schools and tours. It is also a concert venue."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.664317,
+          37.946447
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Podilatodromio Neou Falirou",
+          "Neo Faliro Velodrome"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.946447,23.664317",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling Track",
+          "Football",
+          "Tennis"
+        ],
+        "notes": "Later rebuilt as the Stadio Georgios Karaiskakis.",
+        "opened": "1896",
+        "demolished": "2004",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "concrete",
+        "additional_details": "Banking: minimal.",
+        "source_file": "venue_187.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.736544,
+          37.971306
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zappeion"
+        ],
+        "place": "Athina",
+        "coordinates": "37.971306,23.736544",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1888",
+        "type": "indoor venue",
+        "source_file": "venue_188.json",
+        "Olympics": "1896 Athens",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Zappeion",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing",
+        "venue_information": "Opened in 1888 for the purposes of exhibiting Greek art and antiquities. The Athens 1896 fencing competition took place in the building's circular atrium, around which spectator seating was installed. The venue has fulfilled a number of functions since then. A radio station and then a hospital during the Second World War, it was the home of the Organising Committee for the Olympic Games Athens 2004 from 1998 to 1999, and served as the main communications centre during the Games. Situated close to the Panathenaic Stadium, it is now a conference and exhibition centre and a member of the Historic Conference Centres of Europe association.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.704634,
+          37.952996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Skopeftirion",
+          "Shooting Range"
+        ],
+        "place": "Kallithea",
+        "coordinates": "37.952996,23.704634",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_189.json",
+        "Olympics": "1896 Athens",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kallithea stand",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": "White marble was used to build the shooting stadium in the classical Greek style. The gallery featured long rows of columns and was capable of accommodating 30 shooters at a time. In 1922, the site was expropriated by the state to house refugees from the Greco-Turkish War, and the shooting range was relocated across the city of Athens to Kaisariani."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.648157,
+          37.937327
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ormos tes Zeas (also known as Pasalimani)",
+          "Bay of Zea"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.937327,23.648157",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Swimming"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_190.json",
+        "Olympics": "1896 Athens",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Bay of Zea",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Swimming",
+        "venue_information": "The bay has been a harbour since the early fifth century BC. Some temporary facilities were erected for the Games, including a pier for spectators and shelters for boats. It is now a yacht marina with berthing capacity for 670 craft.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.734835,
+          37.969119
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Homilos Antisfairiseos Athinon",
+          "Athens Lawn Tennis Club"
+        ],
+        "place": "Athina",
+        "coordinates": "37.969119,23.734835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Tennis"
+        ],
+        "opened": "1895",
+        "type": "outdoor venue",
+        "source_file": "venue_191.json",
+        "Olympics": "1896 Athens",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Athens Lawn Tennis Club",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Founded in 1895 and the oldest tennis club in Greece, the Athens Lawn Tennis Club hosts local and international competitions, including Greece's home Davis Cup matches. Open to members and visitors, it is also used for coaching and practice."
+      }
+    }
+  ]
+}

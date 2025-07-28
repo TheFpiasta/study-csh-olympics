@@ -1,0 +1,924 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.250833,
+          48.864722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Croix Catelan, Bois de Boulogne",
+          "Catalan Cross, Boulogne Forest"
+        ],
+        "place": "Paris",
+        "coordinates": "48.864722,2.250833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Tug-Of-War"
+        ],
+        "opened": "1882",
+        "type": "outdoor venue",
+        "dimensions": "500 m",
+        "surface": "grass",
+        "altitude": "45 m",
+        "source_file": "venue_193.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "match_method": "substring_match",
+        "matched_venue_name": "Croix-Catelan",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, tug of war",
+        "venue_information": "Founded in 1886 and formerly one of five sites used by Racing Club de France, the Croix-Catelan is a large sports complex. It is home to 45 tennis courts, a 50m swimming pool, a gym, a football pitch and volleyball and basketball courts. The venue offers classes and lessons and several activities for children. Racing Club de France vacated the venue in 2006, when it was taken over by Lagardère Paris Racing."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.411528,
+          48.826331
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vélodrome Municipal de Vincennes (also known as La Cipale)",
+          "Municipal Velodrome",
+          "Vélodrome Jacques-Anquetil (1987-Present)"
+        ],
+        "place": "Paris",
+        "coordinates": "48.826331,2.411528",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cricket",
+          "Cycling Track",
+          "Football",
+          "Lifesaving",
+          "Rugby"
+        ],
+        "opened": "1894",
+        "type": "outdoor venue",
+        "dimensions": "500 m",
+        "surface": "concrete",
+        "source_file": "venue_194.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 0.759,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Vélodrome de Vincennes",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track), football, gymnastics, rugby, cricket, archery",
+        "venue_information": "A venue for multiple competitions at Paris 1900, the velodrome opened in 1896 and also staged cycling events at the Olympic Games Paris 1924. The setting for the prestigious Grand Prix de Paris, the velodrome was also the official finish line of the Tour de France between 1968 and 1974 but suffered neglect thereafter and was closed in 1980. Thanks to a campaign to save it and three years of refurbishment work, it reopened to the public in 2015, with its original stands still intact. A listed historical monument, the venue is officially known as the Vélodrome Jacques Anquetil and more popularly as La Cipale."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.259461,
+          48.873335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cercle du Bois de Boulogne",
+          "Circle of Boulogne Forest"
+        ],
+        "place": "Paris",
+        "coordinates": "48.873335,2.259461",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Croquet"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_195.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Cercle du Bois de Boulogne, Pelouse de Madrid",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Croquet",
+        "venue_information": "The site was first used as a skating club in 1865. The Cercle du Bois de Boulogne came into being in 1899, at which point the venue became a clay pigeon shooting club, counting Pierre de Coubertin among its members. With the growth in popularity of tennis between the wars, the club began hosting tennis tournaments and became a popular practice venue for players competing in the French Open at Roland-Garros. The Ligue de Tennis de Paris is now the resident club. Among its many activities, it identifies and coaches talented young players.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.311614,
+          48.847268
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Place de Breteuil",
+          "Breteuil Square"
+        ],
+        "place": "Paris",
+        "coordinates": "48.847268,2.311614",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Driving",
+          "Equestrian Jumping"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_196.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Place de Breteuil",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Equestrian (jumping)",
+        "venue_information": "The facilities set up to host the equestrian jumping competition at Place de Breteuil were taken down after the Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.298333,
+          48.856111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Grande Salle des Fêtes de l'Exposition, Champs de Mars",
+          "Grand Celebration Hall of the Exposition, Field of Mars"
+        ],
+        "place": "Paris",
+        "coordinates": "48.856111,2.298333",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_197.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Grande Salle des Fêtes de l'Exposition, Champ de Mars",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Fencing",
+        "venue_information": "The venue for the fencing foil and sabre competitions, the Grande Salle des Fêtes de l'Exposition, was built for the 1900 Paris World's Fair and was dismantled at a later stage.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.326111,
+          48.863889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jardin des Tuileries",
+          "Tuileries Garden"
+        ],
+        "place": "Paris",
+        "coordinates": "48.863889,2.326111",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Military Exercise"
+        ],
+        "opened": "1564",
+        "type": "outdoor venue",
+        "source_file": "venue_198.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.843184,
+          49.411448
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Golf de Compiègne",
+          "Compiègne Golf Club"
+        ],
+        "place": "Compiègne",
+        "coordinates": "49.411448,2.843184",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Golf"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_199.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Terrain de la Société des Sports de Compiègne",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Golf",
+        "venue_information": "Founded in 1896 and situated in the middle of a racecourse, the golf course closed in 2017. The expansion of the racecourse led to it being reduced from an 18-hole course to just nine holes. The club lost members as a result and was unable to continue operating."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2686,
+          48.8881
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rue Borghese",
+          "Borghese Street"
+        ],
+        "place": "26 Neuilly-sur-Seine",
+        "coordinates": "48.888100,2.268600",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_200.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fronton de Neuilly / Terrain de la Société du Jeu de pelote",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Basque pelota",
+        "venue_information": "The Société du Jeu de Pelote was founded in 1898 and built the French capital's first permanent pelota court at 26 Rue Pauline Borghèse in Neuilly-sur-Seine. It was this court that hosted the competition held as part of the 1900 Olympic Games, with a small stand built next to it to accommodate spectators. Two more courts were opened in Neuilly in the years immediately afterwards, as the popularity of the game spread, with new clubs being founded and the game finding its way into schools. This popularity quickly faded in the Neuilly area, however, leading to the closure of the Rue Pauline Borghèse court in 1906. By 1912, Neuilly's two other courts had also closed, while a fourth opened in 1913 only to shut down a year later."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.236243,
+          48.867418
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polo Club de Paris, Bagatelle, Bois de Boulogne",
+          "Paris Polo Club, Bagatelle, Boulogne Forest"
+        ],
+        "place": "Paris",
+        "coordinates": "48.867418,2.236243",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Polo"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_201.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Pelouse de Bagatelle, Bois de Boulogne",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Polo",
+        "venue_information": "France's oldest polo club, founded in 1892, is now known as the Polo de Paris. It offers its members a wide range of sports, including athletics, fencing, golf and tennis, and also lays on recreational and cultural activities, as well as receptions and business seminars."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.265973,
+          48.895097
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Seine, Pont de Courbevoie – Pont d'Asnières",
+          "Seine, Courbevoie Bridge – Asnières Bridge"
+        ],
+        "place": "Paris",
+        "coordinates": "48.895097,2.265973",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Lifesaving",
+          "Rowing",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "outdoor venue",
+        "additional_details": "Swum downstream",
+        "source_file": "venue_202.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.916084,
+          49.002069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cercle de la Voile de Paris",
+          "Paris Sailing Circle"
+        ],
+        "place": "Meulan",
+        "coordinates": "49.002069,1.916084",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_203.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Cercle de la Voile de Paris",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1924, it organises regattas across a number of classes.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08348040566,
+          49.50292403
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palais de la Société des Régates du Havre",
+          "Palace of the Le Havre Regatta Society"
+        ],
+        "place": "Le Havre",
+        "coordinates": "49.50292403,0.08348040566",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_204.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palais de la Société des Régates du Havre",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Sailing",
+        "venue_information": "Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1924, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.091941,
+          48.78887
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Camp de Satory",
+          "Satory Camp"
+        ],
+        "place": "Versailles",
+        "coordinates": "48.78887,2.091941",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_205.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Camp militaire de Satory",
+        "venue_classification": "New build",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Shooting",
+        "venue_information": "The site, which housed specially erected pavilions during the 1900 Olympic Games, is still occupied by military buildings."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.24146,
+          48.874538
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Société des sports de l'île de Puteaux",
+          "Sport Society of Puteaux Island"
+        ],
+        "place": "Puteaux",
+        "coordinates": "48.874538,2.24146",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_206.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Courts de la Société des Sports de l'île de Puteaux / Cercle de Puteaux",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Still a tennis venue and situated on an island in the Seine, it was established in 1886. The club now has more than 850 members and 600 juniors in its tennis academy. Its 16 courts, five of which are covered, are also open to the public, and classes and lessons are offered."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2328,
+          48.823819
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Stand de l'Île Séguin",
+          "Shooting Stand of Séguin Island"
+        ],
+        "place": "Billancourt",
+        "coordinates": "48.823819,2.2328",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_207.json",
+        "Olympics": "1900 Paris",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Stand de l'île Séguin",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": "This island in the Seine was a popular leisure destination and was used for recreational boating and angling, as well as clay pigeon shooting. The shooting range made way for a Renault car factory in 1919. The factory produced its last car in 1992 and was demolished in 2005. The site is now occupied by newly built concert and performance venues.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.432917,
+          48.828069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bois de Vincennes"
+        ],
+        "place": "Paris 12e, Paris, France",
+        "coordinates": "48.828069,2.432917",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Military Exercise"
+        ],
+        "opened": "1860",
+        "type": "outdoor venue",
+        "source_file": "venue_2146.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.334315,
+          48.84731
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Terrain de la Société de longue paume de Paris, Jardin du Luxembourg",
+          "Paris Longue Paume Society grounds, Luxembourg Garden"
+        ],
+        "place": "Paris",
+        "coordinates": "48.847310,2.334315",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Longue Paume"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_2149.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.254968,
+          48.940207
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bassin de la Seine",
+          "Seine basin"
+        ],
+        "place": "Argenteuil",
+        "coordinates": "48.940207,2.254968",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Motorboating"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_2150.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.463139,
+          48.814916
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Marne"
+        ],
+        "place": "Joinville-le-Pont",
+        "coordinates": "48.814916,2.463139",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "seating_capacity": "10,000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_2151.json",
+        "Olympics": "1900 Paris",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Seine River",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing, swimming, water polo",
+        "venue_information": "The section between Courbevoie Bridge and Asnières Bridge was used to host the rowing, swimming and water polo competitions at Paris 1900. No facilities were erected for the rowing events, with spectators watching from the banks of the river. The river continues to host rowing events, among them the Championnats de la Seine, France's oldest rowing competition, which is held on the same section of the Seine as the Paris 1900 events. This section is also home to the Aviron Courbevoie club, which was founded in 1882. Paris Rowing Club relocated from Courbevoie in 1970, and rowing activities on the Seine are now mainly focused on areas such as Saint-Denis and Neuilly."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.413752,
+          48.830529
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lac Daumesnil",
+          "Daumesnil Lake"
+        ],
+        "place": "Paris",
+        "coordinates": "48.830529,2.413752",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Automobile Racing",
+          "Motorcycle Sports"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_848.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.456582,
+          48.703962
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Montgeron, Essonne",
+        "coordinates": "48.703962,2.456582",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Automobile Racing",
+          "Motorcycle Sports"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_849.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.41837,
+          48.825714
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "L'Aérostation, Parc de Vincennes",
+          "Air Station, Vincennes Park"
+        ],
+        "place": "Paris",
+        "coordinates": "48.825714,2.41837",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Ballooning"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_850.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.42285,
+          48.83822
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Boulodrome de Saint-Mandé, Parc de Vincennes",
+          "Boulodrome de Saint-Mandé, Vincennes Park"
+        ],
+        "place": "Paris",
+        "coordinates": "48.83822,2.42285",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boules"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_851.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.449576,
+          48.822588
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Champ de Courses, Bois de Vincennes",
+          "Racing Field, Vincennes Park"
+        ],
+        "place": "Paris",
+        "coordinates": "48.822588,2.449576",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Firefighting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_852.json",
+        "Olympics": "1900 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.286009,
+          48.85451
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Île des Cygnes",
+          "Cygnes Island"
+        ],
+        "place": "Paris",
+        "coordinates": "48.85451,2.286009",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fishing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_853.json",
+        "Olympics": "1900 Paris"
+      }
+    }
+  ]
+}

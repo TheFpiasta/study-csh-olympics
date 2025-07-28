@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hindmarsh Stadium"
+    ],
+    "place": "Adelaide, South Australia",
+    "coordinates": "-34.9075,138.568889",
+    "coordinates_trust": "Definitely here",
+    "year": "2000",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1960",
+    "seating_capacity": "20000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34161"
+      },
+      {
+        "text": "13 – 30 September 2000"
+      }
+    ]
+  ]
+}

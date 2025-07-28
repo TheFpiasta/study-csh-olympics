@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pista Ilio Colli"
+    ],
+    "place": "Pian della Bigontina, Cortina d'Ampezzo",
+    "coordinates": "46.556713,12.201771",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1956",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "seating_capacity": "7920",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Giant Slalom, Men",
+        "link": "https://www.olympedia.org/results/1205"
+      },
+      {
+        "text": "29 January 1956"
+      }
+    ]
+  ]
+}

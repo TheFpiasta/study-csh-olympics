@@ -1,0 +1,942 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Croix Catelan, Bois de Boulogne",
+      "Catalan Cross, Boulogne Forest"
+    ],
+    "place": "Paris",
+    "coordinates": "48.864722,2.250833",
+    "coordinates_trust": "Definitely here",
+    "year": "1900",
+    "season": "Summer",
+    "sports": [
+      "Athletics",
+      "Tug-Of-War"
+    ],
+    "opened": "1882",
+    "type": "outdoor venue",
+    "dimensions": "500 m",
+    "surface": "grass",
+    "altitude": "45 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "60 metres, Men",
+        "link": "https://www.olympedia.org/results/56029"
+      },
+      {
+        "text": "15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/56034"
+      },
+      {
+        "text": "14 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/56048"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/56053"
+      },
+      {
+        "text": "14 – 15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/56059"
+      },
+      {
+        "text": "14 – 16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/56065"
+      },
+      {
+        "text": "15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/56066"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/56067"
+      },
+      {
+        "text": "14 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/56076"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/56081"
+      },
+      {
+        "text": "14 – 15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "2,500 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/56086"
+      },
+      {
+        "text": "15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/56087"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Team, Men",
+        "link": "https://www.olympedia.org/results/56088"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/56090"
+      },
+      {
+        "text": "15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Standing High Jump, Men",
+        "link": "https://www.olympedia.org/results/56094"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/56095"
+      },
+      {
+        "text": "15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/56096"
+      },
+      {
+        "text": "14 – 15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Standing Long Jump, Men",
+        "link": "https://www.olympedia.org/results/56099"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/56100"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Standing Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/56101"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/56102"
+      },
+      {
+        "text": "14 – 15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/56105"
+      },
+      {
+        "text": "14 – 15 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/56108"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Tug-Of-War",
+        "link": "https://www.olympedia.org/sports/TOW"
+      },
+      {
+        "text": "Tug-Of-War, Men",
+        "link": "https://www.olympedia.org/results/21100"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925012"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925036"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925043"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925050"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925051"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925052"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "2,500 metres Steeplechase, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925053"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925054"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925055"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925056"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925057"
+      },
+      {
+        "text": "22 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925058"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Special Scratch Pole Vault #1, Men",
+        "link": "https://www.olympedia.org/results/925059"
+      },
+      {
+        "text": "16 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Special Scratch Pole Vault #2, Men",
+        "link": "https://www.olympedia.org/results/925060"
+      },
+      {
+        "text": "19 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925061"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925062"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925063"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925064"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "6-hour race, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925065"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925066"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "2,500 metres Steeplechase, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925067"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925068"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925069"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Professionals, Men",
+        "link": "https://www.olympedia.org/results/925070"
+      },
+      {
+        "text": "1 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001144"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001153"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001154"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001155"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001156"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Professionals, Handicap, Men",
+        "link": "https://www.olympedia.org/results/14001157"
+      },
+      {
+        "text": "5 July 1900"
+      }
+    ]
+  ]
+}

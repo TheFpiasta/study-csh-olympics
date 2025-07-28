@@ -1,0 +1,867 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.411528,
+          48.826331
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vélodrome Municipal de Vincennes (also known as La Cipale)",
+          "Municipal Velodrome",
+          "Vélodrome Jacques-Anquetil (1987-Present)"
+        ],
+        "place": "Paris",
+        "coordinates": "48.826331,2.411528",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cricket",
+          "Cycling Track",
+          "Football",
+          "Lifesaving",
+          "Rugby"
+        ],
+        "opened": "1894",
+        "type": "outdoor venue",
+        "dimensions": "500 m",
+        "surface": "concrete",
+        "source_file": "venue_194.json",
+        "Olympics": "1924 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.916084,
+          49.002069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cercle de la Voile de Paris",
+          "Paris Sailing Circle",
+          "Cercle de la Voile de Paris, Meulan"
+        ],
+        "place": "Meulan",
+        "coordinates": "49.002069,1.916084",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_203.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1900, it organises regattas across a number of classes.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.08348040566,
+          49.50292403
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palais de la Société des Régates du Havre",
+          "Palace of the Le Havre Regatta Society"
+        ],
+        "place": "Le Havre",
+        "coordinates": "49.50292403,0.08348040566",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1900",
+            "season": "Summer"
+          },
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_204.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "Established in 1838, the venue held its first regatta a year later, with its resident club founded in 1842. Also a venue at the Olympic Games Paris 1900, its Palais des Régates clubhouse in Sainte-Adresse was bombed and destroyed in 1942, at the height of the Second World War. The club relocated and continues to organise regattas across different classes to this day. It also stages a number of partner events.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.31207,
+          48.865773
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Grand Palais des Champs-Elysées",
+          "Grand Palace of the Champs-Elysées"
+        ],
+        "place": "Paris",
+        "coordinates": "48.865773,2.31207",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "opened": "1900",
+        "type": "indoor venue",
+        "source_file": "venue_264.json",
+        "Olympics": "1924 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.248056,
+          48.929444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Olympique de Colombes",
+          "Colombes Olympic Stadium",
+          "Stade du Matin (1907-1919), Stade Yves-de-Manoir (1928-present)"
+        ],
+        "place": "Colombes",
+        "coordinates": "48.929444,2.248056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Road",
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Modern Pentathlon",
+          "Rugby",
+          "Opening ceremony",
+          "Closing ceremony",
+          "gymnastics",
+          "cycling (road)",
+          "Opening and Closing Ceremonies"
+        ],
+        "opened": "1907",
+        "type": "outdoor venue",
+        "dimensions": "500 m",
+        "surface": "loose cinders",
+        "altitude": "24 m",
+        "source_file": "venue_265.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use (rebuilt)",
+        "information": "Built on the site of a racecourse in 1907, the Stade du Matin was renamed the Stade Olympique de Colombes and extensively refurbished for the 1924 Olympic Games by the same French architect who designed the Court Central at Roland-Garros. It had a capacity of 64,000 at Games time. A multi-sports venue at the 1924 Olympic Games, it continued to host a variety of sports afterwards. The venue for the 1938 football World Cup final, it also staged the European Athletics Championships that year and was Paris' premier sports venue until the construction of the Parc des Princes in the early 1970s. Prior to that, the Stade Olympique de Colombes hosted 42 French Cup finals in football and 79 national team matches. It was also a major rugby venue, welcoming the French national team on 87 occasions – the last time in 1972 – and being used by Top 14 team Racing 92 as its home ground until 2017. Now known as Stade Yves-du-Manoir, it is being refurbished for the Olympic Games Paris 2024, when it will be used for the field hockey competitions.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2889,
+          48.8538
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vélodrome d'Hiver (also known as Vel d'Hiv)",
+          "Winter Velodrome",
+          "Vélodrome d'Hiver"
+        ],
+        "place": "Paris",
+        "coordinates": "48.8538,2.2889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Canne De Combat",
+          "Fencing",
+          "Savate",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "notes": "Site of holding of 1,000s of Jews during World War II before moving them to Auschwitz.",
+        "opened": "1909",
+        "demolished": "1959",
+        "type": "indoor venue",
+        "source_file": "venue_266.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "This glass-roofed venue was originally built to host track cycling competitions but was temporarily adapted for the boxing, weightlifting and wrestling competitions at the 1924 Olympic Games. Nicknamed the Vél d'Hiv, it was extensively damaged in a fire in 1959 and knocked down. Flats and a French government building now occupy the site. Close by stands a monument to 14,000 Jews who were rounded up and held at the Vélodrome d'Hiver in 1942, prior to their deportation to transit camps during WWII.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.254243,
+          48.941124
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bassin d'Argenteuil",
+          "Argenteuil Basin"
+        ],
+        "place": "Paris",
+        "coordinates": "48.941124,2.254243",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_267.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The subject of a famous painting by Claude Monet, the Bassin d'Argenteuil lies close to the Stade Olympique de Colombes. Though the construction of the Genevilliers river port has led to an increase in traffic on this stretch of the River Seine, it is still used for rowing today, in particular by the COM Argenteuil club, which was founded in 1965.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.251371,
+          48.928993
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Tennis de Colombes",
+          "Colombes Tennis Stadium",
+          "Stade de Tennis de Colombes"
+        ],
+        "place": "Colombes",
+        "coordinates": "48.928993,2.251371",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "Adjacent to Stade Olympique de Colombes.",
+        "type": "outdoor venue",
+        "source_file": "venue_268.json",
+        "Olympics": "1924 Paris",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Clay courts were built specially for the tennis competitions. The site is now occupied by two football pitches.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.405636,
+          48.875029
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscine des Tourelles",
+          "Tourelles Swimming Pool",
+          "Stade Nautique Georges Vallerey (?-present)",
+          "Stade Nautique des Tourelles / Piscine des Tourelles"
+        ],
+        "place": "Saint-Mandé",
+        "coordinates": "48.875029,2.405636",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo",
+          "modern pentathlon (swimming)"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_269.json",
+        "Olympics": "1924 Paris",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Work had begun on the construction of a swimming pool next to the Stade Olympique de Colombes when, in December 1922, the City of Paris proposed the construction of an aquatic sports centre in the north of Paris to host the swimming and diving competitions at the 1924 Olympic Games. The swimming pool was renamed the Piscine Georges Vallerey after the Games and renovated in 1989. It now has a retractable roof and is still used by clubs for competitions and by Parisians for recreational swimming and other aquatic sports. It is also home to the national swimming federation.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.258444,
+          48.851972
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hippodrome d'Auteuil",
+          "Auteuil Hippodrome"
+        ],
+        "place": "Paris",
+        "coordinates": "48.851972,2.258444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Eventing"
+        ],
+        "opened": "1873",
+        "type": "outdoor venue",
+        "source_file": "venue_270.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The home of jump racing in France, this 40,000-capacity racecourse opened on 1 November 1873 and occupies a 33-hectare site on the edge of the Bois de Boulogne. It is home to a hurdles track, two steeplechase tracks and a figure-of-eight track, which together offer 25 different routes. One of its steeplechase tracks was used at the 1924 Olympic Games, as were the racecourse grounds. New stone stands were built that year, while the tracks were improved and the facilities upgraded between 1967 and 1975. Auteuil is the venue for all of France's nine Group 1 hurdle and steeplechase races. The highlights of the racecourse's calendar include International Jump Weekend in November and the Grand SteepleChase de Paris in June. In 2020, it staged 222 races.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2225,
+          48.776965
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Villacoublay",
+        "coordinates": "48.776965,2.2225",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_271.json",
+        "Olympics": "1924 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.376944,
+          48.877222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Bergeyre",
+          "Bergeyre Stadium"
+        ],
+        "place": "Paris",
+        "coordinates": "48.877222,2.376944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1918",
+        "demolished": "1926",
+        "type": "outdoor venue",
+        "source_file": "venue_272.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "One of several football stadiums used at the Games, it was demolished some months afterwards and replaced with housing.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.340833,
+          48.905833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade de Paris (also known as Stade Bauer)",
+          "Paris Stadium",
+          "Stade de Paris"
+        ],
+        "place": "Saint-Ouen",
+        "coordinates": "48.905833,2.340833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1909",
+        "type": "outdoor venue",
+        "source_file": "venue_273.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.456389,
+          48.830278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Pershing",
+          "Pershing Stadium"
+        ],
+        "place": "Vincennes",
+        "coordinates": "48.830278,2.456389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1919",
+        "demolished": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_274.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "Though this multi-purpose stadium in the Bois de Vincennes was closed and demolished in the 1960, the site is still home to a football pitch and is also used for baseball.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.669353,
+          48.390324
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hippodrome du Grand Parquet",
+          "Grand Parquet Hippodrome"
+        ],
+        "place": "Fontainebleau",
+        "coordinates": "48.390324,2.669353",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_275.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.11239,
+          48.800606
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Stand de Versailles",
+          "Versailles Shooting Stands"
+        ],
+        "place": "Versailles",
+        "coordinates": "48.800606,2.11239",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_276.json",
+        "Olympics": "1924 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.247981,
+          48.931016
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade d'Escrime de Colombes",
+          "Colombes Fencing Stadium",
+          "Stade d'Escrime de Colombes / Stade de Colombes"
+        ],
+        "place": "Colombes",
+        "coordinates": "48.931016,2.247981",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Fencing"
+        ],
+        "notes": "Adjacent to Stade Olympique de Colombes.",
+        "type": "outdoor venue",
+        "source_file": "venue_277.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The fencing competitions were held in hangars erected at the northern end of the Stade Olympique. They are no longer standing, though it is not known exactly when they were removed.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.264254,
+          48.8376
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fronton de Paris",
+          "Paris Pelota Court"
+        ],
+        "place": "Billancourt",
+        "coordinates": "48.8376,2.264254",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_278.json",
+        "Olympics": "1924 Paris"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.202778,
+          48.856944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Saint-Cloud Country Club (also known as Hippodrome Val d'Or)",
+          "Saint-Cloud Country Club"
+        ],
+        "place": "Saint-Cloud",
+        "coordinates": "48.856944,2.202778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Polo"
+        ],
+        "opened": "1901",
+        "type": "outdoor venue",
+        "source_file": "venue_279.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use (repurposed)",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.236512,
+          48.86751
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polo de Bagatelle",
+          "Bagatelle Polo",
+          "Terrain de Polo de Bagatelle"
+        ],
+        "place": "Bois de Boulogne",
+        "coordinates": "48.86751,2.236512",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Polo"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_280.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.365,
+          49.141667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Camp de Châlons",
+          "Châlons Camp",
+          "Camp de Châlons / Stand Olympique de Châlons-sur-Marne"
+        ],
+        "place": "Mourmelon-le-Grand",
+        "coordinates": "49.141667,4.365",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_281.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "Though the site is still used by the French armed forces, the range used at the 1924 Olympic Games has been demolished.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.998208,
+          49.249266
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Parc des Sports",
+          "Sports Park",
+          "Stand de Versailles"
+        ],
+        "place": "Tinqueux",
+        "coordinates": "49.249266,3.998208",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_282.json",
+        "Olympics": "1924 Paris",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.254407,
+          48.814512
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Stand d'Issy-les-Moulineaux",
+          "Issy-les-Moulineaux Shooting Stand",
+          "Stand d'Issy-les-Moulineaux"
+        ],
+        "place": "Issy-les-Moulineaux",
+        "coordinates": "48.814512,2.254407",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_283.json",
+        "Olympics": "1924 Paris",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The venue for the trap shooting competitions, it closed its doors in the early 1960s.",
+        "location": "inside the city"
+      }
+    }
+  ]
+}

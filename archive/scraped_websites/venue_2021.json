@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Singapore Turf Club Riding Centre"
+    ],
+    "place": "Singapore",
+    "coordinates": "1.428322,103.767361",
+    "coordinates_trust": "Definitely here",
+    "year": "2010",
+    "season": "Summer",
+    "sports": [
+      "Equestrian Jumping"
+    ],
+    "opened": "2010",
+    "seating_capacity": "1500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Open Youth",
+        "link": "https://www.olympedia.org/results/4003530"
+      },
+      {
+        "text": "24 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Team, Open Youth",
+        "link": "https://www.olympedia.org/results/4003535"
+      },
+      {
+        "text": "18 August 2010"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Cricketveld",
+      "Cricket Field"
+    ],
+    "place": "Amsterdam",
+    "coordinates": "52.34532,4.853527",
+    "coordinates_trust": "Definitely here",
+    "year": "1928",
+    "season": "Summer",
+    "sports": [
+      "Kaatsen"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Kaatsen",
+        "link": "https://www.olympedia.org/sports/KTS"
+      },
+      {
+        "text": "Kaatsen, Men",
+        "link": "https://www.olympedia.org/results/900049"
+      },
+      {
+        "text": "11 June 1928"
+      }
+    ]
+  ]
+}

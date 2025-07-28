@@ -1,0 +1,258 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.23158,
+          39.197885
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Blyth Memorial Arena"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.197885,-120.23158",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1959",
+        "demolished": "1983",
+        "seating_capacity": "8500",
+        "type": "indoor venue",
+        "source_file": "venue_136.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.231159,
+          39.198
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eastern Rink"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.198,-120.231159",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_137.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.231446,
+          39.197
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Speed Skating Oval"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.197,-120.231446",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "1890 m",
+        "source_file": "venue_138.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.23014,
+          39.196717
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Jumping Hill (also known as Papoose Peak Jumps)"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.196717,-120.23014",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_139.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.247571,
+          39.193948
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Squaw Peak"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.193948,-120.247571",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_140.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.236376,
+          39.195079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "KT-22"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.195079,-120.236376",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_141.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.234659,
+          39.195216
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Little Papoose Peak"
+        ],
+        "place": "Squaw Valley, California",
+        "coordinates": "39.195216,-120.234659",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_142.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.140551,
+          39.069471
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "McKinney Creek Stadium"
+        ],
+        "place": "Tahoma, California",
+        "coordinates": "39.069471,-120.140551",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "1959",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_143.json",
+        "Olympics": "1960 Squaw Valley"
+      }
+    }
+  ]
+}

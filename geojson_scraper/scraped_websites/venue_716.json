@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Atlanta-Fulton County Stadium (also known as Fulton County Stadium, The Launching Pad)"
+    ],
+    "place": "Atlanta, Georgia",
+    "coordinates": "33.739444,-84.389444",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "opened": "1965",
+    "demolished": "1997",
+    "seating_capacity": "54000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/30737"
+      },
+      {
+        "text": "20 July –  2 August 1996"
+      }
+    ]
+  ]
+}

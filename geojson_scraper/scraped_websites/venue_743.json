@@ -1,0 +1,93 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sydney International Archery Park, Olympic Park",
+      "Sydney Olympic Park Archery Centre"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.834472,151.073037",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Archery"
+    ],
+    "opened": "1998",
+    "seating_capacity": "17500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/41079"
+      },
+      {
+        "text": "16 – 20 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/41153"
+      },
+      {
+        "text": "16 – 22 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/41175"
+      },
+      {
+        "text": "16 – 19 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Team, Women",
+        "link": "https://www.olympedia.org/results/41249"
+      },
+      {
+        "text": "16 – 21 September 2000"
+      }
+    ]
+  ]
+}

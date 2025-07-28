@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pavillon de l'Éducation Physique et des Sports de l'Université Laval (also known as PEPS Laval)"
+    ],
+    "place": "Québec, Québec",
+    "coordinates": "46.785,-71.276944",
+    "coordinates_trust": "Definitely here",
+    "year": "1976",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1970",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34572"
+      },
+      {
+        "text": "18 – 28 July 1976"
+      }
+    ],
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/34609"
+      },
+      {
+        "text": "20 – 28 July 1976"
+      }
+    ]
+  ]
+}

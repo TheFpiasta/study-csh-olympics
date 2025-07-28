@@ -1,0 +1,1308 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145817,
+          41.425875
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo Olímpico de Tiro con Arco (also known as Camb Olímpic de Tir amb Arc)",
+          "Olympic Archery Field"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.425875,2.145817",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1992",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_667.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.155658,
+          41.364761
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Olímpico de Montjuïc",
+          "Montjuïc Olympic Stadium",
+          "Estadio Olímpico Lluís Companys (?-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.364761,2.155658",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1929",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "87 m",
+        "source_file": "venue_668.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.232144,
+          41.442414
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio Municipal de Deportes de Badalona (also known as Pabellón Olímpico de Badalona)",
+          "Badalona Municipal Palace of Sports"
+        ],
+        "place": "Badalona",
+        "coordinates": "41.442414,2.232144",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "12500",
+        "type": "indoor venue",
+        "source_file": "venue_669.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.211779,
+          41.400101
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la Mar Bella (also known as Pavelló de la Mar Bella)",
+          "Mar Bella Pavillion",
+          "Complejo Deportivo Municipal Mar Bella (?-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.400101,2.211779",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "1992",
+        "seating_capacity": "4000",
+        "type": "indoor venue",
+        "source_file": "venue_670.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.237,
+          41.444411
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón Club Joventut (also known as Pavelló Club Joventut)",
+          "Club Joventut Pavillion",
+          "Pabellón d'Ausiàs March (1972-1991), Pabellón de los Países Catalanes (?-Present)"
+        ],
+        "place": "Badalona",
+        "coordinates": "41.444411,2.23700",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1972",
+        "type": "indoor venue",
+        "source_file": "venue_671.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.101701,
+          41.347099
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Béisbol de Llobregat (also known as Estadi de Beisbol de Llobregat)",
+          "Llobregat Baseball Stadium",
+          "Campo Municipal de Futbol de la Feixa Llarga (?-Present)"
+        ],
+        "place": "Hospitalet de Llobregat",
+        "coordinates": "41.347099,2.101701",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "notes": "Restructured as a football stadium.",
+        "opened": "1991",
+        "seating_capacity": "7000",
+        "type": "outdoor venue",
+        "source_file": "venue_672.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.017237,
+          41.325046
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Béisbol de Viladecans (also known as Estadi de Beisbol de Viladecans)",
+          "Viladecans Baseball Stadium"
+        ],
+        "place": "Viladecans",
+        "coordinates": "41.325046,2.017237",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "seating_capacity": "4000",
+        "type": "outdoor venue",
+        "source_file": "venue_673.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.992275,
+          41.279234
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canal Olímpico de Cataluña (also known as Canal Olímpic de Catalunya)",
+          "Catalonia Olympic Canal"
+        ],
+        "place": "Castelldefels",
+        "coordinates": "41.279234,1.992275",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint"
+        ],
+        "opened": "1991",
+        "seating_capacity": "500",
+        "type": "outdoor venue",
+        "source_file": "venue_674.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.463107,
+          42.354806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Parque Olímpico del Segre (also known as Parc Olímpic del Segre)",
+          "Segre Olympic Park"
+        ],
+        "place": "Seo de Urgel",
+        "coordinates": "42.354806,1.463107",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "1990",
+        "type": "outdoor venue",
+        "source_file": "venue_675.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.778841,
+          41.428749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sant Sadurní Cycling Circuit"
+        ],
+        "place": "Sant Sadurní d'Anoia",
+        "coordinates": "41.428749,1.778841",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_676.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.261111,
+          41.57
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuito de Cataluña (also known as Circuit de Catalunya)",
+          "Catalonia Circuit"
+        ],
+        "place": "Montmeló",
+        "coordinates": "41.57,2.261111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_677.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.148861,
+          41.43813
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velódromo de Horta (also known as Velòdrom d'Horta)",
+          "Horta Velodrome"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.43813,2.148861",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "43° curves, 13° straights",
+        "source_file": "venue_678.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.165058,
+          41.369331
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscina Municipal de Montjuïc",
+          "Montjuïc Municipal Pool"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.369331,2.165058",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Water Polo"
+        ],
+        "opened": "1929",
+        "type": "outdoor venue",
+        "source_file": "venue_679.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.111271,
+          41.382682
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Real Club de Polo (also known as Reial Club de Polo)",
+          "Royal Polo Club"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.382682,2.111271",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1932",
+        "seating_capacity": "9600",
+        "type": "outdoor venue",
+        "source_file": "venue_680.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.279894,
+          41.819104
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Club Hípico El Montanyà (also known as Club Hípic El Montayá)",
+          "El Montanyà Equestrian Club"
+        ],
+        "place": "Montanyà",
+        "coordinates": "41.819104,2.279894",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1991",
+        "seating_capacity": "3400",
+        "type": "outdoor venue",
+        "source_file": "venue_681.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.149469,
+          41.372209
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de la Metalurgia (also known as Palau de Metal-lúrgia)",
+          "Palace of Metallurgy"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.372209,2.149469",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1929",
+        "type": "indoor venue",
+        "source_file": "venue_682.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.122831,
+          41.380889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio del FC Barcelona (also known as Estadi del FC Barcelona)",
+          "FC Barcelona Stadium",
+          "L'Estadi Camp Nou (2000-Present)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.380889,2.122831",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1957",
+        "seating_capacity": "100000",
+        "type": "outdoor venue",
+        "source_file": "venue_683.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.358361,
+          39.474656
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Luis Casanova",
+          "Luis Casanova Stadium",
+          "Estadio Mestalla (1994-Present)"
+        ],
+        "place": "Valencia",
+        "coordinates": "39.474656,-0.358361",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1923",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_684.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.901822,
+          41.636592
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de La Romareda",
+          "Romareda Stadium"
+        ],
+        "place": "Zaragoza",
+        "coordinates": "41.636592,-0.901822",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1957",
+        "seating_capacity": "43000",
+        "type": "outdoor venue",
+        "source_file": "venue_685.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.091944,
+          41.554722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de la Nova Creu Alta (also known as Estadi de la Nova Creu Alta)",
+          "Nova Creu Alta Stadium"
+        ],
+        "place": "Sabadell",
+        "coordinates": "41.554722,2.091944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1967",
+        "seating_capacity": "16000",
+        "type": "outdoor venue",
+        "source_file": "venue_686.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.133169,
+          41.393111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio de Sarriá (also known as Estadi de Sarrià)",
+          "Sarría Stadium"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.393111,2.133169",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1923",
+        "demolished": "1997",
+        "seating_capacity": "42000",
+        "type": "outdoor venue",
+        "source_file": "venue_687.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.152556,
+          41.363389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palau Sant Jordi",
+          "St. George's Palace"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.363389,2.152556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball",
+          "Volleyball"
+        ],
+        "opened": "1990",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "source_file": "venue_688.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.287778,
+          41.598611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de Deportes de Granollers (also known as Palau d'Esports de Granollers)",
+          "Granollers Palace of Sports"
+        ],
+        "place": "Granollers",
+        "coordinates": "41.598611,2.287778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "5500",
+        "type": "indoor venue",
+        "source_file": "venue_689.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.011142,
+          41.576133
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Olímpico (also known as Estadi Olímpic)",
+          "Olympic Stadium"
+        ],
+        "place": "Terrassa",
+        "coordinates": "41.576133,2.011142",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1955",
+        "seating_capacity": "10200",
+        "type": "outdoor venue",
+        "source_file": "venue_690.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.12005,
+          41.380081
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palau Blaugrana",
+          "Blue and Red Palace"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.380081,2.12005",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Roller Hockey",
+          "Taekwondo"
+        ],
+        "opened": "1971",
+        "seating_capacity": "6400",
+        "type": "indoor venue",
+        "source_file": "venue_691.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.150595,
+          41.365738
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscinas Bernat Picornell (also known as Piscines Bernat Picornell)",
+          "Bernat Picornell Pools"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.365738,2.150595",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1970",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_692.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.218434,
+          41.551286
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo de Tiro Olímpico de Mollet (also known as Camp de Tír Olímpic de Mollet)",
+          "Mollet Olympic Shooting Range"
+        ],
+        "place": "Mollet del Vallès",
+        "coordinates": "41.551286,2.218434",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1992",
+        "seating_capacity": "1400",
+        "type": "outdoor venue",
+        "source_file": "venue_693.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.154904,
+          41.361245
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Pau Negre",
+          "Pau Negre Stadium"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.361245,2.154904",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_694.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.14504838,
+          41.4279184
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la Vall d'Hebron (also known as Pavelló de la Vall d'Hebron)",
+          "Vall d'Hebron Pavillion"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.42791840,2.14504838",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota",
+          "Volleyball"
+        ],
+        "opened": "1991",
+        "seating_capacity": "2500 (VOL) / 3300 (PEL)",
+        "type": "indoor venue",
+        "source_file": "venue_695.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.239333,
+          41.932512
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló del Club Patí",
+          "Club Patí Pavillion"
+        ],
+        "place": "Vic",
+        "coordinates": "41.932512,2.239333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "seating_capacity": "1700",
+        "type": "indoor venue",
+        "source_file": "venue_696.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.783302,
+          41.423043
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló de l'Ateneu",
+          "Ateneu Pavillion"
+        ],
+        "place": "Sant Sadurní d'Anoia",
+        "coordinates": "41.423043,1.783302",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "opened": "1981",
+        "seating_capacity": "1300",
+        "type": "indoor venue",
+        "source_file": "venue_697.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.109144,
+          41.16241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavelló d'Esports",
+          "Sports Pavillion"
+        ],
+        "place": "Reus",
+        "coordinates": "41.16241,1.109144",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Roller Hockey"
+        ],
+        "opened": "1992",
+        "seating_capacity": "3000",
+        "type": "indoor venue",
+        "source_file": "venue_698.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.7584,
+          42.134453
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lago de Bañolas (also known as Estany Banyoles)",
+          "Lake Banyoles"
+        ],
+        "place": "Bañolas",
+        "coordinates": "42.134453,2.7584",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "seating_capacity": "4500",
+        "type": "outdoor venue",
+        "source_file": "venue_699.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.200278,
+          41.386667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Puerto Olímpico (also known as Port Olímpic)",
+          "Olympic Port"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.386667,2.200278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_700.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.145935,
+          41.429621
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Municipal de Tenis Vall d'Hebron",
+          "Vall d'Hebron Municipal Tennis Centre"
+        ],
+        "place": "La Vall d'Hebron, Barcelona, Catalonia, ESP",
+        "coordinates": "41.429621,2.145935",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1992",
+        "seating_capacity": "8000 (centre court)",
+        "type": "outdoor venue",
+        "surface": "Clay",
+        "source_file": "venue_705.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.183045,
+          41.39419
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polideportivo Estación del Norte (also known as Poliesportiu Estació del Nord)",
+          "North Station Sports Hall"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.39419,2.183045",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Table Tennis"
+        ],
+        "notes": "Former train station.",
+        "opened": "1856",
+        "seating_capacity": "5500",
+        "type": "indoor venue",
+        "source_file": "venue_706.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.155219,
+          41.371633
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palacio de los Deportes (also known as Palau dels Esports)",
+          "Palace of Sports"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.371633,2.155219",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rhythmic Gymnastics",
+          "Volleyball"
+        ],
+        "opened": "1955",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_707.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.14231,
+          41.37731
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pabellón de la España Industrial (also known as Pavelló de l'Espanya Industrial)",
+          "Industrial Spain Pavillion"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.37731,2.14231",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "source_file": "venue_708.json",
+        "Olympics": "1992 Barcelona"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.147151,
+          41.364921
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Instituto Nacional de Educación Física de Cataluña (INEFC)",
+          "Catalonia National Institute of Physical Education (INEFC)"
+        ],
+        "place": "Barcelona",
+        "coordinates": "41.364921,2.147151",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1991",
+        "seating_capacity": "400",
+        "type": "indoor venue",
+        "source_file": "venue_709.json",
+        "Olympics": "1992 Barcelona"
+      }
+    }
+  ]
+}

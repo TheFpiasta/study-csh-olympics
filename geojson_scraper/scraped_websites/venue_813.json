@@ -1,0 +1,847 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Beijing Guojia Tiyuchang, Beijing Aolinpike Gongyuan (also known as The Bird's Nest)",
+      "Beijing National Stadium"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.991667,116.390556",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics",
+      "Football",
+      "Opening ceremony",
+      "Closing ceremony"
+    ],
+    "opened": "2008",
+    "seating_capacity": "91000",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Artificial surface",
+    "altitude": "48 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/257142"
+      },
+      {
+        "text": "15 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/257164"
+      },
+      {
+        "text": "18 – 20 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/257183"
+      },
+      {
+        "text": "18 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/257197"
+      },
+      {
+        "text": "20 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/257212"
+      },
+      {
+        "text": "15 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Men",
+        "link": "https://www.olympedia.org/results/257222"
+      },
+      {
+        "text": "20 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Men",
+        "link": "https://www.olympedia.org/results/257228"
+      },
+      {
+        "text": "17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/257229"
+      },
+      {
+        "text": "24 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/257230"
+      },
+      {
+        "text": "18 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/257247"
+      },
+      {
+        "text": "15 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/257257"
+      },
+      {
+        "text": "16 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/257265"
+      },
+      {
+        "text": "21 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/257270"
+      },
+      {
+        "text": "22 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "20 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/257263"
+      },
+      {
+        "text": "16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "50 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/257264"
+      },
+      {
+        "text": "22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/257275"
+      },
+      {
+        "text": "17 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/257298"
+      },
+      {
+        "text": "20 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/257321"
+      },
+      {
+        "text": "16 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/257338"
+      },
+      {
+        "text": "18 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/257355"
+      },
+      {
+        "text": "15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/257372"
+      },
+      {
+        "text": "16 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/257389"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Men",
+        "link": "https://www.olympedia.org/results/257406"
+      },
+      {
+        "text": "21 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Decathlon, Men",
+        "link": "https://www.olympedia.org/results/257423"
+      },
+      {
+        "text": "21 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Women",
+        "link": "https://www.olympedia.org/results/257553"
+      },
+      {
+        "text": "16 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Women",
+        "link": "https://www.olympedia.org/results/257575"
+      },
+      {
+        "text": "19 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Women",
+        "link": "https://www.olympedia.org/results/257592"
+      },
+      {
+        "text": "16 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Women",
+        "link": "https://www.olympedia.org/results/257606"
+      },
+      {
+        "text": "15 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Women",
+        "link": "https://www.olympedia.org/results/257619"
+      },
+      {
+        "text": "21 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Women",
+        "link": "https://www.olympedia.org/results/257625"
+      },
+      {
+        "text": "19 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Women",
+        "link": "https://www.olympedia.org/results/257630"
+      },
+      {
+        "text": "15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Women",
+        "link": "https://www.olympedia.org/results/257631"
+      },
+      {
+        "text": "17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/257632"
+      },
+      {
+        "text": "17 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/257643"
+      },
+      {
+        "text": "17 – 20 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Women",
+        "link": "https://www.olympedia.org/results/257653"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/257660"
+      },
+      {
+        "text": "21 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/257665"
+      },
+      {
+        "text": "22 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "20 kilometres Race Walk, Women",
+        "link": "https://www.olympedia.org/results/257659"
+      },
+      {
+        "text": "21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Women",
+        "link": "https://www.olympedia.org/results/257670"
+      },
+      {
+        "text": "21 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Women",
+        "link": "https://www.olympedia.org/results/257692"
+      },
+      {
+        "text": "16 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Women",
+        "link": "https://www.olympedia.org/results/257720"
+      },
+      {
+        "text": "19 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Women",
+        "link": "https://www.olympedia.org/results/257737"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Women",
+        "link": "https://www.olympedia.org/results/257754"
+      },
+      {
+        "text": "16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Women",
+        "link": "https://www.olympedia.org/results/257771"
+      },
+      {
+        "text": "15 – 18 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Women",
+        "link": "https://www.olympedia.org/results/257788"
+      },
+      {
+        "text": "18 – 20 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Women",
+        "link": "https://www.olympedia.org/results/257805"
+      },
+      {
+        "text": "19 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Heptathlon, Women",
+        "link": "https://www.olympedia.org/results/257822"
+      },
+      {
+        "text": "15 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/259883"
+      },
+      {
+        "text": "7 – 23 August 2008"
+      }
+    ]
+  ]
+}

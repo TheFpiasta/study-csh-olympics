@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Patinoire Municipale",
+      "Municipal Rink"
+    ],
+    "place": "Grenoble",
+    "coordinates": "45.183202,5.736316",
+    "coordinates_trust": "Definitely here",
+    "year": "1968",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1963",
+    "seating_capacity": "2700",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20349"
+      },
+      {
+        "text": "4 – 17 February 1968"
+      }
+    ]
+  ]
+}

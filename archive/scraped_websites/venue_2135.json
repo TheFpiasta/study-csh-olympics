@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Fukushima Azuma Baseball Stadium"
+    ],
+    "place": "Fukushima",
+    "coordinates": "37.721442,140.363474",
+    "coordinates_trust": "Definitely here",
+    "year": "2020",
+    "season": "Summer",
+    "sports": [
+      "Baseball",
+      "Softball"
+    ],
+    "opened": "1986",
+    "seating_capacity": "30000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/18001550"
+      },
+      {
+        "text": "28 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Softball",
+        "link": "https://www.olympedia.org/sports/SOF"
+      },
+      {
+        "text": "Softball, Women",
+        "link": "https://www.olympedia.org/results/18001576"
+      },
+      {
+        "text": "21 – 27 July 2021"
+      }
+    ]
+  ]
+}

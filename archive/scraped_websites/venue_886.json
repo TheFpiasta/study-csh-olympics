@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kyorlingovyi Tsentr Ledyanoy Kub, Coastal Cluster",
+      "Ice Cube Curling Center"
+    ],
+    "place": "Adler",
+    "coordinates": "43.4068,39.949594",
+    "coordinates_trust": "Definitely here",
+    "year": "2014",
+    "season": "Winter",
+    "sports": [
+      "Curling"
+    ],
+    "opened": "2013",
+    "seating_capacity": "3000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/58"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/350096"
+      },
+      {
+        "text": "10 – 21 February 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/58"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/350152"
+      },
+      {
+        "text": "10 – 20 February 2014"
+      }
+    ]
+  ]
+}

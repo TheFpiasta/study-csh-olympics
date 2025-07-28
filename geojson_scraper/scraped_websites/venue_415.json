@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arco di Constantino",
+      "Arch of Constantine"
+    ],
+    "place": "Roma",
+    "coordinates": "41.889751,12.490637",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/59715"
+      },
+      {
+        "text": "10 September 1960"
+      }
+    ]
+  ]
+}

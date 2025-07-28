@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Atlanta Beach",
+      "Beach at Clayton County International Park (?-Present)"
+    ],
+    "place": "Jonesboro, Georgia",
+    "coordinates": "33.524889,-84.312537",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Beach Volleyball"
+    ],
+    "seating_capacity": "12600",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Men",
+        "link": "https://www.olympedia.org/results/31000"
+      },
+      {
+        "text": "23 – 28 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Women",
+        "link": "https://www.olympedia.org/results/31058"
+      },
+      {
+        "text": "23 – 27 July 1996"
+      }
+    ]
+  ]
+}

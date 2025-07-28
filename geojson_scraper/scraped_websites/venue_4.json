@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arc 2000"
+    ],
+    "place": "Les Arcs",
+    "coordinates": "45.572581,6.830503",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Speed Skiing"
+    ],
+    "type": "outdoor venue",
+    "altitude": "2145 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Speed Skiing",
+        "link": "https://www.olympedia.org/sports/SPS"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/905480"
+      },
+      {
+        "text": "20 – 22 February 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Speed Skiing",
+        "link": "https://www.olympedia.org/sports/SPS"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/905486"
+      },
+      {
+        "text": "20 – 22 February 1992"
+      }
+    ]
+  ]
+}

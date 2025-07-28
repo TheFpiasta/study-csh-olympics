@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Deportivo Asturiano",
+      "Asturian Sports Centre"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.419326,-99.127579",
+    "coordinates_trust": "No information",
+    "year": "1968",
+    "season": "Summer",
+    "sports": [
+      "Basque pelota"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Basque pelota",
+        "link": "https://www.olympedia.org/sports/PEL"
+      },
+      {
+        "text": "Mano, Doubles, Men",
+        "link": "https://www.olympedia.org/results/900095"
+      },
+      {
+        "text": "14 – 25 October 1968"
+      }
+    ]
+  ]
+}

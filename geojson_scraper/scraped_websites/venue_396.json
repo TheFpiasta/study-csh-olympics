@@ -1,0 +1,699 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Melbourne Cricket Ground"
+    ],
+    "place": "Melbourne, Victoria",
+    "coordinates": "-37.82,144.983333",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1956",
+        "season": "Summer"
+      },
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics",
+      "Australian Rules Football",
+      "Baseball",
+      "Football",
+      "Hockey",
+      "Opening ceremony",
+      "Closing ceremony"
+    ],
+    "opened": "1854",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Loose cinders",
+    "altitude": "17 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Australian Rules Football",
+        "link": "https://www.olympedia.org/sports/ARF"
+      },
+      {
+        "text": "Australian Rules Football, Men",
+        "link": "https://www.olympedia.org/results/900071"
+      },
+      {
+        "text": "7 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/59241"
+      },
+      {
+        "text": "23 – 24 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/59264"
+      },
+      {
+        "text": "26 – 27 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/59287"
+      },
+      {
+        "text": "28 – 29 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/59306"
+      },
+      {
+        "text": "23 – 26 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/59317"
+      },
+      {
+        "text": "29 November –  1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Men",
+        "link": "https://www.olympedia.org/results/59323"
+      },
+      {
+        "text": "26 – 28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Men",
+        "link": "https://www.olympedia.org/results/59329"
+      },
+      {
+        "text": "23 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/59330"
+      },
+      {
+        "text": "1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/59331"
+      },
+      {
+        "text": "27 – 28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/59341"
+      },
+      {
+        "text": "23 – 24 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/59353"
+      },
+      {
+        "text": "27 – 29 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/59360"
+      },
+      {
+        "text": "30 November –  1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/59370"
+      },
+      {
+        "text": "30 November –  1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "20 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/59358"
+      },
+      {
+        "text": "28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "50 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/59359"
+      },
+      {
+        "text": "24 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/59376"
+      },
+      {
+        "text": "23 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/59390"
+      },
+      {
+        "text": "24 – 26 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/59403"
+      },
+      {
+        "text": "24 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/59415"
+      },
+      {
+        "text": "27 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/59427"
+      },
+      {
+        "text": "28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/59439"
+      },
+      {
+        "text": "27 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/59451"
+      },
+      {
+        "text": "24 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Men",
+        "link": "https://www.olympedia.org/results/59463"
+      },
+      {
+        "text": "26 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Decathlon, Men",
+        "link": "https://www.olympedia.org/results/59475"
+      },
+      {
+        "text": "29 – 30 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Women",
+        "link": "https://www.olympedia.org/results/59512"
+      },
+      {
+        "text": "24 – 26 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Women",
+        "link": "https://www.olympedia.org/results/59524"
+      },
+      {
+        "text": "29 – 30 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "80 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/59536"
+      },
+      {
+        "text": "27 – 28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/59546"
+      },
+      {
+        "text": "1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Women",
+        "link": "https://www.olympedia.org/results/59551"
+      },
+      {
+        "text": "1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Women",
+        "link": "https://www.olympedia.org/results/59570"
+      },
+      {
+        "text": "27 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Women",
+        "link": "https://www.olympedia.org/results/59582"
+      },
+      {
+        "text": "30 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Women",
+        "link": "https://www.olympedia.org/results/59594"
+      },
+      {
+        "text": "23 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Women",
+        "link": "https://www.olympedia.org/results/59606"
+      },
+      {
+        "text": "28 November 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/900072"
+      },
+      {
+        "text": "1 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33721"
+      },
+      {
+        "text": "24 November –  8 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35641"
+      },
+      {
+        "text": "23 November –  6 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34161"
+      },
+      {
+        "text": "13 – 30 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34202"
+      },
+      {
+        "text": "13 – 28 September 2000"
+      }
+    ]
+  ]
+}

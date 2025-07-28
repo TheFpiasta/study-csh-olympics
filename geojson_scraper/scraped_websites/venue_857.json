@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "BMX Track, London Velopark, Olympic Park"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.550818,-0.013223",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling BMX Racing"
+    ],
+    "opened": "2011",
+    "seating_capacity": "6000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Women",
+        "link": "https://www.olympedia.org/results/308112"
+      },
+      {
+        "text": "8 – 10 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Men",
+        "link": "https://www.olympedia.org/results/308124"
+      },
+      {
+        "text": "8 – 10 August 2012"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "The Peaks Ice Arena"
+    ],
+    "place": "Provo, Utah",
+    "coordinates": "40.234722,-111.638056",
+    "coordinates_trust": "Definitely here",
+    "year": "2002",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1998",
+    "seating_capacity": "8400",
+    "type": "indoor venue",
+    "altitude": "1388 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20778"
+      },
+      {
+        "text": "9 – 24 February 2002"
+      }
+    ],
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/20822"
+      },
+      {
+        "text": "11 – 21 February 2002"
+      }
+    ]
+  ]
+}

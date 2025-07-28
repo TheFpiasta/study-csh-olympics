@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      ""
+    ],
+    "place": "Saint-Nizier-du-Moucherotte",
+    "coordinates": "45.164476,5.633505",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ski Jumping"
+    ],
+    "opened": "1967",
+    "seating_capacity": "50000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2385"
+      },
+      {
+        "text": "18 February 1968"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Wembley Stadium"
+    ],
+    "place": "Wembley, London",
+    "coordinates": "51.555935,-0.278955",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Built on same location as main stadium of the 1948 Olympics",
+    "opened": "2007",
+    "seating_capacity": "90000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/312000"
+      },
+      {
+        "text": "26 July – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/312042"
+      },
+      {
+        "text": "25 July –  9 August 2012"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadion Broodstraat",
+      "Brood Street Stadium"
+    ],
+    "place": "Antwerpen",
+    "coordinates": "51.195405,4.390728",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1920",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1908",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1920 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/7"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33556"
+      },
+      {
+        "text": "28 August –  5 September 1920"
+      }
+    ]
+  ]
+}

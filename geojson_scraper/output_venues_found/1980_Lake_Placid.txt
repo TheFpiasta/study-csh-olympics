@@ -1,0 +1,17 @@
+[Use/Sport + Name Match] JSON Venue 6 - Whiteface Mountain ↔ GeoJSON Venue 5 - Whiteface Mountain Ski Area | UseSim: 1.00, NameSim: 0.80, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Interval Ski Jumps/Olympic Ski Jumps ↔ GeoJSON Venue 3 - Intervale Ski Jump Complex | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - The Arena ↔ GeoJSON Venue 2 - Olympic Field House International Ice Rink | UseSim: 1.00, NameSim: 0.16, Score: 0.75 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'James B. Sheffield Olympic Skating Oval' has no matching GeoJSON venue.
+[JSON Venue 2] 'Field House International Ice Rink' has no matching GeoJSON venue.
+[JSON Venue 3] 'Mt Van Hoevenberg - Cross Country Complex' has no matching GeoJSON venue.
+[JSON Venue 4] 'Mt Van Hoevenberg - Bob and Luge Runs' has no matching GeoJSON venue.
+[JSON Venue 7] 'Lake Placid Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 8] 'Lake Placid Equestrian Stadium' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Olympic Field House US Ice Rink' has no matching JSON venue.
+[GeoJSON Venue 1] 'James C. Sheffield Speed Skating Oval' has no matching JSON venue.
+[GeoJSON Venue 4] 'Mt. Van Hoevenberg Recreation Area' has no matching JSON venue.
+[GeoJSON Venue 6] 'Olympic Arena' has no matching JSON venue.

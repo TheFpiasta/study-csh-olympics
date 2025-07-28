@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tsurigasaki Surfing Beach"
+    ],
+    "place": "Torami, Chiba",
+    "coordinates": "35.335858,140.394636",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Surfing"
+    ],
+    "seating_capacity": "6000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Surfing",
+        "link": "https://www.olympedia.org/sports/SRF"
+      },
+      {
+        "text": "Shortboard, Men",
+        "link": "https://www.olympedia.org/results/18000400"
+      },
+      {
+        "text": "25 – 27 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Surfing",
+        "link": "https://www.olympedia.org/sports/SRF"
+      },
+      {
+        "text": "Shortboard, Women",
+        "link": "https://www.olympedia.org/results/18000430"
+      },
+      {
+        "text": "25 – 27 July 2021"
+      }
+    ]
+  ]
+}

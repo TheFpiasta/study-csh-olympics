@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Blacktown Baseball Stadium, Blacktown Olympic Park"
+    ],
+    "place": "Blacktown, New South Wales",
+    "coordinates": "-33.77046,150.85535",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Baseball"
+    ],
+    "opened": "1998",
+    "seating_capacity": "8000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/30774"
+      },
+      {
+        "text": "17 – 27 September 2000"
+      }
+    ]
+  ]
+}

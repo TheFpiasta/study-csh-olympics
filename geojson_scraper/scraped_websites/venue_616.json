@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Navy-Marine Corps Memorial Stadium"
+    ],
+    "place": "Annapolis, Maryland",
+    "coordinates": "38.984722,-76.506944",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1984",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1959",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33975"
+      },
+      {
+        "text": "29 July – 11 August 1984"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117778,
+          47.481389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Skistadion",
+          "Olympic Ski Stadium"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.481389,11.117778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Ski Jumping",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1921",
+        "seating_capacity": "18831 (Opening) / 15505 (CCS) / 26632 (NCO) / 59374 (SKJ)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1895"
+            },
+            {
+              "text": "12 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1896"
+            },
+            {
+              "text": "15 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1897"
+            },
+            {
+              "text": "10 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Military Ski Patrol",
+              "link": "https://www.olympedia.org/sports/MSP"
+            },
+            {
+              "text": "Military Ski Patrol, Men",
+              "link": "https://www.olympedia.org/results/905175"
+            },
+            {
+              "text": "14 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2199"
+            },
+            {
+              "text": "12 – 13 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2359"
+            },
+            {
+              "text": "16 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_36.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.096213,
+          47.48884
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Kunsteisstadion",
+          "Olympic Artificial Ice Stadium"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.48884,11.096213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1934",
+        "seating_capacity": "8644",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12768"
+            },
+            {
+              "text": "8 – 14 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12792"
+            },
+            {
+              "text": "11 – 15 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12816"
+            },
+            {
+              "text": "13 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20077"
+            },
+            {
+              "text": "6 – 16 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_37.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081074,
+          47.478616
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Eissportplatz am Rießersee",
+          "Olympic Rink at Rießersee"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.478616,11.081074",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey",
+          "Ice Stock Sport",
+          "Speed Skating"
+        ],
+        "seating_capacity": "8430",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK)",
+        "altitude": "783 m",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Target Shooting, Men",
+              "link": "https://www.olympedia.org/results/905038"
+            },
+            {
+              "text": "10 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Distance Shooting, Men",
+              "link": "https://www.olympedia.org/results/905039"
+            },
+            {
+              "text": "9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/905040"
+            },
+            {
+              "text": "9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Target Shooting, Men",
+              "link": "https://www.olympedia.org/results/905069"
+            },
+            {
+              "text": "9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Distance Shooting, Men",
+              "link": "https://www.olympedia.org/results/905070"
+            },
+            {
+              "text": "10 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/905071"
+            },
+            {
+              "text": "10 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Target Shooting, Women",
+              "link": "https://www.olympedia.org/results/905163"
+            },
+            {
+              "text": "9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/905164"
+            },
+            {
+              "text": "9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20077"
+            },
+            {
+              "text": "6 – 16 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/989"
+            },
+            {
+              "text": "11 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/990"
+            },
+            {
+              "text": "13 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/991"
+            },
+            {
+              "text": "12 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/992"
+            },
+            {
+              "text": "14 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_38.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07762,
+          47.475897
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Bobbahn",
+          "Olympic Bobsleigh Track"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.475897,11.07762",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1910",
+        "seating_capacity": "8970",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/253"
+            },
+            {
+              "text": "14 – 15 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/260"
+            },
+            {
+              "text": "11 – 12 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_39.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063383,
+          47.470562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kreuzeck-Gebiet",
+          "Kreuzeck Area"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.470562,11.063383",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1166"
+            },
+            {
+              "text": "7 –  9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1171"
+            },
+            {
+              "text": "7 –  8 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_40.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117263,
+          47.480335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gudiberg"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.480335,11.117263",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1166"
+            },
+            {
+              "text": "7 –  9 February 1936"
+            }
+          ],
+          [
+            {
+              "text": "1936 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/32"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1171"
+            },
+            {
+              "text": "7 –  8 February 1936"
+            }
+          ]
+        ],
+        "source_file": "venue_41.json"
+      }
+    }
+  ]
+}

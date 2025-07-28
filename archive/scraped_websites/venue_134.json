@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "The Ice Sheet (also known as Weber County Ice Sheet)"
+    ],
+    "place": "Ogden, Utah",
+    "coordinates": "41.183333,-111.946389",
+    "coordinates_trust": "Definitely here",
+    "year": "2002",
+    "season": "Winter",
+    "sports": [
+      "Curling"
+    ],
+    "opened": "1994",
+    "seating_capacity": "2000",
+    "type": "outdoor venue",
+    "altitude": "1460 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/2557"
+      },
+      {
+        "text": "11 – 22 February 2002"
+      }
+    ],
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/2611"
+      },
+      {
+        "text": "11 – 21 February 2002"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Ao Ti Zhongxin Tiyuchang, Beijing Aolinpike Gongyuan",
+      "Olympic Sports Centre, Beijing Olympic Green"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.982164,116.39331",
+    "coordinates_trust": "Definitely here",
+    "year": "2008",
+    "season": "Summer",
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "opened": "1990",
+    "seating_capacity": "36228",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/260915"
+      },
+      {
+        "text": "21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/260924"
+      },
+      {
+        "text": "22 August 2008"
+      }
+    ]
+  ]
+}

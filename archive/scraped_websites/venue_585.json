@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadion imeni Kirova",
+      "Kirov Stadium"
+    ],
+    "place": "Leningrad",
+    "coordinates": "59.972953,30.220533",
+    "coordinates_trust": "Definitely here",
+    "year": "1980",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1950",
+    "demolished": "2006",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33934"
+      },
+      {
+        "text": "20 July –  2 August 1980"
+      }
+    ]
+  ]
+}

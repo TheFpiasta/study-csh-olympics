@@ -1,0 +1,78 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arena da Juventude, Parque Olímpico de Deodoro",
+      "Youth Arena, Deodoro Olympic Park",
+      "Arena de Deodoro"
+    ],
+    "place": "Deodoro, Rio de Janeiro",
+    "coordinates": "-22.8593181,-43.4041407",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball",
+      "Modern Pentathlon"
+    ],
+    "opened": "2016",
+    "seating_capacity": "5000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/351850"
+      },
+      {
+        "text": "18 – 20 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/352522"
+      },
+      {
+        "text": "18 – 19 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/359446"
+      },
+      {
+        "text": "6 – 20 August 2016"
+      }
+    ]
+  ]
+}

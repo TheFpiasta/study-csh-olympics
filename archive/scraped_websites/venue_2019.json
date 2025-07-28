@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "*Scape Youth Space, *Scape Youth Park"
+    ],
+    "place": "Singapore",
+    "coordinates": "1.3009437,103.8357637",
+    "coordinates_trust": "Definitely here",
+    "year": "2010",
+    "season": "Summer",
+    "sports": [
+      "3x3 Basketball"
+    ],
+    "seating_capacity": "1000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "3x3 Basketball",
+        "link": "https://www.olympedia.org/sports/BK3"
+      },
+      {
+        "text": "3x3 Basketball, Boys",
+        "link": "https://www.olympedia.org/results/4002841"
+      },
+      {
+        "text": "15 – 23 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "3x3 Basketball",
+        "link": "https://www.olympedia.org/sports/BK3"
+      },
+      {
+        "text": "3x3 Basketball, Girls",
+        "link": "https://www.olympedia.org/results/4002925"
+      },
+      {
+        "text": "15 – 23 August 2010"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Plavatelny basseyn, Tsentralny stadion imeni V. I. Lenina",
+      "Swimming Pool, Central Lenin Stadium Area"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.713066,37.558359",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1980",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "1957",
+    "seating_capacity": "10500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38623"
+      },
+      {
+        "text": "20 – 29 July 1980"
+      }
+    ]
+  ]
+}

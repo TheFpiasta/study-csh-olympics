@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Amsterdamsche Stadion (also known as Oude Stadion, Harry Eltestadion)",
+      "Amsterdam Stadium"
+    ],
+    "place": "Amsterdam",
+    "coordinates": "52.344618,4.85994",
+    "coordinates_trust": "Definitely here",
+    "year": "1928",
+    "season": "Summer",
+    "sports": [
+      "Football",
+      "Hockey"
+    ],
+    "opened": "1914",
+    "demolished": "1929",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33615"
+      },
+      {
+        "text": "27 May – 13 June 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35519"
+      },
+      {
+        "text": "17 – 26 May 1928"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.108889,
+          49.277778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canada Hockey Place",
+          "General Motors Place (1995-2010), Rogers Arena (2010-Present)"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.277778,-123.108889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1995",
+        "seating_capacity": "18630",
+        "type": "indoor venue",
+        "source_file": "venue_174.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Built in 1995, this 18,000-capacity venue is the home of the city's NHL team, the Vancouver Canucks, and the Vancouver Warriors of the National Lacrosse League. It continues to stage a large number of sporting and cultural events throughout the year.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.203333,
+          49.395556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cypress Mountain",
+          "Cypress Mountain – Snowboard Stadium – Freestyle Skiing Stadium"
+        ],
+        "place": "West Vancouver",
+        "coordinates": "49.395556,-123.203333",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding",
+          "Snowboard and freestyle skiing"
+        ],
+        "opened": "2007",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_175.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The Olympic aerials competition venue still exists, at the foot of the ski area. Next to it is the moguls run, which is now known as Alexandre Bilodeau's Gold, after the Canadian freestyle skier who won the event at Vancouver 2010. The resort, which is also home to 53 Alpine ski runs and 19 kilometres of cross-country trails, runs freestyle camps for youngsters, teaching them terrain park and free-skiing/free-riding skills, jumps and tricks. The slope that hosted the 1,135-metre snowboard and ski cross runs still exists. The snowboard cross, parallel giant slalom and ski cross runs have all been renamed after the Canadian women boarders and skiers who won gold medals on them at Vancouver 2010: respectively Maëlle Ricker, Jasey-Jay Anderson and Ashleigh McIvor. Part of the stadium infrastructures were temporary, however, and were taken down, as planned, after the Games, including the half-pipe.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.042778,
+          49.285833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pacific Coliseum"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.285833,-123.042778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating",
+          "Figure skating and short track speed skating"
+        ],
+        "opened": "1968",
+        "seating_capacity": "14239",
+        "type": "indoor venue",
+        "source_file": "venue_176.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The home of the Western Hockey League's Vancouver Giants between 2001 and 2016, the Coliseum is a much-used venue for concerts and other cultural and sporting events, including ice shows, boxing bouts, basketball matches, circuses and trade shows. Built in 1968, the venue underwent a major upgrade for the 2010 Olympic Winter Games, with new lighting, seats and a scoreboard installed.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.151389,
+          49.174722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Richmond Olympic Oval"
+        ],
+        "place": "Richmond",
+        "coordinates": "49.174722,-123.151389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2008",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "0 m",
+        "source_file": "venue_177.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "As planned, the venue was converted after the Games into a multi-purpose hub of sport, fitness and wellness for the community. Used by local residents and high-performance athletes, its facilities include two Olympic-sized ice sheets, six hardwood courts, seven multi-use courts, a 200-metre running track, an indoor climbing wall, a fitness centre, five fitness and personal training studios, an indoor rowing and paddling centre and the Richmond Olympic Experience (part of the Olympic Museums Network). The venue is the official training centre for Volleyball Canada's national women's team, Table Tennis Canada, Speed Skating Canada, Climbing Escalade International and Wheelchair Rugby Canada. The Richmond Olympic Oval is also an international sporting venue and has staged the FIVB Volleyball World Grand Prix, North American Cup Climbing Series, Judo Pacific International and Fencing World Cup events.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.243056,
+          49.261106
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "UBC Thunderbird Arena (also known as Doug Mitchell Thunderbird Sports Centre)",
+          "UBC Thunderbird Arena"
+        ],
+        "place": "University Endowment Lands",
+        "coordinates": "49.261106,-123.243056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2008",
+        "seating_capacity": "7200",
+        "type": "indoor venue",
+        "source_file": "venue_178.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Used year-round, this multi-use facility venue caters for the University of British Columbia's athletes and the wider community, as originally planned when it was built for the 2010 Olympic Winter Games. The venue is the home of the UBC Thunderbirds women's and men's ice hockey teams, among other university teams and athletes. A venue for several Davis Cup ties, it hosts concerts, conventions, talks, film shoots and ice hockey programmes.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.108056,
+          49.244444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vancouver Olympic Centre (also known as Vancouver Olympic/Paralympic Centre)",
+          "Vancouver Olympic Center"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.244444,-123.108056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "opened": "2009",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "source_file": "venue_179.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Converted into a multi-purpose community recreation centre after Vancouver 2010, the venue offers sporting activities and programmes for people of all ages and abilities. Comprising a library, pool, skating rink, curling rink, gymnasium and fitness centre, among other facilities, it is a popular gathering place and receives over two million visitors a year.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9425,
+          50.108333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Creekside"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.108333,-122.9425",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7600",
+        "type": "outdoor venue",
+        "source_file": "venue_180.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The Olympic Alpine skiing runs are still marked at a resort that is home to 8,100 acres of slopes, 16 Alpine bowls, three glaciers, several terrain parks and over 200 marked trails. Two of the resort's main chairlifts will be replaced for the 2022/23 season.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.119167,
+          50.135278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Olympic Park"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.135278,-123.119167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2007",
+        "seating_capacity": "6000",
+        "type": "outdoor venue",
+        "source_file": "venue_181.json",
+        "Olympics": "2010 Vancouver"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.945,
+          50.1075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Sliding Centre",
+          "Whistler Sliding Center"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.1075,-122.945",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton",
+          "luge and skeleton"
+        ],
+        "opened": "2007",
+        "seating_capacity": "12000",
+        "type": "outdoor venue",
+        "source_file": "venue_182.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "A national training centre for luge, bobsleigh and skeleton, the venue has staged a number of international competitions, including FIL Luge World Cup events and the IBSF Bobsleigh and Skeleton World Championships. It is also home to the BC Sliding Development Center, which was founded in 2017 and runs development programmes for bobsleigh, skeleton and luge athletes of all abilities. The venue is also open to the general public all year round, allowing people to experience the three sports in a safe, controlled environment.",
+        "location": "outside the city"
+      }
+    }
+  ]
+}

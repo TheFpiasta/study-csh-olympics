@@ -1,0 +1,74 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kallang Field, Kallang Sports Complex"
+    ],
+    "place": "Kallang, Singapore",
+    "coordinates": "1.303547,103.879808",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Archery"
+    ],
+    "seating_capacity": "500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Boys",
+        "link": "https://www.olympedia.org/results/4002500"
+      },
+      {
+        "text": "18 – 21 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Girls",
+        "link": "https://www.olympedia.org/results/4002539"
+      },
+      {
+        "text": "18 – 20 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Team, Mixed Youth",
+        "link": "https://www.olympedia.org/results/4002578"
+      },
+      {
+        "text": "18 – 19 August 2010"
+      }
+    ]
+  ]
+}

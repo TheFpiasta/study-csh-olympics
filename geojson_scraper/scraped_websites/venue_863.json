@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hadleigh Farm"
+    ],
+    "place": "Hadleigh, Essex",
+    "coordinates": "51.54387,0.60883",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Mountain Bike"
+    ],
+    "opened": "2012",
+    "seating_capacity": "20000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Men",
+        "link": "https://www.olympedia.org/results/308110"
+      },
+      {
+        "text": "12 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Women",
+        "link": "https://www.olympedia.org/results/308111"
+      },
+      {
+        "text": "11 August 2012"
+      }
+    ]
+  ]
+}

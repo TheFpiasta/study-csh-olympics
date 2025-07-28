@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Fairbanks Ranch"
+    ],
+    "place": "Rancho Santa Fe, California",
+    "coordinates": "32.978176,-117.215667",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1984",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "opened": "1984",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185331"
+      },
+      {
+        "text": "29 July –  3 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185336"
+      },
+      {
+        "text": "29 July –  3 August 1984"
+      }
+    ]
+  ]
+}

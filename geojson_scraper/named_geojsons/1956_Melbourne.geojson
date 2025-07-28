@@ -1,0 +1,464 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.983333,
+          -37.82
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Melbourne Cricket Ground"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.82,144.983333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          },
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Australian Rules Football",
+          "Baseball",
+          "Football",
+          "Hockey",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1854",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "17 m",
+        "source_file": "venue_396.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.971225,
+          -37.804728
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Exhibition Building Annex"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.804728,144.971225",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1880",
+        "type": "temporary indoor venue",
+        "source_file": "venue_397.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.946079,
+          -37.811147
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "West Melbourne Stadium",
+          "Festival Hall (1960s-Present)"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.811147,144.946079",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Boxing"
+        ],
+        "opened": "1915",
+        "type": "outdoor venue",
+        "source_file": "venue_398.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          143.824,
+          -37.5553
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lake Wendouree"
+        ],
+        "place": "Ballarat, Victoria",
+        "coordinates": "-37.5553,143.824",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_399.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.922993,
+          -37.674868
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Broadmeadows, Victoria",
+        "coordinates": "-37.674868,144.922993",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_400.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.98339,
+          -37.823787
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Park Velodrome"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.823787,144.98339",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "demolished": "1972",
+        "type": "outdoor venue",
+        "dimensions": "333⅓ m",
+        "surface": "Concrete",
+        "source_file": "venue_401.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.979722,
+          -37.824167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Park Swimming and Diving Stadium",
+          "Melbourne Sports and Entertainment Centre (?-?), The Glass House (?-?), Lexus Centre (2004-2009), Westpac Centre (2010-Present)"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.824167,144.979722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1956",
+        "type": "indoor venue",
+        "source_file": "venue_402.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.989,
+          -37.8687
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Town Hall"
+        ],
+        "place": "St. Kilda, Victoria",
+        "coordinates": "-37.8687,144.989",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1890",
+        "type": "indoor venue",
+        "source_file": "venue_405.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.981111,
+          -37.824722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Park Stadium"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.824722,144.981111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Hockey"
+        ],
+        "opened": "1956",
+        "type": "outdoor venue",
+        "source_file": "venue_406.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.852,
+          -37.631
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Oaklands Hunt Club"
+        ],
+        "place": "Broadmeadows, Victoria",
+        "coordinates": "-37.631,144.852",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "1888",
+        "type": "outdoor venue",
+        "source_file": "venue_407.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.971225,
+          -37.804728
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Exhibition Building"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.804728,144.971225",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "opened": "1880",
+        "type": "indoor venue",
+        "source_file": "venue_408.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.868829,
+          -37.856021
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Merrett Rifle Range"
+        ],
+        "place": "Williamstown, Victoria",
+        "coordinates": "-37.856021,144.868829",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1878",
+        "demolished": "1987",
+        "type": "outdoor venue",
+        "source_file": "venue_409.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.940717,
+          -37.875395
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Port Phillip Bay",
+        "coordinates": "-37.875395,144.940717",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_410.json",
+        "Olympics": "1956 Melbourne"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.746,
+          -37.8635
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Australian Air Force Station"
+        ],
+        "place": "Laverton, Victoria",
+        "coordinates": "-37.8635,144.746",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1925",
+        "type": "outdoor venue",
+        "source_file": "venue_413.json",
+        "Olympics": "1956 Melbourne"
+      }
+    }
+  ]
+}

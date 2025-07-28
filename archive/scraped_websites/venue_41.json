@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Gudiberg"
+    ],
+    "place": "Garmisch-Partenkirchen",
+    "coordinates": "47.480335,11.117263",
+    "coordinates_trust": "Most likely here",
+    "year": "1936",
+    "season": "Winter",
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "seating_capacity": "9367",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Combined, Men",
+        "link": "https://www.olympedia.org/results/1166"
+      },
+      {
+        "text": "7 –  9 February 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Combined, Women",
+        "link": "https://www.olympedia.org/results/1171"
+      },
+      {
+        "text": "7 –  8 February 1936"
+      }
+    ]
+  ]
+}

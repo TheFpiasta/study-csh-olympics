@@ -1,0 +1,93 @@
+{
+  "biodata": {
+    "associated_names": [
+      "New South Wales Tennis Centre, Olympic Park (also known as NSW Tennis Centre)"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.855,151.072222",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Tennis"
+    ],
+    "opened": "1999",
+    "seating_capacity": "10000 (centre court)",
+    "type": "outdoor venue",
+    "surface": "Hardcourt"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Tennis",
+        "link": "https://www.olympedia.org/sports/TEN"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/45658"
+      },
+      {
+        "text": "19 – 28 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Tennis",
+        "link": "https://www.olympedia.org/sports/TEN"
+      },
+      {
+        "text": "Doubles, Men",
+        "link": "https://www.olympedia.org/results/45729"
+      },
+      {
+        "text": "20 – 27 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Tennis",
+        "link": "https://www.olympedia.org/sports/TEN"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/45767"
+      },
+      {
+        "text": "19 – 27 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Tennis",
+        "link": "https://www.olympedia.org/sports/TEN"
+      },
+      {
+        "text": "Doubles, Women",
+        "link": "https://www.olympedia.org/results/45838"
+      },
+      {
+        "text": "21 – 28 September 2000"
+      }
+    ]
+  ]
+}

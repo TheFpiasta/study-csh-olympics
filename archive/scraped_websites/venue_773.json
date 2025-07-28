@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sydney Opera House"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.858222,151.215281",
+    "coordinates_trust": "Definitely here",
+    "year": "2000",
+    "season": "Summer",
+    "sports": [
+      "Triathlon"
+    ],
+    "notes": "Finish of the triathlon was outside of the building.",
+    "opened": "1973",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Men",
+        "link": "https://www.olympedia.org/results/21155"
+      },
+      {
+        "text": "17 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Women",
+        "link": "https://www.olympedia.org/results/21164"
+      },
+      {
+        "text": "16 September 2000"
+      }
+    ]
+  ]
+}

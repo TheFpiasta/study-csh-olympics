@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pavelló d'Esports",
+      "Sports Pavillion"
+    ],
+    "place": "Reus",
+    "coordinates": "41.16241,1.109144",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Roller Hockey"
+    ],
+    "opened": "1992",
+    "seating_capacity": "3000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Roller Hockey",
+        "link": "https://www.olympedia.org/sports/RHO"
+      },
+      {
+        "text": "Roller Hockey, Men",
+        "link": "https://www.olympedia.org/results/900966"
+      },
+      {
+        "text": "26 July –  7 August 1992"
+      }
+    ]
+  ]
+}

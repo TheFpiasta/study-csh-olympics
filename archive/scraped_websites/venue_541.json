@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Rundkurs Grünwald",
+      "Grünwald Course"
+    ],
+    "place": "Grünwald",
+    "coordinates": "48.050438,11.5337",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/154282"
+      },
+      {
+        "text": "7 September 1972"
+      }
+    ]
+  ]
+}

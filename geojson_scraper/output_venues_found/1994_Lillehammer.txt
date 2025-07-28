@@ -1,0 +1,17 @@
+[Part Name Match] JSON Venue 3 'Kanthaugen Freestyle Arena' matched with GeoJSON Venue 9: Kanthaugen Freestyle Arena
+[Use/Sport + Name Match] JSON Venue 0 - Håkon Hall ↔ GeoJSON Venue 7 - Håkons Hall | UseSim: 1.00, NameSim: 0.95, Score: 0.99 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Hamar Olympic Hall (Vikingskipet) ↔ GeoJSON Venue 5 - Olympiahall (also known as Vikingskipet) | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Lillehammer Olympic Alpine Centre, Kvitfjell ↔ GeoJSON Venue 1 - Kvitfjell Alpinsenter | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Hamar Olympic Amphitheatre ↔ GeoJSON Venue 6 - OL-Amfi (also known as Nordlyshallen) | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Birkebeineren Ski Stadium ↔ GeoJSON Venue 2 - Birkebeineren Skistadion | UseSim: 0.67, NameSim: 0.90, Score: 0.74 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Lillehammer Olympic Bobsleigh and Luge Track ↔ GeoJSON Venue 8 - Olympiske Bob- og Akebane | UseSim: 0.83, NameSim: 0.44, Score: 0.72 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Gjøvik Olympic Cavern Hall ↔ GeoJSON Venue 4 - Olympiske Fjellhall | UseSim: 0.67, NameSim: 0.53, Score: 0.63 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Lysgårdsbakkene Ski Jumping Arena ↔ GeoJSON Venue 3 - Lysgårdsbakkene | UseSim: 0.58, NameSim: 0.62, Score: 0.60 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 4] 'Lillehammer Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 5] 'Lillehammer Olympic Alpine Centre, Hafjell' has no matching GeoJSON venue.
+[JSON Venue 6] 'Hamar Olympic Subsite Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Hafjell Alpinsenter' has no matching JSON venue.

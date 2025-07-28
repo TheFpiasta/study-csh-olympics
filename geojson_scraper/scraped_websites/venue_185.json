@@ -1,0 +1,73 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympic Field House US Ice Rink"
+    ],
+    "place": "Lake Placid",
+    "coordinates": "44.282776,-73.986324",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1980",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Figure Skating"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/41"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/13542"
+      },
+      {
+        "text": "18 – 21 February 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/41"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/13592"
+      },
+      {
+        "text": "20 – 23 February 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/41"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Ice Dancing, Mixed",
+        "link": "https://www.olympedia.org/results/13672"
+      },
+      {
+        "text": "18 – 20 February 1980"
+      }
+    ]
+  ]
+}

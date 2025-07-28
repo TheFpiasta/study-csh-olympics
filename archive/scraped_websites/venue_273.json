@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stade de Paris (also known as Stade Bauer)",
+      "Paris Stadium"
+    ],
+    "place": "Saint-Ouen",
+    "coordinates": "48.905833,2.340833",
+    "coordinates_trust": "Definitely here",
+    "year": "1924",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1909",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33584"
+      },
+      {
+        "text": "25 May –  9 June 1924"
+      }
+    ]
+  ]
+}

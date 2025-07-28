@@ -1,0 +1,797 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Beijing Guojia Youyong Zhongxin, Beijing Aolinpike Gongyuan (also known as Water Cube)",
+      "Beijing National Aquatics Centre, Beijing Olympic Green"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.991667,116.384167",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      },
+      {
+        "year": "2022",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Artistic Swimming",
+      "Curling",
+      "Diving",
+      "Swimming"
+    ],
+    "opened": "2008",
+    "seating_capacity": "17000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Men",
+        "link": "https://www.olympedia.org/results/259046"
+      },
+      {
+        "text": "18 – 19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Men",
+        "link": "https://www.olympedia.org/results/259050"
+      },
+      {
+        "text": "22 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Springboard, Men",
+        "link": "https://www.olympedia.org/results/259054"
+      },
+      {
+        "text": "13 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Platform, Men",
+        "link": "https://www.olympedia.org/results/259055"
+      },
+      {
+        "text": "11 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Women",
+        "link": "https://www.olympedia.org/results/259056"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Women",
+        "link": "https://www.olympedia.org/results/259060"
+      },
+      {
+        "text": "20 – 21 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Springboard, Women",
+        "link": "https://www.olympedia.org/results/259064"
+      },
+      {
+        "text": "10 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Synchronized Platform, Women",
+        "link": "https://www.olympedia.org/results/259065"
+      },
+      {
+        "text": "12 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "50 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/261468"
+      },
+      {
+        "text": "14 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/261487"
+      },
+      {
+        "text": "12 – 14 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/261502"
+      },
+      {
+        "text": "10 – 12 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/261516"
+      },
+      {
+        "text": "9 – 10 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "1,500 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/261524"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/261632"
+      },
+      {
+        "text": "10 – 11 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/261646"
+      },
+      {
+        "text": "12 – 13 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/261533"
+      },
+      {
+        "text": "10 – 12 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/261545"
+      },
+      {
+        "text": "13 – 15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/261558"
+      },
+      {
+        "text": "9 – 11 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/261573"
+      },
+      {
+        "text": "12 – 14 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/261586"
+      },
+      {
+        "text": "14 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/261601"
+      },
+      {
+        "text": "11 – 13 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/261613"
+      },
+      {
+        "text": "13 – 15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/261625"
+      },
+      {
+        "text": "9 – 10 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Men",
+        "link": "https://www.olympedia.org/results/261660"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "50 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/261674"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/261692"
+      },
+      {
+        "text": "13 – 15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/261705"
+      },
+      {
+        "text": "11 – 13 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/261717"
+      },
+      {
+        "text": "10 – 11 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "800 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/261726"
+      },
+      {
+        "text": "14 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/261828"
+      },
+      {
+        "text": "9 – 10 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/261842"
+      },
+      {
+        "text": "13 – 14 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/261735"
+      },
+      {
+        "text": "10 – 12 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/261748"
+      },
+      {
+        "text": "14 – 16 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/261759"
+      },
+      {
+        "text": "10 – 12 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/261772"
+      },
+      {
+        "text": "13 – 15 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/261784"
+      },
+      {
+        "text": "9 – 11 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/261797"
+      },
+      {
+        "text": "12 – 14 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/261808"
+      },
+      {
+        "text": "11 – 13 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/261820"
+      },
+      {
+        "text": "9 – 10 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Women",
+        "link": "https://www.olympedia.org/results/261856"
+      },
+      {
+        "text": "15 – 17 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Artistic Swimming",
+        "link": "https://www.olympedia.org/sports/SWA"
+      },
+      {
+        "text": "Duet, Women",
+        "link": "https://www.olympedia.org/results/261870"
+      },
+      {
+        "text": "18 – 20 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Artistic Swimming",
+        "link": "https://www.olympedia.org/sports/SWA"
+      },
+      {
+        "text": "Team, Women",
+        "link": "https://www.olympedia.org/results/261876"
+      },
+      {
+        "text": "22 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2022 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/62"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/19019760"
+      },
+      {
+        "text": "9 – 19 February 2022"
+      }
+    ],
+    [
+      {
+        "text": "2022 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/62"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/19019814"
+      },
+      {
+        "text": "10 – 20 February 2022"
+      }
+    ],
+    [
+      {
+        "text": "2022 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/62"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Mixed Doubles, Mixed",
+        "link": "https://www.olympedia.org/results/19019868"
+      },
+      {
+        "text": "2 –  8 February 2022"
+      }
+    ]
+  ]
+}

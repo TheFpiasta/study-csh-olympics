@@ -1,0 +1,1092 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.409556,
+          43.871806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hala Zetra (also known as Olimpijska Dvorana Juan Antonio Samaranch (2010-Present))",
+          "Zetra Hall"
+        ],
+        "place": "Sarajevo",
+        "coordinates": "43.871806,18.409556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Closing ceremony"
+        ],
+        "opened": "1982",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13722"
+            },
+            {
+              "text": "13 – 16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13754"
+            },
+            {
+              "text": "15 – 18 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13786"
+            },
+            {
+              "text": "10 – 12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13807"
+            },
+            {
+              "text": "10 – 14 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20516"
+            },
+            {
+              "text": "7 – 19 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_118.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.409041,
+          43.870374
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista za brzo klizanje Zetra",
+          "Ice Rink for Speed Skating Zetra"
+        ],
+        "place": "Sarajevo",
+        "coordinates": "43.870374,18.409041",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1982",
+        "demolished": "1992",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "564 m",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1055"
+            },
+            {
+              "text": "10 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1056"
+            },
+            {
+              "text": "14 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1057"
+            },
+            {
+              "text": "16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1058"
+            },
+            {
+              "text": "12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1059"
+            },
+            {
+              "text": "18 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1060"
+            },
+            {
+              "text": "10 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1061"
+            },
+            {
+              "text": "13 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1062"
+            },
+            {
+              "text": "9 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1063"
+            },
+            {
+              "text": "15 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_119.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.414025,
+          43.854467
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hala Skenderija II",
+          "Skenderija II Hall"
+        ],
+        "place": "Sarajevo",
+        "coordinates": "43.854467,18.414025",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1983",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13722"
+            },
+            {
+              "text": "13 – 16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13754"
+            },
+            {
+              "text": "15 – 18 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13807"
+            },
+            {
+              "text": "10 – 14 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20516"
+            },
+            {
+              "text": "7 – 19 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_120.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.284722,
+          43.715556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Bjelašnica",
+        "coordinates": "43.715556,18.284722",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1981",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1342"
+            },
+            {
+              "text": "16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1343"
+            },
+            {
+              "text": "14 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1346"
+            },
+            {
+              "text": "19 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_121.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.576944,
+          43.726667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Jahorina",
+        "coordinates": "43.726667,18.576944",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1981",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1349"
+            },
+            {
+              "text": "16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1350"
+            },
+            {
+              "text": "13 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1353"
+            },
+            {
+              "text": "17 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW4, Men",
+              "link": "https://www.olympedia.org/results/905194"
+            },
+            {
+              "text": "11 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW6/8, Men",
+              "link": "https://www.olympedia.org/results/905195"
+            },
+            {
+              "text": "11 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW5/7, Men",
+              "link": "https://www.olympedia.org/results/905196"
+            },
+            {
+              "text": "11 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW2, Men",
+              "link": "https://www.olympedia.org/results/905197"
+            },
+            {
+              "text": "11 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_122.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.247604,
+          43.76801
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Malo Polje"
+        ],
+        "place": "Igman",
+        "coordinates": "43.76801,18.247604",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Designed by [Janez Gorišek]() and his brother Vlado.",
+        "opened": "1983",
+        "type": "outdoor venue",
+        "additional_details": "Designed and built by Janez Gorišek and his brother Vlado. The venue is now mostly destroyed following the Siege of Sarajevo in the early 1990s.",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2266"
+            },
+            {
+              "text": "11 – 12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2406"
+            },
+            {
+              "text": "12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2409"
+            },
+            {
+              "text": "18 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_123.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.269738,
+          43.746468
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Veliko Polje"
+        ],
+        "place": "Igman",
+        "coordinates": "43.746468,18.269738",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "1981",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1538"
+            },
+            {
+              "text": "14 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1539"
+            },
+            {
+              "text": "11 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1540"
+            },
+            {
+              "text": "17 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1998"
+            },
+            {
+              "text": "13 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1999"
+            },
+            {
+              "text": "10 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2000"
+            },
+            {
+              "text": "19 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2001"
+            },
+            {
+              "text": "16 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2005"
+            },
+            {
+              "text": "12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2006"
+            },
+            {
+              "text": "9 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "20 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2007"
+            },
+            {
+              "text": "18 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2008"
+            },
+            {
+              "text": "15 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2266"
+            },
+            {
+              "text": "11 – 12 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_124.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.456205,
+          43.825998
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Trebević",
+        "coordinates": "43.825998,18.456205",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/375"
+            },
+            {
+              "text": "10 – 11 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/382"
+            },
+            {
+              "text": "17 – 18 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/110"
+            },
+            {
+              "text": "9 – 12 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/117"
+            },
+            {
+              "text": "15 February 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/42"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/120"
+            },
+            {
+              "text": "9 – 12 February 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_184.json"
+      }
+    }
+  ]
+}

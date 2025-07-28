@@ -1,0 +1,87 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Golf de Compiègne",
+      "Compiègne Golf Club"
+    ],
+    "place": "Compiègne",
+    "coordinates": "49.411448,2.843184",
+    "coordinates_trust": "Definitely here",
+    "year": "1900",
+    "season": "Summer",
+    "sports": [
+      "Golf"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/40000"
+      },
+      {
+        "text": "2 October 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/40001"
+      },
+      {
+        "text": "3 October 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Handicap, Men",
+        "link": "https://www.olympedia.org/results/925229"
+      },
+      {
+        "text": "3 October 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Professional, Men",
+        "link": "https://www.olympedia.org/results/925231"
+      },
+      {
+        "text": "3 October 1900"
+      }
+    ]
+  ]
+}

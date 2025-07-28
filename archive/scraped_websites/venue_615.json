@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Harvard Stadium"
+    ],
+    "place": "Allston, Massachusetts",
+    "coordinates": "42.366915,-71.126947",
+    "coordinates_trust": "Definitely here",
+    "year": "1984",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1903",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33975"
+      },
+      {
+        "text": "29 July – 11 August 1984"
+      }
+    ]
+  ]
+}

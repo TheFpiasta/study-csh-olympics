@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Le Stand de l'Île Séguin",
+      "Shooting Stand of Séguin Island"
+    ],
+    "place": "Billancourt",
+    "coordinates": "48.823819,2.2328",
+    "coordinates_trust": "Most likely here",
+    "year": "1900",
+    "season": "Summer",
+    "sports": [
+      "Shooting"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Shooting",
+        "link": "https://www.olympedia.org/sports/SHO"
+      },
+      {
+        "text": "Trap, Men",
+        "link": "https://www.olympedia.org/results/51514"
+      },
+      {
+        "text": "15 – 17 July 1900"
+      }
+    ]
+  ]
+}

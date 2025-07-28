@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Huopalahden Suomen Metsästysyhdistyksen ampumarata",
+      "Huopalahti Range of Finnish Hunting Society"
+    ],
+    "place": "Huopalahti, Helsinki",
+    "coordinates": "60.221944,24.913056",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Shooting"
+    ],
+    "demolished": "1960",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/13"
+      },
+      {
+        "text": "Shooting",
+        "link": "https://www.olympedia.org/sports/SHO"
+      },
+      {
+        "text": "Trap, Men",
+        "link": "https://www.olympedia.org/results/51648"
+      },
+      {
+        "text": "25 – 26 July 1952"
+      }
+    ]
+  ]
+}

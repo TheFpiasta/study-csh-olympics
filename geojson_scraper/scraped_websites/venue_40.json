@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kreuzeck-Gebiet",
+      "Kreuzeck Area"
+    ],
+    "place": "Garmisch-Partenkirchen",
+    "coordinates": "47.470562,11.063383",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "seating_capacity": "9367",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Combined, Men",
+        "link": "https://www.olympedia.org/results/1166"
+      },
+      {
+        "text": "7 –  9 February 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Combined, Women",
+        "link": "https://www.olympedia.org/results/1171"
+      },
+      {
+        "text": "7 –  8 February 1936"
+      }
+    ]
+  ]
+}

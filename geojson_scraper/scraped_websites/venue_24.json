@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Le Tremplin Olympique",
+      "Olympic Ski Jump"
+    ],
+    "place": "Le Mont",
+    "coordinates": "45.898304,6.841827",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1924",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "seating_capacity": "4400",
+    "type": "outdoor venue",
+    "dimensions": "400 m (SSK), 30 m x 70 m (ICH)"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/29"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2350"
+      },
+      {
+        "text": "4 February 1924"
+      }
+    ]
+  ]
+}

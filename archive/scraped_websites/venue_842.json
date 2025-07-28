@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tieren Sanxiang Saichang",
+      "Triathlon Venue"
+    ],
+    "place": "Beijing",
+    "coordinates": "40.250332,116.265843",
+    "coordinates_trust": "Definitely here",
+    "year": "2008",
+    "season": "Summer",
+    "sports": [
+      "Triathlon"
+    ],
+    "notes": "Located near the Ming Dynasty Tomb Reservoir.",
+    "seating_capacity": "10000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Men",
+        "link": "https://www.olympedia.org/results/262331"
+      },
+      {
+        "text": "19 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Women",
+        "link": "https://www.olympedia.org/results/262340"
+      },
+      {
+        "text": "18 August 2008"
+      }
+    ]
+  ]
+}

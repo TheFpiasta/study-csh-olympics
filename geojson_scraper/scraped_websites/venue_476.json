@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tōkyō Taiikukan Indoor Swimming Pool",
+      "Tokyo Metropolitan Indoor Swimming Pool"
+    ],
+    "place": "Shibuya, Tokyo",
+    "coordinates": "35.679075,139.711223",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1964",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "1957",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38391"
+      },
+      {
+        "text": "11 – 18 October 1964"
+      }
+    ]
+  ]
+}

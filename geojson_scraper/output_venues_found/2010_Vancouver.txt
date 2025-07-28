@@ -1,0 +1,17 @@
+[Part Name Match] JSON Venue 1 'Canada Hockey Place' matched with GeoJSON Venue 0: Canada Hockey Place
+[Part Name Match] JSON Venue 2 'Pacific Coliseum' matched with GeoJSON Venue 2: Pacific Coliseum
+[Part Name Match] JSON Venue 6 'Whistler Creekside' matched with GeoJSON Venue 6: Whistler Creekside
+[Part Name Match] JSON Venue 8 'Richmond Olympic Oval' matched with GeoJSON Venue 3: Richmond Olympic Oval
+[Use/Sport + Name Match] JSON Venue 10 - Whistler Sliding Center ↔ GeoJSON Venue 8 - Whistler Sliding Centre | UseSim: 1.00, NameSim: 0.96, Score: 0.99 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Vancouver Olympic Center ↔ GeoJSON Venue 5 - Vancouver Olympic Centre (also known as Vancouver Olympic/Paralympic Centre) | UseSim: 1.00, NameSim: 0.49, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - UBC Thunderbird Arena ↔ GeoJSON Venue 4 - UBC Thunderbird Arena (also known as Doug Mitchell Thunderbird Sports Centre) | UseSim: 1.00, NameSim: 0.44, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Cypress Mountain – Snowboard Stadium – Freestyle Skiing Stadium ↔ GeoJSON Venue 1 - Cypress Mountain | UseSim: 0.67, NameSim: 0.43, Score: 0.59 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Vancouver Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 5] 'Vancouver Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 9] 'Whistler Olympic Park – Cross-Country Skiing Stadium – Biathlon Stadium – Ski Jumps' has no matching GeoJSON venue.
+[JSON Venue 11] 'Whistler Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 7] 'Whistler Olympic Park' has no matching JSON venue.

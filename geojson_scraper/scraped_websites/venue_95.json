@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dæhlenenga Idrettsplass",
+      "Dæhlenenga Sports Field",
+      "Dælenenga (?-Present)"
+    ],
+    "place": "Oslo",
+    "coordinates": "59.926312,10.764316",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1952",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Bandy",
+      "Ice Hockey"
+    ],
+    "opened": "1916",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Bandy",
+        "link": "https://www.olympedia.org/sports/BDY"
+      },
+      {
+        "text": "Bandy, Men",
+        "link": "https://www.olympedia.org/results/905183"
+      },
+      {
+        "text": "20 – 23 February 1952"
+      }
+    ],
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20162"
+      },
+      {
+        "text": "15 – 25 February 1952"
+      }
+    ]
+  ]
+}

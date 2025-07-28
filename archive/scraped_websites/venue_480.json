@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Juan Escutia Palacio de los Deportes, Ciudad Deportiva Magdalena Mixhuca",
+      "Juan Escutia Palace of Sports, Magdalena Mixhuca Sports City",
+      "Palacio de los Deportes (?-Present)"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.405278,-99.099722",
+    "coordinates_trust": "Definitely here",
+    "year": "1968",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1967",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32268"
+      },
+      {
+        "text": "13 – 23 October 1968"
+      }
+    ]
+  ]
+}

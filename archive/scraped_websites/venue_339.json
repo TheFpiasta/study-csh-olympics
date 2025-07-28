@@ -1,0 +1,744 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Empire Stadium (also known as Wembley Stadium)"
+    ],
+    "place": "Wembley, London",
+    "coordinates": "51.555833,-0.279722",
+    "coordinates_trust": "Definitely here",
+    "year": "1948",
+    "season": "Summer",
+    "sports": [
+      "Artistic Gymnastics",
+      "Athletics",
+      "Equestrian Jumping",
+      "Football",
+      "Hockey",
+      "Lacrosse",
+      "Opening ceremony",
+      "Closing ceremony"
+    ],
+    "opened": "1923",
+    "demolished": "2007",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Loose cinders",
+    "altitude": "58 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/58482"
+      },
+      {
+        "text": "30 – 31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/58505"
+      },
+      {
+        "text": "2 –  3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/58528"
+      },
+      {
+        "text": "4 –  5 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/58551"
+      },
+      {
+        "text": "30 July –  2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/58564"
+      },
+      {
+        "text": "4 –  6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Men",
+        "link": "https://www.olympedia.org/results/58571"
+      },
+      {
+        "text": "31 July –  2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Men",
+        "link": "https://www.olympedia.org/results/58577"
+      },
+      {
+        "text": "30 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/58578"
+      },
+      {
+        "text": "7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/58579"
+      },
+      {
+        "text": "3 –  4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/58591"
+      },
+      {
+        "text": "30 – 31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/58603"
+      },
+      {
+        "text": "3 –  5 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/58615"
+      },
+      {
+        "text": "6 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/58621"
+      },
+      {
+        "text": "6 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/58609"
+      },
+      {
+        "text": "3 –  7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "50 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/58614"
+      },
+      {
+        "text": "31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/58627"
+      },
+      {
+        "text": "30 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/58634"
+      },
+      {
+        "text": "31 July –  2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/58642"
+      },
+      {
+        "text": "31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/58659"
+      },
+      {
+        "text": "3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/58668"
+      },
+      {
+        "text": "3 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/58677"
+      },
+      {
+        "text": "2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/58689"
+      },
+      {
+        "text": "31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Men",
+        "link": "https://www.olympedia.org/results/58706"
+      },
+      {
+        "text": "4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Decathlon, Men",
+        "link": "https://www.olympedia.org/results/58715"
+      },
+      {
+        "text": "5 –  6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Women",
+        "link": "https://www.olympedia.org/results/58767"
+      },
+      {
+        "text": "31 July –  2 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Women",
+        "link": "https://www.olympedia.org/results/58783"
+      },
+      {
+        "text": "5 –  6 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "80 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/58796"
+      },
+      {
+        "text": "3 –  4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/58806"
+      },
+      {
+        "text": "7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Women",
+        "link": "https://www.olympedia.org/results/58812"
+      },
+      {
+        "text": "7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Women",
+        "link": "https://www.olympedia.org/results/58818"
+      },
+      {
+        "text": "4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Women",
+        "link": "https://www.olympedia.org/results/58821"
+      },
+      {
+        "text": "4 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Women",
+        "link": "https://www.olympedia.org/results/58824"
+      },
+      {
+        "text": "30 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Women",
+        "link": "https://www.olympedia.org/results/58825"
+      },
+      {
+        "text": "31 July 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185133"
+      },
+      {
+        "text": "14 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185134"
+      },
+      {
+        "text": "14 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33663"
+      },
+      {
+        "text": "26 July – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Artistic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GAR"
+      },
+      {
+        "text": "Swedish Gymnastics, Open",
+        "link": "https://www.olympedia.org/results/900067"
+      },
+      {
+        "text": "7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Artistic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GAR"
+      },
+      {
+        "text": "Swedish Gymnastics, Open",
+        "link": "https://www.olympedia.org/results/900068"
+      },
+      {
+        "text": "13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Artistic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GAR"
+      },
+      {
+        "text": "Swedish Gymnastics, Open",
+        "link": "https://www.olympedia.org/results/900067"
+      },
+      {
+        "text": "7 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Artistic Gymnastics",
+        "link": "https://www.olympedia.org/sports/GAR"
+      },
+      {
+        "text": "Swedish Gymnastics, Open",
+        "link": "https://www.olympedia.org/results/900068"
+      },
+      {
+        "text": "13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35579"
+      },
+      {
+        "text": "31 July – 13 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Lacrosse",
+        "link": "https://www.olympedia.org/sports/LAX"
+      },
+      {
+        "text": "Lacrosse, Men",
+        "link": "https://www.olympedia.org/results/900066"
+      },
+      {
+        "text": "5 August 1948"
+      }
+    ]
+  ]
+}

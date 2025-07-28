@@ -1,0 +1,110 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Place de Breteuil",
+      "Breteuil Square"
+    ],
+    "place": "Paris",
+    "coordinates": "48.847268,2.311614",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1900",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Dressage",
+      "Equestrian Driving",
+      "Equestrian Jumping"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185000"
+      },
+      {
+        "text": "29 May 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "High Jump, Open",
+        "link": "https://www.olympedia.org/results/185001"
+      },
+      {
+        "text": "2 June 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Equestrian Jumping",
+        "link": "https://www.olympedia.org/sports/EJP"
+      },
+      {
+        "text": "Long Jump, Open",
+        "link": "https://www.olympedia.org/results/185002"
+      },
+      {
+        "text": "31 May 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Hacks and Hunter Combined, Open",
+        "link": "https://www.olympedia.org/results/185003"
+      },
+      {
+        "text": "31 May 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Equestrian Driving",
+        "link": "https://www.olympedia.org/sports/EDV"
+      },
+      {
+        "text": "Four-In-Hand Competition, Open",
+        "link": "https://www.olympedia.org/results/185004"
+      },
+      {
+        "text": "2 June 1900"
+      }
+    ]
+  ]
+}

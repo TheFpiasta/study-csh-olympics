@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Futsal Main Stadium, Tecnópolis, Tecnópolis Park"
+    ],
+    "place": "Villa Martelli, Buenos Aires",
+    "coordinates": "-34.558083,-58.510330",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2018",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Futsal"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Futsal",
+        "link": "https://www.olympedia.org/sports/FTS"
+      },
+      {
+        "text": "Futsal, Boys",
+        "link": "https://www.olympedia.org/results/9014419"
+      },
+      {
+        "text": "7 – 18 October 2018"
+      }
+    ],
+    [
+      {
+        "text": "2018 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/69"
+      },
+      {
+        "text": "Futsal",
+        "link": "https://www.olympedia.org/sports/FTS"
+      },
+      {
+        "text": "Futsal, Girls",
+        "link": "https://www.olympedia.org/results/9014449"
+      },
+      {
+        "text": "7 – 17 October 2018"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympia-Radstadion",
+      "Olympic Cycling Stadium"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.50451,13.2737",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Track"
+    ],
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Wood"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Sprint, Men",
+        "link": "https://www.olympedia.org/results/153462"
+      },
+      {
+        "text": "6 –  7 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "1,000 metres Time Trial, Men",
+        "link": "https://www.olympedia.org/results/153461"
+      },
+      {
+        "text": "8 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Tandem Sprint, 2,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153499"
+      },
+      {
+        "text": "7 –  8 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Team Pursuit, 4,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153521"
+      },
+      {
+        "text": "6 –  8 August 1936"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hwarang Archery Field"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.621772,127.098861",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Archery"
+    ],
+    "opened": "1986",
+    "seating_capacity": "1200",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/40661"
+      },
+      {
+        "text": "27 – 30 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/40687"
+      },
+      {
+        "text": "27 September –  1 October 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/40703"
+      },
+      {
+        "text": "27 – 30 September 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Team, Women",
+        "link": "https://www.olympedia.org/results/40729"
+      },
+      {
+        "text": "27 September –  1 October 1988"
+      }
+    ]
+  ]
+}

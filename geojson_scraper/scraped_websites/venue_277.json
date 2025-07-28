@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stade d'Escrime de Colombes",
+      "Colombes Fencing Stadium"
+    ],
+    "place": "Colombes",
+    "coordinates": "48.931016,2.247981",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1924",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "notes": "Adjacent to Stade Olympique de Colombes.",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50018"
+      },
+      {
+        "text": "12 – 17 July 1924"
+      }
+    ]
+  ]
+}

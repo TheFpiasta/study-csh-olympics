@@ -1,0 +1,40 @@
+[Part Name Match] JSON Venue 0 'Santa Anita Park' matched with GeoJSON Venue 11: Santa Anita Park
+[Part Name Match] JSON Venue 3 'Los Angeles Memorial Coliseum' matched with GeoJSON Venue 0: Los Angeles Memorial Coliseum
+[Part Name Match] JSON Venue 6 'El Dorado Park' matched with GeoJSON Venue 2: El Dorado Park
+[Part Name Match] JSON Venue 7 'Rose Bowl' matched with GeoJSON Venue 1: Rose Bowl
+[Part Name Match] JSON Venue 9 'The Forum' matched with GeoJSON Venue 3: The Forum
+[Part Name Match] JSON Venue 11 'Los Angeles Memorial Sports Arena' matched with GeoJSON Venue 4: Los Angeles Memorial Sports Arena
+[Part Name Match] JSON Venue 18 'Anaheim Convention Center' matched with GeoJSON Venue 32: Anaheim Convention Center
+[Part Name Match] JSON Venue 22 'Stanford Stadium' matched with GeoJSON Venue 16: Stanford Stadium
+[Part Name Match] JSON Venue 23 'Harvard Stadium' matched with GeoJSON Venue 17: Harvard Stadium
+[Part Name Match] JSON Venue 24 'Navy-Marine Corps Memorial Stadium' matched with GeoJSON Venue 18: Navy-Marine Corps Memorial Stadium
+[Part Name Match] JSON Venue 26 'Fairbanks Ranch' matched with GeoJSON Venue 12: Fairbanks Ranch
+[Part Name Match] JSON Venue 27 'Lake Casitas' matched with GeoJSON Venue 6: Lake Casitas
+[Use/Sport + Name Match] JSON Venue 10 - Exhibition Hall, Long Beach Convention and Entertainment Center ↔ GeoJSON Venue 14 - Exhibit Hall, Long Beach Convention and Entertainment Center | UseSim: 1.00, NameSim: 0.98, Score: 0.99 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Pauley Pavilion ↔ GeoJSON Venue 19 - Edwin W. Pauley Pavilion | UseSim: 1.00, NameSim: 0.79, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 21 - Raleigh Runnels Memorial Pool ↔ GeoJSON Venue 30 - Raleigh Runnels Memorial Pool, Pepperdine University | UseSim: 1.00, NameSim: 0.72, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 19 - Coto de Caza ↔ GeoJSON Venue 23 - Coto de Caza Equestrian Center | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Weingart Stadium ↔ GeoJSON Venue 21 - Weingart Stadium, East Los Angeles College | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Long Beach Sports Arena ↔ GeoJSON Venue 15 - Sports Arena, Long Beach Convention and Entertainment Center | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Olympic Swim Stadium ↔ GeoJSON Venue 10 - Olympic Swim Stadium, University of Southern California | UseSim: 1.00, NameSim: 0.54, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Albert Gersten Pavilion ↔ GeoJSON Venue 31 - Albert Gersten Pavilion, Loyola Marymount University (also known as Hank's House) | UseSim: 1.00, NameSim: 0.46, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Eagle's Nest Arena ↔ GeoJSON Venue 22 - Eagle's Nest Arena, California State University at Los Angeles | UseSim: 1.00, NameSim: 0.44, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 15 - Olympic Velodrome ↔ GeoJSON Venue 9 - Olympic Velodrome, California State University at Dominguez Hills | UseSim: 1.00, NameSim: 0.42, Score: 0.83 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 25 - Olympic Shooting Range ↔ GeoJSON Venue 28 - Prado Recreational Area | UseSim: 1.00, NameSim: 0.31, Score: 0.79 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 17 - Titan Gymnasium ↔ GeoJSON Venue 20 - Titan Gym, California State University at Fullerton | UseSim: 1.00, NameSim: 0.31, Score: 0.79 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 16 - Olympic Harbor ↔ GeoJSON Venue 26 - Long Beach Marina | UseSim: 1.00, NameSim: 0.26, Score: 0.78 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 12] 'Olympic Village USC' has no matching GeoJSON venue.
+[JSON Venue 13] 'Olympic Village UCLA' has no matching GeoJSON venue.
+[JSON Venue 20] 'Heritage Park Aquatic Center' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 5] 'Dodger Stadium' has no matching JSON venue.
+[GeoJSON Venue 7] 'Artesia Freeway' has no matching JSON venue.
+[GeoJSON Venue 8] '' has no matching JSON venue.
+[GeoJSON Venue 13] 'Terrace Theater, Long Beach Convention and Entertainment Center' has no matching JSON venue.
+[GeoJSON Venue 24] 'Pistol Range' has no matching JSON venue.
+[GeoJSON Venue 25] 'William Woolett, Jr. Aquatics Center' has no matching JSON venue.
+[GeoJSON Venue 27] 'East Beach' has no matching JSON venue.
+[GeoJSON Venue 29] 'Los Angeles Tennis Center' has no matching JSON venue.

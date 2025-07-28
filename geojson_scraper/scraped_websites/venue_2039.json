@@ -1,0 +1,74 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sport Institute Gymnasium, Nanjing Sport Institute"
+    ],
+    "place": "Xuanwu, Nanjing",
+    "coordinates": "32.044338,118.860011",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2014",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Badminton"
+    ],
+    "seating_capacity": "3000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Singles, Boys",
+        "link": "https://www.olympedia.org/results/9006386"
+      },
+      {
+        "text": "17 – 22 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Singles, Girls",
+        "link": "https://www.olympedia.org/results/9006455"
+      },
+      {
+        "text": "17 – 22 August 2014"
+      }
+    ],
+    [
+      {
+        "text": "2014 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/67"
+      },
+      {
+        "text": "Badminton",
+        "link": "https://www.olympedia.org/sports/BDM"
+      },
+      {
+        "text": "Doubles, Mixed Youth",
+        "link": "https://www.olympedia.org/results/9006524"
+      },
+      {
+        "text": "17 – 22 August 2014"
+      }
+    ]
+  ]
+}

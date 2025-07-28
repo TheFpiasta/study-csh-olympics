@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Fengtai Tiyu Zhongxin Leiquichang",
+      "Fengtai Sports Center Softball Field"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.864953,116.269389",
+    "coordinates_trust": "Definitely here",
+    "year": "2008",
+    "season": "Summer",
+    "sports": [
+      "Softball"
+    ],
+    "opened": "1989",
+    "seating_capacity": "13000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Softball",
+        "link": "https://www.olympedia.org/sports/SOF"
+      },
+      {
+        "text": "Softball, Women",
+        "link": "https://www.olympedia.org/results/261431"
+      },
+      {
+        "text": "12 – 21 August 2008"
+      }
+    ]
+  ]
+}

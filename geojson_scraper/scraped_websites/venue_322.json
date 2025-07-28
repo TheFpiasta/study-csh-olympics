@@ -1,0 +1,75 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Truppenübungsplatz",
+      "Military Exercise Field"
+    ],
+    "place": "Döberitz, Brandenburg",
+    "coordinates": "52.478546,13.027511",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing",
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185099"
+      },
+      {
+        "text": "13 – 16 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185104"
+      },
+      {
+        "text": "13 – 16 August 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50045"
+      },
+      {
+        "text": "2 –  6 August 1936"
+      }
+    ]
+  ]
+}

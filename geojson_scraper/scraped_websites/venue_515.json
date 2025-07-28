@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Autobahn München - Lindau, Ausfahrt Schäftlarn",
+      "Highway München - Lindau, Schäftlarn Exit"
+    ],
+    "place": "Schäftlarn",
+    "coordinates": "48.010292,11.418070",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "100 kilometres Team Time Trial, Men",
+        "link": "https://www.olympedia.org/results/154283"
+      },
+      {
+        "text": "29 August 1972"
+      }
+    ]
+  ]
+}

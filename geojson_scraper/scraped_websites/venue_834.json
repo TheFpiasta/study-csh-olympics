@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Beijing Aolinpike Gongyuan Qugunqiu Chang, Beijing Aolinpike Gongyuan",
+      "Olympic Green Hockey Field, Beijing Olympic Green"
+    ],
+    "place": "Beijing",
+    "coordinates": "40.015556,116.370833",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "notes": "Two pitches.",
+    "opened": "2006",
+    "seating_capacity": "17000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/260100"
+      },
+      {
+        "text": "11 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/260144"
+      },
+      {
+        "text": "10 – 22 August 2008"
+      }
+    ]
+  ]
+}

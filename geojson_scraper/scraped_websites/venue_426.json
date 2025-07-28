@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadio Flaminio",
+      "Flaminio Stadium"
+    ],
+    "place": "Roma",
+    "coordinates": "41.926956,12.4723",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1959",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33739"
+      },
+      {
+        "text": "26 August – 10 September 1960"
+      }
+    ]
+  ]
+}

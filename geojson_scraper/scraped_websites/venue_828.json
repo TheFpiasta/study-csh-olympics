@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Shanghai Tiyuchang",
+      "Shanghai Stadium"
+    ],
+    "place": "Shanghai",
+    "coordinates": "31.183503,121.4373",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1997",
+    "seating_capacity": "80000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/259883"
+      },
+      {
+        "text": "7 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/259924"
+      },
+      {
+        "text": "6 – 21 August 2008"
+      }
+    ]
+  ]
+}

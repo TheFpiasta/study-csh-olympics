@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hembrug",
+      "Hem Bridge"
+    ],
+    "place": "Amsterdam",
+    "coordinates": "52.4197222,4.827777",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1928",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/153420"
+      },
+      {
+        "text": "7 August 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Team, Men",
+        "link": "https://www.olympedia.org/results/153421"
+      },
+      {
+        "text": "7 August 1928"
+      }
+    ]
+  ]
+}

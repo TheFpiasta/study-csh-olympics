@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Universalny sportivny zal Druzhba",
+      "Druzhba Multipurpose Arena"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.7125,37.566667",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1980",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1979",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37278"
+      },
+      {
+        "text": "20 July –  1 August 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37314"
+      },
+      {
+        "text": "21 – 29 July 1980"
+      }
+    ]
+  ]
+}

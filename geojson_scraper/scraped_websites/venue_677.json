@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circuito de Cataluña (also known as Circuit de Catalunya)",
+      "Catalonia Circuit"
+    ],
+    "place": "Montmeló",
+    "coordinates": "41.57,2.261111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "opened": "1991",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "100 kilometres Team Time Trial, Men",
+        "link": "https://www.olympedia.org/results/154756"
+      },
+      {
+        "text": "26 July 1992"
+      }
+    ]
+  ]
+}

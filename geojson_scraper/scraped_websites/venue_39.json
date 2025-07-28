@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympia-Bobbahn",
+      "Olympic Bobsleigh Track"
+    ],
+    "place": "Garmisch-Partenkirchen",
+    "coordinates": "47.475897,11.07762",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Bobsleigh"
+    ],
+    "opened": "1910",
+    "seating_capacity": "8970",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Two, Men",
+        "link": "https://www.olympedia.org/results/253"
+      },
+      {
+        "text": "14 – 15 February 1936"
+      }
+    ],
+    [
+      {
+        "text": "1936 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/32"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Four, Men",
+        "link": "https://www.olympedia.org/results/260"
+      },
+      {
+        "text": "11 – 12 February 1936"
+      }
+    ]
+  ]
+}

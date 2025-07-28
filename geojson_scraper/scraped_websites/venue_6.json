@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stade de Slalom",
+      "Slalom Stadium"
+    ],
+    "place": "Les Ménuires",
+    "coordinates": "45.323687,6.539038",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "type": "outdoor venue",
+    "altitude": "1850 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/44"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Slalom, Men",
+        "link": "https://www.olympedia.org/results/1387"
+      },
+      {
+        "text": "22 February 1992"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circuit Fairview"
+    ],
+    "place": "Montréal, Québec",
+    "coordinates": "45.46473,-73.824378",
+    "coordinates_trust": "Definitely here",
+    "year": "1976",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "100 kilometres Team Time Trial, Men",
+        "link": "https://www.olympedia.org/results/154369"
+      },
+      {
+        "text": "18 July 1976"
+      }
+    ]
+  ]
+}

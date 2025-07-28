@@ -1,0 +1,52 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Santa Monica Canyon"
+    ],
+    "place": "Los Angeles, California",
+    "coordinates": "34.028308,-118.518835",
+    "coordinates_trust": "Most likely here",
+    "year": "1932",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1932 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/10"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/153459"
+      },
+      {
+        "text": "4 August 1932"
+      }
+    ],
+    [
+      {
+        "text": "1932 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/10"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Team, Men",
+        "link": "https://www.olympedia.org/results/153460"
+      },
+      {
+        "text": "4 August 1932"
+      }
+    ]
+  ]
+}

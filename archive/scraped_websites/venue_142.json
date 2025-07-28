@@ -1,0 +1,52 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Little Papoose Peak"
+    ],
+    "place": "Squaw Valley, California",
+    "coordinates": "39.195216,-120.234659",
+    "coordinates_trust": "Definitely here",
+    "year": "1960",
+    "season": "Winter",
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Giant Slalom, Women",
+        "link": "https://www.olympedia.org/results/1220"
+      },
+      {
+        "text": "23 February 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Slalom, Women",
+        "link": "https://www.olympedia.org/results/1221"
+      },
+      {
+        "text": "26 February 1960"
+      }
+    ]
+  ]
+}

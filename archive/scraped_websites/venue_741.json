@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "The Omni Coliseum (also known as The Omni)"
+    ],
+    "place": "Atlanta, Georgia",
+    "coordinates": "33.7575,-84.396667",
+    "coordinates_trust": "Definitely here",
+    "year": "1996",
+    "season": "Summer",
+    "sports": [
+      "Volleyball"
+    ],
+    "notes": "Demolished in 1997, with Phillips Arena built on same site, opening in 1999.",
+    "opened": "1972",
+    "demolished": "1997",
+    "seating_capacity": "16500",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37560"
+      },
+      {
+        "text": "21 July –  4 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37610"
+      },
+      {
+        "text": "20 July –  3 August 1996"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Piste de Bobsleigh",
+      "Bobsleigh Track"
+    ],
+    "place": "L'Alpe-d'Huez",
+    "coordinates": "45.105478,6.073009",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Bobsleigh"
+    ],
+    "opened": "1967",
+    "type": "outdoor venue",
+    "altitude": "1890 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Two, Men",
+        "link": "https://www.olympedia.org/results/323"
+      },
+      {
+        "text": "8 – 11 February 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/38"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Four, Men",
+        "link": "https://www.olympedia.org/results/330"
+      },
+      {
+        "text": "16 February 1968"
+      }
+    ]
+  ]
+}

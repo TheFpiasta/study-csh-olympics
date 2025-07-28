@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centre Paul-Sauvé",
+      "Paul Sauvé Arena"
+    ],
+    "place": "Montréal, Québec",
+    "coordinates": "45.561944,-73.579444",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1976",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1960",
+    "demolished": "1996",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37219"
+      },
+      {
+        "text": "18 – 30 July 1976"
+      }
+    ],
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37251"
+      },
+      {
+        "text": "19 – 30 July 1976"
+      }
+    ]
+  ]
+}

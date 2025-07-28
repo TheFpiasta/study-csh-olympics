@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Arena Copacabana",
+      "Copacabana Stadium"
+    ],
+    "place": "Copacabana, Rio de Janeiro",
+    "coordinates": "-22.9658698,-43.1732818",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Beach Volleyball"
+    ],
+    "opened": "2015",
+    "seating_capacity": "12000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Men",
+        "link": "https://www.olympedia.org/results/354150"
+      },
+      {
+        "text": "6 – 18 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Women",
+        "link": "https://www.olympedia.org/results/354218"
+      },
+      {
+        "text": "6 – 17 August 2016"
+      }
+    ]
+  ]
+}

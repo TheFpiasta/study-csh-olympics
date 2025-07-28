@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Palais des Sports",
+      "Palace of Sports"
+    ],
+    "place": "Sherbrooke, Québec",
+    "coordinates": "45.410453,-71.883279",
+    "coordinates_trust": "Definitely here",
+    "year": "1976",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1965",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34572"
+      },
+      {
+        "text": "18 – 28 July 1976"
+      }
+    ],
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/34609"
+      },
+      {
+        "text": "20 – 28 July 1976"
+      }
+    ]
+  ]
+}

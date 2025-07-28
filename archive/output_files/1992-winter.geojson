@@ -1,0 +1,1502 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.373605,
+          45.663614
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Halle de Glace",
+          "Olympic Ice Hall"
+        ],
+        "place": "Albertville",
+        "coordinates": "45.663614,6.373605",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "9000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13977"
+            },
+            {
+              "text": "19 – 21 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13998"
+            },
+            {
+              "text": "9 – 11 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/14019"
+            },
+            {
+              "text": "14 – 17 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/481"
+            },
+            {
+              "text": "18 – 20 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/501"
+            },
+            {
+              "text": "18 – 22 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/510"
+            },
+            {
+              "text": "18 – 20 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/530"
+            },
+            {
+              "text": "20 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_1.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.722206,
+          45.376968
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Patinoire",
+          "Ice Rink"
+        ],
+        "place": "Pralognan-la-Vanoise",
+        "coordinates": "45.376968,6.722206",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "2300",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/905418"
+            },
+            {
+              "text": "17 – 22 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/905442"
+            },
+            {
+              "text": "17 – 22 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_10.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.529162,
+          45.758706
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Les Saisies",
+        "coordinates": "45.758706,6.529162",
+        "coordinates_trust": "Most likely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "seating_capacity": "12500",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1550"
+            },
+            {
+              "text": "12 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1551"
+            },
+            {
+              "text": "20 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1552"
+            },
+            {
+              "text": "16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/1556"
+            },
+            {
+              "text": "11 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1557"
+            },
+            {
+              "text": "19 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "3 × 7.5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1558"
+            },
+            {
+              "text": "14 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2026"
+            },
+            {
+              "text": "13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10/15 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/2027"
+            },
+            {
+              "text": "13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2030"
+            },
+            {
+              "text": "10 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2031"
+            },
+            {
+              "text": "22 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2032"
+            },
+            {
+              "text": "18 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2036"
+            },
+            {
+              "text": "13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5/10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/2037"
+            },
+            {
+              "text": "13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2040"
+            },
+            {
+              "text": "9 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2041"
+            },
+            {
+              "text": "21 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2042"
+            },
+            {
+              "text": "17 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2287"
+            },
+            {
+              "text": "11 – 12 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2294"
+            },
+            {
+              "text": "16 – 17 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_11.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897038,
+          45.455818
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Tignes",
+        "coordinates": "45.455818,6.897038",
+        "coordinates_trust": "Most likely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Figure Skating",
+          "Freestyle Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "2103 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/1803"
+            },
+            {
+              "text": "12 – 13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/1806"
+            },
+            {
+              "text": "12 – 13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ballet, Men",
+              "link": "https://www.olympedia.org/results/905468"
+            },
+            {
+              "text": "9 – 10 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/905471"
+            },
+            {
+              "text": "15 – 16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ballet, Women",
+              "link": "https://www.olympedia.org/results/905474"
+            },
+            {
+              "text": "9 – 10 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/905477"
+            },
+            {
+              "text": "15 – 16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13956"
+            },
+            {
+              "text": "13 – 15 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_12.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.974977,
+          45.446098
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Val d'Isère",
+        "coordinates": "45.446098,6.974977",
+        "coordinates_trust": "Near here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1836 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1382"
+            },
+            {
+              "text": "9 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1383"
+            },
+            {
+              "text": "16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1384"
+            },
+            {
+              "text": "18 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1390"
+            },
+            {
+              "text": "10 – 11 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_13.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.371051,
+          45.664529
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Anneau de Vitesse",
+          "Olympic Oval"
+        ],
+        "place": "Albertville",
+        "coordinates": "45.664529,6.371051",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Speed Skating"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "335 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1074"
+            },
+            {
+              "text": "15 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1075"
+            },
+            {
+              "text": "18 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1076"
+            },
+            {
+              "text": "16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1077"
+            },
+            {
+              "text": "13 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1078"
+            },
+            {
+              "text": "20 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1079"
+            },
+            {
+              "text": "10 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1080"
+            },
+            {
+              "text": "14 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1081"
+            },
+            {
+              "text": "12 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1082"
+            },
+            {
+              "text": "9 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1083"
+            },
+            {
+              "text": "17 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_2.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.830503,
+          45.572581
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arc 2000"
+        ],
+        "place": "Les Arcs",
+        "coordinates": "45.572581,6.830503",
+        "coordinates_trust": "Near here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Speed Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "2145 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skiing",
+              "link": "https://www.olympedia.org/sports/SPS"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/905480"
+            },
+            {
+              "text": "20 – 22 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Speed Skiing",
+              "link": "https://www.olympedia.org/sports/SPS"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/905486"
+            },
+            {
+              "text": "20 – 22 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_4.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.615706,
+          45.431253
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Le Praz, Courchevel",
+        "coordinates": "45.431253,6.615706",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Two parts, Stade de Saut (Jumping Stadium) and Stade de Fond (Cross-country Stadium)",
+        "seating_capacity": "23000 (SKJ) / 15000 (CCS)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2287"
+            },
+            {
+              "text": "11 – 12 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2294"
+            },
+            {
+              "text": "16 – 17 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2421"
+            },
+            {
+              "text": "9 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2424"
+            },
+            {
+              "text": "16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2427"
+            },
+            {
+              "text": "14 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_5.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.539038,
+          45.323687
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade de Slalom",
+          "Slalom Stadium"
+        ],
+        "place": "Les Ménuires",
+        "coordinates": "45.323687,6.539038",
+        "coordinates_trust": "Most likely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1850 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1387"
+            },
+            {
+              "text": "22 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_6.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.566262,
+          45.391914
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Méribel",
+        "coordinates": "45.391914,6.566262",
+        "coordinates_trust": "Most likely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "3000",
+        "type": "temporary outdoor venue",
+        "altitude": "1432 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1395"
+            },
+            {
+              "text": "15 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1396"
+            },
+            {
+              "text": "18 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1397"
+            },
+            {
+              "text": "19 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1400"
+            },
+            {
+              "text": "20 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1403"
+            },
+            {
+              "text": "12 – 13 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_7.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.565769,
+          45.393561
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Patinoire Olympique",
+          "Olympic Rink"
+        ],
+        "place": "Méribel",
+        "coordinates": "45.393561,6.565769",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1991",
+        "seating_capacity": "6420",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "altitude": "1435 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20604"
+            },
+            {
+              "text": "8 – 23 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_8.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.677778,
+          45.521667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Bobsleigh et Luge",
+          "Bobsleigh and Luge Track"
+        ],
+        "place": "La Plagne",
+        "coordinates": "45.521667,6.677778",
+        "coordinates_trust": "Definitely here",
+        "year": "1992",
+        "season": "Winter",
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "altitude": "1560 m",
+        "events": [
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/403"
+            },
+            {
+              "text": "15 – 16 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/410"
+            },
+            {
+              "text": "21 – 22 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/144"
+            },
+            {
+              "text": "9 – 10 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/151"
+            },
+            {
+              "text": "14 February 1992"
+            }
+          ],
+          [
+            {
+              "text": "1992 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/44"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/154"
+            },
+            {
+              "text": "11 – 12 February 1992"
+            }
+          ]
+        ],
+        "source_file": "venue_9.json"
+      }
+    }
+  ]
+}

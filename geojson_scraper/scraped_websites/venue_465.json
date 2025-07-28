@@ -1,0 +1,915 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Nippon Budokan (also known as Budokan)"
+    ],
+    "place": "Chiyoda, Tokyo",
+    "coordinates": "35.693333,139.75",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1964",
+        "season": "Summer"
+      },
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Judo",
+      "Karate",
+      "Kendo",
+      "Kyudo",
+      "Sumo"
+    ],
+    "opened": "1964",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Lightweight, Men",
+        "link": "https://www.olympedia.org/results/15000"
+      },
+      {
+        "text": "20 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Middleweight, Men",
+        "link": "https://www.olympedia.org/results/15046"
+      },
+      {
+        "text": "21 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/15091"
+      },
+      {
+        "text": "22 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Open Class, Men",
+        "link": "https://www.olympedia.org/results/15118"
+      },
+      {
+        "text": "23 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kyudo",
+        "link": "https://www.olympedia.org/sports/KYU"
+      },
+      {
+        "text": "Unknown Event, Men",
+        "link": "https://www.olympedia.org/results/900075"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Sumo",
+        "link": "https://www.olympedia.org/sports/SUM"
+      },
+      {
+        "text": "Unknown Event, Men",
+        "link": "https://www.olympedia.org/results/900076"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Embusen, Open",
+        "link": "https://www.olympedia.org/results/930008"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Embusen, Open",
+        "link": "https://www.olympedia.org/results/930009"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Embusen, Open",
+        "link": "https://www.olympedia.org/results/930010"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Embusen, Open",
+        "link": "https://www.olympedia.org/results/930011"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Embusen, Open",
+        "link": "https://www.olympedia.org/results/930012"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Renshu, Open",
+        "link": "https://www.olympedia.org/results/930013"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Renshu, Open",
+        "link": "https://www.olympedia.org/results/930014"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930015"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930016"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930017"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930018"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930019"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930020"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - Red-White, Open",
+        "link": "https://www.olympedia.org/results/930021"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930022"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930023"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930024"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930025"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930026"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930027"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930028"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930029"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Kendo",
+        "link": "https://www.olympedia.org/sports/KEN"
+      },
+      {
+        "text": "Shiai - East-West, Open",
+        "link": "https://www.olympedia.org/results/930030"
+      },
+      {
+        "text": "15 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Team, Mixed",
+        "link": "https://www.olympedia.org/results/18000780"
+      },
+      {
+        "text": "31 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Extra-Lightweight, Men",
+        "link": "https://www.olympedia.org/results/18000920"
+      },
+      {
+        "text": "24 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Lightweight, Men",
+        "link": "https://www.olympedia.org/results/18000962"
+      },
+      {
+        "text": "25 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Lightweight, Men",
+        "link": "https://www.olympedia.org/results/18001004"
+      },
+      {
+        "text": "26 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Middleweight, Men",
+        "link": "https://www.olympedia.org/results/18001046"
+      },
+      {
+        "text": "27 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Middleweight, Men",
+        "link": "https://www.olympedia.org/results/18001088"
+      },
+      {
+        "text": "28 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/18001130"
+      },
+      {
+        "text": "29 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Heavyweight, Men",
+        "link": "https://www.olympedia.org/results/18001172"
+      },
+      {
+        "text": "30 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Extra-Lightweight, Women",
+        "link": "https://www.olympedia.org/results/18001214"
+      },
+      {
+        "text": "24 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Lightweight, Women",
+        "link": "https://www.olympedia.org/results/18001256"
+      },
+      {
+        "text": "25 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Lightweight, Women",
+        "link": "https://www.olympedia.org/results/18001298"
+      },
+      {
+        "text": "26 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Middleweight, Women",
+        "link": "https://www.olympedia.org/results/18001340"
+      },
+      {
+        "text": "27 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Middleweight, Women",
+        "link": "https://www.olympedia.org/results/18001382"
+      },
+      {
+        "text": "28 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Half-Heavyweight, Women",
+        "link": "https://www.olympedia.org/results/18001424"
+      },
+      {
+        "text": "29 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Judo",
+        "link": "https://www.olympedia.org/sports/JUD"
+      },
+      {
+        "text": "Heavyweight, Women",
+        "link": "https://www.olympedia.org/results/18001466"
+      },
+      {
+        "text": "30 July 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kata, Men",
+        "link": "https://www.olympedia.org/results/18000100"
+      },
+      {
+        "text": "6 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kata, Women",
+        "link": "https://www.olympedia.org/results/18000115"
+      },
+      {
+        "text": "6 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, ≤67 kg, Men",
+        "link": "https://www.olympedia.org/results/18000130"
+      },
+      {
+        "text": "5 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, ≤75 kg, Men",
+        "link": "https://www.olympedia.org/results/18000159"
+      },
+      {
+        "text": "6 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, >75 kg, Men",
+        "link": "https://www.olympedia.org/results/18000188"
+      },
+      {
+        "text": "7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, ≤55 kg, Women",
+        "link": "https://www.olympedia.org/results/18000217"
+      },
+      {
+        "text": "5 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, ≤61 kg, Women",
+        "link": "https://www.olympedia.org/results/18000246"
+      },
+      {
+        "text": "6 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Karate",
+        "link": "https://www.olympedia.org/sports/KTE"
+      },
+      {
+        "text": "Kumite, >61 kg, Women",
+        "link": "https://www.olympedia.org/results/18000275"
+      },
+      {
+        "text": "7 August 2021"
+      }
+    ]
+  ]
+}

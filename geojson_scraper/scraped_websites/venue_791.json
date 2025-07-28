@@ -1,0 +1,94 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympiako Kentro Vouliagmenis",
+      "Vouliagmeni Olympic Centre"
+    ],
+    "place": "Vouliagmeni",
+    "coordinates": "37.817984,23.777314",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road",
+      "Triathlon"
+    ],
+    "opened": "2002",
+    "seating_capacity": "3600",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Individual Time Trial, Men",
+        "link": "https://www.olympedia.org/results/155136"
+      },
+      {
+        "text": "18 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Individual Time Trial, Women",
+        "link": "https://www.olympedia.org/results/155176"
+      },
+      {
+        "text": "18 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Men",
+        "link": "https://www.olympedia.org/results/21173"
+      },
+      {
+        "text": "26 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Triathlon",
+        "link": "https://www.olympedia.org/sports/TRI"
+      },
+      {
+        "text": "Olympic Distance, Women",
+        "link": "https://www.olympedia.org/results/21178"
+      },
+      {
+        "text": "25 August 2004"
+      }
+    ]
+  ]
+}

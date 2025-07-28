@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Squaw Peak"
+    ],
+    "place": "Squaw Valley, California",
+    "coordinates": "39.193948,-120.247571",
+    "coordinates_trust": "Most likely here",
+    "year": "1960",
+    "season": "Winter",
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/36"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Downhill, Men",
+        "link": "https://www.olympedia.org/results/1214"
+      },
+      {
+        "text": "22 February 1960"
+      }
+    ]
+  ]
+}

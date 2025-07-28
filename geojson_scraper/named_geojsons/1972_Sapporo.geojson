@@ -1,0 +1,389 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.343056,
+          42.996389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Speed Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.996389,141.343056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating",
+          "Opening ceremony"
+        ],
+        "opened": "1972",
+        "seating_capacity": "48000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "71 m",
+        "source_file": "venue_105.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.347344,
+          42.999444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.999444,141.347344",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Closing ceremony"
+        ],
+        "opened": "1972",
+        "seating_capacity": "2700",
+        "type": "indoor venue",
+        "source_file": "venue_106.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.357393,
+          43.089312
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mikaho Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.089312,141.357393",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating"
+        ],
+        "opened": "1972",
+        "seating_capacity": "1998",
+        "type": "indoor venue",
+        "source_file": "venue_107.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.412486,
+          43.027472
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tsukisaumu Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.027472,141.412486",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1972",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "source_file": "venue_108.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.386189,
+          42.993077
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Cross Country Events Site"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.993077,141.386189",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_109.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.370611,
+          42.972148
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Biathlon Site"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.972148,141.370611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_110.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.29,
+          43.051325
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Okurayama Ski Jump Stadium"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.051325,141.29",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ski Jumping"
+        ],
+        "opened": "1972",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_111.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.295509,
+          43.038964
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Miyanomori Jump Hill"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.038964,141.295509",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_112.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.264667,
+          42.779206
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Eniwa"
+        ],
+        "place": "Mount Eniwa",
+        "coordinates": "42.779206,141.264667",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_113.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.201235,
+          43.085721
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.085721,141.201235",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_114.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.204244,
+          43.103732
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine Luge Course"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.103732,141.204244",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Luge"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_115.json",
+        "Olympics": "1972 Sapporo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.210939,
+          43.100681
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine Bobsleigh Course"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.100681,141.210939",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_116.json",
+        "Olympics": "1972 Sapporo"
+      }
+    }
+  ]
+}

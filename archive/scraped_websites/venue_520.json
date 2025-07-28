@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Donauhalle",
+      "Donau Hall"
+    ],
+    "place": "Ulm",
+    "coordinates": "48.412660,10.012000",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34518"
+      },
+      {
+        "text": "30 August – 10 September 1972"
+      }
+    ]
+  ]
+}

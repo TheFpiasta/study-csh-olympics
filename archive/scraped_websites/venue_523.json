@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "ESV-Stadion",
+      "ESV Stadium",
+      "Tuja-Stadion (2008-Present)"
+    ],
+    "place": "Ingolstadt",
+    "coordinates": "48.744294,11.442754",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1932",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33855"
+      },
+      {
+        "text": "27 August – 10 September 1972"
+      }
+    ]
+  ]
+}

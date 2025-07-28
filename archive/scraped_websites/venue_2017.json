@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Tampines Bike Park"
+    ],
+    "place": "Singapore",
+    "coordinates": "1.362005,103.942959",
+    "coordinates_trust": "Definitely here",
+    "year": "2010",
+    "season": "Summer",
+    "sports": [
+      "Cycling Road"
+    ],
+    "opened": "2006",
+    "demolished": "2014",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Combined Team, Mixed Youth",
+        "link": "https://www.olympedia.org/results/4003490"
+      },
+      {
+        "text": "17 – 22 August 2010"
+      }
+    ]
+  ]
+}

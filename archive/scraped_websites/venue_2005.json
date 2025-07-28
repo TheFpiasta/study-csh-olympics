@@ -1,0 +1,90 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Oslo Vinterpark",
+      "Oslo Winter Park",
+      "Tryvann Vinterpark"
+    ],
+    "place": "Oslo",
+    "coordinates": "59.989326,10.668052",
+    "coordinates_trust": "Definitely here",
+    "year": "2016",
+    "season": "Winter",
+    "sports": [
+      "Freestyle Skiing",
+      "Snowboarding"
+    ],
+    "opened": "1938",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Winter Youth Olympics",
+        "link": "https://www.olympedia.org/editions/68"
+      },
+      {
+        "text": "Freestyle Skiing",
+        "link": "https://www.olympedia.org/sports/FRS"
+      },
+      {
+        "text": "Halfpipe, Girls",
+        "link": "https://www.olympedia.org/results/9002766"
+      },
+      {
+        "text": "14 February 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Winter Youth Olympics",
+        "link": "https://www.olympedia.org/editions/68"
+      },
+      {
+        "text": "Freestyle Skiing",
+        "link": "https://www.olympedia.org/sports/FRS"
+      },
+      {
+        "text": "Halfpipe, Boys",
+        "link": "https://www.olympedia.org/results/9002770"
+      },
+      {
+        "text": "14 February 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Winter Youth Olympics",
+        "link": "https://www.olympedia.org/editions/68"
+      },
+      {
+        "text": "Snowboarding",
+        "link": "https://www.olympedia.org/sports/SBD"
+      },
+      {
+        "text": "Halfpipe, Girls",
+        "link": "https://www.olympedia.org/results/9002942"
+      },
+      {
+        "text": "14 February 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Winter Youth Olympics",
+        "link": "https://www.olympedia.org/editions/68"
+      },
+      {
+        "text": "Snowboarding",
+        "link": "https://www.olympedia.org/sports/SBD"
+      },
+      {
+        "text": "Halfpipe, Boys",
+        "link": "https://www.olympedia.org/results/9002948"
+      },
+      {
+        "text": "14 February 2016"
+      }
+    ]
+  ]
+}

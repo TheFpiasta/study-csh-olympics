@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio de Béisbol de Llobregat (also known as Estadi de Beisbol de Llobregat)",
+      "Llobregat Baseball Stadium",
+      "Campo Municipal de Futbol de la Feixa Llarga (?-Present)"
+    ],
+    "place": "Hospitalet de Llobregat",
+    "coordinates": "41.347099,2.101701",
+    "coordinates_trust": "Definitely here",
+    "year": "1992",
+    "season": "Summer",
+    "sports": [
+      "Baseball"
+    ],
+    "notes": "Restructured as a football stadium.",
+    "opened": "1991",
+    "seating_capacity": "7000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Baseball",
+        "link": "https://www.olympedia.org/sports/BBL"
+      },
+      {
+        "text": "Baseball, Men",
+        "link": "https://www.olympedia.org/results/30700"
+      },
+      {
+        "text": "26 July –  5 August 1992"
+      }
+    ]
+  ]
+}

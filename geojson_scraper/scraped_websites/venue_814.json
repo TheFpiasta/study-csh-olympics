@@ -1,0 +1,98 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Beijing Aolinpike Lanqiuguan",
+      "Olympic Basketball Gymnasium"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.910002,116.274667",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2008",
+        "season": "Summer"
+      },
+      {
+        "year": "2022",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Basketball",
+      "Ice Hockey"
+    ],
+    "opened": "2007",
+    "seating_capacity": "18000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/257904"
+      },
+      {
+        "text": "10 – 24 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/257949"
+      },
+      {
+        "text": "9 – 23 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2022 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/62"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/19020200"
+      },
+      {
+        "text": "9 – 20 February 2022"
+      }
+    ],
+    [
+      {
+        "text": "2022 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/62"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/19020240"
+      },
+      {
+        "text": "3 – 17 February 2022"
+      }
+    ]
+  ]
+}

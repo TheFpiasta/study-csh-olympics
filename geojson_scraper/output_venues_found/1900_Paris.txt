@@ -1,0 +1,29 @@
+[Part Name Match] JSON Venue 4 'Cercle de la Voile de Paris' matched with GeoJSON Venue 10: Cercle de la Voile de Paris
+[Part Name Match] JSON Venue 10 'Palais de la Société des Régates du Havre' matched with GeoJSON Venue 11: Palais de la Société des Régates du Havre
+[Part Name Match] JSON Venue 12 'Place de Breteuil' matched with GeoJSON Venue 3: Place de Breteuil
+[Use/Sport + Name Match] JSON Venue 13 - Grande Salle des Fêtes de l'Exposition, Champ de Mars ↔ GeoJSON Venue 4 - La Grande Salle des Fêtes de l'Exposition, Champs de Mars | UseSim: 1.00, NameSim: 0.96, Score: 0.99 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Stand de l'île Séguin ↔ GeoJSON Venue 14 - Le Stand de l'Île Séguin | UseSim: 1.00, NameSim: 0.93, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Pelouse de Bagatelle, Bois de Boulogne ↔ GeoJSON Venue 8 - Polo Club de Paris, Bagatelle, Bois de Boulogne | UseSim: 1.00, NameSim: 0.80, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Cercle du Bois de Boulogne, Pelouse de Madrid ↔ GeoJSON Venue 2 - Cercle du Bois de Boulogne | UseSim: 1.00, NameSim: 0.74, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Camp militaire de Satory ↔ GeoJSON Venue 12 - Camp de Satory | UseSim: 1.00, NameSim: 0.74, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Courts de la Société des Sports de l'île de Puteaux / Cercle de Puteaux ↔ GeoJSON Venue 13 - Société des sports de l'île de Puteaux | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Terrain de la Société des Sports de Compiègne ↔ GeoJSON Venue 6 - Golf de Compiègne | UseSim: 1.00, NameSim: 0.45, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 1 - Seine River ↔ GeoJSON Venue 9 - Seine, Pont de Courbevoie – Pont d'Asnières | UseSim: 0.89, NameSim: 0.40, Score: 0.74 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Fronton de Neuilly / Terrain de la Société du Jeu de pelote ↔ GeoJSON Venue 7 - Rue Borghese | UseSim: 1.00, NameSim: 0.09, Score: 0.73 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 3 - Vélodrome de Vincennes ↔ GeoJSON Venue 1 - Vélodrome Municipal de Vincennes (also known as La Cipale) | UseSim: 0.78, NameSim: 0.56, Score: 0.71 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Terrasse du Jeu de Paume, Jardin des Tuileries ↔ GeoJSON Venue 5 - Jardin des Tuileries | UseSim: 0.67, NameSim: 0.62, Score: 0.65 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Croix-Catelan ↔ GeoJSON Venue 0 - Croix Catelan, Bois de Boulogne | UseSim: 0.67, NameSim: 0.43, Score: 0.60 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 15] 'Bois de Vincennes' has no matching JSON venue.
+[GeoJSON Venue 16] 'Terrain de la Société de longue paume de Paris, Jardin du Luxembourg' has no matching JSON venue.
+[GeoJSON Venue 17] 'Bassin de la Seine' has no matching JSON venue.
+[GeoJSON Venue 18] 'Marne' has no matching JSON venue.
+[GeoJSON Venue 19] 'Lac Daumesnil' has no matching JSON venue.
+[GeoJSON Venue 20] '' has no matching JSON venue.
+[GeoJSON Venue 21] 'L'Aérostation, Parc de Vincennes' has no matching JSON venue.
+[GeoJSON Venue 22] 'Boulodrome de Saint-Mandé, Parc de Vincennes' has no matching JSON venue.
+[GeoJSON Venue 23] 'Champ de Courses, Bois de Vincennes' has no matching JSON venue.
+[GeoJSON Venue 24] 'Île des Cygnes' has no matching JSON venue.

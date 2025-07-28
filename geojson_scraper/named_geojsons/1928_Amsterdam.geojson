@@ -1,0 +1,501 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          },
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_247.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.879766,
+          52.357996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stedelijk Museum",
+          "Municipal Museum"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.357996,4.879766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_284.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854192,
+          52.343417
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion",
+          "Olympic Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.343417,4.854192",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Track",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Velodrome track around perimeter of running track.",
+        "opened": "1928",
+        "type": "outdoor venue",
+        "dimensions": "400 m (ATH) / 500 m (CYC)",
+        "surface": "Loose cinders (ATH) / Concrete (CYC)",
+        "altitude": "3 m",
+        "additional_details": "28.4° curves, 10.1° straights (CYC)",
+        "source_file": "venue_285.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856484988,
+          52.3430987
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Krachtsportgebouw",
+          "Power Sports Building"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.3430987,4.856484988",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "seating_capacity": "2840",
+        "type": "outdoor venue",
+        "source_file": "venue_286.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.827777,
+          52.4197222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hembrug",
+          "Hem Bridge"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.4197222,4.827777",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_287.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854737,
+          52.347277
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion",
+          "Swimming Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.347277,4.854737",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "demolished": "1929",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_288.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.188332,
+          52.215079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sportpark",
+          "Sports Park"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.215079,5.188332",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_289.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.216365,
+          52.190169
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Maartensdijkse Bos",
+          "Maartensdijk Forest"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.190169,5.216365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_290.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856046974,
+          52.34429474
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schermzaal",
+          "Fencing Hall"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34429474,4.856046974",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_291.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85994,
+          52.344618
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Amsterdamsche Stadion (also known as Oude Stadion, Harry Eltestadion)",
+          "Amsterdam Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.344618,4.85994",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Hockey"
+        ],
+        "opened": "1914",
+        "demolished": "1929",
+        "type": "outdoor venue",
+        "source_file": "venue_292.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.853527,
+          52.34532
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cricketveld",
+          "Cricket Field"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34532,4.853527",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Kaatsen"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_293.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.964672,
+          52.372668
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietterrein",
+          "Shooting Terrain"
+        ],
+        "place": "Zeeburg, Amsterdam",
+        "coordinates": "52.372668,4.964672",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_294.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.400113525,
+          52.15378781
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rijschool, Willem III-kazerne",
+          "Riding School, Willem III Barracks"
+        ],
+        "place": "Amersfoort",
+        "coordinates": "52.15378781,5.400113525",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_295.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.789510024,
+          52.34222701
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ringvaart"
+        ],
+        "place": "Sloten",
+        "coordinates": "52.34222701,4.789510024",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_296.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.11445846,
+          52.38691711
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Zuiderzee",
+        "coordinates": "52.38691711,5.11445846",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_297.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    }
+  ]
+}

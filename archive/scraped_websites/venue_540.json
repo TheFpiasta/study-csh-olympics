@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Rosenau-Stadion",
+      "Rosenau Stadium"
+    ],
+    "place": "Augsburg",
+    "coordinates": "48.355322,10.875982",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1951",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33855"
+      },
+      {
+        "text": "27 August – 10 September 1972"
+      }
+    ]
+  ]
+}

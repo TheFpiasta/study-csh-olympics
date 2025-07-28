@@ -1,0 +1,69 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Southampton Water"
+    ],
+    "place": "Southampton",
+    "coordinates": "50.856111,-1.3475",
+    "coordinates_trust": "Near here",
+    "year": "1908",
+    "season": "Summer",
+    "sports": [
+      "Motorboating"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Motorboating",
+        "link": "https://www.olympedia.org/sports/MBO"
+      },
+      {
+        "text": "A-Class (Open), Open",
+        "link": "https://www.olympedia.org/results/40200"
+      },
+      {
+        "text": "28 – 29 August 1908"
+      }
+    ],
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Motorboating",
+        "link": "https://www.olympedia.org/sports/MBO"
+      },
+      {
+        "text": "B-Class (Under 60 feet), Open",
+        "link": "https://www.olympedia.org/results/40203"
+      },
+      {
+        "text": "28 August 1908"
+      }
+    ],
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Motorboating",
+        "link": "https://www.olympedia.org/sports/MBO"
+      },
+      {
+        "text": "C-Class, Open",
+        "link": "https://www.olympedia.org/results/40204"
+      },
+      {
+        "text": "29 August 1908"
+      }
+    ]
+  ]
+}

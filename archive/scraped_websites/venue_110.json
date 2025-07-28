@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Makomanai Biathlon Site"
+    ],
+    "place": "Sapporo",
+    "coordinates": "42.972148,141.370611",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Winter",
+    "sports": [
+      "Biathlon"
+    ],
+    "opened": "1972",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Biathlon",
+        "link": "https://www.olympedia.org/sports/BTH"
+      },
+      {
+        "text": "20 kilometres, Men",
+        "link": "https://www.olympedia.org/results/1522"
+      },
+      {
+        "text": "9 February 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Biathlon",
+        "link": "https://www.olympedia.org/sports/BTH"
+      },
+      {
+        "text": "4 × 7.5 kilometres Relay, Men",
+        "link": "https://www.olympedia.org/results/1523"
+      },
+      {
+        "text": "11 February 1972"
+      }
+    ]
+  ]
+}

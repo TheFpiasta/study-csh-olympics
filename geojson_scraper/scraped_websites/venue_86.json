@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Big Hat (also known as Wakasato Multi-Purpose Sports Arena)"
+    ],
+    "place": "Nagano",
+    "coordinates": "36.629722,138.195833",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1998",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1996",
+    "seating_capacity": "10140",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20713"
+      },
+      {
+        "text": "7 – 22 February 1998"
+      }
+    ],
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/20757"
+      },
+      {
+        "text": "8 – 17 February 1998"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Riverbank Arena, Olympic Park"
+    ],
+    "place": "Stratford, London",
+    "coordinates": "51.549444,-0.020556",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2012",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "2012",
+    "seating_capacity": "15000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/315000"
+      },
+      {
+        "text": "30 July – 11 August 2012"
+      }
+    ],
+    [
+      {
+        "text": "2012 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/54"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/315045"
+      },
+      {
+        "text": "29 July – 10 August 2012"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Orange Bowl",
+      "Burdine Stadium (?-1959)"
+    ],
+    "place": "Miami, Florida",
+    "coordinates": "25.77805,-80.219808",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1937",
+    "demolished": "2008",
+    "seating_capacity": "72700",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34098"
+      },
+      {
+        "text": "20 July –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34139"
+      },
+      {
+        "text": "21 July –  1 August 1996"
+      }
+    ]
+  ]
+}

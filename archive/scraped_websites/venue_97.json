@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Marienlyst Stadion",
+      "Marienlyst Stadium"
+    ],
+    "place": "Drammen",
+    "coordinates": "59.734351,10.201465",
+    "coordinates_trust": "Definitely here",
+    "year": "1952",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1924",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1952 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/34"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20162"
+      },
+      {
+        "text": "15 – 25 February 1952"
+      }
+    ]
+  ]
+}

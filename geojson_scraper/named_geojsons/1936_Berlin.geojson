@@ -1,0 +1,828 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.281925,
+          52.513471
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ausstellungsgelände Halle VI, Kaiserdamm",
+          "Exhibition Area Hall VI, Kaiserdamm"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.513471,13.281925",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_312.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.412848,
+          52.515333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Berlin",
+        "coordinates": "52.515333,13.412848",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Aeronautics",
+          "Alpinism"
+        ],
+        "notes": "It is unknown where the prizes for aeronautics and alpinism where awarded.",
+        "type": "outdoor venue",
+        "source_file": "venue_313.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.239444,
+          52.514722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiastadion, Reichssportfeld",
+          "Olympic Stadium, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.514722,13.239444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Baseball",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Handball",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1936",
+        "seating_capacity": "110000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "66 m",
+        "source_file": "venue_314.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.245502,
+          52.51864
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tennisplätze, Reichssportfeld",
+          "Tennis Courts and Tennis Stadium, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.51864,13.245502",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Fencing"
+        ],
+        "opened": "1935",
+        "type": "outdoor venue",
+        "source_file": "venue_315.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.271004,
+          52.500052
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Deutschlandhalle",
+          "Germany Hall"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.500052,13.271004",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "notes": "Scheduled for demolition after 2011.",
+        "type": "indoor venue",
+        "source_file": "venue_316.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.592212,
+          52.411759
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Regattabahn",
+          "Regatta Course"
+        ],
+        "place": "Grünau, Berlin",
+        "coordinates": "52.411759,13.592212",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_317.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.276742,
+          52.500157
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Avus-Nordschleife",
+          "Avus North Curve"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.500157,13.276742",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "opened": "1921",
+        "demolished": "1999",
+        "type": "outdoor venue",
+        "source_file": "venue_318.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2737,
+          52.50451
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Radstadion",
+          "Olympic Cycling Stadium"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.50451,13.2737",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Wood",
+        "source_file": "venue_319.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.239071,
+          52.51634
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schwimmstadion, Reichssportfeld",
+          "Swimming Stadium, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.51634,13.239071",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1935",
+        "seating_capacity": "18500",
+        "type": "outdoor venue",
+        "source_file": "venue_320.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.234167,
+          52.515833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Maifeld, Reichssportfeld",
+          "May Field, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.515833,13.234167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Polo"
+        ],
+        "opened": "1936",
+        "seating_capacity": "250000",
+        "type": "outdoor venue",
+        "source_file": "venue_321.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.027511,
+          52.478546
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Truppenübungsplatz",
+          "Military Exercise Field"
+        ],
+        "place": "Döberitz, Brandenburg",
+        "coordinates": "52.478546,13.027511",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_322.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.24,
+          52.52
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sportforum, Turnhalle, Reichssportfeld",
+          "Sports Forum, Gymnastics Hall, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.52,13.24",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_323.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.242084,
+          52.5207951
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Haus des Sports, Kuppelsaal, Reichssportfeld",
+          "House of Sports, Cupola Hall, Imperial Sports Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.52079510,13.2420840",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_324.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.264167,
+          52.500833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mommsenstadion",
+          "Mommsen Stadium"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.500833,13.264167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1930",
+        "type": "outdoor venue",
+        "source_file": "venue_325.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.359444,
+          52.53
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Poststadion",
+          "Post Stadium"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.53,13.359444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1929",
+        "type": "outdoor venue",
+        "source_file": "venue_326.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.393333,
+          52.55
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hertha-BSC-Platz (also known as Plumpe)",
+          "Hertha BSC Field",
+          "Stadion am Gesundbrunnen"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.55,13.393333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1924",
+        "demolished": "1973",
+        "type": "outdoor venue",
+        "source_file": "venue_327.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.114956,
+          52.534651
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Flugplatz, Staaken",
+          "Airfield, Staaken"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.534651,13.114956",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Gliding"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_328.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.228889,
+          52.515556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dietrich-Eckart-Freilichtbühne, Reichssportfeld",
+          "Dietrich Eckart Open Air Theatre, Imperial Sports Field",
+          "Waldbühne (?-present)"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.515556,13.228889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics"
+        ],
+        "seating_capacity": "23000",
+        "type": "outdoor venue",
+        "source_file": "venue_329.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.376667,
+          52.533889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polizeistadion",
+          "Police Stadium",
+          "Walter-Ulbricht-Stadion (1950-1971), Stadion der Weltjugend (1971-1992)"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.533889,13.376667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "notes": "Currently the site of the headquarters of the German Secret Service.",
+        "demolished": "1992",
+        "type": "outdoor venue",
+        "source_file": "venue_330.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.30275,
+          52.483794
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "BSV-Platz",
+          "BSV Field"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.483794,13.30275",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "notes": "Destroyed in World War II, and the site used since then as allotment gardens. Replaced in 1951 by the adjacent Stadion Wilmersdorf.",
+        "demolished": "1951",
+        "type": "outdoor venue",
+        "source_file": "venue_331.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.244386,
+          52.516593
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hockeystadion",
+          "Hockey Stadium"
+        ],
+        "place": "Berlin",
+        "coordinates": "52.516593,13.244386",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_332.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.225227,
+          52.519276
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schießstände",
+          "Shooting Stands"
+        ],
+        "place": "Ruhleben, Berlin",
+        "coordinates": "52.519276,13.225227",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_333.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.126227,
+          52.409664
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Golfplatz",
+          "Golf Course"
+        ],
+        "place": "Wannsee, Berlin",
+        "coordinates": "52.409664,13.126227",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_334.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.202866,
+          54.432562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kieler Förde",
+          "Kiel Fjord"
+        ],
+        "place": "Kiel",
+        "coordinates": "54.432562,10.202866",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_335.json",
+        "Olympics": "1936 Berlin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.175013,
+          52.41499
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schießstände (Deutsche Versuchsanstalt für Handfeuerwaffen)",
+          "Shooting Stands (German Handgun Research Institute)",
+          "DEVA-Schießstand Wannsee (?-Present)"
+        ],
+        "place": "Wannsee",
+        "coordinates": "52.41499,13.175013",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_337.json",
+        "Olympics": "1936 Berlin"
+      }
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.343056,
+          42.996389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Speed Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.996389,141.343056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating",
+          "Opening ceremony"
+        ],
+        "opened": "1972",
+        "seating_capacity": "48000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "71 m",
+        "source_file": "venue_105.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The lower stands of this 17,324-seat venue – which is also located in Makomanai Park – sit below ground level, allowing the stadium to blend in with the park's natural landscape. The stadium has been in constant use since the Games – for skating in winter, and for athletics, tennis and futsal during the summer. Its gym is open all year round. The venue offers dancing, yoga and physical exercice classes for children and adults.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.347344,
+          42.999444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.999444,141.347344",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Closing ceremony"
+        ],
+        "opened": "1972",
+        "seating_capacity": "2700",
+        "type": "indoor venue",
+        "source_file": "venue_106.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Popular with the local community and visitors, the rink remains the centrepiece of Makomanai Park, which was the hub of the Games and then opened to the public as a place of recreation and leisure. As well as skating, the rink hosts other sports such as karate, handball, tennis, badminton, basketball, volleyball and rhythmic gymnastics. It is also a popular conference and concert venue, and welcomes PPE classes for school children. The arena has 6,024 permanent seats but can be expanded to a capacity of 10,770.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.357393,
+          43.089312
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mikaho Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.089312,141.357393",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating"
+        ],
+        "opened": "1972",
+        "seating_capacity": "1998",
+        "type": "indoor venue",
+        "source_file": "venue_107.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "After the Games, the venue was used briefly as a heated swimming pool in the summer months. It now operates as an ice rink in winter (for figure skating, recreational skating and curling) and as a gym in summer.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.412486,
+          43.027472
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tsukisaumu Indoor Skating Rink",
+          "Tsukisamu Indoor Skating Rink"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.027472,141.412486",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1972",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "source_file": "venue_108.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Used by the local community for gym classes and recreational skating, the venue is the home arena of Sapporo Ice Hockey Club, which plays in the J-ICE North League, the second tier of Japanese ice hockey.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.386189,
+          42.993077
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Cross Country Events Site",
+          "Makomanai Cross-Country Events Site"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.993077,141.386189",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "Cross-country skiing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_109.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The temporary infrastructure was dismantled after the Games, as planned, although the site is still used for recreational cross-country skiing.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.370611,
+          42.972148
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Makomanai Biathlon Site",
+          "Makomanai Biathlon Course"
+        ],
+        "place": "Sapporo",
+        "coordinates": "42.972148,141.370611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_110.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use (repurposed)",
+        "information": "As planned, the venue was converted after the 1972 Olympic Winter Games into a firing range and training centre for Japan's Ground Self-Defence Force.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.29,
+          43.051325
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Okurayama Ski Jump Stadium",
+          "Okurayama Ski Jump"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.051325,141.29",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ski Jumping"
+        ],
+        "opened": "1972",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_111.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Constructed in 1931, the venue was expanded for the 1972 Olympic Winter Games, with the original jump being moved forward to help negate crosswinds, and stands being built for 50,000 spectators. A new lift was installed in 1982; the hill was expanded to a 115 K-point jump in 1986; and further refurbishments were carried out in 1996 and 2018.\n\nA regular FIS Ski Jumping World Cup venue, Okurayama Ski Jump has hosted world and national championships and Continental Cup events, and it is also a training site. Popular with tourists, the hill's tower has an observation lounge offering panoramic views of Sapporo, the Ishikari Plain and Ishikari Bay.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.295509,
+          43.038964
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Miyanomori Jump Hill",
+          "Miyanomori Ski Jump"
+        ],
+        "place": "Sapporo",
+        "coordinates": "43.038964,141.295509",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_112.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This is located one kilometre south of Okurayama Ski Jump. The design of the hill's landing slope and run-off area take full advantage of the mountain's natural contours. In 1983, the hill was enlarged to become a 90m jump and is now equipped for year-round operation.\n\nThe venue hosts competitions on a regular basis, staging FIS Ski Jumping World Cup and Continental Cup events, national championships and the annual Sapporo Olympic Memorial Ski Jumping competition.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.264667,
+          42.779206
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Eniwa",
+          "Mt Eniwa Downhill Events Site"
+        ],
+        "place": "Mount Eniwa",
+        "coordinates": "42.779206,141.264667",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_113.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Some 20 hectares of forest were cut down to make way for the Mount Eniwa courses. After the 1972 Olympic Winter Games, the courses were removed, as intended, and the site successfully replanted.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.201235,
+          43.085721
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine",
+          "Mt Teine Slalom Events Site"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.085721,141.201235",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_114.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This was an existing resort, still regarded as one of Japan's best ski destinations and renowned for the quality of its snow. Mt Teine has hosted the Alpine skiing events at the Asian Winter Games on three occasions as well as the 1991 Winter Universiade. The resort has two ski zones – Highland and Olympia – and visitor facilities that include restaurants, ski schools and rental shops. There is also a terrain park for snowboarders and freestyle skiers. Mt Teine's Olympia Ski School was the first in the Hokkaido region to be accredited by the Ski Association of Japan, and has produced many excellent skiers.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.204244,
+          43.103732
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine Luge Course",
+          "Mt Teine Luge Course"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.103732,141.204244",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Luge"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_115.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "The tracks were underused after the Games, owing to the lack of an established sliding sports culture in Japan. The luge course was closed in 1985, the bobsleigh course in 2000, and the tracks were subsequently mostly dismantled. The start house of the bobsleigh course was left standing but has since been abandoned.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          141.210939,
+          43.100681
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mount Teine Bobsleigh Course",
+          "Mt Teine Bobsleigh Course"
+        ],
+        "place": "Mount Teine",
+        "coordinates": "43.100681,141.210939",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_116.json",
+        "Olympics": "1972 Sapporo",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "The tracks were underused after the Games, owing to the lack of an established sliding sports culture in Japan. The luge course was closed in 1985, the bobsleigh course in 2000, and the tracks were subsequently mostly dismantled. The start house of the bobsleigh course was left standing but has since been abandoned.",
+        "location": "inside"
+      }
+    }
+  ]
+}

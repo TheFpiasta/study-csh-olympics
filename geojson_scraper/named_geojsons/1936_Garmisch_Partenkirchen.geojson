@@ -1,0 +1,209 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117778,
+          47.481389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Skistadion",
+          "Olympic Ski Stadium"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.481389,11.117778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Ski Jumping",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1921",
+        "seating_capacity": "18831 (Opening) / 15505 (CCS) / 26632 (NCO) / 59374 (SKJ)",
+        "type": "outdoor venue",
+        "source_file": "venue_36.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.096213,
+          47.48884
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Kunsteisstadion",
+          "Olympic Artificial Ice Stadium"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.48884,11.096213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1934",
+        "seating_capacity": "8644",
+        "type": "outdoor venue",
+        "source_file": "venue_37.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081074,
+          47.478616
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Eissportplatz am Rießersee",
+          "Olympic Rink at Rießersee"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.478616,11.081074",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey",
+          "Ice Stock Sport",
+          "Speed Skating"
+        ],
+        "seating_capacity": "8430",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK)",
+        "altitude": "783 m",
+        "source_file": "venue_38.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07762,
+          47.475897
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Bobbahn",
+          "Olympic Bobsleigh Track"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.475897,11.07762",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1910",
+        "seating_capacity": "8970",
+        "type": "outdoor venue",
+        "source_file": "venue_39.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063383,
+          47.470562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kreuzeck-Gebiet",
+          "Kreuzeck Area"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.470562,11.063383",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "source_file": "venue_40.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117263,
+          47.480335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gudiberg"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.480335,11.117263",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "source_file": "venue_41.json",
+        "Olympics": "1936 Garmisch Partenkirchen"
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Shiokaze Park Stadium"
+    ],
+    "place": "1 Higashiyashio, Shinagawa City, Tokyo 135-0092, Japan",
+    "coordinates": "35.62379,139.76982",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2020",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Beach Volleyball"
+    ],
+    "seating_capacity": "12000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Men",
+        "link": "https://www.olympedia.org/results/19001710"
+      },
+      {
+        "text": "24 July –  7 August 2021"
+      }
+    ],
+    [
+      {
+        "text": "2020 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/61"
+      },
+      {
+        "text": "Beach Volleyball",
+        "link": "https://www.olympedia.org/sports/VBV"
+      },
+      {
+        "text": "Beach Volleyball, Women",
+        "link": "https://www.olympedia.org/results/19001777"
+      },
+      {
+        "text": "24 July –  6 August 2021"
+      }
+    ]
+  ]
+}

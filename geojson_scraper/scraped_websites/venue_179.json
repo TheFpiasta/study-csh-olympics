@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Vancouver Olympic Centre (also known as Vancouver Olympic/Paralympic Centre)"
+    ],
+    "place": "Vancouver",
+    "coordinates": "49.244444,-123.108056",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Curling"
+    ],
+    "opened": "2009",
+    "seating_capacity": "6000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/57"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/924070"
+      },
+      {
+        "text": "16 – 27 February 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/57"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/924126"
+      },
+      {
+        "text": "16 – 26 February 2010"
+      }
+    ]
+  ]
+}

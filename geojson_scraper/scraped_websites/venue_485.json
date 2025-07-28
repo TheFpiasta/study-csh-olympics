@@ -1,0 +1,638 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Alberca Olímpica Francisco Márquez",
+      "Francisco Márquez Olympic Swimming Pool"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.359167,-99.154722",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Diving",
+      "Modern Pentathlon",
+      "Swimming",
+      "Water Polo"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Men",
+        "link": "https://www.olympedia.org/results/54180"
+      },
+      {
+        "text": "19 – 20 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Men",
+        "link": "https://www.olympedia.org/results/54183"
+      },
+      {
+        "text": "24 – 26 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Women",
+        "link": "https://www.olympedia.org/results/54186"
+      },
+      {
+        "text": "17 – 18 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Women",
+        "link": "https://www.olympedia.org/results/54189"
+      },
+      {
+        "text": "22 – 23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50135"
+      },
+      {
+        "text": "13 – 17 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50144"
+      },
+      {
+        "text": "13 – 17 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5850"
+      },
+      {
+        "text": "18 – 19 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5866"
+      },
+      {
+        "text": "24 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5878"
+      },
+      {
+        "text": "22 – 23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "1,500 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5887"
+      },
+      {
+        "text": "25 – 26 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/5975"
+      },
+      {
+        "text": "17 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/5989"
+      },
+      {
+        "text": "21 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/5894"
+      },
+      {
+        "text": "21 – 22 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/5906"
+      },
+      {
+        "text": "25 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/5914"
+      },
+      {
+        "text": "18 – 19 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/5927"
+      },
+      {
+        "text": "21 – 22 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/5935"
+      },
+      {
+        "text": "20 – 21 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/5949"
+      },
+      {
+        "text": "24 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/5957"
+      },
+      {
+        "text": "19 – 20 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Men",
+        "link": "https://www.olympedia.org/results/5967"
+      },
+      {
+        "text": "22 – 23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Men",
+        "link": "https://www.olympedia.org/results/6007"
+      },
+      {
+        "text": "26 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/6025"
+      },
+      {
+        "text": "18 – 19 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/6040"
+      },
+      {
+        "text": "21 – 22 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/6049"
+      },
+      {
+        "text": "19 – 20 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "800 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/6058"
+      },
+      {
+        "text": "22 – 24 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/6140"
+      },
+      {
+        "text": "26 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/6066"
+      },
+      {
+        "text": "22 – 23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/6078"
+      },
+      {
+        "text": "25 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/6086"
+      },
+      {
+        "text": "18 – 19 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/6097"
+      },
+      {
+        "text": "22 – 23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/6105"
+      },
+      {
+        "text": "20 – 21 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/6116"
+      },
+      {
+        "text": "24 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/6123"
+      },
+      {
+        "text": "20 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Individual Medley, Women",
+        "link": "https://www.olympedia.org/results/6132"
+      },
+      {
+        "text": "24 – 25 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Women",
+        "link": "https://www.olympedia.org/results/6158"
+      },
+      {
+        "text": "17 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38432"
+      },
+      {
+        "text": "14 – 26 October 1968"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,23 @@
+[Use/Sport + Name Match] JSON Venue 1 - Olympic Oval (Anneau de vitesse) ↔ GeoJSON Venue 5 - Anneau de Vitesse | UseSim: 1.00, NameSim: 0.72, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Les Ménuires - Slalom Stadium (Stade de Slalom) ↔ GeoJSON Venue 8 - Stade de Slalom | UseSim: 1.00, NameSim: 0.52, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - La Plagne - Olympic Bobsleigh and Luge Track (Piste Olympique de bobsleigh et de luge) ↔ GeoJSON Venue 11 - Piste de Bobsleigh et Luge | UseSim: 1.00, NameSim: 0.48, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Méribel - La Chaudanne Olympic Ice Rink (Patinoire Olympique "La Chaudanne" Méribel) ↔ GeoJSON Venue 10 - Patinoire Olympique | UseSim: 1.00, NameSim: 0.39, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Olympic Ice Hall (Halle Olympique) ↔ GeoJSON Venue 0 - La Halle de Glace | UseSim: 1.00, NameSim: 0.37, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Méribel - Massif du Roc de Fer or Stade du Corbey ↔ GeoJSON Venue 4 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Val d'Isère - Massif de Bellevarde ↔ GeoJSON Venue 9 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 11 - Ski Jumping Stadium (Stade de saut) ↔ GeoJSON Venue 7 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 2] 'Olympic Stadium (Théâtre des Cérémonies)' has no matching GeoJSON venue.
+[JSON Venue 6] 'Les Saisies - Olympic Nordic Skiing Stadium (Stade Olympique de ski nordique)' has no matching GeoJSON venue.
+[JSON Venue 7] 'Olympic Village (Village Olympique)' has no matching GeoJSON venue.
+[JSON Venue 10] 'Courchevel - Cross-Country Stadium (Stade de ski de fond)' has no matching GeoJSON venue.
+[JSON Venue 12] 'Les Arcs - Speed Skiing Slope (Piste de Ski de Vitesse des Arcs)' has no matching GeoJSON venue.
+[JSON Venue 13] 'Tignes - Freestyle Skiing Stadium or Stade de Lognan (Stade de ski artistique et acrobatique)' has no matching GeoJSON venue.
+[JSON Venue 14] 'Pralognan-la-Vanoise - Ice Rink (Patinoire de Pralognan-la-Vanoise)' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 1] 'La Patinoire' has no matching JSON venue.
+[GeoJSON Venue 2] '' has no matching JSON venue.
+[GeoJSON Venue 3] '' has no matching JSON venue.
+[GeoJSON Venue 6] 'Arc 2000' has no matching JSON venue.

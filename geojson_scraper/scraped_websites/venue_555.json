@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circuit Mont-Royal",
+      "Mount Royal Circuit"
+    ],
+    "place": "Montréal, Québec",
+    "coordinates": "45.508428,-73.614171",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1976",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1976 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/19"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/154368"
+      },
+      {
+        "text": "26 July 1976"
+      }
+    ]
+  ]
+}

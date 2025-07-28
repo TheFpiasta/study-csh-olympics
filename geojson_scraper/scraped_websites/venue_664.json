@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jam-sil Su-yeong-jang, Seoul Sports Complex",
+      "Jamsil Indoor Swimming Pool, Seoul Sports Complex"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.514444,127.076111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Water Polo"
+    ],
+    "opened": "1980",
+    "seating_capacity": "8000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38727"
+      },
+      {
+        "text": "21 September –  1 October 1988"
+      }
+    ]
+  ]
+}

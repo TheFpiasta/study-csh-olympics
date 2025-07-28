@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dvorets sporta, Universalny sportivny kompleks CSKA",
+      "Sports Palace, CSKA Sports Complex",
+      "Universalny sportivny komplex CSKA imeni A. Y. Gomelskogo (2005-Present)"
+    ],
+    "place": "Moskva",
+    "coordinates": "55.789231,37.542633",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1980",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1970",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32497"
+      },
+      {
+        "text": "20 – 30 July 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/32549"
+      },
+      {
+        "text": "20 – 30 July 1980"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.87554,
+          45.126563
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Recoin"
+        ],
+        "place": "Chamrousse",
+        "coordinates": "45.126563,5.87554",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_42.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.887894,
+          45.140805
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Casserousse",
+          "Chamrousse"
+        ],
+        "place": "Chamrousse",
+        "coordinates": "45.140805,5.887894",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_43.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The resort was remodelled for the Games, with new ski slopes created and six new chairlifts installed. Its development has continued since then, thanks to the Grenoble to Chamrousse 2030 project, and it now has 41 runs spread over three different levels, from Chamrousse 1650 to Chamrousse 1750. Catering for families and skiers of all abilities, it attracts tourists all year round and hosts FIS-ranking events and the Stars of Chamrousse, an Alpine ski race for juniors.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.540661,
+          45.173771
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Autrans",
+        "coordinates": "45.173771,5.540661",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_44.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.54705,
+          45.170231
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "",
+          "Tremplin du Claret"
+        ],
+        "place": "Autrans",
+        "coordinates": "45.170231,5.54705",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1967",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "source_file": "venue_45.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Although the venue has not been used for a major competition since a Nordic Combined World Cup event in 1987, it has been expanded, with the creation of two junior hills. All three hills are used today for junior training and competitions, and for beginners' ski jumping classes laid on by the local ski club.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.633505,
+          45.164476
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "",
+          "Tremplin de saut à ski de Saint Nizier/Tremplin du Dauphiné"
+        ],
+        "place": "Saint-Nizier-du-Moucherotte",
+        "coordinates": "45.164476,5.633505",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ski Jumping"
+        ],
+        "opened": "1967",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_46.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "Not In use",
+        "information": "The venue was used for training and competitions until the 1990s, hosting FIS Ski Jumping World Cup events in 1980 and 1981. Strong winds made safety an issue, especially with athletes jumping ever higher and further. When the FIS introduced new regulations in 1990, the hill was closed and subsequently abandoned. It is now in a state of disrepair. Since 2018, the landing area has been used to host an annual multi-sports festival that brings together 5,000 people for running, climbing and mountain bike events.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.550241,
+          45.05605
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Luge",
+          "Luge Track"
+        ],
+        "place": "Villard-de-Lans",
+        "coordinates": "45.05605,5.550241",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Luge"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1000 m",
+        "source_file": "venue_47.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "In use (limited)",
+        "information": "The venue staged only a few international events after the Games and was later used for local competitions and youth training. Abandoned in 1994, the site was bought four years later by a French Olympic luger, who converted it into a leisure park offering family and recreational activities. The last 400m of the track are used for luging in the summer months.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.073009,
+          45.105478
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Bobsleigh",
+          "Bobsleigh Track",
+          "Piste de Bobsled"
+        ],
+        "place": "L'Alpe-d'Huez",
+        "coordinates": "45.105478,6.073009",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1967",
+        "type": "outdoor venue",
+        "altitude": "1890 m",
+        "source_file": "venue_48.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "This artificial track was built with natural ice at an altitude of 2,000 metres to make the ice easier to maintain. It was exposed to sunlight during the day, however. Proving too costly to maintain, the track was abandoned shortly after the Games and dismantled in the 1990s. All that remains of the facility is the starting house and finish-line house, which have been converted into a restaurant and an equestrian centre respectively.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.737312,
+          45.184311
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "L'Anneau de Vitesse",
+          "Speed Skating Rink",
+          "Anneau de Vitesse de Grenoble"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.184311,5.737312",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1967",
+        "seating_capacity": "2500",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "220 m",
+        "source_file": "venue_49.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.736316,
+          45.183202
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Patinoire Municipale",
+          "Municipal Rink"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.183202,5.736316",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1963",
+        "seating_capacity": "2700",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_50.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Built in 1963, it was initially the home of the city's ice hockey club but had its ice rink removed in 2001. Now called Halle Clémenceau, it is a gymnastics hall used by schools and local clubs. It also has volleyball, fencing and handball facilities.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.740725,
+          45.18573
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade de Glace",
+          "Ice Stadium"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.18573,5.740725",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Closing ceremony"
+        ],
+        "opened": "1967",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_51.json",
+        "Olympics": "1968 Grenoble",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Today called Palais des Sports - Pierre Mendès France, the 12,000-seat venue hosted several major sporting events in the years after the Olympic Winter Games, including the 1972 IAAF European Athletics Indoor Championships. Now a popular concert venue, it has staged the Six Jours de Grenoble track cycling event since 1971, the Festival International du Cirque since 2002, and the annual Supercross motorcycling competition since the 1990s.",
+        "location": "inside the city"
+      }
+    }
+  ]
+}

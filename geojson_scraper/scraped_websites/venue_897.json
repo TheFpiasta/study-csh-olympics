@@ -1,0 +1,61 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Campo Olímpico de Golfe, Reserva de Marapendi",
+      "Olympic Golf Course, Marapendi Natural Reserve"
+    ],
+    "place": "Barra da Tijuca, Rio de Janeiro",
+    "coordinates": "-23.006052,-43.4082337",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Golf"
+    ],
+    "opened": "2015",
+    "seating_capacity": "20000",
+    "type": "outdoor venue",
+    "dimensions": "6522 m (men), 5944 m (women)",
+    "additional_details": "18 holes, par 71"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/351030"
+      },
+      {
+        "text": "11 – 14 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Golf",
+        "link": "https://www.olympedia.org/sports/GLF"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/351037"
+      },
+      {
+        "text": "17 – 20 August 2016"
+      }
+    ]
+  ]
+}

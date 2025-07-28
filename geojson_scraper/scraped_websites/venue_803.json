@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympiako Kentro Khokei, Olympiako Syngrotima Ellenikou",
+      "Olympic Hockey Centre, Helleniko Olympic Complex"
+    ],
+    "place": "Hellinikon",
+    "coordinates": "37.899566,23.724886",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "notes": "Two pitches.",
+    "opened": "2004",
+    "seating_capacity": "7300 (Pitch 1) / 2100 (Pitch 2)",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/36438"
+      },
+      {
+        "text": "15 – 27 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/36488"
+      },
+      {
+        "text": "14 – 26 August 2004"
+      }
+    ]
+  ]
+}

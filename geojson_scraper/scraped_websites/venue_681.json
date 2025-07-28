@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Club Hípico El Montanyà (also known as Club Hípic El Montayá)",
+      "El Montanyà Equestrian Club"
+    ],
+    "place": "Montanyà",
+    "coordinates": "41.819104,2.279894",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Eventing"
+    ],
+    "opened": "1991",
+    "seating_capacity": "3400",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Open",
+        "link": "https://www.olympedia.org/results/185395"
+      },
+      {
+        "text": "28 – 30 July 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Open",
+        "link": "https://www.olympedia.org/results/185400"
+      },
+      {
+        "text": "28 – 30 July 1992"
+      }
+    ]
+  ]
+}

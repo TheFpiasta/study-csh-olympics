@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Aquático de Deodoro, Parque Olímpico de Deodoro",
+      "Deodoro Aquatics Centre, Deodoro Olympic Park"
+    ],
+    "place": "Deodoro, Rio de Janeiro",
+    "coordinates": "-22.8617232,-43.4038872",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2016",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "opened": "2007",
+    "seating_capacity": "2000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/351850"
+      },
+      {
+        "text": "18 – 20 August 2016"
+      }
+    ],
+    [
+      {
+        "text": "2016 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/59"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/352522"
+      },
+      {
+        "text": "18 – 19 August 2016"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,1101 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.867536,
+          1.286258
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Marina Reservoir"
+        ],
+        "place": "Singapore",
+        "coordinates": "1.286258,103.867536",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          },
+          {
+            "year": "2010",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2008",
+        "seating_capacity": "1000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_2009.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.192106,
+          19.331928
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Olímpico Universitario",
+          "University Olympic Stadium"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.331928,-99.192106",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "2292 m",
+        "source_file": "venue_479.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.099722,
+          19.405278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Juan Escutia Palacio de los Deportes, Ciudad Deportiva Magdalena Mixhuca",
+          "Juan Escutia Palace of Sports, Magdalena Mixhuca Sports City",
+          "Palacio de los Deportes (?-Present)"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.405278,-99.099722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "source_file": "venue_480.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.151944,
+          19.424722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena México",
+          "Mexico Arena",
+          "Arena Modelo (1910s-1950s)"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.424722,-99.151944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1956",
+        "type": "indoor venue",
+        "source_file": "venue_481.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.10345,
+          19.291403
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista Olímpico Virgilio Uribe",
+          "Virgilio Uribe Olympic Course"
+        ],
+        "place": "Canal de Cuemanco, Xochimilco",
+        "coordinates": "19.291403,-99.10345",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_482.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.233333,
+          19.483333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuito Satélite",
+          "Satellite Course"
+        ],
+        "place": "Ciudad Satélite, Ciudad de Mexico",
+        "coordinates": "19.483333,-99.233333",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_483.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.103594,
+          19.409708
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velódromo Olímpico Agustín Melgar, Ciudad Deportiva Magdalena Mixhuca",
+          "Agustín Melgar Olympic Velodrome, Magdalena Mixhuca Sports City"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.409708,-99.103594",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1968",
+        "type": "outdoor venue",
+        "dimensions": "333⅓ m",
+        "surface": "Wood",
+        "additional_details": "48° curves, 9° straights",
+        "source_file": "venue_484.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.154722,
+          19.359167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Alberca Olímpica Francisco Márquez",
+          "Francisco Márquez Olympic Swimming Pool"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.359167,-99.154722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_485.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.132785,
+          19.161789
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Club de Golf Avándaro",
+          "Avarando Golf Club"
+        ],
+        "place": "Avándaro, Valle de Bravo",
+        "coordinates": "19.161789,-100.132785",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_486.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.197488,
+          19.424832
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo Marte, Bosque de Chapultepec",
+          "Field of Mars, Chapultepec Park"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.424832,-99.197488",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Jumping"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_487.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.091688,
+          19.407643
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sala de Armas Fernando Montes de Oca, Ciudad Deportiva Magdalena Mixhuca",
+          "Fernando Montes de Oca Fencing Hall, Magdalena Mixhuca Sports City"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.407643,-99.091688",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1968",
+        "type": "indoor venue",
+        "source_file": "venue_488.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.150442,
+          19.302911
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Azteca (also known as Coloso de Santa Úrsula)",
+          "Aztec Stadium"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.302911,-99.150442",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1966",
+        "type": "outdoor venue",
+        "source_file": "venue_489.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.328147,
+          20.705008
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Jalisco",
+          "Jalisco Stadium"
+        ],
+        "place": "Guadalajara",
+        "coordinates": "20.705008,-103.328147",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_490.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.164444,
+          19.078056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Cuauhtémoc",
+          "Cuauhtémoc Stadium"
+        ],
+        "place": "Puebla",
+        "coordinates": "19.078056,-98.164444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1968",
+        "type": "outdoor venue",
+        "source_file": "venue_491.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.657744,
+          21.115544
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio León (also known as Estadio Nou Camp)",
+          "León Stadium"
+        ],
+        "place": "León",
+        "coordinates": "21.115544,-101.657744",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1967",
+        "type": "outdoor venue",
+        "source_file": "venue_492.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.194917,
+          19.424722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Auditorio Nacional",
+          "National Auditorium",
+          "Auditorio Municipal (?-?)"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.424722,-99.194917",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics"
+        ],
+        "opened": "1952",
+        "type": "indoor venue",
+        "source_file": "venue_493.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.095006,
+          19.407509
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estadio Municipal de Hockey, Ciudad Deportiva Magdalena Mixhuca",
+          "Municipal Hockey Stadium, Magdalena Mixhuca Sports City"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.407509,-99.095006",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_494.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.225651,
+          19.441463
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo Militar No. 1",
+          "Military Camp Nr. 1"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.441463,-99.225651",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_495.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.227872,
+          19.449759
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polígono de Tiro Vicente Suárez, Campo Militar No. 1",
+          "Vicente Suárez Shooting Range, Military Camp Nr. 1"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.449759,-99.227872",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_496.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.127579,
+          19.419326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Frontón México",
+          "Mexico Fronton"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.419326,-99.127579",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_497.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.180064,
+          19.42657
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Deportivo Chapultepec",
+          "Chapultepec Sports Centre"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.42657,-99.180064",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota",
+          "Tennis"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_498.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.127579,
+          19.419326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Deportivo Asturiano",
+          "Asturian Sports Centre"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.419326,-99.127579",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_499.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.127579,
+          19.419326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Deportivo Libanés",
+          "Lebanese Sports Centre"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.419326,-99.127579",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_500.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.127579,
+          19.419326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Frontón Metropolitano",
+          "Metropolitan Fronton"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.419326,-99.127579",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_501.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.127579,
+          19.419326
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Acapulco Jai-Alai"
+        ],
+        "place": "Acapulco",
+        "coordinates": "19.419326,-99.127579",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basque pelota"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_502.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.882803,
+          16.842374
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Club de Yates Acapulco",
+          "Acapulco Yacht Club"
+        ],
+        "place": "Bahía de Acapulco",
+        "coordinates": "16.842374,-99.882803",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1955",
+        "type": "outdoor venue",
+        "source_file": "venue_503.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.376198,
+          20.650134
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guadalajara Country Club"
+        ],
+        "place": "Guadalajara",
+        "coordinates": "20.650134,-103.376198",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_504.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.376198,
+          20.650134
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Atlas Sports Club"
+        ],
+        "place": "Guadalajara",
+        "coordinates": "20.650134,-103.376198",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_505.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.376198,
+          20.650134
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guadalajara Sports Club"
+        ],
+        "place": "Guadalajara",
+        "coordinates": "20.650134,-103.376198",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_506.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.154722,
+          19.36
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gimnasio Olímpico Juan de la Barrera",
+          "Juan de la Barrera Olympic Gymnasium"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.36,-99.154722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_507.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.187427,
+          19.3809049
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista de Hielo Revolución",
+          "Revolution Ice Rink"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.3809049,-99.187427",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "notes": "Built in the 1960s.",
+        "demolished": "1997",
+        "type": "indoor venue",
+        "source_file": "venue_508.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.18508,
+          19.330112
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Alberca Olímpica Universitaria, Universidad Nacional Autónoma de México",
+          "University Olympic Pool, National Autonomous University of Mexico"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.330112,-99.18508",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_509.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.182222,
+          19.364167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Teatro de los Insurgentes",
+          "Theatre of the Insurgents"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.364167,-99.182222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1953",
+        "type": "indoor venue",
+        "source_file": "venue_510.json",
+        "Olympics": "1968 Mexico City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1872982,
+          19.3522119
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista de Hielo Insurgentes",
+          "Ice Rink of the Insurgents"
+        ],
+        "place": "Ciudad de México",
+        "coordinates": "19.3522119,-99.1872982",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "notes": "Demolished in the 1970s.",
+        "opened": "1962",
+        "demolished": "?",
+        "type": "indoor venue",
+        "source_file": "venue_511.json",
+        "Olympics": "1968 Mexico City"
+      }
+    }
+  ]
+}

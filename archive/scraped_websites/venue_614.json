@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stanford Stadium"
+    ],
+    "place": "Palo Alto, California",
+    "coordinates": "37.434444,-122.161111",
+    "coordinates_trust": "Definitely here",
+    "year": "1984",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "notes": "New stadium built on same site.",
+    "opened": "1921",
+    "demolished": "2005",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33975"
+      },
+      {
+        "text": "29 July – 11 August 1984"
+      }
+    ]
+  ]
+}

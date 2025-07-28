@@ -1,0 +1,16 @@
+[Part Name Match] JSON Venue 3 'E Center' matched with GeoJSON Venue 5: E Center
+[Part Name Match] JSON Venue 4 'Deer Valley Resort' matched with GeoJSON Venue 1: Deer Valley Resort
+[Part Name Match] JSON Venue 5 'Park City Mountain Resort' matched with GeoJSON Venue 2: Park City Mountain Resort
+[Part Name Match] JSON Venue 8 'Utah Olympic Park' matched with GeoJSON Venue 4: Utah Olympic Park
+[Part Name Match] JSON Venue 10 'Utah Olympic Oval' matched with GeoJSON Venue 8: Utah Olympic Oval
+[Part Name Match] JSON Venue 11 'Soldier Hollow' matched with GeoJSON Venue 3: Soldier Hollow
+[Use/Sport + Name Match] JSON Venue 0 - Salt Lake City Ice Center ↔ GeoJSON Venue 7 - Salt Lake Ice Center | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Peaks Ice Arena ↔ GeoJSON Venue 6 - The Peaks Ice Arena | UseSim: 1.00, NameSim: 0.88, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - Snowbasin Ski Area ↔ GeoJSON Venue 0 - Snowbasin Ski Resort | UseSim: 1.00, NameSim: 0.84, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - The Ice Sheet at Ogden ↔ GeoJSON Venue 9 - The Ice Sheet (also known as Weber County Ice Sheet) | UseSim: 1.00, NameSim: 0.53, Score: 0.86 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'Salt Lake City Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 2] 'Rice-Eccles Olympic Stadium' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---

@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "E Center",
+      "Maverik Center (2010-Present)"
+    ],
+    "place": "Salt Lake City, Utah",
+    "coordinates": "40.702722,-111.950417",
+    "coordinates_trust": "Definitely here",
+    "year": "2002",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1997",
+    "seating_capacity": "10500",
+    "type": "indoor venue",
+    "altitude": "1250 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20778"
+      },
+      {
+        "text": "9 – 24 February 2002"
+      }
+    ],
+    [
+      {
+        "text": "2002 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/47"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/20822"
+      },
+      {
+        "text": "11 – 21 February 2002"
+      }
+    ]
+  ]
+}

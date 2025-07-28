@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio Olímpico (also known as Estadi Olímpic)",
+      "Olympic Stadium"
+    ],
+    "place": "Terrassa",
+    "coordinates": "41.576133,2.011142",
+    "coordinates_trust": "Definitely here",
+    "year": "1992",
+    "season": "Summer",
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "1955",
+    "seating_capacity": "10200",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/36185"
+      },
+      {
+        "text": "26 July –  8 August 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/36235"
+      },
+      {
+        "text": "27 July –  7 August 1992"
+      }
+    ]
+  ]
+}

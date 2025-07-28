@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Pista Olimpia"
+    ],
+    "place": "Gillardon, Cortina d'Ampezzo",
+    "coordinates": "46.538407,12.122555",
+    "coordinates_trust": "Most likely here",
+    "year": "1956",
+    "season": "Winter",
+    "sports": [
+      "Alpine Skiing"
+    ],
+    "seating_capacity": "9830",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Alpine Skiing",
+        "link": "https://www.olympedia.org/sports/ALP"
+      },
+      {
+        "text": "Downhill, Men",
+        "link": "https://www.olympedia.org/results/1204"
+      },
+      {
+        "text": "3 February 1956"
+      }
+    ]
+  ]
+}

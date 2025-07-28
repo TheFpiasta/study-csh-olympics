@@ -1,0 +1,458 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.66,
+          45.0275
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Oval Lingotto",
+          "Lingotto Oval"
+        ],
+        "place": "Torino",
+        "coordinates": "45.0275,7.66",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2005",
+        "seating_capacity": "8250",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "205 m",
+        "source_file": "venue_159.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.682222,
+          45.048611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Torino Esposizioni",
+          "Torino Exposition"
+        ],
+        "place": "Torino",
+        "coordinates": "45.048611,7.682222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1949",
+        "seating_capacity": "5400",
+        "type": "indoor venue",
+        "source_file": "venue_160.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.652222,
+          45.041667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palasport Olimpico",
+          "Olympic Palace of Sports"
+        ],
+        "place": "Torino",
+        "coordinates": "45.041667,7.652222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2005",
+        "seating_capacity": "12500",
+        "type": "indoor venue",
+        "source_file": "venue_161.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.669167,
+          45.023333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palavela (also known as Palazzo a Vela)",
+          "Palazzo delle Mostre (?-?)"
+        ],
+        "place": "Torino",
+        "coordinates": "45.023333,7.669167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "opened": "1961",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "source_file": "venue_163.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805147,
+          44.952346
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana Pariol",
+        "coordinates": "44.952346,6.805147",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "source_file": "venue_164.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.882055,
+          44.956732
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Colle",
+        "coordinates": "44.956732,6.882055",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "source_file": "venue_165.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.88964,
+          44.965868
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Borgata",
+        "coordinates": "44.965868,6.88964",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6800",
+        "type": "outdoor venue",
+        "source_file": "venue_166.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.848071,
+          45.028827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sauze d'Oulx-Jouvenceaux",
+        "coordinates": "45.028827,6.848071",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "source_file": "venue_167.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.815847,
+          44.967842
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "San Sicario Fraìteve",
+        "coordinates": "44.967842,6.815847",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6160",
+        "type": "outdoor venue",
+        "source_file": "venue_168.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.921419,
+          44.9924
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio del Trampolino",
+          "Ski Jumping Stadium"
+        ],
+        "place": "Pragelato Plan",
+        "coordinates": "44.9924,6.921419",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "2004",
+        "seating_capacity": "5400",
+        "type": "outdoor venue",
+        "source_file": "venue_169.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.939046,
+          45.006519
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Pragelato",
+        "coordinates": "45.006519,6.939046",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8055",
+        "type": "outdoor venue",
+        "source_file": "venue_170.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.348684,
+          44.891166
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palaghiaccio",
+          "Ice Palace"
+        ],
+        "place": "Pinerolo",
+        "coordinates": "44.891166,7.348684",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "2000",
+        "type": "indoor venue",
+        "source_file": "venue_171.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805494,
+          44.960167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana San Sicario",
+        "coordinates": "44.960167,6.805494",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "4700",
+        "type": "outdoor venue",
+        "source_file": "venue_172.json",
+        "Olympics": "2006 Turin"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.682445,
+          45.058214
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Bardonecchia",
+        "coordinates": "45.058214,6.682445",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "6763",
+        "type": "outdoor venue",
+        "source_file": "venue_173.json",
+        "Olympics": "2006 Turin"
+      }
+    }
+  ]
+}

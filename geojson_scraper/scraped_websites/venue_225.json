@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Royal Clyde Yacht Club"
+    ],
+    "place": "Hunters Quay",
+    "coordinates": "55.970868,-4.911575",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1908",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Sailing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Sailing",
+        "link": "https://www.olympedia.org/sports/SAL"
+      },
+      {
+        "text": "12 metres, Open",
+        "link": "https://www.olympedia.org/results/9230"
+      },
+      {
+        "text": "11 – 12 August 1908"
+      }
+    ]
+  ]
+}

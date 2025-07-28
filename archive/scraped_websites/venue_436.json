@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centro Federale",
+      "Federal Centre"
+    ],
+    "place": "Passo Corese",
+    "coordinates": "42.139637,12.652988",
+    "coordinates_trust": "Most likely here",
+    "year": "1960",
+    "season": "Summer",
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50099"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50108"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ]
+  ]
+}

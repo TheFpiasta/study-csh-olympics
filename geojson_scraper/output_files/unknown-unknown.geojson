@@ -1,0 +1,683 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.408611,
+          43.873889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadion Koševo (also known as Stadion Koševo (1952-2004), Stadion Asim Ferhatović - Hase (2004-Present))",
+          "Koševo Olympic Stadium"
+        ],
+        "place": "Sarajevo",
+        "coordinates": "43.873889,18.408611",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_117.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.848889,
+          40.76
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rice-Eccles Olympic Stadium",
+          "Rice-Eccles Stadium (1997-Present)"
+        ],
+        "place": "Salt Lake City, Utah",
+        "coordinates": "40.76,-111.848889",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Normally known as just the Rice-Eccles Stadium.",
+        "opened": "1998",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "altitude": "1419 m",
+        "events": [],
+        "source_file": "venue_135.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.650014,
+          45.04175
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Olimpico",
+          "Olympic Stadium",
+          "Stadio Comunale (-1956)"
+        ],
+        "place": "Torino",
+        "coordinates": "45.04175,7.650014",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1933",
+        "seating_capacity": "35000",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_162.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.111944,
+          49.276667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "BC Place Stadium"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.276667,-123.111944",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1983",
+        "seating_capacity": "54500",
+        "type": "indoor venue",
+        "events": [],
+        "source_file": "venue_183.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.121389,
+          51.070328
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "McMahon Stadium"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.070328,-114.121389",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1960",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_19.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.39402,
+          47.265986
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Medals Plaza"
+        ],
+        "place": "Innsbruck",
+        "coordinates": "47.265986,11.394020",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2002.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.47391,
+          61.12164
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stampesletta Idrettspark",
+          "Stampesletta Sports Park"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.12164,10.47391",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "opened": "1949",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2004.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.669617,
+          31.98193
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nanjing 2014 Sports Lab"
+        ],
+        "place": "Nanjing",
+        "coordinates": "31.981930,118.669617",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "seating_capacity": "1000",
+        "type": "temporary outdoor venue",
+        "events": [],
+        "source_file": "venue_2049.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.499746,
+          -34.556453
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Archery Range, Parque Sarmiento, Tecnópolis Park"
+        ],
+        "place": "Saavedra, Buenos Aires",
+        "coordinates": "-34.556453,-58.499746",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2051.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.381659,
+          -34.603696
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Obelisco, 9 de Julio Avenida"
+        ],
+        "place": "Buenos Aires",
+        "coordinates": "-34.603696,-58.381659",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony"
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2073.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.453847,
+          -34.675617
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Youth Olympic Village"
+        ],
+        "place": "Villa Soldati, Buenos Aires",
+        "coordinates": "-34.675617,-58.453847",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Closing ceremony"
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2078.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.64378,
+          37.94756
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Plateia Loudovikou",
+          "Louis Square"
+        ],
+        "place": "Piraeus",
+        "coordinates": "37.94756,23.64378",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "temporary outdoor venue",
+        "events": [],
+        "source_file": "venue_2092.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.630833,
+          35.894889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Saitama Super Arena"
+        ],
+        "place": "Saitama, Saitama",
+        "coordinates": "35.894889,139.630833",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "opened": "2000",
+        "seating_capacity": "22000",
+        "type": "indoor venue",
+        "events": [],
+        "source_file": "venue_2098.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44503,
+          40.89228
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Thaiwoo Ski Resort"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.89228,115.44503",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "opened": "2016",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2141.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.39872,
+          40.97086
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wanlong Ski Resort"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.97086,115.39872",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2142.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.438611,
+          48.832778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polygone de Vincennes, Bois de Vincennes"
+        ],
+        "place": "Paris 12e, Paris, France",
+        "coordinates": "48.832778,2.438611",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_2147.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.095824,
+          59.350472
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kungliga tennishallen",
+          "Royal Tennis Halls"
+        ],
+        "place": "Stockholm",
+        "coordinates": "59.350472,18.095824",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "type": "indoor venue",
+        "events": [],
+        "source_file": "venue_236.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.93111,
+          51.9941666
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Monnikenhuize"
+        ],
+        "place": "Arnhem",
+        "coordinates": "51.9941666,5.93111",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "opened": "1915",
+        "demolished": "1950",
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_298.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.433619,
+          51.919485
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadion Spangen",
+          "Spangen Stadium",
+          "Sparta-Stadion \"Het Kasteel\" (?-Present)"
+        ],
+        "place": "Rotterdam",
+        "coordinates": "51.919485,4.433619",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          ""
+        ],
+        "opened": "1916",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_299.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.369367,
+          45.661592
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Théatre des Cérémonies",
+          "Ceremonial Stadium"
+        ],
+        "place": "Albertville",
+        "coordinates": "45.661592,6.369367",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Temporary stadium.",
+        "seating_capacity": "35000",
+        "type": "temporary outdoor venue",
+        "events": [],
+        "source_file": "venue_3.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.73496,
+          45.162996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Inaugural",
+          "Opening Stadium"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.162996,5.73496",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [],
+        "source_file": "venue_52.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.965269,
+          44.262749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.262749,-73.965269",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_76.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.165556,
+          36.579722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nagano Olympic Stadium",
+          "Nagano Olympic Stadium",
+          "Minami Nagano Sports Park Stadium (?-1998)"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.579722,138.165556",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_84.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.955556,
+          43.402222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olimpiyskiy Stadion Fisht, Coastal Cluster",
+          "Fisht Olympic Stadium"
+        ],
+        "place": "Adler",
+        "coordinates": "43.402222,39.955556",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "2014",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "events": [],
+        "source_file": "venue_894.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.706,
+          37.667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "PyeongChang Olympic Stadium, Alpensia Resort, Mountain Cluster",
+          "평창 올림픽 스타디움"
+        ],
+        "place": "Daegwallyeong",
+        "coordinates": "37.6670,128.7060",
+        "coordinates_trust": "Definitely here",
+        "games": [],
+        "sports": [
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "2017",
+        "seating_capacity": "35000",
+        "type": "temporary outdoor venue",
+        "altitude": "740 m",
+        "events": [],
+        "source_file": "venue_934.json"
+      }
+    }
+  ]
+}

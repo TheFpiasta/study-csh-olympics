@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "El Dorado Park"
+    ],
+    "place": "Long Beach, California",
+    "coordinates": "33.811786,-118.08835",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1984",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Archery"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/40631"
+      },
+      {
+        "text": "8 – 11 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Archery",
+        "link": "https://www.olympedia.org/sports/ARC"
+      },
+      {
+        "text": "Individual, Women",
+        "link": "https://www.olympedia.org/results/40646"
+      },
+      {
+        "text": "8 – 11 August 1984"
+      }
+    ]
+  ]
+}

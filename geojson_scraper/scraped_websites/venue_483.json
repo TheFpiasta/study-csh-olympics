@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circuito Satélite",
+      "Satellite Course"
+    ],
+    "place": "Ciudad Satélite, Ciudad de Mexico",
+    "coordinates": "19.483333,-99.233333",
+    "coordinates_trust": "No information",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/154150"
+      },
+      {
+        "text": "23 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "100 kilometres Team Time Trial, Men",
+        "link": "https://www.olympedia.org/results/154151"
+      },
+      {
+        "text": "15 October 1968"
+      }
+    ]
+  ]
+}

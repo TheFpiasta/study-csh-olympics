@@ -1,0 +1,12 @@
+[Use/Sport + Name Match] JSON Venue 2 - Interval Ski Hill/Olympic Ski Hill ↔ GeoJSON Venue 1 - Intervale Ski Jump Complex | UseSim: 1.00, NameSim: 0.54, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - The Arena ↔ GeoJSON Venue 3 - Olympic Arena | UseSim: 0.83, NameSim: 0.55, Score: 0.75 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 1] 'James B. Sheffield Olympic Skating Rink/Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 3] 'Mt Van Hoevenberg Bob Run' has no matching GeoJSON venue.
+[JSON Venue 4] 'Mount Whitney Cross-Country Skiing Route (Start and finish at the Olympic Stadium)' has no matching GeoJSON venue.
+[JSON Venue 5] 'Clifford Falls Cross-Country Skiing Route' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'James C. Sheffield Speed Skating Oval' has no matching JSON venue.
+[GeoJSON Venue 2] 'Mt. Van Hoevenberg Recreation Area' has no matching JSON venue.

@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mikaho Indoor Skating Rink"
+    ],
+    "place": "Sapporo",
+    "coordinates": "43.089312,141.357393",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Figure Skating"
+    ],
+    "opened": "1972",
+    "seating_capacity": "1998",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Men",
+        "link": "https://www.olympedia.org/results/13272"
+      },
+      {
+        "text": "8 – 11 February 1972"
+      }
+    ],
+    [
+      {
+        "text": "1972 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/39"
+      },
+      {
+        "text": "Figure Skating",
+        "link": "https://www.olympedia.org/sports/FSK"
+      },
+      {
+        "text": "Singles, Women",
+        "link": "https://www.olympedia.org/results/13302"
+      },
+      {
+        "text": "4 –  7 February 1972"
+      }
+    ]
+  ]
+}

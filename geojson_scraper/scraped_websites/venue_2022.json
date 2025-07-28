@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jalan Besar Stadium"
+    ],
+    "place": "Kallang, Singapore",
+    "coordinates": "1.310016,103.860347",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2010",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1932",
+    "seating_capacity": "6000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Girls",
+        "link": "https://www.olympedia.org/results/4003917"
+      },
+      {
+        "text": "12 – 24 August 2010"
+      }
+    ],
+    [
+      {
+        "text": "2010 Summer Youth Olympics",
+        "link": "https://www.olympedia.org/editions/65"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Boys",
+        "link": "https://www.olympedia.org/results/4003900"
+      },
+      {
+        "text": "13 – 25 August 2010"
+      }
+    ]
+  ]
+}

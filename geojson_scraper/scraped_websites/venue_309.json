@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sunset Fields Golf Club"
+    ],
+    "place": "Los Angeles, California",
+    "coordinates": "34.00680072,-118.3398899",
+    "coordinates_trust": "Near here",
+    "games": [
+      {
+        "year": "1932",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1932 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/10"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50036"
+      },
+      {
+        "text": "2 –  6 August 1932"
+      }
+    ]
+  ]
+}

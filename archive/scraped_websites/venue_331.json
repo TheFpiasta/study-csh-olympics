@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "BSV-Platz",
+      "BSV Field"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.483794,13.30275",
+    "coordinates_trust": "Definitely here",
+    "year": "1936",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "notes": "Destroyed in World War II, and the site used since then as allotment gardens. Replaced in 1951 by the adjacent Stadion Wilmersdorf.",
+    "demolished": "1951",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34500"
+      },
+      {
+        "text": "6 – 14 August 1936"
+      }
+    ]
+  ]
+}

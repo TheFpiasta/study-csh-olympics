@@ -1,0 +1,813 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Centennial Olympic Stadium",
+      "Turner Field (?-Present)"
+    ],
+    "place": "Atlanta, Georgia",
+    "coordinates": "33.735278,-84.389444",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1996",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Athletics",
+      "Opening ceremony",
+      "Closing ceremony"
+    ],
+    "notes": "Reconstructed as a baseball stadium after the Olympics.",
+    "opened": "1996",
+    "seating_capacity": "85600",
+    "type": "outdoor venue",
+    "dimensions": "400 m",
+    "surface": "Artificial surface",
+    "altitude": "287 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres Wheelchair, Men",
+        "link": "https://www.olympedia.org/results/901202"
+      },
+      {
+        "text": "1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Men",
+        "link": "https://www.olympedia.org/results/64629"
+      },
+      {
+        "text": "26 – 27 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Men",
+        "link": "https://www.olympedia.org/results/64653"
+      },
+      {
+        "text": "31 July –  1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Men",
+        "link": "https://www.olympedia.org/results/64676"
+      },
+      {
+        "text": "26 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Men",
+        "link": "https://www.olympedia.org/results/64695"
+      },
+      {
+        "text": "28 – 31 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Men",
+        "link": "https://www.olympedia.org/results/64710"
+      },
+      {
+        "text": "29 July –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Men",
+        "link": "https://www.olympedia.org/results/64721"
+      },
+      {
+        "text": "31 July –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Men",
+        "link": "https://www.olympedia.org/results/64730"
+      },
+      {
+        "text": "26 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Men",
+        "link": "https://www.olympedia.org/results/64735"
+      },
+      {
+        "text": "4 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "110 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/64736"
+      },
+      {
+        "text": "28 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Men",
+        "link": "https://www.olympedia.org/results/64755"
+      },
+      {
+        "text": "29 July –  1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "3,000 metres Steeplechase, Men",
+        "link": "https://www.olympedia.org/results/64768"
+      },
+      {
+        "text": "29 July –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/64779"
+      },
+      {
+        "text": "2 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Men",
+        "link": "https://www.olympedia.org/results/64790"
+      },
+      {
+        "text": "2 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "20 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/64777"
+      },
+      {
+        "text": "26 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "50 kilometres Race Walk, Men",
+        "link": "https://www.olympedia.org/results/64778"
+      },
+      {
+        "text": "2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Men",
+        "link": "https://www.olympedia.org/results/64801"
+      },
+      {
+        "text": "26 – 28 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Pole Vault, Men",
+        "link": "https://www.olympedia.org/results/64828"
+      },
+      {
+        "text": "31 July –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Men",
+        "link": "https://www.olympedia.org/results/64849"
+      },
+      {
+        "text": "28 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Men",
+        "link": "https://www.olympedia.org/results/64866"
+      },
+      {
+        "text": "26 – 27 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Men",
+        "link": "https://www.olympedia.org/results/64883"
+      },
+      {
+        "text": "26 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Men",
+        "link": "https://www.olympedia.org/results/64900"
+      },
+      {
+        "text": "29 – 31 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Hammer Throw, Men",
+        "link": "https://www.olympedia.org/results/64917"
+      },
+      {
+        "text": "27 – 28 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Men",
+        "link": "https://www.olympedia.org/results/64934"
+      },
+      {
+        "text": "2 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Decathlon, Men",
+        "link": "https://www.olympedia.org/results/64951"
+      },
+      {
+        "text": "31 July –  1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres, Women",
+        "link": "https://www.olympedia.org/results/65030"
+      },
+      {
+        "text": "26 – 27 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres Wheelchair, Women",
+        "link": "https://www.olympedia.org/results/901203"
+      },
+      {
+        "text": "1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "200 metres, Women",
+        "link": "https://www.olympedia.org/results/65048"
+      },
+      {
+        "text": "31 July –  1 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres, Women",
+        "link": "https://www.olympedia.org/results/65065"
+      },
+      {
+        "text": "26 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "800 metres, Women",
+        "link": "https://www.olympedia.org/results/65083"
+      },
+      {
+        "text": "26 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "1,500 metres, Women",
+        "link": "https://www.olympedia.org/results/65094"
+      },
+      {
+        "text": "31 July –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "5,000 metres, Women",
+        "link": "https://www.olympedia.org/results/65103"
+      },
+      {
+        "text": "26 – 28 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10,000 metres, Women",
+        "link": "https://www.olympedia.org/results/65109"
+      },
+      {
+        "text": "27 July –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Marathon, Women",
+        "link": "https://www.olympedia.org/results/65114"
+      },
+      {
+        "text": "28 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "100 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/65115"
+      },
+      {
+        "text": "29 – 31 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "400 metres Hurdles, Women",
+        "link": "https://www.olympedia.org/results/65132"
+      },
+      {
+        "text": "28 – 31 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 100 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/65143"
+      },
+      {
+        "text": "2 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "4 × 400 metres Relay, Women",
+        "link": "https://www.olympedia.org/results/65149"
+      },
+      {
+        "text": "2 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "10 kilometres Race Walk, Women",
+        "link": "https://www.olympedia.org/results/65142"
+      },
+      {
+        "text": "29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "High Jump, Women",
+        "link": "https://www.olympedia.org/results/65154"
+      },
+      {
+        "text": "1 –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Long Jump, Women",
+        "link": "https://www.olympedia.org/results/65179"
+      },
+      {
+        "text": "1 –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Triple Jump, Women",
+        "link": "https://www.olympedia.org/results/65196"
+      },
+      {
+        "text": "29 – 31 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Shot Put, Women",
+        "link": "https://www.olympedia.org/results/65213"
+      },
+      {
+        "text": "31 July –  2 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Discus Throw, Women",
+        "link": "https://www.olympedia.org/results/65230"
+      },
+      {
+        "text": "28 – 29 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Javelin Throw, Women",
+        "link": "https://www.olympedia.org/results/65247"
+      },
+      {
+        "text": "26 – 27 July 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Athletics",
+        "link": "https://www.olympedia.org/sports/ATH"
+      },
+      {
+        "text": "Heptathlon, Women",
+        "link": "https://www.olympedia.org/results/65264"
+      },
+      {
+        "text": "27 – 28 July 1996"
+      }
+    ]
+  ]
+}

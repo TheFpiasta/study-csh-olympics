@@ -1,0 +1,242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117778,
+          47.481389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Skistadion",
+          "Olympic Ski Stadium",
+          "Olympia Skistadion"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.481389,11.117778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Ski Jumping",
+          "Opening ceremony",
+          "Closing ceremony",
+          "cross-country skiing",
+          "Opening and Closing Ceremonies",
+          "military patrol (demonstration sport)"
+        ],
+        "opened": "1921",
+        "seating_capacity": "18831 (Opening) / 15505 (CCS) / 26632 (NCO) / 59374 (SKJ)",
+        "type": "outdoor venue",
+        "source_file": "venue_36.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "New build",
+        "status": "In use",
+        "information": "One of the largest and busiest ski jumping venues in the world and a listed historical site, the Olympia-Skistadion has been renovated on several occasions, mostly with the aim of ensuring it complies with FIS rule changes. In 1950, a new jumping tower made of steel, the first of its kind, was erected to replace the original wooden construction. The hill was completely rebuilt in 2007 and underwent renovation work again in 2019.\n\nIt is the venue for the second round of the world-famous Four Hills Tournament, a ski jumping competition that takes place between Christmas and Epiphany and attracts crowds of over 25,000 spectators in Garmisch-Partenkirchen. It has also staged many FIS World Cup and Continental Cup events and the German National Ski Jumping Championships. Also used for youth and regional competitions, it is open for training five days a week and is visited annually by between 400,000 and 600,000 people. Its attractions include guided tours, a restaurant and a zipline running from the tower to the stadium area.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.096213,
+          47.48884
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Kunsteisstadion",
+          "Olympic Artificial Ice Stadium",
+          "Olympia-Kunsteisstadion/Eisstadium (Olympia Artificial Ice Stadium)"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.48884,11.096213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1934",
+        "seating_capacity": "8644",
+        "type": "outdoor venue",
+        "source_file": "venue_37.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "New build",
+        "status": "In use",
+        "information": "An open-air venue at Games time, when an ammonia-cooling system was used to create artificial ice, the stadium has undergone several renovations since then. It was fitted with a roof in 1964, while a second hall with an ice hockey rink and a curling rink was added in the early 1990s, along with two outdoor rinks.\n\nSince 1936, it has been the home stadium of professional ice hockey team SC Riessersee. It is also used by women's ice hockey club SC Garmisch-Partenkirchen and men's fourth-division ice hockey team TSV Farchant. It hosted a Germany national team match at the inaugural World Cup of Hockey in 1996 and all the matches in the 2012 IIHF Ice Hockey U-20 World Championship Division I Group A.\n\nThe country's national curling performance centre, it has twice staged the Men's Curling World Championships and also hosted a Davis Cup tie in 2009. The venue is open to skaters and the local community for training, classes and recreational skating.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.081074,
+          47.478616
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Eissportplatz am Rießersee",
+          "Olympic Rink at Rießersee",
+          "Olympia Eissportplatz am Riessersee / Riessersee Ice Rink"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.478616,11.081074",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey",
+          "Ice Stock Sport",
+          "Speed Skating"
+        ],
+        "seating_capacity": "8430",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK)",
+        "altitude": "783 m",
+        "source_file": "venue_38.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "Temporary (seasonal)",
+        "status": "Dismantled (seasonal)",
+        "information": "A speed skating rink and two ice hockey rinks were prepared on the lake's frozen surface for the 1936 Olympic Winter Games, with temporary facilities being set up to accommodate spectators and officials. The lake was already a popular location before the Games and is still used for recreational skating when frozen, as well as commemorative events such as the Pond Hockey Cup, which was held in 2011 and 2013 with the same rules and conditions as those at the Garmisch-Partenkirchen 1936 Games.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.07762,
+          47.475897
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Bobbahn",
+          "Olympic Bobsleigh Track",
+          "Olympia Bobbahn"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.475897,11.07762",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1910",
+        "seating_capacity": "8970",
+        "type": "outdoor venue",
+        "source_file": "venue_39.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "Temporary (seasonal)",
+        "status": "Dismantled (seasonal)",
+        "information": "A temporary (seasonal) natural bobsleigh track made of ice and snow, it was built and dismantled every year as of winter 1910. It regularly held world, European, German and Bavarian bobsleigh championships until 1966. A popular destination for local hikers and cyclists, the track was uncovered again in 2002 by volunteers and was listed as a historical site the following year. The bobsleigh section of the SC Riessersee club has been organising commemorative bobsleigh runs on the track since 2013. In 2015, the Red Bull Bob Heroes event, in which participants raced in home-made bobs, attracted 2,500 spectators, while an international bob week was held at the venue in 2019. The site is also home to the Bob Museum, which tells the story of the track.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.063383,
+          47.470562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kreuzeck-Gebiet",
+          "Kreuzeck Area"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.470562,11.063383",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "source_file": "venue_40.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue for the downhill races at the 1936 Games, which were held on the Neunerstrecke course. Known today as the Olympia or Kandahar run, it has hosted FIS Downhill World Cup races every year since 1970 and staged the downhill races at the 1978 and 2011 FIS Alpine Ski World Championships. Together with Hausberg and Alpspitze, Kreuzeck forms part of the Garmisch-Classic Ski Area.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.117263,
+          47.480335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gudiberg"
+        ],
+        "place": "Garmisch-Partenkirchen",
+        "coordinates": "47.480335,11.117263",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1936",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "cross-country skiing",
+          "Nordic combined"
+        ],
+        "seating_capacity": "9367",
+        "type": "outdoor venue",
+        "source_file": "venue_41.json",
+        "Olympics": "1936 Garmisch Partenkirchen",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue for the Alpine skiing and cross-country skiing events at the 1936 Olympic Winter Games, the Gudiberg continues to host national and international skiing events. These include a round of the 2007 FIS Slalom World Cup and the slalom events at the 2011 FIS Alpine Ski World Championships. Its facilities were altered and upgraded for both events, with the finish line returned to its 1936 Games location. The Gudiberg was also the location for the ski jumping leg of the combined skiing events at Garmisch-Partenkirchen 1936, which took place on an existing hill.",
+        "location": "inside"
+      }
+    }
+  ]
+}

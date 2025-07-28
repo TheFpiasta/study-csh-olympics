@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Rue Borghese",
+      "Borghese Street"
+    ],
+    "place": "26 Neuilly-sur-Seine",
+    "coordinates": "48.888100,2.268600",
+    "coordinates_trust": "Most likely here",
+    "year": "1900",
+    "season": "Summer",
+    "sports": [
+      "Basque pelota"
+    ],
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Basque pelota",
+        "link": "https://www.olympedia.org/sports/PEL"
+      },
+      {
+        "text": "Two-Man Teams With Cesta, Men",
+        "link": "https://www.olympedia.org/results/28505"
+      },
+      {
+        "text": "14 June 1900"
+      }
+    ],
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Basque pelota",
+        "link": "https://www.olympedia.org/sports/PEL"
+      },
+      {
+        "text": "Two-Man Teams With Cesta, Professional, Men",
+        "link": "https://www.olympedia.org/results/9017049"
+      },
+      {
+        "text": "14 – 21 June 1900"
+      }
+    ]
+  ]
+}

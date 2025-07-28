@@ -1,0 +1,36 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Saint-Cloud Country Club (also known as Hippodrome Val d'Or)"
+    ],
+    "place": "Saint-Cloud",
+    "coordinates": "48.856944,2.202778",
+    "coordinates_trust": "Definitely here",
+    "year": "1924",
+    "season": "Summer",
+    "sports": [
+      "Polo"
+    ],
+    "opened": "1901",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/8"
+      },
+      {
+        "text": "Polo",
+        "link": "https://www.olympedia.org/sports/POL"
+      },
+      {
+        "text": "Polo, Men",
+        "link": "https://www.olympedia.org/results/30923"
+      },
+      {
+        "text": "28 June – 12 July 1924"
+      }
+    ]
+  ]
+}

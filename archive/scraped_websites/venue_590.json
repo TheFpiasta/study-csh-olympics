@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Dvorets sporta Sokolniki",
+      "Sokolniki Palace of Sports"
+    ],
+    "place": "Mosvka",
+    "coordinates": "55.792778,37.671389",
+    "coordinates_trust": "Definitely here",
+    "year": "1980",
+    "season": "Summer",
+    "sports": [
+      "Handball"
+    ],
+    "opened": "1956",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34626"
+      },
+      {
+        "text": "20 – 30 July 1980"
+      }
+    ],
+    [
+      {
+        "text": "1980 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/20"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Women",
+        "link": "https://www.olympedia.org/results/34667"
+      },
+      {
+        "text": "21 – 29 July 1980"
+      }
+    ]
+  ]
+}

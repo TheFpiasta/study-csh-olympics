@@ -1,0 +1,454 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837391,
+          36.695315
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hakuba Ski Jumping Stadium",
+          "Hakuba Ski Jumping Stadium"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.695315,137.837391",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1993",
+        "seating_capacity": "45000",
+        "type": "outdoor venue",
+        "source_file": "venue_78.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837166,
+          36.701832
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Happo'one"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.701832,137.837166",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_79.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.822038,
+          36.666827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Snow Harp"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.666827,137.822038",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_80.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.139488,
+          36.72194
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Iizuna Kogen Resort"
+        ],
+        "place": "Iizuna",
+        "coordinates": "36.72194,138.139488",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_81.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1575,
+          36.710833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Spiral"
+        ],
+        "place": "Asakawa, Nagano",
+        "coordinates": "36.710833,138.1575",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_82.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596499,
+          36.322931
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kazakoshi Park Arena"
+        ],
+        "place": "Karuizawa",
+        "coordinates": "36.322931,138.596499",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "1924",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_83.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.233056,
+          36.660556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aqua Wing Arena",
+          "Nagano Sports Park General Municipal Pool (1998-Present)"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.660556,138.233056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_85.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.195833,
+          36.629722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Big Hat (also known as Wakasato Multi-Purpose Sports Arena)"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.629722,138.195833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10140",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_86.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.240319,
+          36.640556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "M-Wave"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.640556,138.240319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "342 m",
+        "source_file": "venue_87.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.206389,
+          36.604722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "White Ring"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.604722,138.206389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "7351",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_88.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.44003,
+          36.915365
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nozawa Onsen Resort"
+        ],
+        "place": "Nozawa Onsen",
+        "coordinates": "36.915365,138.44003",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_89.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.517143,
+          36.745556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Yakebitai, Shiga Kogen"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.745556,138.517143",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Snowboarding"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_90.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.448956,
+          36.728171
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kanbayashi Sports Park"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.728171,138.448956",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_91.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.503995,
+          36.72357
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Higashidate, Shiga Kogen"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.72357,138.503995",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_92.json",
+        "Olympics": "1998 Nagano"
+      }
+    }
+  ]
+}

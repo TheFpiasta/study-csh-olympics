@@ -1,0 +1,60 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadio Georgios Karaiskakis",
+      "Georgios Karaiskakis Stadium"
+    ],
+    "place": "Athina",
+    "coordinates": "37.946447,23.664317",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2004",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Built on the site of the Neo Phaliron Velodrome, site of football at the 1906 Intercalated Olympic Games, and cycling at the 1896 and 1906 Olympics.",
+    "opened": "2004",
+    "seating_capacity": "40000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34224"
+      },
+      {
+        "text": "11 – 28 August 2004"
+      }
+    ],
+    [
+      {
+        "text": "2004 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/26"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34265"
+      },
+      {
+        "text": "11 – 26 August 2004"
+      }
+    ]
+  ]
+}

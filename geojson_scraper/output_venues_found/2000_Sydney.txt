@@ -1,0 +1,40 @@
+[Part Name Match] JSON Venue 3 'Sydney Football Stadium' matched with GeoJSON Venue 19: Sydney Football Stadium
+[Part Name Match] JSON Venue 11 'Dunc Gray Velodrome' matched with GeoJSON Venue 12: Dunc Gray Velodrome
+[Part Name Match] JSON Venue 12 'Sydney International Regatta Centre' matched with GeoJSON Venue 9: Sydney International Regatta Centre
+[Part Name Match] JSON Venue 13 'Ryde Aquatic Leisure Centre' matched with GeoJSON Venue 28: Ryde Aquatic Leisure Centre
+[Part Name Match] JSON Venue 16 'Penrith Whitewater Stadium' matched with GeoJSON Venue 10: Penrith Whitewater Stadium
+[Part Name Match] JSON Venue 22 'Sydney International Shooting Centre' matched with GeoJSON Venue 22: Sydney International Shooting Centre
+[Part Name Match] JSON Venue 26 'Sydney Opera House' matched with GeoJSON Venue 26: Sydney Opera House
+[Part Name Match] JSON Venue 28 'Bruce Stadium' matched with GeoJSON Venue 17: Bruce Stadium
+[Part Name Match] JSON Venue 29 'Hindmarsh Stadium' matched with GeoJSON Venue 18: Hindmarsh Stadium
+[Part Name Match] JSON Venue 30 'Melbourne Cricket Ground' matched with GeoJSON Venue 0: Melbourne Cricket Ground
+[Use/Sport + Name Match] JSON Venue 24 - Beach Volleyball Centre ↔ GeoJSON Venue 8 - Bondi Beach Volleyball Centre | UseSim: 1.00, NameSim: 0.88, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 21 - Sydney International Archery Park ↔ GeoJSON Venue 1 - Sydney International Archery Park, Olympic Park | UseSim: 1.00, NameSim: 0.84, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Rushcutters Bay ↔ GeoJSON Venue 21 - Rushcutters Bay Marina | UseSim: 1.00, NameSim: 0.81, Score: 0.94 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 4 - Sydney Entertainment Centre ↔ GeoJSON Venue 27 - Sydney Entertainment Centre (also known as SEC) | UseSim: 1.00, NameSim: 0.75, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - State Sports Centre ↔ GeoJSON Venue 25 - State Sports Centre, Olympic Park | UseSim: 1.00, NameSim: 0.75, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 6 - State Hockey Centre ↔ GeoJSON Venue 20 - State Hockey Centre, Olympic Park | UseSim: 1.00, NameSim: 0.75, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 25 - Centennial Parklands ↔ GeoJSON Venue 11 - Cycling Road Course, Centennial Parklands | UseSim: 1.00, NameSim: 0.67, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 27 - Brisbane Cricket Ground ↔ GeoJSON Venue 16 - Brisbane Cricket Ground (also known as The Gabba) | UseSim: 1.00, NameSim: 0.66, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 18 - Blacktown Baseball Centre ↔ GeoJSON Venue 6 - Blacktown Baseball Stadium, Blacktown Olympic Park | UseSim: 1.00, NameSim: 0.59, Score: 0.88 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - New South Wales Tennis Centre ↔ GeoJSON Venue 24 - New South Wales Tennis Centre, Olympic Park (also known as NSW Tennis Centre) | UseSim: 1.00, NameSim: 0.56, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 20 - Softball Centre ↔ GeoJSON Venue 23 - Softball Centre, Blacktown Olympic Centre | UseSim: 1.00, NameSim: 0.55, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Sydney International Aquatic Centre ↔ GeoJSON Venue 14 - Sydney International Aquatic Centre, Olympic Park | UseSim: 0.87, NameSim: 0.84, Score: 0.86 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Olympic Stadium ↔ GeoJSON Venue 2 - Olympic Stadium, Olympic Park | UseSim: 0.67, NameSim: 0.70, Score: 0.68 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Sydney Convention and Exhibition Centre ↔ GeoJSON Venue 5 - Sydney Exhibition Centre, Sydney Convention and Exhibition Centre | UseSim: 0.60, NameSim: 0.76, Score: 0.65 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Exhibition Complex (Pavilions 2, 3, 4) ↔ GeoJSON Venue 4 - The Dome and Exhibition Complex, Olympic Park | UseSim: 0.61, NameSim: 0.56, Score: 0.60 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 5] 'Sydney International Equestrian Centre' has no matching GeoJSON venue.
+[JSON Venue 7] 'Sydney Superdome' has no matching GeoJSON venue.
+[JSON Venue 8] 'Dome' has no matching GeoJSON venue.
+[JSON Venue 17] 'Baseball Stadium' has no matching GeoJSON venue.
+[JSON Venue 19] 'Mountain Bike Course' has no matching GeoJSON venue.
+[JSON Venue 23] 'Sydney Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 3] 'Sydney SuperDome, Olympic Park' has no matching JSON venue.
+[GeoJSON Venue 7] 'Sydney Baseball Stadium, Olympic Park' has no matching JSON venue.
+[GeoJSON Venue 13] 'Fairfield City Farm' has no matching JSON venue.
+[GeoJSON Venue 15] 'Sydney International Equestrian Centre (also known as SIEC)' has no matching JSON venue.
+[GeoJSON Venue 29] 'Sydney Convention Centre, Sydney Convention and Exhibition Centre' has no matching JSON venue.

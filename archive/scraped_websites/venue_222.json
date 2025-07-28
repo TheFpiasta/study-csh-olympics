@@ -1,0 +1,35 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Hurlingham Polo Grounds"
+    ],
+    "place": "London",
+    "coordinates": "51.468813,-0.201895",
+    "coordinates_trust": "Definitely here",
+    "year": "1908",
+    "season": "Summer",
+    "sports": [
+      "Polo"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1908 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/5"
+      },
+      {
+        "text": "Polo",
+        "link": "https://www.olympedia.org/sports/POL"
+      },
+      {
+        "text": "Polo, Men",
+        "link": "https://www.olympedia.org/results/30909"
+      },
+      {
+        "text": "18 – 21 June 1908"
+      }
+    ]
+  ]
+}

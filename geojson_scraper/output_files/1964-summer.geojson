@@ -1,0 +1,5344 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.714722,
+          35.678056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Kyogijo",
+          "National Stadium"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.678056,139.714722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1958",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Red clay cinders",
+        "altitude": "28 m",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/60072"
+            },
+            {
+              "text": "14 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/60093"
+            },
+            {
+              "text": "16 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/60112"
+            },
+            {
+              "text": "17 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/60130"
+            },
+            {
+              "text": "14 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/60143"
+            },
+            {
+              "text": "17 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/60153"
+            },
+            {
+              "text": "16 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/60160"
+            },
+            {
+              "text": "14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/60161"
+            },
+            {
+              "text": "21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/60162"
+            },
+            {
+              "text": "17 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/60173"
+            },
+            {
+              "text": "14 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/60184"
+            },
+            {
+              "text": "15 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/60192"
+            },
+            {
+              "text": "20 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/60201"
+            },
+            {
+              "text": "20 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "20 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/60190"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/60191"
+            },
+            {
+              "text": "18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/60207"
+            },
+            {
+              "text": "20 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/60226"
+            },
+            {
+              "text": "15 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/60246"
+            },
+            {
+              "text": "18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/60258"
+            },
+            {
+              "text": "16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/60270"
+            },
+            {
+              "text": "17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/60282"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/60294"
+            },
+            {
+              "text": "17 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/60306"
+            },
+            {
+              "text": "14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/60318"
+            },
+            {
+              "text": "19 – 20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/60360"
+            },
+            {
+              "text": "15 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Women",
+              "link": "https://www.olympedia.org/results/60377"
+            },
+            {
+              "text": "18 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Women",
+              "link": "https://www.olympedia.org/results/60389"
+            },
+            {
+              "text": "15 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/60398"
+            },
+            {
+              "text": "18 – 20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "80 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/60407"
+            },
+            {
+              "text": "18 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/60417"
+            },
+            {
+              "text": "20 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/60422"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Women",
+              "link": "https://www.olympedia.org/results/60443"
+            },
+            {
+              "text": "14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Women",
+              "link": "https://www.olympedia.org/results/60455"
+            },
+            {
+              "text": "20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/60467"
+            },
+            {
+              "text": "19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/60479"
+            },
+            {
+              "text": "16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pentathlon, Women",
+              "link": "https://www.olympedia.org/results/60491"
+            },
+            {
+              "text": "16 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185215"
+            },
+            {
+              "text": "24 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185218"
+            },
+            {
+              "text": "24 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_446.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.698648,
+          35.666485
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Yoyogi Kyogijo (Annex)",
+          "Yoyogi National Gymnasium (Annex)"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.666485,139.698648",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1961",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/32187"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_447.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.751939,
+          35.704319
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Korakuen Horu",
+          "Korakuen Hall"
+        ],
+        "place": "Bunkyo, Tokyo",
+        "coordinates": "35.704319,139.751939",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "notes": "Now part of Tokyo Dome City, formerly known as Big Egg City, prior to 2000.",
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/23312"
+            },
+            {
+              "text": "12 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/23345"
+            },
+            {
+              "text": "12 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/23382"
+            },
+            {
+              "text": "13 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/23419"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Welterweight, Men",
+              "link": "https://www.olympedia.org/results/23459"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/23500"
+            },
+            {
+              "text": "12 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/23535"
+            },
+            {
+              "text": "13 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/23565"
+            },
+            {
+              "text": "14 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/23590"
+            },
+            {
+              "text": "14 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/23614"
+            },
+            {
+              "text": "15 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_448.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717136,
+          35.674572
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Meiji Jingu Yakyujo"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.674572,139.717136",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900073"
+            },
+            {
+              "text": "11 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900074"
+            },
+            {
+              "text": "11 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900073"
+            },
+            {
+              "text": "11 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900074"
+            },
+            {
+              "text": "11 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_449.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.189042,
+          35.612415
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sagami-ko",
+          "Lake Sagami"
+        ],
+        "place": "Sagamihara, Kanagawa",
+        "coordinates": "35.612415,139.189042",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255227"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255240"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255252"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255264"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255270"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255276"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255282"
+            },
+            {
+              "text": "20 – 22 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_450.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293999,
+          35.647983
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hachioji Road Race Course"
+        ],
+        "place": "Hachioji, Tokyo",
+        "coordinates": "35.647983,139.293999",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/154007"
+            },
+            {
+              "text": "22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "100 kilometres Team Time Trial, Men",
+              "link": "https://www.olympedia.org/results/154008"
+            },
+            {
+              "text": "14 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_451.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.288801,
+          35.649141
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hachioji Jitenshakyogijo",
+          "Hachioji Velodrome"
+        ],
+        "place": "Hachioji, Tokyo",
+        "coordinates": "35.649141,139.288801",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1964",
+        "type": "temporary outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Concrete",
+        "additional_details": "45° curves, 15° straights",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153877"
+            },
+            {
+              "text": "17 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153876"
+            },
+            {
+              "text": "16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153935"
+            },
+            {
+              "text": "21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Individual Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153959"
+            },
+            {
+              "text": "16 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153984"
+            },
+            {
+              "text": "19 – 21 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_452.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.700278,
+          35.6675
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Yoyogi Kyogijo"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.6675,139.700278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54168"
+            },
+            {
+              "text": "12 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54171"
+            },
+            {
+              "text": "16 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54174"
+            },
+            {
+              "text": "11 – 12 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54177"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50117"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50126"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5654"
+            },
+            {
+              "text": "11 – 12 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5670"
+            },
+            {
+              "text": "14 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5680"
+            },
+            {
+              "text": "16 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/5728"
+            },
+            {
+              "text": "13 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/5742"
+            },
+            {
+              "text": "17 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/5688"
+            },
+            {
+              "text": "11 – 13 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/5699"
+            },
+            {
+              "text": "13 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/5710"
+            },
+            {
+              "text": "16 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/5721"
+            },
+            {
+              "text": "12 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Men",
+              "link": "https://www.olympedia.org/results/5756"
+            },
+            {
+              "text": "15 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/5770"
+            },
+            {
+              "text": "12 – 13 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/5782"
+            },
+            {
+              "text": "17 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/5822"
+            },
+            {
+              "text": "14 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/5790"
+            },
+            {
+              "text": "13 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/5797"
+            },
+            {
+              "text": "11 – 12 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/5804"
+            },
+            {
+              "text": "14 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/5815"
+            },
+            {
+              "text": "15 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Women",
+              "link": "https://www.olympedia.org/results/5836"
+            },
+            {
+              "text": "16 – 18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38391"
+            },
+            {
+              "text": "11 – 18 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_453.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633248,
+          35.636224
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Baji Koen Equestrian Park (also known as JRA Equestrian Park)"
+        ],
+        "place": "Setagaya, Tokyo",
+        "coordinates": "35.636224,139.633248",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185211"
+            },
+            {
+              "text": "22 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185214"
+            },
+            {
+              "text": "22 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/19012164"
+            },
+            {
+              "text": "24 – 28 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/19012189"
+            },
+            {
+              "text": "24 – 27 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/19012150"
+            },
+            {
+              "text": "3 –  4 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/19012160"
+            },
+            {
+              "text": "6 –  7 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/19012192"
+            },
+            {
+              "text": "30 July –  2 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/19012203"
+            },
+            {
+              "text": "30 July –  2 August 2021"
+            }
+          ]
+        ],
+        "source_file": "venue_454.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.615398,
+          36.315397
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Karuizawa Equestrian Venue"
+        ],
+        "place": "Karuizawa, Nagano",
+        "coordinates": "36.315397,138.615398",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185201"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185206"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_455.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.720806,
+          35.708183
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Memorial Hall, Waseda Daigaku",
+          "Memorial Hall, Waseda University"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.708183,139.720806",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/90541"
+            },
+            {
+              "text": "13 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/91563"
+            },
+            {
+              "text": "15 – 16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/90845"
+            },
+            {
+              "text": "18 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/92073"
+            },
+            {
+              "text": "20 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/91259"
+            },
+            {
+              "text": "19 – 20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/92604"
+            },
+            {
+              "text": "22 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/92978"
+            },
+            {
+              "text": "14 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Women",
+              "link": "https://www.olympedia.org/results/93205"
+            },
+            {
+              "text": "16 – 17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50117"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50126"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_456.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.718169,
+          35.672603
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Chichibunomiya Ragubijo",
+          "Prince Chichubu Rugby Stadium"
+        ],
+        "place": "Minato, Tokyo",
+        "coordinates": "35.672603,139.718169",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_457.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.663664,
+          35.625611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Stadium, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.625611,139.663664",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_458.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.601528,
+          35.470029
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mitsuzawa Stadium",
+          "Nippatsu Mitsuzawa Stadium (?-Present)"
+        ],
+        "place": "Yokohama",
+        "coordinates": "35.470029,139.601528",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1955",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_459.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633377,
+          35.916303
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Saitamashi Omiya Koen Sakkajo",
+          "Nakkufaibu Sutajiamu Omiya (2007-Presenet)"
+        ],
+        "place": "Saitama",
+        "coordinates": "35.916303,139.633377",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_460.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.518333,
+          34.613889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Osakashi Nagai Rikujo Kyogijo"
+        ],
+        "place": "Osaka",
+        "coordinates": "34.613889,135.518333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1964",
+        "seating_capacity": "23000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_461.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.713972,
+          34.993528
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nishikyogoku Sutajiamu",
+          "Nishiyogoku Athletic Stadium"
+        ],
+        "place": "Kyoto",
+        "coordinates": "34.993528,135.713972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1942",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33775"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_462.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7125,
+          35.679722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tōkyō Taiikukan",
+          "Tokyo Metropolitan Gymnasium"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.679722,139.7125",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Table Tennis"
+        ],
+        "notes": "Renovated in 1990.",
+        "opened": "1954",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70251"
+            },
+            {
+              "text": "18 – 20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70252"
+            },
+            {
+              "text": "18 – 20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70259"
+            },
+            {
+              "text": "18 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70262"
+            },
+            {
+              "text": "18 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70265"
+            },
+            {
+              "text": "18 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70268"
+            },
+            {
+              "text": "18 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70271"
+            },
+            {
+              "text": "18 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70274"
+            },
+            {
+              "text": "18 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Women",
+              "link": "https://www.olympedia.org/results/70283"
+            },
+            {
+              "text": "19 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Women",
+              "link": "https://www.olympedia.org/results/70286"
+            },
+            {
+              "text": "19 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Uneven Bars, Women",
+              "link": "https://www.olympedia.org/results/70289"
+            },
+            {
+              "text": "19 – 22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Balance Beam, Women",
+              "link": "https://www.olympedia.org/results/70292"
+            },
+            {
+              "text": "19 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Women",
+              "link": "https://www.olympedia.org/results/70277"
+            },
+            {
+              "text": "19 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70278"
+            },
+            {
+              "text": "19 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/19003870"
+            },
+            {
+              "text": "24 – 30 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/19003949"
+            },
+            {
+              "text": "1 –  6 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/19004030"
+            },
+            {
+              "text": "24 – 29 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/19004109"
+            },
+            {
+              "text": "1 –  5 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Doubles, Mixed",
+              "link": "https://www.olympedia.org/results/19004188"
+            },
+            {
+              "text": "24 – 26 July 2021"
+            }
+          ]
+        ],
+        "source_file": "venue_463.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.661766,
+          35.625241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Hockey Fields, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.625241,139.661766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35743"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_464.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75,
+          35.693333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nippon Budokan (also known as Budokan)"
+        ],
+        "place": "Chiyoda, Tokyo",
+        "coordinates": "35.693333,139.75",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Karate",
+          "Kendo",
+          "Kyudo",
+          "Sumo"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/15000"
+            },
+            {
+              "text": "20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/15046"
+            },
+            {
+              "text": "21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/15091"
+            },
+            {
+              "text": "22 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Open Class, Men",
+              "link": "https://www.olympedia.org/results/15118"
+            },
+            {
+              "text": "23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kyudo",
+              "link": "https://www.olympedia.org/sports/KYU"
+            },
+            {
+              "text": "Unknown Event, Men",
+              "link": "https://www.olympedia.org/results/900075"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sumo",
+              "link": "https://www.olympedia.org/sports/SUM"
+            },
+            {
+              "text": "Unknown Event, Men",
+              "link": "https://www.olympedia.org/results/900076"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Embusen, Open",
+              "link": "https://www.olympedia.org/results/930008"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Embusen, Open",
+              "link": "https://www.olympedia.org/results/930009"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Embusen, Open",
+              "link": "https://www.olympedia.org/results/930010"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Embusen, Open",
+              "link": "https://www.olympedia.org/results/930011"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Embusen, Open",
+              "link": "https://www.olympedia.org/results/930012"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Renshu, Open",
+              "link": "https://www.olympedia.org/results/930013"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Renshu, Open",
+              "link": "https://www.olympedia.org/results/930014"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930015"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930016"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930017"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930018"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930019"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930020"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - Red-White, Open",
+              "link": "https://www.olympedia.org/results/930021"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930022"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930023"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930024"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930025"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930026"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930027"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930028"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930029"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Kendo",
+              "link": "https://www.olympedia.org/sports/KEN"
+            },
+            {
+              "text": "Shiai - East-West, Open",
+              "link": "https://www.olympedia.org/results/930030"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Team, Mixed",
+              "link": "https://www.olympedia.org/results/18000780"
+            },
+            {
+              "text": "31 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/18000920"
+            },
+            {
+              "text": "24 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/18000962"
+            },
+            {
+              "text": "25 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/18001004"
+            },
+            {
+              "text": "26 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/18001046"
+            },
+            {
+              "text": "27 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/18001088"
+            },
+            {
+              "text": "28 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/18001130"
+            },
+            {
+              "text": "29 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/18001172"
+            },
+            {
+              "text": "30 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/18001214"
+            },
+            {
+              "text": "24 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/18001256"
+            },
+            {
+              "text": "25 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Women",
+              "link": "https://www.olympedia.org/results/18001298"
+            },
+            {
+              "text": "26 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Women",
+              "link": "https://www.olympedia.org/results/18001340"
+            },
+            {
+              "text": "27 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Women",
+              "link": "https://www.olympedia.org/results/18001382"
+            },
+            {
+              "text": "28 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/18001424"
+            },
+            {
+              "text": "29 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/18001466"
+            },
+            {
+              "text": "30 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kata, Men",
+              "link": "https://www.olympedia.org/results/18000100"
+            },
+            {
+              "text": "6 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kata, Women",
+              "link": "https://www.olympedia.org/results/18000115"
+            },
+            {
+              "text": "6 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, ≤67 kg, Men",
+              "link": "https://www.olympedia.org/results/18000130"
+            },
+            {
+              "text": "5 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, ≤75 kg, Men",
+              "link": "https://www.olympedia.org/results/18000159"
+            },
+            {
+              "text": "6 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, >75 kg, Men",
+              "link": "https://www.olympedia.org/results/18000188"
+            },
+            {
+              "text": "7 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, ≤55 kg, Women",
+              "link": "https://www.olympedia.org/results/18000217"
+            },
+            {
+              "text": "5 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, ≤61 kg, Women",
+              "link": "https://www.olympedia.org/results/18000246"
+            },
+            {
+              "text": "6 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Karate",
+              "link": "https://www.olympedia.org/sports/KTE"
+            },
+            {
+              "text": "Kumite, >61 kg, Women",
+              "link": "https://www.olympedia.org/results/18000275"
+            },
+            {
+              "text": "7 August 2021"
+            }
+          ]
+        ],
+        "source_file": "venue_465.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.580297,
+          35.779749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Asaka Shooting Range, Nezu Park"
+        ],
+        "place": "Asaka, Saitama",
+        "coordinates": "35.779749,139.580297",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50117"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50126"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Rapid-Fire Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51695"
+            },
+            {
+              "text": "19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51696"
+            },
+            {
+              "text": "18 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Three Positions, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51703"
+            },
+            {
+              "text": "15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51699"
+            },
+            {
+              "text": "20 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51698"
+            },
+            {
+              "text": "16 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_466.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.580297,
+          35.779749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nezu Park"
+        ],
+        "place": "Asaka, Saitama",
+        "coordinates": "35.779749,139.580297",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50117"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50126"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_467.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763507,
+          35.711969
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Combined Athletic Grounds, Tokyo Daigaku",
+          "Combined Athletic Grounds, Tokyo University"
+        ],
+        "place": "Bunkyo, Tokyo",
+        "coordinates": "35.711969,139.763507",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50117"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50126"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_468.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.657783,
+          35.803865
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Toda Rowing Course"
+        ],
+        "place": "Toda, Saitama",
+        "coordinates": "35.803865,139.657783",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "opened": "1939",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/158392"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/158403"
+            },
+            {
+              "text": "12 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/158414"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/158425"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/158436"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/158447"
+            },
+            {
+              "text": "11 – 15 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/158458"
+            },
+            {
+              "text": "12 – 15 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_469.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.438992,
+          35.28066
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Enoshima, Sagami-wan",
+        "coordinates": "35.28066,139.438992",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9733"
+            },
+            {
+              "text": "12 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/9746"
+            },
+            {
+              "text": "12 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Three Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/9772"
+            },
+            {
+              "text": "12 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Heavyweight Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9759"
+            },
+            {
+              "text": "12 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "5.5 metres, Open",
+              "link": "https://www.olympedia.org/results/9785"
+            },
+            {
+              "text": "12 – 21 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Men",
+              "link": "https://www.olympedia.org/results/19008700"
+            },
+            {
+              "text": "25 – 31 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Men",
+              "link": "https://www.olympedia.org/results/19008725"
+            },
+            {
+              "text": "25 July –  1 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Men",
+              "link": "https://www.olympedia.org/results/19008746"
+            },
+            {
+              "text": "28 July –  4 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Skiff, Men",
+              "link": "https://www.olympedia.org/results/19008767"
+            },
+            {
+              "text": "27 July –  3 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Heavyweight Dinghy, Men",
+              "link": "https://www.olympedia.org/results/19008792"
+            },
+            {
+              "text": "27 July –  3 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Women",
+              "link": "https://www.olympedia.org/results/19008813"
+            },
+            {
+              "text": "25 – 31 July 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Women",
+              "link": "https://www.olympedia.org/results/19008838"
+            },
+            {
+              "text": "25 July –  1 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Women",
+              "link": "https://www.olympedia.org/results/19008859"
+            },
+            {
+              "text": "28 July –  4 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Skiff, Women",
+              "link": "https://www.olympedia.org/results/19008880"
+            },
+            {
+              "text": "27 July –  3 August 2021"
+            }
+          ],
+          [
+            {
+              "text": "2020 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/61"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Multihull, Mixed",
+              "link": "https://www.olympedia.org/results/19008905"
+            },
+            {
+              "text": "28 July –  3 August 2021"
+            }
+          ]
+        ],
+        "source_file": "venue_470.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.466667,
+          35.8
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tokorozawa Clay Pigeon Shooting Range"
+        ],
+        "place": "Tokorozawa, Saitama",
+        "coordinates": "35.8,139.466667",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Men",
+              "link": "https://www.olympedia.org/results/51707"
+            },
+            {
+              "text": "15 – 17 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_473.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.662938,
+          35.623057
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Volleyball Court, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.623057,139.662938",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1964",
+        "seating_capacity": "3908",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37000"
+            },
+            {
+              "text": "13 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Women",
+              "link": "https://www.olympedia.org/results/37048"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_474.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.636542,
+          35.441047
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yokohama Bunka Taiikukan",
+          "Yokohama Cultural Gymnasium"
+        ],
+        "place": "Naka, Yokohama",
+        "coordinates": "35.441047,139.636542",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37000"
+            },
+            {
+              "text": "13 – 23 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Women",
+              "link": "https://www.olympedia.org/results/37048"
+            },
+            {
+              "text": "11 – 23 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_475.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.711223,
+          35.679075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tōkyō Taiikukan Indoor Swimming Pool",
+          "Tokyo Metropolitan Indoor Swimming Pool"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.679075,139.711223",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1957",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38391"
+            },
+            {
+              "text": "11 – 18 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_476.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.697753,
+          35.664319
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shibuya Kokaido",
+          "Shibuya CC Remon Horu (?-Present)"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.664319,139.697753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/29285"
+            },
+            {
+              "text": "11 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/29299"
+            },
+            {
+              "text": "12 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/29313"
+            },
+            {
+              "text": "13 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/29327"
+            },
+            {
+              "text": "14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29341"
+            },
+            {
+              "text": "16 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middle-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29355"
+            },
+            {
+              "text": "17 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29369"
+            },
+            {
+              "text": "18 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_477.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.660753,
+          35.624774
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Gymnasium, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.624774,139.660753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125266"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125303"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125340"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125396"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125440"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125485"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125527"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/125565"
+            },
+            {
+              "text": "16 – 19 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/124937"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/124983"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125026"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125071"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125116"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125161"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125196"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/16"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/125234"
+            },
+            {
+              "text": "11 – 14 October 1964"
+            }
+          ]
+        ],
+        "source_file": "venue_478.json"
+      }
+    }
+  ]
+}

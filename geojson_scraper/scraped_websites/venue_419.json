@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Circuito Grottarossa",
+      "Grottarossa Circuit"
+    ],
+    "place": "Roma",
+    "coordinates": "41.955693,12.481365",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Road"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Cycling Road",
+        "link": "https://www.olympedia.org/sports/CRD"
+      },
+      {
+        "text": "Road Race, Individual, Men",
+        "link": "https://www.olympedia.org/results/153874"
+      },
+      {
+        "text": "30 August 1960"
+      }
+    ]
+  ]
+}

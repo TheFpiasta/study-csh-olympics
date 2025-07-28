@@ -1,0 +1,1007 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.282972,
+          51.558083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wembley Arena",
+          "Empire Pool (1934-1978)"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.558083,-0.282972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          },
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Boxing",
+          "Diving",
+          "Rhythmic Gymnastics",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1934",
+        "seating_capacity": "6000 (2012)",
+        "type": "indoor venue",
+        "source_file": "venue_342.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0106,
+          51.5402
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "London Aquatics Centre, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5402,-0.0106",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming"
+        ],
+        "opened": "2011",
+        "seating_capacity": "17500",
+        "type": "indoor venue",
+        "dimensions": "50 m (SWI)",
+        "source_file": "venue_855.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0139,
+          51.5486
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Basketball Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5486,-0.0139",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "2011",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "source_file": "venue_856.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.013223,
+          51.550818
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "BMX Track, London Velopark, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.550818,-0.013223",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling BMX Racing"
+        ],
+        "opened": "2011",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_857.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.495556,
+          52.448056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "City of Coventry Stadium",
+          "Ricoh Arena (2005-present)"
+        ],
+        "place": "Coventry",
+        "coordinates": "52.448056,-1.495556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2005",
+        "seating_capacity": "32500",
+        "type": "outdoor venue",
+        "source_file": "venue_858.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.197778,
+          51.488889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Earls Court Exhibition Centre"
+        ],
+        "place": "Kensington and Chelsea, London",
+        "coordinates": "51.488889,-0.197778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "notes": "Different venue from the nearby Empress Hall (now demolished) used at the 1948 Olympics.",
+        "opened": "1937",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "source_file": "venue_859.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6655,
+          51.4933
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eton Dorney (also known as Dorney Lake, Eton College Rowing Centre)"
+        ],
+        "place": "Windsor",
+        "coordinates": "51.4933,-0.6655",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2006",
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "source_file": "venue_860.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.029722,
+          51.5075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "ExCeL (also known as Exhibition Centre London)"
+        ],
+        "place": "Newham, London",
+        "coordinates": "51.5075,0.029722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Fencing",
+          "Judo",
+          "Table Tennis",
+          "Taekwondo",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "opened": "2000",
+        "seating_capacity": "6000 (TKW/TTN/WLT), 10000 (BOX/JUD/WRE), 8000 (FEN)",
+        "type": "indoor venue",
+        "source_file": "venue_861.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.002618,
+          51.479562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Greenwich Park"
+        ],
+        "place": "Greenwich, London",
+        "coordinates": "51.479562,-0.002618",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1433",
+        "seating_capacity": "23000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_862.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.60883,
+          51.54387
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hadleigh Farm"
+        ],
+        "place": "Hadleigh, Essex",
+        "coordinates": "51.54387,0.60883",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "opened": "2012",
+        "seating_capacity": "20000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_863.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.252003,
+          55.825864
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hampden Park"
+        ],
+        "place": "Glasgow",
+        "coordinates": "55.825864,-4.252003",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1903",
+        "seating_capacity": "52000",
+        "type": "outdoor venue",
+        "source_file": "venue_864.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0201,
+          51.5444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Copper Box, Olympic Park",
+          "Handball Arena (2011-2012)"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5444,-0.0201",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball",
+          "Modern Pentathlon"
+        ],
+        "opened": "2011",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "source_file": "venue_865.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.020556,
+          51.549444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riverbank Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.549444,-0.020556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "2012",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_866.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1283,
+          51.5047
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Horse Guards Parade, Centre Court"
+        ],
+        "place": "London",
+        "coordinates": "51.5047,-0.1283",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "opened": "±1650",
+        "seating_capacity": "15000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_867.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.165702,
+          51.505921
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hyde Park"
+        ],
+        "place": "London",
+        "coordinates": "51.505921,-0.165702",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Marathon Swimming",
+          "Triathlon"
+        ],
+        "opened": "2012",
+        "seating_capacity": "3000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_868.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0156,
+          51.6883
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lee Valley White Water Centre",
+          "Broxbourne White Water Canoe Centre (2010-?)"
+        ],
+        "place": "Waltham Cross",
+        "coordinates": "51.6883,-0.0156",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "2010",
+        "seating_capacity": "12000",
+        "type": "outdoor venue",
+        "dimensions": "300 m",
+        "source_file": "venue_869.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1727,
+          51.5294
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lord's Cricket Ground"
+        ],
+        "place": "St John's Wood, London",
+        "coordinates": "51.5294,-0.1727",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1814",
+        "seating_capacity": "6500",
+        "type": "outdoor venue",
+        "source_file": "venue_870.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1825,
+          51.478056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadiwm y Mileniwm",
+          "Millennium Stadium"
+        ],
+        "place": "Cardiff",
+        "coordinates": "51.478056,-3.1825",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1999",
+        "seating_capacity": "74600",
+        "type": "outdoor venue",
+        "source_file": "venue_871.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.003133,
+          51.502997
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "North Greenwich Arena",
+          "O2 Arena (2007-present)"
+        ],
+        "place": "Greenwich, London",
+        "coordinates": "51.502997,0.003133",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Trampolining"
+        ],
+        "opened": "2007",
+        "seating_capacity": "16500 (GYM), 20000 (BAS)",
+        "type": "indoor venue",
+        "source_file": "venue_872.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.291389,
+          53.463056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Old Trafford",
+          "Sports Direct Arena"
+        ],
+        "place": "Manchester",
+        "coordinates": "53.463056,-2.291389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1910",
+        "seating_capacity": "76000",
+        "type": "outdoor venue",
+        "source_file": "venue_873.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.016389,
+          51.538611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Stadium, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.538611,-0.016389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "2011",
+        "seating_capacity": "80000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "source_file": "venue_874.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.058593,
+          51.481371
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Artillery Barracks"
+        ],
+        "place": "Woolwich, London",
+        "coordinates": "51.481371,0.058593",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1802",
+        "seating_capacity": "7500",
+        "type": "temporary indoor venue",
+        "source_file": "venue_875.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621667,
+          54.975556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "St James' Park"
+        ],
+        "place": "Newcastle",
+        "coordinates": "54.975556,-1.621667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1892",
+        "seating_capacity": "52000",
+        "type": "outdoor venue",
+        "source_file": "venue_876.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130259,
+          51.506066
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Mall"
+        ],
+        "place": "London",
+        "coordinates": "51.506066,-0.130259",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Cycling Road"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_877.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0153,
+          51.5504
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velodrome, London Velopark, Olympic Park (also known as The Pringle)"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5504,-0.0153",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "2011",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "source_file": "venue_878.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.012896,
+          51.541486
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Water Polo Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.541486,-0.012896",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "2012",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_879.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.278955,
+          51.555935
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wembley Stadium"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.555935,-0.278955",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Built on same location as main stadium of the 1948 Olympics",
+        "opened": "2007",
+        "seating_capacity": "90000",
+        "type": "outdoor venue",
+        "source_file": "venue_880.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.455753,
+          50.570692
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Weymouth and Portland National Sailing Academy"
+        ],
+        "place": "Isle of Portland",
+        "coordinates": "50.570692,-2.455753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2000",
+        "seating_capacity": "4600",
+        "type": "outdoor venue",
+        "source_file": "venue_881.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.214064,
+          51.433744
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "All-England Lawn Tennis & Croquet Club"
+        ],
+        "place": "Wimbledon, London",
+        "coordinates": "51.433744,-0.214064",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "Different venue then used at the 1908 Olympics, when the club was located at Worple Road.",
+        "opened": "1922",
+        "seating_capacity": "15000 (centre court) / 30000 (total)",
+        "type": "outdoor venue",
+        "surface": "Grass",
+        "source_file": "venue_882.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.340972,
+          51.405771
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hampton Court Palace"
+        ],
+        "place": "Richmond upon Thames, London",
+        "coordinates": "51.405771,-0.340972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "opened": "1514",
+        "type": "outdoor venue",
+        "source_file": "venue_883.json",
+        "Olympics": "2012 London"
+      }
+    }
+  ]
+}

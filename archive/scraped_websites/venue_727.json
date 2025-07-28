@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Legion Field"
+    ],
+    "place": "Birmingham, Alabama",
+    "coordinates": "33.511389,-86.842778",
+    "coordinates_trust": "Definitely here",
+    "year": "1996",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1926",
+    "seating_capacity": "81700",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34098"
+      },
+      {
+        "text": "20 July –  3 August 1996"
+      }
+    ],
+    [
+      {
+        "text": "1996 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/24"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Women",
+        "link": "https://www.olympedia.org/results/34139"
+      },
+      {
+        "text": "21 July –  1 August 1996"
+      }
+    ]
+  ]
+}

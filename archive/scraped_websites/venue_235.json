@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Råsunda Idrottsplats",
+      "Råsunda Sports Grounds",
+      "Råsunda Fotbollstadion (1937-present)"
+    ],
+    "place": "Solna",
+    "coordinates": "59.362742,17.996308",
+    "coordinates_trust": "Definitely here",
+    "year": "1912",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1910",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1912 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/6"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33530"
+      },
+      {
+        "text": "29 June –  5 July 1912"
+      }
+    ]
+  ]
+}

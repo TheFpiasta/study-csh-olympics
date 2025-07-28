@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Torino Esposizioni",
+      "Torino Exposition"
+    ],
+    "place": "Torino",
+    "coordinates": "45.048611,7.682222",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2006",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Ice Hockey"
+    ],
+    "opened": "1949",
+    "seating_capacity": "5400",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2006 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/49"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20848"
+      },
+      {
+        "text": "15 – 26 February 2006"
+      }
+    ],
+    [
+      {
+        "text": "2006 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/49"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Women",
+        "link": "https://www.olympedia.org/results/20893"
+      },
+      {
+        "text": "11 – 20 February 2006"
+      }
+    ]
+  ]
+}

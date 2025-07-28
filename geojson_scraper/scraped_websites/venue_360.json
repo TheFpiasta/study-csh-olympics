@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Guinness Sports Ground"
+    ],
+    "place": "Park Royal, London",
+    "coordinates": "51.53092,-0.284953",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "demolished": "?",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35579"
+      },
+      {
+        "text": "31 July – 13 August 1948"
+      }
+    ]
+  ]
+}

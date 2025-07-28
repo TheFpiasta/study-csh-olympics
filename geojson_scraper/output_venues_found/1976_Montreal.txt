@@ -1,0 +1,31 @@
+[Part Name Match] JSON Venue 2 'Aréna Saint-Michel' matched with GeoJSON Venue 22: Aréna Saint-Michel
+[Part Name Match] JSON Venue 4 'Stade d'hiver de l'Université de Montréal' matched with GeoJSON Venue 11: Stade d'Hiver de l'Université de Montréal
+[Part Name Match] JSON Venue 6 'Centre Paul-Sauvé' matched with GeoJSON Venue 21: Centre Paul-Sauvé
+[Part Name Match] JSON Venue 11 'Centre Claude-Robillard' matched with GeoJSON Venue 15: Centre Claude-Robillard
+[Part Name Match] JSON Venue 12 'Piscine Olympique' matched with GeoJSON Venue 9: Piscine olympique
+[Part Name Match] JSON Venue 14 'Circuit Mont-Royal' matched with GeoJSON Venue 6: Circuit Mont-Royal
+[Part Name Match] JSON Venue 15 'Circuit Fairview' matched with GeoJSON Venue 7: Circuit Fairview
+[Part Name Match] JSON Venue 16 'Stand de tir olympique' matched with GeoJSON Venue 19: Stand de tir olympique
+[Part Name Match] JSON Venue 17 'Terrain de tir à l'arc olympique' matched with GeoJSON Venue 0: Terrain de tir à l'arc olympique
+[Use/Sport + Name Match] JSON Venue 19 - Parc Lansdowne ↔ GeoJSON Venue 13 - Lansdowne Park | UseSim: 1.00, NameSim: 0.93, Score: 0.98 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 20 - Stade de Sherbrooke ↔ GeoJSON Venue 14 - Stade Sherbrooke | UseSim: 1.00, NameSim: 0.91, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 18 - Stade Varsity ↔ GeoJSON Venue 12 - Varsity Stadium | UseSim: 1.00, NameSim: 0.86, Score: 0.96 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 21 - Palais des sports de Sherbrooke ↔ GeoJSON Venue 17 - Palais des Sports | UseSim: 1.00, NameSim: 0.71, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 7 - Centre Etienne-Desmarteau ↔ GeoJSON Venue 2 - Centre Étienne Desmarteau | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 22 - Centre olympique de yachting ↔ GeoJSON Venue 20 - Olympic Yachting Centre, Portsmouth Harbour | UseSim: 1.00, NameSim: 0.69, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Bassin Olympique ↔ GeoJSON Venue 5 - Bassin olympique, Île Notre Dame | UseSim: 1.00, NameSim: 0.68, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 23 - Pavillon de l'éducation physique et des sports, Université Laval ↔ GeoJSON Venue 16 - Pavillon de l'Éducation Physique et des Sports de l'Université Laval (also known as PEPS Laval) | UseSim: 1.00, NameSim: 0.67, Score: 0.90 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Olympic Velodrome ↔ GeoJSON Venue 8 - Vélodrome olympique, Parc olympique | UseSim: 1.00, NameSim: 0.63, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Centre Sportif maisonneuve (Centre Pierre Charbonneau) ↔ GeoJSON Venue 23 - Centre Pierre-Charbonneau, Parc olympique | UseSim: 1.00, NameSim: 0.48, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Stade Molson de l'Université McGill ↔ GeoJSON Venue 18 - Stade Percival-Molson (also known as Stade Molson, Molson Stadium) | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 1 - Aréna Maurice Richard ↔ GeoJSON Venue 4 - Aréna Maurice-Richard | UseSim: 0.67, NameSim: 0.98, Score: 0.76 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Stade Olympique de Montréal ↔ GeoJSON Venue 1 - Stade olympique, Parc olympique | UseSim: 0.67, NameSim: 0.60, Score: 0.65 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 5] 'Forum' has no matching GeoJSON venue.
+[JSON Venue 13] 'Montreal Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 24] 'Centre Equestre olympique' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 3] 'Le Forum de Montréal' has no matching JSON venue.
+[GeoJSON Venue 10] 'Centre équestre olympique' has no matching JSON venue.

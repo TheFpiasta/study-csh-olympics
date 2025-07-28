@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Komazawa Volleyball Court, Komazawa Olympic Park"
+    ],
+    "place": "Tokyo",
+    "coordinates": "35.623057,139.662938",
+    "coordinates_trust": "Definitely here",
+    "year": "1964",
+    "season": "Summer",
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1964",
+    "seating_capacity": "3908",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37000"
+      },
+      {
+        "text": "13 – 23 October 1964"
+      }
+    ],
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37048"
+      },
+      {
+        "text": "11 – 23 October 1964"
+      }
+    ]
+  ]
+}

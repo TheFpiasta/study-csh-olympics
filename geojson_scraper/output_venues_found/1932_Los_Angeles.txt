@@ -1,0 +1,22 @@
+[Part Name Match] JSON Venue 6 'Riviera Country Club' matched with GeoJSON Venue 6: Riviera Country Club
+[Part Name Match] JSON Venue 8 'Long Beach Marine Stadium' matched with GeoJSON Venue 10: Long Beach Marine Stadium
+[Use/Sport + Name Match] JSON Venue 4 - Los Angeles Olympic Auditorium ↔ GeoJSON Venue 2 - Grand Olympic Auditorium | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Los Angeles Harbour ↔ GeoJSON Venue 11 - Port of Los Angeles | UseSim: 1.00, NameSim: 0.58, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Coast Highway ↔ GeoJSON Venue 3 - Santa Monica Canyon | UseSim: 1.00, NameSim: 0.38, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 9 - Swimming stadium ↔ GeoJSON Venue 5 - Olympic Park Swimming Stadium | UseSim: 0.83, NameSim: 0.71, Score: 0.80 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - Los Angeles Police Pistol Range ↔ GeoJSON Venue 8 - Los Angeles Police Pistol Range, Elysian Park | UseSim: 0.67, NameSim: 0.83, Score: 0.71 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Rose Bowl Stadium ↔ GeoJSON Venue 4 - Rose Bowl | UseSim: 0.67, NameSim: 0.69, Score: 0.67 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Los Angeles Olympic Stadium' has no matching GeoJSON venue.
+[JSON Venue 2] 'Fencing Stadium/Pavilion' has no matching GeoJSON venue.
+[JSON Venue 7] 'Sunset Fields Golf Club of Los Angeles' has no matching GeoJSON venue.
+[JSON Venue 11] 'Griffith Park area' has no matching GeoJSON venue.
+[JSON Venue 12] 'Inglewood area' has no matching GeoJSON venue.
+[JSON Venue 13] 'Los Angeles Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Los Angeles Memorial Coliseum' has no matching JSON venue.
+[GeoJSON Venue 1] 'Los Angeles Museum of History, Science and Art' has no matching JSON venue.
+[GeoJSON Venue 7] 'State Armory of the 160th Infantry, Olympic Park' has no matching JSON venue.
+[GeoJSON Venue 9] 'Sunset Fields Golf Club' has no matching JSON venue.

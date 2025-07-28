@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kazakoshi Park Arena"
+    ],
+    "place": "Karuizawa",
+    "coordinates": "36.322931,138.596499",
+    "coordinates_trust": "Most likely here",
+    "games": [
+      {
+        "year": "1998",
+        "season": "Winter"
+      }
+    ],
+    "sports": [
+      "Curling"
+    ],
+    "seating_capacity": "1924",
+    "type": "indoor venue",
+    "dimensions": "30 m x 60 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/2481"
+      },
+      {
+        "text": "9 – 15 February 1998"
+      }
+    ],
+    [
+      {
+        "text": "1998 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/46"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/2520"
+      },
+      {
+        "text": "9 – 15 February 1998"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Kokuritsu Yoyogi Kyogijo (Annex)",
+      "Yoyogi National Gymnasium (Annex)"
+    ],
+    "place": "Shibuya, Tokyo",
+    "coordinates": "35.666485,139.698648",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1964",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1961",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/16"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32187"
+      },
+      {
+        "text": "11 – 23 October 1964"
+      }
+    ]
+  ]
+}

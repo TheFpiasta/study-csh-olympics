@@ -1,0 +1,402 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Stadio Olimpico del Nuoto",
+      "Olympic Swimming Stadium"
+    ],
+    "place": "Roma",
+    "coordinates": "41.929334,12.457627",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1960",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Diving",
+      "Modern Pentathlon",
+      "Swimming",
+      "Water Polo"
+    ],
+    "notes": "Outdoor pool.",
+    "opened": "1959",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Men",
+        "link": "https://www.olympedia.org/results/54153"
+      },
+      {
+        "text": "27 – 29 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Men",
+        "link": "https://www.olympedia.org/results/54157"
+      },
+      {
+        "text": "31 August –  2 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Springboard, Women",
+        "link": "https://www.olympedia.org/results/54161"
+      },
+      {
+        "text": "26 – 27 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Diving",
+        "link": "https://www.olympedia.org/sports/DIV"
+      },
+      {
+        "text": "Platform, Women",
+        "link": "https://www.olympedia.org/results/54165"
+      },
+      {
+        "text": "29 – 30 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50099"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50108"
+      },
+      {
+        "text": "26 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5489"
+      },
+      {
+        "text": "26 – 27 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5503"
+      },
+      {
+        "text": "30 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "1,500 metres Freestyle, Men",
+        "link": "https://www.olympedia.org/results/5512"
+      },
+      {
+        "text": "2 –  3 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 200 metres Freestyle Relay, Men",
+        "link": "https://www.olympedia.org/results/5556"
+      },
+      {
+        "text": "29 August –  1 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Men",
+        "link": "https://www.olympedia.org/results/5520"
+      },
+      {
+        "text": "30 – 31 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Men",
+        "link": "https://www.olympedia.org/results/5531"
+      },
+      {
+        "text": "26 – 30 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Butterfly, Men",
+        "link": "https://www.olympedia.org/results/5544"
+      },
+      {
+        "text": "31 August –  2 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Men",
+        "link": "https://www.olympedia.org/results/5570"
+      },
+      {
+        "text": "27 August –  1 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/5588"
+      },
+      {
+        "text": "26 – 29 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "400 metres Freestyle, Women",
+        "link": "https://www.olympedia.org/results/5599"
+      },
+      {
+        "text": "31 August –  1 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Freestyle Relay, Women",
+        "link": "https://www.olympedia.org/results/5626"
+      },
+      {
+        "text": "2 –  3 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Backstroke, Women",
+        "link": "https://www.olympedia.org/results/5605"
+      },
+      {
+        "text": "1 –  3 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "200 metres Breaststroke, Women",
+        "link": "https://www.olympedia.org/results/5612"
+      },
+      {
+        "text": "26 – 27 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "100 metres Butterfly, Women",
+        "link": "https://www.olympedia.org/results/5619"
+      },
+      {
+        "text": "29 – 30 August 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Swimming",
+        "link": "https://www.olympedia.org/sports/SWM"
+      },
+      {
+        "text": "4 × 100 metres Medley Relay, Women",
+        "link": "https://www.olympedia.org/results/5640"
+      },
+      {
+        "text": "30 August –  2 September 1960"
+      }
+    ],
+    [
+      {
+        "text": "1960 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/15"
+      },
+      {
+        "text": "Water Polo",
+        "link": "https://www.olympedia.org/sports/WPO"
+      },
+      {
+        "text": "Water Polo, Men",
+        "link": "https://www.olympedia.org/results/38341"
+      },
+      {
+        "text": "25 August –  3 September 1960"
+      }
+    ]
+  ]
+}

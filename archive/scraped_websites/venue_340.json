@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Harringay Arena"
+    ],
+    "place": "Harringay, London",
+    "coordinates": "51.576257,-0.097697",
+    "coordinates_trust": "Definitely here",
+    "year": "1948",
+    "season": "Summer",
+    "sports": [
+      "Basketball"
+    ],
+    "opened": "1936",
+    "demolished": "1978",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/31863"
+      },
+      {
+        "text": "30 July – 13 August 1948"
+      }
+    ]
+  ]
+}

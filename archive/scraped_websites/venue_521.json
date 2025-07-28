@@ -1,0 +1,37 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Drei-Flüsse-Stadion",
+      "Three Rivers Stadium"
+    ],
+    "place": "Passau",
+    "coordinates": "48.564755,13.422981",
+    "coordinates_trust": "Definitely here",
+    "year": "1972",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1969",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33855"
+      },
+      {
+        "text": "27 August – 10 September 1972"
+      }
+    ]
+  ]
+}

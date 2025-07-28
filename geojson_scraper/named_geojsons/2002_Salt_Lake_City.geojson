@@ -1,0 +1,349 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.860616,
+          41.216332
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Snowbasin Ski Resort"
+        ],
+        "place": "Huntsville, Utah",
+        "coordinates": "41.216332,-111.860616",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1939",
+        "seating_capacity": "22500",
+        "type": "outdoor venue",
+        "altitude": "1957 m",
+        "source_file": "venue_125.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.478963,
+          40.63589
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Deer Valley Resort"
+        ],
+        "place": "Deer Valley, Utah",
+        "coordinates": "40.63589,-111.478963",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Freestyle Skiing"
+        ],
+        "opened": "1981",
+        "seating_capacity": "13400",
+        "type": "outdoor venue",
+        "altitude": "2002 m",
+        "source_file": "venue_126.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.50165,
+          40.645716
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Park City Mountain Resort"
+        ],
+        "place": "Park City, Utah",
+        "coordinates": "40.645716,-111.50165",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Snowboarding"
+        ],
+        "opened": "1963",
+        "seating_capacity": "16000",
+        "type": "outdoor venue",
+        "altitude": "2117 m",
+        "source_file": "venue_127.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.497222,
+          40.479167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Soldier Hollow"
+        ],
+        "place": "Wasatch Mountain State Park",
+        "coordinates": "40.479167,-111.497222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "2000",
+        "seating_capacity": "15200",
+        "type": "outdoor venue",
+        "altitude": "1670 m",
+        "source_file": "venue_128.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.56193,
+          40.71207
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Utah Olympic Park"
+        ],
+        "place": "Park City, Utah",
+        "coordinates": "40.71207,-111.56193",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Nordic Combined",
+          "Skeleton",
+          "Ski Jumping"
+        ],
+        "notes": "Two parts: Bobsleigh/Skeleton/Luge Track and Ski Jumps",
+        "opened": "1997",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "altitude": "2097 m",
+        "source_file": "venue_129.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950417,
+          40.702722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "E Center",
+          "Maverik Center (2010-Present)"
+        ],
+        "place": "Salt Lake City, Utah",
+        "coordinates": "40.702722,-111.950417",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1997",
+        "seating_capacity": "10500",
+        "type": "indoor venue",
+        "altitude": "1250 m",
+        "source_file": "venue_130.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.638056,
+          40.234722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Peaks Ice Arena"
+        ],
+        "place": "Provo, Utah",
+        "coordinates": "40.234722,-111.638056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1998",
+        "seating_capacity": "8400",
+        "type": "indoor venue",
+        "altitude": "1388 m",
+        "source_file": "venue_131.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.901111,
+          40.768333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Salt Lake Ice Center",
+          "Delta Center (1991-2006), EnergySolutions Arena (2006-Present)"
+        ],
+        "place": "Salt Lake City, Utah",
+        "coordinates": "40.768333,-111.901111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "notes": "Then known as the Delta Center; currently the EnergySolutions Arena.",
+        "opened": "1991",
+        "seating_capacity": "17500",
+        "type": "indoor venue",
+        "altitude": "1305 m",
+        "source_file": "venue_132.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.00877,
+          40.64784
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Utah Olympic Oval"
+        ],
+        "place": "Kearns, Utah",
+        "coordinates": "40.64784,-112.00877",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2001",
+        "seating_capacity": "5236",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "1425 m",
+        "source_file": "venue_133.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.946389,
+          41.183333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Ice Sheet (also known as Weber County Ice Sheet)"
+        ],
+        "place": "Ogden, Utah",
+        "coordinates": "41.183333,-111.946389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "opened": "1994",
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "altitude": "1460 m",
+        "source_file": "venue_134.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    }
+  ]
+}

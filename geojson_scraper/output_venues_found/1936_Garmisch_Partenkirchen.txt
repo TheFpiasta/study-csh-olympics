@@ -1,0 +1,10 @@
+[Part Name Match] JSON Venue 0 'Olympia-Kunsteisstadion/Eisstadium (Olympia Artificial Ice Stadium)' matched with GeoJSON Venue 1: Olympia-Kunsteisstadion
+[Part Name Match] JSON Venue 2 'Gudiberg' matched with GeoJSON Venue 5: Gudiberg
+[Part Name Match] JSON Venue 5 'Kreuzeck-Gebiet' matched with GeoJSON Venue 4: Kreuzeck-Gebiet
+[Use/Sport + Name Match] JSON Venue 4 - Olympia Bobbahn ↔ GeoJSON Venue 3 - Olympia-Bobbahn | UseSim: 1.00, NameSim: 0.48, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 3 - Olympia Eissportplatz am Riessersee / Riessersee Ice Rink ↔ GeoJSON Venue 2 - Olympia-Eissportplatz am Rießersee | UseSim: 0.83, NameSim: 0.57, Score: 0.75 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Olympia Skistadion ↔ GeoJSON Venue 0 - Olympia-Skistadion | UseSim: 0.56, NameSim: 0.97, Score: 0.68 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+
+--- Unmatched GeoJSON Venues ---

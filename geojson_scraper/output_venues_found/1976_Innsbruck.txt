@@ -1,0 +1,15 @@
+[Part Name Match] JSON Venue 5 'Patscherkofel' matched with GeoJSON Venue 4: Patscherkofel
+[Part Name Match] JSON Venue 6 'Axamer Lizum' matched with GeoJSON Venue 5: Axamer Lizum
+[Use/Sport + Name Match] JSON Venue 0 - Bergisel Ski Jump (Bergiselschanze) ↔ GeoJSON Venue 0 - Bergiselschanze | UseSim: 1.00, NameSim: 0.62, Score: 0.89 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Olympic Ice Stadium ↔ GeoJSON Venue 3 - Olympiaeisstadion | UseSim: 0.89, NameSim: 0.61, Score: 0.81 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Kombinierte Kunsteisbahn für Bob-Rodel Igls ↔ GeoJSON Venue 1 - Kunsteis-Bob- und Rodelbahn | UseSim: 0.83, NameSim: 0.36, Score: 0.69 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 1 - Olympic Speed Skating Oval (Olympia Eisschnellaufbahn) ↔ GeoJSON Venue 7 - Eisschnellaufbahn im Olympiaeisstadion | UseSim: 0.67, NameSim: 0.60, Score: 0.65 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 2 - Messehalle (Indoor Skating Rink) ↔ GeoJSON Venue 8 - Kunsteisbahn, Messehalle | UseSim: 0.67, NameSim: 0.49, Score: 0.61 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Toni Seelos Schanze (Olympiaschanze) ↔ GeoJSON Venue 2 - Kombinationssprungschanze | UseSim: 0.67, NameSim: 0.34, Score: 0.57 | Match: 🟡 (weak name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 4] 'Innsbruck Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 7] 'Seefeld' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 6] 'Langlaufstadion' has no matching JSON venue.

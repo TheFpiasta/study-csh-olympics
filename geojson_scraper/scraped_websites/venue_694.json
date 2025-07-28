@@ -1,0 +1,57 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio Pau Negre",
+      "Pau Negre Stadium"
+    ],
+    "place": "Barcelona",
+    "coordinates": "41.361245,2.154904",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50243"
+      },
+      {
+        "text": "26 – 29 July 1992"
+      }
+    ],
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/50252"
+      },
+      {
+        "text": "26 – 29 July 1992"
+      }
+    ]
+  ]
+}

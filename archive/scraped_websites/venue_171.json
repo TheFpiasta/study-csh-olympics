@@ -1,0 +1,54 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Palaghiaccio",
+      "Ice Palace"
+    ],
+    "place": "Pinerolo",
+    "coordinates": "44.891166,7.348684",
+    "coordinates_trust": "Definitely here",
+    "year": "2006",
+    "season": "Winter",
+    "sports": [
+      "Curling"
+    ],
+    "seating_capacity": "2000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2006 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/49"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Men",
+        "link": "https://www.olympedia.org/results/2667"
+      },
+      {
+        "text": "13 – 24 February 2006"
+      }
+    ],
+    [
+      {
+        "text": "2006 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/49"
+      },
+      {
+        "text": "Curling",
+        "link": "https://www.olympedia.org/sports/CUR"
+      },
+      {
+        "text": "Curling, Women",
+        "link": "https://www.olympedia.org/results/2721"
+      },
+      {
+        "text": "13 – 23 February 2006"
+      }
+    ]
+  ]
+}

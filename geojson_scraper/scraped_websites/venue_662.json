@@ -1,0 +1,59 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Che-yuk-gwan, Han-yang Dae-hak-gyo",
+      "Gymnasium, Hanyang University"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.556537,127.049962",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1986",
+    "seating_capacity": "8000",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37404"
+      },
+      {
+        "text": "17 September –  2 October 1988"
+      }
+    ],
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37454"
+      },
+      {
+        "text": "21 – 29 September 1988"
+      }
+    ]
+  ]
+}

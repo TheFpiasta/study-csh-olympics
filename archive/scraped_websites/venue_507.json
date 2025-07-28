@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Gimnasio Olímpico Juan de la Barrera",
+      "Juan de la Barrera Olympic Gymnasium"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.36,-99.154722",
+    "coordinates_trust": "Definitely here",
+    "year": "1968",
+    "season": "Summer",
+    "sports": [
+      "Volleyball"
+    ],
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37066"
+      },
+      {
+        "text": "13 – 26 October 1968"
+      }
+    ],
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Women",
+        "link": "https://www.olympedia.org/results/37114"
+      },
+      {
+        "text": "13 – 26 October 1968"
+      }
+    ]
+  ]
+}

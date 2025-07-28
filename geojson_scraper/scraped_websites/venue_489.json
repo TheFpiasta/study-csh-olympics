@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio Azteca (also known as Coloso de Santa Úrsula)",
+      "Aztec Stadium"
+    ],
+    "place": "Ciudad de México",
+    "coordinates": "19.302911,-99.150442",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1968",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1966",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1968 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/17"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33814"
+      },
+      {
+        "text": "13 – 26 October 1968"
+      }
+    ]
+  ]
+}

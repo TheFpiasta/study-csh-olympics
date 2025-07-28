@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "State Hockey Centre, Olympic Park"
+    ],
+    "place": "Sydney, New South Wales",
+    "coordinates": "-33.855,151.068056",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "2000",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Hockey"
+    ],
+    "opened": "1998",
+    "seating_capacity": "15000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/36346"
+      },
+      {
+        "text": "16 – 30 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Women",
+        "link": "https://www.olympedia.org/results/36396"
+      },
+      {
+        "text": "16 – 29 September 2000"
+      }
+    ]
+  ]
+}

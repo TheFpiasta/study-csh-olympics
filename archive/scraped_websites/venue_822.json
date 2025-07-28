@@ -1,0 +1,55 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Laoshan Xiaolunche Saichang",
+      "Laoshan BMX Venue"
+    ],
+    "place": "Beijing",
+    "coordinates": "39.91152,116.208905",
+    "coordinates_trust": "Definitely here",
+    "year": "2008",
+    "season": "Summer",
+    "sports": [
+      "Cycling BMX Racing"
+    ],
+    "opened": "2006",
+    "seating_capacity": "4000",
+    "type": "temporary outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Men",
+        "link": "https://www.olympedia.org/results/258962"
+      },
+      {
+        "text": "20 – 22 August 2008"
+      }
+    ],
+    [
+      {
+        "text": "2008 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/53"
+      },
+      {
+        "text": "Cycling BMX Racing",
+        "link": "https://www.olympedia.org/sports/BMX"
+      },
+      {
+        "text": "BMX, Women",
+        "link": "https://www.olympedia.org/results/259032"
+      },
+      {
+        "text": "20 – 22 August 2008"
+      }
+    ]
+  ]
+}

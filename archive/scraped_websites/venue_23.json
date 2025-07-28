@@ -1,0 +1,38 @@
+{
+  "biodata": {
+    "associated_names": [
+      "La Piste de Bobsleigh",
+      "Bobsleigh Course"
+    ],
+    "place": "Les Pélerins",
+    "coordinates": "45.911127,6.853417",
+    "coordinates_trust": "Definitely here",
+    "year": "1924",
+    "season": "Winter",
+    "sports": [
+      "Bobsleigh"
+    ],
+    "opened": "1905",
+    "type": "outdoor venue",
+    "altitude": "1054 m"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1924 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/29"
+      },
+      {
+        "text": "Bobsleigh",
+        "link": "https://www.olympedia.org/sports/BOB"
+      },
+      {
+        "text": "Four/Five, Men",
+        "link": "https://www.olympedia.org/results/229"
+      },
+      {
+        "text": "2 –  3 February 1924"
+      }
+    ]
+  ]
+}

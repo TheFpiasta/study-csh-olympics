@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Polizeistadion",
+      "Police Stadium",
+      "Walter-Ulbricht-Stadion (1950-1971), Stadion der Weltjugend (1971-1992)"
+    ],
+    "place": "Berlin",
+    "coordinates": "52.533889,13.376667",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1936",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Handball"
+    ],
+    "notes": "Currently the site of the headquarters of the German Secret Service.",
+    "demolished": "1992",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1936 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/11"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34500"
+      },
+      {
+        "text": "6 – 14 August 1936"
+      }
+    ]
+  ]
+}

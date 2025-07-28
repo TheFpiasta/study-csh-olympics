@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Griffin Park"
+    ],
+    "place": "Hounslow, London",
+    "coordinates": "51.488183,-0.302639",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1904",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33663"
+      },
+      {
+        "text": "26 July – 13 August 1948"
+      }
+    ]
+  ]
+}

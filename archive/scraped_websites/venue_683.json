@@ -1,0 +1,39 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio del FC Barcelona (also known as Estadi del FC Barcelona)",
+      "FC Barcelona Stadium",
+      "L'Estadi Camp Nou (2000-Present)"
+    ],
+    "place": "Barcelona",
+    "coordinates": "41.380889,2.122831",
+    "coordinates_trust": "Definitely here",
+    "year": "1992",
+    "season": "Summer",
+    "sports": [
+      "Football"
+    ],
+    "opened": "1957",
+    "seating_capacity": "100000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34057"
+      },
+      {
+        "text": "24 July –  8 August 1992"
+      }
+    ]
+  ]
+}

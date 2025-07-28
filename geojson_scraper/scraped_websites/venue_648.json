@@ -1,0 +1,42 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Mu-deung Gyeong-gi-yang",
+      "Mudeung Stadium"
+    ],
+    "place": "Gwangju",
+    "coordinates": "35.168088,126.889003",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1965",
+    "seating_capacity": "30000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34016"
+      },
+      {
+        "text": "17 September –  1 October 1988"
+      }
+    ]
+  ]
+}

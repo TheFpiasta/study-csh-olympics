@@ -1,0 +1,95 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Herne Hill Velodrome"
+    ],
+    "place": "London",
+    "coordinates": "51.451111,-0.091389",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1948",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Cycling Track"
+    ],
+    "notes": "Built in 1891, one of oldest still existant velodromes.",
+    "opened": "1891",
+    "type": "outdoor venue",
+    "dimensions": "459.8 m (2/7 mile)",
+    "surface": "Asphalt",
+    "additional_details": "30.0° curves"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Sprint, Men",
+        "link": "https://www.olympedia.org/results/153544"
+      },
+      {
+        "text": "7 –  9 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "1,000 metres Time Trial, Men",
+        "link": "https://www.olympedia.org/results/153543"
+      },
+      {
+        "text": "11 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Tandem Sprint, 2,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153584"
+      },
+      {
+        "text": "7 – 11 August 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/12"
+      },
+      {
+        "text": "Cycling Track",
+        "link": "https://www.olympedia.org/sports/CTR"
+      },
+      {
+        "text": "Team Pursuit, 4,000 metres, Men",
+        "link": "https://www.olympedia.org/results/153605"
+      },
+      {
+        "text": "7 –  9 August 1948"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Trampolino Italia",
+      "Ski Jump Italia"
+    ],
+    "place": "Cortina d'Ampezzo",
+    "coordinates": "46.510468,12.146067",
+    "coordinates_trust": "Definitely here",
+    "year": "1956",
+    "season": "Winter",
+    "sports": [
+      "Nordic Combined",
+      "Ski Jumping"
+    ],
+    "opened": "1955",
+    "seating_capacity": "46152",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Nordic Combined",
+        "link": "https://www.olympedia.org/sports/NCB"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/2217"
+      },
+      {
+        "text": "29 – 31 January 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/35"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2368"
+      },
+      {
+        "text": "5 February 1956"
+      }
+    ]
+  ]
+}

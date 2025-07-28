@@ -1,0 +1,126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.853417,
+          45.911127
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Piste de Bobsleigh",
+          "Bobsleigh Course",
+          "Piste des Pélerins"
+        ],
+        "place": "Les Pélerins",
+        "coordinates": "45.911127,6.853417",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1905",
+        "type": "outdoor venue",
+        "altitude": "1054 m",
+        "source_file": "venue_23.json",
+        "Olympics": "1924 Chamonix",
+        "classification": "New (seasonal)",
+        "status": "Dismantled (seasonal)",
+        "information": "Built for the first time for the 1924 Games, this natural track made of rocks, ice and snow was rebuilt every year through to 1950, when it was closed for competition after five athletes were killed at the French Bobsleigh Championships that year. The local sports club continued to use the site for training until the early 1960s, at which point the City of Chamonix withdrew the concession and the track was abandoned.\n\nParts of the 1.3km course, which runs through a forest and sits at the foot of the Glacier des Pélerins, remain visible today. The track is now frequented by hikers and cyclists, though there have been calls for the local authorities to renovate it, commemorate its Olympic past and attract more visitors to the site.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.841827,
+          45.898304
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Tremplin Olympique",
+          "Olympic Ski Jump",
+          "Tremplin Olympique du Mont"
+        ],
+        "place": "Le Mont",
+        "coordinates": "45.898304,6.841827",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 30 m x 70 m (ICH)",
+        "source_file": "venue_24.json",
+        "Olympics": "1924 Chamonix",
+        "classification": "New built",
+        "status": "In use",
+        "information": "The venue was built for the 1924 Games. It is still used for training, youth events and national and regional competitions.\n\nThe hill staged a number of ski jumping competitions after the Games, including the inaugural FIS Nordic World Ski Championships in 1937. It underwent four modifications through to 1982 but lost its FIS accreditation in 2001 and hosted its last international competition that winter. Efforts were later made to raise funds to upgrade the venue and bring it into line with FIS requirements, but these failed when priority was given instead to another ski jumping facility nearby.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.873936,
+          45.926728
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Olympique",
+          "Olympic Stadium"
+        ],
+        "place": "Chamonix",
+        "coordinates": "45.926728,6.873936",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpinism",
+          "Cross Country Skiing",
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1955",
+        "seating_capacity": "12042",
+        "type": "outdoor venue",
+        "dimensions": "30 m x 60 m",
+        "altitude": "1034 m",
+        "source_file": "venue_25.json",
+        "Olympics": "1924 Chamonix"
+      }
+    }
+  ]
+}

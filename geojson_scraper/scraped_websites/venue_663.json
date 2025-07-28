@@ -1,0 +1,41 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Saemaul Sports Hall"
+    ],
+    "place": "Seoul",
+    "coordinates": "37.556683,126.848104",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1988",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Volleyball"
+    ],
+    "opened": "1986",
+    "seating_capacity": "4500",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1988 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/22"
+      },
+      {
+        "text": "Volleyball",
+        "link": "https://www.olympedia.org/sports/VVO"
+      },
+      {
+        "text": "Volleyball, Men",
+        "link": "https://www.olympedia.org/results/37404"
+      },
+      {
+        "text": "17 September –  2 October 1988"
+      }
+    ]
+  ]
+}

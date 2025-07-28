@@ -1,0 +1,10 @@
+[Part Name Match] JSON Venue 1 'Creve Coeur Lake' matched with GeoJSON Venue 0: Creve Coeur Lake
+[Part Name Match] JSON Venue 2 'Glen Echo Country Club' matched with GeoJSON Venue 3: Glen Echo Country Club
+[Use/Sport + Name Match] JSON Venue 4 - Dirt Courts near Francis Field ↔ GeoJSON Venue 1 - Dirt Courts near Francis Field, Washington University | UseSim: 1.00, NameSim: 0.73, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 5 - US Life Saving Lake / Life Saving Exhibition Lake ↔ GeoJSON Venue 4 - Life Saving Exhibition Lake, Forest Park | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 0 - Francis Field Stadium ↔ GeoJSON Venue 2 - Francis Field, Washington University | UseSim: 0.70, NameSim: 0.64, Score: 0.68 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 3 - Physical Culture Gymnasium ↔ GeoJSON Venue 5 - Physical Culture Gymnasium, Washington University | UseSim: 0.67, NameSim: 0.70, Score: 0.68 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+
+--- Unmatched GeoJSON Venues ---

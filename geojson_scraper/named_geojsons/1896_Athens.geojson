@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.741111,
+          37.968333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panathinaiko Stadio (also known as Kallimarmaro)",
+          "Panathenaic Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.968333,23.741111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1870",
+            "season": "Zappas"
+          },
+          {
+            "year": "1875",
+            "season": "Zappas"
+          },
+          {
+            "year": "1888-89",
+            "season": "Zappas"
+          },
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Art Competitions",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Fencing",
+          "Shooting",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Wrestling",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "566 BC",
+        "seating_capacity": "80,000 (1896) / 45,000 (2004)",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "loose cinders (1896, 1906) / artificial (2004)",
+        "altitude": "104 m",
+        "source_file": "venue_186.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.664317,
+          37.946447
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Podilatodromio Neou Falirou",
+          "Neo Faliro Velodrome"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.946447,23.664317",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling Track",
+          "Football",
+          "Tennis"
+        ],
+        "notes": "Later rebuilt as the Stadio Georgios Karaiskakis.",
+        "opened": "1896",
+        "demolished": "2004",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "concrete",
+        "additional_details": "Banking: minimal.",
+        "source_file": "venue_187.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.736544,
+          37.971306
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zappeion"
+        ],
+        "place": "Athina",
+        "coordinates": "37.971306,23.736544",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1888",
+        "type": "indoor venue",
+        "source_file": "venue_188.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.704634,
+          37.952996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Skopeftirion",
+          "Shooting Range"
+        ],
+        "place": "Kallithea",
+        "coordinates": "37.952996,23.704634",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_189.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.648157,
+          37.937327
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ormos tes Zeas (also known as Pasalimani)",
+          "Bay of Zea"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.937327,23.648157",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Swimming"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_190.json",
+        "Olympics": "1896 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.734835,
+          37.969119
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Homilos Antisfairiseos Athinon",
+          "Athens Lawn Tennis Club"
+        ],
+        "place": "Athina",
+        "coordinates": "37.969119,23.734835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Tennis"
+        ],
+        "opened": "1895",
+        "type": "outdoor venue",
+        "source_file": "venue_191.json",
+        "Olympics": "1896 Athens"
+      }
+    }
+  ]
+}

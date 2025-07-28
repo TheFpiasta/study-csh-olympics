@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Palace-Hotel"
+    ],
+    "place": "St. Moritz",
+    "coordinates": "46.496449,9.840802",
+    "coordinates_trust": "Definitely here",
+    "year": "1948",
+    "season": "Winter",
+    "sports": [
+      "Ice Hockey",
+      "Winter Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1948 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/33"
+      },
+      {
+        "text": "Winter Pentathlon",
+        "link": "https://www.olympedia.org/sports/WPE"
+      },
+      {
+        "text": "Winter Pentathlon, Men",
+        "link": "https://www.olympedia.org/results/905177"
+      },
+      {
+        "text": "31 January –  4 February 1948"
+      }
+    ],
+    [
+      {
+        "text": "1948 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/33"
+      },
+      {
+        "text": "Ice Hockey",
+        "link": "https://www.olympedia.org/sports/IHO"
+      },
+      {
+        "text": "Ice Hockey, Men",
+        "link": "https://www.olympedia.org/results/20123"
+      },
+      {
+        "text": "30 January –  8 February 1948"
+      }
+    ]
+  ]
+}

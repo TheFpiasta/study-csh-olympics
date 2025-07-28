@@ -1,0 +1,110 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Sportpark",
+      "Sports Park"
+    ],
+    "place": "Hilversum",
+    "coordinates": "52.215079,5.188332",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1928",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Equestrian Dressage",
+      "Equestrian Eventing",
+      "Modern Pentathlon"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185073"
+      },
+      {
+        "text": "10 – 11 August 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Equestrian Dressage",
+        "link": "https://www.olympedia.org/sports/EDR"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185079"
+      },
+      {
+        "text": "10 – 11 August 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/185063"
+      },
+      {
+        "text": "8 – 11 August 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Equestrian Eventing",
+        "link": "https://www.olympedia.org/sports/EVE"
+      },
+      {
+        "text": "Team, Men",
+        "link": "https://www.olympedia.org/results/185068"
+      },
+      {
+        "text": "8 – 11 August 1928"
+      }
+    ],
+    [
+      {
+        "text": "1928 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/9"
+      },
+      {
+        "text": "Modern Pentathlon",
+        "link": "https://www.olympedia.org/sports/MPN"
+      },
+      {
+        "text": "Individual, Men",
+        "link": "https://www.olympedia.org/results/50027"
+      },
+      {
+        "text": "31 July –  4 August 1928"
+      }
+    ]
+  ]
+}

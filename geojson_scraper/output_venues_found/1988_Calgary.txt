@@ -1,0 +1,18 @@
+[Part Name Match] JSON Venue 0 'Max Bell Arena' matched with GeoJSON Venue 4: Max Bell Arena
+[Part Name Match] JSON Venue 1 'Stampede Corral' matched with GeoJSON Venue 6: Stampede Corral
+[Part Name Match] JSON Venue 3 'Olympic Saddledome' matched with GeoJSON Venue 1: Olympic Saddledome
+[Part Name Match] JSON Venue 5 'Olympic Oval' matched with GeoJSON Venue 0: Olympic Oval
+[Part Name Match] JSON Venue 9 'Father David Bauer Olympic Arena' matched with GeoJSON Venue 7: Father David Bauer Olympic Arena
+[Part Name Match] JSON Venue 11 'Canmore Nordic Centre' matched with GeoJSON Venue 3: Canmore Nordic Centre
+[Use/Sport + Name Match] JSON Venue 7 - Canada Olympic Park - Ski Jumps ↔ GeoJSON Venue 2 - Canada Olympic Park | UseSim: 0.67, NameSim: 0.79, Score: 0.70 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 2] 'McMahon Stadium' has no matching GeoJSON venue.
+[JSON Venue 4] 'Calgary Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 6] 'Canada Olympic Park - Freestyle Area' has no matching GeoJSON venue.
+[JSON Venue 8] 'Canada Olympic Park - Bobsleigh and Luge track' has no matching GeoJSON venue.
+[JSON Venue 10] 'Nakiska Ski Area' has no matching GeoJSON venue.
+[JSON Venue 12] 'Canmore Olympic Village' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 5] '' has no matching JSON venue.

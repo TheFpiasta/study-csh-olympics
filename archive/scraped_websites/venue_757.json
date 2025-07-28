@@ -1,0 +1,53 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Fairfield City Farm"
+    ],
+    "place": "Abbotsbury, New South Wales",
+    "coordinates": "-33.868981,150.858266",
+    "coordinates_trust": "Definitely here",
+    "year": "2000",
+    "season": "Summer",
+    "sports": [
+      "Cycling Mountain Bike"
+    ],
+    "seating_capacity": "20000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Men",
+        "link": "https://www.olympedia.org/results/155009"
+      },
+      {
+        "text": "24 September 2000"
+      }
+    ],
+    [
+      {
+        "text": "2000 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/25"
+      },
+      {
+        "text": "Cycling Mountain Bike",
+        "link": "https://www.olympedia.org/sports/MTB"
+      },
+      {
+        "text": "Cross-Country, Women",
+        "link": "https://www.olympedia.org/results/155047"
+      },
+      {
+        "text": "23 September 2000"
+      }
+    ]
+  ]
+}

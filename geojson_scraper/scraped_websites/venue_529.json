@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Jahnstadion",
+      "Jahn Stadium"
+    ],
+    "place": "Regensburg",
+    "coordinates": "49.015602,12.073967",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1972",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "notes": "Mostly demolished in 2017 and replaced by apartments and a school.",
+    "opened": "1926",
+    "demolished": "2017",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1972 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/18"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33855"
+      },
+      {
+        "text": "27 August – 10 September 1972"
+      }
+    ]
+  ]
+}

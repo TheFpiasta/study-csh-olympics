@@ -1,0 +1,71 @@
+{
+  "biodata": {
+    "associated_names": [
+      "The Forum"
+    ],
+    "place": "Inglewood, California",
+    "coordinates": "33.958056,-118.341944",
+    "coordinates_trust": "Definitely here",
+    "year": "1984",
+    "season": "Summer",
+    "sports": [
+      "Basketball",
+      "Handball"
+    ],
+    "opened": "1967",
+    "type": "indoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Men",
+        "link": "https://www.olympedia.org/results/32570"
+      },
+      {
+        "text": "29 July – 10 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Basketball",
+        "link": "https://www.olympedia.org/sports/BKB"
+      },
+      {
+        "text": "Basketball, Women",
+        "link": "https://www.olympedia.org/results/32625"
+      },
+      {
+        "text": "30 July –  7 August 1984"
+      }
+    ],
+    [
+      {
+        "text": "1984 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/21"
+      },
+      {
+        "text": "Handball",
+        "link": "https://www.olympedia.org/sports/HBL"
+      },
+      {
+        "text": "Handball, Men",
+        "link": "https://www.olympedia.org/results/34684"
+      },
+      {
+        "text": "31 July – 11 August 1984"
+      }
+    ]
+  ]
+}

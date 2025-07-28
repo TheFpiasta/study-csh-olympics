@@ -1,0 +1,2224 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.952778,
+          43.4086111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Adler-Arena, Coastal Cluster",
+          "Olimpiyskiy Oval"
+        ],
+        "place": "Adler",
+        "coordinates": "43.4086111,39.952778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2012",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "5",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/350644"
+            },
+            {
+              "text": "10 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/350647"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/350648"
+            },
+            {
+              "text": "15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/350649"
+            },
+            {
+              "text": "8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/350650"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (8 laps), Men",
+              "link": "https://www.olympedia.org/results/350651"
+            },
+            {
+              "text": "21 – 22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/350665"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/350668"
+            },
+            {
+              "text": "13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/350669"
+            },
+            {
+              "text": "16 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/350670"
+            },
+            {
+              "text": "9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/350671"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (6 laps), Women",
+              "link": "https://www.olympedia.org/results/350672"
+            },
+            {
+              "text": "21 – 22 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_884.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.95,
+          43.4044444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ledovyi Dvorets Bolshoy, Coastal Cluster",
+          "Bolshoy Ice Dome"
+        ],
+        "place": "Adler",
+        "coordinates": "43.4044444,39.95",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2012",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/350334"
+            },
+            {
+              "text": "12 – 23 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/350374"
+            },
+            {
+              "text": "8 – 20 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_885.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.949594,
+          43.4068
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kyorlingovyi Tsentr Ledyanoy Kub, Coastal Cluster",
+          "Ice Cube Curling Center"
+        ],
+        "place": "Adler",
+        "coordinates": "43.4068,39.949594",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "opened": "2013",
+        "seating_capacity": "3000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/350096"
+            },
+            {
+              "text": "10 – 21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/350152"
+            },
+            {
+              "text": "10 – 20 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_886.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.958333,
+          43.4075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dvorets Zimnego Sporta Aisberg, Coastal Cluster",
+          "Iceberg Skating Palace"
+        ],
+        "place": "Adler",
+        "coordinates": "43.4075,39.958333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "opened": "2012",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/350307"
+            },
+            {
+              "text": "13 – 14 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/350310"
+            },
+            {
+              "text": "19 – 20 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/350313"
+            },
+            {
+              "text": "11 – 12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/350316"
+            },
+            {
+              "text": "16 – 17 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Team, Mixed",
+              "link": "https://www.olympedia.org/results/350319"
+            },
+            {
+              "text": "6 –  9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/350686"
+            },
+            {
+              "text": "18 – 21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/350707"
+            },
+            {
+              "text": "13 – 15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/350728"
+            },
+            {
+              "text": "10 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/350743"
+            },
+            {
+              "text": "13 – 21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/350750"
+            },
+            {
+              "text": "10 – 13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/350771"
+            },
+            {
+              "text": "18 – 21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/350792"
+            },
+            {
+              "text": "15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/350807"
+            },
+            {
+              "text": "10 – 18 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_887.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.951944,
+          43.4022222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ledovaya Arena Shayba, Coastal Cluster",
+          "Shayba Arena",
+          "Maly Ice Palace"
+        ],
+        "place": "Adler",
+        "coordinates": "43.4022222,39.951944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2013",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/350334"
+            },
+            {
+              "text": "12 – 23 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/350374"
+            },
+            {
+              "text": "8 – 20 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_888.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.324722,
+          43.6922222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kompleks Dlya Sorevnovaniy Po Lyzhnym Gonkam i Biatlonu Laura, Mountain Cluster",
+          "Laura Cross-Country Ski & Biathlon Complex"
+        ],
+        "place": "Krasnaya Polyana",
+        "coordinates": "43.6922222,40.324722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing"
+        ],
+        "opened": "2011",
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/350022"
+            },
+            {
+              "text": "8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/350023"
+            },
+            {
+              "text": "10 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres Mass Start, Men",
+              "link": "https://www.olympedia.org/results/350024"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/350025"
+            },
+            {
+              "text": "13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/350026"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/350027"
+            },
+            {
+              "text": "9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/350028"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Mass Start, Women",
+              "link": "https://www.olympedia.org/results/350029"
+            },
+            {
+              "text": "17 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/350030"
+            },
+            {
+              "text": "14 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 6 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/350031"
+            },
+            {
+              "text": "21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "2 × 6 kilometres and 2 × 7.5 kilometres Relay, Mixed",
+              "link": "https://www.olympedia.org/results/350032"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/350054"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/350066"
+            },
+            {
+              "text": "14 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/350067"
+            },
+            {
+              "text": "23 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres Skiathlon, Men",
+              "link": "https://www.olympedia.org/results/350068"
+            },
+            {
+              "text": "9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/350069"
+            },
+            {
+              "text": "16 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/350070"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/350075"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/350087"
+            },
+            {
+              "text": "13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/350088"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres Skiathlon, Women",
+              "link": "https://www.olympedia.org/results/350089"
+            },
+            {
+              "text": "8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/350090"
+            },
+            {
+              "text": "15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Women",
+              "link": "https://www.olympedia.org/results/350091"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_889.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.332222,
+          43.6463889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gornolyzhniy Tsenter Rosa Khutor, Mountain Cluster",
+          "Rosa Khutor Alpine Center"
+        ],
+        "place": "Krasnaya Polyana",
+        "coordinates": "43.6463889,40.332222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "2011",
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/350000"
+            },
+            {
+              "text": "9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/350001"
+            },
+            {
+              "text": "16 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/350002"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/350005"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/350008"
+            },
+            {
+              "text": "14 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/350011"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/350012"
+            },
+            {
+              "text": "15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/350013"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/350016"
+            },
+            {
+              "text": "21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/350019"
+            },
+            {
+              "text": "10 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_890.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.319722,
+          43.6575
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ekstrim-Park Rosa Khutor",
+          "Rosa Khutor Extreme Park"
+        ],
+        "place": "Krasnaya Polyana",
+        "coordinates": "43.6575,40.319722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "opened": "2011",
+        "seating_capacity": "4000 (FRS), 6250 (SNB)",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/350206"
+            },
+            {
+              "text": "10 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/350212"
+            },
+            {
+              "text": "17 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/350220"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Slopestyle, Men",
+              "link": "https://www.olympedia.org/results/350227"
+            },
+            {
+              "text": "13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Men",
+              "link": "https://www.olympedia.org/results/350234"
+            },
+            {
+              "text": "20 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/350256"
+            },
+            {
+              "text": "6 –  8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/350263"
+            },
+            {
+              "text": "14 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/350271"
+            },
+            {
+              "text": "20 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Slopestyle, Women",
+              "link": "https://www.olympedia.org/results/350278"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Women",
+              "link": "https://www.olympedia.org/results/350285"
+            },
+            {
+              "text": "21 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/350464"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Slalom, Men",
+              "link": "https://www.olympedia.org/results/350488"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/350512"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Men",
+              "link": "https://www.olympedia.org/results/350522"
+            },
+            {
+              "text": "6 –  8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/350536"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/350557"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Slalom, Women",
+              "link": "https://www.olympedia.org/results/350581"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/350605"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Women",
+              "link": "https://www.olympedia.org/results/350615"
+            },
+            {
+              "text": "6 –  9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/350629"
+            },
+            {
+              "text": "16 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/350464"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Slalom, Men",
+              "link": "https://www.olympedia.org/results/350488"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/350512"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Men",
+              "link": "https://www.olympedia.org/results/350522"
+            },
+            {
+              "text": "6 –  8 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/350536"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/350557"
+            },
+            {
+              "text": "19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Slalom, Women",
+              "link": "https://www.olympedia.org/results/350581"
+            },
+            {
+              "text": "22 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/350605"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Slopestyle, Women",
+              "link": "https://www.olympedia.org/results/350615"
+            },
+            {
+              "text": "6 –  9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/350629"
+            },
+            {
+              "text": "16 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_891.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.241111,
+          43.6758333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kompleks Dlya Pryzhkov Na Lyzhakh s Tramplina \"Russkiye Gorki\", Mountain Cluster",
+          "RusSki Gorki Jumping Center"
+        ],
+        "place": "Esto-Sadok",
+        "coordinates": "43.6758333,40.241111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2011",
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Normal Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/350424"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Large Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/350427"
+            },
+            {
+              "text": "18 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/350430"
+            },
+            {
+              "text": "20 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/350447"
+            },
+            {
+              "text": "8 –  9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/350452"
+            },
+            {
+              "text": "14 – 15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/350457"
+            },
+            {
+              "text": "17 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Women",
+              "link": "https://www.olympedia.org/results/350460"
+            },
+            {
+              "text": "11 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_892.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.288611,
+          43.6669444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tsentr Sannogo Sporta Sanki, Mountain Cluster",
+          "Sliding Center Sanki"
+        ],
+        "place": "Rzhanaya Polyana",
+        "coordinates": "43.6669444,40.288611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2014",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "opened": "2009",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/350033"
+            },
+            {
+              "text": "16 – 17 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/350040"
+            },
+            {
+              "text": "22 – 23 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/350047"
+            },
+            {
+              "text": "18 – 19 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/350405"
+            },
+            {
+              "text": "8 –  9 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/350412"
+            },
+            {
+              "text": "12 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/350415"
+            },
+            {
+              "text": "10 – 11 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Team Relay, Mixed",
+              "link": "https://www.olympedia.org/results/350422"
+            },
+            {
+              "text": "13 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/350433"
+            },
+            {
+              "text": "14 – 15 February 2014"
+            }
+          ],
+          [
+            {
+              "text": "2014 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/58"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/350440"
+            },
+            {
+              "text": "13 – 14 February 2014"
+            }
+          ]
+        ],
+        "source_file": "venue_893.json"
+      }
+    }
+  ]
+}

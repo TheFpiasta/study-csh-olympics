@@ -1,0 +1,43 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Estadio de Sarriá (also known as Estadi de Sarrià)",
+      "Sarría Stadium"
+    ],
+    "place": "Barcelona",
+    "coordinates": "41.393111,2.133169",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1992",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football"
+    ],
+    "opened": "1923",
+    "demolished": "1997",
+    "seating_capacity": "42000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1992 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/23"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/34057"
+      },
+      {
+        "text": "24 July –  8 August 1992"
+      }
+    ]
+  ]
+}

@@ -1,0 +1,35 @@
+[Part Name Match] JSON Venue 3 'Taivallahti' matched with GeoJSON Venue 5: Taivallahti
+[Part Name Match] JSON Venue 9 'Ruskeasuo/Tali/Laakso' matched with GeoJSON Venue 10: Laakso
+[Part Name Match] JSON Venue 9 'Ruskeasuo/Tali/Laakso' matched with GeoJSON Venue 11: Tali
+[Part Name Match] JSON Venue 13 'Meilahti' matched with GeoJSON Venue 24: Meilahti
+[Use/Sport + Name Match] JSON Venue 16 - Ratina Stadium ↔ GeoJSON Venue 18 - Ratinan Stadion | UseSim: 1.00, NameSim: 0.83, Score: 0.95 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 17 - Kisapuisto Stadium ↔ GeoJSON Venue 17 - Lahden Kisapuisto | UseSim: 1.00, NameSim: 0.74, Score: 0.92 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 15 - Westend Tennis Hall ↔ GeoJSON Venue 13 - Westendin tennishalli | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Velodrome ↔ GeoJSON Venue 7 - Helsingin Velodromi | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 18 - Kotka Stadium ↔ GeoJSON Venue 15 - Kotkan Urheilukeskus | UseSim: 1.00, NameSim: 0.48, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Tennis Palace ↔ GeoJSON Venue 4 - Tennispalatsi | UseSim: 1.00, NameSim: 0.46, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 8 - Kupittaa Football Stadium ↔ GeoJSON Venue 16 - Kupittaan Jalkapallostadion | UseSim: 1.00, NameSim: 0.46, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Malmi Rifle Range ↔ GeoJSON Venue 28 - Malmin Ampumarata | UseSim: 1.00, NameSim: 0.35, Score: 0.81 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 5 - Huopalahti ↔ GeoJSON Venue 27 - Huopalahden Suomen Metsästysyhdistyksen ampumarata | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 6 - Around Harmaja Island (lighthouse) and Liuskasaari Island ↔ GeoJSON Venue 25 - Helsingfors Segelsällskap, Liuskasaari | UseSim: 1.00, NameSim: 0.33, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 10 - Swimming Stadium ↔ GeoJSON Venue 8 - Helsingin Uimastadion | UseSim: 1.00, NameSim: 0.32, Score: 0.80 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - Football pitches by the Olympic Stadium ↔ GeoJSON Venue 14 - Töölön Pallokenttä | UseSim: 1.00, NameSim: 0.28, Score: 0.78 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 14 - Käpylä-Pakila ↔ GeoJSON Venue 6 -  | UseSim: 1.00, NameSim: 0.00, Score: 0.70 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 0 - Exhibition Hall I, II (Messuhalli I, II) ↔ GeoJSON Venue 3 - Messuhalli II | UseSim: 0.73, NameSim: 0.53, Score: 0.67 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Olympic Stadium ↔ GeoJSON Venue 1 - Helsingin Olympiastadion | UseSim: 0.60, NameSim: 0.56, Score: 0.59 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 12] 'Helsinki Olympic Village (Olympiakylä)' has no matching GeoJSON venue.
+[JSON Venue 19] 'Ahvenisto' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Helsingin Taidehalli' has no matching JSON venue.
+[GeoJSON Venue 2] 'Messuhalli I' has no matching JSON venue.
+[GeoJSON Venue 9] 'Ruskeasuon liikuntapuisto' has no matching JSON venue.
+[GeoJSON Venue 12] 'Hämeenkylä' has no matching JSON venue.
+[GeoJSON Venue 19] 'Porvoon Keskuskenttä' has no matching JSON venue.
+[GeoJSON Venue 20] 'Kaurialan Kenttä' has no matching JSON venue.
+[GeoJSON Venue 21] 'Ahveniston maauimala' has no matching JSON venue.
+[GeoJSON Venue 22] 'Ahveniston hallintorakennus' has no matching JSON venue.
+[GeoJSON Venue 23] 'Ahveniston harju' has no matching JSON venue.
+[GeoJSON Venue 26] 'Harmaja' has no matching JSON venue.

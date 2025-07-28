@@ -1,0 +1,56 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Bergiselschanze",
+      "Bergisel Ski Jump"
+    ],
+    "place": "Innsbruck",
+    "coordinates": "47.248889,11.399167",
+    "coordinates_trust": "Definitely here",
+    "year": "1964",
+    "season": "Winter",
+    "sports": [
+      "Ski Jumping",
+      "Opening ceremony"
+    ],
+    "opened": "1964",
+    "seating_capacity": "60000",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1964 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/37"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2378"
+      },
+      {
+        "text": "9 February 1964"
+      }
+    ],
+    [
+      {
+        "text": "1976 Winter Olympics",
+        "link": "https://www.olympedia.org/editions/40"
+      },
+      {
+        "text": "Ski Jumping",
+        "link": "https://www.olympedia.org/sports/SJP"
+      },
+      {
+        "text": "Large Hill, Individual, Men",
+        "link": "https://www.olympedia.org/results/2397"
+      },
+      {
+        "text": "15 February 1976"
+      }
+    ]
+  ]
+}

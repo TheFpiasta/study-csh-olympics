@@ -1,0 +1,58 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Olympic Park Stadium"
+    ],
+    "place": "Melbourne, Victoria",
+    "coordinates": "-37.824722,144.981111",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1956",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Football",
+      "Hockey"
+    ],
+    "opened": "1956",
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Football",
+        "link": "https://www.olympedia.org/sports/FBL"
+      },
+      {
+        "text": "Football, Men",
+        "link": "https://www.olympedia.org/results/33721"
+      },
+      {
+        "text": "24 November –  8 December 1956"
+      }
+    ],
+    [
+      {
+        "text": "1956 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/14"
+      },
+      {
+        "text": "Hockey",
+        "link": "https://www.olympedia.org/sports/HOC"
+      },
+      {
+        "text": "Hockey, Men",
+        "link": "https://www.olympedia.org/results/35641"
+      },
+      {
+        "text": "23 November –  6 December 1956"
+      }
+    ]
+  ]
+}

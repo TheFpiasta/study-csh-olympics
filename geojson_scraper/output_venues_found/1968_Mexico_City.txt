@@ -1,0 +1,43 @@
+[Part Name Match] JSON Venue 3 'Arena México' matched with GeoJSON Venue 3: Arena México
+[Use/Sport + Name Match] JSON Venue 15 - Juan de la Barrera Olympic Gymnasium ↔ GeoJSON Venue 29 - Gimnasio Olímpico Juan de la Barrera | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 23 - Cuauhtémoc Stadium ↔ GeoJSON Venue 13 - Estadio Cuauhtémoc | UseSim: 1.00, NameSim: 0.89, Score: 0.97 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 8 - Insurgentes Theatre ↔ GeoJSON Venue 32 - Teatro de los Insurgentes | UseSim: 1.00, NameSim: 0.77, Score: 0.93 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 9 - Insurgentes Ice Rink ↔ GeoJSON Venue 33 - Pista de Hielo Insurgentes | UseSim: 1.00, NameSim: 0.70, Score: 0.91 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 13 - Agustín Melgar Olympic Velodrome ↔ GeoJSON Venue 6 - Velódromo Olímpico Agustín Melgar, Ciudad Deportiva Magdalena Mixhuca | UseSim: 1.00, NameSim: 0.58, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 11 - Virgilio Uribe Rowing and Canoeing Course ↔ GeoJSON Venue 4 - Pista Olímpico Virgilio Uribe | UseSim: 1.00, NameSim: 0.57, Score: 0.87 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 10 - Revolution Ice Rink ↔ GeoJSON Venue 30 - Pista de Hielo Revolución | UseSim: 1.00, NameSim: 0.50, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 21 - Yacht Club ↔ GeoJSON Venue 25 - Club de Yates Acapulco | UseSim: 1.00, NameSim: 0.50, Score: 0.85 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 19 - Jalisco Stadium ↔ GeoJSON Venue 12 - Estadio Jalisco | UseSim: 1.00, NameSim: 0.47, Score: 0.84 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 4 - Azteca Stadium ↔ GeoJSON Venue 11 - Estadio Azteca (also known as Coloso de Santa Úrsula) | UseSim: 1.00, NameSim: 0.40, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 16 - Juan Escutia Sports Palace ↔ GeoJSON Venue 2 - Juan Escutia Palacio de los Deportes, Ciudad Deportiva Magdalena Mixhuca | UseSim: 1.00, NameSim: 0.39, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 7 - Ciudad Universitaria Swimming Pool ↔ GeoJSON Venue 31 - Alberca Olímpica Universitaria, Universidad Nacional Autónoma de México | UseSim: 1.00, NameSim: 0.38, Score: 0.82 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 12 - Francisco Márquez Olympic Pool ↔ GeoJSON Venue 7 - Alberca Olímpica Francisco Márquez | UseSim: 0.83, NameSim: 0.75, Score: 0.81 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 1 - Municipal Stadium ↔ GeoJSON Venue 16 - Estadio Municipal de Hockey, Ciudad Deportiva Magdalena Mixhuca | UseSim: 1.00, NameSim: 0.23, Score: 0.77 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 20 - León Stadium ↔ GeoJSON Venue 14 - Estadio León (also known as Estadio Nou Camp) | UseSim: 1.00, NameSim: 0.22, Score: 0.77 | Match: 🟡 (weak name)
+[Use/Sport + Name Match] JSON Venue 2 - University Olympic Stadium ↔ GeoJSON Venue 1 - Estadio Olímpico Universitario | UseSim: 0.67, NameSim: 0.57, Score: 0.64 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 17 - Vicente Suárez Shooting Range ↔ GeoJSON Venue 18 - Polígono de Tiro Vicente Suárez, Campo Militar No. 1 | UseSim: 0.67, NameSim: 0.53, Score: 0.63 | Match: ✅ (strong name)
+[Use/Sport + Name Match] JSON Venue 14 - Fernando Montes de Oca Fencing Hall ↔ GeoJSON Venue 10 - Sala de Armas Fernando Montes de Oca, Ciudad Deportiva Magdalena Mixhuca | UseSim: 0.67, NameSim: 0.53, Score: 0.63 | Match: ✅ (strong name)
+
+--- Unmatched JSON Venues ---
+[JSON Venue 0] 'Campo Marte' has no matching GeoJSON venue.
+[JSON Venue 5] 'Military Camp No. 1' has no matching GeoJSON venue.
+[JSON Venue 6] 'National Auditorium' has no matching GeoJSON venue.
+[JSON Venue 18] 'Miguel Hidalgo Olympic Village' has no matching GeoJSON venue.
+[JSON Venue 22] 'Avándaro Golf Club' has no matching GeoJSON venue.
+
+--- Unmatched GeoJSON Venues ---
+[GeoJSON Venue 0] 'Marina Reservoir' has no matching JSON venue.
+[GeoJSON Venue 5] 'Circuito Satélite' has no matching JSON venue.
+[GeoJSON Venue 8] 'Club de Golf Avándaro' has no matching JSON venue.
+[GeoJSON Venue 9] 'Campo Marte, Bosque de Chapultepec' has no matching JSON venue.
+[GeoJSON Venue 15] 'Auditorio Nacional' has no matching JSON venue.
+[GeoJSON Venue 17] 'Campo Militar No. 1' has no matching JSON venue.
+[GeoJSON Venue 19] 'Frontón México' has no matching JSON venue.
+[GeoJSON Venue 20] 'Centro Deportivo Chapultepec' has no matching JSON venue.
+[GeoJSON Venue 21] 'Centro Deportivo Asturiano' has no matching JSON venue.
+[GeoJSON Venue 22] 'Centro Deportivo Libanés' has no matching JSON venue.
+[GeoJSON Venue 23] 'Frontón Metropolitano' has no matching JSON venue.
+[GeoJSON Venue 24] 'Acapulco Jai-Alai' has no matching JSON venue.
+[GeoJSON Venue 26] 'Guadalajara Country Club' has no matching JSON venue.
+[GeoJSON Venue 27] 'Atlas Sports Club' has no matching JSON venue.
+[GeoJSON Venue 28] 'Guadalajara Sports Club' has no matching JSON venue.

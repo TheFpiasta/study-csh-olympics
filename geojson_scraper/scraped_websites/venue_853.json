@@ -1,0 +1,40 @@
+{
+  "biodata": {
+    "associated_names": [
+      "Île des Cygnes",
+      "Cygnes Island"
+    ],
+    "place": "Paris",
+    "coordinates": "48.85451,2.286009",
+    "coordinates_trust": "Definitely here",
+    "games": [
+      {
+        "year": "1900",
+        "season": "Summer"
+      }
+    ],
+    "sports": [
+      "Fishing"
+    ],
+    "type": "outdoor venue"
+  },
+  "event_data": [
+    [
+      {
+        "text": "1900 Summer Olympics",
+        "link": "https://www.olympedia.org/editions/2"
+      },
+      {
+        "text": "Fishing",
+        "link": "https://www.olympedia.org/sports/FSH"
+      },
+      {
+        "text": "Concours d'honneur, Men",
+        "link": "https://www.olympedia.org/results/925228"
+      },
+      {
+        "text": "5 –  8 August 1900"
+      }
+    ]
+  ]
+}

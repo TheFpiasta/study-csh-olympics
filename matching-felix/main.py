@@ -344,6 +344,10 @@ def process_geojson_data():
     """
     global output_dir
 
+    # Create output directory if it doesn't exist
+    os.makedirs(output_dir, exist_ok=True)
+    print(f"Output directory '{output_dir}' ready")
+
     print(f"Processing {len(geojson_data)} GeoJSON files...")
 
     for filename, geojson_content in geojson_data.items():
@@ -385,10 +389,3 @@ if __name__ == "__main__":
 
     # Process GeoJSON data
     process_geojson_data()
-
-    # Create output directory if it doesn't exist
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
-        print(f"Created directory: {output_dir}")
-    else:
-        print(f"Directory already exists: {output_dir}")

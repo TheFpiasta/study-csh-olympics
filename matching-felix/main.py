@@ -876,8 +876,8 @@ def initialize_log_file():
             with open(log_file_path, 'w', encoding='utf-8') as log_file:
                 from datetime import datetime
                 execution_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                log_file.write(f"Execution Date: {execution_date}\n")
-                log_file.write("=" * 50)
+                log_file.write(f"Execution Date: {execution_date}\n\n")
+                log_file.write("=" * 50 + "\n")
                 log_file.write("Starting new matching run - log file overwritten")
                 log_file.write("=" * 50 + "\n\n")
         except Exception as e:

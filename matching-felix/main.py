@@ -17,15 +17,30 @@ log_to_file = True
 venue_statistics = {}
 total_statistics = {
     'total_venues': 0,
-    'sports_matches': 0,
-    'name_matches': 0,
-    'name_matches_by_method': {
-        'exact_match': 0,
-        'substring_match': 0,
-        'token_match': 0,
-        'fuzzy_match': 0
+    'geojson': {
+        'total_venues': 0,
+        'sports_matches': 0,
+        'name_matches': 0,
+        'name_matches_by_method': {
+            'exact_match': 0,
+            'substring_match': 0,
+            'token_match': 0,
+            'fuzzy_match': 0
+        },
+        'unmatched': 0
     },
-    'unmatched': 0,
+    'json': {
+        'total_venues': 0,
+        'sports_matches': 0,
+        'name_matches': 0,
+        'name_matches_by_method': {
+            'exact_match': 0,
+            'substring_match': 0,
+            'token_match': 0,
+            'fuzzy_match': 0
+        },
+        'unmatched': 0
+    },
     'files_processed': 0
 }
 
@@ -407,17 +422,32 @@ def collect_venue_statistics(filename, geojson_content):
     stats = {
         'filename': filename,
         'total_venues': 0,
-        'sports_matches': 0,
-        'name_matches': 0,
-        'name_matches_by_method': {
-            'exact_match': 0,
-            'substring_match': 0,
-            'token_match': 0,
-            'fuzzy_match': 0
+        'geojson': {
+            'total_venues': 0,
+            'sports_matches': 0,
+            'name_matches': 0,
+            'name_matches_by_method': {
+                'exact_match': 0,
+                'substring_match': 0,
+                'token_match': 0,
+                'fuzzy_match': 0
+            },
+            'unmatched': 0,
+            'unmatched_venues': []  # List of unmatched GeoJSON venues
         },
-        'unmatched': 0,
-        'unmatched_geojson_venues': [],  # List of unmatched GeoJSON venues
-        'unmatched_json_venues': []  # List of unmatched JSON venues
+        'json': {
+            'total_venues': 0,
+            'sports_matches': 0,
+            'name_matches': 0,
+            'name_matches_by_method': {
+                'exact_match': 0,
+                'substring_match': 0,
+                'token_match': 0,
+                'fuzzy_match': 0
+            },
+            'unmatched': 0,
+            'unmatched_venues': []  # List of unmatched JSON venues
+        }
     }
 
     # Collect GeoJSON venue statistics
@@ -425,28 +455,29 @@ def collect_venue_statistics(filename, geojson_content):
         for feature in geojson_content['features']:
             if 'properties' in feature and 'sports' in feature['properties']:
                 stats['total_venues'] += 1
+                stats['geojson']['total_venues'] += 1
 
                 # Check if venue has a match
                 match_type = feature['properties'].get('match_type')
                 if match_type == 'sports_match':
-                    stats['sports_matches'] += 1
+                    stats['geojson']['sports_matches'] += 1
                 elif match_type == 'name_match':
-                    stats['name_matches'] += 1
+                    stats['geojson']['name_matches'] += 1
 
                     # Track the specific matching method for name matches
                     match_method = feature['properties'].get('match_method')
-                    if match_method and match_method in stats['name_matches_by_method']:
-                        stats['name_matches_by_method'][match_method] += 1
+                    if match_method and match_method in stats['geojson']['name_matches_by_method']:
+                        stats['geojson']['name_matches_by_method'][match_method] += 1
                 else:
-                    stats['unmatched'] += 1
+                    stats['geojson']['unmatched'] += 1
                     # Add unmatched GeoJSON venue to the list
                     geojson_venue_info = {
                         'name': feature['properties'].get('associated_names', 'Unknown'),
                         'sports': feature['properties'].get('sports', [])
                     }
-                    stats['unmatched_geojson_venues'].append(geojson_venue_info)
+                    stats['geojson']['unmatched_venues'].append(geojson_venue_info)
 
-    # Collect unmatched JSON venues for this file
+    # Collect JSON venue statistics for this file
     # Determine year and season from filename to find corresponding JSON data
     parts = filename.split('_', 1)
     if len(parts) >= 2:
@@ -466,7 +497,7 @@ def collect_venue_statistics(filename, geojson_content):
         elif season.lower() == "winter":
             json_datum = winter_data
 
-        # Find unmatched JSON venues
+        # Find all JSON venues and categorize them
         if json_datum and 'data' in json_datum:
             for entry in json_datum['data']:
                 if ('extraction' in entry and
@@ -478,14 +509,43 @@ def collect_venue_statistics(filename, geojson_content):
                     if 'venues' in year_data:
                         # Get list of matched JSON venue names from GeoJSON features
                         matched_json_names = set()
+                        matched_json_venues_by_type = {
+                            'sports_match': set(),
+                            'name_match': set()
+                        }
+
                         for feature in geojson_content.get('features', []):
                             if 'properties' in feature and 'matched_venue_name' in feature['properties']:
-                                matched_json_names.add(feature['properties']['matched_venue_name'])
+                                venue_name = feature['properties']['matched_venue_name']
+                                match_type = feature['properties'].get('match_type')
+                                matched_json_names.add(venue_name)
 
-                        # Find unmatched JSON venues
+                                if match_type in matched_json_venues_by_type:
+                                    matched_json_venues_by_type[match_type].add(venue_name)
+
+                        # Count all JSON venues and categorize them
                         for json_venue in year_data['venues']:
                             venue_name = json_venue.get('name', 'Unknown')
-                            if venue_name not in matched_json_names:
+                            stats['total_venues'] += 1
+                            stats['json']['total_venues'] += 1
+
+                            if venue_name in matched_json_venues_by_type['sports_match']:
+                                stats['json']['sports_matches'] += 1
+                            elif venue_name in matched_json_venues_by_type['name_match']:
+                                stats['json']['name_matches'] += 1
+
+                                # Find the match method for this JSON venue
+                                for feature in geojson_content.get('features', []):
+                                    if (feature.get('properties', {}).get('matched_venue_name') == venue_name and
+                                        feature.get('properties', {}).get('match_type') == 'name_match'):
+                                        match_method = feature.get('properties', {}).get('match_method')
+                                        if match_method and match_method in stats['json']['name_matches_by_method']:
+                                            stats['json']['name_matches_by_method'][match_method] += 1
+                                        break
+                            else:
+                                # Unmatched JSON venue
+                                stats['json']['unmatched'] += 1
+
                                 # Extract sports from 'use' field and convert to list format
                                 use_field = json_venue.get('use', 'Unknown')
                                 if use_field != 'Unknown':
@@ -497,7 +557,7 @@ def collect_venue_statistics(filename, geojson_content):
                                     'name': venue_name,
                                     'sports': sports
                                 }
-                                stats['unmatched_json_venues'].append(unmatched_json_venue_info)
+                                stats['json']['unmatched_venues'].append(unmatched_json_venue_info)
                     break
 
     return stats
@@ -512,15 +572,30 @@ def update_total_statistics(file_stats):
     """
     global total_statistics
 
+    # Update total statistics
     total_statistics['total_venues'] += file_stats['total_venues']
-    total_statistics['sports_matches'] += file_stats['sports_matches']
-    total_statistics['name_matches'] += file_stats['name_matches']
-    total_statistics['unmatched'] += file_stats['unmatched']
+    total_statistics['geojson']['total_venues'] += file_stats['geojson']['total_venues']
+    total_statistics['json']['total_venues'] += file_stats['json']['total_venues']
+
+    total_statistics['geojson']['sports_matches'] += file_stats['geojson']['sports_matches']
+    total_statistics['json']['sports_matches'] += file_stats['json']['sports_matches']
+
+    total_statistics['geojson']['name_matches'] += file_stats['geojson']['name_matches']
+    total_statistics['json']['name_matches'] += file_stats['json']['name_matches']
+
+    total_statistics['geojson']['unmatched'] += file_stats['geojson']['unmatched']
+    total_statistics['json']['unmatched'] += file_stats['json']['unmatched']
+
     total_statistics['files_processed'] += 1
 
-    # Update name match method counts
-    for method, count in file_stats['name_matches_by_method'].items():
-        total_statistics['name_matches_by_method'][method] += count
+    # Update name match method counts by source
+    for method, count in file_stats['geojson']['name_matches_by_method'].items():
+        if method in total_statistics['geojson']['name_matches_by_method']:
+            total_statistics['geojson']['name_matches_by_method'][method] += count
+
+    for method, count in file_stats['json']['name_matches_by_method'].items():
+        if method in total_statistics['json']['name_matches_by_method']:
+            total_statistics['json']['name_matches_by_method'][method] += count
 
 
 def print_file_statistics(file_stats):
@@ -532,11 +607,19 @@ def print_file_statistics(file_stats):
     """
     filename = file_stats['filename']
     total = file_stats['total_venues']
-    sports = file_stats['sports_matches']
-    name = file_stats['name_matches']
-    unmatched = file_stats['unmatched']
-    unmatched_geojson = len(file_stats.get('unmatched_geojson_venues', []))
-    unmatched_json = len(file_stats.get('unmatched_json_venues', []))
+
+    # Calculate combined statistics from both geojson and json sources
+    sports_geojson = file_stats['geojson']['sports_matches']
+    sports_json = file_stats['json']['sports_matches']
+    name_geojson = file_stats['geojson']['name_matches']
+    name_json = file_stats['json']['name_matches']
+    unmatched_geojson = file_stats['geojson']['unmatched']
+    unmatched_json = file_stats['json']['unmatched']
+
+    # Combined totals
+    sports = sports_geojson + sports_json
+    name = name_geojson + name_json
+    unmatched = unmatched_geojson + unmatched_json
 
     # Calculate percentages
     sports_pct = (sports / total * 100) if total > 0 else 0
@@ -550,8 +633,14 @@ def print_file_statistics(file_stats):
 
     # Display name match method breakdown
     if name > 0:
-        methods = file_stats['name_matches_by_method']
-        for method, count in methods.items():
+        # Combine methods from both geojson and json sources
+        combined_methods = {}
+        for method in file_stats['geojson']['name_matches_by_method']:
+            geojson_count = file_stats['geojson']['name_matches_by_method'][method]
+            json_count = file_stats['json']['name_matches_by_method'][method]
+            combined_methods[method] = geojson_count + json_count
+
+        for method, count in combined_methods.items():
             if count > 0:
                 method_pct = (count / name * 100) if name > 0 else 0
                 log_message(f"  - {method}: {count} ({method_pct:.1f}% of name matches)")
@@ -561,14 +650,14 @@ def print_file_statistics(file_stats):
     # Display detailed unmatched venue information
     if unmatched_geojson > 0:
         log_message(f"Unmatched GeoJSON venues: {unmatched_geojson}")
-        for i, venue in enumerate(file_stats['unmatched_geojson_venues']):
+        for venue in file_stats['geojson']['unmatched_venues']:
             sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
                 venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
 
     if unmatched_json > 0:
         log_message(f"Unmatched JSON venues: {unmatched_json}")
-        for i, venue in enumerate(file_stats['unmatched_json_venues']):
+        for venue in file_stats['json']['unmatched_venues']:
             sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
                 venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
@@ -583,10 +672,20 @@ def print_total_statistics():
     global total_statistics
 
     total = total_statistics['total_venues']
-    sports = total_statistics['sports_matches']
-    name = total_statistics['name_matches']
-    unmatched = total_statistics['unmatched']
     files = total_statistics['files_processed']
+
+    # Calculate combined statistics from both geojson and json sources
+    sports_geojson = total_statistics['geojson']['sports_matches']
+    sports_json = total_statistics['json']['sports_matches']
+    name_geojson = total_statistics['geojson']['name_matches']
+    name_json = total_statistics['json']['name_matches']
+    unmatched_geojson = total_statistics['geojson']['unmatched']
+    unmatched_json = total_statistics['json']['unmatched']
+
+    # Combined totals
+    sports = sports_geojson + sports_json
+    name = name_geojson + name_json
+    unmatched = unmatched_geojson + unmatched_json
 
     # Calculate percentages
     sports_pct = (sports / total * 100) if total > 0 else 0
@@ -604,8 +703,14 @@ def print_total_statistics():
 
     # Display name match method breakdown for totals
     if name > 0:
-        methods = total_statistics['name_matches_by_method']
-        for method, count in methods.items():
+        # Combine methods from both geojson and json sources
+        combined_methods = {}
+        for method in total_statistics['geojson']['name_matches_by_method']:
+            geojson_count = total_statistics['geojson']['name_matches_by_method'][method]
+            json_count = total_statistics['json']['name_matches_by_method'][method]
+            combined_methods[method] = geojson_count + json_count
+
+        for method, count in combined_methods.items():
             if count > 0:
                 method_pct = (count / name * 100) if name > 0 else 0
                 total_pct = (count / total * 100) if total > 0 else 0

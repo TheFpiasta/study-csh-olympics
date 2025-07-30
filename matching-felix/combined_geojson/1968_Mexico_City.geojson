@@ -1275,5 +1275,11 @@
         "venue_information": "Also used as a concert venue, the rink formed part of a shopping centre that was opened in 1962 and demolished in the 1970s. The site is now occupied by a hotel."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1968",
+    "olympics_city": "Mexico City",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

@@ -395,5 +395,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1968",
+    "olympics_city": "Grenoble",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

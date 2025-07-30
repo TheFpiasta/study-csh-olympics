@@ -1523,5 +1523,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2008",
+    "olympics_city": "Beijing",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

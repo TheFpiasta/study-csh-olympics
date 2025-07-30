@@ -419,5 +419,11 @@
         "match_method": "token_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2014",
+    "olympics_city": "Sochi",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

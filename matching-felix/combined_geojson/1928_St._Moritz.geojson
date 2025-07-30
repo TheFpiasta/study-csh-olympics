@@ -266,5 +266,11 @@
         "venue_information": "The venue for the ski joring demonstration event at the 1928 Games, this lake sits on the southern edge of the resort. In winter, it hosts the Snow Polo World Cup, the only \"high-goal\" polo tournament to be played on snow, and the White Turf international horse racing meet, which has been running since 1907. The lake also staged the speed skating competitions at the Winter Youth Olympic Games Lausanne 2020 and is used for sailing in summertime."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1928",
+    "olympics_city": "St. Moritz",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

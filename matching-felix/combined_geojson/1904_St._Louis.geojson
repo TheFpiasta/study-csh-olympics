@@ -253,5 +253,11 @@
         "venue_information": "The venue was handed over to the WUSTL Department of Athletics after the Games. Since known as Francis Field House, it was converted into a modern, energy-efficient fitness, recreation and athletic centre in 2016. The building, which was also extended to incorporate new facilities, was renamed the Gary M. Sumers Recreation Centre. During its renovation, parts of the original gymnasium were demolished. Some elements were retained, however. These include the gym's original maple flooring, which was relaid in a bridge section connecting the existing and new parts of the facility. Among the centre's many exercise spaces is the Olympic Studio, which celebrates the venue's Olympic past and whose walls are lined with photographs from the 1904 Games. The venue has also played a part in recent US political history, providing the setting for five presidential and vice-presidential debates since 1992."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1904",
+    "olympics_city": "St. Louis",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

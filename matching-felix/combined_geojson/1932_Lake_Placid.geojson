@@ -172,5 +172,11 @@
         "Olympics": "1932 Lake Placid"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1932",
+    "olympics_city": "Lake Placid",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

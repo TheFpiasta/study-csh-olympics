@@ -440,5 +440,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1994",
+    "olympics_city": "Lillehammer",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

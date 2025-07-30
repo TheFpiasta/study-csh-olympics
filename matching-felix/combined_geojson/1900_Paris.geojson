@@ -920,5 +920,11 @@
         "Olympics": "1900 Paris"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1900",
+    "olympics_city": "Paris",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

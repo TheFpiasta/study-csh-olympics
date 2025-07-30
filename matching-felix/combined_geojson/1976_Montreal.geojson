@@ -972,5 +972,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1976",
+    "olympics_city": "Montreal",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

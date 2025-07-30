@@ -574,5 +574,11 @@
         "match_method": "token_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1908",
+    "olympics_city": "London",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

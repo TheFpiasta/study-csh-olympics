@@ -569,5 +569,11 @@
         "venue_information": "Located north-east of the city centre, and the second body of water used for sailing competitions at the Olympic Games Amsterdam 1928, it hosted the single-handed Olympic monotype class. It also staged the 12-foot dinghy competition at the Olympic Games Antwerp 1920. The area is now part of the port of Amsterdam, the fourth busiest in Europe."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1928",
+    "olympics_city": "Amsterdam",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

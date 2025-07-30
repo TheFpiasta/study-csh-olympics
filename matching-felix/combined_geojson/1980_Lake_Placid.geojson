@@ -288,5 +288,11 @@
         "Olympics": "1980 Lake Placid"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1980",
+    "olympics_city": "Lake Placid",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

@@ -1224,5 +1224,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2000",
+    "olympics_city": "Sydney",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

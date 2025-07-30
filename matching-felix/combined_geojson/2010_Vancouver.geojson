@@ -362,5 +362,11 @@
         "match_method": "substring_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2010",
+    "olympics_city": "Vancouver",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

@@ -937,5 +937,11 @@
         "match_method": "substring_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1924",
+    "olympics_city": "Paris",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

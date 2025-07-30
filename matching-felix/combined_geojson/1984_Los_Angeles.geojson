@@ -1287,5 +1287,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1984",
+    "olympics_city": "Los Angeles",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

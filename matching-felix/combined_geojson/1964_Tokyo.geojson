@@ -1237,5 +1237,11 @@
         "match_method": "substring_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1964",
+    "olympics_city": "Tokyo",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

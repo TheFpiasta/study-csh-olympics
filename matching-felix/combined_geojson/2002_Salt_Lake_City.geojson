@@ -423,5 +423,11 @@
         "venue_information": "The venue, which opened in 1994, is a training centre for curling, ice hockey and figure skating and is used by approximately 450,000 people a year."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2002",
+    "olympics_city": "Salt Lake City",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

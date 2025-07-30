@@ -330,5 +330,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1988",
+    "olympics_city": "Calgary",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

@@ -1222,5 +1222,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2012",
+    "olympics_city": "London",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

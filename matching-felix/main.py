@@ -273,7 +273,6 @@ def manipulate_geojson_file(filename, geojson_content):
     manipulated_content['properties']['olympics_year'] = year
     manipulated_content['properties']['olympics_city'] = city
     manipulated_content['properties']['olympics_season'] = season
-    manipulated_content['properties']['processed_by'] = 'matching-felix'
 
     # Process venue matching if we have JSON data
     if json_datum and 'data' in json_datum:

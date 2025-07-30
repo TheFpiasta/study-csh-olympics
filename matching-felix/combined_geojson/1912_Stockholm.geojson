@@ -552,5 +552,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1912",
+    "olympics_city": "Stockholm",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

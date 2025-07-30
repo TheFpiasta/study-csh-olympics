@@ -496,5 +496,11 @@
         "Olympics": "1948 St Moritz"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1948",
+    "olympics_city": "St. Moritz",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

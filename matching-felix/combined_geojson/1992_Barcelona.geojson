@@ -1577,5 +1577,11 @@
         "match_method": "fuzzy_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1992",
+    "olympics_city": "Barcelona",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

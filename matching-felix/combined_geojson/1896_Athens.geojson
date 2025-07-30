@@ -288,5 +288,11 @@
         "venue_information": "Founded in 1895 and the oldest tennis club in Greece, the Athens Lawn Tennis Club hosts local and international competitions, including Greece's home Davis Cup matches. Open to members and visitors, it is also used for coaching and practice."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1896",
+    "olympics_city": "Athens",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

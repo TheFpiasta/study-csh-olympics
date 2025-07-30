@@ -1374,5 +1374,11 @@
         "Olympics": "2020 Tokyo"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2020",
+    "olympics_city": "Tokyo",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

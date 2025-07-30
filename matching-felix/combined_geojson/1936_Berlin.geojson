@@ -968,5 +968,11 @@
         "venue_information": "Used as an internment camp during WWI, the shooting ranges were converted into a recreational area in 2007."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1936",
+    "olympics_city": "Berlin",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

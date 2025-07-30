@@ -1286,5 +1286,11 @@
         "match_method": "fuzzy_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1988",
+    "olympics_city": "Seoul",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

@@ -2572,5 +2572,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2004",
+    "olympics_city": "Athens",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

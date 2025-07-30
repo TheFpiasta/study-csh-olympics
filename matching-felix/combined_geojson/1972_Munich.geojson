@@ -1327,5 +1327,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1972",
+    "olympics_city": "Munich",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

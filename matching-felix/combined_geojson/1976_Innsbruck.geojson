@@ -404,5 +404,11 @@
         "Olympics": "1976 Innsbruck"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1976",
+    "olympics_city": "Innsbruck",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

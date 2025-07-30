@@ -1187,5 +1187,11 @@
         "match_method": "substring_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1996",
+    "olympics_city": "Atlanta",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

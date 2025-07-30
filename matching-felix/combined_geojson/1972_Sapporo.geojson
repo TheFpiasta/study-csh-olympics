@@ -476,5 +476,11 @@
         "match_method": "token_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1972",
+    "olympics_city": "Sapporo",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

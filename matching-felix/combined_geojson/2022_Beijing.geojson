@@ -1,4 +1,4 @@
-    {
+{
   "type": "FeatureCollection",
   "features": [
     {
@@ -392,5 +392,11 @@
         "Olympics": "2022 Beijing"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2022",
+    "olympics_city": "Beijing",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

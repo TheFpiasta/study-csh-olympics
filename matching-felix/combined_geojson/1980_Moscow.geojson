@@ -1083,5 +1083,11 @@
         "venue_information": ""
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1980",
+    "olympics_city": "Moscow",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

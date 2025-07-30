@@ -1128,5 +1128,11 @@
         "venue_information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1952",
+    "olympics_city": "Helsinki",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

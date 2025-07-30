@@ -557,5 +557,11 @@
         "match_method": "token_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1998",
+    "olympics_city": "Nagano",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

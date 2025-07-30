@@ -1203,5 +1203,11 @@
         "venue_information": "Empire Pool was part of the Wembley Park complex, the main hub at the 1948 Olympic Games. Used at the 1934 Empire Games, (as the Commonwealth Games were formerly known), it hosted its last swimming events at London 1948. It has since become a prominent music and sporting venue, welcoming boxing, ice skating and basketball, among other sports, and providing the setting for the Horse of the Year show until 2002. Awarded listed status in 1976, it was renamed Wembley Arena two years later. The venue staged the badminton and rhythmic gymnastics competitions at the 2012 Olympic Games."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1948",
+    "olympics_city": "London",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

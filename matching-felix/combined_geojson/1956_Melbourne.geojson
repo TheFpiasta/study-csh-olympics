@@ -559,5 +559,11 @@
         "match_method": "exact_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1956",
+    "olympics_city": "Melbourne",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

@@ -1539,5 +1539,11 @@
         "match_method": "substring_match"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "2016",
+    "olympics_city": "Rio",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

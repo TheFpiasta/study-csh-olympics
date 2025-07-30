@@ -126,5 +126,11 @@
         "Olympics": "1924 Chamonix"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1924",
+    "olympics_city": "Chamonix",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

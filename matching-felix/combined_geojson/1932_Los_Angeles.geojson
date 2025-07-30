@@ -467,5 +467,11 @@
         "venue_information": "The 1932 Olympic Games sailing events took place on open water. No information is available as to the construction of any temporary structures for the occasion."
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1932",
+    "olympics_city": "Los Angeles",
+    "olympics_season": "summer",
+    "processed_by": "matching-felix"
+  }
 }

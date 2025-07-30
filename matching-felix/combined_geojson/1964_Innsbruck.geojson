@@ -404,5 +404,11 @@
         "Olympics": "1964 Innsbruck"
       }
     }
-  ]
+  ],
+  "properties": {
+    "olympics_year": "1964",
+    "olympics_city": "Innsbruck",
+    "olympics_season": "winter",
+    "processed_by": "matching-felix"
+  }
 }

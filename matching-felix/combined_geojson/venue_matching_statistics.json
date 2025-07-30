@@ -3,27 +3,27 @@
     "total_venues": 1911,
     "geojson": {
       "total_venues": 983,
-      "sports_matches": 241,
-      "name_matches": 571,
+      "sports_matches": 167,
+      "name_matches": 668,
       "name_matches_by_method": {
-        "exact_match": 243,
-        "substring_match": 254,
-        "token_match": 27,
-        "fuzzy_match": 47
+        "exact_match": 240,
+        "substring_match": 46,
+        "token_match": 26,
+        "fuzzy_match": 281
       },
-      "unmatched": 171
+      "unmatched": 148
     },
     "json": {
       "total_venues": 928,
-      "sports_matches": 191,
-      "name_matches": 515,
+      "sports_matches": 129,
+      "name_matches": 617,
       "name_matches_by_method": {
-        "exact_match": 226,
-        "substring_match": 227,
+        "exact_match": 229,
+        "substring_match": 38,
         "token_match": 22,
-        "fuzzy_match": 40
+        "fuzzy_match": 258
       },
-      "unmatched": 222
+      "unmatched": 182
     },
     "files_processed": 53
   },
@@ -97,13 +97,13 @@
       "total_venues": 40,
       "geojson": {
         "total_venues": 25,
-        "sports_matches": 6,
-        "name_matches": 8,
+        "sports_matches": 4,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 4,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 7
         },
         "unmatched": 11,
         "unmatched_venues": [
@@ -215,13 +215,13 @@
       },
       "json": {
         "total_venues": 15,
-        "sports_matches": 6,
-        "name_matches": 8,
+        "sports_matches": 4,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 4,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 7
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -239,26 +239,26 @@
       "total_venues": 12,
       "geojson": {
         "total_venues": 6,
-        "sports_matches": 1,
-        "name_matches": 5,
+        "sports_matches": 0,
+        "name_matches": 6,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 3,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
         },
         "unmatched": 0,
         "unmatched_venues": []
       },
       "json": {
         "total_venues": 6,
-        "sports_matches": 1,
-        "name_matches": 5,
+        "sports_matches": 0,
+        "name_matches": 6,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 3,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
         },
         "unmatched": 0,
         "unmatched_venues": []
@@ -269,13 +269,13 @@
       "total_venues": 28,
       "geojson": {
         "total_venues": 14,
-        "sports_matches": 2,
-        "name_matches": 11,
+        "sports_matches": 1,
+        "name_matches": 12,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 2,
-          "token_match": 1,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -307,21 +307,15 @@
       "json": {
         "total_venues": 14,
         "sports_matches": 1,
-        "name_matches": 11,
+        "name_matches": 12,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 2,
-          "token_match": 1,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
         },
-        "unmatched": 2,
+        "unmatched": 1,
         "unmatched_venues": [
-          {
-            "name": "Prince's Galleries, Piccadilly (Prince's Hall)",
-            "sports": [
-              "Fencing"
-            ]
-          },
           {
             "name": "London Olympic Stadium",
             "sports": [
@@ -349,15 +343,15 @@
       "total_venues": 30,
       "geojson": {
         "total_venues": 14,
-        "sports_matches": 5,
-        "name_matches": 6,
+        "sports_matches": 3,
+        "name_matches": 9,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 2
         },
-        "unmatched": 3,
+        "unmatched": 2,
         "unmatched_venues": [
           {
             "name": [
@@ -366,18 +360,6 @@
             "sports": [
               "Modern Pentathlon",
               "Shooting"
-            ]
-          },
-          {
-            "name": [
-              "Östermalms Idrottsplats",
-              "Östermalm Sporting Grounds"
-            ],
-            "sports": [
-              "Baseball",
-              "Fencing",
-              "Modern Pentathlon",
-              "Tennis"
             ]
           },
           {
@@ -393,36 +375,16 @@
       },
       "json": {
         "total_venues": 16,
-        "sports_matches": 5,
-        "name_matches": 4,
+        "sports_matches": 3,
+        "name_matches": 9,
         "name_matches_by_method": {
-          "exact_match": 2,
+          "exact_match": 3,
           "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 2
         },
-        "unmatched": 7,
+        "unmatched": 4,
         "unmatched_venues": [
-          {
-            "name": "Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium",
-            "sports": [
-              "Eventing"
-            ]
-          },
-          {
-            "name": "Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)",
-            "sports": [
-              "Football"
-            ]
-          },
-          {
-            "name": "Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)",
-            "sports": [
-              "Tennis",
-              "fencing",
-              "modern pentathlon (fencing)"
-            ]
-          },
           {
             "name": "Kaknäs Shooting Range, Djurgården",
             "sports": [
@@ -455,13 +417,13 @@
       "total_venues": 39,
       "geojson": {
         "total_venues": 20,
-        "sports_matches": 4,
-        "name_matches": 14,
+        "sports_matches": 3,
+        "name_matches": 15,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 5,
-          "token_match": 1,
-          "fuzzy_match": 3
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -487,13 +449,13 @@
       },
       "json": {
         "total_venues": 19,
-        "sports_matches": 4,
-        "name_matches": 13,
+        "sports_matches": 3,
+        "name_matches": 14,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 5,
-          "token_match": 1,
-          "fuzzy_match": 3
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -517,13 +479,13 @@
       "total_venues": 6,
       "geojson": {
         "total_venues": 3,
-        "sports_matches": 2,
-        "name_matches": 0,
+        "sports_matches": 1,
+        "name_matches": 1,
         "name_matches_by_method": {
           "exact_match": 0,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -549,13 +511,13 @@
       },
       "json": {
         "total_venues": 3,
-        "sports_matches": 2,
-        "name_matches": 0,
+        "sports_matches": 1,
+        "name_matches": 1,
         "name_matches_by_method": {
           "exact_match": 0,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -579,13 +541,13 @@
       "total_venues": 45,
       "geojson": {
         "total_venues": 23,
-        "sports_matches": 5,
-        "name_matches": 16,
+        "sports_matches": 4,
+        "name_matches": 17,
         "name_matches_by_method": {
           "exact_match": 7,
-          "substring_match": 9,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 3
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -611,22 +573,16 @@
       },
       "json": {
         "total_venues": 22,
-        "sports_matches": 4,
-        "name_matches": 14,
+        "sports_matches": 3,
+        "name_matches": 16,
         "name_matches_by_method": {
-          "exact_match": 5,
-          "substring_match": 9,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "exact_match": 6,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 3
         },
-        "unmatched": 4,
+        "unmatched": 3,
         "unmatched_venues": [
-          {
-            "name": "Stade d'Escrime de Colombes / Stade de Colombes",
-            "sports": [
-              "Fencing"
-            ]
-          },
           {
             "name": "Auteuil-Villacoublay",
             "sports": [
@@ -653,15 +609,15 @@
       "total_venues": 27,
       "geojson": {
         "total_venues": 15,
-        "sports_matches": 8,
-        "name_matches": 2,
+        "sports_matches": 7,
+        "name_matches": 4,
         "name_matches_by_method": {
           "exact_match": 1,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 2
         },
-        "unmatched": 5,
+        "unmatched": 4,
         "unmatched_venues": [
           {
             "name": [
@@ -679,17 +635,6 @@
             ],
             "sports": [
               "Cycling Road"
-            ]
-          },
-          {
-            "name": [
-              "Sportpark",
-              "Sports Park"
-            ],
-            "sports": [
-              "Equestrian Dressage",
-              "Equestrian Eventing",
-              "Modern Pentathlon"
             ]
           },
           {
@@ -714,15 +659,15 @@
       },
       "json": {
         "total_venues": 12,
-        "sports_matches": 7,
-        "name_matches": 1,
+        "sports_matches": 6,
+        "name_matches": 3,
         "name_matches_by_method": {
           "exact_match": 0,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 2
         },
-        "unmatched": 4,
+        "unmatched": 3,
         "unmatched_venues": [
           {
             "name": "Zeeburg Rifle Range",
@@ -741,13 +686,6 @@
             "sports": [
               "Road cycling"
             ]
-          },
-          {
-            "name": "Municipal Sports Park, Hilversum",
-            "sports": [
-              "Equestrian (dressage and eventing)",
-              "modern pentathlon (running)"
-            ]
           }
         ]
       }
@@ -757,13 +695,13 @@
       "total_venues": 12,
       "geojson": {
         "total_venues": 6,
-        "sports_matches": 1,
-        "name_matches": 4,
+        "sports_matches": 0,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 2,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 2
+          "fuzzy_match": 3
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -784,13 +722,13 @@
       },
       "json": {
         "total_venues": 6,
-        "sports_matches": 1,
-        "name_matches": 4,
+        "sports_matches": 0,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 2,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 2
+          "fuzzy_match": 3
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -915,13 +853,13 @@
       "total_venues": 26,
       "geojson": {
         "total_venues": 12,
-        "sports_matches": 2,
-        "name_matches": 6,
+        "sports_matches": 1,
+        "name_matches": 7,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 2,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 2
+          "fuzzy_match": 4
         },
         "unmatched": 4,
         "unmatched_venues": [
@@ -973,26 +911,30 @@
       },
       "json": {
         "total_venues": 14,
-        "sports_matches": 2,
-        "name_matches": 6,
+        "sports_matches": 1,
+        "name_matches": 7,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 2,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 2
+          "fuzzy_match": 4
         },
         "unmatched": 6,
         "unmatched_venues": [
           {
-            "name": "Fencing Stadium/Pavilion",
+            "name": "Los Angeles Olympic Stadium",
             "sports": [
-              "Fencing"
+              "Gymnastics",
+              "hockey",
+              "equestrian (jumping",
+              "eventing)",
+              "Opening and Closing Ceremonies"
             ]
           },
           {
-            "name": "Sunset Fields Golf Club of Los Angeles",
+            "name": "Fencing Stadium/Pavilion",
             "sports": [
-              "Modern pentathlon (running)"
+              "Fencing"
             ]
           },
           {
@@ -1027,15 +969,15 @@
       "total_venues": 46,
       "geojson": {
         "total_venues": 25,
-        "sports_matches": 8,
-        "name_matches": 11,
+        "sports_matches": 6,
+        "name_matches": 14,
         "name_matches_by_method": {
           "exact_match": 1,
-          "substring_match": 9,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 7
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": [
@@ -1066,15 +1008,6 @@
           },
           {
             "name": [
-              "Olympia-Radstadion",
-              "Olympic Cycling Stadium"
-            ],
-            "sports": [
-              "Cycling Track"
-            ]
-          },
-          {
-            "name": [
               "Truppenübungsplatz",
               "Military Exercise Field"
             ],
@@ -1096,27 +1029,21 @@
       },
       "json": {
         "total_venues": 21,
-        "sports_matches": 6,
-        "name_matches": 10,
+        "sports_matches": 5,
+        "name_matches": 13,
         "name_matches_by_method": {
           "exact_match": 1,
-          "substring_match": 8,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 6
         },
-        "unmatched": 5,
+        "unmatched": 3,
         "unmatched_venues": [
           {
             "name": "Avus Motor Road",
             "sports": [
               "Athletics",
               "cycling (road)"
-            ]
-          },
-          {
-            "name": "Wannsee Golf Course",
-            "sports": [
-              "Modern pentathlon (running)"
             ]
           },
           {
@@ -1129,12 +1056,6 @@
             "name": "Berlin Olympic Village",
             "sports": [
               "Athlete accommodation"
-            ]
-          },
-          {
-            "name": "Cycling Stadium (Olympia-Radstadion)",
-            "sports": [
-              "Cycling (track)"
             ]
           }
         ]
@@ -1149,9 +1070,9 @@
         "name_matches": 6,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 3,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 3
         },
         "unmatched": 0,
         "unmatched_venues": []
@@ -1162,9 +1083,9 @@
         "name_matches": 6,
         "name_matches_by_method": {
           "exact_match": 2,
-          "substring_match": 3,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 3
         },
         "unmatched": 0,
         "unmatched_venues": []
@@ -1175,13 +1096,13 @@
       "total_venues": 59,
       "geojson": {
         "total_venues": 30,
-        "sports_matches": 6,
-        "name_matches": 23,
+        "sports_matches": 3,
+        "name_matches": 26,
         "name_matches_by_method": {
           "exact_match": 9,
-          "substring_match": 11,
+          "substring_match": 2,
           "token_match": 1,
-          "fuzzy_match": 2
+          "fuzzy_match": 7
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -1197,22 +1118,16 @@
       },
       "json": {
         "total_venues": 29,
-        "sports_matches": 5,
-        "name_matches": 20,
+        "sports_matches": 3,
+        "name_matches": 24,
         "name_matches_by_method": {
           "exact_match": 9,
-          "substring_match": 9,
+          "substring_match": 2,
           "token_match": 1,
-          "fuzzy_match": 1
+          "fuzzy_match": 6
         },
-        "unmatched": 4,
+        "unmatched": 2,
         "unmatched_venues": [
-          {
-            "name": "Polytechnic Stadium",
-            "sports": [
-              "Field hockey"
-            ]
-          },
           {
             "name": "Finchley Pool",
             "sports": [
@@ -1224,12 +1139,6 @@
             "sports": [
               "Modern pentathlon (fencing)"
             ]
-          },
-          {
-            "name": "Aldershot Pool/Aldershot Lido",
-            "sports": [
-              "Modern pentathlon (swimming)"
-            ]
           }
         ]
       }
@@ -1239,13 +1148,13 @@
       "total_venues": 21,
       "geojson": {
         "total_venues": 13,
-        "sports_matches": 5,
-        "name_matches": 3,
+        "sports_matches": 3,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 2,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 3
         },
         "unmatched": 5,
         "unmatched_venues": [
@@ -1299,13 +1208,13 @@
       },
       "json": {
         "total_venues": 8,
-        "sports_matches": 3,
-        "name_matches": 3,
+        "sports_matches": 2,
+        "name_matches": 4,
         "name_matches_by_method": {
           "exact_match": 2,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 2
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -1332,15 +1241,15 @@
       "total_venues": 49,
       "geojson": {
         "total_venues": 29,
-        "sports_matches": 17,
-        "name_matches": 9,
+        "sports_matches": 15,
+        "name_matches": 12,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 3,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 5
         },
-        "unmatched": 3,
+        "unmatched": 2,
         "unmatched_venues": [
           {
             "name": [
@@ -1358,40 +1267,21 @@
             "sports": [
               "Cycling Road"
             ]
-          },
-          {
-            "name": [
-              "Helsingin Velodromi",
-              "Helsinki Velodrome"
-            ],
-            "sports": [
-              "Cycling Track",
-              "Hockey"
-            ]
           }
         ]
       },
       "json": {
         "total_venues": 20,
-        "sports_matches": 7,
-        "name_matches": 8,
+        "sports_matches": 6,
+        "name_matches": 9,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 2,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
         "unmatched": 5,
         "unmatched_venues": [
-          {
-            "name": "Olympic Stadium",
-            "sports": [
-              "Athletics",
-              "football",
-              "equestrian (jumping)",
-              "Opening and Closing Ceremonies"
-            ]
-          },
           {
             "name": "Football pitches by the Olympic Stadium",
             "sports": [
@@ -1402,6 +1292,12 @@
             "name": "Huopalahti",
             "sports": [
               "Shooting"
+            ]
+          },
+          {
+            "name": "Helsinki Olympic Village (Olympiakylä)",
+            "sports": [
+              "Athlete accommodation"
             ]
           },
           {
@@ -1424,28 +1320,28 @@
       "total_venues": 26,
       "geojson": {
         "total_venues": 12,
-        "sports_matches": 7,
-        "name_matches": 5,
+        "sports_matches": 4,
+        "name_matches": 8,
         "name_matches_by_method": {
-          "exact_match": 2,
+          "exact_match": 1,
           "substring_match": 3,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 3
         },
         "unmatched": 0,
         "unmatched_venues": []
       },
       "json": {
         "total_venues": 14,
-        "sports_matches": 5,
-        "name_matches": 3,
+        "sports_matches": 3,
+        "name_matches": 6,
         "name_matches_by_method": {
           "exact_match": 1,
           "substring_match": 2,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "Rødkleiva",
@@ -1473,12 +1369,6 @@
           },
           {
             "name": "Sandvika Kadettangen Stadium",
-            "sports": [
-              "Ice hockey"
-            ]
-          },
-          {
-            "name": "Drammen Marienlyst Stadium",
             "sports": [
               "Ice hockey"
             ]
@@ -1549,13 +1439,13 @@
       "total_venues": 33,
       "geojson": {
         "total_venues": 14,
-        "sports_matches": 5,
-        "name_matches": 8,
+        "sports_matches": 2,
+        "name_matches": 11,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 5,
+          "substring_match": 2,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 5
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -1571,13 +1461,13 @@
       },
       "json": {
         "total_venues": 19,
-        "sports_matches": 5,
-        "name_matches": 7,
+        "sports_matches": 2,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 4,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 5
         },
         "unmatched": 7,
         "unmatched_venues": [
@@ -1633,13 +1523,13 @@
       "total_venues": 57,
       "geojson": {
         "total_venues": 30,
-        "sports_matches": 10,
-        "name_matches": 18,
+        "sports_matches": 8,
+        "name_matches": 20,
         "name_matches_by_method": {
           "exact_match": 9,
-          "substring_match": 4,
+          "substring_match": 1,
           "token_match": 2,
-          "fuzzy_match": 3
+          "fuzzy_match": 8
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -1665,22 +1555,16 @@
       },
       "json": {
         "total_venues": 27,
-        "sports_matches": 8,
-        "name_matches": 13,
+        "sports_matches": 7,
+        "name_matches": 15,
         "name_matches_by_method": {
-          "exact_match": 6,
-          "substring_match": 3,
+          "exact_match": 7,
+          "substring_match": 0,
           "token_match": 2,
-          "fuzzy_match": 2
+          "fuzzy_match": 6
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
-          {
-            "name": "Acquasanta Golf Club Course",
-            "sports": [
-              "Modern pentathlon (running)"
-            ]
-          },
           {
             "name": "SS Lazio Shooting Club",
             "sports": [
@@ -1720,26 +1604,26 @@
       "total_venues": 15,
       "geojson": {
         "total_venues": 8,
-        "sports_matches": 4,
-        "name_matches": 4,
+        "sports_matches": 3,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 1,
-          "substring_match": 2,
-          "token_match": 0,
-          "fuzzy_match": 1
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
         },
         "unmatched": 0,
         "unmatched_venues": []
       },
       "json": {
         "total_venues": 7,
-        "sports_matches": 2,
-        "name_matches": 4,
+        "sports_matches": 1,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 1,
-          "substring_match": 2,
-          "token_match": 0,
-          "fuzzy_match": 1
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -1758,14 +1642,14 @@
       "geojson": {
         "total_venues": 9,
         "sports_matches": 0,
-        "name_matches": 4,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
-        "unmatched": 5,
+        "unmatched": 4,
         "unmatched_venues": [
           {
             "name": [
@@ -1777,17 +1661,6 @@
               "Bobsleigh",
               "Luge",
               "Skeleton"
-            ]
-          },
-          {
-            "name": [
-              "Kombinationssprungschanze",
-              "Nordic Combined Ski Jump",
-              "Toni Seelos Olympiaschanze (?-Present)"
-            ],
-            "sports": [
-              "Nordic Combined",
-              "Ski Jumping"
             ]
           },
           {
@@ -1828,14 +1701,14 @@
       "json": {
         "total_venues": 10,
         "sports_matches": 0,
-        "name_matches": 4,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "Messehalle (Indoor Skating Rink)",
@@ -1864,12 +1737,6 @@
             ]
           },
           {
-            "name": "Toni Seelos Schanze (Olympiaschanze)",
-            "sports": [
-              "Nordic combined"
-            ]
-          },
-          {
             "name": "Bobbahn und Rodelbahn Igls",
             "sports": [
               "Bobsleigh",
@@ -1884,13 +1751,13 @@
       "total_venues": 62,
       "geojson": {
         "total_venues": 31,
-        "sports_matches": 11,
-        "name_matches": 19,
+        "sports_matches": 9,
+        "name_matches": 21,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 9,
+          "substring_match": 0,
           "token_match": 1,
-          "fuzzy_match": 1
+          "fuzzy_match": 11
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -1906,15 +1773,15 @@
       },
       "json": {
         "total_venues": 31,
-        "sports_matches": 7,
-        "name_matches": 17,
+        "sports_matches": 6,
+        "name_matches": 19,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 8,
+          "substring_match": 0,
           "token_match": 1,
-          "fuzzy_match": 0
+          "fuzzy_match": 9
         },
-        "unmatched": 7,
+        "unmatched": 6,
         "unmatched_venues": [
           {
             "name": "Prince Chichibu Memorial Football Field",
@@ -1929,13 +1796,13 @@
             ]
           },
           {
-            "name": "Komazawa First Hockey Fields",
+            "name": "Komazawa Second Hockey Fields",
             "sports": [
               "Hockey"
             ]
           },
           {
-            "name": "Komazawa Second Hockey Fields",
+            "name": "Komazawa Third Hockey Fields",
             "sports": [
               "Hockey"
             ]
@@ -1951,12 +1818,6 @@
             "sports": [
               "Basketball"
             ]
-          },
-          {
-            "name": "Asaka Nezu Park",
-            "sports": [
-              "Modern pentathlon (equestrian)"
-            ]
           }
         ]
       }
@@ -1966,13 +1827,13 @@
       "total_venues": 21,
       "geojson": {
         "total_venues": 10,
-        "sports_matches": 5,
-        "name_matches": 4,
+        "sports_matches": 4,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 2
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -1990,13 +1851,13 @@
       },
       "json": {
         "total_venues": 11,
-        "sports_matches": 4,
-        "name_matches": 4,
+        "sports_matches": 3,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 2
         },
         "unmatched": 3,
         "unmatched_venues": [
@@ -2028,13 +1889,13 @@
       "total_venues": 58,
       "geojson": {
         "total_venues": 34,
-        "sports_matches": 6,
-        "name_matches": 17,
+        "sports_matches": 3,
+        "name_matches": 20,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 6,
-          "token_match": 3,
-          "fuzzy_match": 0
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 9
         },
         "unmatched": 11,
         "unmatched_venues": [
@@ -2139,13 +2000,13 @@
       },
       "json": {
         "total_venues": 24,
-        "sports_matches": 6,
-        "name_matches": 16,
+        "sports_matches": 3,
+        "name_matches": 19,
         "name_matches_by_method": {
           "exact_match": 8,
-          "substring_match": 5,
-          "token_match": 3,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 9
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -2169,15 +2030,15 @@
       "total_venues": 67,
       "geojson": {
         "total_venues": 34,
-        "sports_matches": 10,
-        "name_matches": 19,
+        "sports_matches": 6,
+        "name_matches": 24,
         "name_matches_by_method": {
-          "exact_match": 4,
-          "substring_match": 15,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 19
         },
-        "unmatched": 5,
+        "unmatched": 4,
         "unmatched_venues": [
           {
             "name": [
@@ -2195,20 +2056,6 @@
             ],
             "sports": [
               "Waterskiing"
-            ]
-          },
-          {
-            "name": [
-              "Olympiastadion, Olympiapark",
-              "Olympic Stadium, Olympic Park"
-            ],
-            "sports": [
-              "Athletics",
-              "Equestrian Jumping",
-              "Football",
-              "Modern Pentathlon",
-              "Opening ceremony",
-              "Closing ceremony"
             ]
           },
           {
@@ -2232,30 +2079,20 @@
       },
       "json": {
         "total_venues": 33,
-        "sports_matches": 8,
-        "name_matches": 17,
+        "sports_matches": 5,
+        "name_matches": 22,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 14,
-          "token_match": 0,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 17
         },
-        "unmatched": 8,
+        "unmatched": 6,
         "unmatched_venues": [
           {
             "name": "Fencing Hall 2",
             "sports": [
               "Modern pentathlon (fencing)"
-            ]
-          },
-          {
-            "name": "Munich Olympic Stadium",
-            "sports": [
-              "Athletics",
-              "football",
-              "equestrian (jumping)",
-              "modern pentathlon (running)",
-              "Opening and Closing Ceremonies"
             ]
           },
           {
@@ -2287,12 +2124,6 @@
             "sports": [
               "Football"
             ]
-          },
-          {
-            "name": "Sports Hall, Augsburg",
-            "sports": [
-              "Handball"
-            ]
           }
         ]
       }
@@ -2302,26 +2133,26 @@
       "total_venues": 26,
       "geojson": {
         "total_venues": 12,
-        "sports_matches": 5,
-        "name_matches": 7,
+        "sports_matches": 2,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 2,
-          "token_match": 2,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 6
         },
         "unmatched": 0,
         "unmatched_venues": []
       },
       "json": {
         "total_venues": 14,
-        "sports_matches": 4,
-        "name_matches": 7,
+        "sports_matches": 1,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 2,
-          "token_match": 2,
-          "fuzzy_match": 0
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 6
         },
         "unmatched": 3,
         "unmatched_venues": [
@@ -2352,14 +2183,14 @@
       "geojson": {
         "total_venues": 9,
         "sports_matches": 0,
-        "name_matches": 4,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
-        "unmatched": 5,
+        "unmatched": 4,
         "unmatched_venues": [
           {
             "name": [
@@ -2371,17 +2202,6 @@
               "Bobsleigh",
               "Luge",
               "Skeleton"
-            ]
-          },
-          {
-            "name": [
-              "Kombinationssprungschanze",
-              "Nordic Combined Ski Jump",
-              "Toni Seelos Olympiaschanze (?-Present)"
-            ],
-            "sports": [
-              "Nordic Combined",
-              "Ski Jumping"
             ]
           },
           {
@@ -2422,14 +2242,14 @@
       "json": {
         "total_venues": 10,
         "sports_matches": 0,
-        "name_matches": 4,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)",
@@ -2458,12 +2278,6 @@
             ]
           },
           {
-            "name": "Toni Seelos Schanze (Olympiaschanze)",
-            "sports": [
-              "Nordic combined"
-            ]
-          },
-          {
             "name": "Kombinierte Kunsteisbahn für Bob-Rodel Igls",
             "sports": [
               "Bobsleigh",
@@ -2478,13 +2292,13 @@
       "total_venues": 49,
       "geojson": {
         "total_venues": 24,
-        "sports_matches": 5,
-        "name_matches": 18,
+        "sports_matches": 3,
+        "name_matches": 20,
         "name_matches_by_method": {
           "exact_match": 9,
-          "substring_match": 6,
-          "token_match": 0,
-          "fuzzy_match": 3
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 7
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -2505,15 +2319,15 @@
       },
       "json": {
         "total_venues": 25,
-        "sports_matches": 5,
-        "name_matches": 15,
+        "sports_matches": 3,
+        "name_matches": 19,
         "name_matches_by_method": {
-          "exact_match": 8,
-          "substring_match": 4,
-          "token_match": 0,
-          "fuzzy_match": 3
+          "exact_match": 9,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 7
         },
-        "unmatched": 5,
+        "unmatched": 3,
         "unmatched_venues": [
           {
             "name": "Forum",
@@ -2521,16 +2335,6 @@
               "Gymnastics",
               "boxing",
               "handball"
-            ]
-          },
-          {
-            "name": "Stade Olympique de Montréal",
-            "sports": [
-              "Athletics",
-              "football",
-              "equestrian (jumping)",
-              "modern pentathlon (running)",
-              "Opening and Closing Ceremonies"
             ]
           },
           {
@@ -2544,12 +2348,6 @@
             "sports": [
               "Football"
             ]
-          },
-          {
-            "name": "Palais des sports de Sherbrooke",
-            "sports": [
-              "Handball"
-            ]
           }
         ]
       }
@@ -2560,30 +2358,15 @@
       "geojson": {
         "total_venues": 7,
         "sports_matches": 2,
-        "name_matches": 2,
+        "name_matches": 3,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 2,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
-        "unmatched": 3,
+        "unmatched": 2,
         "unmatched_venues": [
-          {
-            "name": [
-              "James C. Sheffield Speed Skating Oval",
-              "Olympic Stadium (1932-?)"
-            ],
-            "sports": [
-              "Cross Country Skiing",
-              "Dogsled Racing",
-              "Ice Hockey",
-              "Nordic Combined",
-              "Speed Skating",
-              "Opening ceremony",
-              "Closing ceremony"
-            ]
-          },
           {
             "name": [
               "Mt. Van Hoevenberg Recreation Area"
@@ -2612,26 +2395,20 @@
       "json": {
         "total_venues": 9,
         "sports_matches": 2,
-        "name_matches": 1,
+        "name_matches": 2,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "The Arena",
             "sports": [
               "Ice hockey",
               "figure skating"
-            ]
-          },
-          {
-            "name": "James B. Sheffield Olympic Skating Oval",
-            "sports": [
-              "Speed skating"
             ]
           },
           {
@@ -2669,13 +2446,13 @@
       "total_venues": 55,
       "geojson": {
         "total_venues": 27,
-        "sports_matches": 5,
-        "name_matches": 20,
+        "sports_matches": 2,
+        "name_matches": 23,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 10,
+          "substring_match": 0,
           "token_match": 3,
-          "fuzzy_match": 1
+          "fuzzy_match": 14
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -2699,15 +2476,15 @@
       },
       "json": {
         "total_venues": 28,
-        "sports_matches": 5,
-        "name_matches": 19,
+        "sports_matches": 2,
+        "name_matches": 21,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 9,
+          "substring_match": 0,
           "token_match": 3,
-          "fuzzy_match": 1
+          "fuzzy_match": 12
         },
-        "unmatched": 4,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "Swimming Pool (OlimpiyskiySports Complex)",
@@ -2722,6 +2499,12 @@
             "name": "Krylatskoye Cycling Circuit",
             "sports": [
               "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Izmailovo Sports Palace",
+            "sports": [
+              "Weightlifting"
             ]
           },
           {
@@ -2744,13 +2527,13 @@
       "total_venues": 61,
       "geojson": {
         "total_venues": 33,
-        "sports_matches": 7,
-        "name_matches": 22,
+        "sports_matches": 5,
+        "name_matches": 24,
         "name_matches_by_method": {
           "exact_match": 12,
-          "substring_match": 8,
-          "token_match": 1,
-          "fuzzy_match": 1
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 10
         },
         "unmatched": 4,
         "unmatched_venues": [
@@ -2790,13 +2573,13 @@
       },
       "json": {
         "total_venues": 28,
-        "sports_matches": 5,
-        "name_matches": 20,
+        "sports_matches": 3,
+        "name_matches": 22,
         "name_matches_by_method": {
           "exact_match": 12,
-          "substring_match": 7,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 9
         },
         "unmatched": 3,
         "unmatched_venues": [
@@ -2830,9 +2613,9 @@
         "name_matches": 1,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 0,
         "unmatched_venues": []
@@ -2843,9 +2626,9 @@
         "name_matches": 1,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 4,
         "unmatched_venues": [
@@ -2883,41 +2666,27 @@
       "geojson": {
         "total_venues": 8,
         "sports_matches": 1,
-        "name_matches": 6,
+        "name_matches": 7,
         "name_matches_by_method": {
           "exact_match": 6,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
-        "unmatched": 1,
-        "unmatched_venues": [
-          {
-            "name": [
-              "Canada Olympic Park"
-            ],
-            "sports": [
-              "Alpine Skiing",
-              "Bobsleigh",
-              "Freestyle Skiing",
-              "Luge",
-              "Nordic Combined",
-              "Ski Jumping"
-            ]
-          }
-        ]
+        "unmatched": 0,
+        "unmatched_venues": []
       },
       "json": {
         "total_venues": 13,
         "sports_matches": 1,
-        "name_matches": 6,
+        "name_matches": 7,
         "name_matches_by_method": {
           "exact_match": 6,
           "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "McMahon Stadium",
@@ -2935,14 +2704,6 @@
             "name": "Canada Olympic Park - Freestyle Area",
             "sports": [
               "Freestyle skiing"
-            ]
-          },
-          {
-            "name": "Canada Olympic Park - Ski Jumps",
-            "sports": [
-              "Nordic combined",
-              "ski jumping",
-              "freestyle skiing"
             ]
           },
           {
@@ -2966,15 +2727,15 @@
       "total_venues": 63,
       "geojson": {
         "total_venues": 32,
-        "sports_matches": 7,
-        "name_matches": 20,
+        "sports_matches": 5,
+        "name_matches": 25,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 9,
-          "token_match": 0,
-          "fuzzy_match": 6
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 17
         },
-        "unmatched": 5,
+        "unmatched": 2,
         "unmatched_venues": [
           {
             "name": [
@@ -2993,47 +2754,20 @@
             "sports": [
               "Bowling"
             ]
-          },
-          {
-            "name": [
-              "Tongil-ro Circuit"
-            ],
-            "sports": [
-              "Cycling Road"
-            ]
-          },
-          {
-            "name": [
-              "Bel-lo-deu-rom, Ol-lim-pik Gong-won",
-              "Velodrome, Olympic Park"
-            ],
-            "sports": [
-              "Cycling Track"
-            ]
-          },
-          {
-            "name": [
-              "Che-yuk-gwan, Seo-ul Dae-hak-gyo",
-              "Gymnasium, Seoul National University"
-            ],
-            "sports": [
-              "Badminton",
-              "Table Tennis"
-            ]
           }
         ]
       },
       "json": {
         "total_venues": 31,
-        "sports_matches": 4,
-        "name_matches": 19,
+        "sports_matches": 2,
+        "name_matches": 24,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 8,
-          "token_match": 0,
-          "fuzzy_match": 6
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 16
         },
-        "unmatched": 8,
+        "unmatched": 5,
         "unmatched_venues": [
           {
             "name": "Pusan Stadium",
@@ -3062,27 +2796,9 @@
             ]
           },
           {
-            "name": "Olympic Velodrome",
-            "sports": [
-              "Cycling (track)"
-            ]
-          },
-          {
-            "name": "Seoul National University Gymnasium",
-            "sports": [
-              "Table tennis"
-            ]
-          },
-          {
             "name": "Seoul Olympic Village",
             "sports": [
               "Athlete accommodation"
-            ]
-          },
-          {
-            "name": "Tongil-ro Cycling Circuit",
-            "sports": [
-              "Cycling (road)"
             ]
           }
         ]
@@ -3093,11 +2809,11 @@
       "total_venues": 27,
       "geojson": {
         "total_venues": 12,
-        "sports_matches": 8,
-        "name_matches": 2,
+        "sports_matches": 6,
+        "name_matches": 4,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 2,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
@@ -3126,26 +2842,20 @@
       },
       "json": {
         "total_venues": 15,
-        "sports_matches": 6,
-        "name_matches": 2,
+        "sports_matches": 5,
+        "name_matches": 4,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 2,
+          "substring_match": 0,
           "token_match": 0,
           "fuzzy_match": 0
         },
-        "unmatched": 7,
+        "unmatched": 6,
         "unmatched_venues": [
           {
             "name": "Olympic Stadium (Théâtre des Cérémonies)",
             "sports": [
               "Opening and Closing Ceremonies"
-            ]
-          },
-          {
-            "name": "Les Ménuires - Slalom Stadium (Stade de Slalom)",
-            "sports": [
-              "Alpine skiing"
             ]
           },
           {
@@ -3187,28 +2897,16 @@
       "total_venues": 78,
       "geojson": {
         "total_venues": 39,
-        "sports_matches": 15,
-        "name_matches": 21,
+        "sports_matches": 8,
+        "name_matches": 30,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 5,
+          "substring_match": 1,
           "token_match": 3,
-          "fuzzy_match": 7
+          "fuzzy_match": 8
         },
-        "unmatched": 3,
+        "unmatched": 1,
         "unmatched_venues": [
-          {
-            "name": [
-              "Estadio Olímpico de Montjuïc",
-              "Montjuïc Olympic Stadium",
-              "Estadio Olímpico Lluís Companys (?-Present)"
-            ],
-            "sports": [
-              "Athletics",
-              "Opening ceremony",
-              "Closing ceremony"
-            ]
-          },
           {
             "name": [
               "Circuito de Cataluña (also known as Circuit de Catalunya)",
@@ -3217,36 +2915,21 @@
             "sports": [
               "Cycling Road"
             ]
-          },
-          {
-            "name": [
-              "Velódromo de Horta (also known as Velòdrom d'Horta)",
-              "Horta Velodrome"
-            ],
-            "sports": [
-              "Cycling Track"
-            ]
           }
         ]
       },
       "json": {
         "total_venues": 39,
-        "sports_matches": 14,
-        "name_matches": 16,
+        "sports_matches": 7,
+        "name_matches": 26,
         "name_matches_by_method": {
-          "exact_match": 6,
-          "substring_match": 5,
+          "exact_match": 5,
+          "substring_match": 1,
           "token_match": 1,
-          "fuzzy_match": 4
+          "fuzzy_match": 8
         },
-        "unmatched": 9,
+        "unmatched": 6,
         "unmatched_venues": [
-          {
-            "name": "Velòdrom",
-            "sports": [
-              "Cycling (track)"
-            ]
-          },
           {
             "name": "Estació del Nord Sports Hall",
             "sports": [
@@ -3254,21 +2937,9 @@
             ]
           },
           {
-            "name": "RCD Espanyol Stadium (Estadi de Sarrià)",
-            "sports": [
-              "Football"
-            ]
-          },
-          {
             "name": "Cross-country Circuit",
             "sports": [
               "Modern pentathlon (running)"
-            ]
-          },
-          {
-            "name": "Pavelló de la Vall d'Hebron",
-            "sports": [
-              "Volleyball"
             ]
           },
           {
@@ -3304,14 +2975,14 @@
       "geojson": {
         "total_venues": 10,
         "sports_matches": 1,
-        "name_matches": 7,
+        "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 3,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
-        "unmatched": 2,
+        "unmatched": 1,
         "unmatched_venues": [
           {
             "name": [
@@ -3324,31 +2995,20 @@
               "Mixed Sports",
               "Snowboarding"
             ]
-          },
-          {
-            "name": [
-              "Olympiske Bob- og Akebane",
-              "Bobsleigh and Luge Track"
-            ],
-            "sports": [
-              "Bobsleigh",
-              "Luge",
-              "Skeleton"
-            ]
           }
         ]
       },
       "json": {
         "total_venues": 12,
         "sports_matches": 1,
-        "name_matches": 7,
+        "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 3,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 2
         },
-        "unmatched": 4,
+        "unmatched": 3,
         "unmatched_venues": [
           {
             "name": "Lillehammer Olympic Village",
@@ -3367,13 +3027,6 @@
             "sports": [
               "Athlete accommodation"
             ]
-          },
-          {
-            "name": "Lillehammer Olympic Bobsleigh and Luge Track",
-            "sports": [
-              "Bobsleigh",
-              "luge"
-            ]
           }
         ]
       }
@@ -3383,40 +3036,28 @@
       "total_venues": 58,
       "geojson": {
         "total_venues": 29,
-        "sports_matches": 3,
-        "name_matches": 25,
+        "sports_matches": 1,
+        "name_matches": 28,
         "name_matches_by_method": {
           "exact_match": 11,
-          "substring_match": 10,
-          "token_match": 1,
-          "fuzzy_match": 3
+          "substring_match": 4,
+          "token_match": 2,
+          "fuzzy_match": 5
         },
-        "unmatched": 1,
-        "unmatched_venues": [
-          {
-            "name": [
-              "Centennial Olympic Stadium",
-              "Turner Field (?-Present)"
-            ],
-            "sports": [
-              "Athletics",
-              "Opening ceremony",
-              "Closing ceremony"
-            ]
-          }
-        ]
+        "unmatched": 0,
+        "unmatched_venues": []
       },
       "json": {
         "total_venues": 29,
-        "sports_matches": 3,
-        "name_matches": 23,
+        "sports_matches": 1,
+        "name_matches": 26,
         "name_matches_by_method": {
-          "exact_match": 11,
-          "substring_match": 8,
-          "token_match": 1,
-          "fuzzy_match": 3
+          "exact_match": 10,
+          "substring_match": 4,
+          "token_match": 2,
+          "fuzzy_match": 5
         },
-        "unmatched": 3,
+        "unmatched": 2,
         "unmatched_venues": [
           {
             "name": "Atlanta Olympic Village",
@@ -3425,17 +3066,9 @@
             ]
           },
           {
-            "name": "Olympic Stadium",
+            "name": "Morehouse College",
             "sports": [
-              "Athletics",
-              "Opening and Closing Ceremonies"
-            ]
-          },
-          {
-            "name": "University of Georgia Coliseum",
-            "sports": [
-              "Rhythmic gymnastics",
-              "volleyball"
+              "Basketball"
             ]
           }
         ]
@@ -3450,7 +3083,7 @@
         "name_matches": 9,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 2,
+          "substring_match": 1,
           "token_match": 2,
           "fuzzy_match": 0
         },
@@ -3463,7 +3096,7 @@
         "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 2,
+          "substring_match": 1,
           "token_match": 1,
           "fuzzy_match": 0
         },
@@ -3495,29 +3128,16 @@
       "total_venues": 61,
       "geojson": {
         "total_venues": 30,
-        "sports_matches": 2,
-        "name_matches": 26,
+        "sports_matches": 1,
+        "name_matches": 28,
         "name_matches_by_method": {
           "exact_match": 10,
-          "substring_match": 14,
-          "token_match": 1,
-          "fuzzy_match": 1
+          "substring_match": 1,
+          "token_match": 2,
+          "fuzzy_match": 12
         },
-        "unmatched": 2,
+        "unmatched": 1,
         "unmatched_venues": [
-          {
-            "name": [
-              "The Dome and Exhibition Complex, Olympic Park"
-            ],
-            "sports": [
-              "Badminton",
-              "Basketball",
-              "Handball",
-              "Modern Pentathlon",
-              "Rhythmic Gymnastics",
-              "Volleyball"
-            ]
-          },
           {
             "name": [
               "Cycling Road Course, Centennial Parklands"
@@ -3530,40 +3150,21 @@
       },
       "json": {
         "total_venues": 31,
-        "sports_matches": 2,
-        "name_matches": 24,
+        "sports_matches": 1,
+        "name_matches": 27,
         "name_matches_by_method": {
-          "exact_match": 9,
-          "substring_match": 14,
-          "token_match": 0,
-          "fuzzy_match": 1
+          "exact_match": 10,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 12
         },
-        "unmatched": 5,
+        "unmatched": 3,
         "unmatched_venues": [
           {
             "name": "Dome",
             "sports": [
               "Basketball",
               "handball"
-            ]
-          },
-          {
-            "name": "Exhibition Complex (Pavilions 2, 3, 4)",
-            "sports": [
-              "Rhythmic gymnastics",
-              "handball",
-              "badminton",
-              "volleyball",
-              "modern pentathlon (fencing",
-              "shooting)"
-            ]
-          },
-          {
-            "name": "Baseball Stadium",
-            "sports": [
-              "Baseball",
-              "modern pentathlon (equestrian",
-              "running)"
             ]
           },
           {
@@ -3586,26 +3187,26 @@
       "total_venues": 22,
       "geojson": {
         "total_venues": 10,
-        "sports_matches": 2,
-        "name_matches": 8,
+        "sports_matches": 0,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 1,
-          "token_match": 1,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
         },
         "unmatched": 0,
         "unmatched_venues": []
       },
       "json": {
         "total_venues": 12,
-        "sports_matches": 2,
-        "name_matches": 8,
+        "sports_matches": 0,
+        "name_matches": 10,
         "name_matches_by_method": {
           "exact_match": 6,
-          "substring_match": 1,
-          "token_match": 1,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
         },
         "unmatched": 2,
         "unmatched_venues": [
@@ -3629,30 +3230,16 @@
       "total_venues": 69,
       "geojson": {
         "total_venues": 35,
-        "sports_matches": 5,
-        "name_matches": 28,
+        "sports_matches": 3,
+        "name_matches": 31,
         "name_matches_by_method": {
           "exact_match": 11,
-          "substring_match": 16,
+          "substring_match": 4,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 16
         },
-        "unmatched": 2,
+        "unmatched": 1,
         "unmatched_venues": [
-          {
-            "name": [
-              "Stadio Arkhaias Olympias",
-              "Ancient Olympic Stadium"
-            ],
-            "sports": [
-              "Ancient Art Competitions",
-              "Ancient Athletics",
-              "Ancient Combative Sports",
-              "Ancient Equestrianism",
-              "Athletics",
-              "Unknown Sport"
-            ]
-          },
           {
             "name": [
               "Plateia Kozia (also known as Plateia Ludovikou)",
@@ -3669,21 +3256,15 @@
       "json": {
         "total_venues": 34,
         "sports_matches": 3,
-        "name_matches": 25,
+        "name_matches": 26,
         "name_matches_by_method": {
           "exact_match": 10,
-          "substring_match": 14,
+          "substring_match": 4,
           "token_match": 0,
-          "fuzzy_match": 1
+          "fuzzy_match": 12
         },
-        "unmatched": 6,
+        "unmatched": 5,
         "unmatched_venues": [
-          {
-            "name": "Karaiskakis Stadium",
-            "sports": [
-              "Football"
-            ]
-          },
           {
             "name": "Helliniko Fencing Hall",
             "sports": [
@@ -3722,13 +3303,13 @@
       "total_venues": 31,
       "geojson": {
         "total_venues": 14,
-        "sports_matches": 9,
-        "name_matches": 4,
+        "sports_matches": 8,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -3746,13 +3327,13 @@
       },
       "json": {
         "total_venues": 17,
-        "sports_matches": 7,
-        "name_matches": 4,
+        "sports_matches": 6,
+        "name_matches": 5,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 1,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 1
         },
         "unmatched": 6,
         "unmatched_venues": [
@@ -3800,28 +3381,16 @@
       "total_venues": 77,
       "geojson": {
         "total_venues": 37,
-        "sports_matches": 6,
-        "name_matches": 27,
+        "sports_matches": 3,
+        "name_matches": 32,
         "name_matches_by_method": {
           "exact_match": 9,
-          "substring_match": 15,
-          "token_match": 1,
-          "fuzzy_match": 2
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 19
         },
-        "unmatched": 4,
+        "unmatched": 2,
         "unmatched_venues": [
-          {
-            "name": [
-              "Beijing Guojia Tiyuchang, Beijing Aolinpike Gongyuan (also known as The Bird's Nest)",
-              "Beijing National Stadium"
-            ],
-            "sports": [
-              "Athletics",
-              "Football",
-              "Opening ceremony",
-              "Closing ceremony"
-            ]
-          },
           {
             "name": [
               "Beijing Aolinpike Lanqiuguan",
@@ -3830,18 +3399,6 @@
             "sports": [
               "Basketball",
               "Ice Hockey"
-            ]
-          },
-          {
-            "name": [
-              "Shunyi Aolinpike Shuishang Gongyuan",
-              "Shunyi Olympic Rowing-Canoeing Park"
-            ],
-            "sports": [
-              "Canoe Slalom",
-              "Canoe Sprint",
-              "Marathon Swimming",
-              "Rowing"
             ]
           },
           {
@@ -3857,34 +3414,20 @@
       },
       "json": {
         "total_venues": 40,
-        "sports_matches": 6,
-        "name_matches": 24,
+        "sports_matches": 3,
+        "name_matches": 30,
         "name_matches_by_method": {
-          "exact_match": 8,
-          "substring_match": 14,
-          "token_match": 1,
-          "fuzzy_match": 1
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 18
         },
-        "unmatched": 10,
+        "unmatched": 7,
         "unmatched_venues": [
-          {
-            "name": "Beijing Workers' Stadium",
-            "sports": [
-              "Football"
-            ]
-          },
           {
             "name": "Capital Gymnasium",
             "sports": [
               "Volleyball"
-            ]
-          },
-          {
-            "name": "National Stadium",
-            "sports": [
-              "Athletics",
-              "football",
-              "Opening and Closing Ceremonies"
             ]
           },
           {
@@ -3899,18 +3442,6 @@
             "name": "Beijing Olympic Basketball Arena",
             "sports": [
               "Basketball"
-            ]
-          },
-          {
-            "name": "Beijing Shooting Range CTF",
-            "sports": [
-              "Shooting"
-            ]
-          },
-          {
-            "name": "Shunyi Olympic Rowing-Canoeing Park – Canoe slalom course",
-            "sports": [
-              "Canoe slalom"
             ]
           },
           {
@@ -3930,6 +3461,12 @@
             "sports": [
               "Cycling (BMX)"
             ]
+          },
+          {
+            "name": "Shenyang Olympic Stadium",
+            "sports": [
+              "Football"
+            ]
           }
         ]
       }
@@ -3943,9 +3480,9 @@
         "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 4,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 3
         },
         "unmatched": 1,
         "unmatched_venues": [
@@ -3966,16 +3503,16 @@
         "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 4,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 3
         },
         "unmatched": 4,
         "unmatched_venues": [
           {
-            "name": "Vancouver Olympic Center",
+            "name": "Vancouver Olympic Stadium",
             "sports": [
-              "Curling"
+              "Opening and Closing Ceremonies"
             ]
           },
           {
@@ -4005,25 +3542,15 @@
       "geojson": {
         "total_venues": 30,
         "sports_matches": 5,
-        "name_matches": 23,
+        "name_matches": 24,
         "name_matches_by_method": {
-          "exact_match": 17,
-          "substring_match": 6,
+          "exact_match": 16,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 8
         },
-        "unmatched": 2,
+        "unmatched": 1,
         "unmatched_venues": [
-          {
-            "name": [
-              "Olympic Stadium, Olympic Park"
-            ],
-            "sports": [
-              "Athletics",
-              "Opening ceremony",
-              "Closing ceremony"
-            ]
-          },
           {
             "name": [
               "Velodrome, London Velopark, Olympic Park (also known as The Pringle)"
@@ -4039,10 +3566,10 @@
         "sports_matches": 4,
         "name_matches": 23,
         "name_matches_by_method": {
-          "exact_match": 17,
-          "substring_match": 6,
+          "exact_match": 16,
+          "substring_match": 0,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 7
         },
         "unmatched": 4,
         "unmatched_venues": [
@@ -4053,10 +3580,9 @@
             ]
           },
           {
-            "name": "London Olympic Stadium",
+            "name": "Wembley Stadium",
             "sports": [
-              "Athletics",
-              "Opening and Closing Ceremonies"
+              "Football"
             ]
           },
           {
@@ -4083,9 +3609,9 @@
         "name_matches": 9,
         "name_matches_by_method": {
           "exact_match": 4,
-          "substring_match": 2,
-          "token_match": 3,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 4
         },
         "unmatched": 0,
         "unmatched_venues": []
@@ -4096,9 +3622,9 @@
         "name_matches": 8,
         "name_matches_by_method": {
           "exact_match": 3,
-          "substring_match": 2,
-          "token_match": 3,
-          "fuzzy_match": 0
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 4
         },
         "unmatched": 4,
         "unmatched_venues": [
@@ -4134,54 +3660,29 @@
       "total_venues": 72,
       "geojson": {
         "total_venues": 37,
-        "sports_matches": 3,
-        "name_matches": 33,
+        "sports_matches": 1,
+        "name_matches": 36,
         "name_matches_by_method": {
           "exact_match": 7,
-          "substring_match": 26,
+          "substring_match": 10,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 19
         },
-        "unmatched": 1,
-        "unmatched_venues": [
-          {
-            "name": [
-              "Praia do Pontal",
-              "Pontal Beach"
-            ],
-            "sports": [
-              "Athletics",
-              "Cycling Road"
-            ]
-          }
-        ]
+        "unmatched": 0,
+        "unmatched_venues": []
       },
       "json": {
         "total_venues": 35,
-        "sports_matches": 3,
-        "name_matches": 26,
+        "sports_matches": 1,
+        "name_matches": 32,
         "name_matches_by_method": {
           "exact_match": 5,
-          "substring_match": 21,
+          "substring_match": 8,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 19
         },
-        "unmatched": 6,
+        "unmatched": 2,
         "unmatched_venues": [
-          {
-            "name": "Carioca Arena 2",
-            "sports": [
-              "Judo",
-              "wrestling"
-            ]
-          },
-          {
-            "name": "Carioca Arena 3",
-            "sports": [
-              "Fencing",
-              "taekwondo"
-            ]
-          },
           {
             "name": "Rio Olympic Village",
             "sports": [
@@ -4193,19 +3694,6 @@
             "sports": [
               "Beach volleyball"
             ]
-          },
-          {
-            "name": "Pontal",
-            "sports": [
-              "Cycling (road)",
-              "race walk"
-            ]
-          },
-          {
-            "name": "Mané Garrincha Stadium",
-            "sports": [
-              "Football"
-            ]
           }
         ]
       }
@@ -4216,45 +3704,28 @@
       "geojson": {
         "total_venues": 12,
         "sports_matches": 0,
-        "name_matches": 11,
+        "name_matches": 12,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 11,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 10
         },
-        "unmatched": 1,
-        "unmatched_venues": [
-          {
-            "name": [
-              "Phoenix Snow Park, Mountain Cluster (also known as Bokwang Sport Park)",
-              "보광 휘닉스 파크"
-            ],
-            "sports": [
-              "Freestyle Skiing",
-              "Snowboarding"
-            ]
-          }
-        ]
+        "unmatched": 0,
+        "unmatched_venues": []
       },
       "json": {
         "total_venues": 15,
         "sports_matches": 0,
-        "name_matches": 11,
+        "name_matches": 12,
         "name_matches_by_method": {
           "exact_match": 0,
-          "substring_match": 11,
+          "substring_match": 1,
           "token_match": 0,
-          "fuzzy_match": 0
+          "fuzzy_match": 10
         },
-        "unmatched": 4,
+        "unmatched": 3,
         "unmatched_venues": [
-          {
-            "name": "Bokwang Phoenix Park",
-            "sports": [
-              "Snowboard and freestyle skiing"
-            ]
-          },
           {
             "name": "PyeongChang Olympic Village",
             "sports": [
@@ -4824,5 +4295,5 @@
       }
     }
   },
-  "generated_at": "2025-07-30T23:21:27.750883"
+  "generated_at": "2025-07-31T00:20:26.621681"
 }

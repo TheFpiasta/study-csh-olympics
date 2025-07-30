@@ -218,13 +218,14 @@
         "type": "outdoor venue",
         "source_file": "venue_154.json",
         "Olympics": "1928 St Moritz",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.818,
         "matched_venue_name": "Olympiaschanze St. Moritz",
         "venue_classification": "New build",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Ski jumping, Nordic combined",
-        "venue_information": "This ski jumping hill closed in 2006 because of safety concerns. A local ski club used the venue prior to its closure, and though plans were in place for the construction of a new hill, they were not implemented due to cost issues. A 90m hill was built next to the existing 70m hill for the 1948 Games."
+        "venue_information": "This ski jumping hill closed in 2006 because of safety concerns. A local ski club used the venue prior to its closure, and though plans were in place for the construction of a new hill, they were not implemented due to cost issues. A 90m hill was built next to the existing 70m hill for the 1948 Games.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -270,7 +271,6 @@
   "properties": {
     "olympics_year": "1928",
     "olympics_city": "St. Moritz",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

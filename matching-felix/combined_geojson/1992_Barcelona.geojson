@@ -31,13 +31,14 @@
         "type": "temporary outdoor venue",
         "source_file": "venue_667.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8320000000000001,
         "matched_venue_name": "Archery Field",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Archery",
-        "venue_information": "Two new archery facilities were built on a complex of football and rugby pitches: a competition pavilion and a training pavilion, in the middle of which stood the archery range created for the Games. The competition pavilion was not taken down until several years after the Games, to make way for the expansion of Barcelona's underground system. The training pavilion still stands and is used as a changing room for players using the football pitches, which remain in place."
+        "venue_information": "Two new archery facilities were built on a complex of football and rugby pitches: a competition pavilion and a training pavilion, in the middle of which stood the archery range created for the Games. The competition pavilion was not taken down until several years after the Games, to make way for the expansion of Barcelona's underground system. The training pavilion still stands and is used as a changing room for players using the football pitches, which remain in place.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -76,7 +77,15 @@
         "surface": "Artificial surface",
         "altitude": "87 m",
         "source_file": "venue_668.json",
-        "Olympics": "1992 Barcelona"
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.8450000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "The stadium was built in 1929 and hosted events at the 1955 Mediterranean Games before falling into disuse. It survived plans for its demolition in the 1970s and was completely refurbished in the mid-1980s, when its neoclassical facade was fully restored and the pitch was lowered by 11 metres to allow new rows of seating to be installed. Situated on Montjuïc, the hill that overlooks the city, it became the focal point of the 1992 Olympic Games, since when it has been used for both sporting and non-sporting events. From 1997 to 2009, it was the home ground of football club RCD Espanyol. It staged the 2010 European Athletics Championships and the 2012 IAAF World Junior Championships. In recent years, it has hosted major music concerts and has been used as a sports theme park. Plans for its future use are under discussion."
       }
     },
     {
@@ -151,13 +160,14 @@
         "type": "indoor venue",
         "source_file": "venue_670.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
         "matched_venue_name": "Pavelló de la Mar Bella",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Badminton",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -191,13 +201,14 @@
         "type": "indoor venue",
         "source_file": "venue_671.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
         "matched_venue_name": "Pavelló Club Joventut, Badalona",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Boxing",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -354,13 +365,13 @@
         "source_file": "venue_675.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.75,
+        "match_confidence": 0.81,
         "matched_venue_name": "Parc del Segre, La Seu d'Urgell",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Canoe slalom",
         "venue_information": "Since the 1992 Olympic Games, 18 International Canoe Federation (ICF) World Cup races have been held at the venue, including the ICF Canoe Slalom World Championships in 1999 and 2009. The centre also plays host to numerous national and regional canoe competitions and is home to Club Cadí Canoë Kayak, a high-performance centre. Used by schools, residents and businesses, it offers a wide variety of recreational activities, such as rafting, mountain biking and Nordic walking.",
-        "match_method": "fuzzy_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -465,7 +476,15 @@
         "surface": "Wood",
         "additional_details": "43° curves, 13° straights",
         "source_file": "venue_678.json",
-        "Olympics": "1992 Barcelona"
+        "Olympics": "1992 Barcelona",
+        "match_type": "name_match",
+        "match_confidence": 0.76,
+        "match_method": "fuzzy_match_inner",
+        "matched_venue_name": "Velòdrom",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "This multi-purpose venue opened in 1984 and hosted the UCI Track Cycling World Championships that same year. Since staging seven track events at the 1992 Olympic Games, its 250m wooden track has regularly hosted regional, national and European competitions. The Catalan Cycling Federation is based at the venue and uses it as its main training and cycling development hub. As well as hosting an academy for youngsters, it is a training base for high-performance cyclists. Renovated in 2015, the venue has an artificial football pitch, two futsal courts and other sports facilities open to the local community. It is also used for concerts and cultural events."
       }
     },
     {
@@ -543,13 +562,13 @@
         "source_file": "venue_680.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Real Club de Polo",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Eventing, dressage, jumping, modern pentathlon (equestrian)",
         "venue_information": "The club was founded in 1897, and its facilities were refurbished for the 1992 Olympic Games. The stables were upgraded, the turf replaced and a new drainage system installed. Temporary stands were built to accommodate more than 9,600 spectators. The venue continues to host major events. It staged the Longines FEI Jumping Nations Cup final for the eighth year in a row in 2021 and was also the setting for the equestrian events at the 2018 Mediterranean Games.\n\nThe club's current facilities include a polo pitch, a competition arena, a training course for jumping, four hockey pitches, 31 tennis courts, two squash courts and two swimming pools. The Real Club de Polo runs more than 100 tennis, polo, padel, hockey and equestrianism teams and has more than 10,500 members. Its various sports academies have more than 2,000 participants. The club hosts more than 160 tournaments a year and is used by over 17,000 athletes annually.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -624,13 +643,14 @@
         "type": "indoor venue",
         "source_file": "venue_682.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.9090000000000001,
         "matched_venue_name": "Palau de la Metal-lúrgia",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Fencing, modern pentathlon (fencing)",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -708,13 +728,13 @@
         "source_file": "venue_684.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Luis Casanova Stadium, Valencia",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -749,13 +769,13 @@
         "source_file": "venue_685.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.8727272727272727,
+        "match_confidence": 0.937,
         "matched_venue_name": "La Romareda Stadium, Zaragoza",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -790,13 +810,13 @@
         "source_file": "venue_686.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Nova Creu Alta Stadium, Sabadell",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -832,13 +852,13 @@
         "source_file": "venue_687.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.7539999999999999,
-        "matched_venue_name": "La Romareda Stadium, Zaragoza",
+        "match_confidence": 1.0,
+        "matched_venue_name": "RCD Espanyol Stadium (Estadi de Sarrià)",
         "venue_classification": "Existing",
-        "venue_status": "In use",
+        "venue_status": "Not in use (demolished)",
         "venue_use": "Football",
-        "venue_information": "",
-        "match_method": "fuzzy_match"
+        "venue_information": "The home of RCD Espanyol from 1923 to 1997 (when the club moved to the Olympic Stadium) and a venue at the 1982 FIFA World Cup, the stadium hosted five matches at the 1992 men's Olympic football tournament. It was sold by the club and demolished. The site is now occupied by apartment blocks, in the middle of which lies a garden that was once the pitch.",
+        "match_method": "fuzzy_match_inner_inner"
       }
     },
     {
@@ -915,13 +935,14 @@
         "type": "indoor venue",
         "source_file": "venue_689.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "Palau d'Esports, Granollers",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Handball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "token_match_inner"
       }
     },
     {
@@ -1165,13 +1186,13 @@
         "source_file": "venue_695.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.8280000000000001,
-        "match_method": "fuzzy_match",
-        "matched_venue_name": "Tennis de la Vall d'Hebron",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match_inner",
+        "matched_venue_name": "Pavelló de la Vall d'Hebron",
         "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Tennis",
-        "venue_information": "Opened in late 1991, the complex had a capacity of 15,000 at Games time and 17 courts, with eight of them hosting the Olympic tournaments. After the Games, the venue was opened to the public and has since been refurbished, most recently in 2019. The Catalan Tennis Federation is based at the centre, which hosts tournaments and runs training camps for juniors."
+        "venue_use": "Volleyball",
+        "venue_information": ""
       }
     },
     {
@@ -1488,13 +1509,14 @@
         "type": "outdoor venue",
         "source_file": "venue_707.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8320000000000001,
         "matched_venue_name": "Palau d'Esports, Barcelona",
         "venue_classification": "Existing",
         "venue_status": "Not in use",
         "venue_use": "Rhythmic gymnastics, volleyball",
-        "venue_information": "This multi-purpose venue opened in 1955 and hosted events at the Mediterranean Games that year. It later staged matches at the 1986 FIBA World Basketball Championship. The venue was remodelled for the 1992 Olympic Games, with its parquet flooring replaced with a synthetic surface to meet the needs of the volleyball and rhythmic gymnastics competitions. The venue hosted fewer sporting events after the Games due to the construction of the Palau Sant Jordi and was repurposed in 2000 to stage theatre productions and concerts. It staged its last production in 2017 and was closed thereafter due to structural damage. In 2021, Barcelona City Council announced plans to convert it into a sports technology and innovation centre that will form part of the Barcelona Sports Tech Hub initiative. The schedule for the venue's conversion has yet to be announced."
+        "venue_information": "This multi-purpose venue opened in 1955 and hosted events at the Mediterranean Games that year. It later staged matches at the 1986 FIBA World Basketball Championship. The venue was remodelled for the 1992 Olympic Games, with its parquet flooring replaced with a synthetic surface to meet the needs of the volleyball and rhythmic gymnastics competitions. The venue hosted fewer sporting events after the Games due to the construction of the Palau Sant Jordi and was repurposed in 2000 to stage theatre productions and concerts. It staged its last production in 2017 and was closed thereafter due to structural damage. In 2021, Barcelona City Council announced plans to convert it into a sports technology and innovation centre that will form part of the Barcelona Sports Tech Hub initiative. The schedule for the venue's conversion has yet to be announced.",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -1527,13 +1549,14 @@
         "type": "outdoor venue",
         "source_file": "venue_708.json",
         "Olympics": "1992 Barcelona",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.95,
         "matched_venue_name": "Pavelló l'Espanya Industrial",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Weightlifting",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "substring_match_inner"
       }
     },
     {
@@ -1568,20 +1591,19 @@
         "source_file": "venue_709.json",
         "Olympics": "1992 Barcelona",
         "match_type": "name_match",
-        "match_confidence": 0.929,
+        "match_confidence": 1.0,
         "matched_venue_name": "Institut Nacional d'Educació Física de Catalunya (INEFC)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Wrestling",
         "venue_information": "",
-        "match_method": "fuzzy_match"
+        "match_method": "exact_match_inner_inner"
       }
     }
   ],
   "properties": {
     "olympics_year": "1992",
     "olympics_city": "Barcelona",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

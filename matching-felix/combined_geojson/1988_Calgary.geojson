@@ -122,7 +122,15 @@
         "type": "outdoor venue",
         "altitude": "1123 m",
         "source_file": "venue_16.json",
-        "Olympics": "1988 Calgary"
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Canada Olympic Park - Ski Jumps",
+        "venue_classification": "New build",
+        "venue_status": "Not in use, partly dismantled",
+        "venue_use": "Nordic combined, ski jumping, freestyle skiing",
+        "venue_information": "The park's ski jumps were used by a local ski club and were the main training hub for Canada's ski jumpers for 30 years. In 2019, the three higher jumps were closed due to high operational and maintenance costs. The 90-metre ski jump tower is still standing and is now the start point for North America's fastest zipline, used by over 2,500 people in 2019. The remaining jumps will be dismantled and the area repurposed for other sports."
       }
     },
     {
@@ -334,7 +342,6 @@
   "properties": {
     "olympics_year": "1988",
     "olympics_city": "Calgary",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

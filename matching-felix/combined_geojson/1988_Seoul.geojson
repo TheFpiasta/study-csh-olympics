@@ -81,8 +81,8 @@
         "source_file": "venue_635.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -123,8 +123,8 @@
         "source_file": "venue_636.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Jamsil Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -164,13 +164,13 @@
         "source_file": "venue_637.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Jamsil Students' Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Boxing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -306,7 +306,15 @@
         "seating_capacity": "800",
         "type": "temporary outdoor venue",
         "source_file": "venue_641.json",
-        "Olympics": "1988 Seoul"
+        "Olympics": "1988 Seoul",
+        "match_type": "name_match",
+        "match_confidence": 0.795,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Tongil-ro Cycling Circuit",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": "The team and individual road races were held on sections of the Tongil-ro (Unification Road), north of Seoul. The circuit used for the women's and men's individual road races was 16.4 kilometres long, with the women completing five laps and the men 12 laps. The men's 100km team time trial took place on a 25km section of the road. The road surface was repaired prior to the Games. Prefabricated materials were used to erect the facilities required for the events, and an 800-seater stand was erected near the finish line. These were all dismantled after the Games."
       }
     },
     {
@@ -342,7 +350,15 @@
         "surface": "Wood",
         "additional_details": "38° curves, 10° straights",
         "source_file": "venue_642.json",
-        "Olympics": "1988 Seoul"
+        "Olympics": "1988 Seoul",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "match_method": "token_match",
+        "matched_venue_name": "Olympic Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee."
       }
     },
     {
@@ -381,8 +397,8 @@
         "source_file": "venue_643.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.8888888888888888,
-        "match_method": "substring_match",
+        "match_confidence": 0.895,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Jamsil Indoor Swimming Pool",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -508,13 +524,13 @@
         "source_file": "venue_646.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Fencing Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Fencing, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -753,13 +769,13 @@
         "source_file": "venue_652.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Gymnastics Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Artistic gymnastics, rhythmic gymnastics, handball",
         "venue_information": "Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -958,13 +974,14 @@
         "type": "outdoor venue",
         "source_file": "venue_657.json",
         "Olympics": "1988 Seoul",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.984,
         "matched_venue_name": "Taenung International Shooting Range",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Shooting, modern pentathlon (shooting)",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1040,13 +1057,13 @@
         "source_file": "venue_660.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
+        "match_confidence": 0.81,
         "matched_venue_name": "Olympic Tennis Courts",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Tennis",
         "venue_information": "The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1080,7 +1097,15 @@
         "seating_capacity": "5000",
         "type": "indoor venue",
         "source_file": "venue_661.json",
-        "Olympics": "1988 Seoul"
+        "Olympics": "1988 Seoul",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "match_method": "token_match",
+        "matched_venue_name": "Seoul National University Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Table tennis",
+        "venue_information": ""
       }
     },
     {
@@ -1114,13 +1139,14 @@
         "type": "indoor venue",
         "source_file": "venue_662.json",
         "Olympics": "1988 Seoul",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "Hanyang University Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Volleyball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "token_match"
       }
     },
     {
@@ -1195,13 +1221,13 @@
         "source_file": "venue_664.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Jamsil Indoor Swimming Pool",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Diving, water polo",
         "venue_information": "Part of the Chamshil Complex, it was completed in 1980 and refurbished before the Games and again in 2011, when a lift was installed for its many elderly users. Open to the public, it is now mainly a recreational aquatic sports venue, though it has hosted some national and local swimming competitions.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1236,13 +1262,13 @@
         "source_file": "venue_665.json",
         "Olympics": "1988 Seoul",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Weightlifting Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
         "venue_use": "Weightlifting",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1290,7 +1316,6 @@
   "properties": {
     "olympics_year": "1988",
     "olympics_city": "Seoul",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

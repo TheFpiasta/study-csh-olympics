@@ -33,13 +33,13 @@
         "source_file": "venue_812.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Green Archery Field",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Archery",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -78,7 +78,15 @@
         "surface": "Artificial surface",
         "altitude": "48 m",
         "source_file": "venue_813.json",
-        "Olympics": "2008 Beijing"
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8600000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "National Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, Opening and Closing Ceremonies",
+        "venue_information": "Also known as the Bird's Nest on account of its distinctive, award-winning steel structure, it has become one of Beijing's best-known landmarks and has attracted more than 30 million visitors since its opening. The venue continues to be used for national and international competitions. Located in the Olympic Park, it hosted the Opening and Closing Ceremonies of the Olympic Winter Games Beijing 2022."
       }
     },
     {
@@ -152,13 +160,13 @@
         "source_file": "venue_815.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Beijing University of Technology (BJUT) Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Rhythmic gymnastics, badminton",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -319,7 +327,15 @@
         "seating_capacity": "37000",
         "type": "outdoor venue",
         "source_file": "venue_819.json",
-        "Olympics": "2008 Beijing"
+        "Olympics": "2008 Beijing",
+        "match_type": "name_match",
+        "match_confidence": 0.8380000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Shunyi Olympic Rowing-Canoeing Park – Canoe slalom course",
+        "venue_classification": "New build",
+        "venue_status": "Not in use",
+        "venue_use": "Canoe slalom",
+        "venue_information": ""
       }
     },
     {
@@ -516,8 +532,8 @@
         "source_file": "venue_824.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.8160000000000001,
-        "match_method": "substring_match",
+        "match_confidence": 0.902,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "National Aquatics Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -557,13 +573,14 @@
         "type": "outdoor venue",
         "source_file": "venue_825.json",
         "Olympics": "2008 Beijing",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "Hong Kong Olympic Equestrian Venue (Beas River)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Eventing, dressage, jumping",
-        "venue_information": "The venue hosted the equestrian events at the 2010 Asian Games and continues to stage a large number of dressage, show jumping and cross-country events at all levels, from grassroots to high-performance. It is also home to a riding school that offers services to Hong Kong Jockey Club members and other permitted users."
+        "venue_information": "The venue hosted the equestrian events at the 2010 Asian Games and continues to stage a large number of dressage, show jumping and cross-country events at all levels, from grassroots to high-performance. It is also home to a riding school that offers services to Hong Kong Jockey Club members and other permitted users.",
+        "match_method": "token_match_outer"
       }
     },
     {
@@ -639,13 +656,13 @@
         "source_file": "venue_827.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Qinhuangdao Olympic Sports Centre Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -721,13 +738,13 @@
         "source_file": "venue_829.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.8347826086956521,
-        "matched_venue_name": "Shenyang Olympic Stadium",
-        "venue_classification": "New build",
+        "match_confidence": 0.909,
+        "matched_venue_name": "Olympic Sports Centre (OSC) Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Football",
+        "venue_use": "Modern pentathlon (running, equestrian)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -762,13 +779,13 @@
         "source_file": "venue_830.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Tianjin Olympic Centre Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -802,13 +819,14 @@
         "type": "outdoor venue",
         "source_file": "venue_831.json",
         "Olympics": "2008 Beijing",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Shenyang Olympic Stadium",
-        "venue_classification": "New build",
+        "match_type": "name_match",
+        "match_confidence": 0.8240000000000001,
+        "matched_venue_name": "Beijing Workers' Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -850,8 +868,8 @@
         "source_file": "venue_832.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "National Indoor Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -892,8 +910,8 @@
         "source_file": "venue_833.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Sports Centre (OSC) Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -976,13 +994,13 @@
         "source_file": "venue_835.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Beijing Science and Technology University (USTB) Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Judo, taekwondo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1058,13 +1076,13 @@
         "source_file": "venue_837.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "matched_venue_name": "Olympic Sports Centre (OSC) Stadium",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Sports Centre (OSC) Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Modern pentathlon (running, equestrian)",
+        "venue_use": "Handball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match_outer"
       }
     },
     {
@@ -1179,13 +1197,13 @@
         "source_file": "venue_840.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Fengtai Sports Centre Softball Field",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Softball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1222,13 +1240,13 @@
         "source_file": "venue_841.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.8571428571428571,
+        "match_confidence": 0.909,
         "matched_venue_name": "Beijing Olympic Green Tennis Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Tennis",
         "venue_information": "The centre has hosted the ATP 500 China Open since 2009. A new centre court, the National Tennis Stadium, was opened in 2011. Featuring a retractable roof, the stadium has a capacity of 15,000, the fifth largest in the world. When it is not hosting events, the centre opens to the public, who can rent the courts out.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1345,13 +1363,13 @@
         "source_file": "venue_844.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Beijing Institute of Technology (BIT) Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Volleyball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1433,13 +1451,13 @@
         "source_file": "venue_846.json",
         "Olympics": "2008 Beijing",
         "match_type": "name_match",
-        "match_confidence": 0.85,
+        "match_confidence": 0.964,
         "matched_venue_name": "Beijing University of Aeronautics and Astronautics Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Weightlifting",
         "venue_information": "",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1514,20 +1532,20 @@
         "type": "outdoor venue",
         "source_file": "venue_854.json",
         "Olympics": "2008 Beijing",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Beijing Shooting Range Hall",
+        "match_type": "name_match",
+        "match_confidence": 0.8200000000000001,
+        "matched_venue_name": "Beijing Shooting Range CTF",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Shooting",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "2008",
     "olympics_city": "Beijing",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

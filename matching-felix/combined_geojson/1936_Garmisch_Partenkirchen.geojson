@@ -38,8 +38,8 @@
         "source_file": "venue_36.json",
         "Olympics": "1936 Garmisch Partenkirchen",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympia Skistadion",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -80,13 +80,13 @@
         "source_file": "venue_37.json",
         "Olympics": "1936 Garmisch Partenkirchen",
         "match_type": "name_match",
-        "match_confidence": 0.8117647058823529,
+        "match_confidence": 0.97,
         "matched_venue_name": "Olympia-Kunsteisstadion/Eisstadium (Olympia Artificial Ice Stadium)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey, figure skating",
         "venue_information": "An open-air venue at Games time, when an ammonia-cooling system was used to create artificial ice, the stadium has undergone several renovations since then. It was fitted with a roof in 1964, while a second hall with an ice hockey rink and a curling rink was added in the early 1990s, along with two outdoor rinks.\n\nSince 1936, it has been the home stadium of professional ice hockey team SC Riessersee. It is also used by women's ice hockey club SC Garmisch-Partenkirchen and men's fourth-division ice hockey team TSV Farchant. It hosted a Germany national team match at the inaugural World Cup of Hockey in 1996 and all the matches in the 2012 IIHF Ice Hockey U-20 World Championship Division I Group A.\n\nThe country's national curling performance centre, it has twice staged the Men's Curling World Championships and also hosted a Davis Cup tie in 2009. The venue is open to skaters and the local community for training, classes and recreational skating.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -165,13 +165,13 @@
         "source_file": "venue_39.json",
         "Olympics": "1936 Garmisch Partenkirchen",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympia Bobbahn",
         "venue_classification": "Temporary (seasonal)",
         "venue_status": "Dismantled (seasonal)",
         "venue_use": "Bobsleigh",
         "venue_information": "A temporary (seasonal) natural bobsleigh track made of ice and snow, it was built and dismantled every year as of winter 1910. It regularly held world, European, German and Bavarian bobsleigh championships until 1966. A popular destination for local hikers and cyclists, the track was uncovered again in 2002 by volunteers and was listed as a historical site the following year. The bobsleigh section of the SC Riessersee club has been organising commemorative bobsleigh runs on the track since 2013. In 2015, the Red Bull Bob Heroes event, in which participants raced in home-made bobs, attracted 2,500 spectators, while an international bob week was held at the venue in 2019. The site is also home to the Bob Museum, which tells the story of the track.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -257,7 +257,6 @@
   "properties": {
     "olympics_year": "1936",
     "olympics_city": "Garmisch Partenkirchen",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

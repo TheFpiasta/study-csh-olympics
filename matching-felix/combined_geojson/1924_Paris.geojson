@@ -46,8 +46,8 @@
         "source_file": "venue_194.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Vélodrome municipal de Vincennes",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -89,13 +89,13 @@
         "source_file": "venue_203.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Cercle de la Voile de Paris, Meulan",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Sailing",
         "venue_information": "The club was founded in 1858 and its clubhouse still stands to this day. Also a sailing venue at Paris 1900, it organises regattas across a number of classes.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -265,8 +265,8 @@
         "source_file": "venue_266.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Vélodrome d'Hiver",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
@@ -545,13 +545,13 @@
         "source_file": "venue_273.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Stade de Paris",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -665,8 +665,8 @@
         "source_file": "venue_276.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 0.9510000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Stand de Versailles",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -704,13 +704,14 @@
         "type": "outdoor venue",
         "source_file": "venue_277.json",
         "Olympics": "1924 Paris",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Hippodrome du Grand Parquet",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Stade d'Escrime de Colombes / Stade de Colombes",
         "venue_classification": "Existing",
-        "venue_status": "In use",
-        "venue_use": "Modern pentathlon",
-        "venue_information": ""
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "The fencing competitions were held in hangars erected at the northern end of the Stade Olympique. They are no longer standing, though it is not known exactly when they were removed.",
+        "match_method": "token_match"
       }
     },
     {
@@ -774,13 +775,13 @@
         "source_file": "venue_279.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Saint-Cloud Country Club",
         "venue_classification": "Existing",
         "venue_status": "In use (repurposed)",
         "venue_use": "Polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -928,20 +929,19 @@
         "source_file": "venue_283.json",
         "Olympics": "1924 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9649999999999999,
         "matched_venue_name": "Stand d'Issy-les-Moulineaux",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Shooting",
         "venue_information": "The venue for the trap shooting competitions, it closed its doors in the early 1960s.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "1924",
     "olympics_city": "Paris",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

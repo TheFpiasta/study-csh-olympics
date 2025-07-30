@@ -80,7 +80,15 @@
         "dimensions": "400 m (SSK), 25 m x 60 m (ICH)",
         "altitude": "568 m",
         "source_file": "venue_71.json",
-        "Olympics": "1980 Lake Placid"
+        "Olympics": "1980 Lake Placid",
+        "match_type": "name_match",
+        "match_confidence": 0.813,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "James B. Sheffield Olympic Skating Oval",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "Another venue that forms part of the Olympic Center, the Oval was extensively upgraded for Lake Placid 1980, with a new artificial refrigeration system installed. Though it has not hosted a major international ice-sport event since 1990, it regularly stages local, regional and national speed skating events. An outdoor facility, it is used widely by local schools, speed skating clubs and the local community for recreational skating, speed skating and ice hockey. It was also a venue for the 2019 International Children's Winter Games. As part of the Olympic Center's refurbishment, the Oval has had a new refrigeration system installed, among other upgrades designed to ensure compliance with international competition standards."
       }
     },
     {
@@ -239,13 +247,13 @@
         "source_file": "venue_75.json",
         "Olympics": "1980 Lake Placid",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
+        "match_confidence": 0.8600000000000001,
         "matched_venue_name": "Whiteface Mountain",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Alpine skiing",
         "venue_information": "Only minor upgrades were needed to prepare the slopes of Whiteface Mountain for the 1980 Winter Games. Recent improvements have been made, however, with new snowmaking systems and the recent opening of a new Legacy Lodge. The venue attracts thousands of tourists from New York state and further afield every year.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -292,7 +300,6 @@
   "properties": {
     "olympics_year": "1980",
     "olympics_city": "Lake Placid",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

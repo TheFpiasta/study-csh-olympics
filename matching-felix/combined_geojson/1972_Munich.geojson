@@ -103,13 +103,13 @@
         "source_file": "venue_516.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Basketball Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Basketball, judo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -143,13 +143,13 @@
         "source_file": "venue_517.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Archery Range",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Archery",
         "venue_information": "This was in the Englischer Garten (English Garden), a large public city-centre park created in 1789. The temporary range was located in a part of the park known as the Werneckwiese.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -185,13 +185,13 @@
         "source_file": "venue_518.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Boxing Hall",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Boxing, judo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -224,13 +224,13 @@
         "source_file": "venue_519.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9649999999999999,
         "matched_venue_name": "Dante Bath",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Water polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -303,13 +303,13 @@
         "source_file": "venue_521.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Drei Flüsse Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -421,13 +421,13 @@
         "source_file": "venue_524.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Fencing Hall 1",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Fencing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -461,13 +461,13 @@
         "source_file": "venue_525.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Fencing Hall 1",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Fencing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -500,13 +500,13 @@
         "source_file": "venue_526.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Weightlifting Hall",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Weightlifting",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -660,13 +660,14 @@
         "type": "outdoor venue",
         "source_file": "venue_530.json",
         "Olympics": "1972 Munich",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7899999999999999,
         "matched_venue_name": "Canoe Slalom Course at the Eiskanal",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Canoe slalom",
-        "venue_information": "The course continues to host international, national and regional competitions, and is the home of Germany's National/Olympic Training Centre and two local canoe clubs. The venue for the 2011 ICF Wildwater Canoeing Sprint World Championships and the ICF Canoe Slalom European Championships in 1996 and 2012, it has hosted more than 20 ICF World Cup events. It will stage the ICF Canoe Slalom World Championships for a fourth time in 2022 and has been refurbished for the event, with the existing organisation centre and boathouse being renovated. The venue's grass terraces can accommodate crowds of between 8,000 and 10,000.\n\nThe course was first used as a canoe slalom venue in the 1950s. In preparation for Munich 1972, a sculpted concrete floor was created in the channel and the course was made steeper. Water flow from the weir at the top of the channel can be controlled to provide the necessary canoeing conditions. As a result, the course does not use pumps, making it more cost-efficient to run. Since 2019, the Olympic canoe slalom course has been part of the UNESCO World Heritage site of Augsburg."
+        "venue_information": "The course continues to host international, national and regional competitions, and is the home of Germany's National/Olympic Training Centre and two local canoe clubs. The venue for the 2011 ICF Wildwater Canoeing Sprint World Championships and the ICF Canoe Slalom European Championships in 1996 and 2012, it has hosted more than 20 ICF World Cup events. It will stage the ICF Canoe Slalom World Championships for a fourth time in 2022 and has been refurbished for the event, with the existing organisation centre and boathouse being renovated. The venue's grass terraces can accommodate crowds of between 8,000 and 10,000.\n\nThe course was first used as a canoe slalom venue in the 1950s. In preparation for Munich 1972, a sculpted concrete floor was created in the channel and the course was made steeper. Water flow from the weir at the top of the channel can be controlled to provide the necessary canoeing conditions. As a result, the course does not use pumps, making it more cost-efficient to run. Since 2019, the Olympic canoe slalom course has been part of the UNESCO World Heritage site of Augsburg.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -730,13 +731,13 @@
         "source_file": "venue_532.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Military-Gelände Poing, Poing/Riem",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Eventing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -817,7 +818,15 @@
         "surface": "Artificial surface",
         "altitude": "522 m",
         "source_file": "venue_534.json",
-        "Olympics": "1972 Munich"
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Munich Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies",
+        "venue_information": "This multi-purpose stadium had a capacity of 77,000 at Games time. This has now been reduced to 69,250. A Munich landmark, it forms part of the city's Olympic Park and stages a wide variety of sporting and cultural events.\n\nThe home ground of football clubs Bayern Munich and TSV 1860 Munich for many years, it was the venue for the finals of the 1974 FIFA World Cup and the 1988 UEFA European Championships. It also staged the 2012 Special Olympics and is a major athletics venue, having hosted the 2002 European Championships and the IAAF Grand Prix Athletics Final in 1999. A venue at the multi-sport European Championships Munich 2022, it is the finish point of the annual Munich Marathon and hosts the Oktoberfest rugby sevens tournament. The stadium is also a popular concert venue."
       }
     },
     {
@@ -884,8 +893,8 @@
         "source_file": "venue_537.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Cycling Stadium (Olympia-Radstadion)",
         "venue_classification": "New build",
         "venue_status": "Not in use",
@@ -925,13 +934,13 @@
         "source_file": "venue_538.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Reitstadion, Riem/Riding Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Eventing, jumping, modern pentathlon (equestrian)",
         "venue_information": "The home of the Munich Riding Academy, the Bavarian Riding and Driving Association and the Regional Association of Bavarian Horse Breeders, this 27-hectare venue was rebuilt and expanded for the 1972 Olympic Games. The Riding Academy was founded in 1958 and organises jumping and dressage tournaments, equestrian festivals and instruction for young riders.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -965,13 +974,14 @@
         "type": "indoor venue",
         "source_file": "venue_539.json",
         "Olympics": "1972 Munich",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.867,
         "matched_venue_name": "Wrestling and Judo Hall",
         "venue_classification": "New build",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Wrestling, judo",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1011,7 +1021,7 @@
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "exact_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1076,13 +1086,13 @@
         "source_file": "venue_542.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Shooting Range",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Shooting, modern pentathlon (shooting)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1156,13 +1166,14 @@
         "type": "indoor venue",
         "source_file": "venue_544.json",
         "Olympics": "1972 Munich",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Hohenstaufenhalle",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Sports Hall, Augsburg",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Handball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "token_match"
       }
     },
     {
@@ -1196,13 +1207,14 @@
         "type": "indoor venue",
         "source_file": "venue_545.json",
         "Olympics": "1972 Munich",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Hohenstaufenhalle",
-        "venue_classification": "Existing",
+        "match_type": "name_match",
+        "match_confidence": 0.7889999999999999,
+        "matched_venue_name": "Sports Hall",
+        "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Handball",
-        "venue_information": ""
+        "venue_use": "Artistic gymnastics, handball",
+        "venue_information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1237,13 +1249,13 @@
         "source_file": "venue_546.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Sports Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Artistic gymnastics, handball",
         "venue_information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1318,8 +1330,8 @@
         "source_file": "venue_548.json",
         "Olympics": "1972 Munich",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Volleyball Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -1331,7 +1343,6 @@
   "properties": {
     "olympics_year": "1972",
     "olympics_city": "Munich",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

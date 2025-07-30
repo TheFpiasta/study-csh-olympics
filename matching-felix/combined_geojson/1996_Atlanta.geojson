@@ -77,7 +77,15 @@
         "surface": "Artificial surface",
         "altitude": "287 m",
         "source_file": "venue_711.json",
-        "Olympics": "1996 Atlanta"
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "Completed in May 1996, the venue was designed for use as a baseball stadium after the Games. Reshaped a year later to allow the Atlanta Braves baseball team to take up residence, it had its capacity lowered from 85,600 to 49,700 and was renamed Turner Field. The Braves remained at the stadium until 2016, at which point it was renovated and its capacity reduced to 25,000 in preparation for use by the Georgia State Panthers, the Georgia State University American football team. The Panthers continue to play at the venue, which is now known as Center Parc Stadium. The stadium track was removed after the Games and given to Clark Atlanta University. The venue has hosted several concerts. The Rolling Stones, Metallica and Foo Fighters have all performed there since the turn of the millennium. One reason for the Braves vacating the stadium was the lack of public transport in the area and the impact this had on attendance figures."
       }
     },
     {
@@ -110,13 +118,14 @@
         "type": "indoor venue",
         "source_file": "venue_712.json",
         "Olympics": "1996 Atlanta",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Morehouse College",
-        "venue_classification": "New build",
+        "match_type": "name_match",
+        "match_confidence": 0.787,
+        "matched_venue_name": "Sanford Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Basketball",
-        "venue_information": ""
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -234,13 +243,13 @@
         "source_file": "venue_715.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Alexander Memorial Coliseum",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Boxing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -275,13 +284,13 @@
         "source_file": "venue_716.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Atlanta Fulton County Stadium",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Baseball",
         "venue_information": "Opened in 1965, the stadium was the home of the Atlanta Braves baseball team from 1966 to 1996 and the NFL team the Atlanta Falcons until 1991, the former moving to the nearby Olympic Stadium and the latter to the Georgia Dome. The venue was demolished in 1997, and the site is now a parking lot for the Olympic Stadium. There are plans to turn the site into new baseball and softball parks.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -355,13 +364,13 @@
         "source_file": "venue_718.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.751,
+        "match_confidence": 1.0,
         "matched_venue_name": "Lake Lanier",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Rowing, canoe sprint",
         "venue_information": "A standalone venue in Gainesville, 90 kilometres north-east of Atlanta. The lake is a man-made reservoir created by the construction of a dam in 1956 and has hosted water sports ever since it filled up. Some permanent facilities were built for the Games. These included two boathouses, course markings, docks and a finish tower with a scoreboard and videoboards. Temporary Games facilities included grandstands on a floating platform, tents and an athlete day village. These were all removed afterwards. The venue underwent a USD 1.1m renovation in 2014/15. The venue continues to host rowing and canoeing events. Since the Games, it has staged three US Canoe/Kayak Sprint National Championships, the 2003 ICF Canoe Sprint World Championships, and Canadian and US team trials, among other international and national competitions. The venue is shared by the Lake Lanier Rowing Club and the Lanier Canoe and Kayak Club, which run youth development sessions and high-performance training and also offer boat rentals and recreational paddling trips around Lake Lanier. Both clubs organise regular competitions and events for their members. The venue can also be booked for corporate events, conferences, teambuilding sessions, and private functions and weddings. Lake Lanier has 23 beaches along its shores. Over 7.5 million people visit the lake, its marinas and the Lake Lanier Islands Water Park every year.",
-        "match_method": "fuzzy_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -520,13 +529,13 @@
         "source_file": "venue_722.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Georgia International Horse Park",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Dressage, eventing, jumping, mountain bike, modern pentathlon (equestrian)",
         "venue_information": "Located on a 1,400-acre site, the venue opened in 1995. Its Games-time centrepiece was a 32,000-seat arena. All but 8,000 of the seats were temporary. The Olympic equestrian events attracted 600,000 spectators in all. The venue continues to host national and international equestrian and mountain bike events. It is also open for festivals, concerts, rodeos, dog shows, wedding receptions and private functions. In 2016, it staged a Grand Prix to mark the 20th anniversary of the 1996 Olympic Games. It hosts between 60 and 70 events a year.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -651,13 +660,13 @@
         "source_file": "venue_725.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Georgia World Congress Center (Halls D, E, F, G, H)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Table tennis, weightlifting, fencing, handball, wrestling, judo, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -815,13 +824,13 @@
         "source_file": "venue_729.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Robert F. Kennedy Memorial Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -895,13 +904,13 @@
         "source_file": "venue_732.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Alonzo Herndon Stadium",
         "venue_classification": "Existing",
         "venue_status": "Not in use",
         "venue_use": "Hockey",
         "venue_information": "Constructed in the 1940s, the stadium was extensively refurbished for the Games. It was later the home of the professional women's soccer team Atlanta Beat for several seasons and was used as a location in the film We Are Marshall. The venue was abandoned in 2002, when the college that owned it ran into financial difficulties and cut its sports programme. Now covered with graffiti and the subject of litigation in the past, the derelict stadium continues to stand today.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -976,13 +985,13 @@
         "source_file": "venue_735.json",
         "Olympics": "1996 Atlanta",
         "match_type": "name_match",
-        "match_confidence": 0.775,
-        "matched_venue_name": "Omni Coliseum",
+        "match_confidence": 0.85,
+        "matched_venue_name": "University of Georgia Coliseum",
         "venue_classification": "Existing",
-        "venue_status": "In use (rebuilt)",
-        "venue_use": "Volleyball",
-        "venue_information": "",
-        "match_method": "fuzzy_match"
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, volleyball",
+        "venue_information": "This 10,500-capacity venue opened in 1964. The home stadium of the Georgia Bulldogs and the University of Georgia's basketball and gymnastics teams, it is now known as Stegeman Coliseum and was refurbished in 1998, 2010/11 and again in 2017, when a new scoreboard, lighting and sound systems were installed. In 2020, it was ranked 21st out of 334 National Collegiate Athletic Association (NCAA) Division I basketball venues.",
+        "match_method": "token_match"
       }
     },
     {
@@ -1094,13 +1103,14 @@
         "type": "outdoor venue",
         "source_file": "venue_738.json",
         "Olympics": "1996 Atlanta",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.786,
         "matched_venue_name": "Golden Park",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Softball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1191,7 +1201,6 @@
   "properties": {
     "olympics_year": "1996",
     "olympics_city": "Atlanta",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

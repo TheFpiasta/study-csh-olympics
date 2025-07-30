@@ -216,8 +216,8 @@
         "source_file": "venue_65.json",
         "Olympics": "1994 Lillehammer",
         "match_type": "name_match",
-        "match_confidence": 0.8769230769230768,
-        "match_method": "substring_match",
+        "match_confidence": 0.894,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Gjøvik Olympic Cavern Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -263,13 +263,13 @@
         "source_file": "venue_66.json",
         "Olympics": "1994 Lillehammer",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
+        "match_confidence": 1.0,
         "matched_venue_name": "Hamar Olympic Hall (Vikingskipet)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Speed skating",
         "venue_information": "This 10,600-capacity venue is Norway's national arena for bandy (an 11-a-side version of ice hockey that uses a ball instead of a puck) and speed skating. It hosted the ISU Speed Skating World Cup as recently as 2019. Known locally as \"the Viking Ship\", Hamar Olympic Hall is a multi-purpose venue that accommodates football, cycling, athletics, curling, motorsports and equestrian sports. It also has a golf driving range. Among other events, it stages skating shows and competitions, trade shows, exhibitions and concerts, with both Beyoncé and Stevie Wonder having performed there.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match_inner_inner"
       }
     },
     {
@@ -396,7 +396,15 @@
         "type": "outdoor venue",
         "altitude": "384 m",
         "source_file": "venue_69.json",
-        "Olympics": "1994 Lillehammer"
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 0.7969999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Lillehammer Olympic Bobsleigh and Luge Track",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Bobsleigh, luge",
+        "venue_information": "It has been the venue for major international competitions such as the 1995 FIL World Luge Championships, and offers a range of sliding activities for visitors all year round. These include wheelbob in the summer and bob-raft, taxibob (a bobsled driven by a professional) and skeleton in the winter."
       }
     },
     {
@@ -444,7 +452,6 @@
   "properties": {
     "olympics_year": "1994",
     "olympics_city": "Lillehammer",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

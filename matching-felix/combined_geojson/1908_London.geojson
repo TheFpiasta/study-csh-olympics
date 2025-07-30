@@ -30,13 +30,14 @@
         "type": "indoor venue",
         "source_file": "venue_2097.json",
         "Olympics": "1908 London",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
-        "matched_venue_name": "Fencing Grounds",
-        "venue_classification": "Temporary",
-        "venue_status": "Dismantled (temporary)",
+        "matched_venue_name": "Prince's Galleries, Piccadilly (Prince's Hall)",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
         "venue_use": "Fencing",
-        "venue_information": "A large tent was erected just outside White City Stadium to host some of the fencing events. It was taken down after the Games."
+        "venue_information": "",
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -400,13 +401,13 @@
         "source_file": "venue_224.json",
         "Olympics": "1908 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Ryde Pier, Ryde, Isle of Wight",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Sailing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -438,13 +439,13 @@
         "source_file": "venue_225.json",
         "Olympics": "1908 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Royal Clyde Yacht Club, Hunters Quay",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Sailing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -565,20 +566,19 @@
         "source_file": "venue_228.json",
         "Olympics": "1908 London",
         "match_type": "name_match",
-        "match_confidence": 0.85,
+        "match_confidence": 0.9410000000000001,
         "matched_venue_name": "All England Lawn Tennis and Croquet Club",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Tennis",
         "venue_information": "Founded in 1869 on Worple Road in Wimbledon, the All England Lawn Tennis and Croquet Club remained there until 1922, when it moved across the district of Wimbledon to its current location on Church Road.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "1908",
     "olympics_city": "London",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

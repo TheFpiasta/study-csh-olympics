@@ -116,13 +116,13 @@
         "source_file": "venue_886.json",
         "Olympics": "2014 Sochi",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Ice Cube Curling Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Curling",
         "venue_information": "Still a curling venue today and a training base for Russia's curling teams, the Ice Cube staged the 2015 World Senior Curling Championships and has hosted several national and regional competitions in the sport. It is also a multi-purpose sports and entertainment facility, having staged the Acrobatic Rock'n' Roll World Cup and World Championships in 2016, and the opening and closing ceremonies of the 2017 Winter Military World Games.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -242,8 +242,8 @@
         "source_file": "venue_889.json",
         "Olympics": "2014 Sochi",
         "match_type": "name_match",
-        "match_confidence": 0.7857142857142858,
-        "match_method": "token_match",
+        "match_confidence": 0.8500000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Laura Cross-Country Ski and Biathlon Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -283,13 +283,13 @@
         "source_file": "venue_890.json",
         "Olympics": "2014 Sochi",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Rosa Khutor Alpine Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Alpine skiing",
         "venue_information": "Russia's largest Alpine resort existed before the Games. The centre was the setting for the FIS Junior World Ski Championship in 2016, a year in which it received almost two million visitors.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -367,13 +367,13 @@
         "source_file": "venue_892.json",
         "Olympics": "2014 Sochi",
         "match_type": "name_match",
-        "match_confidence": 0.8250000000000001,
+        "match_confidence": 0.906,
         "matched_venue_name": "RusSki Gorki Ski Jumping Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ski jumping and Nordic combined",
         "venue_information": "An FIS-homologated venue, the centre stages national and international events in summer and winter. Regularly used as a training base by Russia's national ski jumping teams, this 6,000-seater venue has staged four Russian summer ski jumping championships and a number of regional and city tournaments. In 2019, it hosted 46 training camps.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -423,7 +423,6 @@
   "properties": {
     "olympics_year": "2014",
     "olympics_city": "Sochi",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

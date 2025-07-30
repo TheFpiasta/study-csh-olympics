@@ -189,13 +189,13 @@
         "source_file": "venue_178.json",
         "Olympics": "2010 Vancouver",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "UBC Thunderbird Arena",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
         "venue_information": "Used year-round, this multi-use facility venue caters for the University of British Columbia's athletes and the wider community, as originally planned when it was built for the 2010 Olympic Winter Games. The venue is the home of the UBC Thunderbirds women's and men's ice hockey teams, among other university teams and athletes. A venue for several Davis Cup ties, it hosts concerts, conventions, talks, film shoots and ice hockey programmes.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -229,13 +229,13 @@
         "source_file": "venue_179.json",
         "Olympics": "2010 Vancouver",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "matched_venue_name": "Vancouver Olympic Stadium",
-        "venue_classification": "Existing",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Vancouver Olympic Center",
+        "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Opening and Closing Ceremonies",
-        "venue_information": "Originally built to host the 1986 World Expo, the stadium plays host to sporting and cultural events such as football, American football and rugby matches, and concerts.",
-        "match_method": "substring_match"
+        "venue_use": "Curling",
+        "venue_information": "Converted into a multi-purpose community recreation centre after Vancouver 2010, the venue offers sporting activities and programmes for people of all ages and abilities. Comprising a library, pool, skating rink, curling rink, gymnasium and fitness centre, among other facilities, it is a popular gathering place and receives over two million visitors a year.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -311,8 +311,8 @@
         "source_file": "venue_181.json",
         "Olympics": "2010 Vancouver",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
-        "match_method": "substring_match",
+        "match_confidence": 0.803,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Whistler Olympic Village",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -353,20 +353,19 @@
         "source_file": "venue_182.json",
         "Olympics": "2010 Vancouver",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Whistler Sliding Center",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Bobsleigh, luge and skeleton",
         "venue_information": "A national training centre for luge, bobsleigh and skeleton, the venue has staged a number of international competitions, including FIL Luge World Cup events and the IBSF Bobsleigh and Skeleton World Championships. It is also home to the BC Sliding Development Center, which was founded in 2017 and runs development programmes for bobsleigh, skeleton and luge athletes of all abilities. The venue is also open to the general public all year round, allowing people to experience the three sports in a safe, controlled environment.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "2010",
     "olympics_city": "Vancouver",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

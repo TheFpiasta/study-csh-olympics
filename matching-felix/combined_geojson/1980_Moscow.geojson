@@ -31,13 +31,14 @@
         "type": "outdoor venue",
         "source_file": "venue_573.json",
         "Olympics": "1980 Moscow",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.818,
         "matched_venue_name": "Archery Field",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Archery",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -79,8 +80,8 @@
         "source_file": "venue_574.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Grand Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -161,13 +162,13 @@
         "source_file": "venue_576.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Indoor Stadium",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Basketball, boxing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -202,13 +203,13 @@
         "source_file": "venue_577.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Canoeing and Rowing Basin",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Rowing, canoe sprint",
         "venue_information": "One of four Moscow 1980 venues located in the Krylatskoye Sports Complex. Built in 1973, it staged the European Rowing Championships that year. Following renovation work, it hosted the 2014 ICF Canoe Sprint World Championships and is also used for local and national competitions. It is the home of the Krylatskoye Olympic Rowing Sport Training Centre, Sparta Rowing Club, and the Moscow Dragon Boat Club. Both clubs offer competitive and recreational rowing and training for rowers of all levels. The venue has permanent stands with a capacity of 3,800, a press centre, and a large sports centre with a number of training facilities and state-of-the-art equipment. It is also occasionally used for cultural events, such as Moscow's annual Circle of Light Festival.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -305,8 +306,8 @@
         "source_file": "venue_580.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Velodrome",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -347,13 +348,13 @@
         "source_file": "venue_581.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Swimming Pool",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Water polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -593,13 +594,13 @@
         "source_file": "venue_587.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Grand Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
         "venue_information": "Now known as the Luzhniki Stadium, the venue is the centrepiece of Moscow's Olympic Complex. Built for the 1956 Spartakiade, the stadium was refurbished in 1977 in preparation for the 1980 Olympic Games. Renovations included the installation of two large video scoreboards and floodlights with halogen lamps to enable high-quality broadcasting in poor light conditions. The stadium was further renovated in 1996, when its roof structure was upgraded. Visited by 10,000 people a day for sport and recreation purposes, the stadium has since hosted the 1998 World Youth Games, the 2008 UEFA Champions League final, the 2013 IAAF World Athletics Championships and the final of the 2018 FIFA World Cup, an event for which it was fully renovated and turned into a bespoke football stadium with a capacity of 81,000. It also stages cultural events and concerts by leading international acts.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -635,13 +636,13 @@
         "source_file": "venue_588.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Palace of Sports",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Artistic gymnastics, judo",
         "venue_information": "The venue for the Olympic artistic gymnastics and judo events and part of the Luzhniki Olympic Complex, the Palace of Sports was constructed in 1956 and hosted several world and European championships in a number of sports – including ice hockey, gymnastics, volleyball, basketball and boxing – before being used at the 1980 Olympic Games. It has hosted four Ice Hockey World Championships. The home arena of the HC Dynamo Moscow ice hockey team until 2000, it also staged the 2005 World Figure Skating Championships and the 2001 UEFA Futsal Championships. The arena underwent major refurbishment in 2002, when its seating capacity was reduced to 11,500.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -796,13 +797,13 @@
         "source_file": "venue_592.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Minor Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Volleyball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -875,13 +876,14 @@
         "type": "outdoor venue",
         "source_file": "venue_594.json",
         "Olympics": "1980 Moscow",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
         "matched_venue_name": "Olympic Yachting Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Sailing",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -956,13 +958,13 @@
         "source_file": "venue_596.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Minor Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Volleyball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -997,13 +999,13 @@
         "source_file": "venue_597.json",
         "Olympics": "1980 Moscow",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Swimming Pool",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Water polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1035,13 +1037,14 @@
         "type": "indoor venue",
         "source_file": "venue_598.json",
         "Olympics": "1980 Moscow",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Izmailovo Sports Palace",
-        "venue_classification": "New build",
-        "venue_status": "In use (rebuilt)",
-        "venue_use": "Weightlifting",
-        "venue_information": ""
+        "match_type": "name_match",
+        "match_confidence": 0.8320000000000001,
+        "matched_venue_name": "Palace of Sports",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, judo",
+        "venue_information": "The venue for the Olympic artistic gymnastics and judo events and part of the Luzhniki Olympic Complex, the Palace of Sports was constructed in 1956 and hosted several world and European championships in a number of sports – including ice hockey, gymnastics, volleyball, basketball and boxing – before being used at the 1980 Olympic Games. It has hosted four Ice Hockey World Championships. The home arena of the HC Dynamo Moscow ice hockey team until 2000, it also staged the 2005 World Figure Skating Championships and the 2001 UEFA Futsal Championships. The arena underwent major refurbishment in 2002, when its seating capacity was reduced to 11,500.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1087,7 +1090,6 @@
   "properties": {
     "olympics_year": "1980",
     "olympics_city": "Moscow",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

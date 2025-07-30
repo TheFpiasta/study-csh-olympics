@@ -388,8 +388,8 @@
         "source_file": "venue_607.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Velodrome",
         "venue_classification": "New build",
         "venue_status": "Not in use (demolished)",
@@ -430,13 +430,13 @@
         "source_file": "venue_608.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Swim Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, artistic swimming",
         "venue_information": "Located on the USC campus, the stadium has been used by local residents and the university's students since the 1984 Olympic Games, as planned. Now known as the Uytengsu Aquatics Center, it is home to USC's swimming and diving teams and stages regional and national aquatic sports competitions. It was the venue for the 1989 US Long Course Championships and the 1993 US National Diving Championships. It is also used for recreational and masters swimming, and club triathlon, water polo and swimming competitions and training.\n\nThe stadium was closed for renovations in 2013, when a new diving tower, locker rooms, a spectator area, a video scoreboard and two outdoor jacuzzis were added to its facilities.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -588,13 +588,13 @@
         "source_file": "venue_612.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.8250000000000001,
+        "match_confidence": 0.848,
         "matched_venue_name": "Exhibition Hall, Long Beach Convention and Entertainment Center",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Fencing",
         "venue_information": "",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -627,13 +627,14 @@
         "type": "outdoor venue",
         "source_file": "venue_613.json",
         "Olympics": "1984 Los Angeles",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.804,
         "matched_venue_name": "Long Beach Sports Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Volleyball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -824,13 +825,14 @@
         "type": "indoor venue",
         "source_file": "venue_618.json",
         "Olympics": "1984 Los Angeles",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
         "matched_venue_name": "Titan Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Handball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -864,13 +866,13 @@
         "source_file": "venue_619.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Weingart Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Hockey",
         "venue_information": "The venue was built in 1951 and is used by East Los Angeles College's American football and soccer teams. It has a seating capacity of 22,355 and was renovated for the field hockey competition at the 1984 Olympic Games, with a new turf pitch installed and improvements made to the seating. Formerly known as ELAC Stadium, it was renamed in honour of the philanthropist who funded the renovations.\n\nAfter the Games, it reverted to its original use as an American football and soccer stadium, but hosted an international hockey tournament organised by USA Field Hockey in 1990. The stadium has an eight-lane 400-metre track and stages athletics competitions. It is also used for high-school graduation ceremonies.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -902,13 +904,13 @@
         "source_file": "venue_620.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Eagle's Nest Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Judo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1015,13 +1017,13 @@
         "source_file": "venue_623.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Heritage Park Aquatic Center",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (swimming)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -1200,13 +1202,13 @@
         "source_file": "venue_631.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Raleigh Runnels Memorial Pool",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Water polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1239,13 +1241,13 @@
         "source_file": "venue_632.json",
         "Olympics": "1984 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Albert Gersten Pavilion",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Weightlifting",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1291,7 +1293,6 @@
   "properties": {
     "olympics_year": "1984",
     "olympics_city": "Los Angeles",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

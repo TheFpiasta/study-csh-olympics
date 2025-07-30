@@ -73,13 +73,14 @@
         "dimensions": "400 m (SSK), 30 m x 70 m (ICH)",
         "source_file": "venue_24.json",
         "Olympics": "1924 Chamonix",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.809,
         "matched_venue_name": "Tremplin Olympique du Mont",
         "venue_classification": "New built",
         "venue_status": "In use",
         "venue_use": "Ski jumping, Nordic combined",
-        "venue_information": "The venue was built for the 1924 Games. It is still used for training, youth events and national and regional competitions.\n\nThe hill staged a number of ski jumping competitions after the Games, including the inaugural FIS Nordic World Ski Championships in 1937. It underwent four modifications through to 1982 but lost its FIS accreditation in 2001 and hosted its last international competition that winter. Efforts were later made to raise funds to upgrade the venue and bring it into line with FIS requirements, but these failed when priority was given instead to another ski jumping facility nearby."
+        "venue_information": "The venue was built for the 1924 Games. It is still used for training, youth events and national and regional competitions.\n\nThe hill staged a number of ski jumping competitions after the Games, including the inaugural FIS Nordic World Ski Championships in 1937. It underwent four modifications through to 1982 but lost its FIS accreditation in 2001 and hosted its last international competition that winter. Efforts were later made to raise funds to upgrade the venue and bring it into line with FIS requirements, but these failed when priority was given instead to another ski jumping facility nearby.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -130,7 +131,6 @@
   "properties": {
     "olympics_year": "1924",
     "olympics_city": "Chamonix",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

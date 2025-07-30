@@ -85,13 +85,13 @@
         "source_file": "venue_743.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Sydney International Archery Park",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Archery",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -132,8 +132,8 @@
         "source_file": "venue_744.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -175,8 +175,8 @@
         "source_file": "venue_745.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Sydney Superdome",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -219,7 +219,15 @@
         "seating_capacity": "10000",
         "type": "indoor venue",
         "source_file": "venue_746.json",
-        "Olympics": "2000 Sydney"
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Exhibition Complex (Pavilions 2, 3, 4)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, handball, badminton, volleyball, modern pentathlon (fencing, shooting)",
+        "venue_information": ""
       }
     },
     {
@@ -337,12 +345,12 @@
         "source_file": "venue_751.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.83,
-        "matched_venue_name": "Sydney Football Stadium",
-        "venue_classification": "Existing",
-        "venue_status": "In use (rebuilt)",
-        "venue_use": "Football",
-        "venue_information": "",
+        "match_confidence": 0.874,
+        "matched_venue_name": "Baseball Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Baseball, modern pentathlon (equestrian, running)",
+        "venue_information": "The Sydney Showground was host to the baseball competitions during the 2000 Olympic Games. Every year, it welcomes the Sydney Royal Easter Show (Australia's preeminent agricultural show), the largest event in the southern hemisphere, attracting close to 1 million people every edition.\n\nThe showground also houses the GWS Giants (Australian Rules Football team) and the Sydney Thunder Cricket Team (Cricket Australia's National Big Bash League). In addition to the Stadium, the Sydney Showground comprises over 120,000 square metres of floor space for exhibitions, conferences and music festivals.\n\nProfits from every event held at the Sydney Showground are invested back into supporting Australian agriculture and rural communities, contributing to the local agricultural prosperity.",
         "match_method": "fuzzy_match"
       }
     },
@@ -377,13 +385,13 @@
         "source_file": "venue_752.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.8727272727272727,
+        "match_confidence": 0.916,
         "matched_venue_name": "Beach Volleyball Centre",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Beach volleyball",
         "venue_information": "Located on Bondi Beach, the centre comprised two courts, with temporary seating for 10,000 people installed on the main court. The venue was dismantled after the Games.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -613,13 +621,13 @@
         "source_file": "venue_758.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Sydney International Aquatic Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, artistic swimming, water polo, modern pentathlon (swimming)",
         "venue_information": "Completed in 1994, the venue now known as the Sydney Olympic Park Aquatic Centre has a 50m competition pool, a training pool, a utility pool with a four-level diving tower, and a leisure pool. By the time of the 2000 Olympic Games, the venue had already received six million visits and was used extensively by schools and recreational swimmers, a function it continues to perform today. Though its capacity was reduced from 17,500 to 8,500 after the Games, it remains Australia's largest swimming arena and is the venue for the country's National Swimming Championships.\n\nAside from swimming competitions, it is used for high-performance training, and grassroots activities such as swimming lessons for beginners, the largest swim school in Australia as well as water polo and diving clinics, aquarobics sessions, and seniors' days. This multi-purpose venue also stages conferences, concerts, fashion shows and private functions.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -655,13 +663,13 @@
         "source_file": "venue_759.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Sydney International Equestrian Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Eventing, dressage, jumping",
         "venue_information": "Completed just before the 2000 Olympic Games, the centre has a main arena with a capacity of 20,000. Its other facilities include a warm-up arena, an indoor training hall, training arenas, 25 kilometres of trails, cross-country courses, administration buildings and stables.\n\nThe venue for the annual Sydney International Horse Trials, it is Australia's main equestrian training and competition centre, catering for all levels of rider, from beginners to elite. The indoor training hall hosts a variety of non-equine events, including dog trials, trade shows and weddings. Aboriginal sites and early European settlements were discovered during its construction, and efforts have been made to keep them intact for future generations.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -695,13 +703,13 @@
         "source_file": "venue_761.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Brisbane Cricket Ground",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -857,13 +865,13 @@
         "source_file": "venue_766.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "State Hockey Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Hockey",
         "venue_information": "Renamed the Sydney Olympic Park Hockey Centre the venue has a main pitch and a warm-up pitch. A new state-of-the-art playing surface was installed on the main pitch in 2018. The centre's Games-time capacity was 15,000, though this has now been reduced to 8,000. It is used by a number of hockey clubs, including NSW Pride, which has women's and men's teams competing in Hockey One, Australia's premier domestic competition. The venue has hosted a number of competitions, including an FIH Pro League event early in 2020. Its pitches and other facilities are available for hire for conferences, meetings and private functions.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -896,13 +904,13 @@
         "source_file": "venue_768.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.8181818181818181,
+        "match_confidence": 0.8670000000000001,
         "matched_venue_name": "Rushcutters Bay",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Sailing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -975,13 +983,13 @@
         "source_file": "venue_770.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Softball Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Softball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1016,13 +1024,13 @@
         "source_file": "venue_771.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "New South Wales Tennis Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Tennis",
         "venue_information": "Known as the Sydney Olympic Park Tennis Centre, it is home to 16 courts (10 match courts and six practice courts). The venue is used all year round for competitions and training and hosts two warm-up tournaments for the Australian Open. With a AUD 50.5 million investment, a roof was added to the main arena as part of refurbishments carried out in 2020. The main court seats 10,000 people and is named after Ken Rosewall, one of Australia's tennis heroes. It is host to Tennis Australia's ATP Cup event and the Suncorp Super Netball Competition and houses the NSW Swifts and the Giants Netball teams. The centre offers tennis lessons and coaching for the general public and is the home of Tennis NSW, the state's governing body.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1057,13 +1065,13 @@
         "source_file": "venue_772.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "State Sports Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Table tennis, taekwondo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1137,13 +1145,13 @@
         "source_file": "venue_774.json",
         "Olympics": "2000 Sydney",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Sydney Entertainment Centre",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Volleyball",
         "venue_information": "The venue was opened in 1983 and demolished in 2016. A much-used concert and theatre venue, it averaged audiences of a million people a year. As a sporting venue, its main function was to host National Basketball League team the Sydney Kings, who played there in three separate spells prior to its closure. A venue at the 2007 and 2011 FIBA Oceania Championship, the centre was also used for boxing, wrestling, tennis and netball. The site is now occupied by a residential development, part of the redevelopment of Sydney's Darling Harbour, and new conference, convention and exhibition facilities have been built in the precinct.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -1215,20 +1223,20 @@
         "type": "indoor venue",
         "source_file": "venue_777.json",
         "Olympics": "2000 Sydney",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "Sydney Convention and Exhibition Centre",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Weightlifting, wrestling, judo, fencing, boxing",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "token_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "2000",
     "olympics_city": "Sydney",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

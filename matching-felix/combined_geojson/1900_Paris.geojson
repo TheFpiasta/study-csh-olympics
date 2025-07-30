@@ -36,8 +36,8 @@
         "source_file": "venue_193.json",
         "Olympics": "1900 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Croix-Catelan",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -129,13 +129,13 @@
         "source_file": "venue_195.json",
         "Olympics": "1900 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Cercle du Bois de Boulogne, Pelouse de Madrid",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Croquet",
         "venue_information": "The site was first used as a skating club in 1865. The Cercle du Bois de Boulogne came into being in 1899, at which point the venue became a clay pigeon shooting club, counting Pierre de Coubertin among its members. With the growth in popularity of tennis between the wars, the club began hosting tennis tournaments and became a popular practice venue for players competing in the French Open at Roland-Garros. The Ligue de Tennis de Paris is now the resident club. Among its many activities, it identifies and coaches talented young players.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -209,13 +209,13 @@
         "source_file": "venue_197.json",
         "Olympics": "1900 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.972,
         "matched_venue_name": "Grande Salle des Fêtes de l'Exposition, Champ de Mars",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Fencing",
         "venue_information": "The venue for the fencing foil and sabre competitions, the Grande Salle des Fêtes de l'Exposition, was built for the 1900 Paris World's Fair and was dismantled at a later stage.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -515,13 +515,14 @@
         "type": "outdoor venue",
         "source_file": "venue_205.json",
         "Olympics": "1900 Paris",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7549999999999999,
         "matched_venue_name": "Camp militaire de Satory",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
         "venue_use": "Shooting",
-        "venue_information": "The site, which housed specially erected pavilions during the 1900 Olympic Games, is still occupied by military buildings."
+        "venue_information": "The site, which housed specially erected pavilions during the 1900 Olympic Games, is still occupied by military buildings.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -553,13 +554,14 @@
         "type": "outdoor venue",
         "source_file": "venue_206.json",
         "Olympics": "1900 Paris",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7869999999999999,
         "matched_venue_name": "Courts de la Société des Sports de l'île de Puteaux / Cercle de Puteaux",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Tennis",
-        "venue_information": "Still a tennis venue and situated on an island in the Seine, it was established in 1886. The club now has more than 850 members and 600 juniors in its tennis academy. Its 16 courts, five of which are covered, are also open to the public, and classes and lessons are offered."
+        "venue_information": "Still a tennis venue and situated on an island in the Seine, it was established in 1886. The club now has more than 850 members and 600 juniors in its tennis academy. Its 16 courts, five of which are covered, are also open to the public, and classes and lessons are offered.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -592,13 +594,13 @@
         "source_file": "venue_207.json",
         "Olympics": "1900 Paris",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9510000000000001,
         "matched_venue_name": "Stand de l'île Séguin",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Shooting",
         "venue_information": "This island in the Seine was a popular leisure destination and was used for recreational boating and angling, as well as clay pigeon shooting. The shooting range made way for a Renault car factory in 1919. The factory produced its last car in 1992 and was demolished in 2005. The site is now occupied by newly built concert and performance venues.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -924,7 +926,6 @@
   "properties": {
     "olympics_year": "1900",
     "olympics_city": "Paris",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

@@ -106,13 +106,13 @@
         "source_file": "venue_314.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.824,
+        "match_confidence": 0.8670000000000001,
         "match_method": "fuzzy_match",
-        "matched_venue_name": "Police Stadium (Polizeistadion)",
-        "venue_classification": "Existing",
-        "venue_status": "Not in use (demolished)",
-        "venue_use": "Handball",
-        "venue_information": "A handball venue at the 1936 Olympic Games, it was destroyed during WWII."
+        "matched_venue_name": "Berlin Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, handball, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "Built between 1934 and 1936, this neoclassical-style stadium was sited on the foundations of the Deutsche Stadion, originally constructed for the 1916 Olympic Games, which were cancelled due to the outbreak of WWI. The stadium forms part of Berlin Olympic Park, which was known as the Reichssportfeld at Games time and is also home to the May Field, the Hockey Stadium, the Tennis Courts and Tennis Stadium, the Swimming Stadium and the Waldbühne. Occupied by British troops at the end of WWII, the stadium was returned to the local authorities in 1949. In 1966, it was listed as a historical monument. The stadium then underwent a number of modifications and renovations, the most extensive coming in the early 2000s, in preparation for the 2006 football World Cup, when the lower ring was rebuilt and two rows of seats and a roof were added. Used mostly as a football venue since the war, it has been the home stadium of Hertha BSC since 1963. Berlin Olympic Stadium has hosted the German Cup Final since 1985. A venue at the 1974 World Cup, it also staged the final of the 2006 World Cup and the opening match of the 2011 Women's World Cup. Also a major track and field venue, it staged the 2009 IAAF World Championships in Athletics and the 2018 European Athletics Championships. Several major acts have performed at the venue, among them Madonna, Depeche Mode and Coldplay."
       }
     },
     {
@@ -147,13 +147,13 @@
         "source_file": "venue_315.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Tennis Courts and Tennis Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Basketball, fencing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -230,8 +230,8 @@
         "source_file": "venue_317.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
-        "match_method": "substring_match",
+        "match_confidence": 0.8660000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Grünau Regatta Course",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -302,7 +302,15 @@
         "dimensions": "400 m",
         "surface": "Wood",
         "source_file": "venue_319.json",
-        "Olympics": "1936 Berlin"
+        "Olympics": "1936 Berlin",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_inner",
+        "matched_venue_name": "Cycling Stadium (Olympia-Radstadion)",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (track)",
+        "venue_information": "A temporary cycling track was erected on what are now the Messe Berlin exhibition grounds. It was taken down after the Games."
       }
     },
     {
@@ -339,13 +347,14 @@
         "type": "outdoor venue",
         "source_file": "venue_320.json",
         "Olympics": "1936 Berlin",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.776,
         "matched_venue_name": "Berlin Olympic Swimming Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
-        "venue_information": "Listed as a historical building, the stadium is still in use and retains its original 50-metre pool and diving pool. Directly connected to the Olympic Stadium by a tunnel, this open-air swimming stadium had two grandstands with a capacity of 17,000. Such was the advance interest in the Olympic swimming, diving and water polo competitions that a third stand was built at one end of the stadium. It was removed after the Games, since when the stadium has undergone a series of modernisations and structural changes. The most comprehensive of them was carried out for the 1978 FINA World Swimming Championships, when the capacity of the grandstands was reduced to 7,500."
+        "venue_information": "Listed as a historical building, the stadium is still in use and retains its original 50-metre pool and diving pool. Directly connected to the Olympic Stadium by a tunnel, this open-air swimming stadium had two grandstands with a capacity of 17,000. Such was the advance interest in the Olympic swimming, diving and water polo competitions that a third stand was built at one end of the stadium. It was removed after the Games, since when the stadium has undergone a series of modernisations and structural changes. The most comprehensive of them was carried out for the 1978 FINA World Swimming Championships, when the capacity of the grandstands was reduced to 7,500.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -382,8 +391,8 @@
         "source_file": "venue_321.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "May Field (Mai-feld)",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -531,13 +540,13 @@
         "source_file": "venue_325.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Mommsen Stadium (Mommsenstadion)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -571,13 +580,13 @@
         "source_file": "venue_326.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Post Stadium (Poststadion)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -613,13 +622,13 @@
         "source_file": "venue_327.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Stadion am Gesundbrunnen (Herta-BSC ground)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Football",
         "venue_information": "Opened in 1924, the stadium was the home ground of Hertha BSC until the club was forced to sell it in the early 1970s due to financial difficulties. It was demolished in 1974.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -685,13 +694,13 @@
         "source_file": "venue_329.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Dietrich Eckart Open Air Theatre",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
         "venue_use": "Artistic gymnastics",
         "venue_information": "Located in the Olympic Park, the venue had space for 20,000 in its 85 rows of seating. Destroyed during WWII, the stage was rebuilt in 1961. The first Olympic venue to be used solely for gymnastics at Games time, it was later renamed the Waldbühne and repurposed to host cultural events such as an annual concert given by the Berlin Philharmonic Orchestra. It has also staged boxing matches and an infamous 1965 concert by the Rolling Stones, which ended in a riot that caused extensive damage to the venue. It was not used again until its renovation seven years later. Modelled on an Ancient Greek amphitheatre, the Waldbühne has a roofed stage and lighting for evening performances. One of the most popular open-air theatres in the world, it was ranked Europe's best amphitheatre in 2019 by a respected concert-industry magazine.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -727,13 +736,13 @@
         "source_file": "venue_330.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Police Stadium (Polizeistadion)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Handball",
         "venue_information": "A handball venue at the 1936 Olympic Games, it was destroyed during WWII.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -806,13 +815,13 @@
         "source_file": "venue_332.json",
         "Olympics": "1936 Berlin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Hockey Stadium (Hockeystadion)",
         "venue_classification": "New build",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Hockey",
         "venue_information": "Adjoining Berlin Olympic Stadium, the hockey stadium's capacity was increased to 18,000 for the Games with the addition of temporary stands. The stadium remained in use after the Games but was destroyed at the end of WWII. Rebuilt in 1954, it is home to several Berlin hockey clubs and is used by local schools and the German national team for training. Its capacity has now been reduced to 10,800.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -882,13 +891,14 @@
         "type": "outdoor venue",
         "source_file": "venue_334.json",
         "Olympics": "1936 Berlin",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Döberitz Military Drill Grounds",
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
+        "matched_venue_name": "Wannsee Golf Course",
         "venue_classification": "Existing",
-        "venue_status": "Not in use (demolished)",
-        "venue_use": "Modern pentathlon (equestrian), equestrian (cross-country)",
-        "venue_information": "The venue for the cross-country section of the equestrian competition attracted crowds estimated at between 50,000 and 60,000. It is now a nature reserve."
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -972,7 +982,6 @@
   "properties": {
     "olympics_year": "1936",
     "olympics_city": "Berlin",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

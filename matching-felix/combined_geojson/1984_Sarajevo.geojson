@@ -274,8 +274,8 @@
         "source_file": "venue_124.json",
         "Olympics": "1984 Sarajevo",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
-        "match_method": "substring_match",
+        "match_confidence": 0.8600000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Igman - Veliko Polje",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -325,7 +325,6 @@
   "properties": {
     "olympics_year": "1984",
     "olympics_city": "Sarajevo",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

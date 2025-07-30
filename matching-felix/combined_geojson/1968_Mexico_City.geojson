@@ -116,13 +116,14 @@
         "type": "indoor venue",
         "source_file": "venue_480.json",
         "Olympics": "1968 Mexico City",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.78,
         "matched_venue_name": "Juan Escutia Sports Palace",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Basketball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -270,8 +271,8 @@
         "source_file": "venue_484.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Agustín Melgar Olympic Velodrome",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -312,13 +313,13 @@
         "source_file": "venue_485.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.85,
+        "match_confidence": 0.87,
         "matched_venue_name": "Francisco Márquez Olympic Pool",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
         "venue_information": "Situated next to the Juan de la Barrera Olympic Gymnasium, the venue was neglected for several years after the Games, before being refurbished and reopened in 2009 as part of a federal government drive to encourage more people to exercise. It was further renovated in 2018 to mark the 50th anniversary of the 1968 Olympic Games and to enhance its accessibility. A public pool used by residents and local aquatics clubs, it also hosts high-performance training and stages national and international events. The borough and city's sports offices are located in the building.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -392,8 +393,8 @@
         "source_file": "venue_487.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Campo Marte",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -433,13 +434,13 @@
         "source_file": "venue_488.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Fernando Montes de Oca Fencing Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Fencing, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -673,13 +674,14 @@
         "type": "outdoor venue",
         "source_file": "venue_494.json",
         "Olympics": "1968 Mexico City",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.758,
         "matched_venue_name": "Municipal Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Hockey",
-        "venue_information": "Temporary seating was erected for the hockey tournament and later removed. Renovated in 2014, the venue is now known as the Jesús Martínez \"Palillo\" Athletics Stadium and is located in the Magdalena Mixhuca Sports Complex. It hosted the Pan-American Sports Festival that same year and was one of the facilities used at the UIPM 2018 Pentathlon World Championships. A multi-purpose stadium, it is currently home to some of Mexico City's American football teams."
+        "venue_information": "Temporary seating was erected for the hockey tournament and later removed. Renovated in 2014, the venue is now known as the Jesús Martínez \"Palillo\" Athletics Stadium and is located in the Magdalena Mixhuca Sports Complex. It hosted the Pan-American Sports Festival that same year and was one of the facilities used at the UIPM 2018 Pentathlon World Championships. A multi-purpose stadium, it is currently home to some of Mexico City's American football teams.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -712,13 +714,13 @@
         "source_file": "venue_495.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.85,
+        "match_confidence": 0.94,
         "matched_venue_name": "Military Camp No. 1",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (equestrian)",
         "venue_information": "",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -752,13 +754,13 @@
         "source_file": "venue_496.json",
         "Olympics": "1968 Mexico City",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Vicente Suárez Shooting Range",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Shooting, modern pentathlon (shooting)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -977,13 +979,14 @@
         "type": "outdoor venue",
         "source_file": "venue_503.json",
         "Olympics": "1968 Mexico City",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7829999999999999,
         "matched_venue_name": "Yacht Club",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Sailing",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1279,7 +1282,6 @@
   "properties": {
     "olympics_year": "1968",
     "olympics_city": "Mexico City",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

@@ -34,13 +34,13 @@
         "source_file": "venue_1.json",
         "Olympics": "1992 Albertville",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Ice Hall (Halle Olympique)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Figure skating, short track speed skating",
         "venue_information": "One of several facilities at Albertville's Henri Dujol Olympic Park, it remains open to the public. The Halle Olympique is a training base for the French ice hockey and short track teams. A multi-purpose facility with a capacity of between 6,500 and 9,000, it was the venue for the French Short Track Speed Skating Championships in 2010, the 2018 Davis Cup tie between France and the Netherlands, and several matches at the 2017 World Handball Championship. A key venue for business, art and cultural events, it is also the home of the Tremplin 92 – Montagne et Olympisme, which houses a permanent exhibition telling the story of the 1992 Games.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -219,13 +219,13 @@
         "source_file": "venue_2.json",
         "Olympics": "1992 Albertville",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Oval (Anneau de vitesse)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Speed skating",
         "venue_information": "Also located at Henri Dujol Olympic Park in Albertville, the venue's temporary ice sheet was removed after the Games, and the facility was converted into a 10,000-capacity multi-purpose stadium. It is used by the town's athletics, rugby and football clubs and also hosts occasional rock concerts.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -336,13 +336,14 @@
         "altitude": "1850 m",
         "source_file": "venue_6.json",
         "Olympics": "1992 Albertville",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
-        "matched_venue_name": "Val d'Isère - Massif de Bellevarde",
+        "matched_venue_name": "Les Ménuires - Slalom Stadium (Stade de Slalom)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Alpine skiing",
-        "venue_information": "One of the world's best-known ski resorts, it staged the men's Alpine combined, downhill, giant slalom and super giant slalom events. The venue for the 2009 FIS Alpine World Ski Championships, Val d'Isère also hosts an event on the annual Alpine Ski World Cup tour. Having gradually developed its infrastructure over the years, it now offers 25,000 hotel beds for visitors."
+        "venue_information": "Les Ménuires resort has made the most of its Games-inspired transformation from a budget-conscious destination to one offering more luxurious accommodation. Its Olympic slalom course is just one of its many attractions.",
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -458,20 +459,20 @@
         "altitude": "1560 m",
         "source_file": "venue_9.json",
         "Olympics": "1992 Albertville",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
         "matched_venue_name": "La Plagne - Olympic Bobsleigh and Luge Track (Piste Olympique de bobsleigh et de luge)",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Bobsleigh, luge",
-        "venue_information": "France's national sliding sports training centre hosts international competitions nearly every year, including a round of the 2020 IBSF Bobsleigh World Cup. As planned when it was built, the venue is also open to the general public for beginners' bobsleigh and luge activities. It is visited by approximately 14,000 people a year. La Plagne, the resort where the sliding track is located, is the world's most-frequented ski resort. In 2003, the sliding centre in La Plagne became the first in the world to switch from ammonia to safer glycol refrigeration piping."
+        "venue_information": "France's national sliding sports training centre hosts international competitions nearly every year, including a round of the 2020 IBSF Bobsleigh World Cup. As planned when it was built, the venue is also open to the general public for beginners' bobsleigh and luge activities. It is visited by approximately 14,000 people a year. La Plagne, the resort where the sliding track is located, is the world's most-frequented ski resort. In 2003, the sliding centre in La Plagne became the first in the world to switch from ammonia to safer glycol refrigeration piping.",
+        "match_method": "token_match_inner"
       }
     }
   ],
   "properties": {
     "olympics_year": "1992",
     "olympics_city": "Albertville",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

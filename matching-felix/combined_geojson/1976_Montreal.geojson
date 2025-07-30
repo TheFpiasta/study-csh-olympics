@@ -79,13 +79,13 @@
         "source_file": "venue_550.json",
         "Olympics": "1976 Montreal",
         "match_type": "name_match",
-        "match_confidence": 0.771,
+        "match_confidence": 0.8029999999999999,
         "match_method": "fuzzy_match",
-        "matched_venue_name": "Stand de tir olympique",
-        "venue_classification": "Existing",
+        "matched_venue_name": "Stade Olympique de Montréal",
+        "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Shooting, modern pentathlon (shooting)",
-        "venue_information": ""
+        "venue_use": "Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies",
+        "venue_information": "In use all year round, the 56,000-seater stadium hosts major cultural and commercial events, and national and international sporting competitions. For example, it welcomed the 2017 Artistic Gymnastics World Championships and the 2015 FIFA Women's World Cup. Known locally as the Big O, it was once the home of the Expos, the city's former Major League Baseball team, who left for Washington in 2004. The Olympic Stadium has had no resident team since then.\n\nIts athletic facilities have been used continuously by the people of Montreal since the 1976 Olympic Games ended, and it was visited by 66 million people between then and 2011. Its tower, which was completed in 1987 and extensively renovated in 2017, has been converted into a multi-purpose complex which is fully rented out."
       }
     },
     {
@@ -196,8 +196,8 @@
         "source_file": "venue_553.json",
         "Olympics": "1976 Montreal",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Aréna Maurice Richard",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -236,13 +236,13 @@
         "source_file": "venue_554.json",
         "Olympics": "1976 Montreal",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Bassin Olympique",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Rowing, canoe sprint",
         "venue_information": "Situated in middle of the St Lawrence River, on the man-made Notre Dame Island, the Basin is used by eight local clubs offering activities for beginners and high-performance training. It also serves as the Para Canoe National Training Centre and has staged many major events over the years, including the annual Montreal International Dragon Boat Race Festival.\n\nIn 1984, it hosted the FISA World Rowing Championships for the first of two occasions, followed by the ICF Canoe Sprint World Championships in 1986. Its boathouses, spectator stands and athletes' facilities were extensively renovated in 2014. The Basin lies next to a park and lake with a public beach, and is a popular leisure destination for local people, attracting more than 50,900 visitors in 2019.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -358,8 +358,8 @@
         "source_file": "venue_557.json",
         "Olympics": "1976 Montreal",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Velodrome",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
@@ -687,13 +687,13 @@
         "source_file": "venue_565.json",
         "Olympics": "1976 Montreal",
         "match_type": "name_match",
-        "match_confidence": 0.8068965517241379,
+        "match_confidence": 0.8670000000000001,
         "matched_venue_name": "Pavillon de l'éducation physique et des sports, Université Laval",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Handball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -726,13 +726,14 @@
         "type": "indoor venue",
         "source_file": "venue_566.json",
         "Olympics": "1976 Montreal",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Pavillon de l'éducation physique et des sports, Université Laval",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Palais des sports de Sherbrooke",
         "venue_classification": "Existing",
-        "venue_status": "In use",
+        "venue_status": "In use (rebuilt)",
         "venue_use": "Handball",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "token_match"
       }
     },
     {
@@ -963,20 +964,20 @@
         "type": "indoor venue",
         "source_file": "venue_572.json",
         "Olympics": "1976 Montreal",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
         "matched_venue_name": "Centre Sportif maisonneuve (Centre Pierre Charbonneau)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Wrestling",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match_inner"
       }
     }
   ],
   "properties": {
     "olympics_year": "1976",
     "olympics_city": "Montreal",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

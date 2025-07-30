@@ -159,13 +159,13 @@
         "source_file": "venue_163.json",
         "Olympics": "2006 Turin",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Palavela",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Figure skating and short track speed skating",
         "venue_information": "Palavela has a conference centre that has welcomed approximately 70,000 people a year since 2010, and a public ice rink used by 30,000 skaters annually. It is also the home venue of local figure skating and short track speed skating clubs. Another of Turin's 2007 Winter Universiade venues, it also hosted the 2010 ISU Figure Skating World Championships, the 2013 Davis Cup tie between Italy and Croatia, the 2015 Men's European Volleyball Championship, the 2019 ISU Figure Skating Grand Prix Finals and the 2021 Grand Prix Figure Skating Torino. Since 2019, some areas of Palavela are used by the University of Torino for Physical Education and Sport courses.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -464,13 +464,14 @@
         "type": "indoor venue",
         "source_file": "venue_171.json",
         "Olympics": "2006 Turin",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
         "matched_venue_name": "Pinerolo Palaghiaccio",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Curling",
-        "venue_information": "This multi-function arena is used by a local sports club that offers lessons in figure skating, ice hockey, short track speed skating and curling. Also a 2007 Winter Universiade venue, the Pinerolo Palaghiaccio is part of a large sports complex that includes a swimming pool, gym, athletics track and football pitch."
+        "venue_information": "This multi-function arena is used by a local sports club that offers lessons in figure skating, ice hockey, short track speed skating and curling. Also a 2007 Winter Universiade venue, the Pinerolo Palaghiaccio is part of a large sports complex that includes a swimming pool, gym, athletics track and football pitch.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -553,7 +554,6 @@
   "properties": {
     "olympics_year": "2006",
     "olympics_city": "Turin",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

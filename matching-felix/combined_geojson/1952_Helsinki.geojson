@@ -72,13 +72,13 @@
         "source_file": "venue_368.json",
         "Olympics": "1952 Helsinki",
         "match_type": "name_match",
-        "match_confidence": 0.7999999999999999,
-        "match_method": "substring_match",
-        "matched_venue_name": "Helsinki Olympic Village (Olympiakylä)",
-        "venue_classification": "New build",
+        "match_confidence": 0.8390000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Athlete accommodation",
-        "venue_information": "Helsinki has two Olympic Villages, both situated close to each other in the district of Käpylä and not far from the Olympic venues and outdoor and indoor training facilities. The first was constructed for the cancelled 1940 Olympic Games and provided housing for 500 families following its completion. When the Finnish capital won the right to stage the 1952 Olympic Games, a second Olympic Village was built. Like its predecessor, it too was turned over for social housing after the Olympic Games, as planned and in response to Finland's housing crisis at the time. Both Olympic Villages continue to provide housing today."
+        "venue_use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made."
       }
     },
     {
@@ -115,13 +115,13 @@
         "source_file": "venue_369.json",
         "Olympics": "1952 Helsinki",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Exhibition Hall I, II (Messuhalli I, II)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
         "venue_information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -159,13 +159,13 @@
         "source_file": "venue_370.json",
         "Olympics": "1952 Helsinki",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9789999999999999,
         "matched_venue_name": "Exhibition Hall I, II (Messuhalli I, II)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
         "venue_information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -311,7 +311,15 @@
         "surface": "Concrete",
         "additional_details": "37.5° curves, 16.0° straights",
         "source_file": "venue_374.json",
-        "Olympics": "1952 Helsinki"
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.7690000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track), hockey",
+        "venue_information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games."
       }
     },
     {
@@ -346,13 +354,14 @@
         "type": "outdoor venue",
         "source_file": "venue_375.json",
         "Olympics": "1952 Helsinki",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8460000000000001,
         "matched_venue_name": "Swimming Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, water polo",
-        "venue_information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013."
+        "venue_information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -926,13 +935,14 @@
         "type": "outdoor venue",
         "source_file": "venue_390.json",
         "Olympics": "1952 Helsinki",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
         "matched_venue_name": "Ahvenisto",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (all events)",
-        "venue_information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014."
+        "venue_information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1132,7 +1142,6 @@
   "properties": {
     "olympics_year": "1952",
     "olympics_city": "Helsinki",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

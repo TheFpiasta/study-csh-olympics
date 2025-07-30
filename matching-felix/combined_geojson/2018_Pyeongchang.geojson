@@ -76,13 +76,13 @@
         "source_file": "venue_936.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Alpensia Biathlon Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Biathlon",
         "venue_information": "Another 2020 Dream Programme venue, it is used by biathletes for training during the winter, and also hosts youth sports camps. Built in 1995, the Centre staged the biathlon events at the 1999 Asian Winter Games.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -119,8 +119,8 @@
         "source_file": "venue_937.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Alpensia Cross-Country Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -163,8 +163,8 @@
         "source_file": "venue_938.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.75,
-        "match_method": "substring_match",
+        "match_confidence": 0.881,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Alpensia Olympic Sliding Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -205,13 +205,13 @@
         "source_file": "venue_939.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Yongpyong Alpine Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Alpine skiing (slalom, giant slalom)",
         "venue_information": "Built in 1998, the Centre hosted several international events before the 2018 Olympic Winter Games, including the 1999 Winter Asian Games and a number of FIS World Cup events. In 2020, it staged the FIS Alpine Skiing Far East Cup.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -245,7 +245,15 @@
         "seating_capacity": "18000",
         "type": "outdoor venue",
         "source_file": "venue_940.json",
-        "Olympics": "2018 Pyeongchang"
+        "Olympics": "2018 Pyeongchang",
+        "match_type": "name_match",
+        "match_confidence": 0.769,
+        "match_method": "fuzzy_match_inner",
+        "matched_venue_name": "Bokwang Phoenix Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Snowboard and freestyle skiing",
+        "venue_information": "An FIS Snowboard World Cup venue in February 2020, Bokwang Phoenix Park is also home to a winter sports academy. Its aim is to develop grassroots winter sport in the Republic of Korea, increase the popularity of these sports, and nurture future champions. As well as running snowboard training camps in winter, the venue also provides off-season training."
       }
     },
     {
@@ -281,13 +289,13 @@
         "source_file": "venue_941.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Jeongseon Alpine Centre",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Alpine skiing (downhill, super G, combined)",
         "venue_information": "The venue was due to be dismantled in line with the initial plan to return the site to its original state and remained closed after the Games.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -323,13 +331,13 @@
         "source_file": "venue_942.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Gangneung Hockey Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
         "venue_information": "The venue for the 2020 IIHF Ice Hockey U20 World Championship Division II Group B, the Centre also staged the 2018 Korean National Men's Ice Hockey Championships and the Legacy Cup, which is held yearly to mark the anniversary of the PyeongChang 2018 Games. The Cup has featured teams from Japan, Kazakhstan, Latvia and the Republic of Korea.\n\nThe Centre was the setting for the three-day competition that brought to an end the Girls' Ice Hockey School initiative, a government programme designed to encourage more girls to play winter sports in the Republic of Korea, and which also focused on Olympic values and leadership and raised awareness of sexual harassment and safeguarding.\n\nThe venue is also used as a winter sports academy that seeks to promote grassroots winter sports in the country through training and small-sided games, and to improve disability awareness through Para ice-hockey experiences.\n\nThough the original plan was to dismantle the Centre after the Games, the City of Gangneung decided to maintain it as part of its plans to create a winter sports hub.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -364,13 +372,13 @@
         "source_file": "venue_943.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Gangneung Curling Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Curling",
         "venue_information": "Another youth camp and 2020 Dream Programme venue, the Centre staged the Korean National Curling Championships in 2019. Built in 1998, it has a capacity of 3,500 and hosted the 2009 World Women's Curling Championships.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -407,13 +415,13 @@
         "source_file": "venue_944.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Gangneung Oval",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Speed skating",
         "venue_information": "The 8,000-seater venue was out of use for over a year after the 2018 Olympic Winter Games due to issues surrounding its management and legacy. When sport activities resumed in late 2019, they were quickly put on hold by the COVID-19 pandemic, forcing the owner and operator to alter their plans. The venue has occasionally been used as a film studio and ice sports experience centre for the Bandabi Sports Camp.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -450,8 +458,8 @@
         "source_file": "venue_945.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Gangneung Ice Arena",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -492,20 +500,19 @@
         "source_file": "venue_946.json",
         "Olympics": "2018 Pyeongchang",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Kwandong Hockey Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
         "venue_information": "This 6,000-seater venue was handed over to Catholic Kwandong University after the Games, and is used by its students as a multi-sports and educational facility.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "2018",
     "olympics_city": "Pyeongchang",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

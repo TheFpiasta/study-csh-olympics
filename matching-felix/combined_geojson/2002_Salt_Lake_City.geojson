@@ -32,13 +32,14 @@
         "altitude": "1957 m",
         "source_file": "venue_125.json",
         "Olympics": "2002 Salt Lake City",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.855,
         "matched_venue_name": "Snowbasin Ski Area",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Alpine skiing",
-        "venue_information": "Opened in 1940, the ski resort is now a multi-season venue offering skiing in the winter (downhill and Nordic) and hiking and concerts in the summer. It provided the location for the 2010 survival film Frozen."
+        "venue_information": "Opened in 1940, the ski resort is now a multi-season venue offering skiing in the winter (downhill and Nordic) and hiking and concerts in the summer. It provided the location for the 2010 survival film Frozen.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -288,13 +289,13 @@
         "source_file": "venue_131.json",
         "Olympics": "2002 Salt Lake City",
         "match_type": "name_match",
-        "match_confidence": 0.8307692307692307,
+        "match_confidence": 0.923,
         "matched_venue_name": "Peaks Ice Arena",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
         "venue_information": "As planned, the venue was transformed into a multi-purpose skating and sports facility after the Games. Used extensively by the local community for skating, it hosts Learn to Skate USA classes and youth and adult ice hockey lessons and matches. It is also the home arena of the Brigham Young University ice hockey team.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -332,13 +333,13 @@
         "source_file": "venue_132.json",
         "Olympics": "2002 Salt Lake City",
         "match_type": "name_match",
-        "match_confidence": 0.8250000000000001,
+        "match_confidence": 0.848,
         "matched_venue_name": "Salt Lake City Ice Center",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Figure skating, short track speed skating",
         "venue_information": "Built in 1990 as a home for NBA basketball team the Utah Jazz, who still play there, the venue is a multi- purpose sports and entertainment facility. Refurbished in 2017, it has been used by several other professional sports teams over the years, including the Arena Football League's Utah Blaze and the WNBA's Utah Starzz. It is also a concert and entertainment venue.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -414,20 +415,20 @@
         "altitude": "1460 m",
         "source_file": "venue_134.json",
         "Olympics": "2002 Salt Lake City",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
         "matched_venue_name": "The Ice Sheet at Ogden",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Curling",
-        "venue_information": "The venue, which opened in 1994, is a training centre for curling, ice hockey and figure skating and is used by approximately 450,000 people a year."
+        "venue_information": "The venue, which opened in 1994, is a training centre for curling, ice hockey and figure skating and is used by approximately 450,000 people a year.",
+        "match_method": "token_match_outer"
       }
     }
   ],
   "properties": {
     "olympics_year": "2002",
     "olympics_city": "Salt Lake City",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

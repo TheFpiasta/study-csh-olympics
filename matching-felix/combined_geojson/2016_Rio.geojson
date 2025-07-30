@@ -77,13 +77,13 @@
         "source_file": "venue_898.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.9333333333333333,
+        "match_confidence": 0.937,
         "matched_venue_name": "Rio Olympic Tennis Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Tennis",
         "venue_information": "The venue's main arena has a capacity of 10,000. Two temporary courts with seating for 5,000 and 3,000 spectators were erected for the Games. After the Games, the main arena hosted the FIVB Beach Volleyball World Tour and South American Beach Soccer League in 2017. The centre has been open to the public since 2018, and eight of the courts are still in use. Admission is free. Political upheaval and the lack of a viable long-term governance model have caused uncertainty about the centre's long-term use.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -118,13 +118,13 @@
         "source_file": "venue_899.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Carioca Arena 1",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Basketball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -159,13 +159,13 @@
         "source_file": "venue_900.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.9333333333333333,
+        "match_confidence": 0.937,
         "matched_venue_name": "Rio Olympic Hockey Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Hockey",
         "venue_information": "Another Deodoro Olympic Park venue, it was built in 2007 and staged matches at the Pan-American Games that year. After being renovated for the 2016 Olympic Games, it was closed for two years after the Games but has been in use since 2018. The centre, which has three pitches, is used by the Deodoro Hóquei Clube for its Brazilian championship matches and is a training base for Brazil's national hockey teams. It also hosts development activities.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -243,13 +243,13 @@
         "source_file": "venue_902.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "matched_venue_name": "Carioca Arena 1",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Carioca Arena 2",
         "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Basketball",
+        "venue_use": "Judo, wrestling",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -285,13 +285,13 @@
         "source_file": "venue_903.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "matched_venue_name": "Carioca Arena 1",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Carioca Arena 3",
         "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Basketball",
+        "venue_use": "Fencing, taekwondo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -325,13 +325,14 @@
         "type": "outdoor venue",
         "source_file": "venue_904.json",
         "Olympics": "2016 Rio",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.874,
         "matched_venue_name": "Whitewater Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Canoe slalom",
-        "venue_information": "A Deodoro Olympic Park venue, the stadium had temporary stands installed for the Games. It reopened to the public in September 2017. Part of the Deodoro X-Park, it comprises two independently accessed channels: an Olympic-standard competition channel that can also be used for rafting; and a training channel that is used for instruction and recreation. Popular with the local community for recreational swimming, rafting and other water-sports activities, the venue also hosts competitions, such as the 2018 ICF Canoe Slalom World Championships."
+        "venue_information": "A Deodoro Olympic Park venue, the stadium had temporary stands installed for the Games. It reopened to the public in September 2017. Part of the Deodoro X-Park, it comprises two independently accessed channels: an Olympic-standard competition channel that can also be used for rafting; and a training channel that is used for instruction and recreation. Popular with the local community for recreational swimming, rafting and other water-sports activities, the venue also hosts competitions, such as the 2018 ICF Canoe Slalom World Championships.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -366,13 +367,13 @@
         "source_file": "venue_905.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.8799999999999999,
+        "match_confidence": 0.93,
         "matched_venue_name": "Rio Olympic BMX Centre",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Cycling BMX",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -407,8 +408,8 @@
         "source_file": "venue_906.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Rio Olympic Velodrome",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -450,13 +451,13 @@
         "source_file": "venue_907.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Youth Arena",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Basketball, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -622,13 +623,13 @@
         "source_file": "venue_911.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9510000000000001,
         "matched_venue_name": "Rio Olympic Equestrian Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Eventing, dressage, jumping",
         "venue_information": "Now known as the Brazilian National Equestrian Centre, the venue is part of Deodoro Olympic Park, which was built on ground belonging to a military base. It is one of two Olympic Parks used at Rio 2016. The venue was constructed for the 2007 Pan-American Games and modernised and expanded for the Olympic Games. Used by the public and Brazil's armed forces, the centre hosted 15 competitions in 2018, including the South American Three-Day Eventing Championships.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -664,13 +665,13 @@
         "source_file": "venue_912.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Lagoa Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Rowing, canoe sprint",
         "venue_information": "Centrally located, close to Leblon and Ipanema beaches, the venue has existed since 1961 but was remodelled for the 2007 Pan-American Games and again for the 2016 Olympic Games, with the construction of a new finish tower and renovation of the boathouse among the refurbishments. A natural rowing site, it hosts some local and regional events and is used by the Clube de Regatas do Flamengo, among other rowing clubs. The Rio de Janeiro State Rowing Federation is based at the stadium. It is also home to the Rio de Janeiro Rowing and Para-Rowing Training Centre, which runs training camps and offers highperformance development (through partnerships with universities, for example), talent identification programmes, and training for coaches and support staff. Plans for the venue to become a fully-fledged high-performance training and research centre have yet to come to fruition, however, and water quality and lack of access for the community have been causes for concern.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -708,8 +709,8 @@
         "source_file": "venue_913.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Rio Olympic Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -957,13 +958,13 @@
         "source_file": "venue_919.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.974,
         "matched_venue_name": "Maria Lenk Aquatics Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Diving, artistic swimming, water polo",
         "venue_information": "Part of Barra Olympic Park, the venue was built for the 2007 Pan-American Games. Owned and operated by the Brazilian National Olympic Committee, it was refurbished for Rio 2016 and is part of the Brazilian Olympic Training Centre. Its facilities include three Olympic-sized swimming pools, a combat sports room, a strength and conditioning room, and physiotherapy and rehabilitation rooms. The centre is used by 10 clubs and sports organisations and more than 200 athletes, from youth to high-performance level, across a number of sports and disciplines, including judo, swimming, diving and athletics. It also hosts local and regional competitions and is used by the city's firefighters and other public agencies for training.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1041,8 +1042,8 @@
         "source_file": "venue_921.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Deodoro Stadium",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
@@ -1123,13 +1124,13 @@
         "source_file": "venue_923.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Future Arena",
         "venue_classification": "Temporary",
         "venue_status": "Not in use",
         "venue_use": "Handball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1204,7 +1205,15 @@
         "seating_capacity": "5000",
         "type": "temporary outdoor venue",
         "source_file": "venue_925.json",
-        "Olympics": "2016 Rio"
+        "Olympics": "2016 Rio",
+        "match_type": "name_match",
+        "match_confidence": 0.7690000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Pontal",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road), race walk",
+        "venue_information": ""
       }
     },
     {
@@ -1282,13 +1291,13 @@
         "source_file": "venue_927.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.78,
+        "match_confidence": 0.881,
         "matched_venue_name": "Mountain Bike Centre",
         "venue_classification": "Temporary",
         "venue_status": "In use",
         "venue_use": "Mountain bike",
         "venue_information": "A 5.4km-long loop, the Olympic mountain bike circuit featured sections such as Rio Rocks and Coconut Beach. After the Games, it was redesigned as a smaller circuit, which remains in use.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1322,13 +1331,14 @@
         "type": "outdoor venue",
         "source_file": "venue_928.json",
         "Olympics": "2016 Rio",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Fonte Nova Arena",
-        "venue_classification": "New build",
+        "match_type": "name_match",
+        "match_confidence": 0.8089999999999999,
+        "matched_venue_name": "Mané Garrincha Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1530,20 +1540,19 @@
         "source_file": "venue_933.json",
         "Olympics": "2016 Rio",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Deodoro Aquatics Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (swimming)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "2016",
     "olympics_city": "Rio",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

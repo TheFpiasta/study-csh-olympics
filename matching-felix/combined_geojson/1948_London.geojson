@@ -37,13 +37,14 @@
         "dimensions": "1 mile 880 yards",
         "source_file": "venue_223.json",
         "Olympics": "1948 London",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.786,
         "matched_venue_name": "Henley-on-Thames (site of the Royal Regatta Course)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Rowing, canoe",
-        "venue_information": "Held in the Oxfordshire town of Henley-on-Thames, the regatta first took place in 1839 and has been staged every year since, with the exception of the two world wars and 2020, when it was cancelled due to the COVID-19 pandemic. It has made use of four courses to date. The Olympic rowing competitions in 1948 were held on the fourth of these: the Straight Course. The venue hosted four men's rowing events at the 1908 Olympic Games, on a different course."
+        "venue_information": "Held in the Oxfordshire town of Henley-on-Thames, the regatta first took place in 1839 and has been staged every year since, with the exception of the two world wars and 2020, when it was cancelled due to the COVID-19 pandemic. It has made use of four courses to date. The Olympic rowing competitions in 1948 were held on the fourth of these: the Straight Course. The venue hosted four men's rowing events at the 1908 Olympic Games, on a different course.",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -161,8 +162,8 @@
         "source_file": "venue_339.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer_outer",
         "matched_venue_name": "Empire Stadium (Wembley)",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
@@ -243,13 +244,13 @@
         "source_file": "venue_341.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Empress Hall (Earl's Court)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Boxing, wrestling, weightlifting, gymnastics",
         "venue_information": "This venue was later renamed Earls Court Exhibition Centre. Built in 1895 and redeveloped in 1936, it became a major exhibition, events and concert venue and staged the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -293,8 +294,8 @@
         "source_file": "venue_342.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Empire Pool",
         "venue_classification": "Existing",
         "venue_status": "In use (repurposed)",
@@ -413,13 +414,14 @@
         "type": "outdoor venue",
         "source_file": "venue_345.json",
         "Olympics": "1948 London",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.854,
         "matched_venue_name": "Aldershot Command Central Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Eventing, dressage",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -493,13 +495,13 @@
         "source_file": "venue_347.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Palace of Engineering (Wembley Empire Exhibition Site)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Fencing",
         "venue_information": "The venue was opened in 1924 as part of the British Empire Exhibition and demolished in the 1970s.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -572,13 +574,13 @@
         "source_file": "venue_349.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Arsenal Stadium (Highbury Stadium)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Football",
         "venue_information": "The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer_outer"
       }
     },
     {
@@ -651,13 +653,13 @@
         "source_file": "venue_351.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Craven Cottage",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -690,13 +692,13 @@
         "source_file": "venue_352.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "White Hart Lane",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Football",
         "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -965,12 +967,12 @@
         "source_file": "venue_359.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.786,
-        "matched_venue_name": "Lyons Sports Ground, Sudbury Hill",
+        "match_confidence": 0.81,
+        "matched_venue_name": "Polytechnic Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Field hockey",
-        "venue_information": "Created in memory of the soldiers who died in WWI, it opened in 1919. The site was sold in 2000 and, though the original pitches remain, the pavilions have been replaced by an indoor tennis and fitness centre.",
+        "venue_information": "It is now used by the University of Westminster's sports teams. The stadium grandstand was built in 1936 and is now a listed building. The stadium was originally home to the Polytechnic Harriers Athletics Club and other local clubs and schools, and it was a venue for training at the 1948 Olympic Games and for competitions such as the Amateur Athletic Association Championships.",
         "match_method": "fuzzy_match"
       }
     },
@@ -1004,13 +1006,13 @@
         "source_file": "venue_360.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Guinness Sports Ground, Park Royal",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Field hockey",
         "venue_information": "The ground lay next to a brewery that was demolished in 2006 to make way for the headquarters of drinks company Diageo.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1079,13 +1081,14 @@
         "type": "outdoor venue",
         "source_file": "venue_362.json",
         "Olympics": "1948 London",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Royal Military Academy, Sandhurst",
+        "match_type": "name_match",
+        "match_confidence": 0.7550000000000001,
+        "matched_venue_name": "Aldershot Pool/Aldershot Lido",
         "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Modern pentathlon (running)",
-        "venue_information": ""
+        "venue_use": "Modern pentathlon (swimming)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1118,13 +1121,13 @@
         "source_file": "venue_363.json",
         "Olympics": "1948 London",
         "match_type": "name_match",
-        "match_confidence": 0.825,
+        "match_confidence": 0.8670000000000001,
         "matched_venue_name": "Royal Military Academy, Sandhurst",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (running)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1207,7 +1210,6 @@
   "properties": {
     "olympics_year": "1948",
     "olympics_city": "London",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

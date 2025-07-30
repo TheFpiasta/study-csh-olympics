@@ -44,8 +44,8 @@
         "source_file": "venue_396.json",
         "Olympics": "1956 Melbourne",
         "match_type": "name_match",
-        "match_confidence": 0.8160000000000001,
-        "match_method": "substring_match",
+        "match_confidence": 0.8320000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Main Stadium or Melbourne Cricket Ground",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -82,13 +82,14 @@
         "type": "temporary indoor venue",
         "source_file": "venue_397.json",
         "Olympics": "1956 Melbourne",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8320000000000001,
         "matched_venue_name": "Exhibition Building",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Basketball, weightlifting, wrestling, modern pentathlon (fencing)",
-        "venue_information": "Built for the 1880 Melbourne International Exhibition, the venue is still used as an exhibition site, staging events in conjunction with the nearby Melbourne Museum. It is one of the last surviving 19th-century exhibition buildings in the world and was extensively restored before being declared a UNESCO World Heritage Site in 2004."
+        "venue_information": "Built for the 1880 Melbourne International Exhibition, the venue is still used as an exhibition site, staging events in conjunction with the nearby Melbourne Museum. It is one of the last surviving 19th-century exhibition buildings in the world and was extensively restored before being declared a UNESCO World Heritage Site in 2004.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -163,8 +164,8 @@
         "source_file": "venue_399.json",
         "Olympics": "1956 Melbourne",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Lake Wendouree (Ballarat)",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -234,8 +235,8 @@
         "source_file": "venue_401.json",
         "Olympics": "1956 Melbourne",
         "match_type": "name_match",
-        "match_confidence": 0.7555555555555555,
-        "match_method": "substring_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Melbourne Olympic Park Velodrome",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -315,13 +316,14 @@
         "type": "indoor venue",
         "source_file": "venue_405.json",
         "Olympics": "1956 Melbourne",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7690000000000001,
         "matched_venue_name": "St Kilda Town Hall",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Fencing",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -354,13 +356,14 @@
         "type": "outdoor venue",
         "source_file": "venue_406.json",
         "Olympics": "1956 Melbourne",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.8600000000000001,
         "matched_venue_name": "Melbourne Olympic Park Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Hockey, football",
-        "venue_information": "In the 1960s, the venue attracted as many as 900,000 people a year for athletics meets and football matches. It hosted the 2001 IAAF Grand Prix final and the Melbourne Track Classic. The stadium was demolished in 2011 to make way for the Olympic Park Oval, a training ground used by Australian rules football team Collingwood, and a public sport and recreation facility."
+        "venue_information": "In the 1960s, the venue attracted as many as 900,000 people a year for athletics meets and football matches. It hosted the 2001 IAAF Grand Prix final and the Melbourne Track Classic. The stadium was demolished in 2011 to make way for the Olympic Park Oval, a training ground used by Australian rules football team Collingwood, and a public sport and recreation facility.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -563,7 +566,6 @@
   "properties": {
     "olympics_year": "1956",
     "olympics_city": "Melbourne",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

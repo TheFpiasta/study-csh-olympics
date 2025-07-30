@@ -114,13 +114,13 @@
         "source_file": "venue_138.json",
         "Olympics": "1960 Squaw Valley",
         "match_type": "name_match",
-        "match_confidence": 0.8307692307692307,
+        "match_confidence": 0.874,
         "matched_venue_name": "Olympic Speed Skating Oval",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Speed skating",
         "venue_information": "Situated next to the Blyth Memorial Ice Arena, the oval used artificial ice. It was dismantled after the Games, as planned. The entire site was replaced with a car park that is used by recreational skiers.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -153,13 +153,14 @@
         "type": "outdoor venue",
         "source_file": "venue_139.json",
         "Olympics": "1960 Squaw Valley",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "Papoose Peak Olympic Jumping Hill",
         "venue_classification": "New build",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Ski jumping, Nordic combined",
-        "venue_information": "Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \"large\" hill, which staged the ski jumping competition; a K60 \"normal\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts."
+        "venue_information": "Named after the rock face on which it was built and situated in the centre of the ski resort, Papoose Peak Olympic Jumping Hill comprised three hills in all: a K80 \"large\" hill, which staged the ski jumping competition; a K60 \"normal\" hill, used for the ski jumping leg of the Nordic combined; and a 40-metre practice hill. There was no great tradition of ski jumping in the western USA at the time, and the venue was little used in the years after the Games. It staged a few regional competitions and underwent some refurbishment for the 1976 US National Ski Jumping Championships. It was dismantled in the late 1970s and is now the site of the Far East Express chairlift, one of the ski resort's 31 lifts.",
+        "match_method": "token_match"
       }
     },
     {
@@ -318,7 +319,6 @@
   "properties": {
     "olympics_year": "1960",
     "olympics_city": "Squaw Valley",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

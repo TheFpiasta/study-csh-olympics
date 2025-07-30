@@ -300,13 +300,14 @@
         "altitude": "220 m",
         "source_file": "venue_49.json",
         "Olympics": "1968 Grenoble",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7879999999999999,
         "matched_venue_name": "Anneau de Vitesse de Grenoble",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Speed skating",
-        "venue_information": "This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral."
+        "venue_information": "This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -399,7 +400,6 @@
   "properties": {
     "olympics_year": "1968",
     "olympics_city": "Grenoble",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

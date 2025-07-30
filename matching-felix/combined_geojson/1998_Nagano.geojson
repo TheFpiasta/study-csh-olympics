@@ -310,13 +310,13 @@
         "source_file": "venue_86.json",
         "Olympics": "1998 Nagano",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Big Hat",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
         "venue_information": "This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -561,7 +561,6 @@
   "properties": {
     "olympics_year": "1998",
     "olympics_city": "Nagano",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

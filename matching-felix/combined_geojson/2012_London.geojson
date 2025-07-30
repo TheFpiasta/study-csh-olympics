@@ -86,13 +86,13 @@
         "source_file": "venue_855.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "London Aquatics Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, artistic swimming, modern pentathlon (swimming)",
         "venue_information": "Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -126,13 +126,13 @@
         "source_file": "venue_856.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Basketball Arena",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Basketball, handball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -166,13 +166,13 @@
         "source_file": "venue_857.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "BMX Track",
         "venue_classification": "Temporary",
         "venue_status": "In use",
         "venue_use": "Cycling BMX",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -498,13 +498,13 @@
         "source_file": "venue_865.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Copper Box",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Handball, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -538,13 +538,13 @@
         "source_file": "venue_866.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Riverbank Arena",
         "venue_classification": "Temporary",
         "venue_status": "In use",
         "venue_use": "Hockey",
         "venue_information": "Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -866,7 +866,15 @@
         "type": "outdoor venue",
         "dimensions": "400 m",
         "source_file": "venue_874.json",
-        "Olympics": "2012 London"
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "London Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs."
       }
     },
     {
@@ -1053,13 +1061,13 @@
         "source_file": "venue_879.json",
         "Olympics": "2012 London",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Water Polo Arena",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Water polo",
         "venue_information": "Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1095,12 +1103,12 @@
         "Olympics": "2012 London",
         "match_type": "name_match",
         "match_confidence": 1.0,
-        "matched_venue_name": "Wembley Stadium",
+        "matched_venue_name": "Wembley Arena",
         "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Football",
-        "venue_information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors.",
-        "match_method": "exact_match"
+        "venue_use": "Rhythmic gymnastics, badminton",
+        "venue_information": "Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1226,7 +1234,6 @@
   "properties": {
     "olympics_year": "2012",
     "olympics_city": "London",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

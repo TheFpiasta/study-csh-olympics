@@ -156,13 +156,14 @@
         "type": "indoor venue",
         "source_file": "venue_108.json",
         "Olympics": "1972 Sapporo",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.9770000000000001,
         "matched_venue_name": "Tsukisamu Indoor Skating Rink",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ice hockey",
-        "venue_information": "Used by the local community for gym classes and recreational skating, the venue is the home arena of Sapporo Ice Hockey Club, which plays in the J-ICE North League, the second tier of Japanese ice hockey."
+        "venue_information": "Used by the local community for gym classes and recreational skating, the venue is the home arena of Sapporo Ice Hockey Club, which plays in the J-ICE North League, the second tier of Japanese ice hockey.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -196,8 +197,8 @@
         "source_file": "venue_109.json",
         "Olympics": "1972 Sapporo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Makomanai Cross-Country Events Site",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
@@ -234,13 +235,14 @@
         "type": "outdoor venue",
         "source_file": "venue_110.json",
         "Olympics": "1972 Sapporo",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.826,
         "matched_venue_name": "Makomanai Biathlon Course",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
         "venue_use": "Biathlon",
-        "venue_information": "As planned, the venue was converted after the 1972 Olympic Winter Games into a firing range and training centre for Japan's Ground Self-Defence Force."
+        "venue_information": "As planned, the venue was converted after the 1972 Olympic Winter Games into a firing range and training centre for Japan's Ground Self-Defence Force.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -313,13 +315,14 @@
         "type": "outdoor venue",
         "source_file": "venue_112.json",
         "Olympics": "1972 Sapporo",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.776,
         "matched_venue_name": "Miyanomori Ski Jump",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Ski jumping, Nordic combined",
-        "venue_information": "This is located one kilometre south of Okurayama Ski Jump. The design of the hill's landing slope and run-off area take full advantage of the mountain's natural contours. In 1983, the hill was enlarged to become a 90m jump and is now equipped for year-round operation.\n\nThe venue hosts competitions on a regular basis, staging FIS Ski Jumping World Cup and Continental Cup events, national championships and the annual Sapporo Olympic Memorial Ski Jumping competition."
+        "venue_information": "This is located one kilometre south of Okurayama Ski Jump. The design of the hill's landing slope and run-off area take full advantage of the mountain's natural contours. In 1983, the hill was enlarged to become a 90m jump and is now equipped for year-round operation.\n\nThe venue hosts competitions on a regular basis, staging FIS Ski Jumping World Cup and Continental Cup events, national championships and the annual Sapporo Olympic Memorial Ski Jumping competition.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -428,13 +431,13 @@
         "source_file": "venue_115.json",
         "Olympics": "1972 Sapporo",
         "match_type": "name_match",
-        "match_confidence": 0.8250000000000001,
+        "match_confidence": 0.936,
         "matched_venue_name": "Mt Teine Luge Course",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Luge",
         "venue_information": "The tracks were underused after the Games, owing to the lack of an established sliding sports culture in Japan. The luge course was closed in 1985, the bobsleigh course in 2000, and the tracks were subsequently mostly dismantled. The start house of the bobsleigh course was left standing but has since been abandoned.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -467,20 +470,19 @@
         "source_file": "venue_116.json",
         "Olympics": "1972 Sapporo",
         "match_type": "name_match",
-        "match_confidence": 0.8250000000000001,
+        "match_confidence": 0.946,
         "matched_venue_name": "Mt Teine Bobsleigh Course",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Bobsleigh",
         "venue_information": "The tracks were underused after the Games, owing to the lack of an established sliding sports culture in Japan. The luge course was closed in 1985, the bobsleigh course in 2000, and the tracks were subsequently mostly dismantled. The start house of the bobsleigh course was left standing but has since been abandoned.",
-        "match_method": "token_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "1972",
     "olympics_city": "Sapporo",
-    "olympics_season": "winter",
-    "processed_by": "matching-felix"
+    "olympics_season": "winter"
   }
 }

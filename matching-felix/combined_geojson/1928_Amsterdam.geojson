@@ -120,7 +120,7 @@
         "source_file": "venue_285.json",
         "Olympics": "1928 Amsterdam",
         "match_type": "name_match",
-        "match_confidence": 0.7789999999999999,
+        "match_confidence": 0.8250000000000001,
         "match_method": "fuzzy_match",
         "matched_venue_name": "Amsterdam Olympic Stadium",
         "venue_classification": "New build",
@@ -274,7 +274,15 @@
         ],
         "type": "outdoor venue",
         "source_file": "venue_289.json",
-        "Olympics": "1928 Amsterdam"
+        "Olympics": "1928 Amsterdam",
+        "match_type": "name_match",
+        "match_confidence": 0.7829999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Municipal Sports Park, Hilversum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Equestrian (dressage and eventing), modern pentathlon (running)",
+        "venue_information": "Built in 1919, it was used as an equestrian and modern pentathlon venue at Amsterdam 1928. The stadium's monumental grandstand has been fully refurbished twice since then – most recently in 2010 – though the trotting track and director's building have both been dismantled. The stadium is used by a local athletics club, local schools for PE lessons, and the sports retailer Nike, which has its European headquarters close by."
       }
     },
     {
@@ -379,13 +387,14 @@
         "type": "outdoor venue",
         "source_file": "venue_292.json",
         "Olympics": "1928 Amsterdam",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.855,
         "matched_venue_name": "Old Stadium, Het Nederlandsch Sportpark",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Football, hockey",
-        "venue_information": "Built in 1912, the Old Stadium was the Netherlands' first sports stadium. Prior to the construction of the Olympic Stadium for the 1928 Games, it was also the main sports facility in the country and the capital, hosting more than 25 of the Dutch national football team's home matches. It was also the venue for Dutch domestic cup finals. Following its replacement by the Olympic Stadium, it was demolished in 1929 to make way for the Zuid-Oost housing project."
+        "venue_information": "Built in 1912, the Old Stadium was the Netherlands' first sports stadium. Prior to the construction of the Olympic Stadium for the 1928 Games, it was also the main sports facility in the country and the capital, hosting more than 25 of the Dutch national football team's home matches. It was also the venue for Dutch domestic cup finals. Following its replacement by the Olympic Stadium, it was demolished in 1929 to make way for the Zuid-Oost housing project.",
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -573,7 +582,6 @@
   "properties": {
     "olympics_year": "1928",
     "olympics_city": "Amsterdam",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

@@ -233,12 +233,12 @@
         "source_file": "venue_305.json",
         "Olympics": "1932 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.761,
-        "matched_venue_name": "Los Angeles Olympic Stadium",
-        "venue_classification": "Existing",
+        "match_confidence": 0.8109999999999999,
+        "matched_venue_name": "Swimming stadium",
+        "venue_classification": "New build",
         "venue_status": "In use",
-        "venue_use": "Gymnastics, hockey, equestrian (jumping, eventing), Opening and Closing Ceremonies",
-        "venue_information": "The stadium was built in 1921 on the site of an abandoned racecourse at the city's Exposition Park and had a Games-time capacity of 105,000. It is also known as Los Angeles Memorial Coliseum, in honour of local World War One veterans. The stadium has since been used for sporting events, concerts, religious gatherings and political rallies, and again hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for a second time in 1984. It will do so again when the Games return to Los Angeles in 2028. The University of Southern California's sports teams have used the venue since 1932, among them the Trojans, its American football team. The stadium has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams that have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the Los Angeles Olympic Stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019.",
+        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+        "venue_information": "A permanent facility, it was built next to the Olympic Stadium. The venue's 5,000-capacity wooden grandstand was dismantled after the Games, and the pool was opened to the public. The building suffered from a lack of maintenance thereafter and was closed following an earthquake in 1994. It was renovated in 2003, when a new recreation complex was built nearby, with its original facade preserved. The venue now offers swim classes, entry-level programmes for juniors, junior lifeguard camps, and recreational swimming for people of all ages, as well as artistic swimming and water polo.",
         "match_method": "fuzzy_match"
       }
     },
@@ -345,8 +345,8 @@
         "source_file": "venue_308.json",
         "Olympics": "1932 Los Angeles",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Los Angeles Police Pistol Range",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -382,13 +382,14 @@
         "type": "outdoor venue",
         "source_file": "venue_309.json",
         "Olympics": "1932 Los Angeles",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Swimming stadium",
-        "venue_classification": "New build",
-        "venue_status": "In use",
-        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
-        "venue_information": "A permanent facility, it was built next to the Olympic Stadium. The venue's 5,000-capacity wooden grandstand was dismantled after the Games, and the pool was opened to the public. The building suffered from a lack of maintenance thereafter and was closed following an earthquake in 1994. It was renovated in 2003, when a new recreation complex was built nearby, with its original facade preserved. The venue now offers swim classes, entry-level programmes for juniors, junior lifeguard camps, and recreational swimming for people of all ages, as well as artistic swimming and water polo."
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Sunset Fields Golf Club of Los Angeles",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": "The modern pentathlon cross-country race took place on an undulating 4,000-metre route laid out on the golf course, which was located close to the Olympic Village. The course was sold to developers in 1949, and a large residential development was built on the site.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -471,7 +472,6 @@
   "properties": {
     "olympics_year": "1932",
     "olympics_city": "Los Angeles",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

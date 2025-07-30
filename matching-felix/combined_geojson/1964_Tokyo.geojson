@@ -79,13 +79,13 @@
         "source_file": "venue_447.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.864,
+        "match_confidence": 0.888,
         "matched_venue_name": "National Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use (repurposed)",
         "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
         "venue_information": "An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -354,8 +354,8 @@
         "source_file": "venue_454.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Baji Koen Equestrian Park",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
@@ -392,8 +392,8 @@
         "source_file": "venue_455.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Karuizawa Equestrian Venue, Nagano",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
@@ -432,13 +432,13 @@
         "source_file": "venue_456.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.78,
+        "match_confidence": 0.8530000000000001,
         "matched_venue_name": "Waseda Memorial Hall",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Fencing, modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -510,13 +510,13 @@
         "source_file": "venue_458.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Komazawa Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -751,13 +751,14 @@
         "type": "outdoor venue",
         "source_file": "venue_464.json",
         "Olympics": "1964 Tokyo",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Komazawa Third Hockey Fields",
+        "match_type": "name_match",
+        "match_confidence": 0.8350000000000001,
+        "matched_venue_name": "Komazawa First Hockey Fields",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Hockey",
-        "venue_information": "The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year."
+        "venue_information": "The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -798,8 +799,8 @@
         "source_file": "venue_465.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.8842105263157894,
-        "match_method": "substring_match",
+        "match_confidence": 0.895,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Nippon Budokan Hall",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -838,13 +839,13 @@
         "source_file": "venue_466.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Asaka Shooting Range",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Shooting, modern pentathlon (shooting)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -875,13 +876,14 @@
         "type": "outdoor venue",
         "source_file": "venue_467.json",
         "Olympics": "1964 Tokyo",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Tokyo University Kemigawa Playing Grounds",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Asaka Nezu Park",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
-        "venue_use": "Modern pentathlon (running)",
-        "venue_information": "Though the facilities erected for the modern pentathlon cross-country race were dismantled after the Games, the site is still used as a sports ground by Tokyo University."
+        "venue_use": "Modern pentathlon (equestrian)",
+        "venue_information": "The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1071,13 +1073,13 @@
         "source_file": "venue_474.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Komazawa Volleyball Court",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Volleyball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1228,20 +1230,19 @@
         "source_file": "venue_478.json",
         "Olympics": "1964 Tokyo",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Komazawa Gymnasium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Wrestling",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     }
   ],
   "properties": {
     "olympics_year": "1964",
     "olympics_city": "Tokyo",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

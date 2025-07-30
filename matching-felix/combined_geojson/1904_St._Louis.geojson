@@ -68,13 +68,13 @@
         "source_file": "venue_209.json",
         "Olympics": "1904 St Louis",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Dirt Courts near Francis Field",
         "venue_classification": "New build",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Tennis",
         "venue_information": "The area that the courts once occupied is part of the campus of Washington University in St. Louis, which is home to the Olympic Stadium and the Gary M. Sumers Recreation Center. There are tennis courts just to the east of these buildings, and this is most likely the original location of the Olympic courts used in 1904.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -202,13 +202,14 @@
         "type": "temporary outdoor venue",
         "source_file": "venue_212.json",
         "Olympics": "1904 St Louis",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.85,
         "matched_venue_name": "US Life Saving Lake / Life Saving Exhibition Lake",
         "venue_classification": "Temporary",
         "venue_status": "Dismantled (temporary)",
         "venue_use": "Swimming, diving, water polo",
-        "venue_information": "The venue was an oval-shaped man-made lake in St. Louis' Forest Park and was created by the organisers of the 1904 World's Fair to allow the US Coast Guard to demonstrate their lifesaving manoeuvres on the water. Modifications were made to the lake to create a course for the swimming events at the 1904 Games. These included the installation of a small pontoon dock from which competitors could dive into the water. The lake was emptied and refilled with soil after the Games. The site is now occupied by a golf course."
+        "venue_information": "The venue was an oval-shaped man-made lake in St. Louis' Forest Park and was created by the organisers of the 1904 World's Fair to allow the US Coast Guard to demonstrate their lifesaving manoeuvres on the water. Modifications were made to the lake to create a course for the swimming events at the 1904 Games. These included the installation of a small pontoon dock from which competitors could dive into the water. The lake was emptied and refilled with soil after the Games. The site is now occupied by a golf course.",
+        "match_method": "token_match"
       }
     },
     {
@@ -244,8 +245,8 @@
         "source_file": "venue_213.json",
         "Olympics": "1904 St Louis",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Physical Culture Gymnasium",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -257,7 +258,6 @@
   "properties": {
     "olympics_year": "1904",
     "olympics_city": "St. Louis",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

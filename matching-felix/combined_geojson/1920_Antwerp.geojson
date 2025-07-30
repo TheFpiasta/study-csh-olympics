@@ -49,8 +49,8 @@
         "source_file": "venue_243.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.807,
-        "match_method": "fuzzy_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer_inner",
         "matched_venue_name": "Antwerp Olympic Stadium (Olympisch Stadion)",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -91,8 +91,8 @@
         "source_file": "venue_244.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.85,
-        "match_method": "token_match",
+        "match_confidence": 0.938,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Royal Beerschot Tennis and Hockey Club",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -130,13 +130,13 @@
         "source_file": "venue_245.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.948,
+        "match_confidence": 0.972,
         "matched_venue_name": "Beverloo Camp (Kamp Beverloo)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Shooting",
         "venue_information": "The camp played host to the shooting events in 1920. It opened in 1839 and became a permanent military base in 1845 – a status it retains to this day. Occupied by German troops in both world wars, it was used as a prisoner-of-war camp and partly damaged by an Allied bombardment in 1944. In 1976, the barracks were modernised, and hundreds of houses were built for the families of the personnel stationed there. It is Belgium's largest garrison.",
-        "match_method": "fuzzy_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -251,13 +251,13 @@
         "source_file": "venue_249.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Flower Hall (Floraliën), Middelheim Park",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Modern pentathlon (fencing)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -292,13 +292,13 @@
         "source_file": "venue_250.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.8800000000000001,
+        "match_confidence": 1.0,
         "matched_venue_name": "Willebroek Canal (Willebroekse Vaart)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Rowing",
         "venue_information": "Though mainly used for transporting goods and flood management, the canal has hosted rowing events since the Games and is used by the Royal Sport Nautique de Bruxelles (RSNB) for recreational rowing and training, and competitions such as the Brussels Winter Rowing Regatta. It is not clear what facilities were built for the rowing competitions, but they are believed to have been temporary.",
-        "match_method": "fuzzy_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -332,13 +332,13 @@
         "source_file": "venue_251.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Shooting Range, Het Kiel (Shieetbaan, Het Kiel)",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Modern pentathlon (shooting)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_outer"
       }
     },
     {
@@ -372,13 +372,13 @@
         "source_file": "venue_252.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Celebration Hall, Royal Zoological Society (Feestzaal, Koninklijke Zoölogische Maatschappij)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Boxing, wrestling",
         "venue_information": "Part of Antwerp Zoo, which opened in 1844, the hall was the venue for the boxing and wrestling competitions. Welcoming more than a million visitors a year, the zoo is home to one of the world's most advanced animal research centres.",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -411,13 +411,13 @@
         "source_file": "venue_253.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Nightingale Park (Nachtegalenpark)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Archery",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -487,13 +487,14 @@
         "type": "indoor venue",
         "source_file": "venue_255.json",
         "Olympics": "1920 Antwerp",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.7969999999999999,
         "matched_venue_name": "Ice Palace",
         "venue_classification": "Existing",
         "venue_status": "Not in use (demolished)",
         "venue_use": "Ice hockey, figure skating",
-        "venue_information": "This was the venue for the very first Olympic ice hockey competition and only the second figure skating competition, after London 1908. The Ice Palace opened in 1910 as a roller-skating rink before being converted into an ice rink the year before the Games. Later used as a garage and a taxi depot, it was dismantled in 2016."
+        "venue_information": "This was the venue for the very first Olympic ice hockey competition and only the second figure skating competition, after London 1908. The Ice Palace opened in 1910 as a roller-skating rink before being converted into an ice rink the year before the Games. Later used as a garage and a taxi depot, it was dismantled in 2016.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -724,13 +725,13 @@
         "source_file": "venue_261.json",
         "Olympics": "1920 Antwerp",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Wellington Racing Track (Wellingtonrenbaan)",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Polo",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -806,7 +807,6 @@
   "properties": {
     "olympics_year": "1920",
     "olympics_city": "Antwerp",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

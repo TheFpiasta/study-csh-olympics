@@ -244,8 +244,8 @@
         "source_file": "venue_233.json",
         "Olympics": "1912 Stockholm",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
         "matched_venue_name": "Stockholm Olympic Stadium (Olympiastadion)",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -322,13 +322,13 @@
         "source_file": "venue_235.json",
         "Olympics": "1912 Stockholm",
         "match_type": "name_match",
-        "match_confidence": 0.763,
+        "match_confidence": 0.956,
         "matched_venue_name": "Rasunda Athletic Sports Grounds (Rasunda Idrottsplats)",
         "venue_classification": "Existing",
         "venue_status": "In use (rebuilt)",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "fuzzy_match"
+        "match_method": "fuzzy_match_inner"
       }
     },
     {
@@ -360,13 +360,14 @@
         "type": "outdoor venue",
         "source_file": "venue_237.json",
         "Olympics": "1912 Stockholm",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Lindarängen",
+        "match_type": "name_match",
+        "match_confidence": 0.8029999999999999,
+        "matched_venue_name": "Stockholms Fältridklubbs Stadion / Stockholm Cross Country Riding Club Stadium",
         "venue_classification": "Existing",
-        "venue_status": "Not in use (demolished)",
+        "venue_status": "In use",
         "venue_use": "Eventing",
-        "venue_information": "An eventing venue at the 1912 Olympic Games, the site is now an industrial area."
+        "venue_information": "Founded on 1 November 1886, it is Sweden's oldest riding club and continues to host dressage, jumping and eventing competitions. It also runs riding schools, and its grounds are home to a number of equestrian trails.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -443,7 +444,15 @@
         "opened": "1906",
         "type": "outdoor venue",
         "source_file": "venue_239.json",
-        "Olympics": "1912 Stockholm"
+        "Olympics": "1912 Stockholm",
+        "match_type": "name_match",
+        "match_confidence": 0.9710000000000001,
+        "match_method": "fuzzy_match_inner",
+        "matched_venue_name": "Tennis Pavilion at Östermalm Athletic Grounds (Östermalm Idrottsplats)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis, fencing, modern pentathlon (fencing)",
+        "venue_information": "Two outdoor courts were built next to the building that hosted the fencing events and was used as changing rooms during the outdoor tennis events. Östermalm Idrottsplats remains in use by the multisports club Djurgårdens IF for its bandy section and youth football teams. In the winter, the venue's athletic grounds are converted into a speed skating rink. Tennis is still practised at the site."
       }
     },
     {
@@ -475,13 +484,14 @@
         "type": "outdoor venue",
         "source_file": "venue_240.json",
         "Olympics": "1912 Stockholm",
-        "match_type": "sports_match",
+        "match_type": "name_match",
         "match_confidence": 1.0,
-        "matched_venue_name": "Stockholm Olympic Stadium (Olympiastadion)",
-        "venue_classification": "New build",
+        "matched_venue_name": "Traneberg Athletic Sports Grounds (Tranebergs Idrottsplats)",
+        "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Dressage, equestrian (jumping), gymnastics, wrestling, modern pentathlon, football, tug of war, Opening and Closing Ceremonies",
-        "venue_information": "Listed as a national heritage site and originally intended as a temporary wooden structure, this red-brick venue was built in the neoclassical style. It is still used regularly today and has been refurbished on several occasions. It now stages sporting events such as the Diamond League and the Stockholm Marathon, as well as major concerts. The Rolling Stones, Bruce Springsteen and AC/DC are just some of the acts to have performed at the venue. The venue for the city's Olympic Jubilee celebrations in 2012, it is also used for cross-country skiing in the winter months, when three 430-metre tracks are laid out. The stadium was also a stand-in venue at the Olympic Games Melbourne / Stockholm 1956, staging some of the equestrian events, which had to be held outside Australia due to the country's strict quarantine laws for horses."
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match_inner"
       }
     },
     {
@@ -556,7 +566,6 @@
   "properties": {
     "olympics_year": "1912",
     "olympics_city": "Stockholm",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

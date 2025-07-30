@@ -152,8 +152,8 @@
         "source_file": "venue_779.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -1282,7 +1282,15 @@
         ],
         "type": "outdoor venue",
         "source_file": "venue_780.json",
-        "Olympics": "2004 Athens"
+        "Olympics": "2004 Athens",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, Opening and Closing Ceremonies",
+        "venue_information": "Completed in 1982 for the European Athletics Championships that year, the stadium was upgraded for the 2004 Olympic Games and a new roof added to ensure its future use as Greece's national stadium. Post-Games, its capacity was reduced from 72,000 to 69,600. A football, track and field and concert venue, it is the home stadium of AEK Athens and Greece's national football team and staged the 1983 UEFA European Cup final, the 2007 UEFA Champions League final and the 1997 World Championships in Athletics. Madonna, Bon Jovi and Lady Gaga are just some of the major singers and bands to have performed there. AEK's home games have been attracting relatively low attendances – just over 14,000 in the 2018/19 season."
       }
     },
     {
@@ -1361,8 +1369,8 @@
         "source_file": "venue_782.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Indoor Hall",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -1402,13 +1410,13 @@
         "source_file": "venue_783.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Goudi Olympic Hall",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Badminton, modern pentathlon (shooting, fencing)",
         "venue_information": "The venue for the badminton competitions at the 2004 Olympic Games, built on the site of an army camp, was converted into the Badminton Theatre in 2007. The original building's industrial facade was the only element to survive the transformation. The venue hosted concerts, plays, musicals and dance productions, as well as conferences, business meetings and corporate events. However, the venue is currently closed and remains unused.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1485,13 +1493,13 @@
         "source_file": "venue_785.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Baseball Centre",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Baseball",
         "venue_information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1568,13 +1576,13 @@
         "source_file": "venue_787.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Beach Volleyball Centre",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Beach volleyball",
         "venue_information": "Located in the suburb of Faliro, the venue fell into disuse after the Games and was abandoned. It remains closed and in a state of disrepair.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1774,8 +1782,8 @@
         "source_file": "venue_792.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Olympic Velodrome",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -1858,13 +1866,13 @@
         "source_file": "venue_794.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9710000000000001,
         "matched_venue_name": "Olympic Aquatics Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Swimming, diving, artistic swimming, water polo",
         "venue_information": "The venue was built for the 1991 Mediterranean Games and extensively renovated for the 2004 Olympic Games. It is part of the Athens Olympic Sports Complex in Maroussi and has two outdoor pools and an indoor one, which hosted the diving competition at Athens 2004. While it remains open to the public, with the main outdoor pool used for practice and the indoor pool for classes, the rest of the venue is not in use given the challenges related to operational costs and infrastructure maintenance.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2022,13 +2030,14 @@
         "type": "outdoor venue",
         "source_file": "venue_798.json",
         "Olympics": "2004 Athens",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Pankritio Stadium",
-        "venue_classification": "New build",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "matched_venue_name": "Karaiskakis Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2064,13 +2073,13 @@
         "source_file": "venue_799.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.85,
+        "match_confidence": 0.946,
         "matched_venue_name": "Pampeloponnisiako Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2104,13 +2113,14 @@
         "type": "outdoor venue",
         "source_file": "venue_800.json",
         "Olympics": "2004 Athens",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
+        "match_type": "name_match",
+        "match_confidence": 0.919,
         "matched_venue_name": "Pankritio Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Football",
-        "venue_information": ""
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2145,7 +2155,7 @@
         "source_file": "venue_801.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.857,
+        "match_confidence": 0.936,
         "matched_venue_name": "Panthessaliko Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
@@ -2230,13 +2240,13 @@
         "source_file": "venue_803.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Hockey Centre",
         "venue_classification": "New build",
         "venue_status": "Not in use",
         "venue_use": "Hockey",
         "venue_information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2271,13 +2281,13 @@
         "source_file": "venue_804.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Modern Pentathlon Centre",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Modern pentathlon (swimming, equestrian, running)",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2480,13 +2490,13 @@
         "source_file": "venue_809.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Olympic Tennis Centre",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Tennis",
         "venue_information": "The centre is home to 16 courts, including a main court with a capacity of 8,600 at Games time. The venue remains in use and is open to the public, attracting around 300 players a day. It has infrequently hosted competitions, staging an ATP Challenger tournament in 2010 and a school tournament in 2019. The venue lacks a long-term strategy, and the main court is largely underused due to management and operational costs and the shortcomings of its lighting system, which is not suitable for professional tournaments.",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2521,13 +2531,13 @@
         "source_file": "venue_810.json",
         "Olympics": "2004 Athens",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 1.0,
         "matched_venue_name": "Peace and Friendship Stadium",
         "venue_classification": "Existing",
         "venue_status": "In use",
         "venue_use": "Volleyball",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -2576,7 +2586,6 @@
   "properties": {
     "olympics_year": "2004",
     "olympics_city": "Athens",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

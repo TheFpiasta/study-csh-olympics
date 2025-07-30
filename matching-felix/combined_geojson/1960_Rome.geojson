@@ -118,13 +118,13 @@
         "source_file": "venue_416.json",
         "Olympics": "1960 Rome",
         "match_type": "name_match",
-        "match_confidence": 0.8210526315789474,
+        "match_confidence": 0.8670000000000001,
         "matched_venue_name": "Sports Palace",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Basketball, boxing",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -395,8 +395,8 @@
         "source_file": "venue_423.json",
         "Olympics": "1960 Rome",
         "match_type": "name_match",
-        "match_confidence": 0.95,
-        "match_method": "substring_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
         "matched_venue_name": "Piazza di Siena",
         "venue_classification": "Existing",
         "venue_status": "In use",
@@ -597,13 +597,13 @@
         "source_file": "venue_428.json",
         "Olympics": "1960 Rome",
         "match_type": "name_match",
-        "match_confidence": 0.95,
+        "match_confidence": 0.9609999999999999,
         "matched_venue_name": "Adriatico Stadium",
         "venue_classification": "New build",
         "venue_status": "In use",
         "venue_use": "Football",
         "venue_information": "",
-        "match_method": "substring_match"
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -637,13 +637,14 @@
         "type": "outdoor venue",
         "source_file": "venue_429.json",
         "Olympics": "1960 Rome",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Fuorigrotta Stadium",
-        "venue_classification": "New build",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Football",
-        "venue_information": ""
+        "venue_use": "Athletics, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012. The stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances.",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -995,13 +996,14 @@
         "type": "outdoor venue",
         "source_file": "venue_438.json",
         "Olympics": "1960 Rome",
-        "match_type": "sports_match",
-        "match_confidence": 1.0,
-        "matched_venue_name": "Passo Corese",
+        "match_type": "name_match",
+        "match_confidence": 0.779,
+        "matched_venue_name": "Acquasanta Golf Club Course",
         "venue_classification": "Existing",
         "venue_status": "In use",
-        "venue_use": "Modern pentathlon (equestrian)",
-        "venue_information": ""
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
       }
     },
     {
@@ -1202,7 +1204,6 @@
   "properties": {
     "olympics_year": "1960",
     "olympics_city": "Rome",
-    "olympics_season": "summer",
-    "processed_by": "matching-felix"
+    "olympics_season": "summer"
   }
 }

@@ -296,7 +296,10 @@ def manipulate_geojson_file(filename, geojson_content):
 
                                     if sports_match:
                                         transfer_venue_data(feature, json_venue, "sports_match")
-                                        log_message(f"Sports match found: {json_venue.get('name', 'Unknown')}")
+                                        geojson_venue_name = feature['properties'].get('associated_names', 'Unknown')
+                                        json_venue_name = json_venue.get('name', 'Unknown')
+                                        sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(venue_sports)
+                                        log_message(f"Sports match found: GeoJSON venue '{geojson_venue_name}' <-> JSON venue '{json_venue_name}' (Sports: {sports_str})")
                                     else:
                                         # Add unmatched venue with source_file from GeoJSON
                                         source_file = feature['properties'].get('source_file', 'Unknown')
@@ -331,7 +334,14 @@ def manipulate_geojson_file(filename, geojson_content):
                                         if highest_match['confidence'] >= confidence_threshold:
                                             transfer_venue_data(feature, highest_match['stadium2'], "name_match",
                                                                 highest_match['confidence'], highest_match['method'])
-                                            log_message(f"Name match found: {highest_match['stadium2'].get('name', 'Unknown')} (confidence: {highest_match['confidence']:.2f})")
+                                            # Get both venue names and sports information
+                                            geojson_venue_name = highest_match['stadium1'].get('associated_names', 'Unknown')
+                                            json_venue_name = highest_match['stadium2'].get('name', 'Unknown')
+                                            # Get sports from the original feature (since highest_match['stadium1'] might not have sports)
+                                            sports = feature['properties'].get('sports', [])
+                                            sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
+                                            match_method = highest_match.get('method', 'Unknown')
+                                            log_message(f"Name match found: GeoJSON venue '{geojson_venue_name}' <-> JSON venue '{json_venue_name}' (Sports: {sports_str}, Method: {match_method}, Confidence: {highest_match['confidence']:.2f})")
     return manipulated_content
 
 
@@ -365,7 +375,6 @@ def process_geojson_data():
         try:
             with open(output_file_path, 'w', encoding='utf-8') as file:
                 json.dump(manipulated_geojson, file, indent=2, ensure_ascii=False)
-            log_message(f"Saved manipulated file: {output_file_path}")
         except Exception as e:
             log_message(f"Error saving {filename}: {e}", level="ERROR")
 

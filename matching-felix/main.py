@@ -362,10 +362,10 @@ def manipulate_geojson_file(filename, geojson_content):
                                             transfer_venue_data(feature, highest_match['stadium2'], "name_match",
                                                                 highest_match['confidence'], highest_match['method'])
                                             log_message(
-                                                f"Name match: Method: {match_method}, Confidence: {confidence:.2f} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+                                                f"Name match: Confidence: {confidence:.2f}, Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
                                         else:
                                             log_message(
-                                                f"Unmatch: Confidence: ({confidence:.2f}) | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}",
+                                                f"Unmatch: Confidence: ({confidence:.2f}), Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}",
                                                 level="WARNING")
     return manipulated_content
 
@@ -616,20 +616,45 @@ def print_file_statistics(file_stats):
     unmatched_geojson = file_stats['geojson']['unmatched']
     unmatched_json = file_stats['json']['unmatched']
 
+    # Individual totals
+    total_geojson = file_stats['geojson']['total_venues']
+    total_json = file_stats['json']['total_venues']
+
     # Combined totals
     sports = sports_geojson + sports_json
     name = name_geojson + name_json
     unmatched = unmatched_geojson + unmatched_json
 
-    # Calculate percentages
+    # Calculate combined percentages
     sports_pct = (sports / total * 100) if total > 0 else 0
     name_pct = (name / total * 100) if total > 0 else 0
     unmatched_pct = (unmatched / total * 100) if total > 0 else 0
 
+    # Calculate GeoJSON percentages
+    sports_geojson_pct = (sports_geojson / total_geojson * 100) if total_geojson > 0 else 0
+    name_geojson_pct = (name_geojson / total_geojson * 100) if total_geojson > 0 else 0
+    unmatched_geojson_pct = (unmatched_geojson / total_geojson * 100) if total_geojson > 0 else 0
+
+    # Calculate JSON percentages
+    sports_json_pct = (sports_json / total_json * 100) if total_json > 0 else 0
+    name_json_pct = (name_json / total_json * 100) if total_json > 0 else 0
+    unmatched_json_pct = (unmatched_json / total_json * 100) if total_json > 0 else 0
+
+    log_message("")
     log_message(f"=== STATISTICS FOR {filename} ===")
     log_message(f"Total venues: {total}")
+    log_message(f"  - GeoJSON venues: {total_geojson}")
+    log_message(f"  - JSON venues: {total_json}")
+
+    log_message("")
     log_message(f"Sports matches: {sports} ({sports_pct:.1f}%)")
+    log_message(f"  - GeoJSON: {sports_geojson} ({sports_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {sports_json} ({sports_json_pct:.1f}% of JSON venues)")
+
+    log_message("")
     log_message(f"Name matches: {name} ({name_pct:.1f}%)")
+    log_message(f"  - GeoJSON: {name_geojson} ({name_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {name_json} ({name_json_pct:.1f}% of JSON venues)")
 
     # Display name match method breakdown
     if name > 0:
@@ -643,26 +668,36 @@ def print_file_statistics(file_stats):
         for method, count in combined_methods.items():
             if count > 0:
                 method_pct = (count / name * 100) if name > 0 else 0
+                geojson_method_count = file_stats['geojson']['name_matches_by_method'][method]
+                json_method_count = file_stats['json']['name_matches_by_method'][method]
                 log_message(f"  - {method}: {count} ({method_pct:.1f}% of name matches)")
+                log_message(f"    • GeoJSON: {geojson_method_count}, JSON: {json_method_count}")
 
+    log_message("")
     log_message(f"Unmatched: {unmatched} ({unmatched_pct:.1f}%)")
+    log_message(f"  - GeoJSON: {unmatched_geojson} ({unmatched_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {unmatched_json} ({unmatched_json_pct:.1f}% of JSON venues)")
 
     # Display detailed unmatched venue information
     if unmatched_geojson > 0:
-        log_message(f"Unmatched GeoJSON venues: {unmatched_geojson}")
+        log_message("")
+        log_message(f"Unmatched GeoJSON venues:")
         for venue in file_stats['geojson']['unmatched_venues']:
             sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
                 venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
 
     if unmatched_json > 0:
-        log_message(f"Unmatched JSON venues: {unmatched_json}")
+        log_message("")
+        log_message(f"Unmatched JSON venues:")
         for venue in file_stats['json']['unmatched_venues']:
             sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
                 venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
 
     log_message("=" * 50)
+    log_message("")
+    log_message("")
 
 
 def print_total_statistics():
@@ -682,24 +717,53 @@ def print_total_statistics():
     unmatched_geojson = total_statistics['geojson']['unmatched']
     unmatched_json = total_statistics['json']['unmatched']
 
+    # Individual totals
+    total_geojson = total_statistics['geojson']['total_venues']
+    total_json = total_statistics['json']['total_venues']
+
     # Combined totals
     sports = sports_geojson + sports_json
     name = name_geojson + name_json
     unmatched = unmatched_geojson + unmatched_json
 
-    # Calculate percentages
+    # Calculate combined percentages
     sports_pct = (sports / total * 100) if total > 0 else 0
     name_pct = (name / total * 100) if total > 0 else 0
     unmatched_pct = (unmatched / total * 100) if total > 0 else 0
     matched_total = sports + name
     matched_pct = (matched_total / total * 100) if total > 0 else 0
 
+    # Calculate GeoJSON percentages
+    sports_geojson_pct = (sports_geojson / total_geojson * 100) if total_geojson > 0 else 0
+    name_geojson_pct = (name_geojson / total_geojson * 100) if total_geojson > 0 else 0
+    unmatched_geojson_pct = (unmatched_geojson / total_geojson * 100) if total_geojson > 0 else 0
+    matched_geojson_total = sports_geojson + name_geojson
+    matched_geojson_pct = (matched_geojson_total / total_geojson * 100) if total_geojson > 0 else 0
+
+    # Calculate JSON percentages
+    sports_json_pct = (sports_json / total_json * 100) if total_json > 0 else 0
+    name_json_pct = (name_json / total_json * 100) if total_json > 0 else 0
+    unmatched_json_pct = (unmatched_json / total_json * 100) if total_json > 0 else 0
+    matched_json_total = sports_json + name_json
+    matched_json_pct = (matched_json_total / total_json * 100) if total_json > 0 else 0
+
+    log_message("")
     log_message("=" * 60)
     log_message("=== TOTAL STATISTICS ACROSS ALL FILES ===")
     log_message(f"Files processed: {files}")
     log_message(f"Total venues: {total}")
+    log_message(f"  - GeoJSON venues: {total_geojson}")
+    log_message(f"  - JSON venues: {total_json}")
+
+    log_message("")
     log_message(f"Sports matches: {sports} ({sports_pct:.1f}%)")
+    log_message(f"  - GeoJSON: {sports_geojson} ({sports_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {sports_json} ({sports_json_pct:.1f}% of JSON venues)")
+
+    log_message("")
     log_message(f"Name matches: {name} ({name_pct:.1f}%)")
+    log_message(f"  - GeoJSON: {name_geojson} ({name_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {name_json} ({name_json_pct:.1f}% of JSON venues)")
 
     # Display name match method breakdown for totals
     if name > 0:
@@ -714,12 +778,24 @@ def print_total_statistics():
             if count > 0:
                 method_pct = (count / name * 100) if name > 0 else 0
                 total_pct = (count / total * 100) if total > 0 else 0
+                geojson_method_count = total_statistics['geojson']['name_matches_by_method'][method]
+                json_method_count = total_statistics['json']['name_matches_by_method'][method]
                 log_message(
                     f"  - {method}: {count} ({method_pct:.1f}% of name matches, {total_pct:.1f}% of all venues)")
+                log_message(f"    • GeoJSON: {geojson_method_count}, JSON: {json_method_count}")
 
+    log_message("")
     log_message(f"Total matched: {matched_total} ({matched_pct:.1f}%)")
+    log_message(f"  - GeoJSON matched: {matched_geojson_total} ({matched_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON matched: {matched_json_total} ({matched_json_pct:.1f}% of JSON venues)")
+
+    log_message("")
     log_message(f"Unmatched: {unmatched} ({unmatched_pct:.1f}%)")
-    log_message("=" * 60)
+    log_message(f"  - GeoJSON: {unmatched_geojson} ({unmatched_geojson_pct:.1f}% of GeoJSON venues)")
+    log_message(f"  - JSON: {unmatched_json} ({unmatched_json_pct:.1f}% of JSON venues)")
+    log_message("=" * 60 + "")
+    log_message("")
+    log_message("")
 
 
 def save_statistics_to_file():
@@ -754,9 +830,9 @@ def log_message(message, level="INFO"):
     """
     global log_to_console, log_to_file, output_dir
 
-    # Format the message with timestamp and level
+    # Format the message with timestamp (time only) and level
     from datetime import datetime
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    timestamp = datetime.now().strftime("%H:%M:%S")
     formatted_message = f"[{timestamp}] {level}: {message}"
 
     # Log to console if enabled
@@ -777,11 +853,48 @@ def log_message(message, level="INFO"):
         except Exception as e:
             # Fallback to console if file logging fails
             if not log_to_console:
-                print(f"[{timestamp}] ERROR: Failed to write to log file: {e}")
+                timestamp_full = datetime.now().strftime("%H:%M:%S")
+                print(f"[{timestamp_full}] ERROR: Failed to write to log file: {e}")
                 print(formatted_message)
 
 
+def initialize_log_file():
+    """
+    Initialize the log file by overwriting any existing content.
+    This ensures each run starts with a fresh log file.
+    """
+    global log_to_file, output_dir
+
+    if log_to_file:
+        # Ensure output directory exists
+        os.makedirs(output_dir, exist_ok=True)
+
+        # Create log file path
+        log_file_path = os.path.join(output_dir, "matching_log.txt")
+
+        try:
+            # Overwrite the log file to start fresh
+            with open(log_file_path, 'w', encoding='utf-8') as log_file:
+                from datetime import datetime
+                execution_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                log_file.write(f"Execution Date: {execution_date}")
+                log_message("")
+                log_file.write("=" * 50)
+                log_file.write("Starting new matching run - log file overwritten")
+                log_file.write("=" * 50)
+                log_message("")
+                log_message("")
+        except Exception as e:
+            print(f"ERROR: Failed to initialize log file: {e}")
+
+
 if __name__ == "__main__":
+    # Initialize log file (overwrite previous content)
+    initialize_log_file()
+
+    # Log the start of the new run
+    log_message("Starting venue matching process")
+
     # Example usage
     load_venues_data()
 

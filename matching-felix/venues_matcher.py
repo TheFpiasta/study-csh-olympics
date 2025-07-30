@@ -117,14 +117,10 @@ class StadiumMatcher:
         # Bidirectional substring check
         if core1 in core2:
             score = len(core1) / len(core2)
-            if self.debug:
-                logger.info(f"Substring match: '{core1}' in '{core2}' (score: {score:.2f})")
             return True, min(score * 1.2, 0.95)  # Bonus for substring match
 
         if core2 in core1:
             score = len(core2) / len(core1)
-            if self.debug:
-                logger.info(f"Substring match: '{core2}' in '{core1}' (score: {score:.2f})")
             return True, min(score * 1.2, 0.95)
 
         return False, 0.0
@@ -167,8 +163,6 @@ class StadiumMatcher:
 
         # At least one common token and good Jaccard similarity
         if len(intersection) >= 1 and jaccard > 0.4:
-            if self.debug:
-                logger.info(f"Token match: {intersection} (Jaccard: {jaccard:.2f})")
             return True, min(jaccard * 1.1, 0.85)  # Max 0.85 for token match
 
         return False, 0.0
@@ -201,8 +195,6 @@ class StadiumMatcher:
         score = self.fuzzy_similarity(name1, name2)
 
         if score >= threshold:
-            if self.debug:
-                logger.info(f"Fuzzy match: {score:.2f} (threshold: {threshold})")
             return True, score
 
         return False, score
@@ -219,29 +211,49 @@ class StadiumMatcher:
 
         # Exact match (Stage 0)
         if name1.lower().strip() == name2.lower().strip():
+            self.log(f"Exact match found: '{name1}' == '{name2}'", level='info')
             return True, 1.0, "exact_match"
-
-        if self.debug:
-            logger.info(f"\nMatching: '{name1}' vs '{name2}'")
 
         # Stage 1: Substring match
         is_match, score = self.substring_match(name1, name2)
         if is_match:
+            self.log(f"Substring match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
             return True, score, "substring_match"
 
         # Stage 2: Token-based match
         is_match, score = self.token_based_match(name1, name2)
         if is_match:
+            self.log(f"Token match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
             return True, score, "token_match"
 
         # Stage 3: Fuzzy match as fallback
         is_match, score = self.fuzzy_match(name1, name2)
         if is_match:
+            self.log(f"Fuzzy match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
             return True, score, "fuzzy_match"
 
         # No match found
+        self.log(f"No match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='warning')
         return False, score, "no_match"
 
+
+    def log(self, message: str, level: str = 'info'):
+        """
+        Simple logging function to handle debug messages
+        """
+        if not self.debug:
+            return
+
+        if level == 'debug' and not logger.isEnabledFor(logging.DEBUG):
+            return
+        if level == 'info':
+            logger.info(message)
+        elif level == 'warning':
+            logger.warning(message)
+        elif level == 'error':
+            logger.error(message)
+        elif level == 'critical':
+            logger.critical(message)
 
 def find_stadium_matches(stadiums_list1: List[Dict], stadiums_list2: List[Dict],
                          name_key1: str = 'name', name_key2: str = 'name', debug: bool = False) -> List[Dict]:
@@ -337,63 +349,3 @@ def merge_stadium_metadata(match_info: Dict) -> Dict:
     merged['merged_from'] = [stadium1.get('name', ''), stadium2.get('name', '')]
 
     return merged
-
-
-# def main():
-#     """Main function for testing and demonstration"""
-#
-#     print("=== Stadium Name Matching - Hybrid Approach ===\n")
-#
-#     # Load test data
-#     stadiums_list1, stadiums_list2 = create_test_data()
-#
-#     print("List 1 (Base):")
-#     for i, stadium in enumerate(stadiums_list1, 1):
-#         print(f"  {i}. {stadium['name']}")
-#
-#     print("\nList 2 (To Match):")
-#     for i, stadium in enumerate(stadiums_list2, 1):
-#         print(f"  {i}. {stadium['name']}")
-#
-#     print("\n" + "="*60)
-#     print("MATCHING RESULTS:")
-#     print("="*60)
-#
-#     # Perform matching
-#     confirmed_matches, uncertain_matches = find_stadium_matches(
-#         stadiums_list1, stadiums_list2, debug=True
-#     )
-#
-#     # Display results
-#     print(f"\n✅ CONFIRMED MATCHES ({len(confirmed_matches)}):")
-#     print("-" * 40)
-#     for match in confirmed_matches:
-#         print(f"'{match['name1']}' ↔ '{match['name2']}'")
-#         print(f"   Confidence: {match['confidence']:.2f} | Method: {match['method']}")
-#
-#         # Demonstrate merge
-#         merged = merge_stadium_metadata(match)
-#         print(f"   Merged data: {merged}")
-#         print()
-#
-#     if uncertain_matches:
-#         print(f"\n❓ UNCERTAIN MATCHES ({len(uncertain_matches)}):")
-#         print("-" * 40)
-#         for match in uncertain_matches:
-#             print(f"'{match['name1']}' ↔ '{match['name2']}'")
-#             print(f"   Confidence: {match['confidence']:.2f} | Method: {match['method']}")
-#             print()
-#
-#     # Unmatched stadiums
-#     matched_names1 = {match['name1'] for match in confirmed_matches + uncertain_matches}
-#     unmatched1 = [s for s in stadiums_list1 if s['name'] not in matched_names1]
-#
-#     if unmatched1:
-#         print(f"\n❌ UNMATCHED from List 1 ({len(unmatched1)}):")
-#         print("-" * 40)
-#         for stadium in unmatched1:
-#             print(f"   '{stadium['name']}'")
-#
-#
-# if __name__ == "__main__":
-#     main()

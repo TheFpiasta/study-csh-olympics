@@ -22,6 +22,53 @@ except ImportError:
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Global variable to store all possible matching method variants
+MATCHING_METHOD_VARIANTS = {
+    # Base matching methods
+    "exact_match",
+    "substring_match",
+    "token_match",
+    "fuzzy_match",
+    "no_match",
+    "empty_input",
+
+    # Variants with outer parentheses content
+    "exact_match_outer",
+    "substring_match_outer",
+    "token_match_outer",
+    "fuzzy_match_outer",
+
+    # Variants with inner parentheses content
+    "exact_match_inner",
+    "substring_match_inner",
+    "token_match_inner",
+    "fuzzy_match_inner",
+
+    # Variants with combinations (first name outer, second name outer)
+    "exact_match_outer_outer",
+    "substring_match_outer_outer",
+    "token_match_outer_outer",
+    "fuzzy_match_outer_outer",
+
+    # Variants with combinations (first name outer, second name inner)
+    "exact_match_outer_inner",
+    "substring_match_outer_inner",
+    "token_match_outer_inner",
+    "fuzzy_match_outer_inner",
+
+    # Variants with combinations (first name inner, second name outer)
+    "exact_match_inner_outer",
+    "substring_match_inner_outer",
+    "token_match_inner_outer",
+    "fuzzy_match_inner_outer",
+
+    # Variants with combinations (first name inner, second name inner)
+    "exact_match_inner_inner",
+    "substring_match_inner_inner",
+    "token_match_inner_inner",
+    "fuzzy_match_inner_inner",
+}
+
 
 class StadiumMatcher:
     """
@@ -47,8 +94,32 @@ class StadiumMatcher:
 
         # Common location indicators that can be ignored during matching
         self.location_indicators = {
-            'villa', 'borgo', 'di', 'del', 'della', 'des', 'du', 'de', 'van', 'von'
+            'villa', 'borgo', 'di', 'del', 'della', 'des', 'du', 'de', 'van', 'von',
         }
+
+        self.filler_words = {
+            "also", "known", "as"
+        }
+
+    def split_by_parentheses(self, text: str) -> tuple[str, str]:
+        """
+        Splits a string by outer and inner parentheses content.
+
+        Args:
+            text: Input string that may contain parentheses
+
+        Returns:
+            tuple: (outer_part, inner_part) where inner_part is empty if no parentheses
+        """
+        match = re.search(r'^([^(]*)\(([^)]*)\)', text.strip())
+
+        if match:
+            outer_part = match.group(1).strip()
+            inner_part = match.group(2).strip()
+            return outer_part, inner_part
+        else:
+            return text.strip(), ""
+
 
     def normalize_stadium_terms(self, name: str) -> str:
         """Normalizes stadium terms to standard form"""
@@ -83,6 +154,10 @@ class StadiumMatcher:
             processed = re.sub(r'\([^)]*\)', '', processed)
             # Remove everything after comma
             processed = processed.split(',')[0]
+
+        # Remove filler words
+        processed = re.sub(r'\b(?:' + '|'.join(map(re.escape, self.filler_words)) + r')\b', '', processed)
+        processed = processed.strip()
 
         # Remove extra whitespace and special characters
         processed = re.sub(r'[,\-\.]+', ' ', processed)
@@ -201,7 +276,7 @@ class StadiumMatcher:
 
     def match(self, name1: str, name2: str) -> Tuple[bool, float, str]:
         """
-        Main method: Multi-stage matching
+        Main method: Multi-stage matching with parentheses handling
 
         Returns:
             Tuple[bool, float, str]: (is_match, confidence_score, match_method)
@@ -209,32 +284,77 @@ class StadiumMatcher:
         if not name1 or not name2:
             return False, 0.0, "empty_input"
 
-        # Exact match (Stage 0)
-        if name1.lower().strip() == name2.lower().strip():
-            self.log(f"Exact match found: '{name1}' == '{name2}'", level='info')
-            return True, 1.0, "exact_match"
+        # Split names by parentheses to get variations
+        name1_outer, name1_inner = self.split_by_parentheses(name1)
+        name2_outer, name2_inner = self.split_by_parentheses(name2)
 
-        # Stage 1: Substring match
-        is_match, score = self.substring_match(name1, name2)
-        if is_match:
-            self.log(f"Substring match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
-            return True, score, "substring_match"
+        # Create list of name variations to try
+        name1_variations = [
+            (name1, ""),  # Original name
+            (name1_outer, "_outer") if name1_outer != name1 else None,  # Outer part
+            (name1_inner, "_inner") if name1_inner else None,  # Inner part
+        ]
+        name2_variations = [
+            (name2, ""),  # Original name
+            (name2_outer, "_outer") if name2_outer != name2 else None,  # Outer part
+            (name2_inner, "_inner") if name2_inner else None,  # Inner part
+        ]
 
-        # Stage 2: Token-based match
-        is_match, score = self.token_based_match(name1, name2)
-        if is_match:
-            self.log(f"Token match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
-            return True, score, "token_match"
+        # Remove None entries
+        name1_variations = [v for v in name1_variations if v is not None]
+        name2_variations = [v for v in name2_variations if v is not None]
 
-        # Stage 3: Fuzzy match as fallback
-        is_match, score = self.fuzzy_match(name1, name2)
-        if is_match:
-            self.log(f"Fuzzy match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='info')
-            return True, score, "fuzzy_match"
+        best_match = False
+        best_score = 0.0
+        best_method = "no_match"
 
-        # No match found
-        self.log(f"No match found: '{name1}' vs '{name2}' (score: {score:.2f})", level='warning')
-        return False, score, "no_match"
+        # Try all combinations of name variations
+        for n1, suffix1 in name1_variations:
+            for n2, suffix2 in name2_variations:
+                if not n1 or not n2:
+                    continue
+
+                # Create method suffix for this combination
+                method_suffix = ""
+                if suffix1 or suffix2:
+                    method_suffix = f"{suffix1}{suffix2}"
+
+                # Exact match (Stage 0)
+                if n1.lower().strip() == n2.lower().strip():
+                    method = f"exact_match{method_suffix}"
+                    self.log(f"Exact match found: '{n1}' == '{n2}' (method: {method})", level='info')
+                    return True, 1.0, method
+
+                # Stage 1: Substring match
+                is_match, score = self.substring_match(n1, n2)
+                if is_match and score > best_score:
+                    best_match = True
+                    best_score = score
+                    best_method = f"substring_match{method_suffix}"
+                    self.log(f"Substring match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+
+                # Stage 2: Token-based match
+                is_match, score = self.token_based_match(n1, n2)
+                if is_match and score > best_score:
+                    best_match = True
+                    best_score = score
+                    best_method = f"token_match{method_suffix}"
+                    self.log(f"Token match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+
+                # Stage 3: Fuzzy match as fallback
+                is_match, score = self.fuzzy_match(n1, n2)
+                if is_match and score > best_score:
+                    best_match = True
+                    best_score = score
+                    best_method = f"fuzzy_match{method_suffix}"
+                    self.log(f"Fuzzy match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+
+        if best_match:
+            return True, best_score, best_method
+
+        # No match found - return the best score from all attempts
+        self.log(f"No match found: '{name1}' vs '{name2}' (best score: {best_score:.2f})", level='warning')
+        return False, best_score, "no_match"
 
 
     def log(self, message: str, level: str = 'info'):

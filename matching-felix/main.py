@@ -299,7 +299,7 @@ def manipulate_geojson_file(filename, geojson_content):
                                         geojson_venue_name = feature['properties'].get('associated_names', 'Unknown')
                                         json_venue_name = json_venue.get('name', 'Unknown')
                                         sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(venue_sports)
-                                        log_message(f"Sports match found: GeoJSON venue '{geojson_venue_name}' <-> JSON venue '{json_venue_name}' (Sports: {sports_str})")
+                                        log_message(f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
                                     else:
                                         # Add unmatched venue with source_file from GeoJSON
                                         source_file = feature['properties'].get('source_file', 'Unknown')
@@ -341,9 +341,8 @@ def manipulate_geojson_file(filename, geojson_content):
                                             sports = feature['properties'].get('sports', [])
                                             sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
                                             match_method = highest_match.get('method', 'Unknown')
-                                            log_message(f"Name match found: GeoJSON venue '{geojson_venue_name}' <-> JSON venue '{json_venue_name}' (Sports: {sports_str}, Method: {match_method}, Confidence: {highest_match['confidence']:.2f})")
+                                            log_message(f"Name match: Method: {match_method}, Confidence: {highest_match['confidence']:.2f} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
     return manipulated_content
-
 
 def process_geojson_data():
     """
@@ -547,18 +546,14 @@ def print_file_statistics(file_stats):
     # Display detailed unmatched venue information
     if unmatched_geojson > 0:
         log_message(f"Unmatched GeoJSON venues: {unmatched_geojson}")
-        for i, venue in enumerate(file_stats['unmatched_geojson_venues'][:5]):  # Show first 5
+        for i, venue in enumerate(file_stats['unmatched_geojson_venues']):
             sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
-        if unmatched_geojson > 5:
-            log_message(f"  ... and {unmatched_geojson - 5} more")
 
     if unmatched_json > 0:
         log_message(f"Unmatched JSON venues: {unmatched_json}")
-        for i, venue in enumerate(file_stats['unmatched_json_venues'][:5]):  # Show first 5
-            log_message(f"  - {venue.get('name', 'Unknown')} (Use: {venue.get('use', 'Unknown')})")
-        if unmatched_json > 5:
-            log_message(f"  ... and {unmatched_json - 5} more")
+        for i, venue in enumerate(file_stats['unmatched_json_venues']):
+            log_message(f"  - {venue.get('name', 'Unknown')} Sports: [{venue.get('use', 'Unknown')}]")
 
     log_message("=" * 50)
 

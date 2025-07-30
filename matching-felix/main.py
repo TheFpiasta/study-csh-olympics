@@ -298,8 +298,10 @@ def manipulate_geojson_file(filename, geojson_content):
                                         transfer_venue_data(feature, json_venue, "sports_match")
                                         geojson_venue_name = feature['properties'].get('associated_names', 'Unknown')
                                         json_venue_name = json_venue.get('name', 'Unknown')
-                                        sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(venue_sports)
-                                        log_message(f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+                                        sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(
+                                            venue_sports)
+                                        log_message(
+                                            f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
                                     else:
                                         # Add unmatched venue with source_file from GeoJSON
                                         source_file = feature['properties'].get('source_file', 'Unknown')
@@ -331,18 +333,27 @@ def manipulate_geojson_file(filename, geojson_content):
                                         highest_match = all_matches[0]  # Already sorted by highest score
                                         confidence_threshold = 0.75  # Define minimum confidence threshold == fussy min score match
 
+                                        # Get both venue names and sports information
+                                        geojson_venue_name = highest_match['stadium1'].get('associated_names',
+                                                                                           'Unknown')
+                                        json_venue_name = highest_match['stadium2'].get('name', 'Unknown')
+                                        # Get sports from the original feature (since highest_match['stadium1'] might not have sports)
+                                        sports = feature['properties'].get('sports', [])
+                                        sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
+                                        match_method = highest_match.get('method', 'Unknown')
+                                        confidence = highest_match.get('confidence', 'Unknown')
+
                                         if highest_match['confidence'] >= confidence_threshold:
                                             transfer_venue_data(feature, highest_match['stadium2'], "name_match",
                                                                 highest_match['confidence'], highest_match['method'])
-                                            # Get both venue names and sports information
-                                            geojson_venue_name = highest_match['stadium1'].get('associated_names', 'Unknown')
-                                            json_venue_name = highest_match['stadium2'].get('name', 'Unknown')
-                                            # Get sports from the original feature (since highest_match['stadium1'] might not have sports)
-                                            sports = feature['properties'].get('sports', [])
-                                            sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
-                                            match_method = highest_match.get('method', 'Unknown')
-                                            log_message(f"Name match: Method: {match_method}, Confidence: {highest_match['confidence']:.2f} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+                                            log_message(
+                                                f"Name match: Method: {match_method}, Confidence: {confidence:.2f} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+                                        else:
+                                            log_message(
+                                                f"Unmatch: Confidence: ({confidence:.2f}) | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}",
+                                                level="WARNING")
     return manipulated_content
+
 
 def process_geojson_data():
     """
@@ -406,7 +417,7 @@ def collect_venue_statistics(filename, geojson_content):
         },
         'unmatched': 0,
         'unmatched_geojson_venues': [],  # List of unmatched GeoJSON venues
-        'unmatched_json_venues': []      # List of unmatched JSON venues
+        'unmatched_json_venues': []  # List of unmatched JSON venues
     }
 
     # Collect GeoJSON venue statistics
@@ -431,8 +442,7 @@ def collect_venue_statistics(filename, geojson_content):
                     # Add unmatched GeoJSON venue to the list
                     geojson_venue_info = {
                         'name': feature['properties'].get('associated_names', 'Unknown'),
-                        'sports': feature['properties'].get('sports', []),
-                        'source_file': feature['properties'].get('source_file', 'Unknown')
+                        'sports': feature['properties'].get('sports', [])
                     }
                     stats['unmatched_geojson_venues'].append(geojson_venue_info)
 
@@ -476,11 +486,16 @@ def collect_venue_statistics(filename, geojson_content):
                         for json_venue in year_data['venues']:
                             venue_name = json_venue.get('name', 'Unknown')
                             if venue_name not in matched_json_names:
+                                # Extract sports from 'use' field and convert to list format
+                                use_field = json_venue.get('use', 'Unknown')
+                                if use_field != 'Unknown':
+                                    sports = [sport.strip() for sport in use_field.split(',')]
+                                else:
+                                    sports = []
+
                                 unmatched_json_venue_info = {
                                     'name': venue_name,
-                                    'use': json_venue.get('use', 'Unknown'),
-                                    'classification': json_venue.get('classification', 'Unknown'),
-                                    'status': json_venue.get('status', 'Unknown')
+                                    'sports': sports
                                 }
                                 stats['unmatched_json_venues'].append(unmatched_json_venue_info)
                     break
@@ -547,13 +562,16 @@ def print_file_statistics(file_stats):
     if unmatched_geojson > 0:
         log_message(f"Unmatched GeoJSON venues: {unmatched_geojson}")
         for i, venue in enumerate(file_stats['unmatched_geojson_venues']):
-            sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(venue.get('sports', 'Unknown'))
+            sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
+                venue.get('sports', 'Unknown'))
             log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
 
     if unmatched_json > 0:
         log_message(f"Unmatched JSON venues: {unmatched_json}")
         for i, venue in enumerate(file_stats['unmatched_json_venues']):
-            log_message(f"  - {venue.get('name', 'Unknown')} Sports: [{venue.get('use', 'Unknown')}]")
+            sports_str = ', '.join(venue.get('sports', [])) if isinstance(venue.get('sports'), list) else str(
+                venue.get('sports', 'Unknown'))
+            log_message(f"  - {venue.get('name', 'Unknown')} (Sports: {sports_str})")
 
     log_message("=" * 50)
 
@@ -591,7 +609,8 @@ def print_total_statistics():
             if count > 0:
                 method_pct = (count / name * 100) if name > 0 else 0
                 total_pct = (count / total * 100) if total > 0 else 0
-                log_message(f"  - {method}: {count} ({method_pct:.1f}% of name matches, {total_pct:.1f}% of all venues)")
+                log_message(
+                    f"  - {method}: {count} ({method_pct:.1f}% of name matches, {total_pct:.1f}% of all venues)")
 
     log_message(f"Total matched: {matched_total} ({matched_pct:.1f}%)")
     log_message(f"Unmatched: {unmatched} ({unmatched_pct:.1f}%)")

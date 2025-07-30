@@ -315,7 +315,7 @@ def manipulate_geojson_file(filename, geojson_content):
                                         sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(
                                             venue_sports)
                                         log_message(
-                                            f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+                                            f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports json: {sports_str}, Sports geojson: {', '.join(venue_sports)}")
                                     else:
                                         # Add unmatched venue with source_file from GeoJSON
                                         source_file = feature['properties'].get('source_file', 'Unknown')

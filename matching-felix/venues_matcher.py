@@ -1,5 +1,6 @@
 import re
 import logging
+import os
 from typing import List, Dict, Tuple, Optional
 from difflib import SequenceMatcher
 
@@ -12,9 +13,62 @@ except ImportError:
     FUZZYWUZZY_AVAILABLE = False
     print("FuzzyWuzzy not available, using difflib as fallback")
 
+
 # Logging setup
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+def setup_logger(log_to_console=True, log_to_file=False, log_file_path=None, level=logging.INFO):
+    """
+    Configure the logger to log to console, file, or both.
+    
+    When logging to a file, the file is overwritten at the start of each execution,
+    rather than appending to any existing content. This ensures clean log files
+    for each run.
+    
+    Args:
+        log_to_console (bool): Whether to log to console
+        log_to_file (bool): Whether to log to file
+        log_file_path (str): Path to log file (if None, uses 'venues_matcher.log' in current directory)
+        level: Logging level (e.g., logging.INFO, logging.DEBUG)
+        
+    Returns:
+        logging.Logger: Configured logger
+    """
+    logger = logging.getLogger(__name__)
+    logger.setLevel(level)
+
+    # Remove any existing handlers
+    for handler in logger.handlers[:]:
+        logger.removeHandler(handler)
+
+    # Create formatters
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+
+    # Add console handler if requested
+    if log_to_console:
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
+
+    # Add file handler if requested
+    if log_to_file:
+        if log_file_path is None:
+            # Default log file in current directory
+            log_file_path = "venues_matcher.log"
+
+        # Ensure directory exists
+        log_dir = os.path.dirname(log_file_path)
+        if log_dir and not os.path.exists(log_dir):
+            os.makedirs(log_dir, exist_ok=True)
+
+        # Use 'w' mode to overwrite the log file instead of appending to it
+        file_handler = logging.FileHandler(log_file_path, mode='w')
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+
+    return logger
+
+
+# Default logger configuration (for backward compatibility)
+logger = setup_logger(log_to_console=True, log_to_file=False)
 
 # Global variable to store all possible matching method variants
 MATCHING_METHOD_VARIANTS = {
@@ -89,10 +143,32 @@ class StadiumMatcher:
     Multi-stage stadium name matcher using hybrid approach
     """
 
-    def __init__(self, debug: bool = False, loglevel: str = "info"):
+    def __init__(self, debug: bool = False, loglevel: str = "info",
+                 log_to_console: bool = True, log_to_file: bool = False,
+                 log_file_path: str = None):
+        """
+        Initialize the StadiumMatcher with logging configuration.
+        
+        Args:
+            debug: Enable debug mode
+            loglevel: Logging level (e.g., "info", "debug", "warning")
+            log_to_console: Whether to log to console
+            log_to_file: Whether to log to file
+            log_file_path: Path to log file (if None, uses default)
+        """
         self.debug = debug
 
-        logger.setLevel(loglevel)
+        # Convert string loglevel to logging level
+        level = getattr(logging, loglevel.upper(), logging.INFO)
+
+        # Configure logger with the specified settings
+        global logger
+        logger = setup_logger(
+            log_to_console=log_to_console,
+            log_to_file=log_to_file,
+            log_file_path=log_file_path,
+            level=level
+        )
 
         # Stadium-specific terms and their synonyms
         self.stadium_terms = {
@@ -356,7 +432,6 @@ class StadiumMatcher:
         logger.debug(f"{best_method}: {best_score:.2f}")
         logger.debug("=" * 40)
         logger.debug("")
-        logger.debug("")
         if best_match:
             return True, best_score, best_method
 
@@ -401,7 +476,10 @@ def find_stadium_matches(stadiums_list1: List[Dict],
                          name_key1: str = 'name',
                          name_key2: str = 'name',
                          debug: bool = False,
-                         loglevel: str = "info") -> List[Dict]:
+                         loglevel: str = "info",
+                         log_to_console: bool = True,
+                         log_to_file: bool = False,
+                         log_file_path: str = None) -> List[Dict]:
     """
     Finds matches between two stadium lists
 
@@ -412,11 +490,20 @@ def find_stadium_matches(stadiums_list1: List[Dict],
         name_key2: Key for stadium names in the second list
         debug: Activate debug mode
         loglevel: Logging level (e.g., "info", "debug", "warning")
+        log_to_console: Whether to log to console
+        log_to_file: Whether to log to file
+        log_file_path: Path to log file (if None, uses default)
 
     Returns:
         List[Dict]: All matches sorted by highest score
     """
-    matcher = StadiumMatcher(debug=debug, loglevel=loglevel)
+    matcher = StadiumMatcher(
+        debug=debug,
+        loglevel=loglevel,
+        log_to_console=log_to_console,
+        log_to_file=log_to_file,
+        log_file_path=log_file_path
+    )
 
     all_matches = []  # All matches with scores
 
@@ -443,6 +530,10 @@ def find_stadium_matches(stadiums_list1: List[Dict],
 
                 is_match, score, method = matcher.match(name1, name2)
 
+                logger.debug("#" * 40)
+                logger.debug(f"Matching '{name1}' with '{name2}': {is_match}, score: {score:.2f}, method: {method}")
+                logger.debug("#" * 40)
+
                 if is_match and score > best_score:
                     best_match = stadium2
                     best_score = score
@@ -461,5 +552,10 @@ def find_stadium_matches(stadiums_list1: List[Dict],
 
     # Sort by confidence score in descending order (highest score first)
     all_matches.sort(key=lambda x: x['confidence'], reverse=True)
+
+    logger.debug("-" * 80)
+    for match in all_matches:
+        logger.debug(f"Confidence: {match['confidence']:.2f}, Method: {match['method']}, "
+                     f"Match: {match['stadium1'].get(name_key1, '')} <-> {match['stadium2'].get(name_key2, '')}")
 
     return all_matches

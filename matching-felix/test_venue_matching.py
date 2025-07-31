@@ -413,13 +413,16 @@ test_data = {
 
 
 def main():
-    find_stadium_matches (
-        test_data["geoJson"],  # GeoJSON venues with associated_names
-        test_data["json"],  # JSON venues with name
-        name_key1='associated_names',  # Key for GeoJSON venue names
-        name_key2='name',  # Key for JSON venue names
+    find_stadium_matches(
+        test_data["geoJson"],
+        test_data["json"],
+        name_key1='associated_names',
+        name_key2='name',
         debug=True,
         loglevel="DEBUG",
+        log_to_console=False,
+        log_to_file=True,
+        log_file_path="test_matcher.log"
     )
 
 if __name__ == "__main__":

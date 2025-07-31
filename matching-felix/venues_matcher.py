@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Stadium Name Matching - Hybrid Approach
-Matches stadium names with variations using multiple algorithmic approaches
-"""
-
 import re
 import logging
 from typing import List, Dict, Tuple, Optional
@@ -13,6 +6,7 @@ from difflib import SequenceMatcher
 # For better fuzzy matching (optional - if not available, we use difflib)
 try:
     from fuzzywuzzy import fuzz
+
     FUZZYWUZZY_AVAILABLE = True
 except ImportError:
     FUZZYWUZZY_AVAILABLE = False
@@ -70,13 +64,35 @@ MATCHING_METHOD_VARIANTS = {
 }
 
 
+def split_by_parentheses(text: str) -> tuple[str, str]:
+    """
+    Splits a string by outer and inner parentheses content.
+
+    Args:
+        text: Input string that may contain parentheses
+
+    Returns:
+        tuple: (outer_part, inner_part) where inner_part is empty if no parentheses
+    """
+    match = re.search(r'^([^(]*)\(([^)]*)\)', text.strip())
+
+    if match:
+        outer_part = match.group(1).strip()
+        inner_part = match.group(2).strip()
+        return outer_part, inner_part
+    else:
+        return text.strip(), ""
+
+
 class StadiumMatcher:
     """
     Multi-stage stadium name matcher using hybrid approach
     """
 
-    def __init__(self, debug: bool = False):
+    def __init__(self, debug: bool = False, loglevel: str = "info"):
         self.debug = debug
+
+        logger.setLevel(loglevel)
 
         # Stadium-specific terms and their synonyms
         self.stadium_terms = {
@@ -100,26 +116,6 @@ class StadiumMatcher:
         self.filler_words = {
             "also", "known", "as"
         }
-
-    def split_by_parentheses(self, text: str) -> tuple[str, str]:
-        """
-        Splits a string by outer and inner parentheses content.
-
-        Args:
-            text: Input string that may contain parentheses
-
-        Returns:
-            tuple: (outer_part, inner_part) where inner_part is empty if no parentheses
-        """
-        match = re.search(r'^([^(]*)\(([^)]*)\)', text.strip())
-
-        if match:
-            outer_part = match.group(1).strip()
-            inner_part = match.group(2).strip()
-            return outer_part, inner_part
-        else:
-            return text.strip(), ""
-
 
     def normalize_stadium_terms(self, name: str) -> str:
         """Normalizes stadium terms to standard form"""
@@ -205,6 +201,7 @@ class StadiumMatcher:
         Stage 2: Token-based matching with intelligent synonym handling
         Good for 'Bislett Stadium' vs 'Bislett Stadion'
         """
+
         def tokenize_smart(name: str) -> set:
             # First normalize stadium terms
             normalized = self.normalize_stadium_terms(name)
@@ -285,8 +282,8 @@ class StadiumMatcher:
             return False, 0.0, "empty_input"
 
         # Split names by parentheses to get variations
-        name1_outer, name1_inner = self.split_by_parentheses(name1)
-        name2_outer, name2_inner = self.split_by_parentheses(name2)
+        name1_outer, name1_inner = split_by_parentheses(name1)
+        name2_outer, name2_inner = split_by_parentheses(name2)
 
         # Create list of name variations to try
         name1_variations = [
@@ -314,6 +311,9 @@ class StadiumMatcher:
                 if not n1 or not n2:
                     continue
 
+                logger.debug("")
+                logger.debug(f"{n1} vs {n2}")
+
                 # Create method suffix for this combination
                 method_suffix = ""
                 if suffix1 or suffix2:
@@ -322,61 +322,86 @@ class StadiumMatcher:
                 # Exact match (Stage 0)
                 if n1.lower().strip() == n2.lower().strip():
                     method = f"exact_match{method_suffix}"
-                    self.log(f"Exact match found: '{n1}' == '{n2}' (method: {method})", level='info')
+                    logger.info(f"Exact match found: '{n1}' == '{n2}' (method: {method})")
                     return True, 1.0, method
 
                 # Stage 1: Substring match
                 is_match, score = self.substring_match(n1, n2)
+                logger.debug(f"Substring match: '{n1}' vs '{n2}' (score: {score:.2f})")
                 if is_match and score > best_score:
                     best_match = True
                     best_score = score
                     best_method = f"substring_match{method_suffix}"
-                    self.log(f"Substring match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+                    logger.info(f"Substring match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
 
                 # Stage 2: Token-based match
                 is_match, score = self.token_based_match(n1, n2)
+                logger.debug(f"Token match: '{n1}' vs '{n2}' (score: {score:.2f})")
                 if is_match and score > best_score:
                     best_match = True
                     best_score = score
                     best_method = f"token_match{method_suffix}"
-                    self.log(f"Token match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+                    logger.info(f"Token match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
 
                 # Stage 3: Fuzzy match as fallback
                 is_match, score = self.fuzzy_match(n1, n2)
+                logger.debug(f"Fuzzy match: '{n1}' vs '{n2}' (score: {score:.2f})")
                 if is_match and score > best_score:
                     best_match = True
                     best_score = score
                     best_method = f"fuzzy_match{method_suffix}"
-                    self.log(f"Fuzzy match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})", level='info')
+                    logger.info(f"Fuzzy match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
 
+        logger.debug("=" * 40)
+        logger.debug(f"{best_method}: {best_score:.2f}")
+        logger.debug("=" * 40)
+        logger.debug("")
+        logger.debug("")
         if best_match:
             return True, best_score, best_method
 
         # No match found - return the best score from all attempts
-        self.log(f"No match found: '{name1}' vs '{name2}' (best score: {best_score:.2f})", level='warning')
+        logger.warning(f"No match found: '{name1}' vs '{name2}' (best score: {best_score:.2f})")
         return False, best_score, "no_match"
 
 
-    def log(self, message: str, level: str = 'info'):
-        """
-        Simple logging function to handle debug messages
-        """
-        if not self.debug:
-            return
+# def merge_stadium_metadata(match_info: Dict) -> Dict:
+#     """
+#     Merges metadata from matched stadiums
+#
+#     Args:
+#         match_info: Match information with stadium1 and stadium2
+#
+#     Returns:
+#         Dict: Merged stadium data
+#     """
+#     stadium1 = match_info['stadium1']
+#     stadium2 = match_info['stadium2']
+#
+#     # Base: Stadium1, supplemented by Stadium2
+#     merged = stadium1.copy()
+#
+#     # Merge logic (adjustable based on data structure)
+#     for key, value in stadium2.items():
+#         if key not in merged or not merged[key]:
+#             merged[key] = value
+#         elif key == 'name' and match_info['confidence'] < 0.95:
+#             # For uncertain matches, keep both names
+#             merged['alternative_name'] = value
+#
+#     # Additional metadata
+#     merged['match_confidence'] = match_info['confidence']
+#     merged['match_method'] = match_info['method']
+#     merged['merged_from'] = [stadium1.get('name', ''), stadium2.get('name', '')]
+#
+#     return merged
 
-        if level == 'debug' and not logger.isEnabledFor(logging.DEBUG):
-            return
-        if level == 'info':
-            logger.info(message)
-        elif level == 'warning':
-            logger.warning(message)
-        elif level == 'error':
-            logger.error(message)
-        elif level == 'critical':
-            logger.critical(message)
-
-def find_stadium_matches(stadiums_list1: List[Dict], stadiums_list2: List[Dict],
-                         name_key1: str = 'name', name_key2: str = 'name', debug: bool = False) -> List[Dict]:
+def find_stadium_matches(stadiums_list1: List[Dict],
+                         stadiums_list2: List[Dict],
+                         name_key1: str = 'name',
+                         name_key2: str = 'name',
+                         debug: bool = False,
+                         loglevel: str = "info") -> List[Dict]:
     """
     Finds matches between two stadium lists
 
@@ -386,11 +411,12 @@ def find_stadium_matches(stadiums_list1: List[Dict], stadiums_list2: List[Dict],
         name_key1: Key for stadium names in the first list
         name_key2: Key for stadium names in the second list
         debug: Activate debug mode
+        loglevel: Logging level (e.g., "info", "debug", "warning")
 
     Returns:
         List[Dict]: All matches sorted by highest score
     """
-    matcher = StadiumMatcher(debug=debug)
+    matcher = StadiumMatcher(debug=debug, loglevel=loglevel)
 
     all_matches = []  # All matches with scores
 
@@ -437,35 +463,3 @@ def find_stadium_matches(stadiums_list1: List[Dict], stadiums_list2: List[Dict],
     all_matches.sort(key=lambda x: x['confidence'], reverse=True)
 
     return all_matches
-
-
-def merge_stadium_metadata(match_info: Dict) -> Dict:
-    """
-    Merges metadata from matched stadiums
-
-    Args:
-        match_info: Match information with stadium1 and stadium2
-
-    Returns:
-        Dict: Merged stadium data
-    """
-    stadium1 = match_info['stadium1']
-    stadium2 = match_info['stadium2']
-
-    # Base: Stadium1, supplemented by Stadium2
-    merged = stadium1.copy()
-
-    # Merge logic (adjustable based on data structure)
-    for key, value in stadium2.items():
-        if key not in merged or not merged[key]:
-            merged[key] = value
-        elif key == 'name' and match_info['confidence'] < 0.95:
-            # For uncertain matches, keep both names
-            merged['alternative_name'] = value
-
-    # Additional metadata
-    merged['match_confidence'] = match_info['confidence']
-    merged['match_method'] = match_info['method']
-    merged['merged_from'] = [stadium1.get('name', ''), stadium2.get('name', '')]
-
-    return merged

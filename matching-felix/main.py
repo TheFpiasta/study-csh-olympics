@@ -295,78 +295,109 @@ def manipulate_geojson_file(filename, geojson_content):
                         if isinstance(venue_sports, list):
                             # Try to find matching venue in JSON data
                             unmatched_venues = []
-                            for json_venue in year_data['venues']:
-                                if 'use' in json_venue:
-                                    # Parse comma-separated sports from JSON venue
-                                    json_venue_sports = [sport.strip() for sport in json_venue['use'].split(',')]
-
-                                    # Check if all GeoJSON venue sports are in JSON venue sports
-                                    sports_match = all(
-                                        any(geojson_sport.lower() in json_sport.lower() or
-                                            json_sport.lower() in geojson_sport.lower()
-                                            for json_sport in json_venue_sports)
-                                        for geojson_sport in venue_sports
-                                    )
-
-                                    if sports_match:
-                                        transfer_venue_data(feature, json_venue, "sports_match")
-                                        geojson_venue_name = feature['properties'].get('associated_names', 'Unknown')
-                                        json_venue_name = json_venue.get('name', 'Unknown')
-                                        sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(
-                                            venue_sports)
-                                        log_message(
-                                            f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports json: {sports_str}, Sports geojson: {', '.join(venue_sports)}")
-                                    else:
-                                        # Add unmatched venue with source_file from GeoJSON
-                                        source_file = feature['properties'].get('source_file', 'Unknown')
-                                        unmatched_venues.append(source_file)
+                            match_by_sports(feature, unmatched_venues, venue_sports, year_data)
 
                             # If we have unmatched venues, try to find matches using venue name matching
                             if unmatched_venues:
-                                # Find the corresponding GeoJSON venues for the unmatched source files
-                                unmatched_geojson_venues = []
-                                for source_file in unmatched_venues:
-                                    # Find venues in current GeoJSON that match this source_file
-                                    for geojson_feature in manipulated_content['features']:
-                                        if (geojson_feature.get('properties', {}).get('source_file') == source_file and
-                                                'associated_names' in geojson_feature.get('properties', {})):
-                                            unmatched_geojson_venues.append(geojson_feature['properties'])
-
-                                if unmatched_geojson_venues:
-                                    # Use find_stadium_matches to find the best matches
-                                    all_matches = find_stadium_matches(
-                                        unmatched_geojson_venues,  # GeoJSON venues with associated_names
-                                        year_data['venues'],  # JSON venues with name
-                                        name_key1='associated_names',  # Key for GeoJSON venue names
-                                        name_key2='name',  # Key for JSON venue names
-                                        debug=False
-                                    )
-
-                                    # Check if we have matches and if the highest score is over threshold
-                                    if all_matches:
-                                        highest_match = all_matches[0]  # Already sorted by highest score
-                                        confidence_threshold = 0.75  # Define minimum confidence threshold == fussy min score match
-
-                                        # Get both venue names and sports information
-                                        geojson_venue_name = highest_match['stadium1'].get('associated_names',
-                                                                                           'Unknown')
-                                        json_venue_name = highest_match['stadium2'].get('name', 'Unknown')
-                                        # Get sports from the original feature (since highest_match['stadium1'] might not have sports)
-                                        sports = feature['properties'].get('sports', [])
-                                        sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
-                                        match_method = highest_match.get('method', 'Unknown')
-                                        confidence = highest_match.get('confidence', 'Unknown')
-
-                                        if highest_match['confidence'] >= confidence_threshold:
-                                            transfer_venue_data(feature, highest_match['stadium2'], "name_match",
-                                                                highest_match['confidence'], highest_match['method'])
-                                            log_message(
-                                                f"Name match: Confidence: {confidence:.2f}, Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
-                                        else:
-                                            log_message(
-                                                f"Unmatch: Confidence: ({confidence:.2f}), Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}",
-                                                level="WARNING")
+                                match_by_venues(feature, manipulated_content, unmatched_venues, year_data)
     return manipulated_content
+
+
+def match_by_venues(feature, manipulated_content, unmatched_venues, year_data):
+    """
+    Match unmatched venues by name using the find_stadium_matches function.
+    This function looks for venues in the GeoJSON that match the source files of unmatched venues
+    and transfers the matched data to the GeoJSON feature.
+
+    :param feature: the GeoJSON feature to update
+    :param manipulated_content: the manipulated GeoJSON content
+    :param unmatched_venues: list of unmatched venue source files from GeoJSON
+    :param year_data: the JSON data for the specific year containing venue information
+    :return: None
+    """
+
+    # Find the corresponding GeoJSON venues for the unmatched source files
+    unmatched_geojson_venues = []
+    for source_file in unmatched_venues:
+        # Find venues in current GeoJSON that match this source_file
+        for geojson_feature in manipulated_content['features']:
+            if (geojson_feature.get('properties', {}).get('source_file') == source_file and
+                    'associated_names' in geojson_feature.get('properties', {})):
+                unmatched_geojson_venues.append(geojson_feature['properties'])
+    if unmatched_geojson_venues:
+        # Use find_stadium_matches to find the best matches
+        all_matches = find_stadium_matches(
+            unmatched_geojson_venues,  # GeoJSON venues with associated_names
+            year_data['venues'],  # JSON venues with name
+            name_key1='associated_names',  # Key for GeoJSON venue names
+            name_key2='name',  # Key for JSON venue names
+            debug=False,
+        )
+
+        # Check if we have matches and if the highest score is over threshold
+        if all_matches:
+            highest_match = all_matches[0]  # Already sorted by highest score
+            confidence_threshold = 0.75  # Define minimum confidence threshold == fussy min score match
+
+            # Get both venue names and sports information
+            geojson_venue_name = highest_match['stadium1'].get('associated_names',
+                                                               'Unknown')
+            json_venue_name = highest_match['stadium2'].get('name', 'Unknown')
+            # Get sports from the original feature (since highest_match['stadium1'] might not have sports)
+            sports = feature['properties'].get('sports', [])
+            sports_str = ', '.join(sports) if isinstance(sports, list) else str(sports)
+            match_method = highest_match.get('method', 'Unknown')
+            confidence = highest_match.get('confidence', 'Unknown')
+
+            if highest_match['confidence'] >= confidence_threshold:
+                transfer_venue_data(feature, highest_match['stadium2'], "name_match",
+                                    highest_match['confidence'], highest_match['method'])
+                log_message(
+                    f"Name match: Confidence: {confidence:.2f}, Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}")
+            else:
+                log_message(
+                    f"Unmatch: Confidence: ({confidence:.2f}), Method: {match_method} | JSON venue '{json_venue_name}' <-> GeoJSON venue {geojson_venue_name} | Sports: {sports_str}",
+                    level="WARNING")
+
+
+def match_by_sports(feature, unmatched_venues, venue_sports, year_data):
+    """
+    Match GeoJSON venue sports with JSON venue sports.
+    This function checks if the sports associated with a GeoJSON venue
+    match any of the sports listed in the JSON venue data for the same year.
+
+    :param feature: the GeoJSON feature (venue) to update
+    :param unmatched_venues: list to store unmatched venue source files
+    :param venue_sports: the sports associated with the GeoJSON venue
+    :param year_data: the JSON data for the specific year containing venue information
+    :return: None
+    """
+
+    for json_venue in year_data['venues']:
+        if 'use' in json_venue:
+            # Parse comma-separated sports from JSON venue
+            json_venue_sports = [sport.strip() for sport in json_venue['use'].split(',')]
+
+            # Check if all GeoJSON venue sports are in JSON venue sports
+            sports_match = all(
+                any(geojson_sport.lower() in json_sport.lower() or
+                    json_sport.lower() in geojson_sport.lower()
+                    for json_sport in json_venue_sports)
+                for geojson_sport in venue_sports
+            )
+
+            if sports_match:
+                transfer_venue_data(feature, json_venue, "sports_match")
+                geojson_venue_name = feature['properties'].get('associated_names', 'Unknown')
+                json_venue_name = json_venue.get('name', 'Unknown')
+                sports_str = ', '.join(venue_sports) if isinstance(venue_sports, list) else str(
+                    venue_sports)
+                log_message(
+                    f"Sport match: JSON venue {json_venue_name} <-> GeoJSON venue {geojson_venue_name} | Sports json: {sports_str}, Sports geojson: {', '.join(venue_sports)}")
+            else:
+                # Add unmatched venue with source_file from GeoJSON
+                source_file = feature['properties'].get('source_file', 'Unknown')
+                unmatched_venues.append(source_file)
 
 
 def process_geojson_data():
@@ -536,7 +567,7 @@ def collect_venue_statistics(filename, geojson_content):
                                 # Find the match method for this JSON venue
                                 for feature in geojson_content.get('features', []):
                                     if (feature.get('properties', {}).get('matched_venue_name') == venue_name and
-                                        feature.get('properties', {}).get('match_type') == 'name_match'):
+                                            feature.get('properties', {}).get('match_type') == 'name_match'):
                                         match_method = feature.get('properties', {}).get('match_method')
                                         if match_method and match_method in stats['json']['name_matches_by_method']:
                                             stats['json']['name_matches_by_method'][match_method] += 1

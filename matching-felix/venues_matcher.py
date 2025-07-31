@@ -60,7 +60,7 @@ def setup_logger(log_to_console=True, log_to_file=False, log_file_path=None, lev
             os.makedirs(log_dir, exist_ok=True)
 
         # Use 'w' mode to overwrite the log file instead of appending to it
-        file_handler = logging.FileHandler(log_file_path, mode='w')
+        file_handler = logging.FileHandler(log_file_path, mode='w', encoding='utf-8')
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
@@ -189,6 +189,7 @@ class StadiumMatcher:
             'villa', 'borgo', 'di', 'del', 'della', 'des', 'du', 'de', 'van', 'von',
         }
 
+        # Common filler words that can be ignored during matching
         self.filler_words = {
             "also", "known", "as"
         }

@@ -1,0 +1,1348 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.323029,
+          54.475923
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Außenförde",
+          "Outer Fjord"
+        ],
+        "place": "Kiel-Schilksee",
+        "coordinates": "54.475923,10.323029",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_512.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympia Hafen",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.41807,
+          48.010292
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Autobahn München - Lindau, Ausfahrt Schäftlarn",
+          "Highway München - Lindau, Schäftlarn Exit"
+        ],
+        "place": "Schäftlarn",
+        "coordinates": "48.010292,11.418070",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_515.json",
+        "Olympics": "1972 Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.525425,
+          48.126001
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Basketballhalle, Siegenburger Straße",
+          "Basketball Hall, Siegenburger Street",
+          "Rudi-Sedlmayer-Halle (?-Present)"
+        ],
+        "place": "München",
+        "coordinates": "48.126001,11.525425",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Judo"
+        ],
+        "opened": "1972",
+        "type": "indoor venue",
+        "source_file": "venue_516.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Basketball Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Basketball, judo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.593559,
+          48.157147
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bogenschießanlage, Englischer Garten",
+          "Archery Range, English Garden"
+        ],
+        "place": "München",
+        "coordinates": "48.157147,11.593559",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1789",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_517.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Archery Range",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Archery",
+        "venue_information": "This was in the Englischer Garten (English Garden), a large public city-centre park created in 1789. The temporary range was located in a part of the park known as the Werneckwiese.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.557724,
+          48.175029
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Boxhalle, Olympiapark",
+          "Boxing Hall, Olympic Park",
+          "Olympia-Eissportzentrum (?-Present)"
+        ],
+        "place": "München",
+        "coordinates": "48.175029,11.557724",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1967",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "source_file": "venue_518.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Boxing Hall",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Boxing, judo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.531138,
+          48.167488
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dantebad",
+          "Dante Baths"
+        ],
+        "place": "München",
+        "coordinates": "48.167488,11.531138",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_519.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.9649999999999999,
+        "matched_venue_name": "Dante Bath",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Water polo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.012,
+          48.41266
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Donauhalle",
+          "Donau Hall"
+        ],
+        "place": "Ulm",
+        "coordinates": "48.412660,10.012000",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_520.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Donauhalle",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Handball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.422981,
+          48.564755
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Drei-Flüsse-Stadion",
+          "Three Rivers Stadium"
+        ],
+        "place": "Passau",
+        "coordinates": "48.564755,13.422981",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1969",
+        "type": "outdoor venue",
+        "source_file": "venue_521.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.89,
+        "matched_venue_name": "Drei Flüsse Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.502203,
+          48.158206
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dressuranlage, Nymphenburg",
+          "Dressage Grounds, Nymphenburg"
+        ],
+        "place": "München",
+        "coordinates": "48.158206,11.502203",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage"
+        ],
+        "opened": "1675",
+        "type": "outdoor venue",
+        "source_file": "venue_522.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Nymphenburg Palace",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Dressage",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.442754,
+          48.744294
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "ESV-Stadion",
+          "ESV Stadium",
+          "Tuja-Stadion (2008-Present)"
+        ],
+        "place": "Ingolstadt",
+        "coordinates": "48.744294,11.442754",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1932",
+        "type": "outdoor venue",
+        "source_file": "venue_523.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "ESV Ingolstadt Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.540263,
+          48.13323
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fechthalle 1, Messegelände (Halle 11 & 12)",
+          "Fencing Hall 1, Exhibition Lands (Hall 11 & 12)"
+        ],
+        "place": "München",
+        "coordinates": "48.133230,11.540263",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_524.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fencing Hall 1",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.543892,
+          48.128874
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fechthalle 2, Messegelände (Halle 20)",
+          "Fencing Hall 1, Exhibition Lands (Hall 20)"
+        ],
+        "place": "München",
+        "coordinates": "48.128874,11.543892",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_525.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fencing Hall 1",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.541988,
+          48.132598
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gewichtheberhalle, Messegelände (Halle 7)",
+          "Weightlifting Hall, Exhibition Lands (Hall 7)"
+        ],
+        "place": "München",
+        "coordinates": "48.132598,11.541988",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_526.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Weightlifting Hall",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Weightlifting",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.54309,
+          48.183997
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hockeyanlage, Olympiapark",
+          "Hockey Grounds, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.183997,11.543090",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_527.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hockey Fields",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Hockey",
+        "venue_information": "Comprising seven pitches, the 1972 Olympic Games hockey venue was located in the northern section of the Olympic Park. The pitches remain in place and are part of the Zentraler Hochschulsport München (ZHS)'s sports facilities. One of them has been converted into a baseball diamond that is used by the München Caribes club, and another has been turned into an artificial football pitch used by the club SV Olympiadorf München eV. The venue's grandstands – the largest of which had a capacity of 10,000 – were removed after the Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.648099,
+          48.710706
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hohenstaufenhalle",
+          "Hohenstaufen Hall",
+          "EWS-Arena (2008-Present)"
+        ],
+        "place": "Göppingen",
+        "coordinates": "48.710706,9.648099",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "source_file": "venue_528.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hohenstaufenhalle",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Handball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.073967,
+          49.015602
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jahnstadion",
+          "Jahn Stadium"
+        ],
+        "place": "Regensburg",
+        "coordinates": "49.015602,12.073967",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Mostly demolished in 2017 and replaced by apartments and a school.",
+        "opened": "1926",
+        "demolished": "2017",
+        "type": "outdoor venue",
+        "source_file": "venue_529.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "ESV Ingolstadt Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.936672,
+          48.348456
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kanuslalomanlage",
+          "Canoe Slalom Course",
+          "Eiskanal"
+        ],
+        "place": "Augsburg",
+        "coordinates": "48.348456,10.936672",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "1971",
+        "type": "outdoor venue",
+        "source_file": "venue_530.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.7899999999999999,
+        "matched_venue_name": "Canoe Slalom Course at the Eiskanal",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe slalom",
+        "venue_information": "The course continues to host international, national and regional competitions, and is the home of Germany's National/Olympic Training Centre and two local canoe clubs. The venue for the 2011 ICF Wildwater Canoeing Sprint World Championships and the ICF Canoe Slalom European Championships in 1996 and 2012, it has hosted more than 20 ICF World Cup events. It will stage the ICF Canoe Slalom World Championships for a fourth time in 2022 and has been refurbished for the event, with the existing organisation centre and boathouse being renovated. The venue's grass terraces can accommodate crowds of between 8,000 and 10,000.\n\nThe course was first used as a canoe slalom venue in the 1950s. In preparation for Munich 1972, a sculpted concrete floor was created in the channel and the course was made steeper. Water flow from the weir at the top of the channel can be controlled to provide the necessary canoeing conditions. As a result, the course does not use pumps, making it more cost-efficient to run. Since 2019, the Olympic canoe slalom course has been part of the UNESCO World Heritage site of Augsburg.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.158534,
+          54.344776
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hindenburgufer, Kieler Förde",
+          "Hindenburg Shore"
+        ],
+        "place": "Kiel",
+        "coordinates": "54.344776,10.158534",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Waterskiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_531.json",
+        "Olympics": "1972 Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.821375,
+          48.173498
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Military-Gelände Poing",
+          "Military Lands Poing"
+        ],
+        "place": "Poing",
+        "coordinates": "48.173498,11.821375",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_532.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Military-Gelände Poing, Poing/Riem",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.515818,
+          48.243282
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Regattastrecke, Oberschleißheim",
+          "Olympic Regatta Course, Oberschleißheim"
+        ],
+        "place": "München",
+        "coordinates": "48.243282,11.515818",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "source_file": "venue_533.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.902,
+        "matched_venue_name": "Munich Olympic Regatta Course",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": "Measuring 2,230 metres long and 140 metres wide, the course remains an active competition and recreational site. Since the 1972 Olympic Games, it has welcomed several major competitions, including two FISA Rowing World Championships and the 2021 European Rowing Junior Championships, as well regional and local triathlon and open-water swimming events.\n\nUsed by schools and universities, the facility is home to ten local water sports clubs, the Bavarian Rowing Association and the Bavarian Canoeing Association. The course has been a Para-canoe and Para-rowing training hub since 2015, and has training facilities for archery, volleyball, speed skating, skiing, triathlon and running. It also hosts a public water sports day every year, and part of the course is open for swimming in the summer months. The course's facilities were the subject of a preservation order in 2018 and will undergo refurbishment in preparation for the rowing competitions at the multisport European Championships Munich 2022.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.546572,
+          48.173144
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiastadion, Olympiapark",
+          "Olympic Stadium, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.173144,11.546572",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Modern Pentathlon",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "522 m",
+        "source_file": "venue_534.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Munich Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, equestrian (jumping), modern pentathlon (running), Opening and Closing Ceremonies",
+        "venue_information": "This multi-purpose stadium had a capacity of 77,000 at Games time. This has now been reduced to 69,250. A Munich landmark, it forms part of the city's Olympic Park and stages a wide variety of sporting and cultural events.\n\nThe home ground of football clubs Bayern Munich and TSV 1860 Munich for many years, it was the venue for the finals of the 1974 FIFA World Cup and the 1988 UEFA European Championships. It also staged the 2012 Special Olympics and is a major athletics venue, having hosted the 2002 European Championships and the IAAF Grand Prix Athletics Final in 1999. A venue at the multi-sport European Championships Munich 2022, it is the finish point of the annual Munich Marathon and hosts the Oktoberfest rugby sevens tournament. The stadium is also a popular concert venue."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.316677,
+          54.350004
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Passader See",
+        "coordinates": "54.350004,10.316677",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Waterskiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_536.json",
+        "Olympics": "1972 Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.540998,
+          48.169821
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Radstadion, Olympiapark",
+          "Cycling Stadium, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.169821,11.540998",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1972",
+        "type": "outdoor venue",
+        "dimensions": "285.714 m",
+        "surface": "Wood",
+        "additional_details": "48.32° curves, 11.56° straights. Partially covered.",
+        "source_file": "venue_537.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Cycling Stadium (Olympia-Radstadion)",
+        "venue_classification": "New build",
+        "venue_status": "Not in use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The venue performed many functions after the 1972 Olympic Games. It housed an interactive museum before being renamed the Event Arena in 2004 and becoming a congress centre and exhibition venue. The venue was demolished in 2015 to make way for a 11,500-capacity multi-purpose sports arena that is scheduled to open in 2023."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.669905,
+          48.145659
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Reitstadion, Riem",
+          "Riding Stadium, Riem"
+        ],
+        "place": "München",
+        "coordinates": "48.145659,11.669905",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1971",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_538.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Reitstadion, Riem/Riding Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing, jumping, modern pentathlon (equestrian)",
+        "venue_information": "The home of the Munich Riding Academy, the Bavarian Riding and Driving Association and the Regional Association of Bavarian Horse Breeders, this 27-hectare venue was rebuilt and expanded for the 1972 Olympic Games. The Riding Academy was founded in 1958 and organises jumping and dressage tournaments, equestrian festivals and instruction for young riders.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.540392,
+          48.132449
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ringer-Judo-Halle, Messegelände (Halle 14)",
+          "Wrestling-Judo Hall, Exhibition Lands (Hall 14)"
+        ],
+        "place": "München",
+        "coordinates": "48.132449,11.540392",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Wrestling"
+        ],
+        "opened": "1970",
+        "type": "indoor venue",
+        "source_file": "venue_539.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.867,
+        "matched_venue_name": "Wrestling and Judo Hall",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Wrestling, judo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.875982,
+          48.355322
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rosenau-Stadion",
+          "Rosenau Stadium"
+        ],
+        "place": "Augsburg",
+        "coordinates": "48.355322,10.875982",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1951",
+        "type": "outdoor venue",
+        "source_file": "venue_540.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Rosenau Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5337,
+          48.050438
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rundkurs Grünwald",
+          "Grünwald Course"
+        ],
+        "place": "Grünwald",
+        "coordinates": "48.050438,11.5337",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_541.json",
+        "Olympics": "1972 Munich"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.602474,
+          48.23142
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schießanlage, Hochbrück",
+          "Shooting Range, Hochbrück"
+        ],
+        "place": "München",
+        "coordinates": "48.231420,11.602474",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_542.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting, modern pentathlon (shooting)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.551673,
+          48.173548
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schwimmhalle, Olympiapark",
+          "Swimming Hall, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.173548,11.551673",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_543.json",
+        "Olympics": "1972 Munich",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Swimming Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+        "venue_information": "A training centre for local water sports clubs, schools and Munich's Technical University, the venue has staged the German Swimming Championships six times, and welcomed 21 million visitors between 1973 and 2017. Located in the Olympic Park, it has a 50m main pool, a diving well, a 50m warm-up pool and a paddling area for children. The facility was extensively refurbished in 2019, as part of which the pools, the water-treatment and fire-protection systems were upgraded."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.880126,
+          48.356395
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sporthalle Augsburg",
+          "Augsburg Sports Hall"
+        ],
+        "place": "Augsburg",
+        "coordinates": "48.356395,10.880126",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1965",
+        "type": "indoor venue",
+        "source_file": "venue_544.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.7969999999999999,
+        "matched_venue_name": "Sports Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, handball",
+        "venue_information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.01734,
+          48.678271
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sporthalle Böblingen",
+          "Böblingen Sports Hall"
+        ],
+        "place": "Böblingen",
+        "coordinates": "48.678271,9.017340",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1966",
+        "demolished": "2008",
+        "type": "indoor venue",
+        "source_file": "venue_545.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 0.7889999999999999,
+        "matched_venue_name": "Sports Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, handball",
+        "venue_information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.549839,
+          48.175022
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sporthalle, Olympiapark (also known as Olympiahalle)",
+          "Sports Hall, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.175022,11.549839",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball"
+        ],
+        "opened": "1972",
+        "type": "indoor venue",
+        "source_file": "venue_546.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sports Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, handball",
+        "venue_information": "Now known as the Olympiahalle, the venue is located in the Olympic Park and was its most visited venue in 2019, attracting over 970,000 visitors across 158 event days. Designed as a multi-purpose building, it has staged many international competitions and cultural events since the 1972 Olympic Games, including the World Figure Skating Championships on two occasions, and the 1993 IIHF Ice Hockey World Championships finals. It is also a popular venue for shows and music concerts. It underwent renovations between 2007 and 2019 while continuing to operate.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.125728,
+          49.42623
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Städtisches Stadion",
+          "Municipal Stadium",
+          "Frankenstadion (1991-2006), easyCredit Stadion (2006-Present)"
+        ],
+        "place": "Nürnberg",
+        "coordinates": "49.426230,11.125728",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1928",
+        "type": "outdoor venue",
+        "source_file": "venue_547.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Municipal Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.545091,
+          48.1792
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Volleyballhalle, Olympiapark",
+          "Volleyball Hall, Olympic Park"
+        ],
+        "place": "München",
+        "coordinates": "48.179200,11.545091",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1972",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Volleyball"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_548.json",
+        "Olympics": "1972 Munich",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Volleyball Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Volleyball",
+        "venue_information": ""
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1972",
+    "olympics_city": "Munich",
+    "olympics_season": "summer"
+  }
+}

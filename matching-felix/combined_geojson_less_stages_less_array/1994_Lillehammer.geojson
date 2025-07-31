@@ -1,0 +1,457 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.448213,
+          61.235702
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hafjell Alpinsenter",
+          "Hafjell Alpine Centre"
+        ],
+        "place": "Øyer",
+        "coordinates": "61.235702,10.448213",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Freestyle Skiing",
+          "Mixed Sports",
+          "Snowboarding"
+        ],
+        "opened": "1988",
+        "seating_capacity": "23237",
+        "type": "outdoor venue",
+        "source_file": "venue_61.json",
+        "Olympics": "1994 Lillehammer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.167074,
+          61.470246
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kvitfjell Alpinsenter",
+          "Kvitfjell Alpine Centre"
+        ],
+        "place": "Ringebu",
+        "coordinates": "61.470246,10.167074",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1991",
+        "seating_capacity": "38150",
+        "type": "outdoor venue",
+        "source_file": "venue_62.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lillehammer Olympic Alpine Centre, Kvitfjell",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "A popular ski resort with 34km of slopes, Kvitfjell offers runs for skiers of all ages and abilities, as well as cross-country trails and three kilometres of floodlit runs for night skiing. It is Norway's national venue for the speed disciplines in Alpine skiing and has hosted World Cup events every year since 1995."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.504839,
+          61.136255
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Birkebeineren Skistadion",
+          "Birkebeineren Ski Stadium"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.136255,10.504839",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Mixed Sports",
+          "Nordic Combined"
+        ],
+        "opened": "1994",
+        "seating_capacity": "31000",
+        "type": "outdoor venue",
+        "altitude": "485 m",
+        "source_file": "venue_63.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Birkebeineren Ski Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Biathlon, cross-country skiing, Nordic combined",
+        "venue_information": "The venue's 27km of cross-country trails and 9km of biathlon trails are still used extensively, and have hosted several FIS Cross-Country World Cup, Biathlon World Cup and Nordic Combined World Cup events. During the summer, they are popular with walkers, joggers, mountain bikers and roller skiers."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.487222,
+          61.125
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lysgårdsbakkene",
+          "Lysgårdsbakkene Ski Jumping Arena"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.125,10.487222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Mixed Sports",
+          "Nordic Combined",
+          "Ski Jumping",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1992",
+        "seating_capacity": "37713",
+        "type": "outdoor venue",
+        "source_file": "venue_64.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Lysgårdsbakkene Ski Jumping Arena",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ski jumping, Nordic combined, Opening and Closing Ceremonies",
+        "venue_information": "Home to both a large and a small hill, the venue was refurbished in 2007, when plastic matting was installed to enable year-round training and jumping. It is one of three national ski jumping training centres in Norway and has been the venue for several international competitions, including the FIS Ski Jump World Cup and 'Raw Air', a FIS Ski Jumping World Cup event. Around 100,000 jumps are made on the two hills every year."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.684844,
+          60.793078
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiske Fjellhall",
+          "Olympic Cavern Hall"
+        ],
+        "place": "Gjøvik",
+        "coordinates": "60.793078,10.684844",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey",
+          "Short Track Speed Skating"
+        ],
+        "opened": "1993",
+        "seating_capacity": "5365",
+        "type": "indoor venue",
+        "source_file": "venue_65.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 0.894,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Gjøvik Olympic Cavern Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "The venue was built inside a mountain to ensure stable year-round temperatures and keep energy costs low. Open to the public most days of the year, its ice rink staged the 1995 World Short Track Speed Skating Championships and was the venue for the short track speed skating events at the Winter Youth Olympic Games Lillehammer 2016. The hall also hosted matches at the 1999 European Women's Handball Championships."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.099792,
+          60.79315
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiahall (also known as Vikingskipet)",
+          "Olympic Hall"
+        ],
+        "place": "Hamar",
+        "coordinates": "60.79315,11.099792",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1993",
+        "seating_capacity": "10629",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "133 m",
+        "source_file": "venue_66.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hamar Olympic Hall (Vikingskipet)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "This 10,600-capacity venue is Norway's national arena for bandy (an 11-a-side version of ice hockey that uses a ball instead of a puck) and speed skating. It hosted the ISU Speed Skating World Cup as recently as 2019. Known locally as \"the Viking Ship\", Hamar Olympic Hall is a multi-purpose venue that accommodates football, cycling, athletics, curling, motorsports and equestrian sports. It also has a golf driving range. Among other events, it stages skating shows and competitions, trade shows, exhibitions and concerts, with both Beyoncé and Stevie Wonder having performed there.",
+        "match_method": "fuzzy_match_inner_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.038342,
+          60.801059
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "OL-Amfi (also known as Nordlyshallen)",
+          "Olympic Amphitheatre"
+        ],
+        "place": "Hamar",
+        "coordinates": "60.801059,11.038342",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "opened": "1992",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "source_file": "venue_67.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 0.909,
+        "matched_venue_name": "Hamar Olympic Amphitheatre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Figure skating, short track speed skating",
+        "venue_information": "An indoor sports arena with a capacity of 7,000, it is mostly used for ice hockey and is the home of Storhamar Hockey, which plays in Norway's second tier. It is also used for short track speed skating, figure skating, handball, events and concerts. Over the years, the venue has staged matches of the 1999 IIHF World Championships, the 1999 IHF World Women's Handball Championship, the 2012 IPC Ice Sledge Hockey World Championships, and the Winter Youth Olympic Games Lillehammer 2016.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.474063,
+          61.12382
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Håkons Hall",
+          "Håkon Hall"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.12382,10.474063",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1993",
+        "seating_capacity": "10405",
+        "type": "indoor venue",
+        "source_file": "venue_68.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Håkon Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "A 12,500-capacity multi-purpose venue used for sport, recreation and culture. Its ice hockey rink, which staged matches at the 1999 IIHF World Championships, can be converted into four handball or futsal courts, six volleyball courts or eight badminton courts. The hall hosted matches at the 2008 European Men's Handball Championships, and also has an indoor golf centre with two golf simulators, a fitness centre and an indoor running track. A venue for events as diverse as the 2004 Junior Eurovision Song Contest and the 2018 World Logging Championship, it has staged numerous concerts and comedy shows, and is also used as a conference centre. It is one of five Olympic venues located at Lillehammer Olympiapark. Birkebeineren Ski and Biathlon Stadium, Lysgårdsbakkene Ski Jumping Arena, the Lillehammer Olympic Bobsleigh and Luge Track, and the Kanthaugen Freestyle Arena are the others. It also hosted the Learn & Share program and was the dining hall for all athletes during the Winter Youth Olympic Games in 2016.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.420425,
+          61.219683
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiske Bob- og Akebane",
+          "Bobsleigh and Luge Track"
+        ],
+        "place": "Hunderfossen",
+        "coordinates": "61.219683,10.420425",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          },
+          {
+            "year": "2016",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "opened": "1992",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "altitude": "384 m",
+        "source_file": "venue_69.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 0.7969999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Lillehammer Olympic Bobsleigh and Luge Track",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Bobsleigh, luge",
+        "venue_information": "It has been the venue for major international competitions such as the 1995 FIL World Luge Championships, and offers a range of sliding activities for visitors all year round. These include wheelbob in the summer and bob-raft, taxibob (a bobsled driven by a professional) and skeleton in the winter."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.487222,
+          61.125
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kanthaugen Freestyle Arena",
+          "Kanthaugen Freestyle Arena"
+        ],
+        "place": "Lillehammer",
+        "coordinates": "61.125,10.487222",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1994",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "opened": "1993",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_70.json",
+        "Olympics": "1994 Lillehammer",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kanthaugen Freestyle Arena",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Freestyle skiing",
+        "venue_information": "Its three hills – one each for aerials, moguls and ski ballet – were laid out in such a way as to minimise damage to the surrounding forest. The arena hosted the FIS Freestyle Skiing World Cup in 1993 and 1995. It has not hosted any freestyle skiing activities since then, but tobogganing and alpine skiing for kids are just some of the other popular pursuits that the arena offers.",
+        "match_method": "exact_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1994",
+    "olympics_city": "Lillehammer",
+    "olympics_season": "winter"
+  }
+}

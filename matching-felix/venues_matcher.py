@@ -172,11 +172,91 @@ class StadiumMatcher:
 
         # Stadium-specific terms and their synonyms
         self.stadium_terms = {
-            'stadium': ['stadion', 'arena', 'ground'],
-            'park': ['idrettspark', 'idrettsplass'],
-            'field': ['felt', 'campo', 'terrain'],
-            'center': ['centre', 'centrum', 'senter'],
+            # 'stadium': ['stadion', 'arena', 'ground'],
+            # 'park': ['idrettspark', 'idrettsplass'],
+            # 'field': ['felt', 'campo', 'terrain'],
+            # 'center': ['centre', 'centrum', 'senter'],
         }
+        # self.stadium_terms = {
+        #     'stadium': ['Stadium', 'Stadion', 'Stadio', 'Estádio', 'Estadio'],
+        #     'arena': ['Arena', 'Aréna'],
+        #     'park': ['Park', 'Parc', 'Parque', 'Koen'],
+        #     'field': ['Field', 'Feld', 'Campo', 'Champ'],
+        #     'centre': ['Centre', 'Center', 'Centro', 'Zentrum', 'Zhongxin'],
+        #     'hall': ['Hall', 'Halle', 'Hala', 'Salle', 'Horu'],
+        #     'dome': ['Dome', 'Dôme'],
+        #     'pool': ['Pool', 'Piscina', 'Piscine', 'Bassin', 'Alberca'],
+        #     'track': ['Track', 'Piste', 'Pista', 'Bahn'],
+        #     'course': ['Course', 'Cours'],
+        #     'ground': ['Ground', 'Grounds', 'Terrain'],
+        #     'velodrome': ['Velodrome', 'Velódromo', 'Vélodrome', 'Velotrek'],
+        #     'pavilion': ['Pavilion', 'Pavillion', 'Pavelló', 'Pabellón', 'Pavilhão'],
+        #     'palace': ['Palace', 'Palais', 'Palazzo', 'Palacio', 'Dvorets'],
+        #     'complex': ['Complex', 'Complexe', 'Kompleks', 'Syngrotima'],
+        #     'gymnasium': ['Gymnasium', 'Gimnasio', 'Ginásio', 'Tiyuguan'],
+        #     'coliseum': ['Coliseum', 'Colosseum'],
+        #     'theatre': ['Theatre', 'Theater', 'Teatro'],
+        #     'auditorium': ['Auditorium', 'Auditorio'],
+        #     'marina': ['Marina'],
+        #     'bay': ['Bay', 'Baía', 'Baie'],
+        #     'lake': ['Lake', 'Lago', 'Lac', 'See'],
+        #     'mountain': ['Mountain', 'Mont', 'Monte', 'Berg'],
+        #     'beach': ['Beach', 'Playa', 'Plage'],
+        #     'golf': ['Golf'],
+        #     'rink': ['Rink', 'Patinoire'],
+        #     'oval': ['Oval', 'Ovale'],
+        #     'resort': ['Resort'],
+        #     'village': ['Village', 'Ville', 'Vila'],
+        #     'club': ['Club'],
+        #     'range': ['Range', 'Ampumarata', 'Tir'],
+        #     'circuit': ['Circuit', 'Circuito'],
+        #     'bowl': ['Bowl'],
+        #     'ice': ['Ice', 'Glace', 'Ghiaccio'],
+        #     'sports': ['Sports', 'Deportes', 'Sport', 'Esportes'],
+        #     'olympic': ['Olympic', 'Olímpico', 'Olimpico', 'Olympique', 'Aolinpike'],
+        #     'tennis': ['Tennis', 'Tenis'],
+        #     'swimming': ['Swimming', 'Natación', 'Natação'],
+        #     'cycling': ['Cycling', 'Ciclismo'],
+        #     'shooting': ['Shooting', 'Tiro', 'Sheje'],
+        #     'baseball': ['Baseball', 'Béisbol', 'Beisebol'],
+        #     'basketball': ['Basketball', 'Baloncesto', 'Basquetebol'],
+        #     'hockey': ['Hockey'],
+        #     'football': ['Football', 'Fútbol', 'Futebol'],
+        #     'soccer': ['Soccer'],
+        #     'university': ['University', 'Universidad', 'Université', 'Daigaku', 'Daxue'],
+        #     'college': ['College', 'Colegio'],
+        #     'school': ['School', 'Escuela', 'École'],
+        #     'institute': ['Institute', 'Instituto', 'Institut'],
+        #     'academy': ['Academy', 'Academia', 'Académie'],
+        #     'museum': ['Museum', 'Museo', 'Musée'],
+        #     'exhibition': ['Exhibition', 'Exposición', 'Exposition'],
+        #     'convention': ['Convention', 'Convención'],
+        #     'building': ['Building', 'Edificio', 'Bâtiment'],
+        #     'venue': ['Venue'],
+        #     'site': ['Site', 'Sitio'],
+        #     'area': ['Area', 'Área', 'Zone'],
+        #     'square': ['Square', 'Plaza', 'Piazza', 'Place', 'Plateia'],
+        #     'garden': ['Garden', 'Jardín', 'Jardin'],
+        #     'forest': ['Forest', 'Bosque', 'Forêt'],
+        #     'river': ['River', 'Río', 'Rivière'],
+        #     'canal': ['Canal'],
+        #     'bridge': ['Bridge', 'Puente', 'Pont'],
+        #     'road': ['Road', 'Carretera', 'Route'],
+        #     'street': ['Street', 'Calle', 'Rue'],
+        #     'avenue': ['Avenue', 'Avenida'],
+        #     'highway': ['Highway', 'Autopista', 'Autoroute'],
+        #     'freeway': ['Freeway'],
+        #     'island': ['Island', 'Isla', 'Île'],
+        #     'harbour': ['Harbour', 'Harbor', 'Puerto'],
+        #     'port': ['Port', 'Porto'],
+        #     'aquatic': ['Aquatic', 'Aquático', 'Aquatique'],
+        #     'memorial': ['Memorial'],
+        #     'international': ['International', 'Internacional'],
+        #     'national': ['National', 'Nacional', 'Kokuritsu'],
+        #     'municipal': ['Municipal'],
+        #     'royal': ['Royal', 'Real', 'Reial'],
+        #     'central': ['Central']
+        # }
 
         # Flat list of all stadium terms
         self.all_stadium_terms = set()
@@ -186,13 +266,72 @@ class StadiumMatcher:
 
         # Common location indicators that can be ignored during matching
         self.location_indicators = {
-            'villa', 'borgo', 'di', 'del', 'della', 'des', 'du', 'de', 'van', 'von',
+        #     'villa', 'borgo', 'di', 'del', 'della', 'des', 'du', 'de', 'van', 'von',
         }
+        # self.location_indicators = {
+        #     'de', 'del', 'della', 'des', 'du', 'da', 'do', 'di',
+        #     'van', 'von', 'vom',
+        #     'la', 'le', 'les', 'lo', 'los', 'las', 'el',
+        #     'al', 'alla', 'alle', 'aux', 'au',
+        #     'en', 'in', 'im', 'am', 'an', 'auf',
+        #     'sur', 'sobre', 'on',
+        #     'pour', 'per', 'para', 'for',
+        #     'mit', 'con', 'with',
+        #     'y', 'et', 'and', 'e',
+        #     'of',
+        #     'at', 'à',
+        #     'near', 'près', 'cerca',
+        #     'under', 'sous', 'bajo'
+        # }
 
         # Common filler words that can be ignored during matching
         self.filler_words = {
             "also", "known", "as"
         }
+        # self.filler_words = {
+        #     'also', 'también', 'aussi', 'anche',
+        #     'known', 'conocido', 'connu', 'conhecido',
+        #     'as', 'como', 'comme',
+        #     'the',
+        #     'and',
+        #     'or', 'o', 'ou',
+        #     'formerly', 'anteriormente', 'anciennement',
+        #     'previously', 'previamente', 'précédemment',
+        #     'present', 'presente', 'présent',
+        #     'current', 'actual', 'actuel',
+        #     'new', 'nuevo', 'nouveau', 'novo',
+        #     'old', 'viejo', 'ancien', 'velho',
+        #     'former', 'anterior', 'ancien',
+        #     'main', 'principal', 'principale',
+        #     'grand', 'grande', 'great', 'gran',
+        #     'major', 'mayor', 'majeur',
+        #     'minor', 'menor', 'mineur',
+        #     'first', 'primero', 'premier', 'primeiro',
+        #     'second', 'segundo', 'deuxième',
+        #     'third', 'tercero', 'troisième',
+        #     'north', 'norte', 'nord',
+        #     'south', 'sur', 'sud',
+        #     'east', 'este', 'est',
+        #     'west', 'oeste', 'ouest',
+        #     'upper', 'superior', 'supérieur',
+        #     'lower', 'inferior', 'inférieur',
+        #     'big', 'grande', 'grand',
+        #     'small', 'pequeño', 'petit', 'pequeno',
+        #     'high', 'alto', 'haut',
+        #     'low', 'bajo', 'bas',
+        #     'public', 'público', 'pubblico',
+        #     'private', 'privado', 'privé',
+        #     'regional', 'régional',
+        #     'local',
+        #     'general', 'général',
+        #     'special', 'especial', 'spécial',
+        #     'multi',
+        #     'purpose', 'propósito', 'but',
+        #     'outdoor', 'exterior', 'extérieur',
+        #     'indoor', 'interior', 'intérieur',
+        #     'open', 'abierto', 'ouvert',
+        #     'closed', 'cerrado', 'fermé'
+        # }
 
     def normalize_stadium_terms(self, name: str) -> str:
         """Normalizes stadium terms to standard form"""
@@ -402,26 +541,26 @@ class StadiumMatcher:
                     logger.info(f"Exact match found: '{n1}' == '{n2}' (method: {method})")
                     return True, 1.0, method
 
-                # Stage 1: Substring match
-                is_match, score = self.substring_match(n1, n2)
-                logger.debug(f"Substring match: '{n1}' vs '{n2}' (score: {score:.2f})")
-                if is_match and score > best_score:
-                    best_match = True
-                    best_score = score
-                    best_method = f"substring_match{method_suffix}"
-                    logger.info(f"Substring match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
-
-                # Stage 2: Token-based match
-                is_match, score = self.token_based_match(n1, n2)
-                logger.debug(f"Token match: '{n1}' vs '{n2}' (score: {score:.2f})")
-                if is_match and score > best_score:
-                    best_match = True
-                    best_score = score
-                    best_method = f"token_match{method_suffix}"
-                    logger.info(f"Token match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
+                # # Stage 1: Substring match
+                # is_match, score = self.substring_match(n1, n2)
+                # logger.debug(f"Substring match: '{n1}' vs '{n2}' (score: {score:.2f})")
+                # if is_match and score > best_score:
+                #     best_match = True
+                #     best_score = score
+                #     best_method = f"substring_match{method_suffix}"
+                #     logger.info(f"Substring match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
+                #
+                # # Stage 2: Token-based match
+                # is_match, score = self.token_based_match(n1, n2)
+                # logger.debug(f"Token match: '{n1}' vs '{n2}' (score: {score:.2f})")
+                # if is_match and score > best_score:
+                #     best_match = True
+                #     best_score = score
+                #     best_method = f"token_match{method_suffix}"
+                #     logger.info(f"Token match found: '{n1}' vs '{n2}' (score: {score:.2f}, method: {best_method})")
 
                 # Stage 3: Fuzzy match as fallback
-                is_match, score = self.fuzzy_match(n1, n2)
+                is_match, score = self.fuzzy_match(n1, n2, threshold=0.75)
                 logger.debug(f"Fuzzy match: '{n1}' vs '{n2}' (score: {score:.2f})")
                 if is_match and score > best_score:
                     best_match = True

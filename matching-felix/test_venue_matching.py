@@ -422,7 +422,7 @@ def main():
         loglevel="DEBUG",
         log_to_console=False,
         log_to_file=True,
-        log_file_path="test_matcher.log"
+        log_file_path="test_matcher-3-less-stages_less_array.log"
     )
 
 if __name__ == "__main__":

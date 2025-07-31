@@ -7,11 +7,12 @@ from venues_matcher import find_stadium_matches
 summer_data = None
 winter_data = None
 geojson_data = {}
-output_dir = "combined_geojson"
+output_dir = "combined_geojson_less_stages_less_array"
 
 # Logging configuration
-log_to_console = True
+log_to_console = False
 log_to_file = True
+log_file = "matching.log"
 
 # Statistics tracking
 venue_statistics = {}
@@ -332,6 +333,7 @@ def match_by_venues(feature, manipulated_content, unmatched_venues, year_data):
             name_key1='associated_names',  # Key for GeoJSON venue names
             name_key2='name',  # Key for JSON venue names
             debug=False,
+            loglevel="ERROR",
         )
 
         # Check if we have matches and if the highest score is over threshold
@@ -858,7 +860,7 @@ def log_message(message, level="INFO"):
         message (str): The message to log
         level (str): Log level (INFO, ERROR, WARNING, etc.)
     """
-    global log_to_console, log_to_file, output_dir
+    global log_to_console, log_to_file, output_dir, log_file
 
     # Format the message with timestamp (time only) and level
     from datetime import datetime
@@ -875,11 +877,11 @@ def log_message(message, level="INFO"):
         os.makedirs(output_dir, exist_ok=True)
 
         # Create log file path
-        log_file_path = os.path.join(output_dir, "matching_log.txt")
+        log_file_path = os.path.join(output_dir, log_file)
 
         try:
-            with open(log_file_path, 'a', encoding='utf-8') as log_file:
-                log_file.write(formatted_message + '\n')
+            with open(log_file_path, 'a', encoding='utf-8') as log_file_handle:
+                log_file_handle.write(formatted_message + '\n')
         except Exception as e:
             # Fallback to console if file logging fails
             if not log_to_console:
@@ -893,24 +895,24 @@ def initialize_log_file():
     Initialize the log file by overwriting any existing content.
     This ensures each run starts with a fresh log file.
     """
-    global log_to_file, output_dir
+    global log_to_file, output_dir, log_file
 
     if log_to_file:
         # Ensure output directory exists
         os.makedirs(output_dir, exist_ok=True)
 
         # Create log file path
-        log_file_path = os.path.join(output_dir, "matching_log.txt")
+        log_file_path = os.path.join(output_dir, log_file)
 
         try:
             # Overwrite the log file to start fresh
-            with open(log_file_path, 'w', encoding='utf-8') as log_file:
+            with open(log_file_path, 'w', encoding='utf-8') as log_file_handle:
                 from datetime import datetime
                 execution_date = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                log_file.write(f"Execution Date: {execution_date}\n\n")
-                log_file.write("=" * 50 + "\n")
-                log_file.write("Starting new matching run - log file overwritten")
-                log_file.write("=" * 50 + "\n\n")
+                log_file_handle.write(f"Execution Date: {execution_date}\n\n")
+                log_file_handle.write("=" * 50 + "\n")
+                log_file_handle.write("Starting new matching run - log file overwritten\n")
+                log_file_handle.write("=" * 50 + "\n\n")
         except Exception as e:
             print(f"ERROR: Failed to initialize log file: {e}")
 

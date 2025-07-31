@@ -1,0 +1,1215 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.899924,
+          51.540304
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Henley Royal Regatta Course"
+        ],
+        "place": "Henley-on-Thames",
+        "coordinates": "51.540304,-0.899924",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          },
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "1839",
+        "type": "outdoor venue",
+        "dimensions": "1 mile 880 yards",
+        "source_file": "venue_223.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.786,
+        "matched_venue_name": "Henley-on-Thames (site of the Royal Regatta Course)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe",
+        "venue_information": "Held in the Oxfordshire town of Henley-on-Thames, the regatta first took place in 1839 and has been staged every year since, with the exception of the two world wars and 2020, when it was cancelled due to the COVID-19 pandemic. It has made use of four courses to date. The Olympic rowing competitions in 1948 were held on the fourth of these: the Straight Course. The venue hosted four men's rowing events at the 1908 Olympic Games, on a different course.",
+        "match_method": "fuzzy_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.658858,
+          51.312401
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bisley Rifle Range",
+          "National Shooting Centre (?-present)"
+        ],
+        "place": "Bisley",
+        "coordinates": "51.312401,-0.658858",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          },
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1890",
+        "type": "outdoor venue",
+        "source_file": "venue_226.json",
+        "Olympics": "1948 London",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Bisley (Bisley National Rifle Association Ranges)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Shooting, modern pentathlon (shooting)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.172305,
+          51.496432
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Victoria & Albert Museum"
+        ],
+        "place": "London",
+        "coordinates": "51.496432,-0.172305",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_338.json",
+        "Olympics": "1948 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.279722,
+          51.555833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Empire Stadium (also known as Wembley Stadium)"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.555833,-0.279722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Hockey",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1923",
+        "demolished": "2007",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "58 m",
+        "source_file": "venue_339.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer_outer",
+        "matched_venue_name": "Empire Stadium (Wembley)",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated concert venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors. One of the two physical remnants of the 1948 Olympic Games is Olympic Way, since renamed Wembley Way. A half-mile approach to the stadium leading from the nearest London Underground station, it was built for the Games and channels spectators in their thousands to the stadium's gates. The other is the Olympic Roll of Honour, two large plaques commemorating the gold medallists at the 1948 Olympic Games and set in the walls on either side of the Royal Tunnel. The plaques were removed and kept safe when the stadium was demolished in 2003 and returned to Wembley in time for the 2012 Olympic Games, as part of an exhibition at the new stadium."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.097697,
+          51.576257
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Harringay Arena"
+        ],
+        "place": "Harringay, London",
+        "coordinates": "51.576257,-0.097697",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1936",
+        "demolished": "1978",
+        "type": "indoor venue",
+        "source_file": "venue_340.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Harringay Arena",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Basketball",
+        "venue_information": "Built as an ice hockey stadium, it was also used for skating, boxing and other sports. It became a warehouse after WWII but was demolished in 1978. The site is currently occupied by a retail park.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.197778,
+          51.488889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Empress Hall, Earls Court Exhibition Centre"
+        ],
+        "place": "Kensington, London",
+        "coordinates": "51.488889,-0.197778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "opened": "1937",
+        "type": "indoor venue",
+        "source_file": "venue_341.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Empress Hall (Earl's Court)",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Boxing, wrestling, weightlifting, gymnastics",
+        "venue_information": "This venue was later renamed Earls Court Exhibition Centre. Built in 1895 and redeveloped in 1936, it became a major exhibition, events and concert venue and staged the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.282972,
+          51.558083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wembley Arena",
+          "Empire Pool (1934-1978)"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.558083,-0.282972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          },
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Boxing",
+          "Diving",
+          "Rhythmic Gymnastics",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1934",
+        "seating_capacity": "6000 (2012)",
+        "type": "indoor venue",
+        "source_file": "venue_342.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
+        "matched_venue_name": "Empire Pool",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Swimming, diving, water polo, boxing",
+        "venue_information": "Empire Pool was part of the Wembley Park complex, the main hub at the 1948 Olympic Games. Used at the 1934 Empire Games, (as the Commonwealth Games were formerly known), it hosted its last swimming events at London 1948. It has since become a prominent music and sporting venue, welcoming boxing, ice skating and basketball, among other sports, and providing the setting for the Horse of the Year show until 2002. Awarded listed status in 1976, it was renamed Wembley Arena two years later. The venue staged the badminton and rhythmic gymnastics competitions at the 2012 Olympic Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.606316,
+          51.428008
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Windsor Great Park"
+        ],
+        "place": "Windsor",
+        "coordinates": "51.428008,-0.606316",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_343.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Windsor Great Park",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.091389,
+          51.451111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Herne Hill Velodrome"
+        ],
+        "place": "London",
+        "coordinates": "51.451111,-0.091389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "notes": "Built in 1891, one of oldest still existant velodromes.",
+        "opened": "1891",
+        "type": "outdoor venue",
+        "dimensions": "459.8 m (2/7 mile)",
+        "surface": "Asphalt",
+        "additional_details": "30.0° curves",
+        "source_file": "venue_344.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.8190000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Herne Hill Track/Velodrome",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The velodrome continues to be used as a community cycling venue, 130 years on from its construction. Available for corporate events and private functions, it is used regularly by local clubs and 15 local schools and is also open to disability groups. The oldest remaining venue from the Olympic Games London 1948, it is one of the most famous velodromes in the UK and is widely regarded as the spiritual home of British cycling. It enjoyed its heyday in the 1920s and 30s, when events such as the Good Friday Meeting attracted crowds of up to 12,000. Though in regular use after the 1948 Olympic Games, it was threatened with closure in 2010 due to the poor state of the facilities. The velodrome was extensively refurbished between 2011 and 2017, when the 450m banked asphalt track received a completely new surface, floodlights were installed, and a new pavilion was built to accommodate new changing rooms, offices, a café and bike storage facilities. It was London's only velodrome until the construction of Lee Valley VeloPark for the 2012 Olympic Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.754846,
+          51.264704
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Army's Command Central Stadium",
+          "Military Stadium (?-Present)"
+        ],
+        "place": "Aldershot Military Town",
+        "coordinates": "51.264704,-0.754846",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_345.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.854,
+        "matched_venue_name": "Aldershot Command Central Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Eventing, dressage",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.8175,
+          51.26
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tweseldown Racecourse"
+        ],
+        "place": "Fleet, Hampshire",
+        "coordinates": "51.26,-0.8175",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1866",
+        "type": "outdoor venue",
+        "source_file": "venue_346.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Tweseldown Racecourse",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing, modern pentathlon (equestrian)",
+        "venue_information": "A horse racing venue since 1866, it staged National Hunt meetings until 1932. An equestrian venue at the 1948 Olympic Games, it continues to host national eventing horse trials and is also used for training and riding clinics.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.276884,
+          51.55929
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palace of Engineering"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.55929,-0.276884",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1924",
+        "demolished": "197?",
+        "type": "indoor venue",
+        "source_file": "venue_347.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Palace of Engineering (Wembley Empire Exhibition Site)",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "The venue was opened in 1924 as part of the British Empire Exhibition and demolished in the 1970s.",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.085556,
+          51.398333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Selhurst Park"
+        ],
+        "place": "South Norwood, London",
+        "coordinates": "51.398333,-0.085556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1924",
+        "type": "outdoor venue",
+        "source_file": "venue_348.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Selhurst Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.102778,
+          51.557778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arsenal Stadium (also known as Highbury)"
+        ],
+        "place": "Highbury, London",
+        "coordinates": "51.557778,-0.102778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1913",
+        "demolished": "2006",
+        "type": "outdoor venue",
+        "source_file": "venue_349.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Arsenal Stadium (Highbury Stadium)",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Football",
+        "venue_information": "The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.",
+        "match_method": "exact_match_outer_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.085359,
+          51.572069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lynn Road Stadium"
+        ],
+        "place": "Ilford, London",
+        "coordinates": "51.572069,0.085359",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1904",
+        "demolished": "?",
+        "type": "outdoor venue",
+        "source_file": "venue_350.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.7829999999999999,
+        "matched_venue_name": "Lynn Road",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.221667,
+          51.475
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Craven Cottage (also known as The Cottage)"
+        ],
+        "place": "Fulham, London",
+        "coordinates": "51.475,-0.221667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1896",
+        "type": "outdoor venue",
+        "source_file": "venue_351.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Craven Cottage",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.065833,
+          51.603333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "White Hart Lane (also known as The Lane)"
+        ],
+        "place": "Tottenham, London",
+        "coordinates": "51.603333,-0.065833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1899",
+        "type": "outdoor venue",
+        "source_file": "venue_352.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "White Hart Lane",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Football",
+        "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.084943,
+          51.462029
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Champion Hill"
+        ],
+        "place": "East Dulwich, London",
+        "coordinates": "51.462029,-0.084943",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Slightly north of the current stadium.",
+        "opened": "1931",
+        "demolished": "?",
+        "type": "outdoor venue",
+        "source_file": "venue_353.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Champion Hill",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.302639,
+          51.488183
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Griffin Park"
+        ],
+        "place": "Hounslow, London",
+        "coordinates": "51.488183,-0.302639",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1904",
+        "type": "outdoor venue",
+        "source_file": "venue_354.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Griffin Park",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.030503,
+          51.591444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Green Pond Road Stadium (also known as The Pond)"
+        ],
+        "place": "Walthamstow, London",
+        "coordinates": "51.591444,-0.030503",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1910",
+        "demolished": "1989",
+        "type": "outdoor venue",
+        "source_file": "venue_355.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "matched_venue_name": "Green Pond Road",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.174089,
+          50.838081
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Goldstone Ground"
+        ],
+        "place": "Hove",
+        "coordinates": "50.838081,-0.174089",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1901",
+        "demolished": "1997",
+        "type": "outdoor venue",
+        "source_file": "venue_356.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Goldstone Ground",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Football",
+        "venue_information": "The remaining five are no longer in existence. Most of these not-in-use stadiums have made way for residential developments. At Highbury, for example, the listed East and West stands remain as flats, with their original facades having been refurbished. The site of the Goldstone Ground is now occupied by the Goldstone Retail Park.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.063889,
+          50.796389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fratton Park"
+        ],
+        "place": "Portsmouth",
+        "coordinates": "50.796389,-1.063889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1898",
+        "type": "outdoor venue",
+        "source_file": "venue_357.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fratton Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "Ten football grounds were used at the 1948 Olympic Games. Five remain in use: Selhurst Park (the home of Crystal Palace), Craven Cottage (Fulham), Fratton Park (Portsmouth), White Hart Lane (Tottenham Hotspur, rebuilt and renamed in 2019) and Champion Hill (non-league team Dulwich Hamlet, though the original stadium was knocked down and a new, smaller stadium was built on the same site in 1992).",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.334151,
+          51.562167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "John Lyons' Sports Ground"
+        ],
+        "place": "Sudbury Hill, London",
+        "coordinates": "51.562167,-0.334151",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_358.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.893,
+        "matched_venue_name": "Lyons Sports Ground, Sudbury Hill",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Field hockey",
+        "venue_information": "Created in memory of the soldiers who died in WWI, it opened in 1919. The site was sold in 2000 and, though the original pitches remain, the pavilions have been replaced by an indoor tennis and fitness centre.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.266262,
+          51.476435
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Polytechnic Sports Ground"
+        ],
+        "place": "Chiswick, London",
+        "coordinates": "51.476435,-0.266262",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_359.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.776,
+        "matched_venue_name": "Lyons Sports Ground, Sudbury Hill",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Field hockey",
+        "venue_information": "Created in memory of the soldiers who died in WWI, it opened in 1919. The site was sold in 2000 and, though the original pitches remain, the pavilions have been replaced by an indoor tennis and fitness centre.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.284953,
+          51.53092
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guinness Sports Ground"
+        ],
+        "place": "Park Royal, London",
+        "coordinates": "51.53092,-0.284953",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "demolished": "?",
+        "type": "outdoor venue",
+        "source_file": "venue_360.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Guinness Sports Ground, Park Royal",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Field hockey",
+        "venue_information": "The ground lay next to a brewery that was demolished in 2006 to make way for the headquarters of drinks company Diageo.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.753819,
+          51.263619
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Army School of Physical Training"
+        ],
+        "place": "Aldershot Military Town",
+        "coordinates": "51.263619,-0.753819",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_361.json",
+        "Olympics": "1948 London",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Royal Military Academy, Sandhurst",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7476,
+          51.23535
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aldershot Lido",
+          "Aldershot Pools (?-Present)"
+        ],
+        "place": "Aldershot",
+        "coordinates": "51.23535,-0.7476",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_362.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.7550000000000001,
+        "matched_venue_name": "Aldershot Pool/Aldershot Lido",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (swimming)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.7687,
+          51.340532
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Military Academy Sandhurst"
+        ],
+        "place": "Sandhurst",
+        "coordinates": "51.340532,-0.7687",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "1802",
+        "type": "outdoor venue",
+        "source_file": "venue_363.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "matched_venue_name": "Royal Military Academy, Sandhurst",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.54161,
+          50.441286
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Torbay"
+        ],
+        "place": "Torquay",
+        "coordinates": "50.441286,-3.54161",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_364.json",
+        "Olympics": "1948 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Torbay",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1724,
+          51.6045
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Finchley Open Air Pool"
+        ],
+        "place": "Finchley, London",
+        "coordinates": "51.6045,-0.1724",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1931",
+        "type": "outdoor venue",
+        "source_file": "venue_367.json",
+        "Olympics": "1948 London",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Empire Pool",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Swimming, diving, water polo, boxing",
+        "venue_information": "Empire Pool was part of the Wembley Park complex, the main hub at the 1948 Olympic Games. Used at the 1934 Empire Games, (as the Commonwealth Games were formerly known), it hosted its last swimming events at London 1948. It has since become a prominent music and sporting venue, welcoming boxing, ice skating and basketball, among other sports, and providing the setting for the Horse of the Year show until 2002. Awarded listed status in 1976, it was renamed Wembley Arena two years later. The venue staged the badminton and rhythmic gymnastics competitions at the 2012 Olympic Games."
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1948",
+    "olympics_city": "London",
+    "olympics_season": "summer"
+  }
+}

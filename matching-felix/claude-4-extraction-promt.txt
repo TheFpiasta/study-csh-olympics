@@ -1,0 +1,49 @@
+You will be given a large list of names. Your task is to extract specific terms and categorize them according to the following categories:
+
+1. Stadium-specific terms and their synonyms
+2. Location indicators
+3. Filler words
+
+Here is the list of names:
+
+<name_list>
+{{NAME_LIST}}
+</name_list>
+
+Follow these steps to complete the task:
+
+1. Analyze the list of names and identify words that fall into the following categories:
+
+   a) Stadium-specific terms: Words that refer to sports venues, such as "stadium", "park", "field", "arena", etc., and their synonyms in various languages.
+
+   b) Location indicators: Common words used in place names that indicate location or ownership, such as "di", "del", "van", "von", etc.
+
+   c) Filler words: Common words that don't contribute to the core meaning of a name, such as "also", "known", "as", etc.
+
+2. For stadium-specific terms, group synonyms together. Include translations in different languages if present.
+
+3. For location indicators and filler words, simply list all unique words you find.
+
+4. Organize your findings in the following format:
+
+<output>
+# Stadium-specific terms and their synonyms
+stadium_terms = {
+    'term1': ['synonym1', 'synonym2', ...],
+    'term2': ['synonym1', 'synonym2', ...],
+    ...
+}
+
+# Common location indicators
+location_indicators = {
+    'word1', 'word2', 'word3', ...
+}
+
+# Common filler words
+filler_words = {
+    'word1', 'word2', 'word3', ...
+}
+</output>
+
+Make sure to include only the extracted terms in your final output. Do not include any explanations, thought processes, or additional text outside of the specified format.
+Remamber your task to extract specific terms and categorize.

@@ -1,0 +1,1298 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.287778,
+          34.014167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Memorial Coliseum"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.014167,-118.287778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Summer"
+          },
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Alpinism",
+          "American Football",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Hockey",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1923",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders (1932) / Artificial surface (1984)",
+        "altitude": "46 m",
+        "source_file": "venue_300.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Los Angeles Memorial Coliseum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "The stadium was renovated for the 1984 Olympic Games. A new football pitch was installed, along with an advanced drainage system and a new athletics track. The stadium was built in 1921 on the site of an abandoned racecourse in the city's Exposition Park. It hosted the Opening and Closing Ceremonies and track and field events when the city staged the Olympic Games for the first time in 1932, when its capacity was 105,000. It will perform that function again, with the exception of some field events, when the Games return to Los Angeles in 2028.\n\nNamed Los Angeles Memorial Coliseum, in honour of local World War One veterans, the stadium has been the home of the University of Southern California (USC)'s sports teams, among them the Trojans, USC's American football team, since it opened. It has provided the setting for two Super Bowls, several World Series baseball matches, and four US Olympic track and field trials. The Los Angeles Rams, Los Angeles Raiders and Los Angeles Dodgers are just some of the many sports teams who have called the stadium home at some time or other in its history. Figures such as John F. Kennedy, Nelson Mandela, Pope John Paul II and Billy Graham have all addressed large crowds at the stadium, which has also played host to the Rolling Stones, Pink Floyd, Bruce Springsteen and Prince, among other major acts. The stadium underwent a major refurbishment in 2019."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.167293,
+          34.160984
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rose Bowl"
+        ],
+        "place": "Pasadena, California",
+        "coordinates": "34.160984,-118.167293",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Summer"
+          },
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Football"
+        ],
+        "notes": "Temporary track used only for the Olympics.",
+        "opened": "1922",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Wood",
+        "source_file": "venue_304.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Rose Bowl",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "A temporary cycling venue at the 1932 Games, the Rose Bowl was one of four stadiums to stage the men's Olympic football tournament in 1984. It is a prestigious venue in US sport and synonymous with American football. The setting for the annual Rose Bowl Game since 1923, it has hosted five Super Bowls and is the home of the UCLA Bruins. It is also well known as a soccer stadium, staging matches at the 1994 FIFA World Cup and 1999 FIFA Women's World Cup, including the finals of both tournaments. The venue will stage matches at the Los Angeles 2028 Olympic football tournaments."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.08835,
+          33.811786
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "El Dorado Park"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.811786,-118.08835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_600.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "El Dorado Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Archery",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.341944,
+          33.958056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Forum"
+        ],
+        "place": "Inglewood, California",
+        "coordinates": "33.958056,-118.341944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Handball"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "source_file": "venue_601.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "The Forum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Basketball, handball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.284444,
+          34.013056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Memorial Sports Arena",
+          "The Great Western Forum (1988-2003)"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.013056,-118.284444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1959",
+        "type": "indoor venue",
+        "source_file": "venue_602.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Los Angeles Memorial Sports Arena",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Boxing",
+        "venue_information": "Situated next to the Los Angeles Memorial Coliseum in Exposition Park, the venue opened in 1959. A multi-purpose arena, it was used by the city's NBA and college basketball teams and as an ice hockey, boxing and indoor track and field venue. The LA Lakers moved out of the arena in 1967, with the LA Clippers following suit in 1999, the USC Trojans in 2006 and the UCLA Bruins in 2012. A number of other teams used and then vacated the stadium before and after it hosted the boxing competition at the 1984 Olympic Games. It was demolished in 2016 to make way for a soccer stadium that is now home to MLS team Los Angeles FC.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.240044,
+          34.073778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dodger Stadium"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.073778,-118.240044",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_603.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.329449,
+          34.407171
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lake Casitas"
+        ],
+        "place": "Los Padres National Forest, California",
+        "coordinates": "34.407171,-119.329449",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "notes": "Artificial lake.",
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_604.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lake Casitas",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": "A reservoir created by the construction of a dam in 1958, Lake Casitas provides drinking water and ensures flood control in Ventura County. Prior to the 1984 Olympic Games, it had never staged races or sporting events of any kind. Temporary facilities were set up for the Games. These included spectator stands, ramps, docks, boathouses and an athlete day village. The site was restored to its original state after the Games.\n\nRowing returned to the lake in 2008, with the founding of the Casitas Rowing Club, which runs teams for different age groups and junior camps, and organises local regattas for its members and fun races for the local community. Fishing is also very popular at the lake, and a number of non-watersport activities are also available for visitors, such as biking and hiking, camping, bird watching and disc golf.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.002431,
+          33.856114
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Artesia Freeway"
+        ],
+        "place": "Buena Park, California",
+        "coordinates": "33.856114,-118.002431",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_605.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.643979,
+          33.640833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Mission Viejo, California",
+        "coordinates": "33.640833,-117.643979",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_606.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.259722,
+          33.858889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Velodrome, California State University at Dominguez Hills"
+        ],
+        "place": "Carson, California",
+        "coordinates": "33.858889,-118.259722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "notes": "Demolished and replaced by the Home Depot Center (later ADT Event Center).",
+        "opened": "1982",
+        "demolished": "2003",
+        "type": "outdoor venue",
+        "dimensions": "333⅓ m",
+        "surface": "Wood",
+        "additional_details": "333.33 metres, 33.0° curves",
+        "source_file": "venue_607.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The venue was donated to California State University (CSU) after the Games and used for training, development and competition, for both professional and amateur riders. It staged the USA Cycling Collegiate Track National Championships on several occasions, among other meetings. It was also open to the public for recreational use and was used for concerts, graduation ceremonies and other events. It was demolished in 2002 to make way for a new stadium for Major League Soccer (MLS) team Los Angeles Galaxy. Two years later, a new indoor velodrome, the VELO Sports Center, opened at the same CSU complex. The home of USA Cycling's national track cycling programme, it stages training and international competitions, as well as classes open to riders of all levels. The VELO Sports Center will be the venue for the track cycling events at the Olympic Games Los Angeles 2028."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.288667,
+          34.024069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Swim Stadium, University of Southern California",
+          "McDonald's Olympic Swim Stadium (?-Present)"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.024069,-118.288667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Swimming"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "source_file": "venue_608.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Swim Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, artistic swimming",
+        "venue_information": "Located on the USC campus, the stadium has been used by local residents and the university's students since the 1984 Olympic Games, as planned. Now known as the Uytengsu Aquatics Center, it is home to USC's swimming and diving teams and stages regional and national aquatic sports competitions. It was the venue for the 1989 US Long Course Championships and the 1993 US National Diving Championships. It is also used for recreational and masters swimming, and club triathlon, water polo and swimming competitions and training.\n\nThe stadium was closed for renovations in 2013, when a new diving tower, locker rooms, a spectator area, a video scoreboard and two outdoor jacuzzis were added to its facilities.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.044354,
+          34.140635
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Santa Anita Park"
+        ],
+        "place": "Arcadia, California",
+        "coordinates": "34.140635,-118.044354",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "1934",
+        "type": "outdoor venue",
+        "source_file": "venue_609.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Santa Anita Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage, jumping",
+        "venue_information": "The racetrack opened in 1934 and has been the venue for some of the United States' most prestigious races, among them the Santa Anita Derby and the Santa Anita Handicap. It has also hosted the Breeders' Cup 10 times, most recently in 2019. Santa Anita Park has three tracks: one dirt and two turf. Its main grandstand has a capacity of 26,000.\n\nFor the equestrian events in 1984, temporary seating for 72,000 people was installed across the venue's 320 acres, 23,000 of them at the three-sided arena that hosted the jumping competition and was laid out on the racetrack. Sand was laid for the dressage competitions and was removed after the Games, as were the temporary grandstands. At Games time, the venue had stabling for 2,100 horses.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.215667,
+          32.978176
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fairbanks Ranch"
+        ],
+        "place": "Rancho Santa Fe, California",
+        "coordinates": "32.978176,-117.215667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "source_file": "venue_610.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fairbanks Ranch",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Eventing",
+        "venue_information": "The cross-country section of the 1984 Olympic three-day eventing competition took place on a site that was converted into an 18-hole golf course immediately after the Games. A nine-hole course was added in 2004.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18929,
+          33.765072
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Terrace Theater, Long Beach Convention and Entertainment Center",
+          "Long Beach Performing Arts Center (?-Present)"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.765072,-118.18929",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_611.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Exhibition Hall, Long Beach Convention and Entertainment Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190545,
+          33.76461
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Exhibit Hall, Long Beach Convention and Entertainment Center"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.76461,-118.190545",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_612.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 0.848,
+        "matched_venue_name": "Exhibition Hall, Long Beach Convention and Entertainment Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.188333,
+          33.763889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sports Arena, Long Beach Convention and Entertainment Center",
+          "Long Beach Arena (?-Present)"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.763889,-118.188333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_613.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 0.7989999999999999,
+        "matched_venue_name": "Long Beach Sports Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Volleyball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.161111,
+          37.434444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stanford Stadium"
+        ],
+        "place": "Palo Alto, California",
+        "coordinates": "37.434444,-122.161111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "New stadium built on same site.",
+        "opened": "1921",
+        "demolished": "2005",
+        "type": "outdoor venue",
+        "source_file": "venue_614.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Stanford Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.126947,
+          42.366915
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Harvard Stadium"
+        ],
+        "place": "Allston, Massachusetts",
+        "coordinates": "42.366915,-71.126947",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1903",
+        "type": "outdoor venue",
+        "source_file": "venue_615.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Harvard Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.506944,
+          38.984722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Navy-Marine Corps Memorial Stadium"
+        ],
+        "place": "Annapolis, Maryland",
+        "coordinates": "38.984722,-76.506944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_616.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Navy-Marine Corps Memorial Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.446775,
+          34.070211
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Edwin W. Pauley Pavilion"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.070211,-118.446775",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Rhythmic Gymnastics"
+        ],
+        "opened": "1965",
+        "type": "indoor venue",
+        "source_file": "venue_617.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "matched_venue_name": "Pauley Pavilion",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, rhythmic gymnastics",
+        "venue_information": "Built in 1965, it is primarily a basketball and volleyball venue and is used by the University of California Los Angeles (UCLA)'s women's and men's basketball and volleyball teams. After the Games, the 13,800-seater arena, which is also a concert venue, hosted a US presidential debate in 1988, the MTV Video Awards in 1992, and a visit by the Dalai Lama in 1997. It was refurbished between 2010 and 2012, and staged the Los Angeles Tennis Challenge in 2013.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.88609,
+          33.883046
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Titan Gym, California State University at Fullerton"
+        ],
+        "place": "Fullerton, California",
+        "coordinates": "33.883046,-117.88609",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1964",
+        "type": "indoor venue",
+        "source_file": "venue_618.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Titan Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Handball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.151703,
+          34.042861
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Weingart Stadium, East Los Angeles College",
+          "East Los Angeles Stadium (?-?)"
+        ],
+        "place": "Monterey Park, California",
+        "coordinates": "34.042861,-118.151703",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1951",
+        "type": "outdoor venue",
+        "source_file": "venue_619.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Weingart Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "The venue was built in 1951 and is used by East Los Angeles College's American football and soccer teams. It has a seating capacity of 22,355 and was renovated for the field hockey competition at the 1984 Olympic Games, with a new turf pitch installed and improvements made to the seating. Formerly known as ELAC Stadium, it was renamed in honour of the philanthropist who funded the renovations.\n\nAfter the Games, it reverted to its original use as an American football and soccer stadium, but hosted an international hockey tournament organised by USA Field Hockey in 1990. The stadium has an eight-lane 400-metre track and stages athletics competitions. It is also used for high-school graduation ceremonies.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.167603,
+          34.066348
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eagle's Nest Arena, California State University at Los Angeles"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.066348,-118.167603",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_620.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Eagle's Nest Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Judo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.582787,
+          33.625297
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Coto de Caza Equestrian Center"
+        ],
+        "place": "Coto de Caza, California",
+        "coordinates": "33.625297,-117.582787",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_621.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Heritage Park Aquatic Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (swimming)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.587778,
+          33.595833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pistol Range"
+        ],
+        "place": "Coto de Caza, California",
+        "coordinates": "33.595833,-117.587778",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_622.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Heritage Park Aquatic Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (swimming)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.780666,
+          33.701647
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "William Woolett, Jr. Aquatics Center",
+          "Heritage Park Aquatic Center (?-Present)"
+        ],
+        "place": "Heritage Park, Irvine, California, USA",
+        "coordinates": "33.701647,-117.780666",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_623.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Heritage Park Aquatic Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (swimming)",
+        "venue_information": "",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.184105,
+          33.759856
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Long Beach Marina"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.759856,-118.184105",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "source_file": "venue_624.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Harbor",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Sailing",
+        "venue_information": "The 1984 Olympic sailing events were held at Long Beach Marina, part of which later became the Shoreline Yacht Club. Temporary facilities were erected to create the Olympic Harbor and were removed after the Games. Shoreline Yacht Club continues to offer recreational sailing to its members and visitors today and runs a learn-to-sail programme for adults."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.669319,
+          34.413765
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "East Beach"
+        ],
+        "place": "Santa Barbara, California",
+        "coordinates": "34.413765,-119.669319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_628.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Harbor",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Sailing",
+        "venue_information": "The 1984 Olympic sailing events were held at Long Beach Marina, part of which later became the Shoreline Yacht Club. Temporary facilities were erected to create the Olympic Harbor and were removed after the Games. Shoreline Yacht Club continues to offer recreational sailing to its members and visitors today and runs a learn-to-sail programme for adults."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.659213,
+          33.936885
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Prado Recreational Area",
+          "Prado Olympic Shooting Park (?-Present)"
+        ],
+        "place": "Chino, California",
+        "coordinates": "33.936885,-117.659213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "source_file": "venue_629.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 0.778,
+        "matched_venue_name": "Olympic Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.448319,
+          34.069825
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Tennis Center"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.069825,-118.448319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "source_file": "venue_630.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.71025,
+          34.03876
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Raleigh Runnels Memorial Pool, Pepperdine University"
+        ],
+        "place": "Malibu, California",
+        "coordinates": "34.03876,-118.71025",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1976",
+        "type": "outdoor venue",
+        "source_file": "venue_631.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Raleigh Runnels Memorial Pool",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Water polo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.415556,
+          33.9675
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Albert Gersten Pavilion, Loyola Marymount University (also known as Hank's House)"
+        ],
+        "place": "Los Angeles, California, USA",
+        "coordinates": "33.9675,-118.415556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1981",
+        "type": "indoor venue",
+        "source_file": "venue_632.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Albert Gersten Pavilion",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Weightlifting",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.919843,
+          33.802455
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Anaheim Convention Center"
+        ],
+        "place": "Anaheim, California, USA",
+        "coordinates": "33.802455,-117.919843",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "source_file": "venue_633.json",
+        "Olympics": "1984 Los Angeles",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Anaheim Convention Center",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Wrestling",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1984",
+    "olympics_city": "Los Angeles",
+    "olympics_season": "summer"
+  }
+}

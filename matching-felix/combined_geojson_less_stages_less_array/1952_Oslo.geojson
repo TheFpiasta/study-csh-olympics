@@ -1,0 +1,491 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.667778,
+          59.963889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Holmenkollen Langrennssentret",
+          "Holmenkollen Cross Country Centre"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.963889,10.667778",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "1892",
+        "type": "outdoor venue",
+        "source_file": "venue_100.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 0.9080000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Holmenkollen Cross-Country Races Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Cross-country skiing, Nordic combined",
+        "venue_information": "Now a state-of-the-art venue for cross-country skiing, biathlon and ski jumping, it is also part of the Holmenkollbakken National Ski Arena. It was completely rebuilt for the 2011 FIS Nordic World Ski Championships and hosts annual cross-country skiing, Nordic combined and biathlon World Cup events."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.632051,
+          59.990117
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Rødkleiva",
+        "coordinates": "59.990117,10.632051",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_101.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Norefjell",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "A small resort with state-of-the-art lifts and snowmaking equipment that guarantees snow throughout the winter. It also has a luxury spa and aparthotel complex and is a popular year-round destination."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.618874,
+          60.24782
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Norefjell",
+        "coordinates": "60.24782,9.618874",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_102.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Norefjell",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "A small resort with state-of-the-art lifts and snowmaking equipment that guarantees snow throughout the winter. It also has a luxury spa and aparthotel complex and is a popular year-round destination."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.67699,
+          59.977277
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bob sleighbanen (also known as Korketrekkeren)",
+          "Bobsleigh Track"
+        ],
+        "place": "Frognerseter, Oslo",
+        "coordinates": "59.977277,10.67699",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1951",
+        "type": "outdoor venue",
+        "altitude": "305 m",
+        "source_file": "venue_103.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 0.9200000000000002,
+        "matched_venue_name": "Korketrekken",
+        "venue_classification": "Temporary (seasonal)",
+        "venue_status": "Dismantled (seasonal)",
+        "venue_use": "Bobsleigh",
+        "venue_information": "The bob run built for the 1952 Games was temporary because bobsleigh was very much a minority sport in Norway at the time. The country had no permanent track and only made its Olympic debut in the sport at St. Moritz 1948. Construction costs were thus reduced and the risk of the run being under-used after the Games averted. Built with snow and ice, this natural run was 1.5km long and comprised 13 curves. It was never used for bobsleigh again after the Games but was turned into a luge run as planned and hosted the 1955 Luge World Championships. The track was not rebuilt after this. A 2km public sledge run was later constructed, partly following the outline of the track, and remains popular with both tourists and locals.",
+        "match_method": "fuzzy_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.78458,
+          59.909951
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jordal Stadion",
+          "Jordal Stadium"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.909951,10.78458",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_104.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Bislett Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed and rebuilt)",
+        "venue_use": "Figure skating, speed skating, Opening and Closing Ceremonies, bandy (demonstration sport)",
+        "venue_information": "Constructed in 1922, the stadium was repurposed after the Games and rebuilt in 2004, in the same architectural style and in the exact same location as its predecessor. Now synonymous with track and field, it is Norway's main athletics training and competition facility. It has hosted the prestigious Bislett Games every year since 1965, a fixture on the IAAF Diamond League calendar and Norway's largest sporting event. The 15,000-capacity stadium also hosts the country's annual athletics championships. When they are not being used for training and competitions, the stadium's outdoor and indoor running tracks are open to the public and Oslo schools all year round. The most-used sports venue in Norway, Bislett Stadium is currently the home of football club IL Skeid, who play in the country's third tier. Norway's national football team also train at the stadium on a regular basis, and it is used regularly for concerts and other non-sporting events. The stadium's speed skating rink was removed in 1988."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.733333,
+          59.924722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bislett Stadion",
+          "Bislett Stadium"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.924722,10.733333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bandy",
+          "Figure Skating",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1922",
+        "seating_capacity": "29000",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 30 m x 60 m (FSK)",
+        "altitude": "37 m",
+        "source_file": "venue_93.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Bislett Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed and rebuilt)",
+        "venue_use": "Figure skating, speed skating, Opening and Closing Ceremonies, bandy (demonstration sport)",
+        "venue_information": "Constructed in 1922, the stadium was repurposed after the Games and rebuilt in 2004, in the same architectural style and in the exact same location as its predecessor. Now synonymous with track and field, it is Norway's main athletics training and competition facility. It has hosted the prestigious Bislett Games every year since 1965, a fixture on the IAAF Diamond League calendar and Norway's largest sporting event. The 15,000-capacity stadium also hosts the country's annual athletics championships. When they are not being used for training and competitions, the stadium's outdoor and indoor running tracks are open to the public and Oslo schools all year round. The most-used sports venue in Norway, Bislett Stadium is currently the home of football club IL Skeid, who play in the country's third tier. Norway's national football team also train at the stadium on a regular basis, and it is used regularly for concerts and other non-sporting events. The stadium's speed skating rink was removed in 1988."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.783929,
+          59.911303
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jordal Amfi",
+          "Jordal Amphitheatre"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.911303,10.783929",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1952",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_94.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Jordal Amfi",
+        "venue_classification": "New build",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Ice hockey",
+        "venue_information": "Designed as a multi-purpose facility to ensure its use all year round, the Jordal Amfi was upgraded as a state-of-the-art artificial ice rink for the Games. Constructed in the same style and on the same footprint as its predecessor, the new Jordal Amfi opened in autumn 2020. A venue for national and international ice hockey events, the 5,300-capacity arena hosts other sports and events and is connected to an ice hockey training venue. The old Jordal Amfi was the first artificial ice rink in Scandinavia and one of the most modern hockey rinks in Europe at the time. Built as a roofless arena, it hosted a number of local, national and international ice hockey competitions, including the 1958 and 1999 IIHF World Championships, as well as boxing matches. It underwent several upgrades over the years, including the addition of a roof in 1971 and refurbishment for the 1999 IIHF World Championships.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.764316,
+          59.926312
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dæhlenenga Idrettsplass",
+          "Dæhlenenga Sports Field",
+          "Dælenenga (?-Present)"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.926312,10.764316",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bandy",
+          "Ice Hockey"
+        ],
+        "opened": "1916",
+        "type": "outdoor venue",
+        "source_file": "venue_95.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 0.929,
+        "matched_venue_name": "Dæhlenenga (Idrettspark)",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Ice hockey, bandy (demonstration sport)",
+        "venue_information": "A repurposed venue, the outdoor ice rink from the 1952 Olympic Winter Games was transformed into an outdoor football pitch, which is operated by a local sports club. A new indoor ice rink was built on the site.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.5301,
+          59.8889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kadettangen"
+        ],
+        "place": "Sandvika",
+        "coordinates": "59.8889,10.5301",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_96.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lillestrøm Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Ice hockey",
+        "venue_information": "Now a football stadium, it is part of a sports complex that also features an athletics track."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.201465,
+          59.734351
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Marienlyst Stadion",
+          "Marienlyst Stadium"
+        ],
+        "place": "Drammen",
+        "coordinates": "59.734351,10.201465",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1924",
+        "type": "outdoor venue",
+        "source_file": "venue_97.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 0.874,
+        "matched_venue_name": "Drammen Marienlyst Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Ice hockey",
+        "venue_information": "A repurposed venue, it is now the home ground of football club Strømsgodset Toppfotball, who play in the Eliteserien, Norway's top flight.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.068447,
+          59.960602
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lillestrøm Idrettsplass",
+          "Lillestrøm Sports Field"
+        ],
+        "place": "Lillestrøm",
+        "coordinates": "59.960602,11.068447",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_98.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lillestrøm Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Ice hockey",
+        "venue_information": "Now a football stadium, it is part of a sports complex that also features an athletics track."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.667778,
+          59.963889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Holmenkollbakken",
+          "Holmenkoll Ski Jumping Hill"
+        ],
+        "place": "Oslo",
+        "coordinates": "59.963889,10.667778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1939",
+        "seating_capacity": "150000",
+        "type": "outdoor venue",
+        "source_file": "venue_99.json",
+        "Olympics": "1952 Oslo",
+        "match_type": "name_match",
+        "match_confidence": 0.9510000000000001,
+        "matched_venue_name": "Holmenkollen Ski Jumping Hill",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Ski jumping, Nordic combined",
+        "venue_information": "Now known as Holmenkollbakken, it is the centrepiece of the Holmenkollen National Ski Arena (\"Nasjonalanlegg\") and has been in existence for nearly 130 years. Refurbished on 18 occasions, most recently in 2008, it continues to host World Cup competitions, world championships and national and local events. It has staged the FIS Nordic World Ski Championships on four occasions, welcoming nearly 600,000 spectators for the most recent of those events, in 2011. The venue also features on the annual FIS Ski Jumping World Cup circuit. The viewing platform at the top of the ski jump tower is open to the public and offers panoramic views of Oslo and the surrounding forests.",
+        "match_method": "fuzzy_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1952",
+    "olympics_city": "Oslo",
+    "olympics_season": "winter"
+  }
+}

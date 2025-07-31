@@ -1,0 +1,584 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.137694,
+          51.508583
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Prince's Hall"
+        ],
+        "place": "Piccadilly, London",
+        "coordinates": "51.508583,-0.137694",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1883",
+        "type": "indoor venue",
+        "source_file": "venue_2097.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Prince's Galleries, Piccadilly (Prince's Hall)",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "",
+        "match_method": "exact_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2274,
+          51.51362
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "White City Stadium (also known as The Great Stadium)"
+        ],
+        "place": "London",
+        "coordinates": "51.51362,-0.2274",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Bicycle Polo",
+          "Cycling Track",
+          "Diving",
+          "Football",
+          "Glíma",
+          "Hockey",
+          "Lacrosse",
+          "Rugby",
+          "Swimming",
+          "Tug-Of-War",
+          "Water Polo",
+          "Wrestling",
+          "Opening ceremony"
+        ],
+        "notes": "Currently the site of the BBC Media Village.",
+        "opened": "1908",
+        "demolished": "1985",
+        "seating_capacity": "68000",
+        "type": "outdoor venue",
+        "dimensions": "⅓ mile (536.45 m) (ATH) / 640 y (585 m) (CYC) / 100 m (SWI)",
+        "surface": "loose cinders (ATH) / concrete (CYC)",
+        "altitude": "19 m",
+        "source_file": "venue_216.json",
+        "Olympics": "1908 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.102557,
+          51.527569
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Northampton Institute",
+          "City University London (1966-present)"
+        ],
+        "place": "Clerkenwell",
+        "coordinates": "51.527569,-0.102557",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1894",
+        "type": "indoor venue",
+        "source_file": "venue_217.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Northampton Institute",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Boxing",
+        "venue_information": "The venue hosted the boxing competition at the 1908 Olympic Games. Built in the 1890s, it underwent reconstruction after being bombed during WWII, and it also survived a fire in 2001. Currently used for lectures, the hall is undergoing refurbishment, which will see it equipped with the latest technologies and a new lighting system. The university's swimming pool was used as a training venue at the 1908 Games and is now a study area for students.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.2274,
+          51.51362
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fencing Ground just outside White City Stadium"
+        ],
+        "place": "London",
+        "coordinates": "51.51362,-0.2274",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_218.json",
+        "Olympics": "1908 London",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fencing Grounds",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Fencing",
+        "venue_information": "A large tent was erected just outside White City Stadium to host some of the fencing events. It was taken down after the Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.16664,
+          51.500191
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Prince's Skating Club, Montpelier Square"
+        ],
+        "place": "Knightsbridge",
+        "coordinates": "51.500191,-0.16664",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Figure Skating"
+        ],
+        "opened": "1896",
+        "demolished": "1917",
+        "type": "indoor venue",
+        "source_file": "venue_219.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Prince's Skating Club, Montpelier Square",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Figure skating",
+        "venue_information": "The rink opened on London's Montpelier Square in November 1896. A year after hosting the figure skating events at London 1908, it staged the Women's Exhibition, held in support of women's suffrage. The rink closed in 1917. The building was used by the Daimler Motor Company before being demolished in the mid-1970s. The site is now occupied by a private garden.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.211562,
+          51.487656
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Queen's Club"
+        ],
+        "place": "West Kensington",
+        "coordinates": "51.487656,-0.211562",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Jeu De Paume",
+          "Racquets",
+          "Tennis"
+        ],
+        "opened": "1886",
+        "type": "indoor venue",
+        "source_file": "venue_220.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Queen's Club",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "The club offers its members lawn tennis, real tennis, rackets and squash courts, and is the venue for the annual Queen's Club Championships, the traditional curtain-raiser for Wimbledon. The club also stages the World Rackets Championships and the World Real Tennis Championship, and hosted the Super Series Squash Finals between 2009 and 2013. Established in 1886, the Queen's Club lays claim to being the world's first multi-purpose sports complex. It has hosted 25 different sports over the years, including ice skating, baseball, athletics and rugby, and was the venue for the annual Oxford v Cambridge rugby, football and athletics challenges up until the late 1920s."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3475,
+          50.856111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Southampton Water"
+        ],
+        "place": "Southampton",
+        "coordinates": "50.856111,-1.3475",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Motorboating"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_221.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Southampton Water",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Water motorsports",
+        "venue_information": "Sailing remains a popular pursuit on Southampton Water, which is home to a number of sailing clubs. Ten of them are represented by the Southampton Water Sailing Association, which aims to promote sailing on this body of water and non-competitive racing between its member clubs. The water motorsports races at the 1908 Olympic Games started from and ended at the Enchantress, the floating clubhouse of the Royal Motor Yacht Club, which was asked to organise the competition. Founded in 1905 and still in existence today, the club moved to Sandbanks, at Dorset's Poole Harbour, in 1936. The Enchantress was destroyed when it was hit by a bomb during WWI."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.201895,
+          51.468813
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hurlingham Polo Grounds"
+        ],
+        "place": "London",
+        "coordinates": "51.468813,-0.201895",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Polo"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_222.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hurlingham Polo Grounds",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Polo",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.899924,
+          51.540304
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Henley Royal Regatta Course"
+        ],
+        "place": "Henley-on-Thames",
+        "coordinates": "51.540304,-0.899924",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          },
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "1839",
+        "type": "outdoor venue",
+        "dimensions": "1 mile 880 yards",
+        "source_file": "venue_223.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Henley Royal Regatta Course",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.160817,
+          50.73913
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ryde Pier"
+        ],
+        "place": "Ryde, Isle of Wight",
+        "coordinates": "50.73913,-1.160817",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_224.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ryde Pier, Ryde, Isle of Wight",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.911575,
+          55.970868
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Clyde Yacht Club"
+        ],
+        "place": "Hunters Quay",
+        "coordinates": "55.970868,-4.911575",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_225.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Royal Clyde Yacht Club, Hunters Quay",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.658858,
+          51.312401
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bisley Rifle Range",
+          "National Shooting Centre (?-present)"
+        ],
+        "place": "Bisley",
+        "coordinates": "51.312401,-0.658858",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          },
+          {
+            "year": "1948",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1890",
+        "type": "outdoor venue",
+        "source_file": "venue_226.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Bisley Rifle Range",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": "The venue for most of the shooting events is now known as the National Shooting Centre. Its famous Century range – so called because it comprises 100 targets – was converted for the Games. Bisley has been home to the National Rifle Association since 1890. The venue retains its original clubhouses and layout today, and its ranges remain largely similar. A new range – Cheylesmore – was laid out for the 1948 Olympic Games, and in more recent times Bisley hosted all the shooting events at the 2002 Commonwealth Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.284464,
+          51.575389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Uxendon Shooting School Club",
+          "Uxendon Farm (19th century)"
+        ],
+        "place": "Brent, London",
+        "coordinates": "51.575389,-0.284464",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "demolished": "1932",
+        "type": "outdoor venue",
+        "source_file": "venue_227.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Uxendon Shooting School Club",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": "The venue for the trap shooting events at the 1908 Olympic Games. The club, which was located in countryside at the time, hosted the British Clay Pigeon Association's championship a week after the Games. It was demolished in 1932. The site, which lies in the London suburb of Wembley, is now covered by housing.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.216701,
+          51.415455
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "All-England Lawn Tennis & Croquet Club"
+        ],
+        "place": "Wimbledon",
+        "coordinates": "51.415455,-0.216701",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1908",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "Currently site of the Wimbledon Girls School.",
+        "opened": "1868",
+        "demolished": "1922",
+        "type": "outdoor venue",
+        "surface": "Grass",
+        "source_file": "venue_228.json",
+        "Olympics": "1908 London",
+        "match_type": "name_match",
+        "match_confidence": 0.9410000000000001,
+        "matched_venue_name": "All England Lawn Tennis and Croquet Club",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Tennis",
+        "venue_information": "Founded in 1869 on Worple Road in Wimbledon, the All England Lawn Tennis and Croquet Club remained there until 1922, when it moved across the district of Wimbledon to its current location on Church Road.",
+        "match_method": "fuzzy_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1908",
+    "olympics_city": "London",
+    "olympics_season": "summer"
+  }
+}

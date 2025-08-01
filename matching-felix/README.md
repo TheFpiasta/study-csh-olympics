@@ -18,22 +18,6 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
-
-## results
-
-- eineiiges getestet
-- beste Resultant (82.2% matches) mit:
-  - namen splitten ( "hallo (aka hello)" -> "hallo", "hello" )
-  - nur wenige begriffen entfernen (eigentlich nur "also known as")
-  - nur direct match und fuzzy match verwenden
-  - fuzzy match mit 0.75 threshold
-
-- probleme gibt es, dass es einigermaßen unsicher ist, ob richtig gematched wurde
-  - gleiche sportarten sind nicht immer gleiche stadien
-  - ähnliche stadien namen sind manchmal über mehrere stadien anwendbar (z.b. "Stadium des große Schießen" <-> "stadium des Bogen Schießen", "stadium des Pistol Schießen" würden beide matchen sind aber potential beide falsch)
-
-- Problematisch ist vor allem, dass nicht sicher festgestellt werden kann, ob die matches stimmen oder nicht
-
 ## Ordner Struktur
 
 ```txt

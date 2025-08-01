@@ -18,22 +18,6 @@ pip install -r requirements.txt
 pip freeze > requirements.txt
 ```
 
-
-## results
-
-- eineiiges getestet
-- beste Resultant (82.2% matches) mit:
-  - namen splitten ( "hallo (aka hello)" -> "hallo", "hello" )
-  - nur wenige begriffen entfernen (eigentlich nur "also known as")
-  - nur direct match und fuzzy match verwenden
-  - fuzzy match mit 0.75 threshold
-
-- probleme gibt es, dass es einigermaßen unsicher ist, ob richtig gematched wurde
-  - gleiche sportarten sind nicht immer gleiche stadien
-  - ähnliche stadien namen sind manchmal über mehrere stadien anwendbar (z.b. "Stadium des große Schießen" <-> "stadium des Bogen Schießen", "stadium des Pistol Schießen" würden beide matchen sind aber potential beide falsch)
-
-- Problematisch ist vor allem, dass nicht sicher festgestellt werden kann, ob die matches stimmen oder nicht
-
 ## Ordner Struktur
 
 ```txt
@@ -73,3 +57,56 @@ matching-felix
 ├── venues_matcher.py - Contains the matching algorithms for venue names
 └── visualize_structure.py - Script to visualize the folder structure
 ```
+
+## Stand der matches
+
+Ich habe einiges rum probiert. Die Beste Lösung um die Stadien zu matchen in meinem Code (matching-felix) ist:
+
+Hauptfile: main.py
+Nutzt: venues_matcher.py (Funktionalität für name-matches)
+
+README.md für mehr Strucktur infos
+
+- Sports match --> alle unmatched weiter behandeln
+- Namen mit klammern "Stadium (aka venues)" splitten --> "Stadium", "aka venues"
+  --> fällt mir gerade ein: könnte man auch noch nach Komma oder "/" splitten?
+- dann für alle Kombinationen (unsplittet, splittet) Name-matching ausführen
+  --> 1. direkter Match (gleiche namen)
+  --> 2. fuzzy Match mit threshold
+- im preprocessing nur die wörter "also", "known", "as" filtern.
+- FYI aktuelle und Beste Implementation erzeugte den Ordner "combined_geojson_less_stages_less_array"
+  ==> 82.2% matches ereicht (über alle Stadien)
+
+### Problem / todos
+
+- es wird alles schön gelogged, aber da das ultra viel ist, stellt sich eine Überprüfung als schwirig raus. Es kann nur stichprobenhaltig geschaut werden
+
+### Noch zu implementieren:
+
+- bei den matches werden aktuell noch nicht alle Statistiken eingefügt. Und die globalen infos je Austragung. Das müsste mal noch angepast werden
+  --> transfer_venue_data() für venues properties
+  --> transfer_olympic_year_data() für globale properties
+
+### Erkentnisse
+
+- mehr wörter filtern (filler, place namen, location namen) hat das matching verschlechtert
+- die implementierten token_based_match und substring_match sind unsichere Matches. Es werden gefühlt mehr False Positive produziert. und etwas mehr unmatched bleiben übrig
+- fuzzy mit thrashold von 0.75 ist ziemlich gut, kann aber auch noch mal anders gesetzt werden
+- Es gibt/ gab einige Fälle, indem mal durch das Sports match zwei unterschiedliche Stadien gematched wurden. Das muss nochmal überprüft werden
+  z.B.
+
+`[00:09:01] INFO: Sport match: JSON venue Rio Olympic Stadium <-> GeoJSON venue ['Minerão', 'Mineirão', 'Estádio Governador Magalhães Pinto'] | Sports json: Football, Sports geojson: Football`
+
+~2016 Summer Olympics
+
+### Resultat
+
+- meine Implementation könnte man nehmen.
+- Es sollte darauf hingewießen werden, dass es zu fehlerhaten / unvollständigen Daten kommen kann
+- todos wie oben beschrieben müssten mal noch angepast werden
+- für die paar Jahre, die wir tiefer analysieren, müssen wir die Matching Resultate genauer untersuchen/ prüfen
+- Auswertungen über alle venues sollten mit bedacht erstellt werden. ggf für graphen nicht die geojsons verwenden sondern die einzelnen Datenquellen
+- Das exakte matching ist ein POC und ein offenes Thema für weitere Forschungsarbeiten.
+
+Ich denke, wir sollten uns vorerst mit den über 80% Matches zufrieden geben und damit weiter arbeiten.
+

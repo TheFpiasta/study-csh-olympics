@@ -267,13 +267,7 @@ def manipulate_geojson_file(filename, geojson_content):
     # Create a copy of the original content to manipulate
     manipulated_content = geojson_content.copy()
 
-    # Add basic metadata to the GeoJSON
-    if 'properties' not in manipulated_content:
-        manipulated_content['properties'] = {}
-
-    manipulated_content['properties']['olympics_year'] = year
-    manipulated_content['properties']['olympics_city'] = city
-    manipulated_content['properties']['olympics_season'] = season
+    transfer_olympic_year_data(city, manipulated_content, season, year)
 
     # Process venue matching if we have JSON data
     if json_datum and 'data' in json_datum:
@@ -302,6 +296,15 @@ def manipulate_geojson_file(filename, geojson_content):
                             if unmatched_venues:
                                 match_by_venues(feature, manipulated_content, unmatched_venues, year_data)
     return manipulated_content
+
+
+def transfer_olympic_year_data(city, manipulated_content, season, year):
+    # Add basic metadata to the GeoJSON
+    if 'properties' not in manipulated_content:
+        manipulated_content['properties'] = {}
+    manipulated_content['properties']['olympics_year'] = year
+    manipulated_content['properties']['olympics_city'] = city
+    manipulated_content['properties']['olympics_season'] = season
 
 
 def match_by_venues(feature, manipulated_content, unmatched_venues, year_data):

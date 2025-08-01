@@ -1,0 +1,436 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.373605,
+          45.663614
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Halle de Glace",
+          "Olympic Ice Hall"
+        ],
+        "place": "Albertville",
+        "coordinates": "45.663614,6.373605",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "9000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_1.json",
+        "Olympics": "1992 Albertville",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
+        "matched_venue_name": "Olympic Ice Hall (Halle Olympique)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Figure skating, short track speed skating",
+        "venue_information": "One of several facilities at Albertville's Henri Dujol Olympic Park, it remains open to the public. The Halle Olympique is a training base for the French ice hockey and short track teams. A multi-purpose facility with a capacity of between 6,500 and 9,000, it was the venue for the French Short Track Speed Skating Championships in 2010, the 2018 Davis Cup tie between France and the Netherlands, and several matches at the 2017 World Handball Championship. A key venue for business, art and cultural events, it is also the home of the Tremplin 92 – Montagne et Olympisme, which houses a permanent exhibition telling the story of the 1992 Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.722206,
+          45.376968
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Patinoire",
+          "Ice Rink"
+        ],
+        "place": "Pralognan-la-Vanoise",
+        "coordinates": "45.376968,6.722206",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "2300",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_10.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.529162,
+          45.758706
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Les Saisies",
+        "coordinates": "45.758706,6.529162",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "seating_capacity": "12500",
+        "type": "outdoor venue",
+        "source_file": "venue_11.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.897038,
+          45.455818
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Tignes",
+        "coordinates": "45.455818,6.897038",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Freestyle Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "2103 m",
+        "source_file": "venue_12.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.974977,
+          45.446098
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Val d'Isère",
+        "coordinates": "45.446098,6.974977",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1836 m",
+        "source_file": "venue_13.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.371051,
+          45.664529
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Anneau de Vitesse",
+          "Olympic Oval"
+        ],
+        "place": "Albertville",
+        "coordinates": "45.664529,6.371051",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "335 m",
+        "source_file": "venue_2.json",
+        "Olympics": "1992 Albertville",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_inner",
+        "matched_venue_name": "Olympic Oval (Anneau de vitesse)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "Also located at Henri Dujol Olympic Park in Albertville, the venue's temporary ice sheet was removed after the Games, and the facility was converted into a 10,000-capacity multi-purpose stadium. It is used by the town's athletics, rugby and football clubs and also hosts occasional rock concerts."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.830503,
+          45.572581
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arc 2000"
+        ],
+        "place": "Les Arcs",
+        "coordinates": "45.572581,6.830503",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "2145 m",
+        "source_file": "venue_4.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.615706,
+          45.431253
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Le Praz, Courchevel",
+        "coordinates": "45.431253,6.615706",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Two parts, Stade de Saut (Jumping Stadium) and Stade de Fond (Cross-country Stadium)",
+        "seating_capacity": "23000 (SKJ) / 15000 (CCS)",
+        "type": "outdoor venue",
+        "source_file": "venue_5.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.539038,
+          45.323687
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade de Slalom",
+          "Slalom Stadium"
+        ],
+        "place": "Les Ménuires",
+        "coordinates": "45.323687,6.539038",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1850 m",
+        "source_file": "venue_6.json",
+        "Olympics": "1992 Albertville",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_inner",
+        "matched_venue_name": "Les Ménuires - Slalom Stadium (Stade de Slalom)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "Les Ménuires resort has made the most of its Games-inspired transformation from a budget-conscious destination to one offering more luxurious accommodation. Its Olympic slalom course is just one of its many attractions."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.566262,
+          45.391914
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Méribel",
+        "coordinates": "45.391914,6.566262",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "3000",
+        "type": "temporary outdoor venue",
+        "altitude": "1432 m",
+        "source_file": "venue_7.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.565769,
+          45.393561
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Patinoire Olympique",
+          "Olympic Rink"
+        ],
+        "place": "Méribel",
+        "coordinates": "45.393561,6.565769",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1991",
+        "seating_capacity": "6420",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "altitude": "1435 m",
+        "source_file": "venue_8.json",
+        "Olympics": "1992 Albertville"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.677778,
+          45.521667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Bobsleigh et Luge",
+          "Bobsleigh and Luge Track"
+        ],
+        "place": "La Plagne",
+        "coordinates": "45.521667,6.677778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1992",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "opened": "1991",
+        "type": "outdoor venue",
+        "altitude": "1560 m",
+        "source_file": "venue_9.json",
+        "Olympics": "1992 Albertville",
+        "match_type": "name_match",
+        "match_confidence": 0.8150000000000001,
+        "match_method": "fuzzy_match_inner",
+        "matched_venue_name": "La Plagne - Olympic Bobsleigh and Luge Track (Piste Olympique de bobsleigh et de luge)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Bobsleigh, luge",
+        "venue_information": "France's national sliding sports training centre hosts international competitions nearly every year, including a round of the 2020 IBSF Bobsleigh World Cup. As planned when it was built, the venue is also open to the general public for beginners' bobsleigh and luge activities. It is visited by approximately 14,000 people a year. La Plagne, the resort where the sliding track is located, is the world's most-frequented ski resort. In 2003, the sliding centre in La Plagne became the first in the world to switch from ammonia to safer glycol refrigeration piping."
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1992",
+    "olympics_city": "Albertville",
+    "olympics_season": "winter"
+  }
+}

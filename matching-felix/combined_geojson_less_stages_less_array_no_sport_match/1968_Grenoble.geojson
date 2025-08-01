@@ -1,0 +1,377 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.87554,
+          45.126563
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Recoin"
+        ],
+        "place": "Chamrousse",
+        "coordinates": "45.126563,5.87554",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_42.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.887894,
+          45.140805
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Casserousse"
+        ],
+        "place": "Chamrousse",
+        "coordinates": "45.140805,5.887894",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_43.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.540661,
+          45.173771
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Autrans",
+        "coordinates": "45.173771,5.540661",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_44.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.54705,
+          45.170231
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Autrans",
+        "coordinates": "45.170231,5.54705",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1967",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "source_file": "venue_45.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.633505,
+          45.164476
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Saint-Nizier-du-Moucherotte",
+        "coordinates": "45.164476,5.633505",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ski Jumping"
+        ],
+        "opened": "1967",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_46.json",
+        "Olympics": "1968 Grenoble"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.550241,
+          45.05605
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Luge",
+          "Luge Track"
+        ],
+        "place": "Villard-de-Lans",
+        "coordinates": "45.05605,5.550241",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Luge"
+        ],
+        "type": "outdoor venue",
+        "altitude": "1000 m",
+        "source_file": "venue_47.json",
+        "Olympics": "1968 Grenoble",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Piste de Luge",
+        "venue_classification": "New build",
+        "venue_status": "In use (limited)",
+        "venue_use": "Luge",
+        "venue_information": "The venue staged only a few international events after the Games and was later used for local competitions and youth training. Abandoned in 1994, the site was bought four years later by a French Olympic luger, who converted it into a leisure park offering family and recreational activities. The last 400m of the track are used for luging in the summer months."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.073009,
+          45.105478
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piste de Bobsleigh",
+          "Bobsleigh Track"
+        ],
+        "place": "L'Alpe-d'Huez",
+        "coordinates": "45.105478,6.073009",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1967",
+        "type": "outdoor venue",
+        "altitude": "1890 m",
+        "source_file": "venue_48.json",
+        "Olympics": "1968 Grenoble",
+        "match_type": "name_match",
+        "match_confidence": 0.898,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Piste de Bobsled",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Bobsleigh",
+        "venue_information": "This artificial track was built with natural ice at an altitude of 2,000 metres to make the ice easier to maintain. It was exposed to sunlight during the day, however. Proving too costly to maintain, the track was abandoned shortly after the Games and dismantled in the 1990s. All that remains of the facility is the starting house and finish-line house, which have been converted into a restaurant and an equestrian centre respectively."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.737312,
+          45.184311
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "L'Anneau de Vitesse",
+          "Speed Skating Rink"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.184311,5.737312",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1967",
+        "seating_capacity": "2500",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "220 m",
+        "source_file": "venue_49.json",
+        "Olympics": "1968 Grenoble",
+        "match_type": "name_match",
+        "match_confidence": 0.7879999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Anneau de Vitesse de Grenoble",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "This was the venue for several major speed skating competitions after the Games, the last of them the 1981 World Sprint Championships. Its track refrigeration system was removed in 1990 due to the high running costs, at which point the site was adapted for community use. An outdoor venue, it is now used by local people for roller skating and jogging, and hosts concerts, festivals and theatre performances. It is also a popular gathering place for the city's residents. Like the Stade de Glace and Patinoire Municipale, it is situated in the Parc Paul Mistral."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.736316,
+          45.183202
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Patinoire Municipale",
+          "Municipal Rink"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.183202,5.736316",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1963",
+        "seating_capacity": "2700",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_50.json",
+        "Olympics": "1968 Grenoble",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Patinoire Municipale",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "Built in 1963, it was initially the home of the city's ice hockey club but had its ice rink removed in 2001. Now called Halle Clémenceau, it is a gymnastics hall used by schools and local clubs. It also has volleyball, fencing and handball facilities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.740725,
+          45.18573
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade de Glace",
+          "Ice Stadium"
+        ],
+        "place": "Grenoble",
+        "coordinates": "45.18573,5.740725",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1968",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Closing ceremony"
+        ],
+        "opened": "1967",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_51.json",
+        "Olympics": "1968 Grenoble",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Stade de Glace",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey, figure skating, Closing Ceremony",
+        "venue_information": "Today called Palais des Sports - Pierre Mendès France, the 12,000-seat venue hosted several major sporting events in the years after the Olympic Winter Games, including the 1972 IAAF European Athletics Indoor Championships. Now a popular concert venue, it has staged the Six Jours de Grenoble track cycling event since 1971, the Festival International du Cirque since 2002, and the annual Supercross motorcycling competition since the 1990s."
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1968",
+    "olympics_city": "Grenoble",
+    "olympics_season": "winter"
+  }
+}

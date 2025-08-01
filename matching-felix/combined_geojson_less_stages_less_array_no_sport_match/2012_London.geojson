@@ -1,0 +1,1204 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.282972,
+          51.558083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wembley Arena",
+          "Empire Pool (1934-1978)"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.558083,-0.282972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1948",
+            "season": "Summer"
+          },
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Boxing",
+          "Diving",
+          "Rhythmic Gymnastics",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1934",
+        "seating_capacity": "6000 (2012)",
+        "type": "indoor venue",
+        "source_file": "venue_342.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Wembley Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, badminton",
+        "venue_information": "Built in the 1930s and a swimming venue at the 1948 Olympic Games, when it was known as the Empire Pool, the venue was awarded Grade II-listed status in 1976 and renamed Wembley Arena two years later. It was extensively refurbished in 2006 and renamed the SSE Arena in 2014. It hosts more than 100 events a year, including sports events, shows and concerts. In 2018 alone, it attracted more than a million visitors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0106,
+          51.5402
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "London Aquatics Centre, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5402,-0.0106",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming"
+        ],
+        "opened": "2011",
+        "seating_capacity": "17500",
+        "type": "indoor venue",
+        "dimensions": "50 m (SWI)",
+        "source_file": "venue_855.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "London Aquatics Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, artistic swimming, modern pentathlon (swimming)",
+        "venue_information": "Also situated in Queen Elizabeth Olympic Park, the venue was reconfigured after the Games to ensure its long-term use and sustainability and opened to the public in March 2014. It houses two 50m Olympic-sized pools, a 25m diving pool with boards and platforms up to 10m, a dry diving zone, a state-of-the-art 50-station gym, a café and a creche. The venue is widely used for community sport, leisure and recreation. More than 50 schools use it for lessons, with 300 students benefitting from the venue every day. In total, 3,500 swimmers and 600 divers are estimated to visit the centre every week. The venue's construction doubled the number of Olympic-sized pools in the British capital. It offers training for high-performance athletes and hosts competitions and events. The venue for the 2014 FINA World Diving Series and the 2016 European Aquatics Championships, it is also home to a diving academy opened by British Olympic diver Tom Daley."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0139,
+          51.5486
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Basketball Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5486,-0.0139",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "2011",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "source_file": "venue_856.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Basketball Arena",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Basketball, handball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.013223,
+          51.550818
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "BMX Track, London Velopark, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.550818,-0.013223",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling BMX Racing"
+        ],
+        "opened": "2011",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_857.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "BMX Track",
+        "venue_classification": "Temporary",
+        "venue_status": "In use",
+        "venue_use": "Cycling BMX",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.495556,
+          52.448056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "City of Coventry Stadium",
+          "Ricoh Arena (2005-present)"
+        ],
+        "place": "Coventry",
+        "coordinates": "52.448056,-1.495556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2005",
+        "seating_capacity": "32500",
+        "type": "outdoor venue",
+        "source_file": "venue_858.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "City of Coventry Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.197778,
+          51.488889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Earls Court Exhibition Centre"
+        ],
+        "place": "Kensington and Chelsea, London",
+        "coordinates": "51.488889,-0.197778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "notes": "Different venue from the nearby Empress Hall (now demolished) used at the 1948 Olympics.",
+        "opened": "1937",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "source_file": "venue_859.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Earls Court Exhibition Centre",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Volleyball",
+        "venue_information": "The venue formerly known as the Empress Hall was built in 1895 and redeveloped in 1936. It was used during the Olympic Games London 1948 and became a major exhibition, events and concert venue, hosting the volleyball competitions at the 2012 Olympic Games. The venue was demolished in 2014 to make way for a residential development that has yet to be built."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.6655,
+          51.4933
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eton Dorney (also known as Dorney Lake, Eton College Rowing Centre)"
+        ],
+        "place": "Windsor",
+        "coordinates": "51.4933,-0.6655",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2006",
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "source_file": "venue_860.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.029722,
+          51.5075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "ExCeL (also known as Exhibition Centre London)"
+        ],
+        "place": "Newham, London",
+        "coordinates": "51.5075,0.029722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Fencing",
+          "Judo",
+          "Table Tennis",
+          "Taekwondo",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "opened": "2000",
+        "seating_capacity": "6000 (TKW/TTN/WLT), 10000 (BOX/JUD/WRE), 8000 (FEN)",
+        "type": "indoor venue",
+        "source_file": "venue_861.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.002618,
+          51.479562
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Greenwich Park"
+        ],
+        "place": "Greenwich, London",
+        "coordinates": "51.479562,-0.002618",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1433",
+        "seating_capacity": "23000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_862.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Greenwich Park",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Jumping, dressage, eventing, modern pentathlon (equestrian, running, shooting)",
+        "venue_information": "Greenwich Park is one of the oldest and most famous parks in London and has been used as a location for several films, among them Four Weddings and a Funeral. Its use for the Olympic Games was opposed by some local residents, who expressed concern that the equestrian events would cause irreparable damage to the park and local ecosystem. Those fears proved unfounded – the venue was returned to its normal use after the Games, and all temporary infrastructure was removed."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.60883,
+          51.54387
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hadleigh Farm"
+        ],
+        "place": "Hadleigh, Essex",
+        "coordinates": "51.54387,0.60883",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "opened": "2012",
+        "seating_capacity": "20000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_863.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Hadleigh Farm",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Mountain bike",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.252003,
+          55.825864
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hampden Park"
+        ],
+        "place": "Glasgow",
+        "coordinates": "55.825864,-4.252003",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1903",
+        "seating_capacity": "52000",
+        "type": "outdoor venue",
+        "source_file": "venue_864.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Hampden Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0201,
+          51.5444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Copper Box, Olympic Park",
+          "Handball Arena (2011-2012)"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5444,-0.0201",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball",
+          "Modern Pentathlon"
+        ],
+        "opened": "2011",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "source_file": "venue_865.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Copper Box",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Handball, modern pentathlon (fencing)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.020556,
+          51.549444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riverbank Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.549444,-0.020556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "2012",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_866.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Riverbank Arena",
+        "venue_classification": "Temporary",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "Part of Queen Elizabeth Olympic Park, the venue was dismantled after the Games and rebuilt just a few hundred metres away at Lee Valley Hockey and Tennis Centre. The new centre has become England Hockey's main venue and staged the 2015 European Hockey Championships and the 2017 Men's Hockey World League semi-finals. Its pitches are also used by local clubs and cater for players of all levels. The site of the Riverbank Arena is now parkland."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1283,
+          51.5047
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Horse Guards Parade, Centre Court"
+        ],
+        "place": "London",
+        "coordinates": "51.5047,-0.1283",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "opened": "±1650",
+        "seating_capacity": "15000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_867.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.165702,
+          51.505921
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hyde Park"
+        ],
+        "place": "London",
+        "coordinates": "51.505921,-0.165702",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Marathon Swimming",
+          "Triathlon"
+        ],
+        "opened": "2012",
+        "seating_capacity": "3000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_868.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Hyde Park",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Triathlon, marathon swimming",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0156,
+          51.6883
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lee Valley White Water Centre",
+          "Broxbourne White Water Canoe Centre (2010-?)"
+        ],
+        "place": "Waltham Cross",
+        "coordinates": "51.6883,-0.0156",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "2010",
+        "seating_capacity": "12000",
+        "type": "outdoor venue",
+        "dimensions": "300 m",
+        "source_file": "venue_869.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Lee Valley White Water Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe slalom",
+        "venue_information": "This was the only new London 2012 venue to open to the public before the Games, in April 2011. It reopened just six weeks after the Games. The venue features a 300m Olympic standard competition course and a 160m Legacy Loop, plus a lake the size of two football pitches. It is home to British Canoeing's High Performance Centre and is the training facility for the British Canoe Slalom squad. Since staging the London 2012 canoe slalom events, it has attracted more than 3.4 million visitors and hosted several elite-level events, including ICF Canoe Slalom World Cup rounds in 2014 and 2019, and the 2015 ICF Canoe Slalom World Championships, which it will again host in 2023. The centre has expanded its visitor offer to include events and activities for families, schools, clubs and community groups. These include white water rafting, canoeing, kayaking, hydrospeeding and inflatable obstacle courses."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1727,
+          51.5294
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lord's Cricket Ground"
+        ],
+        "place": "St John's Wood, London",
+        "coordinates": "51.5294,-0.1727",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1814",
+        "seating_capacity": "6500",
+        "type": "outdoor venue",
+        "source_file": "venue_870.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Lord's Cricket Ground",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Archery",
+        "venue_information": "Temporary stands accommodating 6,500 spectators were set up on the outfield. The archers shot with the famous pavilion behind them. The stands and facilities erected for the Olympic archery competitions were dismantled immediately after the Games. Lord's is known as the \"Home of Cricket\" and first hosted the sport in 1814."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.1825,
+          51.478056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadiwm y Mileniwm",
+          "Millennium Stadium"
+        ],
+        "place": "Cardiff",
+        "coordinates": "51.478056,-3.1825",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1999",
+        "seating_capacity": "74600",
+        "type": "outdoor venue",
+        "source_file": "venue_871.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Millennium Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.003133,
+          51.502997
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "North Greenwich Arena",
+          "O2 Arena (2007-present)"
+        ],
+        "place": "Greenwich, London",
+        "coordinates": "51.502997,0.003133",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Trampolining"
+        ],
+        "opened": "2007",
+        "seating_capacity": "16500 (GYM), 20000 (BAS)",
+        "type": "indoor venue",
+        "source_file": "venue_872.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "North Greenwich Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, trampoline gymnastics, basketball",
+        "venue_information": "Originally known as the Millennium Dome and built to celebrate the new millennium, the venue opened on 31 December 1999. Underused in the years that followed, it closed its doors before being refurbished and reopening in 2007, when it was renamed the North Greenwich Arena. Now known as the O2 Arena, it has hosted more than 2,000 events, for which over 25 million tickets have been sold. At 20,000, it has the second-highest capacity for an indoor arena in the UK. A multi-purpose entertainment, cultural and sporting venue, it provides the setting for the ATP Finals, the final event of the men's professional tennis season. Also home to an exhibition centre, a live music club and restaurants, it offers rooftop tours to visitors. During the COVID-19 pandemic, the arena was made available to the UK's National Health Service (NHS) for staff training."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.291389,
+          53.463056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Old Trafford",
+          "Sports Direct Arena"
+        ],
+        "place": "Manchester",
+        "coordinates": "53.463056,-2.291389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1910",
+        "seating_capacity": "76000",
+        "type": "outdoor venue",
+        "source_file": "venue_873.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Old Trafford",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.016389,
+          51.538611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Stadium, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.538611,-0.016389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "2011",
+        "seating_capacity": "80000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "source_file": "venue_874.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "London Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "The stadium forms part of Queen Elizabeth Olympic Park, which was built on a brownfield site in a part of the city earmarked for regeneration. With a view to the stadium's post-Games reconfiguration, removable features were installed, and the weight of the structures was kept to a minimum. This reconfiguration took place between 2013 and 2016. A new roof covering all the seats was installed, along with retractable seating to cover the athletics track and bring the crowd closer to the pitch. The capacity was reduced from 80,000 to approximately 60,000, though the venue can host 80,000 for concerts. As well as hosting the 2017 IAAF World Championships and matches of the 2015 Rugby World Cup, the stadium became the new home ground of English Premier League club West Ham United, ensuring its continued use. Despite its revamp, the stadium has been criticised because of high post-Games refurbishment costs, and the deal struck between the Mayor of London and West Ham United, which some believe has left taxpayers to fund a high amount of the club's stadium operating costs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.058593,
+          51.481371
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Royal Artillery Barracks"
+        ],
+        "place": "Woolwich, London",
+        "coordinates": "51.481371,0.058593",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1802",
+        "seating_capacity": "7500",
+        "type": "temporary indoor venue",
+        "source_file": "venue_875.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Royal Artillery Barracks",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Shooting",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.621667,
+          54.975556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "St James' Park"
+        ],
+        "place": "Newcastle",
+        "coordinates": "54.975556,-1.621667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1892",
+        "seating_capacity": "52000",
+        "type": "outdoor venue",
+        "source_file": "venue_876.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "St James' Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.130259,
+          51.506066
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Mall"
+        ],
+        "place": "London",
+        "coordinates": "51.506066,-0.130259",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Cycling Road"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_877.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "The Mall",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Marathon, race walk, cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0153,
+          51.5504
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velodrome, London Velopark, Olympic Park (also known as The Pringle)"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.5504,-0.0153",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "2011",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "source_file": "venue_878.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.012896,
+          51.541486
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Water Polo Arena, Olympic Park"
+        ],
+        "place": "Stratford, London",
+        "coordinates": "51.541486,-0.012896",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "2012",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_879.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Water Polo Arena",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Water polo",
+        "venue_information": "Located in Queen Elizabeth Olympic Park, this demountable venue was built using environmentally friendly materials that could be reused. It housed a competition pool and a warm-up pool and was dismantled in April 2013, with materials recycled or fed back into the supply chain. Today, the area occupied by the venue is being transformed into one of the sites for East Bank, a major culture and education district."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.278955,
+          51.555935
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wembley Stadium"
+        ],
+        "place": "Wembley, London",
+        "coordinates": "51.555935,-0.278955",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Built on same location as main stadium of the 1948 Olympics",
+        "opened": "2007",
+        "seating_capacity": "90000",
+        "type": "outdoor venue",
+        "source_file": "venue_880.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Wembley Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "Built for the British Empire Exhibition of 1924/25, the stadium hosted the Opening and Closing Ceremonies and the athletics competitions at the 1948 Olympic Games, when it was known as Empire Stadium. The stadium was demolished in 2003 and rebuilt, reopening in 2007. Wembley hosted its first FA Cup final in 1923 and remains the venue for this showpiece match and for the League Cup final today. It is also the home of England's national football team and staged the 1966 World Cup final, the finals of the 1996 and 2020 UEFA European Championships, and the finals of the London 2012 women's and men's Olympic football tournaments. The stadium has on occasion provided London football clubs Arsenal and Tottenham Hotspur with a temporary home, and it has been used for several other sports over the years, including rugby league, rugby union, American football, speedway, boxing and baseball. It is also a celebrated music venue and was the setting for the 1985 Live Aid charity concert. It also hosts corporate events and offers guided tours for visitors."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.455753,
+          50.570692
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Weymouth and Portland National Sailing Academy"
+        ],
+        "place": "Isle of Portland",
+        "coordinates": "50.570692,-2.455753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2000",
+        "seating_capacity": "4600",
+        "type": "outdoor venue",
+        "source_file": "venue_881.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.214064,
+          51.433744
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "All-England Lawn Tennis & Croquet Club"
+        ],
+        "place": "Wimbledon, London",
+        "coordinates": "51.433744,-0.214064",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "Different venue then used at the 1908 Olympics, when the club was located at Worple Road.",
+        "opened": "1922",
+        "seating_capacity": "15000 (centre court) / 30000 (total)",
+        "type": "outdoor venue",
+        "surface": "Grass",
+        "source_file": "venue_882.json",
+        "Olympics": "2012 London"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.340972,
+          51.405771
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hampton Court Palace"
+        ],
+        "place": "Richmond upon Thames, London",
+        "coordinates": "51.405771,-0.340972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2012",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "opened": "1514",
+        "type": "outdoor venue",
+        "source_file": "venue_883.json",
+        "Olympics": "2012 London",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Hampton Court Palace",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "2012",
+    "olympics_city": "London",
+    "olympics_season": "summer"
+  }
+}

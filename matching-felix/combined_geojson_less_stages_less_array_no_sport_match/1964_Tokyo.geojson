@@ -1,0 +1,1185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.714722,
+          35.678056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Kyogijo",
+          "National Stadium"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.678056,139.714722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1958",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Red clay cinders",
+        "altitude": "28 m",
+        "source_file": "venue_446.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "National Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Athletics, equestrian (jumping), football, Opening and Closing Ceremonies",
+        "venue_information": "Completed in 1958 for the third Asian Games, the stadium was expanded to accommodate 75,000 spectators for the 1964 Olympic Games. Afterwards, it staged a number of national and international sporting events, including the 1967 Summer Universiade, the 1991 World Championships in Athletics, the Japanese Athletics Championships, the final of the Emperor's Cup – a domestic football competition – and the final of the All-Japan Rugby Football Championship. It also staged several matches at the 1979 FIFA World Youth Championship, including the final. In 2019, the stadium was rebuilt as a new Olympic Stadium ahead of the Olympic Games Tokyo 2020."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.698648,
+          35.666485
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Yoyogi Kyogijo (Annex)",
+          "Yoyogi National Gymnasium (Annex)"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.666485,139.698648",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1961",
+        "type": "outdoor venue",
+        "source_file": "venue_447.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.888,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "National Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+        "venue_information": "An aquatics and basketball venue at Games time, it has been renamed Yoyogi National Stadium and now hosts sports such as ice hockey, handball and basketball. It staged the handball competitions at the Olympic Games Tokyo 2020. It is also a concert venue."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.751939,
+          35.704319
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Korakuen Horu",
+          "Korakuen Hall"
+        ],
+        "place": "Bunkyo, Tokyo",
+        "coordinates": "35.704319,139.751939",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "notes": "Now part of Tokyo Dome City, formerly known as Big Egg City, prior to 2000.",
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_448.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.717136,
+          35.674572
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Meiji Jingu Yakyujo"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.674572,139.717136",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_449.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.189042,
+          35.612415
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sagami-ko",
+          "Lake Sagami"
+        ],
+        "place": "Sagamihara, Kanagawa",
+        "coordinates": "35.612415,139.189042",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "source_file": "venue_450.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Lake Sagami",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe sprint",
+        "venue_information": "The lake was created by the damming of the Sagami River and was completed in 1947. The facilities built for the 1964 Olympic Games had all been removed by 1994, when a new boathouse and offices were built. The venue has a 1,000-metre rowing course and is used by university teams for training."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.293999,
+          35.647983
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hachioji Road Race Course"
+        ],
+        "place": "Hachioji, Tokyo",
+        "coordinates": "35.647983,139.293999",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_451.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.8300000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Hachioji Cycling Road Race Course",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.288801,
+          35.649141
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hachioji Jitenshakyogijo",
+          "Hachioji Velodrome"
+        ],
+        "place": "Hachioji, Tokyo",
+        "coordinates": "35.649141,139.288801",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1964",
+        "type": "temporary outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Concrete",
+        "additional_details": "45° curves, 15° straights",
+        "source_file": "venue_452.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Hachioji Velodrome",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The velodrome was later converted to a public space called Ryonan Park, which is home to baseball diamonds, sports pitches and a playground."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.700278,
+          35.6675
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kokuritsu Yoyogi Kyogijo"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.6675,139.700278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_453.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633248,
+          35.636224
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Baji Koen Equestrian Park (also known as JRA Equestrian Park)"
+        ],
+        "place": "Setagaya, Tokyo",
+        "coordinates": "35.636224,139.633248",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_454.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match_outer",
+        "matched_venue_name": "Baji Koen Equestrian Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Equestrian (dressage)",
+        "venue_information": "A racehorse breeding research centre and a training ground for horses and jockeys since its construction in 1940, it hosted the dressage competitions at the 1964 Olympic Games. Its facilities include a 2,400m racetrack, a jumps course, a polo ground, a sand track, a clubhouse, stables and office buildings. It continues to be used for research and competitions and hosted the dressage and jumping events at the Olympic Games Tokyo 2020 after being rebuilt."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.615398,
+          36.315397
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Karuizawa Equestrian Venue"
+        ],
+        "place": "Karuizawa, Nagano",
+        "coordinates": "36.315397,138.615398",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_455.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Karuizawa Equestrian Venue, Nagano",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Equestrian (eventing)",
+        "venue_information": "The cross-country event consisted of five sections: three road phases, a steeplechase and a cross-country course. The venue was also used for curling during the Olympic Winter Games Nagano 1998. Today, a number of sports are practised at the park, which also hosts a museum and a cauldron."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.720806,
+          35.708183
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Memorial Hall, Waseda Daigaku",
+          "Memorial Hall, Waseda University"
+        ],
+        "place": "Shinjuku, Tokyo",
+        "coordinates": "35.708183,139.720806",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_456.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Waseda Memorial Hall",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing, modern pentathlon (fencing)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.718169,
+          35.672603
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Chichibunomiya Ragubijo",
+          "Prince Chichubu Rugby Stadium"
+        ],
+        "place": "Minato, Tokyo",
+        "coordinates": "35.672603,139.718169",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "source_file": "venue_457.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.663664,
+          35.625611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Stadium, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.625611,139.663664",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_458.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Komazawa Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.601528,
+          35.470029
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mitsuzawa Stadium",
+          "Nippatsu Mitsuzawa Stadium (?-Present)"
+        ],
+        "place": "Yokohama",
+        "coordinates": "35.470029,139.601528",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1955",
+        "type": "outdoor venue",
+        "source_file": "venue_459.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.778,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Komazawa Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.633377,
+          35.916303
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Saitamashi Omiya Koen Sakkajo",
+          "Nakkufaibu Sutajiamu Omiya (2007-Presenet)"
+        ],
+        "place": "Saitama",
+        "coordinates": "35.916303,139.633377",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_460.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.518333,
+          34.613889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Osakashi Nagai Rikujo Kyogijo"
+        ],
+        "place": "Osaka",
+        "coordinates": "34.613889,135.518333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1964",
+        "seating_capacity": "23000",
+        "type": "outdoor venue",
+        "source_file": "venue_461.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.713972,
+          34.993528
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nishikyogoku Sutajiamu",
+          "Nishiyogoku Athletic Stadium"
+        ],
+        "place": "Kyoto",
+        "coordinates": "34.993528,135.713972",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1942",
+        "type": "outdoor venue",
+        "source_file": "venue_462.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.7125,
+          35.679722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tōkyō Taiikukan",
+          "Tokyo Metropolitan Gymnasium"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.679722,139.7125",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Table Tennis"
+        ],
+        "notes": "Renovated in 1990.",
+        "opened": "1954",
+        "type": "outdoor venue",
+        "source_file": "venue_463.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Tokyo Metropolitan Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics",
+        "venue_information": "Located in Meiji Park, next to the Tokyo Metropolitan Gymnasium Indoor Pool and the National Stadium, the gymnasium is a multi-purpose venue that hosted events at the 1967 Summer Universiade, the 2019 ITTF Team World Cup, the 2018 FIG Individual All-Around World Cup and the Olympic table tennis competitions at Tokyo 2020. It has also staged NBA matches, figure skating championships, and volleyball and wrestling competitions. The venue is open to the public and runs a number of recreational sports programmes."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.661766,
+          35.625241
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Hockey Fields, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.625241,139.661766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_464.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.8350000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Komazawa First Hockey Fields",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "The hockey pitches are part of Komazawa Olympic Park, which was built on the site of a golf course and made use of facilities constructed for the third Asian Games in 1958. The park was the location for the wrestling and volleyball venues used at the 1964 Olympic Games and one of the football venues. The three hockey pitches remain but are used for a variety of sports other than hockey, with the grass having been replaced by artificial turf. The park itself is a popular recreational venue for local residents and welcomes a number of sporting and cultural events throughout the year."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.75,
+          35.693333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nippon Budokan (also known as Budokan)"
+        ],
+        "place": "Chiyoda, Tokyo",
+        "coordinates": "35.693333,139.75",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Karate",
+          "Kendo",
+          "Kyudo",
+          "Sumo"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_465.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.895,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Nippon Budokan Hall",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Judo",
+        "venue_information": "This martial arts venue was built on the grounds of an ancient Edo castle and inspired by an eighth-century Japanese temple. Since the Games, the venue has continued to promote Japanese martial arts, hosting competitions, public demonstrations, workshops and lessons for people of all ages across a range of disciplines, including judo, kendo, karate, aikido, shorinji kempo and naginata. It staged the judo and karate competitions at the Olympic Games Tokyo 2020. It is also used for national and cultural events such as the national Memorial Service for the War Dead. A number of global artists and acts have performed at the venue, among them ABBA and the Beatles."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.580297,
+          35.779749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Asaka Shooting Range, Nezu Park"
+        ],
+        "place": "Asaka, Saitama",
+        "coordinates": "35.779749,139.580297",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_466.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Asaka Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting, modern pentathlon (shooting)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.580297,
+          35.779749
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nezu Park"
+        ],
+        "place": "Asaka, Saitama",
+        "coordinates": "35.779749,139.580297",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_467.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Asaka Nezu Park",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Modern pentathlon (equestrian)",
+        "venue_information": "The facilities erected for the modern pentathlon equestrian event were temporary and were dismantled afterwards. The site is now part of a Japan Ground Self-Defence Force base that is also home to Asaka Shooting Range, which staged shooting events at both Tokyo 1964 and Tokyo 2020."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.763507,
+          35.711969
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Combined Athletic Grounds, Tokyo Daigaku",
+          "Combined Athletic Grounds, Tokyo University"
+        ],
+        "place": "Bunkyo, Tokyo",
+        "coordinates": "35.711969,139.763507",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_468.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.657783,
+          35.803865
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Toda Rowing Course"
+        ],
+        "place": "Toda, Saitama",
+        "coordinates": "35.803865,139.657783",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "opened": "1939",
+        "type": "outdoor venue",
+        "source_file": "venue_469.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Toda Rowing Course",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing",
+        "venue_information": "The venue was originally constructed for the 1940 Olympic Games, which were due to have been held in Tokyo but were later awarded to Helsinki, before being cancelled when the Second World War began. Located on an embankment of the Arakawa River, the venue was refurbished and expanded for Tokyo 1964. It was considered as a rowing venue for Tokyo 2020 but ruled out on account of having only six lanes and limited space for the required facilities. The finish tower was taken down in 2002, and all that remains of the Tokyo 1964 facilities is the boat aligner's hut. The course is still used for training and competitions today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.438992,
+          35.28066
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Enoshima, Sagami-wan",
+        "coordinates": "35.28066,139.438992",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          },
+          {
+            "year": "2020",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_470.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.466667,
+          35.8
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tokorozawa Clay Pigeon Shooting Range"
+        ],
+        "place": "Tokorozawa, Saitama",
+        "coordinates": "35.8,139.466667",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_473.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Tokorozawa Clay Pigeon Shooting Range",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.662938,
+          35.623057
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Volleyball Court, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.623057,139.662938",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1964",
+        "seating_capacity": "3908",
+        "type": "outdoor venue",
+        "source_file": "venue_474.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Komazawa Volleyball Court",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Volleyball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.636542,
+          35.441047
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yokohama Bunka Taiikukan",
+          "Yokohama Cultural Gymnasium"
+        ],
+        "place": "Naka, Yokohama",
+        "coordinates": "35.441047,139.636542",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "source_file": "venue_475.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Yokohama Cultural Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Volleyball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.711223,
+          35.679075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tōkyō Taiikukan Indoor Swimming Pool",
+          "Tokyo Metropolitan Indoor Swimming Pool"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.679075,139.711223",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1957",
+        "type": "outdoor venue",
+        "source_file": "venue_476.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Tokyo Metropolitan Indoor Swimming Pool",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Water polo",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.697753,
+          35.664319
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shibuya Kokaido",
+          "Shibuya CC Remon Horu (?-Present)"
+        ],
+        "place": "Shibuya, Tokyo",
+        "coordinates": "35.664319,139.697753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "source_file": "venue_477.json",
+        "Olympics": "1964 Tokyo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.660753,
+          35.624774
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Komazawa Gymnasium, Komazawa Olympic Park"
+        ],
+        "place": "Tokyo",
+        "coordinates": "35.624774,139.660753",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_478.json",
+        "Olympics": "1964 Tokyo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Komazawa Gymnasium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Wrestling",
+        "venue_information": ""
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1964",
+    "olympics_city": "Tokyo",
+    "olympics_season": "summer"
+  }
+}

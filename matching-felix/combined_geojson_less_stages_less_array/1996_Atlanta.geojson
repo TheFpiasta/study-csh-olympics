@@ -1,0 +1,1204 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.14712,
+          33.794442
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stone Mountain Archery Center"
+        ],
+        "place": "Stone Mountain, Georgia",
+        "coordinates": "33.794442,-84.14712",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "notes": "Now part of the Songbird Habitat Trail in Stone Mountain Park.",
+        "seating_capacity": "5200",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_710.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.893,
+        "matched_venue_name": "Stone Mountain Park Archery Center",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Archery",
+        "venue_information": "The two venues were located next to each other and shared some of the same facilities and infrastructure. The velodrome used a 250m wooden track supported by a steel structure. It was decided that the velodrome should be temporary as no potential post-Games operator could be identified for it. Both venues were dismantled shortly after the Games and are now part of a songbird and habitat trail that runs through a public park, though some facilities remain in place and continue to be used.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.389444,
+          33.735278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centennial Olympic Stadium",
+          "Turner Field (?-Present)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.735278,-84.389444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Reconstructed as a baseball stadium after the Olympics.",
+        "opened": "1996",
+        "seating_capacity": "85600",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "287 m",
+        "source_file": "venue_711.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, Opening and Closing Ceremonies",
+        "venue_information": "Completed in May 1996, the venue was designed for use as a baseball stadium after the Games. Reshaped a year later to allow the Atlanta Braves baseball team to take up residence, it had its capacity lowered from 85,600 to 49,700 and was renamed Turner Field. The Braves remained at the stadium until 2016, at which point it was renovated and its capacity reduced to 25,000 in preparation for use by the Georgia State Panthers, the Georgia State University American football team. The Panthers continue to play at the venue, which is now known as Center Parc Stadium. The stadium track was removed after the Games and given to Clark Atlanta University. The venue has hosted several concerts. The Rolling Stones, Metallica and Foo Fighters have all performed there since the turn of the millennium. One reason for the Braves vacating the stadium was the lack of public transport in the area and the impact this had on attendance figures."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.417106,
+          33.748471
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Franklin L. Forbes Arena, Morehouse College (also known as Forbes Arena)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.748471,-84.417106",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1996",
+        "seating_capacity": "6500",
+        "type": "indoor venue",
+        "source_file": "venue_712.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Morehouse College",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Basketball",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.400833,
+          33.7575
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia Dome"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.7575,-84.400833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Handball"
+        ],
+        "opened": "1992",
+        "demolished": "2017",
+        "seating_capacity": "34500",
+        "type": "indoor venue",
+        "source_file": "venue_713.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Georgia Dome",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Artistic gymnastics, basketball, handball",
+        "venue_information": "Built in 1992 and extensively refurbished in 2007, the stadium was demolished in 2017 on account of being obsolete. A replacement venue was built nearby. During the Games, when it hosted the basketball, artistic gymnastics and handball competitions, the Georgia Dome was split into different zones to accommodate each competition. It hosted the Super Bowl twice, in 1994 and 2000, and three NCAA men's basketball final four competitions. It also staged over 150 college American football games and was used by NBA team the Atlanta Hawks for two seasons in the late 1990s. Used as a concert venue as well, it welcomed major acts such as the Rolling Stones and Beyoncé. The Dome's replacement is the Mercedes-Benz Stadium. This multi-purpose venue is home to NFL team the Atlanta Falcons and MLS team Atlanta United FC. The exact site of the Georgia Dome is occupied by a parking lot and public park. A plaque celebrating the Dome's history was unveiled on the site in 2018.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386111,
+          33.751389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia State University Sports Arena (also known as GSU Arena)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.751389,-84.386111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "1972",
+        "seating_capacity": "3500",
+        "type": "indoor venue",
+        "source_file": "venue_714.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.751,
+        "matched_venue_name": "Georgia State University Gymnasium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Badminton",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.392778,
+          33.780833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Alexander Memorial Coliseum (also known as The Dome, The Thrillerdome)",
+          "Alexander Memorial Coliseum at McDonalds Center (1996-2005), Hank McCamish Pavilion (2012-)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.780833,-84.392778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1956",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_715.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Alexander Memorial Coliseum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Boxing",
+        "venue_information": "",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.389444,
+          33.739444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Atlanta-Fulton County Stadium (also known as Fulton County Stadium, The Launching Pad)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.739444,-84.389444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "opened": "1965",
+        "demolished": "1997",
+        "seating_capacity": "54000",
+        "type": "outdoor venue",
+        "source_file": "venue_716.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Atlanta Fulton County Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Baseball",
+        "venue_information": "Opened in 1965, the stadium was the home of the Atlanta Braves baseball team from 1966 to 1996 and the NFL team the Atlanta Falcons until 1991, the former moving to the nearby Olympic Stadium and the latter to the Georgia Dome. The venue was demolished in 1997, and the site is now a parking lot for the Olympic Stadium. There are plans to turn the site into new baseball and softball parks.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.312537,
+          33.524889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Atlanta Beach",
+          "Beach at Clayton County International Park (?-Present)"
+        ],
+        "place": "Jonesboro, Georgia",
+        "coordinates": "33.524889,-84.312537",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "seating_capacity": "12600",
+        "type": "outdoor venue",
+        "source_file": "venue_717.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Atlanta Beach",
+        "venue_classification": "New build",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Beach volleyball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.789898,
+          34.351426
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lake Sidney Lanier (also known as Lake Lanier)"
+        ],
+        "place": "Gainesville, Georgia",
+        "coordinates": "34.351426,-83.789898",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "seating_capacity": "17300",
+        "type": "outdoor venue",
+        "source_file": "venue_718.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lake Lanier",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": "A standalone venue in Gainesville, 90 kilometres north-east of Atlanta. The lake is a man-made reservoir created by the construction of a dam in 1956 and has hosted water sports ever since it filled up. Some permanent facilities were built for the Games. These included two boathouses, course markings, docks and a finish tower with a scoreboard and videoboards. Temporary Games facilities included grandstands on a floating platform, tents and an athlete day village. These were all removed afterwards. The venue underwent a USD 1.1m renovation in 2014/15. The venue continues to host rowing and canoeing events. Since the Games, it has staged three US Canoe/Kayak Sprint National Championships, the 2003 ICF Canoe Sprint World Championships, and Canadian and US team trials, among other international and national competitions. The venue is shared by the Lake Lanier Rowing Club and the Lanier Canoe and Kayak Club, which run youth development sessions and high-performance training and also offer boat rentals and recreational paddling trips around Lake Lanier. Both clubs organise regular competitions and events for their members. The venue can also be booked for corporate events, conferences, teambuilding sessions, and private functions and weddings. Lake Lanier has 23 beaches along its shores. Over 7.5 million people visit the lake, its marinas and the Lake Lanier Islands Water Park every year.",
+        "match_method": "fuzzy_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.462,
+          35.069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ocoee Whitewater Center"
+        ],
+        "place": "Polk County, Tennessee",
+        "coordinates": "35.069,-84.462",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "notes": "On the Ocoee River in Tennessee, which is called the Toccoa River in Georgia.",
+        "opened": "1996",
+        "seating_capacity": "14400",
+        "type": "outdoor venue",
+        "source_file": "venue_719.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ocoee Whitewater Center",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe slalom",
+        "venue_information": "A standalone venue 200 kilometres north of Atlanta, the site has been used for rafting since the first half of the 20th century. Whitewater racing events have been held on the Ocoee since 1977. The riverbed was re-channelled to create the Olympic course, which was one-third the width of the watercourse, with designers using banks to \"build a river within a river\". The Ocoee Whitewater Center building was erected for the Games and temporary seating for 14,000 people installed. The venue has no permanent seating. The hanging slalom gates used at the Games were later removed. Due to a combination of dams and powerhouses, the upper Ocoee is dry for most of the year, except for scheduled water releases in the summer. As a result, the course is filled with water on only 34 days a year, on weekends between May and September. The course staged some whitewater competitions in the years immediately after the Games, and there are plans to bring regular events back to the venue, which has hosted the Ocoee River Championships every August since 2018. When the river has water, commercial rafting companies take more than 750 passengers down the course every day. It is also used for swift water rescue courses. When there is no water, the centre offers alternative activities such as hiking, mountain biking and nature walks. It also organises conferences, weddings, corporate retreats, private gatherings and conservation courses for schools. The site and its visitor centre receive 300,000 visitors a year.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387494,
+          33.82867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buckhead Cycling Course"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.82867,-84.387494",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_720.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Buckhead Cycling Course",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (road)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.147195,
+          33.791147
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stone Mountain Velodrome"
+        ],
+        "place": "Stone Mountain, Georgia",
+        "coordinates": "33.791147,-84.147195",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "1994",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood/polyester laminate",
+        "additional_details": "42° curves, 13° straights",
+        "source_file": "venue_721.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.874,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Stone Mountain Park Velodrome",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cycling (track)",
+        "venue_information": "The two venues were located next to each other and shared some of the same facilities and infrastructure. The velodrome used a 250m wooden track supported by a steel structure. It was decided that the velodrome should be temporary as no potential post-Games operator could be identified for it. Both venues were dismantled shortly after the Games and are now part of a songbird and habitat trail that runs through a public park, though some facilities remain in place and continue to be used."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9325,
+          33.661389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia International Horse Park (also known as The Horse Park)"
+        ],
+        "place": "Conyers, Georgia",
+        "coordinates": "33.661389,-83.9325",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1994",
+        "seating_capacity": "32000",
+        "type": "outdoor venue",
+        "source_file": "venue_722.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Georgia International Horse Park",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Dressage, eventing, jumping, mountain bike, modern pentathlon (equestrian)",
+        "venue_information": "Located on a 1,400-acre site, the venue opened in 1995. Its Games-time centrepiece was a 32,000-seat arena. All but 8,000 of the seats were temporary. The Olympic equestrian events attracted 600,000 spectators in all. The venue continues to host national and international equestrian and mountain bike events. It is also open for festivals, concerts, rodeos, dog shows, wedding receptions and private functions. In 2016, it staged a Grand Prix to mark the 20th anniversary of the 1996 Olympic Games. It hosts between 60 and 70 events a year.",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.945503,
+          33.673234
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mountainbike Course, Georgia International Horse Park"
+        ],
+        "place": "Conyers, Georgia",
+        "coordinates": "33.673234,-83.945503",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "opened": "1994",
+        "seating_capacity": "32000",
+        "type": "outdoor venue",
+        "source_file": "venue_723.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Georgia International Horse Park",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Dressage, eventing, jumping, mountain bike, modern pentathlon (equestrian)",
+        "venue_information": "Located on a 1,400-acre site, the venue opened in 1995. Its Games-time centrepiece was a 32,000-seat arena. All but 8,000 of the seats were temporary. The Olympic equestrian events attracted 600,000 spectators in all. The venue continues to host national and international equestrian and mountain bike events. It is also open for festivals, concerts, rodeos, dog shows, wedding receptions and private functions. In 2016, it staged a Grand Prix to mark the 20th anniversary of the 1996 Olympic Games. It hosts between 60 and 70 events a year."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.404089,
+          33.775687
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia Tech Aquatic Center",
+          "Georgia Tech Student Athletic Center (?-?), Georgia Tech Campus Recreation Center (?-Present)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.775687,-84.404089",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1977",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_724.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Georgia Tech Aquatic Center",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, artistic swimming, water polo, modern pentathlon (swimming)",
+        "venue_information": "Built on a 14.6-acre site at the Georgia Tech campus, close to the Olympic Village, the venue was designed for use by Georgia Tech students after the Games. It has three permanent pools: a 50m main swimming pool, a diving well and a 50m warm-up pool. The pool and seats installed for the Olympic water polo competition were removed after the Games. The venue was refurbished in 2003. A leading training centre used by the US swim team – eight swimmers who trained there went to Rio 2016 – the venue also hosts national collegiate swimming and diving championships. It runs swimming and diving classes for all age groups, as well as lifeguard classes and scuba programmes. Its facilities include a gym, six basketball courts, three dance studios and an elevated four-lane running track. The venue was renamed the James Herbert McAuley Aquatic Center in 2015.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.399027,
+          33.760797
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia World Congress Center"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.760797,-84.399027",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Handball",
+          "Judo",
+          "Modern Pentathlon",
+          "Table Tennis",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "notes": "Five different halls used, D through H.",
+        "opened": "1976",
+        "seating_capacity": "3900 (FEN) / 7300 (HAN) / 7300 (JUD) / 4700 (TTN) / 5000 (WLT) / 7300 (WRE)",
+        "type": "indoor venue",
+        "source_file": "venue_725.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Georgia World Congress Center (Halls D, E, F, G, H)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Table tennis, weightlifting, fencing, handball, wrestling, judo, modern pentathlon (fencing)",
+        "venue_information": "",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -81.402778,
+          28.539167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Florida Citrus Bowl",
+          "Orlando Stadium (1936-1946), Tangerine Bowl (1947-1975), Citrus Bowl (1976), Orlando Stadium (1977-1982)"
+        ],
+        "place": "Orlando, Florida",
+        "coordinates": "28.539167,-81.402778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1936",
+        "seating_capacity": "65000",
+        "type": "outdoor venue",
+        "source_file": "venue_726.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Florida Citrus Bowl",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.842778,
+          33.511389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Legion Field"
+        ],
+        "place": "Birmingham, Alabama",
+        "coordinates": "33.511389,-86.842778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1926",
+        "seating_capacity": "81700",
+        "type": "outdoor venue",
+        "source_file": "venue_727.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Legion Field",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.219808,
+          25.77805
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Orange Bowl",
+          "Burdine Stadium (?-1959)"
+        ],
+        "place": "Miami, Florida",
+        "coordinates": "25.77805,-80.219808",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1937",
+        "demolished": "2008",
+        "seating_capacity": "72700",
+        "type": "outdoor venue",
+        "source_file": "venue_728.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Orange Bowl",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.971667,
+          38.889722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Robert F. Kennedy Memorial Stadium (also known as RFK Stadium)",
+          "District of Columbia Stadium (?-1969)"
+        ],
+        "place": "Washington, District of Columbia",
+        "coordinates": "38.889722,-76.971667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1961",
+        "seating_capacity": "56500",
+        "type": "outdoor venue",
+        "source_file": "venue_729.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Robert F. Kennedy Memorial Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.373333,
+          33.949722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sanford Stadium"
+        ],
+        "place": "Athens, Georgia",
+        "coordinates": "33.949722,-83.373333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1929",
+        "seating_capacity": "86100",
+        "type": "outdoor venue",
+        "source_file": "venue_730.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sanford Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.408807,
+          33.756021
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Alonzo Herndon Stadium, Morris Brown College"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.756021,-84.408807",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1948",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_732.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Alonzo Herndon Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Hockey",
+        "venue_information": "Constructed in the 1940s, the stadium was extensively refurbished for the Games. It was later the home of the professional women's soccer team Atlanta Beat for several seasons and was used as a location in the film We Are Marshall. The venue was abandoned in 2002, when the college that owned it ran into financial difficulties and cut its sports programme. Now covered with graffiti and the subject of litigation in the past, the derelict stadium continues to stand today.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.411111,
+          33.753056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panther Stadium, Clark Atlanta University"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.753056,-84.411111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "seating_capacity": "5000",
+        "type": "outdoor venue",
+        "source_file": "venue_733.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Alonzo Herndon Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Hockey",
+        "venue_information": "Constructed in the 1940s, the stadium was extensively refurbished for the Games. It was later the home of the professional women's soccer team Atlanta Beat for several seasons and was used as a location in the film We Are Marshall. The venue was abandoned in 2002, when the college that owned it ran into financial difficulties and cut its sports programme. Now covered with graffiti and the subject of litigation in the past, the derelict stadium continues to stand today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.378,
+          33.9428
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Georgia Coliseum, University of Georgia",
+          "Stegeman Coliseum (1996-Present)"
+        ],
+        "place": "Athens, Georgia",
+        "coordinates": "33.9428,-83.378",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rhythmic Gymnastics",
+          "Volleyball"
+        ],
+        "opened": "1964",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_735.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.7899999999999999,
+        "matched_venue_name": "University of Georgia Coliseum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, volleyball",
+        "venue_information": "This 10,500-capacity venue opened in 1964. The home stadium of the Georgia Bulldogs and the University of Georgia's basketball and gymnastics teams, it is now known as Stegeman Coliseum and was refurbished in 1998, 2010/11 and again in 2017, when a new scoreboard, lighting and sound systems were installed. In 2020, it was ranked 21st out of 334 National Collegiate Athletic Association (NCAA) Division I basketball venues.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.949722,
+          31.933611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wassaw Sound"
+        ],
+        "place": "Savannah, Georgia",
+        "coordinates": "31.933611,-80.949722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "seating_capacity": "1000",
+        "type": "outdoor venue",
+        "source_file": "venue_736.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Wassaw Sound",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5675,
+          33.674167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Wolf Creek Shooting Complex",
+          "Tom Lowe Shooting Grounds (?-Present)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.674167,-84.5675",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "source_file": "venue_737.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Wolf Creek Shooting Complex",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.990985,
+          32.452366
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Golden Ball Park"
+        ],
+        "place": "Columbus, Georgia",
+        "coordinates": "32.452366,-84.990985",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Softball"
+        ],
+        "opened": "1926",
+        "seating_capacity": "8800",
+        "type": "outdoor venue",
+        "source_file": "venue_738.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.786,
+        "matched_venue_name": "Golden Park",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Softball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.123387,
+          33.821095
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stone Mountain Tennis Center"
+        ],
+        "place": "Stone Mountain, Georgia",
+        "coordinates": "33.821095,-84.123387",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "Fell into disrepair. Closed in 2007 and planned to be converted to an outdoor tennis center and park.",
+        "opened": "1996",
+        "seating_capacity": "7200 (centre court) / 27500 (total)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "source_file": "venue_739.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.89,
+        "matched_venue_name": "Stone Mountain Park Tennis Center",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Tennis",
+        "venue_information": "The venue had 16 competition courts: a centre court with 8,000 permanent seats, two smaller courts with capacities of 5,000 and 3,000, and 13 outdoor courts. It hosted the 1997 US Women's Hard Court Championships and a 1998 Davis Cup tie between the USA and Russia. The centre faced management challenges thereafter and was underused prior to its abandonment in 2007. It was demolished in 2018. The site remains unoccupied.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.396667,
+          33.7575
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Omni Coliseum (also known as The Omni)"
+        ],
+        "place": "Atlanta, Georgia",
+        "coordinates": "33.7575,-84.396667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1996",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "notes": "Demolished in 1997, with Phillips Arena built on same site, opening in 1999.",
+        "opened": "1972",
+        "demolished": "1997",
+        "seating_capacity": "16500",
+        "type": "indoor venue",
+        "source_file": "venue_741.json",
+        "Olympics": "1996 Atlanta",
+        "match_type": "name_match",
+        "match_confidence": 0.909,
+        "matched_venue_name": "Omni Coliseum",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Volleyball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1996",
+    "olympics_city": "Atlanta",
+    "olympics_season": "summer"
+  }
+}

@@ -1,0 +1,4299 @@
+{
+  "total_statistics": {
+    "total_venues": 1911,
+    "geojson": {
+      "total_venues": 983,
+      "sports_matches": 167,
+      "name_matches": 668,
+      "name_matches_by_method": {
+        "exact_match": 240,
+        "substring_match": 46,
+        "token_match": 26,
+        "fuzzy_match": 281
+      },
+      "unmatched": 148
+    },
+    "json": {
+      "total_venues": 928,
+      "sports_matches": 129,
+      "name_matches": 617,
+      "name_matches_by_method": {
+        "exact_match": 229,
+        "substring_match": 38,
+        "token_match": 22,
+        "fuzzy_match": 258
+      },
+      "unmatched": 182
+    },
+    "files_processed": 53
+  },
+  "file_statistics": {
+    "1896_Athens": {
+      "filename": "1896_Athens",
+      "total_venues": 14,
+      "geojson": {
+        "total_venues": 6,
+        "sports_matches": 1,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Podilatodromio Neou Falirou",
+              "Neo Faliro Velodrome"
+            ],
+            "sports": [
+              "Cycling Road",
+              "Cycling Track",
+              "Football",
+              "Tennis"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 8,
+        "sports_matches": 1,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Phaleron Bay",
+            "sports": [
+              "Rowing"
+            ]
+          },
+          {
+            "name": "Velodrome",
+            "sports": [
+              "Cycling (track)",
+              "tennis"
+            ]
+          },
+          {
+            "name": "Athens-Marathon-Athens",
+            "sports": [
+              "Cycling (road)",
+              "marathon"
+            ]
+          }
+        ]
+      }
+    },
+    "1900_Paris": {
+      "filename": "1900_Paris",
+      "total_venues": 40,
+      "geojson": {
+        "total_venues": 25,
+        "sports_matches": 4,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 7
+        },
+        "unmatched": 11,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Jardin des Tuileries",
+              "Tuileries Garden"
+            ],
+            "sports": [
+              "Fencing",
+              "Military Exercise"
+            ]
+          },
+          {
+            "name": [
+              "Seine, Pont de Courbevoie – Pont d'Asnières",
+              "Seine, Courbevoie Bridge – Asnières Bridge"
+            ],
+            "sports": [
+              "Lifesaving",
+              "Rowing",
+              "Swimming",
+              "Water Polo"
+            ]
+          },
+          {
+            "name": [
+              "Bois de Vincennes"
+            ],
+            "sports": [
+              "Archery",
+              "Military Exercise"
+            ]
+          },
+          {
+            "name": [
+              "Terrain de la Société de longue paume de Paris, Jardin du Luxembourg",
+              "Paris Longue Paume Society grounds, Luxembourg Garden"
+            ],
+            "sports": [
+              "Longue Paume"
+            ]
+          },
+          {
+            "name": [
+              "Bassin de la Seine",
+              "Seine basin"
+            ],
+            "sports": [
+              "Motorboating"
+            ]
+          },
+          {
+            "name": [
+              "Lac Daumesnil",
+              "Daumesnil Lake"
+            ],
+            "sports": [
+              "Automobile Racing",
+              "Motorcycle Sports"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Automobile Racing",
+              "Motorcycle Sports"
+            ]
+          },
+          {
+            "name": [
+              "L'Aérostation, Parc de Vincennes",
+              "Air Station, Vincennes Park"
+            ],
+            "sports": [
+              "Ballooning"
+            ]
+          },
+          {
+            "name": [
+              "Boulodrome de Saint-Mandé, Parc de Vincennes",
+              "Boulodrome de Saint-Mandé, Vincennes Park"
+            ],
+            "sports": [
+              "Boules"
+            ]
+          },
+          {
+            "name": [
+              "Champ de Courses, Bois de Vincennes",
+              "Racing Field, Vincennes Park"
+            ],
+            "sports": [
+              "Firefighting"
+            ]
+          },
+          {
+            "name": [
+              "Île des Cygnes",
+              "Cygnes Island"
+            ],
+            "sports": [
+              "Fishing"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 15,
+        "sports_matches": 4,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 7
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": "Terrasse du Jeu de Paume, Jardin des Tuileries",
+            "sports": [
+              "Fencing"
+            ]
+          }
+        ]
+      }
+    },
+    "1904_St._Louis": {
+      "filename": "1904_St._Louis",
+      "total_venues": 12,
+      "geojson": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 6,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 6,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      }
+    },
+    "1908_London": {
+      "filename": "1908_London",
+      "total_venues": 28,
+      "geojson": {
+        "total_venues": 14,
+        "sports_matches": 1,
+        "name_matches": 12,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "White City Stadium (also known as The Great Stadium)"
+            ],
+            "sports": [
+              "Archery",
+              "Artistic Gymnastics",
+              "Athletics",
+              "Bicycle Polo",
+              "Cycling Track",
+              "Diving",
+              "Football",
+              "Glíma",
+              "Hockey",
+              "Lacrosse",
+              "Rugby",
+              "Swimming",
+              "Tug-Of-War",
+              "Water Polo",
+              "Wrestling",
+              "Opening ceremony"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 14,
+        "sports_matches": 1,
+        "name_matches": 12,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": "London Olympic Stadium",
+            "sports": [
+              "Athletics",
+              "swimming",
+              "water polo",
+              "gymnastics",
+              "archery",
+              "cycling (track)",
+              "diving",
+              "football",
+              "hockey",
+              "rugby",
+              "wrestling",
+              "lacrosse",
+              "tug-of-war",
+              "Opening Ceremony"
+            ]
+          }
+        ]
+      }
+    },
+    "1912_Stockholm": {
+      "filename": "1912_Stockholm",
+      "total_venues": 30,
+      "geojson": {
+        "total_venues": 14,
+        "sports_matches": 3,
+        "name_matches": 9,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Kaknäs, Djurgården"
+            ],
+            "sports": [
+              "Modern Pentathlon",
+              "Shooting"
+            ]
+          },
+          {
+            "name": [
+              "Karlavägen 10",
+              "Karla Road 10"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 16,
+        "sports_matches": 3,
+        "name_matches": 9,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": "Kaknäs Shooting Range, Djurgården",
+            "sports": [
+              "Shooting"
+            ]
+          },
+          {
+            "name": "Liljeholm Bridge-Olympic Stadium-Lake Mälär",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Olympic Stadium-Sollentuna-Olympic Stadium",
+            "sports": [
+              "Marathon"
+            ]
+          },
+          {
+            "name": "Sandhamm",
+            "sports": [
+              "Sailing"
+            ]
+          }
+        ]
+      }
+    },
+    "1920_Antwerp": {
+      "filename": "1920_Antwerp",
+      "total_venues": 39,
+      "geojson": {
+        "total_venues": 20,
+        "sports_matches": 3,
+        "name_matches": 15,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Garden City Velodroom",
+              "Garden City Velodrome"
+            ],
+            "sports": [
+              "Cycling Road",
+              "Cycling Track"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 19,
+        "sports_matches": 3,
+        "name_matches": 14,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Vélodrome d'Anvers Zurenborg",
+            "sports": [
+              "Cycling (track)"
+            ]
+          },
+          {
+            "name": "Oostende",
+            "sports": [
+              "Sailing"
+            ]
+          }
+        ]
+      }
+    },
+    "1924_Chamonix": {
+      "filename": "1924_Chamonix",
+      "total_venues": 6,
+      "geojson": {
+        "total_venues": 3,
+        "sports_matches": 1,
+        "name_matches": 1,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Stade Olympique",
+              "Olympic Stadium"
+            ],
+            "sports": [
+              "Alpinism",
+              "Cross Country Skiing",
+              "Curling",
+              "Figure Skating",
+              "Ice Hockey",
+              "Military Ski Patrol",
+              "Nordic Combined",
+              "Speed Skating",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 3,
+        "sports_matches": 1,
+        "name_matches": 1,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": "Stade Olympique de Chamonix / Stade de Glace (du Bouchet)",
+            "sports": [
+              "Cross-country skiing start and finish",
+              "curling",
+              "ice hockey",
+              "military patrol",
+              "figure skating",
+              "speed skating",
+              "Opening and Closing Ceremonies"
+            ]
+          }
+        ]
+      }
+    },
+    "1924_Paris": {
+      "filename": "1924_Paris",
+      "total_venues": 45,
+      "geojson": {
+        "total_venues": 23,
+        "sports_matches": 4,
+        "name_matches": 17,
+        "name_matches_by_method": {
+          "exact_match": 7,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 3
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Grand Palais des Champs-Elysées",
+              "Grand Palace of the Champs-Elysées"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          },
+          {
+            "name": [
+              "Fronton de Paris",
+              "Paris Pelota Court"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 22,
+        "sports_matches": 3,
+        "name_matches": 16,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 3
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Auteuil-Villacoublay",
+            "sports": [
+              "Eventing (cross-country)"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Camp de Châlons / Stand Olympique de Châlons-sur-Marne",
+            "sports": [
+              "Shooting"
+            ]
+          }
+        ]
+      }
+    },
+    "1928_Amsterdam": {
+      "filename": "1928_Amsterdam",
+      "total_venues": 27,
+      "geojson": {
+        "total_venues": 15,
+        "sports_matches": 7,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Stedelijk Museum",
+              "Municipal Museum"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          },
+          {
+            "name": [
+              "Hembrug",
+              "Hem Bridge"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Maartensdijkse Bos",
+              "Maartensdijk Forest"
+            ],
+            "sports": [
+              "Equestrian Eventing"
+            ]
+          },
+          {
+            "name": [
+              "Cricketveld",
+              "Cricket Field"
+            ],
+            "sports": [
+              "Kaatsen"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 12,
+        "sports_matches": 6,
+        "name_matches": 3,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Zeeburg Rifle Range",
+            "sports": [
+              "Modern pentathlon (shooting)"
+            ]
+          },
+          {
+            "name": "Zuiderzee",
+            "sports": [
+              "Sailing"
+            ]
+          },
+          {
+            "name": "Amsterdam - The Hague Road Race Course",
+            "sports": [
+              "Road cycling"
+            ]
+          }
+        ]
+      }
+    },
+    "1928_St._Moritz": {
+      "filename": "1928_St._Moritz",
+      "total_venues": 12,
+      "geojson": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Olympia-Eisstadion Badrutts Park",
+              "Olympic Ice Stadium Badrutts Park"
+            ],
+            "sports": [
+              "Figure Skating",
+              "Ice Hockey",
+              "Speed Skating",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": "Olympiastadion St. Moritz (St. Moritz Olympic Stadium)",
+            "sports": [
+              "Figure skating",
+              "speed skating",
+              "ice hockey",
+              "Opening and Closing Ceremonies"
+            ]
+          }
+        ]
+      }
+    },
+    "1932_Lake_Placid": {
+      "filename": "1932_Lake_Placid",
+      "total_venues": 10,
+      "geojson": {
+        "total_venues": 4,
+        "sports_matches": 1,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": [
+              "James C. Sheffield Speed Skating Oval",
+              "Olympic Stadium (1932-?)"
+            ],
+            "sports": [
+              "Cross Country Skiing",
+              "Dogsled Racing",
+              "Ice Hockey",
+              "Nordic Combined",
+              "Speed Skating",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          },
+          {
+            "name": [
+              "Mt. Van Hoevenberg Recreation Area"
+            ],
+            "sports": [
+              "Biathlon",
+              "Bobsleigh",
+              "Cross Country Skiing",
+              "Luge",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              "Olympic Arena",
+              "Olympic Center (?-2005), Herb Brooks Arena (2005-Present)"
+            ],
+            "sports": [
+              "Curling",
+              "Figure Skating",
+              "Ice Hockey"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 6,
+        "sports_matches": 1,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "The Arena",
+            "sports": [
+              "Ice hockey",
+              "figure skating"
+            ]
+          },
+          {
+            "name": "James B. Sheffield Olympic Skating Rink/Olympic Stadium",
+            "sports": [
+              "Ice hockey",
+              "speed skating",
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Mt Van Hoevenberg Bob Run",
+            "sports": [
+              "Bobsleigh"
+            ]
+          },
+          {
+            "name": "Mount Whitney Cross-Country Skiing Route (Start and finish at the Olympic Stadium)",
+            "sports": [
+              "Cross-country skiing",
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Clifford Falls Cross-Country Skiing Route",
+            "sports": [
+              "Cross-country skiing"
+            ]
+          }
+        ]
+      }
+    },
+    "1932_Los_Angeles": {
+      "filename": "1932_Los_Angeles",
+      "total_venues": 26,
+      "geojson": {
+        "total_venues": 12,
+        "sports_matches": 1,
+        "name_matches": 7,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 4
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Los Angeles Memorial Coliseum"
+            ],
+            "sports": [
+              "Alpinism",
+              "American Football",
+              "Artistic Gymnastics",
+              "Athletics",
+              "Equestrian Eventing",
+              "Equestrian Jumping",
+              "Hockey",
+              "Lacrosse",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          },
+          {
+            "name": [
+              "Los Angeles Museum of History, Science and Art",
+              "Natural History Museum of Los Angeles County (1961-Present)"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          },
+          {
+            "name": [
+              "Santa Monica Canyon"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "State Armory of the 160th Infantry, Olympic Park",
+              "Dr. Theodore T. Alexander Science Center (?-Present)"
+            ],
+            "sports": [
+              "Fencing",
+              "Modern Pentathlon"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 14,
+        "sports_matches": 1,
+        "name_matches": 7,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 4
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Los Angeles Olympic Stadium",
+            "sports": [
+              "Gymnastics",
+              "hockey",
+              "equestrian (jumping",
+              "eventing)",
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Fencing Stadium/Pavilion",
+            "sports": [
+              "Fencing"
+            ]
+          },
+          {
+            "name": "Coast Highway",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Griffith Park area",
+            "sports": [
+              "Race walk"
+            ]
+          },
+          {
+            "name": "Inglewood area",
+            "sports": [
+              "Marathon"
+            ]
+          },
+          {
+            "name": "Los Angeles Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1936_Berlin": {
+      "filename": "1936_Berlin",
+      "total_venues": 46,
+      "geojson": {
+        "total_venues": 25,
+        "sports_matches": 6,
+        "name_matches": 14,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 7
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Ausstellungsgelände Halle VI, Kaiserdamm",
+              "Exhibition Area Hall VI, Kaiserdamm"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Aeronautics",
+              "Alpinism"
+            ]
+          },
+          {
+            "name": [
+              "Avus-Nordschleife",
+              "Avus North Curve"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Truppenübungsplatz",
+              "Military Exercise Field"
+            ],
+            "sports": [
+              "Equestrian Eventing",
+              "Modern Pentathlon"
+            ]
+          },
+          {
+            "name": [
+              "Flugplatz, Staaken",
+              "Airfield, Staaken"
+            ],
+            "sports": [
+              "Gliding"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 21,
+        "sports_matches": 5,
+        "name_matches": 13,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 6
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Avus Motor Road",
+            "sports": [
+              "Athletics",
+              "cycling (road)"
+            ]
+          },
+          {
+            "name": "Shooting Ranges at Wannsee",
+            "sports": [
+              "Shooting"
+            ]
+          },
+          {
+            "name": "Berlin Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1936_Garmisch_Partenkirchen": {
+      "filename": "1936_Garmisch_Partenkirchen",
+      "total_venues": 12,
+      "geojson": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 6,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 6,
+        "sports_matches": 0,
+        "name_matches": 6,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      }
+    },
+    "1948_London": {
+      "filename": "1948_London",
+      "total_venues": 59,
+      "geojson": {
+        "total_venues": 30,
+        "sports_matches": 3,
+        "name_matches": 26,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 7
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Victoria & Albert Museum"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 29,
+        "sports_matches": 3,
+        "name_matches": 24,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 6
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Finchley Pool",
+            "sports": [
+              "Water polo"
+            ]
+          },
+          {
+            "name": "Central Gymnasium or Command Central Gymnasium",
+            "sports": [
+              "Modern pentathlon (fencing)"
+            ]
+          }
+        ]
+      }
+    },
+    "1948_St._Moritz": {
+      "filename": "1948_St._Moritz",
+      "total_venues": 21,
+      "geojson": {
+        "total_venues": 13,
+        "sports_matches": 3,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Olympia-Eisstadion Badrutts Park",
+              "Olympic Ice Stadium Badrutts Park"
+            ],
+            "sports": [
+              "Figure Skating",
+              "Ice Hockey",
+              "Speed Skating",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          },
+          {
+            "name": [
+              "Palace-Hotel"
+            ],
+            "sports": [
+              "Ice Hockey",
+              "Winter Pentathlon"
+            ]
+          },
+          {
+            "name": [
+              "Kulm Palace"
+            ],
+            "sports": [
+              "Winter Pentathlon"
+            ]
+          },
+          {
+            "name": [
+              "Salastrains"
+            ],
+            "sports": [
+              "Winter Pentathlon"
+            ]
+          },
+          {
+            "name": [
+              "Kurhaus"
+            ],
+            "sports": [
+              "Winter Pentathlon"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 8,
+        "sports_matches": 2,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 2,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "St. Moritz Olympic Stadium",
+            "sports": [
+              "Figure skating",
+              "speed skating",
+              "ice hockey",
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Kulm Palace Hotel Skating Rink",
+            "sports": [
+              "Ice hockey"
+            ]
+          }
+        ]
+      }
+    },
+    "1952_Helsinki": {
+      "filename": "1952_Helsinki",
+      "total_venues": 49,
+      "geojson": {
+        "total_venues": 29,
+        "sports_matches": 15,
+        "name_matches": 12,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 5
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Helsingin Taidehalli",
+              "Kunsthalle Helsinki"
+            ],
+            "sports": [
+              "Art Competitions"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 20,
+        "sports_matches": 6,
+        "name_matches": 9,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Football pitches by the Olympic Stadium",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Huopalahti",
+            "sports": [
+              "Shooting"
+            ]
+          },
+          {
+            "name": "Helsinki Olympic Village (Olympiakylä)",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Käpylä-Pakila",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Kisapuisto Stadium",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "1952_Oslo": {
+      "filename": "1952_Oslo",
+      "total_venues": 26,
+      "geojson": {
+        "total_venues": 12,
+        "sports_matches": 4,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 3,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 14,
+        "sports_matches": 3,
+        "name_matches": 6,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Rødkleiva",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Sogn Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Ullevål Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Ila Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Sandvika Kadettangen Stadium",
+            "sports": [
+              "Ice hockey"
+            ]
+          }
+        ]
+      }
+    },
+    "1956_Cortina_d_Ampezzo": {
+      "filename": "1956_Cortina_d_Ampezzo",
+      "total_venues": 18,
+      "geojson": {
+        "total_venues": 10,
+        "sports_matches": 5,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Stadio del Ghiaccio",
+              "Ice Stadium"
+            ],
+            "sports": [
+              "Figure Skating",
+              "Ice Hockey",
+              "Opening ceremony",
+              "Closing ceremony"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 8,
+        "sports_matches": 2,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Tofana di Mezzo: the Olympia, Canalone and Col Druscié runs",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Cortina d'Ampezzo Olympic Ice Stadium",
+            "sports": [
+              "Ice hockey",
+              "figure skating",
+              "Opening and Closing Ceremonies"
+            ]
+          }
+        ]
+      }
+    },
+    "1956_Melbourne": {
+      "filename": "1956_Melbourne",
+      "total_venues": 33,
+      "geojson": {
+        "total_venues": 14,
+        "sports_matches": 2,
+        "name_matches": 11,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 5
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 19,
+        "sports_matches": 2,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 5
+        },
+        "unmatched": 7,
+        "unmatched_venues": [
+          {
+            "name": "Melbourne Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Broadmeadows",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Stockholm Olympic Stadium",
+            "sports": [
+              "Dressage",
+              "jumping",
+              "eventing"
+            ]
+          },
+          {
+            "name": "Faboda Natural Reserve, Lilljansskogen (Stockholm)",
+            "sports": [
+              "Eventing"
+            ]
+          },
+          {
+            "name": "Ulriksdal Race Track, Kapplöpningsbana (Stockholm)",
+            "sports": [
+              "Eventing"
+            ]
+          },
+          {
+            "name": "Stockholm Olympic Village (Karlberg Castle, Stockholm)",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Stockholm Olympic Village (Näsby Castle, Stockholm)",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1960_Rome": {
+      "filename": "1960_Rome",
+      "total_venues": 57,
+      "geojson": {
+        "total_venues": 30,
+        "sports_matches": 8,
+        "name_matches": 20,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 1,
+          "token_match": 2,
+          "fuzzy_match": 8
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Circuito Grottarossa",
+              "Grottarossa Circuit"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Viale Oceano Pacifico",
+              "Pacific Ocean Lane"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 27,
+        "sports_matches": 7,
+        "name_matches": 15,
+        "name_matches_by_method": {
+          "exact_match": 7,
+          "substring_match": 0,
+          "token_match": 2,
+          "fuzzy_match": 6
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "SS Lazio Shooting Club",
+            "sports": [
+              "Shooting"
+            ]
+          },
+          {
+            "name": "Small Sports Palace",
+            "sports": [
+              "Basketball",
+              "weightlifting"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Communal Stadium, L'Aquila",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Communal Stadium, Grosseto",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "1960_Squaw_Valley": {
+      "filename": "1960_Squaw_Valley",
+      "total_venues": 15,
+      "geojson": {
+        "total_venues": 8,
+        "sports_matches": 3,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 7,
+        "sports_matches": 1,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 1,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 2
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1964_Innsbruck": {
+      "filename": "1964_Innsbruck",
+      "total_venues": 19,
+      "geojson": {
+        "total_venues": 9,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Kunsteis-Bob- und Rodelbahn",
+              "Artficial Bob and Luge Track",
+              "Olympia Eiskanal"
+            ],
+            "sports": [
+              "Bobsleigh",
+              "Luge",
+              "Skeleton"
+            ]
+          },
+          {
+            "name": [
+              "Langlaufstadion",
+              "Cross Country Skiing Stadium",
+              "Casino Seefeld Arena"
+            ],
+            "sports": [
+              "Biathlon",
+              "Cross Country Skiing",
+              "Mixed Sports",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              "Eisschnellaufbahn im Olympiaeisstadion",
+              "Speed Skating Rink at the Olympic Ice Stadium"
+            ],
+            "sports": [
+              "Ice Stock Sport",
+              "Speed Skating"
+            ]
+          },
+          {
+            "name": [
+              "Kunsteisbahn, Messehalle",
+              "Innsbruck Exhibition Centre"
+            ],
+            "sports": [
+              "Curling",
+              "Ice Hockey"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 10,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Messehalle (Indoor Skating Rink)",
+            "sports": [
+              "Ice hockey"
+            ]
+          },
+          {
+            "name": "Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)",
+            "sports": [
+              "Speed skating"
+            ]
+          },
+          {
+            "name": "Innsbruck Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Seefeld",
+            "sports": [
+              "Biathlon",
+              "cross-country skiing",
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Bobbahn und Rodelbahn Igls",
+            "sports": [
+              "Bobsleigh",
+              "luge"
+            ]
+          }
+        ]
+      }
+    },
+    "1964_Tokyo": {
+      "filename": "1964_Tokyo",
+      "total_venues": 62,
+      "geojson": {
+        "total_venues": 31,
+        "sports_matches": 9,
+        "name_matches": 21,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 11
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Meiji Jingu Yakyujo"
+            ],
+            "sports": [
+              "Baseball"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 31,
+        "sports_matches": 6,
+        "name_matches": 19,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 9
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Prince Chichibu Memorial Football Field",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Tokyo Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Komazawa Second Hockey Fields",
+            "sports": [
+              "Hockey"
+            ]
+          },
+          {
+            "name": "Komazawa Third Hockey Fields",
+            "sports": [
+              "Hockey"
+            ]
+          },
+          {
+            "name": "Mitsuzawa Football Field",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "National Gymnasium Annex",
+            "sports": [
+              "Basketball"
+            ]
+          }
+        ]
+      }
+    },
+    "1968_Grenoble": {
+      "filename": "1968_Grenoble",
+      "total_venues": 21,
+      "geojson": {
+        "total_venues": 10,
+        "sports_matches": 4,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Biathlon",
+              "Cross Country Skiing",
+              "Nordic Combined"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 11,
+        "sports_matches": 3,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Autrans",
+            "sports": [
+              "Biathlon",
+              "cross-country skiing",
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Grenoble Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Stade Olympique de Grenoble",
+            "sports": [
+              "Opening Ceremony"
+            ]
+          }
+        ]
+      }
+    },
+    "1968_Mexico_City": {
+      "filename": "1968_Mexico_City",
+      "total_venues": 58,
+      "geojson": {
+        "total_venues": 34,
+        "sports_matches": 3,
+        "name_matches": 20,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 9
+        },
+        "unmatched": 11,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Marina Reservoir"
+            ],
+            "sports": [
+              "Athletics",
+              "Canoe Sprint",
+              "Rowing"
+            ]
+          },
+          {
+            "name": [
+              "Circuito Satélite",
+              "Satellite Course"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Frontón México",
+              "Mexico Fronton"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          },
+          {
+            "name": [
+              "Centro Deportivo Chapultepec",
+              "Chapultepec Sports Centre"
+            ],
+            "sports": [
+              "Basque pelota",
+              "Tennis"
+            ]
+          },
+          {
+            "name": [
+              "Centro Deportivo Asturiano",
+              "Asturian Sports Centre"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          },
+          {
+            "name": [
+              "Centro Deportivo Libanés",
+              "Lebanese Sports Centre"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          },
+          {
+            "name": [
+              "Frontón Metropolitano",
+              "Metropolitan Fronton"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          },
+          {
+            "name": [
+              "Acapulco Jai-Alai"
+            ],
+            "sports": [
+              "Basque pelota"
+            ]
+          },
+          {
+            "name": [
+              "Guadalajara Country Club"
+            ],
+            "sports": [
+              "Tennis"
+            ]
+          },
+          {
+            "name": [
+              "Atlas Sports Club"
+            ],
+            "sports": [
+              "Tennis"
+            ]
+          },
+          {
+            "name": [
+              "Guadalajara Sports Club"
+            ],
+            "sports": [
+              "Tennis"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 24,
+        "sports_matches": 3,
+        "name_matches": 19,
+        "name_matches_by_method": {
+          "exact_match": 8,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 9
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Ciudad Universitaria Swimming Pool",
+            "sports": [
+              "Water polo"
+            ]
+          },
+          {
+            "name": "Miguel Hidalgo Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1972_Munich": {
+      "filename": "1972_Munich",
+      "total_venues": 67,
+      "geojson": {
+        "total_venues": 34,
+        "sports_matches": 6,
+        "name_matches": 24,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 19
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Autobahn München - Lindau, Ausfahrt Schäftlarn",
+              "Highway München - Lindau, Schäftlarn Exit"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Hindenburgufer, Kieler Förde",
+              "Hindenburg Shore"
+            ],
+            "sports": [
+              "Waterskiing"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Waterskiing"
+            ]
+          },
+          {
+            "name": [
+              "Rundkurs Grünwald",
+              "Grünwald Course"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 33,
+        "sports_matches": 5,
+        "name_matches": 22,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 17
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Fencing Hall 2",
+            "sports": [
+              "Modern pentathlon (fencing)"
+            ]
+          },
+          {
+            "name": "Olympisches Dorf",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Munich-Lindau Highway",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Munich-Grünwald Circuit",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Sports Hall, Boblingen",
+            "sports": [
+              "Handball"
+            ]
+          },
+          {
+            "name": "SSV Jahn-Regensburg Stadium",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "1972_Sapporo": {
+      "filename": "1972_Sapporo",
+      "total_venues": 26,
+      "geojson": {
+        "total_venues": 12,
+        "sports_matches": 2,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 6
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 14,
+        "sports_matches": 1,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 6
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Mt Teine Slalom Events Site",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Mt Teine Giant Slalom Events Site",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Sapporo Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1976_Innsbruck": {
+      "filename": "1976_Innsbruck",
+      "total_venues": 19,
+      "geojson": {
+        "total_venues": 9,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Kunsteis-Bob- und Rodelbahn",
+              "Artficial Bob and Luge Track",
+              "Olympia Eiskanal"
+            ],
+            "sports": [
+              "Bobsleigh",
+              "Luge",
+              "Skeleton"
+            ]
+          },
+          {
+            "name": [
+              "Langlaufstadion",
+              "Cross Country Skiing Stadium",
+              "Casino Seefeld Arena"
+            ],
+            "sports": [
+              "Biathlon",
+              "Cross Country Skiing",
+              "Mixed Sports",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              "Eisschnellaufbahn im Olympiaeisstadion",
+              "Speed Skating Rink at the Olympic Ice Stadium"
+            ],
+            "sports": [
+              "Ice Stock Sport",
+              "Speed Skating"
+            ]
+          },
+          {
+            "name": [
+              "Kunsteisbahn, Messehalle",
+              "Innsbruck Exhibition Centre"
+            ],
+            "sports": [
+              "Curling",
+              "Ice Hockey"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 10,
+        "sports_matches": 0,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)",
+            "sports": [
+              "Speed skating"
+            ]
+          },
+          {
+            "name": "Messehalle (Indoor Skating Rink)",
+            "sports": [
+              "Ice hockey"
+            ]
+          },
+          {
+            "name": "Innsbruck Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Seefeld",
+            "sports": [
+              "Biathlon",
+              "cross-country skiing",
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Kombinierte Kunsteisbahn für Bob-Rodel Igls",
+            "sports": [
+              "Bobsleigh",
+              "luge"
+            ]
+          }
+        ]
+      }
+    },
+    "1976_Montreal": {
+      "filename": "1976_Montreal",
+      "total_venues": 49,
+      "geojson": {
+        "total_venues": 24,
+        "sports_matches": 3,
+        "name_matches": 20,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 1,
+          "fuzzy_match": 7
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Le Forum de Montréal",
+              "Montréal Forum",
+              "Pepsi Forum (1997-Present)"
+            ],
+            "sports": [
+              "Artistic Gymnastics",
+              "Basketball",
+              "Handball",
+              "Volleyball"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 25,
+        "sports_matches": 3,
+        "name_matches": 19,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 7
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Forum",
+            "sports": [
+              "Gymnastics",
+              "boxing",
+              "handball"
+            ]
+          },
+          {
+            "name": "Montreal Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Stade Varsity",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "1980_Lake_Placid": {
+      "filename": "1980_Lake_Placid",
+      "total_venues": 16,
+      "geojson": {
+        "total_venues": 7,
+        "sports_matches": 2,
+        "name_matches": 3,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Mt. Van Hoevenberg Recreation Area"
+            ],
+            "sports": [
+              "Biathlon",
+              "Bobsleigh",
+              "Cross Country Skiing",
+              "Luge",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              "Olympic Arena",
+              "Olympic Center (?-2005), Herb Brooks Arena (2005-Present)"
+            ],
+            "sports": [
+              "Curling",
+              "Figure Skating",
+              "Ice Hockey"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 9,
+        "sports_matches": 2,
+        "name_matches": 2,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "The Arena",
+            "sports": [
+              "Ice hockey",
+              "figure skating"
+            ]
+          },
+          {
+            "name": "Mt Van Hoevenberg - Cross Country Complex",
+            "sports": [
+              "Biathlon",
+              "cross-country skiing",
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Mt Van Hoevenberg - Bob and Luge Runs",
+            "sports": [
+              "Bobsleigh",
+              "luge"
+            ]
+          },
+          {
+            "name": "Lake Placid Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Lake Placid Equestrian Stadium",
+            "sports": [
+              "Opening Ceremony"
+            ]
+          }
+        ]
+      }
+    },
+    "1980_Moscow": {
+      "filename": "1980_Moscow",
+      "total_venues": 55,
+      "geojson": {
+        "total_venues": 27,
+        "sports_matches": 2,
+        "name_matches": 23,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 14
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Olympic Cycling Circuit, Krylatskoye Sports Complex"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "100-km Team Trial Course, Minskoye Shosse"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 28,
+        "sports_matches": 2,
+        "name_matches": 21,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 12
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Swimming Pool (OlimpiyskiySports Complex)",
+            "sports": [
+              "Swimming",
+              "diving",
+              "water polo",
+              "modern pentathlon (swimming)"
+            ]
+          },
+          {
+            "name": "Krylatskoye Cycling Circuit",
+            "sports": [
+              "Cycling (road)"
+            ]
+          },
+          {
+            "name": "Izmailovo Sports Palace",
+            "sports": [
+              "Weightlifting"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Moscow-Minsk Highway",
+            "sports": [
+              "Cycling (road)"
+            ]
+          }
+        ]
+      }
+    },
+    "1984_Los_Angeles": {
+      "filename": "1984_Los_Angeles",
+      "total_venues": 61,
+      "geojson": {
+        "total_venues": 33,
+        "sports_matches": 5,
+        "name_matches": 24,
+        "name_matches_by_method": {
+          "exact_match": 12,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 10
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Dodger Stadium"
+            ],
+            "sports": [
+              "Baseball"
+            ]
+          },
+          {
+            "name": [
+              "Artesia Freeway"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Los Angeles Tennis Center"
+            ],
+            "sports": [
+              "Tennis"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 28,
+        "sports_matches": 3,
+        "name_matches": 22,
+        "name_matches_by_method": {
+          "exact_match": 12,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 9
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Olympic Village USC",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Olympic Village UCLA",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Coto de Caza",
+            "sports": [
+              "Modern pentathlon"
+            ]
+          }
+        ]
+      }
+    },
+    "1984_Sarajevo": {
+      "filename": "1984_Sarajevo",
+      "total_venues": 18,
+      "geojson": {
+        "total_venues": 8,
+        "sports_matches": 7,
+        "name_matches": 1,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 10,
+        "sports_matches": 5,
+        "name_matches": 1,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": "Skenderija Cultural and Sports Centre",
+            "sports": [
+              "Figure skating",
+              "ice hockey"
+            ]
+          },
+          {
+            "name": "Koševo Stadium",
+            "sports": [
+              "Opening Ceremony"
+            ]
+          },
+          {
+            "name": "Mojmilo Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Bjelašnica",
+            "sports": [
+              "Alpine skiing"
+            ]
+          }
+        ]
+      }
+    },
+    "1988_Calgary": {
+      "filename": "1988_Calgary",
+      "total_venues": 21,
+      "geojson": {
+        "total_venues": 8,
+        "sports_matches": 1,
+        "name_matches": 7,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 13,
+        "sports_matches": 1,
+        "name_matches": 7,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "McMahon Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Calgary Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Canada Olympic Park - Freestyle Area",
+            "sports": [
+              "Freestyle skiing"
+            ]
+          },
+          {
+            "name": "Canada Olympic Park - Bobsleigh and Luge track",
+            "sports": [
+              "Bobsleigh",
+              "luge"
+            ]
+          },
+          {
+            "name": "Canmore Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1988_Seoul": {
+      "filename": "1988_Seoul",
+      "total_venues": 63,
+      "geojson": {
+        "total_venues": 32,
+        "sports_matches": 5,
+        "name_matches": 25,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 17
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Jam-sil Ya-gu-jang, Seoul Sports Complex",
+              "Jamsil Baseball Stadium, Seoul Sports Complex"
+            ],
+            "sports": [
+              "Baseball"
+            ]
+          },
+          {
+            "name": [
+              "Ro-yal Bol-ling Sen-ta",
+              "Royal Bowling Centre"
+            ],
+            "sports": [
+              "Bowling"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 31,
+        "sports_matches": 2,
+        "name_matches": 24,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 0,
+          "token_match": 3,
+          "fuzzy_match": 16
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Pusan Stadium",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Taegu Stadium",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Taejon Stadium",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "Olympic Indoor Swimming Pool",
+            "sports": [
+              "Artistic swimming",
+              "water polo",
+              "modern pentathlon (swimming)"
+            ]
+          },
+          {
+            "name": "Seoul Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1992_Albertville": {
+      "filename": "1992_Albertville",
+      "total_venues": 27,
+      "geojson": {
+        "total_venues": 12,
+        "sports_matches": 6,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Biathlon",
+              "Cross Country Skiing",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Figure Skating",
+              "Freestyle Skiing"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 15,
+        "sports_matches": 5,
+        "name_matches": 4,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Olympic Stadium (Théâtre des Cérémonies)",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Méribel - Massif du Roc de Fer or Stade du Corbey",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Les Saisies - Olympic Nordic Skiing Stadium (Stade Olympique de ski nordique)",
+            "sports": [
+              "Biathlon",
+              "cross-country skiing"
+            ]
+          },
+          {
+            "name": "Olympic Village (Village Olympique)",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Courchevel - Cross-Country Stadium (Stade de ski de fond)",
+            "sports": [
+              "Nordic combined"
+            ]
+          },
+          {
+            "name": "Tignes - Freestyle Skiing Stadium or Stade de Lognan (Stade de ski artistique et acrobatique)",
+            "sports": [
+              "Freestyle skiing (demonstration sport)"
+            ]
+          }
+        ]
+      }
+    },
+    "1992_Barcelona": {
+      "filename": "1992_Barcelona",
+      "total_venues": 78,
+      "geojson": {
+        "total_venues": 39,
+        "sports_matches": 8,
+        "name_matches": 30,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 1,
+          "token_match": 3,
+          "fuzzy_match": 8
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Circuito de Cataluña (also known as Circuit de Catalunya)",
+              "Catalonia Circuit"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 39,
+        "sports_matches": 7,
+        "name_matches": 26,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 8
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Estació del Nord Sports Hall",
+            "sports": [
+              "Table tennis"
+            ]
+          },
+          {
+            "name": "Cross-country Circuit",
+            "sports": [
+              "Modern pentathlon (running)"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Marathon circuit",
+            "sports": [
+              "Marathon"
+            ]
+          },
+          {
+            "name": "Walking circuit",
+            "sports": [
+              "Race walking"
+            ]
+          },
+          {
+            "name": "A-17 cycling circuit",
+            "sports": [
+              "Cycling (road)"
+            ]
+          }
+        ]
+      }
+    },
+    "1994_Lillehammer": {
+      "filename": "1994_Lillehammer",
+      "total_venues": 22,
+      "geojson": {
+        "total_venues": 10,
+        "sports_matches": 1,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Hafjell Alpinsenter",
+              "Hafjell Alpine Centre"
+            ],
+            "sports": [
+              "Alpine Skiing",
+              "Freestyle Skiing",
+              "Mixed Sports",
+              "Snowboarding"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 12,
+        "sports_matches": 1,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 2
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Lillehammer Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Lillehammer Olympic Alpine Centre, Hafjell",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Hamar Olympic Subsite Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "1996_Atlanta": {
+      "filename": "1996_Atlanta",
+      "total_venues": 58,
+      "geojson": {
+        "total_venues": 29,
+        "sports_matches": 1,
+        "name_matches": 28,
+        "name_matches_by_method": {
+          "exact_match": 11,
+          "substring_match": 4,
+          "token_match": 2,
+          "fuzzy_match": 5
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 29,
+        "sports_matches": 1,
+        "name_matches": 26,
+        "name_matches_by_method": {
+          "exact_match": 10,
+          "substring_match": 4,
+          "token_match": 2,
+          "fuzzy_match": 5
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Atlanta Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Morehouse College",
+            "sports": [
+              "Basketball"
+            ]
+          }
+        ]
+      }
+    },
+    "1998_Nagano": {
+      "filename": "1998_Nagano",
+      "total_venues": 30,
+      "geojson": {
+        "total_venues": 14,
+        "sports_matches": 5,
+        "name_matches": 9,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 1,
+          "token_match": 2,
+          "fuzzy_match": 0
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 16,
+        "sports_matches": 5,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 0
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Nagano Olympic Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accomodation"
+            ]
+          },
+          {
+            "name": "Hakuba Happo'one Ski Area",
+            "sports": [
+              "Alpine skiing"
+            ]
+          }
+        ]
+      }
+    },
+    "2000_Sydney": {
+      "filename": "2000_Sydney",
+      "total_venues": 61,
+      "geojson": {
+        "total_venues": 30,
+        "sports_matches": 1,
+        "name_matches": 28,
+        "name_matches_by_method": {
+          "exact_match": 10,
+          "substring_match": 1,
+          "token_match": 2,
+          "fuzzy_match": 12
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Cycling Road Course, Centennial Parklands"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 31,
+        "sports_matches": 1,
+        "name_matches": 27,
+        "name_matches_by_method": {
+          "exact_match": 10,
+          "substring_match": 1,
+          "token_match": 1,
+          "fuzzy_match": 12
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "Dome",
+            "sports": [
+              "Basketball",
+              "handball"
+            ]
+          },
+          {
+            "name": "Sydney Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Centennial Parklands",
+            "sports": [
+              "Cycling (road)"
+            ]
+          }
+        ]
+      }
+    },
+    "2002_Salt_Lake_City": {
+      "filename": "2002_Salt_Lake_City",
+      "total_venues": 22,
+      "geojson": {
+        "total_venues": 10,
+        "sports_matches": 0,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 12,
+        "sports_matches": 0,
+        "name_matches": 10,
+        "name_matches_by_method": {
+          "exact_match": 6,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Salt Lake City Olympic Village",
+            "sports": [
+              "Athlete accomodation"
+            ]
+          },
+          {
+            "name": "Rice-Eccles Olympic Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          }
+        ]
+      }
+    },
+    "2004_Athens": {
+      "filename": "2004_Athens",
+      "total_venues": 69,
+      "geojson": {
+        "total_venues": 35,
+        "sports_matches": 3,
+        "name_matches": 31,
+        "name_matches_by_method": {
+          "exact_match": 11,
+          "substring_match": 4,
+          "token_match": 0,
+          "fuzzy_match": 16
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Plateia Kozia (also known as Plateia Ludovikou)",
+              "Kotzia Square"
+            ],
+            "sports": [
+              "Artistic Gymnastics",
+              "Athletics",
+              "Cycling Road"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 34,
+        "sports_matches": 3,
+        "name_matches": 26,
+        "name_matches_by_method": {
+          "exact_match": 10,
+          "substring_match": 4,
+          "token_match": 0,
+          "fuzzy_match": 12
+        },
+        "unmatched": 5,
+        "unmatched_venues": [
+          {
+            "name": "Helliniko Fencing Hall",
+            "sports": [
+              "Fencing"
+            ]
+          },
+          {
+            "name": "Helliniko Indoor Arena",
+            "sports": [
+              "Basketball"
+            ]
+          },
+          {
+            "name": "Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Ancient Stadium",
+            "sports": [
+              "Athletics"
+            ]
+          },
+          {
+            "name": "Kaftantzoglio Stadium",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "2006_Turin": {
+      "filename": "2006_Turin",
+      "total_venues": 31,
+      "geojson": {
+        "total_venues": 14,
+        "sports_matches": 8,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Stadio del Trampolino",
+              "Ski Jumping Stadium"
+            ],
+            "sports": [
+              "Cross Country Skiing",
+              "Nordic Combined"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 17,
+        "sports_matches": 6,
+        "name_matches": 5,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 1
+        },
+        "unmatched": 6,
+        "unmatched_venues": [
+          {
+            "name": "Stadio Olimpico Torino",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Turin Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Pragelato Plan",
+            "sports": [
+              "Cross-country skiing and Nordic combined"
+            ]
+          },
+          {
+            "name": "San Sicario Fraiteve",
+            "sports": [
+              "Alpine skiing"
+            ]
+          },
+          {
+            "name": "Bardonecchia Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Sestriere Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "2008_Beijing": {
+      "filename": "2008_Beijing",
+      "total_venues": 77,
+      "geojson": {
+        "total_venues": 37,
+        "sports_matches": 3,
+        "name_matches": 32,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 19
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Beijing Aolinpike Lanqiuguan",
+              "Olympic Basketball Gymnasium"
+            ],
+            "sports": [
+              "Basketball",
+              "Ice Hockey"
+            ]
+          },
+          {
+            "name": [
+              "Laoshan Xiaolunche Saichang",
+              "Laoshan BMX Venue"
+            ],
+            "sports": [
+              "Cycling BMX Racing"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 40,
+        "sports_matches": 3,
+        "name_matches": 30,
+        "name_matches_by_method": {
+          "exact_match": 9,
+          "substring_match": 2,
+          "token_match": 0,
+          "fuzzy_match": 18
+        },
+        "unmatched": 7,
+        "unmatched_venues": [
+          {
+            "name": "Capital Gymnasium",
+            "sports": [
+              "Volleyball"
+            ]
+          },
+          {
+            "name": "Shunyi Olympic Rowing-Canoeing Park – Rowing & canoe sprint course",
+            "sports": [
+              "Rowing",
+              "canoe sprint",
+              "swimming"
+            ]
+          },
+          {
+            "name": "Beijing Olympic Basketball Arena",
+            "sports": [
+              "Basketball"
+            ]
+          },
+          {
+            "name": "Beijing Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Tiananmen Square National Stadium Marathon Course",
+            "sports": [
+              "Athletics"
+            ]
+          },
+          {
+            "name": "Laoshan Bicycle Moto Cross (BMX) Venue",
+            "sports": [
+              "Cycling (BMX)"
+            ]
+          },
+          {
+            "name": "Shenyang Olympic Stadium",
+            "sports": [
+              "Football"
+            ]
+          }
+        ]
+      }
+    },
+    "2010_Vancouver": {
+      "filename": "2010_Vancouver",
+      "total_venues": 21,
+      "geojson": {
+        "total_venues": 9,
+        "sports_matches": 0,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Cypress Mountain"
+            ],
+            "sports": [
+              "Freestyle Skiing",
+              "Snowboarding"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 12,
+        "sports_matches": 0,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 3
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": "Vancouver Olympic Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Vancouver Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Cypress Mountain – Snowboard Stadium – Freestyle Skiing Stadium",
+            "sports": [
+              "Snowboard and freestyle skiing"
+            ]
+          },
+          {
+            "name": "Whistler Olympic Park – Cross-Country Skiing Stadium – Biathlon Stadium – Ski Jumps",
+            "sports": [
+              "– Cross-country skiing and Nordic combined – Biathlon – Ski jumping and Nordic combined"
+            ]
+          }
+        ]
+      }
+    },
+    "2012_London": {
+      "filename": "2012_London",
+      "total_venues": 61,
+      "geojson": {
+        "total_venues": 30,
+        "sports_matches": 5,
+        "name_matches": 24,
+        "name_matches_by_method": {
+          "exact_match": 16,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 8
+        },
+        "unmatched": 1,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Velodrome, London Velopark, Olympic Park (also known as The Pringle)"
+            ],
+            "sports": [
+              "Cycling Track"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 31,
+        "sports_matches": 4,
+        "name_matches": 23,
+        "name_matches_by_method": {
+          "exact_match": 16,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 7
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": "Wimbledon",
+            "sports": [
+              "Tennis"
+            ]
+          },
+          {
+            "name": "Wembley Stadium",
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": "London 2012 Velodrome",
+            "sports": [
+              "Cycling (track)"
+            ]
+          },
+          {
+            "name": "East Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "2014_Sochi": {
+      "filename": "2014_Sochi",
+      "total_venues": 23,
+      "geojson": {
+        "total_venues": 10,
+        "sports_matches": 1,
+        "name_matches": 9,
+        "name_matches_by_method": {
+          "exact_match": 4,
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 4
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 13,
+        "sports_matches": 1,
+        "name_matches": 8,
+        "name_matches_by_method": {
+          "exact_match": 3,
+          "substring_match": 0,
+          "token_match": 1,
+          "fuzzy_match": 4
+        },
+        "unmatched": 4,
+        "unmatched_venues": [
+          {
+            "name": "Adler Arena Skating Centre",
+            "sports": [
+              "Speed skating"
+            ]
+          },
+          {
+            "name": "Fisht Olympic Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Coastal Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Mountain Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "2016_Rio": {
+      "filename": "2016_Rio",
+      "total_venues": 72,
+      "geojson": {
+        "total_venues": 37,
+        "sports_matches": 1,
+        "name_matches": 36,
+        "name_matches_by_method": {
+          "exact_match": 7,
+          "substring_match": 10,
+          "token_match": 0,
+          "fuzzy_match": 19
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 35,
+        "sports_matches": 1,
+        "name_matches": 32,
+        "name_matches_by_method": {
+          "exact_match": 5,
+          "substring_match": 8,
+          "token_match": 0,
+          "fuzzy_match": 19
+        },
+        "unmatched": 2,
+        "unmatched_venues": [
+          {
+            "name": "Rio Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "Beach Volleyball Arena",
+            "sports": [
+              "Beach volleyball"
+            ]
+          }
+        ]
+      }
+    },
+    "2018_Pyeongchang": {
+      "filename": "2018_Pyeongchang",
+      "total_venues": 27,
+      "geojson": {
+        "total_venues": 12,
+        "sports_matches": 0,
+        "name_matches": 12,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 10
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      },
+      "json": {
+        "total_venues": 15,
+        "sports_matches": 0,
+        "name_matches": 12,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 1,
+          "token_match": 0,
+          "fuzzy_match": 10
+        },
+        "unmatched": 3,
+        "unmatched_venues": [
+          {
+            "name": "PyeongChang Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          },
+          {
+            "name": "PyeongChang Olympic Stadium",
+            "sports": [
+              "Opening and Closing Ceremonies"
+            ]
+          },
+          {
+            "name": "Gangneung Olympic Village",
+            "sports": [
+              "Athlete accommodation"
+            ]
+          }
+        ]
+      }
+    },
+    "2020_Tokyo": {
+      "filename": "2020_Tokyo",
+      "total_venues": 41,
+      "geojson": {
+        "total_venues": 41,
+        "sports_matches": 0,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 41,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Aomi Urban Sports Park"
+            ],
+            "sports": [
+              "3x3 Basketball",
+              "Sport Climbing"
+            ]
+          },
+          {
+            "name": [
+              "Ariake Urban Sports Park"
+            ],
+            "sports": [
+              "Cycling BMX Freestyle",
+              "Cycling BMX Racing",
+              "Skateboarding"
+            ]
+          },
+          {
+            "name": [
+              "Tsurigasaki Surfing Beach"
+            ],
+            "sports": [
+              "Surfing"
+            ]
+          },
+          {
+            "name": [
+              "Yumenoshima Park Archery Field"
+            ],
+            "sports": [
+              "Archery"
+            ]
+          },
+          {
+            "name": [
+              "Odaiba Marine Park"
+            ],
+            "sports": [
+              "Marathon Swimming",
+              "Triathlon"
+            ]
+          },
+          {
+            "name": [
+              "Asaka Shooting Range"
+            ],
+            "sports": [
+              "Marathon Swimming",
+              "Shooting"
+            ]
+          },
+          {
+            "name": [
+              "Olympic Aquatics Centre"
+            ],
+            "sports": [
+              "Artistic Swimming",
+              "Diving",
+              "Swimming"
+            ]
+          },
+          {
+            "name": [
+              "Japan National Stadium (also known as 国立競技場,)",
+              "New National Stadium"
+            ],
+            "sports": [
+              "Athletics"
+            ]
+          },
+          {
+            "name": [
+              "International Stadium Yokohama (also known as Nissan Stadium)",
+              "日産スタジアム"
+            ],
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": [
+              "Kashima Stadium",
+              "カシマサッカースタジアム"
+            ],
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": [
+              "Miyagi Stadium (also known as Q&A Stadium Miyagi)",
+              "Hitomebore Stadium Miyagi, ひとめぼれスタジアム宮城"
+            ],
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": [
+              "Saitama Stadium 2002",
+              "埼玉スタジアム2002"
+            ],
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": [
+              "Sapporo Dome",
+              "札幌ドーム"
+            ],
+            "sports": [
+              "Football"
+            ]
+          },
+          {
+            "name": [
+              "Tokyo Stadium (also known as Ajinomoto Stadium)",
+              "味の素スタジアム"
+            ],
+            "sports": [
+              "Football",
+              "Modern Pentathlon",
+              "Rugby Sevens"
+            ]
+          },
+          {
+            "name": [
+              "Ariake Gymnastics Centre"
+            ],
+            "sports": [
+              "Artistic Gymnastics",
+              "Rhythmic Gymnastics",
+              "Trampolining"
+            ]
+          },
+          {
+            "name": [
+              "Kasumigaseki Country Club",
+              "霞ヶ関カンツリー倶楽部"
+            ],
+            "sports": [
+              "Golf"
+            ]
+          },
+          {
+            "name": [
+              "Ariake Arena"
+            ],
+            "sports": [
+              "Volleyball"
+            ]
+          },
+          {
+            "name": [
+              "Saitama Super Arena",
+              "さいたまスーパーアリーナ"
+            ],
+            "sports": [
+              "Basketball"
+            ]
+          },
+          {
+            "name": [
+              "Oi Hockey Stadium"
+            ],
+            "sports": [
+              "Hockey"
+            ]
+          },
+          {
+            "name": [
+              "Yoyogi National Gymnasium",
+              "国立代々木競技場"
+            ],
+            "sports": [
+              "Handball"
+            ]
+          },
+          {
+            "name": [
+              "Tokyo Tatsumi International Swimming Center",
+              "東京辰巳国際水泳場 (Tōkyō Tatsumi Kokusai Suieijō)"
+            ],
+            "sports": [
+              "Water Polo"
+            ]
+          },
+          {
+            "name": [
+              "Fuji Speedway",
+              "富士スピードウェイ (Fuji Supīdowei)"
+            ],
+            "sports": [
+              "Cycling Road"
+            ]
+          },
+          {
+            "name": [
+              "Izu Mountain Bike Course"
+            ],
+            "sports": [
+              "Cycling Mountain Bike"
+            ]
+          },
+          {
+            "name": [
+              "Shiokaze Park Stadium"
+            ],
+            "sports": [
+              "Beach Volleyball"
+            ]
+          },
+          {
+            "name": [
+              "Tokyo International Forum",
+              "東京国際フォーラム, Tōkyō Kokusai Fōramu"
+            ],
+            "sports": [
+              "Weightlifting"
+            ]
+          },
+          {
+            "name": [
+              "Musashino Forest Sports Plaza"
+            ],
+            "sports": [
+              "Badminton",
+              "Modern Pentathlon"
+            ]
+          },
+          {
+            "name": [
+              "Makuhari Messe",
+              "幕張メッセ"
+            ],
+            "sports": [
+              "Fencing",
+              "Taekwondo",
+              "Wrestling"
+            ]
+          },
+          {
+            "name": [
+              "Ariake Tennis Forest Park",
+              "有明テニスの森公園, Ariake Tenisu no Mori Kōen"
+            ],
+            "sports": [
+              "Tennis"
+            ]
+          },
+          {
+            "name": [
+              "Izu Velodrome",
+              "伊豆ベロドローム"
+            ],
+            "sports": [
+              "Cycling Track"
+            ]
+          },
+          {
+            "name": [
+              "Ryōgoku Kokugikan",
+              "両国国技館, Ryōgoku Sumo Hall"
+            ],
+            "sports": [
+              "Boxing"
+            ]
+          },
+          {
+            "name": [
+              "Sea Forest Waterway",
+              "海の森水上競技場"
+            ],
+            "sports": [
+              "Canoe Sprint",
+              "Rowing"
+            ]
+          },
+          {
+            "name": [
+              "Kasai Canoe Slalom Centre",
+              "Kasai Canoe Slalom Centre at Kasai Rinkai Park"
+            ],
+            "sports": [
+              "Canoe Slalom"
+            ]
+          },
+          {
+            "name": [
+              "Sea Forest Cross-Country Course"
+            ],
+            "sports": [
+              "Equestrian Eventing"
+            ]
+          },
+          {
+            "name": [
+              "Odori Park",
+              "大通公園, Ōdōri Kōen"
+            ],
+            "sports": [
+              "Athletics"
+            ]
+          },
+          {
+            "name": [
+              "Ekimae-Dori"
+            ],
+            "sports": [
+              "Athletics"
+            ]
+          },
+          {
+            "name": [
+              "Yokohama Sutajiamu",
+              "Yokohama Stadium"
+            ],
+            "sports": [
+              "Baseball",
+              "Softball"
+            ]
+          },
+          {
+            "name": [
+              "Fukushima Azuma Baseball Stadium"
+            ],
+            "sports": [
+              "Baseball",
+              "Softball"
+            ]
+          },
+          {
+            "name": [
+              "Baji Koen Equestrian Park (also known as JRA Equestrian Park)"
+            ],
+            "sports": [
+              "Equestrian Dressage",
+              "Equestrian Eventing",
+              "Equestrian Jumping"
+            ]
+          },
+          {
+            "name": [
+              "Tōkyō Taiikukan",
+              "Tokyo Metropolitan Gymnasium"
+            ],
+            "sports": [
+              "Artistic Gymnastics",
+              "Table Tennis"
+            ]
+          },
+          {
+            "name": [
+              "Nippon Budokan (also known as Budokan)"
+            ],
+            "sports": [
+              "Judo",
+              "Karate",
+              "Kendo",
+              "Kyudo",
+              "Sumo"
+            ]
+          },
+          {
+            "name": [
+              ""
+            ],
+            "sports": [
+              "Sailing"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 0,
+        "sports_matches": 0,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      }
+    },
+    "2022_Beijing": {
+      "filename": "2022_Beijing",
+      "total_venues": 11,
+      "geojson": {
+        "total_venues": 11,
+        "sports_matches": 0,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 11,
+        "unmatched_venues": [
+          {
+            "name": [
+              "Big Air Shougang"
+            ],
+            "sports": [
+              "Freestyle Skiing",
+              "Snowboarding"
+            ]
+          },
+          {
+            "name": [
+              "Genting Snow Park",
+              "Genting Resort Secret Garden"
+            ],
+            "sports": [
+              "Freestyle Skiing",
+              "Snowboarding"
+            ]
+          },
+          {
+            "name": [
+              "Zhangjiakou Nordic Centre and Biathlon Centre"
+            ],
+            "sports": [
+              "Biathlon",
+              "Cross Country Skiing",
+              "Nordic Combined"
+            ]
+          },
+          {
+            "name": [
+              "Zhangjiakou National Ski Jumping Centre"
+            ],
+            "sports": [
+              "Nordic Combined",
+              "Ski Jumping"
+            ]
+          },
+          {
+            "name": [
+              "National Speed Skating Oval",
+              "The Ice Ribbon"
+            ],
+            "sports": [
+              "Speed Skating"
+            ]
+          },
+          {
+            "name": [
+              "Yanqing National Alpine Skiing Centre",
+              "Xiaohaituo Alpine Skiing Field, 国家高山滑雪中心, Chinese National Alpine Skiing Centre"
+            ],
+            "sports": [
+              "Alpine Skiing"
+            ]
+          },
+          {
+            "name": [
+              "Yanqing National Sliding Centre"
+            ],
+            "sports": [
+              "Bobsleigh",
+              "Luge",
+              "Skeleton"
+            ]
+          },
+          {
+            "name": [
+              "Beijing Aolinpike Lanqiuguan",
+              "Olympic Basketball Gymnasium"
+            ],
+            "sports": [
+              "Basketball",
+              "Ice Hockey"
+            ]
+          },
+          {
+            "name": [
+              "Beijing Guojia Youyong Zhongxin, Beijing Aolinpike Gongyuan (also known as Water Cube)",
+              "Beijing National Aquatics Centre, Beijing Olympic Green"
+            ],
+            "sports": [
+              "Artistic Swimming",
+              "Curling",
+              "Diving",
+              "Swimming"
+            ]
+          },
+          {
+            "name": [
+              "Guojia Tiyuguan, Beijing Aolinpike Gongyuan",
+              "National Indoor Stadium,"
+            ],
+            "sports": [
+              "Artistic Gymnastics",
+              "Handball",
+              "Ice Hockey",
+              "Trampolining"
+            ]
+          },
+          {
+            "name": [
+              "Shoudu Tiyguan",
+              "Capital Indoor Stadium"
+            ],
+            "sports": [
+              "Figure Skating",
+              "Short Track Speed Skating",
+              "Volleyball"
+            ]
+          }
+        ]
+      },
+      "json": {
+        "total_venues": 0,
+        "sports_matches": 0,
+        "name_matches": 0,
+        "name_matches_by_method": {
+          "exact_match": 0,
+          "substring_match": 0,
+          "token_match": 0,
+          "fuzzy_match": 0
+        },
+        "unmatched": 0,
+        "unmatched_venues": []
+      }
+    }
+  },
+  "generated_at": "2025-07-31T00:20:26.621681"
+}

@@ -1,0 +1,566 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837391,
+          36.695315
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hakuba Ski Jumping Stadium",
+          "Hakuba Ski Jumping Stadium"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.695315,137.837391",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1993",
+        "seating_capacity": "45000",
+        "type": "outdoor venue",
+        "source_file": "venue_78.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hakuba Ski Jumping Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ski jumping, Nordic combined",
+        "venue_information": "The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837166,
+          36.701832
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Happo'one"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.701832,137.837166",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_79.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Shiga Kogen - Mount Higashidate",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.822038,
+          36.666827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Snow Harp"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.666827,137.822038",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_80.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Snow Harp",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cross-country skiing, Nordic combined",
+        "venue_information": "Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.139488,
+          36.72194
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Iizuna Kogen Resort"
+        ],
+        "place": "Iizuna",
+        "coordinates": "36.72194,138.139488",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_81.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Iizuna Kogen Ski Area",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Freestyle skiing",
+        "venue_information": "The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1575,
+          36.710833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Spiral"
+        ],
+        "place": "Asakawa, Nagano",
+        "coordinates": "36.710833,138.1575",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_82.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Spiral Track",
+        "venue_classification": "New build",
+        "venue_status": "Not in use",
+        "venue_use": "Bobsleigh, luge",
+        "venue_information": "This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596499,
+          36.322931
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kazakoshi Park Arena"
+        ],
+        "place": "Karuizawa",
+        "coordinates": "36.322931,138.596499",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "1924",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_83.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kazakoshi Park Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Curling",
+        "venue_information": "This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.233056,
+          36.660556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aqua Wing Arena",
+          "Nagano Sports Park General Municipal Pool (1998-Present)"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.660556,138.233056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_85.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Aqua Wing",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "Provides local swimmers with excellent facilities all year round.",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.195833,
+          36.629722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Big Hat (also known as Wakasato Multi-Purpose Sports Arena)"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.629722,138.195833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10140",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_86.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Big Hat",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games.",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.240319,
+          36.640556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "M-Wave"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.640556,138.240319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "342 m",
+        "source_file": "venue_87.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "M-Wave",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.206389,
+          36.604722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "White Ring"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.604722,138.206389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "7351",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_88.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "White Ring",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Figure skating, short track, speed skating",
+        "venue_information": "This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.44003,
+          36.915365
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nozawa Onsen Resort"
+        ],
+        "place": "Nozawa Onsen",
+        "coordinates": "36.915365,138.44003",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_89.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Nozawa Onsen Biathlon Venue",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Biathlon",
+        "venue_information": "Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.517143,
+          36.745556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Yakebitai, Shiga Kogen"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.745556,138.517143",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Snowboarding"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_90.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "match_method": "token_match",
+        "matched_venue_name": "Shiga Kogen - Mount Yakebitai",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Snowboard",
+        "venue_information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.448956,
+          36.728171
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kanbayashi Sports Park"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.728171,138.448956",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_91.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Shiga Kogen - Kanbayashi Snowboard Park",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Snowboard",
+        "venue_information": "This was closed in 2007 due to financial difficulties caused by competition from other nearby resorts and a lack of snowfall."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.503995,
+          36.72357
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Higashidate, Shiga Kogen"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.72357,138.503995",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_92.json",
+        "Olympics": "1998 Nagano",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Shiga Kogen - Mount Higashidate",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.",
+        "match_method": "token_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1998",
+    "olympics_city": "Nagano",
+    "olympics_season": "winter"
+  }
+}

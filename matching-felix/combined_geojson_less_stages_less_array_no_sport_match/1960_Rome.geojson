@@ -1,0 +1,1145 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.454786,
+          41.933886
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Olimpico",
+          "Olympic Stadium",
+          "Stadio dei Cipressi (1930-1950), Stadio dei Centomila (1950-1960)"
+        ],
+        "place": "Roma",
+        "coordinates": "41.933886,12.454786",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1937",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "34 m",
+        "source_file": "venue_414.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012. The stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.490637,
+          41.889751
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arco di Constantino",
+          "Arch of Constantine"
+        ],
+        "place": "Roma",
+        "coordinates": "41.889751,12.490637",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_415.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470717,
+          41.929622
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palazzetto dello Sport (also known as PalaFlaminio, PalaTiziano)",
+          "Minor Sports Palace"
+        ],
+        "place": "Roma",
+        "coordinates": "41.929622,12.470717",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Weightlifting"
+        ],
+        "opened": "1960",
+        "type": "indoor venue",
+        "source_file": "venue_416.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Sports Palace",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Basketball, boxing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.466542,
+          41.825364
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palazzo dello Sport (also known as PalaLottomotica)",
+          "Sports Palace",
+          "PalaEUR (?-?)"
+        ],
+        "place": "Roma",
+        "coordinates": "41.825364,12.466542",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Boxing"
+        ],
+        "opened": "1960",
+        "type": "indoor venue",
+        "source_file": "venue_417.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Sports Palace",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Basketball, boxing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.65349,
+          41.750923
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lago Albano (also known as Lago di Castel Gandolfo)",
+          "Albano Lake"
+        ],
+        "place": "Castel Gandolfo",
+        "coordinates": "41.750923,12.65349",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_418.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.82,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Lake Albano",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": "The lake has been the venue for several major rowing competitions, from the Italian Championships to European Championships, since 1903. It is home to several sailing clubs and the Italian Canoeing and Kayaking Federation (FICK). Italy's national canoe and kayak teams train there. Popular with tourists, it offers a range of recreational water activities and sports, as well as opportunities for sunbathing and hiking. There are several restaurants on its shores. The grandstand and judges' tower built for the Games have fallen into disrepair. Though their demolition has been discussed, they remain standing, as do the concrete piles installed at Games time at either end of the lake to hold the lane-marking system in place."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481365,
+          41.955693
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuito Grottarossa",
+          "Grottarossa Circuit"
+        ],
+        "place": "Roma",
+        "coordinates": "41.955693,12.481365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_419.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.455324,
+          41.825939
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Viale Oceano Pacifico",
+          "Pacific Ocean Lane"
+        ],
+        "place": "Roma",
+        "coordinates": "41.825939,12.455324",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_420.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.456971,
+          41.826554
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velodrome Olimpico",
+          "Olympic Velodrome",
+          "Velodromo Fausto Coppi"
+        ],
+        "place": "Roma",
+        "coordinates": "41.826554,12.456971",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Hockey"
+        ],
+        "notes": "Last raced in the 1970s, then allowed to decay and became a shelter for homeless people.",
+        "opened": "1960",
+        "demolished": "2008",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Wood",
+        "additional_details": "37.27° curves, 9.59° straights.",
+        "source_file": "venue_421.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.909,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Rome Olympic Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Cycling (track), hockey",
+        "venue_information": "The field hockey matches were held on the pitch in the middle of the velodrome. The track hosted cycling competitions up until 1968, when problems with the foundations of the stands were detected, leading to their closure. The track was still used for training, however, while the infield continued to be used for hockey and football until 2006. The velodrome was demolished in 2008. A series of legal disputes since then have prevented the site from being cleared and re-used."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.457627,
+          41.929334
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Olimpico del Nuoto",
+          "Olympic Swimming Stadium"
+        ],
+        "place": "Roma",
+        "coordinates": "41.929334,12.457627",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "notes": "Outdoor pool.",
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_422.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Olympic Swimming Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+        "venue_information": "Located in the Foro Italico complex, close to the Olympic Stadium, the venue is split into a competition area, comprising the open-air Olympic pool and diving pool, and a swimming instruction area. It is Italy's national swimming and diving centre and has five pools in all (two covered and three uncovered), as well as three gyms. The venue was refurbished to host the 1983 European Aquatics Championships and expanded for the 1994 World Aquatics Championships, which it staged again in 2009. The stadium also staged the 2011 Euroleague Water Polo Final Four and will welcome the European Aquatics Championships again in 2022. The stadium stages national and regional swimming, water polo, artistic swimming and diving competitions, runs lifesaving activities and courses and swim classes, and is open for recreational swimming and educational and social activities."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.487114,
+          41.913584
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piazza di Siena, Villa Borghese",
+          "Siena Square, Villa Borghese"
+        ],
+        "place": "Roma",
+        "coordinates": "41.913584,12.487114",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "1922",
+        "type": "indoor venue",
+        "source_file": "venue_423.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Piazza di Siena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Jumping, dressage",
+        "venue_information": "Situated in the Villa Borghese gardens, the venue staged its first equestrian events in 1922. Attracting the leading riders on the international circuit, the Piazza di Siena International Horse Show is one of the top events on the equestrian calendar and was a FEI Jumping Nations Cup Division 1 venue between 2013 and 2017. In May 2021, the Piazza di Siena staged the 88th CSIO Roma Master d'Inzeo."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.775002,
+          41.752967
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Equestre Federale",
+          "Federal Equestrian Centre"
+        ],
+        "place": "Pratoni del Vivaro",
+        "coordinates": "41.752967,12.775002",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_424.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.474686,
+          41.833966
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palazzo dei Congressi",
+          "Congress Palace"
+        ],
+        "place": "Roma",
+        "coordinates": "41.833966,12.474686",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1953",
+        "type": "indoor venue",
+        "source_file": "venue_425.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Congress Palace",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Fencing, modern pentathlon (fencing)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4723,
+          41.926956
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Flaminio",
+          "Flaminio Stadium"
+        ],
+        "place": "Roma",
+        "coordinates": "41.926956,12.4723",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_426.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Flaminio Stadium",
+        "venue_classification": "New build",
+        "venue_status": "Not in use",
+        "venue_use": "Football",
+        "venue_information": "The venue hosted group and knockout matches in the men's Olympic football tournament, including the gold-medal match. Built on the site of a stadium used at the 1934 FIFA World Cup, the Stadio Flaminio opened in 1959 and had a capacity of 50,000 at the time. It also featured a heated indoor pool, a fencing gym and wrestling, weightlifting and boxing facilities. In the decades that followed, it served as a major concert venue and as a temporary home for Rome's top football clubs, AS Roma and SS Lazio, during the Stadio Olimpico's renovation for the 1990 FIFA World Cup. It was also the venue for the Italian national rugby team's home Six Nations games between 2000 and 2011, at which point the stadium was closed. Empty and neglected since then, it has survived demolition plans and was awarded funds for refurbishment as part of a major urban renewal plan that includes the regeneration of the Olympic Village."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.193008,
+          40.827967
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Fuorigrotta",
+          "Fuorigrotta Stadium",
+          "Stadio San Paolo (?-Present)"
+        ],
+        "place": "Napoli",
+        "coordinates": "40.827967,14.193008",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "source_file": "venue_427.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Fuorigrotta Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.229444,
+          42.455278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Adriatico",
+          "Adriatic Stadium",
+          "Stadio Adriatico Giovanni Cornacchia (2009-Present)"
+        ],
+        "place": "Pescara",
+        "coordinates": "42.455278,14.229444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1955",
+        "type": "outdoor venue",
+        "source_file": "venue_428.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.9609999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Adriatico Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1075,
+          42.758889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Olimpico Comunale",
+          "Municipal Olympic Stadium",
+          "Stadio Olimpico Carlo Zecchiní (?-Present)"
+        ],
+        "place": "Grosseto",
+        "coordinates": "42.758889,11.1075",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_429.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "Construction of the stadium was interrupted by WWII, and it officially opened in 1953. Part of the Foro Italico complex in the north of the city, it has been the home stadium of Serie A football clubs such AS Roma and SS Lazio since it opened, and the Italian national rugby team since 2012. The stadium was extensively refurbished for the 1990 FIFA World Cup, when its capacity was increased to nearly 83,000 and it hosted the final. It underwent further renovation in 2007 to make it a UEFA category-five stadium eligible to host Champions League finals, which it did in 2009. It has been a venue for European and World Athletics Championships, the Athletics Diamond League, UEFA European Championship matches in 1968, 1980 and 2021, and Coppa Italia finals, among other major sporting events. It also stages major music concerts and performances."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.403889,
+          42.356389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Comunale",
+          "Municipal Stadium",
+          "Stadio XXVII Ottobre (?-?), Stadio Tommaso Fattorí (?-Present)"
+        ],
+        "place": "L'Aquila",
+        "coordinates": "42.356389,13.403889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1933",
+        "type": "outdoor venue",
+        "source_file": "venue_430.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.778,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Communal Stadium, Florence",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.282258,
+          43.780822
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Comunale",
+          "Municipal Stadium",
+          "Stadio Artemio Franchi (1991-Present)"
+        ],
+        "place": "Firenze",
+        "coordinates": "43.780822,11.282258",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1931",
+        "type": "outdoor venue",
+        "source_file": "venue_431.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.778,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Communal Stadium, Florence",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.314167,
+          43.526667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Ardenza",
+          "Ardenza Stadium",
+          "Stadio Edda Ciano Mussolini (1935–1945), Yankee Stadium (?-?), Stadio Armando Picchi (1960s-Present)"
+        ],
+        "place": "Livorno",
+        "coordinates": "43.526667,10.314167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1933",
+        "type": "outdoor venue",
+        "source_file": "venue_432.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Ardenza Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.493056,
+          41.879444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Terme di Caracalla",
+          "Caracalla Baths"
+        ],
+        "place": "Roma",
+        "coordinates": "41.879444,12.493056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics"
+        ],
+        "notes": "Ancient Roman baths.",
+        "opened": "216",
+        "type": "outdoor venue",
+        "source_file": "venue_433.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.45738,
+          41.93429
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio dei Marmi",
+          "Marmi Stadium"
+        ],
+        "place": "Roma",
+        "coordinates": "41.93429,12.45738",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1932",
+        "type": "outdoor venue",
+        "source_file": "venue_434.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.798,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Marble Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "As well as hosting the knockout rounds of the hockey tournament at Rome 1960, the Stadio dei Marmi was used by athletes to warm up for the track and field events at the adjoining Stadio Olimpico. Opened in 1936, the 9,500-capacity stadium staged the opening ceremony of the 2009 FINA World Aquatics Championships and in 2016 became the venue for the Global Champions Tour of Rome, an annual equestrian event."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470111,
+          41.841194
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Tre Fontane",
+          "Three Fountains Stadium"
+        ],
+        "place": "Roma",
+        "coordinates": "41.841194,12.470111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_435.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.652988,
+          42.139637
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Federale",
+          "Federal Centre"
+        ],
+        "place": "Passo Corese",
+        "coordinates": "42.139637,12.652988",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_436.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.481823,
+          41.94174
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Poligono Umberto I",
+          "Umberto I Rifle Range"
+        ],
+        "place": "Roma",
+        "coordinates": "41.94174,12.481823",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_437.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5385,
+          41.8522
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circolo del Golf di Roma Acquasanta",
+          "Roma Acquasanta Golf Club"
+        ],
+        "place": "Roma",
+        "coordinates": "41.8522,12.5385",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "1903",
+        "type": "outdoor venue",
+        "source_file": "venue_438.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 0.779,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Acquasanta Golf Club Course",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (running)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.230213,
+          40.811844
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Golfo di Napoli",
+        "coordinates": "40.811844,14.230213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_439.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.331338,
+          42.069135
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Scuola di Fanteria dell'Esercito Italiano",
+          "Italian Infantry Exercise School"
+        ],
+        "place": "Cesano",
+        "coordinates": "42.069135,12.331338",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_442.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488604,
+          41.930335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo di Tiro a Volo Lazio",
+          "Lazio Clay Pigeon Shooting Range"
+        ],
+        "place": "Roma",
+        "coordinates": "41.930335,12.488604",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_443.json",
+        "Olympics": "1960 Rome"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.46245,
+          41.830835
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscina delle Rose",
+          "Rose Swimming Pool"
+        ],
+        "place": "Roma",
+        "coordinates": "41.830835,12.46245",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_444.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Piscina delle Rose",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Water polo",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.488446,
+          41.891775
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Basilica di Massenzio",
+          "Basilica of Maxentius"
+        ],
+        "place": "Roma",
+        "coordinates": "41.891775,12.488446",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1960",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "notes": "Ancient Roman court house and meeting hall.",
+        "opened": "312",
+        "type": "outdoor venue",
+        "source_file": "venue_445.json",
+        "Olympics": "1960 Rome",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Basilica of Maxentius",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Wrestling",
+        "venue_information": ""
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1960",
+    "olympics_city": "Rome",
+    "olympics_season": "summer"
+  }
+}

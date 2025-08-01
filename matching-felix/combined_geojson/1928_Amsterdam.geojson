@@ -1,0 +1,587 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          },
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_247.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Buiten-IJ",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "Located north-east of the city centre, and the second body of water used for sailing competitions at the Olympic Games Amsterdam 1928, it hosted the single-handed Olympic monotype class. It also staged the 12-foot dinghy competition at the Olympic Games Antwerp 1920. The area is now part of the port of Amsterdam, the fourth busiest in Europe.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.879766,
+          52.357996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stedelijk Museum",
+          "Municipal Museum"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.357996,4.879766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_284.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854192,
+          52.343417
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion",
+          "Olympic Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.343417,4.854192",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Track",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Velodrome track around perimeter of running track.",
+        "opened": "1928",
+        "type": "outdoor venue",
+        "dimensions": "400 m (ATH) / 500 m (CYC)",
+        "surface": "Loose cinders (ATH) / Concrete (CYC)",
+        "altitude": "3 m",
+        "additional_details": "28.4° curves, 10.1° straights (CYC)",
+        "source_file": "venue_285.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Amsterdam Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Equestrian (jumping), athletics, football, gymnastics, track cycling",
+        "venue_information": "Refurbished in 2000 and now a 22,500-capacity multi-use venue, the Olympic Stadium was the venue for the 2016 European Athletics Championships and hosts concerts and other sporting events, such as the annual Amsterdam Marathon (start and finish) and Olympic Moves, the largest secondary school sports competition in the Netherlands. The venue attracts around 1.4 million visitors a year and will host the opening and closing ceremonies of the 2023 World Gymnaestrada, a non-competition event organised by the International Gymnastics Federation. Over 30 companies and organisations have their offices at the stadium, including the Johan Cruyff Foundation.\n\nBuilt for the Games, the stadium was designed to host a number of different events, including football, athletics and cycling. It was regularly used as a football venue after the Games, staging the 1962 European Cup Final between Benfica and Real Madrid and, between 1934 and 1996, European club competition ties involving AFC Ajax. When the city council drew up plans for the stadium's demolition in the late 1980s, a campaign was organised to save it and ultimately led to it being listed as a national monument."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856484988,
+          52.3430987
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Krachtsportgebouw",
+          "Power Sports Building"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.3430987,4.856484988",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "seating_capacity": "2840",
+        "type": "outdoor venue",
+        "source_file": "venue_286.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Boxing/Wrestling Pavilion",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Boxing, wrestling, weightlifting",
+        "venue_information": "This was one of two semi-permanent constructions (the other being the Fencing Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, which had a capacity of approximately 4,500 (seated and standing), was removed after the Games. The site is now occupied by a building that houses a number of different businesses."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.827777,
+          52.4197222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hembrug",
+          "Hem Bridge"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.4197222,4.827777",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_287.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854737,
+          52.347277
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion",
+          "Swimming Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.347277,4.854737",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "demolished": "1929",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_288.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Sports Park Swim Stadium",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Swimming, diving, water polo, modern pentathlon (swimming)",
+        "venue_information": "With a view to keeping costs low, the stadium was designed to be used for a few weeks only. The pool itself was made of reinforced concrete and measured 50 metres long and 18 metres wide. Stands were erected on both sides and accommodated several thousand spectators. The stadium was dismantled, as planned, immediately after the Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.188332,
+          52.215079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sportpark",
+          "Sports Park"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.215079,5.188332",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_289.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "name_match",
+        "match_confidence": 0.7829999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Municipal Sports Park, Hilversum",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Equestrian (dressage and eventing), modern pentathlon (running)",
+        "venue_information": "Built in 1919, it was used as an equestrian and modern pentathlon venue at Amsterdam 1928. The stadium's monumental grandstand has been fully refurbished twice since then – most recently in 2010 – though the trotting track and director's building have both been dismantled. The stadium is used by a local athletics club, local schools for PE lessons, and the sports retailer Nike, which has its European headquarters close by."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.216365,
+          52.190169
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Maartensdijkse Bos",
+          "Maartensdijk Forest"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.190169,5.216365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_290.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856046974,
+          52.34429474
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schermzaal",
+          "Fencing Hall"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34429474,4.856046974",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_291.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Fencing Pavilion",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Fencing, modern pentathlon (fencing)",
+        "venue_information": "This was one of two semi-permanent constructions (the other being the Boxing/Wrestling Pavilion) built next to the Olympic Stadium as part of the Olympic Stadium Complex, of which the temporary Olympic Sports Park Swim Stadium was also a part. The iron-framed pavilion, the sides of which were almost entirely glassed in, was removed after the Games. The site is now occupied by a building that houses a number of different businesses."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85994,
+          52.344618
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Amsterdamsche Stadion (also known as Oude Stadion, Harry Eltestadion)",
+          "Amsterdam Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.344618,4.85994",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Hockey"
+        ],
+        "opened": "1914",
+        "demolished": "1929",
+        "type": "outdoor venue",
+        "source_file": "venue_292.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "name_match",
+        "match_confidence": 0.855,
+        "matched_venue_name": "Old Stadium, Het Nederlandsch Sportpark",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Football, hockey",
+        "venue_information": "Built in 1912, the Old Stadium was the Netherlands' first sports stadium. Prior to the construction of the Olympic Stadium for the 1928 Games, it was also the main sports facility in the country and the capital, hosting more than 25 of the Dutch national football team's home matches. It was also the venue for Dutch domestic cup finals. Following its replacement by the Olympic Stadium, it was demolished in 1929 to make way for the Zuid-Oost housing project.",
+        "match_method": "fuzzy_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.853527,
+          52.34532
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cricketveld",
+          "Cricket Field"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34532,4.853527",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Kaatsen"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_293.json",
+        "Olympics": "1928 Amsterdam"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.964672,
+          52.372668
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietterrein",
+          "Shooting Terrain"
+        ],
+        "place": "Zeeburg, Amsterdam",
+        "coordinates": "52.372668,4.964672",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_294.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Amersfoort",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Modern pentathlon (equestrian)",
+        "venue_information": "Though the Official Report of the Olympic Games Amsterdam 1928 does not state the exact venue of the modern pentathlon equestrian event, the horses were stabled at what was known as the Riding House. Amersfoort, which is 52km south-east of Amsterdam, is now home to a number of riding schools and academies."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.400113525,
+          52.15378781
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rijschool, Willem III-kazerne",
+          "Riding School, Willem III Barracks"
+        ],
+        "place": "Amersfoort",
+        "coordinates": "52.15378781,5.400113525",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_295.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Amersfoort",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Modern pentathlon (equestrian)",
+        "venue_information": "Though the Official Report of the Olympic Games Amsterdam 1928 does not state the exact venue of the modern pentathlon equestrian event, the horses were stabled at what was known as the Riding House. Amersfoort, which is 52km south-east of Amsterdam, is now home to a number of riding schools and academies."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.789510024,
+          52.34222701
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ringvaart"
+        ],
+        "place": "Sloten",
+        "coordinates": "52.34222701,4.789510024",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_296.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sloten Canal",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Rowing",
+        "venue_information": "A straight course measuring 3,000 metres long was marked out on this waterway, situated in south-west Amsterdam. The canal was so narrow, however, that it was able to accommodate only two boats at a time, which meant more preliminary races had to be held than is usually the case. It continues to form part of the Dutch capital's extensive network of canals."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.11445846,
+          52.38691711
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Zuiderzee",
+        "coordinates": "52.38691711,5.11445846",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_297.json",
+        "Olympics": "1928 Amsterdam",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Buiten-IJ",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "Located north-east of the city centre, and the second body of water used for sailing competitions at the Olympic Games Amsterdam 1928, it hosted the single-handed Olympic monotype class. It also staged the 12-foot dinghy competition at the Olympic Games Antwerp 1920. The area is now part of the port of Amsterdam, the fourth busiest in Europe."
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1928",
+    "olympics_city": "Amsterdam",
+    "olympics_season": "summer"
+  }
+}

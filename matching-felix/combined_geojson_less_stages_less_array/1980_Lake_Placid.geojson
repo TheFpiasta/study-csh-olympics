@@ -1,0 +1,305 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.986324,
+          44.282776
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Field House US Ice Rink"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.282776,-73.986324",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_185.json",
+        "Olympics": "1980 Lake Placid",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Field House International Ice Rink",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey, figure skating, Closing Ceremony",
+        "venue_information": "A much-used ice hockey venue and the setting for the so-called \"Miracle on Ice\", the USA's dramatic 4-3 win over the USSR in the medal round of the men's competition at Lake Placid 1980. To mark the 25th anniversary of the match in 2005, the venue was renamed the 1980 Herb Brooks Arena in honour of the USA's coach that day. All 19 members of that US team, which went on to win the gold medal, reunited for the occasion and continue to come together for the Miracle on Ice Fantasy Camp. Another Olympic Center venue, the arena has been refurbished in preparation for the 2023 Winter World University Games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984079,
+          44.282582
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "James C. Sheffield Speed Skating Oval",
+          "Olympic Stadium (1932-?)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.282582,-73.984079",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Dogsled Racing",
+          "Ice Hockey",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1931",
+        "seating_capacity": "7475",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 25 m x 60 m (ICH)",
+        "altitude": "568 m",
+        "source_file": "venue_71.json",
+        "Olympics": "1980 Lake Placid",
+        "match_type": "name_match",
+        "match_confidence": 0.813,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "James B. Sheffield Olympic Skating Oval",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "Another venue that forms part of the Olympic Center, the Oval was extensively upgraded for Lake Placid 1980, with a new artificial refrigeration system installed. Though it has not hosted a major international ice-sport event since 1990, it regularly stages local, regional and national speed skating events. An outdoor facility, it is used widely by local schools, speed skating clubs and the local community for recreational skating, speed skating and ice hockey. It was also a venue for the 2019 International Children's Winter Games. As part of the Olympic Center's refurbishment, the Oval has had a new refrigeration system installed, among other upgrades designed to ensure compliance with international competition standards."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985623,
+          44.28328
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Field House International Ice Rink"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.28328,-73.985623",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_72.json",
+        "Olympics": "1980 Lake Placid",
+        "match_type": "name_match",
+        "match_confidence": 0.923,
+        "matched_venue_name": "Field House International Ice Rink",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey, figure skating, Closing Ceremony",
+        "venue_information": "A much-used ice hockey venue and the setting for the so-called \"Miracle on Ice\", the USA's dramatic 4-3 win over the USSR in the medal round of the men's competition at Lake Placid 1980. To mark the 25th anniversary of the match in 2005, the venue was renamed the 1980 Herb Brooks Arena in honour of the USA's coach that day. All 19 members of that US team, which went on to win the gold medal, reunited for the occasion and continue to come together for the Miracle on Ice Fantasy Camp. Another Olympic Center venue, the arena has been refurbished in preparation for the 2023 Winter World University Games.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964022,
+          44.256115
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Intervale Ski Jump Complex"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.256115,-73.964022",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1920",
+        "seating_capacity": "9200",
+        "type": "outdoor venue",
+        "source_file": "venue_73.json",
+        "Olympics": "1980 Lake Placid",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Interval Ski Jumps/Olympic Ski Jumps",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ski jumping, Nordic combined",
+        "venue_information": "The fourth of Lake Placid's two-time Olympic venues, the jumps used in 1932 were replaced by new ones for the resort's second Olympic Winter Games. A year-round competition and training venue, the complex boasts K-120 and K-90 ski jump towers and two training hills, and it has hosted a variety of international ski jumping events over the years, including events at the 2019 International Children's Winter Games. Its training facilities are used by the US ski team's Elite Aerial Development Program (EADP). The complex, which also comprises a Nordic ski loop and biathlon range, is being upgraded to meet the FIS' highest requirements for staging events. As part of the refurbishment, beginners' slopes and a freeride and tubing park will also be built to encourage more local residents to use the site."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921337,
+          44.220222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Van Hoevenberg Recreation Area"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.220222,-73.921337",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Bobsleigh",
+          "Cross Country Skiing",
+          "Luge",
+          "Nordic Combined"
+        ],
+        "notes": "Two parts, Cross Country Complex and Bob Run.",
+        "opened": "1930 (BOB)",
+        "seating_capacity": "12500 (BOB)",
+        "type": "outdoor venue",
+        "altitude": "628 m",
+        "source_file": "venue_74.json",
+        "Olympics": "1980 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.861535,
+          44.353744
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whiteface Mountain Ski Area"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.353744,-73.861535",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_75.json",
+        "Olympics": "1980 Lake Placid",
+        "match_type": "name_match",
+        "match_confidence": 0.8600000000000001,
+        "matched_venue_name": "Whiteface Mountain",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "Only minor upgrades were needed to prepare the slopes of Whiteface Mountain for the 1980 Winter Games. Recent improvements have been made, however, with new snowmaking systems and the recent opening of a new Legacy Lodge. The venue attracts thousands of tourists from New York state and further afield every year.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985152,
+          44.284174
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Arena",
+          "Olympic Center (?-2005), Herb Brooks Arena (2005-Present)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.284174,-73.985152",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1932",
+        "seating_capacity": "3360",
+        "type": "indoor venue",
+        "dimensions": "25 m x 60 m",
+        "source_file": "venue_77.json",
+        "Olympics": "1980 Lake Placid"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1980",
+    "olympics_city": "Lake Placid",
+    "olympics_season": "winter"
+  }
+}

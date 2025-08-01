@@ -1,0 +1,401 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.14522,
+          39.91057
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Big Air Shougang"
+        ],
+        "place": "Shijingshan District, Beijing",
+        "coordinates": "39.91057,116.14522",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "opened": "2019",
+        "type": "outdoor venue",
+        "source_file": "venue_2136.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Genting Snow Park",
+          "Genting Resort Secret Garden"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_2137.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zhangjiakou Nordic Centre and Biathlon Centre"
+        ],
+        "place": "Chongli District, Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "notes": "Precise coordinates not found. These are the coordinates for Genting Snow Park in the same district in Zhangjiakou City.",
+        "opened": "2019",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_2138.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.44034,
+          40.92136
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zhangjiakou National Ski Jumping Centre"
+        ],
+        "place": "Zhangjiakou City, Hebei Province",
+        "coordinates": "40.92136,115.44034",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Precise coordinates not found. These are the coordinates for Genting Snow Park, which is near the same district as the ski jumping venue.",
+        "opened": "2019",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_2139.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.371414,
+          40.015892
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "National Speed Skating Oval",
+          "The Ice Ribbon"
+        ],
+        "place": "Olympic Green, Beijing",
+        "coordinates": "40.015892,116.371414",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "notes": "Built on location of Olympic Green Hockey and Archery Fields, which were built for the 2008 Beijing Olympics.",
+        "opened": "2021",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "source_file": "venue_2140.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.802567,
+          40.5418
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yanqing National Alpine Skiing Centre",
+          "Xiaohaituo Alpine Skiing Field, 国家高山滑雪中心, Chinese National Alpine Skiing Centre"
+        ],
+        "place": "West Dazhuangke, Zhangshanying, Yanqing District",
+        "coordinates": "40.5418,115.802567",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "2019",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_2143.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.780856,
+          40.520536
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Yanqing National Sliding Centre"
+        ],
+        "place": "West Dazhuangke, Zhangshanying, Yanqing District",
+        "coordinates": "40.520536,115.780856",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "opened": "2020",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "source_file": "venue_2144.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.274667,
+          39.910002
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Aolinpike Lanqiuguan",
+          "Olympic Basketball Gymnasium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.910002,116.274667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Ice Hockey"
+        ],
+        "opened": "2007",
+        "seating_capacity": "18000",
+        "type": "indoor venue",
+        "source_file": "venue_814.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384167,
+          39.991667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Beijing Guojia Youyong Zhongxin, Beijing Aolinpike Gongyuan (also known as Water Cube)",
+          "Beijing National Aquatics Centre, Beijing Olympic Green"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.991667,116.384167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Curling",
+          "Diving",
+          "Swimming"
+        ],
+        "opened": "2008",
+        "seating_capacity": "17000",
+        "type": "indoor venue",
+        "source_file": "venue_824.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.384167,
+          39.994167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Guojia Tiyuguan, Beijing Aolinpike Gongyuan",
+          "National Indoor Stadium,"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.994167,116.384167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball",
+          "Ice Hockey",
+          "Trampolining"
+        ],
+        "opened": "2007",
+        "seating_capacity": "19000",
+        "type": "indoor venue",
+        "source_file": "venue_832.json",
+        "Olympics": "2022 Beijing"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.321167,
+          39.938806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Shoudu Tiyguan",
+          "Capital Indoor Stadium"
+        ],
+        "place": "Beijing",
+        "coordinates": "39.938806,116.321167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2008",
+            "season": "Summer"
+          },
+          {
+            "year": "2022",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating",
+          "Volleyball"
+        ],
+        "opened": "1968",
+        "seating_capacity": "18000",
+        "type": "indoor venue",
+        "source_file": "venue_845.json",
+        "Olympics": "2022 Beijing"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "2022",
+    "olympics_city": "Beijing",
+    "olympics_season": "winter"
+  }
+}

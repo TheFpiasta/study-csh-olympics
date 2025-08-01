@@ -1,0 +1,406 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.133246,
+          46.544397
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio del Ghiaccio",
+          "Ice Stadium"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.544397,12.133246",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1955",
+        "seating_capacity": "12042",
+        "type": "outdoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_26.json",
+        "Olympics": "1956 Cortina d Ampezzo"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.146067,
+          46.510468
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Trampolino Italia",
+          "Ski Jump Italia"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.510468,12.146067",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1955",
+        "seating_capacity": "46152",
+        "type": "outdoor venue",
+        "source_file": "venue_27.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ski Jump Italia",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Ski jumping, Nordic combined",
+        "venue_information": "Dating back to 1923, it has been disused since 1990, when its FIS certificate for international competitions expired. The most modern ski jump in the world at the time of its construction, it was the venue for the first round of the inaugural FIS Ski Jumping World Cup in 1979 and hosted four more World Cup events before its closure. Though the jump has fallen into disrepair, the run-off area is now home to a football pitch.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.130229,
+          46.518953
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio della Neve",
+          "Snow Stadium"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.518953,12.130229",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "seating_capacity": "9650",
+        "type": "outdoor venue",
+        "source_file": "venue_28.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Snow Stadium",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Cross-country skiing, Nordic combined",
+        "venue_information": "Dismantled after the Games, as planned."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.122555,
+          46.538407
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista Olimpia"
+        ],
+        "place": "Gillardon, Cortina d'Ampezzo",
+        "coordinates": "46.538407,12.122555",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9830",
+        "type": "outdoor venue",
+        "source_file": "venue_29.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Monte Faloria: Ilio Colli run",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.134485,
+          46.537957
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canalone"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.537957,12.134485",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "4920 / 6760",
+        "type": "outdoor venue",
+        "source_file": "venue_30.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Monte Faloria: Ilio Colli run",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.134485,
+          46.537957
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Col Drusciè"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.537957,12.134485",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "9080 / 12080",
+        "type": "outdoor venue",
+        "source_file": "venue_31.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Monte Faloria: Ilio Colli run",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.201771,
+          46.556713
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista Ilio Colli"
+        ],
+        "place": "Pian della Bigontina, Cortina d'Ampezzo",
+        "coordinates": "46.556713,12.201771",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7920",
+        "type": "outdoor venue",
+        "source_file": "venue_32.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Monte Faloria: Ilio Colli run",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing",
+        "venue_information": "The Ilio Colli run staged the men's and women's giant slalom at Cortina d'Ampezzo 1956. It was named after a local young skier killed in an accident there in 1953. Since renamed the Pista Vitelli, it remains very popular with recreational skiers today."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.128,
+          46.5455
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista del Bob",
+          "Bobsleigh Run"
+        ],
+        "place": "Ronco, Cortina d'Ampezzo",
+        "coordinates": "46.5455,12.128",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1923",
+        "seating_capacity": "4650",
+        "type": "outdoor venue",
+        "altitude": "1700 m",
+        "source_file": "venue_33.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Bobsleigh Run",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use",
+        "venue_use": "Bobsleigh",
+        "venue_information": "First built with snow and ice in 1906 and Italy's only bobsleigh track until the 1960s, it was renamed in honour of the legendary Italian bobsledder and two-time Olympic champion Eugenio Monti, following his death in 2003. The venue for nine bobsleigh world championships between 1937 and 1989, it was closed in 2008 due to financial difficulties and a lack of homologation for skeleton events. The track will be rebuilt by the Veneto region as part of a wider entertainment park project, and it will be used to host the sliding events at the 2026 Olympic Winter Games.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.258017,
+          46.584687
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pista di Misurina",
+          "Rink at Misurina"
+        ],
+        "place": "Misurina",
+        "coordinates": "46.584687,12.258017",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "seating_capacity": "8550",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "1756 m",
+        "source_file": "venue_34.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Lake Misurina Rink",
+        "venue_classification": "Temporary (seasonal)",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Speed skating",
+        "venue_information": "The venue for the last Olympic speed skating competition to be held on natural ice, Lake Misurina remains popular with tourists, attracted by its picturesque surroundings and the range of activities on offer there."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.136545,
+          46.534606
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Romano e Armando Apollonio",
+          "Apollonio Stadium"
+        ],
+        "place": "Cortina d'Ampezzo",
+        "coordinates": "46.534606,12.136545",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_35.json",
+        "Olympics": "1956 Cortina d Ampezzo",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Apollonio Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey",
+        "venue_information": "Now primarily used for tennis and home to Cortina d'Ampezzo's country club.",
+        "match_method": "exact_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1956",
+    "olympics_city": "Cortina d Ampezzo",
+    "olympics_season": "winter"
+  }
+}

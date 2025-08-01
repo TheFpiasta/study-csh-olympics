@@ -1,0 +1,7 @@
+2025-07-31 23:14:39,941 - WARNING - No match found: 'Stadio Olimpico' vs 'Olympic Stadium' (best score: 0.00)
+2025-07-31 23:14:39,941 - WARNING - No match found: 'Stadio Olimpico' vs 'Piazza di Siena' (best score: 0.00)
+2025-07-31 23:14:39,942 - INFO - Exact match found: 'Olympic Stadium' == 'Olympic Stadium' (method: exact_match)
+2025-07-31 23:14:39,942 - WARNING - No match found: 'Olympic Stadium' vs 'Piazza di Siena' (best score: 0.00)
+2025-07-31 23:14:39,943 - WARNING - No match found: 'Piazza di Siena, Villa Borghese' vs 'Olympic Stadium' (best score: 0.00)
+2025-07-31 23:14:39,943 - INFO - Substring match found: 'Piazza di Siena, Villa Borghese' vs 'Piazza di Siena' (score: 0.95, method: substring_match)
+2025-07-31 23:14:39,944 - INFO - Fuzzy match found: 'Piazza di Siena, Villa Borghese' vs 'Piazza di Siena' (score: 1.00, method: fuzzy_match)

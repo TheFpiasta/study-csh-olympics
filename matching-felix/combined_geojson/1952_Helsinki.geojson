@@ -1,0 +1,1147 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.931111,
+          60.172056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Taidehalli",
+          "Kunsthalle Helsinki"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.172056,24.931111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "indoor venue",
+        "source_file": "venue_2145.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.927222,
+          60.186944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Olympiastadion",
+          "Helsinki Olympic Stadium"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.186944,24.927222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Handball",
+          "Pesäpallo",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1938",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "10 m",
+        "source_file": "venue_368.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.8390000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, equestrian (jumping), Opening and Closing Ceremonies",
+        "venue_information": "The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.925556,
+          60.183333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Messuhalli I",
+          "Exhibition Hall I",
+          "Töölö kisahalli I (1975-Present)"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.183333,24.925556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Boxing",
+          "Wrestling"
+        ],
+        "opened": "1935",
+        "type": "indoor venue",
+        "source_file": "venue_369.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Exhibition Hall I, II (Messuhalli I, II)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
+        "venue_information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
+        "match_method": "fuzzy_match_inner"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.925007,
+          60.183853
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Messuhalli II",
+          "Exhibition Hall II",
+          "Töölö kisahalli II (1975-Present)"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.183853,24.925007",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "opened": "1935",
+        "type": "indoor venue",
+        "source_file": "venue_370.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.9789999999999999,
+        "matched_venue_name": "Exhibition Hall I, II (Messuhalli I, II)",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, basketball, boxing, wrestling, weightlifting",
+        "venue_information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.930278,
+          60.169722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tennispalatsi",
+          "Tennis Palace"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.169722,24.930278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1938",
+        "type": "indoor venue",
+        "source_file": "venue_371.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Tennis Palace",
+        "venue_classification": "Existing",
+        "venue_status": "In use (repurposed)",
+        "venue_use": "Basketball",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.910946,
+          60.179538
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Taivallahti",
+          "Taival Bay"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.179538,24.910946",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_372.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Taivallahti",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Canoe sprint",
+        "venue_information": "Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.969483,
+          60.216224
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Käpylä, Helsinki",
+        "coordinates": "60.216224,24.969483",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_373.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.942778,
+          60.202778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Velodromi",
+          "Helsinki Velodrome"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.202778,24.942778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Hockey"
+        ],
+        "opened": "1940",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Concrete",
+        "additional_details": "37.5° curves, 16.0° straights",
+        "source_file": "venue_374.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.7690000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track), hockey",
+        "venue_information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.930944,
+          60.188833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Uimastadion",
+          "Helsinki Swimming Stadium"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.188833,24.930944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "source_file": "venue_375.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.8460000000000001,
+        "matched_venue_name": "Swimming Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, water polo",
+        "venue_information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.911472,
+          60.198609
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ruskeasuon liikuntapuisto",
+          "Ruskeasuo Sports Park"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.198609,24.911472",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_376.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ruskeasuo/Tali/Laakso",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage",
+        "venue_information": "The three sites all lie close to each other and are still used for equestrianism."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.921198,
+          60.193031
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Laakso"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.193031,24.921198",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_377.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ruskeasuo/Tali/Laakso",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage",
+        "venue_information": "The three sites all lie close to each other and are still used for equestrianism."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.867222,
+          60.212222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tali"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.212222,24.867222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "demolished": "1970s",
+        "type": "outdoor venue",
+        "source_file": "venue_378.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ruskeasuo/Tali/Laakso",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage",
+        "venue_information": "The three sites all lie close to each other and are still used for equestrianism."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.828611,
+          60.279722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hämeenkylä"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.279722,24.828611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_379.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ruskeasuo/Tali/Laakso",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage",
+        "venue_information": "The three sites all lie close to each other and are still used for equestrianism."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.804722,
+          60.171111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Westendin tennishalli",
+          "Westend Tennis Hall"
+        ],
+        "place": "Espoo",
+        "coordinates": "60.171111,24.804722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "demolished": "1967",
+        "type": "indoor venue",
+        "source_file": "venue_380.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Westend Tennis Hall",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Fencing",
+        "venue_information": "The venue was used as a school building after the Games but was destroyed in a fire in 1967.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.924722,
+          60.185833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Töölön Pallokenttä",
+          "Töölö Football Field"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.185833,24.924722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1915",
+        "type": "outdoor venue",
+        "source_file": "venue_381.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kotka Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.939722,
+          60.4575
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kotkan Urheilukeskus",
+          "Kotka Sports Centre",
+          "Arto Tolsa Areena (?-Present)"
+        ],
+        "place": "Kotka",
+        "coordinates": "60.4575,26.939722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "source_file": "venue_382.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kotka Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.291667,
+          60.442778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kupittaan Jalkapallostadion",
+          "Kupittaa Football Stadium",
+          "Veritas Stadion (2003-Present)"
+        ],
+        "place": "Turku",
+        "coordinates": "60.442778,22.291667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "source_file": "venue_383.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kupittaa Football Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.650278,
+          60.986389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lahden Kisapuisto",
+          "Lahti Sports Park"
+        ],
+        "place": "Lahti",
+        "coordinates": "60.986389,25.650278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "source_file": "venue_384.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Kotka Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.764167,
+          61.4925
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ratinan Stadion",
+          "Ratina Stadium"
+        ],
+        "place": "Tampere",
+        "coordinates": "61.4925,23.764167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_385.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ratina Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.673236,
+          60.393759
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Porvoon Keskuskenttä",
+          "Porvoo Central Field"
+        ],
+        "place": "Porvoo",
+        "coordinates": "60.393759,25.673236",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_386.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track), hockey",
+        "venue_information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.441944,
+          60.993611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kaurialan Kenttä",
+          "Kauriala Field"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993611,24.441944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_387.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track), hockey",
+        "venue_information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.42173,
+          60.993342
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston maauimala",
+          "Ahvenisto Outdoor Swimming Pool"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993342,24.42173",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_388.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ahvenisto",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (all events)",
+        "venue_information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.419928,
+          60.99262
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston hallintorakennus",
+          "Ahvenisto Administrative Building"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.99262,24.419928",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_389.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ahvenisto",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (all events)",
+        "venue_information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.429444,
+          60.993333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston harju",
+          "Ahvenisto Ridge"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993333,24.429444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "demolished": "?",
+        "type": "outdoor venue",
+        "source_file": "venue_390.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 0.8250000000000001,
+        "matched_venue_name": "Ahvenisto",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Modern pentathlon (all events)",
+        "venue_information": "The open-air pool in the town of Hameenlinna (an hour's drive north of Helsinki) is part of the Ahvenisto Activity Park and is open from mid-May to the end of August. Now a listed building, the pool closed in 1985 due to lack of funding for renovation work. A conservation society was founded to raise money for its refurbishment, and it eventually reopened in 2014.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.878991,
+          60.188796
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Meilahti",
+          "Mei Bay"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.188796,24.878991",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_391.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Meilahti",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Rowing",
+        "venue_information": "The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.947768,
+          60.151039
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingfors Segelsällskap, Liuskasaari",
+          "Helsinki Sailing Society, Liuskasaari"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.151039,24.947768",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_392.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Around Harmaja Island (lighthouse) and Liuskasaari Island",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.974322,
+          60.104657
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Harmaja"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.104657,24.974322",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_393.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Around Harmaja Island (lighthouse) and Liuskasaari Island",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.913056,
+          60.221944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Huopalahden Suomen Metsästysyhdistyksen ampumarata",
+          "Huopalahti Range of Finnish Hunting Society"
+        ],
+        "place": "Huopalahti, Helsinki",
+        "coordinates": "60.221944,24.913056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "demolished": "1960",
+        "type": "outdoor venue",
+        "source_file": "venue_394.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Malmi Rifle Range",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.053651,
+          60.235541
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Malmin Ampumarata",
+          "Malmi Shooting Range"
+        ],
+        "place": "Malmi, Helsinki",
+        "coordinates": "60.235541,25.053651",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1937",
+        "demolished": "1993",
+        "type": "outdoor venue",
+        "source_file": "venue_395.json",
+        "Olympics": "1952 Helsinki",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Malmi Rifle Range",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Shooting",
+        "venue_information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993."
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1952",
+    "olympics_city": "Helsinki",
+    "olympics_season": "summer"
+  }
+}

@@ -1,0 +1,1242 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.983333,
+          -37.82
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Melbourne Cricket Ground"
+        ],
+        "place": "Melbourne, Victoria",
+        "coordinates": "-37.82,144.983333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1956",
+            "season": "Summer"
+          },
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Australian Rules Football",
+          "Baseball",
+          "Football",
+          "Hockey",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1854",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "17 m",
+        "source_file": "venue_396.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Melbourne Cricket Ground",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.073037,
+          -33.834472
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney International Archery Park, Olympic Park",
+          "Sydney Olympic Park Archery Centre"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.834472,151.073037",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1998",
+        "seating_capacity": "17500",
+        "type": "outdoor venue",
+        "source_file": "venue_743.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney International Archery Park",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Archery",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.063333,
+          -33.847222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Stadium, Olympic Park",
+          "Stadium Australia (1999-2002), Telstra Stadium (2002-2007), ANZ Stadium (2008-Present)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.847222,151.063333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1999",
+        "seating_capacity": "110000",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "30 m",
+        "source_file": "venue_744.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Olympic Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Athletics, football, Opening and Closing Ceremonies",
+        "venue_information": "The design project allowed for the reconfiguration of the stadium after the Games, which would see its capacity reduced from 110,000 to 83,500, and included a number of environmentally friendly features including a rainwater-collection system. Some sections of the lower seating are movable, enabling the switch from a rectangular playing area for rugby and football matches to an oval one for Australian Rules Football and cricket matches. Though the New South Wales government announced plans in 2017 for the stadium's demolition and the construction of a new stadium on the site, it later reversed its decision and went ahead with a refurbishment. Focused on the fans, an investment of more than AUD 10 million was made to enhance the event experience at the stadium through digital upgrades like the installation of one of the longest straight-run stadium video screens.\n\nMore than 27 million people have attended events at the venue since it opened in March 1999. The stadium is currently home to three rugby league teams (New South Wales Blues, Canterbury Bulldogs and South Sydney Rabbitohs), a rugby union team (New South Wales Waratahs) and the national teams for football (Socceroos) and rugby (Wallabies). It hosts more than 50 events every calendar year, making it one of the busiest stadiums in Australia."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.061944,
+          -33.844444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney SuperDome, Olympic Park",
+          "Acer Arena (2006-Present)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.844444,151.061944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Trampolining"
+        ],
+        "opened": "1999",
+        "seating_capacity": "21000",
+        "type": "indoor venue",
+        "source_file": "venue_745.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Sydney Superdome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Artistic gymnastics, trampoline gymnastics, basketball",
+        "venue_information": "Australia's largest indoor arena, the 21,000-seater multi-purpose venue has five levels and facilities that include a ballroom, conference spaces and a sports hall. The home of the Sydney Kings, who play in Australia's National Basketball League, it also stages concerts by leading international acts and has also hosted UFC fights, supercross, the Invictus Games and school shows. Renamed Qudos Bank Arena, it was announced as the fourth highest grossing arena in the world in Billboard's 2019 Arena Power List."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.068056,
+          -33.845556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Dome and Exhibition Complex, Olympic Park"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.845556,151.068056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Basketball",
+          "Handball",
+          "Modern Pentathlon",
+          "Rhythmic Gymnastics",
+          "Volleyball"
+        ],
+        "notes": "One dome and four pavillions.",
+        "opened": "1999",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_746.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.8109999999999999,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Exhibition Complex (Pavilions 2, 3, 4)",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rhythmic gymnastics, handball, badminton, volleyball, modern pentathlon (fencing, shooting)",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.20015,
+          -33.87585
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Exhibition Centre, Sydney Convention and Exhibition Centre"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.87585,151.20015",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Fencing",
+          "Judo",
+          "Wrestling"
+        ],
+        "opened": "1988",
+        "seating_capacity": "9000 (JUD/WRE), 10000 (BOX/FEN)",
+        "type": "indoor venue",
+        "source_file": "venue_748.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Sydney Convention and Exhibition Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Weightlifting, wrestling, judo, fencing, boxing",
+        "venue_information": "",
+        "match_method": "token_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.85535,
+          -33.77046
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Blacktown Baseball Stadium, Blacktown Olympic Park"
+        ],
+        "place": "Blacktown, New South Wales",
+        "coordinates": "-33.77046,150.85535",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "opened": "1998",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_750.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.95,
+        "matched_venue_name": "Blacktown Baseball Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Baseball",
+        "venue_information": "",
+        "match_method": "substring_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.067778,
+          -33.843056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Baseball Stadium, Olympic Park",
+          "Sydney Showground (?-Present)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.843056,151.067778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball",
+          "Modern Pentathlon"
+        ],
+        "opened": "1998",
+        "type": "outdoor venue",
+        "source_file": "venue_751.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.874,
+        "matched_venue_name": "Baseball Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Baseball, modern pentathlon (equestrian, running)",
+        "venue_information": "The Sydney Showground was host to the baseball competitions during the 2000 Olympic Games. Every year, it welcomes the Sydney Royal Easter Show (Australia's preeminent agricultural show), the largest event in the southern hemisphere, attracting close to 1 million people every edition.\n\nThe showground also houses the GWS Giants (Australian Rules Football team) and the Sydney Thunder Cricket Team (Cricket Australia's National Big Bash League). In addition to the Stadium, the Sydney Showground comprises over 120,000 square metres of floor space for exhibitions, conferences and music festivals.\n\nProfits from every event held at the Sydney Showground are invested back into supporting Australian agriculture and rural communities, contributing to the local agricultural prosperity.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.277726,
+          -33.89102
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bondi Beach Volleyball Centre"
+        ],
+        "place": "Bondi Beach, New South Wales",
+        "coordinates": "-33.89102,151.277726",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "notes": "Two courts",
+        "seating_capacity": "10000 (Court 1)",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_752.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.916,
+        "matched_venue_name": "Beach Volleyball Centre",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Beach volleyball",
+        "venue_information": "Located on Bondi Beach, the centre comprised two courts, with temporary seating for 10,000 people installed on the main court. The venue was dismantled after the Games.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.671219,
+          -33.724335
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney International Regatta Centre"
+        ],
+        "place": "Penrith, New South Wales",
+        "coordinates": "-33.724335,150.671219",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "1998",
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_753.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney International Regatta Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Rowing, canoe sprint",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.6835,
+          -33.7205
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Penrith Whitewater Stadium"
+        ],
+        "place": "Penrith, New South Wales",
+        "coordinates": "-33.7205,150.6835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "1998",
+        "seating_capacity": "12500",
+        "type": "outdoor venue",
+        "source_file": "venue_754.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Penrith Whitewater Stadium",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Canoe slalom",
+        "venue_information": "Completed in 1999, the centre has been used without interruption since the 2000 Olympic Games. Open from September to June, it hosts local, national and international canoe slalom competitions. Among other events, it was the venue for the 2005 ICF Canoe Slalom World Championships and the canoe slalom events at the Australian Youth Olympic Festival in 2013. It is the training base for Australia's canoe slalom team, and its grassed banks can accommodate 5,000 spectators.\n\nIt is also a popular recreational venue and offers activities such as rafting, kayaking, guided whitewater rafting sessions, water rescue training and team-building sessions. Ongoing redevelopment of the stadium will see the creation of a permanent high-performance facility, the building of a second whitewater channel, and the development of surrounding parkland to enhance community use and diversification of the centre's activities.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.223449,
+          -33.890367
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cycling Road Course, Centennial Parklands"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.890367,151.223449",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_755.json",
+        "Olympics": "2000 Sydney"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.998611,
+          -33.9075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dunc Gray Velodrome"
+        ],
+        "place": "Bass Hill, New South Wales",
+        "coordinates": "-33.907500,150.998611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "opened": "2000",
+        "seating_capacity": "3150",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "42.0° curves, 12.4° straights",
+        "source_file": "venue_756.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Dunc Gray Velodrome",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Cycling (track)",
+        "venue_information": "As with all the new venues built for the 2000 Olympic Games, the venue was constructed with the environment in mind. Skylights in the roof allow for daytime events to be staged without artificial lighting, while air vents in the building's walls allow for natural ventilation, reducing energy consumption. The venue hosted the 2007 UCI Track Cycling Masters World Championships but is mainly used for regional and national competitions. It is the main training base of the New South Wales Cycling Association and caters for cyclists of all levels, from high-performance to grassroots. Its infield area is used for hockey, basketball and football, ensuring its continued use by the local community and schools."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.858266,
+          -33.868981
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fairfield City Farm"
+        ],
+        "place": "Abbotsbury, New South Wales",
+        "coordinates": "-33.868981,150.858266",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_757.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Mountain Bike Course",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Mountain bike",
+        "venue_information": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.067154,
+          -33.850833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney International Aquatic Centre, Olympic Park"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.850833,151.067154",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1994",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_758.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney International Aquatic Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Swimming, diving, artistic swimming, water polo, modern pentathlon (swimming)",
+        "venue_information": "Completed in 1994, the venue now known as the Sydney Olympic Park Aquatic Centre has a 50m competition pool, a training pool, a utility pool with a four-level diving tower, and a leisure pool. By the time of the 2000 Olympic Games, the venue had already received six million visits and was used extensively by schools and recreational swimmers, a function it continues to perform today. Though its capacity was reduced from 17,500 to 8,500 after the Games, it remains Australia's largest swimming arena and is the venue for the country's National Swimming Championships.\n\nAside from swimming competitions, it is used for high-performance training, and grassroots activities such as swimming lessons for beginners, the largest swim school in Australia as well as water polo and diving clinics, aquarobics sessions, and seniors' days. This multi-purpose venue also stages conferences, concerts, fashion shows and private functions.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.854194,
+          -33.848713
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney International Equestrian Centre (also known as SIEC)"
+        ],
+        "place": "Horsley Park, New South Wales",
+        "coordinates": "-33.848713,150.854194",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "1999",
+        "seating_capacity": "50000",
+        "type": "outdoor venue",
+        "source_file": "venue_759.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney International Equestrian Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Eventing, dressage, jumping",
+        "venue_information": "Completed just before the 2000 Olympic Games, the centre has a main arena with a capacity of 20,000. Its other facilities include a warm-up arena, an indoor training hall, training arenas, 25 kilometres of trails, cross-country courses, administration buildings and stables.\n\nThe venue for the annual Sydney International Horse Trials, it is Australia's main equestrian training and competition centre, catering for all levels of rider, from beginners to elite. The indoor training hall hosts a variety of non-equine events, including dog trials, trade shows and weddings. Aboriginal sites and early European settlements were discovered during its construction, and efforts have been made to keep them intact for future generations.",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          153.038056,
+          -27.485833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Brisbane Cricket Ground (also known as The Gabba)"
+        ],
+        "place": "Brisbane, Queensland",
+        "coordinates": "-27.485833,153.038056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1895",
+        "seating_capacity": "37000",
+        "type": "outdoor venue",
+        "source_file": "venue_761.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Brisbane Cricket Ground",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          149.102778,
+          -35.25
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bruce Stadium",
+          "National Athletics Stadium (?-?), Canberra Stadium (?-Present)"
+        ],
+        "place": "Canberra, Australian Capital Territory",
+        "coordinates": "-35.25,149.102778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1977",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "source_file": "venue_762.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Bruce Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.568889,
+          -34.9075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hindmarsh Stadium"
+        ],
+        "place": "Adelaide, South Australia",
+        "coordinates": "-34.9075,138.568889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_763.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Hindmarsh Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.225278,
+          -33.889167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Football Stadium",
+          "Aussie Stadium (2002-07)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.889167,151.225278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1988",
+        "seating_capacity": "42000",
+        "type": "outdoor venue",
+        "source_file": "venue_764.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney Football Stadium",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Football",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.068056,
+          -33.855
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "State Hockey Centre, Olympic Park"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.855,151.068056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1998",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "source_file": "venue_766.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "State Hockey Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Hockey",
+        "venue_information": "Renamed the Sydney Olympic Park Hockey Centre the venue has a main pitch and a warm-up pitch. A new state-of-the-art playing surface was installed on the main pitch in 2018. The centre's Games-time capacity was 15,000, though this has now been reduced to 8,000. It is used by a number of hockey clubs, including NSW Pride, which has women's and men's teams competing in Hockey One, Australia's premier domestic competition. The venue has hosted a number of competitions, including an FIH Pro League event early in 2020. Its pitches and other facilities are available for hire for conferences, meetings and private functions.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.233777,
+          -33.870268
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rushcutters Bay Marina"
+        ],
+        "place": "Rose Bay, New South Wales",
+        "coordinates": "-33.870268,151.233777",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "seating_capacity": "10000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_768.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.8670000000000001,
+        "matched_venue_name": "Rushcutters Bay",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Sailing",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.818611,
+          -33.888889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney International Shooting Centre"
+        ],
+        "place": "Cecil Park, New South Wales",
+        "coordinates": "-33.888889,150.818611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1997",
+        "seating_capacity": "7000",
+        "type": "outdoor venue",
+        "source_file": "venue_769.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney International Shooting Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Shooting",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          150.854267,
+          -33.772651
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Softball Centre, Blacktown Olympic Centre"
+        ],
+        "place": "Blacktown, New South Wales",
+        "coordinates": "-33.772651,150.854267",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Softball"
+        ],
+        "opened": "1998",
+        "type": "outdoor venue",
+        "source_file": "venue_770.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Softball Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Softball",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.072222,
+          -33.855
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "New South Wales Tennis Centre, Olympic Park (also known as NSW Tennis Centre)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.855,151.072222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1999",
+        "seating_capacity": "10000 (centre court)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "source_file": "venue_771.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "New South Wales Tennis Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Tennis",
+        "venue_information": "Known as the Sydney Olympic Park Tennis Centre, it is home to 16 courts (10 match courts and six practice courts). The venue is used all year round for competitions and training and hosts two warm-up tournaments for the Australian Open. With a AUD 50.5 million investment, a roof was added to the main arena as part of refurbishments carried out in 2020. The main court seats 10,000 people and is named after Ken Rosewall, one of Australia's tennis heroes. It is host to Tennis Australia's ATP Cup event and the Suncorp Super Netball Competition and houses the NSW Swifts and the Giants Netball teams. The centre offers tennis lessons and coaching for the general public and is the home of Tennis NSW, the state's governing body.",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.069436,
+          -33.853384
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "State Sports Centre, Olympic Park"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.853384,151.069436",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Table Tennis",
+          "Taekwondo"
+        ],
+        "opened": "1984",
+        "seating_capacity": "5006",
+        "type": "indoor venue",
+        "source_file": "venue_772.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "State Sports Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Table tennis, taekwondo",
+        "venue_information": "",
+        "match_method": "fuzzy_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.215281,
+          -33.858222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Opera House"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.858222,151.215281",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Triathlon"
+        ],
+        "notes": "Finish of the triathlon was outside of the building.",
+        "opened": "1973",
+        "type": "outdoor venue",
+        "source_file": "venue_773.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney Opera House",
+        "venue_classification": "Temporary",
+        "venue_status": "Dismantled (temporary)",
+        "venue_use": "Triathlon",
+        "venue_information": "Sydney Harbour provided the backdrop for the race. The 1,500-metre swim took place in Farm Cove, the transition area was set up at the foot of Sydney Opera House, and the 40-kilometre bike leg and 10-kilometre run took in streets overlooking Circular Quay. Though the temporary facilities were dismantled after the Games, parts of the course have been used for subsequent triathlons staged in Sydney.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.202778,
+          -33.878333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Entertainment Centre (also known as SEC)"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.878333,151.202778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1983",
+        "seating_capacity": "11000",
+        "type": "indoor venue",
+        "source_file": "venue_774.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Sydney Entertainment Centre",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use (demolished)",
+        "venue_use": "Volleyball",
+        "venue_information": "The venue was opened in 1983 and demolished in 2016. A much-used concert and theatre venue, it averaged audiences of a million people a year. As a sporting venue, its main function was to host National Basketball League team the Sydney Kings, who played there in three separate spells prior to its closure. A venue at the 2007 and 2011 FIBA Oceania Championship, the centre was also used for boxing, wrestling, tennis and netball. The site is now occupied by a residential development, part of the redevelopment of Sydney's Darling Harbour, and new conference, convention and exhibition facilities have been built in the precinct.",
+        "match_method": "exact_match_outer"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.119239,
+          -33.821533
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ryde Aquatic Leisure Centre"
+        ],
+        "place": "Ryde, New South Wales",
+        "coordinates": "-33.821533,151.119239",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "2000",
+        "type": "indoor venue",
+        "source_file": "venue_776.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Ryde Aquatic Leisure Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Water polo",
+        "venue_information": "",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.199181,
+          -33.873391
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sydney Convention Centre, Sydney Convention and Exhibition Centre"
+        ],
+        "place": "Sydney, New South Wales",
+        "coordinates": "-33.873391,151.199181",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2000",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1988",
+        "seating_capacity": "7500",
+        "type": "indoor venue",
+        "source_file": "venue_777.json",
+        "Olympics": "2000 Sydney",
+        "match_type": "name_match",
+        "match_confidence": 0.85,
+        "matched_venue_name": "Sydney Convention and Exhibition Centre",
+        "venue_classification": "Existing",
+        "venue_status": "In use (rebuilt)",
+        "venue_use": "Weightlifting, wrestling, judo, fencing, boxing",
+        "venue_information": "",
+        "match_method": "token_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "2000",
+    "olympics_city": "Sydney",
+    "olympics_season": "summer"
+  }
+}

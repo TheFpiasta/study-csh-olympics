@@ -1,0 +1,174 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984079,
+          44.282582
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "James C. Sheffield Speed Skating Oval",
+          "Olympic Stadium (1932-?)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.282582,-73.984079",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Dogsled Racing",
+          "Ice Hockey",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1931",
+        "seating_capacity": "7475",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 25 m x 60 m (ICH)",
+        "altitude": "568 m",
+        "source_file": "venue_71.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964022,
+          44.256115
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Intervale Ski Jump Complex"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.256115,-73.964022",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1920",
+        "seating_capacity": "9200",
+        "type": "outdoor venue",
+        "source_file": "venue_73.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921337,
+          44.220222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Van Hoevenberg Recreation Area"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.220222,-73.921337",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Bobsleigh",
+          "Cross Country Skiing",
+          "Luge",
+          "Nordic Combined"
+        ],
+        "notes": "Two parts, Cross Country Complex and Bob Run.",
+        "opened": "1930 (BOB)",
+        "seating_capacity": "12500 (BOB)",
+        "type": "outdoor venue",
+        "altitude": "628 m",
+        "source_file": "venue_74.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985152,
+          44.284174
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Arena",
+          "Olympic Center (?-2005), Herb Brooks Arena (2005-Present)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.284174,-73.985152",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1932",
+        "seating_capacity": "3360",
+        "type": "indoor venue",
+        "dimensions": "25 m x 60 m",
+        "source_file": "venue_77.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1932",
+    "olympics_city": "Lake Placid",
+    "olympics_season": "winter"
+  }
+}

@@ -1,0 +1,347 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.135556,
+          51.076944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Oval"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.076944,-114.135556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1987",
+        "seating_capacity": "4452",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "1045 m",
+        "source_file": "venue_14.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Oval",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Speed skating",
+        "venue_information": "More than 20,000 people use the Calgary Olympic Oval every year for skating, while over 1,000 athletes from 22 countries trained there in the 2018-19 season. The Oval staged an event on the 2019/20 ISU Speed Skating World Cup circuit, and has hosted both the World Allround Championships and World Sprint Championships five times, most recently in 2019 and 2017 respectively. It is used by the university's sports teams and the Calgary X-Tremes, the city's women's ice hockey team. The Oval is also Speed Skating Canada's official training centre and the home of the country's Elite Athlete Pathway, a blueprint for the development of young speed skaters. For the two months of the year when it is not staging ice events, the Oval is a multi-purpose venue that plays host to car shows, science fairs, the Canadian judo and taekwondo championships, and volleyball, gymnastics, floor hockey, running and billiards events.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.051944,
+          51.0375
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Saddledome",
+          "Canadian Airlines Saddledome (1995-2000), Pengrowth Saddledome (2000-2010), Scotiabank Saddledome (2010-Present)"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.0375,-114.051944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1983",
+        "seating_capacity": "16605",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_15.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Olympic Saddledome",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey, figure skating",
+        "venue_information": "Calgary's main indoor arena, the Saddledome is the home stadium of the Calgary Flames, which plays in the NHL; the Calgary Hitmen, a junior ice hockey team; and professional lacrosse team the Calgary Roughnecks. It also stages concerts, shows and events. Damaged by serious flooding in 2013, the stadium was quickly repaired. The Saddledome owes its name to the fact that its roof is the shape of a horse's saddle.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.215833,
+          51.079722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canada Olympic Park"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.079722,-114.215833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Bobsleigh",
+          "Freestyle Skiing",
+          "Luge",
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Three parts, Ski Jumps, Bobsleigh/Luge Track, Recreational Ski Hill.",
+        "opened": "1986",
+        "seating_capacity": "26380 (BOB) / 50000 (SKJ) / 15000 m (ASK/FRS)",
+        "type": "outdoor venue",
+        "altitude": "1123 m",
+        "source_file": "venue_16.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 0.8530000000000001,
+        "match_method": "fuzzy_match",
+        "matched_venue_name": "Canada Olympic Park - Ski Jumps",
+        "venue_classification": "New build",
+        "venue_status": "Not in use, partly dismantled",
+        "venue_use": "Nordic combined, ski jumping, freestyle skiing",
+        "venue_information": "The park's ski jumps were used by a local ski club and were the main training hub for Canada's ski jumpers for 30 years. In 2019, the three higher jumps were closed due to high operational and maintenance costs. The 90-metre ski jump tower is still standing and is now the start point for North America's fastest zipline, used by over 2,500 people in 2019. The remaining jumps will be dismantled and the area repurposed for other sports."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.389722,
+          51.098056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canmore Nordic Centre"
+        ],
+        "place": "Canmore",
+        "coordinates": "51.098056,-115.389722",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "1986",
+        "type": "outdoor venue",
+        "altitude": "1417 m",
+        "source_file": "venue_17.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "match_method": "exact_match",
+        "matched_venue_name": "Canmore Nordic Centre",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Biathlon, Nordic combined, cross-country skiing",
+        "venue_information": "This year-round training facility has a paved rollerski loop for summer wheeled skating, biathlon competition trails, and a shooting range with 31 lanes. The Centre is used by both elite and recreational biathletes, and regularly hosts IBU Biathlon World Cup events."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.003611,
+          51.042222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Max Bell Arena"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.042222,-114.003611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "3231",
+        "type": "indoor venue",
+        "dimensions": "25.9 m x 60.9 m",
+        "source_file": "venue_18.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Max Bell Arena",
+        "venue_classification": "Existing",
+        "venue_status": "In use",
+        "venue_use": "Curling, short track speed skating",
+        "venue_information": "The home of Hockey Calgary, two junior league teams and Calgary Fire Elite's female hockey teams, the venue has two ice rinks: the Ken Bracko Arena and the Max Bell #2.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.150833,
+          50.943056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Nakiska",
+        "coordinates": "50.943056,-115.150833",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1986",
+        "type": "outdoor venue",
+        "altitude": "1538 m / 1875 m",
+        "source_file": "venue_20.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "sports_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Nakiska Ski Area",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Alpine skiing, freestyle skiing",
+        "venue_information": "Now a busy mountain resort and the closest one to Calgary, its facilities include more than 25 slopes, six lifts, restaurants, hotels, shops and a snow sports school."
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.055,
+          51.0375
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stampede Corral"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.0375,-114.055",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1950",
+        "seating_capacity": "6479",
+        "type": "indoor venue",
+        "dimensions": "25.9 m x 60.9 m",
+        "source_file": "venue_21.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Stampede Corral",
+        "venue_classification": "Existing",
+        "venue_status": "Not in use, currently under reconstruction",
+        "venue_use": "Ice hockey, figure skating",
+        "venue_information": "Another of Calgary's ice hockey arenas and a frequent venue for Canada's Davis Cup team, the Corral also hosted rodeos, figure skating, circuses, royal visits, religious events, wrestling nights and trade shows during its 70-year existence. Major acts such as Fleetwood Mac, Snoop Dogg and Rihanna also played the venue, which was demolished in late 2020 to make way for new facilities for sport, culture and business.",
+        "match_method": "exact_match"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.126389,
+          51.073889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Father David Bauer Olympic Arena"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.073889,-114.126389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "seating_capacity": "2000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "source_file": "venue_22.json",
+        "Olympics": "1988 Calgary",
+        "match_type": "name_match",
+        "match_confidence": 1.0,
+        "matched_venue_name": "Father David Bauer Olympic Arena",
+        "venue_classification": "New build",
+        "venue_status": "In use",
+        "venue_use": "Ice hockey, figure skating",
+        "venue_information": "Located in the same complex as McMahon Stadium, the arena is the home of the Calgary Dinos university ice hockey team, and was just one of several of the city's sports facilities to be upgraded as part of the Olympic Capital Improvement Programme.",
+        "match_method": "exact_match"
+      }
+    }
+  ],
+  "properties": {
+    "olympics_year": "1988",
+    "olympics_city": "Calgary",
+    "olympics_season": "winter"
+  }
+}

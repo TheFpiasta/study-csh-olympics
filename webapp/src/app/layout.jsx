@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/contexts/ThemeContext";
+// import { ThemeProvider } from "@/contexts/ThemeContext";
+import { ThemeProvider } from "@/components/ThemeProvider"; // Der NEUE Provider
 import ThemeToggle from "@/components/ThemeToggle";
 import Navigation from "@/components/Navigation";
 
@@ -28,12 +29,17 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geist.variable} ${geistMono.variable}`}>
-      <body className="antialiased bg-white dark:bg-slate-900 text-gray-900 dark:text-gray-100 min-h-screen">
+    <html lang="en" className={`${geist.variable} ${geistMono.variable}`} suppressHydrationWarning>
+      
+      {/* Der Body ist jetzt "sauber" von Farbklassen */}
+      <body className="antialiased min-h-screen"> 
         <ThemeProvider>
-          <ThemeToggle />
-          {/* <Navigation /> */}
-          {children}
+          {/* Dieses Div ist der neue thematisierte Container */}
+          <div className="bg-white dark:bg-slate-900 text-gray-900 dark:text-gray-100">
+            <ThemeToggle />
+            {/* <Navigation /> */}
+            {children}
+          </div>
         </ThemeProvider>
       </body>
     </html>

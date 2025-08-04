@@ -1,13 +1,24 @@
 'use client';
-
-import { useTheme } from '@/contexts/ThemeContext';
+import { useTheme } from 'next-themes';
+import { useEffect, useState } from 'react';
 
 const ThemeToggle = () => {
-  const { isDark, toggleTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+  const { theme, setTheme } = useTheme();
+
+  // Verhindert Hydration Mismatch für das Icon
+  useEffect(() => setMounted(true), []);
+
+  if (!mounted) {
+    // Rendern Sie einen Platzhalter oder nichts auf dem Server
+    return <div className="fixed top-4 right-4 z-50 w-12 h-12 rounded-full glass border border-white/20" />;
+  }
+
+  const isDark = theme === 'dark';
 
   return (
     <button
-      onClick={toggleTheme}
+      onClick={() => setTheme(isDark ? 'light' : 'dark')}
       className="fixed top-4 right-4 z-50 p-3 rounded-full glass border border-white/20 text-gray-800 dark:text-white hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl no-print"
       aria-label={`Switch to ${isDark ? 'light' : 'dark'} mode`}
       title={`Switch to ${isDark ? 'light' : 'dark'} mode`}

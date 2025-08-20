@@ -31,11 +31,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${geist.variable} ${geistMono.variable}`} suppressHydrationWarning>
       
-      {/* Der Body ist jetzt "sauber" von Farbklassen */}
-      <body className="antialiased min-h-screen"> 
+      <body className="min-h-screen antialiased">
         <ThemeProvider>
-          {/* Dieses Div ist der neue thematisierte Container */}
-          <div className="bg-white dark:bg-slate-900 text-gray-900 dark:text-gray-100">
+          <div className="text-gray-900 bg-white dark:bg-slate-900 dark:text-gray-100">
             <ThemeToggle />
             {/* <Navigation /> */}
             {children}

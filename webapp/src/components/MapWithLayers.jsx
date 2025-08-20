@@ -5,39 +5,107 @@ import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, 
 
 const MapWithLayers = () => {
   const mapRef = useRef(null);
-  const [viewState, setViewState] = useState({
-    longitude: 4.9,
-    latitude: 52.37,
-    zoom: 11
-  });
+  
+  // Load initial state from sessionStorage with fallbacks
+  const getInitialViewState = () => {
+    if (typeof window !== 'undefined') {
+      const saved = sessionStorage.getItem('olympics-map-viewstate');
+      if (saved) {
+        try {
+          return JSON.parse(saved);
+        } catch (e) {
+          console.warn('Failed to parse saved view state:', e);
+        }
+      }
+    }
+    return {
+      longitude: -0.1276,
+      latitude: 51.5074,
+      zoom: 11
+    };
+  };
 
+  const getInitialMapStyle = () => {
+    if (typeof window !== 'undefined') {
+      const saved = sessionStorage.getItem('olympics-map-style');
+      if (saved) return saved;
+    }
+    return 'openstreetmap';
+  };
+
+  const getInitialOlympics = () => {
+    if (typeof window !== 'undefined') {
+      const saved = sessionStorage.getItem('olympics-selected-game');
+      if (saved) return saved;
+    }
+    return '2012_London';
+  };
+
+  const [viewState, setViewState] = useState(getInitialViewState());
   const [geojsonData, setGeojsonData] = useState(null);
   const [selectedVenue, setSelectedVenue] = useState(null);
-  const [selectedMapStyle, setSelectedMapStyle] = useState('openstreetmap');
-  const [selectedOlympics, setSelectedOlympics] = useState('1928_Amsterdam');
+  const [selectedMapStyle, setSelectedMapStyle] = useState(getInitialMapStyle());
+  const [selectedOlympics, setSelectedOlympics] = useState(getInitialOlympics());
   const [loading, setLoading] = useState(false);
   const [showLayerPanel, setShowLayerPanel] = useState(false);
   const [showOlympicsPanel, setShowOlympicsPanel] = useState(false);
+  const [showLegendPanel, setShowLegendPanel] = useState(false);
   const [expandedDescription, setExpandedDescription] = useState(false);
+  const [expandedStatusBreakdown, setExpandedStatusBreakdown] = useState(false);
 
-  // Available Olympic Games
+  // Available Olympic Games - based on actual files in geojson_scraper/combined_geojson
   const availableOlympics = [
-    { 
-      id: '1924_Paris', 
-      name: '1924 Paris Olympics', 
-      year: '1924',
-      city: 'Paris',
-      center: [2.35, 48.85], // Paris coordinates
-      zoom: 11
-    },
-    { 
-      id: '1928_Amsterdam', 
-      name: '1928 Amsterdam Olympics', 
-      year: '1928', 
-      city: 'Amsterdam',
-      center: [4.9, 52.37], // Amsterdam coordinates
-      zoom: 11
-    }
+    { id: '1896_Athens', name: '1896 Athens Olympics', year: '1896', city: 'Athens', season: 'Summer', center: [23.7275, 37.9838], zoom: 11 },
+    { id: '1900_Paris', name: '1900 Paris Olympics', year: '1900', city: 'Paris', season: 'Summer', center: [2.3522, 48.8566], zoom: 11 },
+    { id: '1904_St._Louis', name: '1904 St. Louis Olympics', year: '1904', city: 'St. Louis', season: 'Summer', center: [-90.1994, 38.6270], zoom: 11 },
+    { id: '1908_London', name: '1908 London Olympics', year: '1908', city: 'London', season: 'Summer', center: [-0.1276, 51.5074], zoom: 11 },
+    { id: '1912_Stockholm', name: '1912 Stockholm Olympics', year: '1912', city: 'Stockholm', season: 'Summer', center: [18.0686, 59.3293], zoom: 11 },
+    { id: '1920_Antwerp', name: '1920 Antwerp Olympics', year: '1920', city: 'Antwerp', season: 'Summer', center: [4.4025, 51.2194], zoom: 11 },
+    { id: '1924_Chamonix', name: '1924 Chamonix Olympics', year: '1924', city: 'Chamonix', season: 'Winter', center: [6.8694, 45.9237], zoom: 11 },
+    { id: '1924_Paris', name: '1924 Paris Olympics', year: '1924', city: 'Paris', season: 'Summer', center: [2.3522, 48.8566], zoom: 11 },
+    { id: '1928_Amsterdam', name: '1928 Amsterdam Olympics', year: '1928', city: 'Amsterdam', season: 'Summer', center: [4.9041, 52.3676], zoom: 11 },
+    { id: '1928_St._Moritz', name: '1928 St. Moritz Olympics', year: '1928', city: 'St. Moritz', season: 'Winter', center: [9.8355, 46.4908], zoom: 11 },
+    { id: '1932_Lake_Placid', name: '1932 Lake Placid Olympics', year: '1932', city: 'Lake Placid', season: 'Winter', center: [-73.9826, 44.2795], zoom: 11 },
+    { id: '1932_Los_Angeles', name: '1932 Los Angeles Olympics', year: '1932', city: 'Los Angeles', season: 'Summer', center: [-118.2437, 34.0522], zoom: 11 },
+    { id: '1936_Berlin', name: '1936 Berlin Olympics', year: '1936', city: 'Berlin', season: 'Summer', center: [13.4050, 52.5200], zoom: 11 },
+    { id: '1936_Garmisch_Partenkirchen', name: '1936 Garmisch-Partenkirchen Olympics', year: '1936', city: 'Garmisch-Partenkirchen', season: 'Winter', center: [11.0958, 47.4916], zoom: 11 },
+    { id: '1948_London', name: '1948 London Olympics', year: '1948', city: 'London', season: 'Summer', center: [-0.1276, 51.5074], zoom: 11 },
+    { id: '1948_St._Moritz', name: '1948 St. Moritz Olympics', year: '1948', city: 'St. Moritz', season: 'Winter', center: [9.8355, 46.4908], zoom: 11 },
+    { id: '1952_Helsinki', name: '1952 Helsinki Olympics', year: '1952', city: 'Helsinki', season: 'Summer', center: [24.9384, 60.1699], zoom: 11 },
+    { id: '1952_Oslo', name: '1952 Oslo Olympics', year: '1952', city: 'Oslo', season: 'Winter', center: [10.7522, 59.9139], zoom: 11 },
+    { id: '1956_Cortina_d_Ampezzo', name: '1956 Cortina d\'Ampezzo Olympics', year: '1956', city: 'Cortina d\'Ampezzo', season: 'Winter', center: [12.1357, 46.5369], zoom: 11 },
+    { id: '1956_Melbourne', name: '1956 Melbourne Olympics', year: '1956', city: 'Melbourne', season: 'Summer', center: [144.9631, -37.8136], zoom: 11 },
+    { id: '1960_Rome', name: '1960 Rome Olympics', year: '1960', city: 'Rome', season: 'Summer', center: [12.4964, 41.9028], zoom: 11 },
+    { id: '1960_Squaw_Valley', name: '1960 Squaw Valley Olympics', year: '1960', city: 'Squaw Valley', season: 'Winter', center: [-120.2355, 39.1970], zoom: 11 },
+    { id: '1964_Innsbruck', name: '1964 Innsbruck Olympics', year: '1964', city: 'Innsbruck', season: 'Winter', center: [11.4041, 47.2692], zoom: 11 },
+    { id: '1964_Tokyo', name: '1964 Tokyo Olympics', year: '1964', city: 'Tokyo', season: 'Summer', center: [139.6503, 35.6762], zoom: 11 },
+    { id: '1968_Grenoble', name: '1968 Grenoble Olympics', year: '1968', city: 'Grenoble', season: 'Winter', center: [5.7243, 45.1885], zoom: 11 },
+    { id: '1968_Mexico_City', name: '1968 Mexico City Olympics', year: '1968', city: 'Mexico City', season: 'Summer', center: [-99.1332, 19.4326], zoom: 11 },
+    { id: '1972_Munich', name: '1972 Munich Olympics', year: '1972', city: 'Munich', season: 'Summer', center: [11.5820, 48.1351], zoom: 11 },
+    { id: '1972_Sapporo', name: '1972 Sapporo Olympics', year: '1972', city: 'Sapporo', season: 'Winter', center: [141.3545, 43.0642], zoom: 11 },
+    { id: '1976_Innsbruck', name: '1976 Innsbruck Olympics', year: '1976', city: 'Innsbruck', season: 'Winter', center: [11.4041, 47.2692], zoom: 11 },
+    { id: '1976_Montreal', name: '1976 Montreal Olympics', year: '1976', city: 'Montreal', season: 'Summer', center: [-73.5673, 45.5017], zoom: 11 },
+    { id: '1980_Lake_Placid', name: '1980 Lake Placid Olympics', year: '1980', city: 'Lake Placid', season: 'Winter', center: [-73.9826, 44.2795], zoom: 11 },
+    { id: '1980_Moscow', name: '1980 Moscow Olympics', year: '1980', city: 'Moscow', season: 'Summer', center: [37.6173, 55.7558], zoom: 11 },
+    { id: '1984_Los_Angeles', name: '1984 Los Angeles Olympics', year: '1984', city: 'Los Angeles', season: 'Summer', center: [-118.2437, 34.0522], zoom: 11 },
+    { id: '1984_Sarajevo', name: '1984 Sarajevo Olympics', year: '1984', city: 'Sarajevo', season: 'Winter', center: [18.4131, 43.8486], zoom: 11 },
+    { id: '1988_Calgary', name: '1988 Calgary Olympics', year: '1988', city: 'Calgary', season: 'Winter', center: [-114.0719, 51.0447], zoom: 11 },
+    { id: '1988_Seoul', name: '1988 Seoul Olympics', year: '1988', city: 'Seoul', season: 'Summer', center: [126.9780, 37.5665], zoom: 11 },
+    { id: '1992_Albertville', name: '1992 Albertville Olympics', year: '1992', city: 'Albertville', season: 'Winter', center: [6.3917, 45.6758], zoom: 11 },
+    { id: '1992_Barcelona', name: '1992 Barcelona Olympics', year: '1992', city: 'Barcelona', season: 'Summer', center: [2.1734, 41.3851], zoom: 11 },
+    { id: '1994_Lillehammer', name: '1994 Lillehammer Olympics', year: '1994', city: 'Lillehammer', season: 'Winter', center: [10.4662, 61.1153], zoom: 11 },
+    { id: '1996_Atlanta', name: '1996 Atlanta Olympics', year: '1996', city: 'Atlanta', season: 'Summer', center: [-84.3880, 33.7490], zoom: 11 },
+    { id: '1998_Nagano', name: '1998 Nagano Olympics', year: '1998', city: 'Nagano', season: 'Winter', center: [138.1811, 36.6513], zoom: 11 },
+    { id: '2000_Sydney', name: '2000 Sydney Olympics', year: '2000', city: 'Sydney', season: 'Summer', center: [151.2093, -33.8688], zoom: 11 },
+    { id: '2002_Salt_Lake_City', name: '2002 Salt Lake City Olympics', year: '2002', city: 'Salt Lake City', season: 'Winter', center: [-111.8910, 40.7608], zoom: 11 },
+    { id: '2004_Athens', name: '2004 Athens Olympics', year: '2004', city: 'Athens', season: 'Summer', center: [23.7275, 37.9838], zoom: 11 },
+    { id: '2006_Turin', name: '2006 Turin Olympics', year: '2006', city: 'Turin', season: 'Winter', center: [7.6869, 45.0703], zoom: 11 },
+    { id: '2008_Beijing', name: '2008 Beijing Olympics', year: '2008', city: 'Beijing', season: 'Summer', center: [116.4074, 39.9042], zoom: 11 },
+    { id: '2010_Vancouver', name: '2010 Vancouver Olympics', year: '2010', city: 'Vancouver', season: 'Winter', center: [-123.1207, 49.2827], zoom: 11 },
+    { id: '2012_London', name: '2012 London Olympics', year: '2012', city: 'London', season: 'Summer', center: [-0.1276, 51.5074], zoom: 11 },
+    { id: '2014_Sochi', name: '2014 Sochi Olympics', year: '2014', city: 'Sochi', season: 'Winter', center: [39.7257, 43.6028], zoom: 11 },
+    { id: '2016_Rio', name: '2016 Rio Olympics', year: '2016', city: 'Rio de Janeiro', season: 'Summer', center: [-43.1729, -22.9068], zoom: 11 },
+    { id: '2018_Pyeongchang', name: '2018 Pyeongchang Olympics', year: '2018', city: 'Pyeongchang', season: 'Winter', center: [128.6956, 37.3706], zoom: 11 }
   ];
 
   // Available map styles with free tile sources
@@ -89,6 +157,35 @@ const MapWithLayers = () => {
     loadOlympicsData(selectedOlympics);
   }, [selectedOlympics]);
 
+  // Save view state to sessionStorage whenever it changes
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-map-viewstate', JSON.stringify(viewState));
+    }
+  }, [viewState]);
+
+  // Save selected map style to sessionStorage whenever it changes
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-map-style', selectedMapStyle);
+    }
+  }, [selectedMapStyle]);
+
+  // Save selected Olympics to sessionStorage whenever it changes
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-selected-game', selectedOlympics);
+    }
+  }, [selectedOlympics]);
+
+  // Optional: Clear session storage on component unmount (though sessionStorage clears on tab close anyway)
+  useEffect(() => {
+    return () => {
+      // Cleanup function - runs when component unmounts
+      // Note: sessionStorage automatically clears when tab is closed
+    };
+  }, []);
+
   // Click outside to close panels
   useEffect(() => {
     const handleClickOutside = (event) => {
@@ -97,6 +194,8 @@ const MapWithLayers = () => {
       const layerPanel = event.target.closest('[data-panel="layer-panel"]');
       const olympicsButton = event.target.closest('[data-panel="olympics-button"]');
       const olympicsPanel = event.target.closest('[data-panel="olympics-panel"]');
+      const legendButton = event.target.closest('[data-panel="legend-button"]');
+      const legendPanel = event.target.closest('[data-panel="legend-panel"]');
       
       // Close layer panel if click is outside both button and panel
       if (showLayerPanel && !layerButton && !layerPanel) {
@@ -107,6 +206,11 @@ const MapWithLayers = () => {
       if (showOlympicsPanel && !olympicsButton && !olympicsPanel) {
         setShowOlympicsPanel(false);
       }
+      
+      // Close legend panel if click is outside both button and panel
+      if (showLegendPanel && !legendButton && !legendPanel) {
+        setShowLegendPanel(false);
+      }
     };
 
     // Add event listener to document
@@ -116,13 +220,17 @@ const MapWithLayers = () => {
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [showLayerPanel, showOlympicsPanel]);
+  }, [showLayerPanel, showOlympicsPanel, showLegendPanel]);
 
   const loadOlympicsData = async (olympicsId) => {
     setLoading(true);
     setSelectedVenue(null); // Clear any open popup
     try {
-      const response = await fetch(`/data/${olympicsId}.geojson`);
+      // Load from the API endpoint that serves the real geojson files
+      const response = await fetch(`/api/olympics/${olympicsId}`);
+      if (!response.ok) {
+        throw new Error(`Failed to load data: ${response.status}`);
+      }
       const data = await response.json();
       
       // First update the data
@@ -188,13 +296,127 @@ const MapWithLayers = () => {
     return style ? style.url : mapStyles[0].url;
   };
 
-  // Layer styles for the GeoJSON data
+  // Status color mapping
+  const getStatusColor = (status) => {
+    if (!status) return '#94a3b8'; // neutral gray for no status
+    
+    if (status.includes('In use')) {
+      if (status.includes('rebuilt')) return '#10b981'; // emerald for rebuilt
+      if (status.includes('repurposed')) return '#06b6d4'; // cyan for repurposed
+      if (status.includes('seasonal')) return '#3b82f6'; // blue for seasonal
+      if (status.includes('limited')) return '#8b5cf6'; // violet for limited
+      return '#22c55e'; // green for in use
+    }
+    
+    if (status.includes('Not in use')) {
+      if (status.includes('demolished')) return '#dc2626'; // red for demolished
+      if (status.includes('reconstruction')) return '#f59e0b'; // amber for under reconstruction
+      if (status.includes('partly dismantled')) return '#ea580c'; // orange for partly dismantled
+      return '#ef4444'; // red for not in use
+    }
+    
+    if (status.includes('Dismantled')) {
+      if (status.includes('temporary')) return '#991b1b'; // dark red for dismantled temporary
+      if (status.includes('seasonal')) return '#7c2d12'; // dark orange for dismantled seasonal
+      return '#7f1d1d'; // very dark red for dismantled
+    }
+    
+    return '#94a3b8'; // default neutral gray
+  };
+
+  // Status legend data
+  const statusLegend = [
+    { label: 'In use', color: '#22c55e', description: 'Currently operational' },
+    { label: 'In use (rebuilt)', color: '#10b981', description: 'Rebuilt and operational' },
+    { label: 'In use (repurposed)', color: '#06b6d4', description: 'Repurposed for other use' },
+    { label: 'In use (seasonal)', color: '#3b82f6', description: 'Seasonal operation' },
+    { label: 'In use (limited)', color: '#8b5cf6', description: 'Limited operation' },
+    { label: 'Not in use', color: '#ef4444', description: 'No longer operational' },
+    { label: 'Not in use (demolished)', color: '#dc2626', description: 'Demolished' },
+    { label: 'Dismantled (temporary)', color: '#991b1b', description: 'Temporary venue removed' },
+    { label: 'Dismantled (seasonal)', color: '#7c2d12', description: 'Seasonal venue removed' },
+    { label: 'No status data', color: '#94a3b8', description: 'Status unknown' }
+  ];
+
+  // Calculate status breakdown for current venues
+  const getStatusBreakdown = () => {
+    if (!geojsonData || !geojsonData.features) return [];
+    
+    const statusCounts = {};
+    
+    geojsonData.features.forEach(feature => {
+      const status = feature.properties.status || 'No status data';
+      statusCounts[status] = (statusCounts[status] || 0) + 1;
+    });
+    
+    // Sort by count (descending) and map to include colors
+    return Object.entries(statusCounts)
+      .map(([status, count]) => {
+        const legendItem = statusLegend.find(item => item.label === status);
+        return {
+          status,
+          count,
+          color: legendItem ? legendItem.color : '#94a3b8'
+        };
+      })
+      .sort((a, b) => b.count - a.count);
+  };
+
+  // Calculate dynamic width based on number of status entries
+  const getDynamicWidth = () => {
+    const statusCount = getStatusBreakdown().length;
+    if (statusCount === 0) return 'w-80';
+    
+    // Calculate based on content length and number of columns needed
+    const statusBreakdown = getStatusBreakdown();
+    const maxTextLength = Math.max(...statusBreakdown.map(item => item.status.length));
+    const maxCountLength = Math.max(...statusBreakdown.map(item => item.count.toString().length));
+    
+    // Base width per item: text + count + padding + dot + gaps
+    // Rough calculation: each character ≈ 0.5rem, plus padding and elements
+    const baseItemWidth = Math.max(
+      8, // minimum width in rem
+      (maxTextLength * 0.5) + (maxCountLength * 0.5) + 4 // text + count + padding/elements
+    );
+    
+    // Calculate number of columns (ceil of statusCount / 2 since we have 2 rows)
+    const numColumns = Math.ceil(statusCount / 2);
+    
+    // Total width = (numColumns * baseItemWidth) + padding + gaps
+    const totalWidth = (numColumns * baseItemWidth) + 8; // 8rem for container padding and gaps
+    
+    // Clamp between reasonable bounds
+    const clampedWidth = Math.max(20, Math.min(80, totalWidth));
+    
+    return `w-[${clampedWidth}rem]`;
+  };
+
+  // Layer styles for the GeoJSON data with status-based coloring
   const pointLayerStyle = {
     id: 'olympic-venues',
     type: 'circle',
     paint: {
       'circle-radius': 8,
-      'circle-color': '#ff6b35',
+      'circle-color': [
+        'case',
+        ['has', 'status'],
+        [
+          'case',
+          ['==', ['get', 'status'], 'In use'], '#22c55e',
+          ['==', ['get', 'status'], 'In use (rebuilt)'], '#10b981',
+          ['==', ['get', 'status'], 'In use (repurposed)'], '#06b6d4',
+          ['==', ['get', 'status'], 'In use (seasonal)'], '#3b82f6',
+          ['==', ['get', 'status'], 'In use (limited)'], '#8b5cf6',
+          ['==', ['get', 'status'], 'Not in use'], '#ef4444',
+          ['==', ['get', 'status'], 'Not in use (demolished)'], '#dc2626',
+          ['==', ['get', 'status'], 'Not in use, partly dismantled'], '#ea580c',
+          ['==', ['get', 'status'], 'Not in use, currently under reconstruction'], '#f59e0b',
+          ['==', ['get', 'status'], 'Dismantled (temporary)'], '#991b1b',
+          ['==', ['get', 'status'], 'Dismantled (seasonal)'], '#7c2d12',
+          '#94a3b8' // default for unknown status values
+        ],
+        '#94a3b8' // neutral gray for no status
+      ],
       'circle-stroke-color': '#fff',
       'circle-stroke-width': 2,
       'circle-opacity': 0.8
@@ -202,7 +424,7 @@ const MapWithLayers = () => {
   };
 
   return (
-    <div className="relative w-full h-full rounded-xl overflow-hidden shadow-inner">
+    <div className="relative w-full h-full overflow-hidden shadow-inner rounded-xl">
       <Map
         ref={mapRef}
         {...viewState}
@@ -237,10 +459,10 @@ const MapWithLayers = () => {
             closeOnClick={false}
             className="venue-popup"
           >
-            <div className="bg-white dark:bg-gray-800 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 max-w-sm w-80 popup-content">
-              <div className="flex justify-between items-start p-4 pb-2 border-b border-gray-200 dark:border-gray-600">
+            <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-600 w-80 popup-content">
+              <div className="flex items-start justify-between p-4 pb-2 border-b border-gray-200 dark:border-gray-600">
                 <div className="flex-1 mr-2">
-                  <h3 className="font-bold text-lg text-gray-800 dark:text-gray-200 leading-tight">
+                  <h3 className="text-lg font-bold leading-tight text-gray-800 dark:text-gray-200">
                     {(() => {
                       const names = selectedVenue.properties.associated_names;
                       if (Array.isArray(names) && names.length > 0) {
@@ -274,7 +496,7 @@ const MapWithLayers = () => {
                     }
                     
                     return nameArray.length > 1 && (
-                      <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                      <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                         Also known as: {nameArray.slice(1).join(', ')}
                       </p>
                     );
@@ -285,7 +507,7 @@ const MapWithLayers = () => {
                     setSelectedVenue(null);
                     setExpandedDescription(false);
                   }}
-                  className="text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 text-xl font-bold leading-none p-1 hover:bg-gray-100 dark:hover:bg-gray-700 rounded transition-all duration-200 transform hover:scale-110"
+                  className="p-1 text-xl font-bold leading-none text-gray-400 transition-all duration-200 transform rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 hover:scale-110"
                   title="Close"
                 >
                   ×
@@ -297,17 +519,17 @@ const MapWithLayers = () => {
                 {/* Location */}
                 {selectedVenue.properties.place && (
                   <div>
-                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-300 mb-1">
+                    <span className="inline-flex items-center px-2 py-1 mb-1 text-xs font-medium text-blue-800 bg-blue-100 rounded-full dark:bg-blue-900/30 dark:text-blue-300">
                       📍 Location
                     </span>
-                    <p className="text-sm text-gray-700 dark:text-gray-300 ml-1">{selectedVenue.properties.place}</p>
+                    <p className="ml-1 text-sm text-gray-700 dark:text-gray-300">{selectedVenue.properties.place}</p>
                   </div>
                 )}
                 
                 {/* Sports */}
                 {selectedVenue.properties.sports && (
                   <div>
-                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 mb-2">
+                    <span className="inline-flex items-center px-2 py-1 mb-2 text-xs font-medium text-green-800 bg-green-100 rounded-full dark:bg-green-900/30 dark:text-green-300">
                       🏃 Sports
                     </span>
                     <div className="flex flex-wrap gap-1 ml-1">
@@ -329,7 +551,7 @@ const MapWithLayers = () => {
                         return sportsArray.map((sport, index) => (
                           <span 
                             key={index}
-                            className="inline-block px-2 py-1 bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 text-gray-700 dark:text-gray-300 text-xs rounded-md transition-all duration-200 cursor-default transform hover:scale-105"
+                            className="inline-block px-2 py-1 text-xs text-gray-700 transition-all duration-200 transform bg-gray-100 rounded-md cursor-default dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 dark:text-gray-300 hover:scale-105"
                             title={sport}
                           >
                             {sport}
@@ -343,22 +565,38 @@ const MapWithLayers = () => {
                 {/* Type */}
                 {selectedVenue.properties.type && (
                   <div>
-                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-purple-100 dark:bg-purple-900/30 text-purple-800 dark:text-purple-300 mb-1">
+                    <span className="inline-flex items-center px-2 py-1 mb-1 text-xs font-medium text-purple-800 bg-purple-100 rounded-full dark:bg-purple-900/30 dark:text-purple-300">
                       🏢 Type
                     </span>
-                    <p className="text-sm text-gray-700 dark:text-gray-300 ml-1 capitalize">{selectedVenue.properties.type}</p>
+                    <p className="ml-1 text-sm text-gray-700 capitalize dark:text-gray-300">{selectedVenue.properties.type}</p>
+                  </div>
+                )}
+                
+                {/* Status */}
+                {selectedVenue.properties.status && (
+                  <div>
+                    <span className="inline-flex items-center px-2 py-1 mb-1 text-xs font-medium text-indigo-800 bg-indigo-100 rounded-full dark:bg-indigo-900/30 dark:text-indigo-300">
+                      📊 Status
+                    </span>
+                    <div className="flex items-center gap-2 ml-1">
+                      <div 
+                        className="flex-shrink-0 w-3 h-3 border border-white rounded-full shadow-sm"
+                        style={{ backgroundColor: getStatusColor(selectedVenue.properties.status) }}
+                      ></div>
+                      <p className="text-sm text-gray-700 capitalize dark:text-gray-300">{selectedVenue.properties.status}</p>
+                    </div>
                   </div>
                 )}
                 
                 {/* Additional info if available */}
                 {selectedVenue.properties.venue_information && (
                   <div>
-                    <span className="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-300 mb-1">
+                    <span className="inline-flex items-center px-2 py-1 mb-1 text-xs font-medium rounded-full bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-300">
                       ℹ️ Details
                     </span>
                     <div className="ml-1">
                       <div className="transition-all duration-300 ease-in-out">
-                        <p className="text-xs text-gray-600 dark:text-gray-400 leading-relaxed">
+                        <p className="text-xs leading-relaxed text-gray-600 dark:text-gray-400">
                           {expandedDescription || selectedVenue.properties.venue_information.length <= 200
                             ? selectedVenue.properties.venue_information
                             : selectedVenue.properties.venue_information.substring(0, 200) + '...'}
@@ -382,12 +620,12 @@ const MapWithLayers = () => {
       </Map>
       
       {/* Control Buttons */}
-      <div className="absolute top-4 left-4 space-y-2">
+      <div className="absolute space-y-2 top-4 left-4">
         {/* Map Layer Control Button */}
         <button
           data-panel="layer-button"
           onClick={() => setShowLayerPanel(!showLayerPanel)}
-          className="glass p-3 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 block"
+          className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
           title="Change map style"
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
@@ -401,7 +639,7 @@ const MapWithLayers = () => {
         <button
           data-panel="olympics-button"
           onClick={() => setShowOlympicsPanel(!showOlympicsPanel)}
-          className="glass p-3 rounded-xl shadow-lg hover:scale-105 transition-all duration-300 block"
+          className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
           title="Switch Olympic Games"
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
@@ -411,17 +649,33 @@ const MapWithLayers = () => {
           </svg>
         </button>
 
+        {/* Legend Control Button */}
+        <button
+          data-panel="legend-button"
+          onClick={() => setShowLegendPanel(!showLegendPanel)}
+          className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
+          title="Show venue status legend"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="9" y1="9" x2="15" y2="9"></line>
+            <line x1="9" y1="15" x2="15" y2="15"></line>
+            <circle cx="6" cy="9" r="1"></circle>
+            <circle cx="6" cy="15" r="1"></circle>
+          </svg>
+        </button>
+
         {/* Map Layer Selection Panel */}
         {showLayerPanel && (
           <div 
             data-panel="layer-panel"
-            className="absolute top-0 left-16 glass p-4 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-600 min-w-64 z-10"
+            className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-64"
           >
-            <div className="flex justify-between items-center mb-3">
-              <h3 className="font-bold text-sm text-gray-800 dark:text-gray-200">Map Style</h3>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Map Style</h3>
               <button
                 onClick={() => setShowLayerPanel(false)}
-                className="text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded p-1 transition-all"
+                className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 ✕
               </button>
@@ -429,7 +683,7 @@ const MapWithLayers = () => {
             
             <div className="space-y-2">
               {mapStyles.map(style => (
-                <label key={style.id} className="flex items-start cursor-pointer p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
+                <label key={style.id} className="flex items-start p-2 transition-colors rounded cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700">
                   <input
                     type="radio"
                     name="mapStyle"
@@ -439,10 +693,10 @@ const MapWithLayers = () => {
                       setSelectedMapStyle(e.target.value);
                       setShowLayerPanel(false);
                     }}
-                    className="mr-3 mt-1"
+                    className="mt-1 mr-3"
                   />
                   <div className="flex-1">
-                    <span className="text-sm font-medium block text-gray-800 dark:text-gray-200">{style.name}</span>
+                    <span className="block text-sm font-medium text-gray-800 dark:text-gray-200">{style.name}</span>
                     <p className="text-xs text-gray-500 dark:text-gray-400">{style.description}</p>
                   </div>
                 </label>
@@ -455,66 +709,208 @@ const MapWithLayers = () => {
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute top-0 left-16 glass p-4 rounded-xl shadow-2xl border border-gray-200 dark:border-gray-600 min-w-72 z-10 max-h-96 overflow-y-auto"
+            className="absolute top-0 z-10 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
           >
-            <div className="flex justify-between items-center mb-3">
-              <h3 className="font-bold text-sm text-gray-800 dark:text-gray-200">Olympic Games</h3>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Olympic Games</h3>
               <button
                 onClick={() => setShowOlympicsPanel(false)}
-                className="text-gray-400 dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 rounded p-1 transition-all"
+                className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 ✕
               </button>
             </div>
             
-            <div className="space-y-2">
-              {availableOlympics.map(olympics => (
-                <label key={olympics.id} className="flex items-start cursor-pointer p-2 rounded hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors">
-                  <input
-                    type="radio"
-                    name="olympics"
-                    value={olympics.id}
-                    checked={selectedOlympics === olympics.id}
-                    onChange={(e) => {
-                      handleOlympicsChange(e.target.value);
-                      setShowOlympicsPanel(false);
-                    }}
-                    className="mr-3 mt-1"
-                  />
-                  <div className="flex-1">
-                    <span className="text-sm font-medium block text-gray-800 dark:text-gray-200">{olympics.name}</span>
-                    <p className="text-xs text-gray-500 dark:text-gray-400">{olympics.year} • {olympics.city}</p>
+            <div className="space-y-3">
+              {/* Group by decade for better organization */}
+              {(() => {
+                const decades = {};
+                availableOlympics.forEach(olympics => {
+                  const decade = Math.floor(parseInt(olympics.year) / 10) * 10;
+                  if (!decades[decade]) decades[decade] = [];
+                  decades[decade].push(olympics);
+                });
+                
+                // Sort games within each decade chronologically (newest first)
+                Object.keys(decades).forEach(decade => {
+                  decades[decade].sort((a, b) => b.year - a.year);
+                });
+                
+                return Object.keys(decades).sort((a, b) => b - a).map(decade => (
+                  <div key={decade}>
+                    <h4 className="px-2 mb-2 text-xs font-semibold text-gray-500 dark:text-gray-400">
+                      {decade}s
+                    </h4>
+                    <div className="space-y-1">
+                      {decades[decade].map(olympics => (
+                        <label key={olympics.id} className="flex items-start p-2 transition-colors rounded cursor-pointer hover:bg-gray-100 dark:hover:bg-gray-700">
+                          <input
+                            type="radio"
+                            name="olympics"
+                            value={olympics.id}
+                            checked={selectedOlympics === olympics.id}
+                            onChange={(e) => {
+                              handleOlympicsChange(e.target.value);
+                              setShowOlympicsPanel(false);
+                            }}
+                            className="mt-1 mr-3"
+                          />
+                          <div className="flex-1">
+                            <span className="block text-sm font-medium text-gray-800 dark:text-gray-200">
+                              {olympics.name}
+                            </span>
+                            <p className="text-xs text-gray-500 dark:text-gray-400">
+                              {olympics.year} • {olympics.city}
+                              <span className={`ml-2 px-1.5 py-0.5 rounded-full text-xs ${
+                                olympics.season === 'Summer' 
+                                  ? 'bg-yellow-100 text-yellow-800 dark:bg-yellow-900/30 dark:text-yellow-300' 
+                                  : 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300'
+                              }`}>
+                                {olympics.season}
+                              </span>
+                            </p>
+                          </div>
+                        </label>
+                      ))}
+                    </div>
                   </div>
-                </label>
-              ))}
+                ));
+              })()}
             </div>
             
             {geojsonData && !loading && (
-              <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600 text-xs text-gray-600 dark:text-gray-400">
+              <div className="pt-3 mt-3 text-xs text-gray-600 border-t border-gray-200 dark:border-gray-600 dark:text-gray-400">
                 <p>{geojsonData.features.length} Olympic venues loaded</p>
               </div>
             )}
             
             {loading && (
-              <div className="mt-3 pt-3 border-t border-gray-200 dark:border-gray-600 text-xs text-blue-600 dark:text-blue-400">
+              <div className="pt-3 mt-3 text-xs text-blue-600 border-t border-gray-200 dark:border-gray-600 dark:text-blue-400">
                 <p>Loading Olympic venues...</p>
               </div>
             )}
           </div>
         )}
-      </div>
 
+        {/* Legend Panel */}
+        {showLegendPanel && (
+          <div 
+            data-panel="legend-panel"
+            className="absolute top-0 z-10 flex flex-col p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-80 max-w-96 max-h-96"
+          >
+            <div className="flex items-center justify-between flex-shrink-0 mb-3">
+              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Venue Status Legend</h3>
+              <button
+                onClick={() => setShowLegendPanel(false)}
+                className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+              >
+                ✕
+              </button>
+            </div>
+            
+            <div className="flex-1 pr-2 space-y-2 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
+              {statusLegend.map((item, index) => (
+                <div key={index} className="flex items-center gap-3 p-2 transition-colors rounded hover:bg-gray-50 dark:hover:bg-gray-700/50">
+                  <div 
+                    className="flex-shrink-0 w-4 h-4 border-2 border-white rounded-full shadow-sm"
+                    style={{ backgroundColor: item.color }}
+                  ></div>
+                  <div className="flex-1 min-w-0">
+                    <span className="block text-sm font-medium text-gray-800 dark:text-gray-200">
+                      {item.label}
+                    </span>
+                    <p className="text-xs leading-relaxed text-gray-500 dark:text-gray-400">
+                      {item.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            
+            <div className="flex-shrink-0 pt-3 mt-3 border-t border-gray-200 dark:border-gray-600">
+              <p className="text-xs text-gray-500 dark:text-gray-400">
+                💡 Venue colors reflect their current operational status based on available data
+              </p>
+            </div>
+          </div>
+        )}
+      </div>
       {/* Info Panel */}
       {geojsonData && (
-        <div className="absolute bottom-4 left-4 glass p-4 rounded-xl shadow-lg">
-          <div className="text-xs text-gray-600 dark:text-gray-400">
-            <p className="font-medium text-gray-800 dark:text-gray-200">
-              {geojsonData.features.length} Olympic venues from {availableOlympics.find(o => o.id === selectedOlympics)?.name || 'Olympics'}
-            </p>
-            <p className="mt-1 flex items-center gap-1">
-              <span>💡</span>
-              <span>Click orange markers for details</span>
-            </p>
+        <div className="absolute flex items-center overflow-hidden transition-all duration-500 ease-in-out shadow-lg bottom-4 left-4 glass rounded-xl">
+          {/* Main Info Panel - Fixed Height */}
+          <div className="flex-shrink-0 px-4 py-3 h-[88px]">
+            <div className="flex flex-col justify-center h-full text-xs text-gray-600 dark:text-gray-400">
+              <div className="flex items-center justify-between h-full">
+                <div className="flex-1">
+                  <p className="font-medium text-gray-800 dark:text-gray-200">
+                    {geojsonData.features.length} Olympic venues from {availableOlympics.find(o => o.id === selectedOlympics)?.name || 'Olympics'}
+                  </p>
+                  <p className="flex items-center gap-1 mt-1">
+                    <span>💡</span>
+                    <span>Click markers for details</span>
+                  </p>
+                  <p className="flex items-center gap-1 mt-1">
+                    <span>🎨</span>
+                    <span>Colors show venue status</span>
+                  </p>
+                </div>
+                <button
+                  onClick={() => setExpandedStatusBreakdown(!expandedStatusBreakdown)}
+                  className="p-2 ml-3 text-gray-500 transition-all duration-300 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200"
+                  title={expandedStatusBreakdown ? "Hide status breakdown" : "Show status breakdown"}
+                >
+                  <svg 
+                    width="16" 
+                    height="16" 
+                    viewBox="0 0 24 24" 
+                    fill="none" 
+                    stroke="currentColor" 
+                    strokeWidth="2" 
+                    className={`transition-transform duration-300 ${expandedStatusBreakdown ? 'rotate-180' : ''}`}
+                  >
+                    <polyline points="9,18 15,12 9,6"></polyline>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          {/* Expandable Status Breakdown - Horizontal with Smooth Animation */}
+          <div 
+            className={`transition-all duration-500 ease-in-out border-l border-gray-200 dark:border-gray-600 h-[88px] ${
+              expandedStatusBreakdown ? 'max-w-screen-sm opacity-100' : 'max-w-0 opacity-0'
+            }`}
+          >
+            <div className="h-full px-4 py-3 overflow-hidden whitespace-nowrap">
+              <h4 className="mb-2 text-xs font-semibold text-gray-700 dark:text-gray-300">
+                Venue Status Breakdown
+              </h4>
+              <div className="flex flex-wrap gap-1.5">
+                {getStatusBreakdown().map((item, index) => (
+                  <div 
+                    key={index} 
+                    className="flex items-center gap-1.5 p-1.5 rounded bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors whitespace-nowrap"
+                  >
+                    <div 
+                      className="w-2.5 h-2.5 rounded-full border border-white shadow-sm flex-shrink-0"
+                      style={{ backgroundColor: item.color }}
+                    ></div>
+                    <span className="text-xs text-gray-700 dark:text-gray-300">
+                      {item.status}
+                    </span>
+                    <span className="text-xs font-medium text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800 px-1.5 py-0.5 rounded-full shadow-sm">
+                      {item.count}
+                    </span>
+                  </div>
+                ))}
+              </div>
+              {getStatusBreakdown().length === 0 && (
+                <p className="mt-2 text-xs italic text-gray-500 dark:text-gray-400">
+                  No status data available for these venues
+                </p>
+              )}
+            </div>
           </div>
         </div>
       )}

@@ -52,6 +52,11 @@ const MapWithLayers = () => {
   const [showLegendPanel, setShowLegendPanel] = useState(false);
   const [expandedDescription, setExpandedDescription] = useState(false);
   const [expandedStatusBreakdown, setExpandedStatusBreakdown] = useState(false);
+  const [showTimeline, setShowTimeline] = useState(true); // Timeline always visible by default
+  const [timelineMode, setTimelineMode] = useState(true); // true = timeline mode, false = single game mode
+  const [timelineStartYear, setTimelineStartYear] = useState(1896);
+  const [timelineEndYear, setTimelineEndYear] = useState(2018);
+  const [filteredGames, setFilteredGames] = useState([]);
 
   // Available Olympic Games - based on actual files in geojson_scraper/combined_geojson
   const availableOlympics = [
@@ -154,8 +159,52 @@ const MapWithLayers = () => {
   ];
 
   useEffect(() => {
-    loadOlympicsData(selectedOlympics);
-  }, [selectedOlympics]);
+    if (!timelineMode) {
+      // In single game mode, load the selected olympics
+      loadOlympicsData(selectedOlympics);
+    }
+  }, [selectedOlympics, timelineMode]);
+
+  // Filter games based on timeline selection
+  useEffect(() => {
+    if (timelineMode) {
+      const filtered = availableOlympics.filter(olympics => {
+        const year = parseInt(olympics.year);
+        return year >= timelineStartYear && year <= timelineEndYear;
+      });
+      setFilteredGames(filtered);
+    } else {
+      setFilteredGames([]);
+    }
+  }, [timelineStartYear, timelineEndYear, timelineMode]);
+
+  // Load initial timeline data on mount
+  useEffect(() => {
+    if (timelineMode) {
+      // Load timeline data by default
+      const filtered = availableOlympics.filter(olympics => {
+        const year = parseInt(olympics.year);
+        return year >= timelineStartYear && year <= timelineEndYear;
+      });
+      setFilteredGames(filtered);
+      // Auto-load all games in timeline mode
+      if (filtered.length > 0) {
+        setTimeout(() => loadFilteredGamesData(), 500);
+      }
+    }
+  }, []);
+
+  // Auto-update when timeline range changes in timeline mode
+  useEffect(() => {
+    if (timelineMode && filteredGames.length > 0) {
+      // Auto-load when range changes
+      const timer = setTimeout(() => {
+        loadFilteredGamesData();
+      }, 300); // Small delay to avoid too many rapid updates
+      
+      return () => clearTimeout(timer);
+    }
+  }, [timelineStartYear, timelineEndYear, timelineMode]);
 
   // Save view state to sessionStorage whenever it changes
   useEffect(() => {
@@ -196,6 +245,8 @@ const MapWithLayers = () => {
       const olympicsPanel = event.target.closest('[data-panel="olympics-panel"]');
       const legendButton = event.target.closest('[data-panel="legend-button"]');
       const legendPanel = event.target.closest('[data-panel="legend-panel"]');
+      const timelineButton = event.target.closest('[data-panel="timeline-button"]');
+      const timelinePanel = event.target.closest('[data-panel="timeline-panel"]');
       
       // Close layer panel if click is outside both button and panel
       if (showLayerPanel && !layerButton && !layerPanel) {
@@ -211,6 +262,12 @@ const MapWithLayers = () => {
       if (showLegendPanel && !legendButton && !legendPanel) {
         setShowLegendPanel(false);
       }
+      
+      // Close timeline panel if click is outside both button and panel
+      // Note: Timeline is now always visible, so this is not needed
+      // if (showTimeline && !timelineButton && !timelinePanel) {
+      //   setShowTimeline(false);
+      // }
     };
 
     // Add event listener to document
@@ -272,6 +329,144 @@ const MapWithLayers = () => {
 
   const handleOlympicsChange = (olympicsId) => {
     setSelectedOlympics(olympicsId);
+  };
+
+  const loadFilteredGamesData = async () => {
+    if (filteredGames.length === 0) return;
+    
+    setLoading(true);
+    setSelectedVenue(null);
+    
+    try {
+      // Load data for all filtered games and combine them
+      const promises = filteredGames.map(game => 
+        fetch(`/api/olympics/${game.id}`).then(res => res.json())
+      );
+      
+      const allData = await Promise.all(promises);
+      
+      // Combine all features into one GeoJSON
+      const combinedFeatures = allData.reduce((acc, data, dataIndex) => {
+        if (data && data.features) {
+          // Get the corresponding game info for this data set
+          const gamesInfo = filteredGames[dataIndex];
+          
+          const enhancedFeatures = data.features.map(feature => ({
+            ...feature,
+            properties: {
+              ...feature.properties,
+              olympics_game: gamesInfo?.name || 'Unknown',
+              olympics_year: gamesInfo?.year || 'Unknown',
+              olympics_city: gamesInfo?.city || 'Unknown',
+              olympics_season: gamesInfo?.season || 'Unknown'
+            }
+          }));
+          
+          return [...acc, ...enhancedFeatures];
+        }
+        return acc;
+      }, []);
+      
+      const combinedGeojson = {
+        type: "FeatureCollection",
+        features: combinedFeatures
+      };
+      
+      setGeojsonData(combinedGeojson);
+      
+      // Calculate center point from all games
+      if (filteredGames.length > 0) {
+        const centerLng = filteredGames.reduce((sum, game) => sum + game.center[0], 0) / filteredGames.length;
+        const centerLat = filteredGames.reduce((sum, game) => sum + game.center[1], 0) / filteredGames.length;
+        
+        if (mapRef.current) {
+          const map = mapRef.current.getMap();
+          map.flyTo({
+            center: [centerLng, centerLat],
+            zoom: 3, // Zoom out to show multiple locations
+            duration: 2500,
+            essential: true,
+            easing: (t) => t < 0.5 ? 2 * t * t : -1 + (4 - 2 * t) * t
+          });
+          
+          setTimeout(() => {
+            setViewState(prev => ({
+              ...prev,
+              longitude: centerLng,
+              latitude: centerLat,
+              zoom: 3
+            }));
+          }, 2500);
+        }
+      }
+    } catch (error) {
+      console.error('Error loading filtered Olympics data:', error);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const clearTimelineMode = () => {
+    setTimelineMode(false);
+    setFilteredGames([]);
+    // Reload the originally selected single game
+    loadOlympicsData(selectedOlympics);
+  };
+
+  const enableTimelineMode = () => {
+    setTimelineMode(true);
+    // Load filtered games data automatically
+    const filtered = availableOlympics.filter(olympics => {
+      const year = parseInt(olympics.year);
+      return year >= timelineStartYear && year <= timelineEndYear;
+    });
+    setFilteredGames(filtered);
+    if (filtered.length > 0) {
+      loadFilteredGamesData();
+    }
+  };
+
+  // Timeline drag handling
+  const handleTimelineMouseDown = (e, markerType) => {
+    if (!timelineMode) return; // Only allow dragging in timeline mode
+    
+    e.preventDefault();
+    const timelineContainer = e.currentTarget.parentElement;
+    const containerRect = timelineContainer.getBoundingClientRect();
+    
+    const handleMouseMove = (moveEvent) => {
+      const x = moveEvent.clientX - containerRect.left;
+      const percentage = Math.max(0, Math.min(1, x / containerRect.width));
+      const year = Math.round(1896 + percentage * (2018 - 1896));
+      
+      // Snap to even years (Olympics happen every 2/4 years)
+      const snappedYear = Math.round(year / 2) * 2;
+      
+      if (markerType === 'start') {
+        setTimelineStartYear(Math.min(snappedYear, timelineEndYear));
+      } else {
+        setTimelineEndYear(Math.max(snappedYear, timelineStartYear));
+      }
+    };
+    
+    const handleMouseUp = () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+      document.removeEventListener('mouseup', handleMouseUp);
+      
+      // Auto-update the map when dragging ends
+      setTimeout(() => {
+        const filtered = availableOlympics.filter(olympics => {
+          const year = parseInt(olympics.year);
+          return year >= timelineStartYear && year <= timelineEndYear;
+        });
+        if (filtered.length > 0) {
+          loadFilteredGamesData();
+        }
+      }, 100);
+    };
+    
+    document.addEventListener('mousemove', handleMouseMove);
+    document.addEventListener('mouseup', handleMouseUp);
   };
 
   const onMove = useCallback((evt) => {
@@ -516,6 +711,32 @@ const MapWithLayers = () => {
               
               {/* Content */}
               <div className="p-4 space-y-3">
+                {/* Olympic Game Info (when in timeline mode) */}
+                {timelineMode && filteredGames.length > 0 && selectedVenue.properties.olympics_game && (
+                  <div>
+                    <span className="inline-flex items-center px-2 py-1 mb-2 text-xs font-medium text-purple-800 bg-purple-100 rounded-full dark:bg-purple-900/30 dark:text-purple-300">
+                      🏅 Olympic Games
+                    </span>
+                    <div className="ml-1 space-y-1">
+                      <p className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                        {selectedVenue.properties.olympics_game}
+                      </p>
+                      <div className="flex items-center gap-2">
+                        <span className="text-xs text-gray-500 dark:text-gray-400">
+                          {selectedVenue.properties.olympics_year} • {selectedVenue.properties.olympics_city}
+                        </span>
+                        <span className={`px-2 py-0.5 rounded-full text-xs font-medium ${
+                          selectedVenue.properties.olympics_season === 'Summer' 
+                            ? 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-300'
+                            : 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-300'
+                        }`}>
+                          {selectedVenue.properties.olympics_season}
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                
                 {/* Location */}
                 {selectedVenue.properties.place && (
                   <div>
@@ -721,6 +942,17 @@ const MapWithLayers = () => {
               </button>
             </div>
             
+            {timelineMode && filteredGames.length > 0 && (
+              <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+                <p className="text-xs text-blue-600 dark:text-blue-400">
+                  📅 Timeline mode active - showing {filteredGames.length} games from {timelineStartYear}-{timelineEndYear}
+                </p>
+                <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                  Select a single game to switch to single game mode
+                </p>
+              </div>
+            )}
+            
             <div className="space-y-3">
               {/* Group by decade for better organization */}
               {(() => {
@@ -748,8 +980,11 @@ const MapWithLayers = () => {
                             type="radio"
                             name="olympics"
                             value={olympics.id}
-                            checked={selectedOlympics === olympics.id}
+                            checked={!timelineMode && selectedOlympics === olympics.id}
                             onChange={(e) => {
+                              // Switch to single game mode when selecting a game
+                              setTimelineMode(false);
+                              setFilteredGames([]);
                               handleOlympicsChange(e.target.value);
                               setShowOlympicsPanel(false);
                             }}
@@ -835,6 +1070,176 @@ const MapWithLayers = () => {
           </div>
         )}
       </div>
+
+      {/* Timeline Panel - Always visible at bottom */}
+      <div 
+        data-panel="timeline-panel"
+        className="absolute bottom-4 right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[140px]"
+        style={{ width: '500px' }}
+      >
+        <div className="p-4 h-full flex flex-col justify-between">
+          <div className="flex items-center justify-between mb-3">
+            <h3 className="text-xs font-bold text-gray-800 dark:text-gray-200">Olympic Timeline</h3>
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-gray-500 dark:text-gray-400">
+                {timelineStartYear} - {timelineEndYear}
+              </span>
+              {timelineMode ? (
+                <button
+                  onClick={clearTimelineMode}
+                  className="px-2 py-1 text-xs bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                  title="Switch to single game mode"
+                >
+                  Single
+                </button>
+              ) : (
+                <button
+                  onClick={enableTimelineMode}
+                  className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                  title="Switch to timeline mode"
+                >
+                  Timeline
+                </button>
+              )}
+            </div>
+          </div>
+          
+          {/* Compact Timeline Visualization */}
+          <div className="relative flex-1 flex flex-col justify-center mb-3">
+            {/* Timeline Track */}
+            <div 
+              className={`relative h-6 rounded overflow-hidden cursor-pointer transition-opacity duration-300 ${
+                timelineMode ? 'bg-gray-200 dark:bg-gray-700' : 'bg-gray-300 dark:bg-gray-600 opacity-50'
+              }`}
+              onClick={(e) => {
+                if (!timelineMode) return;
+                const rect = e.currentTarget.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const percentage = x / rect.width;
+                const year = Math.round(1896 + percentage * (2018 - 1896));
+                const snappedYear = Math.round(year / 2) * 2;
+                
+                // Move the closest marker
+                const distanceToStart = Math.abs(snappedYear - timelineStartYear);
+                const distanceToEnd = Math.abs(snappedYear - timelineEndYear);
+                
+                if (distanceToStart <= distanceToEnd) {
+                  setTimelineStartYear(Math.min(snappedYear, timelineEndYear));
+                } else {
+                  setTimelineEndYear(Math.max(snappedYear, timelineStartYear));
+                }
+                
+                // Auto-update the map when clicking timeline
+                setTimeout(() => {
+                  const filtered = availableOlympics.filter(olympics => {
+                    const year = parseInt(olympics.year);
+                    return year >= Math.min(snappedYear, timelineEndYear) && year <= Math.max(snappedYear, timelineStartYear);
+                  });
+                  if (filtered.length > 0) {
+                    loadFilteredGamesData();
+                  }
+                }, 100);
+              }}
+            >
+              {/* Selected Range Background */}
+              <div 
+                className={`absolute top-0 h-full transition-all duration-200 ${
+                  timelineMode ? 'bg-blue-200 dark:bg-blue-800' : 'bg-gray-400 dark:bg-gray-500'
+                }`}
+                style={{
+                  left: `${((timelineStartYear - 1896) / (2018 - 1896)) * 100}%`,
+                  width: `${((timelineEndYear - timelineStartYear) / (2018 - 1896)) * 100}%`
+                }}
+              ></div>
+              
+              {/* Olympic Year Markers */}
+              {availableOlympics.map((olympics, index) => {
+                const position = ((parseInt(olympics.year) - 1896) / (2018 - 1896)) * 100;
+                const isInRange = parseInt(olympics.year) >= timelineStartYear && parseInt(olympics.year) <= timelineEndYear;
+                
+                return (
+                  <div
+                    key={olympics.id}
+                    className={`absolute top-0.5 w-1 h-5 cursor-pointer transition-all duration-200 ${
+                      timelineMode && isInRange 
+                        ? olympics.season === 'Summer' 
+                          ? 'bg-orange-500 hover:bg-orange-600' 
+                          : 'bg-blue-500 hover:bg-blue-600'
+                        : 'bg-gray-400 dark:bg-gray-500'
+                    }`}
+                    style={{ left: `calc(${position}% - 2px)` }}
+                    title={`${olympics.year} ${olympics.city} (${olympics.season})`}
+                  ></div>
+                );
+              })}
+              
+              {/* Draggable Start Marker */}
+              <div
+                className={`absolute top-0 w-3 h-6 rounded cursor-ew-resize border border-white shadow transition-all duration-200 z-10 ${
+                  timelineMode ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-500 cursor-not-allowed'
+                }`}
+                style={{ left: `calc(${((timelineStartYear - 1896) / (2018 - 1896)) * 100}% - 6px)` }}
+                onMouseDown={(e) => timelineMode && handleTimelineMouseDown(e, 'start')}
+                title={`Start: ${timelineStartYear}`}
+              >
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-xs px-1 rounded whitespace-nowrap">
+                  {timelineStartYear}
+                </div>
+              </div>
+              
+              {/* Draggable End Marker */}
+              <div
+                className={`absolute top-0 w-3 h-6 rounded cursor-ew-resize border border-white shadow transition-all duration-200 z-10 ${
+                  timelineMode ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-500 cursor-not-allowed'
+                }`}
+                style={{ left: `calc(${((timelineEndYear - 1896) / (2018 - 1896)) * 100}% - 6px)` }}
+                onMouseDown={(e) => timelineMode && handleTimelineMouseDown(e, 'end')}
+                title={`End: ${timelineEndYear}`}
+              >
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-xs px-1 rounded whitespace-nowrap">
+                  {timelineEndYear}
+                </div>
+              </div>
+            </div>
+            
+            {/* Year Labels */}
+            <div className="flex justify-between mt-2 text-xs text-gray-500 dark:text-gray-400">
+              <span>1896</span>
+              <span>1940</span>
+              <span>1980</span>
+              <span>2018</span>
+            </div>
+          </div>
+          
+          {/* Status and Actions */}
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-2 text-xs">
+              {timelineMode ? (
+                <span className="text-blue-600 dark:text-blue-400">
+                  {filteredGames.length} games selected
+                  {loading && <span className="ml-2 text-gray-500">Loading...</span>}
+                </span>
+              ) : (
+                <span className="text-gray-500 dark:text-gray-400">
+                  Single game mode
+                </span>
+              )}
+            </div>
+            
+            <div className="flex items-center gap-2 text-xs">
+              <div className="flex items-center gap-1">
+                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
+                <span className="text-gray-600 dark:text-gray-400">Summer</span>
+              </div>
+              <div className="flex items-center gap-1">
+                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+                <span className="text-gray-600 dark:text-gray-400">Winter</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Info Panel */}
       {geojsonData && (
         <div className="absolute flex items-center overflow-hidden transition-all duration-500 ease-in-out shadow-lg bottom-4 left-4 glass rounded-xl">
@@ -844,7 +1249,11 @@ const MapWithLayers = () => {
               <div className="flex items-center justify-between h-full">
                 <div className="flex-1">
                   <p className="font-medium text-gray-800 dark:text-gray-200">
-                    {geojsonData.features.length} Olympic venues from {availableOlympics.find(o => o.id === selectedOlympics)?.name || 'Olympics'}
+                    {timelineMode && filteredGames.length > 0 ? (
+                      `${geojsonData.features.length} venues from ${filteredGames.length} Olympic Games (${timelineStartYear}-${timelineEndYear})`
+                    ) : (
+                      `${geojsonData.features.length} Olympic venues from ${availableOlympics.find(o => o.id === selectedOlympics)?.name || 'Olympics'}`
+                    )}
                   </p>
                   <p className="flex items-center gap-1 mt-1">
                     <span>💡</span>

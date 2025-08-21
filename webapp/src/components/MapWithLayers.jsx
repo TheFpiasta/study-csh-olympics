@@ -53,10 +53,13 @@ const MapWithLayers = () => {
   const [expandedDescription, setExpandedDescription] = useState(false);
   const [expandedStatusBreakdown, setExpandedStatusBreakdown] = useState(false);
   const [showTimeline, setShowTimeline] = useState(true); // Timeline always visible by default
-  const [timelineMode, setTimelineMode] = useState(true); // true = timeline mode, false = single game mode
+  const [timelineMode, setTimelineMode] = useState(false); // true = timeline mode, false = single game mode
   const [timelineStartYear, setTimelineStartYear] = useState(1896);
   const [timelineEndYear, setTimelineEndYear] = useState(2018);
   const [filteredGames, setFilteredGames] = useState([]);
+  const [showStartLabel, setShowStartLabel] = useState(false);
+  const [showEndLabel, setShowEndLabel] = useState(false);
+  const [isDragging, setIsDragging] = useState(false);
 
   // Available Olympic Games - based on actual files in geojson_scraper/combined_geojson
   const availableOlympics = [
@@ -178,7 +181,7 @@ const MapWithLayers = () => {
     }
   }, [timelineStartYear, timelineEndYear, timelineMode]);
 
-  // Load initial timeline data on mount
+  // Load initial data on mount
   useEffect(() => {
     if (timelineMode) {
       // Load timeline data by default
@@ -191,6 +194,9 @@ const MapWithLayers = () => {
       if (filtered.length > 0) {
         setTimeout(() => loadFilteredGamesData(), 500);
       }
+    } else {
+      // In single game mode, load the selected olympics
+      setTimeout(() => loadOlympicsData(selectedOlympics), 100);
     }
   }, []);
 
@@ -339,17 +345,31 @@ const MapWithLayers = () => {
     
     try {
       // Load data for all filtered games and combine them
-      const promises = filteredGames.map(game => 
-        fetch(`/api/olympics/${game.id}`).then(res => res.json())
-      );
+      const promises = filteredGames.map(async (game) => {
+        try {
+          const response = await fetch(`/api/olympics/${game.id}`);
+          if (!response.ok) {
+            console.warn(`Failed to load data for ${game.name}: ${response.status}`);
+            return null; // Return null for failed requests
+          }
+          return await response.json();
+        } catch (error) {
+          console.warn(`Error loading data for ${game.name}:`, error);
+          return null; // Return null for failed requests
+        }
+      });
       
       const allData = await Promise.all(promises);
       
-      // Combine all features into one GeoJSON
-      const combinedFeatures = allData.reduce((acc, data, dataIndex) => {
+      // Filter out null results and combine all features into one GeoJSON
+      const validData = allData.filter(data => data !== null);
+      
+      const combinedFeatures = validData.reduce((acc, data, dataIndex) => {
         if (data && data.features) {
-          // Get the corresponding game info for this data set
-          const gamesInfo = filteredGames[dataIndex];
+          // Find the corresponding game info for this valid data set
+          // Since we filtered out nulls, we need to match by checking which requests succeeded
+          const validGameIndex = allData.findIndex((d, i) => d === data);
+          const gamesInfo = filteredGames[validGameIndex];
           
           const enhancedFeatures = data.features.map(feature => ({
             ...feature,
@@ -426,7 +446,7 @@ const MapWithLayers = () => {
     }
   };
 
-  // Timeline drag handling
+  // Timeline drag handling with touch support
   const handleTimelineMouseDown = (e, markerType) => {
     if (!timelineMode) return; // Only allow dragging in timeline mode
     
@@ -434,8 +454,24 @@ const MapWithLayers = () => {
     const timelineContainer = e.currentTarget.parentElement;
     const containerRect = timelineContainer.getBoundingClientRect();
     
-    const handleMouseMove = (moveEvent) => {
-      const x = moveEvent.clientX - containerRect.left;
+    // Show label for the marker being dragged
+    setIsDragging(true);
+    if (markerType === 'start') {
+      setShowStartLabel(true);
+    } else {
+      setShowEndLabel(true);
+    }
+    
+    const getEventCoordinates = (event) => {
+      // Handle both mouse and touch events
+      if (event.touches && event.touches.length > 0) {
+        return { x: event.touches[0].clientX, y: event.touches[0].clientY };
+      }
+      return { x: event.clientX, y: event.clientY };
+    };
+    
+    const updateMarkerPosition = (eventCoords) => {
+      const x = eventCoords.x - containerRect.left;
       const percentage = Math.max(0, Math.min(1, x / containerRect.width));
       const year = Math.round(1896 + percentage * (2018 - 1896));
       
@@ -449,9 +485,27 @@ const MapWithLayers = () => {
       }
     };
     
-    const handleMouseUp = () => {
-      document.removeEventListener('mousemove', handleMouseMove);
-      document.removeEventListener('mouseup', handleMouseUp);
+    const handleMove = (moveEvent) => {
+      moveEvent.preventDefault();
+      updateMarkerPosition(getEventCoordinates(moveEvent));
+    };
+    
+    const handleEnd = () => {
+      // Remove all event listeners
+      document.removeEventListener('mousemove', handleMove);
+      document.removeEventListener('mouseup', handleEnd);
+      document.removeEventListener('touchmove', handleMove, { passive: false });
+      document.removeEventListener('touchend', handleEnd);
+      
+      // Hide labels after dragging with a delay
+      setIsDragging(false);
+      setTimeout(() => {
+        if (markerType === 'start') {
+          setShowStartLabel(false);
+        } else {
+          setShowEndLabel(false);
+        }
+      }, 1000); // Hide after 1 second
       
       // Auto-update the map when dragging ends
       setTimeout(() => {
@@ -465,8 +519,59 @@ const MapWithLayers = () => {
       }, 100);
     };
     
-    document.addEventListener('mousemove', handleMouseMove);
-    document.addEventListener('mouseup', handleMouseUp);
+    // Add both mouse and touch event listeners
+    document.addEventListener('mousemove', handleMove);
+    document.addEventListener('mouseup', handleEnd);
+    document.addEventListener('touchmove', handleMove, { passive: false });
+    document.addEventListener('touchend', handleEnd);
+  };
+
+  // Handle touch start events for timeline markers
+  const handleTimelineTouchStart = (e, markerType) => {
+    // Prevent default touch behavior to avoid scrolling
+    e.preventDefault();
+    handleTimelineMouseDown(e, markerType);
+  };
+
+  // Handle timeline track clicks and touches
+  const handleTimelineTrackInteraction = (e) => {
+    if (!timelineMode) return;
+    
+    const rect = e.currentTarget.getBoundingClientRect();
+    let clientX;
+    
+    // Handle both mouse and touch events
+    if (e.touches && e.touches.length > 0) {
+      clientX = e.touches[0].clientX;
+    } else {
+      clientX = e.clientX;
+    }
+    
+    const x = clientX - rect.left;
+    const percentage = x / rect.width;
+    const year = Math.round(1896 + percentage * (2018 - 1896));
+    const snappedYear = Math.round(year / 2) * 2;
+    
+    // Move the closest marker
+    const distanceToStart = Math.abs(snappedYear - timelineStartYear);
+    const distanceToEnd = Math.abs(snappedYear - timelineEndYear);
+    
+    if (distanceToStart <= distanceToEnd) {
+      setTimelineStartYear(Math.min(snappedYear, timelineEndYear));
+    } else {
+      setTimelineEndYear(Math.max(snappedYear, timelineStartYear));
+    }
+    
+    // Auto-update the map when clicking timeline
+    setTimeout(() => {
+      const filtered = availableOlympics.filter(olympics => {
+        const year = parseInt(olympics.year);
+        return year >= timelineStartYear && year <= timelineEndYear;
+      });
+      if (filtered.length > 0) {
+        loadFilteredGamesData();
+      }
+    }, 100);
   };
 
   const onMove = useCallback((evt) => {
@@ -943,11 +1048,11 @@ const MapWithLayers = () => {
             </div>
             
             {timelineMode && filteredGames.length > 0 && (
-              <div className="mb-3 p-2 bg-blue-50 dark:bg-blue-900/20 rounded-lg">
+              <div className="p-2 mb-3 rounded-lg bg-blue-50 dark:bg-blue-900/20">
                 <p className="text-xs text-blue-600 dark:text-blue-400">
                   📅 Timeline mode active - showing {filteredGames.length} games from {timelineStartYear}-{timelineEndYear}
                 </p>
-                <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+                <p className="mt-1 text-xs text-gray-500 dark:text-gray-400">
                   Select a single game to switch to single game mode
                 </p>
               </div>
@@ -1074,12 +1179,27 @@ const MapWithLayers = () => {
       {/* Timeline Panel - Always visible at bottom */}
       <div 
         data-panel="timeline-panel"
-        className="absolute bottom-4 right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[140px]"
+        className="absolute bottom-4 right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[88px]"
         style={{ width: '500px' }}
       >
-        <div className="p-4 h-full flex flex-col justify-between">
-          <div className="flex items-center justify-between mb-3">
-            <h3 className="text-xs font-bold text-gray-800 dark:text-gray-200">Olympic Timeline</h3>
+        <div className="flex flex-col justify-between h-full p-3">
+          <div className="flex items-center justify-between mb-2">
+            <div className="flex items-center gap-3">
+              <h3 className="text-xs font-bold text-gray-800 dark:text-gray-200">Olympic Timeline</h3>
+              {/* Selected games info moved here */}
+              <div className="text-xs">
+                {timelineMode ? (
+                  <span className="text-blue-600 dark:text-blue-400">
+                    {filteredGames.length} games selected
+                    {loading && <span className="ml-1 text-gray-500">Loading...</span>}
+                  </span>
+                ) : (
+                  <span className="text-gray-500 dark:text-gray-400">
+                    Single game mode
+                  </span>
+                )}
+              </div>
+            </div>
             <div className="flex items-center gap-2">
               <span className="text-xs text-gray-500 dark:text-gray-400">
                 {timelineStartYear} - {timelineEndYear}
@@ -1087,7 +1207,7 @@ const MapWithLayers = () => {
               {timelineMode ? (
                 <button
                   onClick={clearTimelineMode}
-                  className="px-2 py-1 text-xs bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                  className="px-2 py-1 text-xs text-white transition-colors bg-red-500 rounded hover:bg-red-600"
                   title="Switch to single game mode"
                 >
                   Single
@@ -1095,7 +1215,7 @@ const MapWithLayers = () => {
               ) : (
                 <button
                   onClick={enableTimelineMode}
-                  className="px-2 py-1 text-xs bg-blue-500 text-white rounded hover:bg-blue-600 transition-colors"
+                  className="px-2 py-1 text-xs text-white transition-colors bg-blue-500 rounded hover:bg-blue-600"
                   title="Switch to timeline mode"
                 >
                   Timeline
@@ -1105,46 +1225,23 @@ const MapWithLayers = () => {
           </div>
           
           {/* Compact Timeline Visualization */}
-          <div className="relative flex-1 flex flex-col justify-center mb-3">
+          <div className="relative flex flex-col justify-center flex-1">
             {/* Timeline Track */}
             <div 
-              className={`relative h-6 rounded overflow-hidden cursor-pointer transition-opacity duration-300 ${
-                timelineMode ? 'bg-gray-200 dark:bg-gray-700' : 'bg-gray-300 dark:bg-gray-600 opacity-50'
+              className={`relative h-2 rounded-full cursor-pointer transition-all duration-300 ${
+                timelineMode 
+                  ? 'bg-gray-100 dark:bg-gray-800 shadow-inner' 
+                  : 'bg-gray-200 dark:bg-gray-700 opacity-50'
               }`}
-              onClick={(e) => {
-                if (!timelineMode) return;
-                const rect = e.currentTarget.getBoundingClientRect();
-                const x = e.clientX - rect.left;
-                const percentage = x / rect.width;
-                const year = Math.round(1896 + percentage * (2018 - 1896));
-                const snappedYear = Math.round(year / 2) * 2;
-                
-                // Move the closest marker
-                const distanceToStart = Math.abs(snappedYear - timelineStartYear);
-                const distanceToEnd = Math.abs(snappedYear - timelineEndYear);
-                
-                if (distanceToStart <= distanceToEnd) {
-                  setTimelineStartYear(Math.min(snappedYear, timelineEndYear));
-                } else {
-                  setTimelineEndYear(Math.max(snappedYear, timelineStartYear));
-                }
-                
-                // Auto-update the map when clicking timeline
-                setTimeout(() => {
-                  const filtered = availableOlympics.filter(olympics => {
-                    const year = parseInt(olympics.year);
-                    return year >= Math.min(snappedYear, timelineEndYear) && year <= Math.max(snappedYear, timelineStartYear);
-                  });
-                  if (filtered.length > 0) {
-                    loadFilteredGamesData();
-                  }
-                }, 100);
-              }}
+              onClick={handleTimelineTrackInteraction}
+              onTouchStart={handleTimelineTrackInteraction}
             >
               {/* Selected Range Background */}
               <div 
-                className={`absolute top-0 h-full transition-all duration-200 ${
-                  timelineMode ? 'bg-blue-200 dark:bg-blue-800' : 'bg-gray-400 dark:bg-gray-500'
+                className={`absolute top-0 h-full rounded-full transition-all duration-300 ${
+                  timelineMode 
+                    ? 'bg-gradient-to-r from-blue-400 to-blue-600 dark:from-blue-500 dark:to-blue-700 shadow-md' 
+                    : 'bg-gray-300 dark:bg-gray-500'
                 }`}
                 style={{
                   left: `${((timelineStartYear - 1896) / (2018 - 1896)) * 100}%`,
@@ -1160,14 +1257,14 @@ const MapWithLayers = () => {
                 return (
                   <div
                     key={olympics.id}
-                    className={`absolute top-0.5 w-1 h-5 cursor-pointer transition-all duration-200 ${
+                    className={`absolute top-1/2 transform -translate-y-1/2 w-1.5 h-1.5 rounded-full cursor-pointer transition-all duration-200 ${
                       timelineMode && isInRange 
                         ? olympics.season === 'Summer' 
-                          ? 'bg-orange-500 hover:bg-orange-600' 
-                          : 'bg-blue-500 hover:bg-blue-600'
-                        : 'bg-gray-400 dark:bg-gray-500'
+                          ? 'bg-amber-400 dark:bg-amber-300 shadow-sm hover:scale-125' 
+                          : 'bg-cyan-400 dark:bg-cyan-300 shadow-sm hover:scale-125'
+                        : 'bg-gray-300 dark:bg-gray-600 opacity-60'
                     }`}
-                    style={{ left: `calc(${position}% - 2px)` }}
+                    style={{ left: `calc(${position}% - 3px)` }}
                     title={`${olympics.year} ${olympics.city} (${olympics.season})`}
                   ></div>
                 );
@@ -1175,66 +1272,57 @@ const MapWithLayers = () => {
               
               {/* Draggable Start Marker */}
               <div
-                className={`absolute top-0 w-3 h-6 rounded cursor-ew-resize border border-white shadow transition-all duration-200 z-10 ${
-                  timelineMode ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-500 cursor-not-allowed'
+                className={`absolute top-1/2 transform -translate-y-1/2 w-3 h-3 rounded-full cursor-ew-resize border border-white shadow-lg transition-all duration-200 z-10 touch-manipulation ${
+                  timelineMode 
+                    ? 'bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-400 hover:scale-110 active:scale-125 shadow-blue-300 dark:shadow-blue-900' 
+                    : 'bg-gray-400 dark:bg-gray-500 cursor-not-allowed'
                 }`}
                 style={{ left: `calc(${((timelineStartYear - 1896) / (2018 - 1896)) * 100}% - 6px)` }}
                 onMouseDown={(e) => timelineMode && handleTimelineMouseDown(e, 'start')}
+                onTouchStart={(e) => timelineMode && handleTimelineTouchStart(e, 'start')}
+                onMouseEnter={() => timelineMode && setShowStartLabel(true)}
+                onMouseLeave={() => timelineMode && !isDragging && setTimeout(() => setShowStartLabel(false), 1000)}
                 title={`Start: ${timelineStartYear}`}
               >
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-xs px-1 rounded whitespace-nowrap">
+                <div 
+                  className={`absolute px-2 py-1 text-xs font-medium text-white transform -translate-x-1/2 bg-blue-600 rounded-md shadow-md dark:bg-blue-500 -top-8 left-1/2 whitespace-nowrap transition-opacity duration-300 ${
+                    showStartLabel ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  }`}
+                >
                   {timelineStartYear}
                 </div>
               </div>
               
               {/* Draggable End Marker */}
               <div
-                className={`absolute top-0 w-3 h-6 rounded cursor-ew-resize border border-white shadow transition-all duration-200 z-10 ${
-                  timelineMode ? 'bg-blue-600 hover:bg-blue-700' : 'bg-gray-500 cursor-not-allowed'
+                className={`absolute top-1/2 transform -translate-y-1/2 w-3 h-3 rounded-full cursor-ew-resize border border-white shadow-lg transition-all duration-200 z-10 touch-manipulation ${
+                  timelineMode 
+                    ? 'bg-blue-600 dark:bg-blue-500 hover:bg-blue-700 dark:hover:bg-blue-400 hover:scale-110 active:scale-125 shadow-blue-300 dark:shadow-blue-900' 
+                    : 'bg-gray-400 dark:bg-gray-500 cursor-not-allowed'
                 }`}
                 style={{ left: `calc(${((timelineEndYear - 1896) / (2018 - 1896)) * 100}% - 6px)` }}
                 onMouseDown={(e) => timelineMode && handleTimelineMouseDown(e, 'end')}
+                onTouchStart={(e) => timelineMode && handleTimelineTouchStart(e, 'end')}
+                onMouseEnter={() => timelineMode && setShowEndLabel(true)}
+                onMouseLeave={() => timelineMode && !isDragging && setTimeout(() => setShowEndLabel(false), 1000)}
                 title={`End: ${timelineEndYear}`}
               >
-                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-blue-600 text-white text-xs px-1 rounded whitespace-nowrap">
+                <div 
+                  className={`absolute px-2 py-1 text-xs font-medium text-white transform -translate-x-1/2 bg-blue-600 rounded-md shadow-md dark:bg-blue-500 -top-8 left-1/2 whitespace-nowrap transition-opacity duration-300 ${
+                    showEndLabel ? 'opacity-100' : 'opacity-0 pointer-events-none'
+                  }`}
+                >
                   {timelineEndYear}
                 </div>
               </div>
             </div>
             
             {/* Year Labels */}
-            <div className="flex justify-between mt-2 text-xs text-gray-500 dark:text-gray-400">
+            <div className="flex justify-between mt-1 text-xs text-gray-500 dark:text-gray-400">
               <span>1896</span>
               <span>1940</span>
               <span>1980</span>
               <span>2018</span>
-            </div>
-          </div>
-          
-          {/* Status and Actions */}
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-2 text-xs">
-              {timelineMode ? (
-                <span className="text-blue-600 dark:text-blue-400">
-                  {filteredGames.length} games selected
-                  {loading && <span className="ml-2 text-gray-500">Loading...</span>}
-                </span>
-              ) : (
-                <span className="text-gray-500 dark:text-gray-400">
-                  Single game mode
-                </span>
-              )}
-            </div>
-            
-            <div className="flex items-center gap-2 text-xs">
-              <div className="flex items-center gap-1">
-                <div className="w-2 h-2 bg-orange-500 rounded-full"></div>
-                <span className="text-gray-600 dark:text-gray-400">Summer</span>
-              </div>
-              <div className="flex items-center gap-1">
-                <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
-                <span className="text-gray-600 dark:text-gray-400">Winter</span>
-              </div>
             </div>
           </div>
         </div>

@@ -1379,24 +1379,54 @@ const MapWithLayers = () => {
               expandedStatusBreakdown ? 'max-w-screen-sm opacity-100' : 'max-w-0 opacity-0'
             }`}
           >
-            <div className="h-full px-4 py-3 overflow-hidden whitespace-nowrap">
+            <div className="h-full px-4 py-3 overflow-hidden">
               <h4 className="mb-2 text-xs font-semibold text-gray-700 dark:text-gray-300">
                 Venue Status Breakdown
               </h4>
-              <div className="flex flex-wrap gap-1.5">
+              <div 
+                className="flex flex-wrap gap-1 overflow-y-auto max-h-12 custom-scrollbar"
+                style={{
+                  scrollbarWidth: 'thin',
+                  scrollbarColor: 'rgba(156, 163, 175, 0.5) transparent'
+                }}
+              >
+                <style jsx>{`
+                  .custom-scrollbar::-webkit-scrollbar {
+                    width: 6px;
+                  }
+                  .custom-scrollbar::-webkit-scrollbar-track {
+                    background: transparent;
+                    transform: translateY(-3px);
+                  }
+                  .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: rgba(156, 163, 175, 0.5);
+                    border-radius: 3px;
+                    border: none;
+                    transform: translateY(-3px);
+                  }
+                  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: rgba(156, 163, 175, 0.7);
+                  }
+                  .dark .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: rgba(75, 85, 99, 0.5);
+                  }
+                  .dark .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: rgba(75, 85, 99, 0.7);
+                  }
+                `}</style>
                 {getStatusBreakdown().map((item, index) => (
                   <div 
                     key={index} 
-                    className="flex items-center gap-1.5 p-1.5 rounded bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors whitespace-nowrap"
+                    className="flex items-center flex-shrink-0 gap-1 px-2 py-1 transition-colors rounded bg-gray-50 dark:bg-gray-700/50 hover:bg-gray-100 dark:hover:bg-gray-700"
                   >
                     <div 
-                      className="w-2.5 h-2.5 rounded-full border border-white shadow-sm flex-shrink-0"
+                      className="flex-shrink-0 w-2 h-2 border border-white rounded-full shadow-sm"
                       style={{ backgroundColor: item.color }}
                     ></div>
-                    <span className="text-xs text-gray-700 dark:text-gray-300">
+                    <span className="text-xs text-gray-700 truncate dark:text-gray-300">
                       {item.status}
                     </span>
-                    <span className="text-xs font-medium text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800 px-1.5 py-0.5 rounded-full shadow-sm">
+                    <span className="text-xs font-medium text-gray-800 dark:text-gray-200 bg-white dark:bg-gray-800 px-1 py-0.5 rounded-full shadow-sm min-w-[20px] text-center">
                       {item.count}
                     </span>
                   </div>

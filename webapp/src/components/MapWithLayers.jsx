@@ -2,8 +2,9 @@
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
+import { ResponsiveBar } from '@nivo/bar';
 
-const MapWithLayers = () => {
+const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowCharts }) => {
   const mapRef = useRef(null);
   
   // Load initial state from sessionStorage with fallbacks
@@ -60,6 +61,7 @@ const MapWithLayers = () => {
   const [showStartLabel, setShowStartLabel] = useState(false);
   const [showEndLabel, setShowEndLabel] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
+  const [showCharts, setShowCharts] = useState(false);
 
   // Available Olympic Games - based on actual files in geojson_scraper/combined_geojson
   const availableOlympics = [
@@ -167,6 +169,27 @@ const MapWithLayers = () => {
       loadOlympicsData(selectedOlympics);
     }
   }, [selectedOlympics, timelineMode]);
+
+  // Notify parent component when data changes
+  useEffect(() => {
+    if (onDataUpdate) {
+      onDataUpdate(geojsonData);
+    }
+  }, [geojsonData, onDataUpdate]);
+
+  // Notify parent when charts toggle changes
+  useEffect(() => {
+    if (onChartsToggle) {
+      onChartsToggle(showCharts);
+    }
+  }, [showCharts, onChartsToggle]);
+
+  // Sync external showCharts state
+  useEffect(() => {
+    if (externalShowCharts !== undefined && externalShowCharts !== showCharts) {
+      setShowCharts(externalShowCharts);
+    }
+  }, [externalShowCharts]);
 
   // Filter games based on timeline selection
   useEffect(() => {
@@ -724,18 +747,19 @@ const MapWithLayers = () => {
   };
 
   return (
-    <div className="relative w-full h-full overflow-hidden shadow-inner rounded-xl">
-      <Map
-        ref={mapRef}
-        {...viewState}
-        onMove={onMove}
-        onClick={onClick}
-        style={{ width: '100%', height: '100%' }}
-        mapStyle={getCurrentMapStyle()}
-        attributionControl={true}
-        cooperativeGestures={true}
-        interactiveLayerIds={['olympic-venues']}
-      >
+    <div className="relative w-full h-full max-h-full overflow-hidden shadow-inner rounded-xl">
+      <div className="relative w-full h-full max-h-full overflow-hidden">
+        <Map
+          ref={mapRef}
+          {...viewState}
+          onMove={onMove}
+          onClick={onClick}
+          style={{ width: '100%', height: '100%', maxHeight: '100%' }}
+          mapStyle={getCurrentMapStyle()}
+          attributionControl={true}
+          cooperativeGestures={true}
+          interactiveLayerIds={['olympic-venues']}
+        >
         {/* Controls */}
         <NavigationControl position="top-right" />
         <ScaleControl position="bottom-left" />
@@ -988,6 +1012,24 @@ const MapWithLayers = () => {
             <line x1="9" y1="15" x2="15" y2="15"></line>
             <circle cx="6" cy="9" r="1"></circle>
             <circle cx="6" cy="15" r="1"></circle>
+          </svg>
+        </button>
+
+        {/* Charts Control Button */}
+        <button
+          data-panel="charts-button"
+          onClick={() => {
+            setShowCharts(!showCharts);
+            if (onChartsToggle) onChartsToggle(!showCharts);
+          }}
+          className={`block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105 ${
+            showCharts ? 'ring-2 ring-blue-500 ring-opacity-50' : ''
+          }`}
+          title="Toggle charts panel"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
+            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+            <path d="m7 11 4-4 4 4-2 3h-4l-2-3z"></path>
           </svg>
         </button>
 
@@ -1441,6 +1483,7 @@ const MapWithLayers = () => {
           </div>
         </div>
       )}
+      </div>
     </div>
   );
 };

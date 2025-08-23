@@ -4,49 +4,22 @@ import React, { useState, useCallback, useEffect, useRef } from 'react';
 import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
 import { ResponsiveBar } from '@nivo/bar';
 
-const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowCharts }) => {
+const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, showCharts: externalShowCharts }) => {
   const mapRef = useRef(null);
   
-  // Load initial state from sessionStorage with fallbacks
-  const getInitialViewState = () => {
-    if (typeof window !== 'undefined') {
-      const saved = sessionStorage.getItem('olympics-map-viewstate');
-      if (saved) {
-        try {
-          return JSON.parse(saved);
-        } catch (e) {
-          console.warn('Failed to parse saved view state:', e);
-        }
-      }
-    }
-    return {
-      longitude: -0.1276,
-      latitude: 51.5074,
-      zoom: 11
-    };
-  };
+  // Hydration-safe state - start with defaults, load from storage after mount
+  const [isHydrated, setIsHydrated] = useState(false);
 
-  const getInitialMapStyle = () => {
-    if (typeof window !== 'undefined') {
-      const saved = sessionStorage.getItem('olympics-map-style');
-      if (saved) return saved;
-    }
-    return 'openstreetmap';
-  };
-
-  const getInitialOlympics = () => {
-    if (typeof window !== 'undefined') {
-      const saved = sessionStorage.getItem('olympics-selected-game');
-      if (saved) return saved;
-    }
-    return '2012_London';
-  };
-
-  const [viewState, setViewState] = useState(getInitialViewState());
+  // Initialize with default values, will be updated after hydration
+  const [viewState, setViewState] = useState({
+    longitude: -0.1276,
+    latitude: 51.5074,
+    zoom: 11
+  });
   const [geojsonData, setGeojsonData] = useState(null);
   const [selectedVenue, setSelectedVenue] = useState(null);
-  const [selectedMapStyle, setSelectedMapStyle] = useState(getInitialMapStyle());
-  const [selectedOlympics, setSelectedOlympics] = useState(getInitialOlympics());
+  const [selectedMapStyle, setSelectedMapStyle] = useState('openstreetmap');
+  const [selectedOlympics, setSelectedOlympics] = useState('2012_London');
   const [loading, setLoading] = useState(false);
   const [showLayerPanel, setShowLayerPanel] = useState(false);
   const [showOlympicsPanel, setShowOlympicsPanel] = useState(false);
@@ -54,7 +27,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowC
   const [expandedDescription, setExpandedDescription] = useState(false);
   const [expandedStatusBreakdown, setExpandedStatusBreakdown] = useState(false);
   const [showTimeline, setShowTimeline] = useState(true); // Timeline always visible by default
-  const [timelineMode, setTimelineMode] = useState(false); // true = timeline mode, false = single game mode
+  const [timelineMode, setTimelineMode] = useState(false);
   const [timelineStartYear, setTimelineStartYear] = useState(1896);
   const [timelineEndYear, setTimelineEndYear] = useState(2018);
   const [filteredGames, setFilteredGames] = useState([]);
@@ -62,6 +35,66 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowC
   const [showEndLabel, setShowEndLabel] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [showCharts, setShowCharts] = useState(false);
+
+  // Hydration effect - load saved values after component mounts
+  useEffect(() => {
+    setIsHydrated(true);
+    
+    // Load saved values from sessionStorage
+    if (typeof window !== 'undefined') {
+      // Load view state
+      const savedViewState = sessionStorage.getItem('olympics-map-viewstate');
+      if (savedViewState) {
+        try {
+          setViewState(JSON.parse(savedViewState));
+        } catch (e) {
+          console.warn('Failed to parse saved view state:', e);
+        }
+      }
+      
+      // Load map style
+      const savedMapStyle = sessionStorage.getItem('olympics-map-style');
+      if (savedMapStyle) {
+        setSelectedMapStyle(savedMapStyle);
+      }
+      
+      // Load selected olympics
+      const savedOlympics = sessionStorage.getItem('olympics-selected-game');
+      if (savedOlympics) {
+        setSelectedOlympics(savedOlympics);
+      }
+      
+      // Load timeline mode
+      const savedTimelineMode = sessionStorage.getItem('olympics-timeline-mode');
+      if (savedTimelineMode) {
+        try {
+          setTimelineMode(JSON.parse(savedTimelineMode));
+        } catch (e) {
+          console.warn('Failed to parse saved timeline mode:', e);
+        }
+      }
+      
+      // Load timeline start year
+      const savedStartYear = sessionStorage.getItem('olympics-timeline-start-year');
+      if (savedStartYear) {
+        try {
+          setTimelineStartYear(parseInt(savedStartYear));
+        } catch (e) {
+          console.warn('Failed to parse saved timeline start year:', e);
+        }
+      }
+      
+      // Load timeline end year
+      const savedEndYear = sessionStorage.getItem('olympics-timeline-end-year');
+      if (savedEndYear) {
+        try {
+          setTimelineEndYear(parseInt(savedEndYear));
+        } catch (e) {
+          console.warn('Failed to parse saved timeline end year:', e);
+        }
+      }
+    }
+  }, []);
 
   // Available Olympic Games - based on actual files in geojson_scraper/combined_geojson
   const availableOlympics = [
@@ -164,11 +197,12 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowC
   ];
 
   useEffect(() => {
-    if (!timelineMode) {
+    // Only load data after hydration is complete to ensure we have the correct session values
+    if (isHydrated && !timelineMode) {
       // In single game mode, load the selected olympics
       loadOlympicsData(selectedOlympics);
     }
-  }, [selectedOlympics, timelineMode]);
+  }, [selectedOlympics, timelineMode, isHydrated]);
 
   // Notify parent component when data changes
   useEffect(() => {
@@ -191,8 +225,23 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowC
     }
   }, [externalShowCharts]);
 
-  // Filter games based on timeline selection
+  // Notify parent when timeline data changes
   useEffect(() => {
+    if (onTimelineDataUpdate) {
+      onTimelineDataUpdate({
+        timelineMode,
+        filteredGames,
+        geojsonData,
+        timelineStartYear,
+        timelineEndYear
+      });
+    }
+  }, [timelineMode, filteredGames, geojsonData, timelineStartYear, timelineEndYear, onTimelineDataUpdate]);
+
+  // Filter games based on timeline selection (only after hydration)
+  useEffect(() => {
+    if (!isHydrated) return; // Wait for hydration
+    
     if (timelineMode) {
       const filtered = availableOlympics.filter(olympics => {
         const year = parseInt(olympics.year);
@@ -202,59 +251,72 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, showCharts: externalShowC
     } else {
       setFilteredGames([]);
     }
-  }, [timelineStartYear, timelineEndYear, timelineMode]);
+  }, [timelineStartYear, timelineEndYear, timelineMode, isHydrated]);
 
-  // Load initial data on mount
+  // Load initial data after hydration is complete
   useEffect(() => {
-    if (timelineMode) {
-      // Load timeline data by default
-      const filtered = availableOlympics.filter(olympics => {
-        const year = parseInt(olympics.year);
-        return year >= timelineStartYear && year <= timelineEndYear;
-      });
-      setFilteredGames(filtered);
-      // Auto-load all games in timeline mode
-      if (filtered.length > 0) {
-        setTimeout(() => loadFilteredGamesData(), 500);
-      }
-    } else {
+    if (!isHydrated) return; // Wait for hydration to complete
+    
+    if (!timelineMode) {
       // In single game mode, load the selected olympics
       setTimeout(() => loadOlympicsData(selectedOlympics), 100);
     }
-  }, []);
+    // Timeline mode data loading is handled by the filteredGames effect
+  }, [isHydrated, timelineMode, selectedOlympics]); // React to mode and game changes after hydration
 
-  // Auto-update when timeline range changes in timeline mode
+  // Load timeline data when filteredGames changes (after hydration)
   useEffect(() => {
-    if (timelineMode && filteredGames.length > 0) {
-      // Auto-load when range changes
+    if (isHydrated && timelineMode && filteredGames.length > 0) {
+      // Auto-load all games in timeline mode when filteredGames is set
       const timer = setTimeout(() => {
         loadFilteredGamesData();
-      }, 300); // Small delay to avoid too many rapid updates
+      }, 500);
       
       return () => clearTimeout(timer);
     }
-  }, [timelineStartYear, timelineEndYear, timelineMode]);
+  }, [filteredGames, isHydrated, timelineMode]);
 
-  // Save view state to sessionStorage whenever it changes
+  // Save view state to sessionStorage whenever it changes (only after hydration)
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (isHydrated && typeof window !== 'undefined') {
       sessionStorage.setItem('olympics-map-viewstate', JSON.stringify(viewState));
     }
-  }, [viewState]);
+  }, [viewState, isHydrated]);
 
-  // Save selected map style to sessionStorage whenever it changes
+  // Save selected map style to sessionStorage whenever it changes (only after hydration)
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (isHydrated && typeof window !== 'undefined') {
       sessionStorage.setItem('olympics-map-style', selectedMapStyle);
     }
-  }, [selectedMapStyle]);
+  }, [selectedMapStyle, isHydrated]);
 
-  // Save selected Olympics to sessionStorage whenever it changes
+  // Save selected Olympics to sessionStorage whenever it changes (only after hydration)
   useEffect(() => {
-    if (typeof window !== 'undefined') {
+    if (isHydrated && typeof window !== 'undefined') {
       sessionStorage.setItem('olympics-selected-game', selectedOlympics);
     }
-  }, [selectedOlympics]);
+  }, [selectedOlympics, isHydrated]);
+
+  // Save timeline mode to sessionStorage whenever it changes (only after hydration)
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-timeline-mode', JSON.stringify(timelineMode));
+    }
+  }, [timelineMode, isHydrated]);
+
+  // Save timeline start year to sessionStorage whenever it changes (only after hydration)
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-timeline-start-year', timelineStartYear.toString());
+    }
+  }, [timelineStartYear, isHydrated]);
+
+  // Save timeline end year to sessionStorage whenever it changes (only after hydration)
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-timeline-end-year', timelineEndYear.toString());
+    }
+  }, [timelineEndYear, isHydrated]);
 
   // Optional: Clear session storage on component unmount (though sessionStorage clears on tab close anyway)
   useEffect(() => {

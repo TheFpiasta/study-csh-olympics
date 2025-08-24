@@ -3,6 +3,7 @@
 import React from 'react';
 import { ResponsiveBar } from '@nivo/bar';
 import { ResponsiveLine } from '@nivo/line';
+import { ResponsivePie } from '@nivo/pie';
 
 const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
   // Prepare timeline status data for line chart
@@ -55,14 +56,14 @@ const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
   };
   if (!geojsonData) {
     return (
-      <div className="h-full flex flex-col justify-center items-center text-center p-8">
-        <div className="w-16 h-16 mb-4 rounded-full bg-gray-100 dark:bg-gray-700 flex items-center justify-center">
+      <div className="flex flex-col items-center justify-center h-full p-8 text-center">
+        <div className="flex items-center justify-center w-16 h-16 mb-4 bg-gray-100 rounded-full dark:bg-gray-700">
           <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-400">
             <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
             <path d="m7 11 4-4 4 4-2 3h-4l-2-3z"></path>
           </svg>
         </div>
-        <h3 className="text-lg font-medium text-gray-900 dark:text-gray-200 mb-2">
+        <h3 className="mb-2 text-lg font-medium text-gray-900 dark:text-gray-200">
           No Data Available
         </h3>
         <p className="text-sm text-gray-500 dark:text-gray-400">
@@ -82,13 +83,13 @@ const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
                             timelineData.filteredGames.length > 1;
 
   return (
-    <div className="h-full flex flex-col">
+    <div className="flex flex-col h-full">
       {/* Venue Status Chart */}
       <div className={`${showTimelineChart ? 'mb-4' : 'mb-6'}`}>
         <h4 className="mb-3 text-sm font-semibold text-gray-800 dark:text-gray-200">
           Venue Status Distribution
         </h4>
-        <div className={`${showTimelineChart ? 'h-52' : 'h-80'} bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 chart-container`}>
+        <div className={`${showTimelineChart ? 'h-52' : 'h-52'} bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 chart-container`}>
           <style jsx>{`
             .chart-container :global(text) {
               fill: #d1d5db !important;
@@ -174,7 +175,7 @@ const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
           <h4 className="mb-3 text-sm font-semibold text-gray-800 dark:text-gray-200">
             Venue Status Development Over Time
           </h4>
-          <div className="h-52 bg-gray-50 dark:bg-gray-800/50 rounded-lg p-2 chart-container">
+          <div className="p-2 rounded-lg h-52 bg-gray-50 dark:bg-gray-800/50 chart-container">
             <style jsx>{`
               .chart-container :global(text) {
                 fill: #d1d5db !important;
@@ -280,7 +281,7 @@ const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
                 }}
               />
             ) : (
-              <div className="h-full flex items-center justify-center">
+              <div className="flex items-center justify-center h-full">
                 <p className="text-sm text-gray-500 dark:text-gray-400">
                   No timeline data available for the selected games
                 </p>
@@ -290,16 +291,101 @@ const ChartsPanel = ({ geojsonData, getStatusBreakdown, timelineData }) => {
         </div>
       )}
 
-      {/* Placeholder for more charts - only show if no timeline chart */}
+      {/* Venue Status Pie Chart - only show if no timeline chart */}
       {!showTimelineChart && (
-        <div className="flex-1 flex items-center justify-center">
-          <div className="p-6 text-center border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-600">
-            <p className="text-sm text-gray-500 dark:text-gray-400">
-              More charts coming soon...
-            </p>
-            <p className="text-xs text-gray-400 dark:text-gray-500 mt-2">
-              Select multiple games in timeline mode to see development charts
-            </p>
+        <div className="flex-1">
+          <h4 className="mb-3 text-sm font-semibold text-gray-800 dark:text-gray-200">
+            Venue Status Breakdown
+          </h4>
+          <div className="p-2 rounded-lg h-52 bg-gray-50 dark:bg-gray-800/50 chart-container">
+            <style jsx>{`
+              .chart-container :global(text) {
+                fill: #d1d5db !important;
+                font-weight: 600 !important;
+              }
+            `}</style>
+            <ResponsivePie
+              data={statusData.map(item => ({
+                id: item.status,
+                label: item.status,
+                value: item.count,
+                color: item.color
+              }))}
+              margin={{ top: 20, right: 80, bottom: 80, left: 80 }}
+              innerRadius={0.5}
+              padAngle={0.7}
+              cornerRadius={3}
+              activeOuterRadiusOffset={8}
+              colors={({ data }) => data.color}
+              borderWidth={1}
+              borderColor={{
+                from: 'color',
+                modifiers: [['darker', 0.2]]
+              }}
+              arcLinkLabelsSkipAngle={10}
+              arcLinkLabelsTextColor="#d1d5db"
+              arcLinkLabelsThickness={2}
+              arcLinkLabelsColor={{ from: 'color' }}
+              arcLabelsSkipAngle={10}
+              arcLabelsTextColor="#f3f4f6"
+              animate={true}
+              motionStiffness={90}
+              motionDamping={15}
+              legends={[
+                {
+                  anchor: 'bottom',
+                  direction: 'row',
+                  justify: false,
+                  translateX: 0,
+                  translateY: 56,
+                  itemsSpacing: 0,
+                  itemWidth: 100,
+                  itemHeight: 18,
+                  itemTextColor: '#d1d5db',
+                  itemDirection: 'left-to-right',
+                  itemOpacity: 1,
+                  symbolSize: 12,
+                  symbolShape: 'circle',
+                  effects: [
+                    {
+                      on: 'hover',
+                      style: {
+                        itemTextColor: '#f3f4f6'
+                      }
+                    }
+                  ]
+                }
+              ]}
+              theme={{
+                background: 'transparent',
+                tooltip: {
+                  container: {
+                    background: '#ffffff',
+                    color: '#374151',
+                    fontSize: '12px',
+                    borderRadius: '8px',
+                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
+                    border: '1px solid #e5e7eb',
+                    padding: '8px 12px'
+                  }
+                },
+                labels: {
+                  text: {
+                    fontSize: 11,
+                    fill: '#f3f4f6',
+                    fontWeight: 600,
+                    textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
+                  }
+                },
+                legends: {
+                  text: {
+                    fontSize: 11,
+                    fill: '#d1d5db',
+                    fontWeight: 600
+                  }
+                }
+              }}
+            />
           </div>
         </div>
       )}

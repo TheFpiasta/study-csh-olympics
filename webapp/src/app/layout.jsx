@@ -29,12 +29,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={`${geist.variable} ${geistMono.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`dark ${geist.variable} ${geistMono.variable}`} suppressHydrationWarning>
       
-      <body className="min-h-screen antialiased">
+      <body className="min-h-screen antialiased bg-white dark:bg-slate-900">
         <ThemeProvider>
           <div className="text-gray-900 bg-white dark:bg-slate-900 dark:text-gray-100">
-            <ThemeToggle />
+            {/* <ThemeToggle /> */}
             {/* <Navigation /> */}
             {children}
           </div>

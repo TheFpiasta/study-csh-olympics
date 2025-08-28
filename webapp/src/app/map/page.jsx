@@ -1,5 +1,5 @@
 import Link from "next/link";
-import MapWithLayers from "@/components/MapWithLayers";
+import MapWithChartsLayout from "@/components/MapWithChartsLayout";
 import OlympicRings from "@/components/OlympicRings";
 
 export default function MapPage() {
@@ -34,16 +34,14 @@ export default function MapPage() {
                 </div>
             </div>
             
-            {/* Map Container */}
+            {/* Map and Charts Container */}
             <div className="mx-4 mb-4">
-                <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-2 shadow-lg border border-gray-200/50 dark:border-gray-600/50">
-                    <div className="map-container rounded-xl overflow-hidden">
-                        <MapWithLayers />
-                    </div>
+                <div className="h-[600px]">
+                    <MapWithChartsLayout />
                 </div>
             </div>
 
-            {/* Instructions */}
+            {/* Footer Instructions */}
             <div className="mx-4 mb-4">
                 <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">

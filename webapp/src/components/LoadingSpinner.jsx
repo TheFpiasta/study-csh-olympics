@@ -4,8 +4,7 @@ const LoadingSpinner = ({ message = "Loading Olympic data..." }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-[400px] p-8">
       <div className="relative">
-        <OlympicRings size="w-24 h-24" className="animate-spin" />
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent animate-pulse"></div>
+        <OlympicRings size="w-24 h-24" />
       </div>
       <p className="mt-6 text-gray-600 dark:text-gray-400 text-lg font-medium animate-pulse">
         {message}

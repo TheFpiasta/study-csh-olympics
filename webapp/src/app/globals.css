@@ -266,3 +266,53 @@
 .dark .slider::-moz-range-thumb:hover {
   background: #3b82f6;
 }
+
+/* Resizable Layout Utilities */
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.resizing {
+  cursor: col-resize !important;
+}
+
+.resizing * {
+  cursor: col-resize !important;
+}
+
+/* Prevent text selection during resize */
+.resizing,
+.resizing * {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+/* Smooth resizer handle */
+.resizer-handle {
+  position: relative;
+  overflow: hidden;
+}
+
+.resizer-handle::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2px;
+  height: 24px;
+  background: linear-gradient(to bottom, 
+    transparent 0%, 
+    rgba(107, 114, 128, 0.5) 20%, 
+    rgba(107, 114, 128, 0.8) 50%, 
+    rgba(107, 114, 128, 0.5) 80%, 
+    transparent 100%
+  );
+  border-radius: 1px;
+  transition: all 0.2s ease;
+}

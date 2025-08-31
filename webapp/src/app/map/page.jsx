@@ -1,8 +1,25 @@
+'use client';
+
 import Link from "next/link";
 import MapWithChartsLayout from "@/components/MapWithChartsLayout";
+import GlobeView from "@/components/GlobeView";
 import OlympicRings from "@/components/OlympicRings";
+import { useState } from "react";
 
 export default function MapPage() {
+    const [viewMode, setViewMode] = useState('map'); // 'map' or 'globe'
+    const [venues, setVenues] = useState([]);
+
+    const toggleViewMode = () => {
+        setViewMode(prevMode => prevMode === 'map' ? 'globe' : 'map');
+    };
+
+    const handleDataUpdate = (data) => {
+        if (data && data.features) {
+            setVenues(data.features);
+        }
+    };
+
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-slate-900 olympic-bg">
             {/* Header */}
@@ -36,8 +53,32 @@ export default function MapPage() {
             
             {/* Map and Charts Container */}
             <div className="mx-4 mb-4">
-                <div className="h-[600px]">
-                    <MapWithChartsLayout />
+                <div className="h-[600px] relative">
+                    {viewMode === 'map' ? (
+                        <MapWithChartsLayout 
+                            onDataUpdate={handleDataUpdate} 
+                            viewMode={viewMode}
+                            toggleViewMode={toggleViewMode}
+                        />
+                    ) : (
+                        <div className="h-full bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-200/50 dark:border-gray-600/50 shadow-lg overflow-hidden relative">
+                            {/* Globe View Control Button - positioned like other map controls */}
+                            <div className="absolute space-y-2 top-4 left-4 z-10">
+                                <button
+                                    onClick={toggleViewMode}
+                                    className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
+                                    title="Switch to Map View"
+                                >
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
+                                        <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2"></polygon>
+                                        <line x1="8" y1="2" x2="8" y2="18"></line>
+                                        <line x1="16" y1="6" x2="16" y2="22"></line>
+                                    </svg>
+                                </button>
+                            </div>
+                            <GlobeView venues={venues} />
+                        </div>
+                    )}
                 </div>
             </div>
 

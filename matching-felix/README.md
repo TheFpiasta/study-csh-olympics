@@ -1,112 +1,284 @@
+# Olympic Venues Matching System
 
+## Overview
 
-## venv
+This is a proof-of-concept (POC) venue matching system for the Computational Spatial Humanities thesis project at University Leipzig. The system matches Olympic venue data from two sources: GeoJSON files (scraped from Olympedia.org) and structured JSON data (extracted from PDF reports via Claude 4). This implementation has been adopted by the `geojson_scraper` component.
+
+**Current Performance**: 82.2% successful venue matching rate across all Olympic Games (1896-2022)
+
+## Project Structure
+
+```
+matching-felix/
+├── main.py                                    # Main execution script
+├── venues_matcher.py                          # Core matching algorithms
+├── requirements.txt                           # Python dependencies
+├── getAllVenusNames.py                        # Venue name extraction utility
+├── test_venue_matching.py                     # Test suite for matching algorithms
+├── test_logging.py                            # Logging functionality tests
+├── visualize_structure.py                     # Project structure visualization
+├── claude-4-extraction-promt.txt              # Claude 4 extraction prompt template
+├── venues.txt                                 # Complete list of venue names
+├── results.md                                 # Development notes and findings
+├── combined_geojson/                          # First iteration results
+├── combined_geojson_less_stages_less_array/   # Best results (82.2% match rate)
+├── combined_geojson_less_stages_less_array_no_sport_match/ # No sports matching variant
+└── *.log                                      # Various test and execution logs
+```
+
+## Core Components
+
+### 1. Main Pipeline (`main.py`)
+
+The main execution script orchestrates the entire matching process:
+
+- **Data Loading**: Loads summer/winter venue JSON data from PDF extractions
+- **GeoJSON Processing**: Processes venue data from Olympedia scraper
+- **Venue Matching**: Applies two-stage matching algorithm
+- **Statistics Collection**: Tracks matching performance and generates reports
+- **Output Generation**: Creates enhanced GeoJSON files with matched venue data
+
+**Key Features**:
+- Configurable logging (console/file)
+- Comprehensive statistics tracking
+- Support for 53 Olympic Games (Summer: 1896-2020, Winter: 1924-2022)
+- Automatic output directory management
+
+### 2. Matching Engine (`venues_matcher.py`)
+
+Advanced venue name matching system using hybrid algorithms:
+
+#### Matching Stages:
+1. **Exact Match**: Direct string comparison after normalization
+2. **Fuzzy Match**: Uses FuzzyWuzzy/RapidFuzz for similarity scoring (threshold: 0.75)
+
+#### Advanced Features:
+- **Parentheses Splitting**: Handles venue names like "Stadium (aka Olympic Arena)"
+- **Name Preprocessing**: Removes filler words ("also", "known", "as")
+- **Multi-library Support**: Primary FuzzyWuzzy, fallback to difflib
+- **Confidence Scoring**: Provides match confidence for quality assessment
+
+### 3. Two-Stage Matching Process
+
+#### Stage 1: Sports-Based Matching
+- Matches venues by comparing sports/activities
+- Fast initial filtering for obvious matches
+- Handles comma-separated sport lists
+
+#### Stage 2: Name-Based Matching
+- Processes unmatched venues from Stage 1
+- Uses advanced string similarity algorithms
+- Applies confidence thresholding (≥0.75)
+
+## Data Sources
+
+### Input Data
+- **GeoJSON Files**: `../geojson_scraper/named_geojsons/*.geojson`
+  - Scraped venue data with coordinates and metadata
+  - Sports associations and venue names
+- **JSON Files**: PDF-extracted venue data
+  - Summer: `../pdfToJson/n8n/n8n_io/PDF_summery_v2/venues_summer/*.json`
+  - Winter: `../pdfToJson/n8n/n8n_io/PDF_summery_v2/venues_winter/*.json`
+
+### Output Data
+- **Enhanced GeoJSON Files**: Original GeoJSON with matched venue metadata
+- **Statistics Reports**: JSON files with detailed matching performance
+- **Log Files**: Comprehensive matching process logs
+
+## Installation & Setup
+
+### Prerequisites
+- Python 3.8+
+- Required dependencies (see `requirements.txt`)
+
+### Installation
 
 ```bash
-py -m venv .venv
-# If you are using a Unix-like system (Linux, macOS)
-source .venv/bin/activate
-# If you are using Windows
-.venv\Scripts\activate
+# Navigate to matching-felix directory
+cd matching-felix
 
+# Create virtual environment
+python -m venv .venv
+
+# Activate virtual environment
+# Linux/macOS:
+source .venv/bin/activate
+# Windows:
+# .venv\Scripts\activate
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## packages to requirements.txt
+### Dependencies
+
+```
+fuzzywuzzy==0.18.0
+Levenshtein==0.27.1
+python-Levenshtein==0.27.1
+RapidFuzz==3.13.0
+```
+
+## Usage
+
+### Basic Execution
 
 ```bash
-pip freeze > requirements.txt
+# Run the complete matching pipeline
+python main.py
 ```
 
-## Ordner Struktur
+### Testing
 
-```txt
-matching-felix
-├── README.md
-├── both_test.log - Test log for testing logger with log to fiel and console
-├── claude-4-extraction-promt.txt - Prompt for Claude 4 to extract venue names
-├── combined_geojson - first good try
-│   ├── 1896_Athens.geojson
-│   ├── ...
-│   ├── 2022_Beijing.geojson
-│   ├── matching_log.txt
-│   └── venue_matching_statistics.json
-├── combined_geojson_less_stages_less_array - best try
-│   ├── 1896_Athens.geojson
-│   ├── ...
-│   ├── 2022_Beijing.geojson
-│   ├── matching.log
-│   └── venue_matching_statistics.json
-├── combined_geojson_less_stages_less_array_no_sport_match - not so good try
-│   ├── 1896_Athens.geojson
-│   ├── ...
-│   ├── 2022_Beijing.geojson
-│   ├── matching.log
-│   └── venue_matching_statistics.json
-├── console_only_test.log - Test file for logging seperatly
-├── getAllVenusNames.py - Script to extract all venue names from the geojson and json files
-├── main.py - Main script to load, process and match venues
-├── requirements.txt - Python dependencies
-├── test_logging.py - Test for logging functionality
-├── test_matcher-3-less-stages_less_array.log - Test log for matcher with only fuzzy and direct matches and less word removes
-├── test_matcher-less-stages.log - Test log for matcher with only fuzzy and direct matches
-├── test_matcher-new-arrays.log - Test log for matcher with new BIG arrays
-├── test_matcher.log - test log for test_venue_matching
-├── test_venue_matching.py - Test script for venue matching
-├── venues.txt - List of venue names
-├── venues_matcher.py - Contains the matching algorithms for venue names
-└── visualize_structure.py - Script to visualize the folder structure
+```bash
+# Run venue matching tests
+python test_venue_matching.py
+
+# Test logging functionality
+python test_logging.py
+
+# Extract all venue names
+python getAllVenusNames.py
 ```
 
-## Stand der matches
+### Configuration
 
-Ich habe einiges rum probiert. Die Beste Lösung um die Stadien zu matchen in meinem Code (matching-felix) ist:
+Key configuration options in `main.py`:
 
-Hauptfile: main.py
-Nutzt: venues_matcher.py (Funktionalität für name-matches)
+```python
+# Output directory
+output_dir = "combined_geojson_less_stages_less_array"
 
-README.md für mehr Strucktur infos
+# Logging configuration
+log_to_console = False
+log_to_file = True
+log_file = "matching.log"
 
-- Sports match --> alle unmatched weiter behandeln
-- Namen mit klammern "Stadium (aka venues)" splitten --> "Stadium", "aka venues"
-  --> fällt mir gerade ein: könnte man auch noch nach Komma oder "/" splitten?
-- dann für alle Kombinationen (unsplittet, splittet) Name-matching ausführen
-  --> 1. direkter Match (gleiche namen)
-  --> 2. fuzzy Match mit threshold
-- im preprocessing nur die wörter "also", "known", "as" filtern.
-- FYI aktuelle und Beste Implementation erzeugte den Ordner "combined_geojson_less_stages_less_array"
-  ==> 82.2% matches ereicht (über alle Stadien)
+# Matching threshold (in venues_matcher.py)
+confidence_threshold = 0.75
+```
 
-### Problem / todos
+## Algorithm Details
 
-- es wird alles schön gelogged, aber da das ultra viel ist, stellt sich eine Überprüfung als schwirig raus. Es kann nur stichprobenhaltig geschaut werden
+### Matching Strategy
 
-### Noch zu implementieren:
+1. **Preprocessing**:
+   - Normalize venue names
+   - Remove filler words and standardize terminology
+   - Split parenthetical content for multiple matching attempts
 
-- bei den matches werden aktuell noch nicht alle Statistiken eingefügt. Und die globalen infos je Austragung. Das müsste mal noch angepast werden
-  --> transfer_venue_data() für venues properties
-  --> transfer_olympic_year_data() für globale properties
+2. **Sports Matching**:
+   - Compare sport/activity lists between data sources
+   - Fast filtering for venues with matching sports
 
-### Erkentnisse
+3. **Name Matching**:
+   - Multi-variation matching (original, outer parentheses, inner parentheses)
+   - Fuzzy string similarity with confidence scoring
+   - Bidirectional matching for robustness
 
-- mehr wörter filtern (filler, place namen, location namen) hat das matching verschlechtert
-- die implementierten token_based_match und substring_match sind unsichere Matches. Es werden gefühlt mehr False Positive produziert. und etwas mehr unmatched bleiben übrig
-- fuzzy mit thrashold von 0.75 ist ziemlich gut, kann aber auch noch mal anders gesetzt werden
-- Es gibt/ gab einige Fälle, indem mal durch das Sports match zwei unterschiedliche Stadien gematched wurden. Das muss nochmal überprüft werden
-  z.B.
+### Performance Characteristics
 
-`[00:09:01] INFO: Sport match: JSON venue Rio Olympic Stadium <-> GeoJSON venue ['Minerão', 'Mineirão', 'Estádio Governador Magalhães Pinto'] | Sports json: Football, Sports geojson: Football`
+- **Overall Match Rate**: 82.2%
+- **Exact Matches**: 243 venues (high confidence)
+- **Fuzzy Matches**: 345 venues (good confidence ≥0.75)
+- **Sports Matches**: 177 venues
+- **Unmatched**: 149 GeoJSON venues, 192 JSON venues
 
-~2016 Summer Olympics
+## Output Structure
 
-### Resultat
+### Enhanced GeoJSON Features
 
-- meine Implementation könnte man nehmen.
-- Es sollte darauf hingewießen werden, dass es zu fehlerhaten / unvollständigen Daten kommen kann
-- todos wie oben beschrieben müssten mal noch angepast werden
-- für die paar Jahre, die wir tiefer analysieren, müssen wir die Matching Resultate genauer untersuchen/ prüfen
-- Auswertungen über alle venues sollten mit bedacht erstellt werden. ggf für graphen nicht die geojsons verwenden sondern die einzelnen Datenquellen
-- Das exakte matching ist ein POC und ein offenes Thema für weitere Forschungsarbeiten.
+Matched venues receive additional properties:
 
-Ich denke, wir sollten uns vorerst mit den über 80% Matches zufrieden geben und damit weiter arbeiten.
+```json
+{
+  "properties": {
+    "match_type": "name_match|sports_match",
+    "match_confidence": 0.85,
+    "match_method": "fuzzy_match_outer",
+    "matched_venue_name": "Olympic Stadium",
+    "venue_classification": "Existing",
+    "venue_status": "In use",
+    "venue_use": "Athletics, ceremonies",
+    "venue_information": "Detailed venue description...",
+    "olympics_year": "1960",
+    "olympics_city": "Rome",
+    "olympics_season": "summer"
+  }
+}
+```
 
+### Statistics Output
+
+Comprehensive matching statistics saved as JSON:
+
+```json
+{
+  "total_statistics": {
+    "total_venues": 1911,
+    "geojson": {
+      "total_venues": 983,
+      "sports_matches": 177,
+      "name_matches": 657,
+      "unmatched": 149
+    },
+    "json": {
+      "total_venues": 928,
+      "sports_matches": 135,
+      "name_matches": 601,
+      "unmatched": 192
+    }
+  }
+}
+```
+
+## Data Quality & Limitations
+
+### Known Issues
+- **False Positives**: Sports-based matching may incorrectly link different venues with same sports
+- **Incomplete Coverage**: 17.8% of venues remain unmatched
+- **Data Variations**: Inconsistent naming conventions across sources
+- **Language Barriers**: Limited multi-language synonym support
+
+### Recommendations
+- Manual verification for critical analysis years
+- Use individual data sources for statistical analysis rather than combined GeoJSONs
+- Consider venue matching as approximate for broad analysis
+
+## Development Notes
+
+### POC Status
+This is a proof-of-concept implementation demonstrating venue matching feasibility. The algorithm prioritizes:
+- **Speed**: Efficient processing of large venue datasets
+- **Accuracy**: High-confidence matches with detailed scoring
+- **Flexibility**: Configurable thresholds and logging
+
+### Integration with geojson_scraper
+The matching algorithms and data structures have been integrated into the main `geojson_scraper` component for production use.
+
+### Future Improvements
+- Enhanced multi-language synonym support
+- Machine learning-based matching refinements
+- Geographic proximity-based matching validation
+- Automated false positive detection
+
+## Logging & Debugging
+
+### Log Levels
+- **INFO**: Basic matching results and statistics
+- **DEBUG**: Detailed matching attempts and scores
+- **WARNING**: Low-confidence matches and potential issues
+- **ERROR**: Data loading and processing errors
+
+### Log Analysis
+- Detailed venue matching logs in output directories
+- Statistics summaries for performance evaluation
+- Unmatched venue lists for manual review
+
+## Files Reference
+
+- `main.py:923-955` - Main execution entry point
+- `venues_matcher.py:614-701` - Core matching algorithm
+- `main.py:368-406` - Sports-based matching logic
+- `main.py:310-366` - Name-based matching implementation
+- `main.py:444-598` - Statistics collection system

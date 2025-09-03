@@ -1,0 +1,1005 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.41319,
+          46.006553
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Terrain de tir à l'arc olympique"
+        ],
+        "place": "Joliette, Québec",
+        "coordinates": "46.006553,-73.41319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1974",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_549.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551944,
+          45.557778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade olympique, Parc olympique",
+          "Olympic Stadium, Olympic Park",
+          "Stade Olympique de Montréal"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.557778,-73.551944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Modern Pentathlon",
+          "Opening ceremony",
+          "Closing ceremony",
+          "equestrian (jumping)",
+          "modern pentathlon (running)",
+          "Opening and Closing Ceremonies"
+        ],
+        "opened": "1976",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "33 m",
+        "source_file": "venue_550.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use",
+        "information": "In use all year round, the 56,000-seater stadium hosts major cultural and commercial events, and national and international sporting competitions. For example, it welcomed the 2017 Artistic Gymnastics World Championships and the 2015 FIFA Women's World Cup. Known locally as the Big O, it was once the home of the Expos, the city's former Major League Baseball team, who left for Washington in 2004. The Olympic Stadium has had no resident team since then.\n\nIts athletic facilities have been used continuously by the people of Montreal since the 1976 Olympic Games ended, and it was visited by 66 million people between then and 2011. Its tower, which was completed in 1987 and extensively renovated in 2017, has been converted into a multi-purpose complex which is fully rented out.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580278,
+          45.555556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centre Étienne Desmarteau",
+          "Étienne Desmarteau Centre",
+          "Centre Etienne-Desmarteau"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.555556,-73.580278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1976",
+        "type": "indoor venue",
+        "source_file": "venue_551.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.584722,
+          45.490278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Forum de Montréal",
+          "Montréal Forum",
+          "Pepsi Forum (1997-Present)"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.490278,-73.584722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Handball",
+          "Volleyball"
+        ],
+        "opened": "1924",
+        "type": "outdoor venue",
+        "source_file": "venue_552.json",
+        "Olympics": "1976 Montreal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.547222,
+          45.562222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aréna Maurice-Richard",
+          "Maurice Richard Arena",
+          "Aréna Maurice Richard"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.562222,-73.547222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Wrestling"
+        ],
+        "opened": "1962",
+        "type": "indoor venue",
+        "source_file": "venue_553.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.525961,
+          45.516181
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bassin olympique, Île Notre Dame",
+          "Olympic Basin, Notre Dame Island",
+          "Bassin Olympique"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.516181,-73.525961",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_554.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Situated in middle of the St Lawrence River, on the man-made Notre Dame Island, the Basin is used by eight local clubs offering activities for beginners and high-performance training. It also serves as the Para Canoe National Training Centre and has staged many major events over the years, including the annual Montreal International Dragon Boat Race Festival.\n\nIn 1984, it hosted the FISA World Rowing Championships for the first of two occasions, followed by the ICF Canoe Sprint World Championships in 1986. Its boathouses, spectator stands and athletes' facilities were extensively renovated in 2014. The Basin lies next to a park and lake with a public beach, and is a popular leisure destination for local people, attracting more than 50,900 visitors in 2019.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.614171,
+          45.508428
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuit Mont-Royal",
+          "Mount Royal Circuit"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.508428,-73.614171",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling (road)"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_555.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The road race was held on the same 12.5km circuit that staged the road race at the 1974 UCI World Championships, with riders completing 14 laps. The route ran around Mont Royal, the hill that stands in the middle of the city. The facilities and stands erected for the event were dismantled afterwards. After the 1976 Montreal Games, the circuit was used for various cycling competitions such as the Americas Grand Prix and the Jeux du Québec 2016.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.824378,
+          45.46473
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Circuit Fairview"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.46473,-73.824378",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling (road)"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_556.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The 100km team time trial was held on a 25km section of the Trans-Canada Highway, which connects the country's Pacific and Atlantic coastlines. The start and finish line were located in front of the Fairview Shopping Centre, which still stands today. The facilities and stands erected for the event were dismantled afterwards.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.549722,
+          45.559722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vélodrome olympique, Parc olympique",
+          "Olympic Velodrome, Olympic Park",
+          "Biodôme de Montréal (1992-Present)",
+          "Olympic Velodrome"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.559722,-73.549722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Judo",
+          "Cycling (track)"
+        ],
+        "opened": "1976",
+        "type": "indoor venue",
+        "dimensions": "285.714 m",
+        "surface": "Wood",
+        "additional_details": "48° curves, 13° straights",
+        "source_file": "venue_557.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use (repurposed)",
+        "information": "Aware of the limited popularity of track cycling in the Montreal area, the Organising Committee planned for the velodrome's post-Games use and had refrigeration pipes laid in the infield so that the venue could be used as an ice rink. The committee also maximised its use during Games time by staging the judo competition there. In 1992, the venue was converted into the Biodome. One of Canada's largest natural science museum complexes, it recreates four ecosystems found in the Americas, including tropical rainforest and sub-polar regions. Closed in 2018 for renovation, it reopened in 2020.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.551944,
+          45.559444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Piscine olympique",
+          "Olympic Pool"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.559444,-73.551944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo",
+          "modern pentathlon (swimming)"
+        ],
+        "opened": "1976",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_558.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue hosts Canada's national championships and Olympic trials, and is the training base for the country's Olympic team in 10 sports and the home of the Quebec National Sport Institute (INSQ). Located in Montreal Olympic Park, it staged the 2018 FINA Diving World Series and attracts approximately 300,000 recreational users a year. Its facilities include a 50-metre indoor pool, a diving well and a 50-metre training pool. A major refurbishment of the venue was completed in 2015, and involved adapting the diving well to FINA regulations, installing a new water-filtration system and building a 22-metre diving platform.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.671396,
+          45.288195
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centre équestre olympique",
+          "Olympic Equestrian Centre"
+        ],
+        "place": "Bromont, Québec",
+        "coordinates": "45.288195,-72.671396",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "opened": "1975",
+        "type": "outdoor venue",
+        "source_file": "venue_559.json",
+        "Olympics": "1976 Montreal"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.6125,
+          45.509444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade d'Hiver de l'Université de Montréal",
+          "University of Montréal Winter Stadium"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.509444,-73.6125",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon",
+          "modern pentathlon (fencing)"
+        ],
+        "opened": "1964",
+        "type": "indoor venue",
+        "source_file": "venue_560.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.397222,
+          43.666667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Varsity Stadium",
+          "Stade Varsity"
+        ],
+        "place": "Toronto, Ontario",
+        "coordinates": "43.666667,-79.397222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Stadium demolished in 2002, but replaced on same site by a new stadium.",
+        "opened": "1898",
+        "demolished": "2002",
+        "type": "outdoor venue",
+        "source_file": "venue_561.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use (rebuilt)",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.68365,
+          45.398178
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lansdowne Park",
+          "Frank Clair Stadium (1993-Present)",
+          "Parc Lansdowne"
+        ],
+        "place": "Ottawa, Ontario",
+        "coordinates": "45.398178,-75.68365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1908",
+        "type": "outdoor venue",
+        "source_file": "venue_562.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.881327,
+          45.411943
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Sherbrooke",
+          "Sherbrooke Stadium",
+          "Parc Sylvie-Daigle (?-Present)",
+          "Stade de Sherbrooke"
+        ],
+        "place": "Sherbrooke, Québec",
+        "coordinates": "45.411943,-71.881327",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_563.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.63717,
+          45.552668
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centre Claude-Robillard",
+          "Claude Robillard Centre",
+          "Complexe sportif Claude-Robillard (?-Present)"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.552668,-73.63717",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball",
+          "Water Polo"
+        ],
+        "opened": "1976",
+        "type": "indoor venue",
+        "source_file": "venue_564.json",
+        "Olympics": "1976 Montreal",
+        "classification": "New build",
+        "status": "In use",
+        "information": "As planned, the venue provided local people with a community sports complex after the 1976 Olympic Games were over. The centre's Olympic-sized swimming pool can be divided to create a shallow area for beginners, while the multi-sports hall is also a flexible space, with its permanent synthetic flooring suitable for a host of sports, such as volleyball, basketball and badminton. The centre's facilities also include athletics tracks, tennis courts, baseball pitches and a diving pool with a 10-metre platform.\n\nRe-opened in 2009 following extensive renovation work, the complex is a training venue for around 20 clubs and 250 high-performance athletes, and is the headquarters of Excellence Sportive de l'Île de Montréal (ESIM), which has been supporting competitive sport in the Montreal region since 2013.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.276944,
+          46.785
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pavillon de l'Éducation Physique et des Sports de l'Université Laval (also known as PEPS Laval)",
+          "Pavillon de l'éducation physique et des sports, Université Laval"
+        ],
+        "place": "Québec, Québec",
+        "coordinates": "46.785,-71.276944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1970",
+        "type": "indoor venue",
+        "source_file": "venue_565.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.883279,
+          45.410453
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palais des Sports",
+          "Palace of Sports",
+          "Palais des sports de Sherbrooke"
+        ],
+        "place": "Sherbrooke, Québec",
+        "coordinates": "45.410453,-71.883279",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1965",
+        "type": "indoor venue",
+        "source_file": "venue_566.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use (rebuilt)",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.580667,
+          45.510083
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Percival-Molson (also known as Stade Molson, Molson Stadium)",
+          "Percival Molson Memorial Stadium",
+          "Stade Molson de l'Université McGill"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.510083,-73.580667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1919",
+        "type": "outdoor venue",
+        "source_file": "venue_567.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "This is the home of two Canadian football teams, McGill University's Redbirds and the Montreal Alouettes, who play their regular-season matches here. The 25,000-seater stadium was built in 1919 and refurbished in 2010.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.378093,
+          45.3727
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stand de tir olympique",
+          "Olympic Shooting Range"
+        ],
+        "place": "L'Acadie, Québec, CAN",
+        "coordinates": "45.3727,-73.378093",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting",
+          "modern pentathlon (shooting)"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_568.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.515425,
+          44.218647
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Yachting Centre, Portsmouth Harbour",
+          "Centre olympique de yachting"
+        ],
+        "place": "Kingston, Ontario, CAN",
+        "coordinates": "44.218647,-76.515425",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_569.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.579444,
+          45.561944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centre Paul-Sauvé",
+          "Paul Sauvé Arena"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.561944,-73.579444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1960",
+        "demolished": "1996",
+        "type": "indoor venue",
+        "source_file": "venue_570.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "Built in 1960, this 6,000-capacity venue staged political rallies, wrestling matches, and boxing matches, and was also home to a gym, a junior ice hockey team, a lacrosse team and curling teams at various times. The centre was demolished in 1996 due to rising operational costs and falling attendance figures. The site is now occupied by condominiums and townhouses.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.606658,
+          45.565437
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aréna Saint-Michel",
+          "St. Michel Arena"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.565437,-73.606658",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1968",
+        "seating_capacity": "2700",
+        "type": "indoor venue",
+        "source_file": "venue_571.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.55,
+          45.561667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centre Pierre-Charbonneau, Parc olympique",
+          "Pierre Charbonneau Centre, Olympic Park",
+          "Centre Sportif maisonneuve (Centre Pierre Charbonneau)"
+        ],
+        "place": "Montréal, Québec",
+        "coordinates": "45.561667,-73.55",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1976",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1957",
+        "type": "indoor venue",
+        "source_file": "venue_572.json",
+        "Olympics": "1976 Montreal",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "6084",
+      "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "198.0",
+      "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "92.0",
+      "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
+      "format": "number",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "8733",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 383-385",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "27000000",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58-59",
+      "format": "currency",
+      "currency": "CAD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "120828662.0",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58-59",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "35000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "154436930.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "7000000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 20",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "30887386.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 20",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "1128000000",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58 and p. 90",
+      "format": "currency",
+      "currency": "CAD"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "5047952972.0",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58 and p. 90",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "207000000.0",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58",
+      "format": "currency",
+      "currency": "CAD"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "926353072.0",
+      "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

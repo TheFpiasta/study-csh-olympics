@@ -1,0 +1,2545 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.741111,
+          37.968333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panathinaiko Stadio (also known as Kallimarmaro)",
+          "Panathenaic Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.968333,23.741111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1870",
+            "season": "Zappas"
+          },
+          {
+            "year": "1875",
+            "season": "Zappas"
+          },
+          {
+            "year": "1888-89",
+            "season": "Zappas"
+          },
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Art Competitions",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Fencing",
+          "Shooting",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Wrestling",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "566 BC",
+        "seating_capacity": "80,000 (1896) / 45,000 (2004)",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "loose cinders (1896, 1906) / artificial (2004)",
+        "altitude": "104 m",
+        "source_file": "venue_186.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.772995,
+          38.111451
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Proponitirio Toksovolias",
+          "Dekelia Archery Field",
+          "Panathenaic Stadium"
+        ],
+        "place": "Akharnes",
+        "coordinates": "38.111451,23.772995",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_778.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Originally built in 329 BC, the stadium had fallen into disrepair in the 19th century before being restored for the 1896 Games. The venue for the archery competitions and the finish of the men's and women's marathons at Athens 2004, the stadium has hosted a number of sporting and cultural events. These include the first Balkan Games in 1929 and the opening ceremony of the 1997 IAAF World Championships. Every two years, the stadium is also the venue for the official handover of the Olympic flame to the organisers of the next Olympic Summer or Winter Games. In April 2010, it opened to the public and became a visitor attraction, offering educational programmes for schools and tours. It is also a concert venue.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.787633,
+          38.036092
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Stadio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Stadium, Athens Olympic Sports Complex Spiros Loues",
+          "Olympic Stadium"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.036092,23.787633",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony",
+          "Opening and Closing Ceremonies"
+        ],
+        "notes": "Extensively renovated for the 2004 Olympics.",
+        "opened": "1982",
+        "seating_capacity": "71030",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "172 m",
+        "source_file": "venue_779.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Completed in 1982 for the European Athletics Championships that year, the stadium was upgraded for the 2004 Olympic Games and a new roof added to ensure its future use as Greece's national stadium. Post-Games, its capacity was reduced from 72,000 to 69,600. A football, track and field and concert venue, it is the home stadium of AEK Athens and Greece's national football team and staged the 1983 UEFA European Cup final, the 2007 UEFA Champions League final and the 1997 World Championships in Athletics. Madonna, Bon Jovi and Lady Gaga are just some of the major singers and bands to have performed there. AEK's home games have been attracting relatively low attendances – just over 14,000 in the 2018/19 season.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.633056,
+          37.639167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Arkhaias Olympias",
+          "Ancient Olympic Stadium"
+        ],
+        "place": "Olympia",
+        "coordinates": "37.639167,21.633056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "776",
+            "season": "BCE"
+          },
+          {
+            "year": "772",
+            "season": "BCE"
+          },
+          {
+            "year": "768",
+            "season": "BCE"
+          },
+          {
+            "year": "764",
+            "season": "BCE"
+          },
+          {
+            "year": "760",
+            "season": "BCE"
+          },
+          {
+            "year": "756",
+            "season": "BCE"
+          },
+          {
+            "year": "752",
+            "season": "BCE"
+          },
+          {
+            "year": "748",
+            "season": "BCE"
+          },
+          {
+            "year": "744",
+            "season": "BCE"
+          },
+          {
+            "year": "740",
+            "season": "BCE"
+          },
+          {
+            "year": "736",
+            "season": "BCE"
+          },
+          {
+            "year": "732",
+            "season": "BCE"
+          },
+          {
+            "year": "728",
+            "season": "BCE"
+          },
+          {
+            "year": "724",
+            "season": "BCE"
+          },
+          {
+            "year": "720",
+            "season": "BCE"
+          },
+          {
+            "year": "716",
+            "season": "BCE"
+          },
+          {
+            "year": "712",
+            "season": "BCE"
+          },
+          {
+            "year": "708",
+            "season": "BCE"
+          },
+          {
+            "year": "704",
+            "season": "BCE"
+          },
+          {
+            "year": "700",
+            "season": "BCE"
+          },
+          {
+            "year": "696",
+            "season": "BCE"
+          },
+          {
+            "year": "692",
+            "season": "BCE"
+          },
+          {
+            "year": "688",
+            "season": "BCE"
+          },
+          {
+            "year": "684",
+            "season": "BCE"
+          },
+          {
+            "year": "680",
+            "season": "BCE"
+          },
+          {
+            "year": "676",
+            "season": "BCE"
+          },
+          {
+            "year": "672",
+            "season": "BCE"
+          },
+          {
+            "year": "668",
+            "season": "BCE"
+          },
+          {
+            "year": "664",
+            "season": "BCE"
+          },
+          {
+            "year": "660",
+            "season": "BCE"
+          },
+          {
+            "year": "656",
+            "season": "BCE"
+          },
+          {
+            "year": "652",
+            "season": "BCE"
+          },
+          {
+            "year": "648",
+            "season": "BCE"
+          },
+          {
+            "year": "644",
+            "season": "BCE"
+          },
+          {
+            "year": "640",
+            "season": "BCE"
+          },
+          {
+            "year": "636",
+            "season": "BCE"
+          },
+          {
+            "year": "632",
+            "season": "BCE"
+          },
+          {
+            "year": "628",
+            "season": "BCE"
+          },
+          {
+            "year": "624",
+            "season": "BCE"
+          },
+          {
+            "year": "620",
+            "season": "BCE"
+          },
+          {
+            "year": "616",
+            "season": "BCE"
+          },
+          {
+            "year": "612",
+            "season": "BCE"
+          },
+          {
+            "year": "608",
+            "season": "BCE"
+          },
+          {
+            "year": "604",
+            "season": "BCE"
+          },
+          {
+            "year": "600",
+            "season": "BCE"
+          },
+          {
+            "year": "596",
+            "season": "BCE"
+          },
+          {
+            "year": "592",
+            "season": "BCE"
+          },
+          {
+            "year": "588",
+            "season": "BCE"
+          },
+          {
+            "year": "584",
+            "season": "BCE"
+          },
+          {
+            "year": "580",
+            "season": "BCE"
+          },
+          {
+            "year": "576",
+            "season": "BCE"
+          },
+          {
+            "year": "572",
+            "season": "BCE"
+          },
+          {
+            "year": "568",
+            "season": "BCE"
+          },
+          {
+            "year": "564",
+            "season": "BCE"
+          },
+          {
+            "year": "560",
+            "season": "BCE"
+          },
+          {
+            "year": "556",
+            "season": "BCE"
+          },
+          {
+            "year": "552",
+            "season": "BCE"
+          },
+          {
+            "year": "548",
+            "season": "BCE"
+          },
+          {
+            "year": "544",
+            "season": "BCE"
+          },
+          {
+            "year": "540",
+            "season": "BCE"
+          },
+          {
+            "year": "536",
+            "season": "BCE"
+          },
+          {
+            "year": "532",
+            "season": "BCE"
+          },
+          {
+            "year": "528",
+            "season": "BCE"
+          },
+          {
+            "year": "524",
+            "season": "BCE"
+          },
+          {
+            "year": "520",
+            "season": "BCE"
+          },
+          {
+            "year": "516",
+            "season": "BCE"
+          },
+          {
+            "year": "512",
+            "season": "BCE"
+          },
+          {
+            "year": "508",
+            "season": "BCE"
+          },
+          {
+            "year": "504",
+            "season": "BCE"
+          },
+          {
+            "year": "500",
+            "season": "BCE"
+          },
+          {
+            "year": "496",
+            "season": "BCE"
+          },
+          {
+            "year": "492",
+            "season": "BCE"
+          },
+          {
+            "year": "488",
+            "season": "BCE"
+          },
+          {
+            "year": "484",
+            "season": "BCE"
+          },
+          {
+            "year": "480",
+            "season": "BCE"
+          },
+          {
+            "year": "476",
+            "season": "BCE"
+          },
+          {
+            "year": "472",
+            "season": "BCE"
+          },
+          {
+            "year": "468",
+            "season": "BCE"
+          },
+          {
+            "year": "464",
+            "season": "BCE"
+          },
+          {
+            "year": "460",
+            "season": "BCE"
+          },
+          {
+            "year": "456",
+            "season": "BCE"
+          },
+          {
+            "year": "452",
+            "season": "BCE"
+          },
+          {
+            "year": "448",
+            "season": "BCE"
+          },
+          {
+            "year": "444",
+            "season": "BCE"
+          },
+          {
+            "year": "440",
+            "season": "BCE"
+          },
+          {
+            "year": "436",
+            "season": "BCE"
+          },
+          {
+            "year": "432",
+            "season": "BCE"
+          },
+          {
+            "year": "428",
+            "season": "BCE"
+          },
+          {
+            "year": "424",
+            "season": "BCE"
+          },
+          {
+            "year": "420",
+            "season": "BCE"
+          },
+          {
+            "year": "416",
+            "season": "BCE"
+          },
+          {
+            "year": "412",
+            "season": "BCE"
+          },
+          {
+            "year": "408",
+            "season": "BCE"
+          },
+          {
+            "year": "404",
+            "season": "BCE"
+          },
+          {
+            "year": "400",
+            "season": "BCE"
+          },
+          {
+            "year": "396",
+            "season": "BCE"
+          },
+          {
+            "year": "392",
+            "season": "BCE"
+          },
+          {
+            "year": "388",
+            "season": "BCE"
+          },
+          {
+            "year": "384",
+            "season": "BCE"
+          },
+          {
+            "year": "380",
+            "season": "BCE"
+          },
+          {
+            "year": "376",
+            "season": "BCE"
+          },
+          {
+            "year": "372",
+            "season": "BCE"
+          },
+          {
+            "year": "368",
+            "season": "BCE"
+          },
+          {
+            "year": "364",
+            "season": "BCE"
+          },
+          {
+            "year": "360",
+            "season": "BCE"
+          },
+          {
+            "year": "356",
+            "season": "BCE"
+          },
+          {
+            "year": "352",
+            "season": "BCE"
+          },
+          {
+            "year": "348",
+            "season": "BCE"
+          },
+          {
+            "year": "344",
+            "season": "BCE"
+          },
+          {
+            "year": "340",
+            "season": "BCE"
+          },
+          {
+            "year": "336",
+            "season": "BCE"
+          },
+          {
+            "year": "332",
+            "season": "BCE"
+          },
+          {
+            "year": "328",
+            "season": "BCE"
+          },
+          {
+            "year": "324",
+            "season": "BCE"
+          },
+          {
+            "year": "320",
+            "season": "BCE"
+          },
+          {
+            "year": "316",
+            "season": "BCE"
+          },
+          {
+            "year": "312",
+            "season": "BCE"
+          },
+          {
+            "year": "308",
+            "season": "BCE"
+          },
+          {
+            "year": "304",
+            "season": "BCE"
+          },
+          {
+            "year": "300",
+            "season": "BCE"
+          },
+          {
+            "year": "296",
+            "season": "BCE"
+          },
+          {
+            "year": "292",
+            "season": "BCE"
+          },
+          {
+            "year": "288",
+            "season": "BCE"
+          },
+          {
+            "year": "284",
+            "season": "BCE"
+          },
+          {
+            "year": "280",
+            "season": "BCE"
+          },
+          {
+            "year": "276",
+            "season": "BCE"
+          },
+          {
+            "year": "272",
+            "season": "BCE"
+          },
+          {
+            "year": "268",
+            "season": "BCE"
+          },
+          {
+            "year": "264",
+            "season": "BCE"
+          },
+          {
+            "year": "260",
+            "season": "BCE"
+          },
+          {
+            "year": "256",
+            "season": "BCE"
+          },
+          {
+            "year": "252",
+            "season": "BCE"
+          },
+          {
+            "year": "248",
+            "season": "BCE"
+          },
+          {
+            "year": "244",
+            "season": "BCE"
+          },
+          {
+            "year": "240",
+            "season": "BCE"
+          },
+          {
+            "year": "236",
+            "season": "BCE"
+          },
+          {
+            "year": "232",
+            "season": "BCE"
+          },
+          {
+            "year": "228",
+            "season": "BCE"
+          },
+          {
+            "year": "224",
+            "season": "BCE"
+          },
+          {
+            "year": "220",
+            "season": "BCE"
+          },
+          {
+            "year": "216",
+            "season": "BCE"
+          },
+          {
+            "year": "212",
+            "season": "BCE"
+          },
+          {
+            "year": "208",
+            "season": "BCE"
+          },
+          {
+            "year": "204",
+            "season": "BCE"
+          },
+          {
+            "year": "200",
+            "season": "BCE"
+          },
+          {
+            "year": "196",
+            "season": "BCE"
+          },
+          {
+            "year": "192",
+            "season": "BCE"
+          },
+          {
+            "year": "188",
+            "season": "BCE"
+          },
+          {
+            "year": "184",
+            "season": "BCE"
+          },
+          {
+            "year": "180",
+            "season": "BCE"
+          },
+          {
+            "year": "176",
+            "season": "BCE"
+          },
+          {
+            "year": "172",
+            "season": "BCE"
+          },
+          {
+            "year": "168",
+            "season": "BCE"
+          },
+          {
+            "year": "164",
+            "season": "BCE"
+          },
+          {
+            "year": "160",
+            "season": "BCE"
+          },
+          {
+            "year": "156",
+            "season": "BCE"
+          },
+          {
+            "year": "152",
+            "season": "BCE"
+          },
+          {
+            "year": "148",
+            "season": "BCE"
+          },
+          {
+            "year": "144",
+            "season": "BCE"
+          },
+          {
+            "year": "140",
+            "season": "BCE"
+          },
+          {
+            "year": "136",
+            "season": "BCE"
+          },
+          {
+            "year": "132",
+            "season": "BCE"
+          },
+          {
+            "year": "128",
+            "season": "BCE"
+          },
+          {
+            "year": "124",
+            "season": "BCE"
+          },
+          {
+            "year": "120",
+            "season": "BCE"
+          },
+          {
+            "year": "116",
+            "season": "BCE"
+          },
+          {
+            "year": "112",
+            "season": "BCE"
+          },
+          {
+            "year": "108",
+            "season": "BCE"
+          },
+          {
+            "year": "104",
+            "season": "BCE"
+          },
+          {
+            "year": "100",
+            "season": "BCE"
+          },
+          {
+            "year": "96",
+            "season": "BCE"
+          },
+          {
+            "year": "92",
+            "season": "BCE"
+          },
+          {
+            "year": "88",
+            "season": "BCE"
+          },
+          {
+            "year": "84",
+            "season": "BCE"
+          },
+          {
+            "year": "80",
+            "season": "BCE"
+          },
+          {
+            "year": "76",
+            "season": "BCE"
+          },
+          {
+            "year": "72",
+            "season": "BCE"
+          },
+          {
+            "year": "68",
+            "season": "BCE"
+          },
+          {
+            "year": "64",
+            "season": "BCE"
+          },
+          {
+            "year": "60",
+            "season": "BCE"
+          },
+          {
+            "year": "56",
+            "season": "BCE"
+          },
+          {
+            "year": "52",
+            "season": "BCE"
+          },
+          {
+            "year": "48",
+            "season": "BCE"
+          },
+          {
+            "year": "44",
+            "season": "BCE"
+          },
+          {
+            "year": "40",
+            "season": "BCE"
+          },
+          {
+            "year": "36",
+            "season": "BCE"
+          },
+          {
+            "year": "32",
+            "season": "BCE"
+          },
+          {
+            "year": "28",
+            "season": "BCE"
+          },
+          {
+            "year": "24",
+            "season": "BCE"
+          },
+          {
+            "year": "20",
+            "season": "BCE"
+          },
+          {
+            "year": "16",
+            "season": "BCE"
+          },
+          {
+            "year": "12",
+            "season": "BCE"
+          },
+          {
+            "year": "8",
+            "season": "BCE"
+          },
+          {
+            "year": "4",
+            "season": "BCE"
+          },
+          {
+            "year": "Unknown",
+            "season": "Ancient"
+          },
+          {
+            "year": "1",
+            "season": "CE"
+          },
+          {
+            "year": "5",
+            "season": "CE"
+          },
+          {
+            "year": "9",
+            "season": "CE"
+          },
+          {
+            "year": "13",
+            "season": "CE"
+          },
+          {
+            "year": "17",
+            "season": "CE"
+          },
+          {
+            "year": "21",
+            "season": "CE"
+          },
+          {
+            "year": "25",
+            "season": "CE"
+          },
+          {
+            "year": "29",
+            "season": "CE"
+          },
+          {
+            "year": "33",
+            "season": "CE"
+          },
+          {
+            "year": "37",
+            "season": "CE"
+          },
+          {
+            "year": "41",
+            "season": "CE"
+          },
+          {
+            "year": "45",
+            "season": "CE"
+          },
+          {
+            "year": "49",
+            "season": "CE"
+          },
+          {
+            "year": "53",
+            "season": "CE"
+          },
+          {
+            "year": "57",
+            "season": "CE"
+          },
+          {
+            "year": "61",
+            "season": "CE"
+          },
+          {
+            "year": "67",
+            "season": "CE"
+          },
+          {
+            "year": "69",
+            "season": "CE"
+          },
+          {
+            "year": "73",
+            "season": "CE"
+          },
+          {
+            "year": "77",
+            "season": "CE"
+          },
+          {
+            "year": "81",
+            "season": "CE"
+          },
+          {
+            "year": "85",
+            "season": "CE"
+          },
+          {
+            "year": "89",
+            "season": "CE"
+          },
+          {
+            "year": "93",
+            "season": "CE"
+          },
+          {
+            "year": "97",
+            "season": "CE"
+          },
+          {
+            "year": "101",
+            "season": "CE"
+          },
+          {
+            "year": "105",
+            "season": "CE"
+          },
+          {
+            "year": "109",
+            "season": "CE"
+          },
+          {
+            "year": "113",
+            "season": "CE"
+          },
+          {
+            "year": "117",
+            "season": "CE"
+          },
+          {
+            "year": "121",
+            "season": "CE"
+          },
+          {
+            "year": "125",
+            "season": "CE"
+          },
+          {
+            "year": "129",
+            "season": "CE"
+          },
+          {
+            "year": "133",
+            "season": "CE"
+          },
+          {
+            "year": "137",
+            "season": "CE"
+          },
+          {
+            "year": "141",
+            "season": "CE"
+          },
+          {
+            "year": "145",
+            "season": "CE"
+          },
+          {
+            "year": "149",
+            "season": "CE"
+          },
+          {
+            "year": "153",
+            "season": "CE"
+          },
+          {
+            "year": "157",
+            "season": "CE"
+          },
+          {
+            "year": "161",
+            "season": "CE"
+          },
+          {
+            "year": "165",
+            "season": "CE"
+          },
+          {
+            "year": "169",
+            "season": "CE"
+          },
+          {
+            "year": "173",
+            "season": "CE"
+          },
+          {
+            "year": "177",
+            "season": "CE"
+          },
+          {
+            "year": "181",
+            "season": "CE"
+          },
+          {
+            "year": "185",
+            "season": "CE"
+          },
+          {
+            "year": "189",
+            "season": "CE"
+          },
+          {
+            "year": "193",
+            "season": "CE"
+          },
+          {
+            "year": "197",
+            "season": "CE"
+          },
+          {
+            "year": "201",
+            "season": "CE"
+          },
+          {
+            "year": "205",
+            "season": "CE"
+          },
+          {
+            "year": "209",
+            "season": "CE"
+          },
+          {
+            "year": "213",
+            "season": "CE"
+          },
+          {
+            "year": "217",
+            "season": "CE"
+          },
+          {
+            "year": "221",
+            "season": "CE"
+          },
+          {
+            "year": "225",
+            "season": "CE"
+          },
+          {
+            "year": "229",
+            "season": "CE"
+          },
+          {
+            "year": "233",
+            "season": "CE"
+          },
+          {
+            "year": "237",
+            "season": "CE"
+          },
+          {
+            "year": "241",
+            "season": "CE"
+          },
+          {
+            "year": "245",
+            "season": "CE"
+          },
+          {
+            "year": "249",
+            "season": "CE"
+          },
+          {
+            "year": "253",
+            "season": "CE"
+          },
+          {
+            "year": "257",
+            "season": "CE"
+          },
+          {
+            "year": "261",
+            "season": "CE"
+          },
+          {
+            "year": "269",
+            "season": "CE"
+          },
+          {
+            "year": "273",
+            "season": "CE"
+          },
+          {
+            "year": "277",
+            "season": "CE"
+          },
+          {
+            "year": "321",
+            "season": "CE"
+          },
+          {
+            "year": "333",
+            "season": "CE"
+          },
+          {
+            "year": "337",
+            "season": "CE"
+          },
+          {
+            "year": "341",
+            "season": "CE"
+          },
+          {
+            "year": "365",
+            "season": "CE"
+          },
+          {
+            "year": "369",
+            "season": "CE"
+          },
+          {
+            "year": "381",
+            "season": "CE"
+          },
+          {
+            "year": "385",
+            "season": "CE"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Ancient Art Competitions",
+          "Ancient Athletics",
+          "Ancient Combative Sports",
+          "Ancient Equestrianism",
+          "Athletics",
+          "Unknown Sport"
+        ],
+        "type": "outdoor venue",
+        "source_file": "venue_780.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.722449,
+          37.895231
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kleisto Gipedo, Olympiako Syngrotima Ellenikou",
+          "Olympic Indoor Arena, Helleniko Olympic Complex",
+          "Helliniko Indoor Arena"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.895231,23.722449",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Handball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_781.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.78495,
+          38.037931
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kleisto Gymnastirio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Indoor Hall, Athens Olympic Sports Complex Spiros Loues"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.037931,23.78495",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Trampolining"
+        ],
+        "opened": "1995",
+        "seating_capacity": "19250",
+        "type": "indoor venue",
+        "source_file": "venue_782.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.77468,
+          37.985942
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Goudiou, Olympiako Syngrotima Goudiou",
+          "Goudi Olympic Hall, Goudi Olympic Complex",
+          "Badminton Theatre (2007-Present)"
+        ],
+        "place": "Athina",
+        "coordinates": "37.985942,23.77468",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "2004",
+        "type": "indoor venue",
+        "source_file": "venue_783.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.716389,
+          38.013056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Pygmakhias Peristeriou",
+          "Peristeri Olympic Boxing Hall"
+        ],
+        "place": "Peristeri",
+        "coordinates": "38.013056,23.716389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "source_file": "venue_784.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.728999,
+          37.897493
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Beisbol, Olympiako Syngrotima Ellenikou",
+          "Olympic Baseball Centre, Helleniko Olympic Complex",
+          "Olympic Baseball Centre"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.897493,23.728999",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "notes": "Two fields.",
+        "opened": "2003",
+        "seating_capacity": "9000 (Field 1) / 4000 (Field 2)",
+        "type": "outdoor venue",
+        "source_file": "venue_785.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.686667,
+          38.081667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Ano Liosion",
+          "Ano Liosia Olympic Hall"
+        ],
+        "place": "Ano Liossia",
+        "coordinates": "38.081667,23.686667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Wrestling"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_786.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.682675,
+          37.940628
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaki Engatastasi Bits Volei, Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Olympic Beach Volleyball Centre, Faliro Coastal Zone Olympic Complex",
+          "Olympic Beach Volleyball Centre"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.940628,23.682675",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "9600",
+        "type": "outdoor venue",
+        "source_file": "venue_787.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Located in the suburb of Faliro, the venue fell into disuse after the Games and was abandoned. It remains closed and in a state of disrepair.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.013635,
+          38.142288
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kopelatodramio Skhoinia",
+          "Schinias Olympic Rowing and Canoeing Centre"
+        ],
+        "place": "Schinias National Park",
+        "coordinates": "38.142288,24.013635",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2004",
+        "type": "outdoor venue",
+        "source_file": "venue_788.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The national training centre for Greece's rowing and canoe/kayak teams is also one of three World Rowing-approved training centres in the world, along with those in Munich and Seville. Unused for some years after the Games, it staged the 2008 European Rowing Championships and also hosts domestic rowing and canoeing meetings, including the Hellenic Rowing Championships. It opened to the public in 2010 and houses a kayak academy for youngsters. The construction of the centre caused some controversy due to the close proximity of wetlands. It now welcomes visitors and schools for birdwatching and nature activities.",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.735,
+          37.901
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Kanoe/Kagiak Slalom, Olympiako Syngrotima Ellenikou",
+          "Olympic Canoe/Kayak Centre, Helleniko Olympic Complex",
+          "Olympic Canoe/Kayak Slalom Centre"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.901,23.735",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "2004",
+        "seating_capacity": "3150",
+        "type": "outdoor venue",
+        "source_file": "venue_789.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727414,
+          37.981887
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Plateia Kozia (also known as Plateia Ludovikou)",
+          "Kotzia Square"
+        ],
+        "place": "Athina",
+        "coordinates": "37.981887,23.727414",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1859",
+            "season": "Zappas"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Road"
+        ],
+        "notes": "Called Plateia Loudovikou (Louis Square) at the 1859 Zappeion Olympic Games.",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_790.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.777314,
+          37.817984
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Vouliagmenis",
+          "Vouliagmeni Olympic Centre"
+        ],
+        "place": "Vouliagmeni",
+        "coordinates": "37.817984,23.777314",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Triathlon",
+          "Cycling (road)"
+        ],
+        "opened": "2002",
+        "seating_capacity": "3600",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_791.json",
+        "Olympics": "2004 Athens",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.780479,
+          38.040028
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Podilatodromio, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Velodrome, Athens Olympic Sports Complex Spiros Loues",
+          "Olympic Velodrome"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.040028,23.780479",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Cycling (track)"
+        ],
+        "opened": "1991",
+        "seating_capacity": "5250",
+        "type": "indoor venue",
+        "dimensions": "250 m",
+        "surface": "Wood",
+        "additional_details": "42° curves, 15° straights",
+        "source_file": "venue_792.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Another venue built for the 1991 Mediterranean Games, the velodrome was refurbished for the 2004 Olympic Games, when a new roof was installed. It continues to host track cycling meets and is open to sports clubs and experienced cyclists. Converted into an indoor venue in 2006, it is the only facility of its kind in Greece and hosts the country's track cycling championships and track cycling cups. It is also the training centre of the Hellenic Cycling Federation. The venue has staged the UEC European Track Championships (an under-23 and junior competition) twice and the Balkan Cycling Championships on five occasions. Proposals to repurpose the venue have been met with opposition.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.733628,
+          38.131506
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaki Eukatastasi Oreivis Podilasias Parnithas",
+          "Parnitha Olympic Mountain Bike Venue"
+        ],
+        "place": "Akharnes",
+        "coordinates": "38.131506,23.733628",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "type": "temporary outdoor venue",
+        "source_file": "venue_793.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.78142,
+          38.038444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Ugrou Stivou, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Aquatic Centre, Athens Olympic Sports Complex Spiros Loues",
+          "Olympic Aquatics Centre"
+        ],
+        "place": "Athina",
+        "coordinates": "38.038444,23.78142",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Swimming",
+          "Water Polo"
+        ],
+        "notes": "Three pools: Main Pool, Synchronized Swimming Pool, Indoor Pool",
+        "opened": "1991",
+        "seating_capacity": "11500 (SWI/WAP) / 5300 (SYN) / 6200 (DIV)",
+        "type": "outdoor venue",
+        "source_file": "venue_794.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The venue was built for the 1991 Mediterranean Games and extensively renovated for the 2004 Olympic Games. It is part of the Athens Olympic Sports Complex in Maroussi and has two outdoor pools and an indoor one, which hosted the diving competition at Athens 2004. While it remains open to the public, with the main outdoor pool used for practice and the indoor pool for classes, the rest of the venue is not in use given the challenges related to operational costs and infrastructure maintenance.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.971944,
+          37.877778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Ippasias Markopoulou",
+          "Markopoulo Olympic Equestrian Centre"
+        ],
+        "place": "Markopoulo",
+        "coordinates": "37.877778,23.971944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "2004",
+        "seating_capacity": "10000 (jumping) / 8100 (dressage) / 15000 (eventing)",
+        "type": "outdoor venue",
+        "source_file": "venue_795.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.723251,
+          37.89358
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aithousa Ksifaskias, Olympiako Syngrotima Ellenikou",
+          "Olympic Fencing Hall, Helleniko Olympic Complex",
+          "Helliniko Fencing Hall"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.89358,23.723251",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "5000 (finals) / 3800 (preliminaries)",
+        "type": "indoor venue",
+        "source_file": "venue_796.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.967003,
+          40.625497
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ethniko Kaftanzogleio Stadio Thessalonikis",
+          "Kaftanzoglou National Stadium of Thessaloniki",
+          "Kaftantzoglio Stadium"
+        ],
+        "place": "Thessaloniki",
+        "coordinates": "40.625497,22.967003",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1960",
+        "seating_capacity": "37000",
+        "type": "outdoor venue",
+        "source_file": "venue_797.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.664317,
+          37.946447
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Georgios Karaiskakis",
+          "Georgios Karaiskakis Stadium",
+          "Karaiskakis Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.946447,23.664317",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Built on the site of the Neo Phaliron Velodrome, site of football at the 1906 Intercalated Olympic Games, and cycling at the 1896 and 1906 Olympics.",
+        "opened": "2004",
+        "seating_capacity": "40000",
+        "type": "outdoor venue",
+        "source_file": "venue_798.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.752189,
+          38.221806
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pampeloponnisiako Stadio",
+          "Pan-Pelopennese Stadium",
+          "Pampeloponnisiako Stadium"
+        ],
+        "place": "Patras",
+        "coordinates": "38.221806,21.752189",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "Originally known as Ethniko Stadio Patron.",
+        "opened": "1981",
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "source_file": "venue_799.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.106111,
+          35.336667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pankritio Stadio",
+          "Pan-Cretan Stadium",
+          "Pankritio Stadium"
+        ],
+        "place": "Iraklion",
+        "coordinates": "35.336667,25.106111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2004",
+        "seating_capacity": "26400",
+        "type": "outdoor venue",
+        "source_file": "venue_800.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.931067,
+          39.387511
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panthessaliko Stadio",
+          "Pan-Thessaliko Stadium",
+          "Panthessaliko Stadium"
+        ],
+        "place": "Volos",
+        "coordinates": "39.387511,22.931067",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2004",
+        "seating_capacity": "22700",
+        "type": "outdoor venue",
+        "source_file": "venue_801.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.691086,
+          37.936094
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kleisto Gymnastirio Falirou, Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Faliro Sports Pavilion Arena, Faliro Coastal Zone Olympic Complex",
+          "Sports Pavilion"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.936094,23.691086",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball",
+          "Taekwondo"
+        ],
+        "notes": "Known as The Little Peace and Friendship Stadium.",
+        "opened": "2004",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_802.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.724886,
+          37.899566
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Khokei, Olympiako Syngrotima Ellenikou",
+          "Olympic Hockey Centre, Helleniko Olympic Complex",
+          "Olympic Hockey Centre"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.899566,23.724886",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "notes": "Two pitches.",
+        "opened": "2004",
+        "seating_capacity": "7300 (Pitch 1) / 2100 (Pitch 2)",
+        "type": "outdoor venue",
+        "source_file": "venue_803.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.774741,
+          37.988462
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Modernou Pentathlou, Olympiako Syngrotima Goudiou",
+          "Olympic Modern Pentathlon Centre, Goudi Olympic Complex"
+        ],
+        "place": "Athina",
+        "coordinates": "37.988462,23.774741",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "2004",
+        "seating_capacity": "2500 (swimming) / 5000 (riding/running) / 3000 (fencing/shooting)",
+        "type": "outdoor venue",
+        "source_file": "venue_804.json",
+        "Olympics": "2004 Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.760278,
+          38.027222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Galatsiou",
+          "Galatsi Olympic Hall"
+        ],
+        "place": "Galatsi",
+        "coordinates": "38.027222,23.760278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rhythmic Gymnastics",
+          "Table Tennis"
+        ],
+        "opened": "2004",
+        "seating_capacity": "6500",
+        "type": "indoor venue",
+        "source_file": "venue_805.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "A multi-purpose venue, it is currently home to five basketball clubs, offers table tennis coaching for players of all abilities – from high-performance athletes to beginners – and stages volleyball matches. It also hosts cultural activities, fitness clubs and concerts, and is used as a TV studio. Part of the complex houses governmental offices. The venue was used by AEK Athens' basketball team for two years after the Games but fell into disuse between 2006 and 2014. It provided a makeshift shelter for asylum seekers in 2015, a situation that resolved the local authority disputes that had caused its previous abandonment and led to the venue reopening in 2016.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727778,
+          37.877778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Istioploias Agiou Kosma",
+          "Agios Kosmas Olympic Sailing Centre"
+        ],
+        "place": "Athina",
+        "coordinates": "37.877778,23.727778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_806.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.906944,
+          37.870833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Skopovolis Markopoulou",
+          "Markopoulo Olympic Shooting Centre"
+        ],
+        "place": "Markopoulo",
+        "coordinates": "37.870833,23.906944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "notes": "Now the shooting and training center for the Hellenic Police.",
+        "opened": "2004",
+        "seating_capacity": "4000",
+        "type": "outdoor venue",
+        "source_file": "venue_807.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Outside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.727773,
+          37.894244
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Softbol, Olympiako Syngrotima Ellenikou",
+          "Olympic Softball Centre, Helleniko Olympic Complex",
+          "Olympic Softball Stadium"
+        ],
+        "place": "Hellinikon",
+        "coordinates": "37.894244,23.727773",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Softball"
+        ],
+        "opened": "2004",
+        "seating_capacity": "4800",
+        "type": "outdoor venue",
+        "source_file": "venue_808.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "Five out of six Olympic venues at the Helliniko Olympic Complex remain closed and in a state of disrepair. They went through political, economic and administrative upheaval and several changes in ownership. Built on the site of an airport, they have been used only intermittently since the Games. The ICF Canoe/Kayak Slalom World Cup took place there in 2005 and the Hockey Centre was used as makeshift accommodation for asylum seekers in 2015. There are plans to develop the complex and surrounding area as part of a major project (yet to break ground) which will see the demolition of all the venues.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.790931,
+          38.039899
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Kentro Antisfairises, Olympiako Athletiko Kentro Athinon Spiros Loues",
+          "Olympic Tennis Centre, Athens Olympic Sports Complex Spiros Loues",
+          "Olympic Tennis Centre"
+        ],
+        "place": "Maroussi",
+        "coordinates": "38.039899,23.790931",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "notes": "10 courts",
+        "opened": "2004",
+        "seating_capacity": "8600 (Centre Court), 4000 (Court 1), 2000 (Court 2), 200 (Courts 3-9)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "source_file": "venue_809.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The centre is home to 16 courts, including a main court with a capacity of 8,600 at Games time. The venue remains in use and is open to the public, attracting around 300 players a day. It has infrequently hosted competitions, staging an ATP Challenger tournament in 2010 and a school tournament in 2019. The venue lacks a long-term strategy, and the main court is largely underused due to management and operational costs and the shortcomings of its lighting system, which is not suitable for professional tournaments.",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.667297,
+          37.942475
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio Eirinis kai Filias (SEF), Olympiako Syngrotima Papaliakis Zonis Falirou",
+          "Peace and Friendship Stadium, Faliro Coastal Zone Olympic Complex",
+          "Peace and Friendship Stadium"
+        ],
+        "place": "Faliro",
+        "coordinates": "37.942475,23.667297",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1985",
+        "seating_capacity": "13200",
+        "type": "indoor venue",
+        "source_file": "venue_810.json",
+        "Olympics": "2004 Athens",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside Athens"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.633889,
+          37.970556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiako Gymnastirio Arsis Varon Nikaias",
+          "Nikaia Olympic Weightlifting Hall"
+        ],
+        "place": "Nikaia",
+        "coordinates": "37.970556,23.633889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "notes": "Now an academic and conference center for the University of Piraeus.",
+        "opened": "2004",
+        "seating_capacity": "3500",
+        "type": "indoor venue",
+        "source_file": "venue_811.json",
+        "Olympics": "2004 Athens",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "The weightlifting venue for the 2004 Olympic Games was handed over, as planned, to the University of Piraeus afterwards. It was briefly used as a lecture hall and conference centre; however, given its high operational costs, it remains closed and unused.",
+        "location": "Inside Athens"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "10625",
+      "source": "IOC, 2018: https://www.olympic.org/athens-2004 (accessed 1/6/2018)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "301.0",
+      "source": "IOC, 2018: https://www.olympic.org/athens-2004 (accessed 1/6/2018)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "201.0",
+      "source": "IOC, 2018: https://www.olympic.org/athens-2004 (accessed 1/6/2018)",
+      "format": "number",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "15000",
+      "source": "Garcia, B., & Miah, A. (2006). Non-accredited media, Olympic Games and the host city. Communication Forum 2006: Global Olympiad, Chinese Media. https://www.researchgate.net/publication/43328947_Non-accredited_media_Olympic_Games_and_the_host_city, p.7",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "228000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "303107709.36",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "1494000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "1986153148.16",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "441558000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15-21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "587015938.28",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15-21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "302000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15-21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "401484772.92",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15-21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "3000000000",
+      "source": "Kasimati, E. (2015). Post-Olympic use of the Olympic venues: The case of Greece. Athens journal of sports, 2(3), 167–184, p. 168",
+      "format": "currency",
+      "currency": "EUR"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "4960521559.27",
+      "source": "Kasimati, E. (2015). Post-Olympic use of the Olympic venues: The case of Greece. Athens journal of sports, 2(3), 167–184, p. 168",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "1962600000.0",
+      "source": "ATHOC. (2004). Official Report of the XXVIII Olympiad, Vol 1.II: Athens 2004. p. 131",
+      "format": "currency",
+      "currency": "EUR"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "2589614782.89",
+      "source": "ATHOC. (2004). Official Report of the XXVIII Olympiad, Vol 1.II: Athens 2004. p. 131",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

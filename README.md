@@ -4,7 +4,6 @@
 
 **Authors:** Felix Piasta, Jeremy Melpitz, Marvin Gels  
 **Institution:** Universität Leipzig, Sommersemester 2025  
-**Dozent:** Dr. Thomas Efer
 
 ## Project Overview
 

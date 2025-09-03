@@ -216,7 +216,7 @@ python counter.py
 - **Coverage**: Olympic venues from 776 BCE to 2022
 - **Modern Olympics**: Complete coverage from 1896-2022
 - **Ancient Olympics**: Historical venues with available coordinates
-- **Match Rate**: ~82.2% success rate for PDF data integration
+- **Match Rate**: ~70% success rate for PDF data integration
 - **Coordinate Accuracy**: Varies by venue, tracked in `coordinates_trust` field
 
 ## Integration with Project

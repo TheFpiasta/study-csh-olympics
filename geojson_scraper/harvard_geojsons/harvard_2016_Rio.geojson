@@ -1,0 +1,1480 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4082337,
+          -23.006052
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Campo Olímpico de Golfe, Reserva de Marapendi",
+          "Olympic Golf Course, Marapendi Natural Reserve",
+          "Rio Olympic Golf Course"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-23.006052,-43.4082337",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Golf"
+        ],
+        "opened": "2015",
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "dimensions": "6522 m (men), 5944 m (women)",
+        "additional_details": "18 holes, par 71",
+        "source_file": "venue_897.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3957636,
+          -22.9762069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Olímpico de Tênis, Parque Olímpico da Barra",
+          "Olympic Tennis Center, Barra Olympic Park",
+          "Rio Olympic Tennis Centre"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9762069,-43.3957636",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "2016",
+        "seating_capacity": "10000 (Maria Esther Bueno Court) / 5000 (Court 1) / 3000 (Court 2) / 250 (Courts 3-15)",
+        "type": "outdoor venue",
+        "surface": "hardcourt",
+        "source_file": "venue_898.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue's main arena has a capacity of 10,000. Two temporary courts with seating for 5,000 and 3,000 spectators were erected for the Games. After the Games, the main arena hosted the FIVB Beach Volleyball World Tour and South American Beach Soccer League in 2017. The centre has been open to the public since 2018, and eight of the courts are still in use. Admission is free. Political upheaval and the lack of a viable long-term governance model have caused uncertainty about the centre's long-term use.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.392478,
+          -22.978755
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Carioca 1, Parque Olímpico da Barra",
+          "Carioca Arena 1, Barra Olympic Park",
+          "Carioca Arena 1"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.978755,-43.392478",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "2016",
+        "seating_capacity": "16000",
+        "type": "indoor venue",
+        "source_file": "venue_899.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4029453,
+          -22.8607504
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Olímpico de Hóquei, Parque Olímpico de Deodoro",
+          "Olympic Hockey Centre, Deodoro Olympic Park",
+          "Rio Olympic Hockey Centre"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8607504,-43.4029453",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "2007",
+        "seating_capacity": "10000 (pitch 1) / 5000 (pitch 2)",
+        "type": "outdoor venue",
+        "source_file": "venue_900.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Another Deodoro Olympic Park venue, it was built in 2007 and staged matches at the Pan-American Games that year. After being renovated for the 2016 Olympic Games, it was closed for two years after the Games but has been in use since 2018. The centre, which has three pitches, is used by the Deodoro Hóquei Clube for its Brazilian championship matches and is a training base for Brazil's national hockey teams. It also hosts development activities.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3950438,
+          -22.9809361
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio Aquático Olímpico, Parque Olímpico da Barra",
+          "Olympic Aquatics Stadium, Barra Olympic Park",
+          "Rio Olympic Aquatics Stadium"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9809361,-43.3950438",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "2016",
+        "seating_capacity": "15000",
+        "type": "indoor venue",
+        "source_file": "venue_901.json",
+        "Olympics": "2016 Rio",
+        "classification": "Temporary",
+        "status": "Not in use",
+        "information": "The stadium was designed as a temporary venue. Its pools were relocated after the Games, as planned. In March 2017, the warm-up pool was successfully moved to a military base elsewhere in the city, while the main swimming pool was installed a year later at a high-performance training centre for aquatic sport athletes in Salvador de Bahia. Due to local and national political complexities, however, the relocation process was delayed. The external structure of the stadium is yet to be dismantled and has begun to deteriorate as a result, prompting media reports that the venue had been abandoned.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.39238,
+          -22.977679
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Carioca 2, Parque Olímpico da Barra",
+          "Carioca Arena 2, Barra Olympic Park",
+          "Carioca Arena 2"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.977679,-43.392380",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Wrestling"
+        ],
+        "opened": "2016",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_902.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.392373,
+          -22.97654
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Carioca 3, Parque Olímpico da Barra",
+          "Carioca Arena 3, Barra Olympic Park",
+          "Carioca Arena 3"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.976540,-43.392373",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Taekwondo"
+        ],
+        "opened": "2016",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "source_file": "venue_903.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4037453,
+          -22.8488168
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio de Canoagem Slalom, Parque Olímpico de Deodoro",
+          "Olympic Whitewater Stadium, Deodoro Olympic Park",
+          "Whitewater Stadium"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8488168,-43.4037453",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Slalom"
+        ],
+        "opened": "2015",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "source_file": "venue_904.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "A Deodoro Olympic Park venue, the stadium had temporary stands installed for the Games. It reopened to the public in September 2017. Part of the Deodoro X-Park, it comprises two independently accessed channels: an Olympic-standard competition channel that can also be used for rafting; and a training channel that is used for instruction and recreation. Popular with the local community for recreational swimming, rafting and other water-sports activities, the venue also hosts competitions, such as the 2018 ICF Canoe Slalom World Championships.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4014182,
+          -22.8466337
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Olímpico de BMX, Parque Olímpico de Deodoro",
+          "Olympic BMX Centre, Deodoro Olympic Park"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8466337,-43.4014182",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling BMX Racing"
+        ],
+        "opened": "2015",
+        "seating_capacity": "6000",
+        "type": "outdoor venue",
+        "source_file": "venue_905.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3925144,
+          -22.9752301
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Velódromo Olímpico do Rio, Parque Olímpico da Barra",
+          "Rio Olympic Velodrome, Barra Olympic Park",
+          "Rio Olympic Velodrome"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9752301,-43.3925144",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Cycling (track)"
+        ],
+        "opened": "2016",
+        "seating_capacity": "5000",
+        "type": "indoor venue",
+        "source_file": "venue_906.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Situated in Barra Olympic Park, the venue had its seating capacity halved to 2,500 after the Games and reopened in May 2017. Part of the Brazilian Olympic Training Centre, it is the main training hub for the Brazilian Cycling Federation and also offers induction sessions for youngsters and adults. It has staged some national and international cycling events, including the 2018 UCI Para-cycling Track World Championships. The centre is beset by high maintenance costs, with air conditioning needed to maintain a suitable temperature for its 250m wooden track.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4041407,
+          -22.8593181
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena da Juventude, Parque Olímpico de Deodoro",
+          "Youth Arena, Deodoro Olympic Park",
+          "Arena de Deodoro",
+          "Youth Arena"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8593181,-43.4041407",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Modern Pentathlon",
+          "modern pentathlon (fencing)"
+        ],
+        "opened": "2016",
+        "seating_capacity": "5000",
+        "type": "indoor venue",
+        "source_file": "venue_907.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.230164,
+          -22.912167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio do Maracanã",
+          "Maracanã Stadium",
+          "Estádio Jornalista Mário Filho"
+        ],
+        "place": "Maracanã, Rio de Janeiro",
+        "coordinates": "-22.912167,-43.230164",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1950",
+        "seating_capacity": "74738",
+        "type": "outdoor venue",
+        "source_file": "venue_908.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.292269,
+          -22.893172
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio Olímpico João Havelange (also known as Engenhão)",
+          "João Havelange Olympic Stadium",
+          "Estádio Nilton Santos",
+          "Rio Olympic Stadium"
+        ],
+        "place": "Engenho de Dentro, Rio de Janeiro",
+        "coordinates": "-22.893172,-43.292269",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Football"
+        ],
+        "opened": "2007",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "source_file": "venue_909.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Another 2007 Pan-American Games venue. Temporary stands were installed to take the stadium's Olympic Games-time capacity to 60,000, and a new track was laid. Before the Games, structural problems in the roof caused its closure until 2015. A new roof was fitted, which caused some criticism of the venue. Renamed the Estádio Olímpico Nilton Santos after the Brazilian footballer, it is the home ground of football club Botafogo, who have signed a 20-year lease to use it. The stadium also stages concerts and track and field competitions.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.196389,
+          -22.911944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sambódromo",
+          "Sambadrome",
+          "Sambódromo da Marquês de Sapucaí"
+        ],
+        "place": "Rio de Janeiro",
+        "coordinates": "-22.911944,-43.196389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Athletics",
+          "marathon"
+        ],
+        "opened": "1984",
+        "seating_capacity": "36000",
+        "type": "outdoor venue",
+        "source_file": "venue_910.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4065298,
+          -22.8695282
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Olímpico de Hipismo, Parque Olímpico de Deodoro",
+          "Olympic Equestrian Centre, Deodoro Olympic Park"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8695282,-43.4065298",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "2007",
+        "seating_capacity": "14000",
+        "type": "outdoor venue",
+        "source_file": "venue_911.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2175779,
+          -22.9765554
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio da Lagoa, Lagoa Rodrigo de Freitas",
+          "Lagoa Stadium, Rodrigo de Freitas Lagoon",
+          "Lagoa Stadium"
+        ],
+        "place": "Rio de Janeiro",
+        "coordinates": "-22.9765554,-43.2175779",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "opened": "2016",
+        "seating_capacity": "14000",
+        "type": "outdoor venue",
+        "source_file": "venue_912.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Centrally located, close to Leblon and Ipanema beaches, the venue has existed since 1961 but was remodelled for the 2007 Pan-American Games and again for the 2016 Olympic Games, with the construction of a new finish tower and renovation of the boathouse among the refurbishments. A natural rowing site, it hosts some local and regional events and is used by the Clube de Regatas do Flamengo, among other rowing clubs. The Rio de Janeiro State Rowing Federation is based at the stadium. It is also home to the Rio de Janeiro Rowing and Para-Rowing Training Centre, which runs training camps and offers highperformance development (through partnerships with universities, for example), talent identification programmes, and training for coaches and support staff. Plans for the venue to become a fully-fledged high-performance training and research centre have yet to come to fruition, however, and water quality and lack of access for the community have been causes for concern.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3905457,
+          -22.975511
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Olímpica do Rio, Parque Olímpico da Barra",
+          "Rio Olympic Arena, Barra Olympic Park",
+          "HSBC Arena, Rioarena"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.975511,-43.3905457",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Rhythmic Gymnastics",
+          "Trampolining"
+        ],
+        "opened": "2007",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "source_file": "venue_913.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2291866,
+          -22.913933
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ginásio do Maracanãzinho",
+          "Maracanãzinho",
+          "Ginásio Gilberto Cardoso"
+        ],
+        "place": "Maracanã, Rio de Janeiro",
+        "coordinates": "-22.913933,-43.2291866",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1954",
+        "seating_capacity": "12000",
+        "type": "indoor venue",
+        "source_file": "venue_914.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1696891,
+          -22.9202129
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Marina da Glória",
+          "Marina da Glória"
+        ],
+        "place": "Glória, Rio de Janeiro",
+        "coordinates": "-22.9202129,-43.1696891",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "2007",
+        "seating_capacity": "10000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_915.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4116396,
+          -22.9799062
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riocentro Pavilhão 6, Parque Olímpico da Barra",
+          "Riocentro - Pavilion 6"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9799062,-43.4116396",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1977",
+        "seating_capacity": "9000",
+        "type": "indoor venue",
+        "source_file": "venue_916.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.412604,
+          -22.977325
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riocentro Pavilhão 3, Parque Olímpico da Barra",
+          "Riocentro – Pavilion 3"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.977325,-43.412604",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Table Tennis"
+        ],
+        "opened": "1977",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "source_file": "venue_917.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4131416,
+          -22.9791123
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riocentro Pavilhão 4, Parque Olímpico da Barra",
+          "Riocentro – Pavilion 4"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9791123,-43.4131416",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton"
+        ],
+        "opened": "1977",
+        "seating_capacity": "6500",
+        "type": "indoor venue",
+        "source_file": "venue_918.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3879918,
+          -22.9743132
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Parque Aquático Maria Lenk, Parque Olímpico da Barra",
+          "Maria Lenk Aquatic Center",
+          "Maria Lenk Aquatics Centre"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9743132,-43.3879918",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Water Polo"
+        ],
+        "opened": "2007",
+        "seating_capacity": "6500",
+        "type": "outdoor venue",
+        "source_file": "venue_919.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Part of Barra Olympic Park, the venue was built for the 2007 Pan-American Games. Owned and operated by the Brazilian National Olympic Committee, it was refurbished for Rio 2016 and is part of the Brazilian Olympic Training Centre. Its facilities include three Olympic-sized swimming pools, a combat sports room, a strength and conditioning room, and physiotherapy and rehabilitation rooms. The centre is used by 10 clubs and sports organisations and more than 200 athletes, from youth to high-performance level, across a number of sports and disciplines, including judo, swimming, diving and athletics. It also hosts local and regional competitions and is used by the city's firefighters and other public agencies for training.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4123469,
+          -22.8584663
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Olímpico de Tiro, Parque Olímpico de Deodoro",
+          "Olympic Shooting Centre, Deodoro Olympic Park",
+          "Rio Olympic Shooting Centre"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8584663,-43.4123469",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "2007",
+        "seating_capacity": "7250",
+        "type": "indoor venue",
+        "source_file": "venue_920.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4067056,
+          -22.8610399
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio de Deodoro, Parque Olímpico de Deodoro",
+          "Deodoro Stadium, Deodoro Olympic Park"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8610399,-43.4067056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Rugby Sevens",
+          "Swimming"
+        ],
+        "opened": "2016",
+        "seating_capacity": "15000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_921.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1732818,
+          -22.9658698
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Copacabana",
+          "Copacabana Stadium",
+          "Beach Volleyball Arena"
+        ],
+        "place": "Copacabana, Rio de Janeiro",
+        "coordinates": "-22.9658698,-43.1732818",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Beach Volleyball"
+        ],
+        "opened": "2015",
+        "seating_capacity": "12000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_922.json",
+        "Olympics": "2016 Rio",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Situated on Copacabana Beach – the cradle of Brazilian beach volleyball – the 12,000-seater arena was the centrepiece of a temporary complex that comprised five training courts and two warm-up courts. All the facilities were dismantled after the Games as planned.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.3924898,
+          -22.9805714
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena do Futuro, Parque Olímpico da Barra",
+          "Future Arena, Barra Olympic Park",
+          "Future Arena"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9805714,-43.3924898",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "2016",
+        "seating_capacity": "12000",
+        "type": "temporary indoor venue",
+        "source_file": "venue_923.json",
+        "Olympics": "2016 Rio",
+        "classification": "Temporary",
+        "status": "Not in use",
+        "information": "",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4114154,
+          -22.9760504
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Riocentro Pavilhão 2, Parque Olímpico da Barra",
+          "Riocentro - Pavilion 2"
+        ],
+        "place": "Barra da Tijuca, Rio de Janeiro",
+        "coordinates": "-22.9760504,-43.4114154",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1977",
+        "seating_capacity": "6500",
+        "type": "indoor venue",
+        "source_file": "venue_924.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4711971,
+          -23.0324915
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Praia do Pontal",
+          "Pontal Beach"
+        ],
+        "place": "Recreio dos Bandeirantes, Rio de Janeiro",
+        "coordinates": "-23.0324915,-43.4711971",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Cycling Road"
+        ],
+        "opened": "2016",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_925.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.1870484,
+          -22.9859106
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Forte de Copacabana",
+          "Fort Copacabana"
+        ],
+        "place": "Copacabana, Rio de Janeiro",
+        "coordinates": "-22.9859106,-43.1870484",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Marathon Swimming",
+          "Triathlon",
+          "Cycling (road)"
+        ],
+        "opened": "2016",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_926.json",
+        "Olympics": "2016 Rio",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The fort was built early in the 20th century to protect Copacabana beach and the entrance to Rio harbour. It is situated at the southern end of the beach. It provided the start and finish points for the cycling road races and the mid-point of the triathlon races. The water just off the fort was used for the marathon swimming events. A 5,000-seater stand was erected at the site and dismantled after the Games as planned.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4014157,
+          -22.852172
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro de Mountain Bike, Parque Olímpico de Deodoro",
+          "Olympic Mountain Bike Center, Deodoro Olympic Park"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.852172,-43.4014157",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Mountain Bike"
+        ],
+        "opened": "2015",
+        "seating_capacity": "5000",
+        "type": "temporary outdoor venue",
+        "source_file": "venue_927.json",
+        "Olympics": "2016 Rio"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -47.899164,
+          -15.7835
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Estádio Nacional de Brasília Mané Garrincha",
+          "Mané Garrincha National Stadium",
+          "Mané Garrincha Stadium"
+        ],
+        "place": "Brasília",
+        "coordinates": "-15.7835,-47.899164",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1974",
+        "seating_capacity": "69394",
+        "type": "outdoor venue",
+        "source_file": "venue_928.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.970833,
+          -19.865833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Minerão",
+          "Mineirão",
+          "Estádio Governador Magalhães Pinto"
+        ],
+        "place": "Belo Horizonte",
+        "coordinates": "-19.865833,-43.970833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1965",
+        "seating_capacity": "58170",
+        "type": "outdoor venue",
+        "source_file": "venue_929.json",
+        "Olympics": "2016 Rio",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -38.504167,
+          -12.978611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Fonte Nova",
+          "Itaipava Arena Fonte Nova",
+          "Itaipava Arena Fonte Nova, Complexo Esportivo Cultural Octávio Mangabeira",
+          "Fonte Nova Arena"
+        ],
+        "place": "Salvador",
+        "coordinates": "-12.978611,-38.504167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2013",
+        "seating_capacity": "51700",
+        "type": "outdoor venue",
+        "source_file": "venue_930.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.473373,
+          -23.545531
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena Corinthians (also known as Itaquerão)",
+          "Arena Corinthians",
+          "Corinthians Arena"
+        ],
+        "place": "São Paulo",
+        "coordinates": "-23.545531,-46.473373",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2014",
+        "seating_capacity": "48234",
+        "type": "outdoor venue",
+        "source_file": "venue_931.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -60.028056,
+          -3.083056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Arena da Amazônia",
+          "Arena da Amazônia",
+          "Arena da Amazônia Vivaldo Lima",
+          "Amazônia Arena"
+        ],
+        "place": "Manaus",
+        "coordinates": "-3.083056,-60.028056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "2014",
+        "seating_capacity": "40549",
+        "type": "outdoor venue",
+        "source_file": "venue_932.json",
+        "Olympics": "2016 Rio",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.4038872,
+          -22.8617232
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Centro Aquático de Deodoro, Parque Olímpico de Deodoro",
+          "Deodoro Aquatics Centre, Deodoro Olympic Park"
+        ],
+        "place": "Deodoro, Rio de Janeiro",
+        "coordinates": "-22.8617232,-43.4038872",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2016",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "opened": "2007",
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "source_file": "venue_933.json",
+        "Olympics": "2016 Rio"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "11238",
+      "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "306.0",
+      "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "207.0",
+      "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "25000",
+      "source": "Holmes, T. (2016). Suspended reality: The ins and outs of Rio’s Olympic bubble. The Conversation. http://theconversation.com/suspended-reality-the-ins-and-outs-of-rios-olympic-bubble-62692",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "321000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "335844504.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "2868000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "3000629398.46",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "667998000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "698889273.68",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "848000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "887215386.99",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "7230000000",
+      "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
+      "format": "currency",
+      "currency": "BRL"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "2302301924.0",
+      "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "9000000000.0",
+      "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
+      "format": "currency",
+      "currency": "BRL"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "2865936005.0",
+      "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

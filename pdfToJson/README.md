@@ -4,20 +4,22 @@ This directory contains an automated pipeline for converting Olympic venue PDF r
 
 ## Overview
 
+The Venues PDF represents a comprehensive data source containing information about Summer and Winter Olympics in a single PDF document. For each Olympic year, all available information from this PDF source is extracted and subsequently stored in structured JSON files.
+
 The pdfToJson system processes Olympic venue reports from PDF format into structured JSON data through an automated workflow that:
 
-1. **Splits PDFs** into manageable chunks based on venue sections
-2. **Extracts data** using Claude 4 AI with structured prompts
-3. **Validates results** through a secondary AI verification step
-4. **Outputs structured JSON** with venue information, metadata, and validation status
+1. **Preprocesses PDFs** (by hand) by removing irrelevant pages and separating Summer/Winter Games
+2. **Creates chunks** by splitting PDFs into manageable sections per Olympic year
+3. **Extracts structured data** using Claude 4 AI with dual-phase processing
+4. **Merges processed chunks** into comprehensive JSON datasets
 
 ## Architecture
 
 ```
-PDF Reports → PDF Splitting → AI Extraction → AI Validation → Structured JSON
+PDF Reports → PDF Preprocessing → Chunk Creation → AI Extraction → AI Validation → Chunk Merging → Structured JSON
 ```
 
-The system uses **N8N** for workflow automation and **Claude Sonnet 4** for intelligent data extraction.
+The workflow follows principles of generalizability and is designed for different data sources. A Large Language Model (LLM) serves as the central extraction component, enabling flexible processing of different document structures. Technical implementation uses N8N combined with Python scripts executed in Docker containers. N8N functions as a low-code development environment specifically designed for creating AI-based workflows.
 
 ## Directory Structure
 
@@ -52,17 +54,24 @@ pdfToJson/
 
 ## Key Components
 
-### 1. PDF Splitting (`pdf_splitter_logic_for_n8n.py`)
+### 1. Creating Chunks (`pdf_splitter_logic_for_n8n.py`)
 
-Intelligently splits large PDF reports into venue-specific chunks using:
-- **Regex patterns** for section detection (e.g., `^(.*[(18,19,20)][0-9]{2} (.*)VENUES)$`)
-- **Table of Contents** parsing as fallback
-- **Fixed page chunks** (5 pages) as final fallback
+Processing large PDF documents for LLMs requires careful data segmentation to ensure optimal extraction results. Experience shows that a chunk-based approach delivers better results than analyzing the entire document at once. Research confirms that text chunking strategies lead to higher internal consistency and better LLM performance.
+
+Our approach follows automated segmentation of the original PDF file into separate documents per Olympic year, creating smaller, manageable data units that form the chunks.
+
+**Three methods for segmentation:**
+- **Regex-based identification** (primary method): Uses pattern `^(.*[(18,19,20)][0-9]{2} (.*)VENUES)$`
+- **Automatic headline detection** (secondary method)
+- **Fixed page numbers** (fallback when main methods fail)
+
+**Special case handling:**
+A structural deviation exists for 1960, which uses format `<YEAR> OLYMPIC WINTER GAMES VENUES` instead of the regular `<CITY> <YEAR> VENUES` format.
 
 **Features:**
 - Smart filename cleaning and collision handling
 - Configurable chunk numbering and naming
-- Error handling and logging
+- Error handling and comprehensive logging
 - Support for complex Olympic report structures
 
 ### 2. N8N Workflow Automation
@@ -70,28 +79,49 @@ Intelligently splits large PDF reports into venue-specific chunks using:
 **Setup:**
 ```bash
 cd pdfToJson/n8n
+# Create virtual environment in n8n_io directory
+cd n8n_io && python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && cd ..
 docker compose up -d        # Start N8N on http://localhost:5678
 ./n8n_workflows/docker-exec-import.sh  # Import workflows
 ```
 
 **Main Workflows:**
 - **configReader**: Loads processing configuration from `config.json`
-- **OnePdfToJson**: Single PDF processing workflow
-- **allPdfsToJson**: Batch processing for multiple PDFs
+- **OnePdf--FullWorkflow**: Main orchestrator for single PDF processing (entry point)
+- **WIP_ALLPdfToJson copy**: (work in progress) Batch processing workflow for multiple PDFs
 
-### 3. AI-Powered Data Extraction
+**Subworkflows (called by main orchestrator):**
+- **onePDF-1-execChunker**: PDF chunking and splitting logic
+- **OnePdf-2-ChunksToJson**: AI-powered chunk extraction and validation
+- **OnePdf-3-aggregateJson**: JSON aggregation and merging
+- **configReader**: Configuration loader for JSON settings
+- **promptReader**: Utility for loading and formatting prompt templates
+
+### 3. Extracting Structured Data
+
+The main component of the process extracts structured data from PDF chunk texts. Extracted data is stored in JSON files to enable easy conversion to GeoJSON format.
+
+**Technical Approach Evaluation:**
+Several approaches were evaluated:
+- **MarkItDown package**: Converts PDFs to Markdown but fails to properly handle tables
+- **PDF24 tool**: Converts to HTML but uses generic classes like `stl_341` making processing difficult  
+- **PyMuPDF package**: Direct PDF access with custom algorithms, but conflicts with reusability goals
+
+**LLM-Based Solution:**
+Claude Sonnet 4 (version 20250514) is used for direct JSON generation from PDF files, providing balanced performance, speed, and cost. The choice of LLM is based on personal preference - GPT, Claude, or Gemini are all suitable.
 
 **Dual-Phase Processing:**
 
-1. **Extraction Phase** (`summery-extraction.txt`):
+1. **Extraction Phase** (without thinking to save costs):
+   - Generates JSON structure from PDF with predefined schema
+   - Additional text before/after JSON is automatically removed via script
    - Validates PDF format compliance (`<CITY> <YEAR> VENUES` format)
-   - Extracts structured venue information
-   - Captures overview, venue details, and trivia sections
 
-2. **Validation Phase** (`summery-validation.txt`):
-   - Cross-references extracted JSON against original PDF
-   - Corrects discrepancies and validates accuracy
+2. **Validation Phase** (with thinking for better accuracy):
+   - Independent validation of the JSON against original PDF
+   - Cross-references and corrects discrepancies
    - Ensures data integrity and completeness
+   - High probability of correct and complete extraction
 
 **Output Schema:**
 ```json
@@ -113,7 +143,13 @@ docker compose up -d        # Start N8N on http://localhost:5678
 }
 ```
 
-### 4. Configuration Management
+### 4. Merging Processed Chunks
+
+The final subworkflow consolidates JSON files from chunk processing. Initially assumed to require additional Python scripting, analysis revealed that the entire process can be implemented exclusively with N8N tools.
+
+JSON data generated during chunk processing is stored as an array in the final JSON file, enabling easy access by processes that work across multiple years. For the current use case, working with individual JSON files proves more practical and efficient than the combined JSON structure.
+
+### 5. Configuration Management
 
 **Config Examples:**
 - `config.json.summery-example`: Template for venue summary processing
@@ -186,10 +222,13 @@ open http://localhost:5678
 
 ### Processing PDFs
 
-1. **Place PDFs** in the configured directory (e.g., `PDF_summery/venues_summer/`)
-2. **Run workflow** "allPdfsToJson" in N8N interface
+**Single PDF Processing:**
+1. **Place PDF** in the configured directory (e.g., `PDF_summery/venues_summer/`)
+2. **Run workflow** "OnePdf--FullWorkflow" in N8N interface
 3. **Monitor progress** via N8N dashboard and optional Discord notifications
 4. **Retrieve results** from `*_chunked/` directories and combined JSON files
+
+**Note:** Batch processing workflow (`WIP_ALLPdfToJson copy`) is currently work in progress and not executable correctly.
 
 ### Manual PDF Splitting
 ```bash
@@ -219,10 +258,16 @@ python pdf_splitter_logic_for_n8n.py \
 
 ### Quality Assurance
 
-- **Dual-phase validation** (extract → validate)
-- **Format compliance checking** for Olympic report standards
+The challenge with using LLMs for extraction and structuring tasks lies primarily in creating suitable prompts. A known issue with LLMs is their tendency to hallucinate or invent data not present in the original PDF.
+
+**Dual-Phase Approach:**
+- **Phase 1**: Extract JSON structure with predefined schema (no thinking to save costs)
+- **Phase 2**: Independent validation and correction of the JSON output (with thinking for accuracy)
+- **Format compliance checking** for Olympic report standards  
 - **Cross-reference validation** against source PDF content
 - **Error handling** for malformed or non-compliant documents
+
+The LLM validates and corrects its own previous output independently. Spot-check reviews identified no errors in the validation process.
 
 ### Integration Points
 
@@ -262,10 +307,19 @@ The processed JSON data integrates with:
 - Validate config.json format and API credentials
 - Test individual components with provided test files
 
+## Workflow Modularization
+
+To improve development, debugging, and execution, the workflow is modularized into three independent subworkflows. Configuration is managed through a central configuration file that allows flexible adjustment of execution parameters.
+
+### Subworkflows:
+1. **Chunk Creation**: Automated PDF segmentation per Olympic year
+2. **Data Extraction**: AI-powered structured data extraction with validation  
+3. **Chunk Merging**: Consolidation of processed JSON files
+
 ## Future Enhancements
 
-- Batch API processing for 50% cost reduction
+- **Batch API processing** for 50% cost reduction (identified cost optimization)
 - Support for additional venue report formats
 - Enhanced regex patterns for edge cases
-- Integration with other AI models beyond Claude
+- Integration with local AI models for cost reduction
 - Automated quality metrics and reporting

@@ -57,6 +57,7 @@ export async function GET() {
         
         // Extract game info from filename (e.g., "combined_1896_Athens.geojson")
         const match = file.match(/combined_(\d{4})_(.+)\.geojson/);
+        console.log(`Processing file: ${file}, match: ${!!match}, features: ${geojsonData.features?.length || 0}`);
         
         if (match && geojsonData.features) {
           const [, year, location] = match;
@@ -94,6 +95,7 @@ export async function GET() {
         }
       } catch (fileError) {
         console.warn(`Error processing file ${file}:`, fileError);
+        console.warn(`File path: ${path.join(geojsonPath, file)}`);
       }
     }
     

@@ -13,6 +13,8 @@ const TemporalDevelopmentAnalyses = () => {
     const [scatterSeasonFilter, setScatterSeasonFilter] = useState('both');
     const [barSeasonFilter, setBarSeasonFilter] = useState('both');
     const [buildStateSeasonFilter, setBuildStateSeasonFilter] = useState('both');
+    const [scatterBuildStateSeasonFilter, setScatterBuildStateSeasonFilter] = useState('both');
+    const [buildStateFilter, setBuildStateFilter] = useState(['New build', 'Existing', 'Temporary', 'Unknown']);
     const [viewMode, setViewMode] = useState('season'); // 'season' or 'venue-type'
     const [classificationFilter, setClassificationFilter] = useState('all');
 
@@ -254,6 +256,70 @@ const TemporalDevelopmentAnalyses = () => {
         });
 
         return Object.values(yearData).sort((a, b) => a.year - b.year);
+    };
+
+    // Process data for Build State Scatter Plot
+    const getBuildStateScatterData = () => {
+        if (!data?.games) return [];
+
+        const result = [];
+        const buildStates = ['New build', 'Existing', 'Temporary', 'Unknown'];
+        const colors = ['#EE334E', '#00A651', '#FCB131', '#0081C8'];
+
+        buildStates.forEach((buildState, index) => {
+            // Only include this build state if it's selected in the filter
+            if (!buildStateFilter.includes(buildState)) return;
+
+            const seriesData = [];
+
+            data.games.forEach(game => {
+                const year = parseInt(game.year);
+                let count = 0;
+
+                // Count venues by build state for this year
+                game.features.forEach(feature => {
+                    // Apply season filter
+                    if (scatterBuildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
+                    if (scatterBuildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
+                    
+                    const classification = feature.properties.classification || 'Unknown';
+                    if (classification === buildState) {
+                        count++;
+                    }
+                });
+
+                // Only add data point if there are venues of this build state
+                if (count > 0) {
+                    seriesData.push({
+                        x: year,
+                        y: count,
+                        location: game.location,
+                        buildState: buildState
+                    });
+                }
+            });
+
+            if (seriesData.length > 0) {
+                result.push({
+                    id: buildState,
+                    data: seriesData,
+                    color: colors[index]
+                });
+            }
+        });
+
+        return result;
+    };
+
+    // Toggle build state filter
+    const toggleBuildStateFilter = (buildState) => {
+        setBuildStateFilter(prev => {
+            if (prev.includes(buildState)) {
+                return prev.filter(state => state !== buildState);
+            } else {
+                return [...prev, buildState];
+            }
+        });
     };
 
     // Get min and max years from all data
@@ -600,7 +666,19 @@ const TemporalDevelopmentAnalyses = () => {
                         padding={0.1}
                         valueScale={{type: 'linear'}}
                         indexScale={{type: 'band', round: true}}
-                        colors={['#EE334E', '#00A651', '#FCB131', '#0081C8']}
+                        colors={({ id, data }) => {
+                            // Check if this bar segment has zero value
+                            if (data[id] === 0) return 'transparent';
+                            
+                            // Return normal colors for non-zero values
+                            const colorMap = {
+                                'New build': '#EE334E',
+                                'Existing': '#00A651',
+                                'Temporary': '#FCB131',
+                                'Unknown': '#0081C8'
+                            };
+                            return colorMap[id] || '#9ca3af';
+                        }}
                         borderColor={{
                             from: 'color',
                             modifiers: [['darker', 1.6]]
@@ -685,6 +763,179 @@ const TemporalDevelopmentAnalyses = () => {
                             ></div>
                             <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
                               {classification}
+                          </span>
+                        </div>
+                    ))}
+                </div>
+            </div>
+
+            {/* Build State Scatter Plot */}
+            <div
+                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+                <div className="flex items-center justify-between mb-4">
+                    <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+                        🏗️ Ratio of new buildings to existing facilities over time
+                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+                          Scatter Plot
+                      </span>
+                    </h3>
+                </div>
+
+                {/* Season Filter for Build State Scatter Plot */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Olympic Season
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        <button
+                            onClick={() => setScatterBuildStateSeasonFilter('both')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                scatterBuildStateSeasonFilter === 'both'
+                                    ? 'bg-violet-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Both Seasons
+                        </button>
+                        <button
+                            onClick={() => setScatterBuildStateSeasonFilter('summer')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                scatterBuildStateSeasonFilter === 'summer'
+                                    ? 'bg-amber-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Summer
+                        </button>
+                        <button
+                            onClick={() => setScatterBuildStateSeasonFilter('winter')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                scatterBuildStateSeasonFilter === 'winter'
+                                    ? 'bg-cyan-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Winter
+                        </button>
+                    </div>
+                </div>
+
+                {/* Build State Filter */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Build State Categories
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        {['New build', 'Existing', 'Temporary', 'Unknown'].map((buildState, index) => (
+                            <button
+                                key={buildState}
+                                onClick={() => toggleBuildStateFilter(buildState)}
+                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
+                                    buildStateFilter.includes(buildState)
+                                        ? 'text-white'
+                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                }`}
+                                style={{
+                                    backgroundColor: buildStateFilter.includes(buildState) 
+                                        ? ['#EE334Eaa', '#00A651aa', '#FCB131aa', '#0081C8aa'][index]
+                                        : undefined
+                                }}
+                            >
+                                <div
+                                    className="w-2 h-2 rounded-full"
+                                    style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][index]}}
+                                ></div>
+                                {buildState}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                <div className="h-80 chart-container">
+                    <style jsx>{`
+                        .chart-container :global(text) {
+                            fill: #d1d5db !important;
+                            font-weight: 600 !important;
+                        }
+                    `}</style>
+                    <ResponsiveScatterPlot
+                        data={getBuildStateScatterData()}
+                        margin={{top: 20, right: 30, bottom: 50, left: 60}}
+                        xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
+                        yScale={{type: 'linear', min: 'auto', max: 'auto'}}
+                        axisTop={null}
+                        axisRight={null}
+                        axisBottom={{
+                            orient: 'bottom',
+                            tickSize: 5,
+                            tickPadding: 5,
+                            tickRotation: 0
+                        }}
+                        axisLeft={{
+                            orient: 'left',
+                            tickSize: 5,
+                            tickPadding: 5,
+                            tickRotation: 0
+                        }}
+                        colors={['#EE334E', '#00A651', '#FCB131', '#0081C8']}
+                        nodeSize={8}
+                        useMesh={true}
+                        tooltip={({node}) => (
+                            <div
+                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60">
+                                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                                    {node.data.location} {node.data.x}
+                                </div>
+                                <div className="flex items-center gap-2 mb-2">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">{node.data.buildState}:</span>
+                                    <span className="text-gray-900 dark:text-gray-100">{node.data.y} venues</span>
+                                </div>
+                            </div>
+                        )}
+                        legends={[]}
+                        theme={{
+                            background: 'transparent',
+                            tooltip: {
+                                container: {
+                                    background: '#ffffff',
+                                    color: '#374151',
+                                    fontSize: '12px',
+                                    borderRadius: '8px',
+                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                                    border: '1px solid #e5e7eb',
+                                    padding: '8px 12px'
+                                }
+                            },
+                            axis: {
+                                ticks: {
+                                    text: {
+                                        fontSize: 11,
+                                        fill: '#d1d5db',
+                                        fontWeight: 600
+                                    }
+                                },
+                                legend: {
+                                    text: {
+                                        fontSize: 12,
+                                        fill: '#d1d5db',
+                                        fontWeight: 600
+                                    }
+                                }
+                            }
+                        }}
+                    />
+                </div>
+
+                {/* Build State Scatter Legend */}
+                <div className="flex justify-center mt-2 flex-wrap gap-4">
+                    {getBuildStateScatterData().map((series, index) => (
+                        <div key={series.id} className="flex items-center gap-2">
+                            <div
+                                className="w-3 h-3 rounded-full"
+                                style={{backgroundColor: series.color}}
+                            ></div>
+                            <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                              {series.id}
                           </span>
                         </div>
                     ))}

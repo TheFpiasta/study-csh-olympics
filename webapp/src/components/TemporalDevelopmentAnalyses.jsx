@@ -219,7 +219,7 @@ const TemporalDevelopmentAnalyses = () => {
         // Get year range and initialize all years
         const yearRange = getYearRange();
         const yearData = {};
-        
+
         // Initialize all years from min to max with zero data
         for (let year = yearRange.min; year <= yearRange.max; year++) {
             yearData[year] = {
@@ -235,7 +235,7 @@ const TemporalDevelopmentAnalyses = () => {
         // Fill in actual data for Olympic years
         data.games.forEach(game => {
             const year = parseInt(game.year);
-            
+
             if (yearData[year]) {
                 yearData[year].location = game.location;
 
@@ -719,7 +719,7 @@ const TemporalDevelopmentAnalyses = () => {
                                         : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
                                 }`}
                                 style={{
-                                    backgroundColor: barBuildStateFilter.includes(buildState) 
+                                    backgroundColor: barBuildStateFilter.includes(buildState)
                                         ? ['#EE334Eaa', '#00A651aa', '#FCB131aa', '#0081C8aa'][index]
                                         : undefined
                                 }}
@@ -752,7 +752,7 @@ const TemporalDevelopmentAnalyses = () => {
                         colors={({ id, data }) => {
                             // Check if this bar segment has zero value
                             if (data[id] === 0) return 'transparent';
-                            
+
                             // Return normal colors for non-zero values
                             const colorMap = {
                                 'New build': '#EE334E',
@@ -770,11 +770,7 @@ const TemporalDevelopmentAnalyses = () => {
                         axisTop={null}
                         axisRight={null}
                         axisBottom={{
-                            tickSize: function (value) {
-                                const yearData = getBuildStateData().find(d => d.year === value);
-                                const totalCount = yearData ? yearData['New build'] + yearData['Existing'] + yearData['Temporary'] + yearData['Unknown'] : 0;
-                                return totalCount > 0 ? 5 : 0;
-                            },
+                            tickSize: 5,
                             tickPadding: 5,
                             tickRotation: 0,
                             format: function (value) {

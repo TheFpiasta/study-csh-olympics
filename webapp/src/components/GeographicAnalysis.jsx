@@ -182,37 +182,49 @@ const GeographicAnalysis = () => {
     const distanceData = [];
     
     data.games.forEach(game => {
-      if (game.features.length < 2) return; // Need at least 2 venues for distance calculation
+      // Group features by season
+      const featuresBySeason = { Summer: [], Winter: [] };
       
-      // Calculate basic venue spread metrics
-      const coordinates = game.features
-        .filter(feature => feature.geometry && feature.geometry.coordinates)
-        .map(feature => ({
-          lat: feature.geometry.coordinates[1],
-          lng: feature.geometry.coordinates[0]
-        }));
+      game.features.forEach(feature => {
+        if (feature.properties.season && featuresBySeason[feature.properties.season]) {
+          featuresBySeason[feature.properties.season].push(feature);
+        }
+      });
       
-      if (coordinates.length < 2) return;
-      
-      // Calculate bounding box dimensions (rough distance measure)
-      const lats = coordinates.map(c => c.lat);
-      const lngs = coordinates.map(c => c.lng);
-      
-      const latSpread = Math.max(...lats) - Math.min(...lats);
-      const lngSpread = Math.max(...lngs) - Math.min(...lngs);
-      
-      // Rough distance in km (very approximate)
-      const spreadKm = Math.sqrt(latSpread * latSpread + lngSpread * lngSpread) * 111; // 1 degree ≈ 111km
-      
-      distanceData.push({
-        id: `${game.year} ${game.location}`,
-        data: [{
-          x: game.venueCount,
-          y: Math.round(spreadKm * 10) / 10,
-          year: game.year,
-          location: game.location,
-          season: game.season
-        }]
+      // Create separate data points for each season that has venues
+      Object.entries(featuresBySeason).forEach(([season, features]) => {
+        if (features.length < 2) return; // Need at least 2 venues for distance calculation
+        
+        // Calculate basic venue spread metrics for this season
+        const coordinates = features
+          .filter(feature => feature.geometry && feature.geometry.coordinates)
+          .map(feature => ({
+            lat: feature.geometry.coordinates[1],
+            lng: feature.geometry.coordinates[0]
+          }));
+        
+        if (coordinates.length < 2) return;
+        
+        // Calculate bounding box dimensions (rough distance measure)
+        const lats = coordinates.map(c => c.lat);
+        const lngs = coordinates.map(c => c.lng);
+        
+        const latSpread = Math.max(...lats) - Math.min(...lats);
+        const lngSpread = Math.max(...lngs) - Math.min(...lngs);
+        
+        // Rough distance in km (very approximate)
+        const spreadKm = Math.sqrt(latSpread * latSpread + lngSpread * lngSpread) * 111; // 1 degree ≈ 111km
+        
+        distanceData.push({
+          id: `${game.year} ${game.location} - ${season}`,
+          data: [{
+            x: features.length, // Count of venues for this season
+            y: Math.round(spreadKm * 10) / 10,
+            year: game.year,
+            location: game.location,
+            season: season
+          }]
+        });
       });
     });
 

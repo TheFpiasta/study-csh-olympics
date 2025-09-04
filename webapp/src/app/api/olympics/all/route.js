@@ -9,10 +9,10 @@ export async function GET() {
     
     // Try multiple possible paths to find the GeoJSON directory
     const possiblePaths = [
-      path.join(process.cwd(), '..', 'geojson_scraper', 'combined_geojson'),
-      path.join(process.cwd(), '..', '..', 'geojson_scraper', 'combined_geojson'),
-      path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', 'combined_geojson'),
-      path.join('C:', 'Users', 'jmelp', 'Documents', 'Computational Spacial Humanitys', 'geojson_scraper', 'combined_geojson')
+      path.join(process.cwd(), '..', 'geojson_scraper', 'harvard_geojsons'),
+      path.join(process.cwd(), '..', '..', 'geojson_scraper', 'harvard_geojsons'),
+      path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', 'harvard_geojsons'),
+      path.join('C:', 'Users', 'jmelp', 'Documents', 'Computational Spacial Humanitys', 'geojson_scraper', 'harvard_geojsons')
     ];
     
     let geojsonPath = null;

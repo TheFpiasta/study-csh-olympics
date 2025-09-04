@@ -246,6 +246,7 @@ const TemporalDevelopmentAnalyses = () => {
                     if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
                     
                     const classification = feature.properties.classification || 'Unknown';
+                    // if (classification === 'Unknown') console.warn(`Feature with unknown classification in ${game.location} ${year} name: ${feature.properties.associated_names}`);
                     if (yearData[year][classification] !== undefined) {
                         yearData[year][classification]++;
                     } else {

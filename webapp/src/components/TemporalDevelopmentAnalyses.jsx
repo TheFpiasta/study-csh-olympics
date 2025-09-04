@@ -727,12 +727,16 @@ const TemporalDevelopmentAnalyses = () => {
                         axisRight={null}
                         axisBottom={{
                             tickSize: function (value) {
-                                return value % 6 === 0 ? 5 : 0;
+                                const yearData = getBuildStateData().find(d => d.year === value);
+                                const totalCount = yearData ? yearData['New build'] + yearData['Existing'] + yearData['Temporary'] + yearData['Unknown'] : 0;
+                                return totalCount > 0 ? 5 : 0;
                             },
                             tickPadding: 5,
                             tickRotation: 0,
                             format: function (value) {
-                                return value % 6 === 0 ? value : "";
+                                const yearData = getBuildStateData().find(d => d.year === value);
+                                const totalCount = yearData ? yearData['New build'] + yearData['Existing'] + yearData['Temporary'] + yearData['Unknown'] : 0;
+                                return totalCount > 0 ? value : "";
                             }
                         }}
                         axisLeft={{

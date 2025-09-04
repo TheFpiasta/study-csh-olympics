@@ -11,6 +11,7 @@ const TemporalDevelopmentAnalyses = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [seasonFilter, setSeasonFilter] = useState('both');
+  const [viewMode, setViewMode] = useState('season'); // 'season' or 'venue-type'
 
   useEffect(() => {
     const fetchData = async () => {
@@ -41,17 +42,25 @@ const TemporalDevelopmentAnalyses = () => {
     fetchData();
   }, []);
 
-  // Process data for Number of venues per Olympic Games (Scatter plot by season)
+  // Process data for Number of venues per Olympic Games (Scatter plot)
   const getVenuesPerGameData = () => {
     if (!data?.games) return [];
     
+    if (viewMode === 'season') {
+      return getSeasonData();
+    } else {
+      return getVenueTypeData();
+    }
+  };
+
+  // Data grouped by season
+  const getSeasonData = () => {
     const result = [];
     
     if (seasonFilter === 'both' || seasonFilter === 'summer') {
       const summerGames = data.games
         .filter(game => game.season === 'Summer')
         .map(game => {
-          // Get unique sports count
           const allSports = new Set();
           game.features.forEach(feature => {
             if (feature.properties.sports) {
@@ -60,7 +69,6 @@ const TemporalDevelopmentAnalyses = () => {
             }
           });
           
-          // Get venue types breakdown
           const venueTypes = {};
           game.features.forEach(feature => {
             const type = feature.properties.type || 'Unknown';
@@ -87,7 +95,6 @@ const TemporalDevelopmentAnalyses = () => {
       const winterGames = data.games
         .filter(game => game.season === 'Winter')
         .map(game => {
-          // Get unique sports count
           const allSports = new Set();
           game.features.forEach(feature => {
             if (feature.properties.sports) {
@@ -96,7 +103,6 @@ const TemporalDevelopmentAnalyses = () => {
             }
           });
           
-          // Get venue types breakdown
           const venueTypes = {};
           game.features.forEach(feature => {
             const type = feature.properties.type || 'Unknown';
@@ -122,11 +128,80 @@ const TemporalDevelopmentAnalyses = () => {
     return result;
   };
 
-  // Get colors for scatter plot based on current filter
+  // Data grouped by venue type
+  const getVenueTypeData = () => {
+    const result = [];
+    
+    // Apply season filter
+    let filteredGames = data.games;
+    if (seasonFilter === 'summer') {
+      filteredGames = data.games.filter(game => game.season === 'Summer');
+    } else if (seasonFilter === 'winter') {
+      filteredGames = data.games.filter(game => game.season === 'Winter');
+    }
+    
+    // Get all unique venue types first
+    const allVenueTypes = new Set();
+    filteredGames.forEach(game => {
+      game.features.forEach(feature => {
+        const type = feature.properties.type || 'Unknown';
+        allVenueTypes.add(type);
+      });
+    });
+    
+    // Create series for each venue type
+    const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#f97316'];
+    let colorIndex = 0;
+    
+    allVenueTypes.forEach(venueType => {
+      const typeData = filteredGames.map(game => {
+        // Count venues of this type in this game
+        const count = game.features.filter(feature => 
+          (feature.properties.type || 'Unknown') === venueType
+        ).length;
+        
+        const allSports = new Set();
+        game.features.forEach(feature => {
+          if (feature.properties.sports) {
+            const sports = Array.isArray(feature.properties.sports) ? feature.properties.sports : [feature.properties.sports];
+            sports.forEach(sport => allSports.add(sport));
+          }
+        });
+        
+        return {
+          x: game.year,
+          y: count,
+          location: game.location,
+          season: game.season,
+          venueType: venueType,
+          sportsCount: allSports.size
+        };
+      }).filter(point => point.y > 0); // Only include games that have this venue type
+      
+      if (typeData.length > 0) {
+        result.push({
+          id: venueType,
+          data: typeData,
+          color: colors[colorIndex % colors.length]
+        });
+        colorIndex++;
+      }
+    });
+    
+    return result;
+  };
+
+  // Get colors for scatter plot based on current view mode and filter
   const getScatterColors = () => {
-    if (seasonFilter === 'summer') return ['#f59e0b'];
-    if (seasonFilter === 'winter') return ['#06b6d4'];
-    return ['#f59e0b', '#06b6d4']; // both
+    if (viewMode === 'venue-type') {
+      const data = getVenueTypeData();
+      return data.map(series => series.color);
+    } else {
+      // Season mode
+      if (seasonFilter === 'summer') return ['#f59e0b'];
+      if (seasonFilter === 'winter') return ['#06b6d4'];
+      return ['#f59e0b', '#06b6d4']; // both
+    }
   };
 
   // Process data for Ratio of new buildings to existing facilities
@@ -273,12 +348,39 @@ const TemporalDevelopmentAnalyses = () => {
 
           {/* Number of venues per Olympic Games */}
           <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-              <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                  📊 Number of venues per Olympic Games
-                  <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                      Scatter Plot
-                  </span>
-              </h3>
+              <div className="flex items-center justify-between mb-4">
+                  <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+                      📊 Number of venues per Olympic Games
+                      <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+                          Scatter Plot
+                      </span>
+                  </h3>
+                  <div className="flex items-center gap-2">
+                      <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
+                      <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                          <button
+                              onClick={() => setViewMode('season')}
+                              className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                  viewMode === 'season'
+                                      ? 'bg-emerald-500 text-white'
+                                      : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                              }`}
+                          >
+                              Season
+                          </button>
+                          <button
+                              onClick={() => setViewMode('venue-type')}
+                              className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                  viewMode === 'venue-type'
+                                      ? 'bg-emerald-500 text-white'
+                                      : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                              }`}
+                          >
+                              Venue Type
+                          </button>
+                      </div>
+                  </div>
+              </div>
               
               {/* Season Filter */}
               <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -348,7 +450,7 @@ const TemporalDevelopmentAnalyses = () => {
                       nodeSize={8}
                       useMesh={true}
                       tooltip={({ node }) => (
-                          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-72 max-w-80">
+                          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80 max-w-96">
                               <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
                                   {node.data.location} {node.data.x}
                               </div>
@@ -356,20 +458,39 @@ const TemporalDevelopmentAnalyses = () => {
                                   {node.data.season} Olympics
                               </div>
                               <div className="space-y-2">
-                                  <div className="flex justify-between">
-                                      <span className="font-medium text-gray-700 dark:text-gray-300">Venues:</span>
-                                      <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
-                                  </div>
-                                  <div className="flex justify-between">
-                                      <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
-                                      <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
-                                  </div>
-                                  <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
-                                      <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Venue Types:</div>
-                                      <div className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
-                                          {node.data.venueTypes}
-                                      </div>
-                                  </div>
+                                  {viewMode === 'season' ? (
+                                      <>
+                                          <div className="flex justify-between">
+                                              <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                                              <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
+                                          </div>
+                                          <div className="flex justify-between">
+                                              <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
+                                              <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
+                                          </div>
+                                          <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                              <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Venue Types:</div>
+                                              <div className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                                                  {node.data.venueTypes}
+                                              </div>
+                                          </div>
+                                      </>
+                                  ) : (
+                                      <>
+                                          <div className="flex justify-between">
+                                              <span className="font-medium text-gray-700 dark:text-gray-300">Venue Type:</span>
+                                              <span className="text-gray-900 dark:text-gray-100">{node.data.venueType}</span>
+                                          </div>
+                                          <div className="flex justify-between">
+                                              <span className="font-medium text-gray-700 dark:text-gray-300">Count:</span>
+                                              <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
+                                          </div>
+                                          <div className="flex justify-between">
+                                              <span className="font-medium text-gray-700 dark:text-gray-300">Total Sports:</span>
+                                              <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
+                                          </div>
+                                      </>
+                                  )}
                               </div>
                           </div>
                       )}

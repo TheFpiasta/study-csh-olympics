@@ -429,7 +429,7 @@ const TemporalDevelopmentAnalyses = () => {
                   `}</style>
                   <ResponsiveScatterPlot
                       data={getVenuesPerGameData()}
-                      margin={{ top: 20, right: 110, bottom: 50, left: 60 }}
+                      margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
                       xScale={{ type: 'linear', min: 'auto', max: 'auto' }}
                       yScale={{ type: 'linear', min: 'auto', max: 'auto' }}
                       axisTop={null}
@@ -494,22 +494,7 @@ const TemporalDevelopmentAnalyses = () => {
                               </div>
                           </div>
                       )}
-                      legends={[
-                          {
-                              anchor: 'bottom-right',
-                              direction: 'column',
-                              justify: false,
-                              translateX: 100,
-                              translateY: 0,
-                              itemWidth: 80,
-                              itemHeight: 20,
-                              itemsSpacing: 2,
-                              itemDirection: 'left-to-right',
-                              itemTextColor: '#d1d5db',
-                              symbolSize: 12,
-                              symbolShape: 'circle'
-                          }
-                      ]}
+                      legends={[]}
                       theme={{
                           background: 'transparent',
                           tooltip: {
@@ -542,6 +527,21 @@ const TemporalDevelopmentAnalyses = () => {
                       }}
                   />
               </div>
+              
+              {/* Custom Legend */}
+              <div className="flex justify-center mt-2 flex-wrap gap-4">
+                  {getVenuesPerGameData().map((series, index) => (
+                      <div key={series.id} className="flex items-center gap-2">
+                          <div 
+                              className="w-3 h-3 rounded-full"
+                              style={{ backgroundColor: getScatterColors()[index] }}
+                          ></div>
+                          <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                              {series.id}
+                          </span>
+                      </div>
+                  ))}
+              </div>
           </div>
 
           {/* Ratio of new buildings to existing facilities over time */}
@@ -562,7 +562,7 @@ const TemporalDevelopmentAnalyses = () => {
                   <ResponsiveStream
                       data={getNewVsExistingData()}
                       keys={['New Buildings', 'Existing Facilities', 'Unknown']}
-                      margin={{ top: 20, right: 110, bottom: 50, left: 60 }}
+                      margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
                       colors={['#10b981', '#3b82f6', '#6b7280']}
                       axisTop={null}
                       axisRight={null}
@@ -581,19 +581,7 @@ const TemporalDevelopmentAnalyses = () => {
                       }}
                       enableGridX={false}
                       enableGridY={true}
-                      legends={[
-                          {
-                              anchor: 'bottom-right',
-                              direction: 'column',
-                              translateX: 100,
-                              itemWidth: 80,
-                              itemHeight: 20,
-                              itemTextColor: '#d1d5db',
-                              symbolSize: 12,
-                              itemDirection: 'left-to-right',
-                              itemOpacity: 0.85
-                          }
-                      ]}
+                      legends={[]}
                       theme={{
                           background: 'transparent',
                           tooltip: {
@@ -632,6 +620,24 @@ const TemporalDevelopmentAnalyses = () => {
                           }
                       }}
                   />
+              </div>
+              
+              {/* Custom Legend */}
+              <div className="flex justify-center mt-2 flex-wrap gap-4">
+                  {['New Buildings', 'Existing Facilities', 'Unknown'].map((key, index) => {
+                      const colors = ['#10b981', '#3b82f6', '#6b7280'];
+                      return (
+                          <div key={key} className="flex items-center gap-2">
+                              <div 
+                                  className="w-3 h-3"
+                                  style={{ backgroundColor: colors[index] }}
+                              ></div>
+                              <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                  {key}
+                              </span>
+                          </div>
+                      );
+                  })}
               </div>
           </div>
 

@@ -275,8 +275,9 @@ const TemporalDevelopmentAnalyses = () => {
             data.games.forEach(game => {
                 const year = parseInt(game.year);
                 let count = 0;
+                const venues = [];
 
-                // Count venues by build state for this year
+                // Count venues by build state for this year and collect venue details
                 game.features.forEach(feature => {
                     // Apply season filter
                     if (scatterBuildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
@@ -285,16 +286,54 @@ const TemporalDevelopmentAnalyses = () => {
                     const classification = feature.properties.classification || 'Unknown';
                     if (classification === buildState) {
                         count++;
+                        venues.push({
+                            name: feature.properties.associated_names?.[0] || 'Unknown venue',
+                            sports: feature.properties.sports || [],
+                            capacity: feature.properties.seating_capacity,
+                            type: feature.properties.type,
+                            status: feature.properties.status,
+                            location: feature.properties.location,
+                            opened: feature.properties.opened
+                        });
                     }
                 });
 
                 // Only add data point if there are venues of this build state
                 if (count > 0) {
+                    // Calculate totals and aggregations
+                    const totalCapacity = venues.reduce((sum, venue) => {
+                        const capacity = parseInt(venue.capacity) || 0;
+                        return sum + capacity;
+                    }, 0);
+
+                    const allSports = new Set();
+                    venues.forEach(venue => {
+                        const sports = Array.isArray(venue.sports) ? venue.sports : [venue.sports];
+                        sports.forEach(sport => sport && allSports.add(sport));
+                    });
+
+                    const venueTypes = {};
+                    venues.forEach(venue => {
+                        const type = venue.type || 'Unknown';
+                        venueTypes[type] = (venueTypes[type] || 0) + 1;
+                    });
+
+                    const statusCounts = {};
+                    venues.forEach(venue => {
+                        const status = venue.status || 'Unknown';
+                        statusCounts[status] = (statusCounts[status] || 0) + 1;
+                    });
+
                     seriesData.push({
                         x: year,
                         y: count,
                         location: game.location,
-                        buildState: buildState
+                        buildState: buildState,
+                        venues: venues,
+                        totalCapacity: totalCapacity,
+                        sportsCount: allSports.size,
+                        venueTypes: Object.entries(venueTypes).map(([type, count]) => `${type}: ${count}`).join(', '),
+                        statusBreakdown: Object.entries(statusCounts).map(([status, count]) => `${status}: ${count}`).join(', ')
                     });
                 }
             });
@@ -679,6 +718,7 @@ const TemporalDevelopmentAnalyses = () => {
                             };
                             return colorMap[id] || '#9ca3af';
                         }}
+                        label={({ id, value }) => value === 0 ? '' : value}
                         borderColor={{
                             from: 'color',
                             modifiers: [['darker', 1.6]]
@@ -686,10 +726,14 @@ const TemporalDevelopmentAnalyses = () => {
                         axisTop={null}
                         axisRight={null}
                         axisBottom={{
-                            tickSize: 5,
+                            tickSize: function (value) {
+                                return value % 6 === 0 ? 5 : 0;
+                            },
                             tickPadding: 5,
                             tickRotation: 0,
-                            tickValues: 'every 8 years'
+                            format: function (value) {
+                                return value % 6 === 0 ? value : "";
+                            }
                         }}
                         axisLeft={{
                             tickSize: 5,
@@ -882,13 +926,82 @@ const TemporalDevelopmentAnalyses = () => {
                         useMesh={true}
                         tooltip={({node}) => (
                             <div
-                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60">
+                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80 max-w-96">
                                 <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
                                     {node.data.location} {node.data.x}
                                 </div>
-                                <div className="flex items-center gap-2 mb-2">
+                                <div className="flex items-center gap-2 mb-3">
+                                    <div
+                                        className="w-3 h-3 rounded-full"
+                                        style={{backgroundColor: node.color}}
+                                    ></div>
                                     <span className="font-medium text-gray-700 dark:text-gray-300">{node.data.buildState}:</span>
-                                    <span className="text-gray-900 dark:text-gray-100">{node.data.y} venues</span>
+                                    <span className="text-gray-900 dark:text-gray-100 font-semibold">{node.data.y} venues</span>
+                                </div>
+                                
+                                <div className="space-y-2 text-sm">
+                                    <div className="flex justify-between">
+                                        <span className="font-medium text-gray-700 dark:text-gray-300">Total Capacity:</span>
+                                        <span className="text-gray-900 dark:text-gray-100">
+                                            {node.data.totalCapacity ? node.data.totalCapacity.toLocaleString() : 'N/A'}
+                                        </span>
+                                    </div>
+                                    <div className="flex justify-between">
+                                        <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
+                                        <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
+                                    </div>
+                                    
+                                    {node.data.venueTypes && (
+                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Venue Types:</div>
+                                            <div className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                                                {node.data.venueTypes}
+                                            </div>
+                                        </div>
+                                    )}
+                                    
+                                    {node.data.statusBreakdown && (
+                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Current Status:</div>
+                                            <div className="text-gray-600 dark:text-gray-400 leading-relaxed">
+                                                {node.data.statusBreakdown}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {node.data.venues && node.data.venues.length <= 3 && (
+                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-2">Venues:</div>
+                                            <div className="space-y-2 max-h-32 overflow-y-auto">
+                                                {node.data.venues.map((venue, idx) => (
+                                                    <div key={idx} className="text-xs bg-gray-50 dark:bg-gray-700 rounded p-2">
+                                                        <div className="font-medium text-gray-800 dark:text-gray-200 mb-1">
+                                                            {venue.name}
+                                                        </div>
+                                                        <div className="text-gray-600 dark:text-gray-400 space-y-1">
+                                                            {venue.sports && venue.sports.length > 0 && (
+                                                                <div>Sports: {Array.isArray(venue.sports) ? venue.sports.join(', ') : venue.sports}</div>
+                                                            )}
+                                                            {venue.capacity && (
+                                                                <div>Capacity: {parseInt(venue.capacity).toLocaleString()}</div>
+                                                            )}
+                                                            {venue.opened && (
+                                                                <div>Opened: {venue.opened}</div>
+                                                            )}
+                                                        </div>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {node.data.venues && node.data.venues.length > 3 && (
+                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                            <div className="text-xs text-gray-500 dark:text-gray-400 italic">
+                                                {node.data.venues.length} venues (hover individual points for details)
+                                            </div>
+                                        </div>
+                                    )}
                                 </div>
                             </div>
                         )}

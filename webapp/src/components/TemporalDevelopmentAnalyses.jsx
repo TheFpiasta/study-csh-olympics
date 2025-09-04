@@ -15,6 +15,7 @@ const TemporalDevelopmentAnalyses = () => {
     const [buildStateSeasonFilter, setBuildStateSeasonFilter] = useState('both');
     const [scatterBuildStateSeasonFilter, setScatterBuildStateSeasonFilter] = useState('both');
     const [buildStateFilter, setBuildStateFilter] = useState(['New build', 'Existing', 'Temporary', 'Unknown']);
+    const [barBuildStateFilter, setBarBuildStateFilter] = useState(['New build', 'Existing', 'Temporary', 'Unknown']);
     const [viewMode, setViewMode] = useState('season'); // 'season' or 'venue-type'
     const [classificationFilter, setClassificationFilter] = useState('all');
 
@@ -361,6 +362,17 @@ const TemporalDevelopmentAnalyses = () => {
         });
     };
 
+    // Toggle bar build state filter
+    const toggleBarBuildStateFilter = (buildState) => {
+        setBarBuildStateFilter(prev => {
+            if (prev.includes(buildState)) {
+                return prev.filter(state => state !== buildState);
+            } else {
+                return [...prev, buildState];
+            }
+        });
+    };
+
     // Get min and max years from all data
     const getYearRange = () => {
         if (!data?.games) return { min: 'auto', max: 'auto' };
@@ -690,6 +702,37 @@ const TemporalDevelopmentAnalyses = () => {
                     </div>
                 </div>
 
+                {/* Build State Filter for Stacked Bar Chart */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Build State Categories
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        {['New build', 'Existing', 'Temporary', 'Unknown'].map((buildState, index) => (
+                            <button
+                                key={buildState}
+                                onClick={() => toggleBarBuildStateFilter(buildState)}
+                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
+                                    barBuildStateFilter.includes(buildState)
+                                        ? 'text-white'
+                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                }`}
+                                style={{
+                                    backgroundColor: barBuildStateFilter.includes(buildState) 
+                                        ? ['#EE334Eaa', '#00A651aa', '#FCB131aa', '#0081C8aa'][index]
+                                        : undefined
+                                }}
+                            >
+                                <div
+                                    className="w-2 h-2 rounded-full"
+                                    style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][index]}}
+                                ></div>
+                                {buildState}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
                 <div className="h-80 chart-container">
                     <style jsx>{`
                         .chart-container :global(text) {
@@ -699,7 +742,7 @@ const TemporalDevelopmentAnalyses = () => {
                     `}</style>
                     <ResponsiveBar
                         data={getBuildStateData()}
-                        keys={['New build', 'Existing', 'Temporary', 'Unknown']}
+                        keys={barBuildStateFilter}
                         indexBy="year"
                         margin={{top: 20, right: 30, bottom: 50, left: 60}}
                         padding={0.1}
@@ -803,259 +846,20 @@ const TemporalDevelopmentAnalyses = () => {
 
                 {/* Build State Legend */}
                 <div className="flex justify-center mt-2 flex-wrap gap-4">
-                    {['New build', 'Existing', 'Temporary', 'Unknown'].map((classification, index) => (
-                        <div key={classification} className="flex items-center gap-2">
-                            <div
-                                className="w-3 h-3"
-                                style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][index]}}
-                            ></div>
-                            <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                              {classification}
-                          </span>
-                        </div>
-                    ))}
-                </div>
-            </div>
-
-            {/* Build State Scatter Plot */}
-            <div
-                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        🏗️ Ratio of new buildings to existing facilities over time
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                          Scatter Plot
-                      </span>
-                    </h3>
-                </div>
-
-                {/* Season Filter for Build State Scatter Plot */}
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Olympic Season
-                    </label>
-                    <div className="flex flex-wrap gap-2">
-                        <button
-                            onClick={() => setScatterBuildStateSeasonFilter('both')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                scatterBuildStateSeasonFilter === 'both'
-                                    ? 'bg-violet-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Both Seasons
-                        </button>
-                        <button
-                            onClick={() => setScatterBuildStateSeasonFilter('summer')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                scatterBuildStateSeasonFilter === 'summer'
-                                    ? 'bg-amber-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Summer
-                        </button>
-                        <button
-                            onClick={() => setScatterBuildStateSeasonFilter('winter')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                scatterBuildStateSeasonFilter === 'winter'
-                                    ? 'bg-cyan-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Winter
-                        </button>
-                    </div>
-                </div>
-
-                {/* Build State Filter */}
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Build State Categories
-                    </label>
-                    <div className="flex flex-wrap gap-2">
-                        {['New build', 'Existing', 'Temporary', 'Unknown'].map((buildState, index) => (
-                            <button
-                                key={buildState}
-                                onClick={() => toggleBuildStateFilter(buildState)}
-                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
-                                    buildStateFilter.includes(buildState)
-                                        ? 'text-white'
-                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                                }`}
-                                style={{
-                                    backgroundColor: buildStateFilter.includes(buildState) 
-                                        ? ['#EE334Eaa', '#00A651aa', '#FCB131aa', '#0081C8aa'][index]
-                                        : undefined
-                                }}
-                            >
+                    {['New build', 'Existing', 'Temporary', 'Unknown'].filter(classification => barBuildStateFilter.includes(classification)).map((classification, index) => {
+                        const originalIndex = ['New build', 'Existing', 'Temporary', 'Unknown'].indexOf(classification);
+                        return (
+                            <div key={classification} className="flex items-center gap-2">
                                 <div
-                                    className="w-2 h-2 rounded-full"
-                                    style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][index]}}
+                                    className="w-3 h-3"
+                                    style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][originalIndex]}}
                                 ></div>
-                                {buildState}
-                            </button>
-                        ))}
-                    </div>
-                </div>
-
-                <div className="h-80 chart-container">
-                    <style jsx>{`
-                        .chart-container :global(text) {
-                            fill: #d1d5db !important;
-                            font-weight: 600 !important;
-                        }
-                    `}</style>
-                    <ResponsiveScatterPlot
-                        data={getBuildStateScatterData()}
-                        margin={{top: 20, right: 30, bottom: 50, left: 60}}
-                        xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
-                        yScale={{type: 'linear', min: 'auto', max: 'auto'}}
-                        axisTop={null}
-                        axisRight={null}
-                        axisBottom={{
-                            orient: 'bottom',
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: 0
-                        }}
-                        axisLeft={{
-                            orient: 'left',
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: 0
-                        }}
-                        colors={['#EE334E', '#00A651', '#FCB131', '#0081C8']}
-                        nodeSize={8}
-                        useMesh={true}
-                        tooltip={({node}) => (
-                            <div
-                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80 max-w-96">
-                                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
-                                    {node.data.location} {node.data.x}
-                                </div>
-                                <div className="flex items-center gap-2 mb-3">
-                                    <div
-                                        className="w-3 h-3 rounded-full"
-                                        style={{backgroundColor: node.color}}
-                                    ></div>
-                                    <span className="font-medium text-gray-700 dark:text-gray-300">{node.data.buildState}:</span>
-                                    <span className="text-gray-900 dark:text-gray-100 font-semibold">{node.data.y} venues</span>
-                                </div>
-                                
-                                <div className="space-y-2 text-sm">
-                                    <div className="flex justify-between">
-                                        <span className="font-medium text-gray-700 dark:text-gray-300">Total Capacity:</span>
-                                        <span className="text-gray-900 dark:text-gray-100">
-                                            {node.data.totalCapacity ? node.data.totalCapacity.toLocaleString() : 'N/A'}
-                                        </span>
-                                    </div>
-                                    <div className="flex justify-between">
-                                        <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
-                                        <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
-                                    </div>
-                                    
-                                    {node.data.venueTypes && (
-                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
-                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Venue Types:</div>
-                                            <div className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                                                {node.data.venueTypes}
-                                            </div>
-                                        </div>
-                                    )}
-                                    
-                                    {node.data.statusBreakdown && (
-                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
-                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Current Status:</div>
-                                            <div className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                                                {node.data.statusBreakdown}
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {node.data.venues && node.data.venues.length <= 3 && (
-                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
-                                            <div className="font-medium text-gray-700 dark:text-gray-300 mb-2">Venues:</div>
-                                            <div className="space-y-2 max-h-32 overflow-y-auto">
-                                                {node.data.venues.map((venue, idx) => (
-                                                    <div key={idx} className="text-xs bg-gray-50 dark:bg-gray-700 rounded p-2">
-                                                        <div className="font-medium text-gray-800 dark:text-gray-200 mb-1">
-                                                            {venue.name}
-                                                        </div>
-                                                        <div className="text-gray-600 dark:text-gray-400 space-y-1">
-                                                            {venue.sports && venue.sports.length > 0 && (
-                                                                <div>Sports: {Array.isArray(venue.sports) ? venue.sports.join(', ') : venue.sports}</div>
-                                                            )}
-                                                            {venue.capacity && (
-                                                                <div>Capacity: {parseInt(venue.capacity).toLocaleString()}</div>
-                                                            )}
-                                                            {venue.opened && (
-                                                                <div>Opened: {venue.opened}</div>
-                                                            )}
-                                                        </div>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        </div>
-                                    )}
-
-                                    {node.data.venues && node.data.venues.length > 3 && (
-                                        <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
-                                            <div className="text-xs text-gray-500 dark:text-gray-400 italic">
-                                                {node.data.venues.length} venues (hover individual points for details)
-                                            </div>
-                                        </div>
-                                    )}
-                                </div>
+                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                  {classification}
+                              </span>
                             </div>
-                        )}
-                        legends={[]}
-                        theme={{
-                            background: 'transparent',
-                            tooltip: {
-                                container: {
-                                    background: '#ffffff',
-                                    color: '#374151',
-                                    fontSize: '12px',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                    border: '1px solid #e5e7eb',
-                                    padding: '8px 12px'
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            }
-                        }}
-                    />
-                </div>
-
-                {/* Build State Scatter Legend */}
-                <div className="flex justify-center mt-2 flex-wrap gap-4">
-                    {getBuildStateScatterData().map((series, index) => (
-                        <div key={series.id} className="flex items-center gap-2">
-                            <div
-                                className="w-3 h-3 rounded-full"
-                                style={{backgroundColor: series.color}}
-                            ></div>
-                            <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                              {series.id}
-                          </span>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </div>
             </div>
 

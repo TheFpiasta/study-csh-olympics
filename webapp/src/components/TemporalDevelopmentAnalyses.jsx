@@ -213,37 +213,44 @@ const TemporalDevelopmentAnalyses = () => {
     const getBuildStateData = () => {
         if (!data?.games) return [];
 
-        // Group games by year and calculate build state distribution
+        // Get year range and initialize all years
+        const yearRange = getYearRange();
         const yearData = {};
         
+        // Initialize all years from min to max with zero data
+        for (let year = yearRange.min; year <= yearRange.max; year++) {
+            yearData[year] = {
+                year: year,
+                location: '',
+                'New build': 0,
+                'Existing': 0,
+                'Temporary': 0,
+                'Unknown': 0
+            };
+        }
+        
+        // Fill in actual data for Olympic years
         data.games.forEach(game => {
-            const year = game.year;
+            const year = parseInt(game.year);
             
-            if (!yearData[year]) {
-                yearData[year] = {
-                    year: year,
-                    location: game.location,
-                    'New build': 0,
-                    'Existing': 0,
-                    'Temporary': 0,
-                    'Unknown': 0
-                };
-            }
+            if (yearData[year]) {
+                yearData[year].location = game.location;
 
-            // Count venues by build state for this year
-            game.features.forEach(feature => {
-                // Apply season filter
-                if (buildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
-                if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
-                
-                const classification = feature.properties.classification || 'Unknown';
-                if (yearData[year][classification] !== undefined) {
-                    yearData[year][classification]++;
-                } else {
-                    // Handle any unexpected classification values
-                    yearData[year]['Unknown']++;
-                }
-            });
+                // Count venues by build state for this year
+                game.features.forEach(feature => {
+                    // Apply season filter
+                    if (buildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
+                    if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
+                    
+                    const classification = feature.properties.classification || 'Unknown';
+                    if (yearData[year][classification] !== undefined) {
+                        yearData[year][classification]++;
+                    } else {
+                        // Handle any unexpected classification values
+                        yearData[year]['Unknown']++;
+                    }
+                });
+            }
         });
 
         return Object.values(yearData).sort((a, b) => a.year - b.year);
@@ -590,7 +597,7 @@ const TemporalDevelopmentAnalyses = () => {
                         keys={['New build', 'Existing', 'Temporary', 'Unknown']}
                         indexBy="year"
                         margin={{top: 20, right: 30, bottom: 50, left: 60}}
-                        padding={0.3}
+                        padding={0.1}
                         valueScale={{type: 'linear'}}
                         indexScale={{type: 'band', round: true}}
                         colors={['#EE334E', '#00A651', '#FCB131', '#0081C8']}
@@ -603,7 +610,8 @@ const TemporalDevelopmentAnalyses = () => {
                         axisBottom={{
                             tickSize: 5,
                             tickPadding: 5,
-                            tickRotation: 0
+                            tickRotation: 0,
+                            tickValues: 'every 8 years'
                         }}
                         axisLeft={{
                             tickSize: 5,

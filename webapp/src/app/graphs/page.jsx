@@ -51,20 +51,20 @@ export default function GraphsPage() {
                 </div>
             </div>
 
-            {/* Temporal Analysis Dashboard */}
-            <div className="mx-4 mb-8">
-                <TemporalAnalysis />
-            </div>
+            {/*/!* Temporal Analysis Dashboard *!/*/}
+            {/*<div className="mx-4 mb-8">*/}
+            {/*    <TemporalAnalysis />*/}
+            {/*</div>*/}
 
-            {/* Geographic Analysis Dashboard */}
-            <div className="mx-4 mb-8">
-                <GeographicAnalysis />
-            </div>
+            {/*/!* Geographic Analysis Dashboard *!/*/}
+            {/*<div className="mx-4 mb-8">*/}
+            {/*    <GeographicAnalysis />*/}
+            {/*</div>*/}
 
-            {/* Interactive Features Dashboard */}
-            <div className="mx-4 mb-8">
-                <InteractiveFeatures />
-            </div>
+            {/*/!* Interactive Features Dashboard *!/*/}
+            {/*<div className="mx-4 mb-8">*/}
+            {/*    <InteractiveFeatures />*/}
+            {/*</div>*/}
 
             {/* Temporal Development Analyses */}
             <div className="mx-4 mb-8">

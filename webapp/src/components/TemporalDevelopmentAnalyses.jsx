@@ -209,10 +209,18 @@ const TemporalDevelopmentAnalyses = () => {
     const getNewVsExistingData = () => {
         if (!data?.games) return [];
 
+        // Apply season filter
+        let filteredGames = data.games;
+        if (seasonFilter === 'summer') {
+            filteredGames = data.games.filter(game => game.season === 'Summer');
+        } else if (seasonFilter === 'winter') {
+            filteredGames = data.games.filter(game => game.season === 'Winter');
+        }
+
         // Collect all unique classifications across all games
         const allClassifications = new Set();
         
-        const result = data.games.map(game => {
+        const result = filteredGames.map(game => {
             let newBuildings = 0;
             let existingFacilities = 0;
             let temporaryBuildings = 0;
@@ -296,6 +304,17 @@ const TemporalDevelopmentAnalyses = () => {
             unknown: g['Unknown']
         })));
         console.log('All unique classifications found:', Array.from(allClassifications).sort());
+
+        // Apply classification filter
+        if (classificationFilter !== 'all') {
+            return filledResult.map(game => ({
+                ...game,
+                'New Buildings': classificationFilter === 'new' ? game['New Buildings'] : 0,
+                'Existing Facilities': classificationFilter === 'existing' ? game['Existing Facilities'] : 0,
+                'Temporary Buildings': classificationFilter === 'temporary' ? game['Temporary Buildings'] : 0,
+                'Unknown': classificationFilter === 'unknown' ? game['Unknown'] : 0
+            }));
+        }
 
         return filledResult;
     };
@@ -620,6 +639,105 @@ const TemporalDevelopmentAnalyses = () => {
                       Bar Chart
                   </span>
                 </h3>
+                
+                {/* Season Filter */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Olympic Season
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        <button
+                            onClick={() => setSeasonFilter('both')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                seasonFilter === 'both'
+                                    ? 'bg-violet-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Both Seasons
+                        </button>
+                        <button
+                            onClick={() => setSeasonFilter('summer')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                seasonFilter === 'summer'
+                                    ? 'bg-amber-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Summer
+                        </button>
+                        <button
+                            onClick={() => setSeasonFilter('winter')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                seasonFilter === 'winter'
+                                    ? 'bg-cyan-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Winter
+                        </button>
+                    </div>
+                </div>
+                
+                {/* Classification Filter */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Classification Filter
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        <button
+                            onClick={() => setClassificationFilter('all')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                classificationFilter === 'all'
+                                    ? 'bg-purple-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            All Classifications
+                        </button>
+                        <button
+                            onClick={() => setClassificationFilter('new')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                classificationFilter === 'new'
+                                    ? 'bg-green-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            New Buildings
+                        </button>
+                        <button
+                            onClick={() => setClassificationFilter('existing')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                classificationFilter === 'existing'
+                                    ? 'bg-blue-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Existing Facilities
+                        </button>
+                        <button
+                            onClick={() => setClassificationFilter('temporary')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                classificationFilter === 'temporary'
+                                    ? 'bg-orange-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Temporary Buildings
+                        </button>
+                        <button
+                            onClick={() => setClassificationFilter('unknown')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                classificationFilter === 'unknown'
+                                    ? 'bg-gray-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Unknown
+                        </button>
+                    </div>
+                </div>
+                
                 <div className="h-96 chart-container">
                     <style jsx>{`
                         .chart-container :global(text) {

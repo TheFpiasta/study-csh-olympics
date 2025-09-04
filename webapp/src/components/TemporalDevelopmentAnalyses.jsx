@@ -50,10 +50,32 @@ const TemporalDevelopmentAnalyses = () => {
     if (seasonFilter === 'both' || seasonFilter === 'summer') {
       const summerGames = data.games
         .filter(game => game.season === 'Summer')
-        .map(game => ({
-          x: game.year,
-          y: game.venueCount
-        }));
+        .map(game => {
+          // Get unique sports count
+          const allSports = new Set();
+          game.features.forEach(feature => {
+            if (feature.properties.sports) {
+              const sports = Array.isArray(feature.properties.sports) ? feature.properties.sports : [feature.properties.sports];
+              sports.forEach(sport => allSports.add(sport));
+            }
+          });
+          
+          // Get venue types breakdown
+          const venueTypes = {};
+          game.features.forEach(feature => {
+            const type = feature.properties.type || 'Unknown';
+            venueTypes[type] = (venueTypes[type] || 0) + 1;
+          });
+          
+          return {
+            x: game.year,
+            y: game.venueCount,
+            location: game.location,
+            season: game.season,
+            sportsCount: allSports.size,
+            venueTypes: Object.entries(venueTypes).map(([type, count]) => `${type}: ${count}`).join(', ')
+          };
+        });
       
       result.push({
         id: 'Summer',
@@ -64,10 +86,32 @@ const TemporalDevelopmentAnalyses = () => {
     if (seasonFilter === 'both' || seasonFilter === 'winter') {
       const winterGames = data.games
         .filter(game => game.season === 'Winter')
-        .map(game => ({
-          x: game.year,
-          y: game.venueCount
-        }));
+        .map(game => {
+          // Get unique sports count
+          const allSports = new Set();
+          game.features.forEach(feature => {
+            if (feature.properties.sports) {
+              const sports = Array.isArray(feature.properties.sports) ? feature.properties.sports : [feature.properties.sports];
+              sports.forEach(sport => allSports.add(sport));
+            }
+          });
+          
+          // Get venue types breakdown
+          const venueTypes = {};
+          game.features.forEach(feature => {
+            const type = feature.properties.type || 'Unknown';
+            venueTypes[type] = (venueTypes[type] || 0) + 1;
+          });
+          
+          return {
+            x: game.year,
+            y: game.venueCount,
+            location: game.location,
+            season: game.season,
+            sportsCount: allSports.size,
+            venueTypes: Object.entries(venueTypes).map(([type, count]) => `${type}: ${count}`).join(', ')
+          };
+        });
       
       result.push({
         id: 'Winter',
@@ -303,6 +347,32 @@ const TemporalDevelopmentAnalyses = () => {
                       colors={getScatterColors()}
                       nodeSize={8}
                       useMesh={true}
+                      tooltip={({ node }) => (
+                          <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-72 max-w-80">
+                              <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                                  {node.data.location} {node.data.x}
+                              </div>
+                              <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                                  {node.data.season} Olympics
+                              </div>
+                              <div className="space-y-2">
+                                  <div className="flex justify-between">
+                                      <span className="font-medium text-gray-700 dark:text-gray-300">Venues:</span>
+                                      <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
+                                  </div>
+                                  <div className="flex justify-between">
+                                      <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
+                                      <span className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
+                                  </div>
+                                  <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                      <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">Venue Types:</div>
+                                      <div className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                                          {node.data.venueTypes}
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                      )}
                       legends={[
                           {
                               anchor: 'bottom-right',

@@ -1,0 +1,1780 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.860616,
+          41.216332
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Snowbasin Ski Resort"
+        ],
+        "place": "Huntsville, Utah",
+        "coordinates": "41.216332,-111.860616",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1939",
+        "seating_capacity": "22500",
+        "type": "outdoor venue",
+        "altitude": "1957 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1460"
+            },
+            {
+              "text": "10 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1461"
+            },
+            {
+              "text": "16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1468"
+            },
+            {
+              "text": "13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1474"
+            },
+            {
+              "text": "12 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1475"
+            },
+            {
+              "text": "17 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1482"
+            },
+            {
+              "text": "14 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_125.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.478963,
+          40.63589
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Deer Valley Resort"
+        ],
+        "place": "Deer Valley, Utah",
+        "coordinates": "40.63589,-111.478963",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Freestyle Skiing"
+        ],
+        "opened": "1981",
+        "seating_capacity": "13400",
+        "type": "outdoor venue",
+        "altitude": "2002 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1462"
+            },
+            {
+              "text": "21 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1476"
+            },
+            {
+              "text": "22 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/1849"
+            },
+            {
+              "text": "16 – 19 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/1856"
+            },
+            {
+              "text": "12 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/1859"
+            },
+            {
+              "text": "16 – 18 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/1866"
+            },
+            {
+              "text": "9 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_126.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.50165,
+          40.645716
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Park City Mountain Resort"
+        ],
+        "place": "Park City, Utah",
+        "coordinates": "40.645716,-111.50165",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Snowboarding"
+        ],
+        "opened": "1963",
+        "seating_capacity": "16000",
+        "type": "outdoor venue",
+        "altitude": "2117 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1465"
+            },
+            {
+              "text": "23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1479"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1636"
+            },
+            {
+              "text": "14 – 15 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/1657"
+            },
+            {
+              "text": "11 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1664"
+            },
+            {
+              "text": "14 – 15 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/1685"
+            },
+            {
+              "text": "10 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_127.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.497222,
+          40.479167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Soldier Hollow"
+        ],
+        "place": "Wasatch Mountain State Park",
+        "coordinates": "40.479167,-111.497222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "2000",
+        "seating_capacity": "15200",
+        "type": "outdoor venue",
+        "altitude": "1670 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1585"
+            },
+            {
+              "text": "13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1586"
+            },
+            {
+              "text": "11 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/1587"
+            },
+            {
+              "text": "16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1588"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/1592"
+            },
+            {
+              "text": "13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1593"
+            },
+            {
+              "text": "11 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/1594"
+            },
+            {
+              "text": "16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1595"
+            },
+            {
+              "text": "18 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2086"
+            },
+            {
+              "text": "12 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10/10 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/2087"
+            },
+            {
+              "text": "14 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2090"
+            },
+            {
+              "text": "9 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2091"
+            },
+            {
+              "text": "23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2092"
+            },
+            {
+              "text": "19 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2104"
+            },
+            {
+              "text": "17 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2108"
+            },
+            {
+              "text": "12 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5/5 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/2109"
+            },
+            {
+              "text": "15 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2112"
+            },
+            {
+              "text": "9 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2113"
+            },
+            {
+              "text": "24 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/2114"
+            },
+            {
+              "text": "19 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2126"
+            },
+            {
+              "text": "21 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2321"
+            },
+            {
+              "text": "9 – 10 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2326"
+            },
+            {
+              "text": "21 – 22 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2329"
+            },
+            {
+              "text": "16 – 17 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_128.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.56193,
+          40.71207
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Utah Olympic Park"
+        ],
+        "place": "Park City, Utah",
+        "coordinates": "40.71207,-111.56193",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Nordic Combined",
+          "Skeleton",
+          "Ski Jumping"
+        ],
+        "notes": "Two parts: Bobsleigh/Skeleton/Luge Track and Ski Jumps",
+        "opened": "1997",
+        "seating_capacity": "15000",
+        "type": "outdoor venue",
+        "altitude": "2097 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/443"
+            },
+            {
+              "text": "16 – 17 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/450"
+            },
+            {
+              "text": "22 – 23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/457"
+            },
+            {
+              "text": "19 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/195"
+            },
+            {
+              "text": "10 – 11 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/202"
+            },
+            {
+              "text": "15 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/205"
+            },
+            {
+              "text": "12 – 13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2321"
+            },
+            {
+              "text": "9 – 10 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2326"
+            },
+            {
+              "text": "21 – 22 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2329"
+            },
+            {
+              "text": "16 – 17 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/17"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/20"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2448"
+            },
+            {
+              "text": "10 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2453"
+            },
+            {
+              "text": "12 – 13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2458"
+            },
+            {
+              "text": "18 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_129.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.950417,
+          40.702722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "E Center",
+          "Maverik Center (2010-Present)"
+        ],
+        "place": "Salt Lake City, Utah",
+        "coordinates": "40.702722,-111.950417",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1997",
+        "seating_capacity": "10500",
+        "type": "indoor venue",
+        "altitude": "1250 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20778"
+            },
+            {
+              "text": "9 – 24 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20822"
+            },
+            {
+              "text": "11 – 21 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_130.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.638056,
+          40.234722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Peaks Ice Arena"
+        ],
+        "place": "Provo, Utah",
+        "coordinates": "40.234722,-111.638056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1998",
+        "seating_capacity": "8400",
+        "type": "indoor venue",
+        "altitude": "1388 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20778"
+            },
+            {
+              "text": "9 – 24 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20822"
+            },
+            {
+              "text": "11 – 21 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_131.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.901111,
+          40.768333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Salt Lake Ice Center",
+          "Delta Center (1991-2006), EnergySolutions Arena (2006-Present)"
+        ],
+        "place": "Salt Lake City, Utah",
+        "coordinates": "40.768333,-111.901111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "notes": "Then known as the Delta Center; currently the EnergySolutions Arena.",
+        "opened": "1991",
+        "seating_capacity": "17500",
+        "type": "indoor venue",
+        "altitude": "1305 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/14274"
+            },
+            {
+              "text": "12 – 14 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/14295"
+            },
+            {
+              "text": "19 – 21 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/14316"
+            },
+            {
+              "text": "9 – 11 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/14337"
+            },
+            {
+              "text": "15 – 18 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/719"
+            },
+            {
+              "text": "23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/739"
+            },
+            {
+              "text": "13 – 16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/759"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/773"
+            },
+            {
+              "text": "13 – 23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/779"
+            },
+            {
+              "text": "16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/799"
+            },
+            {
+              "text": "20 – 23 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/819"
+            },
+            {
+              "text": "13 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/832"
+            },
+            {
+              "text": "16 – 20 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_132.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.00877,
+          40.64784
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Utah Olympic Oval"
+        ],
+        "place": "Kearns, Utah",
+        "coordinates": "40.64784,-112.00877",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2001",
+        "seating_capacity": "5236",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "1425 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1108"
+            },
+            {
+              "text": "11 – 12 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1111"
+            },
+            {
+              "text": "16 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1112"
+            },
+            {
+              "text": "19 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1113"
+            },
+            {
+              "text": "9 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1114"
+            },
+            {
+              "text": "22 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1115"
+            },
+            {
+              "text": "13 – 14 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1118"
+            },
+            {
+              "text": "17 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1119"
+            },
+            {
+              "text": "20 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1120"
+            },
+            {
+              "text": "10 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1121"
+            },
+            {
+              "text": "23 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_133.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -111.946389,
+          41.183333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Ice Sheet (also known as Weber County Ice Sheet)"
+        ],
+        "place": "Ogden, Utah",
+        "coordinates": "41.183333,-111.946389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2002",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "opened": "1994",
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "altitude": "1460 m",
+        "events": [
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2557"
+            },
+            {
+              "text": "11 – 22 February 2002"
+            }
+          ],
+          [
+            {
+              "text": "2002 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/47"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/2611"
+            },
+            {
+              "text": "11 – 21 February 2002"
+            }
+          ]
+        ],
+        "source_file": "venue_134.json",
+        "Olympics": "2002 Salt Lake City"
+      }
+    }
+  ]
+}

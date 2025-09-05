@@ -1,0 +1,6181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.287778,
+          34.014167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Memorial Coliseum"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.014167,-118.287778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Summer"
+          },
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Alpinism",
+          "American Football",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Hockey",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1923",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders (1932) / Artificial surface (1984)",
+        "altitude": "46 m",
+        "events": [
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "American Football",
+              "link": "https://www.olympedia.org/sports/USF"
+            },
+            {
+              "text": "American Football, Men",
+              "link": "https://www.olympedia.org/results/900057"
+            },
+            {
+              "text": "8 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Alpinism",
+              "link": "https://www.olympedia.org/sports/APN"
+            },
+            {
+              "text": "Alpinism, Open",
+              "link": "https://www.olympedia.org/results/900056"
+            },
+            {
+              "text": "14 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/57919"
+            },
+            {
+              "text": "31 July –  1 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/57937"
+            },
+            {
+              "text": "2 –  3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/57955"
+            },
+            {
+              "text": "4 –  5 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/57971"
+            },
+            {
+              "text": "1 –  2 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/57977"
+            },
+            {
+              "text": "3 –  4 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57983"
+            },
+            {
+              "text": "2 –  5 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57988"
+            },
+            {
+              "text": "31 July 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/57989"
+            },
+            {
+              "text": "7 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57990"
+            },
+            {
+              "text": "2 –  3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/58000"
+            },
+            {
+              "text": "31 July –  1 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/58010"
+            },
+            {
+              "text": "1 –  6 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/58016"
+            },
+            {
+              "text": "6 –  7 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/58021"
+            },
+            {
+              "text": "6 –  7 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/58015"
+            },
+            {
+              "text": "3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/58026"
+            },
+            {
+              "text": "31 July 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/58031"
+            },
+            {
+              "text": "3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/58038"
+            },
+            {
+              "text": "2 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/58045"
+            },
+            {
+              "text": "4 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/58052"
+            },
+            {
+              "text": "31 July 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/58059"
+            },
+            {
+              "text": "3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/58066"
+            },
+            {
+              "text": "1 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/58073"
+            },
+            {
+              "text": "4 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/58080"
+            },
+            {
+              "text": "5 –  6 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/58111"
+            },
+            {
+              "text": "1 –  2 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "80 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/58121"
+            },
+            {
+              "text": "3 –  4 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/58127"
+            },
+            {
+              "text": "7 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/58128"
+            },
+            {
+              "text": "7 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/58141"
+            },
+            {
+              "text": "2 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/58142"
+            },
+            {
+              "text": "31 July 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185097"
+            },
+            {
+              "text": "14 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185098"
+            },
+            {
+              "text": "14 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185082"
+            },
+            {
+              "text": "10 – 13 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185087"
+            },
+            {
+              "text": "10 – 13 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70092"
+            },
+            {
+              "text": "8 – 10 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70098"
+            },
+            {
+              "text": "8 – 10 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70104"
+            },
+            {
+              "text": "8 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70105"
+            },
+            {
+              "text": "10 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70106"
+            },
+            {
+              "text": "12 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70107"
+            },
+            {
+              "text": "11 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70108"
+            },
+            {
+              "text": "12 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70109"
+            },
+            {
+              "text": "11 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/70110"
+            },
+            {
+              "text": "10 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Club Swinging, Men",
+              "link": "https://www.olympedia.org/results/70111"
+            },
+            {
+              "text": "9 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Tumbling, Men",
+              "link": "https://www.olympedia.org/results/70112"
+            },
+            {
+              "text": "10 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35542"
+            },
+            {
+              "text": "4 – 11 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Lacrosse",
+              "link": "https://www.olympedia.org/sports/LAX"
+            },
+            {
+              "text": "Lacrosse, Men",
+              "link": "https://www.olympedia.org/results/900058"
+            },
+            {
+              "text": "7 – 12 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres Wheelchair, Men",
+              "link": "https://www.olympedia.org/results/900465"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/62625"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/62648"
+            },
+            {
+              "text": "6 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/62669"
+            },
+            {
+              "text": "4 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/62690"
+            },
+            {
+              "text": "3 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/62710"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/62722"
+            },
+            {
+              "text": "8 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/62732"
+            },
+            {
+              "text": "3 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/62738"
+            },
+            {
+              "text": "12 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/62739"
+            },
+            {
+              "text": "5 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/62749"
+            },
+            {
+              "text": "3 –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/62761"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/62772"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/62781"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "20 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/62770"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/62771"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/62791"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/62818"
+            },
+            {
+              "text": "6 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/62845"
+            },
+            {
+              "text": "5 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/62862"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/62879"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/62896"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/62913"
+            },
+            {
+              "text": "5 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/62930"
+            },
+            {
+              "text": "4 –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/62947"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/63032"
+            },
+            {
+              "text": "4 –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres Wheelchair, Women",
+              "link": "https://www.olympedia.org/results/900466"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Women",
+              "link": "https://www.olympedia.org/results/63049"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Women",
+              "link": "https://www.olympedia.org/results/63066"
+            },
+            {
+              "text": "4 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/63076"
+            },
+            {
+              "text": "3 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/63086"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/63091"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Women",
+              "link": "https://www.olympedia.org/results/63097"
+            },
+            {
+              "text": "5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/63098"
+            },
+            {
+              "text": "9 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/63108"
+            },
+            {
+              "text": "5 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/63118"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/63123"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/63128"
+            },
+            {
+              "text": "9 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Women",
+              "link": "https://www.olympedia.org/results/63155"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Women",
+              "link": "https://www.olympedia.org/results/63173"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/63180"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/63197"
+            },
+            {
+              "text": "5 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Heptathlon, Women",
+              "link": "https://www.olympedia.org/results/63214"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_300.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.167293,
+          34.160984
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rose Bowl"
+        ],
+        "place": "Pasadena, California",
+        "coordinates": "34.160984,-118.167293",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Summer"
+          },
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Football"
+        ],
+        "notes": "Temporary track used only for the Olympics.",
+        "opened": "1922",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Wood",
+        "events": [
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153423"
+            },
+            {
+              "text": "1 –  3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153422"
+            },
+            {
+              "text": "1 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153441"
+            },
+            {
+              "text": "1 –  3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/10"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153451"
+            },
+            {
+              "text": "2 –  3 August 1932"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33975"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_304.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.08835,
+          33.811786
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "El Dorado Park"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.811786,-118.08835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/40631"
+            },
+            {
+              "text": "8 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/40646"
+            },
+            {
+              "text": "8 – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_600.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.341944,
+          33.958056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Forum"
+        ],
+        "place": "Inglewood, California",
+        "coordinates": "33.958056,-118.341944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Handball"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/32570"
+            },
+            {
+              "text": "29 July – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Women",
+              "link": "https://www.olympedia.org/results/32625"
+            },
+            {
+              "text": "30 July –  7 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/34684"
+            },
+            {
+              "text": "31 July – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_601.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.284444,
+          34.013056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Memorial Sports Arena",
+          "The Great Western Forum (1988-2003)"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.013056,-118.284444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1959",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Flyweight, Men",
+              "link": "https://www.olympedia.org/results/25155"
+            },
+            {
+              "text": "30 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/25185"
+            },
+            {
+              "text": "31 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/25222"
+            },
+            {
+              "text": "30 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/25263"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/25306"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Welterweight, Men",
+              "link": "https://www.olympedia.org/results/25352"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/25395"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/25438"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/25478"
+            },
+            {
+              "text": "30 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/25510"
+            },
+            {
+              "text": "30 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/25539"
+            },
+            {
+              "text": "31 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/25564"
+            },
+            {
+              "text": "3 – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_602.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.240044,
+          34.073778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dodger Stadium"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.073778,-118.240044",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900359"
+            },
+            {
+              "text": "31 July –  7 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_603.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.329449,
+          34.407171
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lake Casitas"
+        ],
+        "place": "Los Padres National Forest, California",
+        "coordinates": "34.407171,-119.329449",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "notes": "Artificial lake.",
+        "opened": "1959",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255675"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255688"
+            },
+            {
+              "text": "7 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255701"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255714"
+            },
+            {
+              "text": "7 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255727"
+            },
+            {
+              "text": "7 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255739"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255751"
+            },
+            {
+              "text": "7 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255757"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255763"
+            },
+            {
+              "text": "7 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255769"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255775"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255782"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/158900"
+            },
+            {
+              "text": "31 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/158914"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/158932"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/158943"
+            },
+            {
+              "text": "31 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Quadruple Sculls, Men",
+              "link": "https://www.olympedia.org/results/158923"
+            },
+            {
+              "text": "31 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/158952"
+            },
+            {
+              "text": "31 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/158961"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/158968"
+            },
+            {
+              "text": "31 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Women",
+              "link": "https://www.olympedia.org/results/158974"
+            },
+            {
+              "text": "30 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Women",
+              "link": "https://www.olympedia.org/results/158988"
+            },
+            {
+              "text": "30 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Women",
+              "link": "https://www.olympedia.org/results/159001"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Women",
+              "link": "https://www.olympedia.org/results/159002"
+            },
+            {
+              "text": "30 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Quadruple Sculls, Women",
+              "link": "https://www.olympedia.org/results/158995"
+            },
+            {
+              "text": "30 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Women",
+              "link": "https://www.olympedia.org/results/159011"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_604.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.002431,
+          33.856114
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Artesia Freeway"
+        ],
+        "place": "Buena Park, California",
+        "coordinates": "33.856114,-118.002431",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "100 kilometres Team Time Trial, Men",
+              "link": "https://www.olympedia.org/results/154566"
+            },
+            {
+              "text": "5 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_605.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.643979,
+          33.640833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Mission Viejo, California",
+        "coordinates": "33.640833,-117.643979",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/154565"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Women",
+              "link": "https://www.olympedia.org/results/154567"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_606.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.259722,
+          33.858889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Velodrome, California State University at Dominguez Hills"
+        ],
+        "place": "Carson, California",
+        "coordinates": "33.858889,-118.259722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track"
+        ],
+        "notes": "Demolished and replaced by the Home Depot Center (later ADT Event Center).",
+        "opened": "1982",
+        "demolished": "2003",
+        "type": "outdoor venue",
+        "dimensions": "333⅓ m",
+        "surface": "Wood",
+        "additional_details": "333.33 metres, 33.0° curves",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/154449"
+            },
+            {
+              "text": "31 July –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/154448"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Individual Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/154525"
+            },
+            {
+              "text": "30 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/154547"
+            },
+            {
+              "text": "2 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Points Race, Men",
+              "link": "https://www.olympedia.org/results/154560"
+            },
+            {
+              "text": "31 July –  3 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_607.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.288667,
+          34.024069
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Swim Stadium, University of Southern California",
+          "McDonald's Olympic Swim Stadium (?-Present)"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.024069,-118.288667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Swimming"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54228"
+            },
+            {
+              "text": "7 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54231"
+            },
+            {
+              "text": "11 – 12 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54234"
+            },
+            {
+              "text": "5 –  6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54237"
+            },
+            {
+              "text": "9 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/6962"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/6975"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/6986"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/6995"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/7081"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/7099"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/7002"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/7013"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/7022"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/7033"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/7044"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/7055"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/7064"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/7074"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Men",
+              "link": "https://www.olympedia.org/results/7113"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7131"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7141"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7150"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "800 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7158"
+            },
+            {
+              "text": "2 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/7229"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/7164"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/7173"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/7181"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/7189"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/7196"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/7205"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/7214"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/7222"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Women",
+              "link": "https://www.olympedia.org/results/7243"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Solo, Women",
+              "link": "https://www.olympedia.org/results/43500"
+            },
+            {
+              "text": "8 – 12 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Duet, Women",
+              "link": "https://www.olympedia.org/results/43504"
+            },
+            {
+              "text": "6 –  9 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_608.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.044354,
+          34.140635
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Santa Anita Park"
+        ],
+        "place": "Arcadia, California",
+        "coordinates": "34.140635,-118.044354",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping"
+        ],
+        "opened": "1934",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185341"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185354"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185355"
+            },
+            {
+              "text": "12 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185358"
+            },
+            {
+              "text": "7 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185331"
+            },
+            {
+              "text": "29 July –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185336"
+            },
+            {
+              "text": "29 July –  3 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_609.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.215667,
+          32.978176
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Fairbanks Ranch"
+        ],
+        "place": "Rancho Santa Fe, California",
+        "coordinates": "32.978176,-117.215667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185331"
+            },
+            {
+              "text": "29 July –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185336"
+            },
+            {
+              "text": "29 July –  3 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_610.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.18929,
+          33.765072
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Terrace Theater, Long Beach Convention and Entertainment Center",
+          "Long Beach Performing Arts Center (?-Present)"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.765072,-118.18929",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/105440"
+            },
+            {
+              "text": "1 –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/105783"
+            },
+            {
+              "text": "7 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/106892"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/106163"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/107518"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/107851"
+            },
+            {
+              "text": "2 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Women",
+              "link": "https://www.olympedia.org/results/108154"
+            },
+            {
+              "text": "5 –  7 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_611.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.190545,
+          33.76461
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Exhibit Hall, Long Beach Convention and Entertainment Center"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.76461,-118.190545",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/105440"
+            },
+            {
+              "text": "1 –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/106415"
+            },
+            {
+              "text": "4 –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/105783"
+            },
+            {
+              "text": "7 –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/106892"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/106163"
+            },
+            {
+              "text": "3 –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/107518"
+            },
+            {
+              "text": "8 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/107851"
+            },
+            {
+              "text": "2 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Women",
+              "link": "https://www.olympedia.org/results/108154"
+            },
+            {
+              "text": "5 –  7 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_612.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.188333,
+          33.763889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sports Arena, Long Beach Convention and Entertainment Center",
+          "Long Beach Arena (?-Present)"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.763889,-118.188333",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1962",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37341"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Women",
+              "link": "https://www.olympedia.org/results/37377"
+            },
+            {
+              "text": "30 July –  7 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_613.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.161111,
+          37.434444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stanford Stadium"
+        ],
+        "place": "Palo Alto, California",
+        "coordinates": "37.434444,-122.161111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "notes": "New stadium built on same site.",
+        "opened": "1921",
+        "demolished": "2005",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33975"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_614.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.126947,
+          42.366915
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Harvard Stadium"
+        ],
+        "place": "Allston, Massachusetts",
+        "coordinates": "42.366915,-71.126947",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1903",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33975"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_615.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.506944,
+          38.984722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Navy-Marine Corps Memorial Stadium"
+        ],
+        "place": "Annapolis, Maryland",
+        "coordinates": "38.984722,-76.506944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1959",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33975"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_616.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.446775,
+          34.070211
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Edwin W. Pauley Pavilion"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.070211,-118.446775",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Rhythmic Gymnastics"
+        ],
+        "opened": "1965",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70513"
+            },
+            {
+              "text": "29 July –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70528"
+            },
+            {
+              "text": "29 – 31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70535"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70537"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70539"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70541"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70543"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70545"
+            },
+            {
+              "text": "29 July –  4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Women",
+              "link": "https://www.olympedia.org/results/70563"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Women",
+              "link": "https://www.olympedia.org/results/70565"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Uneven Bars, Women",
+              "link": "https://www.olympedia.org/results/70567"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Balance Beam, Women",
+              "link": "https://www.olympedia.org/results/70569"
+            },
+            {
+              "text": "30 July –  5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Women",
+              "link": "https://www.olympedia.org/results/70547"
+            },
+            {
+              "text": "30 July –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70558"
+            },
+            {
+              "text": "30 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Rhythmic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GRY"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/67500"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_617.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.88609,
+          33.883046
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Titan Gym, California State University at Fullerton"
+        ],
+        "place": "Fullerton, California",
+        "coordinates": "33.883046,-117.88609",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1964",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/34684"
+            },
+            {
+              "text": "31 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Women",
+              "link": "https://www.olympedia.org/results/34725"
+            },
+            {
+              "text": "1 –  9 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_618.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.151703,
+          34.042861
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Weingart Stadium, East Los Angeles College",
+          "East Los Angeles Stadium (?-?)"
+        ],
+        "place": "Monterey Park, California",
+        "coordinates": "34.042861,-118.151703",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1951",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/36041"
+            },
+            {
+              "text": "29 July – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Women",
+              "link": "https://www.olympedia.org/results/36091"
+            },
+            {
+              "text": "31 July – 10 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_619.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.167603,
+          34.066348
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eagle's Nest Arena, California State University at Los Angeles"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.066348,-118.167603",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16075"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16121"
+            },
+            {
+              "text": "5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16178"
+            },
+            {
+              "text": "6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/16229"
+            },
+            {
+              "text": "7 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/16293"
+            },
+            {
+              "text": "8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/16342"
+            },
+            {
+              "text": "9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/16385"
+            },
+            {
+              "text": "10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Open Class, Men",
+              "link": "https://www.olympedia.org/results/16416"
+            },
+            {
+              "text": "11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_620.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.582787,
+          33.625297
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Coto de Caza Equestrian Center"
+        ],
+        "place": "Coto de Caza, California",
+        "coordinates": "33.625297,-117.582787",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50207"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50216"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_621.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.587778,
+          33.595833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pistol Range"
+        ],
+        "place": "Coto de Caza, California",
+        "coordinates": "33.595833,-117.587778",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50207"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50216"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_622.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.780666,
+          33.701647
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "William Woolett, Jr. Aquatics Center",
+          "Heritage Park Aquatic Center (?-Present)"
+        ],
+        "place": "Heritage Park, Irvine, California, USA",
+        "coordinates": "33.701647,-117.780666",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50207"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50216"
+            },
+            {
+              "text": "29 July –  1 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_623.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.184105,
+          33.759856
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Long Beach Marina"
+        ],
+        "place": "Long Beach, California",
+        "coordinates": "33.759856,-118.184105",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Men",
+              "link": "https://www.olympedia.org/results/10106"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/10093"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/10132"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/10119"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Multihull, Open",
+              "link": "https://www.olympedia.org/results/10158"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Three Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/10171"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Heavyweight Dinghy, Open",
+              "link": "https://www.olympedia.org/results/10145"
+            },
+            {
+              "text": "31 July –  8 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_624.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.669319,
+          34.413765
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "East Beach"
+        ],
+        "place": "Santa Barbara, California",
+        "coordinates": "34.413765,-119.669319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Men",
+              "link": "https://www.olympedia.org/results/900383"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Women",
+              "link": "https://www.olympedia.org/results/900387"
+            },
+            {
+              "text": "10 – 11 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_628.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.659213,
+          33.936885
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Prado Recreational Area",
+          "Prado Olympic Shooting Park (?-Present)"
+        ],
+        "place": "Chino, California",
+        "coordinates": "33.936885,-117.659213",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1983",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Rapid-Fire Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51757"
+            },
+            {
+              "text": "1 –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51758"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/51759"
+            },
+            {
+              "text": "3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51763"
+            },
+            {
+              "text": "1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51761"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51767"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Sporting Pistol, 25 metres, Women",
+              "link": "https://www.olympedia.org/results/51770"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Women",
+              "link": "https://www.olympedia.org/results/51773"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Women",
+              "link": "https://www.olympedia.org/results/51774"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Open",
+              "link": "https://www.olympedia.org/results/51768"
+            },
+            {
+              "text": "29 – 31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Skeet, Open",
+              "link": "https://www.olympedia.org/results/51769"
+            },
+            {
+              "text": "2 –  4 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_629.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.448319,
+          34.069825
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Los Angeles Tennis Center"
+        ],
+        "place": "Los Angeles, California",
+        "coordinates": "34.069825,-118.448319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1984",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/900391"
+            },
+            {
+              "text": "6 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/900428"
+            },
+            {
+              "text": "6 – 10 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_630.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.71025,
+          34.03876
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Raleigh Runnels Memorial Pool, Pepperdine University"
+        ],
+        "place": "Malibu, California",
+        "coordinates": "34.03876,-118.71025",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1976",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38678"
+            },
+            {
+              "text": "1 – 10 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_631.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.415556,
+          33.9675
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Albert Gersten Pavilion, Loyola Marymount University (also known as Hank's House)"
+        ],
+        "place": "Los Angeles, California, USA",
+        "coordinates": "33.9675,-118.415556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1981",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/29797"
+            },
+            {
+              "text": "29 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/29807"
+            },
+            {
+              "text": "30 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/29816"
+            },
+            {
+              "text": "31 July 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/29825"
+            },
+            {
+              "text": "1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/29834"
+            },
+            {
+              "text": "2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29843"
+            },
+            {
+              "text": "4 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middle-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29852"
+            },
+            {
+              "text": "5 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight I, Men",
+              "link": "https://www.olympedia.org/results/29861"
+            },
+            {
+              "text": "6 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight II, Men",
+              "link": "https://www.olympedia.org/results/29870"
+            },
+            {
+              "text": "7 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29879"
+            },
+            {
+              "text": "8 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_632.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -117.919843,
+          33.802455
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Anaheim Convention Center"
+        ],
+        "place": "Anaheim, California, USA",
+        "coordinates": "33.802455,-117.919843",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1984",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1967",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129190"
+            },
+            {
+              "text": "30 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129222"
+            },
+            {
+              "text": "31 July –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129255"
+            },
+            {
+              "text": "1 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129298"
+            },
+            {
+              "text": "30 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129356"
+            },
+            {
+              "text": "1 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129398"
+            },
+            {
+              "text": "31 July –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129448"
+            },
+            {
+              "text": "1 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129490"
+            },
+            {
+              "text": "30 July –  1 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129525"
+            },
+            {
+              "text": "1 –  3 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/129546"
+            },
+            {
+              "text": "31 July –  2 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128760"
+            },
+            {
+              "text": "7 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128779"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128826"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128873"
+            },
+            {
+              "text": "7 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128918"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/128983"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129045"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129090"
+            },
+            {
+              "text": "7 –  9 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129134"
+            },
+            {
+              "text": "9 – 11 August 1984"
+            }
+          ],
+          [
+            {
+              "text": "1984 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/21"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129169"
+            },
+            {
+              "text": "8 – 10 August 1984"
+            }
+          ]
+        ],
+        "source_file": "venue_633.json",
+        "Olympics": "1984 Los Angeles"
+      }
+    }
+  ]
+}

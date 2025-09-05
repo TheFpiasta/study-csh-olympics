@@ -1,0 +1,4033 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.66,
+          45.0275
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Oval Lingotto",
+          "Lingotto Oval"
+        ],
+        "place": "Torino",
+        "coordinates": "45.0275,7.66",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2005",
+        "seating_capacity": "8250",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "205 m",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1122"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1125"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1126"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1127"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1128"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (8 laps), Men",
+              "link": "https://www.olympedia.org/results/1129"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1144"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1147"
+            },
+            {
+              "text": "19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1148"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1149"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1150"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (6 laps), Women",
+              "link": "https://www.olympedia.org/results/1151"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_159.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.66,
+          45.0275
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Oval Lingotto",
+          "Lingotto Oval"
+        ],
+        "place": "Torino",
+        "coordinates": "45.0275,7.66",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2005",
+        "seating_capacity": "8250",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "205 m",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1122"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1125"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1126"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1127"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1128"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (8 laps), Men",
+              "link": "https://www.olympedia.org/results/1129"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1144"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1147"
+            },
+            {
+              "text": "19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1148"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1149"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1150"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (6 laps), Women",
+              "link": "https://www.olympedia.org/results/1151"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_159.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.682222,
+          45.048611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Torino Esposizioni",
+          "Torino Exposition"
+        ],
+        "place": "Torino",
+        "coordinates": "45.048611,7.682222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1949",
+        "seating_capacity": "5400",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20848"
+            },
+            {
+              "text": "15 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20893"
+            },
+            {
+              "text": "11 – 20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_160.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.682222,
+          45.048611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Torino Esposizioni",
+          "Torino Exposition"
+        ],
+        "place": "Torino",
+        "coordinates": "45.048611,7.682222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1949",
+        "seating_capacity": "5400",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20848"
+            },
+            {
+              "text": "15 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20893"
+            },
+            {
+              "text": "11 – 20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_160.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.652222,
+          45.041667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palasport Olimpico",
+          "Olympic Palace of Sports"
+        ],
+        "place": "Torino",
+        "coordinates": "45.041667,7.652222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2005",
+        "seating_capacity": "12500",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20848"
+            },
+            {
+              "text": "15 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20893"
+            },
+            {
+              "text": "11 – 20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_161.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.652222,
+          45.041667
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palasport Olimpico",
+          "Olympic Palace of Sports"
+        ],
+        "place": "Torino",
+        "coordinates": "45.041667,7.652222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2005",
+        "seating_capacity": "12500",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20848"
+            },
+            {
+              "text": "15 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20893"
+            },
+            {
+              "text": "11 – 20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_161.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.669167,
+          45.023333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palavela (also known as Palazzo a Vela)",
+          "Palazzo delle Mostre (?-?)"
+        ],
+        "place": "Torino",
+        "coordinates": "45.023333,7.669167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "opened": "1961",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/14380"
+            },
+            {
+              "text": "14 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/14383"
+            },
+            {
+              "text": "21 – 23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/14386"
+            },
+            {
+              "text": "11 – 13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/14389"
+            },
+            {
+              "text": "17 – 20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/838"
+            },
+            {
+              "text": "22 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/857"
+            },
+            {
+              "text": "15 – 18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/876"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/890"
+            },
+            {
+              "text": "15 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/896"
+            },
+            {
+              "text": "12 – 15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/916"
+            },
+            {
+              "text": "22 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/936"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/950"
+            },
+            {
+              "text": "12 – 22 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_163.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.669167,
+          45.023333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palavela (also known as Palazzo a Vela)",
+          "Palazzo delle Mostre (?-?)"
+        ],
+        "place": "Torino",
+        "coordinates": "45.023333,7.669167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating"
+        ],
+        "opened": "1961",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/14380"
+            },
+            {
+              "text": "14 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/14383"
+            },
+            {
+              "text": "21 – 23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/14386"
+            },
+            {
+              "text": "11 – 13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/14389"
+            },
+            {
+              "text": "17 – 20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/838"
+            },
+            {
+              "text": "22 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/857"
+            },
+            {
+              "text": "15 – 18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/876"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/890"
+            },
+            {
+              "text": "15 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/896"
+            },
+            {
+              "text": "12 – 15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/916"
+            },
+            {
+              "text": "22 – 25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/936"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/950"
+            },
+            {
+              "text": "12 – 22 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_163.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805147,
+          44.952346
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana Pariol",
+        "coordinates": "44.952346,6.805147",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/460"
+            },
+            {
+              "text": "17 – 19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/467"
+            },
+            {
+              "text": "24 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/474"
+            },
+            {
+              "text": "19 – 21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/212"
+            },
+            {
+              "text": "11 – 12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/219"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/222"
+            },
+            {
+              "text": "13 – 14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/23"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/26"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_164.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805147,
+          44.952346
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana Pariol",
+        "coordinates": "44.952346,6.805147",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/460"
+            },
+            {
+              "text": "17 – 19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/467"
+            },
+            {
+              "text": "24 – 26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/474"
+            },
+            {
+              "text": "19 – 21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/212"
+            },
+            {
+              "text": "11 – 12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/219"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/222"
+            },
+            {
+              "text": "13 – 14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/23"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/26"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_164.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.882055,
+          44.956732
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Colle",
+        "coordinates": "44.956732,6.882055",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1490"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1493"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1496"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1504"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1507"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1510"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_165.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.882055,
+          44.956732
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Colle",
+        "coordinates": "44.956732,6.882055",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1490"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1493"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1496"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1504"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1507"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1510"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_165.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.88964,
+          44.965868
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Borgata",
+        "coordinates": "44.965868,6.88964",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6800",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1487"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1488"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1496"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_166.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.88964,
+          44.965868
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sestriere Borgata",
+        "coordinates": "44.965868,6.88964",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6800",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1487"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1488"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1496"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_166.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.848071,
+          45.028827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sauze d'Oulx-Jouvenceaux",
+        "coordinates": "45.028827,6.848071",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/1869"
+            },
+            {
+              "text": "20 – 23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/1876"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/1879"
+            },
+            {
+              "text": "21 – 22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/1886"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_167.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.848071,
+          45.028827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Sauze d'Oulx-Jouvenceaux",
+        "coordinates": "45.028827,6.848071",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "7900",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/1869"
+            },
+            {
+              "text": "20 – 23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/1876"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/1879"
+            },
+            {
+              "text": "21 – 22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/1886"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_167.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.815847,
+          44.967842
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "San Sicario Fraìteve",
+        "coordinates": "44.967842,6.815847",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6160",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1502"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1503"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1510"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_168.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.815847,
+          44.967842
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "San Sicario Fraìteve",
+        "coordinates": "44.967842,6.815847",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "6160",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1502"
+            },
+            {
+              "text": "15 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1503"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1510"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_168.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.921419,
+          44.9924
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio del Trampolino",
+          "Ski Jumping Stadium"
+        ],
+        "place": "Pragelato Plan",
+        "coordinates": "44.9924,6.921419",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "2004",
+        "seating_capacity": "5400",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2130"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres Skiathlon, Men",
+              "link": "https://www.olympedia.org/results/2131"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2134"
+            },
+            {
+              "text": "26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2135"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2148"
+            },
+            {
+              "text": "19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/2152"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2157"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres Skiathlon, Women",
+              "link": "https://www.olympedia.org/results/2158"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2161"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/2162"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2175"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Women",
+              "link": "https://www.olympedia.org/results/2179"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2334"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2339"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2342"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_169.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.921419,
+          44.9924
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stadio del Trampolino",
+          "Ski Jumping Stadium"
+        ],
+        "place": "Pragelato Plan",
+        "coordinates": "44.9924,6.921419",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined"
+        ],
+        "opened": "2004",
+        "seating_capacity": "5400",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2130"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres Skiathlon, Men",
+              "link": "https://www.olympedia.org/results/2131"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2134"
+            },
+            {
+              "text": "26 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2135"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2148"
+            },
+            {
+              "text": "19 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/2152"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2157"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres Skiathlon, Women",
+              "link": "https://www.olympedia.org/results/2158"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2161"
+            },
+            {
+              "text": "24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/2162"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2175"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Women",
+              "link": "https://www.olympedia.org/results/2179"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2334"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2339"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2342"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_169.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.939046,
+          45.006519
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Pragelato",
+        "coordinates": "45.006519,6.939046",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8055",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2334"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2339"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2342"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2461"
+            },
+            {
+              "text": "11 – 12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2466"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2471"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_170.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.939046,
+          45.006519
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Pragelato",
+        "coordinates": "45.006519,6.939046",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2004",
+        "seating_capacity": "8055",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2334"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/2339"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2342"
+            },
+            {
+              "text": "15 – 16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2461"
+            },
+            {
+              "text": "11 – 12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2466"
+            },
+            {
+              "text": "17 – 18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2471"
+            },
+            {
+              "text": "20 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_170.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.348684,
+          44.891166
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palaghiaccio",
+          "Ice Palace"
+        ],
+        "place": "Pinerolo",
+        "coordinates": "44.891166,7.348684",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "2000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2667"
+            },
+            {
+              "text": "13 – 24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/2721"
+            },
+            {
+              "text": "13 – 23 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_171.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          7.348684,
+          44.891166
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Palaghiaccio",
+          "Ice Palace"
+        ],
+        "place": "Pinerolo",
+        "coordinates": "44.891166,7.348684",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "2000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2667"
+            },
+            {
+              "text": "13 – 24 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/2721"
+            },
+            {
+              "text": "13 – 23 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_171.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805494,
+          44.960167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana San Sicario",
+        "coordinates": "44.960167,6.805494",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "4700",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1599"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1600"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/1601"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres Mass Start, Men",
+              "link": "https://www.olympedia.org/results/1602"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1603"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/1607"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1608"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/1609"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Mass Start, Women",
+              "link": "https://www.olympedia.org/results/1610"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 6 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1611"
+            },
+            {
+              "text": "23 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_172.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.805494,
+          44.960167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Cesana San Sicario",
+        "coordinates": "44.960167,6.805494",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "4700",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1599"
+            },
+            {
+              "text": "14 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1600"
+            },
+            {
+              "text": "11 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/1601"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres Mass Start, Men",
+              "link": "https://www.olympedia.org/results/1602"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1603"
+            },
+            {
+              "text": "21 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/1607"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1608"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/1609"
+            },
+            {
+              "text": "18 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Mass Start, Women",
+              "link": "https://www.olympedia.org/results/1610"
+            },
+            {
+              "text": "25 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 6 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1611"
+            },
+            {
+              "text": "23 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_172.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.682445,
+          45.058214
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Bardonecchia",
+        "coordinates": "45.058214,6.682445",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "6763",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1692"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/1719"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/1726"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1752"
+            },
+            {
+              "text": "23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/1779"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/1786"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_173.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.682445,
+          45.058214
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Bardonecchia",
+        "coordinates": "45.058214,6.682445",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2006",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "6763",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1692"
+            },
+            {
+              "text": "22 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/1719"
+            },
+            {
+              "text": "12 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/1726"
+            },
+            {
+              "text": "16 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1752"
+            },
+            {
+              "text": "23 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/1779"
+            },
+            {
+              "text": "13 February 2006"
+            }
+          ],
+          [
+            {
+              "text": "2006 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/49"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/1786"
+            },
+            {
+              "text": "17 February 2006"
+            }
+          ]
+        ],
+        "source_file": "venue_173.json"
+      }
+    }
+  ]
+}

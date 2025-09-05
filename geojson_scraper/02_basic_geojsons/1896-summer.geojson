@@ -1,0 +1,3249 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.741111,
+          37.968333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Panathinaiko Stadio (also known as Kallimarmaro)",
+          "Panathenaic Stadium"
+        ],
+        "place": "Athina",
+        "coordinates": "37.968333,23.741111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1870",
+            "season": "Zappas"
+          },
+          {
+            "year": "1875",
+            "season": "Zappas"
+          },
+          {
+            "year": "1888-89",
+            "season": "Zappas"
+          },
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          },
+          {
+            "year": "2004",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery",
+          "Art Competitions",
+          "Artistic Gymnastics",
+          "Athletics",
+          "Fencing",
+          "Shooting",
+          "Tug-Of-War",
+          "Weightlifting",
+          "Wrestling",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "566 BC",
+        "seating_capacity": "80,000 (1896) / 45,000 (2004)",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "loose cinders (1896, 1906) / artificial (2004)",
+        "altitude": "104 m",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/56000"
+            },
+            {
+              "text": "6 – 10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/56006"
+            },
+            {
+              "text": "6 –  7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/56011"
+            },
+            {
+              "text": "6 –  9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/56016"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/56017"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/56018"
+            },
+            {
+              "text": "7 – 10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/56023"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/56024"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/56025"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/56026"
+            },
+            {
+              "text": "6 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/56027"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/56028"
+            },
+            {
+              "text": "6 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Teams, Men",
+              "link": "https://www.olympedia.org/results/70000"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Teams, Men",
+              "link": "https://www.olympedia.org/results/70001"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70002"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70003"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70004"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70005"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70006"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/70007"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, One Hand, Men",
+              "link": "https://www.olympedia.org/results/28510"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, Two Hands, Men",
+              "link": "https://www.olympedia.org/results/28511"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Unlimited Class, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120000"
+            },
+            {
+              "text": "10 – 11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/56173"
+            },
+            {
+              "text": "25 – 27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/56190"
+            },
+            {
+              "text": "27 – 30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/56200"
+            },
+            {
+              "text": "25 April –  1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/56207"
+            },
+            {
+              "text": "27 – 30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5 miles, Men",
+              "link": "https://www.olympedia.org/results/56212"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/56213"
+            },
+            {
+              "text": "1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/56214"
+            },
+            {
+              "text": "30 April –  1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/56221"
+            },
+            {
+              "text": "30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/56222"
+            },
+            {
+              "text": "2 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/56223"
+            },
+            {
+              "text": "30 April –  1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Standing High Jump, Men",
+              "link": "https://www.olympedia.org/results/56224"
+            },
+            {
+              "text": "1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/56225"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/56226"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Standing Long Jump, Men",
+              "link": "https://www.olympedia.org/results/56233"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/56238"
+            },
+            {
+              "text": "30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/56245"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/56246"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Greek Style, Men",
+              "link": "https://www.olympedia.org/results/56249"
+            },
+            {
+              "text": "1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Stone Throw, Men",
+              "link": "https://www.olympedia.org/results/56252"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/56253"
+            },
+            {
+              "text": "26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pentathlon (Ancient), Men",
+              "link": "https://www.olympedia.org/results/56256"
+            },
+            {
+              "text": "27 – 28 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, 5 Events, Men",
+              "link": "https://www.olympedia.org/results/70033"
+            },
+            {
+              "text": "25 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70039"
+            },
+            {
+              "text": "25 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70046"
+            },
+            {
+              "text": "22 – 23 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/70047"
+            },
+            {
+              "text": "26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Tug-Of-War",
+              "link": "https://www.olympedia.org/sports/TOW"
+            },
+            {
+              "text": "Tug-Of-War, Men",
+              "link": "https://www.olympedia.org/results/21115"
+            },
+            {
+              "text": "30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, One Hand, Men",
+              "link": "https://www.olympedia.org/results/28524"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, Two Hands, Men",
+              "link": "https://www.olympedia.org/results/28532"
+            },
+            {
+              "text": "25 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120075"
+            },
+            {
+              "text": "25 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120090"
+            },
+            {
+              "text": "26 – 27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120111"
+            },
+            {
+              "text": "27 – 28 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "All-Around, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/120128"
+            },
+            {
+              "text": "30 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/41271"
+            },
+            {
+              "text": "12 – 19 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/41345"
+            },
+            {
+              "text": "12 – 21 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/41367"
+            },
+            {
+              "text": "12 – 18 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/41441"
+            },
+            {
+              "text": "12 – 20 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/66095"
+            },
+            {
+              "text": "29 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "2004 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/26"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Women",
+              "link": "https://www.olympedia.org/results/66489"
+            },
+            {
+              "text": "22 August 2004"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Diaulos, Men",
+              "link": "https://www.olympedia.org/results/9009257"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/9009258"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/9009259"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Over the Ditch Jump, Men",
+              "link": "https://www.olympedia.org/results/9009260"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/9009261"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw for Accuracy, Men",
+              "link": "https://www.olympedia.org/results/9009262"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pole Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009263"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009264"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Tug-Of-War",
+              "link": "https://www.olympedia.org/sports/TOW"
+            },
+            {
+              "text": "Tug-Of-War, Men",
+              "link": "https://www.olympedia.org/results/9009265"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1870 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/75"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Wrestling and Somersault, Men",
+              "link": "https://www.olympedia.org/results/9009266"
+            },
+            {
+              "text": "15 November 1870"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Open",
+              "link": "https://www.olympedia.org/results/9009267"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Poetry Competition, Men",
+              "link": "https://www.olympedia.org/results/9009268"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Open",
+              "link": "https://www.olympedia.org/results/9009269"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Open",
+              "link": "https://www.olympedia.org/results/9009270"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Diaulos, Men",
+              "link": "https://www.olympedia.org/results/9009271"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/9009272"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/9009273"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw for Accuracy, Men",
+              "link": "https://www.olympedia.org/results/9009274"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pole Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009275"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pole Climbing, Inclined Pole, Men",
+              "link": "https://www.olympedia.org/results/9009276"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009277"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/9009278"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/9009279"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/9009280"
+            },
+            {
+              "text": "18 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1875 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/76"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Shooting, Unknown Event, Men",
+              "link": "https://www.olympedia.org/results/9009281"
+            },
+            {
+              "text": "11 May 1875"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Intellectual Competition, Men",
+              "link": "https://www.olympedia.org/results/9009282"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Drama Competition, Men",
+              "link": "https://www.olympedia.org/results/9009283"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Poetry Competition, Men",
+              "link": "https://www.olympedia.org/results/9009284"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions, Men",
+              "link": "https://www.olympedia.org/results/9009285"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Groups of Musicians, Men",
+              "link": "https://www.olympedia.org/results/9009286"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Open",
+              "link": "https://www.olympedia.org/results/9009287"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Open",
+              "link": "https://www.olympedia.org/results/9009288"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/9009289"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/9009290"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/9009291"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/9009292"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 200 metres, Military, Men",
+              "link": "https://www.olympedia.org/results/9009293"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 200 metres, Civilians, Men",
+              "link": "https://www.olympedia.org/results/9009294"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 400 metres, Military, Men",
+              "link": "https://www.olympedia.org/results/9009295"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 400 metres, Civilians, Men",
+              "link": "https://www.olympedia.org/results/9009296"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 200 metres, Open, Men",
+              "link": "https://www.olympedia.org/results/9009297"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Krag Gun, 400 metres, Open, Men",
+              "link": "https://www.olympedia.org/results/9009298"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Weapon, 200 Metres, Open, Men",
+              "link": "https://www.olympedia.org/results/9009299"
+            },
+            {
+              "text": "1 December 1888"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/9009300"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/9009301"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault Over a Ditch, Men",
+              "link": "https://www.olympedia.org/results/9009302"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/9009303"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Stone Throw, Men",
+              "link": "https://www.olympedia.org/results/9009304"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pole Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009305"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rope Climbing, Men",
+              "link": "https://www.olympedia.org/results/9009306"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/9009307"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/9009308"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, One Hand, Men",
+              "link": "https://www.olympedia.org/results/9009309"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ],
+          [
+            {
+              "text": "1888-89 Zappas Olympic Games",
+              "link": "https://www.olympedia.org/editions/77"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Unlimited, Two Hands, Men",
+              "link": "https://www.olympedia.org/results/9009310"
+            },
+            {
+              "text": "30 April 1889"
+            }
+          ]
+        ],
+        "source_file": "venue_186.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.664317,
+          37.946447
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Podilatodromio Neou Falirou",
+          "Neo Faliro Velodrome"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.946447,23.664317",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling Track",
+          "Football",
+          "Tennis"
+        ],
+        "notes": "Later rebuilt as the Stadio Georgios Karaiskakis.",
+        "opened": "1896",
+        "demolished": "2004",
+        "type": "outdoor venue",
+        "dimensions": "333.33 m",
+        "surface": "concrete",
+        "additional_details": "Banking: minimal.",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "333⅓ metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153000"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153001"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153002"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "100 kilometres, Men",
+              "link": "https://www.olympedia.org/results/153003"
+            },
+            {
+              "text": "8 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "12-Hours Race, Men",
+              "link": "https://www.olympedia.org/results/153004"
+            },
+            {
+              "text": "13 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153005"
+            },
+            {
+              "text": "12 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/44000"
+            },
+            {
+              "text": "8 – 11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/44019"
+            },
+            {
+              "text": "8 – 11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "333⅓ metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153082"
+            },
+            {
+              "text": "24 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153083"
+            },
+            {
+              "text": "23 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153101"
+            },
+            {
+              "text": "23 – 24 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153107"
+            },
+            {
+              "text": "24 – 25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/153122"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153130"
+            },
+            {
+              "text": "1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33511"
+            },
+            {
+              "text": "23 – 25 April 1906"
+            }
+          ]
+        ],
+        "source_file": "venue_187.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.736544,
+          37.971306
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zappeion"
+        ],
+        "place": "Athina",
+        "coordinates": "37.971306,23.736544",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "opened": "1888",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/72000"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Masters, Individual, Men",
+              "link": "https://www.olympedia.org/results/72029"
+            },
+            {
+              "text": "7 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/923213"
+            },
+            {
+              "text": "9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/72277"
+            },
+            {
+              "text": "23 – 25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/72290"
+            },
+            {
+              "text": "24 – 25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/72303"
+            },
+            {
+              "text": "28 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Masters, Individual, Men",
+              "link": "https://www.olympedia.org/results/72319"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Three Hits, Men",
+              "link": "https://www.olympedia.org/results/72321"
+            },
+            {
+              "text": "28 April –  1 May 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/72326"
+            },
+            {
+              "text": "24 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/72402"
+            },
+            {
+              "text": "28 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Masters, Individual, Men",
+              "link": "https://www.olympedia.org/results/923218"
+            },
+            {
+              "text": "27 April 1906"
+            }
+          ]
+        ],
+        "source_file": "venue_188.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.704634,
+          37.952996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Skopeftirion",
+          "Shooting Range"
+        ],
+        "place": "Kallithea",
+        "coordinates": "37.952996,23.704634",
+        "coordinates_trust": "No information",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51500"
+            },
+            {
+              "text": "10 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Muzzle-Loading Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51501"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 30 metres, Men",
+              "link": "https://www.olympedia.org/results/51502"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, 200 metres, Men",
+              "link": "https://www.olympedia.org/results/51503"
+            },
+            {
+              "text": "8 –  9 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Any Position, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51504"
+            },
+            {
+              "text": "11 – 12 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Revolver, 20 metres, Men",
+              "link": "https://www.olympedia.org/results/51517"
+            },
+            {
+              "text": "24 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Revolver, 1873-1874 Gras Model, 20 metres, Men",
+              "link": "https://www.olympedia.org/results/51518"
+            },
+            {
+              "text": "23 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Dueling Pistol Au Visé 20 metres, Men",
+              "link": "https://www.olympedia.org/results/51519"
+            },
+            {
+              "text": "24 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Dueling Pistol Au Commandement, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51520"
+            },
+            {
+              "text": "25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51521"
+            },
+            {
+              "text": "26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51522"
+            },
+            {
+              "text": "23 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, 1873-1874 Gras Model, Kneeling Or Standing, 200 metres, Men",
+              "link": "https://www.olympedia.org/results/51523"
+            },
+            {
+              "text": "24 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Military Rifle, Kneeling Or Standing, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51524"
+            },
+            {
+              "text": "23 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Any Position, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51525"
+            },
+            {
+              "text": "27 – 28 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Single Shot, 16 metres, Men",
+              "link": "https://www.olympedia.org/results/51526"
+            },
+            {
+              "text": "26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Double Shot, 14 metres, Men",
+              "link": "https://www.olympedia.org/results/51527"
+            },
+            {
+              "text": "26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Three Positions, 300 metres, Team, Men",
+              "link": "https://www.olympedia.org/results/51528"
+            },
+            {
+              "text": "27 – 28 April 1906"
+            }
+          ]
+        ],
+        "source_file": "venue_189.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.648157,
+          37.937327
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ormos tes Zeas (also known as Pasalimani)",
+          "Bay of Zea"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.937327,23.648157",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Swimming"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4400"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4401"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,200 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4402"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle For Sailors, Men",
+              "link": "https://www.olympedia.org/results/4403"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ]
+        ],
+        "source_file": "venue_190.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.648157,
+          37.937327
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ormos tes Zeas (also known as Pasalimani)",
+          "Bay of Zea"
+        ],
+        "place": "Peiraias",
+        "coordinates": "37.937327,23.648157",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Swimming"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4400"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4401"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,200 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4402"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle For Sailors, Men",
+              "link": "https://www.olympedia.org/results/4403"
+            },
+            {
+              "text": "11 April 1896"
+            }
+          ]
+        ],
+        "source_file": "venue_190.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.734835,
+          37.969119
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Homilos Antisfairiseos Athinon",
+          "Athens Lawn Tennis Club"
+        ],
+        "place": "Athina",
+        "coordinates": "37.969119,23.734835",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1896",
+            "season": "Summer"
+          },
+          {
+            "year": "1906",
+            "season": "Intercalated"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Tennis"
+        ],
+        "opened": "1895",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/44000"
+            },
+            {
+              "text": "8 – 11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1896 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/1"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/44019"
+            },
+            {
+              "text": "8 – 11 April 1896"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/72277"
+            },
+            {
+              "text": "23 – 25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/72326"
+            },
+            {
+              "text": "24 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/44135"
+            },
+            {
+              "text": "23 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/44167"
+            },
+            {
+              "text": "23 – 25 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/44188"
+            },
+            {
+              "text": "24 – 26 April 1906"
+            }
+          ],
+          [
+            {
+              "text": "1906  Intercalated Games",
+              "link": "https://www.olympedia.org/editions/4"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Mixed",
+              "link": "https://www.olympedia.org/results/44200"
+            },
+            {
+              "text": "24 – 26 April 1906"
+            }
+          ]
+        ],
+        "source_file": "venue_191.json"
+      }
+    }
+  ]
+}

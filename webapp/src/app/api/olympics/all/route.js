@@ -9,9 +9,9 @@ export async function GET() {
 
         // Try multiple possible paths to find the GeoJSON directory
         const possiblePaths = [
-            path.join(process.cwd(), '..', 'geojson_scraper', 'harvard_geojsons'),
-            path.join(process.cwd(), '..', '..', 'geojson_scraper', 'harvard_geojsons'),
-            path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', 'harvard_geojsons'),
+            path.join(process.cwd(), '..', 'geojson_scraper', '00_final_geojsons'),
+            path.join(process.cwd(), '..', '..', 'geojson_scraper', '00_final_geojsons'),
+            path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', '00_final_geojsons'),
         ];
 
         let geojsonPath = null;
@@ -55,7 +55,7 @@ export async function GET() {
                 const geojsonData = JSON.parse(fileContent);
 
                 // Extract game info from filename (e.g., "combined_1896_Athens.geojson")
-                const match = file.match(/harvard_(\d{4})_(.+)\.geojson/);
+                const match = file.match(/(\d{4})_(.+)\.geojson/);
                 console.log(`Processing file: ${file}, match: ${!!match}, features: ${geojsonData.features?.length || 0}`);
 
                 if (match && geojsonData.features) {

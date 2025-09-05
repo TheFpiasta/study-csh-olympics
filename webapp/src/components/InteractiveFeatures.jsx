@@ -56,8 +56,10 @@ const InteractiveFeatures = () => {
     const allSeasons = new Set();
     
     data.games.forEach(game => {
-      allSeasons.add(game.season);
       game.features.forEach(feature => {
+        if (feature.properties.season) {
+          allSeasons.add(feature.properties.season);
+        }
         if (feature.properties.sports) {
           if (Array.isArray(feature.properties.sports)) {
             feature.properties.sports.forEach(sport => allSports.add(sport));
@@ -88,11 +90,11 @@ const InteractiveFeatures = () => {
       // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
       
-      // Filter by season
-      if (!selectedSeasons.has('All') && !selectedSeasons.has(game.season)) return;
-      
       game.features.forEach(feature => {
         const props = feature.properties;
+        
+        // Filter by season at feature level
+        if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
         
         // Extract capacity (try different property names that might contain capacity info)
         let capacity = null;
@@ -139,7 +141,7 @@ const InteractiveFeatures = () => {
           y: capacity,
           venue: props.associated_names ? props.associated_names[0] : 'Unknown Venue',
           location: game.location,
-          season: game.season,
+          season: props.season,
           sports: venueSports.join(', '),
           size: Math.log10(capacity) * 2 // Size based on capacity (logarithmic scale)
         });
@@ -191,9 +193,8 @@ const InteractiveFeatures = () => {
     
     // First pass: collect all venues and their details
     data.games.forEach(game => {
-      // Filter by year range and season
+      // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
-      if (!selectedSeasons.has('All') && !selectedSeasons.has(game.season)) return;
       
       const cityName = game.location;
       
@@ -205,6 +206,9 @@ const InteractiveFeatures = () => {
       
       game.features.forEach(feature => {
         const props = feature.properties;
+        
+        // Filter by season at feature level
+        if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
         
         // Get clean venue name
         let venueName = 'Unknown Venue';
@@ -238,7 +242,7 @@ const InteractiveFeatures = () => {
           year: game.year,
           sports: venueSports,
           capacity: capacity,
-          season: game.season
+          season: props.season
         });
         
         cityVenues.get(cityName).push(venueKey);
@@ -374,12 +378,14 @@ const InteractiveFeatures = () => {
     
     // Process all Olympic games to understand venue evolution
     data.games.forEach(game => {
-      // Filter by year range and season
+      // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
-      if (!selectedSeasons.has('All') && !selectedSeasons.has(game.season)) return;
       
       game.features.forEach(feature => {
         const props = feature.properties;
+        
+        // Filter by season at feature level
+        if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
         
         // Get venue sports
         let venueSports = [];
@@ -451,7 +457,7 @@ const InteractiveFeatures = () => {
           }
           
           // Determine season preference
-          let seasonType = game.season + ' Sports';
+          let seasonType = props.season + ' Sports';
           
           // Track relationships
           if (!eraToVenueType.has(constructionEra)) {

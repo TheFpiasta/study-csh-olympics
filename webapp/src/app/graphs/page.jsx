@@ -3,6 +3,7 @@ import OlympicRings from "@/components/OlympicRings";
 import TemporalAnalysis from "@/components/TemporalAnalysis";
 import GeographicAnalysis from "@/components/GeographicAnalysis";
 import InteractiveFeatures from "@/components/InteractiveFeatures";
+import TemporalDevelopmentAnalyses from "@/components/TemporalDevelopmentAnalyses";
 
 export default function GraphsPage() {
     return (
@@ -63,6 +64,11 @@ export default function GraphsPage() {
             {/* Interactive Features Dashboard */}
             <div className="mx-4 mb-8">
                 <InteractiveFeatures />
+            </div>
+
+            {/* Temporal Development Analyses */}
+            <div className="mx-4 mb-8">
+                <TemporalDevelopmentAnalyses />
             </div>
 
             {/* Future Sections Placeholder */}

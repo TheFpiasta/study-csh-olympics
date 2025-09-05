@@ -176,20 +176,25 @@ const TemporalAnalysis = () => {
     if (!data?.games) return [];
     
     const seasonalData = data.games.reduce((acc, game) => {
-      const season = game.season.charAt(0).toUpperCase() + game.season.slice(1);
-      if (!acc[season]) {
-        acc[season] = { venues: 0, games: 0 };
-      }
-      acc[season].venues += game.venueCount;
-      acc[season].games += 1;
+      // Process each feature to count venues by season
+      game.features.forEach(feature => {
+        const season = feature.properties.season && feature.properties.season.length > 0 ? 
+          feature.properties.season.charAt(0).toUpperCase() + feature.properties.season.slice(1) : 
+          'Unknown';
+        if (!acc[season]) {
+          acc[season] = { venues: 0, games: new Set() };
+        }
+        acc[season].venues += 1;
+        acc[season].games.add(`${game.year}-${game.location}`);
+      });
       return acc;
     }, {});
 
     return Object.entries(seasonalData).map(([season, data]) => ({
       season,
       venues: data.venues,
-      games: data.games,
-      avgVenuesPerGame: Math.round(data.venues / data.games * 10) / 10,
+      games: data.games.size,
+      avgVenuesPerGame: Math.round(data.venues / data.games.size * 10) / 10,
       color: season === 'Summer' ? '#f59e0b' : season === 'Winter' ? '#06b6d4' : '#8b5cf6'
     }));
   };

@@ -9,10 +9,9 @@ export async function GET() {
 
         // Try multiple possible paths to find the GeoJSON directory
         const possiblePaths = [
-            path.join(process.cwd(), '..', 'geojson_scraper', 'combined_geojson'),
-            path.join(process.cwd(), '..', '..', 'geojson_scraper', 'combined_geojson'),
-            path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', 'combined_geojson'),
-            path.join('C:', 'Users', 'jmelp', 'Documents', 'Computational Spacial Humanitys', 'geojson_scraper', 'combined_geojson')
+            path.join(process.cwd(), '..', 'geojson_scraper', 'harvard_geojsons'),
+            path.join(process.cwd(), '..', '..', 'geojson_scraper', 'harvard_geojsons'),
+            path.join(__dirname, '..', '..', '..', '..', '..', 'geojson_scraper', 'harvard_geojsons'),
         ];
 
         let geojsonPath = null;
@@ -56,34 +55,11 @@ export async function GET() {
                 const geojsonData = JSON.parse(fileContent);
 
                 // Extract game info from filename (e.g., "combined_1896_Athens.geojson")
-                const match = file.match(/combined_(\d{4})_(.+)\.geojson/);
+                const match = file.match(/harvard_(\d{4})_(.+)\.geojson/);
                 console.log(`Processing file: ${file}, match: ${!!match}, features: ${geojsonData.features?.length || 0}`);
 
                 if (match && geojsonData.features) {
                     const [, year, location] = match;
-
-                    // // Determine season from the features data or location
-                    // let season = 'Summer'; // default
-                    //
-                    // // Check if it's a winter Olympics based on known winter locations or sports
-                    // const winterLocations = ['Chamonix', 'St._Moritz', 'Lake_Placid', 'Garmisch_Partenkirchen', 'Oslo', 'Cortina_d_Ampezzo', 'Squaw_Valley', 'Innsbruck', 'Grenoble', 'Sapporo', 'Calgary', 'Albertville', 'Lillehammer', 'Nagano', 'Salt_Lake_City', 'Turin', 'Vancouver', 'Sochi', 'Pyeongchang'];
-                    // const winterSports = ['Ice Hockey', 'Figure Skating', 'Speed Skating', 'Bobsled', 'Luge', 'Ski Jumping', 'Alpine Skiing', 'Cross Country Skiing', 'Nordic Combined', 'Biathlon', 'Freestyle Skiing', 'Snowboarding', 'Skeleton', 'Curling', 'Short Track Speed Skating'];
-                    //
-                    // if (winterLocations.includes(location)) {
-                    //     season = 'Winter';
-                    // } else {
-                    //     // Check sports in the features
-                    //     for (const feature of geojsonData.features) {
-                    //         if (feature.properties.sports) {
-                    //             const featureSports = Array.isArray(feature.properties.sports) ? feature.properties.sports : [feature.properties.sports];
-                    //             if (featureSports.some(sport => winterSports.includes(sport))) {
-                    //                 season = 'Winter';
-                    //                 break;
-                    //             }
-                    //         }
-                    //     }
-                    // }
-
 
                     // Add season property to each feature based on the file year
                     const fileYear = parseInt(year);

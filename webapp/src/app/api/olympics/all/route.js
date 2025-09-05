@@ -118,7 +118,8 @@ export async function GET() {
                         location: location.replace(/_/g, ' '),
                         filename: file,
                         venueCount: enhancedFeatures.length,
-                        features: enhancedFeatures
+                        features: enhancedFeatures,
+                        harvard: geojsonData.harvard || null
                     });
                 }
             } catch (fileError) {

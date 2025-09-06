@@ -7,7 +7,7 @@ export async function GET(request, { params }) {
     const { slug } = params;
     
     // Path to the geojson_scraper folder (go up from webapp to parent directory)
-    const geojsonPath = path.join(process.cwd(), '..', 'geojson_scraper', 'combined_geojson', `combined_${slug}.geojson`);
+    const geojsonPath = path.join(process.cwd(), '..', 'geojson_scraper', '00_final_geojsons', `${slug}.geojson`);
     
     // Check if file exists
     if (!fs.existsSync(geojsonPath)) {

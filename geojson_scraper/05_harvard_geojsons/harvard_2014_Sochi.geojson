@@ -2276,102 +2276,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "2780",
       "source": "IOC 2018: https://www.olympic.org/sochi-2014 (accessed 24.08.2018)",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "98.0",
       "source": "IOC 2018: https://www.olympic.org/sochi-2014 (accessed 24.08.2018)",
       "format": "standard",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "88.0",
       "source": "IOC 2018: https://www.olympic.org/sochi-2014 (accessed 24.08.2018)",
       "format": "standard",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "13703",
       "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 10",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "205000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "217443468.09",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "1289000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "1367242099.35",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "333999000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "354272687.31",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "1189000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "1261172115",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "11894000000",
       "source": "Müller, M. (2014). After Sochi 2014: Costs and impacts of Russia’s Olympic Games. Eurasian Geography and Economics, 55(6), 628–655. https://doi.org/10.1080/15387216.2015.1040432, p. 631",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "12615963948.53",
       "source": "Müller, M. (2014). After Sochi 2014: Costs and impacts of Russia’s Olympic Games. Eurasian Geography and Economics, 55(6), 628–655. https://doi.org/10.1080/15387216.2015.1040432, p. 631",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "2327000000.0",
       "source": "Müller, M. (2014). After Sochi 2014: Costs and impacts of Russia’s Olympic Games. Eurasian Geography and Economics, 55(6), 628–655, p. 631 https://doi.org/10.1080/15387216.2015.1040432, p. 631-632",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "2468248537.77",
       "source": "Müller, M. (2014). After Sochi 2014: Costs and impacts of Russia’s Olympic Games. Eurasian Geography and Economics, 55(6), 628–655, p. 631 https://doi.org/10.1080/15387216.2015.1040432, p. 631-632",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

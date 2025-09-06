@@ -4,6 +4,7 @@ import TemporalAnalysis from "@/components/TemporalAnalysis";
 import GeographicAnalysis from "@/components/GeographicAnalysis";
 import InteractiveFeatures from "@/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/components/TemporalDevelopmentAnalyses";
+import OlympicLineChart from "@/components/OlympicLineChart";
 
 export default function GraphsPage() {
     return (
@@ -54,6 +55,10 @@ export default function GraphsPage() {
             {/* Temporal Analysis Dashboard */}
             <div className="mx-4 mb-8">
                 <TemporalAnalysis />
+            </div>
+
+            <div className="mx-4 mb-8">
+                <OlympicLineChart />
             </div>
 
             {/* Geographic Analysis Dashboard */}

@@ -6825,102 +6825,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "9959",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 4. COOB’92. p.87",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "257.0",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 3. COOB’92. p.24",
       "format": "number",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "172.0",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 3. COOB’92. p.87",
       "format": "number",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "12831",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 3. COOB’92. p.55",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "79000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "141375980.98",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "636000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "1138166125.35",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "114552000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "204998751.56",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "87511000000",
       "source": "Brunet, F. (2002). Anàlisi de l’impact economic dels Jocs Olímpics de Barcelona 1986-2004. In M. de Moragas & M. Botella (Eds.), Barcelona: L’herència dels Jocs (1992-2002) (pp. 245–274). Centre d’Estudis Olímpics - UAB, Editorial Planeta. P. 212",
       "format": "currency",
       "currency": "ESP"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "1529678996.0",
       "source": "Brunet, F. (2002). Anàlisi de l’impact economic dels Jocs Olímpics de Barcelona 1986-2004. In M. de Moragas & M. Botella (Eds.), Barcelona: L’herència dels Jocs (1992-2002) (pp. 245–274). Centre d’Estudis Olímpics - UAB, Editorial Planeta. P. 212",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "70254000000.0",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 1.III COOB’92. p.283 and vol2.part XXX, p. 59",
       "format": "currency",
       "currency": "ESP"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "998663592.45",
       "source": "COOB’92 Comitè Organitzador de les Olimpíades de Barcelona 1992. (1992). Official report of the Games of the XXV Olympiad Barcelona 1992, vol. 1.III COOB’92. p.283 and vol2.part XXX, p. 59",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

@@ -60,8 +60,8 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
         row_data = df.iloc[row_harvard]
         headers = list(row_data.index)
 
-        # Build the harvard dictionary
-        harvard_dict = {}
+        # Build the harvard list
+        harvard_list = []
         for idx, header in enumerate(headers):
             header_str = str(header).strip().replace(' ', '_').lower()
             if "source" not in header_str and "unnamed" not in header_str:
@@ -72,22 +72,23 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
                         break
                 # Get formatting info
                 fmt_type, currency = get_cell_format(ws, row_harvard, idx)
-                harvard_dict[header_str] = {
+                harvard_list.append({
+                    "field": header_str,
                     "data": str(row_data[header]),
                     "source": source,
                     "format": fmt_type,
                     "currency": currency
-                }
+                })
 
         # Read the base geojson file
         geojson_path = os.path.join(geojson_folder, filename)
         with open(geojson_path, "r", encoding="utf-8") as f:
             geojson_data = json.load(f)
 
-        # Add the harvard field at the top level
-        geojson_data["harvard"] = harvard_dict
+        # Add the harvard field at the top level as a list
+        geojson_data["harvard"] = harvard_list
 
-        # Prepare output filename
+        # Prepare output filenames
         safe_location = location.replace(" ", "_")
         output_filename = f"harvard_{year}_{safe_location}.geojson"
         final_filename = f"{year}_{safe_location}.geojson"
@@ -111,6 +112,7 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
             dst_path = os.path.join(final_dir, dst_filename)
             shutil.copy2(src_path, dst_path)
             print(f"[UNMATCHED] Copied {filename} to {dst_path}")
+
 
 # --- Setup paths ---
 base_dir = os.path.join(os.path.dirname(__file__), "04_combined_geojsons")

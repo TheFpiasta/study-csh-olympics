@@ -7,14 +7,34 @@ import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
-import {fetchData} from "@/app/graphs/components/utility";
 import CostAndProfitabilityAnalyses from "@/app/graphs/components/CostAndProfitabilityAnalyses";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
 
     useEffect(() => {
-        fetchData().then(response => setGeojsonData(response));
+        async function fetchData() {
+            try {
+                const response = await fetch('/api/olympics/all', {
+                    method: 'GET',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    cache: 'no-store'
+                });
+
+                if (!response.ok) {
+                    const errorText = await response.text();
+                    return {data: [], error: `Failed to fetch Olympic data: ${response.status} ${errorText}`};
+                }
+
+                return {data: await response.json(), error: null};
+            } catch (err) {
+                console.error('Error fetching data:', err);
+                return {data: [], error: 'Error fetching data: ' + err.message};
+            }
+        }
+        fetchData().then(res => setGeojsonData(res));
     }, []);
 
     return (

@@ -1,9 +1,9 @@
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
-import TemporalAnalysis from "@/components/TemporalAnalysis";
-import GeographicAnalysis from "@/components/GeographicAnalysis";
-import InteractiveFeatures from "@/components/InteractiveFeatures";
-import TemporalDevelopmentAnalyses from "@/components/TemporalDevelopmentAnalyses";
+import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
+import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
+import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
+import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
 
 export default function GraphsPage() {
     return (

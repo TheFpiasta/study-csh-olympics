@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import { ResponsiveNetwork } from '@nivo/network';
 import { ResponsiveSankey } from '@nivo/sankey';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from '../../../components/LoadingSpinner';
 
 const InteractiveFeatures = () => {
   const [data, setData] = useState(null);

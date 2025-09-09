@@ -1,8 +1,8 @@
 'use client';
 
 import Link from "next/link";
-import MapWithChartsLayout from "@/components/MapWithChartsLayout";
-import GlobeView from "@/components/GlobeView";
+import MapWithChartsLayout from "@/app/map/components/MapWithChartsLayout";
+import GlobeView from "@/app/map/components/GlobeView";
 import OlympicRings from "@/components/OlympicRings";
 import { useState } from "react";
 

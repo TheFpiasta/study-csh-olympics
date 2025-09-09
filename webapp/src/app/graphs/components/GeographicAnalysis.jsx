@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from '../../../components/LoadingSpinner';
 
 const GeographicAnalysis = () => {
   const [data, setData] = useState(null);

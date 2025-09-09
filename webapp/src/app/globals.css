@@ -3,21 +3,74 @@
 
 /* Olympic Theme Variables */
 :root {
-  /* Olympic Colors */
-  --olympic-blue: #0081C8;
-  --olympic-yellow: #FCB131;
-  --olympic-black: #000000;
-  --olympic-green: #00A651;
-  --olympic-red: #EE334E;
-  
-  /* Light Theme */
-  --background: #ffffff;
-  --foreground: #171717;
-  --surface: #f8fafc;
-  --surface-elevated: #ffffff;
-  --border: #e2e8f0;
-  --muted: #64748b;
-  --accent: var(--olympic-blue);
+    /* Primary Olympic Colors */
+    --olympic-blue-primary:    #0078D0;
+    --olympic-yellow-primary:  #FFB114;
+    --olympic-black-primary:   #000000;
+    --olympic-green-primary:   #00A651;
+    --olympic-red-primary:     #F0282D;
+    --olympic-white-primary:   #FFFFFF;
+
+    /* Medal Colors */
+    --olympic-medal-gold:      #9F8F5E;
+    --olympic-medal-silver:    #969696;
+    --olympic-medal-bronze:    #996B4F;
+
+    /* Extended Blue */
+    --olympic-blue-1:          #00287F;
+    --olympic-blue-2:          #0049AA;
+    --olympic-blue-3:          #0078D0;
+    --olympic-blue-4:          #00B4EB;
+    --olympic-blue-5:          #5ED6FF;
+    --olympic-blue-6:          #ABEBFF;
+
+    /* Extended Yellow */
+    --olympic-yellow-1:        #E67324;
+    --olympic-yellow-2:        #FA841E;
+    --olympic-yellow-3:        #FFB114;
+    --olympic-yellow-4:        #FFCE19;
+    --olympic-yellow-5:        #FFE045;
+    --olympic-yellow-6:        #FFF08C;
+
+    /* Extended Green */
+    --olympic-green-1:         #005A46;
+    --olympic-green-2:         #00804D;
+    --olympic-green-3:         #00A651;
+    --olympic-green-4:         #00CB50;
+    --olympic-green-5:         #6BDB83;
+    --olympic-green-6:         #AAE8B8;
+
+    /* Extended Red */
+    --olympic-red-1:           #980F30;
+    --olympic-red-2:           #BF192B;
+    --olympic-red-3:           #F0282D;
+    --olympic-red-4:           #FF555F;
+    --olympic-red-5:           #FF9196;
+    --olympic-red6:           #FFC7C9;
+
+    /* Extended Black */
+    --olympic-black-1:         #000000;
+    --olympic-black-2:         #2E2E2E;
+    --olympic-black-3:         #5A5A5A;
+    --olympic-black-4:         #969696;
+    --olympic-black-5:         #B4B4B4;
+    --olympic-black-6:         #E5E5E5;
+
+    /* Olympic Colors old references*/
+    --olympic-blue: #0081C8;
+    --olympic-yellow: #FCB131;
+    --olympic-black: #000000;
+    --olympic-green: #00A651;
+    --olympic-red: #EE334E;
+
+    /* Light Theme */
+    --background: #ffffff;
+    --foreground: #171717;
+    --surface: #f8fafc;
+    --surface-elevated: #ffffff;
+    --border: #e2e8f0;
+    --muted: #64748b;
+    --accent: var(--olympic-blue);
 }
 
 .dark {

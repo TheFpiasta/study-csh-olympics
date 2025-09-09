@@ -1,21 +1,14 @@
-export async function fetchData() {
-    try {
-        const response = await fetch('/api/olympics/all', {
-            method: 'GET',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            cache: 'no-store'
-        });
+/**
+ * Get the range of years from the data
+ * @param data
+ * @returns {{min: number, max: number}|{min: string, max: string}}
+ */
+export const getYearRange = (data) => {
+    if (!data?.games) return { min: 'auto', max: 'auto' };
 
-        if (!response.ok) {
-            const errorText = await response.text();
-            return {data: [], error: `Failed to fetch Olympic data: ${response.status} ${errorText}`};
-        }
-
-        return {data: await response.json(), error: null};
-    } catch (err) {
-        console.error('Error fetching data:', err);
-        return {data: [], error: 'Error fetching data: ' + err.message};
-    }
-}
+    const years = data.games.map(game => game.year);
+    return {
+        min: Math.min(...years),
+        max: Math.max(...years)
+    };
+};

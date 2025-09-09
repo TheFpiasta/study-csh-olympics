@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
 import {ResponsiveSankey} from '@nivo/sankey';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from '../../../components/LoadingSpinner';
 
 const TemporalDevelopmentAnalyses = () => {
     const [data, setData] = useState(null);

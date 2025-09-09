@@ -57,11 +57,11 @@
     --olympic-black-6:         #E5E5E5;
 
     /* Olympic Colors old references*/
-    --olympic-blue: #0081C8;
-    --olympic-yellow: #FCB131;
-    --olympic-black: #000000;
-    --olympic-green: #00A651;
-    --olympic-red: #EE334E;
+    --olympic-blue: var(--olympic-blue-primary);
+    --olympic-yellow: var(--olympic-yellow-primary);
+    --olympic-black: var(--olympic-black-primary);
+    --olympic-green: var(--olympic-green-primary);
+    --olympic-red: var(--olympic-red-primary);
 
     /* Light Theme */
     --background: #ffffff;

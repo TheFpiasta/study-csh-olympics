@@ -4,7 +4,7 @@ import path from 'path';
 
 export async function GET(request, { params }) {
   try {
-    const { slug } = params;
+    const { slug } = await params;
     
     // Path to the geojson_scraper folder (go up from webapp to parent directory)
     const geojsonPath = path.join(process.cwd(), '..', 'geojson_scraper', 'combined_geojson', `combined_${slug}.geojson`);

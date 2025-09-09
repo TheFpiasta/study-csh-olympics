@@ -6,7 +6,7 @@ import {ResponsiveBar} from '@nivo/bar';
 import {ResponsiveSankey} from '@nivo/sankey';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 
-const TemporalDevelopmentAnalyses = ({geojsonData}) => {
+const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -843,4 +843,4 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     );
 };
 
-export default TemporalDevelopmentAnalyses;
+export default CostAndProfitabilityAnalyses;

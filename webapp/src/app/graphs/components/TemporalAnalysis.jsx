@@ -5,50 +5,18 @@ import { ResponsiveLine } from '@nivo/line';
 import { ResponsiveBar } from '@nivo/bar';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 
-const TemporalAnalysis = () => {
+const TemporalAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        console.log('Fetching Olympic data from:', window.location.origin + '/api/olympics/all');
-        const response = await fetch('/api/olympics/all', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          cache: 'no-store'
-        });
-        
-        console.log('Response status:', response.status);
-        console.log('Response headers:', Object.fromEntries(response.headers.entries()));
-        
-        if (!response.ok) {
-          const errorText = await response.text();
-          console.error('API Error:', response.status, errorText);
-          throw new Error(`Failed to fetch Olympic data: ${response.status} ${errorText}`);
-        }
-        
-        const olympicData = await response.json();
-        console.log('Received Olympic data:', olympicData);
-        
-        if (!olympicData.games || olympicData.games.length === 0) {
-          console.warn('API returned empty games array:', olympicData);
-        }
-        
-        setData(olympicData);
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+    useEffect(() => {
+        if (!geojsonData ) return;
 
-    fetchData();
-  }, []);
+        setLoading(false);
+        setData(geojsonData.data);
+        setError(geojsonData.error);
+    }, [geojsonData]);
 
   // Process data for Olympic Growth Timeline
   const getGrowthTimelineData = () => {

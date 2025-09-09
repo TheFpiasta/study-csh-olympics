@@ -6,7 +6,7 @@ import { ResponsiveNetwork } from '@nivo/network';
 import { ResponsiveSankey } from '@nivo/sankey';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 
-const InteractiveFeatures = () => {
+const InteractiveFeatures = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -14,39 +14,19 @@ const InteractiveFeatures = () => {
   const [selectedSeasons, setSelectedSeasons] = useState(new Set(['All']));
   const [yearRange, setYearRange] = useState([1896, 2018]);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        const response = await fetch('/api/olympics/all', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          cache: 'no-store'
-        });
-        
-        if (!response.ok) {
-          throw new Error(`Failed to fetch Olympic data: ${response.status}`);
-        }
-        
-        const olympicData = await response.json();
-        setData(olympicData);
-        
-        // Set initial year range based on actual data
-        if (olympicData.games && olympicData.games.length > 0) {
-          const years = olympicData.games.map(game => game.year);
-          setYearRange([Math.min(...years), Math.max(...years)]);
-        }
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+    useEffect(() => {
+        if (!geojsonData ) return;
 
-    fetchData();
-  }, []);
+        setLoading(false);
+        setData(geojsonData.data);
+        setError(geojsonData.error);
+
+        // Set initial year range based on actual data
+        if (geojsonData.data.games && geojsonData.data.games.length > 0) {
+            const years = geojsonData.data.games.map(game => game.year);
+            setYearRange([Math.min(...years), Math.max(...years)]);
+        }
+    }, [geojsonData]);
 
   // Get all unique sports and seasons for filtering
   const getFilters = () => {

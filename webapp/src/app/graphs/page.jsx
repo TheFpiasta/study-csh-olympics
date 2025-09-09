@@ -1,11 +1,22 @@
+'use client';
+
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
 import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
 import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
+import {useEffect, useState} from "react";
+import {fetchData} from "@/app/graphs/components/utility";
+import CostAndProfitabilityAnalyses from "@/app/graphs/components/CostAndProfitabilityAnalyses";
 
 export default function GraphsPage() {
+    const [geojsonData, setGeojsonData] = useState(null);
+
+    useEffect(() => {
+        fetchData().then(response => setGeojsonData(response));
+    }, []);
+
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-slate-900 olympic-bg">
             {/* Header */}
@@ -53,22 +64,26 @@ export default function GraphsPage() {
 
             {/* Temporal Analysis Dashboard */}
             <div className="mx-4 mb-8">
-                <TemporalAnalysis />
+                <TemporalAnalysis geojsonData={geojsonData} />
             </div>
 
             {/* Geographic Analysis Dashboard */}
             <div className="mx-4 mb-8">
-                <GeographicAnalysis />
+                <GeographicAnalysis geojsonData={geojsonData} />
             </div>
 
             {/* Interactive Features Dashboard */}
             <div className="mx-4 mb-8">
-                <InteractiveFeatures />
+                <InteractiveFeatures geojsonData={geojsonData} />
             </div>
 
             {/* Temporal Development Analyses */}
             <div className="mx-4 mb-8">
-                <TemporalDevelopmentAnalyses />
+                <TemporalDevelopmentAnalyses geojsonData={geojsonData} />
+            </div>
+
+            <div className="mx-4 mb-8">
+                <CostAndProfitabilityAnalyses geojsonData={geojsonData} />
             </div>
 
             {/* Future Sections Placeholder */}

@@ -6,41 +6,19 @@ import { ResponsiveBar } from '@nivo/bar';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 
-const GeographicAnalysis = () => {
+const GeographicAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
   const [viewMode, setViewMode] = useState('continent'); // 'continent' or 'country'
 
-  useEffect(() => {
-    const fetchData = async () => {
-      try {
-        console.log('Fetching Olympic data for geographic analysis...');
-        const response = await fetch('/api/olympics/all', {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          cache: 'no-store'
-        });
-        
-        if (!response.ok) {
-          const errorText = await response.text();
-          throw new Error(`Failed to fetch Olympic data: ${response.status} ${errorText}`);
-        }
-        
-        const olympicData = await response.json();
-        setData(olympicData);
-      } catch (err) {
-        console.error('Error fetching data:', err);
-        setError(err.message);
-      } finally {
-        setLoading(false);
-      }
-    };
+    useEffect(() => {
+        if (!geojsonData ) return;
 
-    fetchData();
-  }, []);
+        setLoading(false);
+        setData(geojsonData.data);
+        setError(geojsonData.error);
+    }, [geojsonData]);
 
   // Country to continent mapping
   const getContinent = (country) => {

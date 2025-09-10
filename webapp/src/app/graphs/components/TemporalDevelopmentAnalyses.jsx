@@ -559,6 +559,12 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                         legends={[]}
                         theme={{
                             background: 'transparent',
+                            grid: {
+                                line: {
+                                    stroke: oc.extended.black3,
+                                    strokeWidth: 1
+                                }
+                            },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',
@@ -764,6 +770,12 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                         )}
                         theme={{
                             background: 'transparent',
+                            grid: {
+                                line: {
+                                    stroke: oc.extended.black3,
+                                    strokeWidth: 1
+                                }
+                            },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',

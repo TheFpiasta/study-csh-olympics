@@ -1,9 +1,6 @@
 'use client';
 
 import React, {useState, useEffect, useRef} from 'react';
-import {ResponsiveScatterPlot} from '@nivo/scatterplot';
-import {ResponsiveBar} from '@nivo/bar';
-import {ResponsiveSankey} from '@nivo/sankey';
 import {ResponsiveLine} from '@nivo/line';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
@@ -16,7 +13,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [financialTimeData, setFinancialTimeData] = useState([]);
-    const [currencyFilter, setCurrencyFilter] = useState('both');
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('summer');
     const [allMetricFilters, setAllMetricFilters] = useState({});
@@ -33,45 +29,53 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         if (geojsonData.data && geojsonData.data.games && initialLoadRef.current) {
             // Dynamically extract all available Harvard financial metrics
             const extractMetricsFromData = () => {
-                const metricsSet = new Set();
+                const metricsMap = new Map();
                 
                 geojsonData.data.games.forEach(game => {
                     if (game.harvard) {
                         Object.keys(game.harvard).forEach(key => {
                             if (game.harvard[key] && game.harvard[key].data) {
-                                metricsSet.add(key);
+                                // Get format directly from Harvard data, fallback to pattern-based detection
+                                const harvardMetric = game.harvard[key];
+                                const actualFormat = harvardMetric.format;
+                                const unit = harvardMetric.currency;
+                                
+                                metricsMap.set(key, {format: actualFormat, unit:unit});
                             }
                         });
                     }
                 });
                 
-                return Array.from(metricsSet).map(key => {
-                    // Generate human-readable name from key
-                    let name = key
-                        .replace(/_/g, ' ')
-                        .replace(/\(usd2018\)/g, '(2018)')
-                        .replace(/\(usd_2018\)/g, '(2018)')
-                        .replace(/\b\w/g, l => l.toUpperCase());
-                    
-                    // Determine format and unit based on key patterns
-                    const isCurrency = key.includes('revenue') || key.includes('cost');
-                    const is2018 = key.includes('2018') || key.includes('usd2018');
-                    
-                    return {
-                        key: key,
-                        name: name,
-                        format: isCurrency ? 'currency' : 'number',
-                        unit: isCurrency ? (is2018 ? 'M USD 2018' : 'M USD') : ''
-                    };
-                });
+                return Array.from(metricsMap.entries())
+                    .map(([key, datum]) => {
+                        // Generate human-readable name from key
+                        let name = key.replace(/_/g, ' ');
+                        
+                        // Remove any existing 2018/USD indicators first
+                        name = name
+                            .replace(/\s*\(usd\s*2018\)/gi, '')
+                            .replace(/\s*\(usd_2018\)/gi, '')
+                            .replace(/\s*\(2018\)/gi, '');
+                        
+                        // Add standardized USD 2018 label
+                        name = `${name} (USD 2018)`;
+                        
+                        return {
+                            key: key,
+                            name: name,
+                            format: datum.format,
+                            unit: `${datum.unit} 2018`,
+                        };
+                    })
+                    .filter(metric => metric.format === 'currency' && (metric.key.includes('2018') || metric.key.includes('usd2018')));
             };
             
             const metrics = extractMetricsFromData();
             const globalFilters = {};
             metrics.forEach(metric => {
                 globalFilters[metric.name] = {
-                    active: true,  // Default: all filters active
-                    visible: true,  // Will be updated by separate useEffect
+                    active: true,
+                    visible: true,
                     key: metric.key,
                     format: metric.format,
                     unit: metric.unit
@@ -158,35 +162,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
         setFinancialTimeData(processedData);
     }, [data, allMetricFilters, seasonFilter]);
-
-    // Separate useEffect to handle metric filter visibility updates when currency changes
-    useEffect(() => {
-        if (!data || !data.games || Object.keys(allMetricFilters).length === 0) return;
-
-        setAllMetricFilters(prev => {
-            const updated = { ...prev };
-            Object.keys(updated).forEach(metricName => {
-                const filterInfo = updated[metricName];
-                if (filterInfo) {
-                    const isCurrency = filterInfo.key.includes('revenue') || filterInfo.key.includes('cost');
-                    const is2018 = filterInfo.key.includes('2018') || filterInfo.key.includes('usd2018');
-                    
-                    let visible = true;
-                    if (currencyFilter === 'normal') {
-                        visible = !filterInfo.key.includes('2018') && !filterInfo.key.includes('usd2018');
-                    } else if (currencyFilter === '2018') {
-                        visible = filterInfo.key.includes('2018') || filterInfo.key.includes('usd2018') || !isCurrency;
-                    }
-                    
-                    updated[metricName] = {
-                        ...updated[metricName],
-                        visible: visible
-                    };
-                }
-            });
-            return updated;
-        });
-    }, [currencyFilter, data]);
 
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
@@ -318,44 +293,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     </div>
                 </div>
 
-                {/* Currency Filter */}
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Currency Type
-                    </label>
-                    <div className="flex flex-wrap gap-2">
-                        <button
-                            onClick={() => setCurrencyFilter('both')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                currencyFilter === 'both'
-                                    ? 'bg-violet-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Both Types
-                        </button>
-                        <button
-                            onClick={() => setCurrencyFilter('normal')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                currencyFilter === 'normal'
-                                    ? 'bg-violet-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Original Currency
-                        </button>
-                        <button
-                            onClick={() => setCurrencyFilter('2018')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                currencyFilter === '2018'
-                                    ? 'bg-violet-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            2018 USD
-                        </button>
-                    </div>
-                </div>
 
                 {/* Financial Metrics Selection Filter */}
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">

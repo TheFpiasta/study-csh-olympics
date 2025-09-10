@@ -19,7 +19,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const initialLoadRef = useRef(true);
 
     useEffect(() => {
-        if (!geojsonData ) return;
+        if (!geojsonData) return;
 
         setLoading(false);
         setData(geojsonData.data);
@@ -30,7 +30,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             // Dynamically extract all available Harvard financial metrics
             const extractMetricsFromData = () => {
                 const metricsMap = new Map();
-                
+
                 geojsonData.data.games.forEach(game => {
                     if (game.harvard) {
                         Object.keys(game.harvard).forEach(key => {
@@ -39,27 +39,27 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                                 const harvardMetric = game.harvard[key];
                                 const actualFormat = harvardMetric.format;
                                 const unit = harvardMetric.currency;
-                                
-                                metricsMap.set(key, {format: actualFormat, unit:unit});
+
+                                metricsMap.set(key, {format: actualFormat, unit: unit});
                             }
                         });
                     }
                 });
-                
+
                 return Array.from(metricsMap.entries())
                     .map(([key, datum]) => {
                         // Generate human-readable name from key
                         let name = key.replace(/_/g, ' ');
-                        
+
                         // Remove any existing 2018/USD indicators first
                         name = name
                             .replace(/\s*\(usd\s*2018\)/gi, '')
                             .replace(/\s*\(usd_2018\)/gi, '')
                             .replace(/\s*\(2018\)/gi, '');
-                        
+
                         // Add standardized USD 2018 label
                         name = `${name} (USD 2018)`;
-                        
+
                         return {
                             key: key,
                             name: name,
@@ -69,7 +69,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     })
                     .filter(metric => metric.format === 'currency' && (metric.key.includes('2018') || metric.key.includes('usd2018')));
             };
-            
+
             const metrics = extractMetricsFromData();
             const globalFilters = {};
             metrics.forEach(metric => {
@@ -104,7 +104,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             }));
 
         let processedData;
-        
+
         if (seasonFilter === 'both') {
             // Create separate series for summer and winter for each metric
             processedData = filteredMetrics.flatMap(metric => {
@@ -113,37 +113,37 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     const seasonData = data.games
                         .filter(game => {
                             const harvard = game.harvard;
-                            const gameSeason = game.features && game.features.length > 0 ? 
-                                             game.features[0].properties.season : null;
-                            
-                            return harvard && 
-                                   harvard[metric.key] && 
-                                   harvard[metric.key].data &&
-                                   gameSeason && 
-                                   gameSeason.toLowerCase() === season.toLowerCase();
+                            const gameSeason = game.features && game.features.length > 0 ?
+                                game.features[0].properties.season : null;
+
+                            return harvard &&
+                                harvard[metric.key] &&
+                                harvard[metric.key].data &&
+                                gameSeason &&
+                                gameSeason.toLowerCase() === season.toLowerCase();
                         })
                         .map(game => {
                             const harvard = game.harvard;
                             const rawData = harvard[metric.key].data;
-                            
+
                             let value = parseFloat(rawData);
-                            
+
                             if (isNaN(value) || !isFinite(value)) {
                                 return null;
                             }
-                            
+
                             if (metric.format === 'currency') {
                                 value = value / 1000000;
                             }
-                            
+
                             const year = parseInt(game.year);
                             if (isNaN(year)) {
                                 return null;
                             }
-                            
-                            const gameSeason = game.features && game.features.length > 0 ? 
-                                             game.features[0].properties.season : 'Unknown';
-                            
+
+                            const gameSeason = game.features && game.features.length > 0 ?
+                                game.features[0].properties.season : 'Unknown';
+
                             return {
                                 x: year,
                                 y: value,
@@ -156,7 +156,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         })
                         .filter(dataPoint => dataPoint !== null)
                         .sort((a, b) => a.x - b.x);
-                    
+
                     return {
                         id: `${metric.name} (${season.charAt(0).toUpperCase() + season.slice(1)})`,
                         data: seasonData,
@@ -172,37 +172,37 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                 data: data.games
                     .filter(game => {
                         const harvard = game.harvard;
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : null;
-                        
-                        return harvard && 
-                               harvard[metric.key] && 
-                               harvard[metric.key].data &&
-                               gameSeason && 
-                               gameSeason.toLowerCase() === seasonFilter.toLowerCase();
+                        const gameSeason = game.features && game.features.length > 0 ?
+                            game.features[0].properties.season : null;
+
+                        return harvard &&
+                            harvard[metric.key] &&
+                            harvard[metric.key].data &&
+                            gameSeason &&
+                            gameSeason.toLowerCase() === seasonFilter.toLowerCase();
                     })
                     .map(game => {
                         const harvard = game.harvard;
                         const rawData = harvard[metric.key].data;
-                        
+
                         let value = parseFloat(rawData);
-                        
+
                         if (isNaN(value) || !isFinite(value)) {
                             return null;
                         }
-                        
+
                         if (metric.format === 'currency') {
                             value = value / 1000000;
                         }
-                        
+
                         const year = parseInt(game.year);
                         if (isNaN(year)) {
                             return null;
                         }
-                        
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : 'Unknown';
-                        
+
+                        const gameSeason = game.features && game.features.length > 0 ?
+                            game.features[0].properties.season : 'Unknown';
+
                         return {
                             x: year,
                             y: value,
@@ -223,13 +223,192 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         setFinancialTimeData(processedData);
     }, [data, allMetricFilters, seasonFilter]);
 
+    // Process aggregated financial data (costs, gains, profit)
+    const [aggregatedTimeData, setAggregatedTimeData] = useState([]);
+
+    useEffect(() => {
+        if (!data || !data.games || Object.keys(allMetricFilters).length === 0) return;
+
+        // Get active metrics
+        const activeMetrics = Object.keys(allMetricFilters)
+            .filter(metricName => {
+                const filterState = allMetricFilters[metricName];
+                return filterState && filterState.active && filterState.visible;
+            })
+            .map(metricName => ({
+                key: allMetricFilters[metricName].key,
+                name: metricName,
+                format: allMetricFilters[metricName].format,
+                unit: allMetricFilters[metricName].unit
+            }));
+
+        const costMetrics = activeMetrics.filter(m => m.key.includes('cost'));
+        const revenueMetrics = activeMetrics.filter(m => m.key.includes('revenue'));
+
+        let processedAggregatedData;
+
+        if (seasonFilter === 'both') {
+            // Create separate series for summer and winter
+            processedAggregatedData = ['summer', 'winter'].flatMap(season => {
+                const gamesData = data.games
+                    .filter(game => {
+                        const harvard = game.harvard;
+                        const gameSeason = game.features && game.features.length > 0 ?
+                            game.features[0].properties.season : null;
+
+                        return harvard && gameSeason &&
+                            gameSeason.toLowerCase() === season.toLowerCase();
+                    })
+                    .map(game => {
+                        const year = parseInt(game.year);
+                        if (isNaN(year)) return null;
+
+                        // Calculate total costs
+                        let totalCost = 0;
+                        costMetrics.forEach(metric => {
+                            const harvard = game.harvard;
+                            if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                                const value = parseFloat(harvard[metric.key].data);
+                                if (!isNaN(value) && isFinite(value)) {
+                                    totalCost += value / 1000000; // Convert to millions
+                                }
+                            }
+                        });
+
+                        // Calculate total revenue
+                        let totalRevenue = 0;
+                        revenueMetrics.forEach(metric => {
+                            const harvard = game.harvard;
+                            if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                                const value = parseFloat(harvard[metric.key].data);
+                                if (!isNaN(value) && isFinite(value)) {
+                                    totalRevenue += value / 1000000; // Convert to millions
+                                }
+                            }
+                        });
+
+                        const totalProfit = totalRevenue - totalCost;
+                        const gameSeason = game.features && game.features.length > 0 ?
+                            game.features[0].properties.season : 'Unknown';
+
+                        return {
+                            x: year,
+                            location: game.location,
+                            season: gameSeason,
+                            totalCost,
+                            totalRevenue,
+                            totalProfit
+                        };
+                    })
+                    .filter(dataPoint => dataPoint !== null)
+                    .sort((a, b) => a.x - b.x);
+
+                return [
+                    {
+                        id: `Total Costs (${season.charAt(0).toUpperCase() + season.slice(1)})`,
+                        data: gamesData.map(d => ({x: d.x, y: d.totalCost, ...d})),
+                        season: season,
+                        type: 'cost'
+                    },
+                    {
+                        id: `Total Revenue (${season.charAt(0).toUpperCase() + season.slice(1)})`,
+                        data: gamesData.map(d => ({x: d.x, y: d.totalRevenue, ...d})),
+                        season: season,
+                        type: 'revenue'
+                    },
+                    {
+                        id: `Total Profit (${season.charAt(0).toUpperCase() + season.slice(1)})`,
+                        data: gamesData.map(d => ({x: d.x, y: d.totalProfit, ...d})),
+                        season: season,
+                        type: 'profit'
+                    }
+                ];
+            }).filter(series => series.data.length > 0);
+        } else {
+            // Single season logic
+            const gamesData = data.games
+                .filter(game => {
+                    const harvard = game.harvard;
+                    const gameSeason = game.features && game.features.length > 0 ?
+                        game.features[0].properties.season : null;
+
+                    return harvard && gameSeason &&
+                        gameSeason.toLowerCase() === seasonFilter.toLowerCase();
+                })
+                .map(game => {
+                    const year = parseInt(game.year);
+                    if (isNaN(year)) return null;
+
+                    let totalCost = 0;
+                    costMetrics.forEach(metric => {
+                        const harvard = game.harvard;
+                        if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                            const value = parseFloat(harvard[metric.key].data);
+                            if (!isNaN(value) && isFinite(value)) {
+                                totalCost += value / 1000000;
+                            }
+                        }
+                    });
+
+                    let totalRevenue = 0;
+                    revenueMetrics.forEach(metric => {
+                        const harvard = game.harvard;
+                        if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                            const value = parseFloat(harvard[metric.key].data);
+                            if (!isNaN(value) && isFinite(value)) {
+                                totalRevenue += value / 1000000;
+                            }
+                        }
+                    });
+
+                    const totalProfit = totalRevenue - totalCost;
+                    const gameSeason = game.features && game.features.length > 0 ?
+                        game.features[0].properties.season : 'Unknown';
+
+                    return {
+                        x: year,
+                        location: game.location,
+                        season: gameSeason,
+                        totalCost,
+                        totalRevenue,
+                        totalProfit
+                    };
+                })
+                .filter(dataPoint => dataPoint !== null)
+                .sort((a, b) => a.x - b.x);
+
+            processedAggregatedData = [
+                {
+                    id: 'Total Costs',
+                    data: gamesData.map(d => ({x: d.x, y: d.totalCost, ...d})),
+                    season: seasonFilter,
+                    type: 'cost'
+                },
+                {
+                    id: 'Total Revenue',
+                    data: gamesData.map(d => ({x: d.x, y: d.totalRevenue, ...d})),
+                    season: seasonFilter,
+                    type: 'revenue'
+                },
+                {
+                    id: 'Total Profit',
+                    data: gamesData.map(d => ({x: d.x, y: d.totalProfit, ...d})),
+                    season: seasonFilter,
+                    type: 'profit'
+                }
+            ].filter(series => series.data.length > 0);
+        }
+
+        setAggregatedTimeData(processedAggregatedData);
+    }, [data, allMetricFilters, seasonFilter]);
+
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
-        if (!financialTimeData || financialTimeData.length === 0) return { min: 'auto', max: 'auto' };
-        
+        if (!financialTimeData || financialTimeData.length === 0) return {min: 'auto', max: 'auto'};
+
         const allYears = financialTimeData.flatMap(series => series.data.map(point => point.x));
-        if (allYears.length === 0) return { min: 'auto', max: 'auto' };
-        
+        if (allYears.length === 0) return {min: 'auto', max: 'auto'};
+
         return {
             min: Math.min(...allYears),
             max: Math.max(...allYears)
@@ -248,18 +427,18 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         if (!seriesId || typeof seriesId !== 'string') {
             return '#6b7280';  // Gray fallback color
         }
-        
+
         const visibleMetrics = getVisibleMetrics();
-        
+
         // Extract base metric name (remove season suffix if present)
         let baseName = seriesId;
         if (seriesId.includes(' (Summer)') || seriesId.includes(' (Winter)')) {
             baseName = seriesId.replace(' (Summer)', '').replace(' (Winter)', '');
         }
-        
+
         const baseIndex = visibleMetrics.indexOf(baseName);
         const baseHue = baseIndex * 360 / visibleMetrics.length;
-        
+
         // Same color for both summer and winter lines of the same metric
         return `hsl(${baseHue}, 70%, 50%)`;
     };
@@ -269,7 +448,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         if (!seriesId || typeof seriesId !== 'string') {
             return '#6b7280';  // Gray fallback color
         }
-        
+
         if (seasonFilter === 'both') {
             // When both seasons are shown, use different colors for each
             if (seriesId.includes(' (Summer)')) {
@@ -285,9 +464,72 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                 return '#06b6d4';  // Cyan-500 for winter
             }
         }
-        
+
         // Fallback to gray
         return '#6b7280';
+    };
+
+    // Get line color for aggregated chart based on type
+    const getAggregatedLineColor = (seriesType) => {
+        switch (seriesType) {
+            case 'cost':
+                return '#dc2626';     // Red
+            case 'revenue':
+                return '#16a34a';  // Green
+            case 'profit':
+                return '#2563eb';   // Blue
+            default:
+                return '#6b7280';         // Gray fallback
+        }
+    };
+
+    // Get point color for aggregated chart based on season
+    const getAggregatedPointColor = (series) => {
+        if (!series) {
+            return '#6b7280'; // Gray fallback for undefined series
+        }
+
+        if (seasonFilter === 'both') {
+            // When both seasons are shown, use different colors for each
+            if (series.season === 'summer') {
+                return '#f59e0b';  // Amber-500 for summer
+            } else if (series.season === 'winter') {
+                return '#06b6d4';  // Cyan-500 for winter
+            }
+        } else {
+            // When single season is selected, use that season's color for all points
+            if (seasonFilter === 'summer') {
+                return '#f59e0b';  // Amber-500 for summer
+            } else if (seasonFilter === 'winter') {
+                return '#06b6d4';  // Cyan-500 for winter
+            }
+        }
+
+        // Fallback to gray
+        return '#6b7280';
+    };
+
+    // Get point border color for aggregated chart
+    const getAggregatedPointBorderColor = (series) => {
+        if (!series) {
+            return '#6b7280'; // Gray fallback for undefined series
+        }
+
+        if (seasonFilter === 'both') {
+            if (series.season === 'summer') {
+                return '#f59e0b';  // Amber border for summer
+            } else if (series.season === 'winter') {
+                return '#06b6d4';  // Cyan border for winter
+            }
+        } else {
+            // Single season mode
+            if (seasonFilter === 'summer') {
+                return '#f59e0b';  // Amber border
+            } else if (seasonFilter === 'winter') {
+                return '#06b6d4';  // Cyan border
+            }
+        }
+        return '#6b7280'; // Gray fallback
     };
 
     // Toggle metric active state
@@ -438,6 +680,13 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     </div>
                 </div>
 
+                {/* Individual Financial Metrics Chart Headline */}
+                <div className="">
+                    <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
+                        Individual Financial Metrics
+                    </h4>
+                </div>
+
                 <div className="h-96 chart-container">
                     <style jsx>{`
                         .chart-container :global(text) {
@@ -447,9 +696,9 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     `}</style>
                     <ResponsiveLine
                         data={financialTimeData}
-                        margin={{ top: 50, right: 110, bottom: 50, left: 60 }}
-                        xScale={{ 
-                            type: 'linear', 
+                        margin={{top: 50, right: 110, bottom: 50, left: 60}}
+                        xScale={{
+                            type: 'linear',
                             min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
                             max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
                         }}
@@ -489,8 +738,9 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         enablePointLabel={false}
                         pointLabelYOffset={-12}
                         useMesh={true}
-                        tooltip={({ point }) => (
-                            <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
+                        tooltip={({point}) => (
+                            <div
+                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
                                 <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
                                     {point.data.location} {point.data.x}
                                 </div>
@@ -505,8 +755,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                                     <div className="flex justify-between items-center">
                                         <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
                                         <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                            {point.data.unit.includes('M') ? 
-                                                `${point.data.yFormatted} ${point.data.unit}` : 
+                                            {point.data.unit.includes('M') ?
+                                                `${point.data.yFormatted} ${point.data.unit}` :
                                                 `${parseInt(point.data.rawValue).toLocaleString()}`
                                             }
                                         </span>
@@ -593,7 +843,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     {/* Season Legend (Point Colors) - Only show when "both" is selected */}
                     {seasonFilter === 'both' && (
                         <div className="flex flex-col items-center gap-2">
-                            <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                            <span
+                                className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                 Olympic Seasons
                             </span>
                             <div className="flex flex-wrap justify-center gap-4">
@@ -618,6 +869,205 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                             </div>
                         </div>
                     )}
+                </div>
+
+                {/* Aggregated Financial Analysis Chart */}
+                <div className="mt-12">
+                    {/* Aggregated Financial Analysis Chart Headline */}
+                    <div className="">
+                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
+                            Total Financial Performance
+                        </h4>
+                    </div>
+
+                    <div className="h-96 chart-container">
+                        <style jsx>{`
+                            .chart-container :global(text) {
+                                fill: #d1d5db !important;
+                                font-weight: 600 !important;
+                            }
+                        `}</style>
+                        <ResponsiveLine
+                            data={aggregatedTimeData}
+                            margin={{top: 50, right: 110, bottom: 50, left: 80}}
+                            xScale={{
+                                type: 'linear',
+                                min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
+                                max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
+                            }}
+                            colors={(serie) => getAggregatedLineColor(serie.type)}
+                            yScale={{
+                                type: 'linear',
+                                min: 'auto',
+                                max: 'auto',
+                                stacked: false,
+                                reverse: false
+                            }}
+                            yFormat=" >-.2f"
+                            axisTop={null}
+                            axisRight={null}
+                            axisBottom={{
+                                orient: 'bottom',
+                                tickSize: 5,
+                                tickPadding: 5,
+                                tickRotation: 0,
+                                legend: 'Year',
+                                legendOffset: 36,
+                                legendPosition: 'middle'
+                            }}
+                            axisLeft={{
+                                orient: 'left',
+                                tickSize: 5,
+                                tickPadding: 5,
+                                tickRotation: 0,
+                                legend: 'Value (M USD 2018)',
+                                legendOffset: -60,
+                                legendPosition: 'middle'
+                            }}
+                            pointSize={10}
+                            pointColor={(point) => {
+                                // Find the series data from aggregatedTimeData to get season info
+                                if (!point.serie?.id && !point.point?.seriesId) {
+                                    return '#6b7280'; // Gray fallback
+                                }
+
+                                const seriesId = point.serie?.id || point.point?.seriesId;
+                                const seriesData = aggregatedTimeData.find(s => s.id === seriesId);
+                                return getAggregatedPointColor(seriesData);
+                            }}
+                            pointBorderWidth={2}
+                            pointBorderColor="#ffffff"
+                            enablePointLabel={false}
+                            pointLabelYOffset={-12}
+                            useMesh={true}
+                            tooltip={({point}) => (
+                                <div
+                                    className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
+                                    <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                                        {point.data.location} {point.data.x}
+                                    </div>
+                                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                                        {point.data.season} Olympics
+                                    </div>
+                                    <div className="space-y-2">
+                                        <div className="flex justify-between items-center">
+                                            <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
+                                            <span className="text-gray-900 dark:text-gray-100">{point.serieId}</span>
+                                        </div>
+                                        <div className="flex justify-between items-center">
+                                            <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-bold">
+                                            {point.data.yFormatted} M USD 2018
+                                        </span>
+                                        </div>
+                                        <div className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                                            Total Costs: {point.data.totalCost?.toFixed(2)} M USD 2018<br/>
+                                            Total Revenue: {point.data.totalRevenue?.toFixed(2)} M USD 2018<br/>
+                                            Total Profit: {point.data.totalProfit?.toFixed(2)} M USD 2018
+                                        </div>
+                                    </div>
+                                </div>
+                            )}
+                            legends={[]}
+                            theme={{
+                                background: 'transparent',
+                                grid: {
+                                    line: {
+                                        stroke: '#374151',
+                                        strokeWidth: 1
+                                    }
+                                },
+                                tooltip: {
+                                    container: {
+                                        background: '#ffffff',
+                                        color: '#374151',
+                                        fontSize: '12px',
+                                        borderRadius: '8px',
+                                        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                                        border: '1px solid #e5e7eb',
+                                        padding: '8px 12px'
+                                    }
+                                },
+                                axis: {
+                                    ticks: {
+                                        text: {
+                                            fontSize: 11,
+                                            fill: '#d1d5db',
+                                            fontWeight: 600
+                                        }
+                                    },
+                                    legend: {
+                                        text: {
+                                            fontSize: 12,
+                                            fill: '#d1d5db',
+                                            fontWeight: 600
+                                        }
+                                    }
+                                },
+                                legends: {
+                                    text: {
+                                        fill: '#d1d5db',
+                                        fontSize: 11
+                                    }
+                                }
+                            }}
+                        />
+                    </div>
+
+                    {/* Aggregated Chart Legend */}
+                    <div className="flex flex-col items-center mt-4 gap-4">
+                        {/* Financial Types Legend (Line Colors) */}
+                        <div className="flex flex-col items-center gap-2">
+                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                            Financial Analysis
+                        </span>
+                            <div className="flex flex-wrap justify-center gap-6">
+                                <div className="flex items-center gap-2">
+                                    <div className="w-4 h-0.5" style={{backgroundColor: '#dc2626'}}></div>
+                                    <span
+                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Costs</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <div className="w-4 h-0.5" style={{backgroundColor: '#16a34a'}}></div>
+                                    <span
+                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Revenue</span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <div className="w-4 h-0.5" style={{backgroundColor: '#2563eb'}}></div>
+                                    <span
+                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Profit</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Season Legend (Point Colors) - Only show when "both" is selected */}
+                        {seasonFilter === 'both' && (
+                            <div className="flex flex-col items-center gap-2">
+                            <span
+                                className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                                Olympic Seasons
+                            </span>
+                                <div className="flex flex-wrap justify-center gap-4">
+                                    <div className="flex items-center gap-2">
+                                        <div
+                                            className="w-3 h-3 rounded-full"
+                                            style={{backgroundColor: '#f59e0b'}}
+                                        ></div>
+                                        <span
+                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <div
+                                            className="w-3 h-3 rounded-full"
+                                            style={{backgroundColor: '#06b6d4'}}
+                                        ></div>
+                                        <span
+                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
+                                    </div>
+                                </div>
+                            </div>
+                        )}
+                    </div>
                 </div>
             </div>
 

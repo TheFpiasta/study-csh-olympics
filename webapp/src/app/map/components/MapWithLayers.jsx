@@ -23,7 +23,6 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   const [loading, setLoading] = useState(false);
   const [showLayerPanel, setShowLayerPanel] = useState(false);
   const [showOlympicsPanel, setShowOlympicsPanel] = useState(false);
-  const [showLegendPanel, setShowLegendPanel] = useState(false);
   const [expandedDescription, setExpandedDescription] = useState(false);
   const [expandedStatusBreakdown, setExpandedStatusBreakdown] = useState(false);
   const [showTimeline, setShowTimeline] = useState(true); // Timeline always visible by default
@@ -35,6 +34,26 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   const [showEndLabel, setShowEndLabel] = useState(false);
   const [isDragging, setIsDragging] = useState(false);
   const [showCharts, setShowCharts] = useState(false);
+  const [showStatusPanel, setShowStatusPanel] = useState(false);
+  const [selectedStatuses, setSelectedStatuses] = useState(new Set([
+    'In use', 'In use (rebuilt)', 'In use (repurposed)', 'In use (seasonal)', 'In use (limited)',
+    'Not in use', 'Not in use (demolished)', 'Dismantled (temporary)', 'Dismantled (seasonal)',
+    'No status data'
+  ])); // All statuses selected by default
+
+  // Available status categories with colors
+  const statusColors = {
+    'In use': '#22c55e',
+    'In use (rebuilt)': '#10b981',
+    'In use (repurposed)': '#06b6d4',
+    'In use (seasonal)': '#3b82f6',
+    'In use (limited)': '#8b5cf6',
+    'Not in use': '#ef4444',
+    'Not in use (demolished)': '#dc2626',
+    'Dismantled (temporary)': '#991b1b',
+    'Dismantled (seasonal)': '#7c2d12',
+    'No status data': '#94a3b8'
+  };
 
   // Hydration effect - load saved values after component mounts
   useEffect(() => {
@@ -91,6 +110,16 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
           setTimelineEndYear(parseInt(savedEndYear));
         } catch (e) {
           console.warn('Failed to parse saved timeline end year:', e);
+        }
+      }
+      
+      // Load selected statuses
+      const savedStatuses = sessionStorage.getItem('olympics-selected-statuses');
+      if (savedStatuses) {
+        try {
+          setSelectedStatuses(new Set(JSON.parse(savedStatuses)));
+        } catch (e) {
+          console.warn('Failed to parse saved selected statuses:', e);
         }
       }
     }
@@ -204,12 +233,25 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     }
   }, [selectedOlympics, timelineMode, isHydrated]);
 
+  // Create filtered GeoJSON data based on selected statuses
+  const filteredGeojsonData = React.useMemo(() => {
+    if (!geojsonData || !geojsonData.features) return geojsonData;
+    
+    return {
+      ...geojsonData,
+      features: geojsonData.features.filter(feature => {
+        const status = feature.properties.status || 'No status data';
+        return selectedStatuses.has(status);
+      })
+    };
+  }, [geojsonData, selectedStatuses]);
+
   // Notify parent component when data changes
   useEffect(() => {
     if (onDataUpdate) {
-      onDataUpdate(geojsonData);
+      onDataUpdate(filteredGeojsonData);
     }
-  }, [geojsonData, onDataUpdate]);
+  }, [filteredGeojsonData, onDataUpdate]);
 
   // Notify parent when charts toggle changes
   useEffect(() => {
@@ -318,6 +360,13 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     }
   }, [timelineEndYear, isHydrated]);
 
+  // Save selected statuses to sessionStorage whenever it changes (only after hydration)
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-selected-statuses', JSON.stringify(Array.from(selectedStatuses)));
+    }
+  }, [selectedStatuses, isHydrated]);
+
   // Optional: Clear session storage on component unmount (though sessionStorage clears on tab close anyway)
   useEffect(() => {
     return () => {
@@ -334,8 +383,6 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
       const layerPanel = event.target.closest('[data-panel="layer-panel"]');
       const olympicsButton = event.target.closest('[data-panel="olympics-button"]');
       const olympicsPanel = event.target.closest('[data-panel="olympics-panel"]');
-      const legendButton = event.target.closest('[data-panel="legend-button"]');
-      const legendPanel = event.target.closest('[data-panel="legend-panel"]');
       const timelineButton = event.target.closest('[data-panel="timeline-button"]');
       const timelinePanel = event.target.closest('[data-panel="timeline-panel"]');
       
@@ -349,9 +396,11 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         setShowOlympicsPanel(false);
       }
       
-      // Close legend panel if click is outside both button and panel
-      if (showLegendPanel && !legendButton && !legendPanel) {
-        setShowLegendPanel(false);
+      // Close status panel if click is outside both button and panel
+      const statusButton = event.target.closest('[data-panel="status-button"]');
+      const statusPanel = event.target.closest('[data-panel="status-panel"]');
+      if (showStatusPanel && !statusButton && !statusPanel) {
+        setShowStatusPanel(false);
       }
       
       // Close timeline panel if click is outside both button and panel
@@ -368,7 +417,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [showLayerPanel, showOlympicsPanel, showLegendPanel]);
+  }, [showLayerPanel, showOlympicsPanel]);
 
   const loadOlympicsData = async (olympicsId) => {
     setLoading(true);
@@ -709,19 +758,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     return '#94a3b8'; // default neutral gray
   };
 
-  // Status legend data
-  const statusLegend = [
-    { label: 'In use', color: '#22c55e', description: 'Currently operational' },
-    { label: 'In use (rebuilt)', color: '#10b981', description: 'Rebuilt and operational' },
-    { label: 'In use (repurposed)', color: '#06b6d4', description: 'Repurposed for other use' },
-    { label: 'In use (seasonal)', color: '#3b82f6', description: 'Seasonal operation' },
-    { label: 'In use (limited)', color: '#8b5cf6', description: 'Limited operation' },
-    { label: 'Not in use', color: '#ef4444', description: 'No longer operational' },
-    { label: 'Not in use (demolished)', color: '#dc2626', description: 'Demolished' },
-    { label: 'Dismantled (temporary)', color: '#991b1b', description: 'Temporary venue removed' },
-    { label: 'Dismantled (seasonal)', color: '#7c2d12', description: 'Seasonal venue removed' },
-    { label: 'No status data', color: '#94a3b8', description: 'Status unknown' }
-  ];
+
 
   // Calculate status breakdown for current venues
   const getStatusBreakdown = () => {
@@ -737,11 +774,10 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     // Sort by count (descending) and map to include colors
     return Object.entries(statusCounts)
       .map(([status, count]) => {
-        const legendItem = statusLegend.find(item => item.label === status);
         return {
           status,
           count,
-          color: legendItem ? legendItem.color : '#94a3b8'
+          color: statusColors[status] || '#94a3b8'
         };
       })
       .sort((a, b) => b.count - a.count);
@@ -828,8 +864,8 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         <GeolocateControl position="top-right" />
 
         {/* Data Layer */}
-        {geojsonData && (
-          <Source id="olympic-venues" type="geojson" data={geojsonData}>
+        {filteredGeojsonData && (
+          <Source id="olympic-venues" type="geojson" data={filteredGeojsonData}>
             <Layer {...pointLayerStyle} />
           </Source>
         )}
@@ -1061,19 +1097,15 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
           </svg>
         </button>
 
-        {/* Legend Control Button */}
+        {/* Status Filter Control Button */}
         <button
-          data-panel="legend-button"
-          onClick={() => setShowLegendPanel(!showLegendPanel)}
+          data-panel="status-button"
+          onClick={() => setShowStatusPanel(!showStatusPanel)}
           className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
-          title="Show venue status legend"
+          title="Filter venues by status"
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
-            <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-            <line x1="9" y1="9" x2="15" y2="9"></line>
-            <line x1="9" y1="15" x2="15" y2="15"></line>
-            <circle cx="6" cy="9" r="1"></circle>
-            <circle cx="6" cy="15" r="1"></circle>
+            <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46"></polygon>
           </svg>
         </button>
 
@@ -1260,48 +1292,90 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
           </div>
         )}
 
-        {/* Legend Panel */}
-        {showLegendPanel && (
+        {/* Status Filter Panel */}
+        {showStatusPanel && (
           <div 
-            data-panel="legend-panel"
-            className="absolute top-0 z-10 flex flex-col p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-80 max-w-96 max-h-96"
+            data-panel="status-panel"
+            className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 w-80 max-h-96"
           >
-            <div className="flex items-center justify-between flex-shrink-0 mb-3">
-              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Venue Status Legend</h3>
+            <div className="flex items-center justify-between mb-3">
+              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Filter by Status</h3>
               <button
-                onClick={() => setShowLegendPanel(false)}
+                onClick={() => setShowStatusPanel(false)}
                 className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 ✕
               </button>
             </div>
             
-            <div className="flex-1 pr-2 space-y-2 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-300 dark:scrollbar-thumb-gray-600 scrollbar-track-transparent">
-              {statusLegend.map((item, index) => (
-                <div key={index} className="flex items-center gap-3 p-2 transition-colors rounded hover:bg-gray-50 dark:hover:bg-gray-700/50">
-                  <div 
-                    className="flex-shrink-0 w-4 h-4 border-2 border-white rounded-full shadow-sm"
-                    style={{ backgroundColor: item.color }}
-                  ></div>
-                  <div className="flex-1 min-w-0">
-                    <span className="block text-sm font-medium text-gray-800 dark:text-gray-200">
-                      {item.label}
+            <div className="mb-3 space-x-2">
+              <button
+                onClick={() => setSelectedStatuses(new Set(Object.keys(statusColors)))}
+                className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
+              >
+                Select All
+              </button>
+              <button
+                onClick={() => setSelectedStatuses(new Set())}
+                className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
+              >
+                Clear All
+              </button>
+            </div>
+            
+            <div className="pr-1 space-y-1 overflow-y-auto max-h-48">
+              {Object.entries(statusColors).map(([status, color]) => (
+                <div 
+                  key={status} 
+                  className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
+                  onClick={() => {
+                    const newSelected = new Set(selectedStatuses);
+                    if (selectedStatuses.has(status)) {
+                      newSelected.delete(status);
+                    } else {
+                      newSelected.add(status);
+                    }
+                    setSelectedStatuses(newSelected);
+                  }}
+                >
+                  <div className="flex items-center space-x-2.5">
+                    <div 
+                      className="flex-shrink-0 w-3.5 h-3.5 border-2 border-gray-300 rounded-full shadow-sm dark:border-gray-600"
+                      style={{ backgroundColor: color }}
+                    />
+                    <span className="text-sm font-medium leading-tight text-gray-700 dark:text-gray-300">
+                      {status}
                     </span>
-                    <p className="text-xs leading-relaxed text-gray-500 dark:text-gray-400">
-                      {item.description}
-                    </p>
+                  </div>
+                  
+                  {/* Custom Toggle Switch with Smooth Animation */}
+                  <div
+                    className={`relative w-9 h-5 rounded-full transition-all duration-300 ease-in-out ${
+                      selectedStatuses.has(status)
+                        ? 'bg-gradient-to-r from-green-400 to-green-500 shadow-inner'
+                        : 'bg-gray-300 dark:bg-gray-600 shadow-inner'
+                    }`}
+                  >
+                    <div
+                      className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-all duration-300 ease-in-out ${
+                        selectedStatuses.has(status) ? 'translate-x-4' : 'translate-x-0'
+                      }`}
+                    />
                   </div>
                 </div>
               ))}
             </div>
             
-            <div className="flex-shrink-0 pt-3 mt-3 border-t border-gray-200 dark:border-gray-600">
-              <p className="text-xs text-gray-500 dark:text-gray-400">
-                💡 Venue colors reflect their current operational status based on available data
-              </p>
-            </div>
+            {geojsonData && (
+              <div className="p-3 pt-4 mt-4 text-xs text-gray-600 border-t border-gray-200 rounded-lg dark:border-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/30">
+                <p className="font-medium text-center">
+                  Showing <span className="text-green-600 dark:text-green-400">{filteredGeojsonData?.features?.length || 0}</span> of <span className="text-gray-800 dark:text-gray-200">{geojsonData.features.length}</span> venues
+                </p>
+              </div>
+            )}
           </div>
         )}
+
       </div>
 
       {/* Timeline Panel - Always visible at bottom */}

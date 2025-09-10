@@ -1,37 +1,26 @@
-'use client';
-
-import React, {useState, useEffect, useRef} from 'react';
+import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
-import LoadingSpinner from '../../../components/LoadingSpinner';
-import ShowError from "@/app/graphs/components/templates/ShowError";
-import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
-import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import {getYearRange} from "@/app/graphs/components/utility";
 
-const CostAndProfitabilityAnalyses = ({geojsonData}) => {
-    const [data, setData] = useState(null);
-    const [loading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
+export default function FinancialMetrics({data}) {
+
     const [financialTimeData, setFinancialTimeData] = useState([]);
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('both');
     const [allMetricFilters, setAllMetricFilters] = useState({});
     const initialLoadRef = useRef(true);
+    const [aggregatedTimeData, setAggregatedTimeData] = useState([]);
 
     useEffect(() => {
-        if (!geojsonData) return;
-
-        setLoading(false);
-        setData(geojsonData.data);
-        setError(geojsonData.error);
+        if (!data) return;
 
         // Initialize metric filters on first load only
-        if (geojsonData.data && geojsonData.data.games && initialLoadRef.current) {
+        if (data.games && initialLoadRef.current) {
             // Dynamically extract all available Harvard financial metrics
             const extractMetricsFromData = () => {
                 const metricsMap = new Map();
 
-                geojsonData.data.games.forEach(game => {
+                data.games.forEach(game => {
                     if (game.harvard) {
                         Object.keys(game.harvard).forEach(key => {
                             if (game.harvard[key] && game.harvard[key].data) {
@@ -84,7 +73,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             setAllMetricFilters(globalFilters);
             initialLoadRef.current = false;
         }
-    }, [geojsonData]);
+    }, [data]);
 
     // Process financial data when filters change
     useEffect(() => {
@@ -224,8 +213,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     }, [data, allMetricFilters, seasonFilter]);
 
     // Process aggregated financial data (costs, gains, profit)
-    const [aggregatedTimeData, setAggregatedTimeData] = useState([]);
-
     useEffect(() => {
         if (!data || !data.games || Object.keys(allMetricFilters).length === 0) return;
 
@@ -543,147 +530,313 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         }));
     };
 
-    if (loading) {
-        return (
-            <div className="flex justify-center items-center h-64">
-                <LoadingSpinner/>
-            </div>
-        );
-    }
-
-    if (error) {
-        return (
-            <ShowError error={error}/>
-        );
-    }
-
-    if (!data || !data.games || data.games.length === 0) {
-        return (
-            <ShowNoData/>
-        );
-    }
-
     return (
-        <div className="space-y-8">
-            <SectionHeader headline={"💰 Cost and profitability analyses"}
-                           description={"Analyzing the financial aspects of Olympic venues, including construction costs, maintenance expenses, and profitability metrics."}
-            />
-
-            {/* Financial Metrics Over Time */}
-            <div
-                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        📈 Financial Metrics Over Time
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+        <div
+            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+            <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+                    📈 Financial Metrics Over Time
+                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
                             Line Chart
                         </span>
-                    </h3>
-                    <div className="flex items-center gap-2">
-                        <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
-                        <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                </h3>
+                <div className="flex items-center gap-2">
+                    <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
+                    <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                        <button
+                            onClick={() => setTimeRangeFilter('full')}
+                            className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                timeRangeFilter === 'full'
+                                    ? 'bg-emerald-500 text-white'
+                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                            }`}
+                        >
+                            Full Timeline
+                        </button>
+                        <button
+                            onClick={() => setTimeRangeFilter('data')}
+                            className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                timeRangeFilter === 'data'
+                                    ? 'bg-emerald-500 text-white'
+                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                            }`}
+                        >
+                            Data Range
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            {/* Olympic Season Filter */}
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    Olympic Season
+                </label>
+                <div className="flex flex-wrap gap-2">
+                    <button
+                        onClick={() => setSeasonFilter('both')}
+                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                            seasonFilter === 'both'
+                                ? 'bg-purple-500 text-white'
+                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                        }`}
+                    >
+                        Both
+                    </button>
+                    <button
+                        onClick={() => setSeasonFilter('summer')}
+                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                            seasonFilter === 'summer'
+                                ? 'bg-amber-500 text-white'
+                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                        }`}
+                    >
+                        Summer
+                    </button>
+                    <button
+                        onClick={() => setSeasonFilter('winter')}
+                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                            seasonFilter === 'winter'
+                                ? 'bg-cyan-500 text-white'
+                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                        }`}
+                    >
+                        Winter
+                    </button>
+                </div>
+            </div>
+
+
+            {/* Financial Metrics Selection Filter */}
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                    Financial Metrics
+                </label>
+                <div className="flex flex-wrap gap-2">
+                    {getVisibleMetrics().map((metricName) => {
+                        const filterState = allMetricFilters[metricName];
+                        return (
                             <button
-                                onClick={() => setTimeRangeFilter('full')}
-                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                    timeRangeFilter === 'full'
-                                        ? 'bg-emerald-500 text-white'
-                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                key={metricName}
+                                onClick={() => toggleMetricSelection(metricName)}
+                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
+                                    filterState && filterState.active
+                                        ? 'text-white'
+                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
                                 }`}
+                                style={{
+                                    backgroundColor: filterState && filterState.active
+                                        ? getMetricColor(metricName)
+                                        : undefined
+                                }}
                             >
-                                Full Timeline
+                                <div
+                                    className="w-2 h-2 rounded-full"
+                                    style={{backgroundColor: getMetricColor(metricName)}}
+                                ></div>
+                                {metricName}
                             </button>
-                            <button
-                                onClick={() => setTimeRangeFilter('data')}
-                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                    timeRangeFilter === 'data'
-                                        ? 'bg-emerald-500 text-white'
-                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
-                                }`}
-                            >
-                                Data Range
-                            </button>
+                        );
+                    })}
+                </div>
+            </div>
+
+            {/* Individual Financial Metrics Chart Headline */}
+            <div className="">
+                <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
+                    Individual Financial Metrics
+                </h4>
+            </div>
+
+            <div className="h-96 chart-container">
+                <style jsx>{`
+                    .chart-container :global(text) {
+                        fill: #d1d5db !important;
+                        font-weight: 600 !important;
+                    }
+                `}</style>
+                <ResponsiveLine
+                    data={financialTimeData}
+                    margin={{top: 20, right: 30, bottom: 50, left: 60}}
+                    xScale={{
+                        type: 'linear',
+                        min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
+                        max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
+                    }}
+                    colors={(serie) => getMetricColor(serie.id)}
+                    yScale={{
+                        type: 'linear',
+                        min: 'auto',
+                        max: 'auto',
+                        stacked: false,
+                        reverse: false
+                    }}
+                    yFormat=" >-.2f"
+                    axisTop={null}
+                    axisRight={null}
+                    axisBottom={{
+                        orient: 'bottom',
+                        tickSize: 5,
+                        tickPadding: 5,
+                        tickRotation: 0,
+                        legend: 'Year',
+                        legendOffset: 36,
+                        legendPosition: 'middle'
+                    }}
+                    axisLeft={{
+                        orient: 'left',
+                        tickSize: 5,
+                        tickPadding: 5,
+                        tickRotation: 0,
+                        legend: 'Value',
+                        legendOffset: -40,
+                        legendPosition: 'middle'
+                    }}
+                    pointSize={10}
+                    pointColor={(point) => getPointColor(point.point.seriesId)}
+                    pointBorderWidth={2}
+                    pointBorderColor="#ffffff"
+                    enablePointLabel={false}
+                    pointLabelYOffset={-12}
+                    useMesh={true}
+                    tooltip={({point}) => (
+                        <div
+                            className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
+                            <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                                {point.data.location} {point.data.x}
+                            </div>
+                            <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                                {point.data.season} Olympics
+                            </div>
+                            <div className="space-y-2">
+                                <div className="flex justify-between items-center">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Metric:</span>
+                                    <span className="text-gray-900 dark:text-gray-100">{point.data.metric}</span>
+                                </div>
+                                <div className="flex justify-between items-center">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
+                                    <span className="text-gray-900 dark:text-gray-100 font-bold">
+                                            {point.data.unit.includes('M') ?
+                                                `${point.data.yFormatted} ${point.data.unit}` :
+                                                `${parseInt(point.data.rawValue).toLocaleString()}`
+                                            }
+                                        </span>
+                                </div>
+                            </div>
+                        </div>
+                    )}
+                    theme={{
+                        background: 'transparent',
+                        grid: {
+                            line: {
+                                stroke: '#374151',
+                                strokeWidth: 1
+                            }
+                        },
+                        tooltip: {
+                            container: {
+                                background: '#ffffff',
+                                color: '#374151',
+                                fontSize: '12px',
+                                borderRadius: '8px',
+                                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                                border: '1px solid #e5e7eb',
+                                padding: '8px 12px'
+                            }
+                        },
+                        axis: {
+                            ticks: {
+                                text: {
+                                    fontSize: 11,
+                                    fill: '#d1d5db',
+                                    fontWeight: 600
+                                }
+                            },
+                            legend: {
+                                text: {
+                                    fontSize: 12,
+                                    fill: '#d1d5db',
+                                    fontWeight: 600
+                                }
+                            }
+                        },
+                        legends: {
+                            text: {
+                                fill: '#d1d5db',
+                                fontSize: 11
+                            }
+                        }
+                    }}
+                />
+            </div>
+
+            {/* Custom Legend */}
+            <div className="flex flex-col items-center mt-4 gap-4">
+                {/* Metrics Legend (Line Colors) */}
+                <div className="flex flex-col items-center gap-2">
+                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                            Financial Metrics
+                        </span>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        {/* Get unique base metrics */}
+                        {Array.from(new Set(financialTimeData.map(series => {
+                            // Extract base name without season suffix
+                            let baseName = series.id;
+                            if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
+                                baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
+                            }
+                            return baseName;
+                        }))).map((baseName) => (
+                            <div key={baseName} className="flex items-center gap-2">
+                                <div
+                                    className="w-4 h-0.5"
+                                    style={{backgroundColor: getMetricColor(baseName)}}
+                                ></div>
+                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        {baseName}
+                                    </span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+
+                {/* Season Legend (Point Colors) - Only show when "both" is selected */}
+                {seasonFilter === 'both' && (
+                    <div className="flex flex-col items-center gap-2">
+                            <span
+                                className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                                Olympic Seasons
+                            </span>
+                        <div className="flex flex-wrap justify-center gap-4">
+                            <div className="flex items-center gap-2">
+                                <div
+                                    className="w-3 h-3 rounded-full"
+                                    style={{backgroundColor: '#f59e0b'}}
+                                ></div>
+                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        Summer
+                                    </span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div
+                                    className="w-3 h-3 rounded-full"
+                                    style={{backgroundColor: '#06b6d4'}}
+                                ></div>
+                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        Winter
+                                    </span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                )}
+            </div>
 
-                {/* Olympic Season Filter */}
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Olympic Season
-                    </label>
-                    <div className="flex flex-wrap gap-2">
-                        <button
-                            onClick={() => setSeasonFilter('both')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                seasonFilter === 'both'
-                                    ? 'bg-purple-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Both
-                        </button>
-                        <button
-                            onClick={() => setSeasonFilter('summer')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                seasonFilter === 'summer'
-                                    ? 'bg-amber-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Summer
-                        </button>
-                        <button
-                            onClick={() => setSeasonFilter('winter')}
-                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                                seasonFilter === 'winter'
-                                    ? 'bg-cyan-500 text-white'
-                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                            }`}
-                        >
-                            Winter
-                        </button>
-                    </div>
-                </div>
-
-
-                {/* Financial Metrics Selection Filter */}
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Financial Metrics
-                    </label>
-                    <div className="flex flex-wrap gap-2">
-                        {getVisibleMetrics().map((metricName) => {
-                            const filterState = allMetricFilters[metricName];
-                            return (
-                                <button
-                                    key={metricName}
-                                    onClick={() => toggleMetricSelection(metricName)}
-                                    className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
-                                        filterState && filterState.active
-                                            ? 'text-white'
-                                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                                    }`}
-                                    style={{
-                                        backgroundColor: filterState && filterState.active
-                                            ? getMetricColor(metricName)
-                                            : undefined
-                                    }}
-                                >
-                                    <div
-                                        className="w-2 h-2 rounded-full"
-                                        style={{backgroundColor: getMetricColor(metricName)}}
-                                    ></div>
-                                    {metricName}
-                                </button>
-                            );
-                        })}
-                    </div>
-                </div>
-
-                {/* Individual Financial Metrics Chart Headline */}
+            {/* Aggregated Financial Analysis Chart */}
+            <div className="mt-12">
+                {/* Aggregated Financial Analysis Chart Headline */}
                 <div className="">
                     <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
-                        Individual Financial Metrics
+                        Total Financial Performance
                     </h4>
                 </div>
 
@@ -695,14 +848,14 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         }
                     `}</style>
                     <ResponsiveLine
-                        data={financialTimeData}
-                        margin={{top: 50, right: 110, bottom: 50, left: 60}}
+                        data={aggregatedTimeData}
+                        margin={{top: 20, right: 30, bottom: 50, left: 60}}
                         xScale={{
                             type: 'linear',
                             min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
                             max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
                         }}
-                        colors={(serie) => getMetricColor(serie.id)}
+                        colors={(serie) => getAggregatedLineColor(serie.type)}
                         yScale={{
                             type: 'linear',
                             min: 'auto',
@@ -727,12 +880,21 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                             tickSize: 5,
                             tickPadding: 5,
                             tickRotation: 0,
-                            legend: 'Value',
-                            legendOffset: -40,
+                            legend: 'Value (M USD 2018)',
+                            legendOffset: -50,
                             legendPosition: 'middle'
                         }}
                         pointSize={10}
-                        pointColor={(point) => getPointColor(point.point.seriesId)}
+                        pointColor={(point) => {
+                            // Find the series data from aggregatedTimeData to get season info
+                            if (!point.serie?.id && !point.point?.seriesId) {
+                                return '#6b7280'; // Gray fallback
+                            }
+
+                            const seriesId = point.serie?.id || point.point?.seriesId;
+                            const seriesData = aggregatedTimeData.find(s => s.id === seriesId);
+                            return getAggregatedPointColor(seriesData);
+                        }}
                         pointBorderWidth={2}
                         pointBorderColor="#ffffff"
                         enablePointLabel={false}
@@ -749,17 +911,19 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                                 </div>
                                 <div className="space-y-2">
                                     <div className="flex justify-between items-center">
-                                        <span className="font-medium text-gray-700 dark:text-gray-300">Metric:</span>
-                                        <span className="text-gray-900 dark:text-gray-100">{point.data.metric}</span>
+                                        <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
+                                        <span className="text-gray-900 dark:text-gray-100">{point.serieId}</span>
                                     </div>
                                     <div className="flex justify-between items-center">
                                         <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
                                         <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                            {point.data.unit.includes('M') ?
-                                                `${point.data.yFormatted} ${point.data.unit}` :
-                                                `${parseInt(point.data.rawValue).toLocaleString()}`
-                                            }
+                                            {point.data.yFormatted} M USD 2018
                                         </span>
+                                    </div>
+                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-2">
+                                        Total Costs: {point.data.totalCost?.toFixed(2)} M USD 2018<br/>
+                                        Total Revenue: {point.data.totalRevenue?.toFixed(2)} M USD 2018<br/>
+                                        Total Profit: {point.data.totalProfit?.toFixed(2)} M USD 2018
                                     </div>
                                 </div>
                             </div>
@@ -810,33 +974,29 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     />
                 </div>
 
-                {/* Custom Legend */}
+                {/* Aggregated Chart Legend */}
                 <div className="flex flex-col items-center mt-4 gap-4">
-                    {/* Metrics Legend (Line Colors) */}
+                    {/* Financial Types Legend (Line Colors) */}
                     <div className="flex flex-col items-center gap-2">
                         <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                            Financial Metrics
+                            Financial Analysis
                         </span>
-                        <div className="flex flex-wrap justify-center gap-4">
-                            {/* Get unique base metrics */}
-                            {Array.from(new Set(financialTimeData.map(series => {
-                                // Extract base name without season suffix
-                                let baseName = series.id;
-                                if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
-                                    baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
-                                }
-                                return baseName;
-                            }))).map((baseName) => (
-                                <div key={baseName} className="flex items-center gap-2">
-                                    <div
-                                        className="w-4 h-0.5"
-                                        style={{backgroundColor: getMetricColor(baseName)}}
-                                    ></div>
-                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        {baseName}
-                                    </span>
-                                </div>
-                            ))}
+                        <div className="flex flex-wrap justify-center gap-6">
+                            <div className="flex items-center gap-2">
+                                <div className="w-4 h-0.5" style={{backgroundColor: '#dc2626'}}></div>
+                                <span
+                                    className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Costs</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div className="w-4 h-0.5" style={{backgroundColor: '#16a34a'}}></div>
+                                <span
+                                    className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Revenue</span>
+                            </div>
+                            <div className="flex items-center gap-2">
+                                <div className="w-4 h-0.5" style={{backgroundColor: '#2563eb'}}></div>
+                                <span
+                                    className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Profit</span>
+                            </div>
                         </div>
                     </div>
 
@@ -853,226 +1013,22 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                                         className="w-3 h-3 rounded-full"
                                         style={{backgroundColor: '#f59e0b'}}
                                     ></div>
-                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        Summer
-                                    </span>
+                                    <span
+                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
                                 </div>
                                 <div className="flex items-center gap-2">
                                     <div
                                         className="w-3 h-3 rounded-full"
                                         style={{backgroundColor: '#06b6d4'}}
                                     ></div>
-                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        Winter
-                                    </span>
+                                    <span
+                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
                                 </div>
                             </div>
                         </div>
                     )}
                 </div>
-
-                {/* Aggregated Financial Analysis Chart */}
-                <div className="mt-12">
-                    {/* Aggregated Financial Analysis Chart Headline */}
-                    <div className="">
-                        <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
-                            Total Financial Performance
-                        </h4>
-                    </div>
-
-                    <div className="h-96 chart-container">
-                        <style jsx>{`
-                            .chart-container :global(text) {
-                                fill: #d1d5db !important;
-                                font-weight: 600 !important;
-                            }
-                        `}</style>
-                        <ResponsiveLine
-                            data={aggregatedTimeData}
-                            margin={{top: 50, right: 110, bottom: 50, left: 80}}
-                            xScale={{
-                                type: 'linear',
-                                min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
-                                max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
-                            }}
-                            colors={(serie) => getAggregatedLineColor(serie.type)}
-                            yScale={{
-                                type: 'linear',
-                                min: 'auto',
-                                max: 'auto',
-                                stacked: false,
-                                reverse: false
-                            }}
-                            yFormat=" >-.2f"
-                            axisTop={null}
-                            axisRight={null}
-                            axisBottom={{
-                                orient: 'bottom',
-                                tickSize: 5,
-                                tickPadding: 5,
-                                tickRotation: 0,
-                                legend: 'Year',
-                                legendOffset: 36,
-                                legendPosition: 'middle'
-                            }}
-                            axisLeft={{
-                                orient: 'left',
-                                tickSize: 5,
-                                tickPadding: 5,
-                                tickRotation: 0,
-                                legend: 'Value (M USD 2018)',
-                                legendOffset: -60,
-                                legendPosition: 'middle'
-                            }}
-                            pointSize={10}
-                            pointColor={(point) => {
-                                // Find the series data from aggregatedTimeData to get season info
-                                if (!point.serie?.id && !point.point?.seriesId) {
-                                    return '#6b7280'; // Gray fallback
-                                }
-
-                                const seriesId = point.serie?.id || point.point?.seriesId;
-                                const seriesData = aggregatedTimeData.find(s => s.id === seriesId);
-                                return getAggregatedPointColor(seriesData);
-                            }}
-                            pointBorderWidth={2}
-                            pointBorderColor="#ffffff"
-                            enablePointLabel={false}
-                            pointLabelYOffset={-12}
-                            useMesh={true}
-                            tooltip={({point}) => (
-                                <div
-                                    className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
-                                    <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
-                                        {point.data.location} {point.data.x}
-                                    </div>
-                                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                                        {point.data.season} Olympics
-                                    </div>
-                                    <div className="space-y-2">
-                                        <div className="flex justify-between items-center">
-                                            <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
-                                            <span className="text-gray-900 dark:text-gray-100">{point.serieId}</span>
-                                        </div>
-                                        <div className="flex justify-between items-center">
-                                            <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
-                                            <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                            {point.data.yFormatted} M USD 2018
-                                        </span>
-                                        </div>
-                                        <div className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-                                            Total Costs: {point.data.totalCost?.toFixed(2)} M USD 2018<br/>
-                                            Total Revenue: {point.data.totalRevenue?.toFixed(2)} M USD 2018<br/>
-                                            Total Profit: {point.data.totalProfit?.toFixed(2)} M USD 2018
-                                        </div>
-                                    </div>
-                                </div>
-                            )}
-                            legends={[]}
-                            theme={{
-                                background: 'transparent',
-                                grid: {
-                                    line: {
-                                        stroke: '#374151',
-                                        strokeWidth: 1
-                                    }
-                                },
-                                tooltip: {
-                                    container: {
-                                        background: '#ffffff',
-                                        color: '#374151',
-                                        fontSize: '12px',
-                                        borderRadius: '8px',
-                                        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                        border: '1px solid #e5e7eb',
-                                        padding: '8px 12px'
-                                    }
-                                },
-                                axis: {
-                                    ticks: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    },
-                                    legend: {
-                                        text: {
-                                            fontSize: 12,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    }
-                                },
-                                legends: {
-                                    text: {
-                                        fill: '#d1d5db',
-                                        fontSize: 11
-                                    }
-                                }
-                            }}
-                        />
-                    </div>
-
-                    {/* Aggregated Chart Legend */}
-                    <div className="flex flex-col items-center mt-4 gap-4">
-                        {/* Financial Types Legend (Line Colors) */}
-                        <div className="flex flex-col items-center gap-2">
-                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                            Financial Analysis
-                        </span>
-                            <div className="flex flex-wrap justify-center gap-6">
-                                <div className="flex items-center gap-2">
-                                    <div className="w-4 h-0.5" style={{backgroundColor: '#dc2626'}}></div>
-                                    <span
-                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Costs</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div className="w-4 h-0.5" style={{backgroundColor: '#16a34a'}}></div>
-                                    <span
-                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Revenue</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div className="w-4 h-0.5" style={{backgroundColor: '#2563eb'}}></div>
-                                    <span
-                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Profit</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        {/* Season Legend (Point Colors) - Only show when "both" is selected */}
-                        {seasonFilter === 'both' && (
-                            <div className="flex flex-col items-center gap-2">
-                            <span
-                                className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                                Olympic Seasons
-                            </span>
-                                <div className="flex flex-wrap justify-center gap-4">
-                                    <div className="flex items-center gap-2">
-                                        <div
-                                            className="w-3 h-3 rounded-full"
-                                            style={{backgroundColor: '#f59e0b'}}
-                                        ></div>
-                                        <span
-                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <div
-                                            className="w-3 h-3 rounded-full"
-                                            style={{backgroundColor: '#06b6d4'}}
-                                        ></div>
-                                        <span
-                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
-                                    </div>
-                                </div>
-                            </div>
-                        )}
-                    </div>
-                </div>
             </div>
-
         </div>
-    );
-};
-
-export default CostAndProfitabilityAnalyses;
+    )
+}

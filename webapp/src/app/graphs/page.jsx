@@ -7,7 +7,7 @@ import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
-import CostAndProfitabilityAnalyses from "@/app/graphs/components/CostAndProfitabilityAnalyses";
+import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);

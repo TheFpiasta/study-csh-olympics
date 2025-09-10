@@ -19,8 +19,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [currencyFilter, setCurrencyFilter] = useState('both');
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('summer');
-    const [selectedMetrics, setSelectedMetrics] = useState([]);
-    const [availableMetrics, setAvailableMetrics] = useState([]);
+    const [allMetricFilters, setAllMetricFilters] = useState({});
     const initialLoadRef = useRef(true);
 
     useEffect(() => {
@@ -30,8 +29,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         setData(geojsonData.data);
         setError(geojsonData.error);
 
-        // Process financial data for time-based line chart (re-run when currency filter changes)
-        if (geojsonData.data && geojsonData.data.games) {
+        // Initialize metric filters on first load only
+        if (geojsonData.data && geojsonData.data.games && initialLoadRef.current) {
             // Dynamically extract all available Harvard financial metrics
             const extractMetricsFromData = () => {
                 const metricsSet = new Set();
@@ -68,227 +67,126 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             };
             
             const metrics = extractMetricsFromData();
-            
-            // Calculate available metrics based on currency filter
-            const availableMetricNames = metrics.filter(metric => {
-                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
-                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
-                
-                if (currencyFilter === 'normal') {
-                    return !metric.key.includes('2018') && !metric.key.includes('usd2018');
-                } else if (currencyFilter === '2018') {
-                    return metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
-                }
-                return true; // both
-            }).map(m => m.name).sort();
-            
-            // Update availableMetrics state
-            setAvailableMetrics(availableMetricNames);
-
-            const filteredMetrics = metrics.filter(metric => {
-                // Apply currency filter first
-                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
-                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
-                
-                let passesMetricFilter = true;
-                if (selectedMetrics.length > 0) {
-                    passesMetricFilter = selectedMetrics.includes(metric.name);
-                }
-                
-                let passesCurrencyFilter = true;
-                if (currencyFilter === 'normal') {
-                    passesCurrencyFilter = !metric.key.includes('2018') && !metric.key.includes('usd2018');
-                } else if (currencyFilter === '2018') {
-                    passesCurrencyFilter = metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
-                }
-                // currencyFilter === 'both' passes all
-                
-                return passesMetricFilter && passesCurrencyFilter;
+            const globalFilters = {};
+            metrics.forEach(metric => {
+                globalFilters[metric.name] = {
+                    active: true,  // Default: all filters active
+                    visible: true,  // Will be updated by separate useEffect
+                    key: metric.key,
+                    format: metric.format,
+                    unit: metric.unit
+                };
             });
-
-            const processedData = filteredMetrics.map(metric => ({
-                id: metric.name,
-                data: geojsonData.data.games
-                    .filter(game => {
-                        const harvard = game.harvard;
-                        // Get season from first venue (Harvard games have only one season)
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : null;
-                        
-                        // Filter by season and data availability
-                        return harvard && 
-                               harvard[metric.key] && 
-                               harvard[metric.key].data &&
-                               gameSeason && 
-                               gameSeason.toLowerCase() === seasonFilter.toLowerCase();
-                    })
-                    .map(game => {
-                        const harvard = game.harvard;
-                        const rawData = harvard[metric.key].data;
-                        
-                        // Parse and validate the numeric value
-                        let value = parseFloat(rawData);
-                        
-                        // Skip if value is not a valid number
-                        if (isNaN(value) || !isFinite(value)) {
-                            return null;
-                        }
-                        
-                        // Convert currency values to millions
-                        if (metric.format === 'currency') {
-                            value = value / 1000000;
-                        }
-                        
-                        // Validate year
-                        const year = parseInt(game.year);
-                        if (isNaN(year)) {
-                            return null;
-                        }
-                        
-                        // Get season from first venue
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : 'Unknown';
-                        
-                        return {
-                            x: year,
-                            y: value,
-                            location: game.location,
-                            season: gameSeason,
-                            rawValue: rawData,
-                            unit: metric.unit,
-                            metric: metric.name
-                        };
-                    })
-                    .filter(dataPoint => dataPoint !== null) // Remove invalid data points
-                    .sort((a, b) => a.x - b.x)
-            })).filter(series => series.data.length > 0);
-
-            setFinancialTimeData(processedData);
+            setAllMetricFilters(globalFilters);
+            initialLoadRef.current = false;
         }
-    }, [geojsonData, currencyFilter, seasonFilter]);
+    }, [geojsonData]);
 
-    // Separate effect to handle selectedMetrics updates when availableMetrics changes
+    // Process financial data when filters change
     useEffect(() => {
-        if (availableMetrics.length > 0) {
-            if (initialLoadRef.current) {
-                // First load - select all available metrics
-                setSelectedMetrics(availableMetrics);
-                initialLoadRef.current = false;
-            } else {
-                // Currency filter changed - select all currently available metrics
-                // This ensures all metrics for the new currency type are enabled by default
-                setSelectedMetrics(availableMetrics);
-            }
-        }
-    }, [availableMetrics]); // Only depend on availableMetrics, not selectedMetrics
+        if (!data || !data.games || Object.keys(allMetricFilters).length === 0) return;
 
-    // Additional effect to reprocess data when selectedMetrics changes (user toggles metrics)
-    useEffect(() => {
-        if (data?.games && selectedMetrics.length > 0) {
-            // Rerun the data processing logic when selectedMetrics changes
-            const extractMetricsFromData = () => {
-                const metricsSet = new Set();
-                
-                data.games.forEach(game => {
-                    if (game.harvard) {
-                        Object.keys(game.harvard).forEach(key => {
-                            if (game.harvard[key] && game.harvard[key].data) {
-                                metricsSet.add(key);
-                            }
-                        });
-                    }
-                });
-                
-                return Array.from(metricsSet).map(key => {
-                    let name = key
-                        .replace(/_/g, ' ')
-                        .replace(/\(usd2018\)/g, '(2018)')
-                        .replace(/\(usd_2018\)/g, '(2018)')
-                        .replace(/\b\w/g, l => l.toUpperCase());
+        // Extract metrics info from allMetricFilters
+        const filteredMetrics = Object.keys(allMetricFilters)
+            .filter(metricName => {
+                const filterState = allMetricFilters[metricName];
+                return filterState && filterState.active && filterState.visible;
+            })
+            .map(metricName => ({
+                key: allMetricFilters[metricName].key,
+                name: metricName,
+                format: allMetricFilters[metricName].format,
+                unit: allMetricFilters[metricName].unit
+            }));
+
+        const processedData = filteredMetrics.map(metric => ({
+            id: metric.name,
+            data: data.games
+                .filter(game => {
+                    const harvard = game.harvard;
+                    // Get season from first venue (Harvard games have only one season)
+                    const gameSeason = game.features && game.features.length > 0 ? 
+                                     game.features[0].properties.season : null;
                     
-                    const isCurrency = key.includes('revenue') || key.includes('cost');
-                    const is2018 = key.includes('2018') || key.includes('usd2018');
+                    // Filter by season and data availability
+                    return harvard && 
+                           harvard[metric.key] && 
+                           harvard[metric.key].data &&
+                           gameSeason && 
+                           gameSeason.toLowerCase() === seasonFilter.toLowerCase();
+                })
+                .map(game => {
+                    const harvard = game.harvard;
+                    const rawData = harvard[metric.key].data;
+                    
+                    // Parse and validate the numeric value
+                    let value = parseFloat(rawData);
+                    
+                    // Skip if value is not a valid number
+                    if (isNaN(value) || !isFinite(value)) {
+                        return null;
+                    }
+                    
+                    // Convert currency values to millions
+                    if (metric.format === 'currency') {
+                        value = value / 1000000;
+                    }
+                    
+                    // Validate year
+                    const year = parseInt(game.year);
+                    if (isNaN(year)) {
+                        return null;
+                    }
+                    
+                    // Get season from first venue
+                    const gameSeason = game.features && game.features.length > 0 ? 
+                                     game.features[0].properties.season : 'Unknown';
                     
                     return {
-                        key: key,
-                        name: name,
-                        format: isCurrency ? 'currency' : 'number',
-                        unit: isCurrency ? (is2018 ? 'M USD 2018' : 'M USD') : ''
+                        x: year,
+                        y: value,
+                        location: game.location,
+                        season: gameSeason,
+                        rawValue: rawData,
+                        unit: metric.unit,
+                        metric: metric.name
                     };
-                });
-            };
-            
-            const metrics = extractMetricsFromData();
-            
-            const filteredMetrics = metrics.filter(metric => {
-                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
-                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
-                
-                let passesMetricFilter = selectedMetrics.includes(metric.name);
-                
-                let passesCurrencyFilter = true;
-                if (currencyFilter === 'normal') {
-                    passesCurrencyFilter = !metric.key.includes('2018') && !metric.key.includes('usd2018');
-                } else if (currencyFilter === '2018') {
-                    passesCurrencyFilter = metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
+                })
+                .filter(dataPoint => dataPoint !== null) // Remove invalid data points
+                .sort((a, b) => a.x - b.x)
+        })).filter(series => series.data.length > 0);
+
+        setFinancialTimeData(processedData);
+    }, [data, allMetricFilters, seasonFilter]);
+
+    // Separate useEffect to handle metric filter visibility updates when currency changes
+    useEffect(() => {
+        if (!data || !data.games || Object.keys(allMetricFilters).length === 0) return;
+
+        setAllMetricFilters(prev => {
+            const updated = { ...prev };
+            Object.keys(updated).forEach(metricName => {
+                const filterInfo = updated[metricName];
+                if (filterInfo) {
+                    const isCurrency = filterInfo.key.includes('revenue') || filterInfo.key.includes('cost');
+                    const is2018 = filterInfo.key.includes('2018') || filterInfo.key.includes('usd2018');
+                    
+                    let visible = true;
+                    if (currencyFilter === 'normal') {
+                        visible = !filterInfo.key.includes('2018') && !filterInfo.key.includes('usd2018');
+                    } else if (currencyFilter === '2018') {
+                        visible = filterInfo.key.includes('2018') || filterInfo.key.includes('usd2018') || !isCurrency;
+                    }
+                    
+                    updated[metricName] = {
+                        ...updated[metricName],
+                        visible: visible
+                    };
                 }
-                
-                return passesMetricFilter && passesCurrencyFilter;
             });
-
-            const processedData = filteredMetrics.map(metric => ({
-                id: metric.name,
-                data: data.games
-                    .filter(game => {
-                        const harvard = game.harvard;
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : null;
-                        
-                        return harvard && 
-                               harvard[metric.key] && 
-                               harvard[metric.key].data &&
-                               gameSeason && 
-                               gameSeason.toLowerCase() === seasonFilter.toLowerCase();
-                    })
-                    .map(game => {
-                        const harvard = game.harvard;
-                        const rawData = harvard[metric.key].data;
-                        
-                        let value = parseFloat(rawData);
-                        
-                        if (isNaN(value) || !isFinite(value)) {
-                            return null;
-                        }
-                        
-                        if (metric.format === 'currency') {
-                            value = value / 1000000;
-                        }
-                        
-                        const year = parseInt(game.year);
-                        if (isNaN(year)) {
-                            return null;
-                        }
-                        
-                        const gameSeason = game.features && game.features.length > 0 ? 
-                                         game.features[0].properties.season : 'Unknown';
-                        
-                        return {
-                            x: year,
-                            y: value,
-                            location: game.location,
-                            season: gameSeason,
-                            rawValue: rawData,
-                            unit: metric.unit,
-                            metric: metric.name
-                        };
-                    })
-                    .filter(dataPoint => dataPoint !== null)
-                    .sort((a, b) => a.x - b.x)
-            })).filter(series => series.data.length > 0);
-
-            setFinancialTimeData(processedData);
-        }
-    }, [selectedMetrics, currencyFilter, seasonFilter, data]); // Separate dependencies
+            return updated;
+        });
+    }, [currencyFilter, data]);
 
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
@@ -303,21 +201,29 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         };
     };
 
-    // Get color for a metric based on its index in the available metrics list
-    const getMetricColor = (metricName) => {
-        const index = availableMetrics.indexOf(metricName);
-        return `hsl(${index * 360 / availableMetrics.length}, 70%, 50%)`;
+    // Get visible metrics for UI
+    const getVisibleMetrics = () => {
+        return Object.keys(allMetricFilters)
+            .filter(name => allMetricFilters[name].visible)
+            .sort();
     };
 
-    // Toggle metric selection
+    // Get color for a metric based on its index in the visible metrics list
+    const getMetricColor = (metricName) => {
+        const visibleMetrics = getVisibleMetrics();
+        const index = visibleMetrics.indexOf(metricName);
+        return `hsl(${index * 360 / visibleMetrics.length}, 70%, 50%)`;
+    };
+
+    // Toggle metric active state
     const toggleMetricSelection = (metricName) => {
-        setSelectedMetrics(prev => {
-            if (prev.includes(metricName)) {
-                return prev.filter(name => name !== metricName);
-            } else {
-                return [...prev, metricName];
+        setAllMetricFilters(prev => ({
+            ...prev,
+            [metricName]: {
+                ...prev[metricName],
+                active: !prev[metricName].active
             }
-        });
+        }));
     };
 
     if (loading) {
@@ -457,28 +363,31 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         Financial Metrics
                     </label>
                     <div className="flex flex-wrap gap-2">
-                        {availableMetrics.map((metricName) => (
-                            <button
-                                key={metricName}
-                                onClick={() => toggleMetricSelection(metricName)}
-                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
-                                    selectedMetrics.includes(metricName)
-                                        ? 'text-white'
-                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                                }`}
-                                style={{
-                                    backgroundColor: selectedMetrics.includes(metricName)
-                                        ? getMetricColor(metricName)
-                                        : undefined
-                                }}
-                            >
-                                <div
-                                    className="w-2 h-2 rounded-full"
-                                    style={{backgroundColor: getMetricColor(metricName)}}
-                                ></div>
-                                {metricName}
-                            </button>
-                        ))}
+                        {getVisibleMetrics().map((metricName) => {
+                            const filterState = allMetricFilters[metricName];
+                            return (
+                                <button
+                                    key={metricName}
+                                    onClick={() => toggleMetricSelection(metricName)}
+                                    className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
+                                        filterState && filterState.active
+                                            ? 'text-white'
+                                            : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                    }`}
+                                    style={{
+                                        backgroundColor: filterState && filterState.active
+                                            ? getMetricColor(metricName)
+                                            : undefined
+                                    }}
+                                >
+                                    <div
+                                        className="w-2 h-2 rounded-full"
+                                        style={{backgroundColor: getMetricColor(metricName)}}
+                                    ></div>
+                                    {metricName}
+                                </button>
+                            );
+                        })}
                     </div>
                 </div>
 

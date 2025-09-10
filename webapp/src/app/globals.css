@@ -46,7 +46,7 @@
     --olympic-red-3:           #F0282D;
     --olympic-red-4:           #FF555F;
     --olympic-red-5:           #FF9196;
-    --olympic-red6:           #FFC7C9;
+    --olympic-red-6:          #FFC7C9;
 
     /* Extended Black */
     --olympic-black-1:         #000000;
@@ -489,7 +489,7 @@
 .bg-olympic-red-3 { background-color: var(--olympic-red-3); }
 .bg-olympic-red-4 { background-color: var(--olympic-red-4); }
 .bg-olympic-red-5 { background-color: var(--olympic-red-5); }
-.bg-olympic-red-6 { background-color: var(--olympic-red6); }
+.bg-olympic-red-6 { background-color: var(--olympic-red-6); }
 
 /* Extended Red Colors - Text */
 .text-olympic-red-1 { color: var(--olympic-red-1); }
@@ -497,7 +497,7 @@
 .text-olympic-red-3 { color: var(--olympic-red-3); }
 .text-olympic-red-4 { color: var(--olympic-red-4); }
 .text-olympic-red-5 { color: var(--olympic-red-5); }
-.text-olympic-red-6 { color: var(--olympic-red6); }
+.text-olympic-red-6 { color: var(--olympic-red-6); }
 
 /* Extended Red Colors - Border */
 .border-olympic-red-1 { border-color: var(--olympic-red-1); }
@@ -505,7 +505,7 @@
 .border-olympic-red-3 { border-color: var(--olympic-red-3); }
 .border-olympic-red-4 { border-color: var(--olympic-red-4); }
 .border-olympic-red-5 { border-color: var(--olympic-red-5); }
-.border-olympic-red-6 { border-color: var(--olympic-red6); }
+.border-olympic-red-6 { border-color: var(--olympic-red-6); }
 
 /* Extended Black Colors - Background */
 .bg-olympic-black-1 { background-color: var(--olympic-black-1); }

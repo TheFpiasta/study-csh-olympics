@@ -14,7 +14,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [error, setError] = useState(null);
     const [financialTimeData, setFinancialTimeData] = useState([]);
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
-    const [seasonFilter, setSeasonFilter] = useState('summer');
+    const [seasonFilter, setSeasonFilter] = useState('both');
     const [allMetricFilters, setAllMetricFilters] = useState({});
     const initialLoadRef = useRef(true);
 
@@ -103,62 +103,122 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                 unit: allMetricFilters[metricName].unit
             }));
 
-        const processedData = filteredMetrics.map(metric => ({
-            id: metric.name,
-            data: data.games
-                .filter(game => {
-                    const harvard = game.harvard;
-                    // Get season from first venue (Harvard games have only one season)
-                    const gameSeason = game.features && game.features.length > 0 ? 
-                                     game.features[0].properties.season : null;
-                    
-                    // Filter by season and data availability
-                    return harvard && 
-                           harvard[metric.key] && 
-                           harvard[metric.key].data &&
-                           gameSeason && 
-                           gameSeason.toLowerCase() === seasonFilter.toLowerCase();
-                })
-                .map(game => {
-                    const harvard = game.harvard;
-                    const rawData = harvard[metric.key].data;
-                    
-                    // Parse and validate the numeric value
-                    let value = parseFloat(rawData);
-                    
-                    // Skip if value is not a valid number
-                    if (isNaN(value) || !isFinite(value)) {
-                        return null;
-                    }
-                    
-                    // Convert currency values to millions
-                    if (metric.format === 'currency') {
-                        value = value / 1000000;
-                    }
-                    
-                    // Validate year
-                    const year = parseInt(game.year);
-                    if (isNaN(year)) {
-                        return null;
-                    }
-                    
-                    // Get season from first venue
-                    const gameSeason = game.features && game.features.length > 0 ? 
-                                     game.features[0].properties.season : 'Unknown';
+        let processedData;
+        
+        if (seasonFilter === 'both') {
+            // Create separate series for summer and winter for each metric
+            processedData = filteredMetrics.flatMap(metric => {
+                const seasons = ['summer', 'winter'];
+                return seasons.map(season => {
+                    const seasonData = data.games
+                        .filter(game => {
+                            const harvard = game.harvard;
+                            const gameSeason = game.features && game.features.length > 0 ? 
+                                             game.features[0].properties.season : null;
+                            
+                            return harvard && 
+                                   harvard[metric.key] && 
+                                   harvard[metric.key].data &&
+                                   gameSeason && 
+                                   gameSeason.toLowerCase() === season.toLowerCase();
+                        })
+                        .map(game => {
+                            const harvard = game.harvard;
+                            const rawData = harvard[metric.key].data;
+                            
+                            let value = parseFloat(rawData);
+                            
+                            if (isNaN(value) || !isFinite(value)) {
+                                return null;
+                            }
+                            
+                            if (metric.format === 'currency') {
+                                value = value / 1000000;
+                            }
+                            
+                            const year = parseInt(game.year);
+                            if (isNaN(year)) {
+                                return null;
+                            }
+                            
+                            const gameSeason = game.features && game.features.length > 0 ? 
+                                             game.features[0].properties.season : 'Unknown';
+                            
+                            return {
+                                x: year,
+                                y: value,
+                                location: game.location,
+                                season: gameSeason,
+                                rawValue: rawData,
+                                unit: metric.unit,
+                                metric: metric.name
+                            };
+                        })
+                        .filter(dataPoint => dataPoint !== null)
+                        .sort((a, b) => a.x - b.x);
                     
                     return {
-                        x: year,
-                        y: value,
-                        location: game.location,
-                        season: gameSeason,
-                        rawValue: rawData,
-                        unit: metric.unit,
-                        metric: metric.name
+                        id: `${metric.name} (${season.charAt(0).toUpperCase() + season.slice(1)})`,
+                        data: seasonData,
+                        baseName: metric.name,
+                        season: season
                     };
-                })
-                .filter(dataPoint => dataPoint !== null) // Remove invalid data points
-                .sort((a, b) => a.x - b.x)
-        })).filter(series => series.data.length > 0);
+                }).filter(series => series.data.length > 0);
+            });
+        } else {
+            // Original logic for single season
+            processedData = filteredMetrics.map(metric => ({
+                id: metric.name,
+                data: data.games
+                    .filter(game => {
+                        const harvard = game.harvard;
+                        const gameSeason = game.features && game.features.length > 0 ? 
+                                         game.features[0].properties.season : null;
+                        
+                        return harvard && 
+                               harvard[metric.key] && 
+                               harvard[metric.key].data &&
+                               gameSeason && 
+                               gameSeason.toLowerCase() === seasonFilter.toLowerCase();
+                    })
+                    .map(game => {
+                        const harvard = game.harvard;
+                        const rawData = harvard[metric.key].data;
+                        
+                        let value = parseFloat(rawData);
+                        
+                        if (isNaN(value) || !isFinite(value)) {
+                            return null;
+                        }
+                        
+                        if (metric.format === 'currency') {
+                            value = value / 1000000;
+                        }
+                        
+                        const year = parseInt(game.year);
+                        if (isNaN(year)) {
+                            return null;
+                        }
+                        
+                        const gameSeason = game.features && game.features.length > 0 ? 
+                                         game.features[0].properties.season : 'Unknown';
+                        
+                        return {
+                            x: year,
+                            y: value,
+                            location: game.location,
+                            season: gameSeason,
+                            rawValue: rawData,
+                            unit: metric.unit,
+                            metric: metric.name
+                        };
+                    })
+                    .filter(dataPoint => dataPoint !== null)
+                    .sort((a, b) => a.x - b.x),
+                baseName: metric.name,
+                season: seasonFilter
+            })).filter(series => series.data.length > 0);
+        }
 
         setFinancialTimeData(processedData);
     }, [data, allMetricFilters, seasonFilter]);
@@ -183,11 +243,51 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             .sort();
     };
 
-    // Get color for a metric based on its index in the visible metrics list
-    const getMetricColor = (metricName) => {
+    // Get line color for a metric based on its index in the visible metrics list
+    const getMetricColor = (seriesId) => {
+        if (!seriesId || typeof seriesId !== 'string') {
+            return '#6b7280';  // Gray fallback color
+        }
+        
         const visibleMetrics = getVisibleMetrics();
-        const index = visibleMetrics.indexOf(metricName);
-        return `hsl(${index * 360 / visibleMetrics.length}, 70%, 50%)`;
+        
+        // Extract base metric name (remove season suffix if present)
+        let baseName = seriesId;
+        if (seriesId.includes(' (Summer)') || seriesId.includes(' (Winter)')) {
+            baseName = seriesId.replace(' (Summer)', '').replace(' (Winter)', '');
+        }
+        
+        const baseIndex = visibleMetrics.indexOf(baseName);
+        const baseHue = baseIndex * 360 / visibleMetrics.length;
+        
+        // Same color for both summer and winter lines of the same metric
+        return `hsl(${baseHue}, 70%, 50%)`;
+    };
+
+    // Get point color based on season
+    const getPointColor = (seriesId) => {
+        if (!seriesId || typeof seriesId !== 'string') {
+            return '#6b7280';  // Gray fallback color
+        }
+        
+        if (seasonFilter === 'both') {
+            // When both seasons are shown, use different colors for each
+            if (seriesId.includes(' (Summer)')) {
+                return '#f59e0b';  // Amber-500 for summer
+            } else if (seriesId.includes(' (Winter)')) {
+                return '#06b6d4';  // Cyan-500 for winter
+            }
+        } else {
+            // When single season is selected, use that season's color for all points
+            if (seasonFilter === 'summer') {
+                return '#f59e0b';  // Amber-500 for summer
+            } else if (seasonFilter === 'winter') {
+                return '#06b6d4';  // Cyan-500 for winter
+            }
+        }
+        
+        // Fallback to gray
+        return '#6b7280';
     };
 
     // Toggle metric active state
@@ -270,6 +370,16 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         Olympic Season
                     </label>
                     <div className="flex flex-wrap gap-2">
+                        <button
+                            onClick={() => setSeasonFilter('both')}
+                            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                seasonFilter === 'both'
+                                    ? 'bg-purple-500 text-white'
+                                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                            }`}
+                        >
+                            Both
+                        </button>
                         <button
                             onClick={() => setSeasonFilter('summer')}
                             className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
@@ -373,7 +483,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                             legendPosition: 'middle'
                         }}
                         pointSize={10}
-                        pointColor={{ from: 'serieColor' }}
+                        pointColor={(point) => getPointColor(point.point.seriesId)}
                         pointBorderWidth={2}
                         pointBorderColor="#ffffff"
                         enablePointLabel={false}
@@ -451,18 +561,63 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                 </div>
 
                 {/* Custom Legend */}
-                <div className="flex justify-center mt-4 flex-wrap gap-4">
-                    {financialTimeData.map((series) => (
-                        <div key={series.id} className="flex items-center gap-2">
-                            <div
-                                className="w-3 h-3 rounded-full"
-                                style={{backgroundColor: getMetricColor(series.id)}}
-                            ></div>
-                            <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                {series.id}
-                            </span>
+                <div className="flex flex-col items-center mt-4 gap-4">
+                    {/* Metrics Legend (Line Colors) */}
+                    <div className="flex flex-col items-center gap-2">
+                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                            Financial Metrics
+                        </span>
+                        <div className="flex flex-wrap justify-center gap-4">
+                            {/* Get unique base metrics */}
+                            {Array.from(new Set(financialTimeData.map(series => {
+                                // Extract base name without season suffix
+                                let baseName = series.id;
+                                if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
+                                    baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
+                                }
+                                return baseName;
+                            }))).map((baseName) => (
+                                <div key={baseName} className="flex items-center gap-2">
+                                    <div
+                                        className="w-4 h-0.5"
+                                        style={{backgroundColor: getMetricColor(baseName)}}
+                                    ></div>
+                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        {baseName}
+                                    </span>
+                                </div>
+                            ))}
                         </div>
-                    ))}
+                    </div>
+
+                    {/* Season Legend (Point Colors) - Only show when "both" is selected */}
+                    {seasonFilter === 'both' && (
+                        <div className="flex flex-col items-center gap-2">
+                            <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                                Olympic Seasons
+                            </span>
+                            <div className="flex flex-wrap justify-center gap-4">
+                                <div className="flex items-center gap-2">
+                                    <div
+                                        className="w-3 h-3 rounded-full"
+                                        style={{backgroundColor: '#f59e0b'}}
+                                    ></div>
+                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        Summer
+                                    </span>
+                                </div>
+                                <div className="flex items-center gap-2">
+                                    <div
+                                        className="w-3 h-3 rounded-full"
+                                        style={{backgroundColor: '#06b6d4'}}
+                                    ></div>
+                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        Winter
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    )}
                 </div>
             </div>
 

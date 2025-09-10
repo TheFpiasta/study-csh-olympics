@@ -19,6 +19,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [currencyFilter, setCurrencyFilter] = useState('both');
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('summer');
+    const [selectedMetrics, setSelectedMetrics] = useState([]);
 
     useEffect(() => {
         if (!geojsonData ) return;
@@ -29,23 +30,60 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
         // Process financial data for time-based line chart (re-run when currency filter changes)
         if (geojsonData.data && geojsonData.data.games) {
-            const metrics = [
-                { key: 'accredited_media', name: 'Accredited Media', format: 'number', unit: '' },
-                { key: 'ticketing_revenue', name: 'Ticketing Revenue', format: 'currency', unit: 'M USD' },
-                { key: 'ticketing_revenue_(usd2018)', name: 'Ticketing Revenue (2018)', format: 'currency', unit: 'M USD 2018' },
-                { key: 'broadcast_revenue', name: 'Broadcast Revenue', format: 'currency', unit: 'M USD' },
-                { key: 'broadcast_revenue_(usd2018)', name: 'Broadcast Revenue (2018)', format: 'currency', unit: 'M USD 2018' },
-                { key: 'international_sponsorship_revenue', name: 'International Sponsorship', format: 'currency', unit: 'M USD' },
-                { key: 'international_sponsorship_revenue_(usd_2018)', name: 'International Sponsorship (2018)', format: 'currency', unit: 'M USD 2018' },
-                { key: 'domestic_sponsorship_revenue', name: 'Domestic Sponsorship', format: 'currency', unit: 'M USD' },
-                { key: 'domestic_sponsorship_revenue_(usd_2018)', name: 'Domestic Sponsorship (2018)', format: 'currency', unit: 'M USD 2018' },
-                { key: 'cost_of_venues', name: 'Cost of Venues', format: 'currency', unit: 'M USD' },
-                { key: 'cost_of_venues_(usd_2018)', name: 'Cost of Venues (2018)', format: 'currency', unit: 'M USD 2018' },
-                { key: 'cost_of_organisation', name: 'Cost of Organisation', format: 'currency', unit: 'M USD' },
-                { key: 'cost_of_organisation_(usd_2018)', name: 'Cost of Organisation (2018)', format: 'currency', unit: 'M USD 2018' }
-            ];
+            // Dynamically extract all available Harvard financial metrics
+            const extractMetricsFromData = () => {
+                const metricsSet = new Set();
+                
+                geojsonData.data.games.forEach(game => {
+                    if (game.harvard) {
+                        Object.keys(game.harvard).forEach(key => {
+                            if (game.harvard[key] && game.harvard[key].data) {
+                                metricsSet.add(key);
+                            }
+                        });
+                    }
+                });
+                
+                return Array.from(metricsSet).map(key => {
+                    // Generate human-readable name from key
+                    let name = key
+                        .replace(/_/g, ' ')
+                        .replace(/\(usd2018\)/g, '(2018)')
+                        .replace(/\(usd_2018\)/g, '(2018)')
+                        .replace(/\b\w/g, l => l.toUpperCase());
+                    
+                    // Determine format and unit based on key patterns
+                    const isCurrency = key.includes('revenue') || key.includes('cost');
+                    const is2018 = key.includes('2018') || key.includes('usd2018');
+                    
+                    return {
+                        key: key,
+                        name: name,
+                        format: isCurrency ? 'currency' : 'number',
+                        unit: isCurrency ? (is2018 ? 'M USD 2018' : 'M USD') : ''
+                    };
+                });
+            };
+            
+            const metrics = extractMetricsFromData();
+            
+            // Initialize or update selectedMetrics based on available metrics
+            const availableMetricNames = metrics.map(m => m.name);
+            if (selectedMetrics.length === 0) {
+                // First load - select all available metrics
+                setSelectedMetrics(availableMetricNames);
+            } else {
+                // Currency filter changed - keep only metrics that are still available
+                setSelectedMetrics(prev => prev.filter(name => availableMetricNames.includes(name)));
+            }
 
             const filteredMetrics = metrics.filter(metric => {
+                // First apply metric selection filter
+                if (!selectedMetrics.includes(metric.name)) {
+                    return false;
+                }
+                
+                // Then apply currency filter
                 if (currencyFilter === 'normal') {
                     return !metric.key.includes('2018') && !metric.key.includes('usd2018');
                 } else if (currencyFilter === '2018') {
@@ -113,7 +151,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
             setFinancialTimeData(processedData);
         }
-    }, [geojsonData, currencyFilter, seasonFilter]);
+    }, [geojsonData, currencyFilter, seasonFilter, selectedMetrics]);
 
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
@@ -126,6 +164,62 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             min: Math.min(...allYears),
             max: Math.max(...allYears)
         };
+    };
+
+    // Get available metrics based on current currency filter
+    const getAllAvailableMetrics = () => {
+        if (!data?.games) return [];
+        
+        const metricsSet = new Set();
+        data.games.forEach(game => {
+            if (game.harvard) {
+                Object.keys(game.harvard).forEach(key => {
+                    if (game.harvard[key] && game.harvard[key].data) {
+                        // Apply currency filter logic to determine if this metric should be shown
+                        const isCurrency = key.includes('revenue') || key.includes('cost');
+                        const is2018 = key.includes('2018') || key.includes('usd2018');
+                        
+                        let shouldInclude = true;
+                        if (currencyFilter === 'normal') {
+                            shouldInclude = !key.includes('2018') && !key.includes('usd2018');
+                        } else if (currencyFilter === '2018') {
+                            shouldInclude = key.includes('2018') || key.includes('usd2018') || !isCurrency;
+                        }
+                        // currencyFilter === 'both' includes all metrics
+                        
+                        if (shouldInclude) {
+                            // Generate human-readable name from key
+                            let name = key
+                                .replace(/_/g, ' ')
+                                .replace(/\(usd2018\)/g, '(2018)')
+                                .replace(/\(usd_2018\)/g, '(2018)')
+                                .replace(/\b\w/g, l => l.toUpperCase());
+                            metricsSet.add(name);
+                        }
+                    }
+                });
+            }
+        });
+        
+        return Array.from(metricsSet).sort();
+    };
+
+    // Get color for a metric based on its index in the available metrics list
+    const getMetricColor = (metricName) => {
+        const availableMetrics = getAllAvailableMetrics();
+        const index = availableMetrics.indexOf(metricName);
+        return `hsl(${index * 360 / availableMetrics.length}, 70%, 50%)`;
+    };
+
+    // Toggle metric selection
+    const toggleMetricSelection = (metricName) => {
+        setSelectedMetrics(prev => {
+            if (prev.includes(metricName)) {
+                return prev.filter(name => name !== metricName);
+            } else {
+                return [...prev, metricName];
+            }
+        });
     };
 
     if (loading) {
@@ -259,6 +353,37 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                     </div>
                 </div>
 
+                {/* Financial Metrics Selection Filter */}
+                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                        Financial Metrics
+                    </label>
+                    <div className="flex flex-wrap gap-2">
+                        {getAllAvailableMetrics().map((metricName) => (
+                            <button
+                                key={metricName}
+                                onClick={() => toggleMetricSelection(metricName)}
+                                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-2 ${
+                                    selectedMetrics.includes(metricName)
+                                        ? 'text-white'
+                                        : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                }`}
+                                style={{
+                                    backgroundColor: selectedMetrics.includes(metricName)
+                                        ? getMetricColor(metricName)
+                                        : undefined
+                                }}
+                            >
+                                <div
+                                    className="w-2 h-2 rounded-full"
+                                    style={{backgroundColor: getMetricColor(metricName)}}
+                                ></div>
+                                {metricName}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
                 <div className="h-96 chart-container">
                     <style jsx>{`
                         .chart-container :global(text) {
@@ -274,6 +399,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                             min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
                             max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
                         }}
+                        colors={(serie) => getMetricColor(serie.id)}
                         yScale={{
                             type: 'linear',
                             min: 'auto',
@@ -382,11 +508,11 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
                 {/* Custom Legend */}
                 <div className="flex justify-center mt-4 flex-wrap gap-4">
-                    {financialTimeData.map((series, index) => (
+                    {financialTimeData.map((series) => (
                         <div key={series.id} className="flex items-center gap-2">
                             <div
                                 className="w-3 h-3 rounded-full"
-                                style={{backgroundColor: `hsl(${index * 360 / financialTimeData.length}, 70%, 50%)`}}
+                                style={{backgroundColor: getMetricColor(series.id)}}
                             ></div>
                             <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
                                 {series.id}

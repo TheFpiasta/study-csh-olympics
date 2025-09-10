@@ -175,8 +175,9 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                 setSelectedMetrics(availableMetrics);
                 initialLoadRef.current = false;
             } else {
-                // Currency filter changed - keep only metrics that are still available
-                setSelectedMetrics(prev => prev.filter(name => availableMetrics.includes(name)));
+                // Currency filter changed - select all currently available metrics
+                // This ensures all metrics for the new currency type are enabled by default
+                setSelectedMetrics(availableMetrics);
             }
         }
     }, [availableMetrics]); // Only depend on availableMetrics, not selectedMetrics

@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useState, useEffect, useRef} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
 import {ResponsiveSankey} from '@nivo/sankey';
@@ -20,6 +20,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('summer');
     const [selectedMetrics, setSelectedMetrics] = useState([]);
+    const [availableMetrics, setAvailableMetrics] = useState([]);
+    const initialLoadRef = useRef(true);
 
     useEffect(() => {
         if (!geojsonData ) return;
@@ -67,29 +69,41 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             
             const metrics = extractMetricsFromData();
             
-            // Initialize or update selectedMetrics based on available metrics
-            const availableMetricNames = metrics.map(m => m.name);
-            if (selectedMetrics.length === 0) {
-                // First load - select all available metrics
-                setSelectedMetrics(availableMetricNames);
-            } else {
-                // Currency filter changed - keep only metrics that are still available
-                setSelectedMetrics(prev => prev.filter(name => availableMetricNames.includes(name)));
-            }
-
-            const filteredMetrics = metrics.filter(metric => {
-                // First apply metric selection filter
-                if (!selectedMetrics.includes(metric.name)) {
-                    return false;
-                }
+            // Calculate available metrics based on currency filter
+            const availableMetricNames = metrics.filter(metric => {
+                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
+                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
                 
-                // Then apply currency filter
                 if (currencyFilter === 'normal') {
                     return !metric.key.includes('2018') && !metric.key.includes('usd2018');
                 } else if (currencyFilter === '2018') {
-                    return metric.key.includes('2018') || metric.key.includes('usd2018') || metric.format === 'number';
+                    return metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
                 }
-                return true; // both - show all metrics
+                return true; // both
+            }).map(m => m.name).sort();
+            
+            // Update availableMetrics state
+            setAvailableMetrics(availableMetricNames);
+
+            const filteredMetrics = metrics.filter(metric => {
+                // Apply currency filter first
+                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
+                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
+                
+                let passesMetricFilter = true;
+                if (selectedMetrics.length > 0) {
+                    passesMetricFilter = selectedMetrics.includes(metric.name);
+                }
+                
+                let passesCurrencyFilter = true;
+                if (currencyFilter === 'normal') {
+                    passesCurrencyFilter = !metric.key.includes('2018') && !metric.key.includes('usd2018');
+                } else if (currencyFilter === '2018') {
+                    passesCurrencyFilter = metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
+                }
+                // currencyFilter === 'both' passes all
+                
+                return passesMetricFilter && passesCurrencyFilter;
             });
 
             const processedData = filteredMetrics.map(metric => ({
@@ -151,7 +165,129 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
             setFinancialTimeData(processedData);
         }
-    }, [geojsonData, currencyFilter, seasonFilter, selectedMetrics]);
+    }, [geojsonData, currencyFilter, seasonFilter]);
+
+    // Separate effect to handle selectedMetrics updates when availableMetrics changes
+    useEffect(() => {
+        if (availableMetrics.length > 0) {
+            if (initialLoadRef.current) {
+                // First load - select all available metrics
+                setSelectedMetrics(availableMetrics);
+                initialLoadRef.current = false;
+            } else {
+                // Currency filter changed - keep only metrics that are still available
+                setSelectedMetrics(prev => prev.filter(name => availableMetrics.includes(name)));
+            }
+        }
+    }, [availableMetrics]); // Only depend on availableMetrics, not selectedMetrics
+
+    // Additional effect to reprocess data when selectedMetrics changes (user toggles metrics)
+    useEffect(() => {
+        if (data?.games && selectedMetrics.length > 0) {
+            // Rerun the data processing logic when selectedMetrics changes
+            const extractMetricsFromData = () => {
+                const metricsSet = new Set();
+                
+                data.games.forEach(game => {
+                    if (game.harvard) {
+                        Object.keys(game.harvard).forEach(key => {
+                            if (game.harvard[key] && game.harvard[key].data) {
+                                metricsSet.add(key);
+                            }
+                        });
+                    }
+                });
+                
+                return Array.from(metricsSet).map(key => {
+                    let name = key
+                        .replace(/_/g, ' ')
+                        .replace(/\(usd2018\)/g, '(2018)')
+                        .replace(/\(usd_2018\)/g, '(2018)')
+                        .replace(/\b\w/g, l => l.toUpperCase());
+                    
+                    const isCurrency = key.includes('revenue') || key.includes('cost');
+                    const is2018 = key.includes('2018') || key.includes('usd2018');
+                    
+                    return {
+                        key: key,
+                        name: name,
+                        format: isCurrency ? 'currency' : 'number',
+                        unit: isCurrency ? (is2018 ? 'M USD 2018' : 'M USD') : ''
+                    };
+                });
+            };
+            
+            const metrics = extractMetricsFromData();
+            
+            const filteredMetrics = metrics.filter(metric => {
+                const isCurrency = metric.key.includes('revenue') || metric.key.includes('cost');
+                const is2018 = metric.key.includes('2018') || metric.key.includes('usd2018');
+                
+                let passesMetricFilter = selectedMetrics.includes(metric.name);
+                
+                let passesCurrencyFilter = true;
+                if (currencyFilter === 'normal') {
+                    passesCurrencyFilter = !metric.key.includes('2018') && !metric.key.includes('usd2018');
+                } else if (currencyFilter === '2018') {
+                    passesCurrencyFilter = metric.key.includes('2018') || metric.key.includes('usd2018') || !isCurrency;
+                }
+                
+                return passesMetricFilter && passesCurrencyFilter;
+            });
+
+            const processedData = filteredMetrics.map(metric => ({
+                id: metric.name,
+                data: data.games
+                    .filter(game => {
+                        const harvard = game.harvard;
+                        const gameSeason = game.features && game.features.length > 0 ? 
+                                         game.features[0].properties.season : null;
+                        
+                        return harvard && 
+                               harvard[metric.key] && 
+                               harvard[metric.key].data &&
+                               gameSeason && 
+                               gameSeason.toLowerCase() === seasonFilter.toLowerCase();
+                    })
+                    .map(game => {
+                        const harvard = game.harvard;
+                        const rawData = harvard[metric.key].data;
+                        
+                        let value = parseFloat(rawData);
+                        
+                        if (isNaN(value) || !isFinite(value)) {
+                            return null;
+                        }
+                        
+                        if (metric.format === 'currency') {
+                            value = value / 1000000;
+                        }
+                        
+                        const year = parseInt(game.year);
+                        if (isNaN(year)) {
+                            return null;
+                        }
+                        
+                        const gameSeason = game.features && game.features.length > 0 ? 
+                                         game.features[0].properties.season : 'Unknown';
+                        
+                        return {
+                            x: year,
+                            y: value,
+                            location: game.location,
+                            season: gameSeason,
+                            rawValue: rawData,
+                            unit: metric.unit,
+                            metric: metric.name
+                        };
+                    })
+                    .filter(dataPoint => dataPoint !== null)
+                    .sort((a, b) => a.x - b.x)
+            })).filter(series => series.data.length > 0);
+
+            setFinancialTimeData(processedData);
+        }
+    }, [selectedMetrics, currencyFilter, seasonFilter, data]); // Separate dependencies
 
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
@@ -166,47 +302,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
         };
     };
 
-    // Get available metrics based on current currency filter
-    const getAllAvailableMetrics = () => {
-        if (!data?.games) return [];
-        
-        const metricsSet = new Set();
-        data.games.forEach(game => {
-            if (game.harvard) {
-                Object.keys(game.harvard).forEach(key => {
-                    if (game.harvard[key] && game.harvard[key].data) {
-                        // Apply currency filter logic to determine if this metric should be shown
-                        const isCurrency = key.includes('revenue') || key.includes('cost');
-                        const is2018 = key.includes('2018') || key.includes('usd2018');
-                        
-                        let shouldInclude = true;
-                        if (currencyFilter === 'normal') {
-                            shouldInclude = !key.includes('2018') && !key.includes('usd2018');
-                        } else if (currencyFilter === '2018') {
-                            shouldInclude = key.includes('2018') || key.includes('usd2018') || !isCurrency;
-                        }
-                        // currencyFilter === 'both' includes all metrics
-                        
-                        if (shouldInclude) {
-                            // Generate human-readable name from key
-                            let name = key
-                                .replace(/_/g, ' ')
-                                .replace(/\(usd2018\)/g, '(2018)')
-                                .replace(/\(usd_2018\)/g, '(2018)')
-                                .replace(/\b\w/g, l => l.toUpperCase());
-                            metricsSet.add(name);
-                        }
-                    }
-                });
-            }
-        });
-        
-        return Array.from(metricsSet).sort();
-    };
-
     // Get color for a metric based on its index in the available metrics list
     const getMetricColor = (metricName) => {
-        const availableMetrics = getAllAvailableMetrics();
         const index = availableMetrics.indexOf(metricName);
         return `hsl(${index * 360 / availableMetrics.length}, 70%, 50%)`;
     };
@@ -359,7 +456,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                         Financial Metrics
                     </label>
                     <div className="flex flex-wrap gap-2">
-                        {getAllAvailableMetrics().map((metricName) => (
+                        {availableMetrics.map((metricName) => (
                             <button
                                 key={metricName}
                                 onClick={() => toggleMetricSelection(metricName)}

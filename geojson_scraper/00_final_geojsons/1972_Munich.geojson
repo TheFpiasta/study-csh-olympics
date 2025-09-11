@@ -5276,102 +5276,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "7134",
       "source": "IOC. (2018). 1972 Olympics—Munich Summer Games results & highlights. https://www.olympic.org/munich-1972",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "195.0",
       "source": "Flyvbjerg, B., Stewart, A., & Budzier, A. (2016). The Oxford Olympics Study 2016: Cost and Cost Overrun at the Games. https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2804554, p. 9",
       "format": "number",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "121.0",
       "source": "IOC. (2018). 1972 Olympics—Munich Summer Games results & highlights. https://www.olympic.org/munich-1972",
       "format": "number",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "4500",
       "source": "Deutscher Bundestag. (1975). Unterrichtung durch die Bundesregierung betr. Gesamtfinanzierung der Olympischen Sommerspiele 1972, p. 29",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "53420871",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 310",
       "format": "currency",
       "currency": "DEM"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "100592619.0",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 310",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "18000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "108089169.32",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "6000000.0",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 251",
       "format": "currency",
       "currency": "DEM"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "11298125.78",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 251",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "638750000",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 29",
       "format": "currency",
       "currency": "DEM"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "1202779640.0",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 29",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "527300000.0",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 29 and 53",
       "format": "currency",
       "currency": "DEM"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "992916953.0",
       "source": "Organizing Committee Olympics Münich 1972. (1974). Die Spiele—The official report of the Organizing Committee for the Games of the XXth Olympiad Munich 1972, The organization (Pro Sport München, Vol. 1), p. 29 and 53",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

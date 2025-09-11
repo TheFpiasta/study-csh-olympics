@@ -6067,102 +6067,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "10318",
       "source": "IOC 2018: https://www.olympic.org/atlanta-1996 20 (accessed 06.13.18)",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "271.0",
       "source": "IOC 2018: https://www.olympic.org/atlanta-1996 (accessed 06.13.18)",
       "format": "standard",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "197.0",
       "source": "IOC 2018: https://www.olympic.org/atlanta-1996 (accessed 06.13.18)",
       "format": "standard",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "15108",
       "source": "IOC. (2020). Summer Olympic Games—Atlanta 1996—\"All Facts\". https://www.olympic.org/atlanta-1996",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "425000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "680398228.86",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "898000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "1437641434.15",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "185814000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "297476509.4",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "426000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "681999165.87",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "494239000",
       "source": "Atlanta Committee for the Olympic Games (Ed.). (1997). The official report of the Centennial Olympic Games, vol 1. Peachtree. library.la84.org/6oic/OfficialReports/1996/1996v1.pdf, p. 222",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "791245506.43",
       "source": "Atlanta Committee for the Olympic Games (Ed.). (1997). The official report of the Centennial Olympic Games, vol 1. Peachtree. library.la84.org/6oic/OfficialReports/1996/1996v1.pdf, p. 222",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "1226779000.0",
       "source": "Atlanta Committee for the Olympic Games (Ed.). (1997). The official report of the Centennial Olympic Games, vol 1. Peachtree. library.la84.org/6oic/OfficialReports/1996/1996v1.pdf, p. 222",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "1963995903.06",
       "source": "Atlanta Committee for the Olympic Games (Ed.). (1997). The official report of the Centennial Olympic Games, vol 1. Peachtree. library.la84.org/6oic/OfficialReports/1996/1996v1.pdf, p. 222",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

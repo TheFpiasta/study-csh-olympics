@@ -4,9 +4,9 @@ import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
 import {ResponsiveSankey} from '@nivo/sankey';
-import LoadingSpinner from './LoadingSpinner';
+import LoadingSpinner from '../../../components/LoadingSpinner';
 
-const TemporalDevelopmentAnalyses = () => {
+const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -20,33 +20,12 @@ const TemporalDevelopmentAnalyses = () => {
     const [classificationFilter, setClassificationFilter] = useState('all');
 
     useEffect(() => {
-        const fetchData = async () => {
-            try {
-                const response = await fetch('/api/olympics/all', {
-                    method: 'GET',
-                    headers: {
-                        'Content-Type': 'application/json',
-                    },
-                    cache: 'no-store'
-                });
+        if (!geojsonData ) return;
 
-                if (!response.ok) {
-                    const errorText = await response.text();
-                    throw new Error(`Failed to fetch Olympic data: ${response.status} ${errorText}`);
-                }
-
-                const olympicData = await response.json();
-                setData(olympicData);
-            } catch (err) {
-                console.error('Error fetching data:', err);
-                setError(err.message);
-            } finally {
-                setLoading(false);
-            }
-        };
-
-        fetchData();
-    }, []);
+        setLoading(false);
+        setData(geojsonData.data);
+        setError(geojsonData.error);
+    }, [geojsonData]);
 
     // Process data for Number of venues per Olympic Games (Scatter plot)
     const getVenuesPerGameData = () => {

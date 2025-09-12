@@ -3,8 +3,12 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
-import {ResponsiveSankey} from '@nivo/sankey';
 import LoadingSpinner from '../../../components/LoadingSpinner';
+import {getYearRange} from "@/app/graphs/components/utility";
+import {olympicColors as oc} from "@/components/utility";
+import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
+import ShowError from "@/app/graphs/components/templates/ShowError";
+import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 
 const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -20,7 +24,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     const [classificationFilter, setClassificationFilter] = useState('all');
 
     useEffect(() => {
-        if (!geojsonData ) return;
+        if (!geojsonData) return;
 
         setLoading(false);
         setData(geojsonData.data);
@@ -130,14 +134,14 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                 // Apply season filter at feature level
                 if (scatterSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
                 if (scatterSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
-                
+
                 const type = feature.properties.type || 'Unknown';
                 allVenueTypes.add(type);
             });
         });
 
         // Create series for each venue type
-        const colors = ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#f97316'];
+        const colors = [oc.primary.blue, oc.primary.yellow, oc.primary.green, oc.primary.red];
         let colorIndex = 0;
 
         allVenueTypes.forEach(venueType => {
@@ -147,10 +151,10 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                     // Apply season filter at feature level
                     if (scatterSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return false;
                     if (scatterSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return false;
-                    
+
                     return (feature.properties.type || 'Unknown') === venueType;
                 });
-                
+
                 const count = filteredFeatures.length;
 
                 const allSports = new Set();
@@ -162,7 +166,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                 });
 
                 // Determine the predominant season for this data point
-                const seasonCounts = { Summer: 0, Winter: 0 };
+                const seasonCounts = {Summer: 0, Winter: 0};
                 filteredFeatures.forEach(feature => {
                     seasonCounts[feature.properties.season] = (seasonCounts[feature.properties.season] || 0) + 1;
                 });
@@ -196,7 +200,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
         if (!data?.games) return [];
 
         // Get year range and initialize all years
-        const yearRange = getYearRange();
+        const yearRange = getYearRange(data);
         const yearData = {};
 
         // Initialize all years from min to max with zero data
@@ -210,7 +214,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                 'Unknown': 0
             };
         }
-        
+
         // Fill in actual data for Olympic years
         data.games.forEach(game => {
             const year = parseInt(game.year);
@@ -223,7 +227,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                     // Apply season filter
                     if (buildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
                     if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
-                    
+
                     const classification = feature.properties.classification || 'Unknown';
                     // if (classification === 'Unknown') console.warn(`Feature with unknown classification in ${game.location} ${year} name: ${feature.properties.associated_names}`);
                     if (yearData[year][classification] !== undefined) {
@@ -245,7 +249,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
 
         const result = [];
         const buildStates = ['New build', 'Existing', 'Temporary', 'Unknown'];
-        const colors = ['#EE334E', '#00A651', '#FCB131', '#0081C8'];
+        const colors = [oc.primary.blue, oc.primary.yellow, oc.primary.green, oc.primary.red];
 
         buildStates.forEach((buildState, index) => {
             // Only include this build state if it's selected in the filter
@@ -263,7 +267,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                     // Apply season filter
                     if (scatterBuildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
                     if (scatterBuildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
-                    
+
                     const classification = feature.properties.classification || 'Unknown';
                     if (classification === buildState) {
                         count++;
@@ -353,17 +357,6 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
         });
     };
 
-    // Get min and max years from all data
-    const getYearRange = () => {
-        if (!data?.games) return { min: 'auto', max: 'auto' };
-        
-        const years = data.games.map(game => game.year);
-        return {
-            min: Math.min(...years),
-            max: Math.max(...years)
-        };
-    };
-
     // Get colors for scatter plot based on current view mode and filter
     const getScatterColors = () => {
         if (viewMode === 'venue-type') {
@@ -378,7 +371,6 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     };
 
 
-
     if (loading) {
         return (
             <div className="flex justify-center items-center h-64">
@@ -389,39 +381,22 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
 
     if (error) {
         return (
-            <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6">
-                <p className="text-red-800 dark:text-red-300">Error loading data: {error}</p>
-            </div>
+            <ShowError error={error}/>
         );
     }
 
     if (!data || !data.games || data.games.length === 0) {
         return (
-            <div
-                className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
-                <p className="text-yellow-800 dark:text-yellow-300">No Olympic data available</p>
-            </div>
+            <ShowNoData/>
         );
     }
 
     return (
         <div className="space-y-8">
-            {/* Section Header */}
-            <div
-                className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 dark:from-amber-600/20 dark:to-orange-600/20 border border-amber-200 dark:border-amber-700 rounded-2xl p-6">
-                <div>
-                    <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        ⏳ Temporal development analyses
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                          Infrastructure Evolution Over Time
-                      </span>
-                    </h2>
-                    <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-                        Analysis of Olympic venue development patterns over time, infrastructure evolution, and
-                        historical trends
-                    </p>
-                </div>
-            </div>
+
+            <SectionHeader headline={"⏳ Temporal development analyses"}
+                           description={"Analysis of Olympic venue development patterns over time, infrastructure evolution, and historical trends"}
+            />
 
             {/* Number of venues per Olympic Games */}
             <div
@@ -508,7 +483,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                     <ResponsiveScatterPlot
                         data={getVenuesPerGameData()}
                         margin={{top: 20, right: 30, bottom: 50, left: 60}}
-                        xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
+                        xScale={{type: 'linear', min: getYearRange(data).min, max: getYearRange(data).max}}
                         yScale={{type: 'linear', min: 'auto', max: 'auto'}}
                         axisTop={null}
                         axisRight={null}
@@ -584,6 +559,12 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                         legends={[]}
                         theme={{
                             background: 'transparent',
+                            grid: {
+                                line: {
+                                    stroke: oc.extended.black3,
+                                    strokeWidth: 1
+                                }
+                            },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',
@@ -728,7 +709,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                         padding={0.1}
                         valueScale={{type: 'linear'}}
                         indexScale={{type: 'band', round: true}}
-                        colors={({ id, data }) => {
+                        colors={({id, data}) => {
                             // Check if this bar segment has zero value
                             if (data[id] === 0) return 'transparent';
 
@@ -741,7 +722,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                             };
                             return colorMap[id] || '#9ca3af';
                         }}
-                        label={({ id, value }) => value === 0 ? '' : value}
+                        label={({id, value}) => value === 0 ? '' : value}
                         borderColor={{
                             from: 'color',
                             modifiers: [['darker', 1.6]]
@@ -763,7 +744,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                             tickPadding: 5,
                             tickRotation: 0
                         }}
-                        tooltip={({ id, value, color, data }) => (
+                        tooltip={({id, value, color, data}) => (
                             <div
                                 className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60">
                                 <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
@@ -789,6 +770,12 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                         )}
                         theme={{
                             background: 'transparent',
+                            grid: {
+                                line: {
+                                    stroke: oc.extended.black3,
+                                    strokeWidth: 1
+                                }
+                            },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',

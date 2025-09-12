@@ -115,11 +115,12 @@ const OlympicLineChart = ({ geojsonData }) => {
   const getScatterData = () => {
     if (!data?.games) return [];
 
-    const validEntries = data.games.filter((g) => Array.isArray(g.harvard) && g.harvard.length > 0);
+    const validEntries = data.games.filter((g) => g.harvard && Object.keys(g.harvard).length > 0);
 
-    const getFieldValue = (harvardArray, fieldName) => {
-      const obj = harvardArray.find((item) => item.field === fieldName);
-      return obj ? parseFloat(obj.data) : 0;
+    const getFieldValue = (harvardObj, fieldName) => {
+      if (!harvardObj || !harvardObj[fieldName] || harvardObj[fieldName].data === undefined || harvardObj[fieldName].data === null) return 0;
+      const value = parseFloat(harvardObj[fieldName].data);
+      return isNaN(value) ? 0 : value;
     };
 
     const series = [];

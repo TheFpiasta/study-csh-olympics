@@ -62,10 +62,9 @@ const CostAnalysis = ({ geojsonData }) => {
 	}, [geojsonData]);
 
 	// Helper to get value from harvard array
-	const getFieldValue = (harvardArray, fieldName) => {
-		const obj = harvardArray.find(item => item.field === fieldName);
-		if (!obj || obj.data === undefined || obj.data === null) return 0;
-		const value = parseFloat(obj.data);
+	const getFieldValue = (harvardObj, fieldName) => {
+		if (!harvardObj || !harvardObj[fieldName] || harvardObj[fieldName].data === undefined || harvardObj[fieldName].data === null) return 0;
+		const value = parseFloat(harvardObj[fieldName].data);
 		return isNaN(value) ? 0 : value;
 	};
 
@@ -73,7 +72,7 @@ const CostAnalysis = ({ geojsonData }) => {
 	const getLineData = () => {
 		if (!data?.games) return [];
 
-		const validGames = data.games.filter(g => Array.isArray(g.harvard) && g.harvard.length > 0);
+		const validGames = data.games.filter(g => g.harvard && Object.keys(g.harvard).length > 0);
 
 		// Filter games by season
 		const filteredGames = validGames.filter(game => {
@@ -363,7 +362,7 @@ const CostAnalysis = ({ geojsonData }) => {
 								{point.serieId}
 							</div>
 							<div className="flex justify-between">
-								<span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
+								<span className="font-medium text-gray-700 dark:text-gray-300">USD (2018): </span>
 								<span className="text-gray-900 dark:text-gray-100">
 									{point.data.y?.toLocaleString()}
 								</span>

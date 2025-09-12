@@ -4828,118 +4828,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "6084",
       "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "198.0",
       "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "92.0",
       "source": "IOC: https://www.olympic.org/montreal-1976 (accessed 18.05.2015)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "8733",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 383-385",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "27000000",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58-59",
       "format": "currency",
       "currency": "CAD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "120828662.0",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58-59",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "35000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "154436930.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "7000000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 20",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "30887386.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 20",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "1128000000",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58 and p. 90",
       "format": "currency",
       "currency": "CAD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "5047952972.0",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58 and p. 90",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "207000000.0",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58",
       "format": "currency",
       "currency": "CAD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "926353072.0",
       "source": "Chattigny, L. (Ed.). (1978). Montréal 1976. Games of the XXI Olympiad Montréal 1967. Official Report. Volume I Organization. (Vol. 1), p. 58",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -7512,118 +7512,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "10500",
       "source": "International Olympic Committee (IOC). (2010). Final report of the IOC coordination commission: Games of the XXIX Olympics. https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Games/Summer-Games/Games-Beijing-2008-Olympic-Games/Final-Report-of-the-IOC-Coordination-Commission/Final-Report-of-the-IOC-Coordination-Commission-Beijing-2008.pdf, p. 42",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "302.0",
       "source": "Beijing Organizing Committee for the Games of the XXIX Olympiad (BOCOG). (2010b). Ceremonies and competitions: Celebration of the Games official report of the Beijing 2008 Olympic Games (Vol. 2). BOCOG. https://digital.la84.org/digital/collection/p17103coll8/id/44636/rec/89, p. 125",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "204.0",
       "source": "Beijing Organizing Committee for the Games of the XXIX Olympiad (BOCOG). (2010b). Ceremonies and competitions: Celebration of the Games official report of the Beijing 2008 Olympic Games (Vol. 2). BOCOG. https://digital.la84.org/digital/collection/p17103coll8/id/44636/rec/89, p. 109",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "24704",
       "source": "Beijing Organizing Committee for the Games of the XXIX Olympiad (BOCOG). (2010). Preparation for the games: New Beijing Great Olympics. Official report of the Beijing 2008 Olympic Games (Vol. 3). BOCOG. https://stillmed.olympic.org/Documents/Reports/Official%20Past%20Games%20Reports/Summer/ENG/2008-RO-S-Beijing-vol3.pdf, p. 131-132",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "185000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "215765569.14",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "1739000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "2028196349.9",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "576756000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "672670738.35",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "1218000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "1420553855.19",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "1758000000",
       "source": "Matheson, V. (2012). Assessing the infrastructure impact of mega-events in emerging economies. Economics Department Working Papers. https://crossworks.holycross.edu/econ_working_papers/8, p. 34",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "2050356057.0",
       "source": "Matheson, V. (2012). Assessing the infrastructure impact of mega-events in emerging economies. Economics Department Working Papers. https://crossworks.holycross.edu/econ_working_papers/8, p. 34",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "19343000000.0",
       "source": "Beijing Organizing Committee for the Games of the XXIX Olympiad (BOCOG). (2010). Preparation for the games: New Beijing Great Olympics. Official report of the Beijing 2008 Olympic Games (Vol. 3). BOCOG. https://stillmed.olympic.org/Documents/Reports/Official%20Past%20Games%20Reports/Summer/ENG/2008-RO-S-Beijing-vol3.pdf, p. 297",
       "format": "currency",
       "currency": "CNY"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "3246474043.58",
       "source": "Beijing Organizing Committee for the Games of the XXIX Olympiad (BOCOG). (2010). Preparation for the games: New Beijing Great Olympics. Official report of the Beijing 2008 Olympic Games (Vol. 3). BOCOG. https://stillmed.olympic.org/Documents/Reports/Official%20Past%20Games%20Reports/Summer/ENG/2008-RO-S-Beijing-vol3.pdf, p. 297",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

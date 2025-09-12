@@ -7441,118 +7441,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "10651",
       "source": "IOC 2017: https://www.olympic.org/sydney-2000 (accessed 23.08.17)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "300.0",
       "source": "IOC 2017: https://www.olympic.org/sydney-2000 (accessed 23.08.17)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "199.0",
       "source": "IOC 2017: https://www.olympic.org/sydney-2000 (accessed 23.08.17)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "5900",
       "source": "Sydney 2000. (2000). Sydney 2000 Broadcast Report (pp. 1–22). https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Games/Summer-Games/Games-Sydney-2000-Olympic-Games/IOC-Marketing-and-Broadcasting-Various-files/IOC-Marketing-Report-Chap-1-Sydney-2000.pdf, 10",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "551000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "803478580.74",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "1332000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "1942347494.65",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "385614000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "562309599.7",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "492000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "717443669.2",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "1966000000",
       "source": "Sydney Organising Committee for the Olympic Games SOCOG (Ed.). (2001). Official Report of the XXVII Olympiad Volume One: Preparing for the Games (First Edition). Paragon Pringer Australasia, p. 370-393",
       "format": "currency",
       "currency": "AUD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "1661946805.28",
       "source": "Sydney Organising Committee for the Olympic Games SOCOG (Ed.). (2001). Official Report of the XXVII Olympiad Volume One: Preparing for the Games (First Edition). Paragon Pringer Australasia, p. 370-393",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "2015700000.0",
       "source": "Sydney Organising Committee for the Olympic Games SOCOG (Ed.). (2001). Official Report of the XXVII Olympiad Volume One: Preparing for the Games (First Edition). Paragon Pringer Australasia, p. 274",
       "format": "currency",
       "currency": "AUD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "1703960414.75",
       "source": "Sydney Organising Committee for the Olympic Games SOCOG (Ed.). (2001). Official Report of the XXVII Olympiad Volume One: Preparing for the Games (First Edition). Paragon Pringer Australasia, p. 274",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

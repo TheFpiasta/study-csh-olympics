@@ -48,7 +48,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
                            description={"Analyzing the financial aspects of Olympic venues, including construction costs, maintenance expenses, and profitability metrics."}
             />
             {/* Financial Metrics Over Time */}
-            {/*TODO Kosten pro Athlet/Veranstaltung etc als filter mit einbauen*/}
             <FinancialMetrics data={data}/>
 
             {/*TODO add ScatterPlot chart with x and y axes any metric with dropdown and filtered my season*/}

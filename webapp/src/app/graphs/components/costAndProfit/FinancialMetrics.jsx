@@ -573,61 +573,13 @@ export default function FinancialMetrics({data}) {
     };
 
     // Get visible metrics for UI
-    // const getVisibleMetrics = () => {
-    //     return Object.keys(allMetricFilters)
-    //         .filter(name => allMetricFilters[name].visible)
-    //         .sort();
-    // };
+    const getVisibleMetrics = () => {
+        return Object.keys(allMetricFilters)
+            .filter(name => allMetricFilters[name].visible)
+            .sort();
+    };
 
-    // Get line color for a metric based on its index in the visible metrics list
-    // const getMetricColor = (seriesId, alpha = 1) => {
-    //     if (!seriesId || typeof seriesId !== 'string') {
-    //         return '#6b7280';  // Gray fallback color
-    //     }
-    //
-    //     const visibleMetrics = getVisibleMetrics();
-    //
-    //     // Extract base metric name (remove season suffix if present)
-    //     let baseName = seriesId;
-    //     if (seriesId.includes(' (Summer)') || seriesId.includes(' (Winter)')) {
-    //         baseName = seriesId.replace(' (Summer)', '').replace(' (Winter)', '');
-    //     }
-    //
-    //     const baseIndex = visibleMetrics.indexOf(baseName);
-    //     const baseHue = baseIndex * 360 / visibleMetrics.length;
-    //
-    //     // Same color for both summer and winter lines of the same metric
-    //     // return `hsl(${baseHue}, 70%, 50%)`;
-    //     // return `hsl(${baseHue}, 70%, 35%)`;
-    //     return `hsla(${baseHue}, 70%, 50%, ${alpha})`;
-    //     // return graphColors[baseIndex % graphColors.length]
-    // };
 
-    // Get point color based on season
-    // const getPointColor = (seriesId) => {
-    //     if (!seriesId || typeof seriesId !== 'string') {
-    //         return '#6b7280';  // Gray fallback color
-    //     }
-    //
-    //     if (seasonFilter === 'both') {
-    //         // When both seasons are shown, use different colors for each
-    //         if (seriesId.includes(' (Summer)')) {
-    //             return '#f59e0b';  // Amber-500 for summer
-    //         } else if (seriesId.includes(' (Winter)')) {
-    //             return '#06b6d4';  // Cyan-500 for winter
-    //         }
-    //     } else {
-    //         // When single season is selected, use that season's color for all points
-    //         if (seasonFilter === 'summer') {
-    //             return '#f59e0b';  // Amber-500 for summer
-    //         } else if (seasonFilter === 'winter') {
-    //             return '#06b6d4';  // Cyan-500 for winter
-    //         }
-    //     }
-    //
-    //     // Fallback to gray
-    //     return '#6b7280';
-    // };
 
     // Get line color for aggregated chart based on type
     const getAggregatedLineColor = (seriesType) => {
@@ -643,31 +595,6 @@ export default function FinancialMetrics({data}) {
         }
     };
 
-    // // Get point color for aggregated chart based on season
-    // const getAggregatedPointColor = (series) => {
-    //     if (!series) {
-    //         return '#6b7280'; // Gray fallback for undefined series
-    //     }
-    //
-    //     if (seasonFilter === 'both') {
-    //         // When both seasons are shown, use different colors for each
-    //         if (series.season === 'summer') {
-    //             return '#f59e0b';  // Amber-500 for summer
-    //         } else if (series.season === 'winter') {
-    //             return '#06b6d4';  // Cyan-500 for winter
-    //         }
-    //     } else {
-    //         // When single season is selected, use that season's color for all points
-    //         if (seasonFilter === 'summer') {
-    //             return '#f59e0b';  // Amber-500 for summer
-    //         } else if (seasonFilter === 'winter') {
-    //             return '#06b6d4';  // Cyan-500 for winter
-    //         }
-    //     }
-    //
-    //     // Fallback to gray
-    //     return '#6b7280';
-    // };
 
     // Toggle metric active state
     const toggleMetricSelection = (metricName) => {
@@ -843,8 +770,9 @@ export default function FinancialMetrics({data}) {
                     Financial Metrics
                 </label>
                 <div className="flex flex-wrap gap-2">
-                    {getVisibleMetrics().map((metricName) => {
+                    {getVisibleMetrics().map((metricName, index) => {
                         const filterState = allMetricFilters[metricName];
+                        const visibleMetrics = getVisibleMetrics();
                         return (
                             <button
                                 key={metricName}
@@ -856,13 +784,13 @@ export default function FinancialMetrics({data}) {
                                 }`}
                                 style={{
                                     backgroundColor: filterState && filterState.active
-                                        ? getMetricColor(metricName, 0.6)
+                                        ? getMetricColor(index, visibleMetrics.length, 0.6)
                                         : undefined
                                 }}
                             >
                                 <div
                                     className="w-2 h-2 rounded-full"
-                                    style={{backgroundColor: getMetricColor(metricName)}}
+                                    style={{backgroundColor: getMetricColor(index, visibleMetrics.length)}}
                                 ></div>
                                 {metricName}
                             </button>
@@ -893,7 +821,15 @@ export default function FinancialMetrics({data}) {
                         min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getFinancialDataTimeRange().min,
                         max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getFinancialDataTimeRange().max
                     }}
-                    colors={(serie) => getMetricColor(serie.id)}
+                    colors={(serie) => {
+                        const visibleMetrics = getVisibleMetrics();
+                        let baseName = serie.id;
+                        if (serie.id.includes(' (Summer)') || serie.id.includes(' (Winter)')) {
+                            baseName = serie.id.replace(' (Summer)', '').replace(' (Winter)', '');
+                        }
+                        const baseIndex = visibleMetrics.indexOf(baseName);
+                        return getMetricColor(baseIndex, visibleMetrics.length);
+                    }}
                     yScale={{
                         type: 'linear',
                         min: 'auto',
@@ -923,9 +859,24 @@ export default function FinancialMetrics({data}) {
                         legendPosition: 'middle'
                     }}
                     pointSize={10}
-                    pointColor={(point) => getPointColor(point.point.seriesId)}
-                    pointBorderWidth={2}
-                    pointBorderColor="#ffffff"
+                    pointColor={(point) => {
+                        if (seasonFilter === 'both') {
+                            // Extract season from series ID when both seasons are shown
+                            const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
+                            if (seriesId.includes(' (Summer)')) {
+                                return getPointColor('Summer');
+                            } else if (seriesId.includes(' (Winter)')) {
+                                return getPointColor('Winter');
+                            }
+                        } else {
+                            // Use the selected season filter
+                            const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
+                            return getPointColor(season);
+                        }
+                        return getPointColor('Unknown');
+                    }}
+                    pointBorderWidth={1}
+                    pointBorderColor={olympicColors.extended.black6}
                     enablePointLabel={false}
                     pointLabelYOffset={-12}
                     useMesh={true}
@@ -1086,7 +1037,21 @@ export default function FinancialMetrics({data}) {
                             <div key={baseName} className="flex items-center gap-2">
                                 <div
                                     className="w-4 h-0.5"
-                                    style={{backgroundColor: getMetricColor(baseName)}}
+                                    style={{
+                                        backgroundColor: getMetricColor(Array.from(new Set(financialTimeData.map(series => {
+                                            let baseName = series.id;
+                                            if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
+                                                baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
+                                            }
+                                            return baseName;
+                                        }))).indexOf(baseName), Array.from(new Set(financialTimeData.map(series => {
+                                            let baseName = series.id;
+                                            if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
+                                                baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
+                                            }
+                                            return baseName;
+                                        }))).length)
+                                    }}
                                 ></div>
                                 <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
                                         {baseName}
@@ -1182,17 +1147,23 @@ export default function FinancialMetrics({data}) {
                         }}
                         pointSize={10}
                         pointColor={(point) => {
-                            // Find the series data from aggregatedTimeData to get season info
-                            if (!point.serie?.id && !point.point?.seriesId) {
-                                return '#6b7280'; // Gray fallback
+                            if (seasonFilter === 'both') {
+                                // Extract season from series ID when both seasons are shown
+                                const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
+                                if (seriesId.includes(' (Summer)')) {
+                                    return getPointColor('Summer');
+                                } else if (seriesId.includes(' (Winter)')) {
+                                    return getPointColor('Winter');
+                                }
+                            } else {
+                                // Use the selected season filter
+                                const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
+                                return getPointColor(season);
                             }
-
-                            const seriesId = point.serie?.id || point.point?.seriesId;
-                            const seriesData = aggregatedTimeData.find(s => s.id === seriesId);
-                            return getAggregatedPointColor(seriesData);
+                            return getPointColor('Unknown');
                         }}
-                        pointBorderWidth={2}
-                        pointBorderColor="#ffffff"
+                        pointBorderWidth={1}
+                        pointBorderColor={olympicColors.extended.black6}
                         enablePointLabel={false}
                         pointLabelYOffset={-12}
                         useMesh={true}

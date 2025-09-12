@@ -45,12 +45,12 @@ export const getPointColor = (season) => {
         return olympicColors.extended.black3 // Gray fallback color
     }
 
-    switch (season) {
-        case 'Summer' || 'summer':
+    switch (season.toLowerCase()) {
+        case 'summer':
             return olympicColors.primary.yellow;
-        case 'Winter' || 'winter':
+        case 'winter':
             return olympicColors.primary.blue;
         default:
-            return olympicColors.extended.black3; // Gray fallback color
+            return olympicColors.extended.black4; // Gray fallback color
     }
 };

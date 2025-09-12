@@ -1599,118 +1599,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "1801",
       "source": "IOC 2020: https://www.olympic.org/albertville-1992 (accessed 26 May 2020)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "57.0",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 325",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "64.0",
       "source": "IOC 2020: https://www.olympic.org/albertville-1992 (accessed 26 May 2020)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "7407",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 165",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "32000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "57266220.14",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "292000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "522554258.81",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "57276000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "102499375.78",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "496000000",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 51",
       "format": "currency",
       "currency": "FRF"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "167666492.67",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 51",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "3108740000.0",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 53",
       "format": "currency",
       "currency": "FRF"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "1050870025.08",
       "source": "Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. (1992). Rapport officiel des XVIes jeux olympiques d’hiver d’Albertville et de la Savoie/Official report of the XVI Olympic winter games of Albertville and Savoie. Organizing Committee of the XVI Olympic Winter Games of Albertville and Savoie. http://library.la84.org/6oic/OfficialReports/1992/orw1992.pdf, p. 53",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -4843,118 +4843,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "5748",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 3, Moscow, 1980, p. 7",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "203.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 3, Moscow, 1980, p. 6",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "81.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 3, Moscow, 1980, p. 6",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "5615",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 482",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "20200000",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 525 and 529",
       "format": "currency",
       "currency": "RUB"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "96250122.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 525 and 529",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "88000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "268147121.08",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "7800000.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 506 and 525",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "37165888.56",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 506 and 525",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "431300000",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 524",
       "format": "currency",
       "currency": "RUB"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "2055083042.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 524",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "150300000.0",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 524",
       "format": "currency",
       "currency": "RUB"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "716158083.36",
       "source": "Organizing Committee Olympic Games Moscow. (1981). Official Report of the Organizing Committee of the Games of the XXII Olympiad, Vol 2, Moscow, 1980, p. 524",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

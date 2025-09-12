@@ -1138,118 +1138,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "1272",
       "source": "IOC 2018: https://www.olympic.org/sarajevo-1984 (accessed 22 July 2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "39.0",
       "source": "IOC 2018: https://www.olympic.org/sarajevo-1984 (accessed 22 July 2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "49.0",
       "source": "IOC 2018: https://www.olympic.org/sarajevo-1984 (accessed 22 July 2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "7393",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 134-135",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "YUM 404'690'853",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 181",
       "format": "currency",
       "currency": "YUM"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "6401909.16",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 181",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "103000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "248969815.91",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "11694000.0",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 171",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "28266534.25",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 171",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "1009000000",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 171",
       "format": "currency",
       "currency": "YUM"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "15961632",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84: Tout sur les Jeux / All on the Games / Alles über die Spiele / Sve o igrama. P. 171",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "8632718000",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84. Yugoslavia 8-19.02. Final report published by the Organizing Committee of the XIV Winter Olympic Games 1984 in Sarajevo. COJO; IOC  Library. https://library.olympic.org/Default/doc/SYRACUSE/44680/final-report-rapport-sic-final-publie-par-le-comite-d-organisation-des-xivemes-jeux-olympiques-d-hiv, p. 184",
       "format": "currency",
       "currency": "YUM"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "136563196.47",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84. Yugoslavia 8-19.02. Final report published by the Organizing Committee of the XIV Winter Olympic Games 1984 in Sarajevo. COJO; IOC  Library. https://library.olympic.org/Default/doc/SYRACUSE/44680/final-report-rapport-sic-final-publie-par-le-comite-d-organisation-des-xivemes-jeux-olympiques-d-hiv, p. 184",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "4505622000.0",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84. Yugoslavia 8-19.02. Final report published by the Organizing Committee of the XIV Winter Olympic Games 1984 in Sarajevo. COJO; IOC  Library. https://library.olympic.org/Default/doc/SYRACUSE/44680/final-report-rapport-sic-final-publie-par-le-comite-d-organisation-des-xivemes-jeux-olympiques-d-hiv, p. 184",
       "format": "currency",
       "currency": "YUM"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "71275598.53",
       "source": "Organizing Committee of the XIV Olympic Winter Games Yugoslavia. (1984). Sarajevo ’84. Yugoslavia 8-19.02. Final report published by the Organizing Committee of the XIV Winter Olympic Games 1984 in Sarajevo. COJO; IOC  Library. https://library.olympic.org/Default/doc/SYRACUSE/44680/final-report-rapport-sic-final-publie-par-le-comite-d-organisation-des-xivemes-jeux-olympiques-d-hiv, p. 184",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -60,8 +60,8 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
         row_data = df.iloc[row_harvard]
         headers = list(row_data.index)
 
-        # Build the harvard list
-        harvard_list = []
+        # Build the harvard dictionary
+        harvard_dict = {}
         for idx, header in enumerate(headers):
             header_str = str(header).strip().replace(' ', '_').lower()
             if "source" not in header_str and "unnamed" not in header_str:
@@ -72,13 +72,12 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
                         break
                 # Get formatting info
                 fmt_type, currency = get_cell_format(ws, row_harvard, idx)
-                harvard_list.append({
-                    "field": header_str,
+                harvard_dict[header_str] = {
                     "data": str(row_data[header]),
                     "source": source,
                     "format": fmt_type,
                     "currency": currency
-                })
+                }
 
         # Read the base geojson file
         geojson_path = os.path.join(geojson_folder, filename)
@@ -86,7 +85,7 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
             geojson_data = json.load(f)
 
         # Add the harvard field at the top level as a list
-        geojson_data["harvard"] = harvard_list
+        geojson_data["harvard"] = harvard_dict
 
         # Prepare output filenames
         safe_location = location.replace(" ", "_")

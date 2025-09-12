@@ -2091,118 +2091,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "2508",
       "source": "IOC 2017: https://www.olympic.org/turin-2006 (accessed 2027.11.2017)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "84.0",
       "source": "IOC 2017: https://www.olympic.org/turin-2006 (accessed 2027.11.2017)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "80.0",
       "source": "IOC 2017: https://www.olympic.org/turin-2006 (accessed 2027.11.2017)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "11863",
       "source": "The Organising Committee for the XX Olympic Winter Games – Torino 2006. (2007). Relazione Finale—Final Report Volume 1 Part II. TOROC. https://library.olympic.org/Default/doc/SYRACUSE/29828/xx-giochi-olimpici-invernali-torino-2006-xx-olympic-winter-games-torino-2006-comitato-per-l-organizz?_lg=en-GB, p. 187",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "89000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "110859632.23",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "831000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "1035105105.46",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "288378000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "359207629.49",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "348000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "433473618",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "1835000000",
       "source": "The Organising Committee for the XX Olympic Winter Games – Torino 2006. (2007). Relazione Finale—Final Report Volume 2 Part II. TOROC. https://library.olympic.org/Default/doc/SYRACUSE/29828/xx-giochi-olimpici-invernali-torino-2006-xx-olympic-winter-games-torino-2006-comitato-per-l-organizz?_lg=en-GB, p. 181",
       "format": "currency",
       "currency": "EUR"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "2871484178.6",
       "source": "The Organising Committee for the XX Olympic Winter Games – Torino 2006. (2007). Relazione Finale—Final Report Volume 2 Part II. TOROC. https://library.olympic.org/Default/doc/SYRACUSE/29828/xx-giochi-olimpici-invernali-torino-2006-xx-olympic-winter-games-torino-2006-comitato-per-l-organizz?_lg=en-GB, p. 181",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "1229000000.0",
       "source": "The Organising Committee for the XX Olympic Winter Games – Torino 2006. (2007). Relazione Finale—Final Report Volume 1 Part I. TOROC. https://library.olympic.org/Default/doc/SYRACUSE/29828/xx-giochi-olimpici-invernali-torino-2006-xx-olympic-winter-games-torino-2006-comitato-per-l-organizz?_lg=en-GB, p. 21-22",
       "format": "currency",
       "currency": "EUR"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "1923190220.98",
       "source": "The Organising Committee for the XX Olympic Winter Games – Torino 2006. (2007). Relazione Finale—Final Report Volume 1 Part I. TOROC. https://library.olympic.org/Default/doc/SYRACUSE/29828/xx-giochi-olimpici-invernali-torino-2006-xx-olympic-winter-games-torino-2006-comitato-per-l-organizz?_lg=en-GB, p. 21-22",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

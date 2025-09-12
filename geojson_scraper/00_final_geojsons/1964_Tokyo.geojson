@@ -5492,118 +5492,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "5558",
       "source": "Tokyo Metropolitan Government, \"18th Olympic Games Tokyo Metropolitan Report\" [dai 18kai orinpikku kyogitaikai tokyo to hokokusho], 1965, p.25",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "163.0",
       "source": "[1] Tokyo Metropolitan Government, \"18th Olympic Games Tokyo Metropolitan Report\" [dai 18kai orinpikku kyogitaikai tokyo to hokokusho], 1965, p.303, [2] Organizing Committee. (1964). THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee, p. 44",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "94.0",
       "source": "Organizing Committee. (1964). THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee, p. 78",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "1891",
       "source": "Organizing Committee. (1964). THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee, p. 91, p. 385.",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "1910480100",
       "source": "Organizing Committee (English), 1964, p. 62. (THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee)",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "42964387.0",
       "source": "Organizing Committee (English), 1964, p. 62. (THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee)",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "1600000",
       "source": "International Olympic Committee IOC. (2017). Olympic Marketing Fact File 2018 Edition. https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File-2018.pdf, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "12953543.0",
       "source": "International Olympic Committee IOC. (2017). Olympic Marketing Fact File 2018 Edition. https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File-2018.pdf, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "1000000.0",
       "source": "[1] International Olympic Committee IOC. (2017). Olympic Marketing Fact File 2018 Edition. https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File-2018.pdf, p. 20 [2], Organizing Committee. (1964). THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee, p. 67",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "8095965.0",
       "source": "[1] International Olympic Committee IOC. (2017). Olympic Marketing Fact File 2018 Edition. https://stillmed.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File-2018.pdf, p. 20 [2], Organizing Committee. (1964). THE GAMES OF THE XVII OLXMPIAD TOKYO 1964 | The Official Report of the Organizing Committee, p. 67",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "16434700000",
       "source": "The Tokyo Metropolitan Government. (1965). Official Report | Tokyo Olympic Games 1964. p. 331",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "369596525.0",
       "source": "The Tokyo Metropolitan Government. (1965). Official Report | Tokyo Olympic Games 1964. p. 331",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "9819300000.0",
       "source": "The Tokyo Metropolitan Government. (1965). Official Report | Tokyo Olympic Games 1964. p. 62",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "220824180.0",
       "source": "The Tokyo Metropolitan Government. (1965). Official Report | Tokyo Olympic Games 1964. p. 62",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

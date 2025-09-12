@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/pdfToJson/n8n/n8n_io/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/matching-felix/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/.venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -343,9 +343,9 @@ const OlympicLineChart = ({ geojsonData }) => {
 
       {/* Dynamic Custom Legend */}
       <div className="flex justify-center mt-2 flex-wrap gap-4">
-        {['athletes', 'events', 'countries'].map(type => (
+          {['athletes', 'events', 'countries'].map((type) => (
           selectedSeries === type && (
-            <>
+              <div key={`${type}`}>
               <div className="flex items-center gap-2" key={`${type}-summer`}>
                 <div className="w-3 h-3 rounded-full" style={{ backgroundColor: SERIES_COLORS[type].Summer }}></div>
                 <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
@@ -358,7 +358,7 @@ const OlympicLineChart = ({ geojsonData }) => {
                   {type.charAt(0).toUpperCase() + type.slice(1)} (Winter)
                 </span>
               </div>
-            </>
+              </div>
           )
         ))}
       </div>

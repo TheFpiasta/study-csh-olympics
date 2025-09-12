@@ -1131,118 +1131,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "1128",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 92.",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "35.0",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 328.",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "35.0",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 92.",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "1875",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 143",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "706000000",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 126",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "13983802.66",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 126",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "8500000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "51042107.73",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "nan",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "1088885.0",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "9197000000",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 129",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "182165769.16",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 129",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "8108000000.0",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 125-127",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "160595852.6",
       "source": "Organizing Committee for the XIth Olympic Winter Games. (1973). The Official Report of the XIth Olympic Winter Games, Sapporo 1972. Organizing Committee for the XIth Olympic Winter Games, p. 125-127",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

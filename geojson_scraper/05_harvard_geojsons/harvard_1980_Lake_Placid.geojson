@@ -1461,118 +1461,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "1072",
       "source": "IOC 2018: https://www.olympic.org/lake-placid-1980 (accessed on 22.8.2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "38.0",
       "source": "IOC 2018: https://www.olympic.org/lake-placid-1980 (accessed on 22.8.2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "37.0",
       "source": "IOC 2018: https://www.olympic.org/lake-placid-1980 (accessed on 22.8.2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "4000",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 112",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "11700000",
       "source": "Chappelet, Jean-loup (2002) From Lake Placid to Salt Lake City: The challenging growth of the Olympic Winter Games Since 1980, European Journal of Sport Science, 2:3, p. 14, Table 9 10.1080/17461390200072302",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "35651378.6",
       "source": "Chappelet, Jean-loup (2002) From Lake Placid to Salt Lake City: The challenging growth of the Olympic Winter Games Since 1980, European Journal of Sport Science, 2:3, p. 14, Table 9 10.1080/17461390200072302",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "21000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "63989653.9",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "30000000.0",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 124",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "91413791.28",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 124",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "92000000",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 144-145",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "280335626.59",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 144-145",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "53562545.0",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 221",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "163211843.63",
       "source": "LPOOC. (1980). Lake Placid 1980 Final Report. IOC, p. 221",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

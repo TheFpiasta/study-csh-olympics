@@ -2242,118 +2242,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "2833",
       "source": "IOC 2018: https://www.olympic.org/pyeongchang-2018 (accessed 4.10.2018) ",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "102.0",
       "source": "IOC 2018: https://www.olympic.org/pyeongchang-2018 (accessed 4.10.2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "92.0",
       "source": "IOC 2018: https://www.olympic.org/pyeongchang-2018 (accessed 4.10.2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "11228",
       "source": "PyeongChang Organizing Committee. (2018). Official Report of the PyeongChang 2018 Olympic and Paralympic Winter Games (Vol. 3). POCOG, p. 72",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "143000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "143000000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "1436000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "1436000000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "nan",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "360000000.0",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "649000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "649000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "1370000000000",
       "source": "POBICO Pyeongchang 2018 Olympic & Paralympic Winter Games Bid Committee. (2010). PyeongChang 2018 (Bid Report). IOC, p. 123",
       "format": "currency",
       "currency": "KRW"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "1234833358.0",
       "source": "POBICO Pyeongchang 2018 Olympic & Paralympic Winter Games Bid Committee. (2010). PyeongChang 2018 (Bid Report). IOC, p. 123",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "2190000000.0",
       "source": "PyeongChang Organizing Committee. (2018). Official Report of the PyeongChang 2018 Olympic and Paralympic Winter Games (Vol. 3). POCOG, p. 29",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "2190000000.0",
       "source": "PyeongChang Organizing Committee. (2018). Official Report of the PyeongChang 2018 Olympic and Paralympic Winter Games (Vol. 3). POCOG, p. 29",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -1761,118 +1761,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "2305",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.11",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "68.0",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.10",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "72.0",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.10",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "8329",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.271",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "74000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "113993953.58",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "514000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "791795839.74",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "192807000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "297011246.06",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "163000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "251094790",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "106600000000",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. II (Vol. II). NAOC., p.185",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "1254443386.51",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. II (Vol. II). NAOC., p.185",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "113800000000.0",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.59 and 88",
       "format": "currency",
       "currency": "JPY"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "1339171270.03",
       "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.59 and 88",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -6194,118 +6194,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "8397",
       "source": "IOC 2019: https://www.olympic.org/seoul-1988 (acessed 30.01.2019)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "237.0",
       "source": "IOC 2019: https://www.olympic.org/seoul-1988 (acessed 30.01.2019)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "159.0",
       "source": "IOC 2019: https://www.olympic.org/seoul-1988 (acessed 30.01.2019)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "11331",
       "source": "IOC 2019: https://www.olympic.org/seoul-1988 (acessed 30.01.2019)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "36000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "76441502.41",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "403000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "855720151.94",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "63936000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "135760108.27",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "774000000000",
       "source": "SLOOC. (1989). Official Report, Organization and Planning, Volume 1.II, p. 156",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "2246856371.0",
       "source": "SLOOC. (1989). Official Report, Organization and Planning, Volume 1.II, p. 156",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "568391000000.0",
       "source": "SLOOC. (1989). Official Report, Organization and Planning, Volume 1.III, p. 221",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "1649990878.0",
       "source": "SLOOC. (1989). Official Report, Organization and Planning, Volume 1.III, p. 221",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -6978,118 +6978,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "11238",
       "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "306.0",
       "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "207.0",
       "source": "IOC 2018: https://www.olympic.org/rio-2016 (accessed 1/6/2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "25000",
       "source": "Holmes, T. (2016). Suspended reality: The ins and outs of Rio’s Olympic bubble. The Conversation. http://theconversation.com/suspended-reality-the-ins-and-outs-of-rios-olympic-bubble-62692",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "321000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "335844504.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "2868000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "3000629398.46",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "667998000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "698889273.68",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "848000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "887215386.99",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 19",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "7230000000",
       "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
       "format": "currency",
       "currency": "BRL"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "2302301924.0",
       "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "9000000000.0",
       "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
       "format": "currency",
       "currency": "BRL"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "2865936005.0",
       "source": "Brito, Renata, and Stephen Wade. 2017. ‘AP Analysis: Rio de Janeiro Olympics Cost $13.1 Billion’. AP NEWS. Retrieved 3 December 2021 (https://apnews.com/article/d1662ddb3bae4d2984ca4ab65012be78).",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

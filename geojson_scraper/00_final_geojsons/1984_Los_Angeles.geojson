@@ -6297,118 +6297,102 @@
       }
     }
   ],
-  "harvard": [
-    {
-      "field": "number_of_athletes",
+  "harvard": {
+    "number_of_athletes": {
       "data": "6829",
       "source": "IOC 2018: https://www.olympic.org/los-angeles-1984 (accessed 07.07.2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_events",
+    "number_of_events": {
       "data": "221.0",
       "source": "IOC 2018: https://www.olympic.org/los-angeles-1984 (accessed 07.07.2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "number_of_countries",
+    "number_of_countries": {
       "data": "140.0",
       "source": "IOC 2018: https://www.olympic.org/los-angeles-1984 (accessed 07.07.2018)",
       "format": "standard",
       "currency": null
     },
-    {
-      "field": "accredited_media",
+    "accredited_media": {
       "data": "9190",
       "source": "IOC 2018: https://www.olympic.org/los-angeles-1984 (accessed 07.07.2018)",
       "format": "number",
       "currency": null
     },
-    {
-      "field": "ticketing_revenue",
+    "ticketing_revenue": {
       "data": "156000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "ticketing_revenue_(usd2018)",
+    "ticketing_revenue_(usd2018)": {
       "data": "377080498.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue",
+    "broadcast_revenue": {
       "data": "287000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "broadcast_revenue_(usd2018)",
+    "broadcast_revenue_(usd2018)": {
       "data": "693731428.81",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue",
+    "international_sponsorship_revenue": {
       "data": "123191000.0",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 311",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "international_sponsorship_revenue_(usd_2018)",
+    "international_sponsorship_revenue_(usd_2018)": {
       "data": "297775151.38",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 311",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue",
+    "domestic_sponsorship_revenue": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "domestic_sponsorship_revenue_(usd_2018)",
+    "domestic_sponsorship_revenue_(usd_2018)": {
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues",
+    "cost_of_venues": {
       "data": "27770000",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 308",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_venues_(usd_2018)",
+    "cost_of_venues_(usd_2018)": {
       "data": "67125162.99",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 308",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation",
+    "cost_of_organisation": {
       "data": "165228000.0",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 308",
       "format": "currency",
       "currency": "USD"
     },
-    {
-      "field": "cost_of_organisation_(usd_2018)",
+    "cost_of_organisation_(usd_2018)": {
       "data": "399386259.65",
       "source": "LAOOC Los Angeles Olympic Games Organizing Commitee. (1985). Official Report of the Games of the XXIIIrd Olympiad Los Angeles, 1984: Vol. 1 Organization and Planning, p. 308",
       "format": "currency",
       "currency": "USD"
     }
-  ]
+  }
 }

@@ -1,6 +1,7 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
-import {getYearRange} from "@/app/graphs/components/utility";
+import {getMetricColor, getPointColor, getYearRange} from "@/app/graphs/components/utility";
+import {graphColors, olympicColors} from "@/components/utility";
 
 export default function FinancialMetrics({data}) {
 
@@ -31,6 +32,7 @@ export default function FinancialMetrics({data}) {
         }
     };
 
+    // Initialize metric filters based on available data
     useEffect(() => {
         if (!data) return;
 
@@ -329,7 +331,7 @@ export default function FinancialMetrics({data}) {
                         // Calculate total costs
                         let totalCost = 0;
                         const divisor = dataMode === 'normalized' ? getNormalizationDivisor(game, normalizationPer) : 1;
-                        
+
                         costMetrics.forEach(metric => {
                             const harvard = game.harvard;
                             if (harvard && harvard[metric.key] && harvard[metric.key].data) {
@@ -450,7 +452,7 @@ export default function FinancialMetrics({data}) {
 
                     let totalCost = 0;
                     const divisor = dataMode === 'normalized' ? getNormalizationDivisor(game, normalizationPer) : 1;
-                    
+
                     costMetrics.forEach(metric => {
                         const harvard = game.harvard;
                         if (harvard && harvard[metric.key] && harvard[metric.key].data) {
@@ -571,121 +573,101 @@ export default function FinancialMetrics({data}) {
     };
 
     // Get visible metrics for UI
-    const getVisibleMetrics = () => {
-        return Object.keys(allMetricFilters)
-            .filter(name => allMetricFilters[name].visible)
-            .sort();
-    };
+    // const getVisibleMetrics = () => {
+    //     return Object.keys(allMetricFilters)
+    //         .filter(name => allMetricFilters[name].visible)
+    //         .sort();
+    // };
 
     // Get line color for a metric based on its index in the visible metrics list
-    const getMetricColor = (seriesId) => {
-        if (!seriesId || typeof seriesId !== 'string') {
-            return '#6b7280';  // Gray fallback color
-        }
-
-        const visibleMetrics = getVisibleMetrics();
-
-        // Extract base metric name (remove season suffix if present)
-        let baseName = seriesId;
-        if (seriesId.includes(' (Summer)') || seriesId.includes(' (Winter)')) {
-            baseName = seriesId.replace(' (Summer)', '').replace(' (Winter)', '');
-        }
-
-        const baseIndex = visibleMetrics.indexOf(baseName);
-        const baseHue = baseIndex * 360 / visibleMetrics.length;
-
-        // Same color for both summer and winter lines of the same metric
-        return `hsl(${baseHue}, 70%, 50%)`;
-    };
+    // const getMetricColor = (seriesId, alpha = 1) => {
+    //     if (!seriesId || typeof seriesId !== 'string') {
+    //         return '#6b7280';  // Gray fallback color
+    //     }
+    //
+    //     const visibleMetrics = getVisibleMetrics();
+    //
+    //     // Extract base metric name (remove season suffix if present)
+    //     let baseName = seriesId;
+    //     if (seriesId.includes(' (Summer)') || seriesId.includes(' (Winter)')) {
+    //         baseName = seriesId.replace(' (Summer)', '').replace(' (Winter)', '');
+    //     }
+    //
+    //     const baseIndex = visibleMetrics.indexOf(baseName);
+    //     const baseHue = baseIndex * 360 / visibleMetrics.length;
+    //
+    //     // Same color for both summer and winter lines of the same metric
+    //     // return `hsl(${baseHue}, 70%, 50%)`;
+    //     // return `hsl(${baseHue}, 70%, 35%)`;
+    //     return `hsla(${baseHue}, 70%, 50%, ${alpha})`;
+    //     // return graphColors[baseIndex % graphColors.length]
+    // };
 
     // Get point color based on season
-    const getPointColor = (seriesId) => {
-        if (!seriesId || typeof seriesId !== 'string') {
-            return '#6b7280';  // Gray fallback color
-        }
-
-        if (seasonFilter === 'both') {
-            // When both seasons are shown, use different colors for each
-            if (seriesId.includes(' (Summer)')) {
-                return '#f59e0b';  // Amber-500 for summer
-            } else if (seriesId.includes(' (Winter)')) {
-                return '#06b6d4';  // Cyan-500 for winter
-            }
-        } else {
-            // When single season is selected, use that season's color for all points
-            if (seasonFilter === 'summer') {
-                return '#f59e0b';  // Amber-500 for summer
-            } else if (seasonFilter === 'winter') {
-                return '#06b6d4';  // Cyan-500 for winter
-            }
-        }
-
-        // Fallback to gray
-        return '#6b7280';
-    };
+    // const getPointColor = (seriesId) => {
+    //     if (!seriesId || typeof seriesId !== 'string') {
+    //         return '#6b7280';  // Gray fallback color
+    //     }
+    //
+    //     if (seasonFilter === 'both') {
+    //         // When both seasons are shown, use different colors for each
+    //         if (seriesId.includes(' (Summer)')) {
+    //             return '#f59e0b';  // Amber-500 for summer
+    //         } else if (seriesId.includes(' (Winter)')) {
+    //             return '#06b6d4';  // Cyan-500 for winter
+    //         }
+    //     } else {
+    //         // When single season is selected, use that season's color for all points
+    //         if (seasonFilter === 'summer') {
+    //             return '#f59e0b';  // Amber-500 for summer
+    //         } else if (seasonFilter === 'winter') {
+    //             return '#06b6d4';  // Cyan-500 for winter
+    //         }
+    //     }
+    //
+    //     // Fallback to gray
+    //     return '#6b7280';
+    // };
 
     // Get line color for aggregated chart based on type
     const getAggregatedLineColor = (seriesType) => {
         switch (seriesType) {
             case 'cost':
-                return '#dc2626';     // Red
+                return olympicColors.primary.red;     // Red
             case 'revenue':
-                return '#16a34a';  // Green
+                return olympicColors.primary.green;  // Green
             case 'profit':
-                return '#2563eb';   // Blue
+                return olympicColors.primary.blue;   // Blue
             default:
-                return '#6b7280';         // Gray fallback
+                return olympicColors.extended.black2;         // Gray fallback
         }
     };
 
-    // Get point color for aggregated chart based on season
-    const getAggregatedPointColor = (series) => {
-        if (!series) {
-            return '#6b7280'; // Gray fallback for undefined series
-        }
-
-        if (seasonFilter === 'both') {
-            // When both seasons are shown, use different colors for each
-            if (series.season === 'summer') {
-                return '#f59e0b';  // Amber-500 for summer
-            } else if (series.season === 'winter') {
-                return '#06b6d4';  // Cyan-500 for winter
-            }
-        } else {
-            // When single season is selected, use that season's color for all points
-            if (seasonFilter === 'summer') {
-                return '#f59e0b';  // Amber-500 for summer
-            } else if (seasonFilter === 'winter') {
-                return '#06b6d4';  // Cyan-500 for winter
-            }
-        }
-
-        // Fallback to gray
-        return '#6b7280';
-    };
-
-    // Get point border color for aggregated chart
-    const getAggregatedPointBorderColor = (series) => {
-        if (!series) {
-            return '#6b7280'; // Gray fallback for undefined series
-        }
-
-        if (seasonFilter === 'both') {
-            if (series.season === 'summer') {
-                return '#f59e0b';  // Amber border for summer
-            } else if (series.season === 'winter') {
-                return '#06b6d4';  // Cyan border for winter
-            }
-        } else {
-            // Single season mode
-            if (seasonFilter === 'summer') {
-                return '#f59e0b';  // Amber border
-            } else if (seasonFilter === 'winter') {
-                return '#06b6d4';  // Cyan border
-            }
-        }
-        return '#6b7280'; // Gray fallback
-    };
+    // // Get point color for aggregated chart based on season
+    // const getAggregatedPointColor = (series) => {
+    //     if (!series) {
+    //         return '#6b7280'; // Gray fallback for undefined series
+    //     }
+    //
+    //     if (seasonFilter === 'both') {
+    //         // When both seasons are shown, use different colors for each
+    //         if (series.season === 'summer') {
+    //             return '#f59e0b';  // Amber-500 for summer
+    //         } else if (series.season === 'winter') {
+    //             return '#06b6d4';  // Cyan-500 for winter
+    //         }
+    //     } else {
+    //         // When single season is selected, use that season's color for all points
+    //         if (seasonFilter === 'summer') {
+    //             return '#f59e0b';  // Amber-500 for summer
+    //         } else if (seasonFilter === 'winter') {
+    //             return '#06b6d4';  // Cyan-500 for winter
+    //         }
+    //     }
+    //
+    //     // Fallback to gray
+    //     return '#6b7280';
+    // };
 
     // Toggle metric active state
     const toggleMetricSelection = (metricName) => {
@@ -874,7 +856,7 @@ export default function FinancialMetrics({data}) {
                                 }`}
                                 style={{
                                     backgroundColor: filterState && filterState.active
-                                        ? getMetricColor(metricName)
+                                        ? getMetricColor(metricName, 0.6)
                                         : undefined
                                 }}
                             >
@@ -936,8 +918,8 @@ export default function FinancialMetrics({data}) {
                         tickSize: 5,
                         tickPadding: 5,
                         tickRotation: 0,
-                        legend: dataMode === 'normalized' ? `Value per ${normalizationPer.charAt(0).toUpperCase() + normalizationPer.slice(1)}` : 'Value',
-                        legendOffset: -40,
+                        legend: dataMode === 'normalized' ? `Value per ${normalizationPer.charAt(0).toUpperCase() + normalizationPer.slice(1)} (M USD 2018)` : 'Value (M USD 2018)',
+                        legendOffset: -50,
                         legendPosition: 'middle'
                     }}
                     pointSize={10}

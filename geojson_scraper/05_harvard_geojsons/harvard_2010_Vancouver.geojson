@@ -1852,102 +1852,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "2566",
       "source": "IOC 2018: https://www.olympic.org/vancouver-2010 (accessed 2015.6.2018)",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "86.0",
       "source": "IOC 2018: https://www.olympic.org/vancouver-2010 (accessed 2015.6.2018)",
       "format": "standard",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "82.0",
       "source": "IOC 2018: https://www.olympic.org/vancouver-2010 20(accessed 2015.6.2018)",
       "format": "standard",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "12518",
       "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 10",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "250000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "287892500.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "1280000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "1474009600.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "316350000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "364299169.5",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "688000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "792280160",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "599800000",
       "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 69, p. 89",
       "format": "currency",
       "currency": "CAD"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "670593869.9",
       "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 69, p. 89",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "1755000000.0",
       "source": "VANOC. (2010). Vancouver 2010 Sustainability Report, vol. 3. Vancouver Organizing Committee, p. 89",
       "format": "currency",
       "currency": "CAD"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "1962141116.5",
       "source": "VANOC. (2010). Vancouver 2010 Sustainability Report, vol. 3. Vancouver Organizing Committee, p. 89",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

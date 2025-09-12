@@ -1631,102 +1631,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "1423",
       "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "46.0",
       "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
       "format": "standard",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "57.0",
       "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
       "format": "standard",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "6838",
       "source": "IOC. (2020). Summer Olympic Games—Calgary 1988—\"More About\". https://www.olympic.org/atlanta-1996",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "32000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "67948002.14",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "325000000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "690096896.72",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "31968000.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "67880054.14",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "297600000",
       "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 99-192",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "513335840.69",
       "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 99-192",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "526764000.0",
       "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 81",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "908625137.05",
       "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 81",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

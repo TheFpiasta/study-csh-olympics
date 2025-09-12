@@ -2655,102 +2655,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "1091",
       "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "34.0",
       "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
       "format": "number",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "36.0",
       "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
       "format": "number",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "1164",
       "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p.302",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "30401000",
       "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, p.256",
       "format": "currency",
       "currency": "ATS"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "9466362.0",
       "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, p.256",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "900000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "7286368.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "nan",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "846208.0",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "137556000",
       "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p. 252-253",
       "format": "currency",
       "currency": "ATS"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "42832635.0",
       "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p. 252-253",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "102047000.0",
       "source": "Organisationskomitee der IX. Olympischeen Winterspiele in Innsbruck 1964 (1967, vol 3), p. 262-264",
       "format": "currency",
       "currency": "ATS"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "31775727.0",
       "source": "Organisationskomitee der IX. Olympischeen Winterspiele in Innsbruck 1964 (1967, vol 3), p. 262-264",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

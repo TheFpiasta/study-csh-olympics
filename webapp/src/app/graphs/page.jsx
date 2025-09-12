@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
+import OlympicLineChart from "./components/OlympicLineChart";
+import CostAnalysis from "@/app/graphs/components/CostAnalysis";
 import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
 import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
@@ -85,6 +87,16 @@ export default function GraphsPage() {
             {/* Temporal Analysis Dashboard */}
             <div className="mx-4 mb-8">
                 <TemporalAnalysis geojsonData={geojsonData} />
+            </div>
+
+            {/* Athletes, Events and Countries Dashboard */}
+            <div className="mx-4 mb-8">
+                <OlympicLineChart geojsonData={geojsonData} />
+            </div>
+
+            {/* Cost Analysis Dashboard */}
+            <div className="mx-4 mb-8">
+                <CostAnalysis geojsonData={geojsonData} />
             </div>
 
             {/* Geographic Analysis Dashboard */}

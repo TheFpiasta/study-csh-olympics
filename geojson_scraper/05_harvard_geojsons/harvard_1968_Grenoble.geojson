@@ -1032,102 +1032,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "1293",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 398-399",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "35.0",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 372-394",
       "format": "number",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "37.0",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 398",
       "format": "number",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "1545",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 175 and 176",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "6222000",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 334",
       "format": "currency",
       "currency": "FRF"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "9097919.31",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 334",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "2600000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "18769320.0",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "2650000.0",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 334",
       "format": "currency",
       "currency": "FRF"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "3874877.24",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 334",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "27500000",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 338",
       "format": "currency",
       "currency": "FRF"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "40210990.22",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 338",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "118970000.0",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 333-334",
       "format": "currency",
       "currency": "FRF"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "173960054.79",
       "source": "Steering Committee of the Xth Winter Olympics of Grenoble. (1969). The Official Report of the Organising Committee of the Xth Winter Olympic Games 1968 at Grenoble, p. 333-334",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

@@ -5034,102 +5034,118 @@
       }
     }
   ],
-  "harvard": {
-    "number_of_athletes": {
+  "harvard": [
+    {
+      "field": "number_of_athletes",
       "data": "6059",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2, p.165 ",
       "format": "number",
       "currency": null
     },
-    "number_of_events": {
+    {
+      "field": "number_of_events",
       "data": "172.0",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2, p.123",
       "format": "number",
       "currency": null
     },
-    "number_of_countries": {
+    {
+      "field": "number_of_countries",
       "data": "113.0",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.3, p.8",
       "format": "number",
       "currency": null
     },
-    "accredited_media": {
+    {
+      "field": "accredited_media",
       "data": "4377",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2, p.303",
       "format": "number",
       "currency": null
     },
-    "ticketing_revenue": {
+    {
+      "field": "ticketing_revenue",
       "data": "nan",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "ticketing_revenue_(usd2018)": {
+    {
+      "field": "ticketing_revenue_(usd2018)",
       "data": "69267458.0",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue": {
+    {
+      "field": "broadcast_revenue",
       "data": "9800000",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://stillmedab.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File.pdf#_ga=2.241424773.649950629.1612188945-1369859038.1612188945, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "broadcast_revenue_(usd2018)": {
+    {
+      "field": "broadcast_revenue_(usd2018)",
       "data": "70745900.2",
       "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://stillmedab.olympic.org/media/Document%20Library/OlympicOrg/Documents/IOC-Marketing-and-Broadcasting-General-Files/Olympic-Marketing-Fact-File.pdf#_ga=2.241424773.649950629.1612188945-1369859038.1612188945, p. 27",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue": {
+    {
+      "field": "international_sponsorship_revenue",
       "data": "nan",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "international_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "international_sponsorship_revenue_(usd_2018)",
       "data": "1935092.0",
       "source": "No original source, value is imputed",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue": {
+    {
+      "field": "domestic_sponsorship_revenue",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "domestic_sponsorship_revenue_(usd_2018)": {
+    {
+      "field": "domestic_sponsorship_revenue_(usd_2018)",
       "data": "No domestic sponsorship",
       "source": "nan",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues": {
+    {
+      "field": "cost_of_venues",
       "data": "53600000",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2, p.23-24",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_venues_(usd_2018)": {
+    {
+      "field": "cost_of_venues_(usd_2018)",
       "data": "366903358.5",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2, p.23-24",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation": {
+    {
+      "field": "cost_of_organisation",
       "data": "76880000.0",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2 (pt1), p. 23-24",
       "format": "currency",
       "currency": "USD"
     },
-    "cost_of_organisation_(usd_2018)": {
+    {
+      "field": "cost_of_organisation_(usd_2018)",
       "data": "554996720.0",
       "source": "OCOG of the XIX Olympiad, 1969 Vol.2 (pt1), p. 23-24",
       "format": "currency",
       "currency": "USD"
     }
-  }
+  ]
 }

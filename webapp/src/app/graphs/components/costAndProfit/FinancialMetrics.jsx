@@ -7,6 +7,8 @@ export default function FinancialMetrics({data}) {
     const [financialTimeData, setFinancialTimeData] = useState([]);
     const [timeRangeFilter, setTimeRangeFilter] = useState('full');
     const [seasonFilter, setSeasonFilter] = useState('both');
+    const [dataMode, setDataMode] = useState('absolute');
+    const [normalizationPer, setNormalizationPer] = useState('athlete');
     const [allMetricFilters, setAllMetricFilters] = useState({});
     const initialLoadRef = useRef(true);
     const [aggregatedTimeData, setAggregatedTimeData] = useState([]);
@@ -540,29 +542,109 @@ export default function FinancialMetrics({data}) {
                             Line Chart
                         </span>
                 </h3>
-                <div className="flex items-center gap-2">
-                    <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
-                    <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
-                        <button
-                            onClick={() => setTimeRangeFilter('full')}
-                            className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                timeRangeFilter === 'full'
-                                    ? 'bg-emerald-500 text-white'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
-                            }`}
-                        >
-                            Full Timeline
-                        </button>
-                        <button
-                            onClick={() => setTimeRangeFilter('data')}
-                            className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                timeRangeFilter === 'data'
-                                    ? 'bg-emerald-500 text-white'
-                                    : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
-                            }`}
-                        >
-                            Data Range
-                        </button>
+                <div className="flex items-center gap-4 flex-wrap">
+                    <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
+                        <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                            <button
+                                onClick={() => setTimeRangeFilter('full')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    timeRangeFilter === 'full'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                            >
+                                Full Timeline
+                            </button>
+                            <button
+                                onClick={() => setTimeRangeFilter('data')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    timeRangeFilter === 'data'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                            >
+                                Data Range
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Data View:</span>
+                        <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                            <button
+                                onClick={() => setDataMode('absolute')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    dataMode === 'absolute'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                            >
+                                Absolute
+                            </button>
+                            <button
+                                onClick={() => setDataMode('normalized')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    dataMode === 'normalized'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                            >
+                                Normalized
+                            </button>
+                        </div>
+                    </div>
+
+                    <div className={`flex items-center gap-2 transition-opacity ${
+                        dataMode === 'normalized' ? 'opacity-100' : 'opacity-40 pointer-events-none'
+                    }`}>
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Normalize Per:</span>
+                        <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                            <button
+                                onClick={() => dataMode === 'normalized' && setNormalizationPer('athlete')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    normalizationPer === 'athlete' && dataMode === 'normalized'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                                disabled={dataMode !== 'normalized'}
+                            >
+                                Athlete
+                            </button>
+                            <button
+                                onClick={() => dataMode === 'normalized' && setNormalizationPer('event')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    normalizationPer === 'event' && dataMode === 'normalized'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                                disabled={dataMode !== 'normalized'}
+                            >
+                                Event
+                            </button>
+                            <button
+                                onClick={() => dataMode === 'normalized' && setNormalizationPer('country')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    normalizationPer === 'country' && dataMode === 'normalized'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                                disabled={dataMode !== 'normalized'}
+                            >
+                                Country
+                            </button>
+                            <button
+                                onClick={() => dataMode === 'normalized' && setNormalizationPer('media')}
+                                className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                    normalizationPer === 'media' && dataMode === 'normalized'
+                                        ? 'bg-emerald-500 text-white'
+                                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                }`}
+                                disabled={dataMode !== 'normalized'}
+                            >
+                                Media
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

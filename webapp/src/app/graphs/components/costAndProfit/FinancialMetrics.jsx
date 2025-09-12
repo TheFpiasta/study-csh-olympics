@@ -13,6 +13,24 @@ export default function FinancialMetrics({data}) {
     const initialLoadRef = useRef(true);
     const [aggregatedTimeData, setAggregatedTimeData] = useState([]);
 
+    // Helper function to get normalization divisor
+    const getNormalizationDivisor = (game, normalizationPer) => {
+        if (!game.harvard) return 1;
+
+        switch (normalizationPer) {
+            case 'athlete':
+                return parseFloat(game.harvard.number_of_athletes?.data) || 1;
+            case 'event':
+                return parseFloat(game.harvard.number_of_events?.data) || 1;
+            case 'country':
+                return parseFloat(game.harvard.number_of_countries?.data) || 1;
+            case 'media':
+                return parseFloat(game.harvard.accredited_media?.data) || 1;
+            default:
+                return 1;
+        }
+    };
+
     useEffect(() => {
         if (!data) return;
 
@@ -127,6 +145,15 @@ export default function FinancialMetrics({data}) {
                                 value = value / 1000000;
                             }
 
+                            // Store absolute value before normalization
+                            const absoluteValue = value;
+
+                            // Apply normalization if in normalized mode
+                            if (dataMode === 'normalized') {
+                                const divisor = getNormalizationDivisor(game, normalizationPer);
+                                value = value / divisor;
+                            }
+
                             const year = parseInt(game.year);
                             if (isNaN(year)) {
                                 return null;
@@ -135,14 +162,33 @@ export default function FinancialMetrics({data}) {
                             const gameSeason = game.features && game.features.length > 0 ?
                                 game.features[0].properties.season : 'Unknown';
 
+                            // Get counts for tooltip
+                            const counts = {
+                                athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                                events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                                countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                                media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                            };
+
+                            // Calculate normalized values for all metrics
+                            const normalizedValues = {
+                                perAthlete: counts.athletes > 0 ? absoluteValue / counts.athletes : 0,
+                                perEvent: counts.events > 0 ? absoluteValue / counts.events : 0,
+                                perCountry: counts.countries > 0 ? absoluteValue / counts.countries : 0,
+                                perMedia: counts.media > 0 ? absoluteValue / counts.media : 0
+                            };
+
                             return {
                                 x: year,
                                 y: value,
                                 location: game.location,
                                 season: gameSeason,
                                 rawValue: rawData,
+                                absoluteValue: absoluteValue,
                                 unit: metric.unit,
-                                metric: metric.name
+                                metric: metric.name,
+                                counts: counts,
+                                normalizedValues: normalizedValues
                             };
                         })
                         .filter(dataPoint => dataPoint !== null)
@@ -186,6 +232,15 @@ export default function FinancialMetrics({data}) {
                             value = value / 1000000;
                         }
 
+                        // Store absolute value before normalization
+                        const absoluteValue = value;
+
+                        // Apply normalization if in normalized mode
+                        if (dataMode === 'normalized') {
+                            const divisor = getNormalizationDivisor(game, normalizationPer);
+                            value = value / divisor;
+                        }
+
                         const year = parseInt(game.year);
                         if (isNaN(year)) {
                             return null;
@@ -194,14 +249,33 @@ export default function FinancialMetrics({data}) {
                         const gameSeason = game.features && game.features.length > 0 ?
                             game.features[0].properties.season : 'Unknown';
 
+                        // Get counts for tooltip
+                        const counts = {
+                            athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                            events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                            countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                            media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                        };
+
+                        // Calculate normalized values for all metrics
+                        const normalizedValues = {
+                            perAthlete: counts.athletes > 0 ? absoluteValue / counts.athletes : 0,
+                            perEvent: counts.events > 0 ? absoluteValue / counts.events : 0,
+                            perCountry: counts.countries > 0 ? absoluteValue / counts.countries : 0,
+                            perMedia: counts.media > 0 ? absoluteValue / counts.media : 0
+                        };
+
                         return {
                             x: year,
                             y: value,
                             location: game.location,
                             season: gameSeason,
                             rawValue: rawData,
+                            absoluteValue: absoluteValue,
                             unit: metric.unit,
-                            metric: metric.name
+                            metric: metric.name,
+                            counts: counts,
+                            normalizedValues: normalizedValues
                         };
                     })
                     .filter(dataPoint => dataPoint !== null)
@@ -212,7 +286,7 @@ export default function FinancialMetrics({data}) {
         }
 
         setFinancialTimeData(processedData);
-    }, [data, allMetricFilters, seasonFilter]);
+    }, [data, allMetricFilters, seasonFilter, dataMode, normalizationPer]);
 
     // Process aggregated financial data (costs, gains, profit)
     useEffect(() => {
@@ -254,12 +328,16 @@ export default function FinancialMetrics({data}) {
 
                         // Calculate total costs
                         let totalCost = 0;
+                        const divisor = dataMode === 'normalized' ? getNormalizationDivisor(game, normalizationPer) : 1;
+                        
                         costMetrics.forEach(metric => {
                             const harvard = game.harvard;
                             if (harvard && harvard[metric.key] && harvard[metric.key].data) {
-                                const value = parseFloat(harvard[metric.key].data);
+                                let value = parseFloat(harvard[metric.key].data);
                                 if (!isNaN(value) && isFinite(value)) {
-                                    totalCost += value / 1000000; // Convert to millions
+                                    value = value / 1000000; // Convert to millions
+                                    value = value / divisor; // Apply normalization
+                                    totalCost += value;
                                 }
                             }
                         });
@@ -269,9 +347,11 @@ export default function FinancialMetrics({data}) {
                         revenueMetrics.forEach(metric => {
                             const harvard = game.harvard;
                             if (harvard && harvard[metric.key] && harvard[metric.key].data) {
-                                const value = parseFloat(harvard[metric.key].data);
+                                let value = parseFloat(harvard[metric.key].data);
                                 if (!isNaN(value) && isFinite(value)) {
-                                    totalRevenue += value / 1000000; // Convert to millions
+                                    value = value / 1000000; // Convert to millions
+                                    value = value / divisor; // Apply normalization
+                                    totalRevenue += value;
                                 }
                             }
                         });
@@ -280,13 +360,53 @@ export default function FinancialMetrics({data}) {
                         const gameSeason = game.features && game.features.length > 0 ?
                             game.features[0].properties.season : 'Unknown';
 
+                        // Get counts for tooltip
+                        const counts = {
+                            athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                            events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                            countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                            media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                        };
+
+                        // Calculate absolute values (before any normalization)
+                        const absoluteTotalCost = dataMode === 'normalized' ? totalCost * divisor : totalCost;
+                        const absoluteTotalRevenue = dataMode === 'normalized' ? totalRevenue * divisor : totalRevenue;
+                        const absoluteTotalProfit = absoluteTotalRevenue - absoluteTotalCost;
+
+                        // Calculate normalized values for all metrics
+                        const normalizedValues = {
+                            cost: {
+                                perAthlete: counts.athletes > 0 ? absoluteTotalCost / counts.athletes : 0,
+                                perEvent: counts.events > 0 ? absoluteTotalCost / counts.events : 0,
+                                perCountry: counts.countries > 0 ? absoluteTotalCost / counts.countries : 0,
+                                perMedia: counts.media > 0 ? absoluteTotalCost / counts.media : 0
+                            },
+                            revenue: {
+                                perAthlete: counts.athletes > 0 ? absoluteTotalRevenue / counts.athletes : 0,
+                                perEvent: counts.events > 0 ? absoluteTotalRevenue / counts.events : 0,
+                                perCountry: counts.countries > 0 ? absoluteTotalRevenue / counts.countries : 0,
+                                perMedia: counts.media > 0 ? absoluteTotalRevenue / counts.media : 0
+                            },
+                            profit: {
+                                perAthlete: counts.athletes > 0 ? absoluteTotalProfit / counts.athletes : 0,
+                                perEvent: counts.events > 0 ? absoluteTotalProfit / counts.events : 0,
+                                perCountry: counts.countries > 0 ? absoluteTotalProfit / counts.countries : 0,
+                                perMedia: counts.media > 0 ? absoluteTotalProfit / counts.media : 0
+                            }
+                        };
+
                         return {
                             x: year,
                             location: game.location,
                             season: gameSeason,
                             totalCost,
                             totalRevenue,
-                            totalProfit
+                            totalProfit,
+                            absoluteTotalCost,
+                            absoluteTotalRevenue,
+                            absoluteTotalProfit,
+                            counts,
+                            normalizedValues
                         };
                     })
                     .filter(dataPoint => dataPoint !== null)
@@ -329,12 +449,16 @@ export default function FinancialMetrics({data}) {
                     if (isNaN(year)) return null;
 
                     let totalCost = 0;
+                    const divisor = dataMode === 'normalized' ? getNormalizationDivisor(game, normalizationPer) : 1;
+                    
                     costMetrics.forEach(metric => {
                         const harvard = game.harvard;
                         if (harvard && harvard[metric.key] && harvard[metric.key].data) {
-                            const value = parseFloat(harvard[metric.key].data);
+                            let value = parseFloat(harvard[metric.key].data);
                             if (!isNaN(value) && isFinite(value)) {
-                                totalCost += value / 1000000;
+                                value = value / 1000000; // Convert to millions
+                                value = value / divisor; // Apply normalization
+                                totalCost += value;
                             }
                         }
                     });
@@ -343,9 +467,11 @@ export default function FinancialMetrics({data}) {
                     revenueMetrics.forEach(metric => {
                         const harvard = game.harvard;
                         if (harvard && harvard[metric.key] && harvard[metric.key].data) {
-                            const value = parseFloat(harvard[metric.key].data);
+                            let value = parseFloat(harvard[metric.key].data);
                             if (!isNaN(value) && isFinite(value)) {
-                                totalRevenue += value / 1000000;
+                                value = value / 1000000; // Convert to millions
+                                value = value / divisor; // Apply normalization
+                                totalRevenue += value;
                             }
                         }
                     });
@@ -354,13 +480,53 @@ export default function FinancialMetrics({data}) {
                     const gameSeason = game.features && game.features.length > 0 ?
                         game.features[0].properties.season : 'Unknown';
 
+                    // Get counts for tooltip
+                    const counts = {
+                        athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                        events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                        countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                        media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                    };
+
+                    // Calculate absolute values (before any normalization)
+                    const absoluteTotalCost = dataMode === 'normalized' ? totalCost * divisor : totalCost;
+                    const absoluteTotalRevenue = dataMode === 'normalized' ? totalRevenue * divisor : totalRevenue;
+                    const absoluteTotalProfit = absoluteTotalRevenue - absoluteTotalCost;
+
+                    // Calculate normalized values for all metrics
+                    const normalizedValues = {
+                        cost: {
+                            perAthlete: counts.athletes > 0 ? absoluteTotalCost / counts.athletes : 0,
+                            perEvent: counts.events > 0 ? absoluteTotalCost / counts.events : 0,
+                            perCountry: counts.countries > 0 ? absoluteTotalCost / counts.countries : 0,
+                            perMedia: counts.media > 0 ? absoluteTotalCost / counts.media : 0
+                        },
+                        revenue: {
+                            perAthlete: counts.athletes > 0 ? absoluteTotalRevenue / counts.athletes : 0,
+                            perEvent: counts.events > 0 ? absoluteTotalRevenue / counts.events : 0,
+                            perCountry: counts.countries > 0 ? absoluteTotalRevenue / counts.countries : 0,
+                            perMedia: counts.media > 0 ? absoluteTotalRevenue / counts.media : 0
+                        },
+                        profit: {
+                            perAthlete: counts.athletes > 0 ? absoluteTotalProfit / counts.athletes : 0,
+                            perEvent: counts.events > 0 ? absoluteTotalProfit / counts.events : 0,
+                            perCountry: counts.countries > 0 ? absoluteTotalProfit / counts.countries : 0,
+                            perMedia: counts.media > 0 ? absoluteTotalProfit / counts.media : 0
+                        }
+                    };
+
                     return {
                         x: year,
                         location: game.location,
                         season: gameSeason,
                         totalCost,
                         totalRevenue,
-                        totalProfit
+                        totalProfit,
+                        absoluteTotalCost,
+                        absoluteTotalRevenue,
+                        absoluteTotalProfit,
+                        counts,
+                        normalizedValues
                     };
                 })
                 .filter(dataPoint => dataPoint !== null)
@@ -389,7 +555,7 @@ export default function FinancialMetrics({data}) {
         }
 
         setAggregatedTimeData(processedAggregatedData);
-    }, [data, allMetricFilters, seasonFilter]);
+    }, [data, allMetricFilters, seasonFilter, dataMode, normalizationPer]);
 
     // Get the time range for financial data only
     const getFinancialDataTimeRange = () => {
@@ -770,7 +936,7 @@ export default function FinancialMetrics({data}) {
                         tickSize: 5,
                         tickPadding: 5,
                         tickRotation: 0,
-                        legend: 'Value',
+                        legend: dataMode === 'normalized' ? `Value per ${normalizationPer.charAt(0).toUpperCase() + normalizationPer.slice(1)}` : 'Value',
                         legendOffset: -40,
                         legendPosition: 'middle'
                     }}
@@ -783,7 +949,7 @@ export default function FinancialMetrics({data}) {
                     useMesh={true}
                     tooltip={({point}) => (
                         <div
-                            className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
+                            className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-96 max-w-md">
                             <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
                                 {point.data.location} {point.data.x}
                             </div>
@@ -796,13 +962,79 @@ export default function FinancialMetrics({data}) {
                                     <span className="text-gray-900 dark:text-gray-100">{point.data.metric}</span>
                                 </div>
                                 <div className="flex justify-between items-center">
-                                    <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
+                                    <span
+                                        className="font-medium text-gray-700 dark:text-gray-300">Absolute Value:</span>
                                     <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                            {point.data.unit.includes('M') ?
-                                                `${point.data.yFormatted} ${point.data.unit}` :
-                                                `${parseInt(point.data.rawValue).toLocaleString()}`
-                                            }
-                                        </span>
+                                        {point.data.absoluteValue.toFixed(2)} M USD 2018
+                                    </span>
+                                </div>
+
+                                {/* Counts Section */}
+                                <div className="border-t border-gray-200 dark:border-gray-600 pt-2 mt-3">
+                                    <div
+                                        className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                        Olympic Counts
+                                    </div>
+                                    <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Athletes:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.counts.athletes.toLocaleString()}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Events:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.counts.events.toLocaleString()}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Countries:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.counts.countries.toLocaleString()}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Media:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.counts.media.toLocaleString()}
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Normalized Values Section */}
+                                <div className="border-t border-gray-200 dark:border-gray-600 pt-2 mt-3">
+                                    <div
+                                        className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                        Normalized Values (M USD 2018)
+                                    </div>
+                                    <div className="space-y-1 text-sm">
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Per Athlete:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.normalizedValues.perAthlete.toFixed(4)}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Per Event:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.normalizedValues.perEvent.toFixed(4)}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Per Country:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.normalizedValues.perCountry.toFixed(4)}
+                                            </span>
+                                        </div>
+                                        <div className="flex justify-between">
+                                            <span className="text-gray-600 dark:text-gray-400">Per Media:</span>
+                                            <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                {point.data.normalizedValues.perMedia.toFixed(4)}
+                                            </span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -962,7 +1194,7 @@ export default function FinancialMetrics({data}) {
                             tickSize: 5,
                             tickPadding: 5,
                             tickRotation: 0,
-                            legend: 'Value (M USD 2018)',
+                            legend: dataMode === 'normalized' ? `Value per ${normalizationPer.charAt(0).toUpperCase() + normalizationPer.slice(1)} (M USD 2018)` : 'Value (M USD 2018)',
                             legendOffset: -50,
                             legendPosition: 'middle'
                         }}
@@ -982,34 +1214,145 @@ export default function FinancialMetrics({data}) {
                         enablePointLabel={false}
                         pointLabelYOffset={-12}
                         useMesh={true}
-                        tooltip={({point}) => (
-                            <div
-                                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
-                                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
-                                    {point.data.location} {point.data.x}
-                                </div>
-                                <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-                                    {point.data.season} Olympics
-                                </div>
-                                <div className="space-y-2">
-                                    <div className="flex justify-between items-center">
-                                        <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
-                                        <span className="text-gray-900 dark:text-gray-100">{point.serieId}</span>
+                        tooltip={({point}) => {
+                            // Determine which metric we're showing
+                            const serieId = point.serieId || point.serie?.id || point.id || '';
+                            console.log('Tooltip debug:', {point, serieId, serieObject: point.serie});
+
+                            const metricType = serieId.toLowerCase().includes('cost') ? 'cost' :
+                                serieId.toLowerCase().includes('revenue') ? 'revenue' : 'profit';
+
+                            // Clean up the display name - extract base metric type
+                            let displayType = '';
+                            if (serieId.toLowerCase().includes('cost')) {
+                                displayType = 'Total Costs';
+                            } else if (serieId.toLowerCase().includes('revenue')) {
+                                displayType = 'Total Revenue';
+                            } else if (serieId.toLowerCase().includes('profit')) {
+                                displayType = 'Total Profit';
+                            } else {
+                                displayType = serieId || 'Unknown'; // fallback to original or Unknown
+                            }
+
+                            return (
+                                <div
+                                    className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-96 max-w-md">
+                                    <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                                        {point.data.location} {point.data.x}
                                     </div>
-                                    <div className="flex justify-between items-center">
-                                        <span className="font-medium text-gray-700 dark:text-gray-300">Value:</span>
-                                        <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                            {point.data.yFormatted} M USD 2018
-                                        </span>
+                                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                                        {point.data.season} Olympics
                                     </div>
-                                    <div className="text-xs text-gray-500 dark:text-gray-400 mt-2">
-                                        Total Costs: {point.data.totalCost?.toFixed(2)} M USD 2018<br/>
-                                        Total Revenue: {point.data.totalRevenue?.toFixed(2)} M USD 2018<br/>
-                                        Total Profit: {point.data.totalProfit?.toFixed(2)} M USD 2018
+                                    <div className="space-y-2">
+                                        <div className="flex justify-between items-center">
+                                            <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
+                                            <span className="text-gray-900 dark:text-gray-100">{displayType}</span>
+                                        </div>
+
+                                        {/* Absolute Values Section */}
+                                        <div className="border-t border-gray-200 dark:border-gray-600 pt-2 mt-3">
+                                            <div
+                                                className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                                Absolute Values (M USD 2018)
+                                            </div>
+                                            <div className="space-y-1 text-sm">
+                                                <div className="flex justify-between">
+                                                    <span
+                                                        className="text-gray-600 dark:text-gray-400">Total Costs:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.absoluteTotalCost?.toFixed(2)}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span
+                                                        className="text-gray-600 dark:text-gray-400">Total Revenue:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.absoluteTotalRevenue?.toFixed(2)}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span
+                                                        className="text-gray-600 dark:text-gray-400">Total Profit:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-bold">
+                                                        {point.data.absoluteTotalProfit?.toFixed(2)}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        {/* Counts Section */}
+                                        <div className="border-t border-gray-200 dark:border-gray-600 pt-2 mt-3">
+                                            <div
+                                                className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                                Olympic Counts
+                                            </div>
+                                            <div className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Athletes:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.counts.athletes.toLocaleString()}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Events:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.counts.events.toLocaleString()}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Countries:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.counts.countries.toLocaleString()}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Media:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.counts.media.toLocaleString()}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        {/* Normalized Values for Current Metric */}
+                                        <div className="border-t border-gray-200 dark:border-gray-600 pt-2 mt-3">
+                                            <div
+                                                className="text-xs font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wide mb-2">
+                                                {displayType} - Normalized Values (M USD 2018)
+                                            </div>
+                                            <div className="space-y-1 text-sm">
+                                                <div className="flex justify-between">
+                                                    <span
+                                                        className="text-gray-600 dark:text-gray-400">Per Athlete:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.normalizedValues[metricType].perAthlete.toFixed(4)}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Per Event:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.normalizedValues[metricType].perEvent.toFixed(4)}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span
+                                                        className="text-gray-600 dark:text-gray-400">Per Country:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.normalizedValues[metricType].perCountry.toFixed(4)}
+                                                    </span>
+                                                </div>
+                                                <div className="flex justify-between">
+                                                    <span className="text-gray-600 dark:text-gray-400">Per Media:</span>
+                                                    <span className="text-gray-900 dark:text-gray-100 font-medium">
+                                                        {point.data.normalizedValues[metricType].perMedia.toFixed(4)}
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        )}
+                            );
+                        }}
                         legends={[]}
                         theme={{
                             background: 'transparent',

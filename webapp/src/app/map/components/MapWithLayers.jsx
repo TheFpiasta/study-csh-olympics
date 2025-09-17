@@ -35,11 +35,14 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   const [isDragging, setIsDragging] = useState(false);
   const [showCharts, setShowCharts] = useState(false);
   const [showStatusPanel, setShowStatusPanel] = useState(false);
+  const [filterMode, setFilterMode] = useState('status'); // 'status' or 'sports'
   const [selectedStatuses, setSelectedStatuses] = useState(new Set([
     'In use', 'In use (rebuilt)', 'In use (repurposed)', 'In use (seasonal)', 'In use (limited)',
     'Not in use', 'Not in use (demolished)', 'Dismantled (temporary)', 'Dismantled (seasonal)',
     'No status data'
   ])); // All statuses selected by default
+  const [selectedSports, setSelectedSports] = useState(new Set()); // Will be populated when geojsonData is available
+  const [availableSports, setAvailableSports] = useState([]); // Cached sports for current dataset
 
   // Available status categories with colors
   const statusColors = {
@@ -233,18 +236,53 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     }
   }, [selectedOlympics, timelineMode, isHydrated]);
 
-  // Create filtered GeoJSON data based on selected statuses
+  // Create filtered GeoJSON data based on BOTH selected statuses AND sports (simultaneous filtering)
   const filteredGeojsonData = React.useMemo(() => {
     if (!geojsonData || !geojsonData.features) return geojsonData;
     
     return {
       ...geojsonData,
       features: geojsonData.features.filter(feature => {
+        // Apply status filter
         const status = feature.properties.status || 'No status data';
-        return selectedStatuses.has(status);
+        const statusMatch = selectedStatuses.has(status);
+        
+        // Apply sports filter
+        const sports = feature.properties.sports;
+        let sportsMatch = true; // Default to true if no sports filter is applied
+        
+        if (selectedSports.size > 0 && selectedSports.size < availableSports.length) {
+          // Only apply sports filter if some (but not all) sports are selected
+          if (!sports) {
+            sportsMatch = false;
+          } else {
+            let sportsArray = [];
+            if (Array.isArray(sports)) {
+              sportsArray = sports;
+            } else if (typeof sports === 'string') {
+              try {
+                const parsed = JSON.parse(sports);
+                sportsArray = Array.isArray(parsed) ? parsed : [sports];
+              } catch {
+                sportsArray = [sports];
+              }
+            }
+            
+            // Check if any of the venue's sports are selected
+            sportsMatch = sportsArray.some(sport => selectedSports.has(sport.trim()));
+          }
+        }
+        
+        // Both filters must pass (AND logic)
+        return statusMatch && sportsMatch;
       })
     };
-  }, [geojsonData, selectedStatuses]);
+  }, [geojsonData, selectedStatuses, selectedSports, availableSports]);
+
+  // Helper functions to detect active filters (when not all items are selected)
+  const isStatusFilterActive = selectedStatuses.size < Object.keys(statusColors).length;
+  const isSportsFilterActive = selectedSports.size > 0 && selectedSports.size < availableSports.length;
+  const isAnyFilterActive = isStatusFilterActive || isSportsFilterActive;
 
   // Notify parent component when data changes
   useEffect(() => {
@@ -417,7 +455,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     return () => {
       document.removeEventListener('mousedown', handleClickOutside);
     };
-  }, [showLayerPanel, showOlympicsPanel]);
+  }, [showLayerPanel, showOlympicsPanel, showStatusPanel]);
 
   const loadOlympicsData = async (olympicsId) => {
     setLoading(true);
@@ -458,14 +496,66 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
             latitude: olympics.center[1],
             zoom: olympics.zoom
           }));
+          // Set loading to false after map animation and processing is complete
+          setTimeout(() => setLoading(false), 500); // Additional delay for map rendering
         }, 2500); // After animation completes
+      } else {
+        // If no map animation, still wait a bit for processing
+        setTimeout(() => setLoading(false), 1000);
       }
     } catch (error) {
       console.error('Error loading Olympics data:', error);
-    } finally {
       setLoading(false);
     }
   };
+
+  // Function to extract all unique sports from geojson data - optimized to return sorted array
+  const extractUniqueSports = (geojsonData) => {
+    if (!geojsonData || !geojsonData.features) return [];
+    
+    const sportsSet = new Set();
+    
+    geojsonData.features.forEach(feature => {
+      const sports = feature.properties.sports;
+      if (sports) {
+        let sportsArray = [];
+        
+        if (Array.isArray(sports)) {
+          sportsArray = sports;
+        } else if (typeof sports === 'string') {
+          try {
+            const parsed = JSON.parse(sports);
+            sportsArray = Array.isArray(parsed) ? parsed : [sports];
+          } catch {
+            sportsArray = [sports];
+          }
+        }
+        
+        sportsArray.forEach(sport => {
+          if (sport && sport.trim()) {
+            sportsSet.add(sport.trim());
+          }
+        });
+      }
+    });
+    
+    return Array.from(sportsSet).sort(); // Return sorted array for consistent UI
+  };
+
+  // Cache sports data and initialize selectedSports when geojsonData changes
+  useEffect(() => {
+    if (geojsonData) {
+      console.log('Extracting sports for new dataset...'); // Debug log
+      const sports = extractUniqueSports(geojsonData);
+      setAvailableSports(sports); // Cache the sports array
+      setSelectedSports(new Set(sports)); // Select all sports by default
+      console.log(`Cached ${sports.length} unique sports`); // Debug log
+    } else {
+      // Clear cache when no data
+      setAvailableSports([]);
+      setSelectedSports(new Set());
+    }
+  }, [geojsonData]); // Only run when geojsonData changes (Olympics change or multi-game mode)
 
   const handleOlympicsChange = (olympicsId) => {
     setSelectedOlympics(olympicsId);
@@ -550,12 +640,19 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
               latitude: centerLat,
               zoom: 3
             }));
+            // Extended loading for multi-game processing
+            setTimeout(() => setLoading(false), 1000); // Wait for map rendering and sports processing
           }, 2500);
+        } else {
+          // No map animation, but still wait for processing
+          setTimeout(() => setLoading(false), 1500);
         }
+      } else {
+        // No games to center on, but still wait for processing
+        setTimeout(() => setLoading(false), 1000);
       }
     } catch (error) {
       console.error('Error loading filtered Olympics data:', error);
-    } finally {
       setLoading(false);
     }
   };
@@ -1097,16 +1194,21 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
           </svg>
         </button>
 
-        {/* Status Filter Control Button */}
+        {/* Filter Control Button */}
         <button
           data-panel="status-button"
           onClick={() => setShowStatusPanel(!showStatusPanel)}
-          className="block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
-          title="Filter venues by status"
+          className="relative block p-3 transition-all duration-300 shadow-lg glass rounded-xl hover:scale-105"
+          title="Filter venues by status and sports"
         >
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-gray-700 dark:text-gray-300">
             <polygon points="22,3 2,3 10,12.46 10,19 14,21 14,12.46"></polygon>
           </svg>
+          
+          {/* Active filter indicator */}
+          {isAnyFilterActive && (
+            <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+          )}
         </button>
 
         {/* Charts Control Button */}
@@ -1286,91 +1388,197 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
             
             {loading && (
               <div className="pt-3 mt-3 text-xs text-blue-600 border-t border-gray-200 dark:border-gray-600 dark:text-blue-400">
-                <p>Loading Olympic venues...</p>
+                <div className="flex items-center justify-center gap-2">
+                  <svg className="w-4 h-4 animate-spin" viewBox="0 0 24 24" fill="none">
+                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                    <path className="opacity-75" fill="currentColor" d="m4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                  </svg>
+                  <p>Loading Olympic venues...</p>
+                </div>
               </div>
             )}
           </div>
         )}
 
-        {/* Status Filter Panel */}
+        {/* Filter Panel */}
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
             className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 w-80 max-h-96"
           >
             <div className="flex items-center justify-between mb-3">
-              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Filter by Status</h3>
-              <button
-                onClick={() => setShowStatusPanel(false)}
-                className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
-              >
-                ✕
-              </button>
-            </div>
-            
-            <div className="mb-3 space-x-2">
-              <button
-                onClick={() => setSelectedStatuses(new Set(Object.keys(statusColors)))}
-                className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
-              >
-                Select All
-              </button>
-              <button
-                onClick={() => setSelectedStatuses(new Set())}
-                className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
-              >
-                Clear All
-              </button>
-            </div>
-            
-            <div className="pr-1 space-y-1 overflow-y-auto max-h-48">
-              {Object.entries(statusColors).map(([status, color]) => (
-                <div 
-                  key={status} 
-                  className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
-                  onClick={() => {
-                    const newSelected = new Set(selectedStatuses);
-                    if (selectedStatuses.has(status)) {
-                      newSelected.delete(status);
-                    } else {
-                      newSelected.add(status);
-                    }
-                    setSelectedStatuses(newSelected);
-                  }}
-                >
-                  <div className="flex items-center space-x-2.5">
-                    <div 
-                      className="flex-shrink-0 w-3.5 h-3.5 border-2 border-gray-300 rounded-full shadow-sm dark:border-gray-600"
-                      style={{ backgroundColor: color }}
-                    />
-                    <span className="text-sm font-medium leading-tight text-gray-700 dark:text-gray-300">
-                      {status}
-                    </span>
-                  </div>
-                  
-                  {/* Custom Toggle Switch with Smooth Animation */}
-                  <div
-                    className={`relative w-9 h-5 rounded-full transition-all duration-300 ease-in-out ${
-                      selectedStatuses.has(status)
-                        ? 'bg-gradient-to-r from-green-400 to-green-500 shadow-inner'
-                        : 'bg-gray-300 dark:bg-gray-600 shadow-inner'
+              <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">
+                Filter Venues
+              </h3>
+              
+              <div className="flex items-center gap-2">
+                {/* Switch between Status and Sports */}
+                <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                  <button
+                    onClick={() => setFilterMode('status')}
+                    className={`px-2 py-1 text-xs font-medium rounded-md transition-all duration-200 ease-in-out transform ${
+                      filterMode === 'status'
+                        ? 'bg-emerald-500 text-white shadow-sm scale-105'
+                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600'
                     }`}
                   >
-                    <div
-                      className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-all duration-300 ease-in-out ${
-                        selectedStatuses.has(status) ? 'translate-x-4' : 'translate-x-0'
-                      }`}
-                    />
-                  </div>
+                    Status
+                  </button>
+                  <button
+                    onClick={() => setFilterMode('sports')}
+                    className={`px-2 py-1 text-xs font-medium rounded-md transition-all duration-200 ease-in-out transform ${
+                      filterMode === 'sports'
+                        ? 'bg-emerald-500 text-white shadow-sm scale-105'
+                        : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 hover:bg-gray-200 dark:hover:bg-gray-600'
+                    }`}
+                  >
+                    Sports
+                  </button>
                 </div>
-              ))}
+                
+                <button
+                  onClick={() => setShowStatusPanel(false)}
+                  className="p-1 text-gray-400 transition-all rounded dark:text-gray-500 hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                >
+                  ✕
+                </button>
+              </div>
             </div>
+            
+            {filterMode === 'status' ? (
+              <>
+                <div className="mb-3 space-x-2">
+                  <button
+                    onClick={() => setSelectedStatuses(new Set(Object.keys(statusColors)))}
+                    className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
+                  >
+                    Select All
+                  </button>
+                  <button
+                    onClick={() => setSelectedStatuses(new Set())}
+                    className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
+                  >
+                    Clear All
+                  </button>
+                </div>
+                
+                <div className="pr-1 space-y-1 overflow-y-auto max-h-48">
+                  {Object.entries(statusColors).map(([status, color]) => (
+                    <div 
+                      key={status} 
+                      className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
+                      onClick={() => {
+                        const newSelected = new Set(selectedStatuses);
+                        if (selectedStatuses.has(status)) {
+                          newSelected.delete(status);
+                        } else {
+                          newSelected.add(status);
+                        }
+                        setSelectedStatuses(newSelected);
+                      }}
+                    >
+                      <div className="flex items-center space-x-2.5">
+                        <div 
+                          className="flex-shrink-0 w-3.5 h-3.5 border-2 border-gray-300 rounded-full shadow-sm dark:border-gray-600"
+                          style={{ backgroundColor: color }}
+                        />
+                        <span className="text-sm font-medium leading-tight text-gray-700 dark:text-gray-300">
+                          {status}
+                        </span>
+                      </div>
+                      
+                      {/* Custom Toggle Switch with Smooth Animation */}
+                      <div
+                        className={`relative w-9 h-5 rounded-full transition-all duration-300 ease-in-out ${
+                          selectedStatuses.has(status)
+                            ? 'bg-gradient-to-r from-green-400 to-green-500 shadow-inner'
+                            : 'bg-gray-300 dark:bg-gray-600 shadow-inner'
+                        }`}
+                      >
+                        <div
+                          className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-all duration-300 ease-in-out ${
+                            selectedStatuses.has(status) ? 'translate-x-4' : 'translate-x-0'
+                          }`}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="mb-3 space-x-2">
+                  <button
+                    onClick={() => {
+                      setSelectedSports(new Set(availableSports));
+                    }}
+                    className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
+                  >
+                    Select All
+                  </button>
+                  <button
+                    onClick={() => setSelectedSports(new Set())}
+                    className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
+                  >
+                    Clear All
+                  </button>
+                </div>
+                
+                <div className="pr-1 space-y-1 overflow-y-auto max-h-48">
+                  {availableSports.map((sport) => (
+                    <div 
+                      key={sport} 
+                      className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
+                      onClick={() => {
+                        const newSelected = new Set(selectedSports);
+                        if (selectedSports.has(sport)) {
+                          newSelected.delete(sport);
+                        } else {
+                          newSelected.add(sport);
+                        }
+                        setSelectedSports(newSelected);
+                      }}
+                    >
+                      <div className="flex items-center space-x-2.5">
+                        <div 
+                          className="flex-shrink-0 w-3.5 h-3.5 border-2 border-gray-300 rounded-full shadow-sm dark:border-gray-600 bg-blue-500"
+                        />
+                        <span className="text-sm font-medium leading-tight text-gray-700 dark:text-gray-300">
+                          {sport}
+                        </span>
+                      </div>
+                      
+                      {/* Custom Toggle Switch with Smooth Animation */}
+                      <div
+                        className={`relative w-9 h-5 rounded-full transition-all duration-300 ease-in-out ${
+                          selectedSports.has(sport)
+                            ? 'bg-gradient-to-r from-green-400 to-green-500 shadow-inner'
+                            : 'bg-gray-300 dark:bg-gray-600 shadow-inner'
+                        }`}
+                      >
+                        <div
+                          className={`absolute top-0.5 left-0.5 w-4 h-4 bg-white rounded-full shadow-md transform transition-all duration-300 ease-in-out ${
+                            selectedSports.has(sport) ? 'translate-x-4' : 'translate-x-0'
+                          }`}
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </>
+            )}
             
             {geojsonData && (
               <div className="p-3 pt-4 mt-4 text-xs text-gray-600 border-t border-gray-200 rounded-lg dark:border-gray-600 dark:text-gray-400 bg-gray-50 dark:bg-gray-800/30">
                 <p className="font-medium text-center">
                   Showing <span className="text-green-600 dark:text-green-400">{filteredGeojsonData?.features?.length || 0}</span> of <span className="text-gray-800 dark:text-gray-200">{geojsonData.features.length}</span> venues
                 </p>
+                {(isStatusFilterActive || isSportsFilterActive) && (
+                  <p className="mt-1 text-center text-xs">
+                    {isStatusFilterActive && isSportsFilterActive ? 'Status & Sports filters active' :
+                     isStatusFilterActive ? 'Status filter active' : 'Sports filter active'}
+                  </p>
+                )}
               </div>
             )}
           </div>
@@ -1393,11 +1601,28 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                 {timelineMode ? (
                   <span className="text-blue-600 dark:text-blue-400">
                     {filteredGames.length} games selected
-                    {loading && <span className="ml-1 text-gray-500">Loading...</span>}
+                    {loading && (
+                      <span className="ml-2 inline-flex items-center gap-1 text-gray-500">
+                        <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="m4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Loading...
+                      </span>
+                    )}
                   </span>
                 ) : (
-                  <span className="text-gray-500 dark:text-gray-400">
+                  <span className="text-gray-500 dark:text-gray-400 flex items-center gap-2">
                     Single game mode
+                    {loading && (
+                      <span className="inline-flex items-center gap-1 text-blue-500">
+                        <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
+                          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                          <path className="opacity-75" fill="currentColor" d="m4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                        Loading...
+                      </span>
+                    )}
                   </span>
                 )}
               </div>

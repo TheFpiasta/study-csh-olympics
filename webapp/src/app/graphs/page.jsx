@@ -2,12 +2,15 @@
 
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
+import OlympicLineChart from "@/app/graphs/components/OlympicLineChart";
+import CostAnalysis from "@/app/graphs/components/CostAnalysis";
+import ScatterPlot from "@/app/graphs/components/ScatterPlot";
 import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
 import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
-import CostAndProfitabilityAnalyses from "@/app/graphs/components/CostAndProfitabilityAnalyses";
+import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -85,6 +88,21 @@ export default function GraphsPage() {
             {/* Temporal Analysis Dashboard */}
             <div className="mx-4 mb-8">
                 <TemporalAnalysis geojsonData={geojsonData} />
+            </div>
+
+            {/* Athletes, Events and Countries Dashboard */}
+            <div className="mx-4 mb-8">
+                <OlympicLineChart geojsonData={geojsonData} />
+            </div>
+
+            {/* Cost Analysis Dashboard */}
+            <div className="mx-4 mb-8">
+                <CostAnalysis geojsonData={geojsonData} />
+            </div>
+
+            {/* Scatter Plot Dashboard */}
+            <div className="mx-4 mb-8">
+                {<ScatterPlot geojsonData={geojsonData} /> }
             </div>
 
             {/* Geographic Analysis Dashboard */}

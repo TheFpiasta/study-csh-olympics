@@ -46,7 +46,7 @@
     --olympic-red-3:           #F0282D;
     --olympic-red-4:           #FF555F;
     --olympic-red-5:           #FF9196;
-    --olympic-red6:           #FFC7C9;
+    --olympic-red-6:           #FFC7C9;
 
     /* Extended Black */
     --olympic-black-1:         #000000;
@@ -369,3 +369,191 @@
   border-radius: 1px;
   transition: all 0.2s ease;
 }
+
+/* Olympic Color Utility Classes */
+
+/* Primary Colors - Background */
+.bg-olympic-blue-primary { background-color: var(--olympic-blue-primary); }
+.bg-olympic-yellow-primary { background-color: var(--olympic-yellow-primary); }
+.bg-olympic-black-primary { background-color: var(--olympic-black-primary); }
+.bg-olympic-green-primary { background-color: var(--olympic-green-primary); }
+.bg-olympic-red-primary { background-color: var(--olympic-red-primary); }
+.bg-olympic-white-primary { background-color: var(--olympic-white-primary); }
+
+/* Primary Colors - Text */
+.text-olympic-blue-primary { color: var(--olympic-blue-primary); }
+.text-olympic-yellow-primary { color: var(--olympic-yellow-primary); }
+.text-olympic-black-primary { color: var(--olympic-black-primary); }
+.text-olympic-green-primary { color: var(--olympic-green-primary); }
+.text-olympic-red-primary { color: var(--olympic-red-primary); }
+.text-olympic-white-primary { color: var(--olympic-white-primary); }
+
+/* Primary Colors - Border */
+.border-olympic-blue-primary { border-color: var(--olympic-blue-primary); }
+.border-olympic-yellow-primary { border-color: var(--olympic-yellow-primary); }
+.border-olympic-black-primary { border-color: var(--olympic-black-primary); }
+.border-olympic-green-primary { border-color: var(--olympic-green-primary); }
+.border-olympic-red-primary { border-color: var(--olympic-red-primary); }
+.border-olympic-white-primary { border-color: var(--olympic-white-primary); }
+
+/* Medal Colors - Background */
+.bg-olympic-medal-gold { background-color: var(--olympic-medal-gold); }
+.bg-olympic-medal-silver { background-color: var(--olympic-medal-silver); }
+.bg-olympic-medal-bronze { background-color: var(--olympic-medal-bronze); }
+
+/* Medal Colors - Text */
+.text-olympic-medal-gold { color: var(--olympic-medal-gold); }
+.text-olympic-medal-silver { color: var(--olympic-medal-silver); }
+.text-olympic-medal-bronze { color: var(--olympic-medal-bronze); }
+
+/* Medal Colors - Border */
+.border-olympic-medal-gold { border-color: var(--olympic-medal-gold); }
+.border-olympic-medal-silver { border-color: var(--olympic-medal-silver); }
+.border-olympic-medal-bronze { border-color: var(--olympic-medal-bronze); }
+
+/* Extended Blue Colors - Background */
+.bg-olympic-blue-1 { background-color: var(--olympic-blue-1); }
+.bg-olympic-blue-2 { background-color: var(--olympic-blue-2); }
+.bg-olympic-blue-3 { background-color: var(--olympic-blue-3); }
+.bg-olympic-blue-4 { background-color: var(--olympic-blue-4); }
+.bg-olympic-blue-5 { background-color: var(--olympic-blue-5); }
+.bg-olympic-blue-6 { background-color: var(--olympic-blue-6); }
+
+/* Extended Blue Colors - Text */
+.text-olympic-blue-1 { color: var(--olympic-blue-1); }
+.text-olympic-blue-2 { color: var(--olympic-blue-2); }
+.text-olympic-blue-3 { color: var(--olympic-blue-3); }
+.text-olympic-blue-4 { color: var(--olympic-blue-4); }
+.text-olympic-blue-5 { color: var(--olympic-blue-5); }
+.text-olympic-blue-6 { color: var(--olympic-blue-6); }
+
+/* Extended Blue Colors - Border */
+.border-olympic-blue-1 { border-color: var(--olympic-blue-1); }
+.border-olympic-blue-2 { border-color: var(--olympic-blue-2); }
+.border-olympic-blue-3 { border-color: var(--olympic-blue-3); }
+.border-olympic-blue-4 { border-color: var(--olympic-blue-4); }
+.border-olympic-blue-5 { border-color: var(--olympic-blue-5); }
+.border-olympic-blue-6 { border-color: var(--olympic-blue-6); }
+
+/* Extended Yellow Colors - Background */
+.bg-olympic-yellow-1 { background-color: var(--olympic-yellow-1); }
+.bg-olympic-yellow-2 { background-color: var(--olympic-yellow-2); }
+.bg-olympic-yellow-3 { background-color: var(--olympic-yellow-3); }
+.bg-olympic-yellow-4 { background-color: var(--olympic-yellow-4); }
+.bg-olympic-yellow-5 { background-color: var(--olympic-yellow-5); }
+.bg-olympic-yellow-6 { background-color: var(--olympic-yellow-6); }
+
+/* Extended Yellow Colors - Text */
+.text-olympic-yellow-1 { color: var(--olympic-yellow-1); }
+.text-olympic-yellow-2 { color: var(--olympic-yellow-2); }
+.text-olympic-yellow-3 { color: var(--olympic-yellow-3); }
+.text-olympic-yellow-4 { color: var(--olympic-yellow-4); }
+.text-olympic-yellow-5 { color: var(--olympic-yellow-5); }
+.text-olympic-yellow-6 { color: var(--olympic-yellow-6); }
+
+/* Extended Yellow Colors - Border */
+.border-olympic-yellow-1 { border-color: var(--olympic-yellow-1); }
+.border-olympic-yellow-2 { border-color: var(--olympic-yellow-2); }
+.border-olympic-yellow-3 { border-color: var(--olympic-yellow-3); }
+.border-olympic-yellow-4 { border-color: var(--olympic-yellow-4); }
+.border-olympic-yellow-5 { border-color: var(--olympic-yellow-5); }
+.border-olympic-yellow-6 { border-color: var(--olympic-yellow-6); }
+
+/* Extended Green Colors - Background */
+.bg-olympic-green-1 { background-color: var(--olympic-green-1); }
+.bg-olympic-green-2 { background-color: var(--olympic-green-2); }
+.bg-olympic-green-3 { background-color: var(--olympic-green-3); }
+.bg-olympic-green-4 { background-color: var(--olympic-green-4); }
+.bg-olympic-green-5 { background-color: var(--olympic-green-5); }
+.bg-olympic-green-6 { background-color: var(--olympic-green-6); }
+
+/* Extended Green Colors - Text */
+.text-olympic-green-1 { color: var(--olympic-green-1); }
+.text-olympic-green-2 { color: var(--olympic-green-2); }
+.text-olympic-green-3 { color: var(--olympic-green-3); }
+.text-olympic-green-4 { color: var(--olympic-green-4); }
+.text-olympic-green-5 { color: var(--olympic-green-5); }
+.text-olympic-green-6 { color: var(--olympic-green-6); }
+
+/* Extended Green Colors - Border */
+.border-olympic-green-1 { border-color: var(--olympic-green-1); }
+.border-olympic-green-2 { border-color: var(--olympic-green-2); }
+.border-olympic-green-3 { border-color: var(--olympic-green-3); }
+.border-olympic-green-4 { border-color: var(--olympic-green-4); }
+.border-olympic-green-5 { border-color: var(--olympic-green-5); }
+.border-olympic-green-6 { border-color: var(--olympic-green-6); }
+
+/* Extended Red Colors - Background */
+.bg-olympic-red-1 { background-color: var(--olympic-red-1); }
+.bg-olympic-red-2 { background-color: var(--olympic-red-2); }
+.bg-olympic-red-3 { background-color: var(--olympic-red-3); }
+.bg-olympic-red-4 { background-color: var(--olympic-red-4); }
+.bg-olympic-red-5 { background-color: var(--olympic-red-5); }
+.bg-olympic-red-6 { background-color: var(--olympic-red-6); }
+
+/* Extended Red Colors - Text */
+.text-olympic-red-1 { color: var(--olympic-red-1); }
+.text-olympic-red-2 { color: var(--olympic-red-2); }
+.text-olympic-red-3 { color: var(--olympic-red-3); }
+.text-olympic-red-4 { color: var(--olympic-red-4); }
+.text-olympic-red-5 { color: var(--olympic-red-5); }
+.text-olympic-red-6 { color: var(--olympic-red-6); }
+
+/* Extended Red Colors - Border */
+.border-olympic-red-1 { border-color: var(--olympic-red-1); }
+.border-olympic-red-2 { border-color: var(--olympic-red-2); }
+.border-olympic-red-3 { border-color: var(--olympic-red-3); }
+.border-olympic-red-4 { border-color: var(--olympic-red-4); }
+.border-olympic-red-5 { border-color: var(--olympic-red-5); }
+.border-olympic-red-6 { border-color: var(--olympic-red-6); }
+
+/* Extended Black Colors - Background */
+.bg-olympic-black-1 { background-color: var(--olympic-black-1); }
+.bg-olympic-black-2 { background-color: var(--olympic-black-2); }
+.bg-olympic-black-3 { background-color: var(--olympic-black-3); }
+.bg-olympic-black-4 { background-color: var(--olympic-black-4); }
+.bg-olympic-black-5 { background-color: var(--olympic-black-5); }
+.bg-olympic-black-6 { background-color: var(--olympic-black-6); }
+
+/* Extended Black Colors - Text */
+.text-olympic-black-1 { color: var(--olympic-black-1); }
+.text-olympic-black-2 { color: var(--olympic-black-2); }
+.text-olympic-black-3 { color: var(--olympic-black-3); }
+.text-olympic-black-4 { color: var(--olympic-black-4); }
+.text-olympic-black-5 { color: var(--olympic-black-5); }
+.text-olympic-black-6 { color: var(--olympic-black-6); }
+
+/* Extended Black Colors - Border */
+.border-olympic-black-1 { border-color: var(--olympic-black-1); }
+.border-olympic-black-2 { border-color: var(--olympic-black-2); }
+.border-olympic-black-3 { border-color: var(--olympic-black-3); }
+.border-olympic-black-4 { border-color: var(--olympic-black-4); }
+.border-olympic-black-5 { border-color: var(--olympic-black-5); }
+.border-olympic-black-6 { border-color: var(--olympic-black-6); }
+
+/* Legacy Olympic Colors - Background */
+.bg-olympic-blue { background-color: var(--olympic-blue); }
+.bg-olympic-yellow { background-color: var(--olympic-yellow); }
+.bg-olympic-black { background-color: var(--olympic-black); }
+.bg-olympic-green { background-color: var(--olympic-green); }
+.bg-olympic-red { background-color: var(--olympic-red); }
+
+/* Legacy Olympic Colors - Text */
+.text-olympic-blue { color: var(--olympic-blue); }
+.text-olympic-yellow { color: var(--olympic-yellow); }
+.text-olympic-black { color: var(--olympic-black); }
+.text-olympic-green { color: var(--olympic-green); }
+.text-olympic-red { color: var(--olympic-red); }
+
+/* Legacy Olympic Colors - Border */
+.border-olympic-blue { border-color: var(--olympic-blue); }
+.border-olympic-yellow { border-color: var(--olympic-yellow); }
+.border-olympic-black { border-color: var(--olympic-black); }
+.border-olympic-green { border-color: var(--olympic-green); }
+.border-olympic-red { border-color: var(--olympic-red); }
+
+.hover-gradient:hover {
+  background-image: linear-gradient(to right, var(--hover-from), var(--hover-to));
+  color: white; /* ensures text stays readable */
+}
+

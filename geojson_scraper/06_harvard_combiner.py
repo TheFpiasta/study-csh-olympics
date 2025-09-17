@@ -84,10 +84,10 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
         with open(geojson_path, "r", encoding="utf-8") as f:
             geojson_data = json.load(f)
 
-        # Add the harvard field at the top level
+        # Add the harvard field at the top level as a list
         geojson_data["harvard"] = harvard_dict
 
-        # Prepare output filename
+        # Prepare output filenames
         safe_location = location.replace(" ", "_")
         output_filename = f"harvard_{year}_{safe_location}.geojson"
         final_filename = f"{year}_{safe_location}.geojson"
@@ -111,6 +111,7 @@ def find_matches(geojson_folder, excel_file, output_folder, final_dir):
             dst_path = os.path.join(final_dir, dst_filename)
             shutil.copy2(src_path, dst_path)
             print(f"[UNMATCHED] Copied {filename} to {dst_path}")
+
 
 # --- Setup paths ---
 base_dir = os.path.join(os.path.dirname(__file__), "04_combined_geojsons")

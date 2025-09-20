@@ -82,6 +82,9 @@ export async function GET() {
 
                         return {
                             ...feature,
+                            place: feature.properties.place || location.replace(/_/g, ' '),
+                            location: feature.properties.location || location.replace(/_/g, ' '),
+                            seating_capacity: feature.properties.seating_capacity || 'Unknown',
                             properties: {
                                 ...feature.properties,
                                 season: season

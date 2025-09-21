@@ -3,8 +3,9 @@
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
 import OlympicLineChart from "@/app/graphs/components/OlympicLineChart";
-import CostAnalysis from "@/app/graphs/components/CostAnalysis";
 import CapacityBoxPlot from "@/app/graphs/components/CapacityBoxPlot";
+import CostAnalysis from "@/app/graphs/components/CostAnalysis";
+import LongTermSankeyPlot from "@/app/graphs/components/LongTermSankeyPlot";
 import ScatterPlot from "@/app/graphs/components/ScatterPlot";
 import VenuePieChart from "@/app/graphs/components/VenuePieChart";
 import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
@@ -117,8 +118,14 @@ export default function GraphsPage() {
                 <VenuePieChart geojsonData={geojsonData} />
             </div>
 
+            {/* Capacity Box Plot Dashboard */}
             <div className="mx-4 mb-8">
                 <CapacityBoxPlot geojsonData={geojsonData} />
+            </div>
+
+            {/* Long Term Sankey Plot Dashboard*/}
+            <div className="mx-4 mb-8">
+                <LongTermSankeyPlot geojsonData={geojsonData} />
             </div>
 
             {/* Interactive Features Dashboard */}

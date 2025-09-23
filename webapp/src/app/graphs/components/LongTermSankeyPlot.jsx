@@ -175,6 +175,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
               nodeBorderColor={{ from: 'color', modifiers: [['darker', 0.5]] }}
               linkOpacity={0.7}
               linkHoverOthersOpacity={0.15}
+              linkContract={0.5}
               labelTextColor= "#ffffff"
               enableLinkGradient={true}
               linkTooltip={({ link }) => {

@@ -14,8 +14,16 @@ export default function FinancialScatterPlot({data}) {
     // Helper function to get value from Harvard data
     const getFieldValue = (harvardObj, fieldName) => {
         if (!harvardObj || !harvardObj[fieldName] || harvardObj[fieldName].data == null) return null;
-        const value = parseFloat(harvardObj[fieldName].data);
-        return isNaN(value) ? null : value;
+        let value = parseFloat(harvardObj[fieldName].data);
+        if (isNaN(value)) return null;
+
+        // Convert currency values to millions
+        const metric = availableMetrics.find(m => m.key === fieldName);
+        if (metric && metric.format === 'currency') {
+            value = value / 1000000;
+        }
+
+        return value;
     };
 
     // Initialize available metrics based on Harvard data
@@ -53,7 +61,9 @@ export default function FinancialScatterPlot({data}) {
 
                     // Add unit information if available
                     if (datum.format === 'currency' && datum.unit) {
-                        name = `${name} (${datum.unit} 2018)`;
+                        name = `${name} (M ${datum.unit} 2018)`;
+                    } else if (datum.format === 'currency') {
+                        name = `${name} (M USD 2018)`;
                     } else if (datum.unit) {
                         name = `${name} (${datum.unit})`;
                     }
@@ -166,6 +176,18 @@ export default function FinancialScatterPlot({data}) {
         return metric ? metric.name : metricKey.replace(/_/g, ' ');
     };
 
+    // Format value for display in tooltip
+    const formatValue = (value, metricKey) => {
+        if (typeof value !== 'number') return value;
+
+        const metric = availableMetrics.find(m => m.key === metricKey);
+        if (metric && metric.format === 'currency') {
+            return `${value.toLocaleString()} M`;
+        }
+
+        return value.toLocaleString();
+    };
+
     return (
         <div
             className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
@@ -178,88 +200,101 @@ export default function FinancialScatterPlot({data}) {
                 </h3>
             </div>
 
-            {/* Metric Selection Dropdowns */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        X-Axis Metric
-                    </label>
-                    <select
-                        value={xAxisMetric}
-                        onChange={(e) => setXAxisMetric(e.target.value)}
-                        className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
-                    >
-                        <option value="">Select X-Axis Metric</option>
-                        {availableMetrics.map(metric => (
-                            <option key={metric.key} value={metric.key}>
-                                {metric.name}
-                            </option>
-                        ))}
-                    </select>
-                </div>
-
-                <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                    <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Y-Axis Metric
-                    </label>
-                    <select
-                        value={yAxisMetric}
-                        onChange={(e) => setYAxisMetric(e.target.value)}
-                        className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
-                    >
-                        <option value="">Select Y-Axis Metric</option>
-                        {availableMetrics.map(metric => (
-                            <option key={metric.key} value={metric.key}>
-                                {metric.name}
-                            </option>
-                        ))}
-                    </select>
-                </div>
-            </div>
-
-            {/* Olympic Season Filter */}
-            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                    Olympic Season
-                </label>
-                <div className="flex flex-wrap gap-2">
-                    <button
-                        onClick={() => setSeasonFilter('both')}
-                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                            seasonFilter === 'both'
-                                ? 'bg-purple-500 text-white'
-                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                        }`}
-                    >
-                        Both
-                    </button>
-                    <button
-                        onClick={() => setSeasonFilter('summer')}
-                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                            seasonFilter === 'summer'
-                                ? 'bg-amber-500 text-white'
-                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                        }`}
-                    >
-                        Summer
-                    </button>
-                    <button
-                        onClick={() => setSeasonFilter('winter')}
-                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                            seasonFilter === 'winter'
-                                ? 'bg-cyan-500 text-white'
-                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                        }`}
-                    >
-                        Winter
-                    </button>
-                </div>
-            </div>
-
-            {/* Scatter Plot Chart */}
+            {/* Layout with filters on left and chart on right */}
             {scatterData.length > 0 && xAxisMetric && yAxisMetric ? (
                 <>
-                    <div className="h-96 chart-container">
+                    <div className="flex gap-6">
+                        {/* Filters - Left side */}
+                        <div className="w-1/4 space-y-4">
+                            {/* Olympic Season Filter - First */}
+                            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+                                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                    Olympic Season
+                                </label>
+                                <div className="flex flex-wrap gap-2">
+                                    <button
+                                        onClick={() => setSeasonFilter('both')}
+                                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                            seasonFilter === 'both'
+                                                ? 'bg-purple-500 text-white'
+                                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                        }`}
+                                    >
+                                        Both
+                                    </button>
+                                    <button
+                                        onClick={() => setSeasonFilter('summer')}
+                                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                            seasonFilter === 'summer'
+                                                ? 'bg-amber-500 text-white'
+                                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                        }`}
+                                    >
+                                        Summer
+                                    </button>
+                                    <button
+                                        onClick={() => setSeasonFilter('winter')}
+                                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                                            seasonFilter === 'winter'
+                                                ? 'bg-cyan-500 text-white'
+                                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                                        }`}
+                                    >
+                                        Winter
+                                    </button>
+                                </div>
+                            </div>
+
+                            {/* X and Y Axis Metrics - Side by side */}
+                            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
+                                <div className="grid grid-cols-1 gap-4">
+                                    {/* X-Axis Metric Selection */}
+                                    <div>
+                                        <label
+                                            className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                            X-Axis Metric
+                                        </label>
+                                        <select
+                                            value={xAxisMetric}
+                                            onChange={(e) => setXAxisMetric(e.target.value)}
+                                            className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                        >
+                                            <option value="">Select X-Axis Metric</option>
+                                            {availableMetrics.map(metric => (
+                                                <option key={metric.key} value={metric.key}>
+                                                    {metric.name}
+                                                </option>
+                                            ))}
+                                        </select>
+                                    </div>
+
+                                    {/* Y-Axis Metric Selection */}
+                                    <div>
+                                        <label
+                                            className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                            Y-Axis Metric
+                                        </label>
+                                        <select
+                                            value={yAxisMetric}
+                                            onChange={(e) => setYAxisMetric(e.target.value)}
+                                            className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                                        >
+                                            <option value="">Select Y-Axis Metric</option>
+                                            {availableMetrics.map(metric => (
+                                                <option key={metric.key} value={metric.key}>
+                                                    {metric.name}
+                                                </option>
+                                            ))}
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Chart - Right side */}
+                        <div className="w-3/4 flex flex-col items-center">
+                            <div style={{height: '80vh', width: '80vh'}}>
+                                <div className="w-full h-full chart-container">
                         <style jsx>{`
                             .chart-container :global(text) {
                                 fill: #d1d5db !important;
@@ -272,9 +307,9 @@ export default function FinancialScatterPlot({data}) {
                             xScale={{type: 'linear', min: 'auto', max: 'auto'}}
                             yScale={{type: 'linear', min: 'auto', max: 'auto'}}
                             nodeSize={12}
-                            colors={(serie) => {
-                                if (serie.id && serie.id.includes('Summer')) return getPointColor('Summer');
-                                if (serie.id && serie.id.includes('Winter')) return getPointColor('Winter');
+                            colors={({serieId}) => {
+                                if (serieId && serieId.includes('Summer')) return getPointColor('Summer');
+                                if (serieId && serieId.includes('Winter')) return getPointColor('Winter');
                                 return getPointColor(seasonFilter === 'summer' ? 'Summer' : 'Winter');
                             }}
                             blendMode="normal"
@@ -313,7 +348,7 @@ export default function FinancialScatterPlot({data}) {
                                                 {getMetricDisplayName(xAxisMetric)}:
                                             </span>
                                             <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                                {typeof node.data.x === 'number' ? node.data.x.toLocaleString() : node.data.x}
+                                                {formatValue(node.data.x, xAxisMetric)}
                                             </span>
                                         </div>
                                         <div className="flex justify-between items-center">
@@ -321,7 +356,7 @@ export default function FinancialScatterPlot({data}) {
                                                 {getMetricDisplayName(yAxisMetric)}:
                                             </span>
                                             <span className="text-gray-900 dark:text-gray-100 font-bold">
-                                                {typeof node.data.y === 'number' ? node.data.y.toLocaleString() : node.data.y}
+                                                {formatValue(node.data.y, yAxisMetric)}
                                             </span>
                                         </div>
                                     </div>
@@ -364,12 +399,12 @@ export default function FinancialScatterPlot({data}) {
                                 }
                             }}
                         />
-                    </div>
+                                </div>
+                            </div>
 
-                    {/* Custom Legend - Only show when "both" is selected */}
-                    {seasonFilter === 'both' && (
-                        <div className="flex flex-col items-center mt-4 gap-4">
-                            <div className="flex flex-col items-center gap-2">
+                            {/* Custom Legend - Only show when "both" is selected */}
+                            {seasonFilter === 'both' && (
+                                <div className="flex flex-col items-center mt-4 gap-2">
                                 <span
                                     className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                     Olympic Seasons
@@ -395,8 +430,9 @@ export default function FinancialScatterPlot({data}) {
                                     </div>
                                 </div>
                             </div>
+                            )}
                         </div>
-                    )}
+                    </div>
                 </>
             ) : (
                 <div className="h-96 flex items-center justify-center">

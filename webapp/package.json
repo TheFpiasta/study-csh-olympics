@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@nivo/bar": "^0.99.0",
+    "@nivo/boxplot": "^0.99.0",
     "@nivo/bump": "^0.99.0",
     "@nivo/heatmap": "^0.99.0",
     "@nivo/line": "^0.99.0",

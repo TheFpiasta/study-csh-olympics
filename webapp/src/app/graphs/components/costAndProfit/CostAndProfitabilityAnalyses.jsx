@@ -7,6 +7,7 @@ import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import ChartSectionPlaceholder from "../templates/ChartSectionPlaceholder";
 import FinancialMetrics from "@/app/graphs/components/costAndProfit/FinancialMetrics";
+import FinancialScatterPlot from "@/app/graphs/components/costAndProfit/FinancialScatterPlot";
 
 const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -50,7 +51,8 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             {/* Financial Metrics Over Time */}
             <FinancialMetrics data={data}/>
 
-            {/*TODO add ScatterPlot chart with x and y axes any metric with dropdown and filtered my season*/}
+            {/* Financial Metrics Correlation ScatterPlot */}
+            <FinancialScatterPlot data={data}/>
 
             <ChartSectionPlaceholder geojsonData={data}/>
 

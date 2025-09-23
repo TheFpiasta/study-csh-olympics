@@ -201,9 +201,7 @@ export default function FinancialScatterPlot({data}) {
             </div>
 
             {/* Layout with filters on left and chart on right */}
-            {scatterData.length > 0 && xAxisMetric && yAxisMetric ? (
-                <>
-                    <div className="flex gap-6">
+            <div className="flex gap-6">
                         {/* Filters - Left side */}
                         <div className="w-1/4 space-y-4">
                             {/* Olympic Season Filter - First */}
@@ -293,8 +291,10 @@ export default function FinancialScatterPlot({data}) {
 
                         {/* Chart - Right side */}
                         <div className="w-3/4 flex flex-col items-center">
-                            <div style={{height: '80vh', width: '80vh'}}>
-                                <div className="w-full h-full chart-container">
+                            {scatterData.length > 0 && xAxisMetric && yAxisMetric ? (
+                                <>
+                                    <div style={{height: '80vh', width: '80vh'}}>
+                                        <div className="w-full h-full chart-container">
                         <style jsx>{`
                             .chart-container :global(text) {
                                 fill: #d1d5db !important;
@@ -402,51 +402,53 @@ export default function FinancialScatterPlot({data}) {
                                 </div>
                             </div>
 
-                            {/* Custom Legend - Only show when "both" is selected */}
-                            {seasonFilter === 'both' && (
-                                <div className="flex flex-col items-center mt-4 gap-2">
-                                <span
-                                    className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                                    Olympic Seasons
-                                </span>
-                                <div className="flex flex-wrap justify-center gap-4">
-                                    <div className="flex items-center gap-2">
-                                        <div
-                                            className="w-3 h-3 rounded-full"
-                                            style={{backgroundColor: olympicColors.primary.yellow}}
-                                        ></div>
-                                        <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                            Summer
+                                    {/* Custom Legend - Only show when "both" is selected */}
+                                    {seasonFilter === 'both' && (
+                                        <div className="flex flex-col items-center mt-4 gap-2">
+                                        <span
+                                            className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                                            Olympic Seasons
                                         </span>
-                                    </div>
-                                    <div className="flex items-center gap-2">
-                                        <div
-                                            className="w-3 h-3 rounded-full"
-                                            style={{backgroundColor: olympicColors.primary.blue}}
-                                        ></div>
-                                        <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                            Winter
-                                        </span>
+                                            <div className="flex flex-wrap justify-center gap-4">
+                                                <div className="flex items-center gap-2">
+                                                    <div
+                                                        className="w-3 h-3 rounded-full"
+                                                        style={{backgroundColor: olympicColors.primary.yellow}}
+                                                    ></div>
+                                                    <span
+                                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                                    Summer
+                                                </span>
+                                                </div>
+                                                <div className="flex items-center gap-2">
+                                                    <div
+                                                        className="w-3 h-3 rounded-full"
+                                                        style={{backgroundColor: olympicColors.primary.blue}}
+                                                    ></div>
+                                                    <span
+                                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                                    Winter
+                                                </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    )}
+                                </>
+                            ) : (
+                                <div className="h-96 flex items-center justify-center">
+                                    <div className="text-center text-gray-600 dark:text-gray-400">
+                                        <p className="text-lg mb-2">📊</p>
+                                        <p className="text-sm">
+                                            {!xAxisMetric || !yAxisMetric
+                                                ? 'Select for both axes a metric'
+                                                : 'No data available for the selected metrics and filters'
+                                            }
+                                        </p>
                                     </div>
                                 </div>
-                            </div>
                             )}
                         </div>
-                    </div>
-                </>
-            ) : (
-                <div className="h-96 flex items-center justify-center">
-                    <div className="text-center text-gray-600 dark:text-gray-400">
-                        <p className="text-lg mb-2">📊</p>
-                        <p className="text-sm">
-                            {!xAxisMetric || !yAxisMetric
-                                ? 'Please select both X and Y axis metrics to display the scatter plot'
-                                : 'No data available for the selected metrics and filters'
-                            }
-                        </p>
-                    </div>
-                </div>
-            )}
+            </div>
         </div>
     );
 }

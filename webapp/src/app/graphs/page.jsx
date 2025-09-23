@@ -2,8 +2,12 @@
 
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
-import OlympicLineChart from "./components/OlympicLineChart";
+import OlympicLineChart from "@/app/graphs/components/OlympicLineChart";
+import CapacityBoxPlot from "@/app/graphs/components/CapacityBoxPlot";
 import CostAnalysis from "@/app/graphs/components/CostAnalysis";
+import LongTermSankeyPlot from "@/app/graphs/components/LongTermSankeyPlot";
+import ScatterPlot from "@/app/graphs/components/ScatterPlot";
+import VenuePieChart from "@/app/graphs/components/VenuePieChart";
 import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
 import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
@@ -99,9 +103,29 @@ export default function GraphsPage() {
                 <CostAnalysis geojsonData={geojsonData} />
             </div>
 
+            {/* Scatter Plot Dashboard */}
+            <div className="mx-4 mb-8">
+                <ScatterPlot geojsonData={geojsonData} />
+            </div>
+            
             {/* Geographic Analysis Dashboard */}
             <div className="mx-4 mb-8">
                 <GeographicAnalysis geojsonData={geojsonData} />
+            </div>
+
+            {/* Venue Pie Chart Dashboard */}
+            <div className="mx-4 mb-8">
+                <VenuePieChart geojsonData={geojsonData} />
+            </div>
+
+            {/* Capacity Box Plot Dashboard */}
+            <div className="mx-4 mb-8">
+                <CapacityBoxPlot geojsonData={geojsonData} />
+            </div>
+
+            {/* Long Term Sankey Plot Dashboard*/}
+            <div className="mx-4 mb-8">
+                <LongTermSankeyPlot geojsonData={geojsonData} />
             </div>
 
             {/* Interactive Features Dashboard */}

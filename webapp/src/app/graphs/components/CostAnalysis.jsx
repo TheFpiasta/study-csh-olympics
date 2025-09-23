@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ResponsiveLine } from '@nivo/line';
+import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 
 // Define the fields and colors for each series
@@ -192,184 +193,177 @@ const CostAnalysis = ({ geojsonData }) => {
 
 	return (
 		<div className="space-y-8">
-			<div className="bg-gradient-to-r from-amber-500/10 to-orange-500/10 dark:from-amber-600/20 dark:to-orange-600/20 border border-amber-200 dark:border-amber-700 rounded-2xl p-6">
-				<div>
-					<h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-						💸 Olympic Cost & Revenue Analysis
-						<span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-							Financial Trends Over Time
-						</span>
-					</h2>
-					<p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-						Compare ticketing, broadcast, sponsorship revenues and costs for Olympic Games over the years.
-					</p>
-				</div>
-			</div>
-
-			{/* Series Toggle Buttons */}
-			<div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 flex flex-wrap gap-2 justify-between items-center">
-				<div>
-					<label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 w-full">
-						Show/Hide Series
-					</label>
-					{SERIES_FIELDS.map(field => (
-						<button
-							key={field.key}
-							onClick={() => handleToggleSeries(field.key)}
-							className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-1
-          ${visibleSeries[field.key] ? 'text-white' : 'text-gray-700 dark:text-gray-300'}
-        `}
-							style={{
-								backgroundColor: visibleSeries[field.key] ? field.color : '#e5e7eb',
-								border: `2px solid ${field.color}`,
-								opacity: visibleSeries[field.key] ? 1 : 0.5,
-								transition: 'background 0.2s, color 0.2s, box-shadow 0.2s'
-							}}
-							onMouseEnter={e => {
-								e.currentTarget.style.backgroundColor = field.color;
-								e.currentTarget.style.color = '#fff';
-								e.currentTarget.style.boxShadow = `0 0 0 3px ${field.color}55`;
-							}}
-							onMouseLeave={e => {
-								e.currentTarget.style.backgroundColor = visibleSeries[field.key] ? field.color : '#e5e7eb';
-								e.currentTarget.style.color = visibleSeries[field.key] ? '#fff' : '';
-								e.currentTarget.style.boxShadow = 'none';
-							}}
-						>
-							{field.label}
-							{visibleSeries[field.key] ? (
-								<span className="ml-1">✓</span>
-							) : (
-								<span className="ml-1">✗</span>
-							)}
-						</button>
-					))}
-				</div>
-				{/* Olympic Season Selector (right) */}
-				<div>
-					<label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-						Olympic Season
-					</label>
-					<div className="flex flex-wrap gap-2">
-						<button
-							onClick={() => setSeasonFilter('both')}
-							className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-								seasonFilter === 'both'
-									? 'bg-violet-500 text-white'
-									: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-							}`}
-						>
-							Both Seasons
-						</button>
-						<button
-							onClick={() => setSeasonFilter('summer')}
-							className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-								seasonFilter === 'summer'
-									? 'bg-amber-500 text-white'
-									: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-							}`}
-						>
-							Summer
-						</button>
-						<button
-							onClick={() => setSeasonFilter('winter')}
-							className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-								seasonFilter === 'winter'
-									? 'bg-cyan-500 text-white'
-									: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-							}`}
-						>
-							Winter
-						</button>
+			<SectionHeader headline={"Cost Analysis"}
+				description={"Analyze the financial aspects of the Olympic Games, including revenue streams and costs associated with hosting the event."}
+			/>
+			<div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+				{/* Series Toggle Buttons */}
+				<div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 flex flex-wrap gap-2 justify-between items-center">
+					<div>
+						<label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 w-full">
+							Show/Hide Series
+						</label>
+						<div className="flex flex-wrap gap-2">
+							{SERIES_FIELDS.map(field => (
+								<button
+									key={field.key}
+									onClick={() => handleToggleSeries(field.key)}
+									className={`px-3 py-1 rounded-full text-xs font-medium transition-colors flex items-center gap-1
+										${visibleSeries[field.key] ? 'text-white' : 'text-gray-700 dark:text-gray-300'}
+									`}
+									style={{
+										backgroundColor: visibleSeries[field.key] ? field.color : '#e5e7eb',
+										border: `2px solid ${field.color}`,
+										opacity: visibleSeries[field.key] ? 1 : 0.5,
+										transition: 'background 0.2s, color 0.2s, box-shadow 0.2s'
+									}}
+									onMouseEnter={e => {
+										e.currentTarget.style.backgroundColor = field.color;
+										e.currentTarget.style.color = '#fff';
+										e.currentTarget.style.boxShadow = `0 0 0 3px ${field.color}55`;
+									}}
+									onMouseLeave={e => {
+										e.currentTarget.style.backgroundColor = visibleSeries[field.key] ? field.color : '#e5e7eb';
+										e.currentTarget.style.color = visibleSeries[field.key] ? '#fff' : '';
+										e.currentTarget.style.boxShadow = 'none';
+									}}
+								>
+									{field.label}
+									{visibleSeries[field.key] ? (
+										<span className="ml-1">✓</span>
+									) : (
+										<span className="ml-1">✗</span>
+									)}
+								</button>
+							))}
+						</div>
+					</div>
+					{/* Olympic Season Selector (right) */}
+					<div>
+						<label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+							Olympic Season
+						</label>
+						<div className="flex flex-wrap gap-2">
+							<button
+								onClick={() => setSeasonFilter('both')}
+								className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+									seasonFilter === 'both'
+										? 'bg-violet-500 text-white'
+										: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+								}`}
+							>
+								Both Seasons
+							</button>
+							<button
+								onClick={() => setSeasonFilter('summer')}
+								className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+									seasonFilter === 'summer'
+										? 'bg-amber-500 text-white'
+										: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+								}`}
+							>
+								Summer
+							</button>
+							<button
+								onClick={() => setSeasonFilter('winter')}
+								className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+									seasonFilter === 'winter'
+										? 'bg-cyan-500 text-white'
+										: 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+								}`}
+							>
+								Winter
+							</button>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			{/* Line Chart */}
-			<div className="h-96 chart-container">
-				<style jsx>{`
-					.chart-container :global(text) {
-						fill: #d1d5db !important;
-						font-weight: 600 !important;
-					}
-				`}</style>
-				<ResponsiveLine
-					data={lineData}
-					margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
-					xScale={{ type: 'linear', min: getYearRange().min, max: getYearRange().max }}
-					yScale={{ type: 'linear', min: 0, max: 'auto' }}
-					axisTop={null}
-					axisRight={null}
-					axisBottom={{
-						orient: 'bottom',
-						tickSize: 5,
-						tickPadding: 5,
-						tickRotation: 0,
-						legend: 'Year',
-						legendOffset: 36,
-						legendPosition: 'middle',
-						tickValues: getXAxisTicks(),
-						format: value => value === '...' ? '...' : value,
-					}}
-					axisLeft={{
-						orient: 'left',
-						tickSize: 5,
-						tickPadding: 5,
-						tickRotation: 0,
-						legend: 'USD (2018, millions)',
-						legendOffset: -50,
-						legendPosition: 'middle',
-						format: value => `${(value / 1_000_000).toLocaleString()}M`
-					}}
-					colors={series => series.color}
-					pointSize={8}
-					enablePoints={true}
-					pointColor={{ theme: 'background' }}
-					pointBorderWidth={2}
-					pointBorderColor={{ from: 'serieColor' }}
-					useMesh={true}
-					enableArea={false}
-					legends={[
-						{
-							anchor: 'bottom-right',
-							direction: 'column',
-							justify: false,
-							translateX: 30,
-							translateY: 0,
-							itemsSpacing: 4,
-							itemDirection: 'left-to-right',
-							itemWidth: 180,
-							itemHeight: 20,
-							itemOpacity: 1,
-							symbolSize: 16,
-							symbolShape: 'circle',
-							symbolBorderColor: 'rgba(0, 0, 0, .5)',
-							data: SERIES_FIELDS
-								.filter(field => visibleSeries[field.key])
-								.map(field => ({
-									id: field.label,
-									label: field.label,
-									color: seasonFilter === 'winter' ? field.winter_color : field.color,
-								})),
-						},
-					]}
-					tooltip={({ point }) => (
-						<div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600">
-							<div className="font-bold text-gray-900 dark:text-gray-100 mb-1">
-								{point.data.location} {point.data.x}
+				{/* Line Chart */}
+				<div className="h-96 chart-container">
+					<style jsx>{`
+						.chart-container :global(text) {
+							fill: #d1d5db !important;
+							font-weight: 600 !important;
+						}
+					`}</style>
+					<ResponsiveLine
+						data={lineData}
+						margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
+						xScale={{ type: 'linear', min: getYearRange().min, max: getYearRange().max }}
+						yScale={{ type: 'linear', min: 0, max: 'auto' }}
+						axisTop={null}
+						axisRight={null}
+						axisBottom={{
+							orient: 'bottom',
+							tickSize: 5,
+							tickPadding: 5,
+							tickRotation: 0,
+							legend: 'Year',
+							legendOffset: 36,
+							legendPosition: 'middle',
+							tickValues: getXAxisTicks(),
+							format: value => value === '...' ? '...' : value,
+						}}
+						axisLeft={{
+							orient: 'left',
+							tickSize: 5,
+							tickPadding: 5,
+							tickRotation: 0,
+							legend: 'USD (2018, millions)',
+							legendOffset: -50,
+							legendPosition: 'middle',
+							format: value => `${(value / 1_000_000).toLocaleString()}M`
+						}}
+						colors={series => series.color}
+						pointSize={8}
+						enablePoints={true}
+						pointColor={{ theme: 'background' }}
+						pointBorderWidth={2}
+						pointBorderColor={{ from: 'serieColor' }}
+						useMesh={true}
+						enableArea={false}
+						legends={[
+							{
+								anchor: 'bottom-right',
+								direction: 'column',
+								justify: false,
+								translateX: 30,
+								translateY: 0,
+								itemsSpacing: 4,
+								itemDirection: 'left-to-right',
+								itemWidth: 180,
+								itemHeight: 20,
+								itemOpacity: 1,
+								symbolSize: 16,
+								symbolShape: 'circle',
+								symbolBorderColor: 'rgba(0, 0, 0, .5)',
+								data: SERIES_FIELDS
+									.filter(field => visibleSeries[field.key])
+									.map(field => ({
+										id: field.label,
+										label: field.label,
+										color: seasonFilter === 'winter' ? field.winter_color : field.color,
+									})),
+							},
+						]}
+						tooltip={({ point }) => (
+							<div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600">
+								<div className="font-bold text-gray-900 dark:text-gray-100 mb-1">
+									{point.data.location} {point.data.x}
+								</div>
+								<div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+									{point.serieId}
+								</div>
+								<div className="flex justify-between">
+									<span className="font-medium text-gray-700 dark:text-gray-300">USD (2018): </span>
+									<span className="text-gray-900 dark:text-gray-100">
+										{point.data.y?.toLocaleString()}
+									</span>
+								</div>
 							</div>
-							<div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
-								{point.serieId}
-							</div>
-							<div className="flex justify-between">
-								<span className="font-medium text-gray-700 dark:text-gray-300">USD (2018): </span>
-								<span className="text-gray-900 dark:text-gray-100">
-									{point.data.y?.toLocaleString()}
-								</span>
-							</div>
-						</div>
-					)}
-				/>
+						)}
+					/>
+				</div>
 			</div>
 		</div>
 	);

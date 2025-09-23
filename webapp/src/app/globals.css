@@ -46,7 +46,7 @@
     --olympic-red-3:           #F0282D;
     --olympic-red-4:           #FF555F;
     --olympic-red-5:           #FF9196;
-    --olympic-red-6:          #FFC7C9;
+    --olympic-red-6:           #FFC7C9;
 
     /* Extended Black */
     --olympic-black-1:         #000000;
@@ -551,3 +551,9 @@
 .border-olympic-black { border-color: var(--olympic-black); }
 .border-olympic-green { border-color: var(--olympic-green); }
 .border-olympic-red { border-color: var(--olympic-red); }
+
+.hover-gradient:hover {
+  background-image: linear-gradient(to right, var(--hover-from), var(--hover-to));
+  color: white; /* ensures text stays readable */
+}
+

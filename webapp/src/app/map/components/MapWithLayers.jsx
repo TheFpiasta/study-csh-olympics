@@ -250,10 +250,10 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         
         // Apply sports filter
         const sports = feature.properties.sports;
-        let sportsMatch = true; // Default to true if no sports filter is applied
+        let sportsMatch = true; // Default to true if all sports are selected
         
-        if (selectedSports.size > 0 && selectedSports.size < availableSports.length) {
-          // Only apply sports filter if some (but not all) sports are selected
+        if (selectedSports.size < availableSports.length) {
+          // Apply sports filter when not all sports are selected (including when none are selected)
           if (!sports) {
             sportsMatch = false;
           } else {
@@ -282,7 +282,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
 
   // Helper functions to detect active filters (when not all items are selected)
   const isStatusFilterActive = selectedStatuses.size < Object.keys(statusColors).length;
-  const isSportsFilterActive = selectedSports.size > 0 && selectedSports.size < availableSports.length;
+  const isSportsFilterActive = selectedSports.size < availableSports.length;
   const isAnyFilterActive = isStatusFilterActive || isSportsFilterActive;
 
   // Notify parent component when data changes
@@ -1208,7 +1208,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
           
           {/* Active filter indicator */}
           {isAnyFilterActive && (
-            <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
+            <div className="absolute w-3 h-3 bg-green-500 rounded-full -top-1 -right-1 animate-pulse"></div>
           )}
         </button>
 
@@ -1414,7 +1414,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
               
               <div className="flex items-center gap-2">
                 {/* Switch between Status and Sports */}
-                <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                <div className="flex p-1 bg-gray-100 rounded-lg dark:bg-gray-700">
                   <button
                     onClick={() => setFilterMode('status')}
                     className={`px-2 py-1 text-xs font-medium rounded-md transition-all duration-200 ease-in-out transform ${
@@ -1575,7 +1575,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                   Showing <span className="text-green-600 dark:text-green-400">{filteredGeojsonData?.features?.length || 0}</span> of <span className="text-gray-800 dark:text-gray-200">{geojsonData.features.length}</span> venues
                 </p>
                 {(isStatusFilterActive || isSportsFilterActive) && (
-                  <p className="mt-1 text-center text-xs">
+                  <p className="mt-1 text-xs text-center">
                     {isStatusFilterActive && isSportsFilterActive ? 'Status & Sports filters active' :
                      isStatusFilterActive ? 'Status filter active' : 'Sports filter active'}
                   </p>
@@ -1603,7 +1603,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                   <span className="text-blue-600 dark:text-blue-400">
                     {filteredGames.length} games selected
                     {loading && (
-                      <span className="ml-2 inline-flex items-center gap-1 text-gray-500">
+                      <span className="inline-flex items-center gap-1 ml-2 text-gray-500">
                         <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
                           <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                           <path className="opacity-75" fill="currentColor" d="m4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
@@ -1613,7 +1613,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                     )}
                   </span>
                 ) : (
-                  <span className="text-gray-500 dark:text-gray-400 flex items-center gap-2">
+                  <span className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
                     Single game mode
                     {loading && (
                       <span className="inline-flex items-center gap-1 text-blue-500">

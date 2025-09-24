@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, {useState, useEffect, useMemo, useCallback} from 'react';
 import { ResponsiveBoxPlot } from '@nivo/boxplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
@@ -13,11 +13,12 @@ const CapacityBoxPlot = ({ geojsonData }) => {
   const [seasonFilter, setSeasonFilter] = useState('both'); // 'summer' | 'winter' | 'both'
   const [minPercentageFilled, setMinPercentageFilled] = useState(80);
 
-  // explicit season colors (easy to change)
+    // explicit season colors (easy to change) - made more stable
   const seasonColors = useMemo(() => ({
-    summer: '#fd9a00', // violet
-    winter: '#00b8db', // blue
-    unknown: '#9ca3af', // gray fallback
+      summer: '#f59e0b', // amber color matching button
+      winter: '#06b6d4', // cyan color matching button
+      both: '#8b5cf6', // purple color matching button
+      unknown: '#6b7280', // gray fallback
   }), []);
 
   useEffect(() => {
@@ -99,11 +100,32 @@ const CapacityBoxPlot = ({ geojsonData }) => {
     return Array.from(set);
   }, [seatingObservations]);
 
-  // helper color accessor robust to different param shapes that Nivo may provide
-  const colorAccessor = node => {
-    const key = String(node.subGroup || '').toLowerCase();
-    return seasonColors[key] || seasonColors.unknown;
-  };
+    // Create a deterministic color array that maps directly to the data
+    const chartColors = useMemo(() => {
+        // Get unique seasons from the current data
+        const seasonsInData = new Set();
+        seatingObservations.forEach(obs => {
+            if (obs.season) {
+                seasonsInData.add(obs.season.toLowerCase());
+            }
+        });
+
+        // Create color array in consistent order: summer first, then winter
+        const colors = [];
+        if (seasonsInData.has('summer')) {
+            colors.push(seasonColors.summer);
+        }
+        if (seasonsInData.has('winter')) {
+            colors.push(seasonColors.winter);
+        }
+
+        // If no specific seasons found, use unknown color
+        if (colors.length === 0) {
+            colors.push(seasonColors.unknown);
+        }
+
+        return colors;
+    }, [seatingObservations, seasonColors]);
 
   if (loading) {
     return (
@@ -132,75 +154,106 @@ const CapacityBoxPlot = ({ geojsonData }) => {
   return (
     <div className="space-y-6">
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-        {/* Controls */}
-        <div className="flex flex-wrap items-center gap-4 mb-4">
-          <div className="flex gap-2 items-center">
-            <label className="text-sm font-medium text-white">From:</label>
-            <select
-              value={yearRange.start}
-              onChange={e => setYearRange(prev => ({ ...prev, start: e.target.value }))}
-              className="rounded-lg border-gray-300 dark:border-gray-700 bg-gray-700 text-white px-2 py-1"
-            >
-              <option value="">All</option>
-              {Array.from(new Set((data?.games || []).map(g => g.year))).sort((a, b) => a - b).map(y => (
-                <option key={y} value={y}>{y}</option>
-              ))}
-            </select>
+          {/* Year Range Filter */}
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Year Range
+              </label>
+              <div className="flex flex-wrap items-center gap-4">
+                  <div className="flex gap-2 items-center">
+                      <label className="text-sm font-medium text-gray-600 dark:text-gray-400">From:</label>
+                      <select
+                          value={yearRange.start}
+                          onChange={e => setYearRange(prev => ({...prev, start: e.target.value}))}
+                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      >
+                          <option value="">All</option>
+                          {Array.from(new Set((data?.games || []).map(g => g.year))).sort((a, b) => a - b).map(y => (
+                              <option key={y} value={y}>{y}</option>
+                          ))}
+                      </select>
 
-            <label className="text-sm font-medium text-white">To:</label>
-            <select
-              value={yearRange.end}
-              onChange={e => setYearRange(prev => ({ ...prev, end: e.target.value }))}
-              className="rounded-lg border-gray-300 dark:border-gray-700 bg-gray-700 text-white px-2 py-1"
-            >
-              <option value="">All</option>
-              {Array.from(new Set((data?.games || []).map(g => g.year))).sort((a, b) => a - b).map(y => (
-                <option key={y} value={y}>{y}</option>
-              ))}
-            </select>
+                      <label className="text-sm font-medium text-gray-600 dark:text-gray-400">To:</label>
+                      <select
+                          value={yearRange.end}
+                          onChange={e => setYearRange(prev => ({...prev, end: e.target.value}))}
+                          className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                      >
+                          <option value="">All</option>
+                          {Array.from(new Set((data?.games || []).map(g => g.year))).sort((a, b) => a - b).map(y => (
+                              <option key={y} value={y}>{y}</option>
+                          ))}
+                      </select>
 
-            <button
-              onClick={() => setYearRange({ start: '', end: '' })}
-              className="px-3 py-1 rounded-lg bg-blue-600 text-white"
-            >
-              Reset
-            </button>
+                      <button
+                          onClick={() => setYearRange({start: '', end: ''})}
+                          className="px-3 py-1 rounded-full text-xs font-medium transition-colors bg-emerald-500 text-white hover:bg-emerald-600"
+                      >
+                          Reset
+                      </button>
+                  </div>
+              </div>
           </div>
 
-          <div className="flex flex-grow justify-center items-center gap-4">
-            <label className="text-sm font-medium text-white">Min % seating data:</label>
+          {/* Data Quality Filter */}
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Data Quality Threshold
+                  <span className={"ml-3 text-xs text-gray-500 dark:text-gray-400"}>
+                  (Only include games where at least this percentage of venues have seating capacity data. 0% = all games, 100% = only games where all venues have seating data)
+              </span>
+              </label>
+              <div className="flex items-center gap-4">
+                  <label className="text-sm font-medium text-gray-600 dark:text-gray-400">Min % seating data:</label>
             <input
               type="range"
               min={0}
               max={100}
               value={minPercentageFilled}
               onChange={e => setMinPercentageFilled(Number(e.target.value))}
-              className="w-48 h-2 rounded-lg accent-violet-500"
+              className="flex-1 h-2 rounded-lg accent-emerald-500"
             />
-            <span className="text-sm font-medium text-white">{minPercentageFilled}%</span>
+                  <span
+                      className="text-sm font-medium text-gray-900 dark:text-gray-100 min-w-[3rem]">{minPercentageFilled}%</span>
+              </div>
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-white mb-2">Olympic Season</label>
-            <div className="flex gap-2">
-              {['summer', 'winter', 'both'].map(season => (
-                <button
-                  key={season}
-                  onClick={() => setSeasonFilter(season)}
-                  className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                    seasonFilter === season
-                      ? season === 'summer'
-                        ? 'bg-violet-500 text-white'
-                        : season === 'winter'
-                        ? 'bg-blue-500 text-white'
-                        : 'bg-green-500 text-white'
-                      : 'bg-gray-700 text-white hover:bg-gray-600'
-                  }`}
-                >
-                  {season.charAt(0).toUpperCase() + season.slice(1)}
-                </button>
-              ))}
-            </div>
+          {/* Olympic Season Filter */}
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Olympic Season
+              </label>
+              <div className="flex flex-wrap gap-2">
+                  <button
+                      onClick={() => setSeasonFilter('both')}
+                      className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                          seasonFilter === 'both'
+                              ? 'bg-purple-500 text-white'
+                              : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                      }`}
+                  >
+                      Both
+                  </button>
+                  <button
+                      onClick={() => setSeasonFilter('summer')}
+                      className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                          seasonFilter === 'summer'
+                              ? 'bg-amber-500 text-white'
+                              : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                      }`}
+                  >
+                      Summer
+                  </button>
+                  <button
+                      onClick={() => setSeasonFilter('winter')}
+                      className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                          seasonFilter === 'winter'
+                              ? 'bg-cyan-500 text-white'
+                              : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                      }`}
+                  >
+                      Winter
+                  </button>
           </div>
         </div>
 
@@ -210,19 +263,20 @@ const CapacityBoxPlot = ({ geojsonData }) => {
             groupBy="group"
             subGroupBy="season"
             value="value"
-            margin={{ top: 50, right: 60, bottom: 140, left: 80 }}
+            margin={{top: 50, right: 60, bottom: 170, left: 80}}
             padding={0.3}
             boxWidth={25}
             minValue="auto"
             maxValue="auto"
             enableGridX={false}
             enableGridY={true}
-            // Colors: robust accessor that maps season -> chosen color
-            colors={colorAccessor}
+            colors={chartColors}
+            animate={true}
+            motionConfig="gentle"
             axisBottom={{
               legend: 'Game (Year - Location - Season)',
               legendPosition: 'middle',
-              legendOffset: 90,
+                legendOffset: 140,
               tickRotation: -45,
               tickSize: 6,
               tickPadding: 10,
@@ -279,17 +333,19 @@ const CapacityBoxPlot = ({ geojsonData }) => {
           />
         </div>
 
-        {/* Legend (manual) */}
-        <div className="mt-4 flex gap-4 items-center">
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-4 h-4" style={{ background: seasonColors.summer }} />
-            <span className="text-xs text-white">Summer</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="inline-block w-4 h-4" style={{ background: seasonColors.winter }} />
-            <span className="text-xs text-white">Winter</span>
-          </div>
-        </div>
+          {/* Legend - only show when both seasons are visible */}
+          {seasonFilter === 'both' && (
+              <div className="mt-4 flex justify-center gap-6">
+                  <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 rounded-sm" style={{backgroundColor: seasonColors.summer}}></div>
+                      <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                      <div className="w-4 h-4 rounded-sm" style={{backgroundColor: seasonColors.winter}}></div>
+                      <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
+                  </div>
+              </div>
+          )}
       </div>
     </div>
   );

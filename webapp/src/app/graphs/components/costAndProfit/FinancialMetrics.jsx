@@ -205,6 +205,117 @@ export default function FinancialMetrics({data}) {
                     };
                 }).filter(series => series.data.length > 0);
             });
+        } else if (seasonFilter === 'combined') {
+            // Create combined series that sum summer and winter data for each year
+            processedData = filteredMetrics.map(metric => {
+                // Get all games with this metric, grouped by year
+                const yearDataMap = new Map();
+
+                data.games
+                    .filter(game => {
+                        const harvard = game.harvard;
+                        const gameSeason = game.features && game.features.length > 0 ?
+                            game.features[0].properties.season : null;
+
+                        return harvard &&
+                            harvard[metric.key] &&
+                            harvard[metric.key].data &&
+                            gameSeason &&
+                            (gameSeason.toLowerCase() === 'summer' || gameSeason.toLowerCase() === 'winter');
+                    })
+                    .forEach(game => {
+                        const year = parseInt(game.year);
+                        if (isNaN(year)) return;
+
+                        const harvard = game.harvard;
+                        const rawData = harvard[metric.key].data;
+                        let value = parseFloat(rawData);
+
+                        if (isNaN(value) || !isFinite(value)) return;
+
+                        if (metric.format === 'currency') {
+                            value = value / 1000000;
+                        }
+
+                        // Store absolute value before normalization
+                        const absoluteValue = value;
+
+                        // Apply normalization if in normalized mode
+                        if (dataMode === 'normalized') {
+                            const divisor = getNormalizationDivisor(game, normalizationPer);
+                            value = value / divisor;
+                        }
+
+                        const gameSeason = game.features[0].properties.season;
+
+                        // Get counts for tooltip
+                        const counts = {
+                            athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                            events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                            countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                            media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                        };
+
+                        if (!yearDataMap.has(year)) {
+                            yearDataMap.set(year, {
+                                year,
+                                totalValue: 0,
+                                totalAbsoluteValue: 0,
+                                locations: [],
+                                seasons: [],
+                                allCounts: {
+                                    athletes: 0,
+                                    events: 0,
+                                    countries: 0,
+                                    media: 0
+                                },
+                                rawValues: []
+                            });
+                        }
+
+                        const yearData = yearDataMap.get(year);
+                        yearData.totalValue += value;
+                        yearData.totalAbsoluteValue += absoluteValue;
+                        yearData.locations.push(game.location);
+                        yearData.seasons.push(gameSeason);
+                        yearData.allCounts.athletes += counts.athletes;
+                        yearData.allCounts.events += counts.events;
+                        yearData.allCounts.countries += counts.countries;
+                        yearData.allCounts.media += counts.media;
+                        yearData.rawValues.push(rawData);
+                    });
+
+                // Convert the map to series data
+                const seriesData = Array.from(yearDataMap.values()).map(yearData => {
+                    // Calculate normalized values for all metrics
+                    const normalizedValues = {
+                        perAthlete: yearData.allCounts.athletes > 0 ? yearData.totalAbsoluteValue / yearData.allCounts.athletes : 0,
+                        perEvent: yearData.allCounts.events > 0 ? yearData.totalAbsoluteValue / yearData.allCounts.events : 0,
+                        perCountry: yearData.allCounts.countries > 0 ? yearData.totalAbsoluteValue / yearData.allCounts.countries : 0,
+                        perMedia: yearData.allCounts.media > 0 ? yearData.totalAbsoluteValue / yearData.allCounts.media : 0
+                    };
+
+                    return {
+                        x: yearData.year,
+                        y: yearData.totalValue,
+                        location: yearData.locations.join(' & '),
+                        season: 'Summer & Winter',
+                        rawValue: yearData.rawValues.join(' & '),
+                        absoluteValue: yearData.totalAbsoluteValue,
+                        unit: metric.unit,
+                        metric: metric.name,
+                        counts: yearData.allCounts,
+                        normalizedValues: normalizedValues
+                    };
+                }).sort((a, b) => a.x - b.x);
+
+                return {
+                    id: metric.name,
+                    data: seriesData,
+                    baseName: metric.name,
+                    season: 'combined'
+                };
+            }).filter(series => series.data.length > 0);
         } else {
             // Original logic for single season
             processedData = filteredMetrics.map(metric => ({
@@ -436,6 +547,157 @@ export default function FinancialMetrics({data}) {
                     }
                 ];
             }).filter(series => series.data.length > 0);
+        } else if (seasonFilter === 'combined') {
+            // Create combined aggregated data that sums summer and winter for each year
+            const yearDataMap = new Map();
+
+            data.games
+                .filter(game => {
+                    const harvard = game.harvard;
+                    const gameSeason = game.features && game.features.length > 0 ?
+                        game.features[0].properties.season : null;
+
+                    return harvard && gameSeason &&
+                        (gameSeason.toLowerCase() === 'summer' || gameSeason.toLowerCase() === 'winter');
+                })
+                .forEach(game => {
+                    const year = parseInt(game.year);
+                    if (isNaN(year)) return;
+
+                    const divisor = dataMode === 'normalized' ? getNormalizationDivisor(game, normalizationPer) : 1;
+
+                    // Calculate total costs for this game
+                    let gameTotalCost = 0;
+                    costMetrics.forEach(metric => {
+                        const harvard = game.harvard;
+                        if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                            let value = parseFloat(harvard[metric.key].data);
+                            if (!isNaN(value) && isFinite(value)) {
+                                value = value / 1000000; // Convert to millions
+                                value = value / divisor; // Apply normalization
+                                gameTotalCost += value;
+                            }
+                        }
+                    });
+
+                    // Calculate total revenue for this game
+                    let gameTotalRevenue = 0;
+                    revenueMetrics.forEach(metric => {
+                        const harvard = game.harvard;
+                        if (harvard && harvard[metric.key] && harvard[metric.key].data) {
+                            let value = parseFloat(harvard[metric.key].data);
+                            if (!isNaN(value) && isFinite(value)) {
+                                value = value / 1000000; // Convert to millions
+                                value = value / divisor; // Apply normalization
+                                gameTotalRevenue += value;
+                            }
+                        }
+                    });
+
+                    const gameTotalProfit = gameTotalRevenue - gameTotalCost;
+                    const gameSeason = game.features[0].properties.season;
+
+                    // Get counts for tooltip
+                    const counts = {
+                        athletes: parseFloat(game.harvard?.number_of_athletes?.data) || 0,
+                        events: parseFloat(game.harvard?.number_of_events?.data) || 0,
+                        countries: parseFloat(game.harvard?.number_of_countries?.data) || 0,
+                        media: parseFloat(game.harvard?.accredited_media?.data) || 0
+                    };
+
+                    if (!yearDataMap.has(year)) {
+                        yearDataMap.set(year, {
+                            year,
+                            totalCost: 0,
+                            totalRevenue: 0,
+                            totalProfit: 0,
+                            locations: [],
+                            seasons: [],
+                            allCounts: {
+                                athletes: 0,
+                                events: 0,
+                                countries: 0,
+                                media: 0
+                            }
+                        });
+                    }
+
+                    const yearData = yearDataMap.get(year);
+                    yearData.totalCost += gameTotalCost;
+                    yearData.totalRevenue += gameTotalRevenue;
+                    yearData.totalProfit += gameTotalProfit;
+                    yearData.locations.push(game.location);
+                    yearData.seasons.push(gameSeason);
+                    yearData.allCounts.athletes += counts.athletes;
+                    yearData.allCounts.events += counts.events;
+                    yearData.allCounts.countries += counts.countries;
+                    yearData.allCounts.media += counts.media;
+                });
+
+            // Convert the map to series data
+            const combinedGamesData = Array.from(yearDataMap.values()).map(yearData => {
+                // Calculate absolute values (before any normalization)
+                const absoluteTotalCost = dataMode === 'normalized' ? yearData.totalCost * getNormalizationDivisor({harvard: {number_of_athletes: {data: yearData.allCounts.athletes}}}, normalizationPer) : yearData.totalCost;
+                const absoluteTotalRevenue = dataMode === 'normalized' ? yearData.totalRevenue * getNormalizationDivisor({harvard: {number_of_athletes: {data: yearData.allCounts.athletes}}}, normalizationPer) : yearData.totalRevenue;
+                const absoluteTotalProfit = absoluteTotalRevenue - absoluteTotalCost;
+
+                // Calculate normalized values for all metrics
+                const normalizedValues = {
+                    cost: {
+                        perAthlete: yearData.allCounts.athletes > 0 ? absoluteTotalCost / yearData.allCounts.athletes : 0,
+                        perEvent: yearData.allCounts.events > 0 ? absoluteTotalCost / yearData.allCounts.events : 0,
+                        perCountry: yearData.allCounts.countries > 0 ? absoluteTotalCost / yearData.allCounts.countries : 0,
+                        perMedia: yearData.allCounts.media > 0 ? absoluteTotalCost / yearData.allCounts.media : 0
+                    },
+                    revenue: {
+                        perAthlete: yearData.allCounts.athletes > 0 ? absoluteTotalRevenue / yearData.allCounts.athletes : 0,
+                        perEvent: yearData.allCounts.events > 0 ? absoluteTotalRevenue / yearData.allCounts.events : 0,
+                        perCountry: yearData.allCounts.countries > 0 ? absoluteTotalRevenue / yearData.allCounts.countries : 0,
+                        perMedia: yearData.allCounts.media > 0 ? absoluteTotalRevenue / yearData.allCounts.media : 0
+                    },
+                    profit: {
+                        perAthlete: yearData.allCounts.athletes > 0 ? absoluteTotalProfit / yearData.allCounts.athletes : 0,
+                        perEvent: yearData.allCounts.events > 0 ? absoluteTotalProfit / yearData.allCounts.events : 0,
+                        perCountry: yearData.allCounts.countries > 0 ? absoluteTotalProfit / yearData.allCounts.countries : 0,
+                        perMedia: yearData.allCounts.media > 0 ? absoluteTotalProfit / yearData.allCounts.media : 0
+                    }
+                };
+
+                return {
+                    x: yearData.year,
+                    location: yearData.locations.join(' & '),
+                    season: 'Summer & Winter',
+                    totalCost: yearData.totalCost,
+                    totalRevenue: yearData.totalRevenue,
+                    totalProfit: yearData.totalProfit,
+                    absoluteTotalCost,
+                    absoluteTotalRevenue,
+                    absoluteTotalProfit,
+                    counts: yearData.allCounts,
+                    normalizedValues
+                };
+            }).sort((a, b) => a.x - b.x);
+
+            processedAggregatedData = [
+                {
+                    id: 'Total Costs',
+                    data: combinedGamesData.map(d => ({x: d.x, y: d.totalCost, ...d})),
+                    season: 'combined',
+                    type: 'cost'
+                },
+                {
+                    id: 'Total Revenue',
+                    data: combinedGamesData.map(d => ({x: d.x, y: d.totalRevenue, ...d})),
+                    season: 'combined',
+                    type: 'revenue'
+                },
+                {
+                    id: 'Total Profit',
+                    data: combinedGamesData.map(d => ({x: d.x, y: d.totalProfit, ...d})),
+                    season: 'combined',
+                    type: 'profit'
+                }
+            ].filter(series => series.data.length > 0);
         } else {
             // Single season logic
             const gamesData = data.games
@@ -761,6 +1023,16 @@ export default function FinancialMetrics({data}) {
                     >
                         Winter
                     </button>
+                    <button
+                        onClick={() => setSeasonFilter('combined')}
+                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                            seasonFilter === 'combined'
+                                ? 'bg-emerald-500 text-white'
+                                : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                        }`}
+                    >
+                        Combined
+                    </button>
                 </div>
             </div>
 
@@ -869,6 +1141,9 @@ export default function FinancialMetrics({data}) {
                             } else if (seriesId.includes(' (Winter)')) {
                                 return getPointColor('Winter');
                             }
+                        } else if (seasonFilter === 'combined') {
+                            // Use a specific color for combined data points
+                            return '#10b981'; // emerald color
                         } else {
                             // Use the selected season filter
                             const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
@@ -1062,32 +1337,46 @@ export default function FinancialMetrics({data}) {
                     </div>
                 </div>
 
-                {/* Season Legend (Point Colors) - Only show when "both" is selected */}
-                {seasonFilter === 'both' && (
+                {/* Season Legend (Point Colors) - Show when "both" or "combined" is selected */}
+                {(seasonFilter === 'both' || seasonFilter === 'combined') && (
                     <div className="flex flex-col items-center gap-2">
                             <span
                                 className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                 Olympic Seasons
                             </span>
                         <div className="flex flex-wrap justify-center gap-4">
-                            <div className="flex items-center gap-2">
-                                <div
-                                    className="w-3 h-3 rounded-full"
-                                    style={{backgroundColor: '#f59e0b'}}
-                                ></div>
-                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        Summer
+                            {seasonFilter === 'both' ? (
+                                <>
+                                    <div className="flex items-center gap-2">
+                                        <div
+                                            className="w-3 h-3 rounded-full"
+                                            style={{backgroundColor: '#f59e0b'}}
+                                        ></div>
+                                        <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                            Summer
+                                        </span>
+                                    </div>
+                                    <div className="flex items-center gap-2">
+                                        <div
+                                            className="w-3 h-3 rounded-full"
+                                            style={{backgroundColor: '#06b6d4'}}
+                                        ></div>
+                                        <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                            Winter
+                                        </span>
+                                    </div>
+                                </>
+                            ) : (
+                                <div className="flex items-center gap-2">
+                                    <div
+                                        className="w-3 h-3 rounded-full"
+                                        style={{backgroundColor: '#10b981'}}
+                                    ></div>
+                                    <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                                        Summer & Winter Combined
                                     </span>
-                            </div>
-                            <div className="flex items-center gap-2">
-                                <div
-                                    className="w-3 h-3 rounded-full"
-                                    style={{backgroundColor: '#06b6d4'}}
-                                ></div>
-                                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        Winter
-                                    </span>
-                            </div>
+                                </div>
+                            )}
                         </div>
                     </div>
                 )}
@@ -1156,6 +1445,9 @@ export default function FinancialMetrics({data}) {
                                 } else if (seriesId.includes(' (Winter)')) {
                                     return getPointColor('Winter');
                                 }
+                            } else if (seasonFilter === 'combined') {
+                                // Use a specific color for combined data points
+                                return '#10b981'; // emerald color
                             } else {
                                 // Use the selected season filter
                                 const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
@@ -1379,30 +1671,43 @@ export default function FinancialMetrics({data}) {
                         </div>
                     </div>
 
-                    {/* Season Legend (Point Colors) - Only show when "both" is selected */}
-                    {seasonFilter === 'both' && (
+                    {/* Season Legend (Point Colors) - Show when "both" or "combined" is selected */}
+                    {(seasonFilter === 'both' || seasonFilter === 'combined') && (
                         <div className="flex flex-col items-center gap-2">
                             <span
                                 className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                 Olympic Seasons
                             </span>
                             <div className="flex flex-wrap justify-center gap-4">
-                                <div className="flex items-center gap-2">
-                                    <div
-                                        className="w-3 h-3 rounded-full"
-                                        style={{backgroundColor: '#f59e0b'}}
-                                    ></div>
-                                    <span
-                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
-                                </div>
-                                <div className="flex items-center gap-2">
-                                    <div
-                                        className="w-3 h-3 rounded-full"
-                                        style={{backgroundColor: '#06b6d4'}}
-                                    ></div>
-                                    <span
-                                        className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
-                                </div>
+                                {seasonFilter === 'both' ? (
+                                    <>
+                                        <div className="flex items-center gap-2">
+                                            <div
+                                                className="w-3 h-3 rounded-full"
+                                                style={{backgroundColor: '#f59e0b'}}
+                                            ></div>
+                                            <span
+                                                className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer</span>
+                                        </div>
+                                        <div className="flex items-center gap-2">
+                                            <div
+                                                className="w-3 h-3 rounded-full"
+                                                style={{backgroundColor: '#06b6d4'}}
+                                            ></div>
+                                            <span
+                                                className="text-sm text-gray-700 dark:text-gray-300 font-medium">Winter</span>
+                                        </div>
+                                    </>
+                                ) : (
+                                    <div className="flex items-center gap-2">
+                                        <div
+                                            className="w-3 h-3 rounded-full"
+                                            style={{backgroundColor: '#10b981'}}
+                                        ></div>
+                                        <span
+                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer & Winter Combined</span>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     )}

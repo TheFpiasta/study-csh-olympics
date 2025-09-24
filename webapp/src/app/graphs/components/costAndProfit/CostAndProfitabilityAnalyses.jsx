@@ -53,9 +53,6 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
             {/* Financial Metrics Correlation ScatterPlot */}
             <FinancialScatterPlot data={data}/>
-
-            <ChartSectionPlaceholder geojsonData={data}/>
-
         </div>
     );
 };

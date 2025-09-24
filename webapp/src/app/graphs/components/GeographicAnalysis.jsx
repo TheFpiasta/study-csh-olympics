@@ -5,6 +5,7 @@ import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import LoadingSpinner from '../../../components/LoadingSpinner';
+import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 
 const GeographicAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -28,24 +29,24 @@ const GeographicAnalysis = ({geojsonData}) => {
       'Belgium': 'Europe', 'Netherlands': 'Europe', 'Switzerland': 'Europe', 'Germany': 'Europe',
       'Norway': 'Europe', 'Finland': 'Europe', 'Italy': 'Europe', 'Austria': 'Europe',
       'Yugoslavia': 'Europe', 'Spain': 'Europe', 'Russia': 'Europe', 'Bosnia and Herzegovina': 'Europe',
-      
+
       // North America
       'United States': 'North America', 'Canada': 'North America', 'Mexico': 'North America',
-      
+
       // Asia
       'Japan': 'Asia', 'South Korea': 'Asia', 'China': 'Asia',
-      
+
       // Oceania
       'Australia': 'Oceania',
-      
+
       // South America
       'Brazil': 'South America',
-      
-      // Africa
+
+        // Africa
       'South Africa': 'Africa'
     };
-    
-    return continentMap[country] || 'Other';
+
+      return continentMap[country] || 'Other';
   };
 
   // Extract country from location or use known mappings
@@ -91,25 +92,25 @@ const GeographicAnalysis = ({geojsonData}) => {
       'Rio': 'Brazil',
       'Pyeongchang': 'South Korea'
     };
-    
-    return locationCountryMap[location] || location;
+
+      return locationCountryMap[location] || location;
   };
 
   // Process data for Continental/Country Distribution
   const getDistributionData = () => {
     if (!data?.games) return [];
-    
-    const distribution = {};
-    
-    data.games.forEach(game => {
+
+      const distribution = {};
+
+      data.games.forEach(game => {
       const country = getCountryFromLocation(game.location, game.year);
       const region = viewMode === 'continent' ? getContinent(country) : country;
-      
-      if (!distribution[region]) {
+
+          if (!distribution[region]) {
         distribution[region] = { venues: 0, games: 0 };
       }
-      
-      distribution[region].venues += game.venueCount;
+
+          distribution[region].venues += game.venueCount;
       distribution[region].games += 1;
     });
 
@@ -127,18 +128,18 @@ const GeographicAnalysis = ({geojsonData}) => {
   // Process data for Venue Density Analysis (venues per game by region)
   const getDensityData = () => {
     if (!data?.games) return [];
-    
-    const density = {};
-    
-    data.games.forEach(game => {
+
+      const density = {};
+
+      data.games.forEach(game => {
       const country = getCountryFromLocation(game.location, game.year);
       const region = viewMode === 'continent' ? getContinent(country) : country;
-      
-      if (!density[region]) {
+
+          if (!density[region]) {
         density[region] = { totalVenues: 0, totalGames: 0 };
       }
-      
-      density[region].totalVenues += game.venueCount;
+
+          density[region].totalVenues += game.venueCount;
       density[region].totalGames += 1;
     });
 
@@ -156,44 +157,44 @@ const GeographicAnalysis = ({geojsonData}) => {
   // Process data for Distance Analysis (venue spread within host cities)
   const getDistanceData = () => {
     if (!data?.games) return [];
-    
-    const distanceData = [];
-    
-    data.games.forEach(game => {
+
+      const distanceData = [];
+
+      data.games.forEach(game => {
       // Group features by season
       const featuresBySeason = { Summer: [], Winter: [] };
-      
-      game.features.forEach(feature => {
+
+          game.features.forEach(feature => {
         if (feature.properties.season && featuresBySeason[feature.properties.season]) {
           featuresBySeason[feature.properties.season].push(feature);
         }
       });
-      
-      // Create separate data points for each season that has venues
+
+          // Create separate data points for each season that has venues
       Object.entries(featuresBySeason).forEach(([season, features]) => {
         if (features.length < 2) return; // Need at least 2 venues for distance calculation
-        
-        // Calculate basic venue spread metrics for this season
+
+          // Calculate basic venue spread metrics for this season
         const coordinates = features
           .filter(feature => feature.geometry && feature.geometry.coordinates)
           .map(feature => ({
             lat: feature.geometry.coordinates[1],
             lng: feature.geometry.coordinates[0]
           }));
-        
-        if (coordinates.length < 2) return;
-        
-        // Calculate bounding box dimensions (rough distance measure)
+
+          if (coordinates.length < 2) return;
+
+          // Calculate bounding box dimensions (rough distance measure)
         const lats = coordinates.map(c => c.lat);
         const lngs = coordinates.map(c => c.lng);
-        
-        const latSpread = Math.max(...lats) - Math.min(...lats);
+
+          const latSpread = Math.max(...lats) - Math.min(...lats);
         const lngSpread = Math.max(...lngs) - Math.min(...lngs);
-        
-        // Rough distance in km (very approximate)
+
+          // Rough distance in km (very approximate)
         const spreadKm = Math.sqrt(latSpread * latSpread + lngSpread * lngSpread) * 111; // 1 degree ≈ 111km
-        
-        distanceData.push({
+
+          distanceData.push({
           id: `${game.year} ${game.location} - ${season}`,
           data: [{
             x: features.length, // Count of venues for this season
@@ -239,22 +240,25 @@ const GeographicAnalysis = ({geojsonData}) => {
 
   return (
     <div className="space-y-8">
+        <SectionHeader headline={"🌍 Geographic Analysis"}
+                       description={"Analyze Olympic venue distribution across continents and countries."}
+        />
       {/* Section Header with Toggle */}
-      <div className="bg-gradient-to-r from-emerald-500/10 to-teal-500/10 dark:from-emerald-600/20 dark:to-teal-600/20 border border-emerald-200 dark:border-emerald-700 rounded-2xl p-6">
+        {/*<div className="bg-gradient-to-r from-emerald-500/10 to-teal-500/10 dark:from-emerald-600/20 dark:to-teal-600/20 border border-emerald-200 dark:border-emerald-700 rounded-2xl p-6">*/}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
           <div>
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-              🌍 Geographic Analysis
-              <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                Spatial Distribution & Patterns
-              </span>
-            </h2>
-            <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-              Analyze Olympic venue distribution across continents and countries
-            </p>
+              {/*  <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">*/}
+              {/*    🌍 Geographic Analysis*/}
+              {/*    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">*/}
+              {/*      Spatial Distribution & Patterns*/}
+              {/*    </span>*/}
+              {/*  </h2>*/}
+              {/*  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">*/}
+              {/*    Analyze Olympic venue distribution across continents and countries*/}
+              {/*  </p>*/}
           </div>
-          
-          <div className="flex items-center gap-2">
+
+            <div className="flex items-center gap-2">
             <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
             <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
               <button
@@ -280,7 +284,7 @@ const GeographicAnalysis = ({geojsonData}) => {
             </div>
           </div>
         </div>
-      </div>
+        {/*</div>*/}
 
       {/* Distribution Analysis */}
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">

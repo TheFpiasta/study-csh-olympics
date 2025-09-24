@@ -6,6 +6,7 @@ import { ResponsiveNetwork } from '@nivo/network';
 import { ResponsiveSankey } from '@nivo/sankey';
 import LoadingSpinner from '../../../components/LoadingSpinner';
 import logger from '@/components/logger';
+import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 
 const InteractiveFeatures = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -508,19 +509,9 @@ const InteractiveFeatures = ({geojsonData}) => {
   return (
     <div className="space-y-8">
       {/* Section Header */}
-      <div className="bg-gradient-to-r from-violet-500/10 to-purple-500/10 dark:from-violet-600/20 dark:to-purple-600/20 border border-violet-200 dark:border-violet-700 rounded-2xl p-6">
-        <div>
-          <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-            🎯 Interactive Features
-            <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-              Multi-dimensional Analysis
-            </span>
-          </h2>
-          <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
-            Multi-dimensional analysis: scatter plots, network graphs, and venue usage flow diagrams with interactive filtering
-          </p>
-        </div>
-      </div>
+        <SectionHeader headline={"🎯 Interactive Features"}
+                       description={"Multi-dimensional analysis: scatter plots, network graphs, and venue usage flow diagrams with interactive filtering."}
+        />
 
       {/* Main Content */}
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">

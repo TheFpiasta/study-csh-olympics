@@ -75,19 +75,7 @@ export default function GraphsPage() {
                 </div>
             </div>
 
-            {/* Analytics Header */}
-            <div className="mx-4 mb-6">
-                <div className="p-4 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
-                    <div className="text-center">
-                        <h2 className="flex items-center justify-center gap-2 text-2xl font-bold text-gray-900 dark:text-gray-200">
-                            📊 Analytics Dashboard
-                        </h2>
-                        <p className="mt-1 text-sm text-gray-600 dark:text-gray-400">
-                            Comprehensive temporal analysis of Olympic venue development and usage patterns
-                        </p>
-                    </div>
-                </div>
-            </div>
+            {/*/!* TODO add Analytics Header *!/*/}
 
             {/* Temporal Analysis Dashboard */}
             <div className="mx-4 mb-8">

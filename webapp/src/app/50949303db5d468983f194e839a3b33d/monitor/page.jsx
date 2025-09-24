@@ -75,11 +75,6 @@ export default function MonitorPage() {
             setFileContent(data.content || '');
             setLastModified(data.lastModified || '');
 
-            // Auto-scroll to bottom if content was updated
-            if (contentRef.current && !showLoading) {
-                contentRef.current.scrollTop = contentRef.current.scrollHeight;
-            }
-
             logger.debug('Loaded file content:', {
                 filename,
                 lines: data.lines,
@@ -135,12 +130,12 @@ export default function MonitorPage() {
         return new Date(dateString).toLocaleString();
     };
 
-    // Sanitize log content for display to prevent XSS
-    const sanitizeLogContent = (content) => {
+    // Sanitize log content for display to prevent XSS and apply colors
+    const sanitizeAndColorizeLogContent = (content) => {
         if (!content) return '';
 
         // HTML escape and remove potentially dangerous content
-        return content
+        let sanitized = content
             .replace(/&/g, '&amp;')
             .replace(/</g, '&lt;')
             .replace(/>/g, '&gt;')
@@ -151,10 +146,23 @@ export default function MonitorPage() {
             .replace(/<script\b[^<]*(?:(?!<\/script>)<[^<]*)*<\/script>/gi, '[SCRIPT_REMOVED]')
             .replace(/javascript:/gi, '[JAVASCRIPT_REMOVED]')
             .replace(/on\w+\s*=/gi, '[EVENT_HANDLER_REMOVED]=');
+
+        // Apply colors to different log levels
+        sanitized = sanitized
+            // DEBUG: Gray
+            .replace(/(\[.*?\] DEBUG:.*?)(?=\n|$)/g, '<span style="color: #9ca3af;">$1</span>')
+            // INFO: White
+            .replace(/(\[.*?\] INFO:.*?)(?=\n|$)/g, '<span style="color: #ffffff;">$1</span>')
+            // WARN/WARNING: Yellow/orange
+            .replace(/(\[.*?\] (?:WARN|WARNING):.*?)(?=\n|$)/g, '<span style="color: #fbbf24;">$1</span>')
+            // ERROR: Light red
+            .replace(/(\[.*?\] ERROR:.*?)(?=\n|$)/g, '<span style="color: #f87171;">$1</span>');
+
+        return sanitized;
     };
 
     return (
-        <div className="min-h-screen bg-gray-50 dark:bg-slate-900 p-4">
+        <div className="min-h-screen bg-gray-50 dark:bg-slate-900 p-4 pb-8">
             <div className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 mb-6">
@@ -263,18 +271,30 @@ export default function MonitorPage() {
                             </p>
                         )}
 
+                        {selectedFile && (
+                            <div className="mb-3 p-2 bg-gray-100 dark:bg-gray-700 rounded text-xs">
+                                <span className="text-gray-600 dark:text-gray-300 mr-4">Log Levels:</span>
+                                <span className="mr-3" style={{color: '#9ca3af'}}>● DEBUG</span>
+                                <span className="mr-3" style={{color: '#ffffff'}}>● INFO</span>
+                                <span className="mr-3" style={{color: '#fbbf24'}}>● WARN</span>
+                                <span className="mr-3" style={{color: '#f87171'}}>● ERROR</span>
+                            </div>
+                        )}
+
                         <div className="relative">
                             {selectedFile ? (
                                 <div
                                     ref={contentRef}
-                                    className="bg-gray-900 text-green-400 p-4 rounded-lg font-mono text-sm h-96 overflow-auto whitespace-pre-wrap"
+                                    className="bg-gray-900 text-gray-300 p-4 rounded-lg font-mono text-sm overflow-auto whitespace-pre-wrap"
+                                    style={{height: 'calc(100vh - 380px)', minHeight: '400px'}}
                                     dangerouslySetInnerHTML={{
-                                        __html: sanitizeLogContent(fileContent) || (loading ? 'Loading...' : 'No content')
+                                        __html: sanitizeAndColorizeLogContent(fileContent) || (loading ? 'Loading...' : 'No content')
                                     }}
                                 />
                             ) : (
                                 <div
-                                    className="bg-gray-100 dark:bg-gray-700 rounded-lg h-96 flex items-center justify-center">
+                                    className="bg-gray-100 dark:bg-gray-700 rounded-lg flex items-center justify-center"
+                                    style={{height: 'calc(100vh - 380px)', minHeight: '400px'}}>
                                     <p className="text-gray-500 dark:text-gray-400">
                                         Select a log file to view its content
                                     </p>

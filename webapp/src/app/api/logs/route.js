@@ -8,14 +8,24 @@ const RATE_LIMIT_WINDOW = 60000; // 1 minute
 
 // Log level-based rate limits (requests per minute per IP)
 const RATE_LIMITS_BY_LEVEL = {
-    debug: 1000,  // Highest limit - debug is most verbose
+    debug: 5000,  // Highest limit - debug is most verbose
     info: 1000,   // Medium-high - regular app flow
     warn: 20,   // Medium - warnings should be less frequent
     error: 20    // Lowest - errors should be rare
 };
 
-// File size limit (50MB in bytes)
-const MAX_LOG_FILE_SIZE = 50 * 1024 * 1024; // 50MB
+// File size limits based on rotation period (in bytes)
+const FILE_SIZE_LIMITS = {
+    daily: 10 * 1024 * 1024,   // 10MB - rotates daily
+    weekly: 50 * 1024 * 1024,  // 50MB - rotates weekly  
+    monthly: 100 * 1024 * 1024 // 100MB - rotates monthly
+};
+
+// Get file size limit based on LOG_ROTATION_PERIOD
+function getMaxLogFileSize() {
+    const rotationPeriod = process.env.LOG_ROTATION_PERIOD || 'weekly';
+    return FILE_SIZE_LIMITS[rotationPeriod] || FILE_SIZE_LIMITS.weekly;
+}
 
 // Clean up old entries every 5 minutes
 setInterval(() => {
@@ -163,7 +173,7 @@ export async function POST(request) {
         const timestamp = sanitizedData.timestamp || now.toISOString();
         const formattedTimestamp = timestamp.replace('T', ' ').substring(0, 19);
 
-        let logEntry = `[${formattedTimestamp}] ${sanitizedData.level.toUpperCase()}: [CLIENT] ${sanitizedData.message}`;
+        let logEntry = `[${formattedTimestamp}] ${sanitizedData.level.toUpperCase()}: ${sanitizedData.message}`;
 
         if (sanitizedData.data) {
             logEntry += `\n${sanitizedData.data}`;
@@ -181,9 +191,12 @@ export async function POST(request) {
         // Check file size limit before writing
         if (fs.existsSync(logFilePath)) {
             const stats = fs.statSync(logFilePath);
-            if (stats.size >= MAX_LOG_FILE_SIZE) {
+            const maxFileSize = getMaxLogFileSize();
+            if (stats.size >= maxFileSize) {
+                const rotationPeriod = process.env.LOG_ROTATION_PERIOD || 'weekly';
+                const sizeMB = Math.round(maxFileSize / (1024 * 1024));
                 return NextResponse.json(
-                    {error: 'Log file size limit exceeded (50MB). Logs are being rejected.'},
+                    {error: `Log file size limit exceeded (${sizeMB}MB for ${rotationPeriod} rotation). Logs are being rejected.`},
                     {status: 507} // Insufficient Storage
                 );
             }

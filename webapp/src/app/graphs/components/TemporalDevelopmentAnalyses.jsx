@@ -9,6 +9,7 @@ import {olympicColors as oc} from "@/components/utility";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
+import logger from '@/components/logger';
 
 const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -229,7 +230,7 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                     if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
 
                     const classification = feature.properties.classification || 'Unknown';
-                    // if (classification === 'Unknown') console.warn(`Feature with unknown classification in ${game.location} ${year} name: ${feature.properties.associated_names}`);
+                    // if (classification === 'Unknown') logger.warn(`Feature with unknown classification in ${game.location} ${year} name: ${feature.properties.associated_names}`);
                     if (yearData[year][classification] !== undefined) {
                         yearData[year][classification]++;
                     } else {

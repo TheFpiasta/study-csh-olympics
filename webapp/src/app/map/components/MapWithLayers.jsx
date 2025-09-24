@@ -3,6 +3,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
 import { ResponsiveBar } from '@nivo/bar';
+import logger from '@/components/logger';
 
 const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, showCharts: externalShowCharts, viewMode, toggleViewMode }) => {
   const mapRef = useRef(null);
@@ -70,7 +71,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           setViewState(JSON.parse(savedViewState));
         } catch (e) {
-          console.warn('Failed to parse saved view state:', e);
+            logger.warn('Failed to parse saved view state:', e);
         }
       }
       
@@ -92,7 +93,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           setTimelineMode(JSON.parse(savedTimelineMode));
         } catch (e) {
-          console.warn('Failed to parse saved timeline mode:', e);
+            logger.warn('Failed to parse saved timeline mode:', e);
         }
       }
       
@@ -102,7 +103,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           setTimelineStartYear(parseInt(savedStartYear));
         } catch (e) {
-          console.warn('Failed to parse saved timeline start year:', e);
+            logger.warn('Failed to parse saved timeline start year:', e);
         }
       }
       
@@ -112,7 +113,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           setTimelineEndYear(parseInt(savedEndYear));
         } catch (e) {
-          console.warn('Failed to parse saved timeline end year:', e);
+            logger.warn('Failed to parse saved timeline end year:', e);
         }
       }
       
@@ -122,7 +123,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           setSelectedStatuses(new Set(JSON.parse(savedStatuses)));
         } catch (e) {
-          console.warn('Failed to parse saved selected statuses:', e);
+            logger.warn('Failed to parse saved selected statuses:', e);
         }
       }
     }
@@ -504,7 +505,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         setTimeout(() => setLoading(false), 1000);
       }
     } catch (error) {
-      console.error('Error loading Olympics data:', error);
+        logger.error('Error loading Olympics data:', error);
       setLoading(false);
     }
   };
@@ -545,11 +546,11 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   // Cache sports data and initialize selectedSports when geojsonData changes
   useEffect(() => {
     if (geojsonData) {
-      console.log('Extracting sports for new dataset...'); // Debug log
+        logger.debug('Extracting sports for new dataset...'); // Debug log
       const sports = extractUniqueSports(geojsonData);
       setAvailableSports(sports); // Cache the sports array
       setSelectedSports(new Set(sports)); // Select all sports by default
-      console.log(`Cached ${sports.length} unique sports`); // Debug log
+        logger.debug(`Cached ${sports.length} unique sports`); // Debug log
     } else {
       // Clear cache when no data
       setAvailableSports([]);
@@ -573,12 +574,12 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         try {
           const response = await fetch(`/api/olympics/${game.id}`);
           if (!response.ok) {
-            console.warn(`Failed to load data for ${game.name}: ${response.status}`);
+              logger.warn(`Failed to load data for ${game.name}: ${response.status}`);
             return null; // Return null for failed requests
           }
           return await response.json();
         } catch (error) {
-          console.warn(`Error loading data for ${game.name}:`, error);
+            logger.warn(`Error loading data for ${game.name}:`, error);
           return null; // Return null for failed requests
         }
       });
@@ -652,7 +653,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         setTimeout(() => setLoading(false), 1000);
       }
     } catch (error) {
-      console.error('Error loading filtered Olympics data:', error);
+        logger.error('Error loading filtered Olympics data:', error);
       setLoading(false);
     }
   };

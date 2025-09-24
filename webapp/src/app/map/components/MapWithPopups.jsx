@@ -2,6 +2,7 @@
 
 import React, { useState, useCallback, useEffect } from 'react';
 import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
+import logger from '@/components/logger';
 
 const MapWithPopups = () => {
   const [viewState, setViewState] = useState({
@@ -18,7 +19,7 @@ const MapWithPopups = () => {
     fetch('/data/1928_Amsterdam.geojson')
       .then(response => response.json())
       .then(data => setGeojsonData(data))
-      .catch(error => console.error('Error loading GeoJSON:', error));
+        .catch(error => logger.error('Error loading GeoJSON:', error));
   }, []);
 
   const onMove = useCallback((evt) => {

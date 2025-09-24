@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import logger from '../../components/logger.js';
 
 export async function GET(request, { params }) {
   try {
@@ -27,7 +28,7 @@ export async function GET(request, { params }) {
     });
     
   } catch (error) {
-    console.error('Error loading Olympic data:', error);
+      logger.error('Error loading Olympic data:', error);
     return NextResponse.json({ error: 'Failed to load Olympic games data' }, { status: 500 });
   }
 }

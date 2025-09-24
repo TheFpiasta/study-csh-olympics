@@ -2,6 +2,7 @@ import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
 import {getMetricColor, getPointColor, getYearRange} from "@/app/graphs/components/utility";
 import {graphColors, olympicColors} from "@/components/utility";
+import logger from '@/components/logger';
 
 export default function FinancialMetrics({data}) {
 
@@ -1170,7 +1171,7 @@ export default function FinancialMetrics({data}) {
                         tooltip={({point}) => {
                             // Determine which metric we're showing
                             const serieId = point.serieId || point.serie?.id || point.id || '';
-                            console.log('Tooltip debug:', {point, serieId, serieObject: point.serie});
+                            logger.debug('Tooltip debug:', {point, serieId, serieObject: point.serie});
 
                             const metricType = serieId.toLowerCase().includes('cost') ? 'cost' :
                                 serieId.toLowerCase().includes('revenue') ? 'revenue' : 'profit';

@@ -14,6 +14,7 @@ import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
 import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
+import logger from "@/components/logger";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -36,7 +37,7 @@ export default function GraphsPage() {
 
                 return {data: await response.json(), error: null};
             } catch (err) {
-                console.error('Error fetching data:', err);
+                logger.error('Error fetching data:', err);
                 return {data: [], error: 'Error fetching data: ' + err.message};
             }
         }

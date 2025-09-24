@@ -5,6 +5,7 @@ import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import { ResponsiveNetwork } from '@nivo/network';
 import { ResponsiveSankey } from '@nivo/sankey';
 import LoadingSpinner from '../../../components/LoadingSpinner';
+import logger from '@/components/logger';
 
 const InteractiveFeatures = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -168,8 +169,8 @@ const InteractiveFeatures = ({geojsonData}) => {
     
     // Add central Olympics node
     addNode('olympics', 'Olympics', 'center', 40, '#FFD700'); // Gold
-    
-    console.log('Processing games:', data.games.length);
+
+      logger.info('Processing games:', data.games.length);
     
     // First pass: collect all venues and their details
     data.games.forEach(game => {
@@ -181,8 +182,8 @@ const InteractiveFeatures = ({geojsonData}) => {
       if (!cityVenues.has(cityName)) {
         cityVenues.set(cityName, []);
       }
-      
-      console.log(`Processing ${cityName} (${game.year}) with ${game.features.length} features`);
+
+        logger.info(`Processing ${cityName} (${game.year}) with ${game.features.length} features`);
       
       game.features.forEach(feature => {
         const props = feature.properties;
@@ -228,9 +229,9 @@ const InteractiveFeatures = ({geojsonData}) => {
         cityVenues.get(cityName).push(venueKey);
       });
     });
-    
-    console.log('Cities found:', cityVenues.size);
-    console.log('Venues found:', venueDetails.size);
+
+      logger.info('Cities found:', cityVenues.size);
+      logger.info('Venues found:', venueDetails.size);
     
     // Second pass: create nodes and links
     cityVenues.forEach((venueKeys, cityName) => {
@@ -275,9 +276,9 @@ const InteractiveFeatures = ({geojsonData}) => {
         });
       });
     });
-    
-    console.log('Final nodes:', nodes.length);
-    console.log('Final links:', links.length);
+
+      logger.info('Final nodes:', nodes.length);
+      logger.info('Final links:', links.length);
     
     // Performance limiting - keep most connected nodes
     if (nodes.length > 200) {
@@ -315,8 +316,8 @@ const InteractiveFeatures = ({geojsonData}) => {
       const keptNodes = [...olympics, ...cities, ...venues, ...sports];
       const keptNodeIds = new Set(keptNodes.map(n => n.id));
       const filteredLinks = links.filter(l => keptNodeIds.has(l.source) && keptNodeIds.has(l.target));
-      
-      console.log('Filtered to:', keptNodes.length, 'nodes and', filteredLinks.length, 'links');
+
+        logger.info('Filtered to:', keptNodes.length, 'nodes and', filteredLinks.length, 'links');
       
       return { nodes: keptNodes, links: filteredLinks };
     }
@@ -488,10 +489,10 @@ const InteractiveFeatures = ({geojsonData}) => {
         addLink(sportCategory, seasonType, count);
       });
     });
-    
-    console.log('Sankey nodes:', nodes.length);
-    console.log('Sankey links:', links.length);
-    console.log('Era data:', Array.from(eraToVenueType.keys()));
+
+      logger.info('Sankey nodes:', nodes.length);
+      logger.info('Sankey links:', links.length);
+      logger.info('Era data:', Array.from(eraToVenueType.keys()));
     
     return { nodes, links };
   };
@@ -821,7 +822,7 @@ const InteractiveFeatures = ({geojsonData}) => {
               linkColor={{ from: 'source.color', modifiers: [['opacity', 0.6]] }}
               enableClickCapture={true}
               onClick={(node, event) => {
-                console.log('Clicked node:', node);
+                  logger.info('Clicked node:', node);
               }}
               tooltip={({ node }) => (
                 <div className="bg-white dark:bg-gray-800 p-3 border border-gray-200 dark:border-gray-600 rounded-lg shadow-lg max-w-xs">

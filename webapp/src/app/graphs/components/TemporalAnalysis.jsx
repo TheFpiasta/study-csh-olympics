@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 import { ResponsiveBar } from '@nivo/bar';
 import LoadingSpinner from '../../../components/LoadingSpinner';
+import logger from '@/components/logger';
 
 const TemporalAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -256,7 +257,7 @@ const TemporalAnalysis = ({geojsonData}) => {
   const seasonalData = getSeasonalData();
   const decadeData = getDecadeData();
 
-  console.log('Processed data:', { 
+    logger.debug('Processed data:', {
     dataExists: !!data, 
     gameCount: data?.games?.length, 
     firstGame: data?.games?.[0],

@@ -3,6 +3,7 @@
 import React, { useState, useCallback, useEffect, useRef } from 'react';
 import MapWithLayers from './MapWithLayers';
 import ChartsPanel from './ChartsPanel';
+import logger from '@/components/logger';
 
 const MapWithChartsLayout = ({ onDataUpdate, viewMode, toggleViewMode }) => {
   // Hydration-safe state
@@ -34,7 +35,7 @@ const MapWithChartsLayout = ({ onDataUpdate, viewMode, toggleViewMode }) => {
         try {
           setShowCharts(JSON.parse(savedShowCharts));
         } catch (e) {
-          console.warn('Failed to parse saved charts state:', e);
+            logger.warn('Failed to parse saved charts state:', e);
         }
       }
       
@@ -47,7 +48,7 @@ const MapWithChartsLayout = ({ onDataUpdate, viewMode, toggleViewMode }) => {
             setMapWidth(width);
           }
         } catch (e) {
-          console.warn('Failed to parse saved map width:', e);
+            logger.warn('Failed to parse saved map width:', e);
         }
       }
     }

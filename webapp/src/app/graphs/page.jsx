@@ -3,19 +3,21 @@
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
 import OlympicLineChart from "@/app/graphs/components/OlympicLineChart";
-import CapacityBoxPlot from "@/app/graphs/components/CapacityBoxPlot";
+import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
 import CostAnalysis from "@/app/graphs/components/CostAnalysis";
-import LongTermSankeyPlot from "@/app/graphs/components/LongTermSankeyPlot";
+import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
 import ScatterPlot from "@/app/graphs/components/ScatterPlot";
-import VenuePieChart from "@/app/graphs/components/VenuePieChart";
-import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
-import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
+import CityGeoAnalysis from "@/app/graphs/components/geographicalAnalysis/CityGeoAnalysis";
+import TemporalAnalysis from "@/app/graphs/components/datasetStats/TemporalAnalysis";
+import WorldGeographicAnalysis from "@/app/graphs/components/geographicalAnalysis/WorldGeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
-import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
+import TemporalDevelopmentAnalyses from "@/app/graphs/components/temporalDevelopmnent/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
 import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
 import logger from "@/components/logger";
 import ChartSectionPlaceholder from "@/app/graphs/components/templates/ChartSectionPlaceholder";
+import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistribution/CapacityDistributionAnalysis";
+import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -92,25 +94,14 @@ export default function GraphsPage() {
                 <OlympicLineChart geojsonData={geojsonData}/>
             </div>
 
-            {/* Geographic Analysis Dashboard */}
             <div className="mx-4 mb-8">
-                <GeographicAnalysis geojsonData={geojsonData}/>
+                <GeographicalAnalysis geojsonData={geojsonData}/>
             </div>
 
-            {/* Venue Pie Chart Dashboard */}
             <div className="mx-4 mb-8">
-                <VenuePieChart geojsonData={geojsonData}/>
+                <CapacityDistributionAnalysis geojsonData={geojsonData}/>
             </div>
 
-            {/* Capacity Box Plot Dashboard */}
-            <div className="mx-4 mb-8">
-                <CapacityBoxPlot geojsonData={geojsonData}/>
-            </div>
-
-            {/* Long Term Sankey Plot Dashboard*/}
-            <div className="mx-4 mb-8">
-                <LongTermSankeyPlot geojsonData={geojsonData}/>
-            </div>
 
             {/* Temporal Development Analyses */}
             <div className="mx-4 mb-8">

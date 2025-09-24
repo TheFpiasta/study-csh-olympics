@@ -4,10 +4,10 @@ import React, { useState, useEffect } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 
-const GeographicAnalysis = ({geojsonData}) => {
+const WorldGeographicAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -240,9 +240,6 @@ const GeographicAnalysis = ({geojsonData}) => {
 
   return (
     <div className="space-y-8">
-        <SectionHeader headline={"🌍 Geographic Analysis"}
-                       description={"Analyze Olympic venue distribution across continents and countries."}
-        />
       {/* Section Header with Toggle */}
         {/*<div className="bg-gradient-to-r from-emerald-500/10 to-teal-500/10 dark:from-emerald-600/20 dark:to-teal-600/20 border border-emerald-200 dark:border-emerald-700 rounded-2xl p-6">*/}
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
@@ -514,4 +511,4 @@ const GeographicAnalysis = ({geojsonData}) => {
   );
 };
 
-export default GeographicAnalysis;
+export default WorldGeographicAnalysis;

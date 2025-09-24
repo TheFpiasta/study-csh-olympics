@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import {getYearRange} from "@/app/graphs/components/utility";
 import {olympicColors as oc} from "@/components/utility";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";

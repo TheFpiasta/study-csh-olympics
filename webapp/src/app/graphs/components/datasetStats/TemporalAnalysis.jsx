@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveLine} from '@nivo/line';
 import {ResponsiveBar} from '@nivo/bar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 

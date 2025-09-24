@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { ResponsiveBoxPlot } from '@nivo/boxplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 const CapacityBoxPlot = ({ geojsonData }) => {
   const [data, setData] = useState(null);
@@ -131,11 +131,6 @@ const CapacityBoxPlot = ({ geojsonData }) => {
 
   return (
     <div className="space-y-6">
-      <SectionHeader
-        headline="Venue Capacity Distribution"
-        description="Boxplot showing seating capacity distribution of Olympic venues per game."
-      />
-
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
         {/* Controls */}
         <div className="flex flex-wrap items-center gap-4 mb-4">

@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
-const VenuePieChart = ({ geojsonData }) => {
+const CityGeoAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -115,10 +115,6 @@ const VenuePieChart = ({ geojsonData }) => {
 
   return (
     <div className="space-y-6">
-      <SectionHeader
-        headline="Olympic Venues Pie Chart"
-        description="Shows the distribution of Olympic venues by event, place, and location."
-      />
 
       {/* Dropdown to select Olympics */}
 
@@ -200,4 +196,4 @@ const VenuePieChart = ({ geojsonData }) => {
   );
 };
 
-export default VenuePieChart;
+export default CityGeoAnalysis;

@@ -3,7 +3,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ResponsiveSankey } from '@nivo/sankey';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 const LongTermSankeyPlot = ({ geojsonData }) => {
   const [data, setData] = useState([]);
@@ -118,11 +118,6 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
 
   return (
     <div className="space-y-6" ref={wrapperRef}>
-      <SectionHeader
-        headline="Venue Capacity Distribution"
-        description="Sankey diagram showing classification → status flows of Olympic venues, with venue names."
-      />
-
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
         <div className="flex flex-wrap items-center gap-4 mb-4">
           <div>

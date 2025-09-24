@@ -293,7 +293,10 @@ export default function FinancialScatterPlot({data}) {
                         <div className="w-3/4 flex flex-col items-center">
                             {scatterData.length > 0 && xAxisMetric && yAxisMetric ? (
                                 <>
-                                    <div style={{height: '80vh', width: '80vh'}}>
+                                    <div style={{
+                                        height: 'min(80vh, 80vw)',
+                                        width: 'min(80vh, 80vw)'
+                                    }}>
                                         <div className="w-full h-full chart-container">
                         <style jsx>{`
                             .chart-container :global(text) {

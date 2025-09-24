@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
-import Map, { NavigationControl, ScaleControl, GeolocateControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
+import Map, { NavigationControl, ScaleControl, GeolocateControl, FullscreenControl, Source, Layer, Popup } from 'react-map-gl/maplibre';
 import { ResponsiveBar } from '@nivo/bar';
 import logger from '@/components/logger';
 
@@ -960,6 +960,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         <NavigationControl position="top-right" />
         <ScaleControl position="bottom-left" />
         <GeolocateControl position="top-right" />
+        <FullscreenControl position="top-right" />
 
         {/* Data Layer */}
         {filteredGeojsonData && (

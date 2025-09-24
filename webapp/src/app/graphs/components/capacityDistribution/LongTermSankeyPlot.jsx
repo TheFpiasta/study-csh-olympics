@@ -14,6 +14,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
 
   const wrapperRef = useRef(null);
 
+
   useEffect(() => {
     if (!geojsonData) return;
     setLoading(false);
@@ -43,6 +44,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
     if (!game) return { nodes: [], links: [] };
 
     const sankeyData = { nodes: [], links: [] };
+      const nodeStats = {};
 
     game.features.forEach((feature) => {
       const classification = feature.properties?.classification;
@@ -59,20 +61,86 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
 
       if (!classification || !status) return;
 
+        // Track node statistics
+        if (!nodeStats[classification]) {
+            nodeStats[classification] = {
+                type: 'classification',
+                venues: [],
+                totalCapacity: 0,
+                sports: new Set(),
+                venueTypes: new Set()
+            };
+        }
+        if (!nodeStats[status]) {
+            nodeStats[status] = {
+                type: 'status',
+                venues: [],
+                totalCapacity: 0,
+                sports: new Set(),
+                venueTypes: new Set()
+            };
+        }
+
+        // Collect venue details
+        const venueInfo = {
+            name: venueName,
+            capacity: parseInt(feature.properties?.seating_capacity) || 0,
+            sports: feature.properties?.sports || [],
+            type: feature.properties?.type || 'Unknown',
+            location: feature.properties?.location || '',
+            opened: feature.properties?.opened || ''
+        };
+
+        nodeStats[classification].venues.push(venueInfo);
+        nodeStats[status].venues.push(venueInfo);
+
+        nodeStats[classification].totalCapacity += venueInfo.capacity;
+        nodeStats[status].totalCapacity += venueInfo.capacity;
+
+        const sports = Array.isArray(venueInfo.sports) ? venueInfo.sports : [venueInfo.sports];
+        sports.forEach(sport => {
+            if (sport) {
+                nodeStats[classification].sports.add(sport);
+                nodeStats[status].sports.add(sport);
+            }
+        });
+
+        nodeStats[classification].venueTypes.add(venueInfo.type);
+        nodeStats[status].venueTypes.add(venueInfo.type);
+
+        // Create nodes with stats
       if (!sankeyData.nodes.find((n) => n.id === classification)) {
-        sankeyData.nodes.push({ id: classification });
+          sankeyData.nodes.push({
+              id: classification,
+              ...nodeStats[classification]
+          });
       }
       if (!sankeyData.nodes.find((n) => n.id === status)) {
-        sankeyData.nodes.push({ id: status });
+          sankeyData.nodes.push({
+              id: status,
+              ...nodeStats[status]
+          });
       }
 
       sankeyData.links.push({
         source: classification,
         target: status,
         value: 1,
-        venue: venueName,
+          venue: venueInfo,
       });
     });
+
+      // Update node stats after all venues are processed
+      sankeyData.nodes.forEach(node => {
+          const stats = nodeStats[node.id];
+          if (stats) {
+              node.venues = stats.venues;
+              node.totalCapacity = stats.totalCapacity;
+              node.sports = Array.from(stats.sports);
+              node.venueTypes = Array.from(stats.venueTypes);
+              node.type = stats.type;
+          }
+      });
 
     return sankeyData;
   };
@@ -154,7 +222,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
                       const chosen = filteredGames.find((g) => g.year.toString() === e.target.value);
                       setSelectedGame(chosen);
                   }}
-                  className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+                  className="w-48 px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
               >
                   {filteredGames.map((game) => (
                       <option key={game.year} value={game.year}>
@@ -164,7 +232,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
               </select>
         </div>
 
-        <div className="h-96">
+          <div className="h-96 ml-50 mr-20">
           {sankeyData ? (
             <ResponsiveSankey
               data={sankeyData}
@@ -181,21 +249,97 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
               linkContract={0.5}
               labelTextColor= "#ffffff"
               enableLinkGradient={true}
+              nodeTooltip={({node}) => (
+                  <div
+                      className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64 max-w-80">
+                      <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-2">
+                          {node.id}
+                      </div>
+                      <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                          {node.type === 'classification' ? 'Build Classification' : 'Current Status'}
+                      </div>
+                      <div className="space-y-2">
+                          <div className="flex justify-between">
+                              <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                              <span className="text-gray-900 dark:text-gray-100">{node.venues?.length || 0}</span>
+                          </div>
+                          {node.totalCapacity > 0 && (
+                              <div className="flex justify-between">
+                                  <span className="font-medium text-gray-700 dark:text-gray-300">Total Capacity:</span>
+                                  <span className="text-gray-900 dark:text-gray-100">
+                          {node.totalCapacity.toLocaleString()}
+                        </span>
+                              </div>
+                          )}
+                          <div className="flex justify-between">
+                              <span className="font-medium text-gray-700 dark:text-gray-300">Sports:</span>
+                              <span className="text-gray-900 dark:text-gray-100">{node.sports?.length || 0}</span>
+                          </div>
+                          {node.venueTypes && node.venueTypes.length > 0 && (
+                              <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                  <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">
+                                      Venue Types:
+                                  </div>
+                                  <div className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                                      {node.venueTypes.join(', ')}
+                                  </div>
+                              </div>
+                          )}
+                      </div>
+                  </div>
+              )}
               linkTooltip={({ link }) => {
-                const venue = link?.venue ?? 'Unknown Venue';
+                  const venue = link?.venue || {};
+                  const venueName = typeof venue === 'string' ? venue : venue.name || 'Unknown Venue';
                 const from = typeof link.source === 'object' ? link.source.id : link.source;
                 const to = typeof link.target === 'object' ? link.target.id : link.target;
 
                 return (
-                  <div className="bg-gray-800 text-white p-3 rounded-lg shadow-xl border border-gray-600 text-sm">
-                    <div className="font-bold mb-2">{venue}</div>
-                    <div className="flex justify-between text-sm">
-                      <span>From: </span>
-                      <span>{from}</span>
+                    <div
+                        className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64 max-w-80">
+                        <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-2">
+                            {venueName}
                     </div>
-                    <div className="flex justify-between text-sm">
-                      <span>To: </span>
-                      <span>{to}</span>
+                        <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                            Venue Flow: {from} → {to}
+                        </div>
+                        <div className="space-y-2">
+                            {venue.capacity > 0 && (
+                                <div className="flex justify-between">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Capacity:</span>
+                                    <span className="text-gray-900 dark:text-gray-100">
+                            {venue.capacity.toLocaleString()}
+                          </span>
+                                </div>
+                            )}
+                            {venue.type && (
+                                <div className="flex justify-between">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Type:</span>
+                                    <span className="text-gray-900 dark:text-gray-100">{venue.type}</span>
+                                </div>
+                            )}
+                            {venue.sports && venue.sports.length > 0 && (
+                                <div className="pt-2 border-t border-gray-200 dark:border-gray-600">
+                                    <div className="font-medium text-gray-700 dark:text-gray-300 mb-1">
+                                        Sports:
+                                    </div>
+                                    <div className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">
+                                        {Array.isArray(venue.sports) ? venue.sports.join(', ') : venue.sports}
+                                    </div>
+                                </div>
+                            )}
+                            {venue.location && (
+                                <div className="flex justify-between">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Location:</span>
+                                    <span className="text-gray-900 dark:text-gray-100 text-sm">{venue.location}</span>
+                                </div>
+                            )}
+                            {venue.opened && (
+                                <div className="flex justify-between">
+                                    <span className="font-medium text-gray-700 dark:text-gray-300">Opened:</span>
+                                    <span className="text-gray-900 dark:text-gray-100">{venue.opened}</span>
+                                </div>
+                            )}
                     </div>
                   </div>
                 );

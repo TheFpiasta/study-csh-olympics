@@ -119,41 +119,49 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
   return (
     <div className="space-y-6" ref={wrapperRef}>
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-        <div className="flex flex-wrap items-center gap-4 mb-4">
-          <div>
-            <label className="block text-sm font-medium text-white mb-2">Olympic Season</label>
-            <div className="flex gap-2">
-              {['summer', 'winter'].map((season) => (
-                <button
-                  key={season}
-                  onClick={() => setSeasonFilter(season)}
-                  className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                    seasonFilter === season ? 'bg-violet-500 text-white' : 'bg-gray-700 text-white hover:bg-gray-600'
-                  }`}
-                >
-                  {season.charAt(0).toUpperCase() + season.slice(1)}
-                </button>
-              ))}
-            </div>
+          {/* Olympic Season Filter */}
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Olympic Season
+              </label>
+              <div className="flex flex-wrap gap-2">
+                  {['summer', 'winter'].map((season) => (
+                      <button
+                          key={season}
+                          onClick={() => setSeasonFilter(season)}
+                          className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                              seasonFilter === season
+                                  ? season === 'summer'
+                                      ? 'bg-amber-500 text-white'
+                                      : 'bg-cyan-500 text-white'
+                                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                          }`}
+                      >
+                          {season.charAt(0).toUpperCase() + season.slice(1)}
+                      </button>
+                  ))}
+              </div>
           </div>
 
-          <div>
-            <label className="block text-sm font-medium text-white mb-2">Select Olympic Games</label>
-            <select
-              value={selectedGame?.year || ''}
-              onChange={(e) => {
-                const chosen = filteredGames.find((g) => g.year.toString() === e.target.value);
-                setSelectedGame(chosen);
-              }}
-              className="px-3 py-2 rounded-lg bg-gray-700 text-white text-sm"
-            >
-              {filteredGames.map((game) => (
-                <option key={game.year} value={game.year}>
-                  {game.year} {game.location}
-                </option>
-              ))}
-            </select>
-          </div>
+          {/* Select Olympic Games Filter */}
+          <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+              <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                  Select Olympic Games
+              </label>
+              <select
+                  value={selectedGame?.year || ''}
+                  onChange={(e) => {
+                      const chosen = filteredGames.find((g) => g.year.toString() === e.target.value);
+                      setSelectedGame(chosen);
+                  }}
+                  className="w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-100 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-emerald-500"
+              >
+                  {filteredGames.map((game) => (
+                      <option key={game.year} value={game.year}>
+                          {game.year} {game.location}
+                      </option>
+                  ))}
+              </select>
         </div>
 
         <div className="h-96">

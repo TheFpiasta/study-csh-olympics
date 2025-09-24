@@ -557,3 +557,98 @@
   color: white; /* ensures text stays readable */
 }
 
+/* Dual Range Slider Styles */
+.range-slider-left,
+.range-slider-right {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: default;
+    outline: none;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 8px;
+}
+
+.range-slider-left {
+    z-index: 1;
+}
+
+.range-slider-right {
+    z-index: 2;
+}
+
+/* When sliders are close, prioritize the left slider */
+.range-slider-left.priority {
+    z-index: 3;
+}
+
+.range-slider-left::-webkit-slider-thumb,
+.range-slider-right::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    background: #10b981; /* emerald-500 */
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: grab;
+    height: 20px;
+    pointer-events: all;
+    position: relative;
+    width: 20px;
+    transition: all 0.2s ease-in-out;
+    z-index: inherit;
+}
+
+.range-slider-left::-webkit-slider-thumb:active,
+.range-slider-right::-webkit-slider-thumb:active {
+    cursor: grabbing;
+}
+
+.range-slider-left::-webkit-slider-thumb:hover,
+.range-slider-right::-webkit-slider-thumb:hover {
+    background: #059669; /* emerald-600 */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.range-slider-left::-moz-range-thumb,
+.range-slider-right::-moz-range-thumb {
+    background: #10b981; /* emerald-500 */
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    cursor: grab;
+    height: 20px;
+    pointer-events: all;
+    width: 20px;
+    transition: all 0.2s ease-in-out;
+    z-index: inherit;
+}
+
+.range-slider-left::-moz-range-thumb:active,
+.range-slider-right::-moz-range-thumb:active {
+    cursor: grabbing;
+}
+
+.range-slider-left::-moz-range-thumb:hover,
+.range-slider-right::-moz-range-thumb:hover {
+    background: #059669; /* emerald-600 */
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Dark mode adjustments */
+.dark .range-slider-left::-webkit-slider-thumb,
+.dark .range-slider-right::-webkit-slider-thumb {
+    border-color: #1f2937; /* gray-800 */
+}
+
+.dark .range-slider-left::-moz-range-thumb,
+.dark .range-slider-right::-moz-range-thumb {
+    border-color: #1f2937; /* gray-800 */
+}
+

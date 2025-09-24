@@ -1,6 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Logger class to handle logging to console and/or file with different log levels and rotation.
+ * Configuration is done via environment variables.
+ */
 class Logger {
     constructor() {
         this.logLevel = process.env.LOG_LEVEL || 'warn';
@@ -23,6 +27,9 @@ class Logger {
         }
     }
 
+    /**
+     * Ensure the log directory exists, create if it doesn't.
+     */
     #ensureLogDirectory() {
         try {
             if (!fs.existsSync(this.logDirectory)) {
@@ -34,6 +41,14 @@ class Logger {
         }
     }
 
+    /**
+     * Format log message with timestamp, level, message and optional data.
+     *
+     * @param level - Log level (debug, info, warn, error)
+     * @param message - Log message
+     * @param data - Optional additional data (object or string)
+     * @returns {string} - Formatted log entry
+     */
     #formatTemplate(level, message, data = null) {
         const now = new Date();
         const year = now.getFullYear();
@@ -54,6 +69,11 @@ class Logger {
         return logEntry;
     }
 
+    /**
+     * Get log file name based on rotation period.
+     *
+     * @returns {string} - Log file name
+     */
     #getLogFileName() {
         const now = new Date();
         const year = now.getFullYear();
@@ -76,12 +96,19 @@ class Logger {
         }
     }
 
+    /**
+     * Write log entry to console and/or file based on configuration.
+     *
+     * @param level - Log level
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     #writeLog(level, message, data) {
         if (this.logLevels[level] < this.currentLogLevel) {
             return;
         }
 
-        const formattedLog = this.#formatTemplate(level, message, data);
+        const formattedLog = this.#formatTemplate(level, message, JSON.stringify(data));
 
         if (this.useConsoleLogging) {
             switch (level) {
@@ -112,26 +139,62 @@ class Logger {
         }
     }
 
+    /**
+     * Log a debug message.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     debug(message, data) {
         this.#writeLog('debug', message, data);
     }
 
+    /**
+     * Log an info message.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     info(message, data) {
         this.#writeLog('info', message, data);
     }
 
+    /**
+     * Log a warning message.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     warning(message, data) {
         this.#writeLog('warn', message, data);
     }
 
+    /**
+     * Log a warning message.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     warn(message, data) {
         this.#writeLog('warn', message, data);
     }
 
+    /**
+     * Log an error message.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     error(message, data) {
         this.#writeLog('error', message, data);
     }
 
+    /**
+     * Alias for error method.
+     *
+     * @param message - Log message
+     * @param data - Optional additional data
+     */
     err(message, data) {
         this.#writeLog('error', message, data);
     }

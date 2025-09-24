@@ -271,102 +271,31 @@ const TemporalAnalysis = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"Temporal Analysis of Olympic Venues"}
+            <SectionHeader headline={"Dataset Statistics"}
                            description={"Exploring the evolution, usage patterns, and lifecycle of Olympic venues through data visualizations."}
             />
 
-            {/* Olympic Growth Timeline */}
-            <div
-                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📈 Olympic Growth Timeline
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Venues & Sports Over Time
-                    </span>
-                </h3>
-                <div className="h-80 chart-container">
-                    <style jsx>{`
-                        .chart-container :global(text) {
-                            fill: #d1d5db !important;
-                            font-weight: 600 !important;
-                        }
-                    `}</style>
-                    <ResponsiveLine
-                        data={growthData}
-                        margin={{top: 20, right: 110, bottom: 50, left: 60}}
-                        xScale={{type: 'point'}}
-                        yScale={{type: 'linear', min: 'auto', max: 'auto'}}
-                        axisTop={null}
-                        axisRight={null}
-                        axisBottom={{
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: -45
-                        }}
-                        axisLeft={{
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: 0
-                        }}
-                        pointSize={6}
-                        pointColor={{theme: 'background'}}
-                        pointBorderWidth={2}
-                        pointBorderColor={{from: 'serieColor'}}
-                        useMesh={true}
-                        legends={[
-                            {
-                                anchor: 'bottom-right',
-                                direction: 'column',
-                                justify: false,
-                                translateX: 100,
-                                translateY: 0,
-                                itemsSpacing: 0,
-                                itemDirection: 'left-to-right',
-                                itemWidth: 80,
-                                itemHeight: 20,
-                                itemOpacity: 0.75,
-                                symbolSize: 12,
-                                symbolShape: 'circle'
-                            }
-                        ]}
-                        theme={{
-                            background: 'transparent',
-                            tooltip: {
-                                container: {
-                                    background: '#ffffff',
-                                    color: '#374151',
-                                    fontSize: '12px',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                    border: '1px solid #e5e7eb',
-                                    padding: '8px 12px'
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            },
-                            legends: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            }
-                        }}
-                    />
+            {/* Summary Stats */}
+            <div className="grid md:grid-cols-4 gap-4">
+                <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-4 text-white">
+                    <div className="text-2xl font-bold">{data?.totalGames || 0}</div>
+                    <div className="text-sm opacity-90">Olympic Games</div>
+                </div>
+                <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-xl p-4 text-white">
+                    <div className="text-2xl font-bold">{data?.totalVenues || 0}</div>
+                    <div className="text-sm opacity-90">Total Venues</div>
+                </div>
+                <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl p-4 text-white">
+                    <div className="text-2xl font-bold">
+                        {data?.games ? Math.round(data.totalVenues / data.totalGames * 10) / 10 : 0}
+                    </div>
+                    <div className="text-sm opacity-90">Avg Venues/Game</div>
+                </div>
+                <div className="bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl p-4 text-white">
+                    <div className="text-2xl font-bold">
+                        {data?.games ? data.games[data.games.length - 1]?.year - data.games[0]?.year : 0}
+                    </div>
+                    <div className="text-sm opacity-90">Years Span</div>
                 </div>
             </div>
 
@@ -607,27 +536,98 @@ const TemporalAnalysis = ({geojsonData}) => {
                 </div>
             </div>
 
-            {/* Summary Stats */}
-            <div className="grid md:grid-cols-4 gap-4">
-                <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-4 text-white">
-                    <div className="text-2xl font-bold">{data?.totalGames || 0}</div>
-                    <div className="text-sm opacity-90">Olympic Games</div>
-                </div>
-                <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-xl p-4 text-white">
-                    <div className="text-2xl font-bold">{data?.totalVenues || 0}</div>
-                    <div className="text-sm opacity-90">Total Venues</div>
-                </div>
-                <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl p-4 text-white">
-                    <div className="text-2xl font-bold">
-                        {data?.games ? Math.round(data.totalVenues / data.totalGames * 10) / 10 : 0}
-                    </div>
-                    <div className="text-sm opacity-90">Avg Venues/Game</div>
-                </div>
-                <div className="bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl p-4 text-white">
-                    <div className="text-2xl font-bold">
-                        {data?.games ? data.games[data.games.length - 1]?.year - data.games[0]?.year : 0}
-                    </div>
-                    <div className="text-sm opacity-90">Years Span</div>
+            {/* Olympic Growth Timeline */}
+            <div
+                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+                <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
+                    📈 Olympic Growth Timeline
+                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+                        Venues & Sports Over Time
+                    </span>
+                </h3>
+                <div className="h-80 chart-container">
+                    <style jsx>{`
+                        .chart-container :global(text) {
+                            fill: #d1d5db !important;
+                            font-weight: 600 !important;
+                        }
+                    `}</style>
+                    <ResponsiveLine
+                        data={growthData}
+                        margin={{top: 20, right: 110, bottom: 50, left: 60}}
+                        xScale={{type: 'point'}}
+                        yScale={{type: 'linear', min: 'auto', max: 'auto'}}
+                        axisTop={null}
+                        axisRight={null}
+                        axisBottom={{
+                            tickSize: 5,
+                            tickPadding: 5,
+                            tickRotation: -45
+                        }}
+                        axisLeft={{
+                            tickSize: 5,
+                            tickPadding: 5,
+                            tickRotation: 0
+                        }}
+                        pointSize={6}
+                        pointColor={{theme: 'background'}}
+                        pointBorderWidth={2}
+                        pointBorderColor={{from: 'serieColor'}}
+                        useMesh={true}
+                        legends={[
+                            {
+                                anchor: 'bottom-right',
+                                direction: 'column',
+                                justify: false,
+                                translateX: 100,
+                                translateY: 0,
+                                itemsSpacing: 0,
+                                itemDirection: 'left-to-right',
+                                itemWidth: 80,
+                                itemHeight: 20,
+                                itemOpacity: 0.75,
+                                symbolSize: 12,
+                                symbolShape: 'circle'
+                            }
+                        ]}
+                        theme={{
+                            background: 'transparent',
+                            tooltip: {
+                                container: {
+                                    background: '#ffffff',
+                                    color: '#374151',
+                                    fontSize: '12px',
+                                    borderRadius: '8px',
+                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
+                                    border: '1px solid #e5e7eb',
+                                    padding: '8px 12px'
+                                }
+                            },
+                            axis: {
+                                ticks: {
+                                    text: {
+                                        fontSize: 11,
+                                        fill: '#d1d5db',
+                                        fontWeight: 600
+                                    }
+                                },
+                                legend: {
+                                    text: {
+                                        fontSize: 12,
+                                        fill: '#d1d5db',
+                                        fontWeight: 600
+                                    }
+                                }
+                            },
+                            legends: {
+                                text: {
+                                    fontSize: 11,
+                                    fill: '#d1d5db',
+                                    fontWeight: 600
+                                }
+                            }
+                        }}
+                    />
                 </div>
             </div>
         </div>

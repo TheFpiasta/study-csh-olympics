@@ -1,11 +1,12 @@
 import {NextResponse} from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import logger from '../../../../components/logger.js';
 
 export async function GET() {
     try {
-        console.log('API route called');
-        console.log('Current working directory:', process.cwd());
+        logger.info('API route called');
+        logger.info('Current working directory:', process.cwd());
 
         // Try multiple possible paths to find the GeoJSON directory
         const possiblePaths = [
@@ -17,16 +18,16 @@ export async function GET() {
         let geojsonPath = null;
 
         for (const testPath of possiblePaths) {
-            console.log('Testing path:', testPath);
+            logger.debug('Testing path:', testPath);
             if (fs.existsSync(testPath)) {
                 geojsonPath = testPath;
-                console.log('Found valid path:', geojsonPath);
+                logger.info('Found valid path:', geojsonPath);
                 break;
             }
         }
 
         if (!geojsonPath) {
-            console.error('Could not find GeoJSON directory. Tested paths:', possiblePaths);
+            logger.error('Could not find GeoJSON directory. Tested paths:', possiblePaths);
             return NextResponse.json({
                 error: 'Olympic games data directory not found',
                 testedPaths: possiblePaths,
@@ -36,10 +37,10 @@ export async function GET() {
 
         // Read all GeoJSON files
         const files = fs.readdirSync(geojsonPath).filter(file => file.endsWith('.geojson'));
-        console.log('Found files:', files.length);
+        logger.info('Found files:', files.length);
 
         if (files.length === 0) {
-            console.error('No GeoJSON files found in directory:', geojsonPath);
+            logger.error('No GeoJSON files found in directory:', geojsonPath);
             return NextResponse.json({
                 error: 'No GeoJSON files found',
                 searchPath: geojsonPath
@@ -56,7 +57,7 @@ export async function GET() {
 
                 // Extract game info from filename (e.g., "combined_1896_Athens.geojson")
                 const match = file.match(/(\d{4})_(.+)\.geojson/);
-                console.log(`Processing file: ${file}, match: ${!!match}, features: ${geojsonData.features?.length || 0}`);
+                logger.debug(`Processing file: ${file}, match: ${!!match}, features: ${geojsonData.features?.length || 0}`);
 
                 if (match && geojsonData.features) {
                     const [, year, location] = match;
@@ -77,7 +78,7 @@ export async function GET() {
                         }
 
                         if (season === '') {
-                            console.error('No season found for ' + feature.properties.games);
+                            logger.error('No season found for ' + feature.properties.games);
                         }
 
                         return {
@@ -102,15 +103,15 @@ export async function GET() {
                     });
                 }
             } catch (fileError) {
-                console.warn(`Error processing file ${file}:`, fileError);
-                console.warn(`File path: ${path.join(geojsonPath, file)}`);
+                logger.warn(`Error processing file ${file}:`, fileError);
+                logger.warn(`File path: ${path.join(geojsonPath, file)}`);
             }
         }
 
         // Sort by year
         allData.sort((a, b) => a.year - b.year);
 
-        console.log('Processed games:', allData.length);
+        logger.info('Processed games:', allData.length);
 
         const result = {
             games: allData,
@@ -118,7 +119,7 @@ export async function GET() {
             totalVenues: allData.reduce((sum, game) => sum + game.venueCount, 0)
         };
 
-        console.log('Returning result:', result.totalGames, 'games,', result.totalVenues, 'venues');
+        logger.info('Returning result:', result.totalGames, 'games,', result.totalVenues, 'venues');
 
         return NextResponse.json(result, {
             headers: {
@@ -130,7 +131,7 @@ export async function GET() {
         });
 
     } catch (error) {
-        console.error('Error loading all Olympic data:', error);
+        logger.error('Error loading all Olympic data:', error);
         return NextResponse.json({error: 'Failed to load Olympic games data'}, {status: 500});
     }
 }

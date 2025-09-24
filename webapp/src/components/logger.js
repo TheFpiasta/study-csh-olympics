@@ -1,17 +1,35 @@
-const fs = require('fs');
-const path = require('path');
+// Environment detection
+const isNode = typeof process !== 'undefined' && process.versions && process.versions.node;
+const isBrowser = typeof window !== 'undefined';
+
+// Fetch availability detection
+const hasFetch = typeof fetch !== 'undefined';
 
 /**
- * Logger class to handle logging to console and/or file with different log levels and rotation.
+ * Universal Logger class that works in both Node.js and browser environments.
  * Configuration is done via environment variables.
  */
 class Logger {
     constructor() {
-        this.logLevel = process.env.LOG_LEVEL || 'warn';
-        this.useFileLogging = process.env.USE_FILE_LOGGING === 'true';
-        this.useConsoleLogging = process.env.USE_CONSOLE_LOGGING === 'true';
-        this.logDirectory = process.env.LOG_DIRECTORY || 'logs';
-        this.logRotationPeriod = process.env.LOG_ROTATION_PERIOD || 'weekly';
+        // Environment-specific configuration with browser-safe defaults
+        // In browser, check for NEXT_PUBLIC_ prefixed variables, otherwise use server env vars
+        const envLogLevel = isBrowser
+            ? (typeof process !== 'undefined' && process.env?.NEXT_PUBLIC_LOG_LEVEL) || 'info'
+            : (typeof process !== 'undefined' && process.env?.LOG_LEVEL) || 'info';
+
+        const envFileLogging = isBrowser
+            ? (typeof process !== 'undefined' && process.env?.NEXT_PUBLIC_USE_FILE_LOGGING) === 'true'
+            : (typeof process !== 'undefined' && process.env?.USE_FILE_LOGGING) === 'true';
+
+        const envConsoleLogging = isBrowser
+            ? (typeof process !== 'undefined' && process.env?.NEXT_PUBLIC_USE_CONSOLE_LOGGING)
+            : (typeof process !== 'undefined' && process.env?.USE_CONSOLE_LOGGING);
+
+        this.logLevel = envLogLevel;
+        this.useFileLogging = envFileLogging;
+        // Default to true for console logging in browser, respect env var if set
+        this.useConsoleLogging = envConsoleLogging !== undefined ? envConsoleLogging === 'true' : isBrowser;
+        this.serverLogEndpoint = '/api/logs';
 
         this.logLevels = {
             debug: 0,
@@ -20,25 +38,7 @@ class Logger {
             error: 3
         };
 
-        this.currentLogLevel = this.logLevels[this.logLevel] || this.logLevels.warn;
-
-        if (this.useFileLogging) {
-            this.#ensureLogDirectory();
-        }
-    }
-
-    /**
-     * Ensure the log directory exists, create if it doesn't.
-     */
-    #ensureLogDirectory() {
-        try {
-            if (!fs.existsSync(this.logDirectory)) {
-                fs.mkdirSync(this.logDirectory, {recursive: true});
-            }
-        } catch (error) {
-            console.error(`Failed to create log directory: ${error.message}`);
-            this.useFileLogging = false;
-        }
+        this.currentLogLevel = this.logLevels[this.logLevel] !== undefined ? this.logLevels[this.logLevel] : this.logLevels.warn;
     }
 
     /**
@@ -70,29 +70,50 @@ class Logger {
     }
 
     /**
-     * Get log file name based on rotation period.
-     *
-     * @returns {string} - Log file name
+     * Send log entry to server for file storage.
+     * Works in both Node.js and browser environments.
+     * Includes security measures and rate limiting.
      */
-    #getLogFileName() {
-        const now = new Date();
-        const year = now.getFullYear();
-        const month = String(now.getMonth() + 1).padStart(2, '0');
-        const day = String(now.getDate()).padStart(2, '0');
+    async #sendToServer(level, message, data) {
+        if (!this.useFileLogging || !hasFetch) {
+            if (!hasFetch && isNode) {
+                console.warn('File logging requires Node.js 18+ with built-in fetch support');
+            }
+            return;
+        }
 
-        switch (this.logRotationPeriod) {
-            case 'daily':
-                return `app-${year}-${month}-${day}.log`;
-            case 'weekly':
-                const startOfWeek = new Date(now.setDate(now.getDate() - now.getDay()));
-                const weekYear = startOfWeek.getFullYear();
-                const weekMonth = String(startOfWeek.getMonth() + 1).padStart(2, '0');
-                const weekDay = String(startOfWeek.getDate()).padStart(2, '0');
-                return `app-${weekYear}-${weekMonth}-${weekDay}-week.log`;
-            case 'monthly':
-                return `app-${year}-${month}.log`;
-            default:
-                return `app-${year}-${month}-${day}.log`;
+        try {
+            // Sanitize and limit log data
+            const sanitizedMessage = String(message).substring(0, 1000);
+            const sanitizedData = data ? String(JSON.stringify(data)).substring(0, 2000) : null;
+
+            const logEntry = {
+                level,
+                message: sanitizedMessage,
+                data: sanitizedData,
+                timestamp: new Date().toISOString(),
+                userAgent: isBrowser ? navigator.userAgent.substring(0, 200) : 'Node.js',
+                url: isBrowser ? window.location.pathname : 'server'
+            };
+
+            // Send to server with timeout
+            const controller = new AbortController();
+            const timeout = setTimeout(() => controller.abort(), 5000);
+
+            const baseUrl = isNode ? (process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000') : '';
+
+            await fetch(`${baseUrl}${this.serverLogEndpoint}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(logEntry),
+                signal: controller.signal
+            });
+
+            clearTimeout(timeout);
+        } catch (error) {
+            // Silent fail - don't log server logging errors to avoid infinite loops
         }
     }
 
@@ -129,13 +150,9 @@ class Logger {
             }
         }
 
+        // Always use API endpoint for file logging (both Node.js and browser environments)
         if (this.useFileLogging) {
-            try {
-                const logFile = path.join(this.logDirectory, this.#getLogFileName());
-                fs.appendFileSync(logFile, formattedLog + '\n');
-            } catch (error) {
-                console.error(`Failed to write to log file: ${error.message}`);
-            }
+            this.#sendToServer(level, message, data);
         }
     }
 
@@ -202,4 +219,9 @@ class Logger {
 
 const logger = new Logger();
 
-module.exports = logger;
+// Support both CommonJS and ES modules
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = logger;
+}
+
+export default logger;

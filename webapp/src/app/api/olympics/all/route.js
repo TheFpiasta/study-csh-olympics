@@ -1,7 +1,7 @@
 import {NextResponse} from 'next/server';
 import fs from 'fs';
 import path from 'path';
-import logger from '../../../components/logger.js';
+import logger from '../../../../components/logger.js';
 
 export async function GET() {
     try {

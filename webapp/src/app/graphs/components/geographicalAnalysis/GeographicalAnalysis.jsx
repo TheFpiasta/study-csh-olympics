@@ -62,7 +62,7 @@ const CapacityDistributionAnalysis = ({geojsonData}) => {
             </div>
 
           {/* Venue Spread and City Analysis - Side by Side */}
-          <div className="mx-4 mb-8 grid lg:grid-cols-2 gap-8">
+          <div className="mx-4 mb-8 grid lg:grid-cols-[2fr_1fr] gap-8">
             {/* Venue Spread Chart */}
             <VenueSpread geojsonData={geojsonData}/>
 

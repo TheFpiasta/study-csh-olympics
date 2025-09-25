@@ -20,42 +20,6 @@ const TemporalAnalysis = ({geojsonData}) => {
         setError(geojsonData.error);
     }, [geojsonData]);
 
-    // Process data for Olympic Growth Timeline
-    const getGrowthTimelineData = () => {
-        if (!data?.games) return [];
-
-        const venueData = data.games.map(game => ({
-            x: game.year.toString(),
-            y: game.venueCount
-        }));
-
-        const sportsData = data.games.map(game => {
-            const uniqueSports = new Set();
-            game.features.forEach(feature => {
-                if (feature.properties.sports && Array.isArray(feature.properties.sports)) {
-                    feature.properties.sports.forEach(sport => uniqueSports.add(sport));
-                }
-            });
-            return {
-                x: game.year.toString(),
-                y: uniqueSports.size
-            };
-        });
-
-        return [
-            {
-                id: 'Venues',
-                color: '#3b82f6',
-                data: venueData
-            },
-            {
-                id: 'Sports',
-                color: '#10b981',
-                data: sportsData
-            }
-        ];
-    };
-
     // Process data for Venue Lifespan Analysis
     const getLifespanData = () => {
         if (!data?.games) return [];
@@ -254,7 +218,6 @@ const TemporalAnalysis = ({geojsonData}) => {
         );
     }
 
-    const growthData = getGrowthTimelineData();
     const lifespanData = getLifespanData();
     const seasonalData = getSeasonalData();
     const decadeData = getDecadeData();
@@ -263,7 +226,6 @@ const TemporalAnalysis = ({geojsonData}) => {
         dataExists: !!data,
         gameCount: data?.games?.length,
         firstGame: data?.games?.[0],
-        growthData: growthData.length,
         lifespanData: lifespanData.length,
         seasonalData: seasonalData.length,
         decadeData: decadeData.length
@@ -557,109 +519,6 @@ const TemporalAnalysis = ({geojsonData}) => {
                             }}
                         />
                     </div>
-                </div>
-            </div>
-
-            {/* Olympic Growth Timeline */}
-            <div
-                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📈 Olympic Growth Timeline
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Venues & Sports Over Time
-                    </span>
-                </h3>
-                <div className="h-80 chart-container">
-                    <style jsx>{`
-                        .chart-container :global(text) {
-                            fill: #d1d5db !important;
-                            font-weight: 600 !important;
-                        }
-                    `}</style>
-                    <ResponsiveLine
-                        data={growthData}
-                        margin={{top: 20, right: 110, bottom: 50, left: 60}}
-                        xScale={{type: 'point'}}
-                        yScale={{type: 'linear', min: 'auto', max: 'auto'}}
-                        axisTop={null}
-                        axisRight={null}
-                        axisBottom={{
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: -45
-                        }}
-                        axisLeft={{
-                            tickSize: 5,
-                            tickPadding: 5,
-                            tickRotation: 0
-                        }}
-                        pointSize={6}
-                        pointColor={{theme: 'background'}}
-                        pointBorderWidth={2}
-                        pointBorderColor={{from: 'serieColor'}}
-                        enableGridX={true}
-                        enableGridY={true}
-                        useMesh={true}
-                        legends={[
-                            {
-                                anchor: 'bottom-right',
-                                direction: 'column',
-                                justify: false,
-                                translateX: 100,
-                                translateY: 0,
-                                itemsSpacing: 0,
-                                itemDirection: 'left-to-right',
-                                itemWidth: 80,
-                                itemHeight: 20,
-                                itemOpacity: 0.75,
-                                symbolSize: 12,
-                                symbolShape: 'circle'
-                            }
-                        ]}
-                        theme={{
-                            background: 'transparent',
-                          grid: {
-                            line: {
-                              stroke: '#374151',
-                              strokeWidth: 1
-                            }
-                          },
-                            tooltip: {
-                                container: {
-                                    background: '#ffffff',
-                                    color: '#374151',
-                                    fontSize: '12px',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                    border: '1px solid #e5e7eb',
-                                    padding: '8px 12px'
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            },
-                            legends: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            }
-                        }}
-                    />
                 </div>
             </div>
         </div>

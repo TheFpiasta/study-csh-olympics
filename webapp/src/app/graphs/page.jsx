@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
-import OlympicLineChart from "@/app/graphs/components/OlympicLineChart";
+import OlympicLineChart from "@/app/graphs/components/olympicMetrics/OlympicLineChart";
 import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
 import CostAnalysis from "@/app/graphs/components/CostAnalysis";
 import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
@@ -19,6 +19,7 @@ import ChartSectionPlaceholder from "@/app/graphs/components/templates/ChartSect
 import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistribution/CapacityDistributionAnalysis";
 import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
 import PageInfoSection from "@/app/graphs/components/PageInfoSection";
+import OlympicMetric from "@/app/graphs/components/olympicMetrics/OlympicMetric";
 
 export default function GraphsPage() {
   const [geojsonData, setGeojsonData] = useState(null);
@@ -72,9 +73,8 @@ export default function GraphsPage() {
         <TemporalAnalysis geojsonData={geojsonData}/>
       </div>
 
-      {/* Athletes, Events and Countries Dashboard */}
       <div className="mx-4 mb-8">
-        <OlympicLineChart geojsonData={geojsonData}/>
+        <OlympicMetric geojsonData={geojsonData}/>
       </div>
 
       <div className="mx-4 mb-8">

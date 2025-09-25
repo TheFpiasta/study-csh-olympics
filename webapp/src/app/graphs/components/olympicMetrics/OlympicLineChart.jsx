@@ -3,8 +3,8 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
-import {getColorPalet} from './utility';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
+import {getColorPalet} from '../utility';
 
 const SERIES_COLORS = {
   athletes: {Summer: '#8D5524', Winter: '#FFDFCC'},
@@ -254,11 +254,14 @@ const OlympicLineChart = ({geojsonData}) => {
 
   return (
     <div className="space-y-8">
-      <SectionHeader headline={"Olympic Participation Over Time"}
-                     description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
-      />
       <div
         className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+
+        <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+          Olympic Participation Over Time
+          <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+            </span>
+        </h3>
 
         {/* Olympic Season Selector */}
         <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">

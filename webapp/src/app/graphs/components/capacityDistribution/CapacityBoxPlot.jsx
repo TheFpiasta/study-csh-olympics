@@ -169,9 +169,36 @@ const CapacityBoxPlot = ({geojsonData}) => {
       <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
         Capacity Distribution
         <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                          Box Plot
-                    </span>
+              Box Plot
+        </span>
       </h3>
+
+      {/* Olympic Season Filter */}
+      <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+          Olympic Season
+        </label>
+        <div className="flex flex-wrap gap-2">
+          <button
+            onClick={() => setSeasonFilter('both')}
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'both' ? 'bg-purple-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
+          >
+            Both
+          </button>
+          <button
+            onClick={() => setSeasonFilter('summer')}
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'summer' ? 'bg-amber-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
+          >
+            Summer
+          </button>
+          <button
+            onClick={() => setSeasonFilter('winter')}
+            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'winter' ? 'bg-cyan-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
+          >
+            Winter
+          </button>
+        </div>
+      </div>
 
       {/* Year Range Filter */}
       <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -277,33 +304,6 @@ const CapacityBoxPlot = ({geojsonData}) => {
             <span
               className="text-sm font-medium text-gray-600 dark:text-gray-400 min-w-[3rem]">100%</span>
           </div>
-        </div>
-      </div>
-
-      {/* Olympic Season Filter */}
-      <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-        <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-          Olympic Season
-        </label>
-        <div className="flex flex-wrap gap-2">
-          <button
-            onClick={() => setSeasonFilter('both')}
-            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'both' ? 'bg-purple-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
-          >
-            Both
-          </button>
-          <button
-            onClick={() => setSeasonFilter('summer')}
-            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'summer' ? 'bg-amber-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
-          >
-            Summer
-          </button>
-          <button
-            onClick={() => setSeasonFilter('winter')}
-            className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${seasonFilter === 'winter' ? 'bg-cyan-500 text-white' : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'}`}
-          >
-            Winter
-          </button>
         </div>
       </div>
 

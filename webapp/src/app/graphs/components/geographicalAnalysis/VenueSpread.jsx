@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorPalet} from '../utility';
+import {getColorFromPalet} from '../utility';
 
 const VenueSpread = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -89,7 +89,7 @@ const VenueSpread = ({geojsonData}) => {
 
     // Add colors to each series
     distanceData.forEach((series, index) => {
-      series.color = getColorPalet(index, distanceData.length);
+      series.color = getColorFromPalet(index, distanceData.length);
     });
 
     return distanceData;
@@ -122,7 +122,7 @@ const VenueSpread = ({geojsonData}) => {
     const legendData = {Summer: [], Winter: []};
 
     distanceData.forEach((series, seriesIndex) => {
-      const seriesColor = getColorPalet(seriesIndex, distanceData.length);
+      const seriesColor = getColorFromPalet(seriesIndex, distanceData.length);
       series.data.forEach(point => {
         const season = point.season;
         if (legendData[season]) {
@@ -213,7 +213,7 @@ const VenueSpread = ({geojsonData}) => {
           blendMode="normal"
           colors={({serieId}) => {
             const seriesIndex = distanceData.findIndex(s => s.id === serieId);
-            return getColorPalet(seriesIndex >= 0 ? seriesIndex : 0, distanceData.length);
+            return getColorFromPalet(seriesIndex >= 0 ? seriesIndex : 0, distanceData.length);
           }}
           pointSize={8}
           pointColor={{from: 'color'}}

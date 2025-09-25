@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
-import {getColorPalet, getSeasonColor, getYearRange} from "@/app/graphs/components/utility";
+import {getColorFromPalet, getSeasonColor, getYearRange} from "@/app/graphs/components/utility";
 import {graphColors, olympicColors} from "@/components/utility";
 import logger from '@/components/logger';
 
@@ -1057,13 +1057,13 @@ export default function FinancialMetrics({data}) {
                                 }`}
                                 style={{
                                     backgroundColor: filterState && filterState.active
-                                      ? getColorPalet(index, visibleMetrics.length, 0.6)
+                                      ? getColorFromPalet(index, visibleMetrics.length, 0.6)
                                         : undefined
                                 }}
                             >
                                 <div
                                     className="w-2 h-2 rounded-full"
-                                    style={{backgroundColor: getColorPalet(index, visibleMetrics.length)}}
+                                    style={{backgroundColor: getColorFromPalet(index, visibleMetrics.length)}}
                                 ></div>
                                 {metricName}
                             </button>
@@ -1101,7 +1101,7 @@ export default function FinancialMetrics({data}) {
                             baseName = serie.id.replace(' (Summer)', '').replace(' (Winter)', '');
                         }
                         const baseIndex = visibleMetrics.indexOf(baseName);
-                      return getColorPalet(baseIndex, visibleMetrics.length);
+                      return getColorFromPalet(baseIndex, visibleMetrics.length);
                     }}
                     yScale={{
                         type: 'linear',
@@ -1314,7 +1314,7 @@ export default function FinancialMetrics({data}) {
                                 <div
                                     className="w-4 h-0.5"
                                     style={{
-                                      backgroundColor: getColorPalet(Array.from(new Set(financialTimeData.map(series => {
+                                      backgroundColor: getColorFromPalet(Array.from(new Set(financialTimeData.map(series => {
                                             let baseName = series.id;
                                             if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
                                                 baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');

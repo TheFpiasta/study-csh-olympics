@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorPalet} from '../utility';
+import {getColorFromPalet} from '../utility';
 
 const SERIES_COLORS = {
   athletes: {Summer: '#8D5524', Winter: '#FFDFCC'},
@@ -320,7 +320,7 @@ const OlympicLineChart = ({geojsonData}) => {
                 style={
                   selectedSeries === key
                     ? {
-                      backgroundColor: getColorPalet(index, BUTTON_CONFIG.length, 0.75),
+                      backgroundColor: getColorFromPalet(index, BUTTON_CONFIG.length, 0.75),
                     }
                     : {}
                 }

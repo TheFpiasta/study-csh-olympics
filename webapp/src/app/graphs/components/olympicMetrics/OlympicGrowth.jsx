@@ -1,6 +1,6 @@
 import {ResponsiveLine} from "@nivo/line";
 import {useState, useEffect} from "react";
-import {getColorPalet, getSeasonColor} from "@/app/graphs/components/utility";
+import {getColorFromPalet, getSeasonColor} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
 
 export default function OlympicGrowth({data}) {
@@ -249,7 +249,7 @@ export default function OlympicGrowth({data}) {
               baseName = serie.id.replace(' (Summer)', '').replace(' (Winter)', '');
             }
             const baseIndex = metrics.indexOf(baseName);
-            return getColorPalet(baseIndex, metrics.length);
+            return getColorFromPalet(baseIndex, metrics.length);
           }}
           yScale={{
             type: 'linear',
@@ -377,7 +377,7 @@ export default function OlympicGrowth({data}) {
               <div key={metric} className="flex items-center gap-2">
                 <div
                   className="w-4 h-0.5"
-                  style={{backgroundColor: getColorPalet(index, 2)}}
+                  style={{backgroundColor: getColorFromPalet(index, 2)}}
                 ></div>
                 <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
                   {metric}

@@ -3,6 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
+import {getMetricColor} from '../utility';
 
 const VenueSpread = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -86,6 +87,11 @@ const VenueSpread = ({geojsonData}) => {
       });
     });
 
+    // Add colors to each series
+    distanceData.forEach((series, index) => {
+      series.color = getMetricColor(index, distanceData.length);
+    });
+
     return distanceData;
   };
 
@@ -110,6 +116,37 @@ const VenueSpread = ({geojsonData}) => {
   );
 
   const distanceData = getDistanceData();
+
+  // Process legend data grouped by season
+  const getLegendData = () => {
+    const legendData = {Summer: [], Winter: []};
+
+    distanceData.forEach((series, seriesIndex) => {
+      const seriesColor = getMetricColor(seriesIndex, distanceData.length);
+      series.data.forEach(point => {
+        const season = point.season;
+        if (legendData[season]) {
+          legendData[season].push({
+            id: `${point.location} ${point.year}`,
+            location: point.location,
+            year: point.year,
+            venues: point.x,
+            spread: point.y,
+            color: seriesColor
+          });
+        }
+      });
+    });
+
+    // Sort by year within each season
+    Object.keys(legendData).forEach(season => {
+      legendData[season].sort((a, b) => a.year - b.year);
+    });
+
+    return legendData;
+  };
+
+  const legendData = getLegendData();
 
   return (
     <div
@@ -160,20 +197,24 @@ const VenueSpread = ({geojsonData}) => {
         </div>
       </div>
 
-      <div className="h-80 chart-container">
-        <style jsx>{`
-          .chart-container :global(text) {
-            fill: #d1d5db !important;
-            font-weight: 600 !important;
-          }
-        `}</style>
-        <ResponsiveScatterPlot
+      <div className="flex gap-6">
+        <div className="flex-1 h-80 chart-container">
+          <style jsx>{`
+            .chart-container :global(text) {
+              fill: #d1d5db !important;
+              font-weight: 600 !important;
+            }
+          `}</style>
+          <ResponsiveScatterPlot
           data={distanceData}
           margin={{top: 20, right: 30, bottom: 60, left: 80}}
           xScale={{type: 'linear', min: 0, max: 'auto'}}
           yScale={{type: 'linear', min: 0, max: 'auto'}}
           blendMode="normal"
-          colors={{scheme: 'category10'}}
+          colors={({serieId}) => {
+            const seriesIndex = distanceData.findIndex(s => s.id === serieId);
+            return getMetricColor(seriesIndex >= 0 ? seriesIndex : 0, distanceData.length);
+          }}
           pointSize={8}
           pointColor={{from: 'color'}}
           pointBorderWidth={2}
@@ -244,6 +285,93 @@ const VenueSpread = ({geojsonData}) => {
             }
           }}
         />
+        </div>
+
+        {/* Legend */}
+        <div className="w-80 pl-4">
+          <div className="grid grid-cols-2 gap-4 max-h-80 overflow-y-auto">
+            {/* Summer Olympics Column */}
+            <div>
+              {(seasonFilter === 'both' || seasonFilter === 'summer') && (
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                      Summer
+                    </span>
+                  </div>
+                  <div className="space-y-1">
+                    {legendData.Summer.length > 0 ? (
+                      legendData.Summer.map((item, index) => (
+                        <div key={item.id} className="text-xs">
+                          <div className="flex items-center gap-1 mb-1">
+                            <div
+                              className="w-2 h-2 rounded-full flex-shrink-0"
+                              style={{backgroundColor: item.color}}
+                            ></div>
+                            <span className="text-gray-600 dark:text-gray-400 truncate">
+                              {item.year} {item.location}
+                            </span>
+                          </div>
+                          <div className="text-gray-500 dark:text-gray-500 text-xs ml-3">
+                            {item.spread}km, {item.venues} venues
+                          </div>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="text-xs text-gray-400 dark:text-gray-500 italic">
+                        No summer data
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+
+            {/* Winter Olympics Column */}
+            <div>
+              {(seasonFilter === 'both' || seasonFilter === 'winter') && (
+                <div>
+                  <div className="flex items-center gap-2 mb-2">
+                    <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
+                      Winter
+                    </span>
+                  </div>
+                  <div className="space-y-1">
+                    {legendData.Winter.length > 0 ? (
+                      legendData.Winter.map((item, index) => (
+                        <div key={item.id} className="text-xs">
+                          <div className="flex items-center gap-1 mb-1">
+                            <div
+                              className="w-2 h-2 rounded-full flex-shrink-0"
+                              style={{backgroundColor: item.color}}
+                            ></div>
+                            <span className="text-gray-600 dark:text-gray-400 truncate">
+                              {item.year} {item.location}
+                            </span>
+                          </div>
+                          <div className="text-gray-500 dark:text-gray-500 text-xs ml-3">
+                            {item.spread}km, {item.venues} venues
+                          </div>
+                        </div>
+                      ))
+                    ) : (
+                      <div className="text-xs text-gray-400 dark:text-gray-500 italic">
+                        No winter data
+                      </div>
+                    )}
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Overall no data message */}
+          {seasonFilter === 'both' && legendData.Summer.length === 0 && legendData.Winter.length === 0 && (
+            <div className="text-sm text-gray-500 dark:text-gray-400 italic mt-4">
+              No data available
+            </div>
+          )}
+        </div>
       </div>
     </div>
   );

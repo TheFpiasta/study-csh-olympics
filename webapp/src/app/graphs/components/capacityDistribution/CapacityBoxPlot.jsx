@@ -351,36 +351,96 @@ const CapacityBoxPlot = ({geojsonData}) => {
                 container: {background: '#0f1724', color: '#fff'},
               },
             }}
-            tooltip={({group, data, outliers}) => (<div
-              className="bg-gray-800 text-white p-3 rounded-lg shadow-xl border border-gray-600">
-              <div className="font-bold mb-2">{group}</div>
+            tooltip={({group, data, outliers}) => {
+              // Parse the group to extract year, location, and season
+              const groupParts = group.split(' – ');
+              const year = groupParts[0] || '';
+              const location = groupParts[1] || '';
+              const season = groupParts[2] || '';
 
-              {data?.values && (<>
-                <div className="flex justify-between text-sm">
-                  <span>Min:</span>
-                  <span>{data.values[0].toLocaleString()}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span>Q1:</span>
-                  <span>{data.values[1].toLocaleString()}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span>Median:</span>
-                  <span>{data.values[2].toLocaleString()}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span>Q3:</span>
-                  <span>{data.values[3].toLocaleString()}</span>
-                </div>
-                <div className="flex justify-between text-sm">
-                  <span>Max:</span>
-                  <span>{data.values[4].toLocaleString()}</span>
-                </div>
-              </>)}
+              // Count venues included in this group
+              const venueCount = seatingObservations.filter(obs => obs.group === group).length;
 
-              {outliers?.length > 0 && (<div
-                className="mt-2 text-xs text-gray-400">Outliers: {outliers.map(o => o.toLocaleString()).join(', ')}</div>)}
-            </div>)}
+              // Get season color for the indicator
+              const seasonColor = season.toLowerCase() === 'summer' ? seasonColors.summer :
+                season.toLowerCase() === 'winter' ? seasonColors.winter :
+                  seasonColors.unknown;
+
+              return (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80">
+                  {/* Header with Olympic Games info */}
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {location} {year}
+                  </div>
+
+                  {/* Season indicator */}
+                  <div className="flex items-center gap-2 mb-3">
+                    <div
+                      className="w-3 h-3 rounded-full"
+                      style={{backgroundColor: seasonColor}}
+                    ></div>
+                    <span className="text-sm text-gray-600 dark:text-gray-400 font-medium">
+                      {season} Olympics
+                    </span>
+                    <span className="text-xs text-gray-500 dark:text-gray-500 ml-auto">
+                      {venueCount} venues
+                    </span>
+                  </div>
+
+                  {/* Capacity Distribution Statistics */}
+                  <div className="text-sm text-gray-700 dark:text-gray-300 mb-2 font-medium">
+                    Venue Capacity Distribution
+                  </div>
+
+                  {data?.values && (
+                    <div className="space-y-1">
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600 dark:text-gray-400">Minimum:</span>
+                        <span className="font-medium text-gray-900 dark:text-gray-100">
+                          {data.values[0].toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600 dark:text-gray-400">First Quartile (Q1):</span>
+                        <span className="font-medium text-gray-900 dark:text-gray-100">
+                          {data.values[1].toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600 dark:text-gray-400">Median (Q2):</span>
+                        <span className="font-medium text-gray-900 dark:text-gray-100">
+                          {data.values[2].toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600 dark:text-gray-400">Third Quartile (Q3):</span>
+                        <span className="font-medium text-gray-900 dark:text-gray-100">
+                          {data.values[3].toLocaleString()}
+                        </span>
+                      </div>
+                      <div className="flex justify-between text-sm">
+                        <span className="text-gray-600 dark:text-gray-400">Maximum:</span>
+                        <span className="font-medium text-gray-900 dark:text-gray-100">
+                          {data.values[4].toLocaleString()}
+                        </span>
+                      </div>
+                    </div>
+                  )}
+
+                  {outliers?.length > 0 && (
+                    <div className="mt-3 pt-2 border-t border-gray-200 dark:border-gray-600">
+                      <div className="text-xs text-gray-600 dark:text-gray-400 mb-1">
+                        Outliers ({outliers.length}):
+                      </div>
+                      <div className="text-xs text-gray-700 dark:text-gray-300">
+                        {outliers.map(o => o.toLocaleString()).join(', ')}
+                      </div>
+                    </div>
+                  )}
+                </div>
+              );
+            }}
           />
         </div>)}
       </div>

@@ -1,24 +1,25 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { ResponsiveScatterPlot } from '@nivo/scatterplot';
+import React, {useState, useEffect} from 'react';
+import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../components/LoadingSpinner';
+import {getColorPalet} from './utility';
 
 const SERIES_COLORS = {
-  athletes: { Summer: '#8D5524', Winter: '#FFDFCC' },
-  events:   { Summer: '#c71a54ff', Winter: '#4e99ccff' },
-  countries:{ Summer: '#c7c957ff', Winter: '#38c991ff' }
+  athletes: {Summer: '#8D5524', Winter: '#FFDFCC'},
+  events: {Summer: '#c71a54ff', Winter: '#4e99ccff'},
+  countries: {Summer: '#c7c957ff', Winter: '#38c991ff'}
 };
 
 const BUTTON_CONFIG = [
-  { key: 'athletes', label: 'Athletes' },
-  { key: 'events', label: 'Events' },
-  { key: 'countries', label: 'Countries' },
+  {key: 'athletes', label: 'Athletes'},
+  {key: 'events', label: 'Events'},
+  {key: 'countries', label: 'Countries'},
 ];
 
 
-const OlympicLineChart = ({ geojsonData }) => {
+const OlympicLineChart = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -212,7 +213,7 @@ const OlympicLineChart = ({ geojsonData }) => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
-        <LoadingSpinner />
+        <LoadingSpinner/>
       </div>
     );
   }
@@ -227,7 +228,8 @@ const OlympicLineChart = ({ geojsonData }) => {
 
   if (!data || !data.games || data.games.length === 0) {
     return (
-      <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
+      <div
+        className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
         <p className="text-yellow-800 dark:text-yellow-300">No Olympic data available</p>
       </div>
     );
@@ -236,11 +238,11 @@ const OlympicLineChart = ({ geojsonData }) => {
   const scatterData = getScatterData();
 
   const getYearRange = () => {
-    if (!data?.games) return { min: 'auto', max: 'auto' };
+    if (!data?.games) return {min: 'auto', max: 'auto'};
 
     const harvardGames = data.games.filter((game) => game.harvard);
 
-    if (harvardGames.length === 0) return { min: 'auto', max: 'auto' };
+    if (harvardGames.length === 0) return {min: 'auto', max: 'auto'};
 
     const years = harvardGames.map((game) => game.year);
 
@@ -253,81 +255,78 @@ const OlympicLineChart = ({ geojsonData }) => {
   return (
     <div className="space-y-8">
       <SectionHeader headline={"Olympic Participation Over Time"}
-        description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
+                     description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
       />
-      <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                
-        <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 flex flex-wrap justify-between items-center">
-          {/* Data Type Selector (left) */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-              Data Type
-            </label>
-            <div className="flex flex-wrap gap-2">
-              {BUTTON_CONFIG.map(({ key, label }) => (
-                <button
-                  key={key}
-                  onClick={() => setSelectedSeries(key)}
-                  className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                    selectedSeries === key
-                      ? `text-white`
-                      : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300'
-                  }`}
-                  style={
-                    selectedSeries === key
-                      ? {
-                          backgroundImage: `linear-gradient(to right, ${SERIES_COLORS[key].Summer}, ${SERIES_COLORS[key].Winter})`,
-                        }
-                      : {}
-                  }
+      <div
+        className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
 
-                >
-                  {label}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Olympic Season Selector (right) */}
-          <div>
-            <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-              Olympic Season
-            </label>
-            <div className="flex flex-wrap gap-2">
-              <button
-                onClick={() => setSeasonFilter('both')}
-                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                  seasonFilter === 'both'
-                    ? 'bg-violet-500 text-white'
-                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                }`}
-              >
-                Both Seasons
-              </button>
-              <button
-                onClick={() => setSeasonFilter('summer')}
-                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                  seasonFilter === 'summer'
-                    ? 'bg-amber-500 text-white'
-                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                }`}
-              >
-                Summer
-              </button>
-              <button
-                onClick={() => setSeasonFilter('winter')}
-                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                  seasonFilter === 'winter'
-                    ? 'bg-cyan-500 text-white'
-                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
-                }`}
-              >
-                Winter
-              </button>
-            </div>
+        {/* Olympic Season Selector */}
+        <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Olympic Season
+          </label>
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setSeasonFilter('both')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                seasonFilter === 'both'
+                  ? 'bg-violet-500 text-white'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              }`}
+            >
+              Both
+            </button>
+            <button
+              onClick={() => setSeasonFilter('summer')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                seasonFilter === 'summer'
+                  ? 'bg-amber-500 text-white'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              }`}
+            >
+              Summer
+            </button>
+            <button
+              onClick={() => setSeasonFilter('winter')}
+              className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                seasonFilter === 'winter'
+                  ? 'bg-cyan-500 text-white'
+                  : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+              }`}
+            >
+              Winter
+            </button>
           </div>
         </div>
 
+        {/* Data Type Selector */}
+        <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
+          <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            Data Type
+          </label>
+          <div className="flex flex-wrap gap-2">
+            {BUTTON_CONFIG.map(({key, label}, index) => (
+              <button
+                key={key}
+                onClick={() => setSelectedSeries(key)}
+                className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                  selectedSeries === key
+                    ? `text-white`
+                    : 'bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-300 dark:hover:bg-gray-600'
+                }`}
+                style={
+                  selectedSeries === key
+                    ? {
+                      backgroundColor: getColorPalet(index, BUTTON_CONFIG.length, 0.75),
+                    }
+                    : {}
+                }
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
 
         {/* Scatter Plot */}
         <div className="h-80 chart-container">
@@ -339,9 +338,9 @@ const OlympicLineChart = ({ geojsonData }) => {
           `}</style>
           <ResponsiveScatterPlot
             data={getFilteredScatterData()}
-            margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
-            xScale={{ type: 'linear', min: getYearRange().min, max: getYearRange().max }}
-					  yScale={{ type: 'linear', min: 0, max: 'auto' }}
+            margin={{top: 20, right: 30, bottom: 50, left: 60}}
+            xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
+            yScale={{type: 'linear', min: 0, max: 'auto'}}
             axisTop={null}
             axisRight={null}
             axisBottom={{
@@ -360,52 +359,96 @@ const OlympicLineChart = ({ geojsonData }) => {
               tickSize: 5,
               tickPadding: 5,
               tickRotation: 0,
-              legend: 'USD (2018, millions)',
+              legend: `Number of ${selectedSeries.charAt(0).toUpperCase() + selectedSeries.slice(1)}`,
               legendOffset: -50,
               legendPosition: 'middle',
-              format: value => `${(value / 1_000_000).toLocaleString()}M`
+              format: value => value.toLocaleString()
             }}
             nodeSize={8}
+            enableGridX={true}
+            enableGridY={true}
             useMesh={true}
             colors={node => {
-              const type = node.serieId.split('-')[0];
               const season = node.data?.season || (node.serieId.includes('Summer') ? 'Summer' : 'Winter');
-              return SERIES_COLORS[type][season] || '#000';
+              // Match the season filter button colors
+              return season === 'Summer' ? '#f59e0b' : '#06b6d4';
             }}
-            tooltip={({ node }) => (
-              <div className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600">
-                <div className="font-bold text-gray-900 dark:text-gray-100 mb-1">
+            tooltip={({node}) => (
+              <div
+                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-80 max-w-100">
+                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
                   {node.data.location} {node.data.x}
                 </div>
-                <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">{node.data.season} Olympics</div>
-                <div className="flex justify-between">
-                  <span className="font-medium text-gray-700 dark:text-gray-300">
-                    {node.serieId.split('-')[0].charAt(0).toUpperCase() + node.serieId.split('-')[0].slice(1)}:
-                  </span>
-                  <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
+                <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  {node.data.season} Olympics
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">
+                      {node.serieId.split('-')[0].charAt(0).toUpperCase() + node.serieId.split('-')[0].slice(1)}:
+                    </span>
+                    <span className="text-gray-900 dark:text-gray-100 font-bold">
+                      {node.data.y.toLocaleString()}
+                    </span>
+                  </div>
                 </div>
               </div>
             )}
+            theme={{
+              background: 'transparent',
+              grid: {
+                line: {
+                  stroke: '#374151',
+                  strokeWidth: 1
+                }
+              },
+              axis: {
+                ticks: {
+                  text: {
+                    fontSize: 11,
+                    fill: '#d1d5db',
+                    fontWeight: 600
+                  }
+                },
+                legend: {
+                  text: {
+                    fontSize: 12,
+                    fill: '#d1d5db',
+                    fontWeight: 600
+                  }
+                }
+              }
+            }}
           />
         </div>
 
         {/* Dynamic Custom Legend */}
         <div className="flex justify-center mt-2 flex-wrap gap-4">
-          {['athletes', 'events', 'countries']
-            .filter((type) => selectedSeries === type)
-            .flatMap((type) => 
-              ['Summer', 'Winter'].map((season) => (
-                <div key={`${type}-${season}`} className="flex items-center gap-2">
-                  <div
-                    className="w-3 h-3 rounded-full"
-                    style={{ backgroundColor: SERIES_COLORS[type][season] }}
-                  ></div>
-                  <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                    {type.charAt(0).toUpperCase() + type.slice(1)} ({season})
-                  </span>
-                </div>
-              ))
-            )}
+          {seasonFilter === 'both' ? (
+            // Show both seasons when filter is 'both'
+            ['Summer', 'Winter'].map((season) => (
+              <div key={season} className="flex items-center gap-2">
+                <div
+                  className="w-3 h-3 rounded-full"
+                  style={{backgroundColor: season === 'Summer' ? '#f59e0b' : '#06b6d4'}}
+                ></div>
+                <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                  {selectedSeries.charAt(0).toUpperCase() + selectedSeries.slice(1)} ({season})
+                </span>
+              </div>
+            ))
+          ) : (
+            // Show only selected season when filter is specific
+            <div className="flex items-center gap-2">
+              <div
+                className="w-3 h-3 rounded-full"
+                style={{backgroundColor: seasonFilter === 'summer' ? '#f59e0b' : '#06b6d4'}}
+              ></div>
+              <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                {selectedSeries.charAt(0).toUpperCase() + selectedSeries.slice(1)} ({seasonFilter === 'summer' ? 'Summer' : 'Winter'})
+              </span>
+            </div>
+          )}
         </div>
       </div>
     </div>

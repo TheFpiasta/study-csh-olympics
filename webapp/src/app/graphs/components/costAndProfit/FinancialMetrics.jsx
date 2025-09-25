@@ -872,7 +872,7 @@ export default function FinancialMetrics({data}) {
 
     return (
         <div
-            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+          className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
             <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
                     📈 Financial Metrics Over Time

@@ -95,7 +95,6 @@ export default function GraphsPage() {
         <CostAndProfitabilityAnalyses geojsonData={geojsonData}/>
       </div>
 
-
       <PageInfoSection
         headline={"Explore Nivo Graphs"}
         subline={"Discover a variety of interactive charts and graphs powered by the Nivo graph engine."}
@@ -110,29 +109,12 @@ export default function GraphsPage() {
         }
       />
 
-      {/* Interactive Features Dashboard */}
-      <div className="mx-4 mb-8">
-        <InteractiveFeatures geojsonData={geojsonData}/>
-      </div>
-
-      {/*/!* Cost Analysis Dashboard *!/*/}
-      {/*<div className="mx-4 mb-8">*/}
-      {/*    <CostAnalysis geojsonData={geojsonData} />*/}
-      {/*</div>*/}
-
-      {/*/!*Scatter Plot Dashboard *!/*/}
-      {/*<div className="mx-4 mb-8">*/}
-      {/*    <ScatterPlot geojsonData={geojsonData} />*/}
-      {/*</div>*/}
-
-      <ChartSectionPlaceholder geojsonData={geojsonData}/>
-
       {/* Future Sections Placeholder */}
       <div className="mx-4 mb-4">
         <div
           className="p-6 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
           <h3 className="mb-4 text-xl font-semibold text-gray-900 dark:text-gray-200">
-            🚀 Coming Next
+            🚀 Upcoming Ideas and Features
           </h3>
           <div className="grid gap-4 md:grid-cols-3">
             <div
@@ -170,6 +152,22 @@ export default function GraphsPage() {
           </div>
         </div>
       </div>
+
+      <PageInfoSection
+        headline={"Test graphs"}
+        subline={"Discover our test graphs that we have created to explore the capabilities of the Nivo graph engine."}
+        href={"/graphs/tests"}
+        linkText={"Explore the Tests"}
+        icon={
+          <svg className="w-5 h-5 transition-transform group-hover:-translate-x-1 rotate-180" fill="none"
+               stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2}
+                  d="M11 17l-5-5m0 0l5-5m-5 5h12"/>
+          </svg>
+        }
+      />
+
+
     </div>
   )
 }

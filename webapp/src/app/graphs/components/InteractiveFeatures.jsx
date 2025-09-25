@@ -33,10 +33,10 @@ const InteractiveFeatures = ({geojsonData}) => {
   // Get all unique sports and seasons for filtering
   const getFilters = () => {
     if (!data?.games) return { sports: [], seasons: [] };
-    
+
     const allSports = new Set();
     const allSeasons = new Set();
-    
+
     data.games.forEach(game => {
       game.features.forEach(feature => {
         if (feature.properties.season) {
@@ -51,7 +51,7 @@ const InteractiveFeatures = ({geojsonData}) => {
         }
       });
     });
-    
+
     return {
       sports: Array.from(allSports).sort(),
       seasons: Array.from(allSeasons).sort()
@@ -61,23 +61,23 @@ const InteractiveFeatures = ({geojsonData}) => {
   // Process data for scatter plot
   const getScatterPlotData = () => {
     if (!data?.games) return [];
-    
+
     const sportCategories = new Map();
-    
+
     // Olympic theme colors for different sports/categories
     const colors = ['#0081C8', '#FCB131', '#00A651', '#EE334E', '#FF6B35', '#8E44AD', '#2ECC71', '#E74C3C', '#3498DB', '#F39C12', '#9B59B6', '#1ABC9C'];
     let colorIndex = 0;
-    
+
     data.games.forEach(game => {
       // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
-      
+
       game.features.forEach(feature => {
         const props = feature.properties;
-        
+
         // Filter by season at feature level
         if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
-        
+
         // Extract capacity (try different property names that might contain capacity info)
         let capacity = null;
         if (props.capacity) {
@@ -87,28 +87,28 @@ const InteractiveFeatures = ({geojsonData}) => {
         } else if (props.max_capacity) {
           capacity = parseInt(props.max_capacity.toString().replace(/[^\d]/g, ''));
         }
-        
+
         // Skip venues without capacity data
         if (!capacity || capacity === 0) return;
-        
+
         // Get sports for this venue
         let venueSports = [];
         if (props.sports) {
           venueSports = Array.isArray(props.sports) ? props.sports : [props.sports];
         }
-        
+
         // Filter by selected sports
         if (!selectedSports.has('All')) {
           const hasSelectedSport = venueSports.some(sport => selectedSports.has(sport));
           if (!hasSelectedSport) return;
         }
-        
+
         // Group by primary sport (first sport in the list, or 'Multi-Sport' if multiple)
         let primarySport = venueSports.length > 0 ? venueSports[0] : 'Unknown';
         if (venueSports.length > 3) {
           primarySport = 'Multi-Sport Complex';
         }
-        
+
         if (!sportCategories.has(primarySport)) {
           sportCategories.set(primarySport, {
             id: primarySport,
@@ -117,7 +117,7 @@ const InteractiveFeatures = ({geojsonData}) => {
           });
           colorIndex++;
         }
-        
+
         sportCategories.get(primarySport).data.push({
           x: game.year,
           y: capacity,
@@ -129,20 +129,20 @@ const InteractiveFeatures = ({geojsonData}) => {
         });
       });
     });
-    
+
     return Array.from(sportCategories.values()).filter(category => category.data.length > 0);
   };
 
   // Process data for network graph
   const getNetworkData = () => {
     if (!data?.games) return { nodes: [], links: [] };
-    
+
     const nodes = [];
     const links = [];
     const nodeMap = new Map();
     const cityVenues = new Map(); // Track venues per city
     const venueDetails = new Map(); // Track venue details
-    
+
     // Helper function to add node if not exists
     const addNode = (id, label, type, size = 10, color = '#8B5CF6', details = {}) => {
       if (!nodeMap.has(id)) {
@@ -152,72 +152,72 @@ const InteractiveFeatures = ({geojsonData}) => {
       }
       return nodeMap.get(id);
     };
-    
+
     // Helper function to add link
     const addLink = (source, target, value = 1, distance = 80) => {
       const existingLink = links.find(l => l.source === source && l.target === target);
       if (existingLink) {
         existingLink.value += value;
       } else {
-        links.push({ 
-          source, 
-          target, 
+        links.push({
+          source,
+          target,
           value: Math.max(1, value || 1),
           distance: distance
         });
       }
     };
-    
+
     // Add central Olympics node
     addNode('olympics', 'Olympics', 'center', 40, '#FFD700'); // Gold
 
       logger.info('Processing games:', data.games.length);
-    
+
     // First pass: collect all venues and their details
     data.games.forEach(game => {
       // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
-      
+
       const cityName = game.location;
-      
+
       if (!cityVenues.has(cityName)) {
         cityVenues.set(cityName, []);
       }
 
         logger.info(`Processing ${cityName} (${game.year}) with ${game.features.length} features`);
-      
+
       game.features.forEach(feature => {
         const props = feature.properties;
-        
+
         // Filter by season at feature level
         if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
-        
+
         // Get clean venue name
         let venueName = 'Unknown Venue';
         if (props.associated_names && props.associated_names[0]) {
           venueName = props.associated_names[0];
         }
-        
+
         // Get sports for this venue
         let venueSports = [];
         if (props.sports) {
           venueSports = Array.isArray(props.sports) ? props.sports : [props.sports];
         }
-        
+
         // Filter by selected sports
         if (!selectedSports.has('All')) {
           const hasSelectedSport = venueSports.some(sport => selectedSports.has(sport));
           if (!hasSelectedSport) return;
         }
-        
+
         // Get capacity
         let capacity = null;
         if (props.capacity) {
           capacity = parseInt(props.capacity.toString().replace(/[^\d]/g, ''));
         }
-        
+
         const venueKey = `${venueName}_${cityName}_${game.year}`;
-        
+
         venueDetails.set(venueKey, {
           name: venueName,
           city: cityName,
@@ -226,49 +226,49 @@ const InteractiveFeatures = ({geojsonData}) => {
           capacity: capacity,
           season: props.season
         });
-        
+
         cityVenues.get(cityName).push(venueKey);
       });
     });
 
       logger.info('Cities found:', cityVenues.size);
       logger.info('Venues found:', venueDetails.size);
-    
+
     // Second pass: create nodes and links
     cityVenues.forEach((venueKeys, cityName) => {
       if (venueKeys.length === 0) return;
-      
+
       const cityId = cityName.replace(/[^a-zA-Z0-9]/g, '_');
       const citySize = Math.max(20, Math.min(35, 18 + venueKeys.length));
-      
+
       // Add city node
       addNode(cityId, cityName, 'city', citySize, '#FF6B35'); // Orange for cities
-      
+
       // Connect Olympics to city
       addLink('olympics', cityId, venueKeys.length, 120);
-      
+
       // Process venues for this city
       venueKeys.forEach(venueKey => {
         const venue = venueDetails.get(venueKey);
         if (!venue) return;
-        
+
         const venueId = venueKey.replace(/[^a-zA-Z0-9]/g, '_');
         let venueSize = 15;
-        
+
         if (venue.capacity && venue.capacity > 0) {
           venueSize = Math.max(12, Math.min(28, Math.log10(venue.capacity) * 3));
         }
-        
+
         // Add venue node
         addNode(venueId, venue.name, 'venue', venueSize, '#2ECC71', { // Green for venues
           capacity: venue.capacity,
           year: venue.year,
           season: venue.season
         });
-        
+
         // Connect city to venue
         addLink(cityId, venueId, 1, 80);
-        
+
         // Add sports and connect to venue
         venue.sports.forEach(sport => {
           const sportId = sport.replace(/[^a-zA-Z0-9]/g, '_');
@@ -280,7 +280,7 @@ const InteractiveFeatures = ({geojsonData}) => {
 
       logger.info('Final nodes:', nodes.length);
       logger.info('Final links:', links.length);
-    
+
     // Performance limiting - keep most connected nodes
     if (nodes.length > 200) {
       // Calculate connection counts
@@ -289,51 +289,51 @@ const InteractiveFeatures = ({geojsonData}) => {
         connectionCounts.set(link.source, (connectionCounts.get(link.source) || 0) + 1);
         connectionCounts.set(link.target, (connectionCounts.get(link.target) || 0) + 1);
       });
-      
+
       // Always keep Olympics
       const olympics = nodes.filter(n => n.type === 'center');
-      
+
       // Keep top cities (most venues)
       const cities = nodes.filter(n => n.type === 'city')
         .sort((a, b) => b.size - a.size)
         .slice(0, 25);
-      
+
       const cityIds = new Set([...olympics.map(n => n.id), ...cities.map(n => n.id)]);
-      
+
       // Keep venues connected to kept cities
-      const venues = nodes.filter(n => n.type === 'venue' && 
+      const venues = nodes.filter(n => n.type === 'venue' &&
         links.some(l => cityIds.has(l.source) && l.target === n.id))
         .sort((a, b) => (connectionCounts.get(b.id) || 0) - (connectionCounts.get(a.id) || 0))
         .slice(0, 80);
-      
+
       const venueIds = new Set(venues.map(n => n.id));
-      
+
       // Keep sports connected to kept venues
-      const sports = nodes.filter(n => n.type === 'sport' && 
+      const sports = nodes.filter(n => n.type === 'sport' &&
         links.some(l => venueIds.has(l.source) && l.target === n.id))
         .sort((a, b) => (connectionCounts.get(b.id) || 0) - (connectionCounts.get(a.id) || 0))
         .slice(0, 60);
-      
+
       const keptNodes = [...olympics, ...cities, ...venues, ...sports];
       const keptNodeIds = new Set(keptNodes.map(n => n.id));
       const filteredLinks = links.filter(l => keptNodeIds.has(l.source) && keptNodeIds.has(l.target));
 
         logger.info('Filtered to:', keptNodes.length, 'nodes and', filteredLinks.length, 'links');
-      
+
       return { nodes: keptNodes, links: filteredLinks };
     }
-    
+
     return { nodes, links };
   };
 
   // Process data for Sankey diagram (Olympic venue evolution and usage patterns)
   const getSankeyData = () => {
     if (!data?.games) return { nodes: [], links: [] };
-    
+
     const nodes = [];
     const links = [];
     const nodeMap = new Map();
-    
+
     // Helper to add unique nodes
     const addNode = (id, label, category) => {
       if (!nodeMap.has(id)) {
@@ -342,7 +342,7 @@ const InteractiveFeatures = ({geojsonData}) => {
         nodeMap.set(id, node);
       }
     };
-    
+
     // Helper to add or update links
     const addLink = (source, target, value) => {
       const existingLink = links.find(l => l.source === source && l.target === target);
@@ -352,35 +352,35 @@ const InteractiveFeatures = ({geojsonData}) => {
         links.push({ source, target, value });
       }
     };
-    
+
     // Track venue categorization
     const eraToVenueType = new Map();
     const venueTypeToSports = new Map();
     const sportsToSeason = new Map();
-    
+
     // Process all Olympic games to understand venue evolution
     data.games.forEach(game => {
       // Filter by year range
       if (game.year < yearRange[0] || game.year > yearRange[1]) return;
-      
+
       game.features.forEach(feature => {
         const props = feature.properties;
-        
+
         // Filter by season at feature level
         if (!selectedSeasons.has('All') && !selectedSeasons.has(props.season)) return;
-        
+
         // Get venue sports
         let venueSports = [];
         if (props.sports) {
           venueSports = Array.isArray(props.sports) ? props.sports : [props.sports];
         }
-        
+
         // Filter by selected sports
         if (!selectedSports.has('All')) {
           const hasSelectedSport = venueSports.some(sport => selectedSports.has(sport));
           if (!hasSelectedSport) return;
         }
-        
+
         // Determine construction era
         let constructionEra = 'Unknown Era';
         if (props.opened) {
@@ -404,7 +404,7 @@ const InteractiveFeatures = ({geojsonData}) => {
             constructionEra = 'Modern Olympic Era';
           }
         }
-        
+
         // Get venue type (indoor vs outdoor)
         let venueType = 'Mixed Venue';
         if (props.type) {
@@ -414,12 +414,12 @@ const InteractiveFeatures = ({geojsonData}) => {
             venueType = 'Outdoor Venue';
           }
         }
-        
+
         // Categorize sports into broader groups
         venueSports.forEach(sport => {
           let sportCategory = 'Other Sports';
           const sportLower = sport.toLowerCase();
-          
+
           if (sportLower.includes('skating') || sportLower.includes('hockey') || sportLower.includes('curling')) {
             sportCategory = 'Ice Sports';
           } else if (sportLower.includes('skiing') || sportLower.includes('biathlon') || sportLower.includes('nordic') || sportLower.includes('alpine')) {
@@ -437,23 +437,23 @@ const InteractiveFeatures = ({geojsonData}) => {
           } else if (sportLower.includes('cycling') || sportLower.includes('rowing') || sportLower.includes('sailing') || sportLower.includes('equestrian')) {
             sportCategory = 'Endurance & Technical';
           }
-          
+
           // Determine season preference
           let seasonType = props.season + ' Sports';
-          
+
           // Track relationships
           if (!eraToVenueType.has(constructionEra)) {
             eraToVenueType.set(constructionEra, new Map());
           }
-          eraToVenueType.get(constructionEra).set(venueType, 
+          eraToVenueType.get(constructionEra).set(venueType,
             (eraToVenueType.get(constructionEra).get(venueType) || 0) + 1);
-          
+
           if (!venueTypeToSports.has(venueType)) {
             venueTypeToSports.set(venueType, new Map());
           }
           venueTypeToSports.get(venueType).set(sportCategory,
             (venueTypeToSports.get(venueType).get(sportCategory) || 0) + 1);
-          
+
           if (!sportsToSeason.has(sportCategory)) {
             sportsToSeason.set(sportCategory, new Map());
           }
@@ -462,19 +462,19 @@ const InteractiveFeatures = ({geojsonData}) => {
         });
       });
     });
-    
+
     // Create flow structure: Construction Era → Venue Type → Sports Category → Season Type
-    
+
     // Add construction era nodes and links to venue types
     eraToVenueType.forEach((venueMap, era) => {
       addNode(era, era, 'era');
-      
+
       venueMap.forEach((count, venueType) => {
         addNode(venueType, venueType, 'venue_type');
         addLink(era, venueType, count);
       });
     });
-    
+
     // Add sports category nodes and links
     venueTypeToSports.forEach((sportsMap, venueType) => {
       sportsMap.forEach((count, sportCategory) => {
@@ -482,7 +482,7 @@ const InteractiveFeatures = ({geojsonData}) => {
         addLink(venueType, sportCategory, count);
       });
     });
-    
+
     // Add season type nodes and links
     sportsToSeason.forEach((seasonMap, sportCategory) => {
       seasonMap.forEach((count, seasonType) => {
@@ -494,7 +494,7 @@ const InteractiveFeatures = ({geojsonData}) => {
       logger.info('Sankey nodes:', nodes.length);
       logger.info('Sankey links:', links.length);
       logger.info('Era data:', Array.from(eraToVenueType.keys()));
-    
+
     return { nodes, links };
   };
 
@@ -509,9 +509,9 @@ const InteractiveFeatures = ({geojsonData}) => {
   return (
     <div className="space-y-8">
       {/* Section Header */}
-        <SectionHeader headline={"🎯 Interactive Features"}
-                       description={"Multi-dimensional analysis: scatter plots, network graphs, and venue usage flow diagrams with interactive filtering."}
-        />
+      {/*  <SectionHeader headline={"🎯 Interactive Features"}*/}
+      {/*                 description={"Multi-dimensional analysis: scatter plots, network graphs, and venue usage flow diagrams with interactive filtering."}*/}
+      {/*  />*/}
 
       {/* Main Content */}
       <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
@@ -689,8 +689,8 @@ const InteractiveFeatures = ({geojsonData}) => {
                       <span className="font-medium text-gray-700 dark:text-gray-300">Season:</span>
                       <div className="text-gray-600 dark:text-gray-400">
                         <span className={`px-2 py-1 rounded-full text-xs ${
-                          node.data.season === 'Summer' 
-                            ? 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400' 
+                          node.data.season === 'Summer'
+                            ? 'bg-orange-100 text-orange-800 dark:bg-orange-900/30 dark:text-orange-400'
                             : 'bg-blue-100 text-blue-800 dark:bg-blue-900/30 dark:text-blue-400'
                         }`}>
                           {node.data.season}

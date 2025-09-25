@@ -4,13 +4,13 @@ import Link from "next/link";
 import OlympicRings from "@/components/OlympicRings";
 import OlympicLineChart from "@/app/graphs/components/olympicMetrics/OlympicLineChart";
 import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
-import CostAnalysis from "@/app/graphs/components/CostAnalysis";
+import CostAnalysis from "@/app/graphs/tests/components/CostAnalysis";
 import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
-import ScatterPlot from "@/app/graphs/components/ScatterPlot";
+import ScatterPlot from "@/app/graphs/tests/components/ScatterPlot";
 import CityGeoAnalysis from "@/app/graphs/components/geographicalAnalysis/CityGeoAnalysis";
 import TemporalAnalysis from "@/app/graphs/components/datasetStats/TemporalAnalysis";
 import WorldGeographicAnalysis from "@/app/graphs/components/geographicalAnalysis/WorldGeographicAnalysis";
-import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
+import InteractiveFeatures from "@/app/graphs/tests/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/temporalDevelopmnent/TemporalDevelopmentAnalyses";
 import {useEffect, useState} from "react";
 import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
@@ -18,7 +18,7 @@ import logger from "@/components/logger";
 import ChartSectionPlaceholder from "@/app/graphs/components/templates/ChartSectionPlaceholder";
 import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistribution/CapacityDistributionAnalysis";
 import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
-import PageInfoSection from "@/app/graphs/components/PageInfoSection";
+import PageInfoSection from "@/app/graphs/components/templates/PageInfoSection";
 import OlympicMetric from "@/app/graphs/components/olympicMetrics/OlympicMetric";
 
 export default function GraphsPage() {

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import { ResponsiveNetwork } from '@nivo/network';
 import { ResponsiveSankey } from '@nivo/sankey';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 

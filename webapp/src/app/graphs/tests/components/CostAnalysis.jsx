@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsiveLine } from '@nivo/line';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 // Define the fields and colors for each series
 const SERIES_FIELDS = [

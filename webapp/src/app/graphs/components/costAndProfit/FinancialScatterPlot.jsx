@@ -9,7 +9,7 @@ export default function FinancialScatterPlot({data}) {
   const [xAxisMetric, setXAxisMetric] = useState('');
   const [yAxisMetric, setYAxisMetric] = useState('');
   const [availableMetrics, setAvailableMetrics] = useState([]);
-  const [isMinimized, setIsMinimized] = useState(false);
+  const [isMinimized, setIsMinimized] = useState(true);
   const initialLoadRef = useRef(true);
 
   // Helper function to get value from Harvard data

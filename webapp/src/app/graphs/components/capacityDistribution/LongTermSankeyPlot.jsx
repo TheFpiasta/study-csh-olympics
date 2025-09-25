@@ -34,7 +34,7 @@ const LongTermSankeyPlot = ({ geojsonData }) => {
 
   useEffect(() => {
     if (filteredGames.length > 0) {
-      setSelectedGame(filteredGames[0]);
+      setSelectedGame(filteredGames[filteredGames.length - 1]); // default to last game in filtered list
     } else {
       setSelectedGame(null);
     }

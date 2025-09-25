@@ -2,7 +2,6 @@
 
 import React, {useState, useEffect, useMemo, useCallback} from 'react';
 import {ResponsiveBoxPlot} from '@nivo/boxplot';
-import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 const CapacityBoxPlot = ({geojsonData}) => {
@@ -13,8 +12,7 @@ const CapacityBoxPlot = ({geojsonData}) => {
   const [sliderValues, setSliderValues] = useState({start: 1896, end: 2024});
   const [activeSlider, setActiveSlider] = useState(null);
   const [seasonFilter, setSeasonFilter] = useState('both'); // 'summer' | 'winter' | 'both'
-  const [minPercentageFilled, setMinPercentageFilled] = useState(80);
-  const [maxPercentageFilled, setMaxPercentageFilled] = useState(100);
+  const [maxPercentageFilled, setMaxPercentageFilled] = useState(0);
 
   // explicit season colors (easy to change) - made more stable
   const seasonColors = useMemo(() => ({

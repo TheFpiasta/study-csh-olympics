@@ -286,7 +286,7 @@ const TemporalAnalysis = ({geojsonData}) => {
             data={lifespanData}
             keys={['count']}
             indexBy="category"
-            margin={{top: 20, right: 30, bottom: 80, left: 60}}
+            margin={{top: 20, right: 30, bottom: 120, left: 60}}
             padding={0.3}
             colors={({data}) => data.color}
             enableGridX={true}
@@ -304,23 +304,36 @@ const TemporalAnalysis = ({geojsonData}) => {
               tickRotation: 0
             }}
             labelTextColor="#f3f4f6"
+            tooltip={({id, value, color, data}) => (
+              <div
+                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-2">
+                  {data.category}
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Venues:</span>
+                    <span className="text-gray-900 dark:text-gray-100 font-bold">
+                      {value.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 mt-3">
+                    {data.category === 'Active (50+ years)' && 'Venues built 50+ years ago, still in use'}
+                    {data.category === 'Long-term (20-50 years)' && 'Venues built 20-50 years ago, still active'}
+                    {data.category === 'Medium-term (5-20 years)' && 'Venues built 5-20 years ago'}
+                    {data.category === 'Short-term (1-5 years)' && 'Venues built within last 5 years or temporary'}
+                    {data.category === 'Demolished/Dismantled' && 'Venues no longer existing'}
+                    {data.category === 'Unknown' && 'Venues with unknown opening dates'}
+                  </div>
+                </div>
+              </div>
+            )}
             theme={{
               background: 'transparent',
               grid: {
                 line: {
                   stroke: '#374151',
                   strokeWidth: 1
-                }
-              },
-              tooltip: {
-                container: {
-                  background: '#ffffff',
-                  color: '#374151',
-                  fontSize: '12px',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                  border: '1px solid #e5e7eb',
-                  padding: '8px 12px'
                 }
               },
               axis: {
@@ -392,23 +405,40 @@ const TemporalAnalysis = ({geojsonData}) => {
                 tickRotation: 0
               }}
               labelTextColor="#f3f4f6"
+              tooltip={({id, value, color, data}) => (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {data.season} Olympics
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.venues.toLocaleString()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Games Analyzed:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.games}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Avg Venues/Game:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.avgVenuesPerGame}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
               theme={{
                 background: 'transparent',
                 grid: {
                   line: {
                     stroke: '#374151',
                     strokeWidth: 1
-                  }
-                },
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
                   }
                 },
                 axis: {
@@ -478,23 +508,40 @@ const TemporalAnalysis = ({geojsonData}) => {
                 tickRotation: 0
               }}
               labelTextColor="#f3f4f6"
+              tooltip={({id, value, color, data}) => (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {data.decade}
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Avg Venues/Game:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.avgVenuesPerGame}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.venues.toLocaleString()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Games in Decade:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.games}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
               theme={{
                 background: 'transparent',
                 grid: {
                   line: {
                     stroke: '#374151',
                     strokeWidth: 1
-                  }
-                },
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
                   }
                 },
                 axis: {

@@ -23,7 +23,7 @@ export const getYearRange = (data) => {
  * @param alpha - optional alpha value for transparency (0 to 1)
  * @returns {string} - HSLA color string
  */
-export const getMetricColor = (ID, visibleColors, alpha = 1) => {
+export const getColorPalet = (ID, visibleColors, alpha = 1) => {
     const baseHue = ID * 360 / visibleColors;
 
     // Same color for both summer and winter lines of the same metric
@@ -40,7 +40,7 @@ export const getMetricColor = (ID, visibleColors, alpha = 1) => {
  * @param season - 'Summer' or 'Winter'
  * @returns {string} - Hex color code
  */
-export const getPointColor = (season) => {
+export const getSeasonColor = (season) => {
     if (!season || typeof season !== 'string') {
         return olympicColors.extended.black3 // Gray fallback color
     }

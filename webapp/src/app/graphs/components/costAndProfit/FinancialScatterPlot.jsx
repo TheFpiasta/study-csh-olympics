@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
-import {getPointColor} from "@/app/graphs/components/utility";
+import {getSeasonColor} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
 
 export default function FinancialScatterPlot({data}) {
@@ -311,9 +311,9 @@ export default function FinancialScatterPlot({data}) {
                             yScale={{type: 'linear', min: 'auto', max: 'auto'}}
                             nodeSize={12}
                             colors={({serieId}) => {
-                                if (serieId && serieId.includes('Summer')) return getPointColor('Summer');
-                                if (serieId && serieId.includes('Winter')) return getPointColor('Winter');
-                                return getPointColor(seasonFilter === 'summer' ? 'Summer' : 'Winter');
+                              if (serieId && serieId.includes('Summer')) return getSeasonColor('Summer');
+                              if (serieId && serieId.includes('Winter')) return getSeasonColor('Winter');
+                              return getSeasonColor(seasonFilter === 'summer' ? 'Summer' : 'Winter');
                             }}
                             blendMode="normal"
                             axisTop={null}

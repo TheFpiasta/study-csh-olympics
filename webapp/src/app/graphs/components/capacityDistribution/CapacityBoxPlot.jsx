@@ -347,7 +347,14 @@ const CapacityBoxPlot = ({geojsonData}) => {
               axis: {
                 legend: {text: {fill: '#fff', fontSize: 14, fontWeight: 600}},
                 ticks: {text: {fill: '#fff', fontSize: 11}, line: {stroke: '#444'}},
-              }, tooltip: {
+              },
+              grid: {
+                line: {
+                  stroke: '#374151',
+                  strokeWidth: 1
+                }
+              },
+              tooltip: {
                 container: {background: '#0f1724', color: '#fff'},
               },
             }}

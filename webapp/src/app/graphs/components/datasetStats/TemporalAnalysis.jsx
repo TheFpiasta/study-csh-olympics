@@ -322,6 +322,8 @@ const TemporalAnalysis = ({geojsonData}) => {
                         margin={{top: 20, right: 30, bottom: 80, left: 60}}
                         padding={0.3}
                         colors={({data}) => data.color}
+                        enableGridX={true}
+                        enableGridY={true}
                         axisTop={null}
                         axisRight={null}
                         axisBottom={{
@@ -337,6 +339,12 @@ const TemporalAnalysis = ({geojsonData}) => {
                         labelTextColor="#f3f4f6"
                         theme={{
                             background: 'transparent',
+                          grid: {
+                            line: {
+                              stroke: '#374151',
+                              strokeWidth: 1
+                            }
+                          },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',
@@ -402,6 +410,8 @@ const TemporalAnalysis = ({geojsonData}) => {
                             margin={{top: 20, right: 30, bottom: 50, left: 60}}
                             padding={0.4}
                             colors={({data}) => data.color}
+                            enableGridX={true}
+                            enableGridY={true}
                             axisTop={null}
                             axisRight={null}
                             axisBottom={{
@@ -417,6 +427,12 @@ const TemporalAnalysis = ({geojsonData}) => {
                             labelTextColor="#f3f4f6"
                             theme={{
                                 background: 'transparent',
+                              grid: {
+                                line: {
+                                  stroke: '#374151',
+                                  strokeWidth: 1
+                                }
+                              },
                                 tooltip: {
                                     container: {
                                         background: '#ffffff',
@@ -480,6 +496,8 @@ const TemporalAnalysis = ({geojsonData}) => {
                             margin={{top: 20, right: 30, bottom: 50, left: 60}}
                             padding={0.3}
                             colors={({data}) => data.color}
+                            enableGridX={true}
+                            enableGridY={true}
                             axisTop={null}
                             axisRight={null}
                             axisBottom={{
@@ -495,6 +513,12 @@ const TemporalAnalysis = ({geojsonData}) => {
                             labelTextColor="#f3f4f6"
                             theme={{
                                 background: 'transparent',
+                              grid: {
+                                line: {
+                                  stroke: '#374151',
+                                  strokeWidth: 1
+                                }
+                              },
                                 tooltip: {
                                     container: {
                                         background: '#ffffff',
@@ -573,6 +597,8 @@ const TemporalAnalysis = ({geojsonData}) => {
                         pointColor={{theme: 'background'}}
                         pointBorderWidth={2}
                         pointBorderColor={{from: 'serieColor'}}
+                        enableGridX={true}
+                        enableGridY={true}
                         useMesh={true}
                         legends={[
                             {
@@ -592,6 +618,12 @@ const TemporalAnalysis = ({geojsonData}) => {
                         ]}
                         theme={{
                             background: 'transparent',
+                          grid: {
+                            line: {
+                              stroke: '#374151',
+                              strokeWidth: 1
+                            }
+                          },
                             tooltip: {
                                 container: {
                                     background: '#ffffff',

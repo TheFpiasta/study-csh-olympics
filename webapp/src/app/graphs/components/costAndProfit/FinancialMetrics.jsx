@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
-import {getMetricColor, getPointColor, getYearRange} from "@/app/graphs/components/utility";
+import {getColorPalet, getSeasonColor, getYearRange} from "@/app/graphs/components/utility";
 import {graphColors, olympicColors} from "@/components/utility";
 import logger from '@/components/logger';
 
@@ -1057,13 +1057,13 @@ export default function FinancialMetrics({data}) {
                                 }`}
                                 style={{
                                     backgroundColor: filterState && filterState.active
-                                        ? getMetricColor(index, visibleMetrics.length, 0.6)
+                                      ? getColorPalet(index, visibleMetrics.length, 0.6)
                                         : undefined
                                 }}
                             >
                                 <div
                                     className="w-2 h-2 rounded-full"
-                                    style={{backgroundColor: getMetricColor(index, visibleMetrics.length)}}
+                                    style={{backgroundColor: getColorPalet(index, visibleMetrics.length)}}
                                 ></div>
                                 {metricName}
                             </button>
@@ -1101,7 +1101,7 @@ export default function FinancialMetrics({data}) {
                             baseName = serie.id.replace(' (Summer)', '').replace(' (Winter)', '');
                         }
                         const baseIndex = visibleMetrics.indexOf(baseName);
-                        return getMetricColor(baseIndex, visibleMetrics.length);
+                      return getColorPalet(baseIndex, visibleMetrics.length);
                     }}
                     yScale={{
                         type: 'linear',
@@ -1137,9 +1137,9 @@ export default function FinancialMetrics({data}) {
                             // Extract season from series ID when both seasons are shown
                             const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
                             if (seriesId.includes(' (Summer)')) {
-                                return getPointColor('Summer');
+                              return getSeasonColor('Summer');
                             } else if (seriesId.includes(' (Winter)')) {
-                                return getPointColor('Winter');
+                              return getSeasonColor('Winter');
                             }
                         } else if (seasonFilter === 'combined') {
                             // Use a specific color for combined data points
@@ -1147,9 +1147,9 @@ export default function FinancialMetrics({data}) {
                         } else {
                             // Use the selected season filter
                             const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
-                            return getPointColor(season);
+                          return getSeasonColor(season);
                         }
-                        return getPointColor('Unknown');
+                      return getSeasonColor('Unknown');
                     }}
                     pointBorderWidth={1}
                     pointBorderColor={olympicColors.extended.black6}
@@ -1314,7 +1314,7 @@ export default function FinancialMetrics({data}) {
                                 <div
                                     className="w-4 h-0.5"
                                     style={{
-                                        backgroundColor: getMetricColor(Array.from(new Set(financialTimeData.map(series => {
+                                      backgroundColor: getColorPalet(Array.from(new Set(financialTimeData.map(series => {
                                             let baseName = series.id;
                                             if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
                                                 baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
@@ -1441,9 +1441,9 @@ export default function FinancialMetrics({data}) {
                                 // Extract season from series ID when both seasons are shown
                                 const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
                                 if (seriesId.includes(' (Summer)')) {
-                                    return getPointColor('Summer');
+                                  return getSeasonColor('Summer');
                                 } else if (seriesId.includes(' (Winter)')) {
-                                    return getPointColor('Winter');
+                                  return getSeasonColor('Winter');
                                 }
                             } else if (seasonFilter === 'combined') {
                                 // Use a specific color for combined data points
@@ -1451,9 +1451,9 @@ export default function FinancialMetrics({data}) {
                             } else {
                                 // Use the selected season filter
                                 const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
-                                return getPointColor(season);
+                              return getSeasonColor(season);
                             }
-                            return getPointColor('Unknown');
+                          return getSeasonColor('Unknown');
                         }}
                         pointBorderWidth={1}
                         pointBorderColor={olympicColors.extended.black6}

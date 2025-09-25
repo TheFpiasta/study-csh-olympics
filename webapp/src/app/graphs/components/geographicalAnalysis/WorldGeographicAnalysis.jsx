@@ -304,6 +304,8 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
               margin={{ top: 20, right: 30, bottom: 80, left: 60 }}
               padding={0.3}
               colors={({ data }) => data.color}
+              enableGridX={true}
+              enableGridY={true}
               axisTop={null}
               axisRight={null}
               axisBottom={{
@@ -347,6 +349,12 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
               )}
               theme={{
                 background: 'transparent',
+                grid: {
+                  line: {
+                    stroke: '#374151',
+                    strokeWidth: 1
+                  }
+                },
                 axis: {
                   ticks: {
                     text: {

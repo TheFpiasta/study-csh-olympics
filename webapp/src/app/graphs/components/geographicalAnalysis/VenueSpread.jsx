@@ -3,7 +3,7 @@
 import React, {useState, useEffect} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getMetricColor} from '../utility';
+import {getColorPalet} from '../utility';
 
 const VenueSpread = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -89,7 +89,7 @@ const VenueSpread = ({geojsonData}) => {
 
     // Add colors to each series
     distanceData.forEach((series, index) => {
-      series.color = getMetricColor(index, distanceData.length);
+      series.color = getColorPalet(index, distanceData.length);
     });
 
     return distanceData;
@@ -122,7 +122,7 @@ const VenueSpread = ({geojsonData}) => {
     const legendData = {Summer: [], Winter: []};
 
     distanceData.forEach((series, seriesIndex) => {
-      const seriesColor = getMetricColor(seriesIndex, distanceData.length);
+      const seriesColor = getColorPalet(seriesIndex, distanceData.length);
       series.data.forEach(point => {
         const season = point.season;
         if (legendData[season]) {
@@ -213,13 +213,15 @@ const VenueSpread = ({geojsonData}) => {
           blendMode="normal"
           colors={({serieId}) => {
             const seriesIndex = distanceData.findIndex(s => s.id === serieId);
-            return getMetricColor(seriesIndex >= 0 ? seriesIndex : 0, distanceData.length);
+            return getColorPalet(seriesIndex >= 0 ? seriesIndex : 0, distanceData.length);
           }}
           pointSize={8}
           pointColor={{from: 'color'}}
           pointBorderWidth={2}
           pointBorderColor={{from: 'color', modifiers: [['darker', 0.3]]}}
           useMesh={true}
+          enableGridX={true}
+          enableGridY={true}
           axisTop={null}
           axisRight={null}
           axisBottom={{
@@ -267,6 +269,12 @@ const VenueSpread = ({geojsonData}) => {
           )}
           theme={{
             background: 'transparent',
+            grid: {
+              line: {
+                stroke: '#374151',
+                strokeWidth: 1
+              }
+            },
             axis: {
               ticks: {
                 text: {

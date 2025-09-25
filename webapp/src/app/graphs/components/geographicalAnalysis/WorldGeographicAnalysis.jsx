@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import { ResponsiveBar } from '@nivo/bar';
-import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 
@@ -154,61 +153,6 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
       .sort((a, b) => b.density - a.density);
   };
 
-  // Process data for Distance Analysis (venue spread within host cities)
-  const getDistanceData = () => {
-    if (!data?.games) return [];
-
-      const distanceData = [];
-
-      data.games.forEach(game => {
-      // Group features by season
-      const featuresBySeason = { Summer: [], Winter: [] };
-
-          game.features.forEach(feature => {
-        if (feature.properties.season && featuresBySeason[feature.properties.season]) {
-          featuresBySeason[feature.properties.season].push(feature);
-        }
-      });
-
-          // Create separate data points for each season that has venues
-      Object.entries(featuresBySeason).forEach(([season, features]) => {
-        if (features.length < 2) return; // Need at least 2 venues for distance calculation
-
-          // Calculate basic venue spread metrics for this season
-        const coordinates = features
-          .filter(feature => feature.geometry && feature.geometry.coordinates)
-          .map(feature => ({
-            lat: feature.geometry.coordinates[1],
-            lng: feature.geometry.coordinates[0]
-          }));
-
-          if (coordinates.length < 2) return;
-
-          // Calculate bounding box dimensions (rough distance measure)
-        const lats = coordinates.map(c => c.lat);
-        const lngs = coordinates.map(c => c.lng);
-
-          const latSpread = Math.max(...lats) - Math.min(...lats);
-        const lngSpread = Math.max(...lngs) - Math.min(...lngs);
-
-          // Rough distance in km (very approximate)
-        const spreadKm = Math.sqrt(latSpread * latSpread + lngSpread * lngSpread) * 111; // 1 degree ≈ 111km
-
-          distanceData.push({
-          id: `${game.year} ${game.location} - ${season}`,
-          data: [{
-            x: features.length, // Count of venues for this season
-            y: Math.round(spreadKm * 10) / 10,
-            year: game.year,
-            location: game.location,
-            season: season
-          }]
-        });
-      });
-    });
-
-    return distanceData;
-  };
 
   if (loading) {
     return (
@@ -236,26 +180,21 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
 
   const distributionData = getDistributionData();
   const densityData = getDensityData();
-  const distanceData = getDistanceData();
 
   return (
     <div className="space-y-8">
-      {/* Section Header with Toggle */}
-        {/*<div className="bg-gradient-to-r from-emerald-500/10 to-teal-500/10 dark:from-emerald-600/20 dark:to-teal-600/20 border border-emerald-200 dark:border-emerald-700 rounded-2xl p-6">*/}
-        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
-          <div>
-              {/*  <h2 className="text-2xl font-bold text-gray-900 dark:text-gray-200 flex items-center gap-2">*/}
-              {/*    🌍 Geographic Analysis*/}
-              {/*    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">*/}
-              {/*      Spatial Distribution & Patterns*/}
-              {/*    </span>*/}
-              {/*  </h2>*/}
-              {/*  <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">*/}
-              {/*    Analyze Olympic venue distribution across continents and countries*/}
-              {/*  </p>*/}
-          </div>
 
-            <div className="flex items-center gap-2">
+      {/* Distribution and Density Analysis */}
+      <div
+        className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+        <div className="flex items-center justify-between mb-4">
+          <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+            🌍 Geographic Distribution Analysis
+            <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
+              Venue Distribution & Density
+            </span>
+          </h3>
+          <div className="flex items-center gap-2">
             <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
             <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
               <button
@@ -281,92 +220,77 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
             </div>
           </div>
         </div>
-        {/*</div>*/}
-
-      {/* Distribution Analysis */}
-      <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-        <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-          📊 Venue Distribution
-          <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-            by {viewMode === 'continent' ? 'Continent' : 'Country'}
-          </span>
-        </h3>
-        <div className="h-80 chart-container">
-          <style jsx>{`
-            .chart-container :global(text) {
-              fill: #d1d5db !important;
-              font-weight: 600 !important;
-            }
-          `}</style>
-          <ResponsivePie
-            data={distributionData}
-            margin={{ top: 20, right: 120, bottom: 20, left: 120 }}
-            innerRadius={0.4}
-            padAngle={1}
-            cornerRadius={3}
-            activeOuterRadiusOffset={8}
-            colors={({ data }) => data.color}
-            borderWidth={1}
-            borderColor={{ from: 'color', modifiers: [['darker', 0.2]] }}
-            arcLinkLabelsSkipAngle={10}
-            arcLinkLabelsTextColor="#d1d5db"
-            arcLinkLabelsThickness={2}
-            arcLinkLabelsColor={{ from: 'color' }}
-            arcLabelsSkipAngle={10}
-            arcLabelsTextColor="#f3f4f6"
-            legends={[
-              {
-                anchor: 'right',
-                direction: 'column',
-                justify: false,
-                translateX: 100,
-                translateY: 0,
-                itemsSpacing: 2,
-                itemWidth: 90,
-                itemHeight: 18,
-                itemTextColor: '#d1d5db',
-                itemDirection: 'left-to-right',
-                itemOpacity: 1,
-                symbolSize: 12,
-                symbolShape: 'circle'
-              }
-            ]}
-            theme={{
-              background: 'transparent',
-              tooltip: {
-                container: {
-                  background: '#ffffff',
-                  color: '#374151',
-                  fontSize: '12px',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                  border: '1px solid #e5e7eb',
-                  padding: '8px 12px'
+        <div className="grid lg:grid-cols-2 gap-8">
+          {/* Venue Distribution Analysis */}
+          <div>
+            <div className="">
+              <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-4 text-center">
+                Venue Distribution
+              </h4>
+            </div>
+            <div className="h-80 chart-container">
+              <style jsx>{`
+                .chart-container :global(text) {
+                  fill: #d1d5db !important;
+                  font-weight: 600 !important;
                 }
-              },
-              legends: {
-                text: {
-                  fontSize: 11,
-                  fill: '#d1d5db',
-                  fontWeight: 600
-                }
-              }
-            }}
-          />
-        </div>
-      </div>
+              `}</style>
+              <ResponsivePie
+                data={distributionData}
+                margin={{top: 20, right: 80, bottom: 20, left: 80}}
+                innerRadius={0.4}
+                padAngle={1}
+                cornerRadius={3}
+                activeOuterRadiusOffset={8}
+                colors={({data}) => data.color}
+                borderWidth={1}
+                borderColor={{from: 'color', modifiers: [['darker', 0.2]]}}
+                arcLinkLabelsSkipAngle={10}
+                arcLinkLabelsTextColor="#d1d5db"
+                arcLinkLabelsThickness={2}
+                arcLinkLabelsColor={{from: 'color'}}
+                arcLabelsSkipAngle={10}
+                arcLabelsTextColor="#f3f4f6"
+                legends={[]}
+                tooltip={({datum}) => (
+                  <div
+                    className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60 max-w-80">
+                    <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                      {datum.label}
+                    </div>
+                    <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                      {viewMode === 'continent' ? 'Continent' : 'Country'}
+                    </div>
+                    <div className="space-y-2">
+                      <div className="flex justify-between">
+                        <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                        <span className="text-gray-900 dark:text-gray-100">{datum.value}</span>
+                      </div>
+                    </div>
+                  </div>
+                )}
+                theme={{
+                  background: 'transparent',
+                  legends: {
+                    text: {
+                      fontSize: 11,
+                      fill: '#d1d5db',
+                      fontWeight: 600
+                    }
+                  }
+                }}
+              />
+            </div>
+          </div>
 
-      {/* Density and Distance Analysis */}
-      <div className="grid lg:grid-cols-2 gap-8">
-        {/* Venue Density Analysis */}
-        <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-            🏗️ Venue Density
-            <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-              Avg Venues per Game
-            </span>
-          </h3>
-          <div className="h-64 chart-container">
+          {/* Venue Density Analysis */}
+          <div>
+            <div className="">
+              <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-4 text-center">
+                Venue Density
+              </h4>
+            </div>
+            <div className="h-80 chart-container">
             <style jsx>{`
               .chart-container :global(text) {
                 fill: #d1d5db !important;
@@ -390,22 +314,39 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
               axisLeft={{
                 tickSize: 5,
                 tickPadding: 5,
-                tickRotation: 0
+                tickRotation: 0,
+                legend: 'Avg Venues per Game',
+                legendOffset: -50,
+                legendPosition: 'middle'
               }}
               labelTextColor="#f3f4f6"
+              tooltip={({data}) => (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60 max-w-80">
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {data.region}
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                    {viewMode === 'continent' ? 'Continent' : 'Country'} Venue Density
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Avg Venues per Game:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">{data.density}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                      <span className="text-gray-900 dark:text-gray-100">{data.totalVenues}</span>
+                    </div>
+                    <div className="flex justify-between">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Olympic Games:</span>
+                      <span className="text-gray-900 dark:text-gray-100">{data.totalGames}</span>
+                    </div>
+                  </div>
+                </div>
+              )}
               theme={{
                 background: 'transparent',
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
-                  }
-                },
                 axis: {
                   ticks: {
                     text: {
@@ -425,88 +366,11 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                 }
               }}
             />
-          </div>
-        </div>
-
-        {/* Distance Analysis */}
-        <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-          <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-            📏 Venue Spread
-            <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-              Geographic Distribution
-            </span>
-          </h3>
-          <div className="h-64 chart-container">
-            <style jsx>{`
-              .chart-container :global(text) {
-                fill: #d1d5db !important;
-                font-weight: 600 !important;
-              }
-            `}</style>
-            <ResponsiveScatterPlot
-              data={distanceData}
-              margin={{ top: 20, right: 30, bottom: 60, left: 80 }}
-              xScale={{ type: 'linear', min: 0, max: 'auto' }}
-              yScale={{ type: 'linear', min: 0, max: 'auto' }}
-              blendMode="normal"
-              colors={{ scheme: 'category10' }}
-              pointSize={8}
-              pointColor={{ from: 'color' }}
-              pointBorderWidth={2}
-              pointBorderColor={{ from: 'color', modifiers: [['darker', 0.3]] }}
-              useMesh={true}
-              axisTop={null}
-              axisRight={null}
-              axisBottom={{
-                tickSize: 5,
-                tickPadding: 5,
-                tickRotation: 0,
-                legend: 'Number of Venues',
-                legendOffset: 46,
-                legendPosition: 'middle'
-              }}
-              axisLeft={{
-                tickSize: 5,
-                tickPadding: 5,
-                tickRotation: 0,
-                legend: 'Venue Spread (km)',
-                legendOffset: -60,
-                legendPosition: 'middle'
-              }}
-              theme={{
-                background: 'transparent',
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
-                  }
-                },
-                axis: {
-                  ticks: {
-                    text: {
-                      fontSize: 11,
-                      fill: '#d1d5db',
-                      fontWeight: 600
-                    }
-                  },
-                  legend: {
-                    text: {
-                      fontSize: 12,
-                      fill: '#d1d5db',
-                      fontWeight: 600
-                    }
-                  }
-                }
-              }}
-            />
+            </div>
           </div>
         </div>
       </div>
+
     </div>
   );
 };

@@ -14,6 +14,7 @@ const CapacityBoxPlot = ({ geojsonData }) => {
     const [activeSlider, setActiveSlider] = useState(null);
   const [seasonFilter, setSeasonFilter] = useState('both'); // 'summer' | 'winter' | 'both'
   const [minPercentageFilled, setMinPercentageFilled] = useState(80);
+    const [maxPercentageFilled, setMaxPercentageFilled] = useState(100);
 
     // explicit season colors (easy to change) - made more stable
   const seasonColors = useMemo(() => ({
@@ -58,7 +59,7 @@ const CapacityBoxPlot = ({ geojsonData }) => {
       const totalFeatures = (game.features?.length) || 0;
       const filledFeatures = (game.features || []).filter(f => f.properties?.seating_capacity != null && f.properties?.seating_capacity !== '').length;
       const percentageFilled = totalFeatures ? (filledFeatures / totalFeatures) * 100 : 0;
-      const meetsPercentage = percentageFilled >= minPercentageFilled;
+        const meetsPercentage = percentageFilled >= maxPercentageFilled;
 
       return inRange && inSeason && meetsPercentage;
     });
@@ -70,7 +71,7 @@ const CapacityBoxPlot = ({ geojsonData }) => {
       console.log('Filtered games count:', gamesToUse?.length);
       console.log('Slider values:', sliderValues);
       console.log('Season filter:', seasonFilter);
-      console.log('Min percentage filled:', minPercentageFilled);
+      console.log('Max percentage filled:', maxPercentageFilled);
     
     if (!gamesToUse?.length) return [];
 
@@ -108,7 +109,7 @@ const CapacityBoxPlot = ({ geojsonData }) => {
     });
 
     return observations;
-  }, [data, sliderValues, seasonFilter, minPercentageFilled]);
+  }, [data, sliderValues, seasonFilter, maxPercentageFilled]);
 
   // extract unique groups (games) in stable order for tick order / selects
   const uniqueGameLabels = useMemo(() => {
@@ -151,13 +152,13 @@ const CapacityBoxPlot = ({ geojsonData }) => {
             }
         });
 
-        // Create color array in consistent order: summer first, then winter
+        // Create color array in alphabetical order to match Nivo's subgroup ordering: winter first, then summer
         const colors = [];
-        if (seasonsInData.has('summer')) {
-            colors.push(seasonColors.summer);
-        }
         if (seasonsInData.has('winter')) {
             colors.push(seasonColors.winter);
+        }
+        if (seasonsInData.has('summer')) {
+            colors.push(seasonColors.summer);
         }
 
         // If no specific seasons found, use unknown color
@@ -246,18 +247,38 @@ const CapacityBoxPlot = ({ geojsonData }) => {
                   (Only include games where at least this percentage of venues have seating capacity data. 0% = all games, 100% = only games where all venues have seating data)
               </span>
               </label>
-              <div className="flex items-center gap-4">
-                  <label className="text-sm font-medium text-gray-600 dark:text-gray-400">Min % seating data:</label>
-            <input
-              type="range"
-              min={0}
-              max={100}
-              value={minPercentageFilled}
-              onChange={e => setMinPercentageFilled(Number(e.target.value))}
-              className="flex-1 h-2 rounded-lg accent-emerald-500"
-            />
-                  <span
-                      className="text-sm font-medium text-gray-900 dark:text-gray-100 min-w-[3rem]">{minPercentageFilled}%</span>
+              <div className="text-center text-sm font-medium text-gray-900 dark:text-gray-100 mb-3">
+                  {maxPercentageFilled}%
+              </div>
+              <div className="relative">
+                  <div className="flex items-center gap-4">
+                      <span className="text-sm font-medium text-gray-600 dark:text-gray-400 min-w-[3rem]">0%</span>
+
+                      <div className="relative flex-1">
+                          <div className="h-2 bg-gray-300 dark:bg-gray-600 rounded-lg">
+                              <div
+                                  className="absolute h-2 bg-emerald-500 rounded-lg"
+                                  style={{
+                                      left: '0%',
+                                      width: `${maxPercentageFilled}%`
+                                  }}
+                              />
+                          </div>
+                          <input
+                              type="range"
+                              min={0}
+                              max={100}
+                              value={maxPercentageFilled}
+                              onChange={e => {
+                                  const newMax = parseInt(e.target.value);
+                                  setMaxPercentageFilled(newMax);
+                              }}
+                              className="range-slider-right"
+                          />
+                      </div>
+
+                      <span className="text-sm font-medium text-gray-600 dark:text-gray-400 min-w-[3rem]">100%</span>
+                  </div>
               </div>
           </div>
 

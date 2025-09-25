@@ -122,22 +122,25 @@ const CityGeoAnalysis = ({geojsonData}) => {
         <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
           📊 Venues locations inside the event
         </h3>
-      <div className="flex items-center gap-4 mb-4">
-        <label htmlFor="olympics-select" className="font-medium text-gray-900 dark:text-gray-200">
-          Select Olympics:
-        </label>
-        <select
-          id="olympics-select"
-          value={selectedOlympics}
-          onChange={(e) => setSelectedOlympics(e.target.value)}
-          className="bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200 rounded-md p-2"
-        >
-          {data.games.map(game => (
-            <option key={`${game.location}-${game.year}`} value={`${game.location} ${game.year}`}>
-              {game.location} {game.year}
-            </option>
-          ))}
-        </select>
+        {/* Select Olympics Filter */}
+        <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 py-6">
+          <div className="flex items-center gap-4">
+            <label htmlFor="olympics-select" className="text-sm font-medium text-gray-700 dark:text-gray-300">
+              Select Olympics
+            </label>
+            <select
+              id="olympics-select"
+              value={selectedOlympics}
+              onChange={(e) => setSelectedOlympics(e.target.value)}
+              className="bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200 rounded-md p-2 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+            >
+              {data.games.map(game => (
+                <option key={`${game.location}-${game.year}`} value={`${game.location} ${game.year}`}>
+                  {game.location} {game.year}
+                </option>
+              ))}
+            </select>
+          </div>
       </div>
         <div className="h-80 chart-container">
           <style jsx>{`

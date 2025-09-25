@@ -15,6 +15,13 @@
       <excludeFolder url="file://$MODULE_DIR$/matching-felix/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/webapp/logs" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/00_final_geojsons" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/01_scraped_websites" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/02_basic_geojsons" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/03_named_geojsons" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/04_combined_geojsons" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/05_harvard_geojsons" />
+      <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/output_venues_found" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

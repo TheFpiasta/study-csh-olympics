@@ -1,64 +1,30 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { ResponsiveLine } from '@nivo/line';
-import { ResponsiveBar } from '@nivo/bar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import React, {useState, useEffect} from 'react';
+import {ResponsiveLine} from '@nivo/line';
+import {ResponsiveBar} from '@nivo/bar';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
+import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
+import {getColorFromPalet, getSeasonColor} from "@/app/graphs/components/utility";
 
 const TemporalAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-    useEffect(() => {
-        if (!geojsonData ) return;
+  useEffect(() => {
+    if (!geojsonData) return;
 
-        setLoading(false);
-        setData(geojsonData.data);
-        setError(geojsonData.error);
-    }, [geojsonData]);
-
-  // Process data for Olympic Growth Timeline
-  const getGrowthTimelineData = () => {
-    if (!data?.games) return [];
-    
-    const venueData = data.games.map(game => ({
-      x: game.year.toString(),
-      y: game.venueCount
-    }));
-    
-    const sportsData = data.games.map(game => {
-      const uniqueSports = new Set();
-      game.features.forEach(feature => {
-        if (feature.properties.sports && Array.isArray(feature.properties.sports)) {
-          feature.properties.sports.forEach(sport => uniqueSports.add(sport));
-        }
-      });
-      return {
-        x: game.year.toString(),
-        y: uniqueSports.size
-      };
-    });
-
-    return [
-      {
-        id: 'Venues',
-        color: '#3b82f6',
-        data: venueData
-      },
-      {
-        id: 'Sports',
-        color: '#10b981',
-        data: sportsData
-      }
-    ];
-  };
+    setLoading(false);
+    setData(geojsonData.data);
+    setError(geojsonData.error);
+  }, [geojsonData]);
 
   // Process data for Venue Lifespan Analysis
   const getLifespanData = () => {
     if (!data?.games) return [];
-    
+
     const lifespanCategories = {
       'Active (50+ years)': 0,
       'Long-term (20-50 years)': 0,
@@ -72,7 +38,7 @@ const TemporalAnalysis = ({geojsonData}) => {
       game.features.forEach(feature => {
         const props = feature.properties;
         const currentYear = new Date().getFullYear();
-        
+
         // Check status first
         if (props.status) {
           const status = props.status.toLowerCase();
@@ -81,17 +47,17 @@ const TemporalAnalysis = ({geojsonData}) => {
             return;
           }
         }
-        
+
         // Check classification for temporary venues
         if (props.classification && props.classification.toLowerCase() === 'temporary') {
           lifespanCategories['Short-term (1-5 years)']++;
           return;
         }
-        
+
         // Calculate based on opening year
         if (props.opened) {
           let openedYear;
-          
+
           // Parse different date formats
           if (props.opened.includes('BC')) {
             // Very old venues like Panathenaic Stadium
@@ -109,10 +75,10 @@ const TemporalAnalysis = ({geojsonData}) => {
               openedYear = parseInt(yearMatch[1]);
             }
           }
-          
+
           if (openedYear) {
             const age = currentYear - openedYear;
-            
+
             if (age >= 50) lifespanCategories['Active (50+ years)']++;
             else if (age >= 20) lifespanCategories['Long-term (20-50 years)']++;
             else if (age >= 5) lifespanCategories['Medium-term (5-20 years)']++;
@@ -124,7 +90,7 @@ const TemporalAnalysis = ({geojsonData}) => {
           // No opening date, try to infer from Olympic year
           const olympicYear = game.year;
           const age = currentYear - olympicYear;
-          
+
           if (age >= 50) lifespanCategories['Active (50+ years)']++;
           else if (age >= 20) lifespanCategories['Long-term (20-50 years)']++;
           else if (age >= 5) lifespanCategories['Medium-term (5-20 years)']++;
@@ -136,22 +102,22 @@ const TemporalAnalysis = ({geojsonData}) => {
     return Object.entries(lifespanCategories).map(([category, count], index) => ({
       category,
       count,
-      color: ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6', '#6b7280'][index]
+      color: '#6366f1' //getColorFromPalet(index, Object.keys(lifespanCategories).length)
     }));
   };
 
   // Process data for Seasonal Patterns
   const getSeasonalData = () => {
     if (!data?.games) return [];
-    
+
     const seasonalData = data.games.reduce((acc, game) => {
       // Process each feature to count venues by season
       game.features.forEach(feature => {
-        const season = feature.properties.season && feature.properties.season.length > 0 ? 
-          feature.properties.season.charAt(0).toUpperCase() + feature.properties.season.slice(1) : 
+        const season = feature.properties.season && feature.properties.season.length > 0 ?
+          feature.properties.season.charAt(0).toUpperCase() + feature.properties.season.slice(1) :
           'Unknown';
         if (!acc[season]) {
-          acc[season] = { venues: 0, games: new Set() };
+          acc[season] = {venues: 0, games: new Set()};
         }
         acc[season].venues += 1;
         acc[season].games.add(`${game.year}-${game.location}`);
@@ -164,31 +130,31 @@ const TemporalAnalysis = ({geojsonData}) => {
       venues: data.venues,
       games: data.games.size,
       avgVenuesPerGame: Math.round(data.venues / data.games.size * 10) / 10,
-      color: season === 'Summer' ? '#f59e0b' : season === 'Winter' ? '#06b6d4' : '#8b5cf6'
+      color: getSeasonColor(season)
     }));
   };
 
   // Process data for Decade Comparison
   const getDecadeData = () => {
     if (!data?.games) return [];
-    
+
     const decadeData = data.games.reduce((acc, game) => {
       const decade = Math.floor(game.year / 10) * 10;
       const decadeKey = `${decade}s`;
-      
+
       if (!acc[decadeKey]) {
-        acc[decadeKey] = { venues: 0, games: 0, capacities: [] };
+        acc[decadeKey] = {venues: 0, games: 0, capacities: []};
       }
-      
+
       acc[decadeKey].venues += game.venueCount;
       acc[decadeKey].games += 1;
-      
+
       // Collect capacity data
       game.features.forEach(feature => {
         if (feature.properties.seating_capacity) {
           // Parse capacity from different formats
           let capacity = feature.properties.seating_capacity;
-          
+
           if (typeof capacity === 'string') {
             // Handle formats like "80,000 (1896) / 45,000 (2004)" or "5000"
             const match = capacity.match(/(\d{1,3}(?:,\d{3})*)/);
@@ -203,15 +169,15 @@ const TemporalAnalysis = ({geojsonData}) => {
           }
         }
       });
-      
+
       return acc;
     }, {});
 
     return Object.entries(decadeData).map(([decade, data]) => {
-      const avgCapacity = data.capacities.length > 0 
+      const avgCapacity = data.capacities.length > 0
         ? Math.round(data.capacities.reduce((sum, cap) => sum + cap, 0) / data.capacities.length)
         : 0;
-        
+
       return {
         decade,
         venues: data.venues,
@@ -226,7 +192,7 @@ const TemporalAnalysis = ({geojsonData}) => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-64">
-        <LoadingSpinner />
+        <LoadingSpinner/>
       </div>
     );
   }
@@ -241,7 +207,8 @@ const TemporalAnalysis = ({geojsonData}) => {
 
   if (!data || !data.games || data.games.length === 0) {
     return (
-      <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
+      <div
+        className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6">
         <p className="text-yellow-800 dark:text-yellow-300">No Olympic data available</p>
         {data && (
           <pre className="text-xs mt-2 bg-gray-100 dark:bg-gray-800 p-2 rounded">
@@ -252,124 +219,61 @@ const TemporalAnalysis = ({geojsonData}) => {
     );
   }
 
-  const growthData = getGrowthTimelineData();
   const lifespanData = getLifespanData();
   const seasonalData = getSeasonalData();
   const decadeData = getDecadeData();
 
-    logger.debug('Processed data:', {
-    dataExists: !!data, 
-    gameCount: data?.games?.length, 
+  logger.debug('Processed data:', {
+    dataExists: !!data,
+    gameCount: data?.games?.length,
     firstGame: data?.games?.[0],
-    growthData: growthData.length, 
-    lifespanData: lifespanData.length, 
-    seasonalData: seasonalData.length, 
-    decadeData: decadeData.length 
+    lifespanData: lifespanData.length,
+    seasonalData: seasonalData.length,
+    decadeData: decadeData.length
   });
 
   return (
     <div className="space-y-8">
-      {/* Olympic Growth Timeline */}
-      <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-        <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-          📈 Olympic Growth Timeline
-          <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-            Venues & Sports Over Time
-          </span>
-        </h3>
-        <div className="h-80 chart-container">
-          <style jsx>{`
-            .chart-container :global(text) {
-              fill: #d1d5db !important;
-              font-weight: 600 !important;
-            }
-          `}</style>
-          <ResponsiveLine
-            data={growthData}
-            margin={{ top: 20, right: 110, bottom: 50, left: 60 }}
-            xScale={{ type: 'point' }}
-            yScale={{ type: 'linear', min: 'auto', max: 'auto' }}
-            axisTop={null}
-            axisRight={null}
-            axisBottom={{
-              tickSize: 5,
-              tickPadding: 5,
-              tickRotation: -45
-            }}
-            axisLeft={{
-              tickSize: 5,
-              tickPadding: 5,
-              tickRotation: 0
-            }}
-            pointSize={6}
-            pointColor={{ theme: 'background' }}
-            pointBorderWidth={2}
-            pointBorderColor={{ from: 'serieColor' }}
-            useMesh={true}
-            legends={[
-              {
-                anchor: 'bottom-right',
-                direction: 'column',
-                justify: false,
-                translateX: 100,
-                translateY: 0,
-                itemsSpacing: 0,
-                itemDirection: 'left-to-right',
-                itemWidth: 80,
-                itemHeight: 20,
-                itemOpacity: 0.75,
-                symbolSize: 12,
-                symbolShape: 'circle'
-              }
-            ]}
-            theme={{
-              background: 'transparent',
-              tooltip: {
-                container: {
-                  background: '#ffffff',
-                  color: '#374151',
-                  fontSize: '12px',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                  border: '1px solid #e5e7eb',
-                  padding: '8px 12px'
-                }
-              },
-              axis: {
-                ticks: {
-                  text: {
-                    fontSize: 11,
-                    fill: '#d1d5db',
-                    fontWeight: 600
-                  }
-                },
-                legend: {
-                  text: {
-                    fontSize: 12,
-                    fill: '#d1d5db',
-                    fontWeight: 600
-                  }
-                }
-              },
-              legends: {
-                text: {
-                  fontSize: 11,
-                  fill: '#d1d5db',
-                  fontWeight: 600
-                }
-              }
-            }}
-          />
+      <SectionHeader headline={"Dataset Statistics"}
+                     description={"Exploring the evolution, usage patterns, and lifecycle of Olympic venues through data visualizations."}
+      />
+
+      {/* Summary Stats */}
+      <div className="mx-4 mb-8 grid md:grid-cols-4 gap-4">
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+          <div className="text-2xl font-bold">{data?.totalGames || 0}</div>
+          <div className="text-sm opacity-90">Olympic Games</div>
+        </div>
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+          <div className="text-2xl font-bold">{data?.totalVenues || 0}</div>
+          <div className="text-sm opacity-90">Total Venues</div>
+        </div>
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+          <div className="text-2xl font-bold">
+            {data?.games ? Math.round(data.totalVenues / data.totalGames * 10) / 10 : 0}
+          </div>
+          <div className="text-sm opacity-90">Avg Venues/Game</div>
+        </div>
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+          <div className="text-2xl font-bold">
+            {data?.games ? data.games[data.games.length - 1]?.year - data.games[0]?.year : 0}
+          </div>
+          <div className="text-sm opacity-90">Years Span</div>
         </div>
       </div>
 
       {/* Venue Lifespan Analysis */}
-      <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+      <div
+        className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
         <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
           🏗️ Venue Lifespan Analysis
           <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-            Post-Olympic Usage Patterns
-          </span>
+                    Post-Olympic Usage Patterns
+                    </span>
         </h3>
         <div className="h-80 chart-container">
           <style jsx>{`
@@ -382,9 +286,11 @@ const TemporalAnalysis = ({geojsonData}) => {
             data={lifespanData}
             keys={['count']}
             indexBy="category"
-            margin={{ top: 20, right: 30, bottom: 80, left: 60 }}
+            margin={{top: 20, right: 30, bottom: 120, left: 60}}
             padding={0.3}
-            colors={({ data }) => data.color}
+            colors={({data}) => data.color}
+            enableGridX={true}
+            enableGridY={true}
             axisTop={null}
             axisRight={null}
             axisBottom={{
@@ -398,17 +304,36 @@ const TemporalAnalysis = ({geojsonData}) => {
               tickRotation: 0
             }}
             labelTextColor="#f3f4f6"
+            tooltip={({id, value, color, data}) => (
+              <div
+                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-2">
+                  {data.category}
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between items-center">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Venues:</span>
+                    <span className="text-gray-900 dark:text-gray-100 font-bold">
+                      {value.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="text-sm text-gray-600 dark:text-gray-400 mt-3">
+                    {data.category === 'Active (50+ years)' && 'Venues built 50+ years ago, still in use'}
+                    {data.category === 'Long-term (20-50 years)' && 'Venues built 20-50 years ago, still active'}
+                    {data.category === 'Medium-term (5-20 years)' && 'Venues built 5-20 years ago'}
+                    {data.category === 'Short-term (1-5 years)' && 'Venues built within last 5 years or temporary'}
+                    {data.category === 'Demolished/Dismantled' && 'Venues no longer existing'}
+                    {data.category === 'Unknown' && 'Venues with unknown opening dates'}
+                  </div>
+                </div>
+              </div>
+            )}
             theme={{
               background: 'transparent',
-              tooltip: {
-                container: {
-                  background: '#ffffff',
-                  color: '#374151',
-                  fontSize: '12px',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                  border: '1px solid #e5e7eb',
-                  padding: '8px 12px'
+              grid: {
+                line: {
+                  stroke: '#374151',
+                  strokeWidth: 1
                 }
               },
               axis: {
@@ -441,9 +366,10 @@ const TemporalAnalysis = ({geojsonData}) => {
       </div>
 
       {/* Seasonal Patterns & Decade Comparison */}
-      <div className="grid lg:grid-cols-2 gap-8">
+      <div className="mx-4 mb-8 grid lg:grid-cols-2 gap-8">
         {/* Seasonal Patterns */}
-        <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
             ❄️☀️ Seasonal Patterns
             <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
@@ -461,9 +387,11 @@ const TemporalAnalysis = ({geojsonData}) => {
               data={seasonalData}
               keys={['venues']}
               indexBy="season"
-              margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
+              margin={{top: 20, right: 30, bottom: 50, left: 60}}
               padding={0.4}
-              colors={({ data }) => data.color}
+              colors={({data}) => data.color}
+              enableGridX={true}
+              enableGridY={true}
               axisTop={null}
               axisRight={null}
               axisBottom={{
@@ -477,17 +405,40 @@ const TemporalAnalysis = ({geojsonData}) => {
                 tickRotation: 0
               }}
               labelTextColor="#f3f4f6"
+              tooltip={({id, value, color, data}) => (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {data.season} Olympics
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.venues.toLocaleString()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Games Analyzed:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.games}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Avg Venues/Game:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.avgVenuesPerGame}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
               theme={{
                 background: 'transparent',
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
+                grid: {
+                  line: {
+                    stroke: '#374151',
+                    strokeWidth: 1
                   }
                 },
                 axis: {
@@ -520,7 +471,8 @@ const TemporalAnalysis = ({geojsonData}) => {
         </div>
 
         {/* Decade Comparison */}
-        <div className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+        <div
+          className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
           <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
             📅 Decade Comparison
             <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
@@ -538,9 +490,11 @@ const TemporalAnalysis = ({geojsonData}) => {
               data={decadeData}
               keys={['avgVenuesPerGame']}
               indexBy="decade"
-              margin={{ top: 20, right: 30, bottom: 50, left: 60 }}
+              margin={{top: 20, right: 30, bottom: 50, left: 60}}
               padding={0.3}
-              colors={({ data }) => data.color}
+              colors={({data}) => data.color}
+              enableGridX={true}
+              enableGridY={true}
               axisTop={null}
               axisRight={null}
               axisBottom={{
@@ -554,17 +508,40 @@ const TemporalAnalysis = ({geojsonData}) => {
                 tickRotation: 0
               }}
               labelTextColor="#f3f4f6"
+              tooltip={({id, value, color, data}) => (
+                <div
+                  className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-64">
+                  <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                    {data.decade}
+                  </div>
+                  <div className="space-y-2">
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Avg Venues/Game:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.avgVenuesPerGame}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.venues.toLocaleString()}
+                      </span>
+                    </div>
+                    <div className="flex justify-between items-center">
+                      <span className="font-medium text-gray-700 dark:text-gray-300">Games in Decade:</span>
+                      <span className="text-gray-900 dark:text-gray-100 font-bold">
+                        {data.games}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              )}
               theme={{
                 background: 'transparent',
-                tooltip: {
-                  container: {
-                    background: '#ffffff',
-                    color: '#374151',
-                    fontSize: '12px',
-                    borderRadius: '8px',
-                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                    border: '1px solid #e5e7eb',
-                    padding: '8px 12px'
+                grid: {
+                  line: {
+                    stroke: '#374151',
+                    strokeWidth: 1
                   }
                 },
                 axis: {
@@ -594,30 +571,6 @@ const TemporalAnalysis = ({geojsonData}) => {
               }}
             />
           </div>
-        </div>
-      </div>
-
-      {/* Summary Stats */}
-      <div className="grid md:grid-cols-4 gap-4">
-        <div className="bg-gradient-to-r from-blue-500 to-blue-600 rounded-xl p-4 text-white">
-          <div className="text-2xl font-bold">{data?.totalGames || 0}</div>
-          <div className="text-sm opacity-90">Olympic Games</div>
-        </div>
-        <div className="bg-gradient-to-r from-green-500 to-green-600 rounded-xl p-4 text-white">
-          <div className="text-2xl font-bold">{data?.totalVenues || 0}</div>
-          <div className="text-sm opacity-90">Total Venues</div>
-        </div>
-        <div className="bg-gradient-to-r from-purple-500 to-purple-600 rounded-xl p-4 text-white">
-          <div className="text-2xl font-bold">
-            {data?.games ? Math.round(data.totalVenues / data.totalGames * 10) / 10 : 0}
-          </div>
-          <div className="text-sm opacity-90">Avg Venues/Game</div>
-        </div>
-        <div className="bg-gradient-to-r from-amber-500 to-amber-600 rounded-xl p-4 text-white">
-          <div className="text-2xl font-bold">
-            {data?.games ? data.games[data.games.length - 1]?.year - data.games[0]?.year : 0}
-          </div>
-          <div className="text-sm opacity-90">Years Span</div>
         </div>
       </div>
     </div>

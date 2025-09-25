@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsiveScatterPlot } from '@nivo/scatterplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 const FIELDS = [
   { key: 'number_of_athletes', label: 'Number of Athletes' },

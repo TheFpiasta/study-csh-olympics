@@ -8,8 +8,12 @@ import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import ChartSectionPlaceholder from "../templates/ChartSectionPlaceholder";
 import FinancialMetrics from "@/app/graphs/components/costAndProfit/FinancialMetrics";
 import FinancialScatterPlot from "@/app/graphs/components/costAndProfit/FinancialScatterPlot";
+import TemporalDevelopmentAnalyses from "@/app/graphs/components/temporalDevelopmnent/TemporalDevelopmentAnalyses";
+import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
+import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
+import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
 
-const CostAndProfitabilityAnalyses = ({geojsonData}) => {
+const CapacityDistributionAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -45,16 +49,22 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"💰 Cost and profitability analyses"}
-                           description={"Analyzing the financial aspects of Olympic venues, including construction costs, maintenance expenses, and profitability metrics."}
+            <SectionHeader
+                headline="Venue Capacity Distribution"
+                description="Boxplot showing seating capacity distribution of Olympic venues per game."
             />
-            {/* Financial Metrics Over Time */}
-            <FinancialMetrics data={data}/>
 
-            {/* Financial Metrics Correlation ScatterPlot */}
-            <FinancialScatterPlot data={data}/>
+            {/* Capacity Box Plot Dashboard */}
+            <div className="mx-4 mb-8">
+                <CapacityBoxPlot geojsonData={geojsonData}/>
+            </div>
+
+            {/* Long Term Sankey Plot Dashboard*/}
+            <div className="mx-4 mb-8">
+                <LongTermSankeyPlot geojsonData={geojsonData}/>
+            </div>
         </div>
     );
 };
 
-export default CostAndProfitabilityAnalyses;
+export default CapacityDistributionAnalysis;

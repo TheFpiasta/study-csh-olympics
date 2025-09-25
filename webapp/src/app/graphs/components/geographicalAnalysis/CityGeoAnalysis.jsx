@@ -3,9 +3,9 @@
 import React, { useState, useEffect } from 'react';
 import { ResponsivePie } from '@nivo/pie';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
-const VenuePieChart = ({ geojsonData }) => {
+const CityGeoAnalysis = ({geojsonData}) => {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -115,10 +115,6 @@ const VenuePieChart = ({ geojsonData }) => {
 
   return (
     <div className="space-y-6">
-      <SectionHeader
-        headline="Olympic Venues Pie Chart"
-        description="Shows the distribution of Olympic venues by event, place, and location."
-      />
 
       {/* Dropdown to select Olympics */}
 
@@ -126,22 +122,25 @@ const VenuePieChart = ({ geojsonData }) => {
         <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
           📊 Venues locations inside the event
         </h3>
-      <div className="flex items-center gap-4 mb-4">
-        <label htmlFor="olympics-select" className="font-medium text-gray-900 dark:text-gray-200">
-          Select Olympics:
-        </label>
-        <select
-          id="olympics-select"
-          value={selectedOlympics}
-          onChange={(e) => setSelectedOlympics(e.target.value)}
-          className="bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200 rounded-md p-2"
-        >
-          {data.games.map(game => (
-            <option key={`${game.location}-${game.year}`} value={`${game.location} ${game.year}`}>
-              {game.location} {game.year}
-            </option>
-          ))}
-        </select>
+        {/* Select Olympics Filter */}
+        <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 py-6">
+          <div className="flex items-center gap-4">
+            <label htmlFor="olympics-select" className="text-sm font-medium text-gray-700 dark:text-gray-300">
+              Select Olympics
+            </label>
+            <select
+              id="olympics-select"
+              value={selectedOlympics}
+              onChange={(e) => setSelectedOlympics(e.target.value)}
+              className="bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 text-gray-900 dark:text-gray-200 rounded-md p-2 focus:ring-2 focus:ring-emerald-500 focus:border-transparent"
+            >
+              {data.games.map(game => (
+                <option key={`${game.location}-${game.year}`} value={`${game.location} ${game.year}`}>
+                  {game.location} {game.year}
+                </option>
+              ))}
+            </select>
+          </div>
       </div>
         <div className="h-80 chart-container">
           <style jsx>{`
@@ -166,29 +165,35 @@ const VenuePieChart = ({ geojsonData }) => {
             arcLinkLabelsColor={{ from: 'color' }}
             arcLabelsSkipAngle={10}
             arcLabelsTextColor="#f3f4f6"
-            legends={[{
-              anchor: 'right',
-              direction: 'column',
-              translateX: 100,
-              itemWidth: 180,
-              itemHeight: 24,
-              itemTextColor: '#d1d5db',
-              symbolSize: 12,
-              symbolShape: 'circle',
-            }]}
+            legends={[]}
+            tooltip={({datum}) => (
+              <div
+                className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60 max-w-80">
+                <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                  {selectedOlympics}
+                </div>
+                <div className="text-sm text-gray-600 dark:text-gray-400 mb-3">
+                  Venue Location
+                </div>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Location:</span>
+                    <span className="text-gray-900 dark:text-gray-100">{datum.label}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Venues:</span>
+                    <span className="text-gray-900 dark:text-gray-100">{datum.value}</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span className="font-medium text-gray-700 dark:text-gray-300">Percentage:</span>
+                    <span
+                      className="text-gray-900 dark:text-gray-100">{Math.round(datum.value / distributionData.reduce((sum, d) => sum + d.value, 0) * 100)}%</span>
+                  </div>
+                </div>
+              </div>
+            )}
             theme={{
               background: 'transparent',
-              tooltip: {
-                container: {
-                  background: '#ffffff',
-                  color: '#374151',
-                  fontSize: '12px',
-                  borderRadius: '8px',
-                  boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                  border: '1px solid #e5e7eb',
-                  padding: '8px 12px',
-                }
-              },
               legends: {
                 text: { fontSize: 11, fill: '#d1d5db', fontWeight: 600 }
               }
@@ -200,4 +205,4 @@ const VenuePieChart = ({ geojsonData }) => {
   );
 };
 
-export default VenuePieChart;
+export default CityGeoAnalysis;

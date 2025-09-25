@@ -178,6 +178,16 @@ class Logger {
         this.#writeLog('info', message, data);
     }
 
+  /**
+   * Alias for info method.
+   *
+   * @param message - Log message
+   * @param data - Optional additional data
+   */
+  log(message, data) {
+    this.info(message, data);
+  }
+
     /**
      * Log a warning message.
      *

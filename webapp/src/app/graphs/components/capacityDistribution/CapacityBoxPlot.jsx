@@ -3,6 +3,7 @@
 import React, {useState, useEffect, useMemo, useCallback} from 'react';
 import {ResponsiveBoxPlot} from '@nivo/boxplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
+import logger from "@/components/logger";
 
 const CapacityBoxPlot = ({geojsonData}) => {
   const [data, setData] = useState(null);
@@ -66,10 +67,10 @@ const CapacityBoxPlot = ({geojsonData}) => {
   // Convert filtered games into long-form observations: { group, season, value }
   const seatingObservations = useMemo(() => {
     const gamesToUse = getFilteredGames();
-    console.log('Filtered games count:', gamesToUse?.length);
-    console.log('Slider values:', sliderValues);
-    console.log('Season filter:', seasonFilter);
-    console.log('Max percentage filled:', maxPercentageFilled);
+    logger.log('Filtered games count:', gamesToUse?.length);
+    logger.log('Slider values:', sliderValues);
+    logger.log('Season filter:', seasonFilter);
+    logger.log('Max percentage filled:', maxPercentageFilled);
 
     if (!gamesToUse?.length) return [];
 

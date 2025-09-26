@@ -3,7 +3,8 @@
 import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorFromPalet} from '../utility';
+import {getColorFromPalet, graphTheme} from '../utility';
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const VenueSpread = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -152,12 +153,11 @@ const VenueSpread = ({geojsonData}) => {
     return (
         <div
             className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                📏 Venue Spread
-                <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                    Geographic Distribution
-                </span>
-            </h3>
+            <SectionGraphHeadline headline="Venue Spread"
+                                  description="Analyse the relationship between the number of venues used in each Olympic Games and their geographic spread in kilometers."
+                                  infoText=""
+            >
+            </SectionGraphHeadline>
 
             {/* Olympic Season Filter */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -272,31 +272,7 @@ const VenueSpread = ({geojsonData}) => {
                                 </div>
                             </div>
                         )}
-                        theme={{
-                            background: 'transparent',
-                            grid: {
-                                line: {
-                                    stroke: '#374151',
-                                    strokeWidth: 1
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
 

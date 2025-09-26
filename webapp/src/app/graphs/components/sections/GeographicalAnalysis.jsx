@@ -8,6 +8,7 @@ import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import WorldGeographicAnalysis from "@/app/graphs/components/graphs/WorldGeographicAnalysis";
 import CityGeoAnalysis from "@/app/graphs/components/graphs/CityGeoAnalysis";
 import VenueSpread from "@/app/graphs/components/graphs/VenueSpread";
+import CityGeoAnalysisOld from "@/app/graphs/components/graphs/CityGeoAnalysisOld";
 
 const CapacityDistributionAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);

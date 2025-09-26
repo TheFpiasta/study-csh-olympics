@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 
 const SectionNavigation = () => {
     const [activeSection, setActiveSection] = useState('');
@@ -28,7 +28,7 @@ const SectionNavigation = () => {
             const currentSection = sectionElements.find(element => {
                 if (!element) return false;
                 const rect = element.getBoundingClientRect();
-                return rect.top <= 100 && rect.bottom >= 100;
+                return rect.top <= 200 && rect.bottom >= 200;
             });
 
             if (currentSection) {
@@ -70,10 +70,11 @@ const SectionNavigation = () => {
                             <button
                                 key={section.id}
                                 onClick={() => scrollToSection(section.id)}
-                                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-105 ${
-                                    activeSection === section.id
-                                        ? 'bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-md'
-                                        : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-105 cursor-pointer ${
+                                    // activeSection === section.id
+                                    //     ? 'bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-md'
+                                    //     : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
+                                    'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
                                 }`}
                             >
                                 <span className="text-sm">{section.icon}</span>
@@ -106,7 +107,7 @@ const SectionNavigation = () => {
                                 <button
                                     key={section.id}
                                     onClick={() => scrollToSection(section.id)}
-                                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-105 whitespace-nowrap ${
+                                    className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-105 whitespace-nowrap cursor-pointer ${
                                         activeSection === section.id
                                             ? 'bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-md'
                                             : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'

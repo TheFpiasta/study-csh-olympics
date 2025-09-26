@@ -3,6 +3,8 @@
 import React, {useEffect, useMemo, useState} from 'react';
 import {ResponsiveBoxPlot} from '@nivo/boxplot';
 import logger from "@/components/logger";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const CapacityBoxPlot = ({data}) => {
     const [yearSliderRange, setYearSliderRange] = useState({min: 1896, max: 2024});
@@ -144,12 +146,11 @@ const CapacityBoxPlot = ({data}) => {
             <div className="space-y-6">
                 <div
                     className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        Capacity Distribution
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                            Box Plot
-                        </span>
-                    </h3>
+                    <SectionGraphHeadline headline="Capacity Distribution"
+                                          description="Visualizes the distribution of seating capacities across Olympic venues for each game, grouped by year, location, and season. Each box represents the interquartile range (IQR) of venue capacities, with the median marked inside. Use the filters to adjust the year range, season, and data quality threshold."
+                                          infoText=""
+                    >
+                    </SectionGraphHeadline>
 
                     {/* Olympic Season Filter */}
                     <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 mt-4">
@@ -323,21 +324,7 @@ const CapacityBoxPlot = ({data}) => {
                                 axisLeft={{
                                     legend: 'Seating Capacity', legendPosition: 'middle', legendOffset: -60,
                                 }}
-                                theme={{
-                                    axis: {
-                                        legend: {text: {fill: '#fff', fontSize: 14, fontWeight: 600}},
-                                        ticks: {text: {fill: '#fff', fontSize: 11}, line: {stroke: '#444'}},
-                                    },
-                                    grid: {
-                                        line: {
-                                            stroke: '#374151',
-                                            strokeWidth: 1
-                                        }
-                                    },
-                                    tooltip: {
-                                        container: {background: '#0f1724', color: '#fff'},
-                                    },
-                                }}
+                                theme={graphTheme}
                                 tooltip={({group, data, outliers}) => {
                                     // Parse the group to extract year, location, and season
                                     const groupParts = group.split(' – ');

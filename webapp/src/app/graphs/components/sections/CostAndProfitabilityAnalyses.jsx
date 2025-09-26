@@ -6,7 +6,7 @@ import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import FinancialMetrics from "@/app/graphs/components/graphs/FinancialMetrics";
-import FinancialScatterPlot from "@/app/graphs/components/graphs/FinancialScatterPlot";
+import ComparisonMetricPlot from "@/app/graphs/components/graphs/ComparisonMetricPlot";
 
 const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -51,7 +51,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
             <FinancialMetrics data={data}/>
 
             {/* Financial Metrics Correlation ScatterPlot */}
-            <FinancialScatterPlot data={data}/>
+            <ComparisonMetricPlot data={data}/>
         </div>
     );
 };

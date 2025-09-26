@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import SectionHeader from '@/app/graphs/components/templates/SectionHeader';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const FIELDS = [
     {key: 'number_of_athletes', label: 'Number of Athletes'},
@@ -190,12 +191,7 @@ const ScatterPlot = ({geojsonData}) => {
                         pointBorderWidth={2}
                         pointBorderColor={{from: 'serieColor'}}
                         useMesh={true}
-                        theme={{
-                            axis: {
-                                legend: {text: {fill: '#fff', fontSize: 14, fontWeight: 600}},
-                                ticks: {text: {fill: '#fff', fontSize: 12}, line: {stroke: '#fff'}},
-                            },
-                        }}
+                        theme={graphTheme}
                         tooltip={({node}) => (
                             <div
                                 className="bg-white dark:bg-gray-800 p-3 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600">

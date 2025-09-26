@@ -1,9 +1,10 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
-import {getSeasonColor} from "@/app/graphs/components/utility";
+import {getSeasonColor, graphTheme} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
-export default function FinancialScatterPlot({data}) {
+export default function ComparisonMetricPlot({data}) {
     const [scatterData, setScatterData] = useState([]);
     const [seasonFilter, setSeasonFilter] = useState('both');
     const [xAxisMetric, setXAxisMetric] = useState('');
@@ -76,12 +77,18 @@ export default function FinancialScatterPlot({data}) {
                         unit: datum.unit
                     };
                 })
-                .filter(metric =>
-                    // Include numeric and currency metrics
-                    ['currency', 'number', 'integer'].includes(metric.format) ||
+                .filter(metric => {
+                    // For currency metrics, only include USD 2018 values
+                    if (metric.format === 'currency') {
+                        return metric.key.includes('2018') || metric.key.includes('usd2018');
+                    }
+                    // Include other numeric metrics
+                    if (['number', 'integer'].includes(metric.format)) {
+                        return true;
+                    }
                     // Include specific known metrics even without explicit format
-                    ['number_of_athletes', 'number_of_events', 'number_of_countries', 'accredited_media'].includes(metric.key)
-                );
+                    return ['number_of_athletes', 'number_of_events', 'number_of_countries', 'accredited_media'].includes(metric.key);
+                });
 
             setAvailableMetrics(metrics);
 
@@ -192,14 +199,11 @@ export default function FinancialScatterPlot({data}) {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📊 Financial Metrics Correlation
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Scatter Plot
-                    </span>
-                </h3>
-            </div>
+            <SectionGraphHeadline headline="Financial & Event Metrics Comparison"
+                                  description="Compare financial costs, revenues, and event statistics across Summer and Winter Olympics"
+                                  infoText="Currency values are converted to millions USD (2018). Data points can be filtered by season and custom X/Y axis combinations allow exploration of correlations between different Olympic metrics."
+            >
+            </SectionGraphHeadline>
 
             {/* Layout with filters on left and chart on right */}
             <div className="flex gap-6">
@@ -338,10 +342,10 @@ export default function FinancialScatterPlot({data}) {
                                     `}</style>
                                     <ResponsiveScatterPlot
                                         data={scatterData}
-                                        margin={{top: 20, right: 30, bottom: 60, left: 80}}
+                                        margin={{top: 30, right: 20, bottom: 60, left: 70}}
                                         xScale={{type: 'linear', min: 'auto', max: 'auto'}}
                                         yScale={{type: 'linear', min: 'auto', max: 'auto'}}
-                                        nodeSize={isMinimized ? 6 : 6}
+                                        nodeSize={isMinimized ? 4 : 6}
                                         colors={({serieId}) => {
                                             if (serieId && serieId.includes('Summer')) return getSeasonColor('Summer');
                                             if (serieId && serieId.includes('Winter')) return getSeasonColor('Winter');
@@ -398,49 +402,14 @@ export default function FinancialScatterPlot({data}) {
                                                 </div>
                                             </div>
                                         )}
-                                        theme={{
-                                            background: 'transparent',
-                                            grid: {
-                                                line: {
-                                                    stroke: '#374151',
-                                                    strokeWidth: 1
-                                                }
-                                            },
-                                            tooltip: {
-                                                container: {
-                                                    background: '#ffffff',
-                                                    color: '#374151',
-                                                    fontSize: '12px',
-                                                    borderRadius: '8px',
-                                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                                    border: '1px solid #e5e7eb',
-                                                    padding: '8px 12px'
-                                                }
-                                            },
-                                            axis: {
-                                                ticks: {
-                                                    text: {
-                                                        fontSize: 11,
-                                                        fill: '#d1d5db',
-                                                        fontWeight: 600
-                                                    }
-                                                },
-                                                legend: {
-                                                    text: {
-                                                        fontSize: 12,
-                                                        fill: '#d1d5db',
-                                                        fontWeight: 600
-                                                    }
-                                                }
-                                            }
-                                        }}
+                                        theme={graphTheme}
                                     />
                                 </div>
                             </div>
 
                             {/* Custom Legend - Only show when "both" is selected */}
                             {seasonFilter === 'both' && (
-                                <div className="flex flex-col items-center mt-4 gap-2 ml-11">
+                                <div className="flex flex-col items-center mt-4 gap-2 ml-12">
                                     <span
                                         className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                         Olympic Seasons

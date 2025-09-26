@@ -54,3 +54,52 @@ export const getSeasonColor = (season) => {
             return olympicColors.extended.black4; // Gray fallback color
     }
 };
+
+export const graphTheme = {
+    background: 'transparent',
+    grid: {
+        line: {
+            stroke: '#374151',
+            strokeWidth: 1
+        }
+    },
+    text: {
+        fill: '#374151',
+        fontSize: 11
+    },
+    axis: {
+        ticks: {
+            line: {
+                stroke: '#374151',
+            },
+            text: {
+                fontSize: 11,
+                fill: '#d1d5db',
+            }
+        },
+        legend: {
+            text: {
+                fontSize: 12,
+                fill: '#d1d5db',
+            }
+        },
+        domain: {
+            line: {
+                stroke: '#374151',
+                strokeWidth: 2
+            }
+        },
+    },
+    legends: {
+        text: {
+            fill: '#d1d5db',
+            fontSize: 11,
+        }
+    },
+    labels: {
+        text: {
+            fontSize: 11,
+            fill: '#d1d5db',
+        }
+    }
+};

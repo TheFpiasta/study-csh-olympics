@@ -1,8 +1,9 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
-import {getColorFromPalet, getSeasonColor, getYearRange} from "@/app/graphs/components/utility";
+import {getColorFromPalet, getSeasonColor, getYearRange, graphTheme} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
 import logger from '@/components/logger';
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 export default function FinancialMetrics({data}) {
 
@@ -872,13 +873,10 @@ export default function FinancialMetrics({data}) {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📈 Financial Metrics Over Time
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Line Chart
-                    </span>
-                </h3>
+            <SectionGraphHeadline headline="Financial Data Analysis"
+                                  description="Explore the financial aspects of the Olympic Games, including costs, revenues, and profits over time. Analyze how these metrics vary by season and normalize them based on different factors for deeper insights."
+                                  infoText="We do not have a complete finacial datasource. The data is provided by Harvard University. All Currency values are converted to millions USD (2018). Some Data (like sponsorship) do not have entry for all events."
+            >
                 <div className="flex items-center gap-4 flex-wrap">
                     <div className="flex items-center gap-2">
                         <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
@@ -935,7 +933,7 @@ export default function FinancialMetrics({data}) {
                     <div className={`flex items-center gap-2 transition-opacity ${
                         dataMode === 'normalized' ? 'opacity-100' : 'opacity-40 pointer-events-none'
                     }`}>
-                        <span className="text-sm text-gray-600 dark:text-gray-400">Normalize Per:</span>
+                        <span className="text-sm text-gray-600 dark:text-gray-400">Normalize By:</span>
                         <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
                             <button
                                 onClick={() => dataMode === 'normalized' && setNormalizationPer('athlete')}
@@ -984,7 +982,7 @@ export default function FinancialMetrics({data}) {
                         </div>
                     </div>
                 </div>
-            </div>
+            </SectionGraphHeadline>
 
             {/* Olympic Season Filter */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -1113,7 +1111,6 @@ export default function FinancialMetrics({data}) {
                     axisTop={null}
                     axisRight={null}
                     axisBottom={{
-                        orient: 'bottom',
                         tickSize: 5,
                         tickPadding: 5,
                         tickRotation: 0,
@@ -1122,7 +1119,6 @@ export default function FinancialMetrics({data}) {
                         legendPosition: 'middle'
                     }}
                     axisLeft={{
-                        orient: 'left',
                         tickSize: 5,
                         tickPadding: 5,
                         tickRotation: 0,
@@ -1247,48 +1243,7 @@ export default function FinancialMetrics({data}) {
                             </div>
                         </div>
                     )}
-                    theme={{
-                        background: 'transparent',
-                        grid: {
-                            line: {
-                                stroke: '#374151',
-                                strokeWidth: 1
-                            }
-                        },
-                        tooltip: {
-                            container: {
-                                background: '#ffffff',
-                                color: '#374151',
-                                fontSize: '12px',
-                                borderRadius: '8px',
-                                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                border: '1px solid #e5e7eb',
-                                padding: '8px 12px'
-                            }
-                        },
-                        axis: {
-                            ticks: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            },
-                            legend: {
-                                text: {
-                                    fontSize: 12,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            }
-                        },
-                        legends: {
-                            text: {
-                                fill: '#d1d5db',
-                                fontSize: 11
-                            }
-                        }
-                    }}
+                    theme={graphTheme}
                 />
             </div>
 
@@ -1386,7 +1341,7 @@ export default function FinancialMetrics({data}) {
                 {/* Aggregated Financial Analysis Chart Headline */}
                 <div className="">
                     <h4 className="text-lg font-semibold text-gray-900 dark:text-gray-200 mb-1 text-center">
-                        Total Financial Performance
+                        Aggregated Financial Performance
                     </h4>
                 </div>
 
@@ -1601,48 +1556,7 @@ export default function FinancialMetrics({data}) {
                             );
                         }}
                         legends={[]}
-                        theme={{
-                            background: 'transparent',
-                            grid: {
-                                line: {
-                                    stroke: '#374151',
-                                    strokeWidth: 1
-                                }
-                            },
-                            tooltip: {
-                                container: {
-                                    background: '#ffffff',
-                                    color: '#374151',
-                                    fontSize: '12px',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                    border: '1px solid #e5e7eb',
-                                    padding: '8px 12px'
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            },
-                            legends: {
-                                text: {
-                                    fill: '#d1d5db',
-                                    fontSize: 11
-                                }
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
 
@@ -1651,7 +1565,7 @@ export default function FinancialMetrics({data}) {
                     {/* Financial Types Legend (Line Colors) */}
                     <div className="flex flex-col items-center gap-2">
                         <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                            Financial Analysis
+                            Financial Performance
                         </span>
                         <div className="flex flex-wrap justify-center gap-6">
                             <div className="flex items-center gap-2">

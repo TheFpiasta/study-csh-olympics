@@ -4,6 +4,7 @@ import React from 'react';
 import {ResponsiveBar} from '@nivo/bar';
 import {ResponsiveLine} from '@nivo/line';
 import {ResponsivePie} from '@nivo/pie';
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const ChartsPanel = ({geojsonData, getStatusBreakdown, timelineData}) => {
     // Prepare timeline status data for line chart
@@ -131,43 +132,7 @@ const ChartsPanel = ({geojsonData, getStatusBreakdown, timelineData}) => {
                         animate={true}
                         motionStiffness={90}
                         motionDamping={15}
-                        theme={{
-                            background: 'transparent',
-                            tooltip: {
-                                container: {
-                                    background: '#ffffff',
-                                    color: '#374151',
-                                    fontSize: '12px',
-                                    borderRadius: '8px',
-                                    boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-                                    border: '1px solid #e5e7eb',
-                                    padding: '8px 12px'
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#374151'
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#374151',
-                                        fontWeight: 600
-                                    }
-                                }
-                            },
-                            labels: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#f3f4f6',
-                                    fontWeight: 600,
-                                    textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                }
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
             </div>
@@ -246,42 +211,7 @@ const ChartsPanel = ({geojsonData, getStatusBreakdown, timelineData}) => {
                                         ]
                                     }
                                 ]}
-                                theme={{
-                                    background: 'transparent',
-                                    tooltip: {
-                                        container: {
-                                            background: '#ffffff',
-                                            color: '#374151',
-                                            fontSize: '12px',
-                                            borderRadius: '8px',
-                                            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-                                            border: '1px solid #e5e7eb',
-                                            padding: '8px 12px'
-                                        }
-                                    },
-                                    axis: {
-                                        ticks: {
-                                            text: {
-                                                fontSize: 11,
-                                                fill: '#d1d5db'
-                                            }
-                                        },
-                                        legend: {
-                                            text: {
-                                                fontSize: 12,
-                                                fill: '#d1d5db',
-                                                fontWeight: 600
-                                            }
-                                        }
-                                    },
-                                    legends: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    }
-                                }}
+                                theme={graphTheme}
                             />
                         ) : (
                             <div className="flex items-center justify-center h-full">
@@ -359,35 +289,7 @@ const ChartsPanel = ({geojsonData, getStatusBreakdown, timelineData}) => {
                                     ]
                                 }
                             ]}
-                            theme={{
-                                background: 'transparent',
-                                tooltip: {
-                                    container: {
-                                        background: '#ffffff',
-                                        color: '#374151',
-                                        fontSize: '12px',
-                                        borderRadius: '8px',
-                                        boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)',
-                                        border: '1px solid #e5e7eb',
-                                        padding: '8px 12px'
-                                    }
-                                },
-                                labels: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#f3f4f6',
-                                        fontWeight: 600,
-                                        textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                    }
-                                },
-                                legends: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            }}
+                            theme={graphTheme}
                         />
                     </div>
                 </div>

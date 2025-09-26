@@ -46,7 +46,7 @@ const VenueBuilding = ({geojsonData}) => {
         <div className="space-y-8">
             <SectionHeader
                 headline="🏟️ Venue Building"
-                description="Comprehensive analysis of Olympic venue characteristics including capacity distribution and lifecycle flows from construction classification to current operational status."
+                description="Analysis of Olympic venue construction patterns over time and lifecycle transitions from initial building classification to current operational status."
             />
             <BuildStateTime data={data}/>
 

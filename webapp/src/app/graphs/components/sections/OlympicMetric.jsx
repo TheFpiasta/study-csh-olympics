@@ -44,8 +44,8 @@ const OlympicMetric = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"🏅 Olympic Metrics Over Time"}
-                           description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
+            <SectionHeader headline={"🏅 Olympic Metrics"}
+                           description={"Track Olympic participation trends (athletes, events, countries) and infrastructure growth (venues, sports) across decades."}
             />
 
             <div className="mx-4 mb-8">

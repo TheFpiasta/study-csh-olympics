@@ -46,7 +46,7 @@ const VenueUsage = ({geojsonData}) => {
     return (
         <div className="space-y-8">
             <SectionHeader headline={"📈 Venue Usage"}
-                           description={"Analysis of Olympic venue development patterns over time, infrastructure evolution, and historical trends"}
+                           description={"Analysis of Olympic venue quantities and types across Games, plus detailed examination of venue seating capacity distributions by year, location, and season."}
             />
 
             <NumberVenues data={data}/>

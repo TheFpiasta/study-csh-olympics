@@ -75,6 +75,31 @@ export default function Home() {
                         </Link>
                     </div>
 
+                    {/*Data quality warning*/}
+                    <div
+                        className="bg-yellow-100 dark:bg-yellow-900/50 border-l-4 border-yellow-500 dark:border-yellow-400 text-yellow-700 dark:text-yellow-300 p-4 mb-12 max-w-3xl mx-auto rounded-lg shadow-md">
+                        <div className="flex">
+                            <div className="flex-shrink-0">
+                                <svg className="h-6 w-6 text-yellow-500 dark:text-yellow-400" fill="currentColor"
+                                     viewBox="0 0 20 20">
+                                    <path fillRule="evenodd"
+                                          d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zm-1 3a1 1 0 00-.993.883L9
+    10v3a1 1 0 001.993.117L11 13v-3a1 1 0 00-1-1z"
+                                          clipRule="evenodd"/>
+                                </svg>
+                            </div>
+                            <div className="ml-3">
+                                <p className="text-sm">
+                                    <strong className="font-bold">Data Quality Notice:</strong> While we strive for
+                                    accuracy, some venue data may be incomplete or approximate due to the underlying
+                                    prove of concept dataset creation, historical record limitations and the base
+                                    datasets.
+                                    Please interpret visualizations with this in mind.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                     {/* Features Grid */}
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
                         <div

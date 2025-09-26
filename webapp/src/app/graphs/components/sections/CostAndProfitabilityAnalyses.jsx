@@ -45,7 +45,7 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
     return (
         <div className="space-y-8">
             <SectionHeader headline={"💰 Cost & Profitability"}
-                           description={"Analyzing the financial aspects of Olympic venues, including construction costs, maintenance expenses, and profitability metrics."}
+                           description={"Comprehensive financial analysis of Olympic Games including costs, revenues, profits over time, plus interactive correlation analysis between financial and event metrics."}
             />
             {/* Financial Metrics Over Time */}
             <FinancialMetrics data={data}/>

@@ -235,7 +235,7 @@ const DatasetStatistics = ({geojsonData}) => {
     return (
         <div className="space-y-8">
             <SectionHeader headline={"📊 Dataset Statistics"}
-                           description={"Exploring the evolution, usage patterns, and lifecycle of Olympic venues through data visualizations."}
+                           description={"Comprehensive analysis of Olympic venue lifecycles, seasonal distribution patterns, and historical venue trends across decades of Olympic Games."}
             />
 
             {/* Summary Stats */}

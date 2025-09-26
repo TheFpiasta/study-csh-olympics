@@ -18,7 +18,7 @@ const SectionNavigation = () => {
     useEffect(() => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
-            setIsSticky(scrollPosition > 800);
+            setIsSticky(scrollPosition > 250);
 
             // Find the currently visible section
             const sectionElements = sections.map(section =>

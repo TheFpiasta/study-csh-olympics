@@ -2,6 +2,7 @@
 
 import React, {useEffect, useRef, useState} from 'react';
 import {ResponsiveSankey} from '@nivo/sankey';
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const LongTermSankeyPlot = ({data}) => {
     const [seasonFilter, setSeasonFilter] = useState('summer'); // default
@@ -161,12 +162,11 @@ const LongTermSankeyPlot = ({data}) => {
             <div className="space-y-6" ref={wrapperRef}>
                 <div
                     className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                    <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2 mb-4">
-                        Venue Lifecycle Flow
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                            Sankey Plot
-                        </span>
-                    </h3>
+                    <SectionGraphHeadline headline="Venue Lifecycle Flow"
+                                          description="Explore the lifecycle of Olympic venues from their initial classification to their current status. "
+                                          infoText="Hover over nodes and lines for detailed information about venue counts, capacities, sports hosted, and more."
+                    >
+                    </SectionGraphHeadline>
 
                     {/* Olympic Season Filter */}
                     <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 mt-4">
@@ -213,6 +213,10 @@ const LongTermSankeyPlot = ({data}) => {
                         </select>
                     </div>
 
+                    <div className={"mx-auto text-center text-olympic-black-4 mt-10"}>
+                        construction status at the time of host selection <span
+                        className={"mx-4"}>&#11157;</span> current use status in the time range of 2018 to early 2020
+                    </div>
                     <div className="h-96 ml-50 mr-20">
                         {sankeyData ? (
                             <ResponsiveSankey

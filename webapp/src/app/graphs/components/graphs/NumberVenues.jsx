@@ -2,6 +2,7 @@ import {olympicColors as oc} from "@/components/utility";
 import React, {useState} from "react";
 import {ResponsiveScatterPlot} from "@nivo/scatterplot";
 import {getYearRange} from "@/app/graphs/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const NumberVenues = ({data}) => {
     const [viewMode, setViewMode] = useState('season'); // 'season' or 'venue-type'
@@ -187,13 +188,10 @@ const NumberVenues = ({data}) => {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📊 Number of venues per Olympic Games
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Scatter Plot
-                    </span>
-                </h3>
+            <SectionGraphHeadline headline="Venues Count & Venues Types"
+                                  description="Expplore the number of venues used in each Olympic Games and find out, which types of venues were most common."
+                                  infoText=""
+            >
                 <div className="flex items-center gap-2">
                     <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
                     <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
@@ -219,7 +217,7 @@ const NumberVenues = ({data}) => {
                         </button>
                     </div>
                 </div>
-            </div>
+            </SectionGraphHeadline>
 
             {/* Season Filter for Scatter Plot */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -277,13 +275,19 @@ const NumberVenues = ({data}) => {
                         orient: 'bottom',
                         tickSize: 5,
                         tickPadding: 5,
-                        tickRotation: 0
+                        tickRotation: 0,
+                        legend: 'Year',
+                        legendPosition: 'middle',
+                        legendOffset: 40,
                     }}
                     axisLeft={{
                         orient: 'left',
                         tickSize: 5,
                         tickPadding: 5,
-                        tickRotation: 0
+                        tickRotation: 0,
+                        legend: 'Count',
+                        legendPosition: 'middle',
+                        legendOffset: -40,
                     }}
                     colors={getScatterColors()}
                     nodeSize={8}

@@ -3,6 +3,7 @@
 import React, {useEffect, useState} from 'react';
 import {ResponsivePie} from '@nivo/pie';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const CityGeoAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -41,16 +42,16 @@ const CityGeoAnalysis = ({geojsonData}) => {
             game.features.forEach(feature => {
                 const location = feature.properties.location?.toLowerCase() || '';
                 const place = feature.properties.place || '';
-                let key = '';
+                let key;
 
                 if (location.includes('inside')) {
                     key = 'At' + (place ? ` ${place}` : '');
                 } else if (location.includes('outside')) {
                     key = 'Near' + (place ? ` ${place}` : '');
                 } else if ((location.includes('undefined') || !location) && place) {
-                    key = place; // keep unique entry
+                    key = `By ${place}`;
                 } else {
-                    key = 'No information available';
+                    key = `No information available`;
                 }
 
                 if (!distribution[key]) {
@@ -120,9 +121,12 @@ const CityGeoAnalysis = ({geojsonData}) => {
 
             <div
                 className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📊 Venues locations inside the event
-                </h3>
+                <SectionGraphHeadline headline="Venues Locations Inside The Event"
+                                      description="Explore the distribution of Olympic venues located inside or near the main event city for selected Olympic Games."
+                                      infoText=""
+                >
+                </SectionGraphHeadline>
+
                 {/* Select Olympics Filter */}
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4 py-6">
                     <div className="flex items-center gap-4">

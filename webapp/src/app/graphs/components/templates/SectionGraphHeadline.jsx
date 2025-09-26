@@ -14,12 +14,14 @@ export default function ({children, headline, description, infoText}) {
                     {children}
                 </div>
             </div>
-            <div className="text-sm font-normal mb-4">
+            <div className="text-sm font-normal mb-4 ml-6">
                 {description}
             </div>
-            <div className="text-sm text-gray-500 dark:text-gray-400 mb-4">
-                <span className={""}>[Note]</span> {infoText}
-            </div>
+            {infoText && (
+                <div className="text-sm text-gray-500 dark:text-gray-400 mb-4 ml-6">
+                    <span className={""}>[Note]</span> {infoText}
+                </div>
+            )}
         </>
     );
 }

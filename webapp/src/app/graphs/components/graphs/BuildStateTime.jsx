@@ -1,7 +1,8 @@
 import {ResponsiveBar} from "@nivo/bar";
-import {useState} from "react";
+import React, {useState} from "react";
 import {getYearRange} from "@/app/graphs/components/utility";
 import {olympicColors as oc} from "@/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const BuildStateTime = ({data}) => {
     const [buildStateSeasonFilter, setBuildStateSeasonFilter] = useState('both');
@@ -69,14 +70,11 @@ const BuildStateTime = ({data}) => {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    🏗️ Ratio of new buildings to existing facilities over time
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Stacked Bar Chart
-                    </span>
-                </h3>
-            </div>
+            <SectionGraphHeadline headline="Construction Status Over Time"
+                                  description="Analyze the construction status of Olympic venues over time. Use the filters to focus on specific seasons and construction state categories."
+                                  infoText="The construction status was determined based at the time of host selection. The unknowen status are created by our prove of concept data matching. On empty years, in the data time range, no Olympics were held."
+            >
+            </SectionGraphHeadline>
 
             {/* Season Filter for Build State Chart */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
@@ -191,12 +189,18 @@ const BuildStateTime = ({data}) => {
                             const yearData = getBuildStateData().find(d => d.year === value);
                             const totalCount = yearData ? yearData['New build'] + yearData['Existing'] + yearData['Temporary'] + yearData['Unknown'] : 0;
                             return totalCount > 0 ? value : "";
-                        }
+                        },
+                        legend: 'Year',
+                        legendPosition: 'middle',
+                        legendOffset: 40,
                     }}
                     axisLeft={{
                         tickSize: 5,
                         tickPadding: 5,
-                        tickRotation: 0
+                        tickRotation: 0,
+                        legend: 'Count',
+                        legendPosition: 'middle',
+                        legendOffset: -40,
                     }}
                     tooltip={({id, value, color, data}) => (
                         <div

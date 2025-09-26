@@ -9,7 +9,7 @@ import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistri
 import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
 import PageInfoSection from "@/app/graphs/components/templates/PageInfoSection";
 import OlympicMetric from "@/app/graphs/components/olympicMetrics/OlympicMetric";
-import SectionNavigation from "@/app/graphs/components/navigation/SectionNavigation";
+import SectionNavigation from "@/app/graphs/components/SectionNavigation";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);

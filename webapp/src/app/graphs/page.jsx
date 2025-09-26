@@ -58,7 +58,7 @@ export default function GraphsPage() {
                 }/>
 
             {/* Section Navigation */}
-            <div className="mx-4 mb-8">
+            <div className="mx-4 mb-8 pb-8 pt-4">
                 <SectionNavigation/>
             </div>
 

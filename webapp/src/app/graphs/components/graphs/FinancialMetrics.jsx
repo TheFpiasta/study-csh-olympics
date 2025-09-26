@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from "react";
 import {ResponsiveLine} from '@nivo/line';
 import {getColorFromPalet, getSeasonColor, getYearRange} from "@/app/graphs/components/utility";
-import {graphColors, olympicColors} from "@/components/utility";
+import {olympicColors} from "@/components/utility";
 import logger from '@/components/logger';
 
 export default function FinancialMetrics({data}) {
@@ -843,7 +843,6 @@ export default function FinancialMetrics({data}) {
     };
 
 
-
     // Get line color for aggregated chart based on type
     const getAggregatedLineColor = (seriesType) => {
         switch (seriesType) {
@@ -872,13 +871,13 @@ export default function FinancialMetrics({data}) {
 
     return (
         <div
-          className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+            className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
             <div className="flex items-center justify-between mb-4">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
                     📈 Financial Metrics Over Time
                     <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                            Line Chart
-                        </span>
+                        Line Chart
+                    </span>
                 </h3>
                 <div className="flex items-center gap-4 flex-wrap">
                     <div className="flex items-center gap-2">
@@ -1057,7 +1056,7 @@ export default function FinancialMetrics({data}) {
                                 }`}
                                 style={{
                                     backgroundColor: filterState && filterState.active
-                                      ? getColorFromPalet(index, visibleMetrics.length, 0.6)
+                                        ? getColorFromPalet(index, visibleMetrics.length, 0.6)
                                         : undefined
                                 }}
                             >
@@ -1101,7 +1100,7 @@ export default function FinancialMetrics({data}) {
                             baseName = serie.id.replace(' (Summer)', '').replace(' (Winter)', '');
                         }
                         const baseIndex = visibleMetrics.indexOf(baseName);
-                      return getColorFromPalet(baseIndex, visibleMetrics.length);
+                        return getColorFromPalet(baseIndex, visibleMetrics.length);
                     }}
                     yScale={{
                         type: 'linear',
@@ -1137,9 +1136,9 @@ export default function FinancialMetrics({data}) {
                             // Extract season from series ID when both seasons are shown
                             const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
                             if (seriesId.includes(' (Summer)')) {
-                              return getSeasonColor('Summer');
+                                return getSeasonColor('Summer');
                             } else if (seriesId.includes(' (Winter)')) {
-                              return getSeasonColor('Winter');
+                                return getSeasonColor('Winter');
                             }
                         } else if (seasonFilter === 'combined') {
                             // Use a specific color for combined data points
@@ -1147,9 +1146,9 @@ export default function FinancialMetrics({data}) {
                         } else {
                             // Use the selected season filter
                             const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
-                          return getSeasonColor(season);
+                            return getSeasonColor(season);
                         }
-                      return getSeasonColor('Unknown');
+                        return getSeasonColor('Unknown');
                     }}
                     pointBorderWidth={1}
                     pointBorderColor={olympicColors.extended.black6}
@@ -1297,9 +1296,9 @@ export default function FinancialMetrics({data}) {
             <div className="flex flex-col items-center mt-4 gap-4">
                 {/* Metrics Legend (Line Colors) */}
                 <div className="flex flex-col items-center gap-2">
-                        <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                            Financial Metrics
-                        </span>
+                    <span className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                        Financial Metrics
+                    </span>
                     <div className="flex flex-wrap justify-center gap-4">
                         {/* Get unique base metrics */}
                         {Array.from(new Set(financialTimeData.map(series => {
@@ -1314,7 +1313,7 @@ export default function FinancialMetrics({data}) {
                                 <div
                                     className="w-4 h-0.5"
                                     style={{
-                                      backgroundColor: getColorFromPalet(Array.from(new Set(financialTimeData.map(series => {
+                                        backgroundColor: getColorFromPalet(Array.from(new Set(financialTimeData.map(series => {
                                             let baseName = series.id;
                                             if (series.id.includes(' (Summer)') || series.id.includes(' (Winter)')) {
                                                 baseName = series.id.replace(' (Summer)', '').replace(' (Winter)', '');
@@ -1330,8 +1329,8 @@ export default function FinancialMetrics({data}) {
                                     }}
                                 ></div>
                                 <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                        {baseName}
-                                    </span>
+                                    {baseName}
+                                </span>
                             </div>
                         ))}
                     </div>
@@ -1340,10 +1339,10 @@ export default function FinancialMetrics({data}) {
                 {/* Season Legend (Point Colors) - Show when "both" or "combined" is selected */}
                 {(seasonFilter === 'both' || seasonFilter === 'combined') && (
                     <div className="flex flex-col items-center gap-2">
-                            <span
-                                className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
-                                Olympic Seasons
-                            </span>
+                        <span
+                            className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
+                            Olympic Seasons
+                        </span>
                         <div className="flex flex-wrap justify-center gap-4">
                             {seasonFilter === 'both' ? (
                                 <>
@@ -1441,9 +1440,9 @@ export default function FinancialMetrics({data}) {
                                 // Extract season from series ID when both seasons are shown
                                 const seriesId = point.point?.seriesId || point.serie?.id || point.serieId || '';
                                 if (seriesId.includes(' (Summer)')) {
-                                  return getSeasonColor('Summer');
+                                    return getSeasonColor('Summer');
                                 } else if (seriesId.includes(' (Winter)')) {
-                                  return getSeasonColor('Winter');
+                                    return getSeasonColor('Winter');
                                 }
                             } else if (seasonFilter === 'combined') {
                                 // Use a specific color for combined data points
@@ -1451,9 +1450,9 @@ export default function FinancialMetrics({data}) {
                             } else {
                                 // Use the selected season filter
                                 const season = seasonFilter === 'summer' ? 'Summer' : 'Winter';
-                              return getSeasonColor(season);
+                                return getSeasonColor(season);
                             }
-                          return getSeasonColor('Unknown');
+                            return getSeasonColor('Unknown');
                         }}
                         pointBorderWidth={1}
                         pointBorderColor={olympicColors.extended.black6}
@@ -1511,14 +1510,16 @@ export default function FinancialMetrics({data}) {
                                                 </div>
                                                 <div className="flex justify-between">
                                                     <span
-                                                        className="text-gray-600 dark:text-gray-400">Total Revenue:</span>
+                                                        className="text-gray-600 dark:text-gray-400">Total
+                                                        Revenue:</span>
                                                     <span className="text-gray-900 dark:text-gray-100 font-medium">
                                                         {point.data.absoluteTotalRevenue?.toFixed(2)}
                                                     </span>
                                                 </div>
                                                 <div className="flex justify-between">
                                                     <span
-                                                        className="text-gray-600 dark:text-gray-400">Total Profit:</span>
+                                                        className="text-gray-600 dark:text-gray-400">Total
+                                                        Profit:</span>
                                                     <span className="text-gray-900 dark:text-gray-100 font-bold">
                                                         {point.data.absoluteTotalProfit?.toFixed(2)}
                                                     </span>
@@ -1661,7 +1662,8 @@ export default function FinancialMetrics({data}) {
                             <div className="flex items-center gap-2">
                                 <div className="w-4 h-0.5" style={{backgroundColor: '#16a34a'}}></div>
                                 <span
-                                    className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total Revenue</span>
+                                    className="text-sm text-gray-700 dark:text-gray-300 font-medium">Total
+                                    Revenue</span>
                             </div>
                             <div className="flex items-center gap-2">
                                 <div className="w-4 h-0.5" style={{backgroundColor: '#2563eb'}}></div>
@@ -1705,7 +1707,8 @@ export default function FinancialMetrics({data}) {
                                             style={{backgroundColor: '#10b981'}}
                                         ></div>
                                         <span
-                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer & Winter Combined</span>
+                                            className="text-sm text-gray-700 dark:text-gray-300 font-medium">Summer &
+                                            Winter Combined</span>
                                     </div>
                                 )}
                             </div>

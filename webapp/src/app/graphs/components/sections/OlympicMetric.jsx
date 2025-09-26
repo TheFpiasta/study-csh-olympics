@@ -1,15 +1,14 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import ChartSectionPlaceholder from "../templates/ChartSectionPlaceholder";
-import FinancialMetrics from "@/app/graphs/components/costAndProfit/FinancialMetrics";
-import FinancialScatterPlot from "@/app/graphs/components/costAndProfit/FinancialScatterPlot";
+import OlympicLineChart from "@/app/graphs/components/graphs/OlympicLineChart";
+import OlympicGrowth from "@/app/graphs/components/graphs/OlympicGrowth";
 
-const CostAndProfitabilityAnalyses = ({geojsonData}) => {
+const OlympicMetric = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -45,16 +44,19 @@ const CostAndProfitabilityAnalyses = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"💰 Cost and profitability analyses"}
-                           description={"Analyzing the financial aspects of Olympic venues, including construction costs, maintenance expenses, and profitability metrics."}
+            <SectionHeader headline={"🏅 Olympic Metrics Over Time"}
+                           description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
             />
-            {/* Financial Metrics Over Time */}
-            <FinancialMetrics data={data}/>
 
-            {/* Financial Metrics Correlation ScatterPlot */}
-            <FinancialScatterPlot data={data}/>
+            <div className="mx-4 mb-8">
+                <OlympicLineChart geojsonData={geojsonData}/>
+            </div>
+
+            <div className="mx-4 mb-8">
+                <OlympicGrowth data={data}/>
+            </div>
         </div>
     );
 };
 
-export default CostAndProfitabilityAnalyses;
+export default OlympicMetric;

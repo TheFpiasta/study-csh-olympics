@@ -6,7 +6,7 @@ import {olympicColors} from "@/components/utility";
  * @returns {{min: number, max: number}|{min: string, max: string}}
  */
 export const getYearRange = (data) => {
-    if (!data?.games) return { min: 'auto', max: 'auto' };
+    if (!data?.games) return {min: 'auto', max: 'auto'};
 
     const years = data.games.map(game => game.year);
     return {

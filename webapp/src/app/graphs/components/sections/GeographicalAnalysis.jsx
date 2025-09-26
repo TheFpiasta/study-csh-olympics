@@ -5,9 +5,9 @@ import LoadingSpinner from '../../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import WorldGeographicAnalysis from "@/app/graphs/components/geographicalAnalysis/WorldGeographicAnalysis";
-import CityGeoAnalysis from "@/app/graphs/components/geographicalAnalysis/CityGeoAnalysis";
-import VenueSpread from "@/app/graphs/components/geographicalAnalysis/VenueSpread";
+import WorldGeographicAnalysis from "@/app/graphs/components/graphs/WorldGeographicAnalysis";
+import CityGeoAnalysis from "@/app/graphs/components/graphs/CityGeoAnalysis";
+import VenueSpread from "@/app/graphs/components/graphs/VenueSpread";
 
 const CapacityDistributionAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);

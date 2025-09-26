@@ -11,13 +11,18 @@ export default function MonitorPage() {
     const [error, setError] = useState(null);
     const [autoRefresh, setAutoRefresh] = useState(false);
     const [lastModified, setLastModified] = useState('');
+    const [apiKey, setApiKey] = useState('');
+    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const [authError, setAuthError] = useState('');
     const intervalRef = useRef(null);
     const contentRef = useRef(null);
 
     // Load log files on component mount
     useEffect(() => {
-        loadLogFiles();
-    }, []);
+        if (isAuthenticated) {
+            loadLogFiles();
+        }
+    }, [isAuthenticated]);
 
     // Auto-refresh functionality
     useEffect(() => {
@@ -39,13 +44,74 @@ export default function MonitorPage() {
         };
     }, [autoRefresh, selectedFile]);
 
+    const authenticate = async () => {
+        if (!apiKey.trim()) {
+            setAuthError('Please enter an API key');
+            return;
+        }
+
+        try {
+            setLoading(true);
+            setAuthError('');
+
+            const response = await fetch('/api/backend/monitor?action=list', {
+                headers: {
+                    'x-api-key': apiKey
+                }
+            });
+
+            if (response.ok) {
+                setIsAuthenticated(true);
+                setAuthError('');
+                logger.info('Successfully authenticated');
+            } else if (response.status === 401) {
+                setAuthError('Invalid API key');
+                setIsAuthenticated(false);
+            } else if (response.status === 429) {
+                setAuthError('Too many attempts. Please wait 15 minutes before trying again.');
+                setIsAuthenticated(false);
+            } else {
+                setAuthError('Authentication failed');
+                setIsAuthenticated(false);
+            }
+        } catch (err) {
+            setAuthError('Connection error');
+            setIsAuthenticated(false);
+            logger.error('Authentication error:', err);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    const logout = () => {
+        setIsAuthenticated(false);
+        setApiKey('');
+        setLogFiles([]);
+        setSelectedFile(null);
+        setFileContent('');
+        setAuthError('');
+    };
+
     const loadLogFiles = async () => {
+        if (!isAuthenticated) return;
         try {
             setLoading(true);
             setError(null);
 
-            const response = await fetch('/api/50949303db5d468983f194e839a3b33d/monitor?action=list');
+            const response = await fetch('/api/backend/monitor?action=list', {
+                headers: {
+                    'x-api-key': apiKey
+                }
+            });
             if (!response.ok) {
+                if (response.status === 401) {
+                    setIsAuthenticated(false);
+                    setAuthError('Session expired - please authenticate again');
+                    return;
+                } else if (response.status === 429) {
+                    setError('Rate limit exceeded. Please wait before making more requests.');
+                    return;
+                }
                 throw new Error(`Failed to load log files: ${response.status}`);
             }
 
@@ -62,12 +128,26 @@ export default function MonitorPage() {
     };
 
     const loadFileContent = async (filename, showLoading = true) => {
+        if (!isAuthenticated) return;
+
         try {
             if (showLoading) setLoading(true);
             setError(null);
 
-            const response = await fetch(`/api/50949303db5d468983f194e839a3b33d/monitor?action=content&file=${encodeURIComponent(filename)}`);
+            const response = await fetch(`/api/backend/monitor?action=content&file=${encodeURIComponent(filename)}`, {
+                headers: {
+                    'x-api-key': apiKey
+                }
+            });
             if (!response.ok) {
+                if (response.status === 401) {
+                    setIsAuthenticated(false);
+                    setAuthError('Session expired - please authenticate again');
+                    return;
+                } else if (response.status === 429) {
+                    setError('Rate limit exceeded. Please wait before making more requests.');
+                    return;
+                }
                 throw new Error(`Failed to load file content: ${response.status}`);
             }
 
@@ -89,9 +169,23 @@ export default function MonitorPage() {
     };
 
     const downloadFile = async (filename) => {
+        if (!isAuthenticated) return;
+
         try {
-            const response = await fetch(`/api/50949303db5d468983f194e839a3b33d/monitor?action=download&file=${encodeURIComponent(filename)}`);
+            const response = await fetch(`/api/backend/monitor?action=download&file=${encodeURIComponent(filename)}`, {
+                headers: {
+                    'x-api-key': apiKey
+                }
+            });
             if (!response.ok) {
+                if (response.status === 401) {
+                    setIsAuthenticated(false);
+                    setAuthError('Session expired - please authenticate again');
+                    return;
+                } else if (response.status === 429) {
+                    setError('Rate limit exceeded. Please wait before making more requests.');
+                    return;
+                }
                 throw new Error(`Failed to download file: ${response.status}`);
             }
 
@@ -161,6 +255,57 @@ export default function MonitorPage() {
         return sanitized;
     };
 
+    // Show authentication form if not authenticated
+    if (!isAuthenticated) {
+        return (
+            <div className="min-h-screen bg-gray-50 dark:bg-slate-900 p-4 pb-8 flex items-center justify-center">
+                <div className="max-w-md w-full">
+                    <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-8">
+                        <div className="text-center mb-6">
+                            <h1 className="text-2xl font-bold text-gray-900 dark:text-gray-100 mb-2">
+                                🔒 System Monitor Access
+                            </h1>
+                            <p className="text-gray-600 dark:text-gray-400">
+                                Please enter your API key to access the monitor
+                            </p>
+                        </div>
+
+                        {authError && (
+                            <div
+                                className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 mb-4">
+                                <p className="text-red-800 dark:text-red-300 text-sm">{authError}</p>
+                            </div>
+                        )}
+
+                        <div className="space-y-4">
+                            <div>
+                                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+                                    API Key
+                                </label>
+                                <input
+                                    type="password"
+                                    value={apiKey}
+                                    onChange={(e) => setApiKey(e.target.value)}
+                                    onKeyPress={(e) => e.key === 'Enter' && authenticate()}
+                                    placeholder="Enter your API key..."
+                                    className="w-full px-3 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white dark:bg-gray-700 text-gray-900 dark:text-gray-100"
+                                    disabled={loading}
+                                />
+                            </div>
+                            <button
+                                onClick={authenticate}
+                                disabled={loading || !apiKey.trim()}
+                                className="w-full px-4 py-2 bg-blue-600 hover:bg-blue-700 disabled:bg-gray-400 text-white rounded-lg transition-colors"
+                            >
+                                {loading ? '🔄 Authenticating...' : '🔓 Access Monitor'}
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div className="min-h-screen bg-gray-50 dark:bg-slate-900 p-4 pb-8">
             <div className="max-w-7xl mx-auto">
@@ -175,20 +320,39 @@ export default function MonitorPage() {
                                 Log file management and monitoring
                             </p>
                         </div>
-                        <button
-                            onClick={loadLogFiles}
-                            className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
-                            disabled={loading}
-                        >
-                            {loading ? '↻ Loading...' : '↻ Refresh'}
-                        </button>
+                        <div className="flex items-center gap-3">
+                            <div className="text-sm text-green-600 dark:text-green-400">
+                                ✅ Authenticated
+                            </div>
+                            <button
+                                onClick={logout}
+                                className="px-3 py-1 bg-red-600 hover:bg-red-700 text-white rounded text-sm transition-colors"
+                            >
+                                Logout
+                            </button>
+                            <button
+                                onClick={loadLogFiles}
+                                className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+                                disabled={loading}
+                            >
+                                {loading ? '↻ Loading...' : '↻ Refresh'}
+                            </button>
+                        </div>
                     </div>
                 </div>
 
-                {error && (
+                {(error || authError) && (
                     <div
                         className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-4 mb-6">
-                        <p className="text-red-800 dark:text-red-300">Error: {error}</p>
+                        <p className="text-red-800 dark:text-red-300">Error: {error || authError}</p>
+                        {authError && (
+                            <button
+                                onClick={logout}
+                                className="mt-2 px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white rounded text-sm"
+                            >
+                                Re-authenticate
+                            </button>
+                        )}
                     </div>
                 )}
 

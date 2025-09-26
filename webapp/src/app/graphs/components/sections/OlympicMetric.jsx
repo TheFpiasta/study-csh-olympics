@@ -5,10 +5,10 @@ import LoadingSpinner from '../../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
-import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
+import OlympicLineChart from "@/app/graphs/components/graphs/OlympicLineChart";
+import OlympicGrowth from "@/app/graphs/components/graphs/OlympicGrowth";
 
-const CapacityDistributionAnalysis = ({geojsonData}) => {
+const OlympicMetric = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -44,22 +44,19 @@ const CapacityDistributionAnalysis = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader
-                headline="Venue Capacity Distribution"
-                description="Boxplot showing seating capacity distribution of Olympic venues per game."
+            <SectionHeader headline={"🏅 Olympic Metrics Over Time"}
+                           description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
             />
 
-            {/* Capacity Box Plot Dashboard */}
             <div className="mx-4 mb-8">
-                <CapacityBoxPlot geojsonData={geojsonData}/>
+                <OlympicLineChart geojsonData={geojsonData}/>
             </div>
 
-            {/* Long Term Sankey Plot Dashboard*/}
             <div className="mx-4 mb-8">
-                <LongTermSankeyPlot geojsonData={geojsonData}/>
+                <OlympicGrowth data={data}/>
             </div>
         </div>
     );
 };
 
-export default CapacityDistributionAnalysis;
+export default OlympicMetric;

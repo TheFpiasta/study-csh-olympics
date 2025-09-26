@@ -2,13 +2,15 @@
 
 import React, {useEffect, useState} from 'react';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
+import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
-import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import OlympicLineChart from "@/app/graphs/components/olympicMetrics/OlympicLineChart";
-import OlympicGrowth from "@/app/graphs/components/olympicMetrics/OlympicGrowth";
+import NumberVenues from "@/app/graphs/components/graphs/NumberVenues";
+import BuildStateTime from "@/app/graphs/components/graphs/BuildStateTime";
+import LongTermSankeyPlot from "@/app/graphs/components/graphs/LongTermSankeyPlot";
+import CapacityBoxPlot from "@/app/graphs/components/graphs/CapacityBoxPlot";
 
-const OlympicMetric = ({geojsonData}) => {
+const VenueUsage = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -19,7 +21,6 @@ const OlympicMetric = ({geojsonData}) => {
         setLoading(false);
         setData(geojsonData.data);
         setError(geojsonData.error);
-
     }, [geojsonData]);
 
     if (loading) {
@@ -44,19 +45,15 @@ const OlympicMetric = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"Olympic Metrics Over Time"}
-                           description={"Explore the trends in the number of athletes, events, and countries participating in the Olympics over the years. Use the controls below to filter by Olympic season and data type."}
+            <SectionHeader headline={"📈 Venue Usage"}
+                           description={"Analysis of Olympic venue development patterns over time, infrastructure evolution, and historical trends"}
             />
 
-            <div className="mx-4 mb-8">
-                <OlympicLineChart geojsonData={geojsonData}/>
-            </div>
+            <NumberVenues data={data}/>
 
-            <div className="mx-4 mb-8">
-                <OlympicGrowth data={data}/>
-            </div>
+            <CapacityBoxPlot data={data}/>
         </div>
     );
 };
 
-export default OlympicMetric;
+export default VenueUsage;

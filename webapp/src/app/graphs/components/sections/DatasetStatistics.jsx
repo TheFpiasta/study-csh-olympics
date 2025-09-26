@@ -7,7 +7,7 @@ import logger from '@/components/logger';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import {getSeasonColor} from "@/app/graphs/components/utility";
 
-const TemporalAnalysis = ({geojsonData}) => {
+const DatasetStatistics = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -233,7 +233,7 @@ const TemporalAnalysis = ({geojsonData}) => {
 
     return (
         <div className="space-y-8">
-            <SectionHeader headline={"Dataset Statistics"}
+            <SectionHeader headline={"📊 Dataset Statistics"}
                            description={"Exploring the evolution, usage patterns, and lifecycle of Olympic venues through data visualizations."}
             />
 
@@ -584,4 +584,4 @@ const TemporalAnalysis = ({geojsonData}) => {
     );
 };
 
-export default TemporalAnalysis;
+export default DatasetStatistics;

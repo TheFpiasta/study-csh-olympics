@@ -1,15 +1,16 @@
 'use client';
 
-import TemporalAnalysis from "@/app/graphs/components/datasetStats/TemporalAnalysis";
-import TemporalDevelopmentAnalyses from "@/app/graphs/components/temporalDevelopmnent/TemporalDevelopmentAnalyses";
-import {useEffect, useState} from "react";
-import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
+import DatasetStatistics from "@/app/graphs/components/sections/DatasetStatistics";
+import VenueUsage from "@/app/graphs/components/sections/VenueUsage";
+import React, {useEffect, useState} from "react";
+import CostAndProfitabilityAnalyses from "@/app/graphs/components/sections/CostAndProfitabilityAnalyses";
 import logger from "@/components/logger";
-import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistribution/CapacityDistributionAnalysis";
-import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
+import VenueBuilding from "@/app/graphs/components/sections/VenueBuilding";
+import GeographicalAnalysis from "@/app/graphs/components/sections/GeographicalAnalysis";
 import PageInfoSection from "@/app/graphs/components/templates/PageInfoSection";
-import OlympicMetric from "@/app/graphs/components/olympicMetrics/OlympicMetric";
+import OlympicMetric from "@/app/graphs/components/sections/OlympicMetric";
 import SectionNavigation from "@/app/graphs/components/SectionNavigation";
+import LongTermSankeyPlot from "@/app/graphs/components/graphs/LongTermSankeyPlot";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -63,7 +64,7 @@ export default function GraphsPage() {
 
             {/* Temporal Analysis Dashboard */}
             <div id="dataset-statistics" className="mx-4 mb-8">
-                <TemporalAnalysis geojsonData={geojsonData}/>
+                <DatasetStatistics geojsonData={geojsonData}/>
             </div>
 
             <div id="olympic-metrics" className="mx-4 mb-8">
@@ -74,13 +75,13 @@ export default function GraphsPage() {
                 <GeographicalAnalysis geojsonData={geojsonData}/>
             </div>
 
-            <div id="capacity-distribution" className="mx-4 mb-8">
-                <CapacityDistributionAnalysis geojsonData={geojsonData}/>
+            <div id="venue-building" className="mx-4 mb-8">
+                <VenueBuilding geojsonData={geojsonData}/>
             </div>
 
             {/* Temporal Development Analyses */}
-            <div id="temporal-development" className="mx-4 mb-8">
-                <TemporalDevelopmentAnalyses geojsonData={geojsonData}/>
+            <div id="venue-usage" className="mx-4 mb-8">
+                <VenueUsage geojsonData={geojsonData}/>
             </div>
 
             <div id="cost-profitability" className="mx-4 mb-8">

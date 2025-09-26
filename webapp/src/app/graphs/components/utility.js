@@ -63,37 +63,43 @@ export const graphTheme = {
             strokeWidth: 1
         }
     },
-    tooltip: {
-        container: {
-            background: '#ffffff',
-            color: '#374151',
-            fontSize: '12px',
-            borderRadius: '8px',
-            boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-            border: '1px solid #e5e7eb',
-            padding: '8px 12px'
-        }
+    text: {
+        fill: '#374151',
+        fontSize: 11
     },
     axis: {
         ticks: {
+            line: {
+                stroke: '#374151',
+            },
             text: {
                 fontSize: 11,
                 fill: '#d1d5db',
-                fontWeight: 600
             }
         },
         legend: {
             text: {
                 fontSize: 12,
                 fill: '#d1d5db',
-                fontWeight: 600
             }
-        }
+        },
+        domain: {
+            line: {
+                stroke: '#374151',
+                strokeWidth: 2
+            }
+        },
     },
     legends: {
         text: {
             fill: '#d1d5db',
-            fontSize: 11
+            fontSize: 11,
+        }
+    },
+    labels: {
+        text: {
+            fontSize: 11,
+            fill: '#f3f4f6',
         }
     }
 };

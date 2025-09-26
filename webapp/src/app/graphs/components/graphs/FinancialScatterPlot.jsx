@@ -2,6 +2,7 @@ import {useEffect, useRef, useState} from "react";
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {getSeasonColor} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 export default function FinancialScatterPlot({data}) {
     const [scatterData, setScatterData] = useState([]);
@@ -76,12 +77,18 @@ export default function FinancialScatterPlot({data}) {
                         unit: datum.unit
                     };
                 })
-                .filter(metric =>
-                    // Include numeric and currency metrics
-                    ['currency', 'number', 'integer'].includes(metric.format) ||
+                .filter(metric => {
+                    // For currency metrics, only include USD 2018 values
+                    if (metric.format === 'currency') {
+                        return metric.key.includes('2018') || metric.key.includes('usd2018');
+                    }
+                    // Include other numeric metrics
+                    if (['number', 'integer'].includes(metric.format)) {
+                        return true;
+                    }
                     // Include specific known metrics even without explicit format
-                    ['number_of_athletes', 'number_of_events', 'number_of_countries', 'accredited_media'].includes(metric.key)
-                );
+                    return ['number_of_athletes', 'number_of_events', 'number_of_countries', 'accredited_media'].includes(metric.key);
+                });
 
             setAvailableMetrics(metrics);
 
@@ -200,6 +207,12 @@ export default function FinancialScatterPlot({data}) {
                     </span>
                 </h3>
             </div>
+
+            <SectionGraphHeadline headline="Financial Metrics Correlation"
+                                  description="Explore relationships between different financial and event metrics of the Olympic Games"
+                                  infoText="All currency related values are showed in million USD (2018) from the dataset for better comparability."
+            >
+            </SectionGraphHeadline>
 
             {/* Layout with filters on left and chart on right */}
             <div className="flex gap-6">

@@ -147,7 +147,7 @@ const CapacityBoxPlot = ({data}) => {
                 <div
                     className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                     <SectionGraphHeadline headline="Capacity Distribution"
-                                          description="Visualizes the distribution of seating capacities across Olympic venues for each game, grouped by year, location, and season. Each box represents the interquartile range (IQR) of venue capacities, with the median marked inside. Use the filters to adjust the year range, season, and data quality threshold."
+                                          description="Visualizes the distribution of seating capacities across Olympic venues for each game, grouped by year, location, and season. Each box represents the interquartile range (IQR) of venue capacities, with the median marked inside."
                                           infoText=""
                     >
                     </SectionGraphHeadline>

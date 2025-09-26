@@ -47,7 +47,7 @@ const CapacityDistributionAnalysis = ({geojsonData}) => {
     return (
         <div className="space-y-8">
             <SectionHeader headline={"🌍 Geographic Analysis"}
-                           description={"Analyze Olympic venue distribution across continents and countries."}
+                           description={"Comprehensive geographic analysis of Olympic venues including global distribution patterns, venue clustering within host cities, and location proximity to urban centers."}
             />
 
             {/* Geographic Analysis Dashboard */}

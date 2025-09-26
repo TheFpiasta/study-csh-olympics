@@ -10,12 +10,16 @@ export default function PageInfoSection({headline, subline, href, linkText, icon
                     <div className="flex items-center gap-4">
                         <OlympicRings size="w-12 h-12"/>
                         <div>
-                            <h1 className="text-2xl font-bold text-gray-900 md:text-3xl lg:text-4xl dark:text-gray-200">
-                                {headline}
-                            </h1>
-                            <p className="mt-2 text-sm text-gray-700 dark:text-gray-400 md:text-base">
-                                {subline}
-                            </p>
+                            {headline && (
+                                <h1 className="text-2xl font-bold text-gray-900 md:text-3xl lg:text-4xl dark:text-gray-200">
+                                    {headline}
+                                </h1>
+                            )}
+                            {subline && (
+                                <p className="mt-2 text-sm text-gray-700 dark:text-gray-400 md:text-base">
+                                    {subline}
+                                </p>
+                            )}
                         </div>
                     </div>
 

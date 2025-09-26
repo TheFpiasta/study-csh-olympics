@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState, useEffect, useRef} from 'react';
+import React, {useEffect, useRef, useState} from 'react';
 import logger from '@/components/logger';
 
 export default function MonitorPage() {

@@ -1,6 +1,6 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import {ResponsiveBar} from '@nivo/bar';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
@@ -9,7 +9,6 @@ import {olympicColors as oc} from "@/components/utility";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
-import logger from '@/components/logger';
 
 const TemporalDevelopmentAnalyses = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -401,13 +400,13 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
 
             {/* Number of venues per Olympic Games */}
             <div
-              className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+                className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                 <div className="flex items-center justify-between mb-4">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
                         📊 Number of venues per Olympic Games
                         <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                          Scatter Plot
-                      </span>
+                            Scatter Plot
+                        </span>
                     </h3>
                     <div className="flex items-center gap-2">
                         <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
@@ -516,7 +515,8 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                                     {viewMode === 'season' ? (
                                         <>
                                             <div className="flex justify-between">
-                                                <span className="font-medium text-gray-700 dark:text-gray-300">Total Venues:</span>
+                                                <span className="font-medium text-gray-700 dark:text-gray-300">Total
+                                                    Venues:</span>
                                                 <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
                                             </div>
                                             <div className="flex justify-between">
@@ -538,7 +538,8 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                                     ) : (
                                         <>
                                             <div className="flex justify-between">
-                                                <span className="font-medium text-gray-700 dark:text-gray-300">Venue Type:</span>
+                                                <span className="font-medium text-gray-700 dark:text-gray-300">Venue
+                                                    Type:</span>
                                                 <span
                                                     className="text-gray-900 dark:text-gray-100">{node.data.venueType}</span>
                                             </div>
@@ -548,7 +549,8 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                                                 <span className="text-gray-900 dark:text-gray-100">{node.data.y}</span>
                                             </div>
                                             <div className="flex justify-between">
-                                                <span className="font-medium text-gray-700 dark:text-gray-300">Total Sports:</span>
+                                                <span className="font-medium text-gray-700 dark:text-gray-300">Total
+                                                    Sports:</span>
                                                 <span
                                                     className="text-gray-900 dark:text-gray-100">{node.data.sportsCount}</span>
                                             </div>
@@ -606,8 +608,8 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                                 style={{backgroundColor: getScatterColors()[index]}}
                             ></div>
                             <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                              {series.id}
-                          </span>
+                                {series.id}
+                            </span>
                         </div>
                     ))}
                 </div>
@@ -615,13 +617,13 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
 
             {/* Build State Analysis */}
             <div
-              className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+                className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                 <div className="flex items-center justify-between mb-4">
                     <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
                         🏗️ Ratio of new buildings to existing facilities over time
                         <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                          Stacked Bar Chart
-                      </span>
+                            Stacked Bar Chart
+                        </span>
                     </h3>
                 </div>
 
@@ -819,8 +821,8 @@ const TemporalDevelopmentAnalyses = ({geojsonData}) => {
                                     style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][originalIndex]}}
                                 ></div>
                                 <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
-                                  {classification}
-                              </span>
+                                    {classification}
+                                </span>
                             </div>
                         );
                     })}

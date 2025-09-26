@@ -1,17 +1,10 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import ChartSectionPlaceholder from "../templates/ChartSectionPlaceholder";
-import FinancialMetrics from "@/app/graphs/components/costAndProfit/FinancialMetrics";
-import FinancialScatterPlot from "@/app/graphs/components/costAndProfit/FinancialScatterPlot";
-import TemporalDevelopmentAnalyses from "@/app/graphs/components/temporalDevelopmnent/TemporalDevelopmentAnalyses";
-import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
-import LongTermSankeyPlot from "@/app/graphs/components/capacityDistribution/LongTermSankeyPlot";
-import CapacityBoxPlot from "@/app/graphs/components/capacityDistribution/CapacityBoxPlot";
 import WorldGeographicAnalysis from "@/app/graphs/components/geographicalAnalysis/WorldGeographicAnalysis";
 import CityGeoAnalysis from "@/app/graphs/components/geographicalAnalysis/CityGeoAnalysis";
 import VenueSpread from "@/app/graphs/components/geographicalAnalysis/VenueSpread";
@@ -61,12 +54,12 @@ const CapacityDistributionAnalysis = ({geojsonData}) => {
                 <WorldGeographicAnalysis geojsonData={geojsonData}/>
             </div>
 
-          {/* Venue Spread and City Analysis - Side by Side */}
-          <div className="mx-4 mb-8 grid lg:grid-cols-[2fr_1fr] gap-8">
-            {/* Venue Spread Chart */}
-            <VenueSpread geojsonData={geojsonData}/>
+            {/* Venue Spread and City Analysis - Side by Side */}
+            <div className="mx-4 mb-8 grid lg:grid-cols-[2fr_1fr] gap-8">
+                {/* Venue Spread Chart */}
+                <VenueSpread geojsonData={geojsonData}/>
 
-            {/* Venue Pie Chart Dashboard */}
+                {/* Venue Pie Chart Dashboard */}
                 <CityGeoAnalysis geojsonData={geojsonData}/>
             </div>
         </div>

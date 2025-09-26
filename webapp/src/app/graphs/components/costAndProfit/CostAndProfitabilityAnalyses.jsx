@@ -1,11 +1,10 @@
 'use client';
 
-import React, {useState, useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import ShowError from "@/app/graphs/components/templates/ShowError";
 import ShowNoData from "@/app/graphs/components/templates/ShowNoData";
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import ChartSectionPlaceholder from "../templates/ChartSectionPlaceholder";
 import FinancialMetrics from "@/app/graphs/components/costAndProfit/FinancialMetrics";
 import FinancialScatterPlot from "@/app/graphs/components/costAndProfit/FinancialScatterPlot";
 

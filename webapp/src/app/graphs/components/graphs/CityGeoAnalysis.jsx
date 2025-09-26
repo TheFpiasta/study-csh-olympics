@@ -4,9 +4,10 @@ import React, {useEffect, useState} from 'react';
 import {ResponsiveSunburst} from '@nivo/sunburst';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
+import {olympicColors} from "@/components/utility";
 
 const LegendItem = ({category, selectedOlympics}) => {
-    const [isExpanded, setIsExpanded] = useState(false);
+    const [isExpanded, setIsExpanded] = useState(true);
 
     const totalPlaces = category.children ? category.children.length : 0;
     const totalVenues = category.children ? category.children.reduce((sum, place) => sum + place.value, 0) : 0;
@@ -388,7 +389,7 @@ const CityGeoAnalysis = ({geojsonData}) => {
                     {/* Legend Section */}
                     <div className="lg:col-span-1">
                         <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4">
-                            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Legend</h3>
+                            {/*<h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4">Legend</h3>*/}
                             {distributionData.map((locationCategory) => (
                                 <LegendItem
                                     key={locationCategory.id}

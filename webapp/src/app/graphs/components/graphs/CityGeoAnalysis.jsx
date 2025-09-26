@@ -88,11 +88,14 @@ const generateChildColors = (parentColor, childCount) => {
     if (!rgb) return [parentColor];
 
     const colors = [];
-    const baseOpacity = 0.8; // Fixed opacity
+    const baseOpacity = 0.6; // Fixed opacity
+    const lightnessFrom = 0.8; // Light end of gradient
+    const lightnessTo = 0.0; // Dark end of gradient
+    const singleChildDefault = 0.6; // Default lightness for single child
 
     for (let i = 0; i < childCount; i++) {
-        // Create gradient from light (0.9) to dark (0.3)
-        const lightnessFactor = childCount === 1 ? 0.6 : 0.9 - (i / (childCount - 1)) * 0.6; // 0.9 to 0.3 range
+        // Create gradient from light to dark
+        const lightnessFactor = childCount === 1 ? singleChildDefault : lightnessFrom - (i / (childCount - 1)) * (lightnessFrom - lightnessTo);
 
         // Apply lightness factor to make gradient from light to dark
         const adjustedR = Math.round(rgb.r + (255 - rgb.r) * (lightnessFactor - 0.5) * 2);
@@ -190,7 +193,6 @@ const CityGeoAnalysis = ({geojsonData}) => {
             const placeEntries = Object.entries(places);
             const childColors = generateChildColors(baseColor, placeEntries.length);
 
-
             // Create children for each place with gradient colors from light to dark
             placeEntries.forEach(([placeName, count], index) => {
                 children.push({
@@ -198,7 +200,6 @@ const CityGeoAnalysis = ({geojsonData}) => {
                     name: placeName,
                     value: count,
                     color: childColors[index],
-                    fill: childColors[index], // Try using fill property
                     placeName: placeName,
                     locationCategory: locationCategory
                 });
@@ -209,7 +210,6 @@ const CityGeoAnalysis = ({geojsonData}) => {
                 id: locationCategory,
                 name: locationCategory,
                 color: baseColor,
-                fill: baseColor, // Try using fill property for parent too
                 children: children
             });
 
@@ -245,9 +245,6 @@ const CityGeoAnalysis = ({geojsonData}) => {
 
     return (
         <div className="space-y-6">
-
-            {/* Dropdown to select Olympics */}
-
             <div
                 className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                 <SectionGraphHeadline headline="Venues Locations Inside The Event"
@@ -282,13 +279,13 @@ const CityGeoAnalysis = ({geojsonData}) => {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Chart Section */}
                     <div className="lg:col-span-1">
-                        <div className="h-80 chart-container">
-                    <style jsx>{`
-                        .chart-container :global(text) {
-                            fill: #d1d5db !important;
-                            font-weight: 600 !important;
-                        }
-                    `}</style>
+                        <div className="h-96 chart-container">
+                            <style jsx>{`
+                                .chart-container :global(text) {
+                                    fill: #d1d5db !important;
+                                    font-weight: 600 !important;
+                                }
+                            `}</style>
                             <ResponsiveSunburst
                                 data={{
                                     id: 'root',
@@ -296,18 +293,14 @@ const CityGeoAnalysis = ({geojsonData}) => {
                                     children: distributionData
                                 }}
                                 margin={{top: 1, right: 1, bottom: 1, left: 1}}
-                        cornerRadius={3}
-                        borderWidth={1}
-                        borderColor={{from: 'color', modifiers: [['darker', 0.2]]}}
+                                cornerRadius={3}
+                                borderWidth={1}
+                                borderColor={{from: 'color', modifiers: [['darker', 0.2]]}}
                                 inheritColorFromParent={false}
-                                colors={(node) => {
-                                    // Use the fill property if available, otherwise use color
-                                    console.log('Node data:', node.data);
-                                    return node.data.fill || node.data.color || '#3b82f6';
-                                }}
+                                colors={(node) => node.data.color}
                                 enableArcLabels={true}
-                                arcLabelsSkipAngle={0}
-                        arcLabelsTextColor="#f3f4f6"
+                                arcLabelsSkipAngle={10}
+                                arcLabelsTextColor="#f3f4f6"
                                 arcLabel={(d) => `${d.value}`}
                                 animate={true}
                                 motionConfig="gentle"
@@ -382,13 +375,13 @@ const CityGeoAnalysis = ({geojsonData}) => {
                                         </div>
                                     );
                                 }}
-                        theme={{
-                            background: 'transparent',
-                            labels: {
-                                text: {fontSize: 11, fill: '#d1d5db', fontWeight: 600}
-                            }
-                        }}
-                    />
+                                theme={{
+                                    background: 'transparent',
+                                    labels: {
+                                        text: {fontSize: 11, fill: '#d1d5db', fontWeight: 600}
+                                    }
+                                }}
+                            />
                         </div>
                     </div>
 

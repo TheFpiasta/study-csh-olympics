@@ -199,18 +199,9 @@ export default function FinancialScatterPlot({data}) {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    📊 Financial Metrics Correlation
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Scatter Plot
-                    </span>
-                </h3>
-            </div>
-
-            <SectionGraphHeadline headline="Financial Metrics Correlation"
-                                  description="Explore relationships between different financial and event metrics of the Olympic Games"
-                                  infoText="All currency related values are showed in million USD (2018) from the dataset for better comparability."
+            <SectionGraphHeadline headline="Financial & Event Metrics"
+                                  description="Compare financial costs, revenues, and event statistics across Summer and Winter Olympics"
+                                  infoText="Currency values are converted to millions USD (2018). Data points can be filtered by season and custom X/Y axis combinations allow exploration of correlations between different Olympic metrics."
             >
             </SectionGraphHeadline>
 
@@ -351,10 +342,10 @@ export default function FinancialScatterPlot({data}) {
                                     `}</style>
                                     <ResponsiveScatterPlot
                                         data={scatterData}
-                                        margin={{top: 20, right: 30, bottom: 60, left: 80}}
+                                        margin={{top: 30, right: 20, bottom: 60, left: 70}}
                                         xScale={{type: 'linear', min: 'auto', max: 'auto'}}
                                         yScale={{type: 'linear', min: 'auto', max: 'auto'}}
-                                        nodeSize={isMinimized ? 6 : 6}
+                                        nodeSize={isMinimized ? 4 : 6}
                                         colors={({serieId}) => {
                                             if (serieId && serieId.includes('Summer')) return getSeasonColor('Summer');
                                             if (serieId && serieId.includes('Winter')) return getSeasonColor('Winter');
@@ -453,7 +444,7 @@ export default function FinancialScatterPlot({data}) {
 
                             {/* Custom Legend - Only show when "both" is selected */}
                             {seasonFilter === 'both' && (
-                                <div className="flex flex-col items-center mt-4 gap-2 ml-11">
+                                <div className="flex flex-col items-center mt-4 gap-2 ml-12">
                                     <span
                                         className="text-xs text-gray-500 dark:text-gray-400 font-medium uppercase tracking-wide">
                                         Olympic Seasons

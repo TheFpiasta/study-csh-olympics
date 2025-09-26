@@ -99,7 +99,7 @@ export const graphTheme = {
     labels: {
         text: {
             fontSize: 11,
-            fill: '#f3f4f6',
+            fill: '#d1d5db',
         }
     }
 };

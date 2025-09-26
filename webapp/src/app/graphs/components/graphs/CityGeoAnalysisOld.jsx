@@ -4,6 +4,7 @@ import React, {useEffect, useState} from 'react';
 import {ResponsivePie} from '@nivo/pie';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const CityGeoAnalysisOld = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -199,12 +200,7 @@ const CityGeoAnalysisOld = ({geojsonData}) => {
                                 </div>
                             </div>
                         )}
-                        theme={{
-                            background: 'transparent',
-                            legends: {
-                                text: {fontSize: 11, fill: '#d1d5db', fontWeight: 600}
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
             </div>

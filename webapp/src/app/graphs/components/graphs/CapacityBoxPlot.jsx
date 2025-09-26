@@ -4,6 +4,7 @@ import React, {useEffect, useMemo, useState} from 'react';
 import {ResponsiveBoxPlot} from '@nivo/boxplot';
 import logger from "@/components/logger";
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const CapacityBoxPlot = ({data}) => {
     const [yearSliderRange, setYearSliderRange] = useState({min: 1896, max: 2024});
@@ -323,27 +324,7 @@ const CapacityBoxPlot = ({data}) => {
                                 axisLeft={{
                                     legend: 'Seating Capacity', legendPosition: 'middle', legendOffset: -60,
                                 }}
-                                theme={{
-                                    axis: {
-                                        legend: {
-                                            text: {
-                                                fontSize: 12,
-                                                fill: '#d1d5db',
-                                                fontWeight: 600
-                                            }
-                                        },
-                                        ticks: {text: {fill: '#fff', fontSize: 11}, line: {stroke: '#444'}},
-                                    },
-                                    grid: {
-                                        line: {
-                                            stroke: '#374151',
-                                            strokeWidth: 1
-                                        }
-                                    },
-                                    tooltip: {
-                                        container: {background: '#0f1724', color: '#fff'},
-                                    },
-                                }}
+                                theme={graphTheme}
                                 tooltip={({group, data, outliers}) => {
                                     // Parse the group to extract year, location, and season
                                     const groupParts = group.split(' – ');

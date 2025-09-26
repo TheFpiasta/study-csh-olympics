@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorFromPalet} from '../utility';
+import {getColorFromPalet, graphTheme} from '../utility';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const VenueSpread = ({geojsonData}) => {
@@ -272,31 +272,7 @@ const VenueSpread = ({geojsonData}) => {
                                 </div>
                             </div>
                         )}
-                        theme={{
-                            background: 'transparent',
-                            grid: {
-                                line: {
-                                    stroke: '#374151',
-                                    strokeWidth: 1
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
 

@@ -1,6 +1,6 @@
 import {ResponsiveLine} from "@nivo/line";
 import {useState} from "react";
-import {getColorFromPalet, getSeasonColor} from "@/app/graphs/components/utility";
+import {getColorFromPalet, getSeasonColor, graphTheme} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
@@ -319,49 +319,7 @@ export default function OlympicGrowth({data}) {
                             </div>
                         </div>
                     )}
-                    theme={{
-                        background: 'transparent',
-                        grid: {
-                            line: {
-                                stroke: '#374151',
-                                strokeWidth: 1
-                            }
-                        },
-                        tooltip: {
-                            container: {
-                                background: '#ffffff',
-                                color: '#374151',
-                                fontSize: '12px',
-                                borderRadius: '8px',
-                                boxShadow: '0 10px 15px -3px rgba(0, 0, 0, 0.1)',
-                                border: '1px solid #e5e7eb',
-                                padding: '8px 12px'
-                            }
-                        },
-                        axis: {
-                            ticks: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            },
-                            legend: {
-                                text: {
-                                    fontSize: 12,
-                                    fill: '#d1d5db',
-                                    fontWeight: 600
-                                }
-                            }
-                        },
-                        legends: {
-                            text: {
-                                fontSize: 11,
-                                fill: '#d1d5db',
-                                fontWeight: 600
-                            }
-                        }
-                    }}
+                    theme={graphTheme}
                 />
             </div>
 

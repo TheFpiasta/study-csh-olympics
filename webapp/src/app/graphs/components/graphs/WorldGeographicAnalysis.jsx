@@ -5,6 +5,7 @@ import {ResponsivePie} from '@nivo/pie';
 import {ResponsiveBar} from '@nivo/bar';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const WorldGeographicAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -273,16 +274,7 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                                         </div>
                                     </div>
                                 )}
-                                theme={{
-                                    background: 'transparent',
-                                    legends: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    }
-                                }}
+                                theme={graphTheme}
                             />
                         </div>
                     </div>
@@ -357,32 +349,7 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                                         </div>
                                     </div>
                                 )}
-                                theme={{
-                                    background: 'transparent',
-                                    grid: {
-                                        line: {
-                                            stroke: '#374151',
-                                            strokeWidth: 1
-                                        }
-                                    },
-                                    axis: {
-                                        ticks: {
-                                            text: {
-                                                fontSize: 11,
-                                                fill: '#d1d5db',
-                                                fontWeight: 600
-                                            }
-                                        }
-                                    },
-                                    labels: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#f3f4f6',
-                                            fontWeight: 600,
-                                            textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                        }
-                                    }
-                                }}
+                                theme={graphTheme}
                             />
                         </div>
                     </div>

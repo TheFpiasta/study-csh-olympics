@@ -5,6 +5,7 @@ import {ResponsiveSunburst} from '@nivo/sunburst';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 import {olympicColors} from "@/components/utility";
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const LegendItem = ({category, selectedOlympics}) => {
     const [isExpanded, setIsExpanded] = useState(true);
@@ -376,12 +377,7 @@ const CityGeoAnalysis = ({geojsonData}) => {
                                         </div>
                                     );
                                 }}
-                                theme={{
-                                    background: 'transparent',
-                                    labels: {
-                                        text: {fontSize: 11, fill: '#d1d5db', fontWeight: 600}
-                                    }
-                                }}
+                                theme={graphTheme}
                             />
                         </div>
                     </div>

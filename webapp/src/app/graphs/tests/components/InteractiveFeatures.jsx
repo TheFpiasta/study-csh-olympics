@@ -6,6 +6,7 @@ import {ResponsiveNetwork} from '@nivo/network';
 import {ResponsiveSankey} from '@nivo/sankey';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
+import {graphTheme} from "@/app/graphs/components/utility";
 
 const InteractiveFeatures = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -740,51 +741,7 @@ const InteractiveFeatures = ({geojsonData}) => {
                                     ]
                                 }
                             ]}
-                            theme={{
-                                background: 'transparent',
-                                text: {
-                                    fill: '#374151',
-                                    fontSize: 11
-                                },
-                                axis: {
-                                    domain: {
-                                        line: {
-                                            stroke: '#6B7280',
-                                            strokeWidth: 1
-                                        }
-                                    },
-                                    legend: {
-                                        text: {
-                                            fill: '#374151',
-                                            fontSize: 12,
-                                            fontWeight: 600
-                                        }
-                                    },
-                                    ticks: {
-                                        line: {
-                                            stroke: '#6B7280',
-                                            strokeWidth: 1
-                                        },
-                                        text: {
-                                            fill: '#6B7280',
-                                            fontSize: 10
-                                        }
-                                    }
-                                },
-                                grid: {
-                                    line: {
-                                        stroke: '#E5E7EB',
-                                        strokeWidth: 1,
-                                        strokeOpacity: 0.5
-                                    }
-                                },
-                                legends: {
-                                    text: {
-                                        fill: '#374151',
-                                        fontSize: 10
-                                    }
-                                }
-                            }}
+                            theme={graphTheme}
                         />
                     ) : (
                         <div className="flex items-center justify-center h-full">
@@ -860,22 +817,7 @@ const InteractiveFeatures = ({geojsonData}) => {
                                         )}
                                     </div>
                                 )}
-                                theme={{
-                                    background: 'transparent',
-                                    text: {
-                                        fill: '#374151',
-                                        fontSize: 10
-                                    },
-                                    tooltip: {
-                                        container: {
-                                            background: '#ffffff',
-                                            color: '#333333',
-                                            fontSize: '12px',
-                                            borderRadius: '4px',
-                                            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
-                                        },
-                                    },
-                                }}
+                                theme={graphTheme}
                                 animate={true}
                                 motionConfig="gentle"
                             />
@@ -1012,23 +954,7 @@ const InteractiveFeatures = ({geojsonData}) => {
                                         </div>
                                     </div>
                                 )}
-                                theme={{
-                                    background: 'transparent',
-                                    text: {
-                                        fill: '#ffffff',
-                                        fontSize: 10,
-                                        fontWeight: 500
-                                    },
-                                    tooltip: {
-                                        container: {
-                                            background: '#ffffff',
-                                            color: '#333333',
-                                            fontSize: '12px',
-                                            borderRadius: '4px',
-                                            boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
-                                        },
-                                    }
-                                }}
+                                theme={graphTheme}
                                 animate={true}
                                 motionConfig="gentle"
                             />

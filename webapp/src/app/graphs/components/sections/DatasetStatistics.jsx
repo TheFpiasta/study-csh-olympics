@@ -5,7 +5,7 @@ import {ResponsiveBar} from '@nivo/bar';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
-import {getSeasonColor} from "@/app/graphs/components/utility";
+import {getSeasonColor, graphTheme} from "@/app/graphs/components/utility";
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const DatasetStatistics = ({geojsonData}) => {
@@ -327,39 +327,7 @@ const DatasetStatistics = ({geojsonData}) => {
                                 </div>
                             </div>
                         )}
-                        theme={{
-                            background: 'transparent',
-                            grid: {
-                                line: {
-                                    stroke: '#374151',
-                                    strokeWidth: 1
-                                }
-                            },
-                            axis: {
-                                ticks: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                },
-                                legend: {
-                                    text: {
-                                        fontSize: 12,
-                                        fill: '#d1d5db',
-                                        fontWeight: 600
-                                    }
-                                }
-                            },
-                            labels: {
-                                text: {
-                                    fontSize: 11,
-                                    fill: '#f3f4f6',
-                                    fontWeight: 600,
-                                    textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                }
-                            }
-                        }}
+                        theme={graphTheme}
                     />
                 </div>
             </div>
@@ -435,39 +403,7 @@ const DatasetStatistics = ({geojsonData}) => {
                                     </div>
                                 </div>
                             )}
-                            theme={{
-                                background: 'transparent',
-                                grid: {
-                                    line: {
-                                        stroke: '#374151',
-                                        strokeWidth: 1
-                                    }
-                                },
-                                axis: {
-                                    ticks: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    },
-                                    legend: {
-                                        text: {
-                                            fontSize: 12,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    }
-                                },
-                                labels: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#f3f4f6',
-                                        fontWeight: 600,
-                                        textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                    }
-                                }
-                            }}
+                            theme={graphTheme}
                         />
                     </div>
                 </div>
@@ -541,39 +477,7 @@ const DatasetStatistics = ({geojsonData}) => {
                                     </div>
                                 </div>
                             )}
-                            theme={{
-                                background: 'transparent',
-                                grid: {
-                                    line: {
-                                        stroke: '#374151',
-                                        strokeWidth: 1
-                                    }
-                                },
-                                axis: {
-                                    ticks: {
-                                        text: {
-                                            fontSize: 11,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    },
-                                    legend: {
-                                        text: {
-                                            fontSize: 12,
-                                            fill: '#d1d5db',
-                                            fontWeight: 600
-                                        }
-                                    }
-                                },
-                                labels: {
-                                    text: {
-                                        fontSize: 11,
-                                        fill: '#f3f4f6',
-                                        fontWeight: 600,
-                                        textShadow: '1px 1px 2px rgba(0,0,0,0.5)'
-                                    }
-                                }
-                            }}
+                            theme={graphTheme}
                         />
                     </div>
                 </div>

@@ -12,6 +12,7 @@ import TemporalAnalysis from "@/app/graphs/components/TemporalAnalysis";
 import GeographicAnalysis from "@/app/graphs/components/GeographicAnalysis";
 import InteractiveFeatures from "@/app/graphs/components/InteractiveFeatures";
 import TemporalDevelopmentAnalyses from "@/app/graphs/components/TemporalDevelopmentAnalyses";
+import ComparativeAnalyses from "@/app/graphs/components/ComparativeAnalyses";
 import {useEffect, useState} from "react";
 import CostAndProfitabilityAnalyses from "@/app/graphs/components/costAndProfit/CostAndProfitabilityAnalyses";
 import logger from "@/components/logger";
@@ -141,6 +142,11 @@ export default function GraphsPage() {
 
             <div className="mx-4 mb-8">
                 <CostAndProfitabilityAnalyses geojsonData={geojsonData} />
+            </div>
+
+            {/* Comparative Analyses Dashboard */}
+            <div className="mx-4 mb-8">
+                <ComparativeAnalyses geojsonData={geojsonData} />
             </div>
 
             {/* Future Sections Placeholder */}

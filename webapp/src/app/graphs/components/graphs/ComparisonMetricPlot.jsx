@@ -4,7 +4,7 @@ import {getSeasonColor} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
-export default function FinancialScatterPlot({data}) {
+export default function ComparisonMetricPlot({data}) {
     const [scatterData, setScatterData] = useState([]);
     const [seasonFilter, setSeasonFilter] = useState('both');
     const [xAxisMetric, setXAxisMetric] = useState('');
@@ -199,7 +199,7 @@ export default function FinancialScatterPlot({data}) {
     return (
         <div
             className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <SectionGraphHeadline headline="Financial & Event Metrics"
+            <SectionGraphHeadline headline="Financial & Event Metrics Comparison"
                                   description="Compare financial costs, revenues, and event statistics across Summer and Winter Olympics"
                                   infoText="Currency values are converted to millions USD (2018). Data points can be filtered by season and custom X/Y axis combinations allow exploration of correlations between different Olympic metrics."
             >

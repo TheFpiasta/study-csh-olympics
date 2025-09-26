@@ -2,6 +2,7 @@ import {ResponsiveLine} from "@nivo/line";
 import {useState} from "react";
 import {getColorFromPalet, getSeasonColor} from "@/app/graphs/components/utility";
 import {olympicColors} from "@/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 export default function OlympicGrowth({data}) {
     const [seasonFilter, setSeasonFilter] = useState('both');
@@ -172,12 +173,11 @@ export default function OlympicGrowth({data}) {
     return (
         <div
             className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-            <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                📈 Olympic Growth Timeline
-                <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                    Venues & Sports Over Time
-                </span>
-            </h3>
+            <SectionGraphHeadline headline="Olympic Growth Timeline"
+                                  description="Track the growth of Olympic venues and sports over the years, with insights into seasonal trends."
+                                  infoText=""
+            >
+            </SectionGraphHeadline>
 
             {/* Olympic Season Filter */}
             <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">

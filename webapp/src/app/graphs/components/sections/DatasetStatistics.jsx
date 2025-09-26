@@ -6,6 +6,7 @@ import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 import SectionHeader from "@/app/graphs/components/templates/SectionHeader";
 import {getSeasonColor} from "@/app/graphs/components/utility";
+import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const DatasetStatistics = ({geojsonData}) => {
     const [data, setData] = useState(null);
@@ -268,12 +269,11 @@ const DatasetStatistics = ({geojsonData}) => {
             {/* Venue Lifespan Analysis */}
             <div
                 className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                    🏗️ Venue Lifespan Analysis
-                    <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                        Post-Olympic Usage Patterns
-                    </span>
-                </h3>
+                <SectionGraphHeadline headline="Venue Lifespan Analysis"
+                                      description="Distribution of Olympic venues by their lifespan categories, highlighting post-Games usage patterns."
+                                      infoText="Three vanues have unknowen opening dates in our dataset."
+                >
+                </SectionGraphHeadline>
                 <div className="h-80 chart-container">
                     <style jsx>{`
                         .chart-container :global(text) {
@@ -369,12 +369,11 @@ const DatasetStatistics = ({geojsonData}) => {
                 {/* Seasonal Patterns */}
                 <div
                     className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                    <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        ❄️☀️ Seasonal Patterns
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                            Summer vs Winter
-                        </span>
-                    </h3>
+                    <SectionGraphHeadline headline="Total Seasonal Pattern"
+                                          description=""
+                                          infoText=""
+                    >
+                    </SectionGraphHeadline>
                     <div className="h-64 chart-container">
                         <style jsx>{`
                             .chart-container :global(text) {
@@ -476,12 +475,11 @@ const DatasetStatistics = ({geojsonData}) => {
                 {/* Decade Comparison */}
                 <div
                     className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
-                    <h3 className="text-xl font-semibold mb-4 text-gray-900 dark:text-gray-200 flex items-center gap-2">
-                        📅 Decade Comparison
-                        <span className="text-sm font-normal text-gray-600 dark:text-gray-400">
-                            Venue Trends by Era
-                        </span>
-                    </h3>
+                    <SectionGraphHeadline headline="Venue Trends By Era"
+                                          description=""
+                                          infoText=""
+                    >
+                    </SectionGraphHeadline>
                     <div className="h-64 chart-container">
                         <style jsx>{`
                             .chart-container :global(text) {

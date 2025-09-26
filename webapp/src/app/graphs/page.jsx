@@ -9,6 +9,7 @@ import CapacityDistributionAnalysis from "@/app/graphs/components/capacityDistri
 import GeographicalAnalysis from "@/app/graphs/components/geographicalAnalysis/GeographicalAnalysis";
 import PageInfoSection from "@/app/graphs/components/templates/PageInfoSection";
 import OlympicMetric from "@/app/graphs/components/olympicMetrics/OlympicMetric";
+import SectionNavigation from "@/app/graphs/components/navigation/SectionNavigation";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -55,32 +56,34 @@ export default function GraphsPage() {
                     </svg>
                 }/>
 
-            {/*/!* TODO add Analytics Header *!/*/}
+            {/* Section Navigation */}
+            <div className="mx-4 mb-8">
+                <SectionNavigation/>
+            </div>
 
             {/* Temporal Analysis Dashboard */}
-            <div className="mx-4 mb-8">
+            <div id="dataset-statistics" className="mx-4 mb-8">
                 <TemporalAnalysis geojsonData={geojsonData}/>
             </div>
 
-            <div className="mx-4 mb-8">
+            <div id="olympic-metrics" className="mx-4 mb-8">
                 <OlympicMetric geojsonData={geojsonData}/>
             </div>
 
-            <div className="mx-4 mb-8">
+            <div id="geographical-analysis" className="mx-4 mb-8">
                 <GeographicalAnalysis geojsonData={geojsonData}/>
             </div>
 
-            <div className="mx-4 mb-8">
+            <div id="capacity-distribution" className="mx-4 mb-8">
                 <CapacityDistributionAnalysis geojsonData={geojsonData}/>
             </div>
 
-
             {/* Temporal Development Analyses */}
-            <div className="mx-4 mb-8">
+            <div id="temporal-development" className="mx-4 mb-8">
                 <TemporalDevelopmentAnalyses geojsonData={geojsonData}/>
             </div>
 
-            <div className="mx-4 mb-8">
+            <div id="cost-profitability" className="mx-4 mb-8">
                 <CostAndProfitabilityAnalyses geojsonData={geojsonData}/>
             </div>
 

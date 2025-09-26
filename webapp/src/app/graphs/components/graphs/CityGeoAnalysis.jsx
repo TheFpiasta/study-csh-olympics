@@ -4,7 +4,6 @@ import React, {useEffect, useState} from 'react';
 import {ResponsiveSunburst} from '@nivo/sunburst';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
-import {olympicColors} from "@/components/utility";
 import {graphTheme} from "@/app/graphs/components/utility";
 
 const LegendItem = ({category, selectedOlympics}) => {
@@ -190,10 +189,29 @@ const CityGeoAnalysis = ({geojsonData}) => {
         const sunburstData = [];
 
         Object.entries(distribution).forEach(([locationCategory, places]) => {
-            const baseColor = colors[colorIndex % colors.length];
+
+            let baseColor
+            switch (locationCategory) {
+                case 'Inside City':
+                    baseColor = colors[0];
+                    break;
+                case 'Outside City':
+                    baseColor = colors[1];
+                    break;
+                case 'By Location':
+                    baseColor = colors[2];
+                    break;
+                case 'No Information':
+                    baseColor = colors[3];
+                    break;
+                default:
+                    baseColor = colors[4];
+            }
+
+            // const baseColor = colors[colorIndex % colors.length];
             const children = [];
             const placeEntries = Object.entries(places);
-            const childColors = generateChildColors(baseColor, placeEntries.length);
+            // const childColors = generateChildColors(baseColor, placeEntries.length);
 
             // Create children for each place with gradient colors from light to dark
             placeEntries.forEach(([placeName, count], index) => {
@@ -201,7 +219,7 @@ const CityGeoAnalysis = ({geojsonData}) => {
                     id: `${locationCategory}_${placeName}`,
                     name: placeName,
                     value: count,
-                    color: childColors[index],
+                    // color: childColors[index],
                     placeName: placeName,
                     locationCategory: locationCategory
                 });
@@ -216,6 +234,32 @@ const CityGeoAnalysis = ({geojsonData}) => {
             });
 
             colorIndex++;
+        });
+
+        // Sort categories in specific order
+        const categoryOrder = {
+            'Inside City': 1,
+            'Outside City': 2,
+            'By Location': 3,
+            'No Information': 4
+        };
+        sunburstData.sort((a, b) => {
+            const orderA = categoryOrder[a.id] || 999;
+            const orderB = categoryOrder[b.id] || 999;
+            return orderA - orderB;
+        });
+
+        // sort for each category the children by name
+        sunburstData.forEach(category => {
+            category.children.sort((a, b) => a.name.localeCompare(b.name));
+        });
+
+        // apply child colors after sorting
+        sunburstData.forEach(category => {
+            const childColors = generateChildColors(category.color, category.children.length);
+            category.children.forEach((child, index) => {
+                child.color = childColors[index];
+            });
         });
 
         return sunburstData;

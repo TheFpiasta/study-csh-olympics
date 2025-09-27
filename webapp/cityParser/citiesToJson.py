@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Convert GeoNames cities15000.txt file to structured JSON format.
+Convert GeoNames cities txt file to structured JSON format.
 
 This script processes the tab-separated cities15000.txt file from GeoNames
 and converts it to JSON format with properly typed fields.
@@ -201,8 +201,7 @@ def convert_txt_to_json(input_file: str = "cities15000.txt", output_file: str = 
         with open(output_file, 'w', encoding='utf-8') as file:
             json.dump({
                 "metadata": {
-                    "source": "GeoNames cities15000.txt",
-                    "description": "Cities with population > 15000 or capitals",
+                    "source": f"GeoNames {input_file}",
                     "total_cities": len(cities),
                     "processed_lines": processed_lines,
                     "error_count": error_count
@@ -276,8 +275,7 @@ def convert_txt_to_compact_json(input_file: str = "cities15000.txt", output_file
             # Write metadata and keys with proper formatting
             file.write('{\n')
             file.write('  "meta": {\n')
-            file.write('    "source": "GeoNames cities15000.txt",\n')
-            file.write('    "description": "Cities with population > 15000 or capitals",\n')
+            file.write(f'    "source": "GeoNames {input_file}",\n')
             file.write('    "format": "Compact array format with keys and data arrays",\n')
             file.write(f'    "total_cities": {len(cities_data)},\n')
             file.write(f'    "processed_lines": {processed_lines},\n')
@@ -412,8 +410,7 @@ def convert_txt_to_columnar_json(input_file: str = "cities15000.txt", output_fil
             # Write metadata with proper formatting
             file.write('{\n')
             file.write('  "meta": {\n')
-            file.write('    "source": "GeoNames cities15000.txt",\n')
-            file.write('    "description": "Cities with population > 15000 or capitals",\n')
+            file.write(f'    "source": "GeoNames {input_file}",\n')
             file.write('    "format": "Columnar format with field arrays",\n')
             file.write(f'    "total_cities": {processed_lines},\n')
             file.write(f'    "processed_lines": {processed_lines},\n')
@@ -462,7 +459,7 @@ def main():
             if len(sys.argv) > 2 and sys.argv[2] in ["structured", "compact", "columnar", "all"]:
                 format_type = sys.argv[2]
 
-    print("GeoNames cities15000.txt to JSON converter")
+    print("GeoNames cities to JSON converter")
     print("=========================================")
     print(f"Input file: {input_file}")
     print(f"Format: {format_type}")

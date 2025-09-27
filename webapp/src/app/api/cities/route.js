@@ -218,23 +218,36 @@ function getCountryInfo(countryCode) {
     }
 }
 
+// Normalize city name for fuzzy matching - removes common punctuation differences
+function normalizeCityName(cityName) {
+    if (!cityName) return '';
+    return cityName
+        .toLowerCase()
+        .trim()
+        // Replace common punctuation with spaces
+        .replace(/['\-]/g, ' ')
+        // Replace multiple spaces with single space
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function searchCity(cityName) {
     const data = citiesData.data;
     const searchTerm = cityName.toLowerCase().trim();
 
-    // Search in name field
+    // Step 1: Exact match in name field
     let matchIndex = data.name.findIndex(name =>
         name && name.toLowerCase() === searchTerm
     );
 
-    // Search in asciiname field if not found
+    // Step 2: Exact match in asciiname field if not found
     if (matchIndex === -1) {
         matchIndex = data.asciiname.findIndex(asciiName =>
             asciiName && asciiName.toLowerCase() === searchTerm
         );
     }
 
-    // Search in alternatenames if still not found
+    // Step 3: Exact match in alternatenames if still not found
     if (matchIndex === -1) {
         matchIndex = data.alternatenames.findIndex(alternates => {
             if (!Array.isArray(alternates)) return false;
@@ -242,6 +255,56 @@ function searchCity(cityName) {
                 altName && altName.toLowerCase() === searchTerm
             );
         });
+    }
+
+    // Step 4: Fuzzy match with normalized names (only if exact match failed)
+    if (matchIndex === -1) {
+        const normalizedSearchTerm = normalizeCityName(searchTerm);
+
+        // Skip fuzzy matching for short terms to avoid false positives (minimum 5 characters)
+        if (normalizedSearchTerm.length < 5) {
+            return matchIndex;
+        }
+
+        // Fuzzy match in name field
+        matchIndex = data.name.findIndex(name => {
+            if (!name) return false;
+            const normalizedName = normalizeCityName(name);
+            // Only match if length difference is reasonable (within 3 characters)
+            if (Math.abs(normalizedName.length - normalizedSearchTerm.length) > 3) {
+                return false;
+            }
+            return normalizedName === normalizedSearchTerm;
+        });
+
+        // Fuzzy match in asciiname field if still not found
+        if (matchIndex === -1) {
+            matchIndex = data.asciiname.findIndex(asciiName => {
+                if (!asciiName) return false;
+                const normalizedAscii = normalizeCityName(asciiName);
+                // Only match if length difference is reasonable (within 3 characters)
+                if (Math.abs(normalizedAscii.length - normalizedSearchTerm.length) > 3) {
+                    return false;
+                }
+                return normalizedAscii === normalizedSearchTerm;
+            });
+        }
+
+        // Fuzzy match in alternatenames if still not found
+        if (matchIndex === -1) {
+            matchIndex = data.alternatenames.findIndex(alternates => {
+                if (!Array.isArray(alternates)) return false;
+                return alternates.some(altName => {
+                    if (!altName) return false;
+                    const normalizedAlt = normalizeCityName(altName);
+                    // Only match if length difference is reasonable (within 3 characters)
+                    if (Math.abs(normalizedAlt.length - normalizedSearchTerm.length) > 3) {
+                        return false;
+                    }
+                    return normalizedAlt === normalizedSearchTerm;
+                });
+            });
+        }
     }
 
     return matchIndex;

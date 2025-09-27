@@ -112,10 +112,11 @@ function loadCitiesData() {
 
     try {
         // Try multiple possible paths to find the cities file
+        const fileName = "cities500.txt.columnar.json";
         const possiblePaths = [
-            path.join(process.cwd(), 'cityParser', 'cities15000_columnar.json'),
-            path.join(process.cwd(), '..', 'cityParser', 'cities15000_columnar.json'),
-            path.join(process.cwd(), 'cities15000_columnar.json'),
+            path.join(process.cwd(), 'cityParser', fileName),
+            path.join(process.cwd(), '..', 'cityParser', fileName),
+            path.join(process.cwd(), fileName),
         ];
 
         let citiesPath = null;

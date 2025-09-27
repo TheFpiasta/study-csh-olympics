@@ -34,29 +34,65 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
   const [showCharts, setShowCharts] = useState(false);
   const [showStatusPanel, setShowStatusPanel] = useState(false);
   const [filterMode, setFilterMode] = useState('status'); // 'status' or 'sports'
-  const [selectedStatuses, setSelectedStatuses] = useState(new Set([
-    'In use', 'In use (rebuilt)', 'In use (repurposed)', 'In use (seasonal)', 'In use (limited)',
-    'Not in use', 'Not in use (demolished)', 'Dismantled (temporary)', 'Dismantled (seasonal)',
-    'No status data'
-  ])); // All statuses selected by default
+  const [selectedStatuses, setSelectedStatuses] = useState(new Set()); // Will be populated when geojsonData is available
   const [selectedSports, setSelectedSports] = useState(new Set()); // Will be populated when geojsonData is available
   const [availableSports, setAvailableSports] = useState([]); // Cached sports for current dataset
   const [popupVisible, setPopupVisible] = useState(false);
   const [popupPosition, setPopupPosition] = useState({ x: 0, y: 0 });
   const [isFullscreen, setIsFullscreen] = useState(false);
 
-  // Available status categories with colors
-  const statusColors = {
-    'In use': '#22c55e',
-    'In use (rebuilt)': '#10b981',
-    'In use (repurposed)': '#06b6d4',
-    'In use (seasonal)': '#3b82f6',
-    'In use (limited)': '#8b5cf6',
-    'Not in use': '#ef4444',
-    'Not in use (demolished)': '#dc2626',
-    'Dismantled (temporary)': '#991b1b',
-    'Dismantled (seasonal)': '#7c2d12',
-    'No status data': '#94a3b8'
+  // Dynamic status system - extract from actual data
+  const [availableStatuses, setAvailableStatuses] = useState([]);
+  const [statusColors, setStatusColors] = useState({});
+
+  // Predefined colors for common statuses (fallback to generated colors for new ones)
+  const predefinedStatusColors = {
+    'in use': '#22c55e',
+    'in use (rebuilt)': '#10b981',
+    'in use (repurposed)': '#06b6d4',
+    'in use (seasonal)': '#3b82f6',
+    'in use (limited)': '#8b5cf6',
+    'not in use': '#ef4444',
+    'not in use (demolished)': '#dc2626',
+    'dismantled (temporary)': '#991b1b',
+    'dismantled (seasonal)': '#7c2d12',
+    'no status data': '#94a3b8',
+    'not in use, partly dismantled': '#b91c1c',
+    'not in use, currently under reconstruction': '#f97316'
+  };
+
+  // Generate color for status (case-insensitive)
+  const generateStatusColor = (status) => {
+    const lowerStatus = status.toLowerCase();
+    if (predefinedStatusColors[lowerStatus]) {
+      return predefinedStatusColors[lowerStatus];
+    }
+    // Generate a color based on status hash for consistency
+    let hash = 0;
+    for (let i = 0; i < status.length; i++) {
+      hash = status.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const hue = Math.abs(hash) % 360;
+    return `hsl(${hue}, 60%, 50%)`;
+  };
+
+  // Extract unique statuses from GeoJSON data
+  const extractUniqueStatuses = (geojsonData) => {
+    if (!geojsonData || !geojsonData.features) return [];
+    
+    const statusMap = {}; // Use object to track canonical form
+    geojsonData.features.forEach(feature => {
+      const status = feature.properties.status || 'No status data';
+      const lowerStatus = status.toLowerCase();
+      
+      // If we haven't seen this status (case-insensitive), add it
+      // Use the first occurrence as the canonical form
+      if (!statusMap[lowerStatus]) {
+        statusMap[lowerStatus] = status;
+      }
+    });
+    
+    return Object.values(statusMap).sort();
   };
 
   // Hydration effect - load saved values after component mounts
@@ -265,6 +301,40 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
     }
   }, [selectedOlympics, timelineMode, isHydrated]);
 
+  // Extract and set up status values when geojsonData changes
+  useEffect(() => {
+    if (geojsonData && geojsonData.features) {
+      const uniqueStatuses = extractUniqueStatuses(geojsonData);
+      setAvailableStatuses(uniqueStatuses);
+      
+      // Generate colors for all statuses
+      const colors = {};
+      uniqueStatuses.forEach(status => {
+        colors[status] = generateStatusColor(status);
+      });
+      setStatusColors(colors);
+      
+      // Reconcile selectedStatuses with new canonical forms
+      if (selectedStatuses.size === 0) {
+        // Initialize with all statuses if empty
+        setSelectedStatuses(new Set(uniqueStatuses));
+      } else {
+        // Update existing selections to match canonical forms
+        const newSelected = new Set();
+        selectedStatuses.forEach(selectedStatus => {
+          // Find matching canonical form (case-insensitive)
+          const canonicalForm = uniqueStatuses.find(status => 
+            status.toLowerCase() === selectedStatus.toLowerCase()
+          );
+          if (canonicalForm) {
+            newSelected.add(canonicalForm);
+          }
+        });
+        setSelectedStatuses(newSelected);
+      }
+    }
+  }, [geojsonData]);
+
   // Create filtered GeoJSON data based on BOTH selected statuses AND sports (simultaneous filtering)
   const filteredGeojsonData = React.useMemo(() => {
     if (!geojsonData || !geojsonData.features) return geojsonData;
@@ -272,9 +342,11 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
     return {
       ...geojsonData,
       features: geojsonData.features.filter(feature => {
-        // Apply status filter
+        // Apply status filter (case-insensitive)
         const status = feature.properties.status || 'No status data';
-        const statusMatch = selectedStatuses.has(status);
+        const statusMatch = Array.from(selectedStatuses).some(selectedStatus => 
+          selectedStatus.toLowerCase() === status.toLowerCase()
+        );
         
         // Apply sports filter
         const sports = feature.properties.sports;
@@ -309,7 +381,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
   }, [geojsonData, selectedStatuses, selectedSports, availableSports]);
 
   // Helper functions to detect active filters (when not all items are selected)
-  const isStatusFilterActive = selectedStatuses.size < Object.keys(statusColors).length;
+  const isStatusFilterActive = selectedStatuses.size < availableStatuses.length;
   const isSportsFilterActive = selectedSports.size < availableSports.length;
   const isAnyFilterActive = isStatusFilterActive || isSportsFilterActive;
 
@@ -951,7 +1023,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         </div>
 
         {/* Control Buttons - Left Side */}
-        <div className="absolute z-10 space-y-2 top-4 left-4">
+        <div className="absolute z-[9999] space-y-2 top-4 left-4">
           {/* Olympics Selection Button */}
           <button
             data-panel="olympics-button"
@@ -1047,7 +1119,8 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute top-0 z-10 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            className="absolute top-4 z-[9999] p-4 overflow-y-auto border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Olympic Games</h3>
@@ -1152,7 +1225,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
 
         {/* Loading Overlay */}
         {loading && geojsonData && (
-          <div className="absolute inset-0 z-20 flex items-center justify-center backdrop-blur-sm bg-black/20">
+          <div className="absolute inset-0 z-[9998] flex items-center justify-center backdrop-blur-sm bg-black/20">
             <div className="flex items-center gap-3 px-6 py-4 bg-white border border-gray-200 shadow-xl rounded-xl dark:bg-gray-800 dark:border-gray-600">
               <svg className="w-5 h-5 text-blue-500 animate-spin" viewBox="0 0 24 24" fill="none">
                 <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
@@ -1167,7 +1240,8 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
-            className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 w-80 max-h-96"
+            className="absolute top-4 z-[9999] p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
+            style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">
@@ -1350,7 +1424,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {/* Venue Popup for Globe */}
         {selectedVenue && popupVisible && (
           <div 
-            className="absolute z-30 max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-600 w-80 popup-content"
+            className="absolute max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl z-[9999] dark:bg-gray-800 dark:border-gray-600 w-80 popup-content"
             style={{
               left: Math.min(popupPosition.x, window.innerWidth - 350),
               top: Math.min(popupPosition.y, window.innerHeight - 400),
@@ -1535,7 +1609,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {/* Timeline Panel - Always visible at bottom */}
         <div 
           data-panel="timeline-panel"
-          className="absolute bottom-4 right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[88px]"
+          className="absolute bottom-4 right-4 z-[9999] glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[88px]"
           style={{ width: '500px' }}
         >
           <div className="flex flex-col justify-between h-full p-3">
@@ -1671,7 +1745,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {/* Info Panel - Dynamic Width and Expandable Status Breakdown */}
         {geojsonData && geojsonData.features && geojsonData.features.length > 0 && (
           <div 
-            className={`absolute bottom-4 left-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out ${getDynamicWidth()}`}
+            className={`absolute bottom-4 left-4 z-[9999] glass rounded-xl shadow-lg transition-all duration-300 ease-in-out ${getDynamicWidth()}`}
             style={{ maxWidth: '70vw' }}
           >
             <div className="flex">

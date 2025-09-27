@@ -37,26 +37,62 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   const [showCharts, setShowCharts] = useState(false);
   const [showStatusPanel, setShowStatusPanel] = useState(false);
   const [filterMode, setFilterMode] = useState('status'); // 'status' or 'sports'
-  const [selectedStatuses, setSelectedStatuses] = useState(new Set([
-    'In use', 'In use (rebuilt)', 'In use (repurposed)', 'In use (seasonal)', 'In use (limited)',
-    'Not in use', 'Not in use (demolished)', 'Dismantled (temporary)', 'Dismantled (seasonal)',
-    'No status data'
-  ])); // All statuses selected by default
+  const [selectedStatuses, setSelectedStatuses] = useState(new Set()); // Will be populated when geojsonData is available
   const [selectedSports, setSelectedSports] = useState(new Set()); // Will be populated when geojsonData is available
   const [availableSports, setAvailableSports] = useState([]); // Cached sports for current dataset
 
-  // Available status categories with colors
-  const statusColors = {
-    'In use': '#22c55e',
-    'In use (rebuilt)': '#10b981',
-    'In use (repurposed)': '#06b6d4',
-    'In use (seasonal)': '#3b82f6',
-    'In use (limited)': '#8b5cf6',
-    'Not in use': '#ef4444',
-    'Not in use (demolished)': '#dc2626',
-    'Dismantled (temporary)': '#991b1b',
-    'Dismantled (seasonal)': '#7c2d12',
-    'No status data': '#94a3b8'
+  // Dynamic status system - extract from actual data
+  const [availableStatuses, setAvailableStatuses] = useState([]);
+  const [statusColors, setStatusColors] = useState({});
+
+  // Predefined colors for common statuses (fallback to generated colors for new ones)
+  const predefinedStatusColors = {
+    'in use': '#22c55e',
+    'in use (rebuilt)': '#10b981',
+    'in use (repurposed)': '#06b6d4',
+    'in use (seasonal)': '#3b82f6',
+    'in use (limited)': '#8b5cf6',
+    'not in use': '#ef4444',
+    'not in use (demolished)': '#dc2626',
+    'dismantled (temporary)': '#991b1b',
+    'dismantled (seasonal)': '#7c2d12',
+    'no status data': '#94a3b8',
+    'not in use, partly dismantled': '#b91c1c',
+    'not in use, currently under reconstruction': '#f97316'
+  };
+
+  // Generate color for status (case-insensitive)
+  const generateStatusColor = (status) => {
+    const lowerStatus = status.toLowerCase();
+    if (predefinedStatusColors[lowerStatus]) {
+      return predefinedStatusColors[lowerStatus];
+    }
+    // Generate a color based on status hash for consistency
+    let hash = 0;
+    for (let i = 0; i < status.length; i++) {
+      hash = status.charCodeAt(i) + ((hash << 5) - hash);
+    }
+    const hue = Math.abs(hash) % 360;
+    return `hsl(${hue}, 60%, 50%)`;
+  };
+
+  // Extract unique statuses from GeoJSON data
+  const extractUniqueStatuses = (geojsonData) => {
+    if (!geojsonData || !geojsonData.features) return [];
+    
+    const statusMap = {}; // Use object to track canonical form
+    geojsonData.features.forEach(feature => {
+      const status = feature.properties.status || 'No status data';
+      const lowerStatus = status.toLowerCase();
+      
+      // If we haven't seen this status (case-insensitive), add it
+      // Use the first occurrence as the canonical form
+      if (!statusMap[lowerStatus]) {
+        statusMap[lowerStatus] = status;
+      }
+    });
+    
+    return Object.values(statusMap).sort();
   };
 
   // Hydration effect - load saved values after component mounts
@@ -237,6 +273,40 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     }
   }, [selectedOlympics, timelineMode, isHydrated]);
 
+  // Extract and set up status values when geojsonData changes
+  useEffect(() => {
+    if (geojsonData && geojsonData.features) {
+      const uniqueStatuses = extractUniqueStatuses(geojsonData);
+      setAvailableStatuses(uniqueStatuses);
+      
+      // Generate colors for all statuses
+      const colors = {};
+      uniqueStatuses.forEach(status => {
+        colors[status] = generateStatusColor(status);
+      });
+      setStatusColors(colors);
+      
+      // Reconcile selectedStatuses with new canonical forms
+      if (selectedStatuses.size === 0) {
+        // Initialize with all statuses if empty
+        setSelectedStatuses(new Set(uniqueStatuses));
+      } else {
+        // Update existing selections to match canonical forms
+        const newSelected = new Set();
+        selectedStatuses.forEach(selectedStatus => {
+          // Find matching canonical form (case-insensitive)
+          const canonicalForm = uniqueStatuses.find(status => 
+            status.toLowerCase() === selectedStatus.toLowerCase()
+          );
+          if (canonicalForm) {
+            newSelected.add(canonicalForm);
+          }
+        });
+        setSelectedStatuses(newSelected);
+      }
+    }
+  }, [geojsonData]);
+
   // Create filtered GeoJSON data based on BOTH selected statuses AND sports (simultaneous filtering)
   const filteredGeojsonData = React.useMemo(() => {
     if (!geojsonData || !geojsonData.features) return geojsonData;
@@ -244,9 +314,11 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     return {
       ...geojsonData,
       features: geojsonData.features.filter(feature => {
-        // Apply status filter
+        // Apply status filter (case-insensitive)
         const status = feature.properties.status || 'No status data';
-        const statusMatch = selectedStatuses.has(status);
+        const statusMatch = Array.from(selectedStatuses).some(selectedStatus => 
+          selectedStatus.toLowerCase() === status.toLowerCase()
+        );
         
         // Apply sports filter
         const sports = feature.properties.sports;
@@ -281,7 +353,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   }, [geojsonData, selectedStatuses, selectedSports, availableSports]);
 
   // Helper functions to detect active filters (when not all items are selected)
-  const isStatusFilterActive = selectedStatuses.size < Object.keys(statusColors).length;
+  const isStatusFilterActive = selectedStatuses.size < availableStatuses.length;
   const isSportsFilterActive = selectedSports.size < availableSports.length;
   const isAnyFilterActive = isStatusFilterActive || isSportsFilterActive;
 
@@ -1167,7 +1239,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
       </Map>
       
       {/* Control Buttons */}
-      <div className="absolute space-y-2 top-4 left-4">
+      <div className="absolute z-50 space-y-2 top-4 left-4">
         {/* Map Layer Control Button */}
         <button
           data-panel="layer-button"
@@ -1259,7 +1331,8 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showLayerPanel && (
           <div 
             data-panel="layer-panel"
-            className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-64"
+            className="absolute top-4 z-50 p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-64"
+            style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Map Style</h3>
@@ -1299,7 +1372,8 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute top-0 z-10 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            className="absolute top-4 z-50 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">Olympic Games</h3>
@@ -1406,7 +1480,8 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
-            className="absolute top-0 z-10 p-4 border border-gray-200 shadow-2xl left-16 glass rounded-xl dark:border-gray-600 w-80 max-h-96"
+            className="absolute top-4 z-50 p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
+            style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
               <h3 className="text-sm font-bold text-gray-800 dark:text-gray-200">

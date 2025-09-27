@@ -7,6 +7,7 @@ import {useEffect, useState} from "react";
 import logger from "@/components/logger";
 import ChartSectionPlaceholder from "@/app/graphs/components/templates/ChartSectionPlaceholder";
 import PageInfoSection from "@/app/graphs/components/templates/PageInfoSection";
+import ComparativeAnalyses from "@/app/graphs/components/sections/ComparativeAnalyses";
 
 export default function GraphsPage() {
     const [geojsonData, setGeojsonData] = useState(null);
@@ -63,6 +64,10 @@ export default function GraphsPage() {
                 <br/>
                 <span className={"text-olympic-red"}> The showed Data can be corrupted and wrong!</span>
             </h4>
+
+            <div className="mx-4 mb-8">
+                <ComparativeAnalyses geojsonData={geojsonData}/>
+            </div>
 
             {/* Interactive Features Dashboard */}
             <div className="mx-4 mb-8">

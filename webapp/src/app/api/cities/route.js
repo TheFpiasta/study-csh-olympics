@@ -17,6 +17,96 @@ const CONTINENT_MAP = {
 let citiesData = null;
 let countryData = null;
 
+// Simple in-memory rate limiter
+const rateLimitStore = new Map();
+const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute in milliseconds
+const MAX_REQUESTS_PER_WINDOW = 10; // Maximum requests per IP per minute
+const MAX_CITIES_PER_MINUTE = 1000; // Maximum cities processed per IP per minute
+
+function getClientIP(request) {
+    // Get client IP from various headers (for proxy/load balancer scenarios)
+    const forwardedFor = request.headers.get('x-forwarded-for');
+    const realIP = request.headers.get('x-real-ip');
+    const remoteAddr = request.headers.get('x-forwarded-host') || 'unknown';
+
+    if (forwardedFor) {
+        return forwardedFor.split(',')[0].trim();
+    }
+
+    return realIP || remoteAddr || 'unknown';
+}
+
+function checkRateLimit(clientIP, citiesCount = 0) {
+    const now = Date.now();
+    const clientKey = `rate_limit_${clientIP}`;
+
+    // Get or create client data
+    let clientData = rateLimitStore.get(clientKey) || {
+        requests: [],
+        citiesProcessed: []
+    };
+
+    // Clean up old requests (older than window)
+    clientData.requests = clientData.requests.filter(timestamp => now - timestamp < RATE_LIMIT_WINDOW);
+    clientData.citiesProcessed = clientData.citiesProcessed.filter(entry => now - entry.timestamp < RATE_LIMIT_WINDOW);
+
+    // Check request rate limit
+    if (clientData.requests.length >= MAX_REQUESTS_PER_WINDOW) {
+        const oldestRequest = Math.min(...clientData.requests);
+        const resetTime = Math.ceil((oldestRequest + RATE_LIMIT_WINDOW) / 1000);
+
+        return {
+            allowed: false,
+            error: 'Rate limit exceeded',
+            message: `Too many requests. Maximum ${MAX_REQUESTS_PER_WINDOW} requests per minute.`,
+            resetTime: resetTime,
+            remaining: 0
+        };
+    }
+
+    // Check cities processing rate limit
+    const totalCitiesInWindow = clientData.citiesProcessed.reduce((sum, entry) => sum + entry.count, 0);
+    if (totalCitiesInWindow + citiesCount > MAX_CITIES_PER_MINUTE) {
+        return {
+            allowed: false,
+            error: 'Cities rate limit exceeded',
+            message: `Too many cities processed. Maximum ${MAX_CITIES_PER_MINUTE} cities per minute. Currently processed: ${totalCitiesInWindow}`,
+            resetTime: Math.ceil((now + RATE_LIMIT_WINDOW) / 1000),
+            remaining: Math.max(0, MAX_CITIES_PER_MINUTE - totalCitiesInWindow)
+        };
+    }
+
+    // Update rate limit data
+    clientData.requests.push(now);
+    if (citiesCount > 0) {
+        clientData.citiesProcessed.push({
+            timestamp: now,
+            count: citiesCount
+        });
+    }
+
+    rateLimitStore.set(clientKey, clientData);
+
+    // Clean up old entries periodically (every 100 requests)
+    if (rateLimitStore.size > 100) {
+        const cutoff = now - RATE_LIMIT_WINDOW;
+        for (const [key, data] of rateLimitStore.entries()) {
+            const hasRecentActivity = data.requests.some(timestamp => timestamp > cutoff) ||
+                data.citiesProcessed.some(entry => entry.timestamp > cutoff);
+            if (!hasRecentActivity) {
+                rateLimitStore.delete(key);
+            }
+        }
+    }
+
+    return {
+        allowed: true,
+        remaining: Math.max(0, MAX_REQUESTS_PER_WINDOW - clientData.requests.length),
+        citiesRemaining: Math.max(0, MAX_CITIES_PER_MINUTE - totalCitiesInWindow),
+        resetTime: Math.ceil((now + RATE_LIMIT_WINDOW) / 1000)
+    };
+}
+
 function loadCitiesData() {
     if (citiesData) return citiesData;
 
@@ -238,12 +328,10 @@ function searchCityAndGetResult(cityName) {
 
 export async function POST(request) {
     try {
-        // Load cities data
-        if (!citiesData) {
-            loadCitiesData();
-        }
+        // Get client IP for rate limiting
+        const clientIP = getClientIP(request);
 
-        // Parse request body
+        // Parse request body first to check cities count for rate limiting
         const body = await request.json();
 
         // Validate request body
@@ -284,6 +372,36 @@ export async function POST(request) {
                 },
                 {status: 400}
             );
+        }
+
+        // Check rate limits
+        const rateLimitResult = checkRateLimit(clientIP, cityNames.length);
+        if (!rateLimitResult.allowed) {
+            logger.warn('Rate limit exceeded for IP:', clientIP, rateLimitResult.message);
+            return NextResponse.json(
+                {
+                    error: rateLimitResult.error,
+                    message: rateLimitResult.message,
+                    resetTime: rateLimitResult.resetTime,
+                    remaining: rateLimitResult.remaining || 0
+                },
+                {
+                    status: 429,
+                    headers: {
+                        'X-RateLimit-Limit': `${MAX_REQUESTS_PER_WINDOW}`,
+                        'X-RateLimit-Remaining': `${rateLimitResult.remaining || 0}`,
+                        'X-RateLimit-Reset': `${rateLimitResult.resetTime}`,
+                        'X-RateLimit-Cities-Limit': `${MAX_CITIES_PER_MINUTE}`,
+                        'X-RateLimit-Cities-Remaining': `${rateLimitResult.citiesRemaining || 0}`,
+                        'Retry-After': `${Math.max(60, rateLimitResult.resetTime - Math.floor(Date.now() / 1000))}`
+                    }
+                }
+            );
+        }
+
+        // Load cities data
+        if (!citiesData) {
+            loadCitiesData();
         }
 
         logger.info('Searching for', cityNames.length, 'cities:', cityNames);
@@ -334,6 +452,11 @@ export async function POST(request) {
             headers: {
                 'Content-Type': 'application/json',
                 'Cache-Control': 'public, max-age=3600', // Cache for 1 hour since city data is relatively static
+                'X-RateLimit-Limit': `${MAX_REQUESTS_PER_WINDOW}`,
+                'X-RateLimit-Remaining': `${rateLimitResult.remaining}`,
+                'X-RateLimit-Reset': `${rateLimitResult.resetTime}`,
+                'X-RateLimit-Cities-Limit': `${MAX_CITIES_PER_MINUTE}`,
+                'X-RateLimit-Cities-Remaining': `${rateLimitResult.citiesRemaining}`
             }
         });
 

@@ -101,5 +101,18 @@ export const graphTheme = {
             fontSize: 11,
             fill: '#d1d5db',
         }
+    },
+    tooltip: {
+        chip: {
+            borderRadius: '2px',
+        },
+        container: {
+            background: '#1f2937',
+            color: '#f9fafb',
+            fontSize: '12px',
+            borderRadius: '4px',
+            boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)',
+            border: '1px solid #374151'
+        }
     }
 };

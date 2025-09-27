@@ -11,7 +11,7 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [viewMode, setViewMode] = useState('country'); // 'continent' or 'country'
+    const [viewMode, setViewMode] = useState('continent'); // 'continent' or 'country'
 
     useEffect(() => {
         if (!geojsonData) return;
@@ -200,16 +200,6 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                             <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
                             <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
                                 <button
-                                    onClick={() => setViewMode('country')}
-                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                        viewMode === 'country'
-                                            ? 'bg-emerald-500 text-white'
-                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
-                                    }`}
-                                >
-                                    Country
-                                </button>
-                                <button
                                     onClick={() => setViewMode('continent')}
                                     className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
                                         viewMode === 'continent'
@@ -218,6 +208,16 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                                     }`}
                                 >
                                     Continent
+                                </button>
+                                <button
+                                    onClick={() => setViewMode('country')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        viewMode === 'country'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Country
                                 </button>
                             </div>
                         </div>

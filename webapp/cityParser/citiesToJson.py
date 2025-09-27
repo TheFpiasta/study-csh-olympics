@@ -6,16 +6,16 @@ This script processes the tab-separated cities15000.txt file from GeoNames
 and converts it to JSON format with properly typed fields.
 
 Usage:
-    python3 txtToJson.py [format] [input_file]
+    python3 citiesToJson.py [format] [input_file]
 
     format: "structured" | "compact" | "columnar" | "all" (default: all)
     input_file: path to cities15000.txt (default: cities15000.txt)
 
 Examples:
-    python3 txtToJson.py                    # Create all formats from cities15000.txt
-    python3 txtToJson.py compact            # Create only compact format
-    python3 txtToJson.py cities15000.txt    # Create all formats from specified file
-    python3 txtToJson.py structured cities15000.txt  # Create structured format only
+    python3 citiesToJson.py                    # Create all formats from cities15000.txt
+    python3 citiesToJson.py compact            # Create only compact format
+    python3 citiesToJson.py cities15000.txt    # Create all formats from specified file
+    python3 citiesToJson.py structured cities15000.txt  # Create structured format only
 
 Output formats:
 1. Structured (cities15000.json): Nested objects with meaningful field names
@@ -447,7 +447,8 @@ def convert_txt_to_columnar_json(input_file: str = "cities15000.txt", output_fil
 
 def main():
     """Main function to handle command line arguments and run conversion."""
-    input_file = "cities15000.txt"
+    input_file = "cities500.txt"
+    # input_file = "cities15000.txt"
 
     # Simple command line argument handling
     format_type = "all"  # Default to all formats
@@ -469,17 +470,17 @@ def main():
 
     if format_type in ["structured", "all"]:
         print("Creating structured JSON format...")
-        convert_txt_to_json(input_file, "cities15000.json")
+        convert_txt_to_json(input_file, input_file + ".json")
         print()
 
     if format_type in ["compact", "all"]:
         print("Creating compact JSON format...")
-        convert_txt_to_compact_json(input_file, "cities15000_compact.json")
+        convert_txt_to_compact_json(input_file, input_file + ".compact.json")
         print()
 
     if format_type in ["columnar", "all"]:
         print("Creating columnar JSON format...")
-        convert_txt_to_columnar_json(input_file, "cities15000_columnar.json")
+        convert_txt_to_columnar_json(input_file, input_file + ".columnar.json")
         print()
 
     print("All conversions completed!")

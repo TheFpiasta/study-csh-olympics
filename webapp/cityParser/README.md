@@ -63,22 +63,22 @@ population > 15,000 or capitals (approximately 25,000 cities).
 source .venv/bin/activate
 
 # Convert to all three formats (default)
-python3 txtToJson.py
+python3 citiesToJson.py
 
 # Convert to specific format only
-python3 txtToJson.py structured
-python3 txtToJson.py compact
-python3 txtToJson.py columnar
+python3 citiesToJson.py structured
+python3 citiesToJson.py compact
+python3 citiesToJson.py columnar
 
 # Use custom input file
-python3 txtToJson.py all cities15000.txt
-python3 txtToJson.py structured custom_cities.txt
+python3 citiesToJson.py all cities15000.txt
+python3 citiesToJson.py structured custom_cities.txt
 ```
 
 ### Command Line Arguments
 
 ```bash
-python3 txtToJson.py [format] [input_file]
+python3 citiesToJson.py [format] [input_file]
 ```
 
 **Parameters:**
@@ -94,16 +94,16 @@ python3 txtToJson.py [format] [input_file]
 
 ```bash
 # Create all formats from default file
-python3 txtToJson.py
+python3 citiesToJson.py
 
 # Create only compact format
-python3 txtToJson.py compact
+python3 citiesToJson.py compact
 
 # Create structured format from custom file
-python3 txtToJson.py structured my_cities.txt
+python3 citiesToJson.py structured my_cities.txt
 
 # Create all formats from custom file
-python3 txtToJson.py all downloaded_cities.txt
+python3 citiesToJson.py all downloaded_cities.txt
 ```
 
 ## Output Formats

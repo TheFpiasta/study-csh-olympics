@@ -288,7 +288,7 @@ const CapacityBoxPlot = ({data}) => {
                         </div>
                     </div>
 
-                    <div className="h-[520px] w-full flex items-center justify-center overflow-hidden">
+                    <div className="h-[520px] w-full flex items-center justify-center">
                         {!seatingObservations.length ? (<div
                             className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-lg p-6 max-w-md text-center">
                             <p className="text-yellow-800 dark:text-yellow-300">No capacity data available with current

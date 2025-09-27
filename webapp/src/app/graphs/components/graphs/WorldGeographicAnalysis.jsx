@@ -6,12 +6,16 @@ import {ResponsiveBar} from '@nivo/bar';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 import {graphTheme} from "@/app/graphs/components/utility";
+import geographicService from '../../../../components/geographicService';
 
 const WorldGeographicAnalysis = ({geojsonData}) => {
     const [data, setData] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
-    const [viewMode, setViewMode] = useState('country'); // 'continent' or 'country'
+    const [viewMode, setViewMode] = useState('continent'); // 'continent' or 'country'
+    const [geoDataLoading, setGeoDataLoading] = useState(false);
+    const [geoDataError, setGeoDataError] = useState(null);
+    const [geoMapping, setGeoMapping] = useState(new Map());
 
     useEffect(() => {
         if (!geojsonData) return;
@@ -21,90 +25,63 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
         setError(geojsonData.error);
     }, [geojsonData]);
 
-    // Country to continent mapping
-    const getContinent = (country) => {
-        const continentMap = {
-            // Europe
-            'Greece': 'Europe', 'France': 'Europe', 'United Kingdom': 'Europe', 'Sweden': 'Europe',
-            'Belgium': 'Europe', 'Netherlands': 'Europe', 'Switzerland': 'Europe', 'Germany': 'Europe',
-            'Norway': 'Europe', 'Finland': 'Europe', 'Italy': 'Europe', 'Austria': 'Europe',
-            'Yugoslavia': 'Europe', 'Spain': 'Europe', 'Russia': 'Europe', 'Bosnia and Herzegovina': 'Europe',
+    // Load geographic data when component mounts or data changes
+    useEffect(() => {
+        if (!data?.games || data.games.length === 0) return;
 
-            // North America
-            'United States': 'North America', 'Canada': 'North America', 'Mexico': 'North America',
+        const loadGeographicData = async () => {
+            setGeoDataLoading(true);
+            setGeoDataError(null);
 
-            // Asia
-            'Japan': 'Asia', 'South Korea': 'Asia', 'China': 'Asia',
+            try {
+                // Extract unique city names from Olympic games data
+                const uniqueCities = [...new Set(data.games.map(game => game.location))];
 
-            // Oceania
-            'Australia': 'Oceania',
+                // Fetch geographic info for all cities
+                const geoResults = await geographicService.bulkGetGeographicInfo(uniqueCities);
 
-            // South America
-            'Brazil': 'South America',
+                // Convert to Map for efficient lookup
+                const geoMap = new Map();
+                Object.entries(geoResults).forEach(([city, info]) => {
+                    geoMap.set(city, info);
+                });
 
-            // Africa
-            'South Africa': 'Africa'
+                setGeoMapping(geoMap);
+                console.log(`Loaded geographic data for ${geoMap.size} cities`);
+
+            } catch (err) {
+                console.error('Failed to load geographic data:', err);
+                setGeoDataError(err.message);
+            } finally {
+                setGeoDataLoading(false);
+            }
         };
 
-        return continentMap[country] || 'Other';
+        loadGeographicData();
+    }, [data]);
+
+    // Get country from location using API data
+    const getCountryFromLocation = (location) => {
+        const geoInfo = geoMapping.get(location);
+        return geoInfo ? geoInfo.country : 'unknown country match';
     };
 
-    // Extract country from location or use known mappings
-    const getCountryFromLocation = (location, gameYear) => {
-        const locationCountryMap = {
-            'Athens': 'Greece', 'Athina': 'Greece',
-            'Paris': 'France',
-            'St. Louis': 'United States', 'Los Angeles': 'United States', 'Atlanta': 'United States',
-            'Lake Placid': 'United States', 'Squaw Valley': 'United States', 'Salt Lake City': 'United States',
-            'London': 'United Kingdom',
-            'Stockholm': 'Sweden',
-            'Antwerp': 'Belgium',
-            'Chamonix': 'France',
-            'Amsterdam': 'Netherlands',
-            'St. Moritz': 'Switzerland',
-            'Berlin': 'Germany',
-            'Garmisch Partenkirchen': 'Germany',
-            'Helsinki': 'Finland',
-            'Oslo': 'Norway',
-            'Cortina d Ampezzo': 'Italy',
-            'Melbourne': 'Australia',
-            'Rome': 'Italy',
-            'Innsbruck': 'Austria',
-            'Tokyo': 'Japan',
-            'Grenoble': 'France',
-            'Mexico City': 'Mexico',
-            'Munich': 'Germany',
-            'Sapporo': 'Japan',
-            'Montreal': 'Canada',
-            'Moscow': 'Russia',
-            'Sarajevo': 'Yugoslavia',
-            'Calgary': 'Canada',
-            'Seoul': 'South Korea',
-            'Albertville': 'France',
-            'Barcelona': 'Spain',
-            'Lillehammer': 'Norway',
-            'Nagano': 'Japan',
-            'Sydney': 'Australia',
-            'Turin': 'Italy',
-            'Beijing': 'China',
-            'Vancouver': 'Canada',
-            'Sochi': 'Russia',
-            'Rio': 'Brazil',
-            'Pyeongchang': 'South Korea'
-        };
-
-        return locationCountryMap[location] || location;
+    // Get continent from location using API data
+    const getContinent = (location) => {
+        const geoInfo = geoMapping.get(location);
+        return geoInfo ? geoInfo.continent : 'unknown continent match';
     };
 
     // Process data for Continental/Country Distribution
     const getDistributionData = () => {
-        if (!data?.games) return [];
+        if (!data?.games || geoMapping.size === 0) return [];
 
         const distribution = {};
 
         data.games.forEach(game => {
-            const country = getCountryFromLocation(game.location, game.year);
-            const region = viewMode === 'continent' ? getContinent(country) : country;
+            const region = viewMode === 'continent'
+                ? getContinent(game.location)
+                : getCountryFromLocation(game.location);
 
             if (!distribution[region]) {
                 distribution[region] = {venues: 0, games: 0};
@@ -127,13 +104,14 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
 
     // Process data for Venue Density Analysis (venues per game by region)
     const getDensityData = () => {
-        if (!data?.games) return [];
+        if (!data?.games || geoMapping.size === 0) return [];
 
         const density = {};
 
         data.games.forEach(game => {
-            const country = getCountryFromLocation(game.location, game.year);
-            const region = viewMode === 'continent' ? getContinent(country) : country;
+            const region = viewMode === 'continent'
+                ? getContinent(game.location)
+                : getCountryFromLocation(game.location);
 
             if (!density[region]) {
                 density[region] = {totalVenues: 0, totalGames: 0};
@@ -155,18 +133,25 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
     };
 
 
-    if (loading) {
+    if (loading || geoDataLoading) {
         return (
             <div className="flex justify-center items-center h-64">
-                <LoadingSpinner/>
+                <div className="text-center">
+                    <LoadingSpinner/>
+                    <p className="mt-2 text-gray-600 dark:text-gray-400">
+                        {loading ? 'Loading Olympic data...' : 'Loading geographic data...'}
+                    </p>
+                </div>
             </div>
         );
     }
 
-    if (error) {
+    if (error || geoDataError) {
         return (
             <div className="bg-red-50 dark:bg-red-900/20 border border-red-200 dark:border-red-800 rounded-lg p-6">
-                <p className="text-red-800 dark:text-red-300">Error loading data: {error}</p>
+                <p className="text-red-800 dark:text-red-300">
+                    Error loading data: {error || geoDataError}
+                </p>
             </div>
         );
     }
@@ -200,16 +185,6 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                             <span className="text-sm text-gray-600 dark:text-gray-400">View by:</span>
                             <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
                                 <button
-                                    onClick={() => setViewMode('country')}
-                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
-                                        viewMode === 'country'
-                                            ? 'bg-emerald-500 text-white'
-                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
-                                    }`}
-                                >
-                                    Country
-                                </button>
-                                <button
                                     onClick={() => setViewMode('continent')}
                                     className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
                                         viewMode === 'continent'
@@ -218,6 +193,16 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                                     }`}
                                 >
                                     Continent
+                                </button>
+                                <button
+                                    onClick={() => setViewMode('country')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        viewMode === 'country'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Country
                                 </button>
                             </div>
                         </div>

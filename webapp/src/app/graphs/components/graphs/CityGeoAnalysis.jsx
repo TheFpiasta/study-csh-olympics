@@ -179,6 +179,10 @@ const CityGeoAnalysis = ({geojsonData}) => {
 
         // Transform to proper Sunburst format with nested children structure
         const colors = [
+            "#f1ae08", "#ec3434", "#2069e1", // used colors
+            "#77ba11", "#e879f9", // fallback colors
+            // optimal not used colors:
+            "#facc15", "#ef4444", "#3b82f6",
             '#3b82f6', '#10b981', '#f59e0b', '#ef4444',
             '#8b5cf6', '#06b6d4', '#84cc16', '#f97316',
             '#6366f1', '#14b8a6', '#f43f5e', '#e879f9',
@@ -339,9 +343,11 @@ const CityGeoAnalysis = ({geojsonData}) => {
                                     children: distributionData
                                 }}
                                 margin={{top: 1, right: 1, bottom: 1, left: 1}}
-                                cornerRadius={3}
-                                borderWidth={1}
-                                borderColor={{from: 'color', modifiers: [['darker', 0.2]]}}
+                                cornerRadius={7.5}
+                                borderWidth={3}
+                                borderColor={"#1e2939"}
+                                // borderColor={{ theme: 'background' }}
+                                // borderColor={{from: 'color', modifiers: [['darker', 0.2]]}}//
                                 inheritColorFromParent={false}
                                 colors={(node) => node.data.color}
                                 enableArcLabels={true}

@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ResponsiveBar } from '@nivo/bar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 
 const DevelopmentStatusChart = ({ geojsonData }) => {
     const [data, setData] = useState(null);
@@ -28,16 +28,16 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
     // Country development status classification based on historical context
     const getCountryDevelopmentStatus = (location, year) => {
         if (!location) return 'Unknown';
-        
+
         const locationLower = location.toLowerCase();
         const gameYear = parseInt(year) || new Date().getFullYear();
-        
+
         // Industrialized/Developed countries (generally OECD countries or similar economic status)
         const industrializedCountries = [
             // North America
             'united states', 'usa', 'los angeles', 'atlanta', 'salt lake', 'lake placid', 'squaw valley',
             'canada', 'montreal', 'calgary', 'vancouver',
-            
+
             // Western Europe
             'united kingdom', 'great britain', 'london',
             'france', 'paris', 'grenoble', 'albertville', 'chamonix',
@@ -51,13 +51,13 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
             'finland', 'helsinki',
             'switzerland', 'st. moritz',
             'austria', 'innsbruck',
-            
+
             // Other developed countries
             'japan', 'tokyo', 'sapporo', 'nagano',
             'australia', 'melbourne', 'sydney',
             'south korea', 'seoul', 'pyeongchang'
         ];
-        
+
         // Developing countries (based on historical economic status at time of hosting)
         const developingCountries = [
             'mexico', 'mexico city',
@@ -67,26 +67,26 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
             'brazil', 'rio',
             'greece', 'athens' // Greece had economic challenges, especially in recent decades
         ];
-        
+
         // Check against industrialized countries
         for (const country of industrializedCountries) {
             if (locationLower.includes(country)) {
                 return 'Industrialized';
             }
         }
-        
+
         // Check against developing countries
         for (const country of developingCountries) {
             if (locationLower.includes(country)) {
                 return 'Developing';
             }
         }
-        
+
         // Special cases based on year
         if (locationLower.includes('russia') || locationLower.includes('soviet')) {
             return gameYear < 1991 ? 'Socialist/Planned' : 'Developing';
         }
-        
+
         return 'Unknown';
     };
 
@@ -137,31 +137,31 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
         // Process all games
         data.games.forEach(game => {
             const status = getCountryDevelopmentStatus(game.location, game.year);
-            
+
             if (status !== 'Unknown' && statusData[status]) {
                 const statusInfo = statusData[status];
                 statusInfo['Games Hosted']++;
                 statusInfo.gameCount++;
-                
+
                 if (game.harvard) {
                     const athletes = getFieldValue(game.harvard, 'number_of_athletes');
                     const cost = getFieldValue(game.harvard, 'cost_of_venues_(usd_2018)');
-                    
+
                     // Calculate total revenue from all revenue sources
                     const ticketingRevenue = getFieldValue(game.harvard, 'ticketing_revenue_(usd2018)');
                     const broadcastRevenue = getFieldValue(game.harvard, 'broadcast_revenue_(usd2018)');
                     const intlSponsorshipRevenue = getFieldValue(game.harvard, 'international_sponsorship_revenue_(usd_2018)');
                     const domesticSponsorshipRevenue = getFieldValue(game.harvard, 'domestic_sponsorship_revenue_(usd_2018)');
-                    
+
                     const revenue = ticketingRevenue + broadcastRevenue + intlSponsorshipRevenue + domesticSponsorshipRevenue;
-                    
+
                     statusInfo.totalAthletes += athletes;
-                    
+
                     if (cost > 0) {
                         statusInfo.totalCost += cost;
                         statusInfo.validCostGames++;
                     }
-                    
+
                     if (revenue > 0) {
                         statusInfo.totalRevenue += revenue;
                         statusInfo.validRevenueGames++;
@@ -177,7 +177,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                 const avgAthletes = status.gameCount > 0 ? status.totalAthletes / status.gameCount : 0;
                 const avgCost = status.validCostGames > 0 ? status.totalCost / status.validCostGames / 1000000000 : 0;
                 const avgRevenue = status.validRevenueGames > 0 ? status.totalRevenue / status.validRevenueGames / 1000000000 : 0;
-                
+
                 return {
                     status: status.status,
                     'Games Hosted': status['Games Hosted'],
@@ -200,7 +200,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                 cost: Math.max(...result.map(r => r._rawCost)),
                 revenue: Math.max(...result.map(r => r._rawRevenue))
             };
-            
+
             result = result.map(status => ({
                 ...status,
                 'Games Hosted': maxValues.games > 0 ? Math.round((status._rawGames / maxValues.games) * 100) : 0,
@@ -260,13 +260,13 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
         'Average Cost (Billions)': '#ef4444',      // Red
         'Average Revenue (Billions)': '#f59e0b'    // Amber
     };
-    
+
     // Filter metrics based on visibility
     const visibleMetricList = metrics.filter(metric => visibleMetrics[metric]);
-    
+
     // Use single color for current metric
     const currentColor = metricColors[selectedMetric] || '#3b82f6';
-    
+
     // Toggle metric visibility and select it
     const toggleMetric = (metric) => {
         if (selectedMetric === metric) {
@@ -295,7 +295,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                     Bar Chart
                 </span>
             </h3>
-            
+
             {/* Display Mode Controls */}
             <div className="flex items-center justify-between mb-4">
                 <div className="flex flex-wrap items-center gap-4">
@@ -327,14 +327,14 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                 </div>
                 <div className="text-right">
                     <p className="text-xs text-gray-500 dark:text-gray-400">
-                        {displayMode === 'count' 
+                        {displayMode === 'count'
                             ? 'Raw values for each metric'
                             : 'Normalized values (0-100 scale) for comparison'
                         }
                     </p>
                 </div>
             </div>
-            
+
             {/* Custom Legend */}
             <div className="mb-4">
                 <h4 className="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300">Metrics (click to toggle)</h4>
@@ -348,12 +348,12 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                                     ? 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-2'
                                     : 'bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-500 border-2 border-gray-300 dark:border-gray-600 opacity-50'
                             }`}
-                            style={{ 
-                                borderColor: selectedMetric === metric ? metricColors[metric] : undefined 
+                            style={{
+                                borderColor: selectedMetric === metric ? metricColors[metric] : undefined
                             }}
                         >
-                            <div 
-                                className="w-3 h-3 rounded-full" 
+                            <div
+                                className="w-3 h-3 rounded-full"
                                 style={{ backgroundColor: metricColors[metric] }}
                             />
                             {metric}
@@ -361,7 +361,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                     ))}
                 </div>
             </div>
-            
+
             <div className="mt-6">
                 <div className="h-96 md:h-[500px]">
                     <ResponsiveBar
@@ -416,21 +416,21 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                                 outlineColor: 'transparent'
                             },
                             axis: {
-                                legend: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 14, 
-                                        fontWeight: 600 
-                                    } 
+                                legend: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 14,
+                                        fontWeight: 600
+                                    }
                                 },
-                                ticks: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 11 
-                                    }, 
-                                    line: { 
-                                        stroke: '#444' 
-                                    } 
+                                ticks: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 11
+                                    },
+                                    line: {
+                                        stroke: '#444'
+                                    }
                                 }
                             },
                             grid: {
@@ -440,9 +440,9 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                                 }
                             },
                             tooltip: {
-                                container: { 
-                                    background: '#0f1724', 
-                                    color: '#fff' 
+                                container: {
+                                    background: '#0f1724',
+                                    color: '#fff'
                                 }
                             }
                         }}
@@ -450,8 +450,8 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                             <div className="p-3 text-white bg-gray-800 border border-gray-600 rounded-lg shadow-xl">
                                 <div className="mb-2 font-bold">{data.status}</div>
                                 <div className="flex items-center gap-2 mb-2">
-                                    <div 
-                                        className="w-3 h-3 rounded-full" 
+                                    <div
+                                        className="w-3 h-3 rounded-full"
                                         style={{ backgroundColor: currentColor }}
                                     />
                                     <span className="text-sm text-gray-300">{selectedMetric}</span>
@@ -480,7 +480,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                         Developed economies with established infrastructure and high GDP per capita at time of hosting.
                     </p>
                 </div>
-                
+
                 <div className="p-4 border border-orange-200 rounded-lg bg-gradient-to-br from-orange-50 to-orange-100 dark:from-orange-900/20 dark:to-orange-800/20 dark:border-orange-700">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 bg-orange-500 rounded-full"></div>
@@ -490,7 +490,7 @@ const DevelopmentStatusChart = ({ geojsonData }) => {
                         Emerging economies with growing infrastructure and developing economic indicators.
                     </p>
                 </div>
-                
+
                 <div className="p-4 border border-purple-200 rounded-lg bg-gradient-to-br from-purple-50 to-purple-100 dark:from-purple-900/20 dark:to-purple-800/20 dark:border-purple-700">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 bg-purple-500 rounded-full"></div>

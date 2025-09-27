@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ResponsiveRadar } from '@nivo/radar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 
 const SummerWinterRadarChart = ({ geojsonData }) => {
@@ -32,12 +32,12 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
 
         // Filter games that have Harvard data
         const validGames = data.games.filter(g => g.harvard && Object.keys(g.harvard).length > 0);
-        
+
         const summerGames = validGames.filter(game => {
             const season = game.season || (game.features && game.features[0]?.properties?.season) || '';
             return season.toLowerCase() === 'summer';
         });
-        
+
         const winterGames = validGames.filter(game => {
             const season = game.season || (game.features && game.features[0]?.properties?.season) || '';
             return season.toLowerCase() === 'winter';
@@ -47,13 +47,13 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
 
         // Calculate efficiency metrics for each game type
         const calculateEfficiencyMetrics = (games) => {
-            if (games.length === 0) return { 
-                costPerAthlete: 0, 
-                revenuePerAthlete: 0, 
-                athletesPerSport: 0, 
-                mediaPerAthlete: 0, 
-                costPerVenue: 0, 
-                revenuePerEvent: 0 
+            if (games.length === 0) return {
+                costPerAthlete: 0,
+                revenuePerAthlete: 0,
+                athletesPerSport: 0,
+                mediaPerAthlete: 0,
+                costPerVenue: 0,
+                revenuePerEvent: 0
             };
 
             const efficiencyTotals = games.reduce((acc, game) => {
@@ -61,7 +61,7 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                 const athletes = getFieldValue(game.harvard, 'number_of_athletes');
                 const events = getFieldValue(game.harvard, 'number_of_events');
                 const media = getFieldValue(game.harvard, 'accredited_media');
-                
+
                 // Cost metrics
                 const venueCosts = getFieldValue(game.harvard, 'cost_of_venues_(usd_2018)');
                 const orgCosts = getFieldValue(game.harvard, 'cost_of_organisation_(usd_2018)');
@@ -100,13 +100,13 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                     costPerVenue: acc.costPerVenue + costPerVenue,
                     revenuePerEvent: acc.revenuePerEvent + revenuePerEvent
                 };
-            }, { 
-                costPerAthlete: 0, 
-                revenuePerAthlete: 0, 
-                athletesPerSport: 0, 
-                mediaPerAthlete: 0, 
-                costPerVenue: 0, 
-                revenuePerEvent: 0 
+            }, {
+                costPerAthlete: 0,
+                revenuePerAthlete: 0,
+                athletesPerSport: 0,
+                mediaPerAthlete: 0,
+                costPerVenue: 0,
+                revenuePerEvent: 0
             });
 
             // Return averages
@@ -253,7 +253,7 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                     Radar Chart
                 </span>
             </h3>
-            
+
             {/* Display Mode Controls */}
             <div className="flex items-center justify-between mb-4">
                 <div className="flex flex-wrap items-center gap-4">
@@ -285,14 +285,14 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                 </div>
                 <div className="text-right">
                     <p className="text-xs text-gray-500 dark:text-gray-400">
-                        {displayMode === 'percentage' 
+                        {displayMode === 'percentage'
                             ? 'Normalized to show relative performance (0-100%)'
                             : 'Actual values scaled for visualization'
                         }
                     </p>
                 </div>
             </div>
-            
+
             <div className="mt-6">
                 <div className="h-96 md:h-[500px]">
                     <ResponsiveRadar
@@ -338,8 +338,8 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                             <div className="p-3 text-white bg-gray-800 border border-gray-600 rounded-lg shadow-xl">
                                 <div className="mb-2 font-bold">{radarData[index]?.metric}</div>
                                 <div className="flex items-center gap-2 mb-2">
-                                    <div 
-                                        className="w-3 h-3 rounded-full" 
+                                    <div
+                                        className="w-3 h-3 rounded-full"
                                         style={{ backgroundColor: color }}
                                     />
                                     <span className="text-sm text-gray-300">
@@ -363,21 +363,21 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                                 outlineColor: 'transparent'
                             },
                             axis: {
-                                legend: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 14, 
-                                        fontWeight: 600 
-                                    } 
+                                legend: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 14,
+                                        fontWeight: 600
+                                    }
                                 },
-                                ticks: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 11 
-                                    }, 
-                                    line: { 
-                                        stroke: '#444' 
-                                    } 
+                                ticks: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 11
+                                    },
+                                    line: {
+                                        stroke: '#444'
+                                    }
                                 }
                             },
                             grid: {
@@ -387,9 +387,9 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                                 }
                             },
                             tooltip: {
-                                container: { 
-                                    background: '#0f1724', 
-                                    color: '#fff' 
+                                container: {
+                                    background: '#0f1724',
+                                    color: '#fff'
                                 }
                             }
                         }}
@@ -405,13 +405,13 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                         <h4 className="font-semibold text-red-700 dark:text-red-300">Summer Olympics</h4>
                     </div>
                     <p className="text-sm text-red-600 dark:text-red-400">
-                        {displayMode === 'percentage' 
+                        {displayMode === 'percentage'
                             ? 'Relative performance compared to Winter Olympics in each metric'
                             : 'Economies of scale: Lower cost per athlete, higher revenue per athlete'
                         }
                     </p>
                 </div>
-                
+
                 <div className="p-4 border border-blue-200 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 dark:border-blue-700">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
@@ -424,7 +424,7 @@ const SummerWinterRadarChart = ({ geojsonData }) => {
                         }
                     </p>
                 </div>
-                
+
                 <div className="p-4 border rounded-lg border-amber-200 bg-gradient-to-br from-amber-50 to-amber-100 dark:from-amber-900/20 dark:to-amber-800/20 dark:border-amber-700 md:col-span-2 lg:col-span-1">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 rounded-full bg-amber-500"></div>

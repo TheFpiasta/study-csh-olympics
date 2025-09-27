@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { ResponsiveBar } from '@nivo/bar';
-import LoadingSpinner from '../../../components/LoadingSpinner';
+import LoadingSpinner from '../../../../components/LoadingSpinner';
 import logger from '@/components/logger';
 
 const ContinentalVenuesBarChart = ({ geojsonData }) => {
@@ -30,14 +30,14 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
     // Helper function to determine continent from location
     const getContinent = (location) => {
         if (!location) return 'Unknown';
-        
+
         const locationLower = location.toLowerCase();
-        
+
         // European countries and cities
-        if (locationLower.includes('london') || locationLower.includes('paris') || 
-            locationLower.includes('berlin') || locationLower.includes('munich') || 
-            locationLower.includes('rome') || locationLower.includes('barcelona') || 
-            locationLower.includes('amsterdam') || locationLower.includes('stockholm') || 
+        if (locationLower.includes('london') || locationLower.includes('paris') ||
+            locationLower.includes('berlin') || locationLower.includes('munich') ||
+            locationLower.includes('rome') || locationLower.includes('barcelona') ||
+            locationLower.includes('amsterdam') || locationLower.includes('stockholm') ||
             locationLower.includes('helsinki') || locationLower.includes('antwerp') ||
             locationLower.includes('innsbruck') || locationLower.includes('grenoble') ||
             locationLower.includes('sarajevo') || locationLower.includes('albertville') ||
@@ -47,7 +47,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
             locationLower.includes('garmisch') || locationLower.includes('chamonix')) {
             return 'Europe';
         }
-        
+
         // North American countries and cities
         if (locationLower.includes('los angeles') || locationLower.includes('atlanta') ||
             locationLower.includes('lake placid') || locationLower.includes('squaw valley') ||
@@ -56,26 +56,26 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
             locationLower.includes('st. louis') || locationLower.includes('mexico city')) {
             return 'North America';
         }
-        
+
         // Asian countries and cities
         if (locationLower.includes('tokyo') || locationLower.includes('seoul') ||
             locationLower.includes('beijing') || locationLower.includes('nagano') ||
             locationLower.includes('sapporo') || locationLower.includes('pyeongchang')) {
             return 'Asia';
         }
-        
+
         // Oceanian countries and cities
         if (locationLower.includes('melbourne') || locationLower.includes('sydney')) {
             return 'Oceania';
         }
-        
+
         // South American countries and cities
         if (locationLower.includes('rio')) {
             return 'South America';
         }
-        
+
         // African countries and cities (none yet, but prepared)
-        
+
         return 'Unknown';
     };
 
@@ -83,36 +83,36 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
     const getVenueUseCategory = (feature) => {
         const status = feature.properties?.status?.toLowerCase() || '';
         const classification = feature.properties?.classification?.toLowerCase() || '';
-        
+
         // Check if venue is still active/in use
-        if (status.includes('active') || status.includes('operational') || 
+        if (status.includes('active') || status.includes('operational') ||
             status.includes('in use') || status.includes('open')) {
             return 'Still Active';
         }
-        
+
         // Check if venue was demolished/destroyed
-        if (status.includes('demolished') || status.includes('destroyed') || 
+        if (status.includes('demolished') || status.includes('destroyed') ||
             status.includes('dismantled') || status.includes('removed')) {
             return 'Demolished';
         }
-        
+
         // Check if venue was converted/repurposed
-        if (status.includes('converted') || status.includes('repurposed') || 
+        if (status.includes('converted') || status.includes('repurposed') ||
             status.includes('renovated') || status.includes('transformed')) {
             return 'Repurposed';
         }
-        
+
         // Check if venue is abandoned/unused
-        if (status.includes('abandoned') || status.includes('unused') || 
+        if (status.includes('abandoned') || status.includes('unused') ||
             status.includes('closed') || status.includes('derelict')) {
             return 'Abandoned';
         }
-        
+
         // Check for temporary venues
         if (classification.includes('temporary') || status.includes('temporary')) {
             return 'Temporary';
         }
-        
+
         return 'Unknown Status';
     };
 
@@ -121,11 +121,11 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
         if (!data?.games) return [];
 
         const continentData = {};
-        
+
         // Initialize continent data structure
         const continents = ['Europe', 'North America', 'Asia', 'Oceania', 'South America'];
         const useCategories = ['Still Active', 'Repurposed', 'Demolished', 'Abandoned', 'Temporary', 'Unknown Status'];
-        
+
         continents.forEach(continent => {
             continentData[continent] = {
                 continent,
@@ -139,11 +139,11 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
         // Process all venues
         data.games.forEach(game => {
             const continent = getContinent(game.location);
-            
+
             if (continent !== 'Unknown' && continentData[continent]) {
                 game.features?.forEach(feature => {
                     const useCategory = getVenueUseCategory(feature);
-                    
+
                     continentData[continent].total++;
                     continentData[continent][useCategory]++;
                 });
@@ -160,7 +160,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
             result = result.map(continent => {
                 const percentageContinent = { ...continent };
                 useCategories.forEach(category => {
-                    percentageContinent[category] = continent.total > 0 
+                    percentageContinent[category] = continent.total > 0
                         ? Math.round((continent[category] / continent.total) * 100 * 10) / 10
                         : 0;
                 });
@@ -169,7 +169,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
         }
 
         console.log('Continental venue data:', result);
-        
+
         return result;
     };
 
@@ -214,19 +214,19 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
     const useCategories = ['Still Active', 'Repurposed', 'Demolished', 'Abandoned', 'Temporary', 'Unknown Status'];
     const categoryColors = {
         'Still Active': '#22c55e',      // Green
-        'Repurposed': '#3b82f6',       // Blue  
+        'Repurposed': '#3b82f6',       // Blue
         'Demolished': '#ef4444',       // Red
         'Abandoned': '#f59e0b',        // Amber
         'Temporary': '#8b5cf6',        // Purple
         'Unknown Status': '#6b7280'    // Gray
     };
-    
+
     // Filter categories based on visibility
     const visibleCategoryList = useCategories.filter(category => visibleCategories[category]);
-    
+
     // Create color array in the same order as visible categories
     const colorArray = visibleCategoryList.map(category => categoryColors[category]);
-    
+
     // Toggle category visibility
     const toggleCategory = (category) => {
         setVisibleCategories(prev => ({
@@ -243,7 +243,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                     Bar Chart
                 </span>
             </h3>
-            
+
             {/* Display Mode Controls */}
             <div className="flex items-center justify-between mb-4">
                 <div className="flex flex-wrap items-center gap-4">
@@ -275,14 +275,14 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                 </div>
                 <div className="text-right">
                     <p className="text-xs text-gray-500 dark:text-gray-400">
-                        {displayMode === 'count' 
+                        {displayMode === 'count'
                             ? 'Total number of venues in each category'
                             : 'Percentage distribution within each continent'
                         }
                     </p>
                 </div>
             </div>
-            
+
             {/* Custom Legend */}
             <div className="mb-4">
                 <h4 className="mb-3 text-sm font-medium text-gray-700 dark:text-gray-300">Venue Status Categories (click to toggle)</h4>
@@ -296,12 +296,12 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                                     ? 'bg-gray-100 dark:bg-gray-700 text-gray-900 dark:text-gray-100 border-2'
                                     : 'bg-gray-50 dark:bg-gray-800 text-gray-400 dark:text-gray-500 border-2 border-gray-300 dark:border-gray-600 opacity-50'
                             }`}
-                            style={{ 
-                                borderColor: visibleCategories[category] ? categoryColors[category] : undefined 
+                            style={{
+                                borderColor: visibleCategories[category] ? categoryColors[category] : undefined
                             }}
                         >
-                            <div 
-                                className="w-3 h-3 rounded-full" 
+                            <div
+                                className="w-3 h-3 rounded-full"
                                 style={{ backgroundColor: categoryColors[category] }}
                             />
                             {category}
@@ -309,7 +309,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                     ))}
                 </div>
             </div>
-            
+
             <div className="mt-6">
                 <div className="h-96 md:h-[500px]">
                     <ResponsiveBar
@@ -361,21 +361,21 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                                 outlineColor: 'transparent'
                             },
                             axis: {
-                                legend: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 14, 
-                                        fontWeight: 600 
-                                    } 
+                                legend: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 14,
+                                        fontWeight: 600
+                                    }
                                 },
-                                ticks: { 
-                                    text: { 
-                                        fill: '#fff', 
-                                        fontSize: 11 
-                                    }, 
-                                    line: { 
-                                        stroke: '#444' 
-                                    } 
+                                ticks: {
+                                    text: {
+                                        fill: '#fff',
+                                        fontSize: 11
+                                    },
+                                    line: {
+                                        stroke: '#444'
+                                    }
                                 }
                             },
                             grid: {
@@ -385,9 +385,9 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                                 }
                             },
                             tooltip: {
-                                container: { 
-                                    background: '#0f1724', 
-                                    color: '#fff' 
+                                container: {
+                                    background: '#0f1724',
+                                    color: '#fff'
                                 }
                             }
                         }}
@@ -395,8 +395,8 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                             <div className="p-3 text-white bg-gray-800 border border-gray-600 rounded-lg shadow-xl">
                                 <div className="mb-2 font-bold">{data.continent}</div>
                                 <div className="flex items-center gap-2 mb-2">
-                                    <div 
-                                        className="w-3 h-3 rounded-full" 
+                                    <div
+                                        className="w-3 h-3 rounded-full"
                                         style={{ backgroundColor: color }}
                                     />
                                     <span className="text-sm text-gray-300">{id}</span>
@@ -426,7 +426,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                         Venues continuing to serve their original or similar purpose after the Olympics.
                     </p>
                 </div>
-                
+
                 <div className="p-4 border border-blue-200 rounded-lg bg-gradient-to-br from-blue-50 to-blue-100 dark:from-blue-900/20 dark:to-blue-800/20 dark:border-blue-700">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 bg-blue-500 rounded-full"></div>
@@ -436,7 +436,7 @@ const ContinentalVenuesBarChart = ({ geojsonData }) => {
                         Venues converted or renovated for different uses, demonstrating adaptive reuse.
                     </p>
                 </div>
-                
+
                 <div className="p-4 border rounded-lg border-amber-200 bg-gradient-to-br from-amber-50 to-amber-100 dark:from-amber-900/20 dark:to-amber-800/20 dark:border-amber-700">
                     <div className="flex items-center gap-2 mb-2">
                         <div className="w-3 h-3 rounded-full bg-amber-500"></div>

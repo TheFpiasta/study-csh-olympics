@@ -6,7 +6,7 @@ import {olympicColors} from "@/components/utility";
  * @returns {{min: number, max: number}|{min: string, max: string}}
  */
 export const getYearRange = (data) => {
-    if (!data?.games) return { min: 'auto', max: 'auto' };
+    if (!data?.games) return {min: 'auto', max: 'auto'};
 
     const years = data.games.map(game => game.year);
     return {
@@ -23,7 +23,7 @@ export const getYearRange = (data) => {
  * @param alpha - optional alpha value for transparency (0 to 1)
  * @returns {string} - HSLA color string
  */
-export const getMetricColor = (ID, visibleColors, alpha = 1) => {
+export const getColorFromPalet = (ID, visibleColors, alpha = 1) => {
     const baseHue = ID * 360 / visibleColors;
 
     // Same color for both summer and winter lines of the same metric
@@ -40,7 +40,7 @@ export const getMetricColor = (ID, visibleColors, alpha = 1) => {
  * @param season - 'Summer' or 'Winter'
  * @returns {string} - Hex color code
  */
-export const getPointColor = (season) => {
+export const getSeasonColor = (season) => {
     if (!season || typeof season !== 'string') {
         return olympicColors.extended.black3 // Gray fallback color
     }
@@ -52,5 +52,54 @@ export const getPointColor = (season) => {
             return olympicColors.primary.blue;
         default:
             return olympicColors.extended.black4; // Gray fallback color
+    }
+};
+
+export const graphTheme = {
+    background: 'transparent',
+    grid: {
+        line: {
+            stroke: '#374151',
+            strokeWidth: 1
+        }
+    },
+    text: {
+        fill: '#374151',
+        fontSize: 11
+    },
+    axis: {
+        ticks: {
+            line: {
+                stroke: '#374151',
+            },
+            text: {
+                fontSize: 11,
+                fill: '#d1d5db',
+            }
+        },
+        legend: {
+            text: {
+                fontSize: 12,
+                fill: '#d1d5db',
+            }
+        },
+        domain: {
+            line: {
+                stroke: '#374151',
+                strokeWidth: 2
+            }
+        },
+    },
+    legends: {
+        text: {
+            fill: '#d1d5db',
+            fontSize: 11,
+        }
+    },
+    labels: {
+        text: {
+            fontSize: 11,
+            fill: '#d1d5db',
+        }
     }
 };

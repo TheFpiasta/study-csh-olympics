@@ -68,8 +68,8 @@ webapp/
 │   │   ├── MapWithChartsLayout.jsx      # Main map + charts layout
 │   │   ├── MapWithLayers.jsx            # Multi-layer map with controls
 │   │   ├── ChartsPanel.jsx              # Analytics dashboard
-│   │   ├── TemporalAnalysis.jsx         # Time-series visualizations
-│   │   ├── GeographicAnalysis.jsx       # Geographic charts
+│   │   ├── DatasetStatistics.jsx         # Time-series visualizations
+│   │   ├── WorldGeographicAnalysis.jsx       # Geographic charts
 │   │   ├── InteractiveFeatures.jsx      # Interactive analytics
 │   │   ├── ThemeProvider.jsx            # Theme context wrapper
 │   │   ├── ThemeToggle.jsx              # Dark/light mode toggle
@@ -266,8 +266,9 @@ Advanced map component with:
 Simplified map component for single dataset visualization.
 
 #### Chart Components
-- `TemporalAnalysis` - Time-series visualizations
-- `GeographicAnalysis` - Spatial data charts
+
+- `DatasetStatistics` - Time-series visualizations
+- `WorldGeographicAnalysis` - Spatial data charts
 - `ChartsPanel` - Status and metrics dashboard
 - `InteractiveFeatures` - Interactive analytics
 

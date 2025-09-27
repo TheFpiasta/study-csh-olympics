@@ -23,6 +23,19 @@ const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute in milliseconds
 const MAX_REQUESTS_PER_WINDOW = 10; // Maximum requests per IP per minute
 const MAX_CITIES_PER_MINUTE = 1000; // Maximum cities processed per IP per minute
 
+const CITIES_DATA_ENHANCEMENT = {
+    // https://de.wikipedia.org/wiki/Olympic_Valley
+    "Squaw Valley": {
+        "searchTerm": "Squaw Valley",
+        "found": true,
+        "country_code": "US",
+        "country_name": "United States",
+        "population": 823,
+        "continent": "North America",
+        "continent_code": "NA"
+    },
+}
+
 function getClientIP(request) {
     // Get client IP from various headers (for proxy/load balancer scenarios)
     const forwardedFor = request.headers.get('x-forwarded-for');
@@ -314,6 +327,14 @@ function searchCityAndGetResult(cityName) {
     const matchIndex = searchCity(cityName);
 
     if (matchIndex === -1) {
+        // Fallback: Check CITIES_DATA_ENHANCEMENT for manual data entries
+        if (CITIES_DATA_ENHANCEMENT[cityName]) {
+            logger.warn(`Using hardcoded enhanced data for city: ${cityName}`);
+            return CITIES_DATA_ENHANCEMENT[cityName];
+        } else {
+            logger.warn(`City not found: ${cityName}`);
+        }
+
         // Full result object for not found (commented out - uncomment for detailed response)
         // return {
         //     searchTerm: cityName,

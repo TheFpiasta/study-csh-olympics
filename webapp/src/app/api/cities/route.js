@@ -23,6 +23,19 @@ const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute in milliseconds
 const MAX_REQUESTS_PER_WINDOW = 10; // Maximum requests per IP per minute
 const MAX_CITIES_PER_MINUTE = 1000; // Maximum cities processed per IP per minute
 
+const CITIES_DATA_ENHANCEMENT = {
+    // https://de.wikipedia.org/wiki/Olympic_Valley
+    "Squaw Valley": {
+        "searchTerm": "Squaw Valley",
+        "found": true,
+        "country_code": "US",
+        "country_name": "United States",
+        "population": 823,
+        "continent": "North America",
+        "continent_code": "NA"
+    },
+}
+
 function getClientIP(request) {
     // Get client IP from various headers (for proxy/load balancer scenarios)
     const forwardedFor = request.headers.get('x-forwarded-for');
@@ -218,23 +231,36 @@ function getCountryInfo(countryCode) {
     }
 }
 
+// Normalize city name for fuzzy matching - removes common punctuation differences
+function normalizeCityName(cityName) {
+    if (!cityName) return '';
+    return cityName
+        .toLowerCase()
+        .trim()
+        // Replace common punctuation with spaces
+        .replace(/['\-]/g, ' ')
+        // Replace multiple spaces with single space
+        .replace(/\s+/g, ' ')
+        .trim();
+}
+
 function searchCity(cityName) {
     const data = citiesData.data;
     const searchTerm = cityName.toLowerCase().trim();
 
-    // Search in name field
+    // Step 1: Exact match in name field
     let matchIndex = data.name.findIndex(name =>
         name && name.toLowerCase() === searchTerm
     );
 
-    // Search in asciiname field if not found
+    // Step 2: Exact match in asciiname field if not found
     if (matchIndex === -1) {
         matchIndex = data.asciiname.findIndex(asciiName =>
             asciiName && asciiName.toLowerCase() === searchTerm
         );
     }
 
-    // Search in alternatenames if still not found
+    // Step 3: Exact match in alternatenames if still not found
     if (matchIndex === -1) {
         matchIndex = data.alternatenames.findIndex(alternates => {
             if (!Array.isArray(alternates)) return false;
@@ -244,6 +270,56 @@ function searchCity(cityName) {
         });
     }
 
+    // Step 4: Fuzzy match with normalized names (only if exact match failed)
+    if (matchIndex === -1) {
+        const normalizedSearchTerm = normalizeCityName(searchTerm);
+
+        // Skip fuzzy matching for short terms to avoid false positives (minimum 5 characters)
+        if (normalizedSearchTerm.length < 5) {
+            return matchIndex;
+        }
+
+        // Fuzzy match in name field
+        matchIndex = data.name.findIndex(name => {
+            if (!name) return false;
+            const normalizedName = normalizeCityName(name);
+            // Only match if length difference is reasonable (within 3 characters)
+            if (Math.abs(normalizedName.length - normalizedSearchTerm.length) > 3) {
+                return false;
+            }
+            return normalizedName === normalizedSearchTerm;
+        });
+
+        // Fuzzy match in asciiname field if still not found
+        if (matchIndex === -1) {
+            matchIndex = data.asciiname.findIndex(asciiName => {
+                if (!asciiName) return false;
+                const normalizedAscii = normalizeCityName(asciiName);
+                // Only match if length difference is reasonable (within 3 characters)
+                if (Math.abs(normalizedAscii.length - normalizedSearchTerm.length) > 3) {
+                    return false;
+                }
+                return normalizedAscii === normalizedSearchTerm;
+            });
+        }
+
+        // Fuzzy match in alternatenames if still not found
+        if (matchIndex === -1) {
+            matchIndex = data.alternatenames.findIndex(alternates => {
+                if (!Array.isArray(alternates)) return false;
+                return alternates.some(altName => {
+                    if (!altName) return false;
+                    const normalizedAlt = normalizeCityName(altName);
+                    // Only match if length difference is reasonable (within 3 characters)
+                    if (Math.abs(normalizedAlt.length - normalizedSearchTerm.length) > 3) {
+                        return false;
+                    }
+                    return normalizedAlt === normalizedSearchTerm;
+                });
+            });
+        }
+    }
+
     return matchIndex;
 }
 
@@ -251,6 +327,14 @@ function searchCityAndGetResult(cityName) {
     const matchIndex = searchCity(cityName);
 
     if (matchIndex === -1) {
+        // Fallback: Check CITIES_DATA_ENHANCEMENT for manual data entries
+        if (CITIES_DATA_ENHANCEMENT[cityName]) {
+            logger.warn(`Using hardcoded enhanced data for city: ${cityName}`);
+            return CITIES_DATA_ENHANCEMENT[cityName];
+        } else {
+            logger.warn(`City not found: ${cityName}`);
+        }
+
         // Full result object for not found (commented out - uncomment for detailed response)
         // return {
         //     searchTerm: cityName,

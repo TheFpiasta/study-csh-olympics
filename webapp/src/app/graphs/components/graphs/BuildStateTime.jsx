@@ -44,13 +44,18 @@ const BuildStateTime = ({data}) => {
             const year = parseInt(game.year);
 
             if (yearData[year]) {
-                yearData[year].location = game.location;
+                // Track if this game contributes any venues after filtering
+                let hasValidFeatures = false;
+                let gameVenueCount = 0;
 
                 // Count venues by build state for this year
                 game.features.forEach(feature => {
                     // Apply season filter
                     if (buildStateSeasonFilter === 'summer' && feature.properties.season !== 'Summer') return;
                     if (buildStateSeasonFilter === 'winter' && feature.properties.season !== 'Winter') return;
+
+                    hasValidFeatures = true;
+                    gameVenueCount++;
 
                     const classification = feature.properties.classification || 'Unknown';
                     // if (classification === 'Unknown') logger.warn(`Feature with unknown classification in ${game.location} ${year} name: ${feature.properties.associated_names}`);
@@ -61,6 +66,17 @@ const BuildStateTime = ({data}) => {
                         yearData[year]['Unknown']++;
                     }
                 });
+
+                // Only update location if this game has valid features after filtering
+                if (hasValidFeatures) {
+                    if (yearData[year].location === '') {
+                        // First valid game for this year
+                        yearData[year].location = game.location;
+                    } else if (yearData[year].location !== game.location) {
+                        // Multiple games in same year - combine locations
+                        yearData[year].location = `${yearData[year].location} / ${game.location}`;
+                    }
+                }
             }
         });
 
@@ -69,7 +85,7 @@ const BuildStateTime = ({data}) => {
 
     return (
         <div
-            className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
+            className="p-6 mx-4 mb-8 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
             <SectionGraphHeadline headline="Construction Status Over Time"
                                   description="Analyze the construction status of Olympic venues over time. Use the filters to focus on specific seasons and construction state categories."
                                   infoText="The construction status was determined based at the time of host selection. The unknowen status are created by our prove of concept data matching. On empty years, in the data time range, no Olympics were held."
@@ -77,8 +93,8 @@ const BuildStateTime = ({data}) => {
             </SectionGraphHeadline>
 
             {/* Season Filter for Build State Chart */}
-            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            <div className="p-4 mb-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+                <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                     Olympic Season
                 </label>
                 <div className="flex flex-wrap gap-2">
@@ -116,8 +132,8 @@ const BuildStateTime = ({data}) => {
             </div>
 
             {/* Build State Filter for Stacked Bar Chart */}
-            <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
-                <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
+            <div className="p-4 mb-4 rounded-lg bg-gray-50 dark:bg-gray-800">
+                <label className="block mb-2 text-sm font-medium text-gray-700 dark:text-gray-300">
                     Build State Categories
                 </label>
                 <div className="flex flex-wrap gap-2">
@@ -204,8 +220,8 @@ const BuildStateTime = ({data}) => {
                     }}
                     tooltip={({id, value, color, data}) => (
                         <div
-                            className="bg-white dark:bg-gray-800 p-4 rounded-lg shadow-xl border border-gray-200 dark:border-gray-600 min-w-60">
-                            <div className="font-bold text-base text-gray-900 dark:text-gray-100 mb-1">
+                            className="p-4 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-gray-800 dark:border-gray-600 min-w-60">
+                            <div className="mb-1 text-base font-bold text-gray-900 dark:text-gray-100">
                                 {data.location} {data.year}
                             </div>
                             <div className="flex items-center gap-2 mb-2">
@@ -216,7 +232,7 @@ const BuildStateTime = ({data}) => {
                                 <span className="font-medium text-gray-700 dark:text-gray-300">{id}:</span>
                                 <span className="text-gray-900 dark:text-gray-100">{value} venues</span>
                             </div>
-                            <div className="pt-2 border-t border-gray-200 dark:border-gray-600 text-sm">
+                            <div className="pt-2 text-sm border-t border-gray-200 dark:border-gray-600">
                                 <div className="grid grid-cols-2 gap-2">
                                     <div>New build: {data['New build']}</div>
                                     <div>Existing: {data['Existing']}</div>
@@ -231,7 +247,7 @@ const BuildStateTime = ({data}) => {
             </div>
 
             {/* Build State Legend */}
-            <div className="flex justify-center mt-2 flex-wrap gap-4">
+            <div className="flex flex-wrap justify-center gap-4 mt-2">
                 {['New build', 'Existing', 'Temporary', 'Unknown'].filter(classification => barBuildStateFilter.includes(classification)).map((classification, index) => {
                     const originalIndex = ['New build', 'Existing', 'Temporary', 'Unknown'].indexOf(classification);
                     return (
@@ -240,7 +256,7 @@ const BuildStateTime = ({data}) => {
                                 className="w-3 h-3"
                                 style={{backgroundColor: ['#EE334E', '#00A651', '#FCB131', '#0081C8'][originalIndex]}}
                             ></div>
-                            <span className="text-sm text-gray-700 dark:text-gray-300 font-medium">
+                            <span className="text-sm font-medium text-gray-700 dark:text-gray-300">
                                 {classification}
                             </span>
                         </div>

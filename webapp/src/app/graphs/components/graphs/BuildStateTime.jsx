@@ -88,7 +88,7 @@ const BuildStateTime = ({data}) => {
             className="p-6 mx-4 mb-8 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
             <SectionGraphHeadline headline="Construction Status Over Time"
                                   description="Analyze the construction status of Olympic venues over time. Use the filters to focus on specific seasons and construction state categories."
-                                  infoText="The construction status was determined based at the time of host selection. The unknowen status are created by our prove of concept data matching. On empty years, in the data time range, no Olympics were held."
+                                  infoText="The construction status was determined based at the time of host selection. The unknown status are created by our prove of concept data matching. On empty years, in the data time range, no Olympics were held."
             >
             </SectionGraphHeadline>
 

@@ -1,0 +1,7 @@
+/.venv/
+
+#to big files for github
+/cities500.txt.json
+
+#large files to not used now
+/cities500.txt.compact.json

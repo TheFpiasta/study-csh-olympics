@@ -271,7 +271,7 @@ const DatasetStatistics = ({geojsonData}) => {
                 className="mx-4 mb-8 bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/50 dark:border-gray-600/50 shadow-lg">
                 <SectionGraphHeadline headline="Venue Lifespan Analysis"
                                       description="Distribution of Olympic venues by their lifespan categories, highlighting post-Games usage patterns."
-                                      infoText="Three vanues have unknowen opening dates in our dataset."
+                                      infoText="Three venues have unknown opening dates in our dataset."
                 >
                 </SectionGraphHeadline>
                 <div className="h-80 chart-container">

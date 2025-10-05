@@ -178,7 +178,7 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
 
                 <SectionGraphHeadline headline="Geographic Distribution Analysis"
                                       description="Analyze the distribution and density of Olympic venues across countries and continents."
-                                      infoText=""
+                                      infoText="In these diagrams, the venues are mapped to the respective countries and continents with the borders as of October 2025 according to geonames.org. For example, the 1984 Winter Games in Sarajevo are mapped to Bosnia and Herzegovina and Europe. However, in 1984, Bosnia and Herzegovina was part of Yugoslavia."
                 >
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-2">

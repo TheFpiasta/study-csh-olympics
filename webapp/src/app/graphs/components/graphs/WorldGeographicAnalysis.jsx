@@ -298,7 +298,7 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
                                     tickSize: 5,
                                     tickPadding: 5,
                                     tickRotation: 0,
-                                    legend: 'Avg Venues per Game',
+                                    legend: 'Average Venues per Game',
                                     legendOffset: -50,
                                     legendPosition: 'middle'
                                 }}

@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorFromPalet, graphTheme} from '../utility';
+import {getColorFromPalet, getYearRange, graphTheme} from '../utility';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const SERIES_COLORS = {
@@ -25,6 +25,7 @@ const OlympicLineChart = ({geojsonData}) => {
     const [error, setError] = useState(null);
     const [seasonFilter, setSeasonFilter] = useState('both');
     const [selectedSeries, setSelectedSeries] = useState('athletes'); // Start with 'athletes'
+    const [timeRangeFilter, setTimeRangeFilter] = useState('full');
 
     useEffect(() => {
         if (!geojsonData) return;
@@ -45,8 +46,26 @@ const OlympicLineChart = ({geojsonData}) => {
     };
 
     const getXAxisTicks = () => {
-        const years = scatterData.length > 0 ? scatterData[0].data.map(d => d.x) : [];
-        const minYear = Math.min(...years, 1964);
+        // Get years based on timeRangeFilter
+        let years;
+        let minYear;
+        let maxYear;
+
+        if (timeRangeFilter === 'full' && data) {
+            // Full timeline: generate years for entire dataset range
+            const range = getYearRange(data);
+            minYear = range.min;
+            maxYear = range.max;
+            years = [];
+            for (let year = minYear; year <= maxYear; year++) {
+                years.push(year);
+            }
+        } else {
+            // Data range: only years where data exists
+            years = scatterData.length > 0 ? scatterData[0].data.map(d => d.x) : [];
+            minYear = Math.min(...years, 1964);
+            maxYear = Math.max(...years, new Date().getFullYear());
+        }
 
         if (seasonFilter === 'summer') {
             return years.filter(y => (y - 1964) % 4 === 0);
@@ -237,18 +256,15 @@ const OlympicLineChart = ({geojsonData}) => {
 
     const scatterData = getScatterData();
 
-    const getYearRange = () => {
-        if (!data?.games) return {min: 'auto', max: 'auto'};
+    const getDataTimeRange = () => {
+        if (!scatterData || scatterData.length === 0) return {min: 'auto', max: 'auto'};
 
-        const harvardGames = data.games.filter((game) => game.harvard);
-
-        if (harvardGames.length === 0) return {min: 'auto', max: 'auto'};
-
-        const years = harvardGames.map((game) => game.year);
+        const allYears = scatterData.flatMap(series => series.data.map(point => point.x));
+        if (allYears.length === 0) return {min: 'auto', max: 'auto'};
 
         return {
-            min: Math.min(...years),
-            max: Math.max(...years),
+            min: Math.min(...allYears),
+            max: Math.max(...allYears)
         };
     };
 
@@ -261,6 +277,33 @@ const OlympicLineChart = ({geojsonData}) => {
                                       description="Explore the trends in Olympic participation over the years, including the number of athletes, events, and countries for both Summer and Winter Games."
                                       infoText=""
                 >
+                    <div className="flex items-center gap-4 flex-wrap">
+                        <div className="flex items-center gap-2">
+                            <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
+                            <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                                <button
+                                    onClick={() => setTimeRangeFilter('full')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        timeRangeFilter === 'full'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Full Timeline
+                                </button>
+                                <button
+                                    onClick={() => setTimeRangeFilter('data')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        timeRangeFilter === 'data'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Data Range
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </SectionGraphHeadline>
 
                 {/* Olympic Season Selector */}
@@ -342,7 +385,11 @@ const OlympicLineChart = ({geojsonData}) => {
                     <ResponsiveScatterPlot
                         data={getFilteredScatterData()}
                         margin={{top: 20, right: 30, bottom: 50, left: 60}}
-                        xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
+                        xScale={{
+                            type: 'linear',
+                            min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getDataTimeRange().min,
+                            max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getDataTimeRange().max
+                        }}
                         yScale={{type: 'linear', min: 0, max: 'auto'}}
                         axisTop={null}
                         axisRight={null}

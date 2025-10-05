@@ -300,7 +300,9 @@ const DatasetStatistics = ({geojsonData}) => {
                         axisLeft={{
                             tickSize: 5,
                             tickPadding: 5,
-                            tickRotation: 0
+                            tickRotation: 0,
+                            legendOffset: -50,
+                            legend: `Venue count`,
                         }}
                         labelTextColor="#f3f4f6"
                         tooltip={({id, value, color, data}) => (
@@ -368,7 +370,9 @@ const DatasetStatistics = ({geojsonData}) => {
                             axisLeft={{
                                 tickSize: 5,
                                 tickPadding: 5,
-                                tickRotation: 0
+                                tickRotation: 0,
+                                legendOffset: -50,
+                                legend: `Venue count`,
                             }}
                             labelTextColor="#f3f4f6"
                             tooltip={({id, value, color, data}) => (
@@ -437,12 +441,14 @@ const DatasetStatistics = ({geojsonData}) => {
                             axisBottom={{
                                 tickSize: 5,
                                 tickPadding: 5,
-                                tickRotation: -45
+                                tickRotation: -45,
                             }}
                             axisLeft={{
                                 tickSize: 5,
                                 tickPadding: 5,
-                                tickRotation: 0
+                                tickRotation: 0,
+                                legendOffset: -50,
+                                legend: `Average Venues/Game`,
                             }}
                             labelTextColor="#f3f4f6"
                             tooltip={({id, value, color, data}) => (

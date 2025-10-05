@@ -3,7 +3,7 @@
 import React, {useEffect, useState} from 'react';
 import {ResponsiveScatterPlot} from '@nivo/scatterplot';
 import LoadingSpinner from '../../../../components/LoadingSpinner';
-import {getColorFromPalet, graphTheme} from '../utility';
+import {getColorFromPalet, getYearRange, graphTheme} from '../utility';
 import SectionGraphHeadline from "@/app/graphs/components/templates/SectionGraphHeadline";
 
 const SERIES_COLORS = {
@@ -25,6 +25,7 @@ const OlympicLineChart = ({geojsonData}) => {
     const [error, setError] = useState(null);
     const [seasonFilter, setSeasonFilter] = useState('both');
     const [selectedSeries, setSelectedSeries] = useState('athletes'); // Start with 'athletes'
+    const [timeRangeFilter, setTimeRangeFilter] = useState('full');
 
     useEffect(() => {
         if (!geojsonData) return;
@@ -45,37 +46,39 @@ const OlympicLineChart = ({geojsonData}) => {
     };
 
     const getXAxisTicks = () => {
-        const years = scatterData.length > 0 ? scatterData[0].data.map(d => d.x) : [];
-        const minYear = Math.min(...years, 1964);
+        let minYear, maxYear, interval;
 
-        if (seasonFilter === 'summer') {
-            return years.filter(y => (y - 1964) % 4 === 0);
-        }
+        if (timeRangeFilter === 'full' && data) {
+            // Full timeline: every 10 years
+            const range = getYearRange(data);
+            minYear = range.min;
+            maxYear = range.max;
+            interval = 10;
 
-        if (seasonFilter === 'winter') {
+            // Start from the nearest decade at or before minYear
+            const startYear = Math.floor(minYear / 10) * 10;
             const ticks = [];
-            let switched = false;
-            for (let i = 0; i < years.length; i++) {
-                const y = years[i];
-                if (!switched) {
-                    if ((y - 1964) % 4 === 0) {
-                        ticks.push(y);
-                        if (y === 1992 && years[i + 1] === 1994) {
-                            ticks.push('...');
-                            switched = true;
-                        }
-                    }
-                } else {
-                    if ((y - 1994) % 2 === 0 && y >= 1994) {
-                        ticks.push(y);
-                    }
-                }
+            for (let year = startYear; year <= maxYear; year += interval) {
+                ticks.push(year);
+            }
+            return ticks;
+        } else {
+            // Data range: every 5 years
+            const allYears = scatterData.flatMap(series => series.data.map(point => point.x));
+            if (allYears.length === 0) return [];
+
+            minYear = Math.min(...allYears);
+            maxYear = Math.max(...allYears);
+            interval = 5;
+
+            // Start from the nearest 5-year mark at or before minYear
+            const startYear = Math.floor(minYear / 5) * 5;
+            const ticks = [];
+            for (let year = startYear; year <= maxYear; year += interval) {
+                ticks.push(year);
             }
             return ticks;
         }
-
-        // Both seasons: every 2 years
-        return years.filter(y => (y - minYear) % 2 === 0);
     };
 
 
@@ -237,18 +240,15 @@ const OlympicLineChart = ({geojsonData}) => {
 
     const scatterData = getScatterData();
 
-    const getYearRange = () => {
-        if (!data?.games) return {min: 'auto', max: 'auto'};
+    const getDataTimeRange = () => {
+        if (!scatterData || scatterData.length === 0) return {min: 'auto', max: 'auto'};
 
-        const harvardGames = data.games.filter((game) => game.harvard);
-
-        if (harvardGames.length === 0) return {min: 'auto', max: 'auto'};
-
-        const years = harvardGames.map((game) => game.year);
+        const allYears = scatterData.flatMap(series => series.data.map(point => point.x));
+        if (allYears.length === 0) return {min: 'auto', max: 'auto'};
 
         return {
-            min: Math.min(...years),
-            max: Math.max(...years),
+            min: Math.min(...allYears),
+            max: Math.max(...allYears)
         };
     };
 
@@ -261,6 +261,33 @@ const OlympicLineChart = ({geojsonData}) => {
                                       description="Explore the trends in Olympic participation over the years, including the number of athletes, events, and countries for both Summer and Winter Games."
                                       infoText=""
                 >
+                    <div className="flex items-center gap-4 flex-wrap">
+                        <div className="flex items-center gap-2">
+                            <span className="text-sm text-gray-600 dark:text-gray-400">Time Range:</span>
+                            <div className="flex bg-gray-100 dark:bg-gray-700 rounded-lg p-1">
+                                <button
+                                    onClick={() => setTimeRangeFilter('full')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        timeRangeFilter === 'full'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Full Timeline
+                                </button>
+                                <button
+                                    onClick={() => setTimeRangeFilter('data')}
+                                    className={`px-3 py-1 text-sm font-medium rounded-md transition-colors ${
+                                        timeRangeFilter === 'data'
+                                            ? 'bg-emerald-500 text-white'
+                                            : 'text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100'
+                                    }`}
+                                >
+                                    Data Range
+                                </button>
+                            </div>
+                        </div>
+                    </div>
                 </SectionGraphHeadline>
 
                 {/* Olympic Season Selector */}
@@ -305,7 +332,7 @@ const OlympicLineChart = ({geojsonData}) => {
                 {/* Data Type Selector */}
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Data Type
+                        Number of
                     </label>
                     <div className="flex flex-wrap gap-2">
                         {BUTTON_CONFIG.map(({key, label}, index) => (
@@ -342,7 +369,11 @@ const OlympicLineChart = ({geojsonData}) => {
                     <ResponsiveScatterPlot
                         data={getFilteredScatterData()}
                         margin={{top: 20, right: 30, bottom: 50, left: 60}}
-                        xScale={{type: 'linear', min: getYearRange().min, max: getYearRange().max}}
+                        xScale={{
+                            type: 'linear',
+                            min: timeRangeFilter === 'full' ? (data ? getYearRange(data).min : 'auto') : getDataTimeRange().min,
+                            max: timeRangeFilter === 'full' ? (data ? getYearRange(data).max : 'auto') : getDataTimeRange().max
+                        }}
                         yScale={{type: 'linear', min: 0, max: 'auto'}}
                         axisTop={null}
                         axisRight={null}
@@ -354,8 +385,7 @@ const OlympicLineChart = ({geojsonData}) => {
                             legend: 'Year',
                             legendOffset: 36,
                             legendPosition: 'middle',
-                            tickValues: getXAxisTicks(),
-                            format: value => value === '...' ? '...' : value,
+                            tickValues: getXAxisTicks()
                         }}
                         axisLeft={{
                             orient: 'left',

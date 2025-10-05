@@ -46,55 +46,39 @@ const OlympicLineChart = ({geojsonData}) => {
     };
 
     const getXAxisTicks = () => {
-        // Get years based on timeRangeFilter
-        let years;
-        let minYear;
-        let maxYear;
+        let minYear, maxYear, interval;
 
         if (timeRangeFilter === 'full' && data) {
-            // Full timeline: generate years for entire dataset range
+            // Full timeline: every 10 years
             const range = getYearRange(data);
             minYear = range.min;
             maxYear = range.max;
-            years = [];
-            for (let year = minYear; year <= maxYear; year++) {
-                years.push(year);
-            }
-        } else {
-            // Data range: only years where data exists
-            years = scatterData.length > 0 ? scatterData[0].data.map(d => d.x) : [];
-            minYear = Math.min(...years, 1964);
-            maxYear = Math.max(...years, new Date().getFullYear());
-        }
+            interval = 10;
 
-        if (seasonFilter === 'summer') {
-            return years.filter(y => (y - 1964) % 4 === 0);
-        }
-
-        if (seasonFilter === 'winter') {
+            // Start from the nearest decade at or before minYear
+            const startYear = Math.floor(minYear / 10) * 10;
             const ticks = [];
-            let switched = false;
-            for (let i = 0; i < years.length; i++) {
-                const y = years[i];
-                if (!switched) {
-                    if ((y - 1964) % 4 === 0) {
-                        ticks.push(y);
-                        if (y === 1992 && years[i + 1] === 1994) {
-                            ticks.push('...');
-                            switched = true;
-                        }
-                    }
-                } else {
-                    if ((y - 1994) % 2 === 0 && y >= 1994) {
-                        ticks.push(y);
-                    }
-                }
+            for (let year = startYear; year <= maxYear; year += interval) {
+                ticks.push(year);
+            }
+            return ticks;
+        } else {
+            // Data range: every 5 years
+            const allYears = scatterData.flatMap(series => series.data.map(point => point.x));
+            if (allYears.length === 0) return [];
+
+            minYear = Math.min(...allYears);
+            maxYear = Math.max(...allYears);
+            interval = 5;
+
+            // Start from the nearest 5-year mark at or before minYear
+            const startYear = Math.floor(minYear / 5) * 5;
+            const ticks = [];
+            for (let year = startYear; year <= maxYear; year += interval) {
+                ticks.push(year);
             }
             return ticks;
         }
-
-        // Both seasons: every 2 years
-        return years.filter(y => (y - minYear) % 2 === 0);
     };
 
 
@@ -401,8 +385,7 @@ const OlympicLineChart = ({geojsonData}) => {
                             legend: 'Year',
                             legendOffset: 36,
                             legendPosition: 'middle',
-                            tickValues: getXAxisTicks(),
-                            format: value => value === '...' ? '...' : value,
+                            tickValues: getXAxisTicks()
                         }}
                         axisLeft={{
                             orient: 'left',

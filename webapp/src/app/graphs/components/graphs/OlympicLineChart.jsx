@@ -332,7 +332,7 @@ const OlympicLineChart = ({geojsonData}) => {
                 {/* Data Type Selector */}
                 <div className="bg-gray-50 dark:bg-gray-800 rounded-lg p-4 mb-4">
                     <label className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">
-                        Data Type
+                        Number of
                     </label>
                     <div className="flex flex-wrap gap-2">
                         {BUTTON_CONFIG.map(({key, label}, index) => (

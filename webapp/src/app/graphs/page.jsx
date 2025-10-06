@@ -114,14 +114,14 @@ export default function GraphsPage() {
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                             <div className="w-2 h-2 rounded-full bg-amber-500"></div>
                             <span
-                                className="text-sm text-gray-800 dark:text-gray-300">Outlier detection & analysis</span>
+                                className="text-sm text-gray-800 dark:text-gray-300">Robust cities to countries mapping
+                                on the data generation</span>
                         </div>
                         <div
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                             <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-                            <span
-                                className="text-sm text-gray-800 dark:text-gray-300">Sustainability scoring
-                                system</span>
+                            <span className="text-sm text-gray-800 dark:text-gray-300">Bulk Request for AI JSON
+                                extraction</span>
                         </div>
                         <div
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
@@ -131,7 +131,8 @@ export default function GraphsPage() {
                         <div
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                             <div className="w-2 h-2 bg-indigo-500 rounded-full"></div>
-                            <span className="text-sm text-gray-800 dark:text-gray-300">Sport-specific analytics</span>
+                            <span className="text-sm text-gray-800 dark:text-gray-300">Low-code dataset generation
+                                workflow</span>
                         </div>
                         <div
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
@@ -141,7 +142,7 @@ export default function GraphsPage() {
                         <div
                             className="flex items-center gap-3 p-3 border border-gray-200 rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
                             <div className="w-2 h-2 bg-teal-500 rounded-full"></div>
-                            <span className="text-sm text-gray-800 dark:text-gray-300">Advanced filtering systems</span>
+                            <span className="text-sm text-gray-800 dark:text-gray-300">Advanced dataset mapping</span>
                         </div>
                     </div>
                 </div>

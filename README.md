@@ -20,7 +20,7 @@ Comprehensive data collection pipeline scraping venue information from Olympedia
 ### 📄 [PDF to JSON Pipeline (`pdfToJson/`)](./pdfToJson/README.md)
 Automated N8N workflow converting Olympic venue PDF reports into structured JSON using Claude 4 AI extraction.
 
-### 🔗 [Venue Matching (`matching-felix/`)](./matching-felix/README.md)
+### 🔗 [Venue Matching (`matching-felix/`)](matching-poc/README.md)
 POC venue matching system with 82.2% success rate, combining GeoJSON and PDF data sources using fuzzy matching algorithms.
 
 ### 📊 [Olympic Reports Scraper (`olympic_reports/`)](./olympic_reports/README.md)
@@ -29,7 +29,7 @@ POC web scraper for downloading official Olympic Games reports from IOC Olympic 
 ### 🔧 [PDF Splitter (`pdf_splitter/`)](./pdf_splitter/README.md)
 Desktop GUI application for splitting PDF documents using ToC, regex patterns, or fixed page counts.
 
-### 💡 [Idea Collection (`Idea-collection/`)](./Idea-collection/README.md)
+### 💡 [Idea Collection (`Idea-collection/`)](idea-collection/README.md)
 Research materials, visualization concepts, and external datasets informing the project development.
 
 ### 📦 [Archive (`archive/`)](./archive/README.md)

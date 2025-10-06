@@ -19,10 +19,18 @@ export default function ({children, headline, description, infoText}) {
                     {description}
                 </div>
             )}
-            {infoText && (
+            {!!infoText && typeof infoText === 'string' && (
                 <div className="text-sm text-gray-500 dark:text-gray-400 mb-4 ml-6">
                     <span className={""}>[Note]</span> {infoText}
                 </div>
+            )}
+            {!!infoText && Array.isArray(infoText) && infoText.map((text, i) => (
+                    <div
+                        className={`text-sm text-gray-500 dark:text-gray-400 ${i === infoText.length - 1 ? "mb-4" : ""} ml-6`}
+                        key={"info-text-" + i}>
+                        <span className={""}>[Note]</span> {text}
+                    </div>
+                )
             )}
         </>
     );

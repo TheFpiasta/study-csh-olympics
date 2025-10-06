@@ -118,7 +118,7 @@ base_dir = os.path.join(os.path.dirname(__file__), "04_combined_geojsons")
 harvard_study = os.path.abspath(
     os.path.join(
         os.path.dirname(__file__),
-        "../Idea-collection/datasets/harvard-Revenues-and-Costs-1960s-2010s/Growth dataset Olympic Games and Football World Cup.xlsx"
+        "../idea-collection/datasets/harvard-Revenues-and-Costs-1960s-2010s/Growth dataset Olympic Games and Football World Cup.xlsx"
     )
 )
 

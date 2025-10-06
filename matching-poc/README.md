@@ -9,7 +9,7 @@ This is a proof-of-concept (POC) venue matching system for the Computational Spa
 ## Project Structure
 
 ```
-matching-felix/
+matching-poc/
 ├── main.py                                    # Main execution script
 ├── venues_matcher.py                          # Core matching algorithms
 ├── requirements.txt                           # Python dependencies
@@ -94,8 +94,8 @@ Advanced venue name matching system using hybrid algorithms:
 ### Installation
 
 ```bash
-# Navigate to matching-felix directory
-cd matching-felix
+# Navigate to matching-poc directory
+cd matching-poc
 
 # Create virtual environment
 python -m venv .venv

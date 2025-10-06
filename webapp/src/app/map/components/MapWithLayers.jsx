@@ -41,6 +41,10 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
   const [selectedSports, setSelectedSports] = useState(new Set()); // Will be populated when geojsonData is available
   const [availableSports, setAvailableSports] = useState([]); // Cached sports for current dataset
 
+  // User preference tracking - tracks which filters the user has explicitly toggled
+  const [userToggledStatuses, setUserToggledStatuses] = useState(new Set()); // Statuses explicitly turned on/off by user
+  const [userToggledSports, setUserToggledSports] = useState(new Set()); // Sports explicitly turned on/off by user
+
   // Dynamic status system - extract from actual data
   const [availableStatuses, setAvailableStatuses] = useState([]);
   const [statusColors, setStatusColors] = useState({});
@@ -162,6 +166,26 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
             logger.warn('Failed to parse saved selected statuses:', e);
         }
       }
+
+      // Load user-toggled statuses
+      const savedUserToggledStatuses = sessionStorage.getItem('olympics-user-toggled-statuses');
+      if (savedUserToggledStatuses) {
+        try {
+          setUserToggledStatuses(new Set(JSON.parse(savedUserToggledStatuses)));
+        } catch (e) {
+            logger.warn('Failed to parse saved user-toggled statuses:', e);
+        }
+      }
+
+      // Load user-toggled sports
+      const savedUserToggledSports = sessionStorage.getItem('olympics-user-toggled-sports');
+      if (savedUserToggledSports) {
+        try {
+          setUserToggledSports(new Set(JSON.parse(savedUserToggledSports)));
+        } catch (e) {
+            logger.warn('Failed to parse saved user-toggled sports:', e);
+        }
+      }
     }
   }, []);
 
@@ -265,6 +289,25 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
     }
   ];
 
+  // Save user preference changes to sessionStorage
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-user-toggled-statuses', JSON.stringify(Array.from(userToggledStatuses)));
+    }
+  }, [userToggledStatuses, isHydrated]);
+
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-user-toggled-sports', JSON.stringify(Array.from(userToggledSports)));
+    }
+  }, [userToggledSports, isHydrated]);
+
+  useEffect(() => {
+    if (isHydrated && typeof window !== 'undefined') {
+      sessionStorage.setItem('olympics-selected-statuses', JSON.stringify(Array.from(selectedStatuses)));
+    }
+  }, [selectedStatuses, isHydrated]);
+
   useEffect(() => {
     // Only load data after hydration is complete to ensure we have the correct session values
     if (isHydrated && !timelineMode) {
@@ -286,26 +329,85 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
       });
       setStatusColors(colors);
       
-      // Reconcile selectedStatuses with new canonical forms
-      if (selectedStatuses.size === 0) {
-        // Initialize with all statuses if empty
-        setSelectedStatuses(new Set(uniqueStatuses));
-      } else {
-        // Update existing selections to match canonical forms
-        const newSelected = new Set();
-        selectedStatuses.forEach(selectedStatus => {
-          // Find matching canonical form (case-insensitive)
-          const canonicalForm = uniqueStatuses.find(status => 
-            status.toLowerCase() === selectedStatus.toLowerCase()
+      // Smart status selection logic
+      const newSelected = new Set();
+      
+      // For each status in the new data
+      uniqueStatuses.forEach(status => {
+        const lowerStatus = status.toLowerCase();
+        
+        // Check if user has explicitly toggled this status (case-insensitive)
+        const userToggledThis = Array.from(userToggledStatuses).some(toggledStatus => 
+          toggledStatus.toLowerCase() === lowerStatus
+        );
+        
+        if (userToggledThis) {
+          // User has explicitly set this status - preserve their choice
+          const wasSelected = Array.from(selectedStatuses).some(selectedStatus => 
+            selectedStatus.toLowerCase() === lowerStatus
           );
-          if (canonicalForm) {
-            newSelected.add(canonicalForm);
+          if (wasSelected) {
+            newSelected.add(status);
           }
-        });
-        setSelectedStatuses(newSelected);
-      }
+        } else {
+          // User hasn't explicitly set this status - auto-select it (default behavior)
+          newSelected.add(status);
+        }
+      });
+      
+      setSelectedStatuses(newSelected);
+
+      // Extract unique sports from current dataset
+      const sportsSet = new Set();
+      geojsonData.features.forEach(feature => {
+        const sports = feature.properties.sports;
+        if (sports) {
+          let sportsArray = [];
+          if (Array.isArray(sports)) {
+            sportsArray = sports;
+          } else if (typeof sports === 'string') {
+            try {
+              const parsed = JSON.parse(sports);
+              sportsArray = Array.isArray(parsed) ? parsed : [sports];
+            } catch {
+              sportsArray = [sports];
+            }
+          }
+          sportsArray.forEach(sport => sportsSet.add(sport.trim()));
+        }
+      });
+      
+      const uniqueSports = Array.from(sportsSet).sort();
+      setAvailableSports(uniqueSports);
+      
+      // Smart sports selection logic (same pattern as statuses)
+      const newSelectedSports = new Set();
+      
+      uniqueSports.forEach(sport => {
+        const lowerSport = sport.toLowerCase();
+        
+        // Check if user has explicitly toggled this sport (case-insensitive)
+        const userToggledThis = Array.from(userToggledSports).some(toggledSport => 
+          toggledSport.toLowerCase() === lowerSport
+        );
+        
+        if (userToggledThis) {
+          // User has explicitly set this sport - preserve their choice
+          const wasSelected = Array.from(selectedSports).some(selectedSport => 
+            selectedSport.toLowerCase() === lowerSport
+          );
+          if (wasSelected) {
+            newSelectedSports.add(sport);
+          }
+        } else {
+          // User hasn't explicitly set this sport - auto-select it (default behavior)
+          newSelectedSports.add(sport);
+        }
+      });
+      
+      setSelectedSports(newSelectedSports);
     }
-  }, [geojsonData]);
+  }, [geojsonData, userToggledStatuses, userToggledSports]);
 
   // Create filtered GeoJSON data based on BOTH selected statuses AND sports (simultaneous filtering)
   const filteredGeojsonData = React.useMemo(() => {
@@ -1331,7 +1433,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showLayerPanel && (
           <div 
             data-panel="layer-panel"
-            className="absolute top-4 z-50 p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-64"
+            className="absolute z-50 p-4 border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 min-w-64"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1372,7 +1474,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute top-4 z-50 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            className="absolute z-50 p-4 overflow-y-auto border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1480,7 +1582,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
-            className="absolute top-4 z-50 p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
+            className="absolute z-50 p-4 border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1526,13 +1628,20 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
               <>
                 <div className="mb-3 space-x-2">
                   <button
-                    onClick={() => setSelectedStatuses(new Set(Object.keys(statusColors)))}
+                    onClick={() => {
+                      setSelectedStatuses(new Set(Object.keys(statusColors)));
+                      setUserToggledStatuses(new Set()); // Reset user preferences - all future statuses will be auto-selected
+                    }}
                     className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
                   >
                     Select All
                   </button>
                   <button
-                    onClick={() => setSelectedStatuses(new Set())}
+                    onClick={() => {
+                      setSelectedStatuses(new Set());
+                      // Mark all current statuses as user-toggled so they stay cleared
+                      setUserToggledStatuses(new Set(Object.keys(statusColors)));
+                    }}
                     className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
                   >
                     Clear All
@@ -1546,12 +1655,19 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                       className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
                       onClick={() => {
                         const newSelected = new Set(selectedStatuses);
+                        const newUserToggled = new Set(userToggledStatuses);
+                        
                         if (selectedStatuses.has(status)) {
                           newSelected.delete(status);
                         } else {
                           newSelected.add(status);
                         }
+                        
+                        // Mark this status as user-toggled
+                        newUserToggled.add(status);
+                        
                         setSelectedStatuses(newSelected);
+                        setUserToggledStatuses(newUserToggled);
                       }}
                     >
                       <div className="flex items-center space-x-2.5">
@@ -1588,13 +1704,18 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                   <button
                     onClick={() => {
                       setSelectedSports(new Set(availableSports));
+                      setUserToggledSports(new Set()); // Reset user preferences - all future sports will be auto-selected
                     }}
                     className="px-2 py-1 text-xs transition-colors rounded-lg text-emerald-700 bg-emerald-100 dark:bg-emerald-900/30 dark:text-emerald-300 hover:bg-emerald-200 dark:hover:bg-emerald-900/50"
                   >
                     Select All
                   </button>
                   <button
-                    onClick={() => setSelectedSports(new Set())}
+                    onClick={() => {
+                      setSelectedSports(new Set());
+                      // Mark all current sports as user-toggled so they stay cleared
+                      setUserToggledSports(new Set(availableSports));
+                    }}
                     className="px-2 py-1 text-xs text-gray-700 transition-colors bg-gray-100 rounded-lg dark:bg-gray-900/30 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-900/50"
                   >
                     Clear All
@@ -1608,12 +1729,19 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                       className="flex items-center justify-between p-2 transition-colors duration-150 rounded-lg cursor-pointer hover:bg-gray-50 dark:hover:bg-gray-800/50"
                       onClick={() => {
                         const newSelected = new Set(selectedSports);
+                        const newUserToggled = new Set(userToggledSports);
+                        
                         if (selectedSports.has(sport)) {
                           newSelected.delete(sport);
                         } else {
                           newSelected.add(sport);
                         }
+                        
+                        // Mark this sport as user-toggled
+                        newUserToggled.add(sport);
+                        
                         setSelectedSports(newSelected);
+                        setUserToggledSports(newUserToggled);
                       }}
                     >
                       <div className="flex items-center space-x-2.5">

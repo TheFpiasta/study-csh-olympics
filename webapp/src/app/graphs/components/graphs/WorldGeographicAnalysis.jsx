@@ -178,7 +178,10 @@ const WorldGeographicAnalysis = ({geojsonData}) => {
 
                 <SectionGraphHeadline headline="Geographic Distribution Analysis"
                                       description="Analyze the distribution and density of Olympic venues across countries and continents."
-                                      infoText="In these diagrams, the venues are mapped to the respective countries and continents with the borders as of October 2025 according to geonames.org. For example, the 1984 Winter Games in Sarajevo are mapped to Bosnia and Herzegovina and Europe. However, in 1984, Bosnia and Herzegovina was part of Yugoslavia."
+                                      infoText={[
+                                          "In these diagrams, the venues are mapped to the respective countries and continents with the borders as of October 2025 according to geonames.org. For example, the 1984 Winter Games in Sarajevo are mapped to Bosnia and Herzegovina and Europe. However, in 1984, Bosnia and Herzegovina was part of Yugoslavia.",
+                                          "Cities are assigned to the first cities that match them in the geonames.org dataset. This means that for cities that have the same name in multiple countries, the first match in the country is currently taken into account. For example, there are more games for Canada than there actually are, as the city of London is assigned to London (Canada) and not London (United Kingdom).",
+                                      ]}
                 >
                     <div className="flex items-center justify-between mb-4">
                         <div className="flex items-center gap-2">

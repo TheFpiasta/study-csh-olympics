@@ -29,7 +29,7 @@ POC web scraper for downloading official Olympic Games reports from IOC Olympic 
 ### 🔧 [PDF Splitter (`pdf_splitter/`)](./pdf_splitter/README.md)
 Desktop GUI application for splitting PDF documents using ToC, regex patterns, or fixed page counts.
 
-### 💡 [Idea Collection (`Idea-collection/`)](idea-collection/README.md)
+### 💡 [Idea Collection (`Idea-collection/`)](archive/idea-collection/README.md)
 Research materials, visualization concepts, and external datasets informing the project development.
 
 ### 📦 [Archive (`archive/`)](./archive/README.md)

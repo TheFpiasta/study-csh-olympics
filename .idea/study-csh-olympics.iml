@@ -23,6 +23,8 @@
       <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/output_venues_found" />
       <excludeFolder url="file://$MODULE_DIR$/webapp/cityParser/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/matching-poc/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/output_files" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/scraped_websites" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -57,20 +57,20 @@ const SectionNavigation = () => {
         <>
             {/* Original Navigation - Always visible */}
             <nav
-                className="relative bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border border-gray-200/50 dark:border-gray-600/50 shadow-lg transition-all duration-300">
+                className="relative transition-all duration-300 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
                 <div className="px-6 py-4">
                     <div className="flex items-center justify-between mb-3">
-                        <h3 className="text-sm font-semibold text-gray-900 dark:text-gray-200 flex items-center gap-2">
+                        <h3 className="flex items-center gap-2 text-sm font-semibold text-gray-900 dark:text-gray-200">
                             🧭 Quick Navigation
                         </h3>
                     </div>
 
-                    <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-2">
+                    <div className="grid grid-cols-2 gap-3 md:grid-cols-3 lg:grid-cols-6">
                         {sections.map((section) => (
                             <button
                                 key={section.id}
                                 onClick={() => scrollToSection(section.id)}
-                                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-105 cursor-pointer ${
+                                className={`flex items-center gap-2 px-3 py-2 rounded-lg text-xs font-medium transition-all duration-200 hover:scale-103 cursor-pointer ${
                                     // activeSection === section.id
                                     //     ? 'bg-gradient-to-r from-emerald-500 to-green-500 text-white shadow-md'
                                     //     : 'bg-gray-100 dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'
@@ -78,14 +78,14 @@ const SectionNavigation = () => {
                                 }`}
                             >
                                 <span className="text-sm">{section.icon}</span>
-                                <span className="hidden sm:inline truncate">
+                                <span className="hidden truncate sm:inline">
                                     {section.label}
                                 </span>
                             </button>
                         ))}
                     </div>
 
-                    <div className="mt-3 text-xs text-gray-600 dark:text-gray-400 text-center">
+                    <div className="mt-3 text-xs text-center text-gray-600 dark:text-gray-400">
                         Click any section to jump directly to it
                     </div>
                 </div>
@@ -94,12 +94,12 @@ const SectionNavigation = () => {
             {/* Sticky Navigation - Appears/disappears on scroll */}
             {isSticky && (
                 <nav
-                    className="fixed top-4 left-1/2 transform -translate-x-1/2 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-2xl shadow-lg border border-gray-200/50 dark:border-gray-600/50 z-50 transition-all duration-300">
+                    className="fixed z-50 transition-all duration-300 transform -translate-x-1/2 border shadow-lg top-4 left-1/2 bg-white/95 dark:bg-gray-800/95 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50">
                     <div className="px-4 py-2">
-                        <div className="flex items-center gap-2 overflow-x-auto scrollbar-hide">
+                        <div className="flex items-center gap-2 px-1 py-1 overflow-x-auto scrollbar-hide">
                             <button
                                 onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
-                                className="flex-shrink-0 text-xs px-2 py-1 rounded-lg bg-gradient-to-r from-emerald-500 to-green-500 text-white hover:from-emerald-600 hover:to-green-600 transition-colors"
+                                className="flex-shrink-0 px-2 py-1 text-xs text-white transition-colors rounded-lg bg-gradient-to-r from-emerald-500 to-green-500 hover:from-emerald-600 hover:to-green-600"
                             >
                                 ↑
                             </button>
@@ -114,7 +114,7 @@ const SectionNavigation = () => {
                                     }`}
                                 >
                                     <span className="text-sm">{section.icon}</span>
-                                    <span className="hidden lg:inline truncate">
+                                    <span className="hidden truncate lg:inline">
                                         {section.label}
                                     </span>
                                 </button>

@@ -5,17 +5,22 @@ import MapWithLayers from './MapWithLayers';
 import ChartsPanel from './ChartsPanel';
 import logger from '@/components/logger';
 
-const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
+const MapWithChartsLayout = ({
+    onDataUpdate, 
+    onChartsToggle, 
+    onTimelineDataUpdate, 
+    showCharts, 
+    isMobile, 
+    viewMode, 
+    toggleViewMode,
+    geojsonData,
+    getStatusBreakdown,
+    timelineData
+}) => {
     // Hydration-safe state
     const [isHydrated, setIsHydrated] = useState(false);
 
-    // Initialize with defaults, will be updated after hydration
-    const [geojsonData, setGeojsonData] = useState(null);
-    const [showCharts, setShowCharts] = useState(false);
-    const [timelineData, setTimelineData] = useState(null);
-    const mapRef = useRef(null);
-
-    // Resizable state
+    // Resizable state (only for desktop)
     const [mapWidth, setMapWidth] = useState(66.67); // Start at 2/3 (66.67%)
     const [isDragging, setIsDragging] = useState(false);
     const containerRef = useRef(null);
@@ -28,17 +33,7 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
     useEffect(() => {
         setIsHydrated(true);
 
-        // Load saved chart visibility from sessionStorage
         if (typeof window !== 'undefined') {
-            const savedShowCharts = sessionStorage.getItem('olympics-show-charts');
-            if (savedShowCharts) {
-                try {
-                    setShowCharts(JSON.parse(savedShowCharts));
-                } catch (e) {
-                    logger.warn('Failed to parse saved charts state:', e);
-                }
-            }
-
             // Load saved map width from sessionStorage
             const savedMapWidth = sessionStorage.getItem('olympics-map-width');
             if (savedMapWidth) {
@@ -56,7 +51,6 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
 
     // This function will be passed to MapWithLayers to get data updates
     const handleDataUpdate = useCallback((data) => {
-        setGeojsonData(data);
         // Pass data up to parent component
         if (onDataUpdate) {
             onDataUpdate(data);
@@ -65,20 +59,17 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
 
     // This function will be passed to MapWithLayers to handle chart toggle
     const handleChartsToggle = useCallback((show) => {
-        setShowCharts(show);
-    }, []);
+        if (onChartsToggle) {
+            onChartsToggle(show);
+        }
+    }, [onChartsToggle]);
 
     // This function will be passed to MapWithLayers to get timeline data updates
     const handleTimelineDataUpdate = useCallback((timelineInfo) => {
-        setTimelineData(timelineInfo);
-    }, []);
-
-    // Save showCharts state to sessionStorage whenever it changes (only after hydration)
-    useEffect(() => {
-        if (isHydrated && typeof window !== 'undefined') {
-            sessionStorage.setItem('olympics-show-charts', JSON.stringify(showCharts));
+        if (onTimelineDataUpdate) {
+            onTimelineDataUpdate(timelineInfo);
         }
-    }, [showCharts, isHydrated]);
+    }, [onTimelineDataUpdate]);
 
     // Save mapWidth state to sessionStorage whenever it changes (only after hydration)
     useEffect(() => {
@@ -87,15 +78,15 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
         }
     }, [mapWidth, isHydrated]);
 
-    // Handle mouse/touch events for resizing
+    // Handle mouse/touch events for resizing (disabled on mobile)
     const handleMouseDown = useCallback((e) => {
-        if (!showCharts) return;
+        if (!showCharts || isMobile) return;
         setIsDragging(true);
         e.preventDefault();
-    }, [showCharts]);
+    }, [showCharts, isMobile]);
 
     const handleMouseMove = useCallback((e) => {
-        if (!isDragging || !containerRef.current || !showCharts) return;
+        if (!isDragging || !containerRef.current || !showCharts || isMobile) return;
 
         e.preventDefault();
         const containerRect = containerRef.current.getBoundingClientRect();
@@ -109,7 +100,7 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
         );
 
         setMapWidth(constrainedWidth);
-    }, [isDragging, showCharts]);
+    }, [isDragging, showCharts, isMobile]);
 
     const handleMouseUp = useCallback(() => {
         setIsDragging(false);
@@ -135,48 +126,17 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
         }
     }, [isDragging, handleMouseMove, handleMouseUp]);
 
-    // Function to get status breakdown from geojson data
-    const getStatusBreakdown = useCallback(() => {
-        if (!geojsonData || !geojsonData.features) return [];
-
-        const statusCounts = {};
-        const statusColors = {
-            'In use': '#22c55e',
-            'In use (rebuilt)': '#10b981',
-            'In use (repurposed)': '#06b6d4',
-            'In use (seasonal)': '#3b82f6',
-            'In use (limited)': '#8b5cf6',
-            'Not in use': '#ef4444',
-            'Not in use (demolished)': '#dc2626',
-            'Dismantled (temporary)': '#991b1b',
-            'Dismantled (seasonal)': '#7c2d12',
-            'No status data': '#94a3b8'
-        };
-
-        geojsonData.features.forEach(feature => {
-            const status = feature.properties.status || 'No status data';
-            statusCounts[status] = (statusCounts[status] || 0) + 1;
-        });
-
-        return Object.entries(statusCounts)
-            .map(([status, count]) => ({
-                status,
-                count,
-                color: statusColors[status] || '#94a3b8'
-            }))
-            .sort((a, b) => b.count - a.count);
-    }, [geojsonData]);
-
     return (
         <div
             ref={containerRef}
-            className={`flex h-full max-h-full relative ${isDragging ? 'resizing no-select' : ''}`}
+            className={`flex lg:flex-row h-full max-h-full relative ${isDragging ? 'resizing no-select' : ''}`}
         >
-            {/* Map Container - Dynamic width based on mapWidth state */}
+            {/* Map Container - Full height always, dynamic width only on desktop */}
             <div
-                className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-2 shadow-lg border border-gray-200/50 dark:border-gray-600/50 overflow-hidden flex flex-col transition-none"
+                className="flex flex-col w-full h-full p-2 overflow-hidden transition-none border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50"
                 style={{
-                    width: showCharts ? `${mapWidth}%` : '100%'
+                    // Only apply dynamic width on desktop when charts are shown
+                    width: !isMobile && showCharts ? `${mapWidth}%` : undefined
                 }}
             >
                 <div className="flex-1 w-full min-h-0 overflow-hidden map-container rounded-xl">
@@ -191,37 +151,34 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
                 </div>
             </div>
 
-            {/* Resizer Handle - Only show when charts are visible */}
-            {showCharts && (
+            {/* Resizer Handle - Only show when charts are visible and on desktop */}
+            {showCharts && !isMobile && (
                 <div
                     className={`
-            w-1 bg-gray-600 dark:bg-gray-700 hover:bg-gray-800 dark:hover:bg-gray-500
-            cursor-col-resize transition-all duration-200 flex-shrink-0 mx-2 group rounded-full
-            shadow-sm hover:shadow-md active:shadow-lg
-            ${isDragging ? 'bg-gray-800 dark:bg-gray-500 shadow-lg' : ''}
-          `}
+                        w-1 bg-gray-600 dark:bg-gray-700 hover:bg-gray-800 dark:hover:bg-gray-500
+                        cursor-col-resize transition-all duration-200 flex-shrink-0 mx-2 group rounded-full
+                        shadow-sm hover:shadow-md active:shadow-lg
+                        ${isDragging ? 'bg-gray-800 dark:bg-gray-500 shadow-lg' : ''}
+                    `}
                     onMouseDown={handleMouseDown}
                     onTouchStart={handleMouseDown}
                     title="Drag to resize panels"
                 >
                     {/* Visual handle indicator */}
-                    <div className="h-full w-full relative flex items-center justify-center">
+                    <div className="relative flex items-center justify-center w-full h-full">
                         <div className="flex flex-col gap-0.5">
-                            <div
-                                className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
-                            <div
-                                className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
-                            <div
-                                className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
+                            <div className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
+                            <div className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
+                            <div className="w-0.5 h-2 bg-gray-300 dark:bg-gray-400 rounded-full opacity-70 group-hover:opacity-100 transition-all duration-200"></div>
                         </div>
                     </div>
                 </div>
             )}
 
-            {/* Charts Container - Dynamic width based on remaining space */}
-            {showCharts && (
+            {/* Charts Container - Desktop only (side-by-side) */}
+            {showCharts && !isMobile && (
                 <div
-                    className="p-4 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50 transition-none"
+                    className="h-full p-4 transition-none border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/50 dark:border-gray-600/50"
                     style={{
                         width: `${100 - mapWidth}%`
                     }}
@@ -236,8 +193,9 @@ const MapWithChartsLayout = ({onDataUpdate, viewMode, toggleViewMode}) => {
                             </div>
                             <button
                                 onClick={() => {
-                                    setShowCharts(false);
-                                    // This will trigger the map component to update its state too
+                                    if (onChartsToggle) {
+                                        onChartsToggle(false);
+                                    }
                                 }}
                                 className="p-2 text-gray-400 transition-all rounded hover:text-gray-600 dark:hover:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
                             >

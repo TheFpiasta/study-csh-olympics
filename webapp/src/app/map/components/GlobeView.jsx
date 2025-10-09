@@ -1221,7 +1221,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute top-4 z-[9999] p-4 overflow-y-auto border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            className="absolute top-4 z-[9999] p-4 overflow-y-auto border border-gray-200 shadow-2xl left-12 md:left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1342,7 +1342,7 @@ const GlobeView = React.forwardRef(({ onDataUpdate, onChartsToggle, onTimelineDa
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
-            className="absolute top-4 z-[9999] p-4 border border-gray-200 shadow-2xl left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
+            className="absolute top-4 z-[9999] p-4 border border-gray-200 shadow-2xl left-12 md:left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">

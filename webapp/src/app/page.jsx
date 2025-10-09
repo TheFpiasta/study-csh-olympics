@@ -3,7 +3,7 @@ import OlympicRings from "@/components/OlympicRings";
 
 export default function Home() {
     return (
-        <div className="min-h-screen olympic-bg relative overflow-hidden">
+        <div className="relative min-h-screen overflow-hidden olympic-bg">
             {/* Floating decorative rings */}
             <div className="absolute top-20 left-10 opacity-20 dark:opacity-10">
                 <OlympicRings size="w-16 h-16"/>
@@ -21,21 +21,21 @@ export default function Home() {
                 <OlympicRings size="w-16 h-16"/>
             </div>
 
-            <div className="relative z-10 p-6 flex flex-col items-center justify-center min-h-screen">
+            <div className="relative z-10 flex flex-col items-center justify-center min-h-screen p-6">
                 <div className="max-w-6xl mx-auto text-center">
                     {/* Hero Section */}
                     <div className="mb-12">
-                        <div className="flex justify-center mb-8">
-                            <OlympicRings size="w-32 h-32 md:w-40 md:h-40"/>
+                        <div className="flex justify-center md:mb-8">
+                            <OlympicRings size="w-28 h-28 md:w-40 md:h-40"/>
                         </div>
 
-                        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-600 dark:from-emerald-400 dark:via-blue-400 dark:to-purple-500 bg-clip-text text-transparent">
+                        <h1 className="mb-6 text-4xl font-bold text-transparent md:text-6xl lg:text-7xl bg-gradient-to-r from-emerald-500 via-blue-500 to-purple-600 dark:from-emerald-400 dark:via-blue-400 dark:to-purple-500 bg-clip-text">
                             Olympic Venues
                         </h1>
-                        <h2 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-8 text-gray-900 dark:text-gray-200">
+                        <h2 className="mb-8 text-2xl font-semibold text-gray-900 md:text-3xl lg:text-4xl dark:text-gray-200">
                             Interactive Web Experience
                         </h2>
-                        <p className="text-lg md:text-xl lg:text-2xl mb-12 text-gray-900 dark:text-gray-300 max-w-4xl mx-auto leading-relaxed">
+                        <p className="max-w-4xl mx-auto mb-12 text-lg leading-relaxed text-gray-900 md:text-xl lg:text-2xl dark:text-gray-300">
                             Explore the rich history of Olympic venues through stunning interactive maps and
                             comprehensive data visualizations.
                             Discover where the games were held and dive deep into the venues that hosted Olympic
@@ -44,10 +44,10 @@ export default function Home() {
                     </div>
 
                     {/* Action Buttons */}
-                    <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+                    <div className="flex flex-col justify-center gap-6 mb-16 sm:flex-row">
                         <Link
                             href="/map"
-                            className="btn-olympic bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white group"
+                            className="text-white btn-olympic bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 group"
                         >
                             <span className="flex items-center justify-center gap-3">
                                 <span className="text-2xl">🗺️</span>
@@ -61,7 +61,7 @@ export default function Home() {
                         </Link>
                         <Link
                             href="/graphs"
-                            className="btn-olympic bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 text-white group"
+                            className="text-white btn-olympic bg-gradient-to-r from-amber-500 to-orange-500 hover:from-amber-600 hover:to-orange-600 group"
                         >
                             <span className="flex items-center justify-center gap-3">
                                 <span className="text-2xl">📊</span>
@@ -77,10 +77,10 @@ export default function Home() {
 
                     {/*Data quality warning*/}
                     <div
-                        className="bg-yellow-100 dark:bg-yellow-900/50 border-l-4 border-yellow-500 dark:border-yellow-400 text-yellow-700 dark:text-yellow-300 p-4 mb-12 max-w-3xl mx-auto rounded-lg shadow-md">
+                        className="max-w-3xl p-4 mx-auto mb-12 text-yellow-700 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg shadow-md dark:bg-yellow-900/50 dark:border-yellow-400 dark:text-yellow-300">
                         <div className="flex">
                             <div className="flex-shrink-0">
-                                <svg className="h-6 w-6 text-yellow-500 dark:text-yellow-400" fill="currentColor"
+                                <svg className="w-6 h-6 text-yellow-500 dark:text-yellow-400" fill="currentColor"
                                      viewBox="0 0 20 20">
                                     <path fillRule="evenodd"
                                           d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zm-1 3a1 1 0 00-.993.883L9
@@ -101,44 +101,44 @@ export default function Home() {
                     </div>
 
                     {/* Features Grid */}
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
+                    <div className="grid gap-8 mb-16 md:grid-cols-2 lg:grid-cols-4">
                         <div
-                            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-200/60 dark:border-gray-600/50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                            <div className="text-4xl mb-4">🌍</div>
-                            <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-gray-200">Global Coverage</h3>
-                            <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
+                            className="p-8 transition-all duration-300 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50 hover:scale-105 hover:shadow-xl">
+                            <div className="mb-4 text-4xl">🌍</div>
+                            <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-200">Global Coverage</h3>
+                            <p className="leading-relaxed text-gray-700 dark:text-gray-400">
                                 Explore Olympic venues from every continent with comprehensive geographical data
                                 spanning over a century of Olympic history.
                             </p>
                         </div>
 
                         <div
-                            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-200/60 dark:border-gray-600/50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                            <div className="text-4xl mb-4">📈</div>
-                            <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-gray-200">Rich Analytics</h3>
-                            <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
+                            className="p-8 transition-all duration-300 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50 hover:scale-105 hover:shadow-xl">
+                            <div className="mb-4 text-4xl">📈</div>
+                            <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-200">Rich Analytics</h3>
+                            <p className="leading-relaxed text-gray-700 dark:text-gray-400">
                                 Dive into detailed statistics, trends, and insights about Olympic venues, capacities,
                                 and historical significance.
                             </p>
                         </div>
 
                         <div
-                            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-200/60 dark:border-gray-600/50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                            <div className="text-4xl mb-4">🎨</div>
-                            <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-gray-200">Interactive
+                            className="p-8 transition-all duration-300 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50 hover:scale-105 hover:shadow-xl">
+                            <div className="mb-4 text-4xl">🎨</div>
+                            <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-200">Interactive
                                 Design</h3>
-                            <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
+                            <p className="leading-relaxed text-gray-700 dark:text-gray-400">
                                 Experience a modern, responsive interface with smooth animations and intuitive
                                 navigation across all devices.
                             </p>
                         </div>
 
                         <div
-                            className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 border border-gray-200/60 dark:border-gray-600/50 hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl">
-                            <div className="text-4xl mb-4">🏛️</div>
-                            <h3 className="text-xl font-bold mb-3 text-gray-900 dark:text-gray-200">Historical
+                            className="p-8 transition-all duration-300 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50 hover:scale-105 hover:shadow-xl">
+                            <div className="mb-4 text-4xl">🏛️</div>
+                            <h3 className="mb-3 text-xl font-bold text-gray-900 dark:text-gray-200">Historical
                                 Context</h3>
-                            <p className="text-gray-700 dark:text-gray-400 leading-relaxed">
+                            <p className="leading-relaxed text-gray-700 dark:text-gray-400">
                                 Discover the stories behind iconic Olympic venues and their role in shaping Olympic
                                 history and legacy.
                             </p>
@@ -147,24 +147,24 @@ export default function Home() {
 
                     {/* Technology Stack */}
                     <div
-                        className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-8 mb-12 max-w-4xl mx-auto border border-gray-200/60 dark:border-gray-600/50 shadow-lg">
-                        <h2 className="text-2xl font-bold mb-6 text-gray-900 dark:text-gray-200">Built with Modern
+                        className="max-w-4xl p-8 mx-auto mb-12 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50">
+                        <h2 className="mb-6 text-2xl font-bold text-gray-900 dark:text-gray-200">Built with Modern
                             Technology</h2>
                         <div className="flex flex-wrap justify-center gap-6 text-sm">
                             <span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full font-medium border border-gray-300 dark:border-gray-600">Next.js
+                                className="px-4 py-2 font-medium text-gray-800 bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600">Next.js
                                 15</span>
                             <span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full font-medium border border-gray-300 dark:border-gray-600">React
+                                className="px-4 py-2 font-medium text-gray-800 bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600">React
                                 19</span>
                             <span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full font-medium border border-gray-300 dark:border-gray-600">MapLibre
+                                className="px-4 py-2 font-medium text-gray-800 bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600">MapLibre
                                 GL</span>
                             <span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full font-medium border border-gray-300 dark:border-gray-600">Tailwind
+                                className="px-4 py-2 font-medium text-gray-800 bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600">Tailwind
                                 CSS</span>
                             <span
-                                className="px-4 py-2 bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full font-medium border border-gray-300 dark:border-gray-600">React
+                                className="px-4 py-2 font-medium text-gray-800 bg-gray-100 border border-gray-300 rounded-full dark:bg-gray-700 dark:text-gray-200 dark:border-gray-600">React
                                 Map GL</span>
                         </div>
                     </div>
@@ -174,7 +174,7 @@ export default function Home() {
                         <Link
                             href="https://github.com/TheFpiasta/study-csh-olympics"
                             target="_blank"
-                            className="inline-flex items-center gap-3 text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 font-medium text-lg transition-colors group"
+                            className="inline-flex items-center gap-3 text-lg font-medium text-blue-600 transition-colors dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300 group"
                         >
                             <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                                 <path
@@ -191,13 +191,13 @@ export default function Home() {
                 </div>
 
                 {/* Footer */}
-                <footer className="mt-auto pt-12 text-center max-w-4xl mx-auto">
+                <footer className="max-w-4xl pt-12 mx-auto mt-auto text-center">
                     <div
-                        className="bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-200/60 dark:border-gray-600/50 shadow-lg">
-                        <p className="text-gray-800 dark:text-gray-400 text-lg mb-2">
+                        className="p-6 border shadow-lg bg-white/95 dark:bg-gray-800/80 backdrop-blur-sm rounded-2xl border-gray-200/60 dark:border-gray-600/50">
+                        <p className="mb-2 text-lg text-gray-800 dark:text-gray-400">
                             A Project for the University Leipzig
                         </p>
-                        <p className="text-gray-700 dark:text-gray-500 text-base">
+                        <p className="text-base text-gray-700 dark:text-gray-500">
                             Computational Spatial Humanities Module
                         </p>
                     </div>

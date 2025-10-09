@@ -1433,7 +1433,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showLayerPanel && (
           <div 
             data-panel="layer-panel"
-            className="absolute z-50 p-4 border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 min-w-64"
+            className="absolute top-0 z-50 p-4 border border-gray-200 shadow-2xl left-12 md:top-4 md:left-20 glass rounded-xl dark:border-gray-600 min-w-64"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1474,7 +1474,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showOlympicsPanel && (
           <div 
             data-panel="olympics-panel"
-            className="absolute z-50 p-4 overflow-y-auto border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
+            className="absolute top-0 z-50 p-4 overflow-y-auto border border-gray-200 shadow-2xl left-12 md:top-4 md:left-20 glass rounded-xl dark:border-gray-600 min-w-72 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1582,7 +1582,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
         {showStatusPanel && (
           <div 
             data-panel="status-panel"
-            className="absolute z-50 p-4 border border-gray-200 shadow-2xl top-4 left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
+            className="absolute top-0 z-50 p-4 border border-gray-200 shadow-2xl left-12 md:top-4 md:left-20 glass rounded-xl dark:border-gray-600 w-96 max-h-96"
             style={{ maxWidth: 'calc(100vw - 100px)' }}
           >
             <div className="flex items-center justify-between mb-3">
@@ -1794,18 +1794,18 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
       {/* Timeline Panel - Always visible at bottom */}
       <div 
         data-panel="timeline-panel"
-        className="absolute bottom-4 right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[88px]"
-        style={{ width: '500px' }}
+        className="absolute bottom-4 right-2 sm:right-4 glass rounded-xl shadow-lg transition-all duration-300 ease-in-out h-[70px] sm:h-[88px] w-[calc(100vw-1rem)] sm:w-[calc(100vw-3rem)] md:w-[500px] max-w-[500px]"
       >
-        <div className="flex flex-col justify-between h-full p-3">
-          <div className="flex items-center justify-between mb-2">
-            <div className="flex items-center gap-3">
-              <h3 className="text-xs font-bold text-gray-800 dark:text-gray-200">Olympic Timeline</h3>
+        <div className="flex flex-col justify-between h-full p-1.5 sm:p-2 md:p-3">
+          <div className="flex items-center justify-between mb-0.5 sm:mb-1 md:mb-2">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <h3 className="text-[10px] sm:text-xs font-bold text-gray-800 dark:text-gray-200">Olympic Timeline</h3>
               {/* Selected games info moved here */}
-              <div className="text-xs">
+              <div className="text-[10px] sm:text-xs">
                 {timelineMode ? (
                   <span className="text-blue-600 dark:text-blue-400">
-                    {filteredGames.length} games selected
+                    <span className="hidden sm:inline">{filteredGames.length} games selected</span>
+                    <span className="sm:hidden">{filteredGames.length} games</span>
                     {loading && (
                       <span className="inline-flex items-center gap-1 ml-2 text-gray-500">
                         <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
@@ -1818,7 +1818,8 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                   </span>
                 ) : (
                   <span className="flex items-center gap-2 text-gray-500 dark:text-gray-400">
-                    Single game mode
+                    <span className="hidden sm:inline">Single game mode</span>
+                    <span className="sm:hidden">Single</span>
                     {loading && (
                       <span className="inline-flex items-center gap-1 text-blue-500">
                         <svg className="w-3 h-3 animate-spin" viewBox="0 0 24 24" fill="none">
@@ -1832,25 +1833,27 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
                 )}
               </div>
             </div>
-            <div className="flex items-center gap-2">
-              <span className="text-xs text-gray-500 dark:text-gray-400">
+            <div className="flex items-center gap-1 sm:gap-2">
+              <span className="hidden text-xs text-gray-500 dark:text-gray-400 sm:block">
                 {timelineStartYear} - {timelineEndYear}
               </span>
               {timelineMode ? (
                 <button
                   onClick={clearTimelineMode}
-                  className="px-2 py-1 text-xs text-white transition-colors bg-red-500 rounded hover:bg-red-600"
+                  className="px-1 sm:px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs text-white transition-colors bg-red-500 rounded hover:bg-red-600"
                   title="Switch to single game mode"
                 >
-                  Single
+                  <span className="hidden sm:inline">Single</span>
+                  <span className="sm:hidden">S</span>
                 </button>
               ) : (
                 <button
                   onClick={enableTimelineMode}
-                  className="px-2 py-1 text-xs text-white transition-colors bg-blue-500 rounded hover:bg-blue-600"
+                  className="px-1 sm:px-2 py-0.5 sm:py-1 text-[10px] sm:text-xs text-white transition-colors bg-blue-500 rounded hover:bg-blue-600"
                   title="Switch to timeline mode"
                 >
-                  Timeline
+                  <span className="hidden sm:inline">Timeline</span>
+                  <span className="sm:hidden">T</span>
                 </button>
               )}
             </div>
@@ -1950,10 +1953,10 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
             </div>
             
             {/* Year Labels */}
-            <div className="flex justify-between mt-1 text-xs text-gray-500 dark:text-gray-400">
+            <div className="flex justify-between mt-0.5 sm:mt-1 text-[9px] sm:text-xs text-gray-500 dark:text-gray-400">
               <span>1896</span>
-              <span>1940</span>
-              <span>1980</span>
+              <span className="hidden sm:inline">1940</span>
+              <span className="hidden sm:inline">1980</span>
               <span>2018</span>
             </div>
           </div>
@@ -1962,7 +1965,7 @@ const MapWithLayers = ({ onDataUpdate, onChartsToggle, onTimelineDataUpdate, sho
 
       {/* Info Panel */}
       {geojsonData && (
-        <div className="absolute flex items-center overflow-hidden transition-all duration-500 ease-in-out shadow-lg bottom-4 left-4 glass rounded-xl">
+        <div className="absolute items-center hidden overflow-hidden transition-all duration-500 ease-in-out shadow-lg bottom-4 left-4 glass rounded-xl md:flex">
           {/* Main Info Panel - Fixed Height */}
           <div className="flex-shrink-0 px-4 py-3 h-[88px]">
             <div className="flex flex-col justify-center h-full text-xs text-gray-600 dark:text-gray-400">

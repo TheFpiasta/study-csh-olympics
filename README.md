@@ -37,11 +37,97 @@ Deprecated documents and resources maintained for reference.
 
 ## 🚀 Quick Start
 
-1. **Data Collection:** Use `olympic_reports/` to download PDF reports
-2. **PDF Processing:** Split PDFs with `pdf_splitter/` and extract data via `pdfToJson/`
-3. **Web Scraping:** Collect venue coordinates with `geojson_scraper/`
-4. **Data Matching:** Combine sources using `matching-felix/`
-5. **Visualization:** Launch web app from `webapp/` for interactive analysis
+### Prerequisites
+- **Python 3.8+** with pip for data processing scripts
+- **Node.js 18+** with npm for the web application
+- **Chrome browser** (for web scraping)
+
+### Option 1: Use Existing Data (Recommended for Quick Setup)
+The repository contains pre-processed Olympic venue data. You can jump straight to visualization:
+
+```bash
+# 1. Navigate to the web application
+cd webapp
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+# 4. Open http://localhost:3000 in your browser
+```
+
+The webapp automatically loads processed GeoJSON data from `geojson_scraper/00_final_geojsons/`.
+
+### Option 2: Full Data Pipeline (For Research/Extension)
+
+#### Step 1: Collect Raw Data
+
+**Download Olympic Reports (Optional - PDFs provided):**
+```bash
+cd olympic_reports
+pip install selenium webdriver-manager requests
+python reports_scrapper.py
+```
+
+**Scrape Venue Coordinates from Olympedia:**
+```bash
+cd geojson_scraper
+pip install requests beautifulsoup4
+python 01_scraper.py -n 100 -s 1    # Scrape 100 venues starting from ID 1
+```
+
+#### Step 2: Process Data
+
+**Convert scraped data to GeoJSON:**
+```bash
+cd geojson_scraper
+python 02_geojson_templater.py      # Creates basic GeoJSON files
+python 03_duplicate_finder.py       # Removes duplicates
+python 04_renamer.py               # Adds descriptive names
+python 05_venue_combiner.py        # Combines related venues
+```
+
+**Process PDFs (Advanced - requires N8N setup):**
+```bash
+cd pdf_splitter
+pip install PyMuPDF customtkinter
+python app_gui.py                  # GUI tool for splitting PDFs
+
+# For automated processing, see pdfToJson/n8n/README.md
+```
+
+#### Step 3: Match and Combine Data Sources
+
+```bash
+cd matching-poc
+pip install fuzzywuzzy python-Levenshtein
+python main.py                     # Matches PDF and GeoJSON data (82.2% success rate)
+```
+
+#### Step 4: Launch Web Application
+
+```bash
+cd webapp
+npm install
+npm run build                      # Production build
+npm start                          # Production server
+# Or: npm run dev                  # Development server
+```
+
+### Adding Your Own Data
+
+**PDF Reports:** Place Olympic venue PDFs in `pdfToJson/n8n/n8n_io/test_files/`
+**GeoJSON Files:** Processed files go to `geojson_scraper/00_final_geojsons/`
+**Scraped Data:** Raw venue JSON files stored in `geojson_scraper/01_scraped_websites/`
+
+### Troubleshooting
+
+- **Webapp can't find data:** Ensure GeoJSON files exist in `geojson_scraper/00_final_geojsons/`
+- **Scraping fails:** Check internet connection and Olympedia.org availability
+- **Node.js issues:** Verify Node.js 18+ is installed with `node --version`
+- **Python dependencies:** Use virtual environments: `python -m venv venv && venv\Scripts\activate`
 
 ## 🔧 Technical Stack
 

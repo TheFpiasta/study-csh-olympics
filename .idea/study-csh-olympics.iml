@@ -22,16 +22,16 @@
       <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/05_harvard_geojsons" />
       <excludeFolder url="file://$MODULE_DIR$/geojson_scraper/output_venues_found" />
       <excludeFolder url="file://$MODULE_DIR$/webapp/cityParser/.venv" />
-      <excludeFolder url="file://$MODULE_DIR$/matching-poc/.venv" />
       <excludeFolder url="file://$MODULE_DIR$/archive/output_files" />
       <excludeFolder url="file://$MODULE_DIR$/archive/scraped_websites" />
-      <excludeFolder url="file://$MODULE_DIR$/matching-poc/combined_geojson" />
-      <excludeFolder url="file://$MODULE_DIR$/matching-poc/combined_geojson_less_stages_less_array" />
-      <excludeFolder url="file://$MODULE_DIR$/matching-poc/combined_geojson_less_stages_less_array_no_sport_match" />
       <excludeFolder url="file://$MODULE_DIR$/pdfToJson/n8n/n8n_io/PDF_summery/venues_summer" />
       <excludeFolder url="file://$MODULE_DIR$/pdfToJson/n8n/n8n_io/PDF_summery/venues_winter" />
       <excludeFolder url="file://$MODULE_DIR$/pdfToJson/n8n/n8n_io/PDF_summery_v2/venues_summer" />
       <excludeFolder url="file://$MODULE_DIR$/pdfToJson/n8n/n8n_io/PDF_summery_v2/venues_winter" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson_less_stages_less_array" />
+      <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson_less_stages_less_array_no_sport_match" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

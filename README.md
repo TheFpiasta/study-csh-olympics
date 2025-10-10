@@ -83,7 +83,50 @@ pip install requests beautifulsoup4
 python 01_scraper.py -n 100 -s 1    # Scrape 100 venues starting from ID 1
 ```
 
-#### Step 2: Process Data
+**Download Financial Review and venues PDF**
+
+```bash
+curl --request GET -sL \
+     --url 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CPQEHN#'
+     
+ curl --request GET -sL \
+      --url 'https://stillmed.olympics.com/media/Documents/Olympic-Games/Olympic-legacy/Full-report-venues-post-games-use.pdf#_ga=2.261430735.317661095.1681111580-1043555523.1678197020'
+```
+
+#### Step 2: Extract data from PDFs with n8n
+
+**Set up N8N workflow automation:**
+
+```bash
+cd pdfToJson/n8n
+docker compose up -d                   # Start N8N on http://localhost:5678
+
+# Setup Python environment for PDF processing
+cd n8n_io
+python -m venv .venv
+source .venv/bin/activate              # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cd ..
+
+# Import workflows into N8N
+./n8n_workflows/docker-exec-import.sh
+
+# Configure processing (add Anthropic API key)
+cd n8n_io
+cp config.json.summery-example config.json
+# Edit config.json with your API key and settings
+```
+
+**Process PDFs:**
+
+1. Place Olympic venue PDFs in `pdfToJson/n8n/n8n_io/PDF_summery/venues_summer/` or `venues_winter/`
+2. Open http://localhost:5678 in your browser
+3. Run the workflow "OnePdf--FullWorkflow" from the N8N interface
+4. Processed JSON files appear in `*_chunked/` directories and combined JSON files
+
+See [pdfToJson/README.md](./pdfToJson/README.md) for detailed workflow configuration and troubleshooting.
+
+#### Step 3: Process Data
 
 **Convert scraped data to GeoJSON:**
 ```bash
@@ -92,23 +135,6 @@ python 02_geojson_templater.py      # Creates basic GeoJSON files
 python 03_duplicate_finder.py       # Removes duplicates
 python 04_renamer.py               # Adds descriptive names
 python 05_venue_combiner.py        # Combines related venues
-```
-
-**Process PDFs (Advanced - requires N8N setup):**
-```bash
-cd archive/pdf_splitter-poc
-pip install PyMuPDF customtkinter
-python app_gui.py                  # GUI tool for splitting PDFs
-
-# For automated processing, see pdfToJson/README.md
-```
-
-#### Step 3: Match and Combine Data Sources
-
-```bash
-cd archive/matching-poc
-pip install fuzzywuzzy python-Levenshtein
-python main.py                     # Matches PDF and GeoJSON data (82.2% success rate)
 ```
 
 #### Step 4: Launch Web Application

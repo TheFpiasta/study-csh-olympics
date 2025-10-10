@@ -157,12 +157,12 @@ def load_venues_data():
 
     # Define the paths relative to the project root
     summer_file_path = os.path.join(
-        "..", "pdfToJson", "n8n", "n8n_io", "PDF_summery_v2", "venues_summer",
+        "../..", "pdfToJson", "n8n", "n8n_io", "PDF_summery_v2", "venues_summer",
         "Full-report-venues-post-games-use-summer.pdf.json"
     )
 
     winter_file_path = os.path.join(
-        "..", "pdfToJson", "n8n", "n8n_io", "PDF_summery_v2", "venues_winter",
+        "../..", "pdfToJson", "n8n", "n8n_io", "PDF_summery_v2", "venues_winter",
         "Full-report-venues-post-games-use-winter.pdf.json"
     )
 
@@ -199,7 +199,7 @@ def load_geojson_files():
     global geojson_data
 
     # Define the path to the named_geojsons directory
-    geojson_dir = os.path.join("..", "geojson_scraper", "named_geojsons")
+    geojson_dir = os.path.join("../..", "geojson_scraper", "named_geojsons")
 
     # Get all .geojson files in the directory
     geojson_pattern = os.path.join(geojson_dir, "*.geojson")

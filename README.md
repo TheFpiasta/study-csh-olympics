@@ -11,29 +11,34 @@ This thesis project develops a comprehensive workflow for systematic collection 
 
 ## 📁 Project Components
 
-### 🌐 [Web Application (`webapp/`)](./webapp/README.md)
+### Active Components
+
+#### 🌐 [Web Application (`webapp/`)](./webapp/README.md)
 Next.js interactive web application featuring Olympic venue maps, charts, and analytics dashboard with dark mode support.
 
-### 🗺️ [GeoJSON Scraper (`geojson_scraper/`)](./geojson_scraper/README.md) 
+#### 🗺️ [GeoJSON Scraper (`geojson_scraper/`)](./geojson_scraper/README.md)
 Comprehensive data collection pipeline scraping venue information from Olympedia.org and converting to GeoJSON format.
 
-### 📄 [PDF to JSON Pipeline (`pdfToJson/`)](./pdfToJson/README.md)
+#### 📄 [PDF to JSON Pipeline (`pdfToJson/`)](./pdfToJson/README.md)
 Automated N8N workflow converting Olympic venue PDF reports into structured JSON using Claude 4 AI extraction.
 
-### 🔗 [Venue Matching (`matching-felix/`)](matching-poc/README.md)
+### Archived Components
+
+The following proof-of-concept components have been moved to `archive/`:
+
+#### 🔗 [Venue Matching (`archive/matching-poc/`)](archive/matching-poc/README.md)
 POC venue matching system with 82.2% success rate, combining GeoJSON and PDF data sources using fuzzy matching algorithms.
 
-### 📊 [Olympic Reports Scraper (`olympic_reports/`)](./olympic_reports/README.md)
+#### 📊 [Olympic Reports Scraper (`archive/olympic_reports-poc/`)](archive/olympic_reports-poc/README.md)
 POC web scraper for downloading official Olympic Games reports from IOC Olympic Library (54 reports, 1896-2024).
 
-### 🔧 [PDF Splitter (`pdf_splitter/`)](./pdf_splitter/README.md)
+#### 🔧 [PDF Splitter (`archive/pdf_splitter-poc/`)](archive/pdf_splitter-poc/README.md)
 Desktop GUI application for splitting PDF documents using ToC, regex patterns, or fixed page counts.
 
-### 💡 [Idea Collection (`Idea-collection/`)](archive/idea-collection/README.md)
+#### 💡 [Idea Collection (`archive/idea-collection/`)](archive/idea-collection/README.md)
 Research materials, visualization concepts, and external datasets informing the project development.
 
-### 📦 [Archive (`archive/`)](./archive/README.md)
-Deprecated documents and resources maintained for reference.
+See the [Archive README](./archive/README.md) for more archived resources.
 
 ## 🚀 Quick Start
 
@@ -66,7 +71,7 @@ The webapp automatically loads processed GeoJSON data from `geojson_scraper/00_f
 
 **Download Olympic Reports (Optional - PDFs provided):**
 ```bash
-cd olympic_reports
+cd archive/olympic_reports-poc
 pip install selenium webdriver-manager requests
 python reports_scrapper.py
 ```
@@ -78,7 +83,55 @@ pip install requests beautifulsoup4
 python 01_scraper.py -n 100 -s 1    # Scrape 100 venues starting from ID 1
 ```
 
-#### Step 2: Process Data
+**Download Financial Review and venues PDF**
+
+```bash
+curl --request GET -sL \
+     --url 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CPQEHN#'
+     --output 'geojson_scraper/Growth dataset Olympic Games and Football World Cup.xlsx'
+     
+ curl --request GET -sL \
+      --url 'https://stillmed.olympics.com/media/Documents/Olympic-Games/Olympic-legacy/Full-report-venues-post-games-use.pdf#_ga=2.261430735.317661095.1681111580-1043555523.1678197020'
+```
+
+Then, split the full report into individual season PDFs and save it to `pdfToJson/n8n/n8n_io/PDF_summery/venues_summer/`
+and `pdfToJson/n8n/n8n_io/PDF_summery/venues_winter/`.
+You can use tools like [PDF24](https://tools.pdf24.org/de/) for this task.
+
+#### Step 2: Extract data from PDFs with n8n
+
+**Set up N8N workflow automation:**
+
+```bash
+cd pdfToJson/n8n
+docker compose up -d                   # Start N8N on http://localhost:5678
+
+# Setup Python environment for PDF processing
+cd n8n_io
+python -m venv .venv
+source .venv/bin/activate              # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cd ..
+
+# Import workflows into N8N
+./n8n_workflows/docker-exec-import.sh
+
+# Configure processing (add Anthropic API key)
+cd n8n_io
+cp config.json.summery-example config.json
+# Edit config.json with your API key and settings
+```
+
+**Process PDFs:**
+
+1. Place Olympic venue PDFs in `pdfToJson/n8n/n8n_io/PDF_summery/venues_summer/` or `venues_winter/`
+2. Open http://localhost:5678 in your browser
+3. Run the workflow "OnePdf--FullWorkflow" from the N8N interface
+4. Processed JSON files appear in `*_chunked/` directories and combined JSON files
+
+See [pdfToJson/README.md](./pdfToJson/README.md) for detailed workflow configuration and troubleshooting.
+
+#### Step 3: Process Data
 
 **Convert scraped data to GeoJSON:**
 ```bash
@@ -87,23 +140,6 @@ python 02_geojson_templater.py      # Creates basic GeoJSON files
 python 03_duplicate_finder.py       # Removes duplicates
 python 04_renamer.py               # Adds descriptive names
 python 05_venue_combiner.py        # Combines related venues
-```
-
-**Process PDFs (Advanced - requires N8N setup):**
-```bash
-cd pdf_splitter
-pip install PyMuPDF customtkinter
-python app_gui.py                  # GUI tool for splitting PDFs
-
-# For automated processing, see pdfToJson/n8n/README.md
-```
-
-#### Step 3: Match and Combine Data Sources
-
-```bash
-cd matching-poc
-pip install fuzzywuzzy python-Levenshtein
-python main.py                     # Matches PDF and GeoJSON data (82.2% success rate)
 ```
 
 #### Step 4: Launch Web Application
@@ -118,7 +154,7 @@ npm start                          # Production server
 
 ### Adding Your Own Data
 
-**PDF Reports:** Place Olympic venue PDFs in `pdfToJson/n8n/n8n_io/test_files/`
+**PDF Reports:** Place Olympic venue PDFs in `pdfToJson/` (see component README for details)
 **GeoJSON Files:** Processed files go to `geojson_scraper/00_final_geojsons/`
 **Scraped Data:** Raw venue JSON files stored in `geojson_scraper/01_scraped_websites/`
 

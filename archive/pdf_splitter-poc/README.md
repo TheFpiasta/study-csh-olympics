@@ -1,6 +1,7 @@
-# PDF Splitter
+# PDF Splitter - POC
 
 A desktop GUI application for splitting PDF documents into smaller sections using various methods. This tool is designed as a proof-of-concept (POC) and has been adapted for use in the `pdfToJson` workflow within the Olympic venues data processing pipeline.
+This is ht proof of concept implementation for the pdf splitting algorithmus in n8n.
 
 ## Overview
 

@@ -20,13 +20,13 @@ Comprehensive data collection pipeline scraping venue information from Olympedia
 ### 📄 [PDF to JSON Pipeline (`pdfToJson/`)](./pdfToJson/README.md)
 Automated N8N workflow converting Olympic venue PDF reports into structured JSON using Claude 4 AI extraction.
 
-### 🔗 [Venue Matching (`matching-felix/`)](matching-poc/README.md)
+### 🔗 [Venue Matching (`matching-felix/`)](archive/matching-poc/README.md)
 POC venue matching system with 82.2% success rate, combining GeoJSON and PDF data sources using fuzzy matching algorithms.
 
-### 📊 [Olympic Reports Scraper (`olympic_reports/`)](./olympic_reports/README.md)
+### 📊 [Olympic Reports Scraper (`olympic_reports/`)](archive/olympic_reports-poc/README.md)
 POC web scraper for downloading official Olympic Games reports from IOC Olympic Library (54 reports, 1896-2024).
 
-### 🔧 [PDF Splitter (`pdf_splitter/`)](./pdf_splitter/README.md)
+### 🔧 [PDF Splitter (`pdf_splitter/`)](archive/pdf_splitter-poc/README.md)
 Desktop GUI application for splitting PDF documents using ToC, regex patterns, or fixed page counts.
 
 ### 💡 [Idea Collection (`Idea-collection/`)](archive/idea-collection/README.md)
@@ -66,7 +66,7 @@ The webapp automatically loads processed GeoJSON data from `geojson_scraper/00_f
 
 **Download Olympic Reports (Optional - PDFs provided):**
 ```bash
-cd olympic_reports
+cd olympic_reports-poc
 pip install selenium webdriver-manager requests
 python reports_scrapper.py
 ```
@@ -91,7 +91,7 @@ python 05_venue_combiner.py        # Combines related venues
 
 **Process PDFs (Advanced - requires N8N setup):**
 ```bash
-cd pdf_splitter
+cd pdf_splitter-poc
 pip install PyMuPDF customtkinter
 python app_gui.py                  # GUI tool for splitting PDFs
 

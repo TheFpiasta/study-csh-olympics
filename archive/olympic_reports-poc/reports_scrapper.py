@@ -16,7 +16,7 @@ import os
 
 # --- Konfiguration ---
 BASE_URL = "https://library.olympics.com"
-DOWNLOAD_BASE = Path.home() / "Downloads" / "olympic_reports"
+DOWNLOAD_BASE = Path.home() / "Downloads" / "olympic_reports-poc"
 DOWNLOAD_BASE.mkdir(parents=True, exist_ok=True)
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"}
 
@@ -138,21 +138,21 @@ def download_report(detail_url, category, driver, session):
         title_selector = "span.toolbar-title"
         title_elem = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, title_selector)))
         full_title = driver.execute_script("return arguments[0].textContent;", title_elem).strip().replace('\n', '').replace('  ', '')
-        
+
         match = re.search(r"([\w\s]+ \d{4})", full_title)
         folder_name = sanitize(match.group(1).strip()) if match else sanitize(full_title)
-        
+
         category_folder = DOWNLOAD_BASE / category
         game_folder = category_folder / folder_name
         game_folder.mkdir(parents=True, exist_ok=True)
         print(f"🗂️  Ordner '{category}{os.path.sep}{folder_name}' wird verwendet.")
-        
+
         try:
             WebDriverWait(driver, 5).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div.swiper-container")))
             print("📚 Mehrere Bände gefunden.")
             volume_links_selector = "a.strip-item.dr-thumb"
             num_volumes = len(WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, volume_links_selector))))
-            
+
             for i in range(num_volumes):
                 print(f"--- Verarbeite Band {i+1}/{num_volumes} ---")
                 volume_elements = WebDriverWait(driver, 10).until(EC.presence_of_all_elements_located((By.CSS_SELECTOR, volume_links_selector)))
@@ -162,16 +162,16 @@ def download_report(detail_url, category, driver, session):
                 download_button_selector = 'a[href*="DigitalCollectionAttachmentDownloadHandler.ashx"]'
                 download_button = WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CSS_SELECTOR, download_button_selector)))
                 download_url = download_button.get_attribute('href')
-                
+
                 filename = f"Volume {i+1}.pdf"
                 download_file(session, urljoin(BASE_URL, download_url), game_folder / filename)
-        
+
         except TimeoutException:
             print("📖 Nur ein Band gefunden.")
             download_button_selector = 'a[href*="DigitalCollectionAttachmentDownloadHandler.ashx"]'
             download_button = WebDriverWait(driver, 45).until(EC.element_to_be_clickable((By.CSS_SELECTOR, download_button_selector)))
             download_url = download_button.get_attribute('href')
-            
+
             filename = "Report.pdf"
             download_file(session, urljoin(BASE_URL, download_url), game_folder / filename)
 
@@ -180,24 +180,24 @@ def download_report(detail_url, category, driver, session):
 
 def main():
     options = Options()
-    
+
     # Der Browser bleibt für die Überwachung sichtbar.
     # Für den unbeaufsichtigten Lauf, diese Zeile einkommentieren.
     # options.add_argument("--headless")
-    
+
     options.add_argument("--window-size=1920,1080")
     options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
-    
+
     driver = None
     try:
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-        
+
         handle_cookies_once(driver)
         links_by_category = get_and_classify_links()
-        
+
         session = create_requests_session(driver)
-        
+
         links_to_process = links_by_category
 
         for category, links in links_to_process.items():

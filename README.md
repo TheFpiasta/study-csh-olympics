@@ -88,10 +88,15 @@ python 01_scraper.py -n 100 -s 1    # Scrape 100 venues starting from ID 1
 ```bash
 curl --request GET -sL \
      --url 'https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/CPQEHN#'
+     --output 'geojson_scraper/Growth dataset Olympic Games and Football World Cup.xlsx'
      
  curl --request GET -sL \
       --url 'https://stillmed.olympics.com/media/Documents/Olympic-Games/Olympic-legacy/Full-report-venues-post-games-use.pdf#_ga=2.261430735.317661095.1681111580-1043555523.1678197020'
 ```
+
+Then, split the full report into individual season PDFs and save it to `pdfToJson/n8n/n8n_io/PDF_summery/venues_summer/`
+and `pdfToJson/n8n/n8n_io/PDF_summery/venues_winter/`.
+You can use tools like [PDF24](https://tools.pdf24.org/de/) for this task.
 
 #### Step 2: Extract data from PDFs with n8n
 

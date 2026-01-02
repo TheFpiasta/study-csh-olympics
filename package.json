@@ -1,0 +1,8 @@
+{
+  "name": "study-csh-olympics",
+  "private": true,
+  "description": "This file only exists to stupidly force nixpacks to detect the nodejs project in webapp.",
+  "workspaces": [
+    "webapp"
+  ]
+}

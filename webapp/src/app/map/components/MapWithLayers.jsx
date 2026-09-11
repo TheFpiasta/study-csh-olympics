@@ -10,6 +10,7 @@ import Map, {
     ScaleControl,
     Source
 } from 'react-map-gl/maplibre';
+import '@/app/map/lib/maplibreWorker';
 import logger from '@/components/logger';
 
 const MapWithLayers = ({

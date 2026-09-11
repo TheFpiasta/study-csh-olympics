@@ -32,9 +32,10 @@
       <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson" />
       <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson_less_stages_less_array" />
       <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson_less_stages_less_array_no_sport_match" />
+      <excludeFolder url="file://$MODULE_DIR$/.claude" />
+      <excludeFolder url="file://$MODULE_DIR$/.playwright-mcp" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Python 3.10 virtualenv at ~/WebstormProjects/study-csh-olympics/webapp/cityParser/.venv interpreter library" level="application" />
   </component>
 </module>

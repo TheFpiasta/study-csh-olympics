@@ -2,6 +2,7 @@
 
 import React, {useCallback, useEffect, useState} from 'react';
 import Map, {GeolocateControl, Layer, NavigationControl, ScaleControl, Source} from 'react-map-gl/maplibre';
+import '@/app/map/lib/maplibreWorker';
 import logger from '@/components/logger';
 
 const MapComponent = () => {

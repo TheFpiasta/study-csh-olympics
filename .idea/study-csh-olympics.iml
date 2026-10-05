@@ -34,6 +34,8 @@
       <excludeFolder url="file://$MODULE_DIR$/archive/matching-poc/combined_geojson_less_stages_less_array_no_sport_match" />
       <excludeFolder url="file://$MODULE_DIR$/.claude" />
       <excludeFolder url="file://$MODULE_DIR$/.playwright-mcp" />
+      <excludePattern pattern="*.lock" />
+      <excludePattern pattern="*-lock.*" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

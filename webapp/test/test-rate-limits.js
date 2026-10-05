@@ -72,6 +72,6 @@ async function runTests() {
 fetch(`${baseUrl}/api/logs`, {method: 'OPTIONS'})
     .then(() => runTests())
     .catch(() => {
-        console.error('Server not running. Please start with: npm run dev');
+        console.error('Server not running. Please start with: yarn dev');
         process.exit(1);
     });

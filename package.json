@@ -2,7 +2,14 @@
     "name": "study-csh-olympics",
     "private": true,
     "description": "This file only exists to stupidly force nixpacks to detect the nodejs project in webapp.",
+    "workspaces": [
+        "webapp"
+    ],
     "engines": {
         "node": "24"
+    },
+    "scripts": {
+        "build": "yarn workspace olympic-venues build",
+        "start": "yarn workspace olympic-venues start"
     }
 }

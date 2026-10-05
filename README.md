@@ -44,7 +44,7 @@ See the [Archive README](./archive/README.md) for more archived resources.
 
 ### Prerequisites
 - **Python 3.8+** with pip for data processing scripts
-- **Node.js 18+** with npm for the web application
+- **Node.js 24** with yarn for the web application
 - **Chrome browser** (for web scraping)
 
 ### Option 1: Use Existing Data (Recommended for Quick Setup)
@@ -55,15 +55,17 @@ The repository contains pre-processed Olympic venue data. You can jump straight 
 cd webapp
 
 # 2. Install dependencies
-npm install
+yarn install
 
 # 3. Start the development server
-npm run dev
+yarn dev
 
 # 4. Open http://localhost:3000 in your browser
 ```
 
 The webapp automatically loads processed GeoJSON data from `geojson_scraper/00_final_geojsons/`.
+
+The repository root is a Yarn workspace with `webapp` as its only workspace. `yarn.lock` and `node_modules` live at the repository root, and `yarn install` works from the root or from `webapp/`. The root `package.json` also provides `yarn build` and `yarn start` for the webapp.
 
 ### Option 2: Full Data Pipeline (For Research/Extension)
 
@@ -146,10 +148,10 @@ python 05_venue_combiner.py        # Combines related venues
 
 ```bash
 cd webapp
-npm install
-npm run build                      # Production build
-npm start                          # Production server
-# Or: npm run dev                  # Development server
+yarn install
+yarn build                         # Production build
+yarn start                         # Production server
+# Or: yarn dev                     # Development server
 ```
 
 ### Adding Your Own Data
@@ -162,14 +164,14 @@ npm start                          # Production server
 
 - **Webapp can't find data:** Ensure GeoJSON files exist in `geojson_scraper/00_final_geojsons/`
 - **Scraping fails:** Check internet connection and Olympedia.org availability
-- **Node.js issues:** Verify Node.js 18+ is installed with `node --version`
+- **Node.js issues:** Verify Node.js 24 is installed with `node --version`
 - **Python dependencies:** Use virtual environments: `python -m venv venv && venv\Scripts\activate`
 
 ## 🔧 Technical Stack
 
 - **Backend:** Python (Selenium, BeautifulSoup, PyMuPDF), N8N automation
 - **AI Processing:** Claude 4 Sonnet for PDF extraction and validation
-- **Frontend:** Next.js 15, React 19, MapLibre GL, Tailwind CSS
+- **Frontend:** Next.js 16, React 19, MapLibre GL, Tailwind CSS
 - **Data:** GeoJSON, PDF reports, external datasets (Harvard, Kaggle, World Bank)
 
 ## 📈 Results

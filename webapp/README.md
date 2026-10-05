@@ -26,19 +26,19 @@ A sophisticated Next.js web application for visualizing and analyzing Olympic ve
 ## 🛠 Technology Stack
 
 ### Core Framework
-- **Next.js 15.4.4** - React framework with App Router
-- **React 19.1.0** - Latest React with modern features
+- **Next.js 16.3.8** - React framework with App Router
+- **React 19.3.0** - Latest React with modern features
 - **Node.js** - Server-side JavaScript runtime
 
 ### Styling & UI
-- **Tailwind CSS 4.1.11** - Utility-first CSS framework
+- **Tailwind CSS 4.3.3** - Utility-first CSS framework
 - **PostCSS** - CSS processing with Lightning CSS
 - **Custom Olympic theme** with brand colors
 - **Geist fonts** - Modern typography from Vercel
 
 ### Mapping & Visualization
-- **MapLibre GL 5.6.1** - Open-source mapping library
-- **React Map GL 8.0.4** - React bindings for MapLibre
+- **MapLibre GL 6.12.0** - Open-source mapping library
+- **React Map GL 8.1.3** - React bindings for MapLibre
 - **Nivo Charts** - Complete data visualization library
   - Bar charts, Line charts, Pie charts, Heatmaps
   - Network graphs, Sankey diagrams, Scatterplots
@@ -88,14 +88,13 @@ webapp/
 ├── next.config.mjs            # Next.js configuration
 ├── tailwind.config.js         # Tailwind CSS configuration
 ├── postcss.config.mjs         # PostCSS configuration
-├── jsconfig.json              # JavaScript path mapping
-└── eslint.config.mjs          # ESLint configuration
+└── jsconfig.json              # JavaScript path mapping
 ```
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- **Node.js 18+** with npm
+- **Node.js 24** with yarn
 - Access to Olympic venue data (GeoJSON files in parent directory)
 
 ### Installation
@@ -105,14 +104,16 @@ webapp/
 cd webapp
 
 # Install dependencies
-npm install
+yarn install
 ```
+
+The repository root is a Yarn workspace with `webapp` as its only workspace, so `yarn install` writes `yarn.lock` and `node_modules` at the repository root.
 
 ### Development
 
 ```bash
 # Start development server
-npm run dev
+yarn dev
 
 # The application will be available at http://localhost:3000
 ```
@@ -121,23 +122,13 @@ npm run dev
 
 ```bash
 # Build for production
-npm run build
+yarn build
 
 # Start production server
-npm start
+yarn start
 
 # Or build and start together
-npm run prod
-```
-
-### Code Quality
-
-```bash
-# Run linting
-npm run lint
-
-# Fix linting issues automatically
-npm run lint -- --fix
+yarn prod
 ```
 
 ## 📊 Data Integration
@@ -349,11 +340,10 @@ Simplified map component for single dataset visualization.
 
 ### Available Scripts
 ```bash
-npm run dev      # Development server (localhost:3000)
-npm run build    # Production build
-npm run start    # Production server
-npm run prod     # Build + start combined
-npm run lint     # ESLint code quality check
+yarn dev      # Development server (localhost:3000)
+yarn build    # Production build
+yarn start    # Production server
+yarn prod     # Build + start combined
 ```
 
 ### Development Guidelines
@@ -367,9 +357,12 @@ npm run lint     # ESLint code quality check
 
 ### Production Build
 ```bash
-npm run build
-npm start
+yarn build
+yarn start
 ```
+
+### Railpack
+Railpack builds from the repository root. It runs `yarn install --frozen-lockfile` there and uses the root `build` and `start` scripts, which run this workspace. The repository root is needed at runtime because the API routes read GeoJSON files from `../geojson_scraper/`. The deployment platform must not set custom install, build or start commands, since those replace Railpack's workspace steps.
 
 ### Environment Variables
 No environment variables required - uses local filesystem for data access.

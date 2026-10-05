@@ -65,6 +65,8 @@ yarn dev
 
 The webapp automatically loads processed GeoJSON data from `geojson_scraper/00_final_geojsons/`.
 
+The repository root is a Yarn workspace with `webapp` as its only workspace. `yarn.lock` and `node_modules` live at the repository root, and `yarn install` works from the root or from `webapp/`. The root `package.json` also provides `yarn build` and `yarn start` for the webapp.
+
 ### Option 2: Full Data Pipeline (For Research/Extension)
 
 #### Step 1: Collect Raw Data

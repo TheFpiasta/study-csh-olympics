@@ -1,7 +1,7 @@
 {
     "name": "study-csh-olympics",
     "private": true,
-    "description": "This file only exists to stupidly force nixpacks to detect the nodejs project in webapp.",
+    "description": "Yarn workspace root. The web application lives in webapp; the build and start scripts run it from the repo root.",
     "workspaces": [
         "webapp"
     ],

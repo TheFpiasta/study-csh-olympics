@@ -107,6 +107,8 @@ cd webapp
 yarn install
 ```
 
+The repository root is a Yarn workspace with `webapp` as its only workspace, so `yarn install` writes `yarn.lock` and `node_modules` at the repository root.
+
 ### Development
 
 ```bash
@@ -358,6 +360,9 @@ yarn prod     # Build + start combined
 yarn build
 yarn start
 ```
+
+### Railpack
+Railpack builds from the repository root. It runs `yarn install --frozen-lockfile` there and uses the root `build` and `start` scripts, which run this workspace. The repository root is needed at runtime because the API routes read GeoJSON files from `../geojson_scraper/`. The deployment platform must not set custom install, build or start commands, since those replace Railpack's workspace steps.
 
 ### Environment Variables
 No environment variables required - uses local filesystem for data access.

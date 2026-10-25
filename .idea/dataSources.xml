@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:sqlite:C:\Users\felix\WebstormProjects\study-csh-olympics\poc\n8n\n8n_data\database.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="database" uuid="3b9161f3-2289-4659-b1cf-b310f65c9725">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/pdfToJson/n8n/n8n_data/database.sqlite</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

@@ -6,7 +6,7 @@
         "webapp"
     ],
     "engines": {
-        "node": "24"
+        "node": "^24.22.1"
     },
     "scripts": {
         "build": "yarn workspace olympic-venues build",

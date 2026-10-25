@@ -12,8 +12,8 @@ Directory structure:
 - docker compose up -d
 - open http://localhost:5678
 - import the workflow from `n8n_workflow` directory
-- coppy in n8n_io the config.json.example to config.json and edit it with your settings
-- run the workflow in n8n (allPdfsToJson)
+- copy in n8n_io the config.json.summery-example to config.json and edit it with your settings
+- run the workflow in n8n (OnePdf--FullWorkflow)
 
 
 # TODOS

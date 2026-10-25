@@ -1,1 +1,10 @@
 /.env
+/CLAUDE.md
+deploy.sh
+/package.json
+/package-lock.json
+/node_modules
+/.next/                                                                                                                    
+/out/                                                                                                                      
+/dist/
+/.playwright-mcp/

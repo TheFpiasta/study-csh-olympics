@@ -14,7 +14,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 # Directories
-input_dir = os.path.join(os.path.dirname(__file__), "scraped_websites")
+input_dir = os.path.join(os.path.dirname(__file__), "00_scraped_websites")
 output_dir = os.path.join(os.path.dirname(__file__), "rescraped_websites")
 os.makedirs(output_dir, exist_ok=True)
 

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Browser Logger Test</title>
+</head>
+<body>
+<h1>Browser Logger Test</h1>
+<p>Open the browser console to see log messages.</p>
+
+<button id="testLogger">Test Logger</button>
+<div id="output"></div>
+
+<script type="module">
+    // Since we can't directly import the logger in plain HTML, let's simulate the browser environment
+    const isBrowser = typeof window !== 'undefined';
+    const hasFetch = typeof fetch !== 'undefined';
+
+    class TestLogger {
+        constructor() {
+            // Simulate browser environment defaults
+            this.logLevel = 'info';
+            this.useFileLogging = false;  // Disable for this test
+            this.useConsoleLogging = true;  // Should be true in browser
+            this.serverLogEndpoint = '/api/logs';
+
+            this.logLevels = {
+                debug: 0,
+                info: 1,
+                warn: 2,
+                error: 3
+            };
+
+            this.currentLogLevel = this.logLevels[this.logLevel] !== undefined
+                ? this.logLevels[this.logLevel]
+                : this.logLevels.warn;
+        }
+
+        formatTemplate(level, message, data = null) {
+            const now = new Date();
+            const year = now.getFullYear();
+            const month = String(now.getMonth() + 1).padStart(2, '0');
+            const day = String(now.getDate()).padStart(2, '0');
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+
+            const timestamp = `[${year}-${month}-${day} ${hours}:${minutes}:${seconds}]`;
+            const logEntry = `${timestamp} ${level.toUpperCase()}: ${message}`;
+
+            if (data !== null && data !== undefined) {
+                const dataString = typeof data === 'object' ? JSON.stringify(data, null, 2) : String(data);
+                return `${logEntry}\n${dataString}`;
+            }
+
+            return logEntry;
+        }
+
+        writeLog(level, message, data) {
+            if (this.logLevels[level] < this.currentLogLevel) {
+                return;
+            }
+
+            const formattedLog = this.formatTemplate(level, message, data);
+
+            if (this.useConsoleLogging) {
+                switch (level) {
+                    case 'debug':
+                        console.debug(formattedLog);
+                        break;
+                    case 'info':
+                        console.info(formattedLog);
+                        break;
+                    case 'warn':
+                        console.warn(formattedLog);
+                        break;
+                    case 'error':
+                        console.error(formattedLog);
+                        break;
+                    default:
+                        console.log(formattedLog);
+                }
+            }
+        }
+
+        debug(message, data) {
+            this.writeLog('debug', message, data);
+        }
+
+        info(message, data) {
+            this.writeLog('info', message, data);
+        }
+
+        warn(message, data) {
+            this.writeLog('warn', message, data);
+        }
+
+        error(message, data) {
+            this.writeLog('error', message, data);
+        }
+    }
+
+    const testLogger = new TestLogger();
+
+    document.getElementById('testLogger').addEventListener('click', () => {
+        const output = document.getElementById('output');
+        output.innerHTML = '<p>Check the browser console for log messages!</p>';
+
+        console.log('=== Logger Test Start ===');
+        console.log('Logger configuration:', {
+            logLevel: testLogger.logLevel,
+            currentLogLevel: testLogger.currentLogLevel,
+            useConsoleLogging: testLogger.useConsoleLogging,
+            useFileLogging: testLogger.useFileLogging
+        });
+
+        testLogger.debug('Debug message test');
+        testLogger.info('Info message test');
+        testLogger.warn('Warning message test');
+        testLogger.error('Error message test');
+
+        console.log('=== Logger Test End ===');
+    });
+
+    // Auto-run test on page load
+    window.addEventListener('load', () => {
+        document.getElementById('testLogger').click();
+    });
+</script>
+</body>
+</html>

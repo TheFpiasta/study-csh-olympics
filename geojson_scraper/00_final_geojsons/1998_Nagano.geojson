@@ -1,0 +1,1862 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837391,
+          36.695315
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hakuba Ski Jumping Stadium",
+          "Hakuba Ski Jumping Stadium"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.695315,137.837391",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1993",
+        "seating_capacity": "45000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2311"
+            },
+            {
+              "text": "13 – 14 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2316"
+            },
+            {
+              "text": "19 – 20 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2439"
+            },
+            {
+              "text": "11 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2442"
+            },
+            {
+              "text": "15 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2445"
+            },
+            {
+              "text": "17 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_78.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The stadium welcomes the summertime FIS Ski Jumping Grand Prix every year, among other competitions.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.837166,
+          36.701832
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Happo'one",
+          "Hakuba Happo'one Ski Area"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.701832,137.837166",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1434"
+            },
+            {
+              "text": "13 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1435"
+            },
+            {
+              "text": "16 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1442"
+            },
+            {
+              "text": "9 – 13 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1447"
+            },
+            {
+              "text": "16 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1448"
+            },
+            {
+              "text": "11 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1455"
+            },
+            {
+              "text": "16 – 17 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_79.json",
+        "Olympics": "1998 Nagano",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "One of the largest and oldest resorts in the Hakuba ski area, it is popular with foreign visitors thanks to its deep snow, challenging runs and excellent facilities.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          137.822038,
+          36.666827
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Snow Harp"
+        ],
+        "place": "Hakuba",
+        "coordinates": "36.666827,137.822038",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "Cross-country skiing"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2066"
+            },
+            {
+              "text": "12 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10/15 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/2067"
+            },
+            {
+              "text": "14 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2070"
+            },
+            {
+              "text": "9 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2071"
+            },
+            {
+              "text": "22 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2072"
+            },
+            {
+              "text": "18 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2076"
+            },
+            {
+              "text": "9 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5/10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/2077"
+            },
+            {
+              "text": "10 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2080"
+            },
+            {
+              "text": "8 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2081"
+            },
+            {
+              "text": "20 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2082"
+            },
+            {
+              "text": "16 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2311"
+            },
+            {
+              "text": "13 – 14 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2316"
+            },
+            {
+              "text": "19 – 20 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_80.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Its three Olympic cross-country skiing courses remain open to the public throughout the winter, and are used for mountain biking and the Hakuba Snow Harp Cross Country race in the summer.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.139488,
+          36.72194
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Iizuna Kogen Resort",
+          "Iizuna Kogen Ski Area"
+        ],
+        "place": "Iizuna",
+        "coordinates": "36.72194,138.139488",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing"
+        ],
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/1829"
+            },
+            {
+              "text": "16 – 18 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/1836"
+            },
+            {
+              "text": "8 – 11 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/1839"
+            },
+            {
+              "text": "16 – 18 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/1846"
+            },
+            {
+              "text": "8 – 11 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_81.json",
+        "Olympics": "1998 Nagano",
+        "classification": "Existing",
+        "status": "Not in use",
+        "information": "The venue for the FIS 2001 Women's Dual Moguls World Cup and races at the 2005 Special Olympics World Winter Games, Iizuna Kogen has struggled to attract visitors in recent years. After putting the resort up for sale, the City of Nagano closed it in March 2020 when no buyers came forward. Its lifts will be removed, the ski runs replanted with trees, and the land returned to its natural state.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.1575,
+          36.710833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "The Spiral",
+          "Spiral Track"
+        ],
+        "place": "Asakawa, Nagano",
+        "coordinates": "36.710833,138.1575",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/431"
+            },
+            {
+              "text": "14 – 15 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/438"
+            },
+            {
+              "text": "20 – 21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/178"
+            },
+            {
+              "text": "8 –  9 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/185"
+            },
+            {
+              "text": "13 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/188"
+            },
+            {
+              "text": "10 – 11 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_82.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "Not in use",
+        "information": "This provided the setting for the 2003 FIBT Skeleton World Championships and was used as a national training facility before closing in 2018 due to the high maintenance costs.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.596499,
+          36.322931
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kazakoshi Park Arena"
+        ],
+        "place": "Karuizawa",
+        "coordinates": "36.322931,138.596499",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "seating_capacity": "1924",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2481"
+            },
+            {
+              "text": "9 – 15 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/2520"
+            },
+            {
+              "text": "9 – 15 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_83.json",
+        "Olympics": "1998 Nagano",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "This is now a multi-purpose facility offering ice skating, ice hockey, tennis, baseball, football and curling.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.233056,
+          36.660556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Aqua Wing Arena",
+          "Nagano Sports Park General Municipal Pool (1998-Present)",
+          "Aqua Wing"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.660556,138.233056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20713"
+            },
+            {
+              "text": "7 – 22 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20757"
+            },
+            {
+              "text": "8 – 17 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_85.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Provides local swimmers with excellent facilities all year round.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.195833,
+          36.629722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Big Hat (also known as Wakasato Multi-Purpose Sports Arena)",
+          "Big Hat"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.629722,138.195833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10140",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20713"
+            },
+            {
+              "text": "7 – 22 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/20757"
+            },
+            {
+              "text": "8 – 17 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_86.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This venue continues to stage figure skating and ice hockey competitions in the winter, including the Nagano Cup, an annual international tournament held to commemorate the Games.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.240319,
+          36.640556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "M-Wave"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.640556,138.240319",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1996",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "342 m",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1094"
+            },
+            {
+              "text": "9 – 10 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1097"
+            },
+            {
+              "text": "15 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1098"
+            },
+            {
+              "text": "12 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1099"
+            },
+            {
+              "text": "8 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1100"
+            },
+            {
+              "text": "17 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1101"
+            },
+            {
+              "text": "13 – 14 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1104"
+            },
+            {
+              "text": "19 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1105"
+            },
+            {
+              "text": "16 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1106"
+            },
+            {
+              "text": "11 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1107"
+            },
+            {
+              "text": "20 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_87.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Named after the shape of its suspended roof, which represents the rugged peaks of Nagano's mountain ranges, the M-Wave remains in use all year round. It is a world championship venue for a number of disciplines and a regular stop on the ISU Speed Skating World Cup circuit, hosting international competitions, most recently in November 2016 and December 2019. The venue for Japan's Olympic speed skating trials, it is open to the public from October to March and attracts around 100,000 visits a year from recreational skaters.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.206389,
+          36.604722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "White Ring"
+        ],
+        "place": "Nagano",
+        "coordinates": "36.604722,138.206389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating",
+          "short track",
+          "speed skating"
+        ],
+        "seating_capacity": "7351",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/14168"
+            },
+            {
+              "text": "12 – 14 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/14189"
+            },
+            {
+              "text": "18 – 20 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/14210"
+            },
+            {
+              "text": "8 – 10 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/14231"
+            },
+            {
+              "text": "13 – 16 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/627"
+            },
+            {
+              "text": "19 – 21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/647"
+            },
+            {
+              "text": "17 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/667"
+            },
+            {
+              "text": "19 – 21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/673"
+            },
+            {
+              "text": "19 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/693"
+            },
+            {
+              "text": "21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/713"
+            },
+            {
+              "text": "17 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_88.json",
+        "Olympics": "1998 Nagano",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This multi-sports venue used by local teams and schools also hosted 15 matches at the 2019 FIVB Volleyball Men's World Cup.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.44003,
+          36.915365
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Nozawa Onsen Resort",
+          "Nozawa Onsen Biathlon Venue"
+        ],
+        "place": "Nozawa Onsen",
+        "coordinates": "36.915365,138.44003",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1573"
+            },
+            {
+              "text": "18 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1574"
+            },
+            {
+              "text": "11 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1575"
+            },
+            {
+              "text": "21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/1579"
+            },
+            {
+              "text": "15 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1580"
+            },
+            {
+              "text": "9 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1581"
+            },
+            {
+              "text": "19 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_89.json",
+        "Olympics": "1998 Nagano",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Although its shooting range was dismantled after the Games, the course remains open. Its cross-country trails and runs are popular with foreign skiers. Over 400,000 of them visited in 2018/19, and the resort has upgraded its facilities and installed new gondolas to meet growing demand.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.517143,
+          36.745556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Yakebitai, Shiga Kogen"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.745556,138.517143",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Snowboarding"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1439"
+            },
+            {
+              "text": "21 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1452"
+            },
+            {
+              "text": "19 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1616"
+            },
+            {
+              "text": "8 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1626"
+            },
+            {
+              "text": "9 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_90.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.448956,
+          36.728171
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kanbayashi Sports Park"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.728171,138.448956",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Snowboarding"
+        ],
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/1619"
+            },
+            {
+              "text": "12 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/1629"
+            },
+            {
+              "text": "12 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_91.json",
+        "Olympics": "1998 Nagano"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.503995,
+          36.72357
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Higashidate, Shiga Kogen",
+          "Shiga Kogen - Mount Higashidate"
+        ],
+        "place": "Yamanouchi",
+        "coordinates": "36.72357,138.503995",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1998",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "20000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1436"
+            },
+            {
+              "text": "19 February 1998"
+            }
+          ],
+          [
+            {
+              "text": "1998 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/46"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1449"
+            },
+            {
+              "text": "20 February 1998"
+            }
+          ]
+        ],
+        "source_file": "venue_92.json",
+        "Olympics": "1998 Nagano",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The areas already welcomed snow sports enthusiasts before the Games. Though the temporary Games infrastructures were dismantled as planned after the Games, the slopes continued to be used for skiing and snowboarding again the following years, as the Shiga Kogen resorts complex developed and grew. Offering more than 80km of slopes and some of the country's finest snow, the 18 Shiga Kogen ski resorts now make up Japan's largest interconnected ski area.",
+        "location": "outside the city"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "2305",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.11",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "68.0",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.10",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "72.0",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.10",
+      "format": "number",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "8329",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.271",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "74000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "113993953.58",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "514000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "791795839.74",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "192807000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "297011246.06",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "163000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "251094790",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "106600000000",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. II (Vol. II). NAOC., p.185",
+      "format": "currency",
+      "currency": "JPY"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "1254443386.51",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. II (Vol. II). NAOC., p.185",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "113800000000.0",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.59 and 88",
+      "format": "currency",
+      "currency": "JPY"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "1339171270.03",
+      "source": "The Organizing Committee for the XVIII Olympic Winter Games, Nagano 1998 (NAOC). (1999). Official Report of the XVIII Olympic Winter Games Vol. I (Vol. I). NAOC., p.59 and 88",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

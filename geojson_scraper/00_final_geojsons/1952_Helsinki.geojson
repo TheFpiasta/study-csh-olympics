@@ -1,0 +1,4225 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.931111,
+          60.172056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Taidehalli",
+          "Kunsthalle Helsinki"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.172056,24.931111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Instrumental And Chamber, Open",
+              "link": "https://www.olympedia.org/results/6000246"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Orchestra, Open",
+              "link": "https://www.olympedia.org/results/6000249"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Solo Or Chorus, Open",
+              "link": "https://www.olympedia.org/results/6000250"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Open",
+              "link": "https://www.olympedia.org/results/6000244"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Open",
+              "link": "https://www.olympedia.org/results/6000245"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Open",
+              "link": "https://www.olympedia.org/results/6000247"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Open",
+              "link": "https://www.olympedia.org/results/6000248"
+            },
+            {
+              "text": "16 July –  3 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_2145.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.927222,
+          60.186944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Olympiastadion",
+          "Helsinki Olympic Stadium",
+          "Olympic Stadium"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.186944,24.927222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Handball",
+          "Pesäpallo",
+          "Opening ceremony",
+          "Closing ceremony",
+          "equestrian (jumping)",
+          "Opening and Closing Ceremonies"
+        ],
+        "opened": "1938",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Loose cinders",
+        "altitude": "10 m",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/58826"
+            },
+            {
+              "text": "20 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/58849"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/58880"
+            },
+            {
+              "text": "24 – 25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/58903"
+            },
+            {
+              "text": "20 – 22 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/58918"
+            },
+            {
+              "text": "24 – 26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/58930"
+            },
+            {
+              "text": "22 – 24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/58936"
+            },
+            {
+              "text": "20 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/58937"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/58938"
+            },
+            {
+              "text": "23 – 24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/58950"
+            },
+            {
+              "text": "20 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/58969"
+            },
+            {
+              "text": "23 – 25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/58981"
+            },
+            {
+              "text": "26 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/58991"
+            },
+            {
+              "text": "26 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/58975"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/58980"
+            },
+            {
+              "text": "21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/58997"
+            },
+            {
+              "text": "20 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/59008"
+            },
+            {
+              "text": "21 – 22 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/59021"
+            },
+            {
+              "text": "21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/59030"
+            },
+            {
+              "text": "23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/59041"
+            },
+            {
+              "text": "21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/59050"
+            },
+            {
+              "text": "22 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/59061"
+            },
+            {
+              "text": "24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/59072"
+            },
+            {
+              "text": "23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/59089"
+            },
+            {
+              "text": "25 – 26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/59137"
+            },
+            {
+              "text": "21 – 22 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Women",
+              "link": "https://www.olympedia.org/results/59160"
+            },
+            {
+              "text": "25 – 26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "80 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/59173"
+            },
+            {
+              "text": "23 – 24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/59185"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/59191"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Women",
+              "link": "https://www.olympedia.org/results/59203"
+            },
+            {
+              "text": "23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Women",
+              "link": "https://www.olympedia.org/results/59214"
+            },
+            {
+              "text": "26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/59223"
+            },
+            {
+              "text": "20 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/59232"
+            },
+            {
+              "text": "24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185147"
+            },
+            {
+              "text": "3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185150"
+            },
+            {
+              "text": "3 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/900070"
+            },
+            {
+              "text": "30 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Pesäpallo",
+              "link": "https://www.olympedia.org/sports/PSP"
+            },
+            {
+              "text": "Pesäpallo, Men",
+              "link": "https://www.olympedia.org/results/900069"
+            },
+            {
+              "text": "31 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_368.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The stadium opened in June 1938, having originally been built for the cancelled 1940 Olympic Games. A Helsinki landmark, it is home to the Sports Museum of Finland and is Finland's largest outdoor arena. It has staged the IAAF World Athletics Championships twice and the European Athletics Championships three times. The venue for the final of the UEFA Women's Euro 2009, the stadium is also the home ground of the Finnish national men's and women's football teams and Helsinki club HJK. It plays host to the country's cup finals and will be the venue for the 2022 UEFA Super Cup. A multi-purpose facility, it has hosted more than 20 sports over the years. In winter months, the pitch is converted into an ice rink for use by the community, and various winter sports are played there. Throughout the year, the stadium is used extensively for community and school events such as carnivals, youth fun runs and snow festivals, and welcomes around 600,000 visitors a year. A number of major international pop and rock groups and acts have performed there. In 2019, the stadium underwent an extensive refurbishment and was fitted out with artist and athlete lounges, stakeholder and media spaces, a new visitors' centre, a restaurant, multi-functional conference rooms, and new VIP and corporate boxes. Safety improvements were also made.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.925556,
+          60.183333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Messuhalli I",
+          "Exhibition Hall I",
+          "Töölö kisahalli I (1975-Present)"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.183333,24.925556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Boxing",
+          "Wrestling"
+        ],
+        "opened": "1935",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/22468"
+            },
+            {
+              "text": "28 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/22501"
+            },
+            {
+              "text": "28 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/22529"
+            },
+            {
+              "text": "28 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/22564"
+            },
+            {
+              "text": "28 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Welterweight, Men",
+              "link": "https://www.olympedia.org/results/22596"
+            },
+            {
+              "text": "28 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/22629"
+            },
+            {
+              "text": "29 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/22663"
+            },
+            {
+              "text": "29 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/22691"
+            },
+            {
+              "text": "29 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/22719"
+            },
+            {
+              "text": "29 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/22742"
+            },
+            {
+              "text": "29 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70157"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70158"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70165"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70166"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70167"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70168"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70169"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70170"
+            },
+            {
+              "text": "19 – 21 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123461"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123502"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123543"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123581"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123625"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123662"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123688"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/123715"
+            },
+            {
+              "text": "24 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123126"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123159"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123202"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123255"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123310"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123355"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123396"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123428"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_369.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.925007,
+          60.183853
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Messuhalli II",
+          "Exhibition Hall II",
+          "Töölö kisahalli II (1975-Present)",
+          "Exhibition Hall I, II (Messuhalli I, II)"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.183853,24.925007",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Basketball",
+          "Weightlifting",
+          "Wrestling",
+          "boxing"
+        ],
+        "opened": "1935",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/31969"
+            },
+            {
+              "text": "14 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Women",
+              "link": "https://www.olympedia.org/results/70178"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Women",
+              "link": "https://www.olympedia.org/results/70179"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Uneven Bars, Women",
+              "link": "https://www.olympedia.org/results/70180"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Balance Beam, Women",
+              "link": "https://www.olympedia.org/results/70181"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Women",
+              "link": "https://www.olympedia.org/results/70171"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70172"
+            },
+            {
+              "text": "22 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team Portable Apparatus, Women",
+              "link": "https://www.olympedia.org/results/70177"
+            },
+            {
+              "text": "24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/28984"
+            },
+            {
+              "text": "25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/28998"
+            },
+            {
+              "text": "25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/29012"
+            },
+            {
+              "text": "26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/29027"
+            },
+            {
+              "text": "26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29043"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middle-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29057"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29073"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123126"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123159"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123202"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123255"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123310"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123355"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123396"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/123428"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_370.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Now known as Töölö Sports Hall, the venue is used extensively by the local community and offers a wide variety of sports, including badminton, table tennis, fencing and self-defence sports. It also stages basketball and volleyball matches and fencing, boxing and gymnastics competitions.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.930278,
+          60.169722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tennispalatsi",
+          "Tennis Palace"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.169722,24.930278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball"
+        ],
+        "opened": "1938",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/31969"
+            },
+            {
+              "text": "14 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_371.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use (repurposed)",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.910946,
+          60.179538
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Taivallahti",
+          "Taival Bay"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.179538,24.910946",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Marathon",
+          "Canoe Sprint"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255051"
+            },
+            {
+              "text": "28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Marathon",
+              "link": "https://www.olympedia.org/sports/CMA"
+            },
+            {
+              "text": "Kayak Singles, 10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255058"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255059"
+            },
+            {
+              "text": "28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Marathon",
+              "link": "https://www.olympedia.org/sports/CMA"
+            },
+            {
+              "text": "Kayak Doubles, 10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255066"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255067"
+            },
+            {
+              "text": "28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Marathon",
+              "link": "https://www.olympedia.org/sports/CMA"
+            },
+            {
+              "text": "Canadian Singles, 10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255073"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255074"
+            },
+            {
+              "text": "28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Marathon",
+              "link": "https://www.olympedia.org/sports/CMA"
+            },
+            {
+              "text": "Canadian Doubles, 10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255080"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255081"
+            },
+            {
+              "text": "28 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_372.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Also built for the cancelled 1940 Games, the venue staged the canoeing events at the 1952 Olympic Games but was deemed too windy for the rowing events, which were moved to a temporary venue at Meilahti. The roofed grandstand was enlarged for the Games and still stands today. The venue is now known as the Töölö Rowing Stadium and is used by a number of local rowing clubs.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.969483,
+          60.216224
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "",
+          "Käpylä-Pakila"
+        ],
+        "place": "Käpylä, Helsinki",
+        "coordinates": "60.216224,24.969483",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling (road)"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153697"
+            },
+            {
+              "text": "2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Team, Men",
+              "link": "https://www.olympedia.org/results/153698"
+            },
+            {
+              "text": "2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_373.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.942778,
+          60.202778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Velodromi",
+          "Helsinki Velodrome",
+          "Velodrome"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.202778,24.942778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Hockey",
+          "Cycling (track)"
+        ],
+        "opened": "1940",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Concrete",
+        "additional_details": "37.5° curves, 16.0° straights",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153629"
+            },
+            {
+              "text": "28 – 31 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153628"
+            },
+            {
+              "text": "31 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153659"
+            },
+            {
+              "text": "28 – 31 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153684"
+            },
+            {
+              "text": "28 – 29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35613"
+            },
+            {
+              "text": "15 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_374.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Another venue intended for use at the cancelled 1940 Olympic Games, it was not completed until 1946. It staged four track cycling events at Helsinki 1952. The velodrome is the home track of two of the city's cycling clubs and is used for training and competition by amateur and elite cyclists. The start and finish point for the Tour de Helsinki (Finland's biggest annual cycling event) since 2007, the 7,000-capacity venue also hosts the Finnish National Track Cycling Championships and has staged the Helsinki Grand Prix four times between 2015 and 2018. In recent times, the velodrome has been deemed unsuitable for official elite International Cycling Union (UCI) events due to its unconventional length (400m) and outdated safety standards. Open seven days a week to the general public, the venue also caters for lacrosse and field hockey in the summer months, and the artificial pitch at its centre is used by three of the Finnish capital's American football teams for their home games.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.930944,
+          60.188833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingin Uimastadion",
+          "Helsinki Swimming Stadium",
+          "Swimming Stadium"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.188833,24.930944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1947",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54129"
+            },
+            {
+              "text": "27 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54132"
+            },
+            {
+              "text": "31 July –  1 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54135"
+            },
+            {
+              "text": "29 – 30 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54138"
+            },
+            {
+              "text": "1 –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5241"
+            },
+            {
+              "text": "26 – 27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5258"
+            },
+            {
+              "text": "28 – 30 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/5273"
+            },
+            {
+              "text": "31 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/5307"
+            },
+            {
+              "text": "28 – 29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/5282"
+            },
+            {
+              "text": "30 July –  1 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/5295"
+            },
+            {
+              "text": "31 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/5325"
+            },
+            {
+              "text": "26 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/5337"
+            },
+            {
+              "text": "31 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/5365"
+            },
+            {
+              "text": "30 July –  1 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/5348"
+            },
+            {
+              "text": "29 – 31 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/5354"
+            },
+            {
+              "text": "26 – 29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38237"
+            },
+            {
+              "text": "25 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_375.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue is situated close to the Olympic Stadium. Construction began in 1939, in preparation for the cancelled 1940 Olympic Games. Work on the stadium resumed in 1947 and it was completed in time for the Games. Finland's first outdoor aquatics complex, the Helsinki Municipal Swimming Stadium is open to the public from May through to September. Though the venue is no longer used for international competitions, it is popular with the public. Its facilities include a 50-metre pool, a diving pool, a children's pool, a weightlifting area, two beach volleyball courts and a basketball court. The stadium underwent extensive refurbishment in 2013.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.911472,
+          60.198609
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ruskeasuon liikuntapuisto",
+          "Ruskeasuo Sports Park"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.198609,24.911472",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185135"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185140"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185145"
+            },
+            {
+              "text": "28 – 29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185146"
+            },
+            {
+              "text": "28 – 29 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_376.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.921198,
+          60.193031
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Laakso",
+          "Ruskeasuo/Tali/Laakso"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.193031,24.921198",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Eventing",
+          "dressage"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185135"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185140"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_377.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The three sites all lie close to each other and are still used for equestrianism.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.867222,
+          60.212222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tali",
+          "Ruskeasuo/Tali/Laakso"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.212222,24.867222",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing",
+          "Eventing",
+          "dressage"
+        ],
+        "demolished": "1970s",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185135"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185140"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_378.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The three sites all lie close to each other and are still used for equestrianism.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.828611,
+          60.279722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hämeenkylä"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.279722,24.828611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185135"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185140"
+            },
+            {
+              "text": "30 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_379.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.804722,
+          60.171111
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Westendin tennishalli",
+          "Westend Tennis Hall"
+        ],
+        "place": "Espoo",
+        "coordinates": "60.171111,24.804722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing"
+        ],
+        "demolished": "1967",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/86512"
+            },
+            {
+              "text": "23 – 24 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/86573"
+            },
+            {
+              "text": "21 – 22 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/86533"
+            },
+            {
+              "text": "27 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/86618"
+            },
+            {
+              "text": "25 – 26 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/86553"
+            },
+            {
+              "text": "31 July –  1 August 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/86675"
+            },
+            {
+              "text": "29 – 30 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/86731"
+            },
+            {
+              "text": "26 – 27 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_380.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The venue was used as a school building after the Games but was destroyed in a fire in 1967.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.924722,
+          60.185833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Töölön Pallokenttä",
+          "Töölö Football Field",
+          "Football pitches by the Olympic Stadium"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.185833,24.924722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1915",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_381.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          26.939722,
+          60.4575
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kotkan Urheilukeskus",
+          "Kotka Sports Centre",
+          "Arto Tolsa Areena (?-Present)",
+          "Kotka Stadium"
+        ],
+        "place": "Kotka",
+        "coordinates": "60.4575,26.939722",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_382.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.291667,
+          60.442778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kupittaan Jalkapallostadion",
+          "Kupittaa Football Stadium",
+          "Veritas Stadion (2003-Present)"
+        ],
+        "place": "Turku",
+        "coordinates": "60.442778,22.291667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_383.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.650278,
+          60.986389
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Lahden Kisapuisto",
+          "Lahti Sports Park",
+          "Kisapuisto Stadium"
+        ],
+        "place": "Lahti",
+        "coordinates": "60.986389,25.650278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1952",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_384.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          23.764167,
+          61.4925
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ratinan Stadion",
+          "Ratina Stadium"
+        ],
+        "place": "Tampere",
+        "coordinates": "61.4925,23.764167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33688"
+            },
+            {
+              "text": "15 July –  2 August 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_385.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.673236,
+          60.393759
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Porvoon Keskuskenttä",
+          "Porvoo Central Field"
+        ],
+        "place": "Porvoo",
+        "coordinates": "60.393759,25.673236",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35613"
+            },
+            {
+              "text": "15 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_386.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.441944,
+          60.993611
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kaurialan Kenttä",
+          "Kauriala Field"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993611,24.441944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35613"
+            },
+            {
+              "text": "15 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_387.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.42173,
+          60.993342
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston maauimala",
+          "Ahvenisto Outdoor Swimming Pool"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993342,24.42173",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50063"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50072"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_388.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.419928,
+          60.99262
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston hallintorakennus",
+          "Ahvenisto Administrative Building"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.99262,24.419928",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50063"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50072"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_389.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.429444,
+          60.993333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ahveniston harju",
+          "Ahvenisto Ridge"
+        ],
+        "place": "Hämeenlinna",
+        "coordinates": "60.993333,24.429444",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "demolished": "?",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50063"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50072"
+            },
+            {
+              "text": "21 – 25 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_390.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.878991,
+          60.188796
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Meilahti",
+          "Mei Bay"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.188796,24.878991",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/158111"
+            },
+            {
+              "text": "21 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/158130"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/158147"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/158164"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/158181"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/158200"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/158218"
+            },
+            {
+              "text": "20 – 23 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_391.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The rowing competitions were due to have taken place at Taivallahti. When it was deemed to be too windy, they were moved to Meilahti Bay, where a temporary rowing stadium was erected for the Games.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.947768,
+          60.151039
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Helsingfors Segelsällskap, Liuskasaari",
+          "Helsinki Sailing Society, Liuskasaari",
+          "Around Harmaja Island (lighthouse) and Liuskasaari Island"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.151039,24.947768",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9538"
+            },
+            {
+              "text": "20 – 28 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_392.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.974322,
+          60.104657
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Harmaja"
+        ],
+        "place": "Helsinki",
+        "coordinates": "60.104657,24.974322",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/9551"
+            },
+            {
+              "text": "20 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Three Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/9564"
+            },
+            {
+              "text": "20 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "5.5 metres, Open",
+              "link": "https://www.olympedia.org/results/9577"
+            },
+            {
+              "text": "20 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6 metres, Open",
+              "link": "https://www.olympedia.org/results/9590"
+            },
+            {
+              "text": "20 – 28 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_393.json",
+        "Olympics": "1952 Helsinki"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          24.913056,
+          60.221944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Huopalahden Suomen Metsästysyhdistyksen ampumarata",
+          "Huopalahti Range of Finnish Hunting Society",
+          "Huopalahti"
+        ],
+        "place": "Huopalahti, Helsinki",
+        "coordinates": "60.221944,24.913056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "demolished": "1960",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Men",
+              "link": "https://www.olympedia.org/results/51648"
+            },
+            {
+              "text": "25 – 26 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_394.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          25.053651,
+          60.235541
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Malmin Ampumarata",
+          "Malmi Shooting Range",
+          "Malmi Rifle Range"
+        ],
+        "place": "Malmi, Helsinki",
+        "coordinates": "60.235541,25.053651",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1952",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Shooting"
+        ],
+        "opened": "1937",
+        "demolished": "1993",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Rapid-Fire Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51642"
+            },
+            {
+              "text": "27 – 28 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51643"
+            },
+            {
+              "text": "25 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Rifle, Three Positions, 300 metres, Men",
+              "link": "https://www.olympedia.org/results/51646"
+            },
+            {
+              "text": "27 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51645"
+            },
+            {
+              "text": "29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51644"
+            },
+            {
+              "text": "29 July 1952"
+            }
+          ],
+          [
+            {
+              "text": "1952 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/13"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, Single and Double Shot, Men",
+              "link": "https://www.olympedia.org/results/51647"
+            },
+            {
+              "text": "28 – 29 July 1952"
+            }
+          ]
+        ],
+        "source_file": "venue_395.json",
+        "Olympics": "1952 Helsinki",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "The property of the Finnish Defence Service at Games time, the venue and its facilities were refurbished for the Olympic shooting competitions. The range was closed in 1993.",
+        "location": "inside"
+      }
+    }
+  ]
+}

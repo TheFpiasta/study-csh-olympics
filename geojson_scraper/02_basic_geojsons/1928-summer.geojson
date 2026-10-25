@@ -1,0 +1,5753 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          },
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 foot, Open",
+              "link": "https://www.olympedia.org/results/9248"
+            },
+            {
+              "text": "7 July –  4 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9335"
+            },
+            {
+              "text": "2 –  8 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_247.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.994089578,
+          52.3758867
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Buiten-IJ"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.37588670,4.994089578",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1920",
+            "season": "Summer"
+          },
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1920 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/7"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "12 foot, Open",
+              "link": "https://www.olympedia.org/results/9248"
+            },
+            {
+              "text": "7 July –  4 September 1920"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/9335"
+            },
+            {
+              "text": "2 –  8 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_247.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.879766,
+          52.357996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stedelijk Museum",
+          "Municipal Museum"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.357996,4.879766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Designs For Town Planning, Open",
+              "link": "https://www.olympedia.org/results/920015"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Architectural Designs, Open",
+              "link": "https://www.olympedia.org/results/920016"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Dramatic Works, Open",
+              "link": "https://www.olympedia.org/results/920020"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Epic Works, Open",
+              "link": "https://www.olympedia.org/results/920018"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Lyric Works, Open",
+              "link": "https://www.olympedia.org/results/920019"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Orchestra, Open",
+              "link": "https://www.olympedia.org/results/920022"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Solo Or Chorus, Open",
+              "link": "https://www.olympedia.org/results/923439"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Instrumental And Chamber, Open",
+              "link": "https://www.olympedia.org/results/923440"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Drawings And Water Colors, Open",
+              "link": "https://www.olympedia.org/results/920025"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Graphic Arts, Open",
+              "link": "https://www.olympedia.org/results/920024"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Paintings, Open",
+              "link": "https://www.olympedia.org/results/920023"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Medals And Reliefs, Open",
+              "link": "https://www.olympedia.org/results/920028"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Statues, Open",
+              "link": "https://www.olympedia.org/results/920027"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Unknown Event, Open",
+              "link": "https://www.olympedia.org/results/6000242"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Unknown Event, Open",
+              "link": "https://www.olympedia.org/results/6000243"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Further Entries, Open",
+              "link": "https://www.olympedia.org/results/920017"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_284.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.879766,
+          52.357996
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stedelijk Museum",
+          "Municipal Museum"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.357996,4.879766",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Art Competitions"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Designs For Town Planning, Open",
+              "link": "https://www.olympedia.org/results/920015"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Architectural Designs, Open",
+              "link": "https://www.olympedia.org/results/920016"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Dramatic Works, Open",
+              "link": "https://www.olympedia.org/results/920020"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Epic Works, Open",
+              "link": "https://www.olympedia.org/results/920018"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Literature, Lyric Works, Open",
+              "link": "https://www.olympedia.org/results/920019"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Orchestra, Open",
+              "link": "https://www.olympedia.org/results/920022"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Compositions For Solo Or Chorus, Open",
+              "link": "https://www.olympedia.org/results/923439"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Music, Instrumental And Chamber, Open",
+              "link": "https://www.olympedia.org/results/923440"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Drawings And Water Colors, Open",
+              "link": "https://www.olympedia.org/results/920025"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Graphic Arts, Open",
+              "link": "https://www.olympedia.org/results/920024"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Paintings, Open",
+              "link": "https://www.olympedia.org/results/920023"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Medals And Reliefs, Open",
+              "link": "https://www.olympedia.org/results/920028"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Statues, Open",
+              "link": "https://www.olympedia.org/results/920027"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Sculpturing, Unknown Event, Open",
+              "link": "https://www.olympedia.org/results/6000242"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Painting, Unknown Event, Open",
+              "link": "https://www.olympedia.org/results/6000243"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Art Competitions",
+              "link": "https://www.olympedia.org/sports/ART"
+            },
+            {
+              "text": "Architecture, Further Entries, Open",
+              "link": "https://www.olympedia.org/results/920017"
+            },
+            {
+              "text": "17 May – 12 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_284.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854192,
+          52.343417
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion",
+          "Olympic Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.343417,4.854192",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Track",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Velodrome track around perimeter of running track.",
+        "opened": "1928",
+        "type": "outdoor venue",
+        "dimensions": "400 m (ATH) / 500 m (CYC)",
+        "surface": "Loose cinders (ATH) / Concrete (CYC)",
+        "altitude": "3 m",
+        "additional_details": "28.4° curves, 10.1° straights (CYC)",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/57590"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/57619"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/57647"
+            },
+            {
+              "text": "2 –  3 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/57675"
+            },
+            {
+              "text": "29 – 31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/57690"
+            },
+            {
+              "text": "1 –  2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57699"
+            },
+            {
+              "text": "31 July –  3 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57705"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/57706"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57707"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57723"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/57735"
+            },
+            {
+              "text": "1 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57741"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57747"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/57753"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/57760"
+            },
+            {
+              "text": "1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/57772"
+            },
+            {
+              "text": "31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/57786"
+            },
+            {
+              "text": "2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/57800"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/57812"
+            },
+            {
+              "text": "1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/57825"
+            },
+            {
+              "text": "30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/57830"
+            },
+            {
+              "text": "2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/57843"
+            },
+            {
+              "text": "3 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/57875"
+            },
+            {
+              "text": "30 – 31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/57891"
+            },
+            {
+              "text": "1 –  2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/57897"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/57902"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/57914"
+            },
+            {
+              "text": "31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153364"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153363"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153389"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153401"
+            },
+            {
+              "text": "5 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185080"
+            },
+            {
+              "text": "12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185081"
+            },
+            {
+              "text": "12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33615"
+            },
+            {
+              "text": "27 May – 13 June 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70074"
+            },
+            {
+              "text": "8 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70075"
+            },
+            {
+              "text": "8 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70083"
+            },
+            {
+              "text": "10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70084"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70085"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70086"
+            },
+            {
+              "text": "8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70087"
+            },
+            {
+              "text": "8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70088"
+            },
+            {
+              "text": "8 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35519"
+            },
+            {
+              "text": "17 – 26 May 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Korfball",
+              "link": "https://www.olympedia.org/sports/KBL"
+            },
+            {
+              "text": "Korfball, Mixed",
+              "link": "https://www.olympedia.org/results/900055"
+            },
+            {
+              "text": "6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Lacrosse",
+              "link": "https://www.olympedia.org/sports/LAX"
+            },
+            {
+              "text": "Lacrosse, Men",
+              "link": "https://www.olympedia.org/results/900050"
+            },
+            {
+              "text": "5 –  7 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_285.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854192,
+          52.343417
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympisch Stadion",
+          "Olympic Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.343417,4.854192",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Athletics",
+          "Cycling Track",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Football",
+          "Hockey",
+          "Korfball",
+          "Lacrosse",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "notes": "Velodrome track around perimeter of running track.",
+        "opened": "1928",
+        "type": "outdoor venue",
+        "dimensions": "400 m (ATH) / 500 m (CYC)",
+        "surface": "Loose cinders (ATH) / Concrete (CYC)",
+        "altitude": "3 m",
+        "additional_details": "28.4° curves, 10.1° straights (CYC)",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/57590"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/57619"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/57647"
+            },
+            {
+              "text": "2 –  3 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/57675"
+            },
+            {
+              "text": "29 – 31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/57690"
+            },
+            {
+              "text": "1 –  2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57699"
+            },
+            {
+              "text": "31 July –  3 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/57705"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/57706"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57707"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/57723"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/57735"
+            },
+            {
+              "text": "1 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57741"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/57747"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/57753"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/57760"
+            },
+            {
+              "text": "1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/57772"
+            },
+            {
+              "text": "31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/57786"
+            },
+            {
+              "text": "2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/57800"
+            },
+            {
+              "text": "29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/57812"
+            },
+            {
+              "text": "1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/57825"
+            },
+            {
+              "text": "30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/57830"
+            },
+            {
+              "text": "2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/57843"
+            },
+            {
+              "text": "3 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/57875"
+            },
+            {
+              "text": "30 – 31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/57891"
+            },
+            {
+              "text": "1 –  2 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/57897"
+            },
+            {
+              "text": "4 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/57902"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/57914"
+            },
+            {
+              "text": "31 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/153364"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/153363"
+            },
+            {
+              "text": "5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Tandem Sprint, 2,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153389"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/153401"
+            },
+            {
+              "text": "5 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185080"
+            },
+            {
+              "text": "12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185081"
+            },
+            {
+              "text": "12 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33615"
+            },
+            {
+              "text": "27 May – 13 June 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70074"
+            },
+            {
+              "text": "8 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70075"
+            },
+            {
+              "text": "8 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70083"
+            },
+            {
+              "text": "10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70084"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70085"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70086"
+            },
+            {
+              "text": "8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70087"
+            },
+            {
+              "text": "8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70088"
+            },
+            {
+              "text": "8 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35519"
+            },
+            {
+              "text": "17 – 26 May 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Korfball",
+              "link": "https://www.olympedia.org/sports/KBL"
+            },
+            {
+              "text": "Korfball, Mixed",
+              "link": "https://www.olympedia.org/results/900055"
+            },
+            {
+              "text": "6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Lacrosse",
+              "link": "https://www.olympedia.org/sports/LAX"
+            },
+            {
+              "text": "Lacrosse, Men",
+              "link": "https://www.olympedia.org/results/900050"
+            },
+            {
+              "text": "5 –  7 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_285.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856484988,
+          52.3430987
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Krachtsportgebouw",
+          "Power Sports Building"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.3430987,4.856484988",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "seating_capacity": "2840",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/21670"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/21695"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/21719"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/21743"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/21773"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/21801"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21824"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21845"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/28688"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/28702"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/28716"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28730"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28744"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121669"
+            },
+            {
+              "text": "2 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121710"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121754"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121797"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121837"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121874"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121529"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121544"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121567"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121591"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121617"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121643"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121655"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_286.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856484988,
+          52.3430987
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Krachtsportgebouw",
+          "Power Sports Building"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.3430987,4.856484988",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing",
+          "Weightlifting",
+          "Wrestling"
+        ],
+        "seating_capacity": "2840",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/21670"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/21695"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/21719"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/21743"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/21773"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/21801"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21824"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/21845"
+            },
+            {
+              "text": "7 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/28688"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/28702"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/28716"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28730"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/28744"
+            },
+            {
+              "text": "28 – 29 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121669"
+            },
+            {
+              "text": "2 –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121710"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121754"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121797"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121837"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/121874"
+            },
+            {
+              "text": "2 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121529"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121544"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121567"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121591"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121617"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121643"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/121655"
+            },
+            {
+              "text": "30 July –  1 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_286.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.827777,
+          52.4197222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hembrug",
+          "Hem Bridge"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.4197222,4.827777",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153420"
+            },
+            {
+              "text": "7 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Team, Men",
+              "link": "https://www.olympedia.org/results/153421"
+            },
+            {
+              "text": "7 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_287.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.827777,
+          52.4197222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hembrug",
+          "Hem Bridge"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.4197222,4.827777",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/153420"
+            },
+            {
+              "text": "7 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Team, Men",
+              "link": "https://www.olympedia.org/results/153421"
+            },
+            {
+              "text": "7 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_287.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854737,
+          52.347277
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion",
+          "Swimming Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.347277,4.854737",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "demolished": "1929",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54098"
+            },
+            {
+              "text": "6 –  8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54104"
+            },
+            {
+              "text": "11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54110"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54112"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4829"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4843"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4855"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/4887"
+            },
+            {
+              "text": "11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/4866"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/4877"
+            },
+            {
+              "text": "6 –  8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4893"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4905"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/4931"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/4915"
+            },
+            {
+              "text": "9 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/4921"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38095"
+            },
+            {
+              "text": "4 – 11 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_288.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.854737,
+          52.347277
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Zwemstadion",
+          "Swimming Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.347277,4.854737",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "demolished": "1929",
+        "seating_capacity": "6000",
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54098"
+            },
+            {
+              "text": "6 –  8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54104"
+            },
+            {
+              "text": "11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54110"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54112"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4829"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4843"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/4855"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/4887"
+            },
+            {
+              "text": "11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/4866"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/4877"
+            },
+            {
+              "text": "6 –  8 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4893"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/4905"
+            },
+            {
+              "text": "4 –  6 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/4931"
+            },
+            {
+              "text": "9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/4915"
+            },
+            {
+              "text": "9 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/4921"
+            },
+            {
+              "text": "7 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38095"
+            },
+            {
+              "text": "4 – 11 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_288.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.188332,
+          52.215079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sportpark",
+          "Sports Park"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.215079,5.188332",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185073"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185079"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_289.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.188332,
+          52.215079
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sportpark",
+          "Sports Park"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.215079,5.188332",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185073"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185079"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_289.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.216365,
+          52.190169
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Maartensdijkse Bos",
+          "Maartensdijk Forest"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.190169,5.216365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_290.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.216365,
+          52.190169
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Maartensdijkse Bos",
+          "Maartensdijk Forest"
+        ],
+        "place": "Hilversum",
+        "coordinates": "52.190169,5.216365",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/185063"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/185068"
+            },
+            {
+              "text": "8 – 11 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_290.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856046974,
+          52.34429474
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schermzaal",
+          "Fencing Hall"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34429474,4.856046974",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/77141"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/78332"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/77461"
+            },
+            {
+              "text": "6 –  7 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/79044"
+            },
+            {
+              "text": "3 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/78064"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/79878"
+            },
+            {
+              "text": "8 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/80279"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_291.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.856046974,
+          52.34429474
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schermzaal",
+          "Fencing Hall"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34429474,4.856046974",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/77141"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/78332"
+            },
+            {
+              "text": "29 – 30 July 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/77461"
+            },
+            {
+              "text": "6 –  7 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/79044"
+            },
+            {
+              "text": "3 –  5 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/78064"
+            },
+            {
+              "text": "10 – 11 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/79878"
+            },
+            {
+              "text": "8 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/80279"
+            },
+            {
+              "text": "31 July –  1 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_291.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85994,
+          52.344618
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Amsterdamsche Stadion (also known as Oude Stadion, Harry Eltestadion)",
+          "Amsterdam Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.344618,4.85994",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Hockey"
+        ],
+        "opened": "1914",
+        "demolished": "1929",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33615"
+            },
+            {
+              "text": "27 May – 13 June 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35519"
+            },
+            {
+              "text": "17 – 26 May 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_292.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.85994,
+          52.344618
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Amsterdamsche Stadion (also known as Oude Stadion, Harry Eltestadion)",
+          "Amsterdam Stadium"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.344618,4.85994",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football",
+          "Hockey"
+        ],
+        "opened": "1914",
+        "demolished": "1929",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/33615"
+            },
+            {
+              "text": "27 May – 13 June 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/35519"
+            },
+            {
+              "text": "17 – 26 May 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_292.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.853527,
+          52.34532
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cricketveld",
+          "Cricket Field"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34532,4.853527",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Kaatsen"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Kaatsen",
+              "link": "https://www.olympedia.org/sports/KTS"
+            },
+            {
+              "text": "Kaatsen, Men",
+              "link": "https://www.olympedia.org/results/900049"
+            },
+            {
+              "text": "11 June 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_293.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.853527,
+          52.34532
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cricketveld",
+          "Cricket Field"
+        ],
+        "place": "Amsterdam",
+        "coordinates": "52.34532,4.853527",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Kaatsen"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Kaatsen",
+              "link": "https://www.olympedia.org/sports/KTS"
+            },
+            {
+              "text": "Kaatsen, Men",
+              "link": "https://www.olympedia.org/results/900049"
+            },
+            {
+              "text": "11 June 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_293.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.964672,
+          52.372668
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietterrein",
+          "Shooting Terrain"
+        ],
+        "place": "Zeeburg, Amsterdam",
+        "coordinates": "52.372668,4.964672",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_294.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.964672,
+          52.372668
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Schietterrein",
+          "Shooting Terrain"
+        ],
+        "place": "Zeeburg, Amsterdam",
+        "coordinates": "52.372668,4.964672",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_294.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.400113525,
+          52.15378781
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rijschool, Willem III-kazerne",
+          "Riding School, Willem III Barracks"
+        ],
+        "place": "Amersfoort",
+        "coordinates": "52.15378781,5.400113525",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_295.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.400113525,
+          52.15378781
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Rijschool, Willem III-kazerne",
+          "Riding School, Willem III Barracks"
+        ],
+        "place": "Amersfoort",
+        "coordinates": "52.15378781,5.400113525",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50027"
+            },
+            {
+              "text": "31 July –  4 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_295.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.789510024,
+          52.34222701
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ringvaart"
+        ],
+        "place": "Sloten",
+        "coordinates": "52.34222701,4.789510024",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/157718"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/157752"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/157779"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/157797"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/157811"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/157827"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/157854"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_296.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.789510024,
+          52.34222701
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ringvaart"
+        ],
+        "place": "Sloten",
+        "coordinates": "52.34222701,4.789510024",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Rowing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/157718"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/157752"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/157779"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/157797"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/157811"
+            },
+            {
+              "text": "3 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/157827"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/157854"
+            },
+            {
+              "text": "2 – 10 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_296.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.11445846,
+          52.38691711
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Zuiderzee",
+        "coordinates": "52.38691711,5.11445846",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6 metres, Open",
+              "link": "https://www.olympedia.org/results/9351"
+            },
+            {
+              "text": "2 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "8 metres, Open",
+              "link": "https://www.olympedia.org/results/9359"
+            },
+            {
+              "text": "2 –  9 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_297.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.11445846,
+          52.38691711
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Zuiderzee",
+        "coordinates": "52.38691711,5.11445846",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "6 metres, Open",
+              "link": "https://www.olympedia.org/results/9351"
+            },
+            {
+              "text": "2 –  9 August 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/9"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "8 metres, Open",
+              "link": "https://www.olympedia.org/results/9359"
+            },
+            {
+              "text": "2 –  9 August 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_297.json"
+      }
+    }
+  ]
+}

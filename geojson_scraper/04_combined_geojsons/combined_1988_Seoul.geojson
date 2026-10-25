@@ -1,0 +1,6197 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.098861,
+          37.621772
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Hwarang Archery Field"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.621772,127.098861",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Archery"
+        ],
+        "opened": "1986",
+        "seating_capacity": "1200",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/40661"
+            },
+            {
+              "text": "27 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/40687"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/40703"
+            },
+            {
+              "text": "27 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Archery",
+              "link": "https://www.olympedia.org/sports/ARC"
+            },
+            {
+              "text": "Team, Women",
+              "link": "https://www.olympedia.org/results/40729"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_634.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "Located in the grounds of the Korean Military Academy in the suburb of Nowon-gu in north-eastern Seoul. A competition area with eight lanes for the men's events and seven for the women's was set up, in addition to temporary seating for 1,000 spectators, a computer room and other facilities. These were all removed after the Games.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.07275,
+          37.515889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ol-lim-pik Ju-gyeong-gi-jang, Seoul Sports Complex",
+          "Olympic Stadium, Seoul Sports Complex",
+          "Jamsil Olympic Stadium (?-Present)",
+          "Olympic Stadium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.515889,127.07275",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Athletics",
+          "Equestrian Jumping",
+          "Football",
+          "Opening ceremony",
+          "Closing ceremony",
+          "equestrian (jumping)",
+          "Opening and Closing Ceremonies"
+        ],
+        "opened": "1984",
+        "seating_capacity": "69950",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "surface": "Artificial surface",
+        "altitude": "49 m",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres Wheelchair, Men",
+              "link": "https://www.olympedia.org/results/901198"
+            },
+            {
+              "text": "30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Men",
+              "link": "https://www.olympedia.org/results/63261"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Men",
+              "link": "https://www.olympedia.org/results/63287"
+            },
+            {
+              "text": "26 – 28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Men",
+              "link": "https://www.olympedia.org/results/63309"
+            },
+            {
+              "text": "24 – 28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Men",
+              "link": "https://www.olympedia.org/results/63330"
+            },
+            {
+              "text": "23 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/63350"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/63360"
+            },
+            {
+              "text": "28 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/63369"
+            },
+            {
+              "text": "23 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Men",
+              "link": "https://www.olympedia.org/results/63374"
+            },
+            {
+              "text": "2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "110 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/63375"
+            },
+            {
+              "text": "25 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Men",
+              "link": "https://www.olympedia.org/results/63392"
+            },
+            {
+              "text": "23 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres Steeplechase, Men",
+              "link": "https://www.olympedia.org/results/63403"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/63414"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/63424"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "20 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/63412"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "50 kilometres Race Walk, Men",
+              "link": "https://www.olympedia.org/results/63413"
+            },
+            {
+              "text": "30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Men",
+              "link": "https://www.olympedia.org/results/63433"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Pole Vault, Men",
+              "link": "https://www.olympedia.org/results/63462"
+            },
+            {
+              "text": "26 – 28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Men",
+              "link": "https://www.olympedia.org/results/63488"
+            },
+            {
+              "text": "25 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Triple Jump, Men",
+              "link": "https://www.olympedia.org/results/63505"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Men",
+              "link": "https://www.olympedia.org/results/63522"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Men",
+              "link": "https://www.olympedia.org/results/63539"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Hammer Throw, Men",
+              "link": "https://www.olympedia.org/results/63556"
+            },
+            {
+              "text": "25 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Men",
+              "link": "https://www.olympedia.org/results/63573"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Decathlon, Men",
+              "link": "https://www.olympedia.org/results/63590"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres, Women",
+              "link": "https://www.olympedia.org/results/63682"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres Wheelchair, Women",
+              "link": "https://www.olympedia.org/results/901199"
+            },
+            {
+              "text": "30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "200 metres, Women",
+              "link": "https://www.olympedia.org/results/63701"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres, Women",
+              "link": "https://www.olympedia.org/results/63720"
+            },
+            {
+              "text": "23 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "800 metres, Women",
+              "link": "https://www.olympedia.org/results/63738"
+            },
+            {
+              "text": "24 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/63748"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/63753"
+            },
+            {
+              "text": "23 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "10,000 metres, Women",
+              "link": "https://www.olympedia.org/results/63758"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Marathon, Women",
+              "link": "https://www.olympedia.org/results/63763"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "100 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/63764"
+            },
+            {
+              "text": "28 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "400 metres Hurdles, Women",
+              "link": "https://www.olympedia.org/results/63779"
+            },
+            {
+              "text": "25 – 28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 100 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/63790"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "4 × 400 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/63799"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "High Jump, Women",
+              "link": "https://www.olympedia.org/results/63804"
+            },
+            {
+              "text": "29 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Long Jump, Women",
+              "link": "https://www.olympedia.org/results/63833"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Shot Put, Women",
+              "link": "https://www.olympedia.org/results/63850"
+            },
+            {
+              "text": "30 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Discus Throw, Women",
+              "link": "https://www.olympedia.org/results/63867"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Javelin Throw, Women",
+              "link": "https://www.olympedia.org/results/63884"
+            },
+            {
+              "text": "25 – 26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Athletics",
+              "link": "https://www.olympedia.org/sports/ATH"
+            },
+            {
+              "text": "Heptathlon, Women",
+              "link": "https://www.olympedia.org/results/63901"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185385"
+            },
+            {
+              "text": "26 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_635.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The stadium was first used for the 1986 Asian Games. It lies within the Chamshil Complex, which is home to four other venues used at the 1988 Olympic Games: Chamshil Baseball Stadium, Chamshil Gymnasium, Chamshil Indoor Swimming Pool and Chamshil Students' Gymnasium. Since the Games, the stadium's capacity has been reduced from 100,000 to 69,500. Used regularly by the South Korean national football team, it has been the home ground of football club Seoul E-Land since 2015 and stages the finish of the Seoul International Marathon. A major concert, opera and festival venue, it also hosted the Seoul Design Olympiad in 2008 and 2009. The sports complex is currently being redeveloped. As part of the project, which is due for completion in 2025, the Olympic Stadium will be refurbished and have its capacity further reduced to 50,000.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.075958,
+          37.516364
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jam-sil Che-yuk-gwan, Seoul Sports Complex",
+          "Jamsil Gymnasium, Seoul Sports Complex",
+          "Jamsil Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.516364,127.075958",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Basketball",
+          "Volleyball"
+        ],
+        "opened": "1979",
+        "seating_capacity": "12751",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Men",
+              "link": "https://www.olympedia.org/results/32646"
+            },
+            {
+              "text": "17 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Basketball",
+              "link": "https://www.olympedia.org/sports/BKB"
+            },
+            {
+              "text": "Basketball, Women",
+              "link": "https://www.olympedia.org/results/32701"
+            },
+            {
+              "text": "19 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37404"
+            },
+            {
+              "text": "17 September –  2 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_636.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.075403,
+          37.512225
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jam-sil Hak-saeng Che-yuk-gwan, Seoul Sports Complex",
+          "Jamsil Students' Gymnasium, Seoul Sports Complex",
+          "Jamsil Students' Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.512225,127.075403",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Boxing"
+        ],
+        "opened": "1976",
+        "seating_capacity": "7500",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Flyweight, Men",
+              "link": "https://www.olympedia.org/results/25579"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/25620"
+            },
+            {
+              "text": "18 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/25670"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/25725"
+            },
+            {
+              "text": "18 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/25779"
+            },
+            {
+              "text": "19 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Welterweight, Men",
+              "link": "https://www.olympedia.org/results/25824"
+            },
+            {
+              "text": "19 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/25879"
+            },
+            {
+              "text": "20 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/25929"
+            },
+            {
+              "text": "20 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/25972"
+            },
+            {
+              "text": "19 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/26012"
+            },
+            {
+              "text": "21 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/26044"
+            },
+            {
+              "text": "22 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Boxing",
+              "link": "https://www.olympedia.org/sports/BOX"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/26067"
+            },
+            {
+              "text": "22 September –  2 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_637.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.071841,
+          37.512168
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jam-sil Ya-gu-jang, Seoul Sports Complex",
+          "Jamsil Baseball Stadium, Seoul Sports Complex"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.512168,127.071841",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Baseball"
+        ],
+        "opened": "1982",
+        "seating_capacity": "30306",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Baseball",
+              "link": "https://www.olympedia.org/sports/BBL"
+            },
+            {
+              "text": "Baseball, Men",
+              "link": "https://www.olympedia.org/results/900467"
+            },
+            {
+              "text": "19 – 28 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_638.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.998863,
+          37.481369
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Ro-yal Bol-ling Sen-ta",
+          "Royal Bowling Centre"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.481369,126.998863",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Bowling"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Bowling",
+              "link": "https://www.olympedia.org/sports/BWL"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/900491"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Bowling",
+              "link": "https://www.olympedia.org/sports/BWL"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/900492"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_639.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.201405,
+          37.565856
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mi-sa-ri Jo-jeong-gyeong-gi-jang",
+          "Misari Regatta Course",
+          "Han River Regatta Course"
+        ],
+        "place": "Hanam",
+        "coordinates": "37.565856,127.201405",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Canoe Sprint",
+          "Rowing"
+        ],
+        "seating_capacity": "25000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255783"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255796"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255809"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255822"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255835"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255848"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Singles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255861"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 500 metres, Men",
+              "link": "https://www.olympedia.org/results/255873"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Canadian Doubles, 1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/255886"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Singles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255897"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Doubles, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255907"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Canoe Sprint",
+              "link": "https://www.olympedia.org/sports/CSP"
+            },
+            {
+              "text": "Kayak Fours, 500 metres, Women",
+              "link": "https://www.olympedia.org/results/255919"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Men",
+              "link": "https://www.olympedia.org/results/159012"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Men",
+              "link": "https://www.olympedia.org/results/159028"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Men",
+              "link": "https://www.olympedia.org/results/159053"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Pairs, Men",
+              "link": "https://www.olympedia.org/results/159067"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Quadruple Sculls, Men",
+              "link": "https://www.olympedia.org/results/159042"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Fours, Men",
+              "link": "https://www.olympedia.org/results/159078"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Men",
+              "link": "https://www.olympedia.org/results/159089"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Men",
+              "link": "https://www.olympedia.org/results/159100"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Single Sculls, Women",
+              "link": "https://www.olympedia.org/results/159109"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Double Sculls, Women",
+              "link": "https://www.olympedia.org/results/159120"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxless Pairs, Women",
+              "link": "https://www.olympedia.org/results/159138"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Quadruple Sculls, Women",
+              "link": "https://www.olympedia.org/results/159129"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Coxed Fours, Women",
+              "link": "https://www.olympedia.org/results/159147"
+            },
+            {
+              "text": "19 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rowing",
+              "link": "https://www.olympedia.org/sports/ROW"
+            },
+            {
+              "text": "Eights, Women",
+              "link": "https://www.olympedia.org/results/159156"
+            },
+            {
+              "text": "20 – 25 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_640.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This eight-lane course was first used at the 1986 Asian Games and was upgraded prior to hosting the Olympic rowing and canoe sprint competitions, when a new road to the venue was built and the drainage system improved. The venue is now mainly used for motorboat races and has been renamed the Misari Regatta Canoe and Motorboat Racing Park. It is also used by the local community as a leisure park and stages cycling competitions, fun runs and triathlons. A setting for weddings, school excursions, picnics, sports festivals and private functions, its facilities include a football pitch, a jogging course, pedestrian and bicycle paths, and a children's nature education site. Water sports equipment is available to hire.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.789136,
+          37.849411
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Tongil-ro Circuit",
+          "Tongil-ro Cycling Circuit"
+        ],
+        "place": "Paju",
+        "coordinates": "37.849411,126.789136",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Road",
+          "Cycling (road)"
+        ],
+        "seating_capacity": "800",
+        "type": "temporary outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Men",
+              "link": "https://www.olympedia.org/results/154647"
+            },
+            {
+              "text": "27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "100 kilometres Team Time Trial, Men",
+              "link": "https://www.olympedia.org/results/154648"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Road",
+              "link": "https://www.olympedia.org/sports/CRD"
+            },
+            {
+              "text": "Road Race, Individual, Women",
+              "link": "https://www.olympedia.org/results/154673"
+            },
+            {
+              "text": "26 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_641.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Temporary",
+        "status": "Dismantled (temporary)",
+        "information": "The team and individual road races were held on sections of the Tongil-ro (Unification Road), north of Seoul. The circuit used for the women's and men's individual road races was 16.4 kilometres long, with the women completing five laps and the men 12 laps. The men's 100km team time trial took place on a 25km section of the road. The road surface was repaired prior to the Games. Prefabricated materials were used to erect the facilities required for the events, and an 800-seater stand was erected near the finish line. These were all dismantled after the Games.",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.123393,
+          37.516883
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bel-lo-deu-rom, Ol-lim-pik Gong-won",
+          "Velodrome, Olympic Park",
+          "Olympic Velodrome"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.516883,127.123393",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Cycling Track",
+          "Cycling (track)"
+        ],
+        "opened": "1986",
+        "seating_capacity": "6000",
+        "type": "outdoor venue",
+        "dimensions": "333⅓ m",
+        "surface": "Wood",
+        "additional_details": "38° curves, 10° straights",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/154569"
+            },
+            {
+              "text": "21 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "1,000 metres Time Trial, Men",
+              "link": "https://www.olympedia.org/results/154568"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Individual Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/154607"
+            },
+            {
+              "text": "20 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Team Pursuit, 4,000 metres, Men",
+              "link": "https://www.olympedia.org/results/154629"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Points Race, Men",
+              "link": "https://www.olympedia.org/results/154642"
+            },
+            {
+              "text": "21 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Cycling Track",
+              "link": "https://www.olympedia.org/sports/CTR"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/154649"
+            },
+            {
+              "text": "21 – 24 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_642.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "An outdoor venue with a 333-metre wooden track, the Olympic Velodrome is a multi-purpose facility that stages regional and local cycling competitions and is used for training and development. Its infield area is used for festivals, football matches and other sports. In 2010, the track was replaced and the spectator seating refurbished. The venue houses the offices of the Republic of Korea's National Paralympic Committee.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.126633,
+          37.520978
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Su-yeong-jang, Ol-lim-pik Gong-won",
+          "Indoor Swimming Pool, Olympic Park"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.520978,127.126633",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Swimming",
+          "Diving",
+          "Modern Pentathlon",
+          "Swimming",
+          "Water Polo"
+        ],
+        "opened": "1988",
+        "seating_capacity": "10000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Men",
+              "link": "https://www.olympedia.org/results/54240"
+            },
+            {
+              "text": "19 – 20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Men",
+              "link": "https://www.olympedia.org/results/54243"
+            },
+            {
+              "text": "26 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Springboard, Women",
+              "link": "https://www.olympedia.org/results/54246"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Diving",
+              "link": "https://www.olympedia.org/sports/DIV"
+            },
+            {
+              "text": "Platform, Women",
+              "link": "https://www.olympedia.org/results/54249"
+            },
+            {
+              "text": "17 – 18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50225"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50234"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "50 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/7257"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/7270"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/7284"
+            },
+            {
+              "text": "18 – 19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/7297"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "1,500 metres Freestyle, Men",
+              "link": "https://www.olympedia.org/results/7308"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/7403"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 200 metres Freestyle Relay, Men",
+              "link": "https://www.olympedia.org/results/7421"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/7316"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Men",
+              "link": "https://www.olympedia.org/results/7327"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/7337"
+            },
+            {
+              "text": "18 – 19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Men",
+              "link": "https://www.olympedia.org/results/7350"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/7361"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Men",
+              "link": "https://www.olympedia.org/results/7372"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/7382"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Men",
+              "link": "https://www.olympedia.org/results/7394"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Men",
+              "link": "https://www.olympedia.org/results/7435"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "50 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7457"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7468"
+            },
+            {
+              "text": "18 – 19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7480"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7490"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "800 metres Freestyle, Women",
+              "link": "https://www.olympedia.org/results/7498"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Freestyle Relay, Women",
+              "link": "https://www.olympedia.org/results/7582"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/7505"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Backstroke, Women",
+              "link": "https://www.olympedia.org/results/7518"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/7527"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Breaststroke, Women",
+              "link": "https://www.olympedia.org/results/7537"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "100 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/7547"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Butterfly, Women",
+              "link": "https://www.olympedia.org/results/7557"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "200 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/7565"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "400 metres Individual Medley, Women",
+              "link": "https://www.olympedia.org/results/7574"
+            },
+            {
+              "text": "18 – 19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Swimming",
+              "link": "https://www.olympedia.org/sports/SWM"
+            },
+            {
+              "text": "4 × 100 metres Medley Relay, Women",
+              "link": "https://www.olympedia.org/results/7596"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Solo, Women",
+              "link": "https://www.olympedia.org/results/43507"
+            },
+            {
+              "text": "26 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Swimming",
+              "link": "https://www.olympedia.org/sports/SWA"
+            },
+            {
+              "text": "Duet, Women",
+              "link": "https://www.olympedia.org/results/43511"
+            },
+            {
+              "text": "27 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38727"
+            },
+            {
+              "text": "21 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_643.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.015471,
+          37.446925
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Seo-ul Gyeong-ma Gong-won",
+          "Seoul Equestrian Park",
+          "Seoul Race Park (?-Present)"
+        ],
+        "place": "Gwacheon",
+        "coordinates": "37.446925,127.015471",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Dressage",
+          "Equestrian Eventing",
+          "Equestrian Jumping",
+          "Modern Pentathlon"
+        ],
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185371"
+            },
+            {
+              "text": "24 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Dressage",
+              "link": "https://www.olympedia.org/sports/EDR"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185384"
+            },
+            {
+              "text": "24 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185385"
+            },
+            {
+              "text": "26 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Jumping",
+              "link": "https://www.olympedia.org/sports/EJP"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185392"
+            },
+            {
+              "text": "28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185361"
+            },
+            {
+              "text": "19 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185366"
+            },
+            {
+              "text": "19 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50225"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50234"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_644.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.872094,
+          37.663805
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gyeong-ma Gyu-yug-won, Won-dang",
+          "Wondang Ranch"
+        ],
+        "place": "Goyang",
+        "coordinates": "37.663805,126.872094",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Equestrian Eventing"
+        ],
+        "opened": "1987",
+        "seating_capacity": "2000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Individual, Open",
+              "link": "https://www.olympedia.org/results/185361"
+            },
+            {
+              "text": "19 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Equestrian Eventing",
+              "link": "https://www.olympedia.org/sports/EVE"
+            },
+            {
+              "text": "Team, Open",
+              "link": "https://www.olympedia.org/results/185366"
+            },
+            {
+              "text": "19 – 22 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_645.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.126313,
+          37.517345
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pen-sing Gyeong-ji-jang, Ol-lim-pik Gong-won",
+          "Olympic Fencing Gymnasium, Olympic Park"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.517345,127.126313",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Fencing",
+          "Modern Pentathlon"
+        ],
+        "opened": "1986",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Men",
+              "link": "https://www.olympedia.org/results/108488"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Men",
+              "link": "https://www.olympedia.org/results/109764"
+            },
+            {
+              "text": "26 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Individual, Men",
+              "link": "https://www.olympedia.org/results/108952"
+            },
+            {
+              "text": "23 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Épée, Team, Men",
+              "link": "https://www.olympedia.org/results/110390"
+            },
+            {
+              "text": "29 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Individual, Men",
+              "link": "https://www.olympedia.org/results/109473"
+            },
+            {
+              "text": "22 – 23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Sabre, Team, Men",
+              "link": "https://www.olympedia.org/results/110989"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Individual, Women",
+              "link": "https://www.olympedia.org/results/111376"
+            },
+            {
+              "text": "21 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Fencing",
+              "link": "https://www.olympedia.org/sports/FEN"
+            },
+            {
+              "text": "Foil, Team, Women",
+              "link": "https://www.olympedia.org/results/111676"
+            },
+            {
+              "text": "27 – 28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50225"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50234"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_646.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.014677,
+          35.116341
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Gu-deog Un-dong-jang",
+          "Gudeok Stadium",
+          "Pusan Stadium"
+        ],
+        "place": "Busan",
+        "coordinates": "35.116341,129.014677",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1928",
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_647.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.889003,
+          35.168088
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mu-deung Gyeong-gi-yang",
+          "Mudeung Stadium",
+          "Kwangju Stadium"
+        ],
+        "place": "Gwangju",
+        "coordinates": "35.168088,126.889003",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1965",
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_648.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          128.58826,
+          35.881194
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dae-gu Si-min Un-dong-jang",
+          "Daegu Civic Stadium",
+          "Taegu Stadium"
+        ],
+        "place": "Daegu",
+        "coordinates": "35.881194,128.58826",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1948",
+        "seating_capacity": "23278",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_649.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use (rebuilt)",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.431632,
+          36.316145
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dae-jon Han-bat Jong-hab-un-dong-jang",
+          "Daejeon Hanbat Stadium",
+          "Taejon Stadium"
+        ],
+        "place": "Daejeon",
+        "coordinates": "36.316145,127.431632",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1964",
+        "seating_capacity": "30000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_650.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.010595,
+          37.56758
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Dong-dae-mun Un-dong-jang",
+          "Dongdaemun Stadium",
+          "Tongdaemun Stadium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.56758,127.010595",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Football"
+        ],
+        "opened": "1926",
+        "demolished": "2008",
+        "seating_capacity": "26383",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Football",
+              "link": "https://www.olympedia.org/sports/FBL"
+            },
+            {
+              "text": "Football, Men",
+              "link": "https://www.olympedia.org/results/34016"
+            },
+            {
+              "text": "17 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_651.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "This multi-purpose stadium was formerly the home of the Republic of Korea's national football team and staged its last international match in 2000. It was also the home ground of Seongnam FC between 1989 and 1995, when the club was known as Ilhwa Chunma. The stadium was demolished in 2008 to make way for the Dongdaemun Design Plaza and Park.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.127514,
+          37.51916
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Che-yuk-gwan, Ol-lim-pik Gong-won",
+          "Olympic Gymnastics Hall, Olympic Park",
+          "Olympic Gymnastics Hall"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.51916,127.127514",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Artistic Gymnastics",
+          "Handball",
+          "Rhythmic Gymnastics"
+        ],
+        "opened": "1986",
+        "seating_capacity": "14730",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Men",
+              "link": "https://www.olympedia.org/results/70571"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Men",
+              "link": "https://www.olympedia.org/results/70586"
+            },
+            {
+              "text": "18 – 20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Men",
+              "link": "https://www.olympedia.org/results/70593"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Men",
+              "link": "https://www.olympedia.org/results/70595"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Parallel Bars, Men",
+              "link": "https://www.olympedia.org/results/70597"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horizontal Bar, Men",
+              "link": "https://www.olympedia.org/results/70599"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Rings, Men",
+              "link": "https://www.olympedia.org/results/70601"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Pommelled Horse, Men",
+              "link": "https://www.olympedia.org/results/70603"
+            },
+            {
+              "text": "18 – 24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Floor Exercise, Women",
+              "link": "https://www.olympedia.org/results/70621"
+            },
+            {
+              "text": "19 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Horse Vault, Women",
+              "link": "https://www.olympedia.org/results/70623"
+            },
+            {
+              "text": "19 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Uneven Bars, Women",
+              "link": "https://www.olympedia.org/results/70625"
+            },
+            {
+              "text": "19 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Balance Beam, Women",
+              "link": "https://www.olympedia.org/results/70627"
+            },
+            {
+              "text": "19 – 25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Individual All-Around, Women",
+              "link": "https://www.olympedia.org/results/70605"
+            },
+            {
+              "text": "19 – 23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Artistic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GAR"
+            },
+            {
+              "text": "Team All-Around, Women",
+              "link": "https://www.olympedia.org/results/70616"
+            },
+            {
+              "text": "19 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/34742"
+            },
+            {
+              "text": "20 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Rhythmic Gymnastics",
+              "link": "https://www.olympedia.org/sports/GRY"
+            },
+            {
+              "text": "Individual, Women",
+              "link": "https://www.olympedia.org/results/67511"
+            },
+            {
+              "text": "29 – 30 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_652.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Opened in 1986, this 15,000-seater arena is mainly a concert venue and a sports and wellness centre with over 30,000 members. Its roof was destroyed in a snowstorm in 2001 and replaced two years later. The venue was refurbished between 2016 and 2018, with a new support structure for the roof installed.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.008889,
+          37.298056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Su-won Sil-nae Che-yuk-gwan",
+          "Suwon Gymnastium",
+          "Suwon Gymnasium"
+        ],
+        "place": "Suwon",
+        "coordinates": "37.298056,127.008889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Handball"
+        ],
+        "opened": "1963",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Men",
+              "link": "https://www.olympedia.org/results/34742"
+            },
+            {
+              "text": "20 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Handball",
+              "link": "https://www.olympedia.org/sports/HBL"
+            },
+            {
+              "text": "Handball, Women",
+              "link": "https://www.olympedia.org/results/34783"
+            },
+            {
+              "text": "21 – 29 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_653.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.137614,
+          37.433095
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Seong-nam Jong-hab-un-dong-jang",
+          "Seongnam Stadium"
+        ],
+        "place": "Seongnam",
+        "coordinates": "37.433095,127.137614",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Hockey"
+        ],
+        "opened": "1984",
+        "seating_capacity": "23262",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Men",
+              "link": "https://www.olympedia.org/results/36108"
+            },
+            {
+              "text": "18 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Hockey",
+              "link": "https://www.olympedia.org/sports/HOC"
+            },
+            {
+              "text": "Hockey, Women",
+              "link": "https://www.olympedia.org/results/36158"
+            },
+            {
+              "text": "21 – 30 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_654.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Completed in 1984, this 27,000-seater multi-purpose stadium has a running track and is mainly used for football. It was the home of Seongnam FC until 2004. It has not staged any hockey matches since the 1988 Olympic Games. The venue forms part of the Seongnam Sports Complex, which was built in 1997 and also has football pitches, a volleyball court and a hockey pitch.",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.006667,
+          37.558056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jang-chung Che-yuk-gwan",
+          "Jangchung Gymnastium",
+          "Changchung Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.558056,127.006667",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Judo",
+          "Taekwondo"
+        ],
+        "opened": "1963",
+        "seating_capacity": "7000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16446"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16505"
+            },
+            {
+              "text": "26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/16571"
+            },
+            {
+              "text": "27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Men",
+              "link": "https://www.olympedia.org/results/16634"
+            },
+            {
+              "text": "28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/16697"
+            },
+            {
+              "text": "29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/16754"
+            },
+            {
+              "text": "30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/16794"
+            },
+            {
+              "text": "1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Extra-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/900493"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Lightweight, Women",
+              "link": "https://www.olympedia.org/results/900503"
+            },
+            {
+              "text": "26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Lightweight, Women",
+              "link": "https://www.olympedia.org/results/900513"
+            },
+            {
+              "text": "27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Middleweight, Women",
+              "link": "https://www.olympedia.org/results/900523"
+            },
+            {
+              "text": "28 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Middleweight, Women",
+              "link": "https://www.olympedia.org/results/900533"
+            },
+            {
+              "text": "29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Half-Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/900543"
+            },
+            {
+              "text": "30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Judo",
+              "link": "https://www.olympedia.org/sports/JUD"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/900553"
+            },
+            {
+              "text": "1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Finweight, Men",
+              "link": "https://www.olympedia.org/results/900562"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/900582"
+            },
+            {
+              "text": "17 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/900602"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/900622"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/900642"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Welterweight, Men",
+              "link": "https://www.olympedia.org/results/900662"
+            },
+            {
+              "text": "17 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/900682"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/900702"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Finweight, Women",
+              "link": "https://www.olympedia.org/results/900722"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Flyweight, Women",
+              "link": "https://www.olympedia.org/results/900733"
+            },
+            {
+              "text": "17 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Bantamweight, Women",
+              "link": "https://www.olympedia.org/results/900744"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Featherweight, Women",
+              "link": "https://www.olympedia.org/results/900755"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Lightweight, Women",
+              "link": "https://www.olympedia.org/results/900766"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Welterweight, Women",
+              "link": "https://www.olympedia.org/results/900777"
+            },
+            {
+              "text": "17 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Middleweight, Women",
+              "link": "https://www.olympedia.org/results/900788"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Taekwondo",
+              "link": "https://www.olympedia.org/sports/TKW"
+            },
+            {
+              "text": "Heavyweight, Women",
+              "link": "https://www.olympedia.org/results/900799"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_655.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.118789,
+          37.520736
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mong-chon To-seong, Ol-lim-pik Gong-won",
+          "Mongchon Toseong, Olympic Park"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.520736,127.118789",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon"
+        ],
+        "notes": "Ancient mud wall uncovered during construction of the Olympic Park.",
+        "opened": "300",
+        "seating_capacity": "10000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50225"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50234"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_656.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.093395,
+          37.633202
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Taeneung International Shooting Range",
+          "Taenung International Shooting Range"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.633202,127.093395",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Modern Pentathlon",
+          "Shooting",
+          "modern pentathlon (shooting)"
+        ],
+        "opened": "1972",
+        "seating_capacity": "2505",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/50225"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Modern Pentathlon",
+              "link": "https://www.olympedia.org/sports/MPN"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/50234"
+            },
+            {
+              "text": "18 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Pistol, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/51778"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Rapid-Fire Pistol, 25 metres, Men",
+              "link": "https://www.olympedia.org/results/51781"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Free Pistol, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51786"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Men",
+              "link": "https://www.olympedia.org/results/51789"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51795"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Prone, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51792"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Running Target, 50 metres, Men",
+              "link": "https://www.olympedia.org/results/51801"
+            },
+            {
+              "text": "23 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Pistol, 10 metres, Women",
+              "link": "https://www.olympedia.org/results/51810"
+            },
+            {
+              "text": "21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Sporting Pistol, 25 metres, Women",
+              "link": "https://www.olympedia.org/results/51813"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Air Rifle, 10 metres, Women",
+              "link": "https://www.olympedia.org/results/51816"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Small-Bore Rifle, Three Positions, 50 metres, Women",
+              "link": "https://www.olympedia.org/results/51819"
+            },
+            {
+              "text": "21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Trap, Open",
+              "link": "https://www.olympedia.org/results/51804"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Shooting",
+              "link": "https://www.olympedia.org/sports/SHO"
+            },
+            {
+              "text": "Skeet, Open",
+              "link": "https://www.olympedia.org/results/51807"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_657.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          129.156944,
+          35.130556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Busan Yachting Center",
+          "Pusan Yachting Center"
+        ],
+        "place": "Busan",
+        "coordinates": "35.130556,129.156944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Sailing"
+        ],
+        "opened": "1986",
+        "seating_capacity": "80",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Men",
+              "link": "https://www.olympedia.org/results/10210"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Dinghy, Women",
+              "link": "https://www.olympedia.org/results/10275"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Windsurfer, Open",
+              "link": "https://www.olympedia.org/results/10197"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "One Person Dinghy, Open",
+              "link": "https://www.olympedia.org/results/10184"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/10223"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Multihull, Open",
+              "link": "https://www.olympedia.org/results/10249"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Three Person Keelboat, Open",
+              "link": "https://www.olympedia.org/results/10262"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Sailing",
+              "link": "https://www.olympedia.org/sports/SAL"
+            },
+            {
+              "text": "Two Person Heavyweight Dinghy, Open",
+              "link": "https://www.olympedia.org/results/10236"
+            },
+            {
+              "text": "20 – 27 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_658.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.128918,
+          37.515062
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Te-ni-seu-jang, Ol-lim-pik Gong-won",
+          "Olympic Tennis Center",
+          "Olympic Tennis Courts"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.515062,127.128918",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Tennis"
+        ],
+        "opened": "1986",
+        "seating_capacity": "10000 (centre court)",
+        "type": "outdoor venue",
+        "surface": "Hardcourt",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/45037"
+            },
+            {
+              "text": "20 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/45106"
+            },
+            {
+              "text": "23 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/45142"
+            },
+            {
+              "text": "23 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Tennis",
+              "link": "https://www.olympedia.org/sports/TEN"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/45211"
+            },
+            {
+              "text": "24 – 30 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_660.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue has 18 outdoor hardcourts, including a main court with a capacity of 10,000. It has hosted the WTA Korea Open tournament since 2004, as well as several Republic of Korea Davis Cup and Fed Cup matches. The centre is also used by the community for recreational tennis.",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.952472,
+          37.467527
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Che-yuk-gwan, Seo-ul Dae-hak-gyo",
+          "Gymnasium, Seoul National University",
+          "Seoul National University Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.467527,126.952472",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Badminton",
+          "Table Tennis"
+        ],
+        "opened": "1986",
+        "seating_capacity": "5000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/46500"
+            },
+            {
+              "text": "23 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/46766"
+            },
+            {
+              "text": "23 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/46903"
+            },
+            {
+              "text": "23 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Table Tennis",
+              "link": "https://www.olympedia.org/sports/TTE"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/47065"
+            },
+            {
+              "text": "23 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/90016742"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Men",
+              "link": "https://www.olympedia.org/results/90016749"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/90016756"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Women",
+              "link": "https://www.olympedia.org/results/90016763"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Badminton",
+              "link": "https://www.olympedia.org/sports/BDM"
+            },
+            {
+              "text": "Doubles, Mixed",
+              "link": "https://www.olympedia.org/results/90016770"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_661.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.049962,
+          37.556537
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Che-yuk-gwan, Han-yang Dae-hak-gyo",
+          "Gymnasium, Hanyang University",
+          "Hanyang University Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.556537,127.049962",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1986",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37404"
+            },
+            {
+              "text": "17 September –  2 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Women",
+              "link": "https://www.olympedia.org/results/37454"
+            },
+            {
+              "text": "21 – 29 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_662.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.848104,
+          37.556683
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Saemaul Sports Hall"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.556683,126.848104",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Volleyball"
+        ],
+        "opened": "1986",
+        "seating_capacity": "4500",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Volleyball",
+              "link": "https://www.olympedia.org/sports/VVO"
+            },
+            {
+              "text": "Volleyball, Men",
+              "link": "https://www.olympedia.org/results/37404"
+            },
+            {
+              "text": "17 September –  2 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_663.json",
+        "Olympics": "1988 Seoul",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.076111,
+          37.514444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Jam-sil Su-yeong-jang, Seoul Sports Complex",
+          "Jamsil Indoor Swimming Pool, Seoul Sports Complex"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.514444,127.076111",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Water Polo"
+        ],
+        "opened": "1980",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Water Polo",
+              "link": "https://www.olympedia.org/sports/WPO"
+            },
+            {
+              "text": "Water Polo, Men",
+              "link": "https://www.olympedia.org/results/38727"
+            },
+            {
+              "text": "21 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_664.json",
+        "Olympics": "1988 Seoul"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.125058,
+          37.516685
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Weightlifting Gymnasium, Ol-lim-pik Gong-won",
+          "Olympic Weightlifting Gymnasium, Olympic Park",
+          "Olympic Weightlifting Gymnasium"
+        ],
+        "place": "Seoul",
+        "coordinates": "37.516685,127.125058",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Weightlifting"
+        ],
+        "opened": "1986",
+        "seating_capacity": "4000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Flyweight, Men",
+              "link": "https://www.olympedia.org/results/29888"
+            },
+            {
+              "text": "18 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Bantamweight, Men",
+              "link": "https://www.olympedia.org/results/29897"
+            },
+            {
+              "text": "19 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Featherweight, Men",
+              "link": "https://www.olympedia.org/results/29906"
+            },
+            {
+              "text": "20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Lightweight, Men",
+              "link": "https://www.olympedia.org/results/29915"
+            },
+            {
+              "text": "21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middleweight, Men",
+              "link": "https://www.olympedia.org/results/29924"
+            },
+            {
+              "text": "22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Light-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29933"
+            },
+            {
+              "text": "24 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Middle-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29942"
+            },
+            {
+              "text": "25 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight I, Men",
+              "link": "https://www.olympedia.org/results/29951"
+            },
+            {
+              "text": "26 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Heavyweight II, Men",
+              "link": "https://www.olympedia.org/results/29960"
+            },
+            {
+              "text": "27 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Weightlifting",
+              "link": "https://www.olympedia.org/sports/WLF"
+            },
+            {
+              "text": "Super-Heavyweight, Men",
+              "link": "https://www.olympedia.org/results/29969"
+            },
+            {
+              "text": "28 – 29 September 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_665.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "In use (repurposed)",
+        "information": "",
+        "location": "Inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.140013,
+          37.43122
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sang-mu Che-yuk-gwan",
+          "Sangmu Gynmasium",
+          "Sangmu Gymnasium"
+        ],
+        "place": "Seongnam",
+        "coordinates": "37.43122,127.140013",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Summer"
+          }
+        ],
+        "sports": [
+          "Wrestling"
+        ],
+        "opened": "1986",
+        "seating_capacity": "5000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130271"
+            },
+            {
+              "text": "18 – 20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130312"
+            },
+            {
+              "text": "19 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130374"
+            },
+            {
+              "text": "20 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130430"
+            },
+            {
+              "text": "18 – 20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130475"
+            },
+            {
+              "text": "20 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130552"
+            },
+            {
+              "text": "19 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130607"
+            },
+            {
+              "text": "20 – 22 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130667"
+            },
+            {
+              "text": "18 – 20 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130729"
+            },
+            {
+              "text": "19 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Greco-Roman, Men",
+              "link": "https://www.olympedia.org/results/130789"
+            },
+            {
+              "text": "20 – 21 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129571"
+            },
+            {
+              "text": "27 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Flyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129626"
+            },
+            {
+              "text": "28 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Bantamweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129703"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Featherweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129773"
+            },
+            {
+              "text": "27 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Lightweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129845"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Welterweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/129931"
+            },
+            {
+              "text": "28 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Middleweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/130015"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Light-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/130094"
+            },
+            {
+              "text": "27 – 29 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/130167"
+            },
+            {
+              "text": "28 – 30 September 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Summer Olympics",
+              "link": "https://www.olympedia.org/editions/22"
+            },
+            {
+              "text": "Wrestling",
+              "link": "https://www.olympedia.org/sports/WRE"
+            },
+            {
+              "text": "Super-Heavyweight, Freestyle, Men",
+              "link": "https://www.olympedia.org/results/130229"
+            },
+            {
+              "text": "29 September –  1 October 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_666.json",
+        "Olympics": "1988 Seoul",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "Located in the city of Seongnam near Seoul, it hosted the Olympic wrestling events in 1988. It was demolished in 2013, following the relocation of the Korea Armed Forces Athletic Corps, which owned and managed the site.",
+        "location": "Outside"
+      }
+    }
+  ]
+}

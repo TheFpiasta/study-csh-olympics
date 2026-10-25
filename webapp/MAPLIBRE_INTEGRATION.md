@@ -5,7 +5,7 @@ This document describes the implementation of interactive maps in the Olympic Ve
 ## Dependencies Installed
 
 ```bash
-npm install react-map-gl maplibre-gl
+yarn add react-map-gl maplibre-gl
 ```
 
 ## Key Components

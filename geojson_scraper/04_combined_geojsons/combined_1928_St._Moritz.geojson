@@ -1,0 +1,1035 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.8497,
+          46.5014
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia-Eisstadion Badrutts Park",
+          "Olympic Ice Stadium Badrutts Park",
+          "Olympiastadion St. Moritz (St. Moritz Olympic Stadium)"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.5014,9.8497",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          },
+          {
+            "year": "1948",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony",
+          "Opening and Closing Ceremonies"
+        ],
+        "seating_capacity": "4000",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK)",
+        "altitude": "1856 m",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12654"
+            },
+            {
+              "text": "14 – 15 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12678"
+            },
+            {
+              "text": "14 – 15 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12702"
+            },
+            {
+              "text": "16 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20038"
+            },
+            {
+              "text": "11 – 19 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/961"
+            },
+            {
+              "text": "13 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/962"
+            },
+            {
+              "text": "14 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/963"
+            },
+            {
+              "text": "13 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/964"
+            },
+            {
+              "text": "14 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12826"
+            },
+            {
+              "text": "2 –  5 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12856"
+            },
+            {
+              "text": "3 –  6 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12886"
+            },
+            {
+              "text": "7 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/993"
+            },
+            {
+              "text": "31 January 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/994"
+            },
+            {
+              "text": "2 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/995"
+            },
+            {
+              "text": "1 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/996"
+            },
+            {
+              "text": "3 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20123"
+            },
+            {
+              "text": "30 January –  8 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_144.json",
+        "Olympics": "1928 St. Moritz",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Built in 1927 for the II Olympic Winter Games, the Olympic Stadium is now a private house. Also used at the Olympic Winter Games in 1948, it lay empty thereafter and fell into disrepair, before being refurbished by its current owner, a celebrated Swiss designer. Many of its original features have been restored, while the former ice rink in front of the building is now used as a driving range by a local golf club and also hosts occasional charity cricket matches.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.849093,
+          46.506459
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympia Bobrun",
+          "St. Moritz Olympia Bob Run"
+        ],
+        "place": "St. Moritz / Celerina",
+        "coordinates": "46.506459,9.849093",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          },
+          {
+            "year": "1948",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1903",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four/Five, Men",
+              "link": "https://www.olympedia.org/results/236"
+            },
+            {
+              "text": "18 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/267"
+            },
+            {
+              "text": "30 – 31 January 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/274"
+            },
+            {
+              "text": "6 –  7 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_148.json",
+        "Olympics": "1928 St. Moritz",
+        "classification": "Temporary (seasonal)",
+        "status": "In use (seasonal)",
+        "information": "First constructed in 1903, the Olympia Bob Run is one of the oldest bobsleigh tracks in the world and is rebuilt with natural ice and snow every winter, though it does have some permanent curves made from stone and concrete. It is a regular on the BMW IBSF World Cup circuit and has hosted 23 IBSF World Championships. It will stage the competition again in 2023.\n\nAmong other major international competitions, it has hosted the IBSF European Bobsleigh Championships 11 times (most recently in 2016), as well as the 2017 IBSF Para Sport World Championships, and the bobsleigh, luge and skeleton competitions at the Winter Youth Olympic Games Lausanne 2020.\n\nThe run also hosts Switzerland's national bobsleigh, skeleton and toboggan championships and several local events, including the Hornschlitten – a traditional toboggan race. It is open from the end of December to the beginning of March and is used for training by amateur and high-performance athletes and by the Sankt Moritz Bobsleigh Club, founded in 1897. Visitors can ride the run with a professional driver and brakeman.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.841379,
+          46.499699
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cresta Run"
+        ],
+        "place": "St. Moritz / Celerina",
+        "coordinates": "46.499699,9.841379",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          },
+          {
+            "year": "1948",
+            "season": "Winter"
+          },
+          {
+            "year": "2020",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton",
+          "Cresta (which later evolved into skeleton)"
+        ],
+        "notes": "Coordinates are for the start (not the finish).",
+        "opened": "1884",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/1"
+            },
+            {
+              "text": "17 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/6"
+            },
+            {
+              "text": "3 –  4 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Girls",
+              "link": "https://www.olympedia.org/results/19006300"
+            },
+            {
+              "text": "17 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Boys",
+              "link": "https://www.olympedia.org/results/19006303"
+            },
+            {
+              "text": "18 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Girls",
+              "link": "https://www.olympedia.org/results/19006306"
+            },
+            {
+              "text": "18 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Boys",
+              "link": "https://www.olympedia.org/results/19006309"
+            },
+            {
+              "text": "17 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Girls",
+              "link": "https://www.olympedia.org/results/19006611"
+            },
+            {
+              "text": "19 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Monobob, Girls",
+              "link": "https://www.olympedia.org/results/19006584"
+            },
+            {
+              "text": "19 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Monobob, Boys",
+              "link": "https://www.olympedia.org/results/19006614"
+            },
+            {
+              "text": "20 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Team Relay, Mixed Youth",
+              "link": "https://www.olympedia.org/results/19006641"
+            },
+            {
+              "text": "20 January 2020"
+            }
+          ],
+          [
+            {
+              "text": "2020 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/70"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Boys",
+              "link": "https://www.olympedia.org/results/19006648"
+            },
+            {
+              "text": "20 January 2020"
+            }
+          ]
+        ],
+        "source_file": "venue_149.json",
+        "Olympics": "1928 St. Moritz",
+        "classification": "Temporary (seasonal)",
+        "status": "In use (seasonal)",
+        "information": "Owned and maintained by the St. Moritz Tobogganing Club, the famous Cresta Run has been rebuilt with natural ice and snow every winter since 1884/85. It is still used extensively today and staged 30 competitions in 2019.\n\nThe run has hosted to the annual Grand National race since 16 February 1885. It is the most prestigious of the four major classic races held at the venue, the others being the Curzon Cup (first held in 1910), the Morgan Cup (1935) and the Brabazon Trophy (1966).\n\nThe track welcomes both experienced athletes and the public. Around 12,500 rides are completed on it every year, adding up to an estimated half a million rides since it opened.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.833925,
+          46.488009
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Skistadion",
+          "Ski Stadium"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.488009,9.833925",
+        "coordinates_trust": "Near here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          },
+          {
+            "year": "1948",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Winter Pentathlon",
+          "Cross-country skiing and Nordic combined (demonstration sports: military patrol",
+          "winter pentathlon)"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1891"
+            },
+            {
+              "text": "17 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1892"
+            },
+            {
+              "text": "14 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Military Ski Patrol",
+              "link": "https://www.olympedia.org/sports/MSP"
+            },
+            {
+              "text": "Military Ski Patrol, Men",
+              "link": "https://www.olympedia.org/results/905000"
+            },
+            {
+              "text": "12 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2189"
+            },
+            {
+              "text": "17 – 18 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1901"
+            },
+            {
+              "text": "31 January 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1902"
+            },
+            {
+              "text": "6 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1903"
+            },
+            {
+              "text": "3 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Military Ski Patrol",
+              "link": "https://www.olympedia.org/sports/MSP"
+            },
+            {
+              "text": "Military Ski Patrol, Men",
+              "link": "https://www.olympedia.org/results/905176"
+            },
+            {
+              "text": "8 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2204"
+            },
+            {
+              "text": "31 January –  1 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Winter Pentathlon",
+              "link": "https://www.olympedia.org/sports/WPE"
+            },
+            {
+              "text": "Winter Pentathlon, Men",
+              "link": "https://www.olympedia.org/results/905177"
+            },
+            {
+              "text": "31 January –  4 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_153.json",
+        "Olympics": "1928 St. Moritz",
+        "classification": "Existing",
+        "status": "Not in use (demolished)",
+        "information": "Though its stands and shooting ranges were dismantled a few years ago, the Skistadion's trails now form part of a 230-kilometre cross-country skiing network catering for both the classic and skating styles.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.825278,
+          46.474167
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaschanze",
+          "Olympic Ski Jumping Hill",
+          "Olympiaschanze St. Moritz"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.474167,9.825278",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          },
+          {
+            "year": "1948",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1926",
+        "demolished": "2006",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2189"
+            },
+            {
+              "text": "17 – 18 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2353"
+            },
+            {
+              "text": "18 February 1928"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2204"
+            },
+            {
+              "text": "31 January –  1 February 1948"
+            }
+          ],
+          [
+            {
+              "text": "1948 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/33"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2362"
+            },
+            {
+              "text": "7 February 1948"
+            }
+          ]
+        ],
+        "source_file": "venue_154.json",
+        "Olympics": "1928 St. Moritz",
+        "classification": "New build",
+        "status": "Not in use (demolished)",
+        "information": "This ski jumping hill closed in 2006 because of safety concerns. A local ski club used the venue prior to its closure, and though plans were in place for the construction of a new hill, they were not implemented due to cost issues. A 90m hill was built next to the existing 70m hill for the 1948 Games.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.845622,
+          46.494434
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Sankt Moritzersee",
+          "Lake St. Moritz"
+        ],
+        "place": "St. Moritz",
+        "coordinates": "46.494434,9.845622",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1928",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Skijoring"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1928 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/30"
+            },
+            {
+              "text": "Skijoring",
+              "link": "https://www.olympedia.org/sports/SJR"
+            },
+            {
+              "text": "Ski Joring, Men",
+              "link": "https://www.olympedia.org/results/905001"
+            },
+            {
+              "text": "12 February 1928"
+            }
+          ]
+        ],
+        "source_file": "venue_158.json",
+        "Olympics": "1928 St. Moritz"
+      }
+    }
+  ]
+}

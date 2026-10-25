@@ -1,0 +1,1953 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.108889,
+          49.277778
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canada Hockey Place",
+          "General Motors Place (1995-2010), Rogers Arena (2010-Present)"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.277778,-123.108889",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "1995",
+        "seating_capacity": "18630",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/924000"
+            },
+            {
+              "text": "16 – 28 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/924040"
+            },
+            {
+              "text": "13 – 25 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_174.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Built in 1995, this 18,000-capacity venue is the home of the city's NHL team, the Vancouver Canucks, and the Vancouver Warriors of the National Lacrosse League. It continues to stage a large number of sporting and cultural events throughout the year.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.203333,
+          49.395556
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Cypress Mountain",
+          "Cypress Mountain – Snowboard Stadium – Freestyle Skiing Stadium"
+        ],
+        "place": "West Vancouver",
+        "coordinates": "49.395556,-123.203333",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Freestyle Skiing",
+          "Snowboarding",
+          "Snowboard and freestyle skiing"
+        ],
+        "opened": "2007",
+        "seating_capacity": "8000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/924280"
+            },
+            {
+              "text": "14 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/924283"
+            },
+            {
+              "text": "22 – 25 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Men",
+              "link": "https://www.olympedia.org/results/924290"
+            },
+            {
+              "text": "21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/924312"
+            },
+            {
+              "text": "13 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/924315"
+            },
+            {
+              "text": "20 – 24 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ski Cross, Women",
+              "link": "https://www.olympedia.org/results/924322"
+            },
+            {
+              "text": "23 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/924350"
+            },
+            {
+              "text": "27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Men",
+              "link": "https://www.olympedia.org/results/924379"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Men",
+              "link": "https://www.olympedia.org/results/924389"
+            },
+            {
+              "text": "15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Parallel Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/924415"
+            },
+            {
+              "text": "26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Halfpipe, Women",
+              "link": "https://www.olympedia.org/results/924444"
+            },
+            {
+              "text": "18 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Snowboarding",
+              "link": "https://www.olympedia.org/sports/SBD"
+            },
+            {
+              "text": "Cross, Women",
+              "link": "https://www.olympedia.org/results/924454"
+            },
+            {
+              "text": "16 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_175.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The Olympic aerials competition venue still exists, at the foot of the ski area. Next to it is the moguls run, which is now known as Alexandre Bilodeau's Gold, after the Canadian freestyle skier who won the event at Vancouver 2010. The resort, which is also home to 53 Alpine ski runs and 19 kilometres of cross-country trails, runs freestyle camps for youngsters, teaching them terrain park and free-skiing/free-riding skills, jumps and tricks. The slope that hosted the 1,135-metre snowboard and ski cross runs still exists. The snowboard cross, parallel giant slalom and ski cross runs have all been renamed after the Canadian women boarders and skiers who won gold medals on them at Vancouver 2010: respectively Maëlle Ricker, Jasey-Jay Anderson and Ashleigh McIvor. Part of the stadium infrastructures were temporary, however, and were taken down, as planned, after the Games, including the half-pipe.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.042778,
+          49.285833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Pacific Coliseum"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.285833,-123.042778",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Short Track Speed Skating",
+          "Figure skating and short track speed skating"
+        ],
+        "opened": "1968",
+        "seating_capacity": "14239",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/924265"
+            },
+            {
+              "text": "16 – 18 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/924268"
+            },
+            {
+              "text": "23 – 25 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/924271"
+            },
+            {
+              "text": "14 – 15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/924274"
+            },
+            {
+              "text": "19 – 22 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/923655"
+            },
+            {
+              "text": "24 – 26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/923676"
+            },
+            {
+              "text": "17 – 20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/923697"
+            },
+            {
+              "text": "13 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/923712"
+            },
+            {
+              "text": "17 – 26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/923719"
+            },
+            {
+              "text": "13 – 17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/923740"
+            },
+            {
+              "text": "24 – 26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/923761"
+            },
+            {
+              "text": "20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/923776"
+            },
+            {
+              "text": "13 – 24 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_176.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The home of the Western Hockey League's Vancouver Giants between 2001 and 2016, the Coliseum is a much-used venue for concerts and other cultural and sporting events, including ice shows, boxing bouts, basketball matches, circuses and trade shows. Built in 1968, the venue underwent a major upgrade for the 2010 Olympic Winter Games, with new lighting, seats and a scoreboard installed.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.151389,
+          49.174722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Richmond Olympic Oval"
+        ],
+        "place": "Richmond",
+        "coordinates": "49.174722,-123.151389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "2008",
+        "seating_capacity": "8000",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "0 m",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/924500"
+            },
+            {
+              "text": "15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/924503"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/924504"
+            },
+            {
+              "text": "20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/924505"
+            },
+            {
+              "text": "13 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/924506"
+            },
+            {
+              "text": "23 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (8 laps), Men",
+              "link": "https://www.olympedia.org/results/924507"
+            },
+            {
+              "text": "26 – 27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/924521"
+            },
+            {
+              "text": "16 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/924524"
+            },
+            {
+              "text": "18 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/924525"
+            },
+            {
+              "text": "21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/924526"
+            },
+            {
+              "text": "14 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/924527"
+            },
+            {
+              "text": "24 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Team Pursuit (6 laps), Women",
+              "link": "https://www.olympedia.org/results/924528"
+            },
+            {
+              "text": "26 – 27 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_177.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "As planned, the venue was converted after the Games into a multi-purpose hub of sport, fitness and wellness for the community. Used by local residents and high-performance athletes, its facilities include two Olympic-sized ice sheets, six hardwood courts, seven multi-use courts, a 200-metre running track, an indoor climbing wall, a fitness centre, five fitness and personal training studios, an indoor rowing and paddling centre and the Richmond Olympic Experience (part of the Olympic Museums Network). The venue is the official training centre for Volleyball Canada's national women's team, Table Tennis Canada, Speed Skating Canada, Climbing Escalade International and Wheelchair Rugby Canada. The Richmond Olympic Oval is also an international sporting venue and has staged the FIVB Volleyball World Grand Prix, North American Cup Climbing Series, Judo Pacific International and Fencing World Cup events.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.243056,
+          49.261106
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "UBC Thunderbird Arena (also known as Doug Mitchell Thunderbird Sports Centre)",
+          "UBC Thunderbird Arena"
+        ],
+        "place": "University Endowment Lands",
+        "coordinates": "49.261106,-123.243056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Hockey"
+        ],
+        "opened": "2008",
+        "seating_capacity": "7200",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/924000"
+            },
+            {
+              "text": "16 – 28 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Women",
+              "link": "https://www.olympedia.org/results/924040"
+            },
+            {
+              "text": "13 – 25 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_178.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Used year-round, this multi-use facility venue caters for the University of British Columbia's athletes and the wider community, as originally planned when it was built for the 2010 Olympic Winter Games. The venue is the home of the UBC Thunderbirds women's and men's ice hockey teams, among other university teams and athletes. A venue for several Davis Cup ties, it hosts concerts, conventions, talks, film shoots and ice hockey programmes.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.108056,
+          49.244444
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Vancouver Olympic Centre (also known as Vancouver Olympic/Paralympic Centre)",
+          "Vancouver Olympic Center"
+        ],
+        "place": "Vancouver",
+        "coordinates": "49.244444,-123.108056",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling"
+        ],
+        "opened": "2009",
+        "seating_capacity": "6000",
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/924070"
+            },
+            {
+              "text": "16 – 27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/924126"
+            },
+            {
+              "text": "16 – 26 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_179.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Converted into a multi-purpose community recreation centre after Vancouver 2010, the venue offers sporting activities and programmes for people of all ages and abilities. Comprising a library, pool, skating rink, curling rink, gymnasium and fitness centre, among other facilities, it is a popular gathering place and receives over two million visitors a year.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.9425,
+          50.108333
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Creekside"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.108333,-122.9425",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "seating_capacity": "7600",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/924542"
+            },
+            {
+              "text": "15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/924543"
+            },
+            {
+              "text": "19 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/924544"
+            },
+            {
+              "text": "23 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/924547"
+            },
+            {
+              "text": "27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/924550"
+            },
+            {
+              "text": "21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/924553"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/924554"
+            },
+            {
+              "text": "20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/924555"
+            },
+            {
+              "text": "24 – 25 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/924558"
+            },
+            {
+              "text": "26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/924561"
+            },
+            {
+              "text": "18 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_180.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The Olympic Alpine skiing runs are still marked at a resort that is home to 8,100 acres of slopes, 16 Alpine bowls, three glaciers, several terrain parks and over 200 marked trails. Two of the resort's main chairlifts will be replaced for the 2022/23 season.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -123.119167,
+          50.135278
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Olympic Park"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.135278,-123.119167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "2007",
+        "seating_capacity": "6000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/923480"
+            },
+            {
+              "text": "14 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/923481"
+            },
+            {
+              "text": "18 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Pursuit, Men",
+              "link": "https://www.olympedia.org/results/923482"
+            },
+            {
+              "text": "16 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres Mass Start, Men",
+              "link": "https://www.olympedia.org/results/923485"
+            },
+            {
+              "text": "21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/923486"
+            },
+            {
+              "text": "26 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Women",
+              "link": "https://www.olympedia.org/results/923490"
+            },
+            {
+              "text": "13 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "15 kilometres, Women",
+              "link": "https://www.olympedia.org/results/923491"
+            },
+            {
+              "text": "18 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Women",
+              "link": "https://www.olympedia.org/results/923492"
+            },
+            {
+              "text": "16 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "12.5 kilometres Mass Start, Women",
+              "link": "https://www.olympedia.org/results/923495"
+            },
+            {
+              "text": "21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 6 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/923496"
+            },
+            {
+              "text": "23 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/923550"
+            },
+            {
+              "text": "15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres Skiathlon, Men",
+              "link": "https://www.olympedia.org/results/923551"
+            },
+            {
+              "text": "20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/923554"
+            },
+            {
+              "text": "28 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Men",
+              "link": "https://www.olympedia.org/results/923555"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/923569"
+            },
+            {
+              "text": "24 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Men",
+              "link": "https://www.olympedia.org/results/923573"
+            },
+            {
+              "text": "22 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/923578"
+            },
+            {
+              "text": "15 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres Skiathlon, Women",
+              "link": "https://www.olympedia.org/results/923579"
+            },
+            {
+              "text": "19 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Women",
+              "link": "https://www.olympedia.org/results/923582"
+            },
+            {
+              "text": "27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Women",
+              "link": "https://www.olympedia.org/results/923583"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/923597"
+            },
+            {
+              "text": "25 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Team Sprint, Women",
+              "link": "https://www.olympedia.org/results/923601"
+            },
+            {
+              "text": "22 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Normal Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/923615"
+            },
+            {
+              "text": "14 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Large Hill / 10 km, Individual, Men",
+              "link": "https://www.olympedia.org/results/923618"
+            },
+            {
+              "text": "25 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/923621"
+            },
+            {
+              "text": "23 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/923635"
+            },
+            {
+              "text": "12 – 13 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/923640"
+            },
+            {
+              "text": "19 – 20 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/923645"
+            },
+            {
+              "text": "22 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_181.json",
+        "Olympics": "2010 Vancouver"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.945,
+          50.1075
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Whistler Sliding Centre",
+          "Whistler Sliding Center"
+        ],
+        "place": "Whistler",
+        "coordinates": "50.1075,-122.945",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "2010",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton",
+          "luge and skeleton"
+        ],
+        "opened": "2007",
+        "seating_capacity": "12000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/924240"
+            },
+            {
+              "text": "20 – 21 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/924247"
+            },
+            {
+              "text": "26 – 27 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Women",
+              "link": "https://www.olympedia.org/results/924254"
+            },
+            {
+              "text": "23 – 24 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/924220"
+            },
+            {
+              "text": "13 – 14 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/924227"
+            },
+            {
+              "text": "17 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/924230"
+            },
+            {
+              "text": "15 – 16 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Men",
+              "link": "https://www.olympedia.org/results/924600"
+            },
+            {
+              "text": "18 – 19 February 2010"
+            }
+          ],
+          [
+            {
+              "text": "2010 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/57"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Women",
+              "link": "https://www.olympedia.org/results/924607"
+            },
+            {
+              "text": "18 – 19 February 2010"
+            }
+          ]
+        ],
+        "source_file": "venue_182.json",
+        "Olympics": "2010 Vancouver",
+        "classification": "New build",
+        "status": "In use",
+        "information": "A national training centre for luge, bobsleigh and skeleton, the venue has staged a number of international competitions, including FIL Luge World Cup events and the IBSF Bobsleigh and Skeleton World Championships. It is also home to the BC Sliding Development Center, which was founded in 2017 and runs development programmes for bobsleigh, skeleton and luge athletes of all abilities. The venue is also open to the general public all year round, allowing people to experience the three sports in a safe, controlled environment.",
+        "location": "outside the city"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "2566",
+      "source": "IOC 2018: https://www.olympic.org/vancouver-2010 (accessed 2015.6.2018)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "86.0",
+      "source": "IOC 2018: https://www.olympic.org/vancouver-2010 (accessed 2015.6.2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "82.0",
+      "source": "IOC 2018: https://www.olympic.org/vancouver-2010 20(accessed 2015.6.2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "12518",
+      "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 10",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "250000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "287892500.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "1280000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "1474009600.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "316350000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "364299169.5",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "688000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "792280160",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 19",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "599800000",
+      "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 69, p. 89",
+      "format": "currency",
+      "currency": "CAD"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "670593869.9",
+      "source": "IOC. (2017). The Olympic Winter Games in numbers: Vancouver 2010, Sochi 2014 and PyeongChang 2018. IOC. Lausanne. https://library.olympic.org/Default/doc/SYRACUSE/171290/the-olympic-winter-games-in-numbers-vancouver-2010-sochi-2014-and-pyeongchang-2018-international-oly, p. 69, p. 89",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "1755000000.0",
+      "source": "VANOC. (2010). Vancouver 2010 Sustainability Report, vol. 3. Vancouver Organizing Committee, p. 89",
+      "format": "currency",
+      "currency": "CAD"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "1962141116.5",
+      "source": "VANOC. (2010). Vancouver 2010 Sustainability Report, vol. 3. Vancouver Organizing Committee, p. 89",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

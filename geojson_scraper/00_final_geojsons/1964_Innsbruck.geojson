@@ -1,0 +1,2756 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.399167,
+          47.248889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Bergiselschanze",
+          "Bergisel Ski Jump",
+          "Bergisel Ski Jump (Bergiselschanze)"
+        ],
+        "place": "Innsbruck",
+        "coordinates": "47.248889,11.399167",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ski Jumping",
+          "Opening ceremony"
+        ],
+        "opened": "1964",
+        "seating_capacity": "60000",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2378"
+            },
+            {
+              "text": "9 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2397"
+            },
+            {
+              "text": "15 February 1976"
+            }
+          ]
+        ],
+        "source_file": "venue_53.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "One of the world's leading ski jumping venues and a popular tourist attraction. A ski jumping site since 1927, when a wooden jump was erected, it was upgraded for the 1964 Olympic Winter Games. Parts of the Bergisel site are protected by cultural heritage status.\n\nThe location for the Opening Ceremony at Innsbruck 1964, the Bergiselschanze is the venue for the third round of the world-famous annual Four Hills Tournament, which is held in early January and attracts sell-out crowds of 28,000. The hill also hosted the ski jumping events at the 1985 and 2019 Nordic World Ski Championships and the inaugural Winter Youth Olympic Games in 2012, when it again staged the Opening Ceremony.\n\nFormerly a regular stop on the summertime FIS Ski Jumping Grand Prix tour, the Bergiselschanze is a year-round ski jumping training centre used by Austria's national ski jumping team, other national teams from around the world, and three local ski clubs. The venue plays host to other winter sports such as snowboarding and freestyle skiing. Its spectator area is used as an open-air theatre in the summer and hosted the Innsbruck Fan Zone at UEFA Euro 2008.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.43004,
+          47.22216
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kunsteis-Bob- und Rodelbahn",
+          "Artficial Bob and Luge Track",
+          "Olympia Eiskanal",
+          "Bobbahn und Rodelbahn Igls"
+        ],
+        "place": "Igls",
+        "coordinates": "47.22216,11.43004",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh",
+          "Luge",
+          "Skeleton"
+        ],
+        "opened": "1963",
+        "type": "outdoor venue",
+        "altitude": "995 m",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/309"
+            },
+            {
+              "text": "31 January –  1 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/316"
+            },
+            {
+              "text": "5 –  7 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/29"
+            },
+            {
+              "text": "30 January –  4 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/36"
+            },
+            {
+              "text": "5 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/39"
+            },
+            {
+              "text": "30 January –  4 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/347"
+            },
+            {
+              "text": "6 –  7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/354"
+            },
+            {
+              "text": "13 – 14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/76"
+            },
+            {
+              "text": "4 –  7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/83"
+            },
+            {
+              "text": "10 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/86"
+            },
+            {
+              "text": "4 –  7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Girls",
+              "link": "https://www.olympedia.org/results/9002038"
+            },
+            {
+              "text": "22 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Boys",
+              "link": "https://www.olympedia.org/results/9002041"
+            },
+            {
+              "text": "22 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Boys",
+              "link": "https://www.olympedia.org/results/9002247"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Girls",
+              "link": "https://www.olympedia.org/results/9002250"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open Youth",
+              "link": "https://www.olympedia.org/results/9002253"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Team Relay, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002256"
+            },
+            {
+              "text": "17 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Girls",
+              "link": "https://www.olympedia.org/results/9002260"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Skeleton",
+              "link": "https://www.olympedia.org/sports/SKN"
+            },
+            {
+              "text": "Skeleton, Boys",
+              "link": "https://www.olympedia.org/results/9002263"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_54.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue has hosted six major world championships since 1964 and is a popular tourist attraction in both winter and summer, offering visitors Olympic track sliding experiences. Separate bobsleigh and luge tracks were used at Innsbruck 1964 before being replaced with a combined, artificially refrigerated track for the 1976 Games, which remains in place. Part of the Olympiaworld umbrella brand, the Olympia Eiskanal Innsbruck is the training base of the Austrian Bobsleigh and Skeleton Federation.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1775,
+          47.320833
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kombinationssprungschanze",
+          "Nordic Combined Ski Jump",
+          "Toni Seelos Olympiaschanze (?-Present)",
+          "Toni Seelos Schanze (Olympiaschanze)"
+        ],
+        "place": "Seefeld",
+        "coordinates": "47.320833,11.1775",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1963",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2231"
+            },
+            {
+              "text": "2 –  3 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2374"
+            },
+            {
+              "text": "31 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2252"
+            },
+            {
+              "text": "8 –  9 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2394"
+            },
+            {
+              "text": "7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Medium Hill / 10 km, Individual, Boys",
+              "link": "https://www.olympedia.org/results/9002257"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Medium Hill, Individual, Girls",
+              "link": "https://www.olympedia.org/results/9002266"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Medium Hill, Individual, Boys",
+              "link": "https://www.olympedia.org/results/9002269"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Medium Hill, Team, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002272"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_55.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The Tirol region's other Olympic ski jumping venue, situated in Seefeld, is home to two hills, which are used by ski jumpers of all ages and abilities.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.409455,
+          47.257747
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympiaeisstadion",
+          "Olympic Ice Stadium",
+          "Olympiahalle"
+        ],
+        "place": "Innsbruck",
+        "coordinates": "47.257747,11.409455",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey",
+          "Short Track Speed Skating",
+          "Closing ceremony"
+        ],
+        "opened": "1963",
+        "seating_capacity": "11000 / 10000 (2012)",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13112"
+            },
+            {
+              "text": "3 –  6 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13142"
+            },
+            {
+              "text": "30 January –  2 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13172"
+            },
+            {
+              "text": "29 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20280"
+            },
+            {
+              "text": "27 January –  9 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13362"
+            },
+            {
+              "text": "8 – 11 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13412"
+            },
+            {
+              "text": "10 – 13 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13462"
+            },
+            {
+              "text": "5 –  7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13492"
+            },
+            {
+              "text": "4 –  9 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20435"
+            },
+            {
+              "text": "3 – 14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Girls",
+              "link": "https://www.olympedia.org/results/9002321"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Girls",
+              "link": "https://www.olympedia.org/results/9002337"
+            },
+            {
+              "text": "18 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Boys",
+              "link": "https://www.olympedia.org/results/9002353"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Boys",
+              "link": "https://www.olympedia.org/results/9002369"
+            },
+            {
+              "text": "18 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002385"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Girls",
+              "link": "https://www.olympedia.org/results/9002191"
+            },
+            {
+              "text": "15 – 17 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Boys",
+              "link": "https://www.olympedia.org/results/9002194"
+            },
+            {
+              "text": "14 – 16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002197"
+            },
+            {
+              "text": "14 – 16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002200"
+            },
+            {
+              "text": "15 – 17 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Team, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002203"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_56.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Part of the Olympiaworld complex and now known as the Olympiahalle, this multi-sports venue stages ice hockey matches and figure skating events, and hosted matches of the 2010 European Handball Championships and the 2011 European Volleyball Championships. It is also used extensively by the local community.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.425846,
+          47.221761
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Patscherkofel"
+        ],
+        "place": "Igls",
+        "coordinates": "47.221761,11.425846",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1224"
+            },
+            {
+              "text": "30 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1316"
+            },
+            {
+              "text": "5 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Girls",
+              "link": "https://www.olympedia.org/results/9002000"
+            },
+            {
+              "text": "18 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Boys",
+              "link": "https://www.olympedia.org/results/9002003"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Girls",
+              "link": "https://www.olympedia.org/results/9002006"
+            },
+            {
+              "text": "20 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Boys",
+              "link": "https://www.olympedia.org/results/9002009"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Girls",
+              "link": "https://www.olympedia.org/results/9002012"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Boys",
+              "link": "https://www.olympedia.org/results/9002015"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Girls",
+              "link": "https://www.olympedia.org/results/9002018"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Boys",
+              "link": "https://www.olympedia.org/results/9002019"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Team, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002020"
+            },
+            {
+              "text": "17 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_57.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "New build",
+        "status": "In use",
+        "information": "The venue for the men's downhill at Innsbruck 1964, the resort can be reached from Innsbruck by cable car and is a popular weekend retreat for the city's inhabitants. Now known as Igls Ski Resort, it offers a wide range of winter and summer activities.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.301941,
+          47.195219
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Axamer Lizum"
+        ],
+        "place": "Axams",
+        "coordinates": "47.195219,11.301941",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1964",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1225"
+            },
+            {
+              "text": "2 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1226"
+            },
+            {
+              "text": "7 –  8 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1233"
+            },
+            {
+              "text": "6 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1234"
+            },
+            {
+              "text": "3 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1235"
+            },
+            {
+              "text": "1 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1317"
+            },
+            {
+              "text": "9 – 10 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1320"
+            },
+            {
+              "text": "14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1323"
+            },
+            {
+              "text": "8 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1324"
+            },
+            {
+              "text": "13 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1325"
+            },
+            {
+              "text": "11 February 1976"
+            }
+          ]
+        ],
+        "source_file": "venue_58.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "New build",
+        "status": "In use",
+        "information": "A small but thriving ski resort, Axamer Lizum was an underdeveloped site prior to the 1964 Olympic Winter Games, in preparation for which a hotel, roads, a car park and new chairlifts were built. It has since built up a reputation for delivering consistently good conditions, and attracts skiers and snowboarders of all ages. One of Austria's snowiest resorts, it is served by 10 cable cars and lifts and has around 40 kilometres of groomed slopes, some of which are named after the Olympic races they hosted in 1964. It is also the training centre of the Tyrolean Ski Instructors' Association.",
+        "location": "outside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.171073,
+          47.325491
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Langlaufstadion",
+          "Cross Country Skiing Stadium",
+          "Casino Seefeld Arena"
+        ],
+        "place": "Seefeld",
+        "coordinates": "47.325491,11.171073",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Mixed Sports",
+          "Nordic Combined"
+        ],
+        "opened": "1963",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1516"
+            },
+            {
+              "text": "4 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1936"
+            },
+            {
+              "text": "2 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1937"
+            },
+            {
+              "text": "30 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1938"
+            },
+            {
+              "text": "5 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1939"
+            },
+            {
+              "text": "8 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1943"
+            },
+            {
+              "text": "5 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1944"
+            },
+            {
+              "text": "1 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "3 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1945"
+            },
+            {
+              "text": "7 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2231"
+            },
+            {
+              "text": "2 –  3 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1527"
+            },
+            {
+              "text": "6 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1528"
+            },
+            {
+              "text": "13 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1972"
+            },
+            {
+              "text": "8 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1973"
+            },
+            {
+              "text": "5 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1974"
+            },
+            {
+              "text": "14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1975"
+            },
+            {
+              "text": "11 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1979"
+            },
+            {
+              "text": "7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1980"
+            },
+            {
+              "text": "10 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1981"
+            },
+            {
+              "text": "12 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2252"
+            },
+            {
+              "text": "8 –  9 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "6 kilometres Sprint, Girls",
+              "link": "https://www.olympedia.org/results/9002032"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Sprint, Boys",
+              "link": "https://www.olympedia.org/results/9002033"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "7.5 kilometres Pursuit, Girls",
+              "link": "https://www.olympedia.org/results/9002034"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Pursuit, Boys",
+              "link": "https://www.olympedia.org/results/9002035"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "2 × 6 kilometres and 2 × 7.5 kilometres Relay, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002036"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Mixed Sports",
+              "link": "https://www.olympedia.org/sports/MIX"
+            },
+            {
+              "text": "Cross-Country / Biathlon Relay, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002037"
+            },
+            {
+              "text": "21 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Girls",
+              "link": "https://www.olympedia.org/results/9002044"
+            },
+            {
+              "text": "17 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Boys",
+              "link": "https://www.olympedia.org/results/9002045"
+            },
+            {
+              "text": "17 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Girls",
+              "link": "https://www.olympedia.org/results/9002046"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "Sprint, Boys",
+              "link": "https://www.olympedia.org/results/9002058"
+            },
+            {
+              "text": "19 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Medium Hill / 10 km, Individual, Boys",
+              "link": "https://www.olympedia.org/results/9002257"
+            },
+            {
+              "text": "15 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_59.json",
+        "Olympics": "1964 Innsbruck"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.409838,
+          47.257088
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Eisschnellaufbahn im Olympiaeisstadion",
+          "Speed Skating Rink at the Olympic Ice Stadium",
+          "Olympic Speed Skating Oval (Olympia Eisschnellaufbahn)"
+        ],
+        "place": "Innsbruck",
+        "coordinates": "47.257088,11.409838",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Ice Stock Sport",
+          "Speed Skating"
+        ],
+        "opened": "1963",
+        "seating_capacity": "7500",
+        "type": "outdoor venue",
+        "dimensions": "400 m",
+        "altitude": "542 m",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/905189"
+            },
+            {
+              "text": "8 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Target Shooting, Men",
+              "link": "https://www.olympedia.org/results/905190"
+            },
+            {
+              "text": "9 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Distance Shooting, Men",
+              "link": "https://www.olympedia.org/results/905191"
+            },
+            {
+              "text": "9 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Stock Sport",
+              "link": "https://www.olympedia.org/sports/IST"
+            },
+            {
+              "text": "Distance Shooting, Men",
+              "link": "https://www.olympedia.org/results/905192"
+            },
+            {
+              "text": "8 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1013"
+            },
+            {
+              "text": "4 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1014"
+            },
+            {
+              "text": "6 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1015"
+            },
+            {
+              "text": "5 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1016"
+            },
+            {
+              "text": "7 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1017"
+            },
+            {
+              "text": "30 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1018"
+            },
+            {
+              "text": "1 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1019"
+            },
+            {
+              "text": "31 January 1964"
+            }
+          ],
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1020"
+            },
+            {
+              "text": "2 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1037"
+            },
+            {
+              "text": "10 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1038"
+            },
+            {
+              "text": "12 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1039"
+            },
+            {
+              "text": "13 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1040"
+            },
+            {
+              "text": "11 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1041"
+            },
+            {
+              "text": "14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1042"
+            },
+            {
+              "text": "6 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1043"
+            },
+            {
+              "text": "7 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1044"
+            },
+            {
+              "text": "5 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1045"
+            },
+            {
+              "text": "8 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Girls",
+              "link": "https://www.olympedia.org/results/9002309"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Girls",
+              "link": "https://www.olympedia.org/results/9002312"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Girls",
+              "link": "https://www.olympedia.org/results/9002313"
+            },
+            {
+              "text": "18 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Mass Start, Girls",
+              "link": "https://www.olympedia.org/results/9002314"
+            },
+            {
+              "text": "20 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Boys",
+              "link": "https://www.olympedia.org/results/9002315"
+            },
+            {
+              "text": "14 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Boys",
+              "link": "https://www.olympedia.org/results/9002318"
+            },
+            {
+              "text": "16 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Boys",
+              "link": "https://www.olympedia.org/results/9002319"
+            },
+            {
+              "text": "18 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Mass Start, Boys",
+              "link": "https://www.olympedia.org/results/9002320"
+            },
+            {
+              "text": "20 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_60.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Austria's only outdoor speed-skating rink, the Olympia Eisschnellaufbahn is also part of the city's Olympiaworld complex, which was the Olympic Park at both Innsbruck 1964 and 1976. It is a training centre for Austria's speed skating teams, and is also used for ice skating competitions and recreational skating for the general public and schoolchildren. In summer, it is an inline hockey venue, and it also stages concerts.",
+        "location": "inside"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4028,
+          47.271
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Kunsteisbahn, Messehalle",
+          "Innsbruck Exhibition Centre",
+          "Messehalle (Indoor Skating Rink)"
+        ],
+        "place": "Innsbruck",
+        "coordinates": "47.271,11.4028",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1964",
+            "season": "Winter"
+          },
+          {
+            "year": "1976",
+            "season": "Winter"
+          },
+          {
+            "year": "2012",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Ice Hockey"
+        ],
+        "type": "indoor venue",
+        "events": [
+          [
+            {
+              "text": "1964 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/37"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20280"
+            },
+            {
+              "text": "27 January –  9 February 1964"
+            }
+          ],
+          [
+            {
+              "text": "1976 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/40"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20435"
+            },
+            {
+              "text": "3 – 14 February 1976"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Doubles, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002070"
+            },
+            {
+              "text": "20 – 22 January 2012"
+            }
+          ],
+          [
+            {
+              "text": "2012 Winter Youth Olympics",
+              "link": "https://www.olympedia.org/editions/66"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Mixed Youth",
+              "link": "https://www.olympedia.org/results/9002108"
+            },
+            {
+              "text": "14 – 18 January 2012"
+            }
+          ]
+        ],
+        "source_file": "venue_896.json",
+        "Olympics": "1964 Innsbruck",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Rebuilt in 2011, Congress Messe Innsbruck hosts major medical conferences and Interalpin, the world's leading trade fair for Alpine technologies. The venue, which has helped make Innsbruck a leading business, trade show and conference hub, also organises concerts and art exhibitions.",
+        "location": "inside"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "1091",
+      "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "34.0",
+      "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "36.0",
+      "source": "Laibach, 2014: http://www.laibach.info/content/sport/olympische-spiele/olympische-winterspiele/winterspiele-1964-in-innsbruck.html (accessed 07.01.2019)",
+      "format": "number",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "1164",
+      "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p.302",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "30401000",
+      "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, p.256",
+      "format": "currency",
+      "currency": "ATS"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "9466362.0",
+      "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, p.256",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "900000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "7286368.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "nan",
+      "source": "No original source, value is imputed",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "846208.0",
+      "source": "No original source, value is imputed",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "137556000",
+      "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p. 252-253",
+      "format": "currency",
+      "currency": "ATS"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "42832635.0",
+      "source": "Organisationskomitee der IX. Olympischen Winterspiele in Innsbruck 1964, 1967, p. 252-253",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "102047000.0",
+      "source": "Organisationskomitee der IX. Olympischeen Winterspiele in Innsbruck 1964 (1967, vol 3), p. 262-264",
+      "format": "currency",
+      "currency": "ATS"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "31775727.0",
+      "source": "Organisationskomitee der IX. Olympischeen Winterspiele in Innsbruck 1964 (1967, vol 3), p. 262-264",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

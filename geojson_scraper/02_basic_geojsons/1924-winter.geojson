@@ -1,0 +1,845 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.853417,
+          45.911127
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Piste de Bobsleigh",
+          "Bobsleigh Course"
+        ],
+        "place": "Les Pélerins",
+        "coordinates": "45.911127,6.853417",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1905",
+        "type": "outdoor venue",
+        "altitude": "1054 m",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four/Five, Men",
+              "link": "https://www.olympedia.org/results/229"
+            },
+            {
+              "text": "2 –  3 February 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_23.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.853417,
+          45.911127
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "La Piste de Bobsleigh",
+          "Bobsleigh Course"
+        ],
+        "place": "Les Pélerins",
+        "coordinates": "45.911127,6.853417",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Bobsleigh"
+        ],
+        "opened": "1905",
+        "type": "outdoor venue",
+        "altitude": "1054 m",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four/Five, Men",
+              "link": "https://www.olympedia.org/results/229"
+            },
+            {
+              "text": "2 –  3 February 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_23.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.841827,
+          45.898304
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Tremplin Olympique",
+          "Olympic Ski Jump"
+        ],
+        "place": "Le Mont",
+        "coordinates": "45.898304,6.841827",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 30 m x 70 m (ICH)",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2350"
+            },
+            {
+              "text": "4 February 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_24.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.841827,
+          45.898304
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Le Tremplin Olympique",
+          "Olympic Ski Jump"
+        ],
+        "place": "Le Mont",
+        "coordinates": "45.898304,6.841827",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "seating_capacity": "4400",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 30 m x 70 m (ICH)",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2350"
+            },
+            {
+              "text": "4 February 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_24.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.873936,
+          45.926728
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Olympique",
+          "Olympic Stadium"
+        ],
+        "place": "Chamonix",
+        "coordinates": "45.926728,6.873936",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpinism",
+          "Cross Country Skiing",
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1955",
+        "seating_capacity": "12042",
+        "type": "outdoor venue",
+        "dimensions": "30 m x 60 m",
+        "altitude": "1034 m",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Alpinism",
+              "link": "https://www.olympedia.org/sports/APN"
+            },
+            {
+              "text": "Alpinism, Open",
+              "link": "https://www.olympedia.org/results/900027"
+            },
+            {
+              "text": "4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1889"
+            },
+            {
+              "text": "2 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1890"
+            },
+            {
+              "text": "30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2475"
+            },
+            {
+              "text": "28 – 30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12598"
+            },
+            {
+              "text": "29 – 30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12622"
+            },
+            {
+              "text": "28 – 29 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12646"
+            },
+            {
+              "text": "31 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20017"
+            },
+            {
+              "text": "28 January –  3 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Military Ski Patrol",
+              "link": "https://www.olympedia.org/sports/MSP"
+            },
+            {
+              "text": "Military Ski Patrol, Men",
+              "link": "https://www.olympedia.org/results/1615"
+            },
+            {
+              "text": "29 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2184"
+            },
+            {
+              "text": "2 –  4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2184"
+            },
+            {
+              "text": "2 –  4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/956"
+            },
+            {
+              "text": "26 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/957"
+            },
+            {
+              "text": "27 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/958"
+            },
+            {
+              "text": "26 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/959"
+            },
+            {
+              "text": "27 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Allround, Men",
+              "link": "https://www.olympedia.org/results/960"
+            },
+            {
+              "text": "26 – 27 January 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_25.json"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          6.873936,
+          45.926728
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stade Olympique",
+          "Olympic Stadium"
+        ],
+        "place": "Chamonix",
+        "coordinates": "45.926728,6.873936",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1924",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpinism",
+          "Cross Country Skiing",
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey",
+          "Military Ski Patrol",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1955",
+        "seating_capacity": "12042",
+        "type": "outdoor venue",
+        "dimensions": "30 m x 60 m",
+        "altitude": "1034 m",
+        "events": [
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Alpinism",
+              "link": "https://www.olympedia.org/sports/APN"
+            },
+            {
+              "text": "Alpinism, Open",
+              "link": "https://www.olympedia.org/results/900027"
+            },
+            {
+              "text": "4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1889"
+            },
+            {
+              "text": "2 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1890"
+            },
+            {
+              "text": "30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/2475"
+            },
+            {
+              "text": "28 – 30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12598"
+            },
+            {
+              "text": "29 – 30 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12622"
+            },
+            {
+              "text": "28 – 29 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12646"
+            },
+            {
+              "text": "31 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20017"
+            },
+            {
+              "text": "28 January –  3 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Military Ski Patrol",
+              "link": "https://www.olympedia.org/sports/MSP"
+            },
+            {
+              "text": "Military Ski Patrol, Men",
+              "link": "https://www.olympedia.org/results/1615"
+            },
+            {
+              "text": "29 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2184"
+            },
+            {
+              "text": "2 –  4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2184"
+            },
+            {
+              "text": "2 –  4 February 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/956"
+            },
+            {
+              "text": "26 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/957"
+            },
+            {
+              "text": "27 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/958"
+            },
+            {
+              "text": "26 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/959"
+            },
+            {
+              "text": "27 January 1924"
+            }
+          ],
+          [
+            {
+              "text": "1924 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/29"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "Allround, Men",
+              "link": "https://www.olympedia.org/results/960"
+            },
+            {
+              "text": "26 – 27 January 1924"
+            }
+          ]
+        ],
+        "source_file": "venue_25.json"
+      }
+    }
+  ]
+}

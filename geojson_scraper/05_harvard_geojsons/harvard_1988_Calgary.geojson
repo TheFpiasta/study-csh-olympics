@@ -1,0 +1,1732 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.135556,
+          51.076944
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Oval"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.076944,-114.135556",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Speed Skating"
+        ],
+        "opened": "1987",
+        "seating_capacity": "4452",
+        "type": "indoor venue",
+        "dimensions": "400 m",
+        "altitude": "1045 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1064"
+            },
+            {
+              "text": "14 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1065"
+            },
+            {
+              "text": "18 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1066"
+            },
+            {
+              "text": "20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1067"
+            },
+            {
+              "text": "17 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1068"
+            },
+            {
+              "text": "21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1069"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1070"
+            },
+            {
+              "text": "26 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1071"
+            },
+            {
+              "text": "27 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1072"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1073"
+            },
+            {
+              "text": "28 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_14.json",
+        "Olympics": "1988 Calgary",
+        "classification": "New build",
+        "status": "In use",
+        "information": "More than 20,000 people use the Calgary Olympic Oval every year for skating, while over 1,000 athletes from 22 countries trained there in the 2018-19 season. The Oval staged an event on the 2019/20 ISU Speed Skating World Cup circuit, and has hosted both the World Allround Championships and World Sprint Championships five times, most recently in 2019 and 2017 respectively. It is used by the university's sports teams and the Calgary X-Tremes, the city's women's ice hockey team. The Oval is also Speed Skating Canada's official training centre and the home of the country's Elite Athlete Pathway, a blueprint for the development of young speed skaters. For the two months of the year when it is not staging ice events, the Oval is a multi-purpose venue that plays host to car shows, science fairs, the Canadian judo and taekwondo championships, and volleyball, gymnastics, floor hockey, running and billiards events.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.051944,
+          51.0375
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Saddledome",
+          "Canadian Airlines Saddledome (1995-2000), Pengrowth Saddledome (2000-2010), Scotiabank Saddledome (2010-Present)"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.0375,-114.051944",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1983",
+        "seating_capacity": "16605",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13839"
+            },
+            {
+              "text": "17 – 20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13871"
+            },
+            {
+              "text": "24 – 27 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13903"
+            },
+            {
+              "text": "14 – 16 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13924"
+            },
+            {
+              "text": "21 – 23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20557"
+            },
+            {
+              "text": "13 – 28 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_15.json",
+        "Olympics": "1988 Calgary",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "Calgary's main indoor arena, the Saddledome is the home stadium of the Calgary Flames, which plays in the NHL; the Calgary Hitmen, a junior ice hockey team; and professional lacrosse team the Calgary Roughnecks. It also stages concerts, shows and events. Damaged by serious flooding in 2013, the stadium was quickly repaired. The Saddledome owes its name to the fact that its roof is the shape of a horse's saddle.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.215833,
+          51.079722
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canada Olympic Park",
+          "Canada Olympic Park - Ski Jumps"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.079722,-114.215833",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing",
+          "Bobsleigh",
+          "Freestyle Skiing",
+          "Luge",
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "notes": "Three parts, Ski Jumps, Bobsleigh/Luge Track, Recreational Ski Hill.",
+        "opened": "1986",
+        "seating_capacity": "26380 (BOB) / 50000 (SKJ) / 15000 m (ASK/FRS)",
+        "type": "outdoor venue",
+        "altitude": "1123 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW2, Men",
+              "link": "https://www.olympedia.org/results/905273"
+            },
+            {
+              "text": "19 – 21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, LW2, Women",
+              "link": "https://www.olympedia.org/results/905277"
+            },
+            {
+              "text": "19 – 21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/389"
+            },
+            {
+              "text": "20 – 21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/396"
+            },
+            {
+              "text": "27 – 28 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ballet, Men",
+              "link": "https://www.olympedia.org/results/905280"
+            },
+            {
+              "text": "25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Men",
+              "link": "https://www.olympedia.org/results/905281"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Men",
+              "link": "https://www.olympedia.org/results/905282"
+            },
+            {
+              "text": "21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Ballet, Women",
+              "link": "https://www.olympedia.org/results/905283"
+            },
+            {
+              "text": "25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Moguls, Women",
+              "link": "https://www.olympedia.org/results/905284"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Freestyle Skiing",
+              "link": "https://www.olympedia.org/sports/FRS"
+            },
+            {
+              "text": "Aerials, Women",
+              "link": "https://www.olympedia.org/results/905285"
+            },
+            {
+              "text": "21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/127"
+            },
+            {
+              "text": "14 – 15 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/134"
+            },
+            {
+              "text": "19 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/137"
+            },
+            {
+              "text": "16 – 18 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2273"
+            },
+            {
+              "text": "27 – 28 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2280"
+            },
+            {
+              "text": "23 – 24 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2412"
+            },
+            {
+              "text": "14 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2415"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Team, Men",
+              "link": "https://www.olympedia.org/results/2418"
+            },
+            {
+              "text": "24 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_16.json",
+        "Olympics": "1988 Calgary",
+        "classification": "New build",
+        "status": "Not in use, partly dismantled",
+        "information": "The park's ski jumps were used by a local ski club and were the main training hub for Canada's ski jumpers for 30 years. In 2019, the three higher jumps were closed due to high operational and maintenance costs. The 90-metre ski jump tower is still standing and is now the start point for North America's fastest zipline, used by over 2,500 people in 2019. The remaining jumps will be dismantled and the area repurposed for other sports.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.389722,
+          51.098056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Canmore Nordic Centre"
+        ],
+        "place": "Canmore",
+        "coordinates": "51.098056,-115.389722",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Cross Country Skiing",
+          "Nordic Combined",
+          "cross-country skiing"
+        ],
+        "opened": "1986",
+        "type": "outdoor venue",
+        "altitude": "1417 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1544"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1545"
+            },
+            {
+              "text": "20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1546"
+            },
+            {
+              "text": "26 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2012"
+            },
+            {
+              "text": "19 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2013"
+            },
+            {
+              "text": "15 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/2014"
+            },
+            {
+              "text": "27 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/2015"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2019"
+            },
+            {
+              "text": "17 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2020"
+            },
+            {
+              "text": "14 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "20 kilometres, Women",
+              "link": "https://www.olympedia.org/results/2021"
+            },
+            {
+              "text": "25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/2022"
+            },
+            {
+              "text": "21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, B1, Men",
+              "link": "https://www.olympedia.org/results/905272"
+            },
+            {
+              "text": "17 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, B1, Women",
+              "link": "https://www.olympedia.org/results/905276"
+            },
+            {
+              "text": "17 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2273"
+            },
+            {
+              "text": "27 – 28 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Team, Men",
+              "link": "https://www.olympedia.org/results/2280"
+            },
+            {
+              "text": "23 – 24 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_17.json",
+        "Olympics": "1988 Calgary",
+        "classification": "New build",
+        "status": "In use",
+        "information": "This year-round training facility has a paved rollerski loop for summer wheeled skating, biathlon competition trails, and a shooting range with 31 lanes. The Centre is used by both elite and recreational biathletes, and regularly hosts IBU Biathlon World Cup events.",
+        "location": "outside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.003611,
+          51.042222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Max Bell Arena"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.042222,-114.003611",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Short Track Speed Skating"
+        ],
+        "seating_capacity": "3231",
+        "type": "indoor venue",
+        "dimensions": "25.9 m x 60.9 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/905198"
+            },
+            {
+              "text": "14 – 20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Women",
+              "link": "https://www.olympedia.org/results/905235"
+            },
+            {
+              "text": "15 – 20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/905286"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/905307"
+            },
+            {
+              "text": "20 – 24 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/905322"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 m, Men",
+              "link": "https://www.olympedia.org/results/905337"
+            },
+            {
+              "text": "23 – 25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "5,000 metres Relay, Men",
+              "link": "https://www.olympedia.org/results/905347"
+            },
+            {
+              "text": "22 – 25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/905352"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/905373"
+            },
+            {
+              "text": "25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/905388"
+            },
+            {
+              "text": "23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 m, Women",
+              "link": "https://www.olympedia.org/results/905403"
+            },
+            {
+              "text": "23 – 24 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Short Track Speed Skating",
+              "link": "https://www.olympedia.org/sports/STK"
+            },
+            {
+              "text": "3,000 metres Relay, Women",
+              "link": "https://www.olympedia.org/results/905413"
+            },
+            {
+              "text": "23 – 24 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_18.json",
+        "Olympics": "1988 Calgary",
+        "classification": "Existing",
+        "status": "In use",
+        "information": "The home of Hockey Calgary, two junior league teams and Calgary Fire Elite's female hockey teams, the venue has two ice rinks: the Ken Bracko Arena and the Max Bell #2.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.150833,
+          50.943056
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          ""
+        ],
+        "place": "Nakiska",
+        "coordinates": "50.943056,-115.150833",
+        "coordinates_trust": "Most likely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Alpine Skiing"
+        ],
+        "opened": "1986",
+        "type": "outdoor venue",
+        "altitude": "1538 m / 1875 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Men",
+              "link": "https://www.olympedia.org/results/1356"
+            },
+            {
+              "text": "15 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Men",
+              "link": "https://www.olympedia.org/results/1357"
+            },
+            {
+              "text": "21 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Men",
+              "link": "https://www.olympedia.org/results/1358"
+            },
+            {
+              "text": "25 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Men",
+              "link": "https://www.olympedia.org/results/1361"
+            },
+            {
+              "text": "27 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Men",
+              "link": "https://www.olympedia.org/results/1364"
+            },
+            {
+              "text": "16 – 17 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Downhill, Women",
+              "link": "https://www.olympedia.org/results/1369"
+            },
+            {
+              "text": "19 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Super G, Women",
+              "link": "https://www.olympedia.org/results/1370"
+            },
+            {
+              "text": "22 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Giant Slalom, Women",
+              "link": "https://www.olympedia.org/results/1371"
+            },
+            {
+              "text": "24 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Slalom, Women",
+              "link": "https://www.olympedia.org/results/1374"
+            },
+            {
+              "text": "26 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Alpine Skiing",
+              "link": "https://www.olympedia.org/sports/ALP"
+            },
+            {
+              "text": "Combined, Women",
+              "link": "https://www.olympedia.org/results/1377"
+            },
+            {
+              "text": "20 – 21 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_20.json",
+        "Olympics": "1988 Calgary"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.055,
+          51.0375
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Stampede Corral"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.0375,-114.055",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1950",
+        "seating_capacity": "6479",
+        "type": "indoor venue",
+        "dimensions": "25.9 m x 60.9 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13839"
+            },
+            {
+              "text": "17 – 20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/13903"
+            },
+            {
+              "text": "14 – 16 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Ice Dancing, Mixed",
+              "link": "https://www.olympedia.org/results/13924"
+            },
+            {
+              "text": "21 – 23 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20557"
+            },
+            {
+              "text": "13 – 28 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_21.json",
+        "Olympics": "1988 Calgary",
+        "classification": "Existing",
+        "status": "Not in use, currently under reconstruction",
+        "information": "Another of Calgary's ice hockey arenas and a frequent venue for Canada's Davis Cup team, the Corral also hosted rodeos, figure skating, circuses, royal visits, religious events, wrestling nights and trade shows during its 70-year existence. Major acts such as Fleetwood Mac, Snoop Dogg and Rihanna also played the venue, which was demolished in late 2020 to make way for new facilities for sport, culture and business.",
+        "location": "inside the city"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -114.126389,
+          51.073889
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Father David Bauer Olympic Arena"
+        ],
+        "place": "Calgary",
+        "coordinates": "51.073889,-114.126389",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1988",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "seating_capacity": "2000",
+        "type": "indoor venue",
+        "dimensions": "30 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/13839"
+            },
+            {
+              "text": "17 – 20 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/13871"
+            },
+            {
+              "text": "24 – 27 February 1988"
+            }
+          ],
+          [
+            {
+              "text": "1988 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/43"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20557"
+            },
+            {
+              "text": "13 – 28 February 1988"
+            }
+          ]
+        ],
+        "source_file": "venue_22.json",
+        "Olympics": "1988 Calgary",
+        "classification": "New build",
+        "status": "In use",
+        "information": "Located in the same complex as McMahon Stadium, the arena is the home of the Calgary Dinos university ice hockey team, and was just one of several of the city's sports facilities to be upgraded as part of the Olympic Capital Improvement Programme.",
+        "location": "inside the city"
+      }
+    }
+  ],
+  "harvard": {
+    "number_of_athletes": {
+      "data": "1423",
+      "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
+      "format": "number",
+      "currency": null
+    },
+    "number_of_events": {
+      "data": "46.0",
+      "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "number_of_countries": {
+      "data": "57.0",
+      "source": "IOC 2018: https://www.olympic.org/calgary-1988 (accessed 15.6.2018)",
+      "format": "standard",
+      "currency": null
+    },
+    "accredited_media": {
+      "data": "6838",
+      "source": "IOC. (2020). Summer Olympic Games—Calgary 1988—\"More About\". https://www.olympic.org/atlanta-1996",
+      "format": "number",
+      "currency": null
+    },
+    "ticketing_revenue": {
+      "data": "32000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "ticketing_revenue_(usd2018)": {
+      "data": "67948002.14",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 33",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue": {
+      "data": "325000000",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "broadcast_revenue_(usd2018)": {
+      "data": "690096896.72",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 27",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue": {
+      "data": "31968000.0",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "international_sponsorship_revenue_(usd_2018)": {
+      "data": "67880054.14",
+      "source": "International Olympic Committee IOC. (2020). Olympic Marketing Fact File 2020 Edition. https://library.olympic.org/doc/SYRACUSE/355225, p. 15 and 21",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "domestic_sponsorship_revenue_(usd_2018)": {
+      "data": "No domestic sponsorship",
+      "source": "nan",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues": {
+      "data": "297600000",
+      "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 99-192",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_venues_(usd_2018)": {
+      "data": "513335840.69",
+      "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 99-192",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation": {
+      "data": "526764000.0",
+      "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 81",
+      "format": "currency",
+      "currency": "USD"
+    },
+    "cost_of_organisation_(usd_2018)": {
+      "data": "908625137.05",
+      "source": "OCO’88 The Calgary Olympic Winter Games Organizing Committee. (1988). Rapport officiel des XVes Jeux Olympiques d’hiver | XV Olympic Winter Games: Official report. Part 1: Vol. Part I. Comité d’organisation des XVes Jeux Olympique d’hiver, p. 81",
+      "format": "currency",
+      "currency": "USD"
+    }
+  }
+}

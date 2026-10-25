@@ -1,0 +1,1112 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.984079,
+          44.282582
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "James C. Sheffield Speed Skating Oval",
+          "Olympic Stadium (1932-?)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.282582,-73.984079",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Cross Country Skiing",
+          "Dogsled Racing",
+          "Ice Hockey",
+          "Nordic Combined",
+          "Speed Skating",
+          "Opening ceremony",
+          "Closing ceremony"
+        ],
+        "opened": "1931",
+        "seating_capacity": "7475",
+        "type": "outdoor venue",
+        "dimensions": "400 m (SSK), 25 m x 60 m (ICH)",
+        "altitude": "568 m",
+        "events": [
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "18 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1893"
+            },
+            {
+              "text": "10 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1894"
+            },
+            {
+              "text": "13 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Dogsled Racing",
+              "link": "https://www.olympedia.org/sports/DSR"
+            },
+            {
+              "text": "Dog Sled Racing, Open",
+              "link": "https://www.olympedia.org/results/905020"
+            },
+            {
+              "text": "6 –  7 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20062"
+            },
+            {
+              "text": "4 – 13 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey Exhibition, Men",
+              "link": "https://www.olympedia.org/results/905498"
+            },
+            {
+              "text": "5 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2194"
+            },
+            {
+              "text": "10 – 11 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/965"
+            },
+            {
+              "text": "4 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/971"
+            },
+            {
+              "text": "5 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/977"
+            },
+            {
+              "text": "4 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/982"
+            },
+            {
+              "text": "5 –  8 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/905023"
+            },
+            {
+              "text": "8 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/905028"
+            },
+            {
+              "text": "9 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/905033"
+            },
+            {
+              "text": "10 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Men",
+              "link": "https://www.olympedia.org/results/1046"
+            },
+            {
+              "text": "15 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1047"
+            },
+            {
+              "text": "19 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Men",
+              "link": "https://www.olympedia.org/results/1048"
+            },
+            {
+              "text": "21 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "5,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1049"
+            },
+            {
+              "text": "16 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "10,000 metres, Men",
+              "link": "https://www.olympedia.org/results/1050"
+            },
+            {
+              "text": "23 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "500 metres, Women",
+              "link": "https://www.olympedia.org/results/1051"
+            },
+            {
+              "text": "15 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1052"
+            },
+            {
+              "text": "17 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "1,500 metres, Women",
+              "link": "https://www.olympedia.org/results/1053"
+            },
+            {
+              "text": "14 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Speed Skating",
+              "link": "https://www.olympedia.org/sports/SSK"
+            },
+            {
+              "text": "3,000 metres, Women",
+              "link": "https://www.olympedia.org/results/1054"
+            },
+            {
+              "text": "20 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_71.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.964022,
+          44.256115
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Intervale Ski Jump Complex"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.256115,-73.964022",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Nordic Combined",
+          "Ski Jumping"
+        ],
+        "opened": "1920",
+        "seating_capacity": "9200",
+        "type": "outdoor venue",
+        "events": [
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2194"
+            },
+            {
+              "text": "10 – 11 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2356"
+            },
+            {
+              "text": "12 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2259"
+            },
+            {
+              "text": "18 – 19 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Normal Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2400"
+            },
+            {
+              "text": "17 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Ski Jumping",
+              "link": "https://www.olympedia.org/sports/SJP"
+            },
+            {
+              "text": "Large Hill, Individual, Men",
+              "link": "https://www.olympedia.org/results/2403"
+            },
+            {
+              "text": "23 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_73.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.921337,
+          44.220222
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Mt. Van Hoevenberg Recreation Area"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.220222,-73.921337",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Biathlon",
+          "Bobsleigh",
+          "Cross Country Skiing",
+          "Luge",
+          "Nordic Combined"
+        ],
+        "notes": "Two parts, Cross Country Complex and Bob Run.",
+        "opened": "1930 (BOB)",
+        "seating_capacity": "12500 (BOB)",
+        "type": "outdoor venue",
+        "altitude": "628 m",
+        "events": [
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/239"
+            },
+            {
+              "text": "8 –  9 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/246"
+            },
+            {
+              "text": "14 – 15 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "10 kilometres Sprint, Men",
+              "link": "https://www.olympedia.org/results/1532"
+            },
+            {
+              "text": "19 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "20 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1533"
+            },
+            {
+              "text": "16 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Biathlon",
+              "link": "https://www.olympedia.org/sports/BTH"
+            },
+            {
+              "text": "4 × 7.5 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1534"
+            },
+            {
+              "text": "22 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Two, Men",
+              "link": "https://www.olympedia.org/results/361"
+            },
+            {
+              "text": "15 – 16 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Bobsleigh",
+              "link": "https://www.olympedia.org/sports/BOB"
+            },
+            {
+              "text": "Four, Men",
+              "link": "https://www.olympedia.org/results/368"
+            },
+            {
+              "text": "23 – 24 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "15 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1985"
+            },
+            {
+              "text": "17 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "30 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1986"
+            },
+            {
+              "text": "14 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "50 kilometres, Men",
+              "link": "https://www.olympedia.org/results/1987"
+            },
+            {
+              "text": "23 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 10 kilometres Relay, Men",
+              "link": "https://www.olympedia.org/results/1988"
+            },
+            {
+              "text": "20 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "5 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1992"
+            },
+            {
+              "text": "15 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "10 kilometres, Women",
+              "link": "https://www.olympedia.org/results/1993"
+            },
+            {
+              "text": "18 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Cross Country Skiing",
+              "link": "https://www.olympedia.org/sports/CCS"
+            },
+            {
+              "text": "4 × 5 kilometres Relay, Women",
+              "link": "https://www.olympedia.org/results/1994"
+            },
+            {
+              "text": "21 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/93"
+            },
+            {
+              "text": "13 – 16 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Doubles, Open",
+              "link": "https://www.olympedia.org/results/100"
+            },
+            {
+              "text": "19 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Luge",
+              "link": "https://www.olympedia.org/sports/LUG"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/103"
+            },
+            {
+              "text": "13 – 16 February 1980"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Nordic Combined",
+              "link": "https://www.olympedia.org/sports/NCB"
+            },
+            {
+              "text": "Individual, Men",
+              "link": "https://www.olympedia.org/results/2259"
+            },
+            {
+              "text": "18 – 19 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_74.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.985152,
+          44.284174
+        ]
+      },
+      "properties": {
+        "associated_names": [
+          "Olympic Arena",
+          "Olympic Center (?-2005), Herb Brooks Arena (2005-Present)"
+        ],
+        "place": "Lake Placid",
+        "coordinates": "44.284174,-73.985152",
+        "coordinates_trust": "Definitely here",
+        "games": [
+          {
+            "year": "1932",
+            "season": "Winter"
+          },
+          {
+            "year": "1980",
+            "season": "Winter"
+          }
+        ],
+        "sports": [
+          "Curling",
+          "Figure Skating",
+          "Ice Hockey"
+        ],
+        "opened": "1932",
+        "seating_capacity": "3360",
+        "type": "indoor venue",
+        "dimensions": "25 m x 60 m",
+        "events": [
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Curling",
+              "link": "https://www.olympedia.org/sports/CUR"
+            },
+            {
+              "text": "Curling, Men",
+              "link": "https://www.olympedia.org/results/905002"
+            },
+            {
+              "text": "4 –  5 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Men",
+              "link": "https://www.olympedia.org/results/12712"
+            },
+            {
+              "text": "8 –  9 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Singles, Women",
+              "link": "https://www.olympedia.org/results/12736"
+            },
+            {
+              "text": "9 – 10 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Figure Skating",
+              "link": "https://www.olympedia.org/sports/FSK"
+            },
+            {
+              "text": "Pairs, Mixed",
+              "link": "https://www.olympedia.org/results/12760"
+            },
+            {
+              "text": "12 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20062"
+            },
+            {
+              "text": "4 – 13 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey Exhibition, Men",
+              "link": "https://www.olympedia.org/results/905499"
+            },
+            {
+              "text": "5 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey Exhibition, Men",
+              "link": "https://www.olympedia.org/results/905500"
+            },
+            {
+              "text": "6 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey Exhibition, Men",
+              "link": "https://www.olympedia.org/results/905501"
+            },
+            {
+              "text": "6 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1932 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/31"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey Exhibition, Men",
+              "link": "https://www.olympedia.org/results/905502"
+            },
+            {
+              "text": "11 February 1932"
+            }
+          ],
+          [
+            {
+              "text": "1980 Winter Olympics",
+              "link": "https://www.olympedia.org/editions/41"
+            },
+            {
+              "text": "Ice Hockey",
+              "link": "https://www.olympedia.org/sports/IHO"
+            },
+            {
+              "text": "Ice Hockey, Men",
+              "link": "https://www.olympedia.org/results/20476"
+            },
+            {
+              "text": "12 – 24 February 1980"
+            }
+          ]
+        ],
+        "source_file": "venue_77.json",
+        "Olympics": "1932 Lake Placid"
+      }
+    }
+  ]
+}

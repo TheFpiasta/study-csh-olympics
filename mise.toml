@@ -2,4 +2,6 @@
 node = "24"
 
 [settings]
+# set the release age from 14d to 0s. so we don't miss security updates
+# and railpack doesn't install older versions without the security fix... -_-
 minimum_release_age = "0s"
